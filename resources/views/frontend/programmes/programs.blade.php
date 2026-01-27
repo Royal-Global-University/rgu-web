@@ -5,2375 +5,2323 @@
     Global University, including academic qualifications, entrance exams, and interview processes for admission.')
 @section('meta_keywords', 'Eligibility & selection criteria')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section>
+            <img style="width: 100%;"
+                src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/mob-admission-fee.png" alt="">
+        </section>
+    </div>
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
-                alt="">
-        </div>
+    <div class="website">
+        @include('frontend/components/aheader')
+        <section>
+            <img style="width: 100%;"
+                src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-fee.png" alt="">
+        </section>
+    </div>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <img src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
-                alt="">
+    <div class="body-part">
 
-        </div>
+        <style>
+            /* ================================
+           UNIQUE NAMESPACE STYLES
+           Prefix: rgu-program-
+        ================================= */
 
+            .body-part {
+                background: #f7f5f0;
+                font-family: "Times New Roman", serif;
+            }
 
-        <div class="section-f">
-            <div class="container">
+            .rgu-program-search {
+                margin: 30px 0;
+            }
 
-                <style>
-                    /* Custom styles to replace inline styles */
-                    . {
-                        font-size: 18px;
-                        background-color: #00465d !important;
-                        /* !important is used to override Bootstrap's default button styles */
-                        color: #fff !important;
-                    }
+            .rgu-program-accordion-btn {
+                background: #0f2544;
+                color: #fff;
+                font-weight: 600;
+            }
 
-                    ..collapsed {
-                        background-color: #00465d !important;
-                        color: #fff !important;
-                    }
+            .rgu-program-accordion-btn:not(.collapsed) {
+                background: #0f2544;
+                color: #fff;
+                box-shadow: none;
+            }
 
-                    /* This makes the accordion dropdown icon white so it's visible */
-                    .::after {
-                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
-                    }
+            .rgu-program-accordion-item {
+                border: none;
+                margin-bottom: 12px;
+            }
 
-                    .accordion-body-custom {
-                        background-color: #fff;
-                    }
+            /* ================================
+           CARD DESIGN (POP EFFECT)
+        ================================= */
 
-                    .course-card-custom {
-                        background-color: #006A67;
-                    }
-                </style>
+            .rgu-program-card {
+                background: linear-gradient(135deg, #ffffff, #bdd1ff);
+                border-radius: 12px;
+                padding: 20px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border: 1px solid #d9e3ff;
+                position: relative;
+                overflow: hidden;
+                transition: all 0.35s ease;
+            }
 
-                <section class="pt-2">
-                    <div class="container">
-                        <div class="row pt-3">
-                            <div class="col-lg-6 pt-4 mobile-headd3">
-                                <h4 class="mobile-headd3 fw-bold text-dark">Search By Schools :</h4>
-                                <form class="d-flex w-100">
-                                    <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
-                                        <option value="nothing">Select School to Navigate...</option>
-                                        <option value="#collapseOne">Integrated Civil Service Programme</option>
-                                        <option value="#collapseTwo">Royal School of Applied & Pure Sciences (RSAPS)
-                                        </option>
-                                        <option value="#collapseThree">Royal School of Architecture (RSA)</option>
-                                        <option value="#collapseFour">Royal School of Behavioral & Allied Sciences (RSBAS)
-                                        </option>
-                                        <option value="#collapseSix">Royal School of Business (RSB)</option>
-                                        <option value="#collapseSeven">Royal School of Commerce (RSC)</option>
-                                        <option value="#collapseEight">Royal School of Communications & Media (RSCOM)
-                                        </option>
-                                        <option value="#collapseNine">Royal School of Design (RSD)</option>
-                                        <option value="#collapseTen">Royal School of Engineering & Technology (RSET)
-                                        </option>
-                                        <option value="#collapseEleven">Royal School of Environmental & Earth Sciences
-                                            (RSEES)</option>
-                                        <option value="#collapseTwelve">Royal School of Fashion Design & Technology (RSFT)
-                                        </option>
-                                        <option value="#collapseThirteen">Royal School of Fine Arts (RSFA)</option>
-                                        <option value="#collapseFourteen">Royal School of Agriculture (RSAG)</option>
-                                        <option value="#collapseFifteen">Royal School of Hotel Management (RSHM)</option>
-                                        <option value="#collapseSixteen">Royal School of Humanities & Social Sciences
-                                            (RSHSS)</option>
-                                        <option value="#collapseSeventeen">Royal School of Information Technology (RSIT)
-                                        </option>
-                                        <option value="#collapseEighteen">Royal School of Languages (RSL)</option>
-                                        <option value="#collapseNineteen">Royal School of Library & Information Sciences
-                                            (RSLIS)</option>
-                                        <option value="#collapseTwenty">Royal School of Law & Administration(RSLA)</option>
-                                        <option value="#collapseTwentyOne">Royal School of Life Sciences (RSLSC)</option>
-                                        <option value="#collapseTwentyTwo">Royal School of Medical & Allied Sciences (RSMAS)
-                                        </option>
-                                        <option value="#collapseTwentyThree">Royal School of Nursing (RSN)</option>
-                                        <option value="#collapseTwentyFour">Royal School of Pharmacy (RSP)</option>
-                                        <option value="#collapseTwentyFive">Royal School of Travel Tourism Management
-                                            (RSTTM)</option>
-                                    </select>
-                                </form>
+            .rgu-program-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 6px;
+                height: 100%;
+                background: #24477f;
+            }
+
+            .rgu-program-card:hover {
+                transform: translateY(-6px) scale(1.01);
+                box-shadow: 0 15px 35px rgba(36, 71, 127, 0.25);
+            }
+
+            .rgu-program-card-title {
+                font-size: 18px;
+                font-weight: 700;
+                color: #0f2544;
+                line-height: 1.35;
+            }
+
+            .rgu-program-card-duration {
+                font-size: 16px;
+                font-weight: 600;
+                color: #24477f;
+            }
+
+            .rgu-program-link {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+            }
+
+            .rgu-program-link:hover {
+                color: inherit;
+            }
+        </style>
+
+        <div class="container">
+
+            <!-- Search Section -->
+            <div class="row rgu-program-search">
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Search By Schools :</label>
+                    <select class="form-select rgu-program-school-select">
+                        <option>Select School to Navigate...</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Search By Courses :</label>
+                    <input type="text" class="form-control rgu-program-course-search"
+                        placeholder="Type to search courses...">
+                </div>
+            </div>
+
+            <!-- Accordion -->
+            <div class="accordion" id="rguProgramAccordion">
+
+                <!-- Integrated Civil Service Programme -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Integrated Civil Service Programme">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accIcs">
+                            Integrated Civil Service Programme
+                        </button>
+                    </h2>
+                    <div id="accIcs" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Sociology Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Economics Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Public Administration Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Political Science Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. History Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Physics Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Mathematics Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Chemistry Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Geography Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Geography Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Geology Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. Psychology Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Botany Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Zoology Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. English Integrated with Civil Service Programme
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
                             </div>
-                            <div class="col-lg-6 pt-4 mobile-headd3">
-                                <h4 class="mobile-headd3 fw-bold text-dark">Search By Courses :</h4>
-                                <form class="d-flex w-100">
-                                    <input class="form-control shadow" type="search" id="courseSearchInput"
-                                        placeholder="Type to search courses..." aria-label="Search">
-                                </form>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSAPS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Applied & Pure Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsaps">
+                            Royal School of Applied & Pure Sciences (RSAPS)
+                        </button>
+                    </h2>
+                    <div id="accRsaps" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Physics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. – Physics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Chemistry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. – Chemistry</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Mathematics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. – Mathematics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-physics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. – Physics</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-chemistry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. – Chemistry</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-mathematics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. – Mathematics</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSA -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Architecture">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsa">
+                            Royal School of Architecture (RSA)
+                        </button>
+                    </h2>
+                    <div id="accRsa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-barch" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Arch</div>
+                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="accordion container pt-5 pb-5" id="accordionExample">
+                <!-- RSBAS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Behavioral & Allied Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsbas">
+                            Royal School of Behavioral & Allied Sciences (RSBAS)
+                        </button>
+                    </h2>
+                    <div id="accRsbas" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Psychology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. Psychology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="para1 accordion-button collapsed text-white " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    Integrated Civil Service Programme
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold">RGU Programme - Integrated with Civil
-                                        Service Programme</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Clinical-Psychology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. Clinical Psychology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration
-                                                    </p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                        Service Programme</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    </a>
+                                </div>
 
-                                    </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Psychology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. Psychology</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Applied-Psychology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. Applied Psychology</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed text-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
-                                    aria-controls="collapseTwo">
-                                    Royal School of Applied & Pure Sciences (RSAPS)
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Physics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Physics</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Chemistry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Chemistry</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Mathematics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Mathematics</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-physics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Physics</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 mt-2 course-col">
-                                            <a href="programs-b-sc-chemistry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Chemistry</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-2 course-col">
-                                            <a href="programs-b-sc-mathematics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Mathematics</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed text-white "
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
-                                    aria-controls="collapseThree">
-                                    Royal School of Architecture (RSA)
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">ARCHITECTURE</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-barch"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Arch.</p>
-                                                    <p class="text-center text-white para1">5 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class=" accordion-button collapsed text-white "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="true" aria-controls="collapseFour">
-                                    Royal School of Behavioral & Allied Sciences (RSBAS)
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">BEHAVIOURAL & ALLIED SCIENCES</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MA-Psychology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Psychology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MA-Clinical-Psychology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Clinical Psychology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-Psychology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA Psychology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-Applied-Psychology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA Applied Psychology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed text-white"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                    aria-expanded="true" aria-controls="collapseFive">
-                                    Royal School of Bio-sciences (RSBSC)
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">BIO-SCIENCES</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Bio-Technology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Biotechnology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Msc-Microbiology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Microbiology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Bio-Science</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-bio-technology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Biotechnology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-b-sc-microbiology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Microbiology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Bio-Science</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed text-white  "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                    aria-expanded="true" aria-controls="collapseSix">
-                                    Royal School of Business (RSB)
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">BUSINESS</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA Finance</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA Marketing</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - HRM</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Operations Management
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Entrepreneurship &
-                                                        Small Business Management</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-MBA-Finance"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Business Analytics
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BBA"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BBA</p>
-                                                    <p class="text-center text-white para1">3/4 Yr as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Executive MBA</p>
-                                                    <p class="text-center text-white para1">2 Yr as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button collapsed text-white"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                    aria-expanded="true" aria-controls="collapseSeven">
-                                    Royal School of Commerce (RSC)
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">COMMERCE</p>
-
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MCom"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Com</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-bcom-morning-shift"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Morning Shift</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-bcom"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Day Shift</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-bcom-finance-with-ica"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Finance with ICA
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-bcom-finance-with-ica"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com with ACCA</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-bcom-finance-with-ica"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com with CMA</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingEight">
-                                <button class="accordion-button collapsed text-white  "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight"
-                                    aria-expanded="true" aria-controls="collapseEight">
-                                    Royal School of Communications & Media (RSCOM)
-                                </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">COMMUNICATIONS & MEDIA</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MA-J&MC"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA J&MC</p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Animation-&-Visual-Effects"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Animation and Visual
-                                                        Effects</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-J&MC"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA J&MC</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-animation-visual-effects"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Animation and Visual
-                                                        Effects</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingNine">
-                                <button class="accordion-button collapsed text-white  "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine"
-                                    aria-expanded="true" aria-controls="collapseNine">
-                                    Royal School of Design (RSD)
-                                </button>
-                            </h2>
-                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">DESIGN</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design
-                                                        (BID)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design
-                                                        (BID) Lateral
-                                                        Entry</p>
-                                                    <p class="text-center text-white para1">3 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design
-                                                        (Communication Design)
-                                                        (B.Des. CD)
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Graphic
-                                                        Design)
-                                                        (B.Des. GD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Product
-                                                        Design)
-                                                        (B.Des. PD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
-                                                        Design)
-                                                        (B.Des. FD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
-                                                        Design)
-                                                        (B.Des. FD) Lateral Entry</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div style="padding: 10px 0px;">
-                                            <hr>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Fashion Design
-                                                        (FD)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Communication
-                                                        Design (CD)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Graphic Design
-                                                        (GD)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="#"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Product Design
-                                                        (PD)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTen">
-                                <button class="accordion-button collapsed text-white  "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
-                                    aria-expanded="true" aria-controls="collapseTen">
-                                    Royal School of Engineering & Technology (RSET)
-                                </button>
-                            </h2>
-                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">ENGINEERING & TECHNOLOGY</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MTech-CSE-in-Artifical-Intelligence"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - Artifical
-                                                        Intelligence</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MTech-CSE-in-Internet-of-Things"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - IOT</p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MTech-CE-in-Water-Resources"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Water
-                                                        Resources Development
-                                                        & Management</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MTech-CAD"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        M.Tech CE - CAD
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        M.Tech CE - CDC
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-MTech-CE-in-Structural-Engineering"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural
-                                                        Engineering</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div style="padding: 10px 0px;">
-                                            <hr>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-tech-cse"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-tech-ce"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CE)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-tech-me"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (ME)</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-tech-artifical-intelligence-ai"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Artifical
-                                                        Intelligence (AI)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-tech-lateral-entry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        B.Tech - (Lateral Entry) - CE/CSE/ME/AI/Data Science
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BTechWorking-Professional-CE-CSE"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        B.Tech for Working Professional (CE, CSE, ME)
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        B.Tech - Data Science
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingEleven">
-                                <button class="accordion-button collapsed text-white"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven"
-                                    aria-expanded="true" aria-controls="collapseEleven">
-                                    Royal School of Environmental & Earth Sciences (RSEES)
-                                </button>
-                            </h2>
-                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">ENVIRONMENTAL & EARTH SCIENCES</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 pb-3 course-col">
-                                            <a href="programs-MSc-geography"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geography</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pb-3 course-col">
-                                            <a href="programs-MA-Geography"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Geography</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pb-3 course-col">
-                                            <a href="programs-MSc-in-Geoinformatics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. in Geoinformatics
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pb-3 course-col">
-                                            <a href="programs-MSc-Geology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BSc-Geography"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA Geography</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-geology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwelve">
-                                <button class="accordion-button collapsed text-white  "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
-                                    aria-expanded="true" aria-controls="collapseTwelve">
-                                    Royal School of Fashion Design & Technology (RSFT)
-                                </button>
-                            </h2>
-                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">FASHION DESIGN & TECHNOLOGY</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-des-fd-fashion-design"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
-                                                        Design) (B.Des. FD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Design (Fashion
-                                                        Design) (M.Des. FD)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingThirteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
-                                    aria-expanded="true" aria-controls="collapseThirteen">
-                                    Royal School of Fine Arts (RSFA)
-                                </button>
-                            </h2>
-                            <div id="collapseThirteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">FINE ARTS</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Master-of-Fine-Arts-MFA"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Fine Arts (MFA)
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Bachelor-of-Fine-Arts-BFA"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Fine Arts (BFA)
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingFourteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen"
-                                    aria-expanded="true" aria-controls="collapseFourteen">
-                                    Royal School of Agriculture (RSAG)
-                                </button>
-                            </h2>
-                            <div id="collapseFourteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">AGRICULTURE</p>
-
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Agriculture</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Agriculture</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingFifteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
-                                    aria-expanded="true" aria-controls="collapseFifteen">
-                                    Royal School of Hotel Management (RSHM)
-                                </button>
-                            </h2>
-                            <div id="collapseFifteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">HOTEL MANAGEMENT</p>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-HotelManagement"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA - Hotel Management
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-in-Culinary-Arts"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Culinary Arts</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Hotel-Management"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Hotel Management/MHM
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Bachelor-of-Hotel-Management-BHM"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel
-                                                        Management
-                                                        (BHM)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingSixteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen"
-                                    aria-expanded="true" aria-controls="collapseSixteen">
-                                    Royal School of Humanities & Social Sciences (RSHSS)
-                                </button>
-                            </h2>
-                            <div id="collapseSixteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
-                                    <div class="row">
-
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Indian Knowledge
-                                                        System (IKS)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-MA-Economics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Economics</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-MA-Sociology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Sociology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-MSW"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MSW
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 mt-3 course-col">
-                                            <a href="programs-MA-Public-Administration"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Public Administration
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-MA-Political-Science"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Pol. Science</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-MA-History"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - History</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BA-Economics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Economics</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BA-Sociology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Sociology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BSW"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BSW</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BA-Public-Administration"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Public Administration
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BA-Political-Science"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Pol. Science
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BA-History"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - History
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingSeventeen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen"
-                                    aria-expanded="true" aria-controls="collapseSeventeen">
-                                    Royal School of Information Technology (RSIT)
-                                </button>
-                            </h2>
-                            <div id="collapseSeventeen" class="accordion-collapse collapse"
-                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">INFORMATION TECHNOLOGY</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MCA"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MCA</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-IT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. (IT)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BCA"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BCA
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BSc-IT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. IT</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingEighteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen"
-                                    aria-expanded="true" aria-controls="collapseEighteen">
-                                    Royal School of Languages (RSL)
-                                </button>
-                            </h2>
-                            <div id="collapseEighteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">LANGUAGES</p>
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MA-English"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - English</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-BA-English"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - English</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingNineteen">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen"
-                                    aria-expanded="true" aria-controls="collapseNineteen">
-                                    Royal School of Library & Information Sciences (RSLIS)
-                                </button>
-                            </h2>
-                            <div id="collapseNineteen" class="accordion-collapse collapse"
-                                aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">LIBRARY & INFORMATION SCIENCES</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Master-of-Library&Information-Sciences"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        Master of Library & Information Sciences (MLISc)
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwenty">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty"
-                                    aria-expanded="true" aria-controls="collapseTwenty">
-                                    Royal School of Law & Administration (RSLA)
-                                </button>
-                            </h2>
-                            <div id="collapseTwenty" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">LAW & ADMINISTRATION</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-LLM-Morning-Shift"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">LLM Morning Shift</p>
-                                                    <p class="text-center text-white para1">1 Year</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-LLM-Day-Shift"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">LLM Day Shift</p>
-                                                    <p class="text-center text-white para1">1 Year</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="program-ba-bba-llb-hons"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">BA/BBA - LLB (Hons.)
-                                                    </p>
-                                                    <p class="text-center text-white para1">5 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="program-ba-llb-hons"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">LLB - (Hons.)</p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwentyOne">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne"
-                                    aria-expanded="true" aria-controls="collapseTwentyOne">
-                                    Royal School of Life Sciences (RSLSC)
-                                </button>
-                            </h2>
-                            <div id="collapseTwentyOne" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">LIFE SCIENCES</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Botany"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Botany</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Zoology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Zoology</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Forestry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Forestry
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-ForensicScience"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Forensic Science</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-botany"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-zoology"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-forensicScience"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Forensic Science</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="https://www.rgu.ac/programs-b-sc-forestry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Forestry</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwentyTwo">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyTwo"
-                                    aria-expanded="true" aria-controls="collapseTwentyTwo">
-                                    Royal School of Medical & Allied Sciences (RSMAS)
-                                </button>
-                            </h2>
-                            <div id="collapseTwentyTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">MEDICAL & ALLIED SCIENCES</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MasterofPhysiotherapyMPT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Physiotherapy
-                                                        (MPT)</p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Medical-Laboratory-MMLT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory
-                                                        Technology
-                                                        (MMLT)</p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-MSc-Nutrition"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Nutrition and
-                                                        Dietetics
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-M-Optometry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Optometry</p>
-                                                    <p class="text-center text-white para1">2 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-Bachelor-of-Physiotherapy-BPT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy
-                                                        (BPT)</p>
-                                                    <p class="text-center text-white para1">4.6 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BachelorofPhysiotherapy"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy
-                                                        (BPT) Lateral
-                                                        Entry</p>
-                                                    <p class="text-center text-white para1">3.6 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-bsc-Medical-technology-bmlt"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
-                                                        Technology
-                                                        (BMLT)</p>
-                                                    <p class="text-center text-white para1">3+1 Year Internship</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-medicaltechnologybmlt-lateral-entry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
-                                                        Technology
-                                                        (BMLT) Lateral Entry
-                                                    </p>
-                                                    <p class="text-center text-white para1">2+1 Year Internship</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-dialysis"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Dialysis</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-Technology-OTT"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Operation Theatre
-                                                        Technology (OTT)
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-radiography"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Radiography and
-                                                        Advance Imaging
-                                                        Technology
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-sc-nutrition&dietetics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Nutrition and
-                                                        Dietetics</p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-bsc-in-emergency"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. in Emergency &
-                                                        Critical Care
-                                                    </p>
-                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-optometry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B. Optometry</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-b-optometry-lateral-entry"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B. Optometry - Lateral
-                                                        Entry
-                                                    </p>
-                                                    <p class="text-center text-white para1">3 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - MEDICAL
-                                                        RADIOLOGY AND IMAGING TECHNOLOGY
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - ANAESTHESIA AND
-                                                        OPERATION THEATRE TECHNOLOGY
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - MEDICAL
-                                                        LABORATORY SCIENCE- BMLS
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Dialysis
-                                                        Therapy Technology
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Emergency Care
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Food Science &
-                                                        Technology
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - MEDICAL RADIOLOGY
-                                                        AND IMAGING TECHNOLOGY
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - ANAESTHESIA &
-                                                        OPERATION THEATRE TECHNOLOGY
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Dialysis Therapy
-                                                        Technology
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Emergency Care
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Food Science &
-                                                        Technology
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Medical
-                                                        Laboratory Science- MMLS
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwentyThree">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyThree"
-                                    aria-expanded="true" aria-controls="collapseTwentyThree">
-                                    Royal School of Nursing (RSN)
-                                </button>
-                            </h2>
-                            <div id="collapseTwentyThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwentyThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">NURSING</p>
-                                    <div class="row">
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-BSc-Nursing"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Nursing</p>
-                                                    <p class="text-center text-white para1">4 Years</p><br>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-General-Nursing-Midwifery"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">General Nursing &
-                                                        Midwifery
-                                                    </p>
-                                                    <p class="text-center text-white para1">3.5 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwentyFour">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFour"
-                                    aria-expanded="true" aria-controls="collapseTwentyFour">
-                                    Royal School of Pharmacy (RSP)
-                                </button>
-                            </h2>
-                            <div id="collapseTwentyFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwentyFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">PHARMACY</p>
-                                    <div class="row">
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-pharm"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Pharm.</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-D-Pharm"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">D.Pharm.
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-M-Pharm-Pharmaceutical"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. - Pharmaceutical
-                                                        Chemistry
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-M-Pharm-Pharmaceutics"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        M.Pharm - Pharmaceutics
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 pt-3 course-col">
-                                            <a href="programs-M-Pharm-Pharmacognosy"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        M.Pharm -Pharmacognosy
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item mb-2">
-                            <h2 class="accordion-header" id="headingTwentyFive">
-                                <button class="accordion-button collapsed text-white para1 "
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFive"
-                                    aria-expanded="true" aria-controls="collapseTwentyFive">
-                                    Royal School of Travel Tourism Management (RSTTM)
-                                </button>
-                            </h2>
-                            <div id="collapseTwentyFive" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwentyFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body accordion-body-custom">
-                                    <p class="m-0 pb-4 text-dark fw-bold para1">TRAVEL & TOURISM MANAGEMENT</p>
-                                    <div class="row">
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-b-sc-ba-travel"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        B.Sc./BA Travel & Tourism Management
-                                                    </p>
-                                                    <p class="text-center text-white para1">4 Years as per NEP</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 course-col">
-                                            <a href="programs-Master-Travel&Tourism"
-                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
-                                                    <p class="m-0 p-0 text-white fw-bold para1">
-                                                        Master of Travel & Tourism Management - MTTM
-                                                    </p>
-                                                    <p class="text-center text-white para1">2 Years</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
                     </div>
-                </section>
+                </div>
 
-                <script>
-                    // Wait for the full page to load before running the script
-                    document.addEventListener('DOMContentLoaded', function() {
+                <!-- RSBSC -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Bio-Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsbsc">
+                            Royal School of Bio-Sciences (RSBSC)
+                        </button>
+                    </h2>
+                    <div id="accRsbsc" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
 
-                        // --- 1. DROPDOWN NAVIGATION FUNCTIONALITY ---
-                        const schoolSelect = document.getElementById('schoolSelect');
-                        if (schoolSelect) {
-                            schoolSelect.addEventListener('change', function(e) {
-                                const targetId = e.target.value;
-                                // Check if it's a valid selection and not the placeholder
-                                if (targetId && targetId !== 'nothing') {
-                                    const targetPanel = document.querySelector(targetId);
-                                    const targetButton = document.querySelector(`[data-bs-target="${targetId}"]`);
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Bio-Technology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Biotechnology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                                    if (targetPanel && targetButton) {
-                                        // Use Bootstrap's JavaScript API to open the panel
-                                        const bsCollapse = new bootstrap.Collapse(targetPanel, {
-                                            toggle: false // Ensure it just shows, doesn't toggle
-                                        });
-                                        bsCollapse.show();
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Msc-Microbiology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Microbiology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                                        // Scroll the page smoothly to the opened section
-                                        targetButton.scrollIntoView({
-                                            behavior: 'smooth',
-                                            block: 'start'
-                                        });
-                                    }
-                                }
-                            });
-                        }
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Bio-Science</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                        // --- 2. LIVE SEARCH FUNCTIONALITY ---
-                        const searchInput = document.getElementById('courseSearchInput');
-                        if (searchInput) {
-                            searchInput.addEventListener('input', function(e) {
-                                // Get the search term, convert to lowercase, and remove extra spaces
-                                const searchTerm = e.target.value.toLowerCase().trim();
-                                const accordions = document.querySelectorAll('.accordion-item');
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-bio-technology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Biotechnology</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                                // Loop over every accordion item (i.e., every school)
-                                accordions.forEach(item => {
-                                    let accordionHasMatch = false;
-                                    // Find all course columns *within this accordion item*
-                                    const courseCols = item.querySelectorAll('.course-col');
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-microbiology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Microbiology</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                                    // Loop over all courses in this school
-                                    courseCols.forEach(col => {
-                                        const cardText = col.textContent.toLowerCase();
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Bio-Science</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-                                        // If course text includes the search term, show it
-                                        if (cardText.includes(searchTerm)) {
-                                            col.style.display = ''; // Show column
-                                            accordionHasMatch =
-                                                true; // Mark this school as having a match
-                                        } else {
-                                            // Otherwise, hide the course
-                                            col.style.display = 'none'; // Hide column
-                                        }
-                                    });
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                    // After checking all courses, decide if we show the *entire school*
-                                    if (accordionHasMatch || searchTerm === '') {
-                                        item.style.display = ''; // Show school
-                                    } else {
-                                        item.style.display = 'none'; // Hide school
-                                    }
-                                });
-                            });
-                        }
-                    });
-                </script>
+                <!-- RSB -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Business">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsb">
+                            Royal School of Business (RSB)
+                        </button>
+                    </h2>
+                    <div id="accRsb" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="mba-finance.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA Finance</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA Marketing</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – HRM</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – Operations Management</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                MBA – Entrepreneurship & Small Business Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – Business Analytics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BBA" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BBA</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yr as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/program-executive-mba" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Executive MBA</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Yr as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSC -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Commerce">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsc">
+                            Royal School of Commerce (RSC)
+                        </button>
+                    </h2>
+                    <div id="accRsc" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MCom" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Com</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bcom-morning-shift" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com – Morning Shift</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bcom" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com – Day Shift</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bcom-finance-with-ica" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com – Finance with ICA</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bcom-finance-with-ica" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com with ACCA</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bcom-finance-with-ica" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com with CMA</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSCOM -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Communication & Media">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRscom">
+                            Royal School of Communication & Media (RSCOM)
+                        </button>
+                    </h2>
+                    <div id="accRscom" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-J&MC" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. J&amp;MC</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Animation-&-Visual-Effects"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. Animation and Visual Effects
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-J&MC" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. J&amp;MC</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-animation-visual-effects"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Animation and Visual Effects
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSD -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Design">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsd">
+                            Royal School of Design (RSD)
+                        </button>
+                    </h2>
+                    <div id="accRsd" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Interior Design (BID)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Interior Design (BID) Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Communication Design) (B.Des. CD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Graphic Design) (B.Des. GD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Product Design) (B.Des. PD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Fashion Design) (B.Des. FD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Fashion Design) (B.Des. FD) Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Des. – Fashion Design (FD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Des. – Communication Design (CD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Des. – Graphic Design (GD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Des. – Product Design (PD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSET -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Engineering & Technology">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRset">
+                            Royal School of Engineering & Technology (RSET)
+                        </button>
+                    </h2>
+                    <div id="accRset" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MTech-CSE-in-Artifical-Intelligence"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Tech. CSE – Artificial Intelligence
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MTech-CSE-in-Internet-of-Things"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Tech. CSE – IOT</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MTech-CE-in-Water-Resources"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Tech. CE in Water Resources Development &amp; Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MTech-CAD" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Tech CE – CAD</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Tech CE – CDC</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MTech-CE-in-Structural-Engineering"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Tech. CE in Structural Engineering
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-cse" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Tech. (CSE)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-ce" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Tech. (CE)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-me" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Tech. (ME)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Tech. – Artificial Intelligence (AI)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-lateral-entry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Tech – (Lateral Entry) – CE/CSE/ME/AI/Data Science
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Tech for Working Professional (CE, CSE, ME)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Tech – Data Science</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSEES -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Environmental & Earth Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsees">
+                            Royal School of Environmental & Earth Sciences (RSEES)
+                        </button>
+                    </h2>
+                    <div id="accRsees" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="msc-geography.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Geography</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="ma-geography.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. Geography</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="msc-geoinformatics.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. in Geoinformatics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="msc-geology.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Geology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="bsc-ba-geography-nep.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc./B.A. Geography</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="bsc-geology-nep.html" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Geology</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSFT -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Fashion Design & Technology">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsft">
+                            Royal School of Fashion Design & Technology (RSFT)
+                        </button>
+                    </h2>
+                    <div id="accRsft" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-des-fd-fashion-design"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Design (Fashion Design) (B.Des. FD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-mdes-fashion-design" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master of Design (Fashion Design) (M.Des. FD)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSFA -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Fine Arts">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsfa">
+                            Royal School of Fine Arts (RSFA)
+                        </button>
+                    </h2>
+                    <div id="accRsfa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Master-of-Fine-Arts-MFA"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master of Fine Arts (MFA)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Fine-Arts-BFA"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Fine Arts (BFA)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSAG -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Agriculture">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsag">
+                            Royal School of Agriculture (RSAG)
+                        </button>
+                    </h2>
+                    <div id="accRsag" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-bsc-agri" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Agriculture</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-msc-agri" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Agriculture</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSHM -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Hotel Management">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRshm">
+                            Royal School of Hotel Management (RSHM)
+                        </button>
+                    </h2>
+                    <div id="accRshm" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-HotelManagement" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc./B.A. – Hotel Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-in-Culinary-Arts" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. – Culinary Arts</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Hotel-Management" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. Hotel Management / MIHM
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Hotel-Management-BHM"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Hotel Management (BHM)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSHSS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Humanities & Social Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRshss">
+                            Royal School of Humanities & Social Sciences (RSHSS)
+                        </button>
+                    </h2>
+                    <div id="accRshss" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-ma-iks" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.A. – Indian Knowledge System (IKS)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Economics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. – Economics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Sociology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. – Sociology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSW" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MSW</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Public-Administration"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.A. – Public Administration
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-Political-Science" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.A. – Political Science
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-History" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. – History</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Economics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. – Economics</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Sociology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. – Sociology</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BSW" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BSW</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Public-Administration"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. – Public Administration
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-Political-Science" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.A. – Political Science
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-History" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A. – History</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSIT -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Information & Technology">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsit">
+                            Royal School of Information & Technology (RSIT)
+                        </button>
+                    </h2>
+                    <div id="accRsit" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MCA" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MCA</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-IT" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. (IT)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BCA" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BCA</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BSc-IT" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. IT</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSL -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Language">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsl">
+                            Royal School of Language (RSL)
+                        </button>
+                    </h2>
+                    <div id="accRsl" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MA-English" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MA - English</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BA-English" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BA - English</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSLIS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Library & Information Science">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRslis">
+                            Royal School of Library & Information Science (RSLIS)
+                        </button>
+                    </h2>
+                    <div id="accRslis" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Master-of-Library&Information-Sciences"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Master of Library & Information Science
+                                                (MLISC)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSLA -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Law & Administration">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsla">
+                            Royal School of Law & Administration (RSLA)
+                        </button>
+                    </h2>
+                    <div id="accRsla" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-LLM-Morning-Shift" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">LLM Morning Shift</div>
+                                            <div class="rgu-program-card-duration">Duration: 1 Year</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-LLM-Day-Shift" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">LLM Day Shift</div>
+                                            <div class="rgu-program-card-duration">Duration: 1 Year</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- INTEGRATED / UG PROGRAMMES -->
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/program-ba-bba-llb-hons" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BA/BBA – LLB (Hons.)</div>
+                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/program-ba-llb-hons" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">LLB – (Hons.)</div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSLSC -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Life Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsls">
+                            Royal School of Life Sciences (RSLSC)
+                        </button>
+                    </h2>
+                    <div id="accRsls" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Botany" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Botany</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Zoology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Zoology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. – Forestry</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-ForensicScience" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. Forensic Science
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-botany" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Botany</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-zoology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Zoology</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-forensicScience" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. Forensic Science
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. – Forestry</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSMAS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Medical & Allied Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsmas">
+                            Royal School of Medical & Allied Sciences (RSMAS)
+                        </button>
+                    </h2>
+
+                    <div id="accRsmas" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MasterofPhysiotherapyMPT"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Master of Physiotherapy (MPT)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Medical-Laboratory-MMLT"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. – Medical Laboratory Technology (MMLT)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-MSc-Nutrition" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. – Nutrition and Dietetics
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-M-Optometry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M. Optometry</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Physiotherapy-BPT"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Physiotherapy (BPT)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4.6 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BachelorofPhysiotherapy"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Physiotherapy (BPT) Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3.6 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bsc-Medical-technology-bmlt"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. – Medical Laboratory Technology (BMLT)
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3 + 1 Year Internship
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-medicaltechnologybmlt-lateral-entry"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. – Medical Laboratory Technology (BMLT) Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 2 + 1 Year Internship
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-dialysis" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. – Dialysis</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Technology-OTT" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. – Operation Theatre Technology (OTT)
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-radiography" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. – Radiography and Advance Imaging Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-nutrition&dietetics"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. – Nutrition and Dietetics
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-bsc-in-emergency" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc. in Emergency & Critical Care
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-optometry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B. Optometry</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-optometry-lateral-entry"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B. Optometry – Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-b-radio-imaging" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Medical Radiology and Imaging Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-b-anaesthesia-ott" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Anaesthesia and Operation Theatre Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-b-medical-lab-sc" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Medical Laboratory Science (BMLS)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-b-dialysis-therapy" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Dialysis Therapy Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Emergency Care
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-bsc-food-science" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor – Food Science and Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-m-radio-imaging" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Medical Radiology and Imaging Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-m-anaesthesia-ott" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Anaesthesia & Operation Theatre Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-m-dialysis-therapy" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Dialysis Therapy Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-m-emergency-care" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Emergency Care
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-msc-food-science" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Food Science & Technology
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programme-m-medical-lab-sc" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master – Medical Laboratory Science (MMLS)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSN -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Nursing">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsn">
+                            Royal School of Nursing (RSN)
+                        </button>
+                    </h2>
+                    <div id="accRsn" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-BSc-Nursing" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Nursing</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-General-Nursing-Midwifery"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                General Nursing &amp; Midwifery
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3.5 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSP -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Pharmacy">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsp">
+                            Royal School of Pharmacy (RSP)
+                        </button>
+                    </h2>
+                    <div id="accRsp" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-pharm" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Pharm.</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-D-Pharm" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">D.Pharm.</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmaceutical"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Pharm. – Pharmaceutical Chemistry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmaceutics"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Pharm. – Pharmaceutics
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmacognosy"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Pharm. – Pharmacognosy
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSTTM -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Travel & Tourism Management">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsttm">
+                            Royal School of Travel & Tourism Management (RSTTM)
+                        </button>
+                    </h2>
+                    <div id="accRsttm" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-b-sc-ba-travel" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc./B.A. Travel &amp; Tourism Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 4 Years as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="https://www.rgu.ac/programs-Master-Travel&Tourism"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Master of Travel &amp; Tourism Management – MTTM
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
 
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            const searchInput = document.querySelector(".rgu-program-course-search");
+            const schoolSelect = document.querySelector(".rgu-program-school-select");
+            const accordionItems = document.querySelectorAll(".rgu-program-accordion-item");
+
+            /* ===============================
+               BUILD SCHOOL DROPDOWN
+            =============================== */
+
+            const schools = [];
+
+            accordionItems.forEach(item => {
+                const schoolName = item.getAttribute("data-school");
+                if (schoolName && !schools.includes(schoolName)) {
+                    schools.push(schoolName);
+                }
+            });
+
+            schools.forEach(school => {
+                const option = document.createElement("option");
+                option.value = school;
+                option.textContent = school;
+                schoolSelect.appendChild(option);
+            });
+
+            /* ===============================
+               COURSE SEARCH FUNCTION
+            =============================== */
+
+            searchInput.addEventListener("input", function() {
+                const keyword = this.value.toLowerCase().trim();
+
+                accordionItems.forEach(item => {
+                    const cards = item.querySelectorAll(".rgu-program-card");
+                    let matchFound = false;
+
+                    cards.forEach(card => {
+                        const title = card.querySelector(".rgu-program-card-title")
+                            .innerText.toLowerCase();
+
+                        if (title.includes(keyword)) {
+                            card.closest(".col-lg-3").style.display = "";
+                            matchFound = true;
+                        } else {
+                            card.closest(".col-lg-3").style.display = "none";
+                        }
+                    });
+
+                    const collapse = item.querySelector(".accordion-collapse");
+
+                    if (keyword === "") {
+                        item.style.display = "";
+                        collapse.classList.remove("show");
+                    } else if (matchFound) {
+                        item.style.display = "";
+                        collapse.classList.add("show");
+                    } else {
+                        item.style.display = "none";
+                        collapse.classList.remove("show");
+                    }
+                });
+            });
+
+            /* ===============================
+               SCHOOL DROPDOWN FILTER
+            =============================== */
+
+            schoolSelect.addEventListener("change", function() {
+                const selectedSchool = this.value;
+
+                accordionItems.forEach(item => {
+                    const school = item.getAttribute("data-school");
+                    const collapse = item.querySelector(".accordion-collapse");
+
+                    if (!selectedSchool || selectedSchool === "Select School to Navigate...") {
+                        item.style.display = "";
+                        collapse.classList.remove("show");
+                        return;
+                    }
+
+                    if (school === selectedSchool) {
+                        item.style.display = "";
+                        collapse.classList.add("show");
+
+                        item.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start"
+                        });
+
+                    } else {
+                        item.style.display = "none";
+                        collapse.classList.remove("show");
+                    }
+                });
+
+                // clear course search
+                searchInput.value = "";
+            });
+
+        });
+    </script>
 @endsection
