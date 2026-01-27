@@ -14,7 +14,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - 2 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">

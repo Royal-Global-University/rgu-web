@@ -3,7 +3,7 @@
 <div class="mobile">
 @include('frontend/components/mobileheader')
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
-            <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">B.Tech. - Artifical Intelligence-AI
+            <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">B.Tech. - Artifical Intelligence & Data Science
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 04 Years <br> Royal School of Engineering &amp; Technology
@@ -207,7 +207,7 @@
 @include('frontend/components/aheader')
 <div class="pt-4" style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp);">
             <div class="text-center">
-                <h2 class="text-center headd2 text-dark">B.Tech. - Artifical Intelligence-AI</h3>
+                <h2 class="text-center headd2 text-dark">B.Tech. - Artifical Intelligence & Data Science</h3>
                     <h3 class="text-center headd3 text-dark">Duration - 04 Years<br>
                         <span class="text-center" style="font-size: 22px;">Royal School of Engineering &amp; Technology
                             (RSET)</span>

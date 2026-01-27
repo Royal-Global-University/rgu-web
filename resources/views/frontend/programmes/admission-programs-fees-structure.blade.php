@@ -2640,8 +2640,8 @@
                                                     </strong>
                                                     <br>
                                                     <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
-                                                            years as per NEP |
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -6809,7 +6809,7 @@
                                                     <br>
                                                     <a href=""
                                                         class="text-primary"><span style="font-size: 16px;"> Duration:
-                                                            3/4 years as per NEP |
+                                                            2 years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
