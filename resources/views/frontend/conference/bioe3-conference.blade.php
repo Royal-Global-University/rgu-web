@@ -251,7 +251,7 @@
 
                     <h2 class="headd3 text-dark fw-bold mt-3">Programme Details</h2>
 
-                    <div class="table-resposnive">
+                    {{-- <div class="table-resposnive">
                         <table style="width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 30px;">
                             <thead>
                                 <tr>
@@ -603,6 +603,352 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div> --}}
+                    <div class="schedule-section">
+                        <style>
+                            /* ===== bio3-new CSS PREFIX ===== */
+                            .bio3-new-container {
+                                margin: 10px auto;
+                                font-family: "Times New Roman", serif;
+                            }
+
+                            .bio3-new-row {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                gap: 15px;
+                                margin-bottom: 40px;
+                            }
+
+                            .bio3-new-box {
+                                border: 1px solid #1b3f73;
+                            }
+
+                            .bio3-new-title {
+                                text-align: center;
+                                font-weight: bold;
+                                padding: 8px;
+                                font-size: 22px;
+                                color: #333;
+                            }
+
+                            .bio3-new-dark {
+                                background: #0a2d63;
+                                color: #fff;
+                            }
+
+                            .bio3-new-light {
+                                background: #1f66b1;
+                                color: #fff;
+                            }
+
+                            table.bio3-new-table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                font-size: 15px;
+                            }
+
+                            .bio3-new-table th,
+                            .bio3-new-table td {
+                                border: 1px solid #1b3f73;
+                                padding: 6px 8px;
+                                vertical-align: top;
+                                color: #333;
+                                font-size: 22px;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .bio3-new-table th {
+                                background: #1f66b1;
+                                color: #fff;
+                                text-align: center;
+                            }
+
+                            .bio3-new-section {
+                                background: #0a2d63;
+                                color: #fff;
+                                text-align: center;
+                                font-weight: bold;
+                            }
+
+                            @media(max-width:768px) {
+                                .bio3-new-row {
+                                    grid-template-columns: 1fr;
+                                }
+                            }
+                        </style>
+
+                        <div class="bio3-new-container">
+
+                            <!-- ================= DAY 1 ================= -->
+                            <div class="bio3-new-row">
+
+                                <!-- DAY 1 REGISTRATION + INAUGURAL -->
+                                <div class="bio3-new-box">
+                                    <div class="bio3-new-title">DAY 1: Thursday, January 29, 2026</div>
+
+                                    <table class="bio3-new-table">
+                                        <tr>
+                                            <th>TIME</th>
+                                            <th>AGENDA</th>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">REGISTRATION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8:30-9:30 AM</td>
+                                            <td>Registration of Participants</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">INAUGURAL SESSION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:30-09.35 AM</td>
+                                            <td>Commencement of the Programme with the National Anthem</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:35-09:38 AM</td>
+                                            <td>Lighting of the Ceremonial Lamp</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:38-09:50 AM</td>
+                                            <td>Welcome Speech by Prof. Anupam Chatterjee, FNASc<br>Dean-RSBSC, RGU &
+                                                Advisor to the Conference</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:50-10:10 AM</td>
+                                            <td>Speech by Prof. Alak Kumar Buragohain, Hon’ble Vice-Chancellor, RGU</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:10-11:00 AM</td>
+                                            <td>Keynote Address by Prof. Srinivasan Kaveri, Director of Research,<br>French
+                                                National Centre for
+                                                Scientific Research, Paris</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:00-11:05 AM</td>
+                                            <td>Vote of thanks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:05-11:30 AM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - I</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:31-11:35 AM</td>
+                                            <td>Felicitation of dignitaries</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:35-12:20 PM</td>
+                                            <td><b>Plenary Lecture-I</b><br><b>Speaker:</b> Professor Shekhar Mande,
+                                                President, INSA; Former Director
+                                                General, CSIR & Distinguished Professor, Savitribai Phule Pune University,
+                                                Pune</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:20-01:05 PM</td>
+                                            <td><b>Invited Lecture- I (Online)</b><br><b>Speaker:</b> Professor M. Prakash
+                                                Hande, Department of
+                                                Physiology, National University of Singapore</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - I</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:05-01:18 PM</td>
+                                            <td>Oral presentation (OP-1)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:18-01:31 PM</td>
+                                            <td>Oral presentation (OP-2)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:31-01:44 PM</td>
+                                            <td>Oral presentation (OP-3)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:44-01:57 PM</td>
+                                            <td>Oral presentation (OP-4)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:00-02:45 PM</td>
+                                            <td>Lunch Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:45-03:30 PM</td>
+                                            <td><b>Plenary Lecture-II</b><br><b>Speaker:</b> Dr. K.K. Narayanan, Managing
+                                                Director, Sthayika Seeds
+                                                Pvt. Ltd., Bangalore</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03:30-04:15 PM</td>
+                                            <td><b>Invited Lecture- II (Online)</b><br><b>Speaker:</b> Prof. Gareth Jenkins,
+                                                Institute of Life
+                                                Science, Swansea-UK</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:15-04:30 PM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Poster session: Emerging Frontiers</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:30-05:30 PM</td>
+                                            <td>Poster session</td>
+                                        </tr>
+                                        <tr>
+                                            <td>06:00-07:00 PM</td>
+                                            <td>Cultural Programme</td>
+                                        </tr>
+                                        <tr>
+                                            <td>07:30-08:30 PM</td>
+                                            <td>Conference Dinner at Smoke House</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <!-- DAY 2 TECHNICAL -->
+                                <div class="bio3-new-box">
+                                    <div class="bio3-new-title">DAY 2: Friday, January 30, 2026</div>
+
+                                    <table class="bio3-new-table">
+                                        <tr>
+                                            <th>TIME</th>
+                                            <th>AGENDA</th>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - III</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:15-09:30 AM</td>
+                                            <td>Dignitaries will take their seats</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:31-10:15 AM</td>
+                                            <td><b>Plenary Lecture-III</b><br><b>Speaker:</b> Dr. Sanjai K
+                                                Dwivedi,<br>Scientist 'G' & Director,
+                                                Directorate of Personnel (DoP), DRDO</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:16-11:00AM</td>
+                                            <td><b>Invited Lecture-III</b><br><b>Speaker:</b> Prof. Pronobesh
+                                                Chattopadhyay<br>Scientist-G, Defence
+                                                Research Laboratory, Tezpur</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:01-11:13 AM</td>
+                                            <td>Oral presentation (OP-5)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:04-11:16 AM</td>
+                                            <td>Oral presentation (OP-6)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:17-11:29 AM</td>
+                                            <td>Oral presentation (OP-7)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:29-11:40 AM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - IV</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:40-12:15 PM</td>
+                                            <td><b>Plenary Lecture-IV</b><br><b>Speaker:</b> Prof. Probodh Borah, Director
+                                                of research<br>College of
+                                                Veterinary Sciences, Assam Agricultural University, Khanapara</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:16-01:00 PM</td>
+                                            <td><b>Invited Lecture-IV</b><br><b>Speaker:</b> Prof. Deepa H. Dwivedi<br>Dean,
+                                                Department of
+                                                Horticulture<br>Babasaheb Bhimrao Ambedkar University, Lucknow, UP, India
+                                            </td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - III</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:01-01:13 PM</td>
+                                            <td>Oral presentation (OP-8)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:14-01:26 PM</td>
+                                            <td>Oral presentation (OP-9)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:27-01:39 PM</td>
+                                            <td>Oral presentation (OP-10)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:40-02:30 PM</td>
+                                            <td>Lunch Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Poster session: Emerging Frontiers</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:30-03:30 PM</td>
+                                            <td>Poster session - II</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">VALEDICTORY SESSION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03:45-04:00 PM</td>
+                                            <td>Commencement of the Valedictory Programme</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04.01-04:20 PM</td>
+                                            <td>Presentation of the Conference Report by the Rapporteur (Name & Designation)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:01-04:10 PM</td>
+                                            <td>Participant Feedback Session</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:11-04:30 PM</td>
+                                            <td>Valedictory Address by Prof. Utpal Bora, Head, Biosciences and
+                                                Bioengineering, IIT Guwahati<br>Guest
+                                                of Honour</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:31-04:50 PM</td>
+                                            <td>Announcement and presentation of Awards for Best Paper and Poster
+                                                Presentations</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:51-05:00 PM</td>
+                                            <td>Vote of Thanks followed by the State Anthem</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="text-align:center;font-weight:bold;">Formal
+                                                Conclusion of the Conference followed
+                                                by Tea and Certificate distribution to the participants</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- ================= DAY 2 ================= -->
+                            <div class="bio3-new-row">
+
+
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -1095,292 +1441,6 @@
                         Programme Details
                     </h2>
 
-
-
-                    {{-- <table style="width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 30px;">
-                        <thead>
-                            <tr>
-                                <th
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
-                                    Time</th>
-                                <th
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
-                                    Event</th>
-                                <th
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
-                                    Speaker/Details</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-dark para1">
-                            <tr>
-                                <th colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Day 1: (January 29th 2026)</th>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">08:30–09:00 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Registration</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:00 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dignitaries will
-                                    take their seats</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:05 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">National anthem</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:05–09:10 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lighting of lamp
-                                    &amp; Honouring Guests</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:10–09:20 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Welcome Address and
-                                    Scope of the Conference</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Anupam
-                                    Chatterjee (FNASc), Advisor and Dean-RSBSC, RGU</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:20–09:40 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Address by the
-                                    Chief-Advisor</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Alak Kumar
-                                    Buragohain, Vice Chancellor, RGU</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:40–10:00 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Address by the Chief
-                                    Patron</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:00–10:50 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Keynote lecture</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Srinivasan
-                                    Kaveri (French National Centre for Scientific Research, Paris)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:50–11:00 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Vote of thanks</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:00–11:20 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">High Tea</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Technical session-I (Bioresource and Environmental Biotechnology)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:30-11:40 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Felicitation of
-                                    dignitaries</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:40-12:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-I
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Shekhar Mande
-                                    (Savitribai Phule University, Pune)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">12:30-01:10 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-I
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. M. Prakash
-                                    Hande (NUS, Singapore)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:15-02:00 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
-                                    (1-3)</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:00-02:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lunch</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Technical session-II (Biotech in Healthcare and Pharmaceuticals)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:30-03:15 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-II
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Gareth Jenkins
-                                    (Institute of Life Science, Swansea-UK)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">03:15-04:00 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-II
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Mukut Gohain
-                                    (API Plus Research Laboratory, South Africa)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:00-04:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
-                                    (4-5)</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Tea</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Poster session (Multiple themes)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30-05:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Poster session - I
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">06:00-07:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Cultural Programme
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">07:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dinner</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <th colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Day 2: (30th January 2026)</th>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Technical session-III (Biomanufacturing in National Importance)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:30 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dignitaries will
-                                    take their seats</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:30-10:15 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-III
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dr Sanjai K Dwivedi,
-                                    Scientist 'G' &amp; Director, Directorate of Personnel (DoP), DRDO</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:15-11:00 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-III
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Pronobesh
-                                    Chattopadhyay (DRL, Tezpur)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:00-11:15 AM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Tea</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:15-12:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
-                                    (6-10)</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Technical session-IV (Biotechnology in Entrepreneurship and Circular Economy)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:10-01:45 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-IV
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dr. Rubul Mout
-                                    (Harvard University, USA)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:45-02:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
-                                    (11-13)</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:30-03:00 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lunch</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Poster session (Multiple themes)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">03:00-04:00 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Poster session - II
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"
-                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Valedictory Session</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:00-04:20 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Report of the
-                                    Conference by the Rapporteur</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:20-04:30 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Feedback</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">From the
-                                    participants</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30-04:50 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Guest of
-                                    Honor-Valedictory Address</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Ramaranjan
-                                    Bhattacharya, Dean R&amp;D</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:50-05:10 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Announcement of
-                                    awards for the best presenters</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">05:10-05:15 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Vote of Thanks</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">05:15 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">State Anthem</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
-                            </tr>
-                        </tbody>
-                    </table> --}}
-
                     <div class="schedule-section">
                         <style>
                             /* ===== bio3-new CSS PREFIX ===== */
@@ -1429,10 +1489,10 @@
                                 border: 1px solid #1b3f73;
                                 padding: 6px 8px;
                                 vertical-align: top;
-color: #333;
-font-size: 22px;
-align-items: center;
-justify-content: center;
+                                color: #333;
+                                font-size: 22px;
+                                align-items: center;
+                                justify-content: center;
                             }
 
                             .bio3-new-table th {
@@ -1735,6 +1795,289 @@ justify-content: center;
         </div>
 
     </div>
+    {{-- <table style="width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 30px;">
+                        <thead>
+                            <tr>
+                                <th
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
+                                    Time</th>
+                                <th
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
+                                    Event</th>
+                                <th
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white;">
+                                    Speaker/Details</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-dark para1">
+                            <tr>
+                                <th colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Day 1: (January 29th 2026)</th>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">08:30–09:00 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Registration</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:00 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dignitaries will
+                                    take their seats</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:05 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">National anthem</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:05–09:10 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lighting of lamp
+                                    &amp; Honouring Guests</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:10–09:20 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Welcome Address and
+                                    Scope of the Conference</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Anupam
+                                    Chatterjee (FNASc), Advisor and Dean-RSBSC, RGU</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:20–09:40 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Address by the
+                                    Chief-Advisor</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Alak Kumar
+                                    Buragohain, Vice Chancellor, RGU</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:40–10:00 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Address by the Chief
+                                    Patron</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:00–10:50 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Keynote lecture</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Srinivasan
+                                    Kaveri (French National Centre for Scientific Research, Paris)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:50–11:00 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Vote of thanks</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:00–11:20 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">High Tea</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Technical session-I (Bioresource and Environmental Biotechnology)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:30-11:40 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Felicitation of
+                                    dignitaries</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:40-12:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-I
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Shekhar Mande
+                                    (Savitribai Phule University, Pune)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">12:30-01:10 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-I
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. M. Prakash
+                                    Hande (NUS, Singapore)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:15-02:00 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
+                                    (1-3)</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:00-02:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lunch</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Technical session-II (Biotech in Healthcare and Pharmaceuticals)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:30-03:15 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-II
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Gareth Jenkins
+                                    (Institute of Life Science, Swansea-UK)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">03:15-04:00 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-II
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Mukut Gohain
+                                    (API Plus Research Laboratory, South Africa)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:00-04:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
+                                    (4-5)</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Tea</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Poster session (Multiple themes)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30-05:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Poster session - I
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">06:00-07:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Cultural Programme
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">07:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dinner</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <th colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Day 2: (30th January 2026)</th>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Technical session-III (Biomanufacturing in National Importance)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:30 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dignitaries will
+                                    take their seats</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">09:30-10:15 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-III
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dr Sanjai K Dwivedi,
+                                    Scientist 'G' &amp; Director, Directorate of Personnel (DoP), DRDO</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">10:15-11:00 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-III
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Pronobesh
+                                    Chattopadhyay (DRL, Tezpur)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:00-11:15 AM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Tea</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">11:15-12:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
+                                    (6-10)</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Technical session-IV (Biotechnology in Entrepreneurship and Circular Economy)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:10-01:45 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Invited lecture-IV
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Dr. Rubul Mout
+                                    (Harvard University, USA)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:45-02:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Oral presentations
+                                    (11-13)</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">02:30-03:00 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Lunch</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Poster session (Multiple themes)</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">03:00-04:00 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Poster session - II
+                                </td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
+                                    Valedictory Session</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:00-04:20 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Report of the
+                                    Conference by the Rapporteur</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:20-04:30 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Feedback</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">From the
+                                    participants</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:30-04:50 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Guest of
+                                    Honor-Valedictory Address</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Ramaranjan
+                                    Bhattacharya, Dean R&amp;D</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">04:50-05:10 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Announcement of
+                                    awards for the best presenters</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">05:10-05:15 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Vote of Thanks</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">05:15 PM</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">State Anthem</td>
+                                <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
+                            </tr>
+                        </tbody>
+                    </table> --}}
 
 
 @endsection
