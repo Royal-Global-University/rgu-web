@@ -694,9 +694,10 @@
                     </div>
                     <div class="mt-5 p-5 bg-light rounded text-center">
                         <h3 class="mb-3 text-dark text-center">Sponsored by</h3>
-                        <hr class="text-dark"/>
-                        <img src="mobile-assets/conference/bioe3/spon1.png"/>
-                        <img style="height: 180px; width: 180px; padding-top: 20px;" src="mobile-assets/conference/bioe3/drdo-logo.svg"/>
+                        <hr class="text-dark" />
+                        <img src="mobile-assets/conference/bioe3/spon1.png" />
+                        <img style="height: 180px; width: 180px; padding-top: 20px;"
+                            src="mobile-assets/conference/bioe3/drdo-logo.svg" />
                     </div>
                 </div>
             </div>
@@ -1056,7 +1057,8 @@
                                     </div>
                                     <h3 class="card-name">Prof. Deepa H Dwivedi</h3>
                                     <p class="card-designation">Dean, Department of Horticultur,</p>
-                                    <p class="card-designation">Babasahib Bhimrao Ambedkar University, Lucknow, UP, India</p>
+                                    <p class="card-designation">Babasahib Bhimrao Ambedkar University, Lucknow, UP, India
+                                    </p>
                                 </div>
                             </div>
 
@@ -1066,7 +1068,8 @@
                                         <img src="mobile-assets/conference/bioe3/Narayanan.jpeg" alt="Profile image">
                                     </div>
                                     <h3 class="card-name">Dr. K. K. Narayanan</h3>
-                                    <p class="card-designation">Managing Director, Metahelix Life Sciences (a Tata enterprise)</p>
+                                    <p class="card-designation">Managing Director, Metahelix Life Sciences (a Tata
+                                        enterprise)</p>
                                 </div>
                             </div>
 
@@ -1076,7 +1079,8 @@
                                         <img src="mobile-assets/conference/bioe3/Probodh.jpeg" alt="Profile image">
                                     </div>
                                     <h3 class="card-name">Prof. Probodh Borah</h3>
-                                    <p class="card-designation">Director Research, College of Veterinary Sciences, Assam Agricultural University</p>
+                                    <p class="card-designation">Director Research, College of Veterinary Sciences, Assam
+                                        Agricultural University</p>
                                 </div>
                             </div>
 
@@ -1086,10 +1090,14 @@
 
                     </div>
 
+                    <h2 class="mobile-headd1 fw-bold kd-title-ani kd-split-text pt-4 pb-3"
+                        style="color: #27467A; font-weight: 900;">
+                        Programme Details
+                    </h2>
 
-                    <h2 class="headd3 text-dark fw-bold mt-3">Programme Details</h2>
 
-                    <table style="width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 30px;">
+
+                    {{-- <table style="width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 30px;">
                         <thead>
                             <tr>
                                 <th
@@ -1371,7 +1379,354 @@
                                 <td style="border: 1px solid #333; text-align: left; padding: 8px;"></td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> --}}
+
+                    <div class="schedule-section">
+                        <style>
+                            /* ===== bio3-new CSS PREFIX ===== */
+                            .bio3-new-container {
+                                margin: 10px auto;
+                                font-family: "Times New Roman", serif;
+                            }
+
+                            .bio3-new-row {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                gap: 15px;
+                                margin-bottom: 40px;
+                            }
+
+                            .bio3-new-box {
+                                border: 1px solid #1b3f73;
+                            }
+
+                            .bio3-new-title {
+                                text-align: center;
+                                font-weight: bold;
+                                padding: 8px;
+                                font-size: 22px;
+                                color: #333;
+                            }
+
+                            .bio3-new-dark {
+                                background: #0a2d63;
+                                color: #fff;
+                            }
+
+                            .bio3-new-light {
+                                background: #1f66b1;
+                                color: #fff;
+                            }
+
+                            table.bio3-new-table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                font-size: 15px;
+                            }
+
+                            .bio3-new-table th,
+                            .bio3-new-table td {
+                                border: 1px solid #1b3f73;
+                                padding: 6px 8px;
+                                vertical-align: top;
+color: #333;
+font-size: 22px;
+align-items: center;
+justify-content: center;
+                            }
+
+                            .bio3-new-table th {
+                                background: #1f66b1;
+                                color: #fff;
+                                text-align: center;
+                            }
+
+                            .bio3-new-section {
+                                background: #0a2d63;
+                                color: #fff;
+                                text-align: center;
+                                font-weight: bold;
+                            }
+
+                            @media(max-width:768px) {
+                                .bio3-new-row {
+                                    grid-template-columns: 1fr;
+                                }
+                            }
+                        </style>
+
+                        <div class="bio3-new-container">
+
+                            <!-- ================= DAY 1 ================= -->
+                            <div class="bio3-new-row">
+
+                                <!-- DAY 1 REGISTRATION + INAUGURAL -->
+                                <div class="bio3-new-box">
+                                    <div class="bio3-new-title">DAY 1: Thursday, January 29, 2026</div>
+
+                                    <table class="bio3-new-table">
+                                        <tr>
+                                            <th>TIME</th>
+                                            <th>AGENDA</th>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">REGISTRATION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8:30-9:30 AM</td>
+                                            <td>Registration of Participants</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">INAUGURAL SESSION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:30-09.35 AM</td>
+                                            <td>Commencement of the Programme with the National Anthem</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:35-09:38 AM</td>
+                                            <td>Lighting of the Ceremonial Lamp</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:38-09:50 AM</td>
+                                            <td>Welcome Speech by Prof. Anupam Chatterjee, FNASc<br>Dean-RSBSC, RGU &
+                                                Advisor to the Conference</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:50-10:10 AM</td>
+                                            <td>Speech by Prof. Alak Kumar Buragohain, Hon’ble Vice-Chancellor, RGU</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:10-11:00 AM</td>
+                                            <td>Keynote Address by Prof. Srinivasan Kaveri, Director of Research,<br>French
+                                                National Centre for
+                                                Scientific Research, Paris</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:00-11:05 AM</td>
+                                            <td>Vote of thanks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:05-11:30 AM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - I</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:31-11:35 AM</td>
+                                            <td>Felicitation of dignitaries</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:35-12:20 PM</td>
+                                            <td><b>Plenary Lecture-I</b><br><b>Speaker:</b> Professor Shekhar Mande,
+                                                President, INSA; Former Director
+                                                General, CSIR & Distinguished Professor, Savitribai Phule Pune University,
+                                                Pune</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:20-01:05 PM</td>
+                                            <td><b>Invited Lecture- I (Online)</b><br><b>Speaker:</b> Professor M. Prakash
+                                                Hande, Department of
+                                                Physiology, National University of Singapore</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - I</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:05-01:18 PM</td>
+                                            <td>Oral presentation (OP-1)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:18-01:31 PM</td>
+                                            <td>Oral presentation (OP-2)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:31-01:44 PM</td>
+                                            <td>Oral presentation (OP-3)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:44-01:57 PM</td>
+                                            <td>Oral presentation (OP-4)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:00-02:45 PM</td>
+                                            <td>Lunch Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:45-03:30 PM</td>
+                                            <td><b>Plenary Lecture-II</b><br><b>Speaker:</b> Dr. K.K. Narayanan, Managing
+                                                Director, Sthayika Seeds
+                                                Pvt. Ltd., Bangalore</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03:30-04:15 PM</td>
+                                            <td><b>Invited Lecture- II (Online)</b><br><b>Speaker:</b> Prof. Gareth Jenkins,
+                                                Institute of Life
+                                                Science, Swansea-UK</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:15-04:30 PM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Poster session: Emerging Frontiers</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:30-05:30 PM</td>
+                                            <td>Poster session</td>
+                                        </tr>
+                                        <tr>
+                                            <td>06:00-07:00 PM</td>
+                                            <td>Cultural Programme</td>
+                                        </tr>
+                                        <tr>
+                                            <td>07:30-08:30 PM</td>
+                                            <td>Conference Dinner at Smoke House</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <!-- DAY 2 TECHNICAL -->
+                                <div class="bio3-new-box">
+                                    <div class="bio3-new-title">DAY 2: Friday, January 30, 2026</div>
+
+                                    <table class="bio3-new-table">
+                                        <tr>
+                                            <th>TIME</th>
+                                            <th>AGENDA</th>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - III</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:15-09:30 AM</td>
+                                            <td>Dignitaries will take their seats</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09:31-10:15 AM</td>
+                                            <td><b>Plenary Lecture-III</b><br><b>Speaker:</b> Dr. Sanjai K
+                                                Dwivedi,<br>Scientist 'G' & Director,
+                                                Directorate of Personnel (DoP), DRDO</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:16-11:00AM</td>
+                                            <td><b>Invited Lecture-III</b><br><b>Speaker:</b> Prof. Pronobesh
+                                                Chattopadhyay<br>Scientist-G, Defence
+                                                Research Laboratory, Tezpur</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:01-11:13 AM</td>
+                                            <td>Oral presentation (OP-5)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:04-11:16 AM</td>
+                                            <td>Oral presentation (OP-6)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:17-11:29 AM</td>
+                                            <td>Oral presentation (OP-7)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:29-11:40 AM</td>
+                                            <td>Tea Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Plenary Session - IV</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:40-12:15 PM</td>
+                                            <td><b>Plenary Lecture-IV</b><br><b>Speaker:</b> Prof. Probodh Borah, Director
+                                                of research<br>College of
+                                                Veterinary Sciences, Assam Agricultural University, Khanapara</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:16-01:00 PM</td>
+                                            <td><b>Invited Lecture-IV</b><br><b>Speaker:</b> Prof. Deepa H. Dwivedi<br>Dean,
+                                                Department of
+                                                Horticulture<br>Babasaheb Bhimrao Ambedkar University, Lucknow, UP, India
+                                            </td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Technical Session - III</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:01-01:13 PM</td>
+                                            <td>Oral presentation (OP-8)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:14-01:26 PM</td>
+                                            <td>Oral presentation (OP-9)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:27-01:39 PM</td>
+                                            <td>Oral presentation (OP-10)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>01:40-02:30 PM</td>
+                                            <td>Lunch Break</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">Poster session: Emerging Frontiers</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:30-03:30 PM</td>
+                                            <td>Poster session - II</td>
+                                        </tr>
+                                        <tr class="bio3-new-section">
+                                            <td colspan="2" class="text-white">VALEDICTORY SESSION</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03:45-04:00 PM</td>
+                                            <td>Commencement of the Valedictory Programme</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04.01-04:20 PM</td>
+                                            <td>Presentation of the Conference Report by the Rapporteur (Name & Designation)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:01-04:10 PM</td>
+                                            <td>Participant Feedback Session</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:11-04:30 PM</td>
+                                            <td>Valedictory Address by Prof. Utpal Bora, Head, Biosciences and
+                                                Bioengineering, IIT Guwahati<br>Guest
+                                                of Honour</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:31-04:50 PM</td>
+                                            <td>Announcement and presentation of Awards for Best Paper and Poster
+                                                Presentations</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:51-05:00 PM</td>
+                                            <td>Vote of Thanks followed by the State Anthem</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="text-align:center;font-weight:bold;">Formal
+                                                Conclusion of the Conference followed
+                                                by Tea and Certificate distribution to the participants</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- ================= DAY 2 ================= -->
+                            <div class="bio3-new-row">
+
+
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
 
