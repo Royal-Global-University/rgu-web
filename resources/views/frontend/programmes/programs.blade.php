@@ -475,7 +475,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Applied-Psychology" class="rgu-program-link">
+                                    <a href="/programs-isitep" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Integrated Special and Inclusive Teacher Education Programme (ISITEP)</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -985,7 +985,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a class="rgu-program-link">
+                                    <a href="/programme-mtech-ce-cdc" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Tech CE – CDC</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -2043,7 +2043,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="" class="rgu-program-link">
+                                    <a href="/programme-b-emergency-care" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Emergency Care

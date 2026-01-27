@@ -1078,6 +1078,10 @@ Route::get('/programs-b-sc-animation-visual-effects', function () {
     return view('frontend/programmes/programs-b-sc-animation-visual-effects');
 })->name('programs-b-sc-animation-visual-effects');
 
+Route::get('/programs-isitep', function () {
+    return view('frontend/programmes/program-isitep');
+})->name('programs-isitep');
+
 Route::get('/programs-b-sc-chemistry', function () {
     return view('frontend/programmes/programs-b-sc-chemistry');
 })->name('programs-b-sc-chemistry');
@@ -1415,6 +1419,10 @@ Route::get('/programs-MSc-Hotel-Management', function () {
 Route::get('/programs-MSc-Zoology', function () {
     return view('frontend/programmes/programs-MSc-Zoology');
 })->name('programs-MSc-Zoology');
+
+Route::get('/programme-mtech-ce-cdc', function () {
+    return view('frontend/programmes/programme-mtech-ce-cdc');
+})->name('programme-mtech-ce-cdc');
 
 Route::get('/programs-MTech-CAD', function () {
     return view('frontend/programmes/programs-MTech-CAD');

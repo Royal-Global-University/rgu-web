@@ -633,8 +633,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-BA-Psychology')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                            <td><a href="{{route('programs-isitep')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -1716,7 +1716,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: M.Tech CE -
                                                         CDC</strong>
                                                     <br>
-                                                    <a href="{{ route('programs-MTech-CAD') }}"
+                                                    <a href="{{ route('programme-mtech-ce-cdc') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee:
                                                             60000.00</span></a>
@@ -1724,9 +1724,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-MTech-CAD')}}"><button type="button"
+                                            <td><a href="{{route('programme-mtech-ce-cdc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -4807,8 +4807,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-BA-Psychology')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                            <td><a href="{{route('programs-isitep')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -5899,7 +5899,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: M.Tech CE -
                                                         CDC</strong>
                                                     <br>
-                                                    <a href="{{ route('programs-MTech-CAD') }}"
+                                                    <a href="{{ route('programme-mtech-ce-cdc') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee:
                                                             60000.00</span></a>
@@ -5907,9 +5907,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-MTech-CAD')}}"><button type="button"
+                                            <td><a href="{{route('programme-mtech-ce-cdc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -7409,7 +7409,7 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-emergency-care')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>

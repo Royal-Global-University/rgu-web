@@ -1,43 +1,43 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
-      @include('frontend/components/mobileheader')
+        @include('frontend/components/mobileheader')
+      <div class="container">
 
-      <div class="container" style="padding-top: 120px; position: relative;">
-
-        <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-          M.Des. - Fashion Design (FD)
+        <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
+          Integrated Special and Inclusive Teacher Education Programme (ISITEP)
         </h2>
+
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 2 years
+        Duration - 04 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Design (RSD)
+        Royal School of Behavioral & Allied Sciences (RSBAS)
       </p>
 
     </div>
 
     <div class="website">
-      @include('frontend/components/aheader')
+        @include('frontend/components/aheader')
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-          M.Des. - Fashion Design (FD)
+          Integrated Special and Inclusive Teacher Education Programme (ISITEP)
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 2 years
+        Duration - 04 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Design (RSD)
+        Royal School of Behavioral & Allied Sciences (RSBAS)
       </p>
 
     </div>
@@ -276,10 +276,10 @@
             <p class="mobile-para1 text-dark">
             <ol class="text-dark">
               <li>
-                Yearly Payment (Rs. - 85000.00)
+                Yearly Payment (Rs. - 100000.00)
               </li>
               <li>
-                Semester Payment (Rs. - 43500.00)
+                Semester Payment (Rs. - 51500.00)
               </li>
             </ol>
             </p>
@@ -293,24 +293,36 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              Bachelor’s Degree in Fashion Design or in any
-              relevant field/discipline from any recognized
-              University/Institution with minimum 45% marks
-              or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
-            </p>
+            <p class="mobile-para1 text-dark">
 
+            <p class="text-dark">
+
+              12+2 or equivalent from a recognized Board/ Council with minimum 45% marks or equivalent grade (5%
+              relaxation to SC/ST/OBC - Non-Creamy Layer).
+
+            </p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+
+              An Entrance Test will be conducted and selection into the program will be determined
+              on the basis of marks obtained in entrance test conducted by the university.
+
             </p>
 
+            <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
+
+            <p class="text-dark">
+
+              10+3 - Years Diploma, recognized by Central/State Government with minimum 45% marks or equivalent grade in
+              aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) along with Mathematics as compulsory subjects.
+
+            </p> -->
+
+            </p>
 
           </div>
 
@@ -320,8 +332,9 @@
               style="padding: 15px 20px; border: 1px solid #e68a1a; border-radius: 10px; background-color: #FFF8F0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
               <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
-              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2" href="#">Download Brochure
-                <i class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
+              <!-- <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
+                href="https://www.rgu.ac/mobile-assets/Domestic/BA-Applied-Psychology.pdf">Download Brochure <i
+                  class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a> -->
             </div>
 
 
@@ -338,7 +351,6 @@
               <li>
                 Royal Global University offers several scholarships to help students pay for their education.
               </li>
-
               <li>
                 Generally, merit scholarships are reserved for students with special qualifications, such as academic
                 performance, athletic or artistic talent and other endowment schemes.
@@ -353,22 +365,18 @@
 
             <p class="mobile-para1 text-dark">
             <ol class="text-dark">
-
               <li>
                 Students seeking Scholarships will have to submit an application as per the category for which the
                 student seeks scholarship.
               </li>
-
               <li>
                 For fresh students seeking admission, if interested for applying scholarship can select the scholarship
                 facility during the online application process.
               </li>
-
               <li>
                 Existing students can seek help from their departmental coordinators to keep themselves updated for the
                 scholarship application deadlines and process.
               </li>
-
             </ol>
             </p>
 
