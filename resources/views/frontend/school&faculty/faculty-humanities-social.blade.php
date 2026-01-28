@@ -983,18 +983,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nabanita-Hazarika-Social-Work-RSHSS.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Nabanita Hazarika</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-nabanita-hazarika" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
