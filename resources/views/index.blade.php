@@ -729,7 +729,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                                       though the design relies on the black box */
+                                           though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -864,18 +864,11 @@
                     </section>
                 </section>
 
-                <section>
-                    <div class="gg1920-carousel-container">
-                        <div class="gg1920-carousel-track" id="gg1920CarouselTrack">
-                            <div class="gg1920-carousel-slide">
-                                <img src="mobile-assets/ads/1.png" alt="Slide 1">
-                            </div>
-                            {{-- <div class="gg1920-carousel-slide">
-                                <img src="mobile-assets/ads/2.png" alt="Slide 2">
-                            </div> --}}
+                <div class="gg1920-carousel-slide">
+                    <img src="mobile-assets/ads/moot-1.jpg" style="height: 750px;" alt="Slide 1">
+                </div>
 
-                        </div>
-                    </div>
+                <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -1244,13 +1237,15 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    RGU to host 38th BCI National All India Inter-University Moot Court Competition
+                                                    RGU to host 38th BCI National All India Inter-University Moot Court
+                                                    Competition
                                                 </p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 27,
                                                     2026
                                                 </p>
-                                                <a href="/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition">
+                                                <a
+                                                    href="/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1265,13 +1260,13 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">77th Republic Day celebrated by Royal Global University</p>
+                                                    class="pt-2 m-0 fw-bold">77th Republic Day celebrated by Royal Global
+                                                    University</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 26,
                                                     2026
                                                 </p>
-                                                <a
-                                                    href="/77th-republic-day-celebrated-by-royal-global-university">
+                                                <a href="/77th-republic-day-celebrated-by-royal-global-university">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1279,7 +1274,7 @@
                                             </div>
                                         </div>
 
-                                         <div class="row bg-light p-2 rounded">
+                                        <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news82/1.jpeg" alt="" />
@@ -1287,7 +1282,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Silpi Diwas Celebrated by Dr Bhupen Hazarika Centre for Creativity at RGU</p>
+                                                    Silpi Diwas Celebrated by Dr Bhupen Hazarika Centre for Creativity at
+                                                    RGU</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 20,
                                                     2026
@@ -1647,8 +1643,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1680,8 +1676,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
 
                                                                     </div>
 
