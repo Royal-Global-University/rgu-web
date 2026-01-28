@@ -2,7 +2,7 @@
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-       <div class="mobile">
+        <div class="mobile">
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
                 style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
@@ -10,7 +10,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Fashion Technology (RSFT)</span></h2>
 

@@ -557,19 +557,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Manash.jpg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Manash Protim Boruah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-manash-protim-boruah" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Smrity.PNG"
                                     alt="Profile image ">
                             </div>
