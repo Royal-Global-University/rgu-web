@@ -301,13 +301,6 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/course-structure_ug-pg-.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.A
-                                                        JMC
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
                                                     <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-acca-detailed-syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Com
@@ -364,12 +357,12 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/ma-j&m.pdf"
+                                                    {{-- <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/ma-j&m.pdf"
                                                         target="_blank"
                                                         style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA J&M
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
+                                                    </a> --}}
 
                                                 </div>
                                             </div>
@@ -1891,13 +1884,13 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/course-structure_ug-pg-.pdf"
+                                                            {{-- <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/course-structure_ug-pg-.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Structure of Syllabus
                                                                 -- B.A JMC
                                                                 <i class="fa fa-download ms-2"
                                                                     style="color: #FF9A1E;"></i>
-                                                            </a>
+                                                            </a> --}}
 
                                                             <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-acca-detailed-syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
@@ -1964,7 +1957,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/ma-j&m.pdf"
+                                                            {{-- <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/ma-j&m.pdf"
                                                                 target="_blank"
                                                                 style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
@@ -1972,7 +1965,7 @@
                                                                 J&M
                                                                 <i class="fa fa-download ms-2"
                                                                     style="color: #FF9A1E;"></i>
-                                                            </a>
+                                                            </a> --}}
 
                                                         </div>
                                                     </div>
