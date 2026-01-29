@@ -4479,6 +4479,11 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 
 //RSBAS Faculty Profile
+
+Route::get('/faculty-tejoswita-gogoi', function () {
+    return view('frontend/facultyprofile/rsbas/tejoswita-gogoi');
+})->name('/faculty-tejoswita-gogoi');
+
 Route::get('/faculty-gokul-sisir', function () {
     return view('frontend/facultyprofile/rsbas/gokul-sisir');
 })->name('/faculty-gokul-sisir');

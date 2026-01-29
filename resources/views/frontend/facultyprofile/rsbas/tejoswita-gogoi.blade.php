@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {
@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" style="height: 440px;" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bidisha.jpg"
+              <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Tejoswita.jpeg"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Ms. Bidisha Goswami
+                Dr. Tejoswita Gogoi
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                 Assistant Professor
@@ -206,9 +206,9 @@
 
           <div class="col-lg-7 pt-4 pb-4">
 
-           <div class="faculty-bio-mobile-display">
+            <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                Ms. Bidisha Goswami
+                Dr. Tejoswita Gogoi
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,51 +217,43 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. (pursuing) from Cotton University</span></li>
-              <li><i class="fa fa-circle"></i> <span>MCA from Jorhat Engineering College</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. in Information Technology from Jorhat Institute of Science and Technology</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. : Sikkim University (a Central University) [Specialization in Psychology of Emotions, Cognitive Psychology and Developmental Psychology]</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.A. (Psychology): Department of Psychology, Savitribai Phule Pune University (formerly University of Pune) [Specialization in Clinical Psychology]</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.A. (Psychology): Nowrosjee Wadia College, University of Pune</span></li>
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>6 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>3 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>4 years</span></li>
-            </ul>
-
-            <h2 class="faculty-bio-sub-heading">Industry Experience:</h2>
-            <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>0.6 years</span></li>
-            </ul>
-
-            <h2 class="faculty-bio-sub-heading">Research (outside teaching):</h2>
-            <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>2 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>3 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Cryptography, Network Security, Blockchain, Mobile Communication</span></li>
+              <li><i class="fa fa-circle"></i> <span>Affective Science/ Psychology of Emotions, Psychometrics, Statistics, Cognitive Psychology, and Clinical Psychology</span></li>
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>International: 4</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 1</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 1</span></li>
 
             </ul>
             <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>02</li>
+              <li><i class="fa fa-circle"></i> <span>04</li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Qualified NTA UGC NET Twice (June and Dec 2019)</span></li>
+              <li><i class="fa fa-circle"></i> <span>National Fellowship for OBC for the year 2017 – 18</span></li>
+              <li><i class="fa fa-circle"></i> <span>Prof. Dipak Bhat Award (For Best Research Paper Award) [53rd National & 22nd International Conference of Indian Academy of Applied Psychology (IAAP – 2018)]</span></li>
 
             </ul>
 

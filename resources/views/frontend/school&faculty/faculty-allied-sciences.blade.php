@@ -216,6 +216,8 @@
                             </div>
                             <h3 class="card-name">Dr. Tejoswita Gogoi</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-tejoswita-gogoi" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
