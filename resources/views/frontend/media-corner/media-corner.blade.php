@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Biodiversity of the North East carries future for Bioeconomy: Dr. Srinivas, Director INSERM, Paris speaks at Royal Global University',
+                            'summary' =>
+                                'RGU holds International Conference on Transforming Northeast India from Biodiversity Hotspot to Biomanufacturing Hotspot',
+                            'date' => 'Guwahati, January 29, 2026:',
+                            'link' => 'biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/news82/bio1.jpeg',
+                            'content' =>
+                                'The immense biodiversity of Northeast India holds strong potential to drive the region’s bioeconomy through the growth of biomanufacturing...',
+                        ],
+                        [
+                            'title' =>
                                 'RGU to host 38th BCI National All India Inter-University Moot Court Competition',
                             'summary' =>
                                 'The prestigious BCI event is being held for the first time in Northeast India',

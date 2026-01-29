@@ -3066,6 +3066,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university', function () {
+    return view('frontend/media-corner/news92');
+})->name('biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university');
+
 Route::get('/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition', function () {
     return view('frontend/media-corner/news91');
 })->name('rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition');
