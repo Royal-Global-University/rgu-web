@@ -3751,8 +3751,7 @@
                                                         Bachelor of Physical Education and Sports (BPES)</strong>
                                                     <br>
                                                     <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
-                                                            years | Admission Fee:
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3/4 years as per NEP | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
@@ -7918,8 +7917,7 @@
                                                         Bachelor of Physical Education and Sports (BPES)</strong>
                                                     <br>
                                                     <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
-                                                            years | Admission Fee:
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3/4 years as per NEP | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
