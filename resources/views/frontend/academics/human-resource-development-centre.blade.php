@@ -115,7 +115,6 @@
                     <li>Ms. Bristy Srivastava, Head RCCR - Member</li>
                     <li>Prof. Nikhil K Chrungoo (Dean, RSLS) - Special Invitee</li>
                     <li>Dr. Suman Agarwal (Asst Prof, RSB) - MDP Coordinator</li>
-                    <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
                 </ol>
 
                 <hr>
@@ -242,7 +241,6 @@
                 <li>Ms. Bristy Srivastava, Head RCCR - Member</li>
                 <li>Prof. Nikhil K Chrungoo (Dean, RSLS) - Special Invitee</li>
                 <li>Dr. Suman Agarwal (Asst Prof, RSB) - MDP Coordinator</li>
-                <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
             </ol>
 
             <hr>

@@ -121,26 +121,6 @@
                                             class="img-fluid rounded border" />
                                     </div>
 
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                            Dr. Annu Kumari
-                                        </h5>
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            Assistant Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold text-dark">
-                                            Research Interest:
-                                        </p>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            Animal Physiology, Ichthyology, Molecular and Biochemical Adaptation,
-                                            Endocrinology,
-                                            Genetics
-                                        </p>
-
-                                    </div>
-
                                 </div>
                             </div>
 
@@ -340,25 +320,6 @@
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/annu.png" class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                Dr. Annu Kumari
-                            </h5>
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Assistant Professor
-                            </p>
-
-                            <p class="para1 fw-bold text-dark">
-                                Research Interest:
-                            </p>
-
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Animal Physiology, Ichthyology, Molecular and Biochemical Adaptation, Endocrinology,
-                                Genetics
-                            </p>
-
                         </div>
 
                     </div>
