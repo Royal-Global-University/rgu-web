@@ -225,7 +225,7 @@
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>6 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>0.6 </span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
