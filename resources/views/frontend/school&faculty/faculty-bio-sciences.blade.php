@@ -388,9 +388,9 @@
                                 <img src="mobile-assets/updated-faculty-img/Dr-Anushree-Baruah-RSLSC.png"
                                     alt="Profile image of Anushree Das Baruah">
                             </div>
-                            <h3 class="card-name">Anushree Das Baruah</h3>
+                            <h3 class="card-name">Dr. Anushree Baruah</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, RSAG</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-anushree-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -581,6 +581,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Anushree Baruah</h3>
                                 <p class="card-designation">Assistant Professor</p>
+                                <a href="/faculty-anushree-baruah" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

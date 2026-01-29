@@ -3847,6 +3847,14 @@ Route::get('/sumi-barman', function () {
 
 //RSLSC Faculty Profile
 
+Route::get('/faculty-upashna-chettri', function () {
+    return view('frontend/facultyprofile/rslsc/upashna-chettri');
+})->name('faculty-upashna-chettri');
+
+Route::get('/faculty-anushree-baruah', function () {
+    return view('frontend/facultyprofile/rslsc/anushree-baruah');
+})->name('faculty-anushree-baruah');
+
 Route::get('/faculty-dr-utpal-dutta', function () {
     return view('frontend/facultyprofile/rslsc/utpal');
 })->name('faculty-dr-utpal-dutta');

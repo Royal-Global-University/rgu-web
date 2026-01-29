@@ -211,7 +211,7 @@
                             </div>
                             <h3 class="card-name">Dr. Anushree Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-anushree-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -234,7 +234,7 @@
                             </div>
                             <h3 class="card-name">Dr. Upashna Chettri</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-upashna-chettri" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -956,7 +956,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Upashna Chettri</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-upashna-chettri" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
