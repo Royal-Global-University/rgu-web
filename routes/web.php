@@ -3066,6 +3066,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan', function () {
+    return view('frontend/media-corner/news93');
+})->name('40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan');
+
 Route::get('/biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university', function () {
     return view('frontend/media-corner/news92');
 })->name('biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university');

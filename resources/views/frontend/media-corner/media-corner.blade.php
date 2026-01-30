@@ -46,12 +46,26 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '40 Northeast Janjati Communities Congregate at RGU for Janjati Sammelan',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 30, 2026:',
+                            'link' =>
+                                '40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan',
+                            'image' => 'mobile-assets/media-corner/news82/ap.jpeg',
+                            'content' => 'The rich cultural mosaic of Northeast India came
+                alive at The Assam Royal Global University (RGU) today as over 400 participants representing more than 40
+                Janjati communities from all eight northeastern states gathered for the “Janjati Sammelan.” The Janjati
+                Sammelan has been organised on the occasion of the Foundation Day of the Vivekananda Kendra Institute of
+                Culture (VKIC), Guwahati.',
+                        ],
+                        [
                             'title' =>
                                 'Biodiversity of the North East carries future for Bioeconomy: Dr. Srinivas, Director INSERM, Paris speaks at Royal Global University',
                             'summary' =>
                                 'RGU holds International Conference on Transforming Northeast India from Biodiversity Hotspot to Biomanufacturing Hotspot',
                             'date' => 'Guwahati, January 29, 2026:',
-                            'link' => 'biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university',
+                            'link' =>
+                                'biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university',
                             'image' => 'mobile-assets/media-corner/news82/bio1.jpeg',
                             'content' =>
                                 'The immense biodiversity of Northeast India holds strong potential to drive the region’s bioeconomy through the growth of biomanufacturing...',
