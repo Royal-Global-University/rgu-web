@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '38th BCI National All India Inter University Moot Court Competition begins at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 30, 2026:',
+                            'link' =>
+                                '38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news82/new/1.jpeg',
+                            'content' => 'The 38th Bar Council of India National All India Moot Court Competition begins today at The Assam Royal Global University (RGU) with much enthusiasm as 64 teams from across the country are here to compete for this most prestigious legal event. The two-day-long competition is being organised under the aegis of the Bar Council of India and the Bar Council of India Trust-Pearl First.',
+                        ],
+                        [
                             'title' => '40 Northeast Janjati Communities Congregate at RGU for Janjati Sammelan',
                             'summary' => '',
                             'date' => 'Guwahati, January 30, 2026:',

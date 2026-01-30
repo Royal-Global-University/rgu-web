@@ -3066,6 +3066,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu', function () {
+    return view('frontend/media-corner/news94');
+})->name('38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu');
+
 Route::get('/40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan', function () {
     return view('frontend/media-corner/news93');
 })->name('40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan');
