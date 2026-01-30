@@ -5375,4 +5375,8 @@ Route::get('/rsp-events-npw-2025', function () {
     return view('frontend/dept-events/rsp/npw');
 })->name('rsp-events-npw-2025');
 
+Route::get('/botany-botanique-3.0', function () {
+    return view('frontend/dept-events/botany/botanique');
+})->name('botany-botanique-3.0');
+
 
