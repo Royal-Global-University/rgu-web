@@ -5367,3 +5367,12 @@ Route::get('/programme-m-radio-imaging', function () {
     return view('frontend/programmes/programme-m-radio-imaging');
 })->name('programme-m-radio-imaging');
 
+
+//Dept Events
+
+//rsp events
+Route::get('/rsp-events-npw-2025', function () {
+    return view('frontend/dept-events/rsp/npw');
+})->name('rsp-events-npw-2025');
+
+

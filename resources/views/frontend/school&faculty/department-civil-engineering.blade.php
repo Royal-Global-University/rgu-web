@@ -2165,47 +2165,15 @@
                                             <img src="mobile-assets/department-all/rset/ce/events/e2/e23.JPG" style="height: 340px;" alt="Image 2"
                                                 class="scroller-image" onclick="openLightbox(this.src)">
                                         </div>
-
                                         <div class="slider-image-frame">
                                             <img src="mobile-assets/department-all/rset/ce/events/e2/e24.JPG" style="height: 340px;" alt="Image 2"
                                                 class="scroller-image" onclick="openLightbox(this.src)">
                                         </div>
-
                                         <div class="slider-image-frame">
                                             <img src="mobile-assets/department-all/rset/ce/events/e2/e25.JPG" style="height: 340px;" alt="Image 2"
                                                 class="scroller-image" onclick="openLightbox(this.src)">
                                         </div>
 
-
-
-                                    </div>
-
-                                    <div class="scroll-content-images unique-set-beta">
-
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/1.jpeg" alt="Image 1"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
-
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/2.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
-
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/3.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
-
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/4.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
-
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/5.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
 
 
                                     </div>
