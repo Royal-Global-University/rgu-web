@@ -1547,7 +1547,7 @@
                                     </section>
 
                                     <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #243B95;">
-                                        Thrilled to announce the successful conclusion of the International Conference on
+                                        International Conference on
                                         "Critical and
                                         Energy Minerals in North East India - Potentials and Possibilities!"
                                     </h2>
