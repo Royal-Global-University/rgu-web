@@ -729,7 +729,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                                           though the design relies on the black box */
+                                               though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -865,10 +865,10 @@
                 </section>
 
                 <div class="gg1920-carousel-slide">
-                    <img src="mobile-assets/ads/moot-1.jpg" style="height: 750px;" alt="Slide 1">
+                    <img src="mobile-assets/ads/icetie.jpeg"  alt="Slide 1">
                 </div>
 
-                <section>
+                {{-- <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -927,7 +927,7 @@
                             setInterval(gg1920AutoSlide, 3000);
                         })();
                     </script>
-                </section>
+                </section> --}}
 
 
                 <!-- Convocation-slider -->
@@ -961,123 +961,6 @@
 
                 </div> --}}
 
-                <!-- Conferense CSS -->
-                <section>
-
-                    <style>
-                        .myImageSlider {
-                            position: relative;
-                            padding-bottom: 60px;
-                        }
-
-                        .myImageSlider .swiper-button-next,
-                        .myImageSlider .swiper-button-prev {
-                            top: auto;
-                            transform: none;
-                            bottom: 5px;
-                            width: 40px;
-                            height: 40px;
-                            border-radius: 50%;
-                            background-color: #8c9bbd;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            color: #fff;
-                            outline: none;
-                        }
-
-                        .myImageSlider .swiper-button-next::after,
-                        .myImageSlider .swiper-button-prev::after {
-                            font-size: 16px;
-                        }
-
-                        .myImageSlider .swiper-button-prev {
-                            left: 50%;
-                            transform: translateX(calc(-100% - 10px));
-
-                        }
-
-                        .myImageSlider .swiper-button-next {
-                            left: 50%;
-                            transform: translateX(10px);
-                        }
-
-                        .myImageSlider .swiper-button-next:hover,
-                        .myImageSlider .swiper-button-prev:hover {
-                            background-color: #a4b4d6;
-                            cursor: pointer;
-                        }
-                    </style>
-
-                    <section style="padding: 30px; background-color: #101d34;">
-                        <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
-                            <div class="swiper-wrapper">
-
-                                {{-- <div class="swiper-slide">
-                                    <a href="/icssr-conference">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/confrence/icssr.jpeg" alt="">
-                                    </a>
-                                </div> --}}
-
-                                {{-- <div class="swiper-slide">
-                                    <a href="/ncmpac-2026">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/TRY/sq-1.jpg" alt="">
-                                    </a>
-                                </div> --}}
-                                <div class="swiper-slide">
-                                    <a href="bioe3-conference">
-                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/TRY/sq-2.jpg" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <a href="ICETIEDS–2026">
-                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/confrence/ICETIEDS.jpeg" alt="">
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="swiper-button-next slider-next"></div>
-                            <div class="swiper-button-prev slider-prev"></div>
-                        </div>
-                    </section>
-
-                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-                    <script>
-                        const myImageSlider = new Swiper('.myImageSlider', {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                            slidesPerGroup: 1,
-                            loop: true,
-                            autoplay: {
-                                delay: 2500,
-                                disableOnInteraction: false,
-                            },
-                            navigation: {
-                                nextEl: '.slider-next',
-                                prevEl: '.slider-prev',
-                            },
-                            breakpoints: {
-                                0: {
-                                    slidesPerView: 1
-                                },
-                                768: {
-                                    slidesPerView: 2
-                                },
-                                1024: {
-                                    slidesPerView: 2
-                                }
-                            }
-                        });
-                    </script>
-
-                </section>
 
                 {{-- <section>
                     <div class="row p-3">
@@ -1237,7 +1120,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    38th BCI National All India Inter University Moot Court Competition begins at RGU
+                                                    38th BCI National All India Inter University Moot Court Competition
+                                                    begins at RGU
                                                 </p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 30,
@@ -1259,12 +1143,14 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">40 Northeast Janjati Communities Congregate at RGU for Janjati Sammelan</p>
+                                                    class="pt-2 m-0 fw-bold">40 Northeast Janjati Communities Congregate at
+                                                    RGU for Janjati Sammelan</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 30,
                                                     2026
                                                 </p>
-                                                <a href="/40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan">
+                                                <a
+                                                    href="/40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1280,7 +1166,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 18px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Biodiversity of the North East carries future for Bioeconomy: Dr. Srinivas, Director INSERM, Paris speaks at Royal Global University</p>
+                                                    Biodiversity of the North East carries future for Bioeconomy: Dr.
+                                                    Srinivas, Director INSERM, Paris speaks at Royal Global University</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">January 29,
                                                     2026
@@ -1637,8 +1524,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1670,8 +1557,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
 
                                                                     </div>
 
