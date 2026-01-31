@@ -609,7 +609,7 @@
                 <section class="urd_ecosystem_wrapper" id="urd_eco_trigger_desktop">
                     <div class="urd_eco_flex_container">
                         <div class="urd_eco_col_group">
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/a1.png"
+                            <img src="mobile-assets/research-development/ecosystem/new-eco/a12.png"
                                 class="urd_eco_floating_card" alt="Stat A" />
                             <img src="mobile-assets/research-development-new/ecosystem/new-eco/b1.png"
                                 class="urd_eco_floating_card" alt="Stat B" />
