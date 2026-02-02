@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,34 +293,25 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              10+2 in Science Stream or equivalent from a
-              recognized Board/ Council with Physics, Chemistry,
-              Mathematics/ Biology & English as compulsory
-              subjects and with minimum 45% marks in
-              aggregate (5% relaxation to SC/ST/OBC – Non
-              Creamy Layer)
-
-            </p>
-
-            <ol class="text-dark">
-              <li>*Candidates passing with PCM without Biology in
-              10+2 will have to undergo remedial classes/ bridge
-              course for Biology</li>
-              <li> *Candidates passing with PCB without Mathematics
-              in 10+2 will have to undergo remedial classes/
-              bridge course for Mathematics</li>
+            <ol>
+              <li class="text-dark">
+                10+2 or equivalent with Physics, Chemistry, and Biology (Botany + Zoology) as compulsory subjects.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of merit of Senior Secondary (10+2).
+              </li>
+              <li class="text-dark">
+                Lateral entry to candidates in the second year (3rd semester) who have passed a Diploma in Medical
+                Laboratory Technology (D.MLT) with 50% marks.
+              </li>
             </ol>
-
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
 

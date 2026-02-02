@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,23 +293,25 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              Bachelor’s in Medical Radiology & Imaging
-              Technology /B.Sc. Medical Technology Radio
-              diagnosis and Imaging/ B.Sc. Radiological
-              Technology/B.Sc. in Radiography/B.Sc. Medical
-              Technology (X-ray) or equivalent to BMRIT with
-              minimum 45% marks in aggregate or equivalent
-              grade from any recognized
-              University/Institution ( 5% relaxation to
-              SC/ST/OBC – Non-Creamy Layer).
-              <br>
-              <br>
-              Bachelor course must be three years course and
-              one year of internship/one year of working
-              experience must be considered for the master’s
-              degree admission.
-            </p>
+            <ol>
+              <li class="text-dark">
+                Passed Bachelor’s in Medical Radiology & Imaging Technology (B.MRIT) / Bachelor of Medical
+                Radiodiagnosis and Imaging Technology (B.MRIT) / B.Sc. Radiological Technology / B.Sc. Radiography /
+                B.Sc. Medical Radiology & Imaging Technology / B.Sc. Radiography & Imaging Technology or any other
+                equivalent course with B.MRIT on regular mode from any recognized University.
+              </li>
+              <li class="text-dark">
+                OR B.Sc. Life Sciences with PG Diploma / Advance Diploma (2 years) in the related field on regular mode
+                from any recognized University.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of entrance examinations conducted by the University.
+              </li>
+              <li class="text-dark">
+                Postgraduate entrance eligibility requires compulsory registration with the National Commission for
+                Allied and Healthcare Professions (NCAHP).
+              </li>
+            </ol>
 
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -317,9 +319,7 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+             Based on fulfillment of eligibility criteria.
             </p>
 
 

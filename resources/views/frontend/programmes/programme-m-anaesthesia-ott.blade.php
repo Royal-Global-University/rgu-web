@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,15 +293,19 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              Bachelor’s degree in Anaesthesia & Operation
-              Theatre Technology/ Anaesthesia Technology /
-              Operation Theatre Technology from a
-              recognized university with 45% marks in
-              aggregate or equivalent grade from any
-              recognized University/Institution ( 5%
-              relaxation to SC/ST/OBC – Non-Creamy Layer).
-            </p>
+            <ol>
+              <li class="text-dark">
+                Passed Bachelor of Anesthesia and Operation Theatre Technology (B.AOTT) (minimum 3 years) on regular
+                mode from a recognized University.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of entrance examinations conducted by the University.
+              </li>
+              <li class="text-dark">
+                Postgraduate entrance eligibility requires compulsory registration with the National Commission for
+                Allied and Healthcare Professions (NCAHP).
+              </li>
+            </ol>
 
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -309,9 +313,7 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
 

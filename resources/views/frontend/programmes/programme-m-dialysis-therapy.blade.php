@@ -293,21 +293,26 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              Bachelor's degree in Dialysis Therapy with 45% marks in aggregate or equivalent grade from any recognised
-              University/ Institution (5% relaxation to ST/ SC/ OBC - Non-Creamy layer). Bachelor course must be three
-              years course and one year of internship/ one year of working experience must be considered for the master
-              degree admissions.
-            </p>
+            <ol>
+              <li class="text-dark">
+                Passed Bachelor’s degree in Dialysis Therapy Technology on regular mode from any recognized University.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of entrance examinations conducted by the University.
+              </li>
+              <li class="text-dark">
+                Postgraduate entrance eligibility requires compulsory registration with the National Commission for
+                Allied and Healthcare Professions (NCAHP).
+              </li>
+            </ol>
+
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
 

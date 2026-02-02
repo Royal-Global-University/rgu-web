@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+   <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -8,17 +8,17 @@
       <div class="container" style="padding-top: 120px; position: relative;">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-          B.Sc. (H) Food Science and Technology
+          B.Sc. (H) - Food Science & Technology
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - (3/ 3+1 Yrs.)
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Bio-Sciences (RSBSC)
+        Royal School of Medical and Allied Sciences (RSMAS)
       </p>
 
     </div>
@@ -28,17 +28,17 @@
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-          B.Sc. (H) Food Science and Technology
+          B.Sc. (H) - Food Science & Technology
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - (3/ 3+1 Yrs.)
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Bio-Sciences (RSBSC)
+        Royal School of Medical and Allied Sciences (RSMAS)
       </p>
 
     </div>
@@ -285,7 +285,6 @@
             </ol>
             </p>
 
-
           </div>
 
           <div id="eligibility" class="tab-content mobile-para1">
@@ -294,14 +293,17 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              10+2 in science stream or equivalent from a
-              recognized Board/ Council with English as one of
-              the subjects and Physics, Chemistry and
-              Mathematics /Biology as compulsory subjects with
-              minimum 45% marks or equivalent grade (5%
-              relaxation to SC/ST/OBC - Non-Creamy Layer)
-            </p>
+            <ol>
+              <li class="text-dark">
+                10+2 in science stream or equivalent from a
+                recognized Board/ Council with English as one of the
+                subjects and Physics, Chemistry and Mathematics
+                /Biology as compulsory subjects with minimum 45%
+                marks or equivalent grade (5% relaxation to
+                SC/ST/OBC - Non-Creamy Layer)
+
+              </li>
+            </ol>
 
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">

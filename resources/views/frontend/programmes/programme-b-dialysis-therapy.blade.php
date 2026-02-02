@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,22 +293,26 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              10+2 in science stream or equivalent from a
-              recognized Board/Council, with minimum 45%
-              marks or equivalent grade in Physics, Chemistry &
-              Biology taken together (5% relaxation to
-              SC/ST/OBC-Non-Creamy Layer)
-            </p>
+            <ol>
+              <li class="text-dark">
+                10+2 or equivalent with Physics, Chemistry, and Biology subjects.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of merit of Senior Secondary (10+2).
+              </li>
+              <li class="text-dark">
+                Lateral entry to candidates in the second year (3rd semester) who have passed a Diploma in Dialysis
+                Therapy (D.DT) from any recognized university.
+              </li>
+            </ol>
+
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
 

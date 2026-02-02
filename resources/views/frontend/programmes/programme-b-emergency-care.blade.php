@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,13 +293,14 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              10+2 in science stream or equivalent from a
-              recognized Board/Council, with minimum 45%
-              marks or equivalent grade in Physics, Chemistry &
-              Biology taken together (5% relaxation to
-              SC/ST/OBC-Non-Creamy Layer)
-            </p>
+            <ol>
+              <li class="text-dark">
+                10+2 in science stream or equivalent from a recognized Board/Council, with a minimum of 45% marks or
+                equivalent grade in Physics, Chemistry, and Biology taken together (5% relaxation for SC/ST/OBC –
+                Non-Creamy Layer).
+              </li>
+            </ol>
+
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
