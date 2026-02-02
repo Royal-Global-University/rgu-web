@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -14,7 +14,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - (3 Yrs + 1 Yr internship)
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -34,7 +34,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - (3 Yrs + 1 Yr internship)
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -293,13 +293,18 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              10+2 in science stream or equivalent from a
-              recognized Board/Council, with minimum 45%
-              marks or equivalent grade in Physics, Chemistry &
-              Biology taken together (5% relaxation to
-              SC/ST/OBC-Non-Creamy Layer)
-            </p>
+            <ol>
+              <li class="text-dark">
+                10+2 or equivalent with Physics, Chemistry, and Biology.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of merit of Senior Secondary (10+2).
+              </li>
+              <li class="text-dark">
+                Lateral entry to candidates in the second year (3rd semester) who have passed a Diploma in the same
+                discipline.
+              </li>
+            </ol>
 
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -307,9 +312,7 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+             Based on fulfillment of eligibility criteria.
             </p>
 
 

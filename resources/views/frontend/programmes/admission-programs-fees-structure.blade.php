@@ -3026,7 +3026,7 @@
                                                     <br>
                                                     <a href="{{ route('programs-Bachelor-of-Physiotherapy-BPT') }}"
                                                         class="text-primary"><span style="font-size: 16px;">Duration:
-                                                            4.6
+                                                            5
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -7197,7 +7197,7 @@
                                                     <br>
                                                     <a href="{{ route('programs-Bachelor-of-Physiotherapy-BPT') }}"
                                                         class="text-primary"><span style="font-size: 16px;">Duration:
-                                                            4.6
+                                                            5
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
