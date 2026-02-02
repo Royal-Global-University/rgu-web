@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -293,21 +293,26 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
-              BMLT from a recognized University & with
-              minimum 6 months internship with minimum 45%
-              marks in aggregate or equivalent grade (5%
-              relaxation to SC/ST/OBC – Non-Creamy Layer)
-            </p>
+            <ol>
+              <li class="text-dark">
+                Passed Bachelor of Medical Laboratory Science (B.MLS) on a regular mode from a recognized University.
+              </li>
+              <li class="text-dark">
+                Admission on the basis of entrance examinations conducted by the University.
+              </li>
+              <li class="text-dark">
+                Postgraduate entrance eligibility requires compulsory registration with the National Commission for
+                Allied and Healthcare Professions (NCAHP).
+              </li>
+            </ol>
+
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
 
