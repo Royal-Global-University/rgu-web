@@ -1867,7 +1867,7 @@
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Physiotherapy (BPT)
                                             </div>
-                                            <div class="rgu-program-card-duration">Duration: 4.6 Years</div>
+                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
                                         </div>
                                     </a>
                                 </div>
