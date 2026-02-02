@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Delhi University team wins 38th BCI National All India Inter-University Moot Court Competition hosted by RGU',
+                            'summary' => 'BCI Chairman M K Mishra lauds Royal Global University for hosting BCI All India
+                Moot Court Competition 2026',
+                            'date' => 'Guwahati, January 31, 2026:',
+                            'link' =>
+                                'delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu',
+                            'image' => 'mobile-assets/media-corner/news82/feb/1.jpeg',
+                            'content' => 'One of the most prestigious moot court competitions in the country—the 38th Bar Council of India (BCI)...',
+                        ],
+                        [
                             'title' => '38th BCI National All India Inter University Moot Court Competition begins at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 30, 2026:',

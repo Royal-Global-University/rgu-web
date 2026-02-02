@@ -3066,6 +3066,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu', function () {
+    return view('frontend/media-corner/news95');
+})->name('delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu');
+
 Route::get('/38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu', function () {
     return view('frontend/media-corner/news94');
 })->name('38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu');
