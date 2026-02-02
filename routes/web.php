@@ -1654,6 +1654,10 @@ Route::get('/department-sociology', function () {
     return view('frontend/school&faculty/department-sociology');
 })->name('department-sociology');
 
+Route::get('/department-pharmaceutical-science', function () {
+    return view('frontend/school&faculty/department-pharmaceutical-science');
+})->name('department-pharmaceutical-science');
+
 Route::get('/department-pharmacy', function () {
     return view('frontend/school&faculty/department-pharmacy');
 })->name('department-pharmacy');
@@ -2698,6 +2702,7 @@ Route::get('/timetable-of-odd-sem-2025', function () {
 Route::get('/research-devlopment', function () {
     return view('frontend/research/research');
 })->name('research');
+
 
 Route::get('/research-preamble', function () {
     return view('frontend/research/research-preamble');

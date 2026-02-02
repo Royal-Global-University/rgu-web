@@ -452,6 +452,20 @@
 
                 <div class="col-lg-4 mb-4 mt-3">
                     <div class="card h-100 border-0 shadow-sm p-3">
+                        <img src="mobile-assets/phar/pic.png" class="img-fluid rounded"
+                            style="height:200px; object-fit:cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Pharmaceutical Sciences</h5>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
+                                    href="department-pharmaceutical-science">Department</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4 mt-3">
+                    <div class="card h-100 border-0 shadow-sm p-3">
                         <img src="assets/img/school-rgu/travel.jpeg" class="img-fluid rounded"
                             style="height:200px; object-fit:cover;">
                         <div class="card-body d-flex flex-column">
