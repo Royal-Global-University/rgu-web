@@ -1980,7 +1980,7 @@
                                     <a href="https://www.rgu.ac/programs-b-optometry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B. Optometry</div>
-                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
                                         </div>
                                     </a>
                                 </div>

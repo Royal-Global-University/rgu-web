@@ -3143,7 +3143,7 @@
                                                         Optometry</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-optometry') }}"
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 5
                                                             years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -7314,7 +7314,7 @@
                                                         Optometry</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-optometry') }}"
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 5
                                                             years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
