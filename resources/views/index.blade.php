@@ -864,11 +864,11 @@
                     </section>
                 </section>
 
-                <div class="gg1920-carousel-slide">
+                {{-- <div class="gg1920-carousel-slide">
                     <img src="mobile-assets/ads/icetie.jpeg"  alt="Slide 1">
-                </div>
+                </div> --}}
 
-                {{-- <section>
+                <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -927,58 +927,22 @@
                             setInterval(gg1920AutoSlide, 3000);
                         })();
                     </script>
-                </section> --}}
+                </section>
 
-
-                <!-- Convocation-slider -->
-                {{-- <div id="heroCarousel_FADE_888" class="carousel slide carousel-fade full-screen-carousel"
-                    data-bs-ride="carousel" data-bs-interval="3000" style="background-color: #000;">
-
-                    <div class="carousel-inner full-screen-carousel">
-
-                        <div class="carousel-item active">
-                            <img src="mobile-assets/events/ads/ads-1.png" class="d-block w-100"
-                                alt="Slide 1 Image">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="mobile-assets/events/ads/ads-2.png" class="d-block w-100"
-                                alt="Slide 1 Image">
-                        </div>
-
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel_FADE_888"
-                        data-bs-slide="prev" style="width: 10%;">
-                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel_FADE_888"
-                        data-bs-slide="next" style="width: 10%;">
-                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-
-                </div> --}}
-
-
-                {{-- <section>
-                    <div class="row p-3">
+                <div class="row p-3">
                         <div class="col-lg-4">
-                            <a href="/icssr-conference"><img style="border: 1px solid black"
-                                    src="/mobile-assets/confrence/icssr.jpeg" /></a>
+                            <a href="/mobile-assets/ads/foodtech.pdf"><img style="border: 1px solid black"
+                                    src="/mobile-assets/ads/food.png" /></a>
                         </div>
                         <div class="col-lg-4">
-                            <a href="https://www.rgu.ac/ncmpac-2026"><img style="border: 1px solid black"
-                                    src="/mobile-assets/TRY/sq-1.jpg" /></a>
+                            <a href="/mobile-assets/ads/maths.pdf"><img style="border: 1px solid black"
+                                    src="/mobile-assets/ads/math.png" /></a>
                         </div>
                         <div class="col-lg-4">
-                            <a href="bioe3-conference"><img style="border: 1px solid black"
-                                    src="/mobile-assets/TRY/sq-2.jpg" /></a>
+                            <a href="ICETIEDS–2026"><img style="border: 1px solid black"
+                                    src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
                         </div>
                     </div>
-
-                </section> --}}
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
