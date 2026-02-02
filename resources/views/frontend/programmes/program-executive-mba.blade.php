@@ -3,8 +3,9 @@
       <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
-       @include('frontend/components/mobileheader')
-      <div class="container" style="padding-top: 80px; position: relative;">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 120px; position: relative;"></div>
+      <div class="container">
 
         <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
           Executive MBA
@@ -13,7 +14,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 Years as per NEP
+        Duration - 02 Years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -23,7 +24,7 @@
     </div>
 
     <div class="website">
-      @include('frontend/components/aheader')
+        @include('frontend/components/aheader')
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
@@ -33,7 +34,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 Years as per NEP
+        Duration - 02 Years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -297,18 +298,7 @@
 
             <p class="text-dark">
 
-            <ol class="text-dark mobile-para1">
-              <li>A bachelor’s degree from a recognized university with a minimum of 50%.</li>
-
-              <li>Working professionals </li>
-
-              <li>Demonstrated leadership or managerial potential.</li>
-
-              <li>Entrepreneurs</li>
-
-              <li>NOC from Organization/Firm</li>
-            </ol>
-
+              Bachelor’s degree from a recognized university and as per norms of RGU
 
             </p>
 
@@ -316,18 +306,12 @@
               Selection Process
             </h2>
 
-            <p class="text-dark">
+            <ol class="text-dark">
+              <li>Submission of the application form with academic and professional credentials.</li>
+              <li>Verification of Documents & Personal Interview.</li>
+              <li>Remittance of fee & Issue of Admission Letter.</li>
 
-            <ol class="text-dark mobile-para1">
-              <li>Application form submission with academic
-                and professional credentials.</li>
-              <li>Verification of Documents & Personal
-                Interview</li>
-              <li>Remittance of fee & Issue of Admission
-                Letter</li>
             </ol>
-
-            </p>
 
             <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
 

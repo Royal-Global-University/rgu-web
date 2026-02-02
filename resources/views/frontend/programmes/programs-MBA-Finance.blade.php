@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'MBA in Assam | Royal Global University, Guwahati')
-@section('meta_description', 'Advance your career with an MBA in Finance at Royal Global University, Assam. Learn
+@section('meta_description',
+    'Advance your career with an MBA in Finance at Royal Global University, Assam. Learn
     financial management, investment strategies & corporate finance from top faculty. Apply now for a successful career in
     finance!')
 @section('meta_keywords', 'MBA in Assam')
@@ -9,7 +10,8 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div class="container" style="padding-top: 80px; position: relative;">
+            <div style="padding-top: 120px; position: relative;"></div>
+            <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900; font-size: 32px;">
                     MBA
