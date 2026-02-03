@@ -301,26 +301,61 @@
 
             <ol>
               <li class="text-dark">
-                10+2 or equivalent with Physics, Chemistry, and Biology (or Botany & Zoology) with 50% aggregate marks
-                and English as a passing subject.
+                Candidate must have passed Senior Secondary (10+2) or equivalent with Physics, Chemistry & Biology (or
+                Botany & Zoology) with 50% aggregate with English pass. However, in respect of the candidates belonging
+                to Scheduled Castes, Scheduled Tribes, or Other Backward Classes (NCL), the minimum marks obtained in
+                Physics, Chemistry, and Biology are taken together in the qualifying examination shall be 40% marks
+                instead of 50% marks for Unreserved and General-EWS Candidates. In respect of PwBD/PwD candidates the
+                minimum marks in the qualifying examination in Physics, Chemistry, and Biology (or Botany & Zoology)
+                taken together shall be 40% instead of 50%. English pass required for all categories.
               </li>
               <li class="text-dark">
-                Minimum 40% marks or equivalent for SC/ST/OBC (Non-Creamy Layer) candidates.
+                The candidate must have appeared in the National Eligibility Entrance Test (NEET) conducted by National
+                Testing Agency (NTA) for the academic year. However, there shall be no minimum qualifying marks or
+                cut-off percentile requirement for application for the admission.
               </li>
               <li class="text-dark">
-                Candidates must appear in the National Eligibility Entrance Test (NEET) conducted by the National
-                Testing Agency (NTA) for the academic year of admission.
+                Admission on the basis of NEET Merit/Marks (with no cut-off marks or cut-off percentile for application)
+                of the academic year for the admission.
+              </li>
+              <li class="text-dark">
+                For He/she has completed 17 years of age at the time of admission or will complete that age on or before
+                31 December of the year of his/her admission to the first year of the Undergraduate Allied and
+                Healthcare Course.
+              </li>
+              <li class="text-dark">
+                Medical fitness certificate is mandatory to submit and it is to be endorsed by Government medical
+                officer.
+              </li>
+              <li class="text-dark">
+                Reservation policy for admission in under graduate programs shall be as per the State/Centre Government
+                norms.
               </li>
             </ol>
 
+            <p class="text-dark" style="font-weight: 700;">Foreign students’ admission process in Under Graduate (UG):</p>
+
+            <ol>
+              <li class="text-dark">Foreign national students intending to study UG program in India, shall have to take equivalence
+                certificate of eligibility certificate from respective State Allied and Healthcare Council.</li>
+              <li class="text-dark">For Under Graduate admission of foreign national students, merit list will be based on University
+                Entrance Exam.</li>
+              <li class="text-dark">If eligibility criteria of admission is NEET appeared then the foreign national student is require
+                to appear in NEET.</li>
+              <li class="text-dark">Verification of Valid Visa and its duration of foreign national students, to be verified by
+                respective institution & University before enrolling students for program.</li>
+            </ol>
+
+            <p class="text-dark">The admission criteria shall be updated by the Commission from time to time.</p>
+
+            <p class="text-dark">Admission process shall be conducted by State/Union Territory/University.</p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
             <p class="text-dark">
-              Based on fulfillment of
-              eligibility criteria
+              Based on fulfillment of eligibility criteria
             </p>
 
             <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>

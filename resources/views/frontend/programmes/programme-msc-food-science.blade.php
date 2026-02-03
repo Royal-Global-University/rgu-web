@@ -8,7 +8,7 @@
       <div class="container" style="padding-top: 120px; position: relative;">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-          Master - Food Science & Technology
+          Master - Food Technology
         </h2>
 
       </div>
@@ -28,7 +28,7 @@
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-          Master - Food Science & Technology
+          Master - Food Technology
         </h2>
 
       </div>

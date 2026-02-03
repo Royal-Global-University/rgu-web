@@ -3085,8 +3085,8 @@
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-nutrition&dietetics') }}"
                                                         class="text-primary"><span style="font-size: 16px;">Duration:
-                                                            3/4
-                                                            Yrs as per NEP | Admission Fee: 60000.00</span></a>
+                                                            4
+                                                            Years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>85000.00</td>
@@ -7256,8 +7256,8 @@
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-nutrition&dietetics') }}"
                                                         class="text-primary"><span style="font-size: 16px;">Duration:
-                                                            3/4
-                                                            Yrs as per NEP | Admission Fee: 60000.00</span></a>
+                                                            4
+                                                            Years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>85000.00</td>
@@ -7416,8 +7416,7 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food
-                                                        Science and Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7562,7 +7561,7 @@
                                             <td>17.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #7f5539;" class="#">M.Sc. Food Science &
+                                                    <strong style="color: #7f5539;" class="#">M.Sc. Food
                                                         Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span

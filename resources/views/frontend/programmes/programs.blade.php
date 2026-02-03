@@ -1957,7 +1957,7 @@
                                                 B.Sc. – Nutrition and Dietetics
                                             </div>
                                             <div class="rgu-program-card-duration">
-                                                Duration: 3/4 Yrs as per NEP
+                                                Duration: 4 Years
                                             </div>
                                         </div>
                                     </a>
@@ -2057,7 +2057,7 @@
                                     <a href="https://www.rgu.ac/programme-bsc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Bachelor – Food Science and Technology
+                                                Bachelor – Food Technology
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
@@ -2112,7 +2112,7 @@
                                     <a href="https://www.rgu.ac/programme-msc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Master – Food Science & Technology
+                                                Master – Food Technology
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>

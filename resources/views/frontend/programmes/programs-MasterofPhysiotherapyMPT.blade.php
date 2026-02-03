@@ -296,19 +296,43 @@
               Eligibility Criteria
             </h2>
 
-            <p class="text-dark">
             <ol class="text-dark">
-              <li>Passed BPT on a regular mode from a recognized university.</li>
-              <li>Admission on the basis of entrance exams by the university.</li>
               <li>
-                Post Graduate entrance criteria requires
-                to be compulsory registered member of
-                National Commission for Allied and
-                Healthcare Professions (NCAHP).
+                Candidates must have passed Bachelor of Physiotherapy (B.PT) on regular mode from recognised university.
+              </li>
+
+              <li>
+                Admission on the basis of entrance exams by respective University.
+              </li>
+
+              <li>
+                Post Graduate entrance criteria requires to be compulsory registered member of National Commission for Allied and Healthcare Professions (NCAHP).
+              </li>
+
+              <li>
+                Medical fitness certificate is mandatory to submit and it is to be endorsed by Government medical officer.
+              </li>
+              <li>
+                Reservation policy for admission in post graduate programs shall be as per the State/Centre Government norms.
               </li>
             </ol>
-            </p>
 
+            <p class="text-dark" style="font-weight: 700;">Foreign students’ admission process in Post Graduate (PG):</p>
+
+            <ol class="text-dark">
+              <li>
+                Foreign national students intending to study PG program in India, shall have to take equivalence certificate of eligibility certificate from respective State Allied and Healthcare Council.
+              </li>
+              <li>
+                Admission of foreign national students, merit list will be based on University Entrance Exam.
+              </li>
+              <li>
+                Verification of Valid Visa and valid Visa duration of foreign national students, to be verified by respective institution & University before enrolling students for program.
+              </li>
+
+            </ol>
+
+             <p class="text-dark">Admission process shall be conducted by State/Union Territory/University.</p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
