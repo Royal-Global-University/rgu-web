@@ -5,14 +5,19 @@
 @section('content')
       <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-      <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
-        M.A. Clinical Psychology
-      </h2>
+    <div class="mobile" style="padding-top: 120px; position: relative;">
+@include('frontend/components/mobileheader')
+
+      <div class="container">
+
+        <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
+          MA - Clinical Psychology
+        </h2>
+
+      </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 Years
+        Duration - 02 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -22,13 +27,18 @@
     </div>
 
     <div class="website">
-        @include('frontend/components/aheader')
-      <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-        M.A. Clinical Psychology
-      </h2>
+@include('frontend/components/aheader')
+
+      <div class="container">
+
+        <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
+          MA - Clinical Psychology
+        </h2>
+
+      </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 Years
+        Duration - 02 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -265,7 +275,7 @@
             </p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              B.) Programmes fee to be paid Yearly / semester payment for New Students 2025-26
+              B.) Programmes fee to be paid yearly/ semester payment for New Students 2026-27
             </h2>
 
             <p class="mobile-para1 text-dark">
@@ -289,26 +299,41 @@
             </h2>
 
             <p class="mobile-para1 text-dark">
-              Eligibility Criteria: Students who have completed 4 years B. A./B.Sc. degree in Psychology from a
-              university recognized by the UGC with a minimum of 55% marks in aggregate. For SC/ST category, minimum of
-              50% marks in aggregate is essential, as per Government of India.
-            </p>
 
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
+            <p class="text-dark">
+              B.A./B.Sc. (4-year) degree in Psychology from a
+              UGC-recognized university with a minimum of
+              55% marks (5% relaxation for SC/ST/OBC–Non-
+              Creamy Layer).
+              Candidates with a 3-year Psychology degree must
+              successfully complete either the 4th-year Bridge
+              Course or the first year of a Master’s programme in
+              Psychology, with a minimum of 55% marks
 
-            <p class="mobile-para1 text-dark">
-              Candidates who have completed 3 years graduation programme shall have to pass 4th year Bridge Course or 1
-              year of Masters Programme in Psychology with minimum of 55% of marks.
             </p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Selection Procedure
+              Selection Process
             </h2>
 
-            <p class="mobile-para1 text-dark">
-              A selection committee that includes the Head of the Department of Clinical Psychology shall select the
-              candidates based on the entrance examination, consisting of a written test and interview. The weightage of
-              entrance test shall be 70% whereas the interview will be of 30%.
+            <p class="text-dark">
+
+              An entrance test conducted
+              by Royal Global University
+              followed by and Personal
+              Interview
+
+            </p>
+
+            <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
+
+            <p class="text-dark">
+
+              10+3 - Years Diploma, recognized by Central/State Government with minimum 45% marks or equivalent grade in
+              aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) along with Mathematics as compulsory subjects.
+
+            </p> -->
+
             </p>
 
           </div>
@@ -319,7 +344,8 @@
               style="padding: 15px 20px; border: 1px solid #e68a1a; border-radius: 10px; background-color: #FFF8F0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
               <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
-              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2" href="mobile-assets/Domestic/brochure%20for%20web_compressed-min.pdf">Download Brochure <i
+              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
+                href="https://www.rgu.ac/mobile-assets/Domestic/MA-ClinicalPsychology.pdf">Download Brochure <i
                   class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
             </div>
 
@@ -488,6 +514,10 @@
               </div>
 
             </div>
+
+
+
+
 
 
           </div>

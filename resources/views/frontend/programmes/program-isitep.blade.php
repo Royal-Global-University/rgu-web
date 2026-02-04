@@ -1,12 +1,13 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
+    <div class="mobile" style="padding-top: 120px; position: relative;">
+@include('frontend/components/mobileheader')
+
       <div class="container">
 
-        <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
+        <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
           Integrated Special and Inclusive Teacher Education Programme (ISITEP)
         </h2>
 
@@ -23,7 +24,7 @@
     </div>
 
     <div class="website">
-        @include('frontend/components/aheader')
+@include('frontend/components/aheader')
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
@@ -297,7 +298,7 @@
 
             <p class="text-dark">
 
-              12+2 or equivalent from a recognized Board/ Council with minimum 45% marks or equivalent grade (5%
+              10+2 or equivalent from a recognized Board/ Council with minimum 45% marks or equivalent grade (5%
               relaxation to SC/ST/OBC - Non-Creamy Layer).
 
             </p>
@@ -308,8 +309,10 @@
 
             <p class="text-dark">
 
-              An Entrance Test will be conducted and selection into the program will be determined
-              on the basis of marks obtained in entrance test conducted by the university.
+              An entrance test conducted
+              by Royal Global University
+              followed by and Personal
+              Interview
 
             </p>
 
@@ -326,15 +329,15 @@
 
           </div>
 
-          <div id="brochure" class="tab-content mobile-para1">
+        <div id="brochure" class="tab-content mobile-para1">
 
             <div
               style="padding: 15px 20px; border: 1px solid #e68a1a; border-radius: 10px; background-color: #FFF8F0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
               <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
-              <!-- <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
+              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
                 href="https://www.rgu.ac/mobile-assets/Domestic/BA-Applied-Psychology.pdf">Download Brochure <i
-                  class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a> -->
+                  class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
             </div>
 
 

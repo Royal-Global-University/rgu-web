@@ -1,20 +1,23 @@
 @extends('frontend.master')
 @section('title', 'admission for bsc chemistry : The Assam Royal Global University')
-@section('meta_description', 'Secure your spot in the B.Sc Chemistry program at Royal Global University—hands-on lab
+@section('meta_description',
+    'Secure your spot in the B.Sc Chemistry program at Royal Global University—hands-on lab
     experience, expert faculty, and a future-ready curriculum.')
 @section('meta_keywords', 'admission for bsc chemistry')
 @section('content')
     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
         <div class="mobile">
+
             @include('frontend/components/mobileheader')
-            <h2 class="mobile-headd1 fw-bold text-center pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            <div style="padding-top: 120px; position: relative;"></div>
+
+            <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
                 B.Sc. - Chemistry
             </h2>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Duration - 3/4 Years as per NEP
+                Duration - 3/3+1 Years
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -25,12 +28,13 @@
 
         <div class="website">
             @include('frontend/components/aheader')
+
             <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
                 B.Sc. - Chemistry
             </h2>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Duration - 3/4 Years as per NEP
+                Duration - 3/3+1 Years
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
