@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Study M.A. J&MC program : The Assam Royal Global University')
-@section('meta_description', 'Enroll in the M.A. J&MC program at Royal Global University, Assam. Gain hands-on media
+@section('meta_description',
+    'Enroll in the M.A. J&MC program at Royal Global University, Assam. Gain hands-on media
     training, expert guidance, and launch a successful career in journalism and communication.')
 @section('meta_keywords', ' M.A- j&mc')
 @section('content')
@@ -8,7 +9,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div class="container" style="padding-top: 80px; position: relative;">
+            <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
                     MA - J&MC
@@ -300,21 +301,20 @@
                         <p class="mobile-para1 text-dark">
 
                         <p class="text-dark">
-                            Bachelor’s Degree in relevant field from any recognized University/Institution with minimum 45%
-                            marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
+                            Bachelor’s Degree in relevant field from any
+                            recognized University/Institution with minimum 45%
+                            marks or equivalent grade (5% relaxation to
+                            SC/ST/OBC – Non-Creamy Layer) <br>
+                            Or <br>
+                            A Bachelor’s Degree in any field with 1-year diploma in
+                            relevant field, from any recognized
+                            University/Institution with minimum 45% marks or
+                            equivalent grade (5% relaxation to SC/ST/OBC – NonCreamy Layer)
+
+
                         </p>
 
-                        <p class="text-dark fw-bold">
-                            OR
-                        </p>
 
-                        <p class="text-dark">
-                            A Bachelor’s Degree in any field with 1-year diploma in relevant field, from any recognized
-                            University/Institution with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC –
-                            Non-Creamy
-                            Layer)
-                        </p>
 
                         <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
                             Selection Process

@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Join MSc Courses at Royal Global University – Advance Your Career in Science')
-@section('meta_description', 'Join MSc courses at Royal Global University to gain advanced knowledge and practical
+@section('meta_description',
+    'Join MSc courses at Royal Global University to gain advanced knowledge and practical
     skills in science. Boost your career prospects with expert faculty and modern facilities.')
 @section('meta_keywords', 'MSC')
 @section('content')
@@ -8,7 +9,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div class="container" style="padding-top: 80px; position: relative;">
+            <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
                     M.Sc. - Animation & Visual Effects
@@ -27,9 +28,9 @@
         </div>
 
         <div class="website">
-
+            @include('frontend/components/aheader')
             <div class="container">
-                @include('frontend/components/aheader')
+
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
                     M.Sc. - Animation & Visual Effects
                 </h2>
@@ -300,13 +301,10 @@
                         <p class="mobile-para1 text-dark">
 
                         <p class="text-dark">
-                            Bachelor’s Degree in relevant field from any recognized University/Institutionwith minimum 45%
-                            marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer) Or A Bachelor’s Degree in any
-                            field with
-                            1-year diploma in relevant field, from any recognized University/Institution with minimum 45%
-                            marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
+                            Bachelor’s Degree in any field from recognized
+                            University/Institution with minimum 45% marks or
+                            equivalent grade (5% relaxation to SC/ST/OBC – NonCreamy Layer)
+
                         </p>
 
                         <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">

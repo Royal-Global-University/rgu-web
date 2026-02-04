@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -34,7 +34,7 @@
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 4 years
+        Duration - 2 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -296,11 +296,11 @@
 
             <p class="text-dark">
               Bachelor's Degree with Assamese Honours or a
-              bachelor’s degree with Assamese (MIL) as a
-              subject from any recognized
-              University/Institution with minimum 45%
-              marks or equivalent grade (5% relaxation to
-              SC/ST/OBC – Non-Creamy Layer).
+              bachelor’s degree with Assamese (MIL) as a subject
+              from any recognized University/Institution with
+              minimum 45% marks or equivalent grade (5%
+              relaxation to SC/ST/OBC – Non-Creamy Layer).
+
             </p>
 
 
@@ -309,9 +309,10 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+              Based on overall
+              performance in last
+              examination followed by
+              Personal Interview.
             </p>
 
 

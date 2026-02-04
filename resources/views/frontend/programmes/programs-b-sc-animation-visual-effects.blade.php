@@ -1,23 +1,24 @@
 @extends('frontend.master')
 @section('content')
 @section('title', 'Study BSc Animation & Visual Effects at Royal Global University | Top Creative Program in Assam')
-@section('meta_description', 'Explore BSc Animation & Visual Effects at Royal Global University, Assam. Learn
+@section('meta_description',
+    'Explore BSc Animation & Visual Effects at Royal Global University, Assam. Learn
     cutting-edge techniques from industry experts and kickstart your career in animation and VFX.')
 @section('meta_keywords', ' BSC Animation & Visual Effects')
 <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div class="container" style="padding-top: 80px; position: relative;">
+        <div class="container" style="padding-top: 120px; position: relative;">
 
             <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                B.Sc. - Animation & Visual Effects
+                B.Sc. (H) - Animation and Visual Effects
             </h2>
 
         </div>
 
         <p class="mobile-headd1 text-center" style="color: #24477f;">
-            Duration - 04 years as per NEP
+            Duration - 3/3+1 years
         </p>
 
         <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -31,13 +32,13 @@
         <div class="container">
 
             <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                B.Sc. - Animation & Visual Effects
+                B.Sc. (H) - Animation and Visual Effects
             </h2>
 
         </div>
 
         <p class="mobile-headd1 text-center" style="color: #24477f;">
-            Duration - 04 years as per NEP
+            Duration - 3/3+1 years
         </p>
 
         <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -300,9 +301,9 @@
                     <p class="mobile-para1 text-dark">
 
                     <p class="text-dark">
-                        10+2 in any stream or equivalent from a recognized Board /Council with minimum 45% marks or
-                        equivalent
-                        grade (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
+                        10+2 in any stream or equivalent from a recognized
+                        Board /Council with minimum 45% marks or
+                        equivalent grade (5% relaxation to SC/ST/OBC - NonCreamy Layer)
                     </p>
 
                     <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">

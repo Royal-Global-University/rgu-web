@@ -1,14 +1,15 @@
 @extends('frontend.master')
 @section('title', 'Study B.A. J&MC at Royal Global University | Top Media University in Assam')
-@section('meta_description', 'Join the B.A. J&MC program at Royal Global University, Assam. Get expert faculty guidance,
+@section('meta_description',
+    'Join the B.A. J&MC program at Royal Global University, Assam. Get expert faculty guidance,
     practical media skills, and excellent career opportunities in journalism and mass communication.')
 @section('meta_keywords', 'B.A - j& MC')
 @section('content')
     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
-        <div class="mobile">
+        <div class="mobile" >
             @include('frontend/components/mobileheader')
-            <div class="container" style="padding-top: 80px; position: relative;">
+            <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
                     BA - J&MC
@@ -17,7 +18,7 @@
             </div>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Duration - 04 years as per NEP
+                Duration - 3/ 3+1 years
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -37,7 +38,7 @@
             </div>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Duration - 04 years as per NEP
+                Duration - 3/ 3+1 years
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -300,9 +301,10 @@
                         <p class="mobile-para1 text-dark">
 
                         <p class="text-dark">
-                            Bachelor’s Degree in relevant field from any recognized University/Institution with minimum 45%
-                            marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
+                            10+2 or equivalent from a recognized Board/ Council
+                            with minimum 45% marks or equivalent grade (5%
+                            relaxation to SC/ST/OBC – Non-Creamy Layer)
+
                         </p>
 
                         <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -593,5 +595,4 @@
         </div>
 
     </div>
-
 @endsection
