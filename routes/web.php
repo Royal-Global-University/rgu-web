@@ -3071,6 +3071,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu', function () {
+    return view('frontend/media-corner/news96');
+})->name('chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu');
+
 Route::get('/delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu', function () {
     return view('frontend/media-corner/news95');
 })->name('delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu');

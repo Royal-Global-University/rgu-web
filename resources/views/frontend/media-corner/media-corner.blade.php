@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Chancellor’s Appreciation & Felicitation Ceremony Celebrates Excellence at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, February 4, 2026:',
+                            'link' =>
+                                'chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news82/pro/1.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) organised the “Chancellor’s Appreciation & Felicitation Ceremony” yesterday, celebrating outstanding achievements of students and faculty members who have brought laurels to the University through excellence in academics, research, innovation, sports and national service.',
+                        ],
+                        [
                             'title' => 'Delhi University team wins 38th BCI National All India Inter-University Moot Court Competition hosted by RGU',
                             'summary' => 'BCI Chairman M K Mishra lauds Royal Global University for hosting BCI All India
                 Moot Court Competition 2026',
