@@ -2767,7 +2767,7 @@
                                   </section>
                                 </section> -->
 
-                <div id="bos" class="container pb-2 pt-2">
+                <div id="bos" class="container pb-2 pt-5">
 
                     <!-- Container -->
                     <div id="drc" style="margin:0 auto;">
@@ -3742,7 +3742,7 @@
                                                     <td>Prof. (Dr.) Bipul Nath</td>
                                                     <td>Professor, Royal School of Pharmacy</td>
                                                     <td>Member (Faculty)</td>
-                                                    
+
                                                 </tr>
 
                                                 <tr>
@@ -3750,7 +3750,7 @@
                                                     <td>Dr. Ayesha A.K Choudhury</td>
                                                     <td>Assistant Professor, Royal School of Pharmacy</td>
                                                     <td>Member (Faculty)</td>
-                                                    
+
                                                 </tr>
 
                                                 <tr>
@@ -3758,7 +3758,7 @@
                                                     <td>Ms. Payal Dasgupta</td>
                                                     <td>Assistant Professor, Royal School of Pharmacy</td>
                                                     <td>Member (Faculty)</td>
-                                                    
+
                                                 </tr>
 
                                                 <tr>
@@ -3766,7 +3766,7 @@
                                                     <td>Mr. Bhaskar J. Pathak</td>
                                                     <td>Assistant Professor, Royal School of Pharmacy</td>
                                                     <td>Member (Faculty)</td>
-                                                    
+
                                                 </tr>
 
                                                 <tr>
@@ -3774,7 +3774,7 @@
                                                     <td>Ms. Empee Chetia</td>
                                                     <td>Student, Royal School of Pharmacy</td>
                                                     <td>Member (Student)</td>
-                                                    
+
                                                 </tr>
 
                                                 <tr>
@@ -3782,7 +3782,7 @@
                                                     <td>Mr. Amit Kumar Singh</td>
                                                     <td>Student, Royal School of Pharmacy</td>
                                                     <td>Member (Student)</td>
-                                                    
+
                                                 </tr>
 
                                             </tbody>
