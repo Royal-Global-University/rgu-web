@@ -201,7 +201,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
                             <p class="card-designation">Associate Professor & HoD</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pronami-bhattacharyya" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -213,7 +213,7 @@
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
                             <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-baishalee-rajkhowa" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -228,7 +228,7 @@
                             <p class="card-designation">Associate Professor
 
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-stuti-goswami" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -257,7 +257,7 @@
                             <p class="card-designation">Assistant Professor
 
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-bisalakshi-sawarni" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -287,7 +287,7 @@
                             <p class="card-designation">Assistant Professor
 
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-jasmine-a-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -317,7 +317,7 @@
                             <p class="card-designation">Assistant Professor
 
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-prabuddha-ghosh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -547,7 +547,7 @@
               </div>
               <h3 class="card-name">Dr. Bisalakshi Sawarni</h3>
               <p class="card-designation">Assistant Professor</p>
-              <!-- <a href="" class="profile-link">View Profile</a> -->
+              <a href="/faculty-bisalakshi-sawarni" class="profile-link">View Profile</a>
             </div>
           </div>
 

@@ -408,7 +408,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Bisalakshi Sawarni</h3>
                                 <p class="card-designation">Assistant Professor, Department of English, RSL</p>
-
+                                <a href="/faculty-bisalakshi-sawarni" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

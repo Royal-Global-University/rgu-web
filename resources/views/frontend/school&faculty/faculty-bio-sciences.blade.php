@@ -306,7 +306,7 @@
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
                             <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-baishalee-rajkhowa" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -3661,6 +3661,30 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
 
 //RSL Faculty Profile.
 
+Route::get('/faculty-stuti-goswami', function () {
+    return view('frontend/facultyprofile/rsl/stuti-goswami');
+})->name('faculty-stuti-goswami');
+
+Route::get('/faculty-pronami-bhattacharyya', function () {
+    return view('frontend/facultyprofile/rsl/pronami-bhattacharyya');
+})->name('faculty-pronami-bhattacharyya');
+
+Route::get('/faculty-prabuddha-ghosh', function () {
+    return view('frontend/facultyprofile/rsl/prabuddha-ghosh');
+})->name('faculty-prabuddha-ghosh');
+
+Route::get('/faculty-jasmine-a-choudhury', function () {
+    return view('frontend/facultyprofile/rsl/jasmine-a-choudhury');
+})->name('faculty-jasmine-a-choudhury');
+
+Route::get('/faculty-bisalakshi-sawarni', function () {
+    return view('frontend/facultyprofile/rsl/bisalakshi-sawarni');
+})->name('faculty-bisalakshi-sawarni');
+
+Route::get('/faculty-baishalee-rajkhowa', function () {
+    return view('frontend/facultyprofile/rsl/baishalee-rajkhowa');
+})->name('faculty-baishalee-rajkhowa');
+
 Route::get('/faculty-uday-shankar', function () {
     return view('frontend/facultyprofile/rsl/uday-shankar');
 })->name('faculty-uday-shankar');
