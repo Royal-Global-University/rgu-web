@@ -1,19 +1,19 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
-
-      <div class="container" style="padding-top: 120px; position: relative;">
+      <div style="padding-top: 120px; position: relative;" class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-          M.Des. - Fashion Design (FD)
+          Master of Design - Fashion Design
         </h2>
+
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 2 years
+        Duration - 02 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -27,13 +27,13 @@
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-          M.Des. - Fashion Design (FD)
+          Master of Design - Fashion Design
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 2 years
+        Duration - 02 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -286,18 +286,17 @@
 
 
           </div>
-
-          <div id="eligibility" class="tab-content mobile-para1">
+             <div id="eligibility" class="tab-content mobile-para1">
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Eligibility Criteria
             </h2>
 
+            <p class="mobile-para1 text-dark">
+
             <p class="text-dark">
-              Bachelor’s Degree in Fashion Design or in any
-              relevant field/discipline from any recognized
-              University/Institution with minimum 45% marks
-              or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
+              Bachelor's Degree in Fashion Design or in any relevant field/discipline
+               from any recognized University/Institution with minimum 45% marks or equivalent  grade(5% relaxation to SC/ST/OBC – Non-Creamy Layer.)
             </p>
 
 
@@ -306,11 +305,14 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance
-              in last examination followed
-              by Personal Interview.
+
+              Based on overall performance in last examination followed by Personal Interview.
+
             </p>
 
+
+
+            </p>
 
           </div>
 
@@ -320,7 +322,9 @@
               style="padding: 15px 20px; border: 1px solid #e68a1a; border-radius: 10px; background-color: #FFF8F0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
               <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
-              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2" href="#">Download Brochure
+              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
+                href="https://www.rgu.ac/mobile-assets/Domestic/Bachelor_Design(Fashion_Design)(B.Des.FD).pdf">Download
+                Brochure
                 <i class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
             </div>
 
@@ -575,4 +579,5 @@
     </div>
 
   </div>
+
 @endsection
