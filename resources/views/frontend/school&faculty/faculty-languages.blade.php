@@ -284,7 +284,7 @@
                             </div>
                             <h3 class="card-name">Dr. Jasmine A Choudhury
                             </h3>
-                            <p class="card-designation">Assistant Professor
+                            <p class="card-designation">Associate Professor
 
                             </p>
                             <a href="/faculty-jasmine-a-choudhury" class="profile-link">View Profile</a>

@@ -130,7 +130,7 @@
                                             Dr. Rajdeep Nag
                                         </h5>
                                         <p class="para1 text-dark">
-                                            Assistant Professor, RSC
+                                            Associate Professor, RSC
                                         </p>
 
                                         <p class="para1 fw-bold" style="color: #264273;">
@@ -346,7 +346,7 @@
                                 Dr. Rajdeep Nag
                             </h5>
                             <p class="para1 text-dark">
-                                Assistant Professor, RSC
+                                Associate Professor, RSC
                             </p>
 
                             <p class="para1 fw-bold" style="color: #264273;">

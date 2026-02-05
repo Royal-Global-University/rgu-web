@@ -179,7 +179,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Rajdeep Nag</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a>
                         </div>
                     </div>

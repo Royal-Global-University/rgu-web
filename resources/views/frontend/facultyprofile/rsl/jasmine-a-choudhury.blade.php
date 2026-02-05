@@ -190,7 +190,7 @@
                Dr. Jasmine A Choudhury
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-               Assistant Professor, Coordinator of Communicative English (CEN), Member of Consultancy Cell
+               Associate Professor, Coordinator of Communicative English (CEN), Member of Consultancy Cell
               </h2>
             </div>
           </div>
@@ -212,7 +212,7 @@
                 Dr. Jasmine A Choudhury
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Assistant Professor, Coordinator of Communicative English (CEN), Member of Consultancy Cell
+                Associate Professor, Coordinator of Communicative English (CEN), Member of Consultancy Cell
               </h2>
             </div>
 

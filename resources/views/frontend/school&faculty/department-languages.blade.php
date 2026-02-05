@@ -745,7 +745,7 @@
                                             Two Assistant Professors holding Ph.D. degree
                                         </td>
                                         <td>Dr. Jasmine A Choudhury</td>
-                                        <td>Assistant Professor, RSL</td>
+                                        <td>Associate Professor, RSL</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
@@ -1985,7 +1985,7 @@
                                                             Two Assistant Professors holding Ph.D. degree
                                                         </td>
                                                         <td>Dr. Jasmine A Choudhury</td>
-                                                        <td>Assistant Professor, RSL</td>
+                                                        <td>Associate Professor, RSL</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
