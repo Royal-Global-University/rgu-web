@@ -171,7 +171,17 @@
                         </div>
                     </div>
 
-
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Mukta-Agrawal.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Mukta Agrawal</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-mukta-agarwal" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
 
                     <!-- Associate Professor -->
                     <div class="col-lg-3 col-md-6 mb-4">
@@ -233,19 +243,6 @@
                             <a href="https://www.rgu.ac/moidul-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Mukta-Agrawal.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Mukta Agrawal</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-mukta-agarwal" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -370,36 +367,7 @@
                         </div>
                     </div>
 
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Tanmay-Sarma-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Tanmay Sarma</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-tanmay-sarma" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Miss-Tina-Bania-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Miss. Tina Bania</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-tina-bania" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-
                     <!-- Assistant Professors -->
-
-
-
 
                 </div>
                 <!-- regular faculty  -->

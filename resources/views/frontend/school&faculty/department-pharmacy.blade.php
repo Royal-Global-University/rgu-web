@@ -1404,7 +1404,7 @@
                                     <tr>
                                         <td>7</td>
                                         <td>Dr. Mukta Agarwal</td>
-                                        <td>Assistant Professor, RSP</td>
+                                        <td>Associate Professor, RSP</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
@@ -3645,7 +3645,7 @@
                                                     <tr>
                                                         <td>7</td>
                                                         <td>Dr. Mukta Agarwal</td>
-                                                        <td>Assistant Professor, RSP</td>
+                                                        <td>Associate Professor, RSP</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
