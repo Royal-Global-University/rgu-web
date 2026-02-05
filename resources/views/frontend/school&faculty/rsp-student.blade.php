@@ -3,11 +3,13 @@
   <section style="background-color: #FFF8F0;">
 
         <div class="mobile">
+            @include('frontend/components/mobileheader')
             <h2 class="text-center pt-5 pb-2" style="color: #254274; font-size: 30px; font-weight: 700;">Student <span
                     style="color: #FF9A1E;"> List</span>
         </div>
 
         <div class="website">
+            @include('frontend/components/aheader')
             <h2 class="text-center pt-5 pb-2" style="color: #254274; font-size: 45px; font-weight: 700;">Student <span
                     style="color: #FF9A1E;"> List</span>
             </h2>
@@ -19,8 +21,8 @@
             <div class="rgu-year-tabs-wrap">
                 <div class="rgu-year-tabs">
 
-                    <div class="rgu-year-pill active" data-year="2025">2025-2026</div>
-                    <div class="rgu-year-pill" data-year="2024">2024-2025</div>
+                    <div class="rgu-year-pill active bg-danger pt-2 pb-2 text-center" style="color: #fff; font-size: 24px;" data-year="2025">2025-2026</div>
+
 
                 </div>
             </div>
@@ -1365,6 +1367,8 @@
                     </table>
                 </div>
             </div>
+
+            <div class="rgu-year-pill active bg-danger pt-2 pb-2 text-center" style="color: #fff; font-size: 24px;" data-year="2024">2024-2025</div>
 
             <div class="rgu-year-table" id="year-2024">
                 <div class="table-responsive">
