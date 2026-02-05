@@ -3793,6 +3793,11 @@ Route::get('/faculty-Diksha-Dutta', function () {
 })->name('faculty-Diksha-Dutta');
 
 //RSP Faculty Profile
+
+Route::get('/rsp-student-list', function () {
+    return view('frontend/school&faculty/rsp-student');
+})->name('rsp-student-list');
+
 Route::get('/faculty-anju-das', function () {
     return view('frontend/facultyprofile/rsp/anju-das');
 })->name('faculty-anju-das');
