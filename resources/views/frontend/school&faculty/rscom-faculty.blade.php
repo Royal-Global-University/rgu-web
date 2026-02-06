@@ -454,6 +454,7 @@
                             </h3>
                             <p class="card-designation">Assistant Professor
                             </p>
+                            <a href="/faculty-chandni-khaund" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -511,7 +512,7 @@
                             </div>
                             <h3 class="card-name">Mr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -523,7 +524,7 @@
                             </div>
                             <h3 class="card-name">Mr. Prasant Mali</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-bio-sciences" class="profile-link">View Profile</a>
+                            <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

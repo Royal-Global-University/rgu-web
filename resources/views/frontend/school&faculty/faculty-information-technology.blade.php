@@ -426,7 +426,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor, Department of English, RSL</p>
-
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

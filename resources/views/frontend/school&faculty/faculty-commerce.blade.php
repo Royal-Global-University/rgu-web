@@ -158,6 +158,18 @@
                         </div>
                     </div>
 
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Rajdeep Nag</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
                     <!-- Assistant Professors (A–Z) -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
@@ -181,18 +193,6 @@
                             <h3 class="card-name">Dr. Padum Chetry</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-padum-chetry" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rajdeep Nag</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -452,7 +452,7 @@
                             </div>
                             <h3 class="card-name">Mr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

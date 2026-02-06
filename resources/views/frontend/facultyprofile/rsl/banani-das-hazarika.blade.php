@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {

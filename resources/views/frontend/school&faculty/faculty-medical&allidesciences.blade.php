@@ -403,7 +403,7 @@
                                 </div>
                                 <h3 class="card-name">Mr. Prasant Mali</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <a href="" class="profile-link">View Profile</a>
+                                <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -987,7 +987,7 @@
                             </div>
                             <h3 class="card-name">Mr. Prasant Mali</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-applied-purescience" class="profile-link">View Profile</a>
+                            <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1414,7 +1414,7 @@
                                 </div>
                                 <h3 class="card-name">Ms. Chandni Khaund</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-chandni-khaund" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -1804,7 +1804,7 @@
                             </div>
                             <h3 class="card-name">Prasant Mali</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

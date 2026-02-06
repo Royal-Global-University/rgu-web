@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {
@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Amlandeep.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg"
                 alt="">
             </div>
           </div>
@@ -186,10 +186,10 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-                Prof. Amlandeep Das
+                Prof. (Dr.) Indrani Singh Rai
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                Professor
+                 Professor & Dean
               </h2>
             </div>
           </div>
@@ -208,62 +208,77 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                Prof. Amlandeep Das
+               Prof. (Dr.) Indrani Singh Rai
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Professor
+               Professor & Dean
               </h2>
             </div>
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>MA (English) - Gauhati University</span></li>
-              <li><i class="fa fa-circle"></i> <span>BA (English) - Cotton College</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. (English - Subaltern Studies) Pt. Ravishankar Shukla University</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.Phil (English) Pt. Ravishankar Shukla University</span></li>
+              <li><i class="fa fa-circle"></i> <span>MA (English Literature) Pt. Ravishankar Shukla University</span></li>
+              <li><i class="fa fa-circle"></i> <span>MA (Linguistics) Pt. Ravishankar Shukla University</span></li>
+             <li><i class="fa fa-circle"></i> <span>BA (English Literature) Calcutta University</span></li>
+
+
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>33 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>26 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>33 years</span></li>
-            </ul>
-
-            <h2 class="faculty-bio-sub-heading">Industry Experience:</h2>
-            <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Did English subtitles of Zubeen Garg’s movies Mission China (2017) and Kanchanjangha: Rise (2019).</span></li>
-              <li><i class="fa fa-circle"></i> <span>President of Governing Body KC Das Commerce College, Ghy, 2020 to the present.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Former Member of The Board of Governers, National Law University and Judicial Academy, Ghy, 2020-2025</span></li>
-              <li><i class="fa fa-circle"></i> <span>Was responsible for setting up Pragjyotishpur University, Hajongbori, PO-Chandrapur, 2022-2024, as Secretary of the Trust Sankardev Education and Research Foundation</span></li>
-              <li><i class="fa fa-circle"></i> <span>Former National Executive Member of Vidya Bharati Uchcha Shiksha Sansthan, 2018-2022</span></li>
-              <li><i class="fa fa-circle"></i> <span>Represented Assam Cricket team in the C.K. Nayudu U-19 Trophy, twice, 1975, 1976 as Vice-Captain.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Was selected in the East Zone Schools’ Team as Opening Batchman, 1975.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Currently the Top Seed in Men’s 45+ and 55+ in Tennis of the state.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Represented Assam Men’s Team in the Pickleball Nationals 2025, held at Bangalore</span></li>
-              <li><i class="fa fa-circle"></i> <span>Won the Best Singer Award in Western Music for three consecutive years at Cotton College, during the College Week festivals as a student.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Regular Singer at All India Radio Yuva Vani Programmes in Western Vocals in 1980s.</span></li>
-
+              <li><i class="fa fa-circle"></i> <span>26 years</span></li>
             </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Poetry, Music, Drama, 17th Century and Postmodern Poetry</span></li>
+              <li><i class="fa fa-circle"></i> <span>Indian English Literature, South-Asian Literature, Cultural Studies. Indian Aesthetics</span></li>
+
             </ul>
 
-            <h2 class="faculty-bio-sub-heading">Books Edited:</h2>
+            <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Edited the Assamese and English bi-lingual literary and cultural magazine published in London, Luitor Pora Thamesoloi, 2012-2022</span></li>
+              <li><i class="fa fa-circle"></i> <span>National:2</span></li>
+              <li><i class="fa fa-circle"></i> <span>International:52</span></li>
             </ul>
+
+            <h2 class="faculty-bio-sub-heading">Patents Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>01</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>14</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Books Edited: </h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>02</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>01</span></li>
+            </ul>
+
 
 
             <h2 class="faculty-bio-sub-heading">Any Other Achievement/Award:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Worldwide Fund for Nature (WWF), Advisor from North East India</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ramesh-Uma Mehrotra Gold Medal for securing highest marks in PG by Pt. Ravishankar Shukla University, Raipur</span></li>
             </ul>
+
+
+
 
           </div>
         </div>

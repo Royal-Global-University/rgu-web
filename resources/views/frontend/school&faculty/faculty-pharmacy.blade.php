@@ -395,7 +395,7 @@
                             </div>
                             <h3 class="card-name">Mr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor</p>
-
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

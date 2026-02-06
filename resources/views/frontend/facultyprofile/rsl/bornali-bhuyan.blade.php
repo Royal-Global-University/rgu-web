@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {
@@ -259,12 +259,10 @@
               <li><i class="fa fa-circle"></i> <span>Edited the Assamese and English bi-lingual literary and cultural magazine published in London, Luitor Pora Thamesoloi, 2012-2022</span></li>
             </ul>
 
-
             <h2 class="faculty-bio-sub-heading">Any Other Achievement/Award:</h2>
             <ul class="faculty-bio-info-list">
               <li><i class="fa fa-circle"></i> <span>Worldwide Fund for Nature (WWF), Advisor from North East India</span></li>
             </ul>
-
           </div>
         </div>
       </div>

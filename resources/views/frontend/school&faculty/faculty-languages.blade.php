@@ -116,7 +116,7 @@
                                 </div>
                                 <h3 class="card-name">Prof. (Dr.) Indrani S Rai</h3>
                                 <p class="card-designation">Professor & Dean, Royal School of Languages (RSL)</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-indrani-singh-rai" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -155,7 +155,7 @@
                             </div>
                             <h3 class="card-name">Prof. Pradip Jyoti Mahanta</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pradip-jyoti-mahanta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -189,7 +189,7 @@
                             </div>
                             <h3 class="card-name">Prof. Bornali Bhuyan</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-bornali-bhuyan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -214,6 +214,21 @@
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
                             <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="/faculty-baishalee-rajkhowa" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Jasmine-Choudhury-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Jasmine A Choudhury
+                            </h3>
+                            <p class="card-designation">Associate Professor
+
+                            </p>
+                            <a href="/faculty-jasmine-a-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -242,7 +257,7 @@
                             </h3>
                             <p class="card-designation">Assistant Professor and Associate Dean, Student Affairs
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-banani-das-hazarika" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -273,21 +288,6 @@
 
                             </p>
                             <a href="https://www.rgu.ac/faculty-debarchana-baruah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Jasmine-Choudhury-RSL.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Jasmine A Choudhury
-                            </h3>
-                            <p class="card-designation">Associate Professor
-
-                            </p>
-                            <a href="/faculty-jasmine-a-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -383,6 +383,7 @@
                             </h3>
                             <p class="card-designation">Assistant Professor
                             </p>
+                            <a href="/faculty-chandni-khaund" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -396,6 +397,7 @@
                             </h3>
                             <p class="card-designation">Assistant Professor
                             </p>
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -408,8 +410,8 @@
                             <h3 class="card-name">Mr. Prasant Mali
                             </h3>
                             <p class="card-designation">Assistant Professor
-
                             </p>
+                            <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4">
