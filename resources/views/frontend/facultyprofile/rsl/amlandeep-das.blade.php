@@ -189,7 +189,7 @@
                 Prof. Amlandeep Das
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                Professor
+                Professor & Associate Dean, Student Affairs
               </h2>
             </div>
           </div>

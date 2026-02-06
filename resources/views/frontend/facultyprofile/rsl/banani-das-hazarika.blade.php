@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Amlandeep.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Banani-RSL.png"
                 alt="">
             </div>
           </div>
@@ -186,10 +186,10 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-                Prof. Amlandeep Das
+                Dr. Banani Das Hazarika
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                Professor
+                 Assistant Professor and Associate Dean, Student Affairs
               </h2>
             </div>
           </div>
@@ -208,63 +208,55 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                Prof. Amlandeep Das
+               Dr. Banani Das Hazarika
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Professor
+               Assistant Professor
               </h2>
             </div>
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>MA (English) - Gauhati University</span></li>
-              <li><i class="fa fa-circle"></i> <span>BA (English) - Cotton College</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. (English) - The Assam Royal Global University</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.A. (Linguistics) - University of Delhi</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.A. (English) - Gauhati University</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.Ed - Gauhati University</span></li>
+
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>33 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>20 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>33 years</span></li>
+              <li><i class="fa fa-circle"></i> <span>16 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Industry Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Did English subtitles of Zubeen Garg’s movies Mission China (2017) and Kanchanjangha: Rise (2019).</span></li>
-              <li><i class="fa fa-circle"></i> <span>President of Governing Body KC Das Commerce College, Ghy, 2020 to the present.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Former Member of The Board of Governers, National Law University and Judicial Academy, Ghy, 2020-2025</span></li>
-              <li><i class="fa fa-circle"></i> <span>Was responsible for setting up Pragjyotishpur University, Hajongbori, PO-Chandrapur, 2022-2024, as Secretary of the Trust Sankardev Education and Research Foundation</span></li>
-              <li><i class="fa fa-circle"></i> <span>Former National Executive Member of Vidya Bharati Uchcha Shiksha Sansthan, 2018-2022</span></li>
-              <li><i class="fa fa-circle"></i> <span>Represented Assam Cricket team in the C.K. Nayudu U-19 Trophy, twice, 1975, 1976 as Vice-Captain.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Was selected in the East Zone Schools’ Team as Opening Batchman, 1975.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Currently the Top Seed in Men’s 45+ and 55+ in Tennis of the state.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Represented Assam Men’s Team in the Pickleball Nationals 2025, held at Bangalore</span></li>
-              <li><i class="fa fa-circle"></i> <span>Won the Best Singer Award in Western Music for three consecutive years at Cotton College, during the College Week festivals as a student.</span></li>
-              <li><i class="fa fa-circle"></i> <span>Regular Singer at All India Radio Yuva Vani Programmes in Western Vocals in 1980s.</span></li>
-
+              <li><i class="fa fa-circle"></i> <span>4 years</span></li>
             </ul>
-
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Poetry, Music, Drama, 17th Century and Postmodern Poetry</span></li>
+              <li><i class="fa fa-circle"></i> <span>Linguistics, Literature, Indian English Literature, Writings from the North East India, Folk and Cultural studies</span></li>
+
             </ul>
 
-            <h2 class="faculty-bio-sub-heading">Books Edited:</h2>
+            <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Edited the Assamese and English bi-lingual literary and cultural magazine published in London, Luitor Pora Thamesoloi, 2012-2022</span></li>
+              <li><i class="fa fa-circle"></i> <span>National:1</span></li>
+              <li><i class="fa fa-circle"></i> <span>International:5</span></li>
             </ul>
 
 
-            <h2 class="faculty-bio-sub-heading">Any Other Achievement/Award:</h2>
+             <h2 class="faculty-bio-sub-heading">Any Other Achievement/Award:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Worldwide Fund for Nature (WWF), Advisor from North East India</span></li>
+              <li><i class="fa fa-circle"></i> <span>Qualified NET</span></li>
             </ul>
-
           </div>
         </div>
       </div>
