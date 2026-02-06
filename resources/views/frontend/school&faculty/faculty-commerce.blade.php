@@ -124,6 +124,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Amrit.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Amrit Pal Singh</h3>
+                            <p class="card-designation">Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Dr-Sudip-Chakraborty.png"
                                     alt="Profile image">
                             </div>
@@ -309,18 +321,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Amrit.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Amrit Pal Singh</h3>
-                            <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. Dinesh Kumar Pandiya</h3>
@@ -344,7 +344,8 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsb/3.png" alt="Profile image ">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsb/3.png"
+                                    alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. S.P. Singh</h3>
                             <p class="card-designation">Professor</p>
@@ -650,8 +651,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/ca-kamal-mour.png"
-                                    alt="Profile image">
+                                <img src="mobile-assets/updated-faculty-img/ca-kamal-mour.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Kamal Mour</h3>
                             <p class="card-designation">Visiting Faculty</p>
