@@ -409,6 +409,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('international-faq') }}">
                     <li>FAQs</li>
                 </a>
+                <a class="mobile-para1" style="color: #27467A;" href="international-admission-guidelines">
+                    <li>International Admission<br>Guidelines</li>
+                </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('frro-process') }}">
                     <li>FRRO Process</li>
                 </a>
