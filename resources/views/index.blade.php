@@ -957,7 +957,11 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/spot12.png"
+
+                                         <img class="zoomable" src="mobile-assets/events/feb-9.png"
+                                        style="width:300px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+
+                                    <img class="zoomable" src="mobile-assets/events/feb10.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/sep-15.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">

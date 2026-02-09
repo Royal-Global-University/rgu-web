@@ -146,13 +146,13 @@
                 <tr>
                     <td>14</td>
                     <td>School of Medical & Allied Sciences</td>
-                    <td><a href="mobile-assets/pdf/Medical & Allied Sciences Brochure 2026 1.pdf" target="_blank"><button
+                    <td><a href="mobile-assets/pdf/Medical & Allied Sciences.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>
                 </tr>
                 <tr>
                     <td>15</td>
                     <td>Science, Engineering & Technology</td>
-                    <td><a href="mobile-assets/pdf/Science, Engineering & Technology Brochure 2026 1.pdf" target="_blank"><button
+                    <td><a href="mobile-assets/pdf/Science, Engineering & Technology.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>
                 </tr>
 
