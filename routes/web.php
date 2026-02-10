@@ -707,6 +707,10 @@ Route::get('/games&sports', function () {
     return view('frontend/campuslife/games&sports');
 })->name('games&sports');
 
+Route::get('/bhupen-hazarika-CFC', function () {
+    return view('frontend/facilities/bhupen-hazarika-CFC');
+})->name('bhupen-hazarika-CFC');
+
 //End Campus Life
 
 //placements Life
