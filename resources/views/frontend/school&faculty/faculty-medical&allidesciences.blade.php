@@ -718,7 +718,7 @@
                                 <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a>
                             </div>
                         </div>
-
+{{-- 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
@@ -729,7 +729,7 @@
                                 <p class="card-designation">Assistant Professor</p>
                                 <a href="https://www.rgu.ac/faculty-gokul-sisir" class="profile-link">View Profile</a>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
