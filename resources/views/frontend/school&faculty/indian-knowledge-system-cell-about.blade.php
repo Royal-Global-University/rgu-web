@@ -335,7 +335,8 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body"
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                                <div class="row"
+                                                    style="display: flex; flex-direction: column; gap: 12px;">
 
                                                     <a href="mobile-assets/department-all/iks/updated-syllabus/Course-structure_IKS.pdf"
                                                         target="_blank" style="color: #27467A;">
@@ -356,37 +357,37 @@
 
                                     <!-- PG -->
                                     <!-- <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                            aria-controls="collapseTwo">
-                            <i class="fa fa-university me-2"></i> Post Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                          <button class="accordion-button collapsed"
+                                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            <i class="fa fa-university me-2"></i> Post Graduate
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                          data-bs-parent="#accordionExample">
+                                          <div class="accordion-body"
+                                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                              <a href="mobile-assets/department-all/rsag/updated-syllabus/B.SC-AGRICULTURE-COURSE-STRUCTURE.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc. Agriculture
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
+                                              <a href="mobile-assets/department-all/rsag/updated-syllabus/B.SC-AGRICULTURE-COURSE-STRUCTURE.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc. Agriculture
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                              </a>
 
-                              <a href="mobile-assets/department-all/rsag/updated-syllabus/AGRICULTURE-SYLLABUS.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Agriculture
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
+                                              <a href="mobile-assets/department-all/rsag/updated-syllabus/AGRICULTURE-SYLLABUS.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Agriculture
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                              </a>
 
-                            </div>
-                          </div>
-                        </div>
-                      </div> -->
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> -->
 
                                     <!-- Doctoral -->
                                     <div class="accordion-item"
@@ -459,38 +460,38 @@
 
                     <!-- Events -->
                     <!-- <a href="#events" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                  Highlights</span>
-              </a> -->
+                                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                                <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                                <span class="para1"
+                                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                                  Highlights</span>
+                              </a> -->
 
                     <!-- Academic Excellence -->
                     <!-- <a href="#academic-excellence" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                  Excellence</span>
-              </a> -->
+                                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                                <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                                <span class="para1"
+                                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                                  Excellence</span>
+                              </a> -->
 
                     <!-- BOS -->
                     <!-- <a href="#bos" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                  Studies</span>
-              </a> -->
+                                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                                <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
+                                <span class="para1"
+                                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
+                                  Studies</span>
+                              </a> -->
 
                     <!-- DRC -->
                     <!-- <a href="#drc" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-              </a> -->
+                                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                                <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
+                                <span class="para1"
+                                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
+                              </a> -->
 
                 </div>
                 <!-- floating buttons  -->
@@ -498,7 +499,8 @@
                 <section id="about">
                     <section style="background-color: #FFF8F0;">
                         <div class="p-5">
-                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 600; font-size: 50px;">Centre
+                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 600; font-size: 50px;">
+                                Centre
                                 for
                                 Indian knowledge
                                 <span class="headd1" style="color: #FF9A1E; font-weight: 400; font-size: 50px;">System
@@ -609,7 +611,8 @@
                                 <div
                                     style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
+                                        2
                                         years</span>
                                     <span>
                                         <a class="para1 fw-bold"
@@ -628,7 +631,8 @@
                     <hr>
 
                     <div class="container p-3">
-                        <h1 class="headd1" style="color: #27467A; font-weight: 700; font-size: 35px;">Core Responsibilities
+                        <h1 class="headd1" style="color: #27467A; font-weight: 700; font-size: 35px;">Core
+                            Responsibilities
                             of
                             <span class="headd1" style="color: #FF9A1E; font-weight: 500; font-size: 35px;">
                                 the IKS Cell:
@@ -825,7 +829,8 @@
                     <hr>
 
                     <div class="container p-3">
-                        <h1 class="headd1" style="color: #27467A; font-weight: 700; font-size: 35px;">Scholarly Publication
+                        <h1 class="headd1" style="color: #27467A; font-weight: 700; font-size: 35px;">Scholarly
+                            Publication
                             <span class="headd1" style="color: #FF9A1E; font-weight: 500; font-size: 35px;">
                                 and Dissemination:
                             </span>
@@ -880,14 +885,16 @@
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Structure of Syllabus
                                                                 -- IKS
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
                                                             </a>
 
                                                             <a href="mobile-assets/department-all/iks/updated-syllabus/MA-IKS-Detailed-Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 IKS
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
                                                             </a>
 
                                                         </div>
@@ -897,31 +904,31 @@
 
                                             <!-- PG -->
                                             <!-- <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <i class="fa fa-university me-2"></i> Post Graduate
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                              <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <i class="fa fa-university me-2"></i> Post Graduate
+                                              </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                              data-bs-parent="#accordionExample">
+                                              <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                  <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
-                                    target="_blank" style="color: #27467A;">
-                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech CSE
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
+                                                  <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
+                                                    target="_blank" style="color: #27467A;">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech CSE
+                                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                  </a>
 
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div> -->
 
                                             <!-- Doctoral -->
                                             <div class="accordion-item"
@@ -958,27 +965,803 @@
 
                 <script>
                     document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function () {
+                        anchor.addEventListener('mouseover', function() {
                             this.style.width = '200px';
                             this.querySelector('span').style.opacity = '1';
                         });
-                        anchor.addEventListener('mouseout', function () {
+                        anchor.addEventListener('mouseout', function() {
                             this.style.width = '42px';
                             this.querySelector('span').style.opacity = '0';
                         });
-                        anchor.addEventListener('click', function (e) {
+                        anchor.addEventListener('click', function(e) {
                             e.preventDefault();
                             document.querySelector(this.getAttribute('href')).scrollIntoView({
                                 behavior: 'smooth'
                             });
                         });
                     });
-
                 </script>
 
             </section>
 
+            <section id="events">
+                <div class="container pb-4">
+                    <div class="row" style="display: flex; justify-content: center;">
+                        <div class="col-lg-12">
+                            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                                Events
+                            </h2>
+
+                            <!-- event 1  -->
+                            <div class="container mt-2">
+
+                                <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #080b16;">
+                                    1. Two-Day National Conference on Indian Knowledge Systems under AICTE-VAANI in Assamese
+                                    Language
+                                </h2>
+
+
+                                <section style="background-color: #fff4e3; padding-bottom: 30px;">
+
+                                    <div style="margin-top: 10px;" class="endless-scroll-container">
+
+                                        <div class="scroll-track-wrapper" style="padding-top: 0px;">
+
+                                            <div class="scroll-content-images unique-set-alpha">
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /2.jpeg" alt="Image 1"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /1.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /3.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /4.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /5.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /6.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /7.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /8.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /9.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/iks-Conference /10.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+
+                            <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+                                <span class="close-btn">&times;</span>
+
+                                <div class="lightbox-controls">
+                                    <button id="zoom-in" title="Zoom In">+</button>
+                                    <button id="zoom-out" title="Zoom Out">-</button>
+                                </div>
+
+                                <img class="lightbox-content" id="lightbox-img" src="" alt="">
+                            </div>
+
+                            <style>
+                                .endless-scroll-container {
+                                    margin: auto;
+                                    width: 97%;
+                                    overflow: hidden;
+                                    padding: 10px 0;
+                                    border-bottom: 2px solid #EF991F;
+                                }
+
+                                .scroll-track-wrapper {
+                                    display: flex;
+                                    width: fit-content;
+                                    animation: scroll-movement 120s linear infinite;
+                                }
+
+                                .scroll-track-wrapper:hover {
+                                    animation-play-state: paused;
+                                }
+
+                                .scroll-content-images {
+                                    display: flex;
+                                }
+
+                                /* --- THIS IS THE MODIFIED RULE --- */
+                                .slider-image-frame {
+                                    width: 600px;
+                                    /* <-- CHANGED from 150px */
+                                    margin-right: 20px;
+                                    flex-shrink: 0;
+                                    overflow: hidden;
+                                    border: 1px solid #d1d1d1;
+                                    border-radius: 8px;
+                                    /* <-- CHANGED from 50px */
+                                    background-color: #fff;
+                                }
+
+                                /* --- END OF MODIFIED RULE --- */
+
+                                .scroller-image {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    cursor: pointer;
+                                    transition: opacity 0.3s;
+                                }
+
+                                /* Lightbox Styles */
+                                .lightbox {
+                                    display: none;
+                                    position: fixed;
+                                    z-index: 1000;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(222, 222, 222, 0.942);
+                                    overflow: hidden;
+                                    /* Changed from auto to hidden to prevent scrollbars */
+                                }
+
+                                .lightbox-content {
+                                    margin: auto;
+                                    display: block;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%) scale(1);
+                                    /* Initial state */
+                                    max-width: 90%;
+                                    max-height: 90%;
+                                    width: auto;
+                                    height: auto;
+                                    object-fit: contain;
+                                    animation-name: zoom;
+                                    animation-duration: 0.6s;
+                                    cursor: grab;
+                                    /* NEW: Indicate it's grabbable */
+                                    transition: transform 0.2s ease-out;
+                                    /* NEW: Smooth transitions for zoom/pan */
+                                }
+
+                                .close-btn {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 35px;
+                                    color: #fff;
+                                    font-size: 40px;
+                                    font-weight: bold;
+                                    transition: 0.3s;
+                                    cursor: pointer;
+                                    z-index: 1002;
+                                    /* Ensure it's on top of controls */
+                                }
+
+                                .close-btn:hover,
+                                .close-btn:focus {
+                                    color: #bbb;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                }
+
+                                /* NEW: Styles for Zoom Controls */
+                                .lightbox-controls {
+                                    position: absolute;
+                                    top: 25px;
+                                    right: 90px;
+                                    /* Position next to the close button */
+                                    z-index: 1001;
+                                    display: flex;
+                                    gap: 10px;
+                                }
+
+                                .lightbox-controls button {
+                                    background-color: rgba(30, 30, 30, 0.7);
+                                    border: 1px solid #fff;
+                                    color: #fff;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    width: 40px;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    transition: background-color 0.3s;
+                                    line-height: 1;
+                                }
+
+                                .lightbox-controls button:hover {
+                                    background-color: rgba(0, 0, 0, 0.9);
+                                }
+
+
+                                @keyframes zoom {
+                                    from {
+                                        transform: translate(-50%, -50%) scale(0.1);
+                                    }
+
+                                    to {
+                                        transform: translate(-50%, -50%) scale(1);
+                                    }
+                                }
+
+                                @keyframes scroll-movement {
+                                    from {
+                                        transform: translateX(0%);
+                                    }
+
+                                    to {
+                                        transform: translateX(-50%);
+                                    }
+                                }
+                            </style>
+
+                            <p class="text-dark mobile-para1 container" style="text-align: justify;">
+                                <span style="font-weight: bold; color: #000; font-size: 24px;">
+                                    Guwahati, 15–16 September 2025:
+                                </span>The Assam Royal Global University successfully hosted a two-day national conference
+                                under the
+                                AICTE-VAANI scheme on the theme “Resilient Futures: Indian Knowledge Systems for Energy,
+                                Sustainability, and
+                                Climate Action” entirely in Assamese.
+                            </p>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const setAlpha = document.querySelector('.unique-set-alpha');
+                                    const trackWrapper = document.querySelector('.scroll-track-wrapper');
+
+                                    if (setAlpha && !document.querySelector('.unique-set-beta')) {
+                                        const setBeta = setAlpha.cloneNode(true);
+                                        setBeta.classList.remove('unique-set-alpha');
+                                        setBeta.classList.add('unique-set-beta');
+                                        trackWrapper.appendChild(setBeta);
+                                        console.log('Image slider duplicated successfully for infinite loop.');
+                                    }
+                                });
+
+                                // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
+
+                                const lightbox = document.getElementById('lightbox');
+                                const lightboxImg = document.getElementById('lightbox-img');
+                                const zoomInBtn = document.getElementById('zoom-in');
+                                const zoomOutBtn = document.getElementById('zoom-out');
+
+                                // State variables
+                                let scale = 1;
+                                let isDragging = false;
+                                let start = {
+                                    x: 0,
+                                    y: 0
+                                };
+                                let pan = {
+                                    x: 0,
+                                    y: 0
+                                };
+
+                                // Function to apply the current transform to the image
+                                function updateImageTransform() {
+                                    // We use calc() to combine the initial centering (-50%) with the pixel-based panning
+                                    lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
+                                }
+
+                                function openLightbox(src) {
+                                    // Reset state every time a new image is opened
+                                    scale = 1;
+                                    isDragging = false;
+                                    pan = {
+                                        x: 0,
+                                        y: 0
+                                    };
+                                    updateImageTransform(); // Apply initial transform
+
+                                    lightbox.style.display = 'block';
+                                    lightboxImg.src = src;
+                                }
+
+                                function closeLightbox(event) {
+                                    if (event.target === lightbox || event.target.classList.contains('close-btn')) {
+                                        lightbox.style.display = 'none';
+                                    }
+                                }
+
+                                // --- Event Listeners for Zoom and Pan ---
+
+                                zoomInBtn.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    scale += 0.2;
+                                    updateImageTransform();
+                                });
+
+                                zoomOutBtn.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    if (scale > 1) {
+                                        scale -= 0.2;
+                                        if (scale < 1) {
+                                            scale = 1;
+                                        }
+                                    }
+                                    // If we zoom all the way out, reset the pan to center the image
+                                    if (scale === 1) {
+                                        pan = {
+                                            x: 0,
+                                            y: 0
+                                        };
+                                    }
+                                    updateImageTransform();
+                                });
+
+                                lightboxImg.addEventListener('mousedown', (e) => {
+                                    // Panning only works if the image is zoomed in
+                                    if (scale > 1) {
+                                        e.preventDefault();
+                                        isDragging = true;
+                                        // Record starting point relative to current pan position
+                                        start = {
+                                            x: e.clientX - pan.x,
+                                            y: e.clientY - pan.y
+                                        };
+                                        lightboxImg.style.cursor = 'grabbing';
+                                    }
+                                });
+
+                                // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
+                                window.addEventListener('mousemove', (e) => {
+                                    if (isDragging) {
+                                        e.preventDefault();
+                                        pan = {
+                                            x: e.clientX - start.x,
+                                            y: e.clientY - start.y
+                                        };
+                                        updateImageTransform();
+                                    }
+                                });
+
+                                window.addEventListener('mouseup', (e) => {
+                                    if (isDragging) {
+                                        isDragging = false;
+                                        lightboxImg.style.cursor = 'grab';
+                                    }
+                                });
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="row" style="display: flex; justify-content: center;">
+                        <div class="col-lg-12">
+
+                            <!-- event 1  -->
+                            <div class="container mt-2">
+
+                                <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #080b16;">
+                                    2. Reimagining Education through NEP 2020: Multidisciplinarity, Innovation, and
+                                    Integration of Indigenous Knowledge Systems (IKS)
+                                </h2>
+
+                                <section style="background-color: #fff4e3; padding-bottom: 30px;">
+
+                                    <div style="margin-top: 10px;" class="endless-scroll-container">
+
+                                        <div class="scroll-track-wrapper" style="padding-top: 0px;">
+
+                                            <div class="scroll-content-images unique-set-alpha">
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/1.jpeg" alt="Image 1"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/2.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/3.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/4.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/5.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/6.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/7.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/8.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/9.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                                <div class="slider-image-frame">
+                                                    <img src="mobile-assets/fdp-IKS/10.jpeg" alt="Image 2"
+                                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+
+                            <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+                                <span class="close-btn">&times;</span>
+
+                                <div class="lightbox-controls">
+                                    <button id="zoom-in" title="Zoom In">+</button>
+                                    <button id="zoom-out" title="Zoom Out">-</button>
+                                </div>
+
+                                <img class="lightbox-content" id="lightbox-img" src="" alt="">
+                            </div>
+
+                            <style>
+                                .endless-scroll-container {
+                                    margin: auto;
+                                    width: 97%;
+                                    overflow: hidden;
+                                    padding: 10px 0;
+                                    border-bottom: 2px solid #EF991F;
+                                }
+
+                                .scroll-track-wrapper {
+                                    display: flex;
+                                    width: fit-content;
+                                    animation: scroll-movement 120s linear infinite;
+                                }
+
+                                .scroll-track-wrapper:hover {
+                                    animation-play-state: paused;
+                                }
+
+                                .scroll-content-images {
+                                    display: flex;
+                                }
+
+                                /* --- THIS IS THE MODIFIED RULE --- */
+                                .slider-image-frame {
+                                    width: 600px;
+                                    /* <-- CHANGED from 150px */
+                                    margin-right: 20px;
+                                    flex-shrink: 0;
+                                    overflow: hidden;
+                                    border: 1px solid #d1d1d1;
+                                    border-radius: 8px;
+                                    /* <-- CHANGED from 50px */
+                                    background-color: #fff;
+                                }
+
+                                /* --- END OF MODIFIED RULE --- */
+
+                                .scroller-image {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    cursor: pointer;
+                                    transition: opacity 0.3s;
+                                }
+
+                                /* Lightbox Styles */
+                                .lightbox {
+                                    display: none;
+                                    position: fixed;
+                                    z-index: 1000;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(222, 222, 222, 0.942);
+                                    overflow: hidden;
+                                    /* Changed from auto to hidden to prevent scrollbars */
+                                }
+
+                                .lightbox-content {
+                                    margin: auto;
+                                    display: block;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%) scale(1);
+                                    /* Initial state */
+                                    max-width: 90%;
+                                    max-height: 90%;
+                                    width: auto;
+                                    height: auto;
+                                    object-fit: contain;
+                                    animation-name: zoom;
+                                    animation-duration: 0.6s;
+                                    cursor: grab;
+                                    /* NEW: Indicate it's grabbable */
+                                    transition: transform 0.2s ease-out;
+                                    /* NEW: Smooth transitions for zoom/pan */
+                                }
+
+                                .close-btn {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 35px;
+                                    color: #fff;
+                                    font-size: 40px;
+                                    font-weight: bold;
+                                    transition: 0.3s;
+                                    cursor: pointer;
+                                    z-index: 1002;
+                                    /* Ensure it's on top of controls */
+                                }
+
+                                .close-btn:hover,
+                                .close-btn:focus {
+                                    color: #bbb;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                }
+
+                                /* NEW: Styles for Zoom Controls */
+                                .lightbox-controls {
+                                    position: absolute;
+                                    top: 25px;
+                                    right: 90px;
+                                    /* Position next to the close button */
+                                    z-index: 1001;
+                                    display: flex;
+                                    gap: 10px;
+                                }
+
+                                .lightbox-controls button {
+                                    background-color: rgba(30, 30, 30, 0.7);
+                                    border: 1px solid #fff;
+                                    color: #fff;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    width: 40px;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    transition: background-color 0.3s;
+                                    line-height: 1;
+                                }
+
+                                .lightbox-controls button:hover {
+                                    background-color: rgba(0, 0, 0, 0.9);
+                                }
+
+
+                                @keyframes zoom {
+                                    from {
+                                        transform: translate(-50%, -50%) scale(0.1);
+                                    }
+
+                                    to {
+                                        transform: translate(-50%, -50%) scale(1);
+                                    }
+                                }
+
+                                @keyframes scroll-movement {
+                                    from {
+                                        transform: translateX(0%);
+                                    }
+
+                                    to {
+                                        transform: translateX(-50%);
+                                    }
+                                }
+                            </style>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const setAlpha = document.querySelector('.unique-set-alpha');
+                                    const trackWrapper = document.querySelector('.scroll-track-wrapper');
+
+                                    if (setAlpha && !document.querySelector('.unique-set-beta')) {
+                                        const setBeta = setAlpha.cloneNode(true);
+                                        setBeta.classList.remove('unique-set-alpha');
+                                        setBeta.classList.add('unique-set-beta');
+                                        trackWrapper.appendChild(setBeta);
+                                        console.log('Image slider duplicated successfully for infinite loop.');
+                                    }
+                                });
+
+                                // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
+
+                                const lightbox = document.getElementById('lightbox');
+                                const lightboxImg = document.getElementById('lightbox-img');
+                                const zoomInBtn = document.getElementById('zoom-in');
+                                const zoomOutBtn = document.getElementById('zoom-out');
+
+                                // State variables
+                                let scale = 1;
+                                let isDragging = false;
+                                let start = {
+                                    x: 0,
+                                    y: 0
+                                };
+                                let pan = {
+                                    x: 0,
+                                    y: 0
+                                };
+
+                                // Function to apply the current transform to the image
+                                function updateImageTransform() {
+                                    // We use calc() to combine the initial centering (-50%) with the pixel-based panning
+                                    lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
+                                }
+
+                                function openLightbox(src) {
+                                    // Reset state every time a new image is opened
+                                    scale = 1;
+                                    isDragging = false;
+                                    pan = {
+                                        x: 0,
+                                        y: 0
+                                    };
+                                    updateImageTransform(); // Apply initial transform
+
+                                    lightbox.style.display = 'block';
+                                    lightboxImg.src = src;
+                                }
+
+                                function closeLightbox(event) {
+                                    if (event.target === lightbox || event.target.classList.contains('close-btn')) {
+                                        lightbox.style.display = 'none';
+                                    }
+                                }
+
+                                // --- Event Listeners for Zoom and Pan ---
+
+                                zoomInBtn.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    scale += 0.2;
+                                    updateImageTransform();
+                                });
+
+                                zoomOutBtn.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    if (scale > 1) {
+                                        scale -= 0.2;
+                                        if (scale < 1) {
+                                            scale = 1;
+                                        }
+                                    }
+                                    // If we zoom all the way out, reset the pan to center the image
+                                    if (scale === 1) {
+                                        pan = {
+                                            x: 0,
+                                            y: 0
+                                        };
+                                    }
+                                    updateImageTransform();
+                                });
+
+                                lightboxImg.addEventListener('mousedown', (e) => {
+                                    // Panning only works if the image is zoomed in
+                                    if (scale > 1) {
+                                        e.preventDefault();
+                                        isDragging = true;
+                                        // Record starting point relative to current pan position
+                                        start = {
+                                            x: e.clientX - pan.x,
+                                            y: e.clientY - pan.y
+                                        };
+                                        lightboxImg.style.cursor = 'grabbing';
+                                    }
+                                });
+
+                                // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
+                                window.addEventListener('mousemove', (e) => {
+                                    if (isDragging) {
+                                        e.preventDefault();
+                                        pan = {
+                                            x: e.clientX - start.x,
+                                            y: e.clientY - start.y
+                                        };
+                                        updateImageTransform();
+                                    }
+                                });
+
+                                window.addEventListener('mouseup', (e) => {
+                                    if (isDragging) {
+                                        isDragging = false;
+                                        lightboxImg.style.cursor = 'grab';
+                                    }
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <p class="text-dark mobile-para1 container" style="text-align: justify;">
+                <span style="font-weight: bold; color: #000; font-size: 24px;">
+                    Guwahati, 23-28 June 2025:
+                </span>The Indian Knowledge Systems (IKS) Cell, in collaboration with the Royal Centre for Human Resource Development (RCHRD) and the Internal Quality Assurance Cell (IQAC), conducted a highly enriching One Week Faculty Development Programme (FDP) from 23rd to 28th June 2025 on the theme ―Reimagining Education through NEP 2020: Multidisciplinarity, Innovation, and Integration of Indigenous Knowledge Systems (IKS) ‖. The programme focused on critically engaging with the educational reforms introduced by NEP 2020 and aimed to integrate traditional Indian knowledge into contemporary academic frameworks through multidisciplinary and innovative approaches. It featured 24 technical sessions and brought together experts from diverse disciplines to share their perspectives on aligning IKS with the goals of a holistic and inclusive education system.
+            </p>
+
+
         </div>
+        <!-- event 1  -->
+
+        <script>
+            const scrollContainer = document.getElementById('scrollContainer');
+            const scrollContent = document.getElementById('scrollContent');
+
+            scrollContent.innerHTML += scrollContent.innerHTML;
+
+            let scrollPos = 0;
+            const scrollSpeed = 0.2;
+
+            function scrollStep() {
+                scrollPos += scrollSpeed;
+                if (scrollPos >= scrollContent.scrollHeight / 2) {
+                    scrollPos = 0;
+                }
+                scrollContainer.scrollTop = scrollPos;
+                requestAnimationFrame(scrollStep);
+            }
+
+            scrollStep();
+        </script>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    </div>
 
     </div>
 @endsection
