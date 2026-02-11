@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university', function () {
+    return view('frontend/media-corner/news97');
+})->name('rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university');
+
 Route::get('/chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu', function () {
     return view('frontend/media-corner/news96');
 })->name('chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu');

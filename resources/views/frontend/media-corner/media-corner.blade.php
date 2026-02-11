@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Launches UNI News Agency Service: First Time in the North East done by a University',
+                            'summary' => '',
+                            'date' => 'Guwahati, February 11, 2026:',
+                            'link' =>
+                                '/rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university',
+                            'image' => 'mobile-assets/media-corner/news82/111.jpeg',
+                            'content' => 'It’s a first of its kind news agency service undertaken by a university from the Northeastern part of India. The Royal School of Communication and Media, The Assam Royal Global University (RGU) today launched the UNI News Agency Service—the first such agency service of its kind in any university of the North East.',
+                        ],
+                        [
                             'title' => 'Chancellor’s Appreciation & Felicitation Ceremony Celebrates Excellence at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, February 4, 2026:',
