@@ -281,6 +281,365 @@
 
                 </div>
 
+                <div>
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                        Strategy for Promoting Entrepreneurship and Innovation
+                    </h2>
+
+                    <p class="mobile-para1 fw-bold" style="color: #243B95;">
+                        Date: 09 February 2026
+                    </p>
+
+                    <div class="container mt-2">
+
+                        <section style="background-color: #fff4e3; padding-bottom: 30px;">
+
+                            <div style="margin-top: 10px;" class="event-2-endless-scroll-container">
+
+                                <div class="event-2-scroll-track-wrapper" style="padding-top: 0px;">
+
+                                    <div class="event-2-scroll-content-images event-2-unique-set-alpha">
+
+                                        <div class="event-2-slider-image-frame">
+                                            <img src="mobile-assets/inno-iic/1.jpeg" alt="Image 1" style="height: 450px"
+                                                class="event-2-scroller-image" onclick="openLightboxEvent2(this.src)">
+                                        </div>
+
+                                        <div class="event-2-slider-image-frame">
+                                            <img src="mobile-assets/inno-iic/2.jpeg" alt="Image 2" style="height: 450px"
+                                                class="event-2-scroller-image" onclick="openLightboxEvent2(this.src)">
+                                        </div>
+
+                                        <div class="event-2-slider-image-frame">
+                                            <img src="mobile-assets/inno-iic/3.jpeg" alt="Image 2" style="height: 450px"
+                                                class="event-2-scroller-image" onclick="openLightboxEvent2(this.src)">
+                                        </div>
+
+                                        <div class="event-2-slider-image-frame">
+                                            <img src="mobile-assets/inno-iic/4.jpeg" alt="Image 2" style="height: 450px"
+                                                class="event-2-scroller-image" onclick="openLightboxEvent2(this.src)">
+                                        </div>
+
+                                        <div class="event-2-slider-image-frame">
+                                            <img src="mobile-assets/inno-iic/5.jpeg" alt="Image 2" style="height: 450px"
+                                                class="event-2-scroller-image" onclick="openLightboxEvent2(this.src)">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="event-2-lightbox" class="event-2-lightbox" onclick="closeLightboxEvent2(event)">
+                                <span class="event-2-close-btn">&times;</span>
+
+                                <div class="event-2-lightbox-controls">
+                                    <button id="event-2-zoom-in" title="Zoom In">+</button>
+                                    <button id="event-2-zoom-out" title="Zoom Out">-</button>
+                                </div>
+
+                                <img class="event-2-lightbox-content" id="event-2-lightbox-img" src=""
+                                    alt="">
+                            </div>
+
+                            <style>
+                                /*
+                            * 1. Setup the main container and animation logic (Identical to list version)
+                            */
+                                .event-2-endless-scroll-container {
+                                    margin: auto;
+                                    width: 97%;
+                                    overflow: hidden;
+                                    padding: 10px 0;
+                                    border-bottom: 2px solid #EF991F;
+                                }
+
+                                .event-2-scroll-track-wrapper {
+                                    display: flex;
+                                    width: fit-content;
+                                    animation: event-2-scroll-movement 60s linear infinite;
+                                }
+
+                                .event-2-scroll-track-wrapper:hover {
+                                    animation-play-state: paused;
+                                }
+
+                                /*
+                            * 2. Style the Image Frames and Images
+                            */
+                                .event-2-scroll-content-images {
+                                    display: flex;
+                                }
+
+                                /* --- THIS IS THE MODIFIED RULE --- */
+                                .event-2-slider-image-frame {
+                                    width: 600px;
+                                    /* <-- CHANGED from 150px */
+                                    margin-right: 20px;
+                                    flex-shrink: 0;
+                                    overflow: hidden;
+                                    border: 1px solid #d1d1d1;
+                                    border-radius: 8px;
+                                    /* <-- CHANGED from 50px */
+                                    background-color: #fff;
+                                }
+
+                                /* --- END OF MODIFIED RULE --- */
+
+                                .event-2-scroller-image {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    cursor: pointer;
+                                    transition: opacity 0.3s;
+                                }
+
+                                /* Lightbox Styles */
+                                .event-2-lightbox {
+                                    display: none;
+                                    position: fixed;
+                                    z-index: 1000;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(222, 222, 222, 0.942);
+                                    overflow: hidden;
+                                    /* Changed from auto to hidden to prevent scrollbars */
+                                }
+
+                                .event-2-lightbox-content {
+                                    margin: auto;
+                                    display: block;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%) scale(1);
+                                    /* Initial state */
+                                    max-width: 90%;
+                                    max-height: 90%;
+                                    width: auto;
+                                    height: auto;
+                                    object-fit: contain;
+                                    animation-name: event-2-zoom;
+                                    animation-duration: 0.6s;
+                                    cursor: grab;
+                                    /* NEW: Indicate it's grabbable */
+                                    transition: transform 0.2s ease-out;
+                                    /* NEW: Smooth transitions for zoom/pan */
+                                }
+
+                                .event-2-close-btn {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 35px;
+                                    color: #fff;
+                                    font-size: 40px;
+                                    font-weight: bold;
+                                    transition: 0.3s;
+                                    cursor: pointer;
+                                    z-index: 1002;
+                                    /* Ensure it's on top of controls */
+                                }
+
+                                .event-2-close-btn:hover,
+                                .event-2-close-btn:focus {
+                                    color: #bbb;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                }
+
+                                /* NEW: Styles for Zoom Controls */
+                                .event-2-lightbox-controls {
+                                    position: absolute;
+                                    top: 25px;
+                                    right: 90px;
+                                    /* Position next to the close button */
+                                    z-index: 1001;
+                                    display: flex;
+                                    gap: 10px;
+                                }
+
+                                .event-2-lightbox-controls button {
+                                    background-color: rgba(30, 30, 30, 0.7);
+                                    border: 1px solid #fff;
+                                    color: #fff;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    width: 40px;
+                                    height: 40px;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    transition: background-color 0.3s;
+                                    line-height: 1;
+                                }
+
+                                .event-2-lightbox-controls button:hover {
+                                    background-color: rgba(0, 0, 0, 0.9);
+                                }
+
+
+                                @keyframes event-2-zoom {
+                                    from {
+                                        transform: translate(-50%, -50%) scale(0.1);
+                                    }
+
+                                    to {
+                                        transform: translate(-50%, -50%) scale(1);
+                                    }
+                                }
+
+                                /*
+                            * 3. Define the Keyframes for the Movement
+                            */
+                                @keyframes event-2-scroll-movement {
+                                    from {
+                                        transform: translateX(-50%);
+                                        /* Start at the negative half of the content to reveal the second set */
+                                    }
+
+                                    to {
+                                        transform: translateX(0%);
+                                        /* End at 0% to bring the first set back into view */
+                                    }
+                                }
+                            </style>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const setAlphaEvent2 = document.querySelector('.event-2-unique-set-alpha');
+                                    const trackWrapperEvent2 = document.querySelector('.event-2-scroll-track-wrapper');
+
+                                    if (setAlphaEvent2 && !document.querySelector('.event-2-unique-set-beta')) {
+                                        const setBetaEvent2 = setAlphaEvent2.cloneNode(true);
+                                        setBetaEvent2.classList.remove('event-2-unique-set-alpha');
+                                        setBetaEvent2.classList.add('event-2-unique-set-beta');
+                                        trackWrapperEvent2.appendChild(setBetaEvent2);
+                                        console.log('Event 2 Image slider duplicated successfully for infinite loop.');
+                                    }
+                                });
+
+                                // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic (Renamed) ---
+
+                                const lightboxEvent2 = document.getElementById('event-2-lightbox');
+                                const lightboxImgEvent2 = document.getElementById('event-2-lightbox-img');
+                                const zoomInBtnEvent2 = document.getElementById('event-2-zoom-in');
+                                const zoomOutBtnEvent2 = document.getElementById('event-2-zoom-out');
+
+                                // State variables
+                                let scaleEvent2 = 1;
+                                let isDraggingEvent2 = false;
+                                let startEvent2 = {
+                                    x: 0,
+                                    y: 0
+                                };
+                                let panEvent2 = {
+                                    x: 0,
+                                    y: 0
+                                };
+
+                                // Function to apply the current transform to the image
+                                function updateImageTransformEvent2() {
+                                    // We use calc() to combine the initial centering (-50%) with the pixel-based panning
+                                    lightboxImgEvent2.style.transform =
+                                        `translate(calc(-50% + ${panEvent2.x}px), calc(-50% + ${panEvent2.y}px)) scale(${scaleEvent2})`;
+                                }
+
+                                function openLightboxEvent2(src) {
+                                    // Reset state every time a new image is opened
+                                    scaleEvent2 = 1;
+                                    isDraggingEvent2 = false;
+                                    panEvent2 = {
+                                        x: 0,
+                                        y: 0
+                                    };
+                                    updateImageTransformEvent2(); // Apply initial transform
+
+                                    lightboxEvent2.style.display = 'block';
+                                    lightboxImgEvent2.src = src;
+                                }
+
+                                function closeLightboxEvent2(event) {
+                                    if (event.target === lightboxEvent2 || event.target.classList.contains('event-2-close-btn')) {
+                                        lightboxEvent2.style.display = 'none';
+                                    }
+                                }
+
+                                // --- Event Listeners for Zoom and Pan (Renamed) ---
+
+                                zoomInBtnEvent2.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    scaleEvent2 += 0.2;
+                                    updateImageTransformEvent2();
+                                });
+
+                                zoomOutBtnEvent2.addEventListener('click', (e) => {
+                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                    if (scaleEvent2 > 1) {
+                                        scaleEvent2 -= 0.2;
+                                        if (scaleEvent2 < 1) {
+                                            scaleEvent2 = 1;
+                                        }
+                                    }
+                                    // If we zoom all the way out, reset the pan to center the image
+                                    if (scaleEvent2 === 1) {
+                                        panEvent2 = {
+                                            x: 0,
+                                            y: 0
+                                        };
+                                    }
+                                    updateImageTransformEvent2();
+                                });
+
+                                lightboxImgEvent2.addEventListener('mousedown', (e) => {
+                                    // Panning only works if the image is zoomed in
+                                    if (scaleEvent2 > 1) {
+                                        e.preventDefault();
+                                        isDraggingEvent2 = true;
+                                        // Record starting point relative to current pan position
+                                        startEvent2 = {
+                                            x: e.clientX - panEvent2.x,
+                                            y: e.clientY - panEvent2.y
+                                        };
+                                        lightboxImgEvent2.style.cursor = 'grabbing';
+                                    }
+                                });
+
+                                // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
+                                window.addEventListener('mousemove', (e) => {
+                                    if (isDraggingEvent2) {
+                                        e.preventDefault();
+                                        panEvent2 = {
+                                            x: e.clientX - startEvent2.x,
+                                            y: e.clientY - startEvent2.y
+                                        };
+                                        updateImageTransformEvent2();
+                                    }
+                                });
+
+                                window.addEventListener('mouseup', (e) => {
+                                    if (isDraggingEvent2) {
+                                        isDraggingEvent2 = false;
+                                        lightboxImgEvent2.style.cursor = 'grab';
+                                    }
+                                });
+                            </script>
+
+                        </section>
+
+                        <p class="text-dark mobile-para1 mt-3" style="text-align: justify;">
+                            As Dr Sriparna Bhuyan delivered an enriching lecture on “Strategy for Promoting
+                            Entrepreneurship and Innovation“, the session was attended by Deans, HoDs and Faculty
+                            members from various departments of RGU.
+                        </p>
+
+
+                    </div>
+                </div>
+
                 <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
                     Strengthening Innovation & Entrepreneurship at Royal Global University!
                 </h2>
@@ -372,8 +731,8 @@
 
                         <style>
                             /*
-                    * 1. Setup the main container and animation logic (Identical to list version)
-                    */
+                            * 1. Setup the main container and animation logic (Identical to list version)
+                            */
                             .event-2-endless-scroll-container {
                                 margin: auto;
                                 width: 97%;
@@ -393,8 +752,8 @@
                             }
 
                             /*
-                    * 2. Style the Image Frames and Images
-                    */
+                            * 2. Style the Image Frames and Images
+                            */
                             .event-2-scroll-content-images {
                                 display: flex;
                             }
@@ -519,8 +878,8 @@
                             }
 
                             /*
-                    * 3. Define the Keyframes for the Movement
-                    */
+                            * 3. Define the Keyframes for the Movement
+                            */
                             @keyframes event-2-scroll-movement {
                                 from {
                                     transform: translateX(-50%);
@@ -834,8 +1193,8 @@
 
                     <style>
                         /*
-                    * 1. Setup the main container and animation logic (Identical to list version)
-                    */
+                            * 1. Setup the main container and animation logic (Identical to list version)
+                            */
                         .endless-scroll-container {
                             margin: auto;
                             width: 95%;
@@ -855,8 +1214,8 @@
                         }
 
                         /*
-                    * 2. Style the Image Frames and Images
-                    */
+                            * 2. Style the Image Frames and Images
+                            */
                         .scroll-content-images {
                             display: flex;
                         }
@@ -978,8 +1337,8 @@
                         }
 
                         /*
-                    * 3. Define the Keyframes for the Movement
-                    */
+                            * 3. Define the Keyframes for the Movement
+                            */
                         @keyframes scroll-movement {
                             from {
                                 transform: translateX(0%);
