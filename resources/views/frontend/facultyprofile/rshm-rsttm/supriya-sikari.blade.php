@@ -262,9 +262,6 @@
               <li><i class="fa fa-circle"></i> <span>4</span></li>
             </ul>
 
-
-
-
             <h2 class="faculty-bio-sub-heading">Any Other Achievement/Award:</h2>
             <ul class="faculty-bio-info-list">
               <li><i class="fa fa-circle"></i> <span>UGC NET 2015</span></li>

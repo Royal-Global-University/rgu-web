@@ -108,7 +108,7 @@
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
 
-                    <div class="col-lg-3 col-md-6 mb-4">
+                    {{-- <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
@@ -118,6 +118,19 @@
                             <p class="card-designation">Professor & Dean, Royal School of Applied & Pure Sciences (RSAPS)
                             </p>
                             <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
+                        </div>
+                    </div> --}}
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/chatterjee.png"
+                                    alt="Profile image of Prof. (Dr.) Amarjyoti Choudhury">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
+                            <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
+                            {{-- <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
+                                Profile</a> --}}
                         </div>
                     </div>
 
@@ -195,7 +208,7 @@
                                     alt="Profile image of Prof. Anuradha Devi">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Applied & Pure Sciences (RSAPS)
+                            <p class="card-designation">Professor
                             </p>
                             <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
                         </div>
@@ -446,6 +459,19 @@
                 <!-- regular faculty  -->
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/chatterjee.png"
+                                    alt="Profile image of Prof. (Dr.) Amarjyoti Choudhury">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
+                            <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
+                            {{-- <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
