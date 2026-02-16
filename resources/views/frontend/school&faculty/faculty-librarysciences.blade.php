@@ -117,7 +117,7 @@
                             </div>
                             <h3 class="card-name">Dr. Dominic J</h3>
                             <p class="card-designation">Professor</p>
-                            {{-- <a href="/faculty-hirak-jyoti-hazarika" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-dr-dominic-j" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

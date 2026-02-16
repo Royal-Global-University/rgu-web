@@ -163,6 +163,7 @@
                             </div>
                             <h3 class="card-name">Dr. Supriya Sikari</h3>
                             <p class="card-designation">Associate Professor</p>
+                            <a href="/faculty-supriya-sikari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

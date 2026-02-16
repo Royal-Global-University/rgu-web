@@ -3673,6 +3673,10 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
 
 //RSL Faculty Profile.
 
+Route::get('/faculty-pompi-basumatary', function () {
+    return view('frontend/facultyprofile/rsl/pompi-basumatary');
+})->name('faculty-pompi-basumatary');
+
 Route::get('/faculty-banani-das-hazarika', function () {
     return view('frontend/facultyprofile/rsl/banani-das-hazarika');
 })->name('faculty-banani-das-hazarika');
@@ -3989,6 +3993,10 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 
 //RSLISC FACULTY Profile
+
+Route::get('/faculty-dr-dominic-j', function () {
+    return view('frontend/facultyprofile/rslisc/dr-dominic-j');
+})->name('faculty-dr-dominic-j');
 
 Route::get('/faculty-hirak-jyoti-hazarika', function () {
     return view('frontend/facultyprofile/rslisc/hirak-jyoti-hazarika');
@@ -4524,6 +4532,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 
 //RSHM-RSTTM Faculty Profile
+
+Route::get('/faculty-supriya-sikari', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/supriya-sikari');
+})->name('faculty-supriya-sikari');
 
 Route::get('/faculty-ajeet-kr-singh', function () {
     return view('frontend/facultyprofile/rshm-rsttm/ajeet-kr-singh');

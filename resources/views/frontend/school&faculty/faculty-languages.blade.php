@@ -302,7 +302,7 @@
                             <p class="card-designation">Assistant Professor
 
                             </p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pompi-basumatary" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
