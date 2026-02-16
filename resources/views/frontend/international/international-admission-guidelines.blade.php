@@ -111,7 +111,7 @@
                 </tr>
                 <tr>
                     <td>8</td>
-                    <td>International Prospectus</td>
+                    <td>International Brochure</td>
                     <td><a href="https://heyzine.com/flip-book/adfd7889ba.html" target="_blank"><button class="download-btn">Download</button></a></td>
                 </tr>
                 <tr>
