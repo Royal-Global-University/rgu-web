@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University joins hands with Indian Army to empower wards of heroes',
+                            'summary' => 'Honouring sacrifice through education: RGU signs MoU with Indian Army at New Delhi',
+                            'date' => 'Guwahati, February 14, 2026:',
+                            'link' =>
+                                '/royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes',
+                            'image' => 'mobile-assets/media-corner/news82/16.jpeg',
+                            'content' => 'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University RGU) has signed a Memorandum of Understanding (MoU) with the Indian Army...',
+                        ],
+                        [
                             'title' => 'RGU Launches UNI News Agency Service: First Time in the North East done by a University',
                             'summary' => '',
                             'date' => 'Guwahati, February 11, 2026:',
