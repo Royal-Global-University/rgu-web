@@ -656,11 +656,11 @@
                                 <div id="rguCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="about-website.png" class="d-block w-100"
+                                            <img src="https://media.rgu.ac/index/about-website.png" class="d-block w-100"
                                                 alt="Slide 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="research-website.png"
+                                            <img src="https://media.rgu.ac/index/research-website.png"
                                                 class="d-block w-100" alt="Slide 3">
                                         </div>
                                     </div>
@@ -696,7 +696,7 @@
 
                                 <video autoplay loop muted playsinline id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
-                                    <source src="v-2.mp4" type="video/mp4">
+                                    <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
