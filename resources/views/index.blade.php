@@ -656,11 +656,11 @@
                                 <div id="rguCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="https://media.rgu.ac/index/about-website.png" class="d-block w-100"
+                                            <img src="about-website.png" class="d-block w-100"
                                                 alt="Slide 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="https://media.rgu.ac/index/research-website.png"
+                                            <img src="research-website.png"
                                                 class="d-block w-100" alt="Slide 3">
                                         </div>
                                     </div>
