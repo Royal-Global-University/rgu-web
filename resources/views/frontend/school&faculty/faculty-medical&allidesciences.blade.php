@@ -362,7 +362,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg" alt="Profile image">
+                                    <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Ms. Monalisha Medhi</h3>
                                 <p class="card-designation">Assistant Professor, IKS</p>
