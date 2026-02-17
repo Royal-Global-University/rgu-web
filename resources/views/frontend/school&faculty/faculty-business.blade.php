@@ -151,9 +151,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. D.N. Singh</h3>
-                            <p class="card-designation">Professor & Registrar, Academics & I/C Dean, Royal School of
-                                Communication &
-                                Media</p>
+                            <p class="card-designation">Professor & Registrar, Academics</p>
                             <a href="https://www.rgu.ac/Prof-dn-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
