@@ -3947,6 +3947,10 @@ Route::get('/sumi-barman', function () {
 
 //RSLSC Faculty Profile
 
+Route::get('/faculty-abesh-chakraborty', function () {
+    return view('frontend/facultyprofile/rslsc/abesh-chakraborty');
+})->name('faculty-abesh-chakraborty');
+
 Route::get('/faculty-benex-k-babu', function () {
     return view('frontend/facultyprofile/rslsc/benex-k-babu');
 })->name('faculty-benex-k-babu');
