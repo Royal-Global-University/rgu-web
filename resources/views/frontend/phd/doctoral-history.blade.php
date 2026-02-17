@@ -90,14 +90,6 @@
 
                         </div>
                 </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-history/2.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Mitali Kalita</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        </div>
-                </div>
 
             </div>
 
