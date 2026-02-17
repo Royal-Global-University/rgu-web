@@ -385,7 +385,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kshetrimayum-Renubebeta-Devi.jpeg"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Kshetrimayum Devi</h3>
+                            <h3 class="card-name">Dr. Kshetrimayum Renubebeta Devi</h3>
                             <p class="card-designation">Assistant Professor, Department of Mathematics, RSAPS</p>
                             <a href="https://www.rgu.ac/faculty-dr-kshetrimayum-renubebeta-devi" class="profile-link">View
                                 Profile</a>
@@ -427,18 +427,6 @@
                             <h3 class="card-name">Dr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor, Department of English, RSL</p>
                             <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumar-Singh.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rajkumar Imocha Singh</h3>
-                            <p class="card-designation">Assistant Professor, Department of Chemistry, RSAPS</p>
-                            <a href="https://www.rgu.ac/faculty-rajkumar-imocha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

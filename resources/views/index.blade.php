@@ -110,7 +110,7 @@
 
         <!-- happening at rgu  -->
 
-        <h2 class="mobile-headd1 pb-4 text-center pt-4" style="color: #27467A;">Media<span
+        {{-- <h2 class="mobile-headd1 pb-4 text-center pt-4" style="color: #27467A;">Media<span
                 style="font-weight: 500; color: #EF991F;"> Corner</span></h2>
 
         <div id="newsContainer" class="row">
@@ -198,7 +198,7 @@
                     <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
-        </div>
+        </div> --}}
 
 
 
@@ -957,9 +957,6 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-
-                                         <img class="zoomable" src="npmmobile-assets/events/feb11.jpeg"
-                                        style="width:300px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/sep-15.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/stu-3.jpeg"
@@ -970,8 +967,8 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/11nov.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    {{-- <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;"> --}}
 
                                 </div>
                             </div>

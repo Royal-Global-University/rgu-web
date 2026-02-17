@@ -118,40 +118,6 @@
                     <div class="row p-3">
                         <div class="col-lg-12">
                             <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-chemistry/rajkumar.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Dr. Rajkumar Imocha Singh
-                            </h2>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                <strong>Materials Chemistry:</strong> Synthesis and characterization of functional
-                                nanomaterials for
-                                biological applications. Research focuses on metal, metal oxides and 2D nanomaterials
-                                for
-                                sensing and drug delivery, magnetic nanoparticles for hyperthermia therapy, and
-                                fluorescent
-                                nanoparticles for photocatalytic applications. <br>
-
-                                <strong>Biophysical chemistry:</strong> Protein-ligand interactions through experimental
-                                and
-                                molecular
-                                docking MD simulations, inhibition of protein fibrillation and prevention of albumin
-                                glycation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
                                 src="mobile-assets/phd-mobile/doctoral-chemistry/mullah.jpg" alt="">
                         </div>
                         <div class="col-lg-12">
@@ -362,37 +328,6 @@
                         <p class="para1 text-dark">
                             Asymmetric Synthesis, Organocatalysis, Photoredox Chemistry, Organic Synthesis, Photoacid
                             Catalysis.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-chemistry/rajkumar.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Rajkumar Imocha Singh
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            <strong>Materials Chemistry:</strong> Synthesis and characterization of functional
-                            nanomaterials for
-                            biological applications. Research focuses on metal, metal oxides and 2D nanomaterials for
-                            sensing and drug delivery, magnetic nanoparticles for hyperthermia therapy, and fluorescent
-                            nanoparticles for photocatalytic applications. <br>
-
-                            <strong>Biophysical chemistry:</strong> Protein-ligand interactions through experimental and
-                            molecular
-                            docking MD simulations, inhibition of protein fibrillation and prevention of albumin
-                            glycation.
                         </p>
                     </div>
                 </div>

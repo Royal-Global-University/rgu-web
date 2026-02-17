@@ -424,7 +424,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
-                            <p class="card-designation">Assistant Professor, Royal School of Languages</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a class="profile-link">Member</a>
                         </div>
                     </div>

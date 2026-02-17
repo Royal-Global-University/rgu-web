@@ -190,7 +190,7 @@
                Dr. Pronami Bhattacharyya
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-              Associate Professor & HoD; Associate Dean, R&D
+              Associate Professor
               </h2>
             </div>
           </div>
@@ -212,7 +212,7 @@
                 Dr. Pronami Bhattacharyya
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Associate Professor & HoD; Associate Dean, R&D
+                Associate Professor
               </h2>
             </div>
 

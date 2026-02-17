@@ -200,7 +200,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
-                            <p class="card-designation">Associate Professor & HoD</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="/faculty-pronami-bhattacharyya" class="profile-link">View Profile</a>
                         </div>
                     </div>

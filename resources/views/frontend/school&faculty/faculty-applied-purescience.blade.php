@@ -279,7 +279,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Kshetrimayum-Renubebeta-Devi.jpeg"
                                     alt="Profile image of Dr. Kshetrimayum Devi">
                             </div>
-                            <h3 class="card-name">Dr. Kshetrimayum Devi</h3>
+                            <h3 class="card-name">Dr. Kshetrimayum Renubebeta Devi</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-kshetrimayum-renubebeta-devi" class="profile-link">View
                                 Profile</a>
@@ -549,18 +549,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Rajkumar-Singh.png"
-                                    alt="Profile image of Dr. Rajkumar Imocha Singh">
-                            </div>
-                            <h3 class="card-name">Dr. Rajkumar Imocha Singh</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-rajkumar-imocha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Sachidulal-Biswas.png"
                                     alt="Profile image of Dr. Sachidulal Biswas">
                             </div>
@@ -822,7 +810,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="/faculty-pronami-bhattacharyya" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -834,7 +822,7 @@
                                     alt="Profile image of Susmita Banerjee">
                             </div>
                             <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                            <p class="card-designation">Faculty Member, IKS Cell</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
                     </div>

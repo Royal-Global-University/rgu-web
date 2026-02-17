@@ -164,7 +164,7 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                                <p class="card-designation">Faculty Member, IKS Cell</p>
+                                <p class="card-designation">Assistant Professor</p>
                                 <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                             </div>
                         </div>
