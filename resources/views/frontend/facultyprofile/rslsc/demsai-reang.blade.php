@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rupak.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Demsai-Reang-RSLSC.png"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Dr. Rupak Kumar Dalai
+               Dr. Demsai Reang
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                 Dr. Rupak Kumar Dalai
+               Dr. Demsai Reang
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,49 +217,58 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Mathematics(Harmonic Analysis), IIT Guwahati</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Pure Mathematics, University of Hyderabad</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. in Mathematics and Computing, Institute of Mathematics Applications, Bhubaneswar</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. in Environmental Science, Assam Central University (Forest Ecology, Landscape management, and Remote Sensing & GIS applications).</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.Sc. in Environmental Science, Assam Central University.</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.Sc. in Botany, Union Christian College, NEHU, Meghalaya.</span></li>
+
 
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 years 8 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>5 years 6 months</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>7 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>3 years 6 months</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research (outside teaching): </h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 Years 1 month</span></li>
+              <li><i class="fa fa-circle"></i> <span>2 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Harmonic Analysis</span></li>
+              <li><i class="fa fa-circle"></i><span>Forest and Agro-Ecology, Biodiversity Conservation; Remote Sensing & GIS, Climate vulnerability</span></li>
             </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Refereed International Journals: 2</span></li>
-              <li><i class="fa fa-circle"></i> <span>Non-Refereed International Journals: 5</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 08</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 15</span></li>
 
             </ul>
 
+            <h2 class="faculty-bio-sub-heading">Patents Published:  </h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>01 (L-143076/2024)</span></li>
+            </ul>
 
-
-
+            <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>05</span></li>
+            </ul>
 
             <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>1 project submitted</span></li>
+              <li><i class="fa fa-circle"></i> <span>Evaluating urban green carbon pools in Guwahati: A blueprint for mitigating climate risk and urban heat island intensity</span></li>
+              <li><i class="fa fa-circle"></i> <span>Assessing the nexus of microplastic contamination in agricultural soils of Kharupetia-Dalgaon Belt, Assam: Implications for achieving the UN SDG3</span></li>
             </ul>
+
 
           </div>
         </div>

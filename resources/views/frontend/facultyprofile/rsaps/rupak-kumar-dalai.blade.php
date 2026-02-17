@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rupak.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/atanu-bhattacharjee-rsp.jpeg"
                 alt="">
             </div>
           </div>
@@ -186,10 +186,10 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Dr. Rupak Kumar Dalai
+               Prof. Atanu Bhattacharjee
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-               Assistant Professor
+               Professor
               </h2>
             </div>
           </div>
@@ -208,58 +208,85 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                 Dr. Rupak Kumar Dalai
+                 Prof. Atanu Bhattacharjee
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Assistant Professor
+                Professor
               </h2>
             </div>
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Mathematics(Harmonic Analysis), IIT Guwahati</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Pure Mathematics, University of Hyderabad</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. in Mathematics and Computing, Institute of Mathematics Applications, Bhubaneswar</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D.- Pharmaceutical Sciences, Nitte University</span></li>
+              <li><i class="fa fa-circle"></i> <span>M. Pharm- Pharmacognosy JSS College of Pharmacy, Ooty, Tamilnadu.</span></li>
+
 
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 years 8 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>16 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>7 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>16 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research (outside teaching): </h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 Years 1 month</span></li>
+              <li><i class="fa fa-circle"></i> <span>Awarded Senior Research Fellowship (SRF) from Central Council of Research in Ayurvedic Sciences (CCRAS), New Delhi, India on the project entitled “Evaluation of safety profile of herbs used in Ayurveda with CYP450 enzymes inhibition method”.</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Harmonic Analysis</span></li>
+              <li><i class="fa fa-circle"></i><span>Phytochemical and neuro-pharmacological evaluation of traditional medicinal plants</span></li>
+              <li><i class="fa fa-circle"></i><span>Determination of safety profile of medicinal plant</span></li>
+              <li><i class="fa fa-circle"></i><span>Standardization of medicinal plant</span></li>
+
             </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Refereed International Journals: 2</span></li>
-              <li><i class="fa fa-circle"></i> <span>Non-Refereed International Journals: 5</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 02</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 29</span></li>
 
             </ul>
 
+            <h2 class="faculty-bio-sub-heading">Patents Granted:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>06</span></li>
+            </ul>
 
+            <h2 class="faculty-bio-sub-heading">Books Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>04</span></li>
+            </ul>
 
+            <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>21</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Books Edited:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>04</span></li>
+            </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>1 project submitted</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. : 07</span></li>
+              <li><i class="fa fa-circle"></i> <span>PG : 04</span></li>
             </ul>
+
+             <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Received the “Young Scientist Award-2021” in the International Scientist Awards on Engineering, Science and Medicine, held on 8th & 9th January2021, Salem, India, organized by VDGOOD Professional Association.</span></li>
+            </ul>
+
 
           </div>
         </div>

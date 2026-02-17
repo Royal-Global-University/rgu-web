@@ -199,7 +199,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pratikshya Borah</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pratikshya-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -319,7 +319,7 @@
                             </div>
                             <h3 class="card-name">Dr. Dharmeswar Barhoi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dharmeswar-barhoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -562,7 +562,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Demsai Reang</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-demsai-reang" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

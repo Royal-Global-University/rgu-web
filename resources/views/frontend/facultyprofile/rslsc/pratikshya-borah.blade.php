@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rupak.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Dr. Rupak Kumar Dalai
+                Dr. Pratikshya Borah
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                 Dr. Rupak Kumar Dalai
+                 Dr. Pratikshya Borah
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,48 +217,63 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Mathematics(Harmonic Analysis), IIT Guwahati</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Pure Mathematics, University of Hyderabad</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. in Mathematics and Computing, Institute of Mathematics Applications, Bhubaneswar</span></li>
+              <li><i class="fa fa-circle"></i> <span>Post-Doctoral (Plant Molecular Biology) in Protein degradation system and plant developmental biology from University of Delhi South Campus (UDSC)</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph. D. (Plant Molecular Biology) in Protein degradation system and plant developmental biology from University of Delhi South Campus (UDSC)</span></li>
+              <li><i class="fa fa-circle"></i> <span>Master’s Degree(MSc Plant Molecular Biology and Biotechnology) in Plant Molecular Biology and Biotechnology from University of Delhi South Campus (UDSC)</span></li>
+              <li><i class="fa fa-circle"></i> <span>Degree (BSc Biotechnology) in Biotechnology from North-Eastern Hill University (NEHU)</span></li>
+
 
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 years 8 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>12 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>7 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>12 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research (outside teaching): </h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 Years 1 month</span></li>
+              <li><i class="fa fa-circle"></i> <span>9 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Harmonic Analysis</span></li>
+              <li><i class="fa fa-circle"></i><span>Plant Molecular Biology, Developmental Biology.</span></li>
             </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Refereed International Journals: 2</span></li>
-              <li><i class="fa fa-circle"></i> <span>Non-Refereed International Journals: 5</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 5</span></li>
+            </ul>
 
+            <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>2</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Intramural: 1</span></li>
             </ul>
 
 
 
-
-
-            <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
+            <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>1 project submitted</span></li>
+              <li><i class="fa fa-circle"></i> <span>CSIR-SRA Scientist Pool Fellowship in Life Sciences, May 2021. CSIR, Government of India.</span></li>
+              <li><i class="fa fa-circle"></i> <span>Designed the cover illustration of JPBB Special Issue: Advances in Plant Biology: Impact of Arabidopsis Research, October-December 2020.</span></li>
+              <li><i class="fa fa-circle"></i> <span>Best Poster Award (2018), 4th International Plant Physiology Congress at CSIR-National Botanical Research Institute, Lucknow, India.</span></li>
+              <li><i class="fa fa-circle"></i> <span>CSIR Research Fellowship for PhD + NET (2008-2013). Government of India. Selected for SPM Fellowship interviews, 2008 (Top 50 successful candidates in Life Sciences).</span></li>
+              <li><i class="fa fa-circle"></i> <span>South Campus Endowment (2007-2008). University of Delhi.</span></li>
+              <li><i class="fa fa-circle"></i> <span>All India Post Graduate Scholarship (2007). Government of India.</span></li>
+              <li><i class="fa fa-circle"></i> <span>College Award for Biotechnology (2006). St. Anthony’s College Shillong, India.</span></li>
+
             </ul>
 
           </div>

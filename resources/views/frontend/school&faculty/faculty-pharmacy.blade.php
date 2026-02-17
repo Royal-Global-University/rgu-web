@@ -130,7 +130,7 @@
                             </div>
                             <h3 class="card-name">Prof. Atanu Bhattacharjee</h3>
                             <p class="card-designation">Professor & Joint CoE</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-atanu-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

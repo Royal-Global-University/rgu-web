@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rupak.jpeg"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/all-faculty/rslsc/dharmeswat.jpeg"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Dr. Rupak Kumar Dalai
+                Dr. Dharmeswar Barhoi
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                 Dr. Rupak Kumar Dalai
+                 Dr. Dharmeswar Barhoi
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,48 +217,62 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Mathematics(Harmonic Analysis), IIT Guwahati</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Pure Mathematics, University of Hyderabad</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. in Mathematics and Computing, Institute of Mathematics Applications, Bhubaneswar</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. - Assam University, Silchar</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.Sc.- Life Science (Zoology),Assam University, Silchar </span></li>
+              <li><i class="fa fa-circle"></i> <span>B.Sc.- Dibrugarh University</span></li>
+
 
 
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 years 8 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>12 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>7 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>04 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research (outside teaching): </h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>3 Years 1 month</span></li>
+              <li><i class="fa fa-circle"></i> <span>12 years</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i><span>Harmonic Analysis</span></li>
+              <li><i class="fa fa-circle"></i><span>Molecular Cell Biology, Genetic toxicology, Environmental toxicology, Medicinal plant research, Cancer Biology</span></li>
             </ul>
 
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Refereed International Journals: 2</span></li>
-              <li><i class="fa fa-circle"></i> <span>Non-Refereed International Journals: 5</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 01</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 16</span></li>
 
             </ul>
 
+            <h2 class="faculty-bio-sub-heading">Book Chapters Published:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>11</span></li>
+            </ul>
 
-
-
+            <h2 class="faculty-bio-sub-heading">Books Edited: </h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>01</span></li>
+            </ul>
 
             <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>1 project submitted</span></li>
+              <li><i class="fa fa-circle"></i> <span>03</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Received UGC Fellowship for Doctoral Research</span></li>
+              <li><i class="fa fa-circle"></i> <span>Cleared SLET (NE Region)</span></li>
+
             </ul>
 
           </div>
