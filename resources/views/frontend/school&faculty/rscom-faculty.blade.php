@@ -142,7 +142,7 @@
                             </div>
                             <h3 class="card-name">Prof. Dileep Chandan Sarma</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dileep-chandan-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
