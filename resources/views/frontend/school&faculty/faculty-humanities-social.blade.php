@@ -980,7 +980,7 @@
                             </div>
                             <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dijendra" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

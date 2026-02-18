@@ -198,7 +198,7 @@
               </div>
               <h3 class="card-name">Prof. Prasanta Jyoti Baruah</h3>
               <p class="card-designation">Distinguished Professor, Royal School of Communication and Media (RSCOM)</p>
-              <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
+              <a href="/faculty-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
             </div>
           </div>
 

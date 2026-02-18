@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. Amrit Pal Singh</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/amrit-pal-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

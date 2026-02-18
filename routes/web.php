@@ -3673,6 +3673,10 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
 
 //RSL Faculty Profile.
 
+Route::get('/faculty-dileep-chandan-sarma', function () {
+    return view('frontend/facultyprofile/rsl/dileep-chandan-sarma');
+})->name('faculty-dileep-chandan-sarma');
+
 Route::get('/faculty-pompi-basumatary', function () {
     return view('frontend/facultyprofile/rsl/pompi-basumatary');
 })->name('faculty-pompi-basumatary');
@@ -3840,6 +3844,10 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-kamal-deka', function () {
+    return view('frontend/facultyprofile/rsp/kamal-deka');
+})->name('faculty-kamal-deka');
+
 Route::get('/faculty-atanu-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsp/atanu-bhattacharjee');
 })->name('faculty-atanu-bhattacharjee');
@@ -3950,6 +3958,10 @@ Route::get('/sumi-barman', function () {
 })->name('sumi-barman');
 
 //RSLSC Faculty Profile
+
+Route::get('/faculty-parimal-chandra-ray', function () {
+    return view('frontend/facultyprofile/rslsc/parimal-chandra-ray');
+})->name('faculty-parimal-chandra-ray');
 
 Route::get('/faculty-pratikshya-borah', function () {
     return view('frontend/facultyprofile/rslsc/pratikshya-borah');
@@ -4382,6 +4394,10 @@ Route::get('/faculty-biswajit-sarma', function () {
 
 //RSC FACULTY PROFILE
 
+Route::get('/amrit-pal-singh', function () {
+    return view('frontend/facultyprofile/rsc/amrit-pal-singh');
+})->name('amrit-pal-singh');
+
 Route::get('/faculty-bittu-sonowal', function () {
     return view('frontend/facultyprofile/rsc/bittu-sonowal');
 })->name('faculty-bittu-sonowal');
@@ -4459,6 +4475,10 @@ Route::get('/faculty-sudip-chakraborty', function () {
 })->name('faculty-sudip-chakraborty');
 
 //RSD Faculty Profile
+
+Route::get('/faculty-sattyakee-dcom-bhuyan', function () {
+    return view('frontend/facultyprofile/rsd/sattyakee-dcom-bhuyan');
+})->name('faculty-sattyakee-dcom-bhuyan');
 
 Route::get('/faculty-manash-pratim-borah', function () {
     return view('frontend/facultyprofile/rsd/manash-pratim-borah');
@@ -4763,6 +4783,10 @@ Route::get('/faculty-siddhartha-narayan', function () {
 })->name('faculty-siddhartha-narayan');
 
 //RSCOM Faculty Profile
+
+Route::get('/faculty-prasanta-jyoti-baruah', function () {
+    return view('frontend/facultyprofile/rscom/prasanta-jyoti-baruah');
+})->name('faculty-prasanta-jyoti-baruah');
 
 Route::get('/faculty-bijayata-dutta', function () {
     return view('frontend/facultyprofile/rscom/bijayata-dutta');

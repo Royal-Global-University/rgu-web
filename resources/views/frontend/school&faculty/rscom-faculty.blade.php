@@ -117,7 +117,7 @@
                             </div>
                             <h3 class="card-name">Prof. Prasanta Jyoti Baruah</h3>
                             <p class="card-designation">Distinguished Professor & Dean, RSCOM</p>
-                            <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
+                            <a href="/faculty-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -277,7 +277,7 @@
                             </div>
                             <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dijendra" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
