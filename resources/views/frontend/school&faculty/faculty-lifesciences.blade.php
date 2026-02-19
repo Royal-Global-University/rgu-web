@@ -330,7 +330,7 @@
                             </div>
                             <h3 class="card-name">Dr. Diksha Dutta</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-diksha-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

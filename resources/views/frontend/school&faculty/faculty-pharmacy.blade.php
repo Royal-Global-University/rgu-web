@@ -167,7 +167,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pranabesh Sikdar</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pranabesh-sikdar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

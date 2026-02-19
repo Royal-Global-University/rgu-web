@@ -400,7 +400,7 @@
                                     alt="Profile image of Ms. Kalyani Gohain">
                             </div>
                             <h3 class="card-name">Ms. Kalyani Gohain</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-kalyani-gohain" class="profile-link">View Profile</a>
                         </div>
                     </div>

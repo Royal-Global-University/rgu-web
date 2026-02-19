@@ -3848,6 +3848,10 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-pranabesh-sikdar', function () {
+    return view('frontend/facultyprofile/rsp/pranabesh-sikdar');
+})->name('faculty-pranabesh-sikdar');
+
 Route::get('/faculty-kamal-deka', function () {
     return view('frontend/facultyprofile/rsp/kamal-deka');
 })->name('faculty-kamal-deka');
@@ -3962,6 +3966,10 @@ Route::get('/sumi-barman', function () {
 })->name('sumi-barman');
 
 //RSLSC Faculty Profile
+
+Route::get('/faculty-diksha-dutta', function () {
+    return view('frontend/facultyprofile/rslsc/diksha-dutta');
+})->name('faculty-diksha-dutta');
 
 Route::get('/faculty-parimal-chandra-ray', function () {
     return view('frontend/facultyprofile/rslsc/parimal-chandra-ray');
