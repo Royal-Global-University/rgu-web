@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU alumnus secures Rank 1 in APSC CCE 2024, thanks alma mater',
+                            'summary' => '',
+                            'date' => 'Guwahati, February 18, 2026:',
+                            'link' =>
+                                '/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater',
+                            'image' => 'mobile-assets/media-corner/news82/nihar.jpeg',
+                            'content' => 'Nihar Ranjan Deka, who secured Rank 1 in the Assam Public Service Commission Combined Competitive Examination (APSC CCE) 2024, has expressed heartfelt gratitude to his alma mater, The Assam Royal Global University (RGU), for shaping his academic journey and overall personality.',
+                        ],
+                        [
                             'title' => 'Royal Global University joins hands with Indian Army to empower wards of heroes',
                             'summary' => 'Honouring sacrifice through education: RGU signs MoU with Indian Army at New Delhi',
                             'date' => 'Guwahati, February 14, 2026:',

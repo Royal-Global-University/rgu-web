@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater', function () {
+    return view('frontend/media-corner/news99');
+})->name('rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater');
+
 Route::get('/royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes', function () {
     return view('frontend/media-corner/news98');
 })->name('royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes');
