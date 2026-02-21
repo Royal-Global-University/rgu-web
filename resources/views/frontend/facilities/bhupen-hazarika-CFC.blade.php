@@ -782,43 +782,6 @@
         </div>
     </section>
 
-    <section class="bhupen-about-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 bhupen-about-text">
-                    <p>
-                        Anchored in this foundation, the DBHCC extends its scholarly inquiry to diverse traditions of
-                        creativity
-                        across Assam and Northeast India as well as beyond, engaging with exemplary figures from literature,
-                        music,
-                        visual arts, science, philosophy, and society. The core objective is to distil, interpret, and
-                        meaningfully
-                        transfer ideas of creativity from these iconic contributors into varied domains of academia,
-                        pedagogy, and
-                        research, thereby fostering innovation, critical thinking, and interdisciplinary dialogue.
-                        Simultaneously,
-                        the Centre is committed to cultivating awareness and advancing informed discourse on the
-                        preservation,
-                        documentation, and continued relevance of the cultural heritage of Northeast India, positioning
-                        creativity
-                        as both an academic pursuit and a living cultural practice. The Centre is chaired by Prof. Amarjyoti
-                        Choudhury, Professor Emeritus, whose academic leadership guides its intellectual vision and
-                        scholarly
-                        direction.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="bhupen-about-video-wrap">
-                        <video src="mobile-assets/bhupen-hazarika-CFC/video/vid.mp4" autoplay muted loop playsinline
-                            preload="metadata">
-                        </video>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- AVM IMAGE SECTION -->
     <section class="bhupen-avm-image-section">
         <!-- Desktop / Tablet Image -->
