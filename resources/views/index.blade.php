@@ -864,11 +864,11 @@
                     </section>
                 </section>
 
-                {{-- <div class="gg1920-carousel-slide">
+                <div class="gg1920-carousel-slide">
                     <img src="mobile-assets/ads/icetie.jpeg"  alt="Slide 1">
-                </div> --}}
+                </div>
 
-                <section>
+                {{-- <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -942,7 +942,7 @@
                             <a href="ICETIEDS–2026"><img style="border: 1px solid black"
                                     src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
                         </div>
-                    </div>
+                    </div> --}}
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
@@ -1071,6 +1071,28 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/amarjyoti.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Creative Talk Series launched at RGU: Prof Choudhury addresses college students on the Wonders of the Quantum World
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 20,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
@@ -1108,30 +1130,6 @@
                                                 </p>
                                                 <a
                                                     href="royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news82/111.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    RGU Launches UNI News Agency Service: First Time in the North East done by a University
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 11,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>

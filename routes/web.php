@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world', function () {
+    return view('frontend/media-corner/news100');
+})->name('creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world');
+
 Route::get('/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater', function () {
     return view('frontend/media-corner/news99');
 })->name('rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater');

@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Creative Talk Series launched at RGU: Prof Choudhury addresses college students on the Wonders of the
+                Quantum World',
+                            'summary' => '',
+                            'date' => 'Guwahati, February 20, 2026:',
+                            'link' =>
+                                '/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world',
+                            'image' => 'mobile-assets/media-corner/amarjyoti.jpeg',
+                            'content' => 'The Department of Physics at The Assam Royal Global University (RGU) has taken a significant initiative to launch a Creative Talk Series featuring Prof. Amarjyoti Choudhury, Chair, Dr Bhupen Hazarika Centre for Creativity, as the distinguished orator. Today, the first talk of the series has been delivered on “The Wonders of the Quantum World”',
+                        ],
+                        [
                             'title' => 'RGU alumnus secures Rank 1 in APSC CCE 2024, thanks alma mater',
                             'summary' => '',
                             'date' => 'Guwahati, February 18, 2026:',
