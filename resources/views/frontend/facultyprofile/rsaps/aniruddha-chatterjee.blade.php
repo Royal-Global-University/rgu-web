@@ -216,7 +216,6 @@
               </h2>
             </div>
 
-            <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <p class="faculty-bio-info-list">
               Dr. Aniruddha Chatterjee is a distinguished academician with over 21 years of teaching, research, and industrial experience in Polymer Science and Nanotechnology. Over the years, he has held significant academic and administrative positions, including roles at Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar (Aurangabad), Plastindia International University (Gujarat), and UICT, North Maharashtra University, Jalgaon, contributing extensively to research development and institutional growth. He holds a Ph.D. in Polymer Nanocomposites from North Maharashtra University, Maharashtra.
 
