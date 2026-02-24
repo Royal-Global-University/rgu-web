@@ -4256,6 +4256,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 // RSAPS Faculty Profile
 
+Route::get('/faculty-aniruddha-chatterjee', function () {
+    return view('frontend/facultyprofile/rsaps/aniruddha-chatterjee');
+})->name('faculty-aniruddha-chatterjee');
+
 Route::get('/faculty-rupak-kumar-dalai', function () {
     return view('frontend/facultyprofile/rsaps/rupak-kumar');
 })->name('faculty-rupak-kumar-dalai');
@@ -4588,6 +4592,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 
 //RSHM-RSTTM Faculty Profile
+
+Route::get('/faculty-angshumi-goswami', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/angshumi-goswami');
+})->name('faculty-angshumi-goswami');
 
 Route::get('/faculty-supriya-sikari', function () {
     return view('frontend/facultyprofile/rshm-rsttm/supriya-sikari');

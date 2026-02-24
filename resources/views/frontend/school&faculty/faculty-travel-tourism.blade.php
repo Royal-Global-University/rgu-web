@@ -212,7 +212,7 @@
                             </div>
                             <h3 class="card-name">Ms. Angshumi Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-prabahan-puzari" class="profile-link">View Profile</a> --}}
+                            <a href="https://www.rgu.ac/faculty-prabahan-puzari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

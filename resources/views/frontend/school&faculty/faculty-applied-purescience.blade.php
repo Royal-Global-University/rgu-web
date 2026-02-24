@@ -129,8 +129,8 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
                             <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
-                            {{-- <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-aniruddha-chatterjee" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -468,8 +468,8 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
                             <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
-                            {{-- <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-aniruddha-chatterjee" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
