@@ -143,7 +143,7 @@
                             </div>
                             <h3 class="card-name">Prof. Bipul Nath</h3>
                             <p class="card-designation">Professor</p>
-                            {{-- <a href="" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-bipul-nath" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -337,9 +337,9 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pallab-Kumar-Nath-RSP.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Pallab Nath</h3>
+                            <h3 class="card-name">Mr. Pallab Kumar Nath</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pallab-kumar-nath" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

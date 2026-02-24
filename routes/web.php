@@ -3852,6 +3852,14 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-pallab-kumar-nath', function () {
+    return view('frontend/facultyprofile/rsp/pallab-kumar-nath');
+})->name('faculty-pallab-kumar-nath');
+
+Route::get('/faculty-bipul-nath', function () {
+    return view('frontend/facultyprofile/rsp/bipul-nath');
+})->name('faculty-bipul-nath');
+
 Route::get('/faculty-pranabesh-sikdar', function () {
     return view('frontend/facultyprofile/rsp/pranabesh-sikdar');
 })->name('faculty-pranabesh-sikdar');
