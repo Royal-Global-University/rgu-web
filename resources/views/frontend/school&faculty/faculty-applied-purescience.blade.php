@@ -705,7 +705,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pritha Roychowdhury</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="https://www.rgu.ac/faculty-pritha-roychowdhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
