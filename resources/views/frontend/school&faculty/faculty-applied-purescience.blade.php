@@ -1011,7 +1011,7 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Amarjyoti Choudhury</h3>
                             <p class="card-designation">Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre
-                                for Creativity, The Assam Royal Global University</p>
+                                for Creativity, RGU</p>
                             <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -1026,6 +1026,18 @@
                             <h3 class="card-name"> Prof. (Dr.) Amarendra Rajput</h3>
                             <p class="card-designation">Professor and Advisor</p>
                             <a href="https://www.rgu.ac/faculty-amdrendra-rajput" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/dip-saikia.png"
+                                    alt="Profile image of Dr. Devika Phukan">
+                            </div>
+                            <h3 class="card-name">Prof. Dip Saikia</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-dr-devika-phukan" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 

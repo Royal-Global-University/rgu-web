@@ -1,3 +1,183 @@
+    {{-- <section>
+        <style>
+            /* Push the navbars down so the new Top Bar doesn't cover them */
+            .navbar {
+                top: 44px !important;
+            }
+
+            /* Push the mobile slide-out menu content down as well */
+            .menu {
+                padding-top: 60px !important;
+            }
+
+            /* --- New Modal Animations --- */
+            #topBarModal {
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.3s ease, visibility 0.3s ease;
+            }
+
+            #topBarModal.show {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .modal-content-box {
+                transform: scale(0.8) translateY(30px);
+                transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            }
+
+            #topBarModal.show .modal-content-box {
+                transform: scale(1) translateY(0);
+            }
+
+            /* --- Card Styles & Hover Animations --- */
+            .phd-card-container {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 15px;
+            }
+
+            .phd-login-card {
+                flex: 1;
+                min-width: 240px;
+                background: #f8f9fa;
+                border: 2px solid #eaeaea;
+                border-radius: 12px;
+                padding: 35px 20px;
+                text-decoration: none !important;
+                color: #333;
+                transition: all 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .phd-login-card:hover {
+                background: #fff;
+                border-color: #ffa827;
+                box-shadow: 0 15px 30px rgba(255, 168, 39, 0.15);
+                transform: translateY(-8px);
+            }
+
+            .phd-card-icon {
+                font-size: 50px;
+                color: #13223b;
+                margin-bottom: 20px;
+                transition: transform 0.4s ease, color 0.3s ease;
+            }
+
+            .phd-login-card:hover .phd-card-icon {
+                transform: scale(1.15) rotate(5deg);
+                color: #ffa827;
+            }
+
+            .phd-login-card h3 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 22px;
+                font-weight: 700;
+                color: #13223b;
+                margin-bottom: 10px;
+            }
+
+            .phd-login-card p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 16px;
+                color: #666;
+                margin: 0;
+                line-height: 1.5;
+                text-align: center;
+            }
+        </style>
+
+        <div id="common-top-bar"
+            style="position: fixed; top: 0; left: 0; width: 100%; background-color: #13223b; color: #fff; text-align: center; padding: 3px 20px; z-index: 10500; font-family: 'Times New Roman', Times, serif; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+            <a href="#" id="topBarModalLink"
+                style="color: #ffa827; text-decoration: none; font-weight: 600; font-size: 18px; transition: opacity 0.3s;">
+                TRACK THE STATUS OF YOUR PH.D. THESIS
+            </a>
+        </div>
+
+        <div id="topBarModal"
+            style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 10600; justify-content: center; align-items: center; font-family: 'Times New Roman', Times, serif;">
+
+            <div class="modal-content-box" style="max-width: 650px; width: 95%; position: relative;">
+
+                <h2
+                    style="color: white; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 24px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px;">
+                    Track the status of your Ph.D thesis
+                </h2>
+
+                <div
+                    style="background-color: #fff; border-radius: 12px; padding: 40px 30px; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+
+                    <div class="phd-card-container">
+                        <a href="https://rgu.renocampus.com/auth/signin?callbackUrl=https%3A%2F%2Frgu.renocampus.com" class="phd-login-card">
+                            <div class="phd-card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <h3>Login as a Guide</h3>
+
+                        </a>
+
+                        <a href="https://rgu.renocampus.com/student" class="phd-login-card">
+                            <div class="phd-card-icon"><i class="fas fa-user-graduate"></i></div>
+                            <h3>Login as a Scholar</h3>
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <div style="text-align: center; margin-top: 15px;">
+                    <button id="modalBtnClose"
+                        style="background: none; border: none; color: #ddd; font-family: 'Times New Roman', Times, serif; font-size: 16px; cursor: pointer; text-decoration: underline; transition: color 0.3s;">Close
+                        Window</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var topBarLink = document.getElementById('topBarModalLink');
+                var topBarModal = document.getElementById('topBarModal');
+                var btnClose = document.getElementById('modalBtnClose');
+
+                // Open Modal Smoothly
+                topBarLink.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    topBarModal.style.display = 'flex'; // Un-hide from DOM
+
+                    // Add the animation class after a tiny delay so the browser registers it
+                    setTimeout(function () {
+                        topBarModal.classList.add('show');
+                    }, 10);
+                });
+
+                // Function to close modal smoothly
+                function closeModal() {
+                    topBarModal.classList.remove('show'); // Triggers CSS fade/scale out
+
+                    // Wait for the CSS transition (0.3s) to finish before hiding from DOM
+                    setTimeout(function () {
+                        topBarModal.style.display = 'none';
+                    }, 300);
+                }
+
+                // Close Modal on Button Click
+                btnClose.addEventListener('click', closeModal);
+
+                // Close Modal on Background Click
+                window.addEventListener('click', function (e) {
+                    if (e.target === topBarModal) {
+                        closeModal();
+                    }
+                });
+            });
+        </script>
+    </section> --}}
+
 <nav id="mainNavbar" class="navbar navbar-expand-lg"
     style="background-color: transparent; padding: 0px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
     <div class="container-fluid">
