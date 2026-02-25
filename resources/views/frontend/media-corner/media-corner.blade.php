@@ -47,6 +47,18 @@
                     $newsItems = [
                         [
                             'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
+                            'summary' => 'RGU Honours Dr Bhupen Hazarika with Book Release and Documentary Screening',
+                            'date' => 'Guwahati, February 25, 2026:',
+                            'link' =>
+                                '/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/news82/102.jpeg',
+                            'content' =>
+                                'Celebrating the life, legacy, and timeless
+                creativity of the Bard of the Brahmaputra, Dr Bhupen Hazarika Centre for Creativity at The Assam Royal
+                Global University (RGU)...',
+                        ],
+                        [
+                            'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
                             'summary' => 'Gagannauts to visit Space by 2030, Land on Moon by 2040: Ex-ISRO Chairman Dr. Kiran Kumar speaks on “Vision
                 for Indian Space Saga” at RGU',
                             'date' => 'Guwahati, February 24, 2026:',

@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university', function () {
+    return view('frontend/media-corner/news102');
+})->name('bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university');
+
 Route::get('/former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university', function () {
     return view('frontend/media-corner/news101');
 })->name('former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university');
