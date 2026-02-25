@@ -3983,6 +3983,10 @@ Route::get('/sumi-barman', function () {
 
 //RSLSC Faculty Profile
 
+Route::get('/faculty-bandana-nabis-das', function () {
+    return view('frontend/facultyprofile/rslsc/bandana-nabis-das');
+})->name('faculty-bandana-nabis-das');
+
 Route::get('/faculty-pushkal-baghchie', function () {
     return view('frontend/facultyprofile/rslsc/pushkal-baghchie');
 })->name('faculty-pushkal-baghchie');
