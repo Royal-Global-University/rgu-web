@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university', function () {
+    return view('frontend/media-corner/news101');
+})->name('former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university');
+
 Route::get('/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world', function () {
     return view('frontend/media-corner/news100');
 })->name('creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world');

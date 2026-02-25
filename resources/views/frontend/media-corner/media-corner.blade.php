@@ -46,6 +46,17 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
+                            'summary' => 'Gagannauts to visit Space by 2030, Land on Moon by 2040: Ex-ISRO Chairman Dr. Kiran Kumar speaks on “Vision
+                for Indian Space Saga” at RGU',
+                            'date' => 'Guwahati, February 24, 2026:',
+                            'link' =>
+                                '/former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/101.jpeg',
+                            'content' =>
+                                'The Department of Physics, The Assam Royal Global University (RGU), today organized an inspiring Public Talk...',
+                        ],
+                        [
                             'title' => 'Creative Talk Series launched at RGU: Prof Choudhury addresses college students on the Wonders of the
                 Quantum World',
                             'summary' => '',
@@ -53,69 +64,78 @@
                             'link' =>
                                 '/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world',
                             'image' => 'mobile-assets/media-corner/amarjyoti.jpeg',
-                            'content' => 'The Department of Physics at The Assam Royal Global University (RGU) has taken a significant initiative to launch a Creative Talk Series featuring Prof. Amarjyoti Choudhury, Chair, Dr Bhupen Hazarika Centre for Creativity, as the distinguished orator. Today, the first talk of the series has been delivered on “The Wonders of the Quantum World”',
+                            'content' =>
+                                'The Department of Physics at The Assam Royal Global University (RGU) has taken a significant initiative to launch a Creative Talk Series featuring Prof. Amarjyoti Choudhury, Chair, Dr Bhupen Hazarika Centre for Creativity, as the distinguished orator. Today, the first talk of the series has been delivered on “The Wonders of the Quantum World”',
                         ],
                         [
                             'title' => 'RGU alumnus secures Rank 1 in APSC CCE 2024, thanks alma mater',
                             'summary' => '',
                             'date' => 'Guwahati, February 18, 2026:',
-                            'link' =>
-                                '/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater',
+                            'link' => '/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater',
                             'image' => 'mobile-assets/media-corner/news82/nihar.jpeg',
-                            'content' => 'Nihar Ranjan Deka, who secured Rank 1 in the Assam Public Service Commission Combined Competitive Examination (APSC CCE) 2024, has expressed heartfelt gratitude to his alma mater, The Assam Royal Global University (RGU), for shaping his academic journey and overall personality.',
+                            'content' =>
+                                'Nihar Ranjan Deka, who secured Rank 1 in the Assam Public Service Commission Combined Competitive Examination (APSC CCE) 2024, has expressed heartfelt gratitude to his alma mater, The Assam Royal Global University (RGU), for shaping his academic journey and overall personality.',
                         ],
                         [
-                            'title' => 'Royal Global University joins hands with Indian Army to empower wards of heroes',
-                            'summary' => 'Honouring sacrifice through education: RGU signs MoU with Indian Army at New Delhi',
+                            'title' =>
+                                'Royal Global University joins hands with Indian Army to empower wards of heroes',
+                            'summary' =>
+                                'Honouring sacrifice through education: RGU signs MoU with Indian Army at New Delhi',
                             'date' => 'Guwahati, February 14, 2026:',
                             'link' =>
                                 '/royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes',
                             'image' => 'mobile-assets/media-corner/news82/16.jpeg',
-                            'content' => 'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University RGU) has signed a Memorandum of Understanding (MoU) with the Indian Army...',
+                            'content' =>
+                                'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University RGU) has signed a Memorandum of Understanding (MoU) with the Indian Army...',
                         ],
                         [
-                            'title' => 'RGU Launches UNI News Agency Service: First Time in the North East done by a University',
+                            'title' =>
+                                'RGU Launches UNI News Agency Service: First Time in the North East done by a University',
                             'summary' => '',
                             'date' => 'Guwahati, February 11, 2026:',
                             'link' =>
                                 '/rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university',
                             'image' => 'mobile-assets/media-corner/news82/111.jpeg',
-                            'content' => 'It’s a first of its kind news agency service undertaken by a university from the Northeastern part of India. The Royal School of Communication and Media, The Assam Royal Global University (RGU) today launched the UNI News Agency Service—the first such agency service of its kind in any university of the North East.',
+                            'content' =>
+                                'It’s a first of its kind news agency service undertaken by a university from the Northeastern part of India. The Royal School of Communication and Media, The Assam Royal Global University (RGU) today launched the UNI News Agency Service—the first such agency service of its kind in any university of the North East.',
                         ],
                         [
                             'title' => 'Chancellor’s Appreciation & Felicitation Ceremony Celebrates Excellence at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, February 4, 2026:',
-                            'link' =>
-                                'chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu',
+                            'link' => 'chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu',
                             'image' => 'mobile-assets/media-corner/news82/pro/1.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) organised the “Chancellor’s Appreciation & Felicitation Ceremony” yesterday, celebrating outstanding achievements of students and faculty members who have brought laurels to the University through excellence in academics, research, innovation, sports and national service.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) organised the “Chancellor’s Appreciation & Felicitation Ceremony” yesterday, celebrating outstanding achievements of students and faculty members who have brought laurels to the University through excellence in academics, research, innovation, sports and national service.',
                         ],
                         [
-                            'title' => 'Delhi University team wins 38th BCI National All India Inter-University Moot Court Competition hosted by RGU',
+                            'title' =>
+                                'Delhi University team wins 38th BCI National All India Inter-University Moot Court Competition hosted by RGU',
                             'summary' => 'BCI Chairman M K Mishra lauds Royal Global University for hosting BCI All India
                 Moot Court Competition 2026',
                             'date' => 'Guwahati, January 31, 2026:',
                             'link' =>
                                 'delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu',
                             'image' => 'mobile-assets/media-corner/news82/feb/1.jpeg',
-                            'content' => 'One of the most prestigious moot court competitions in the country—the 38th Bar Council of India (BCI)...',
+                            'content' =>
+                                'One of the most prestigious moot court competitions in the country—the 38th Bar Council of India (BCI)...',
                         ],
                         [
-                            'title' => '38th BCI National All India Inter University Moot Court Competition begins at RGU',
+                            'title' =>
+                                '38th BCI National All India Inter University Moot Court Competition begins at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 30, 2026:',
                             'link' =>
                                 '38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu',
                             'image' => 'mobile-assets/media-corner/news82/new/1.jpeg',
-                            'content' => 'The 38th Bar Council of India National All India Moot Court Competition begins today at The Assam Royal Global University (RGU) with much enthusiasm as 64 teams from across the country are here to compete for this most prestigious legal event. The two-day-long competition is being organised under the aegis of the Bar Council of India and the Bar Council of India Trust-Pearl First.',
+                            'content' =>
+                                'The 38th Bar Council of India National All India Moot Court Competition begins today at The Assam Royal Global University (RGU) with much enthusiasm as 64 teams from across the country are here to compete for this most prestigious legal event. The two-day-long competition is being organised under the aegis of the Bar Council of India and the Bar Council of India Trust-Pearl First.',
                         ],
                         [
                             'title' => '40 Northeast Janjati Communities Congregate at RGU for Janjati Sammelan',
                             'summary' => '',
                             'date' => 'Guwahati, January 30, 2026:',
-                            'link' =>
-                                '40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan',
+                            'link' => '40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan',
                             'image' => 'mobile-assets/media-corner/news82/ap.jpeg',
                             'content' => 'The rich cultural mosaic of Northeast India came
                 alive at The Assam Royal Global University (RGU) today as over 400 participants representing more than 40
