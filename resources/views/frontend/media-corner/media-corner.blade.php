@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction',
+                            'summary' => 'APSC topper Nihar Deka addresses aspiring students at his alma mater Royal Global University',
+                            'date' => 'Guwahati, February 26, 2026:',
+                            'link' =>
+                                '/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction',
+                            'image' => 'mobile-assets/media-corner/news80/1001.jpeg',
+                            'content' =>
+                                'Have the courage to pursue your goals even after failure. RGU gave me the confidence, the sense of discipline and consistency to believe on...',
+                        ],
+                        [
                             'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
                             'summary' => 'RGU Honours Dr Bhupen Hazarika with Book Release and Documentary Screening',
                             'date' => 'Guwahati, February 25, 2026:',

@@ -252,9 +252,8 @@
                             <div class="card d-flex flex-column shadow-sm rounded"
                                 style="background-color: #fff; height: 450px; border: none;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;"
-                                        src="https://media.rgu.ac/index/electric1.jpg" class="d-block w-100"
-                                        alt="..." style="border-radius: 10px;">
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/electric1.jpg"
+                                        class="d-block w-100" alt="..." style="border-radius: 10px;">
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Electrical <span
@@ -656,12 +655,10 @@
                                 <div id="rguCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="about-website.png" class="d-block w-100"
-                                                alt="Slide 2">
+                                            <img src="about-website.png" class="d-block w-100" alt="Slide 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="research-website.png"
-                                                class="d-block w-100" alt="Slide 3">
+                                            <img src="research-website.png" class="d-block w-100" alt="Slide 3">
                                         </div>
                                     </div>
 
@@ -729,7 +726,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                                               though the design relies on the black box */
+                                                   though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -865,7 +862,7 @@
                 </section>
 
                 <div class="gg1920-carousel-slide">
-                    <img src="mobile-assets/ads/icetie.jpeg"  alt="Slide 1">
+                    <img src="mobile-assets/ads/icetie.jpeg" alt="Slide 1">
                 </div>
 
                 {{-- <section>
@@ -1074,11 +1071,35 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news80/1001.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 26,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news82/102.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">“BHUPEN HAZARIKA: Twenty Songs and Seven Portraits” released at Royal Global University</p>
+                                                    class="pt-2 m-0 fw-bold">“BHUPEN HAZARIKA: Twenty Songs and Seven
+                                                    Portraits” released at Royal Global University</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">February 25,
                                                     2026
@@ -1100,36 +1121,14 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 18px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University</p>
+                                                    Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global
+                                                    University</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">February 24,
                                                     2026
                                                 </p>
                                                 <a
                                                     href="former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/amarjyoti.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Creative Talk Series launched at RGU: Prof Choudhury addresses college students on the Wonders of the Quantum World
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 20,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1481,8 +1480,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                            students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1514,8 +1513,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                            students</span> -->
 
                                                                     </div>
 

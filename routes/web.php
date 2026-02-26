@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction', function () {
+    return view('frontend/media-corner/news103');
+})->name('rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction');
+
 Route::get('/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university', function () {
     return view('frontend/media-corner/news102');
 })->name('bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university');
