@@ -4093,6 +4093,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-anindita-dutta', function () {
+    return view('frontend/facultyprofile/rsmas/anindita-dutta');
+})->name('faculty-anindita-dutta');
+
 Route::get('/faculty-jayanta-kumar', function () {
     return view('frontend/facultyprofile/rsmas/jayanta-kumar');
 })->name('faculty-jayanta-kumar');
