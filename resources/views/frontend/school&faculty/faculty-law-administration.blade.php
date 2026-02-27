@@ -188,18 +188,6 @@
                         </div>
                     </div>
 
-                     <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Arkajit.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Arkajit Debnath</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-arkajit-debnath" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -271,18 +259,6 @@
                             <h3 class="card-name">Ms. Hiya Das</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-hiya-das" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pravek-Medhi-RSLA.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Pravek Medhi</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-pravek-medhi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
