@@ -881,6 +881,18 @@
                 <!-- Social Work  -->
 
                 <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/victor-narzary.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Victor Narzary</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-priyanka-patowari" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
