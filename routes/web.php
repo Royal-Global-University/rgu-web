@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india', function () {
+    return view('frontend/media-corner/news104');
+})->name('nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india');
+
 Route::get('/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction', function () {
     return view('frontend/media-corner/news103');
 })->name('rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction');

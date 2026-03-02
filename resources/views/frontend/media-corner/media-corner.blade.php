@@ -46,6 +46,18 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India',
+                            'summary' => 'RGU only private university from the seven-sister states of NE to achieve this Rank for 2025',
+                            'date' => 'Guwahati, February 27, 2026:',
+                            'link' =>
+                                '/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india',
+                            'image' => 'mobile-assets/media-corner/news82/2326.jpeg',
+                            'content' =>
+                                'The Department of Physics at The Assam Royal
+                Global University (RGU) has been ranked at an unprecedented 53rd position in Physical Sciences by the
+                prestigious Nature Index-2025...',
+                        ],
+                        [
                             'title' => 'RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction',
                             'summary' => 'APSC topper Nihar Deka addresses aspiring students at his alma mater Royal Global University',
                             'date' => 'Guwahati, February 26, 2026:',
