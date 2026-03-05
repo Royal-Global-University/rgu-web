@@ -3945,9 +3945,9 @@
 
 
             </section>
-            {{-- <section class="comtainer pb-5 rounded" style="padding-left: 60px">
+            <section class="comtainer pb-5 rounded" style="padding-left: 60px">
                 <a href="/rsp-student-list" class="rounded" style="background-color: #151B5B; color: white; padding: 10px;">Student List</a>
-            </section> --}}
+            </section>
 
         </div>
 
