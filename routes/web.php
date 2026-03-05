@@ -3075,6 +3075,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university', function () {
+    return view('frontend/media-corner/news105');
+})->name('assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university');
+
 Route::get('/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india', function () {
     return view('frontend/media-corner/news104');
 })->name('nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india');

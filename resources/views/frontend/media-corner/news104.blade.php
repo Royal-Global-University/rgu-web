@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University joins hands with Indian Army to empower wards of heroes')
+@section('title', 'Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

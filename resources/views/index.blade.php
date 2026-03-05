@@ -1068,6 +1068,29 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news82/5326.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 18px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Assam DGP Harmeet Singh Unveils Bust of Sardar Patel at Royal Global University</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">March 2,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
@@ -1106,29 +1129,6 @@
                                                 </p>
                                                 <a
                                                     href="/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/101.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 18px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global
-                                                    University</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 24,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
