@@ -510,24 +510,6 @@
 
                             </ul>
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                NCC/NSS Association (if any):
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Programme Coordinator, NSS-The Assam Royal Global University
-                                    </span>
-                                </li>
-
-                            </ul>
-
-
                         </div>
 
                     </div>

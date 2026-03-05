@@ -275,10 +275,9 @@
                             <li><i class="fa fa-circle"></i> <span>12</span></li>
                         </ul>
 
-
                         <h2 class="faculty-bio-sub-heading">NCC/NSS Association (if any):</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>Establishment and Coordination of NSS Units</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Programme Coordinator, NSS-The Assam Royal Global University</span></li>
 
                         </ul>
 
