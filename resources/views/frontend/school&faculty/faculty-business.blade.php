@@ -148,6 +148,31 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsb/3.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. S.P. Singh</h3>
+                            <p class="card-designation">Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Diganta Munshi</h3>
+                            <p class="card-designation">Registrar, Administration & Director, IQAC and i/c Dean, RSET and
+                                RSIT</p>
+                            <a href="https://www.rgu.ac/faculty-diganta-munshi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. D.N. Singh</h3>
@@ -309,32 +334,7 @@
                 <div class="row justify-content-center">
                     <!-- Registrar / Director -->
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Diganta Munshi</h3>
-                            <p class="card-designation">Registrar, Administration & Director, IQAC and i/c Dean, RSET and
-                                RSIT</p>
-                            <a href="https://www.rgu.ac/faculty-diganta-munshi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                     <!-- Professors -->
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsb/3.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. S.P. Singh</h3>
-                            <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
