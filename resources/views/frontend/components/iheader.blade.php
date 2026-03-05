@@ -1,13 +1,72 @@
-    {{-- <section>
+<!-- top-bar-modal  -->
+    <section>
         <style>
-            /* Push the navbars down so the new Top Bar doesn't cover them */
+           /* Push the navbars down so the new Top Bar doesn't cover them */
             .navbar {
                 top: 44px !important;
+            }
+
+            /* --- New Responsive Top Bar Styles --- */
+            .responsive-top-bar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #13223b;
+                z-index: 10500;
+                font-family: 'Times New Roman', Times, serif;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 6px 20px;
+                gap: 15px;
+            }
+            .top-bar-link {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 14px;
+                transition: color 0.3s;
+                white-space: nowrap;
+            }
+            .top-bar-link:hover {
+                color: #ffa827;
+            }
+            .highlight-link {
+                color: #ffa827; /* Keeps the first link orange */
+            }
+            .top-bar-divider {
+                color: #fff;
+                opacity: 0.5;
+                font-size: 14px;
+            }
+
+            /* Mobile responsiveness */
+            @media (max-width: 768px) {
+
+
+                .responsive-top-bar {
+                    padding: 5px 10px;
+                    gap: 8px;
+                    justify-content: center;
+                }
+                .top-bar-link {
+                    font-size: 12px; /* Smaller text on mobile so it fits nicely */
+                }
+                .top-bar-divider {
+                    display: none; /* Hides the '|' on mobile for a cleaner look if it wraps */
+                }
+                .navbar {
+                    top: 60px !important; /* Pushes navbar down a bit more on mobile in case the top bar text wraps to 2 lines */
+                }
             }
 
             /* Push the mobile slide-out menu content down as well */
             .menu {
                 padding-top: 60px !important;
+
             }
 
             /* --- New Modal Animations --- */
@@ -15,6 +74,7 @@
                 opacity: 0;
                 visibility: hidden;
                 transition: opacity 0.3s ease, visibility 0.3s ease;
+
             }
 
             #topBarModal.show {
@@ -25,6 +85,7 @@
             .modal-content-box {
                 transform: scale(0.8) translateY(30px);
                 transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
             }
 
             #topBarModal.show .modal-content-box {
@@ -38,13 +99,15 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 margin-top: 15px;
+
+
             }
 
             .phd-login-card {
                 flex: 1;
                 min-width: 240px;
-                background: #f8f9fa;
-                border: 2px solid #eaeaea;
+                background: #ffe6c0;
+                border: 2px solid #ffca7b;
                 border-radius: 12px;
                 padding: 35px 20px;
                 text-decoration: none !important;
@@ -57,8 +120,8 @@
             }
 
             .phd-login-card:hover {
-                background: #fff;
-                border-color: #ffa827;
+                background: #ffb64a;
+                border-color: #13223b;
                 box-shadow: 0 15px 30px rgba(255, 168, 39, 0.15);
                 transform: translateY(-8px);
             }
@@ -72,7 +135,7 @@
 
             .phd-login-card:hover .phd-card-icon {
                 transform: scale(1.15) rotate(5deg);
-                color: #ffa827;
+                color: #13223b;
             }
 
             .phd-login-card h3 {
@@ -91,13 +154,45 @@
                 line-height: 1.5;
                 text-align: center;
             }
+
+            /* Mobile responsiveness */
+            @media (max-width: 768px) {
+                .responsive-top-bar {
+                    padding: 8px 10px;
+                    gap: 8px 15px; /* Adds healthy spacing between the wrapped links */
+                }
+                .top-bar-link {
+                    font-size: 13px; /* Increased text size for better readability/tapping */
+                    white-space: normal; /* Allows the text to wrap nicely without breaking */
+                    text-align: center;
+                }
+                .top-bar-divider {
+                    display: none; /* Keep the dividers hidden on mobile for a cleaner look */
+                }
+                .navbar {
+                    top: 85px !important; /* Pushes the main navbar completely below the double-line top bar */
+                }
+                .menu {
+                    padding-top: 100px !important; /* Pushes the content of the mobile slide-out menu down too */
+                }
+            }
         </style>
 
-        <div id="common-top-bar"
-            style="position: fixed; top: 0; left: 0; width: 100%; background-color: #13223b; color: #fff; text-align: center; padding: 3px 20px; z-index: 10500; font-family: 'Times New Roman', Times, serif; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-            <a href="#" id="topBarModalLink"
-                style="color: #ffa827; text-decoration: none; font-weight: 600; font-size: 18px; transition: opacity 0.3s;">
+        <div id="common-top-bar" class="responsive-top-bar">
+            <a href="#" id="topBarModalLink" class="top-bar-link highlight-link">
                 TRACK THE STATUS OF YOUR PH.D. THESIS
+            </a>
+
+            <span class="top-bar-divider">|</span>
+
+            <a href="https://rgu.renocampus.com/hr/staff" target="_blank" class="top-bar-link">
+                ERP LOGIN
+            </a>
+
+            <span class="top-bar-divider">|</span>
+
+            <a href="https://m365.cloud.microsoft/?auth=2" target="_blank" class="top-bar-link">
+                STAFF EMAIL LOGIN
             </a>
         </div>
 
@@ -176,7 +271,8 @@
                 });
             });
         </script>
-    </section> --}}
+    </section>
+    <!-- top-bar-modal  -->
 
 <nav id="mainNavbar" class="navbar navbar-expand-lg"
     style="background-color: transparent; padding: 0px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
