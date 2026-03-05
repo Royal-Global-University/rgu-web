@@ -889,7 +889,7 @@
                             </div>
                             <h3 class="card-name">Dr. Victor Narzary</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-priyanka-patowari" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-victor-narzary" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -4936,6 +4936,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-victor-narzary', function () {
+    return view('frontend/facultyprofile/rshss/victor-narzary');
+})->name('faculty-victor-narzary');
+
 Route::get('/faculty-akash-singh-thakur', function () {
     return view('frontend/facultyprofile/rshss/akash-singh-thakur');
 })->name('faculty-akash-singh-thakur');
