@@ -1,276 +1,253 @@
-    <section>
-        <style>
-           /* Push the navbars down so the new Top Bar doesn't cover them */
-            .navbar {
-                top: 44px !important;
-            }
+<section>
+  <style>
+    /* ---------- TOP BAR ---------- */
 
-            /* --- New Responsive Top Bar Styles --- */
-            .responsive-top-bar {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                background-color: #13223b;
-                z-index: 10500;
-                font-family: 'Times New Roman', Times, serif;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-                display: flex;
-                justify-content: right;
-                align-items: center;
-                flex-wrap: wrap;
-                padding: 6px 20px;
-                gap: 15px;
-            }
-            .top-bar-link {
-                color: #fff;
-                text-decoration: none;
-                font-weight: 600;
-                font-size: 14px;
-                transition: color 0.3s;
-                white-space: nowrap;
-            }
-            .top-bar-link:hover {
-                color: #ffa827;
-            }
-            .highlight-link {
-                color: #ffa827; /* Keeps the first link orange */
-            }
-            .top-bar-divider {
-                color: #fff;
-                opacity: 0.5;
-                font-size: 14px;
-            }
+    .rguPhdTopBarContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #13223b;
+      z-index: 10500;
+      font-family: "Times New Roman", Times, serif;
 
-            /* Mobile responsiveness */
-            @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
+      padding: 6px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
 
-                .responsive-top-bar {
-                    padding: 5px 10px;
-                    gap: 8px;
-                    justify-content: center;
-                }
-                .top-bar-link {
-                    font-size: 12px; /* Smaller text on mobile so it fits nicely */
-                }
-                .top-bar-divider {
-                    display: none; /* Hides the '|' on mobile for a cleaner look if it wraps */
-                }
-                .navbar {
-                    top: 60px !important; /* Pushes navbar down a bit more on mobile in case the top bar text wraps to 2 lines */
-                }
-            }
+    .rguPhdRowOne {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 4px;
+    }
 
-            /* Push the mobile slide-out menu content down as well */
-            .menu {
-                padding-top: 60px !important;
+    .rguPhdRowTwo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
 
-            }
+    .rguPhdTopBarLink {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
 
-            /* --- New Modal Animations --- */
-            #topBarModal {
-                opacity: 0;
-                visibility: hidden;
-                transition: opacity 0.3s ease, visibility 0.3s ease;
+    .rguPhdTopBarLink:hover {
+      color: #ffa827;
+    }
 
-            }
+    .rguPhdHighlightLink {
+      color: #ffa827;
+    }
 
-            #topBarModal.show {
-                opacity: 1;
-                visibility: visible;
-            }
+    /* ---------- MODAL ---------- */
 
-            .modal-content-box {
-                transform: scale(0.8) translateY(30px);
-                transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    #rguPhdModalContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(5px);
+      z-index: 10600;
 
-            }
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-            #topBarModal.show .modal-content-box {
-                transform: scale(1) translateY(0);
-            }
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+    }
 
-            /* --- Card Styles & Hover Animations --- */
-            .phd-card-container {
-                display: flex;
-                gap: 20px;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-top: 15px;
+    #rguPhdModalContainer.rguPhdModalShow {
+      opacity: 1;
+      visibility: visible;
+    }
 
+    .rguPhdModalBox {
+      max-width: 650px;
+      width: 95%;
 
-            }
+      transform: scale(0.8) translateY(30px);
+      transition: 0.4s;
+    }
 
-            .phd-login-card {
-                flex: 1;
-                min-width: 240px;
-                background: #ffe6c0;
-                border: 2px solid #ffca7b;
-                border-radius: 12px;
-                padding: 35px 20px;
-                text-decoration: none !important;
-                color: #333;
-                transition: all 0.3s ease;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                cursor: pointer;
-            }
+    #rguPhdModalContainer.rguPhdModalShow .rguPhdModalBox {
+      transform: scale(1) translateY(0);
+    }
 
-            .phd-login-card:hover {
-                background: #ffb64a;
-                border-color: #13223b;
-                box-shadow: 0 15px 30px rgba(255, 168, 39, 0.15);
-                transform: translateY(-8px);
-            }
+    /* ---------- CARD SECTION ---------- */
 
-            .phd-card-icon {
-                font-size: 50px;
-                color: #13223b;
-                margin-bottom: 20px;
-                transition: transform 0.4s ease, color 0.3s ease;
-            }
+    .rguPhdCardWrapper {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
 
-            .phd-login-card:hover .phd-card-icon {
-                transform: scale(1.15) rotate(5deg);
-                color: #13223b;
-            }
+    .rguPhdLoginCard {
+      flex: 1;
+      min-width: 240px;
+      background: #ffe6c0;
+      border: 2px solid #ffca7b;
+      border-radius: 12px;
+      padding: 35px 20px;
+      text-decoration: none;
+      color: #333;
 
-            .phd-login-card h3 {
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 22px;
-                font-weight: 700;
-                color: #13223b;
-                margin-bottom: 10px;
-            }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-            .phd-login-card p {
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 16px;
-                color: #666;
-                margin: 0;
-                line-height: 1.5;
-                text-align: center;
-            }
+      transition: 0.3s;
+    }
 
-            /* Mobile responsiveness */
-            @media (max-width: 768px) {
-                .responsive-top-bar {
-                    padding: 8px 10px;
-                    gap: 8px 15px; /* Adds healthy spacing between the wrapped links */
-                }
-                .top-bar-link {
-                    font-size: 13px; /* Increased text size for better readability/tapping */
-                    white-space: normal; /* Allows the text to wrap nicely without breaking */
-                    text-align: center;
-                }
-                .top-bar-divider {
-                    display: none; /* Keep the dividers hidden on mobile for a cleaner look */
-                }
-                .navbar {
-                    top: 85px !important; /* Pushes the main navbar completely below the double-line top bar */
-                }
-                .menu {
-                    padding-top: 100px !important; /* Pushes the content of the mobile slide-out menu down too */
-                }
-            }
-        </style>
+    .rguPhdLoginCard:hover {
+      background: #ffb64a;
+      transform: translateY(-8px);
+    }
 
-        <div id="common-top-bar" class="responsive-top-bar">
-            <a href="#" id="topBarModalLink" class="top-bar-link highlight-link">
-                TRACK THE STATUS OF YOUR PH.D. THESIS
-            </a>
+    .rguPhdIconBox {
+      font-size: 50px;
+      color: #13223b;
+      margin-bottom: 20px;
+    }
 
-            <span class="top-bar-divider">|</span>
+    /* ---------- MOBILE RESPONSIVE ---------- */
 
-            <a href="https://rgu.renocampus.com/hr/staff" target="_blank" class="top-bar-link">
-                ERP LOGIN
-            </a>
+    @media (max-width: 768px) {
+      .rguPhdRowTwo {
+        flex-direction: column;
+        gap: 6px;
+      }
 
-            <span class="top-bar-divider">|</span>
+      .rguPhdTopBarLink {
+        font-size: 13px;
+        text-align: center;
+      }
 
-            <a href="https://m365.cloud.microsoft/?auth=2" target="_blank" class="top-bar-link">
-                STAFF EMAIL LOGIN
-            </a>
-        </div>
+      .navbar {
+        top: 90px !important;
+      }
 
-        <div id="topBarModal"
-            style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 10600; justify-content: center; align-items: center; font-family: 'Times New Roman', Times, serif;">
+      .menu {
+        padding-top: 100px !important;
+      }
+    }
+  </style>
 
-            <div class="modal-content-box" style="max-width: 650px; width: 95%; position: relative;">
+  <!-- ---------- TOP BAR ---------- -->
 
-                <h2
-                    style="color: white; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 24px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px;">
-                    Track the status of your Ph.D thesis
-                </h2>
+  <div class="rguPhdTopBarContainer">
+    <div class="rguPhdRowOne">
+      <a id="rguPhdOpenModalBtn" class="rguPhdTopBarLink rguPhdHighlightLink">
+        TRACK THE STATUS OF YOUR PH.D. THESIS
+      </a>
+    </div>
 
-                <div
-                    style="background-color: #fff; border-radius: 12px; padding: 40px 30px; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+    <div class="rguPhdRowTwo">
+      <a
+        href="https://rgu.renocampus.com/hr/staff"
+        target="_blank"
+        class="rguPhdTopBarLink"
+      >
+        ERP LOGIN
+      </a>
+    </div>
+  </div>
 
-                    <div class="phd-card-container">
-                        <a href="https://rgu.renocampus.com/auth/signin?callbackUrl=https%3A%2F%2Frgu.renocampus.com" class="phd-login-card">
-                            <div class="phd-card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                            <h3>Login as a Guide</h3>
+  <!-- ---------- MODAL ---------- -->
 
-                        </a>
+  <div id="rguPhdModalContainer">
+    <div class="rguPhdModalBox">
+      <h2
+        style="
+          color: white;
+          text-align: center;
+          margin-bottom: 25px;
+          font-weight: bold;
+        "
+      >
+        Track the status of your Ph.D thesis
+      </h2>
 
-                        <a href="https://rgu.renocampus.com/student" class="phd-login-card">
-                            <div class="phd-card-icon"><i class="fas fa-user-graduate"></i></div>
-                            <h3>Login as a Scholar</h3>
-
-                        </a>
-                    </div>
-
-                </div>
-
-                <div style="text-align: center; margin-top: 15px;">
-                    <button id="modalBtnClose"
-                        style="background: none; border: none; color: #ddd; font-family: 'Times New Roman', Times, serif; font-size: 16px; cursor: pointer; text-decoration: underline; transition: color 0.3s;">Close
-                        Window</button>
-                </div>
+      <div
+        style="
+          background: #fff;
+          border-radius: 12px;
+          padding: 40px 30px;
+        "
+      >
+        <div class="rguPhdCardWrapper">
+          <a
+            href="https://rgu.renocampus.com/auth/signin?callbackUrl=https%3A%2F%2Frgu.renocampus.com"
+            class="rguPhdLoginCard"
+          >
+            <div class="rguPhdIconBox">
+              <i class="fas fa-chalkboard-teacher"></i>
             </div>
+            <h3>Login as a Guide</h3>
+          </a>
+
+          <a
+            href="https://rgu.renocampus.com/student"
+            class="rguPhdLoginCard"
+          >
+            <div class="rguPhdIconBox">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>Login as a Scholar</h3>
+          </a>
         </div>
+      </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var topBarLink = document.getElementById('topBarModalLink');
-                var topBarModal = document.getElementById('topBarModal');
-                var btnClose = document.getElementById('modalBtnClose');
+      <div style="text-align: center; margin-top: 15px">
+        <button
+          id="rguPhdCloseModalBtn"
+          style="
+            background: none;
+            border: none;
+            color: #ddd;
+            cursor: pointer;
+          "
+        >
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
 
-                // Open Modal Smoothly
-                topBarLink.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    topBarModal.style.display = 'flex'; // Un-hide from DOM
+  <!-- ---------- SCRIPT ---------- -->
 
-                    // Add the animation class after a tiny delay so the browser registers it
-                    setTimeout(function () {
-                        topBarModal.classList.add('show');
-                    }, 10);
-                });
+  <script>
+    const rguOpenBtn = document.getElementById("rguPhdOpenModalBtn");
+    const rguModal = document.getElementById("rguPhdModalContainer");
+    const rguCloseBtn = document.getElementById("rguPhdCloseModalBtn");
 
-                // Function to close modal smoothly
-                function closeModal() {
-                    topBarModal.classList.remove('show'); // Triggers CSS fade/scale out
+    rguOpenBtn.addEventListener("mouseenter", () => {
+      rguModal.classList.add("rguPhdModalShow");
+    });
 
-                    // Wait for the CSS transition (0.3s) to finish before hiding from DOM
-                    setTimeout(function () {
-                        topBarModal.style.display = 'none';
-                    }, 300);
-                }
+    rguModal.addEventListener("mouseleave", () => {
+      rguModal.classList.remove("rguPhdModalShow");
+    });
 
-                // Close Modal on Button Click
-                btnClose.addEventListener('click', closeModal);
-
-                // Close Modal on Background Click
-                window.addEventListener('click', function (e) {
-                    if (e.target === topBarModal) {
-                        closeModal();
-                    }
-                });
-            });
-        </script>
-    </section>
+    rguCloseBtn.addEventListener("click", () => {
+      rguModal.classList.remove("rguPhdModalShow");
+    });
+  </script>
+</section>
 
 <!--Start Header-->
 <section>
