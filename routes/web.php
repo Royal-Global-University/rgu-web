@@ -3705,6 +3705,10 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
 
 //RSL Faculty Profile.
 
+Route::get('/faculty-krishna-barua', function () {
+    return view('frontend/facultyprofile/rsl/krishna');
+})->name('faculty-krishna-barua');
+
 Route::get('/faculty-dileep-chandan-sarma', function () {
     return view('frontend/facultyprofile/rsl/dileep-chandan-sarma');
 })->name('faculty-dileep-chandan-sarma');

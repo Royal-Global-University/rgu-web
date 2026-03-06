@@ -143,7 +143,7 @@
                             </div>
                             <h3 class="card-name">Prof. Krishna Barua</h3>
                             <p class="card-designation">Senior Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-krishna-barua" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
