@@ -861,11 +861,11 @@
                     </section>
                 </section>
 
-                <div class="gg1920-carousel-slide">
+                {{-- <div class="gg1920-carousel-slide">
                     <img src="mobile-assets/ads/icetie.jpeg" alt="Slide 1">
-                </div>
+                </div> --}}
 
-                {{-- <section>
+                <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -937,7 +937,7 @@
                             <a href="ICETIEDS–2026"><img style="border: 1px solid black"
                                     src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
                         </div>
-                </div> --}}
+                </div>
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
