@@ -861,11 +861,11 @@
                     </section>
                 </section>
 
-                <div class="gg1920-carousel-slide">
+                {{-- <div class="gg1920-carousel-slide">
                     <img src="mobile-assets/ads/icetie.jpeg" alt="Slide 1">
-                </div>
+                </div> --}}
 
-                {{-- <section>
+                <section>
                     <style>
                         /* ===== UNIQUE CAROUSEL STYLES ===== */
                         .gg1920-carousel-container {
@@ -926,20 +926,21 @@
                     </script>
                 </section>
 
-                <div class="row p-3">
-                        <div class="col-lg-4">
+                <div class="row p-3 text-center">
+                        {{-- <div class="col-lg-4">
                             <a href="/mobile-assets/ads/foodtech.pdf"><img style="border: 1px solid black"
                                     src="/mobile-assets/ads/food.png" /></a>
-                        </div>
-                        <div class="col-lg-4">
+                        </div> --}}
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-5">
                             <a href="/mobile-assets/ads/maths.pdf"><img style="border: 1px solid black"
                                     src="/mobile-assets/ads/math.png" /></a>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <a href="ICETIEDS–2026"><img style="border: 1px solid black"
                                     src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
                         </div>
-                    </div> --}}
+                </div>
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
