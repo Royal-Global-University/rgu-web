@@ -171,7 +171,7 @@
 
   <div id="rguPhdModalContainer">
     <div class="rguPhdModalBox">
-      <h2
+      <h5
         style="
           color: white;
           text-align: center;
@@ -180,7 +180,7 @@
         "
       >
         Track the status of your Ph.D thesis
-      </h2>
+      </h5>
 
       <div
         style="
@@ -197,7 +197,7 @@
             <div class="rguPhdIconBox">
               <i class="fas fa-chalkboard-teacher"></i>
             </div>
-            <h3>Login as a Guide</h3>
+            <h4>Login as a Guide</h4>
           </a>
 
           <a
@@ -207,7 +207,7 @@
             <div class="rguPhdIconBox">
               <i class="fas fa-user-graduate"></i>
             </div>
-            <h3>Login as a Scholar</h3>
+            <h4>Login as a Scholar</h4>
           </a>
         </div>
       </div>
