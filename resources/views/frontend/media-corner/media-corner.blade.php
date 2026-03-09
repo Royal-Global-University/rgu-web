@@ -46,16 +46,15 @@
                 @php
                     $newsItems = [
                         [
-                            'title' => 'Assam DGP Harmeet Singh Unveils Bust of Sardar Patel at Royal Global University',
-                            'summary' => '“Draw Inspiration from Sardar Patel’s Vision,” Assam DGP Urges RGU Students',
-                            'date' => 'Guwahati, March 2, 2026:',
+                            'title' => 'Rhythm of the Looms: RGU hosts mega Fashion, Handloom & Textiles Conclave celebrating women artisans and
+                designers of NE',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 6, 2026:',
                             'link' =>
-                                '/assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university',
-                            'image' => 'mobile-assets/media-corner/news82/5326.jpeg',
+                                '/rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne',
+                            'image' => 'mobile-assets/media-corner/news82/93261.jpeg',
                             'content' =>
-                                'In a solemn and inspiring ceremony held today at The
-                Assam Royal Global University (RGU), Shri Harmeet Singh, IPS, Director General of Police, Assam, unveiled
-                the bust of Sardar Vallabhbhai Patel — the “Iron Man of India”...',
+                                'The Royal School of Fashion Design & Technology of The Assam Royal Global University (RGU) has organised “Rhythm of the Looms” –a Fashion Design, Handloom & Textiles Conclave here today celebrating the remarkable contributions of women across Northeast India. The Conclave was graced by Hara Kanta Baro...',
                         ],
                         [
                             'title' => 'Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India',

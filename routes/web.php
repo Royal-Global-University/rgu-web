@@ -3703,7 +3703,7 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
     return view('frontend/facultyprofile/rset/shinjini-paul-choudhury');
 })->name('faculty-shinjini-paul-choudhury');
 
-//RSL Faculty Profile.
+//RSL Faculty Profile 
 
 Route::get('/faculty-krishna-barua', function () {
     return view('frontend/facultyprofile/rsl/krishna');
