@@ -14,7 +14,7 @@
 
         </div>
 
-        <div class="container" style="padding: 20px; text-align: justify;">
+        <div class="container mt-5" style="padding: 20px; text-align: justify;">
 
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
                 Royal Global University joins hands with Indian Army to empower wards of heroes

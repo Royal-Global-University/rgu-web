@@ -15,7 +15,7 @@
 
         </div>
 
-        <div class="container" style="padding: 20px; text-align: justify;">
+        <div class="container mt-5" style="padding: 20px; text-align: justify;">
 
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
                 Creative Talk Series launched at RGU: Prof Choudhury addresses college students on the Wonders of the

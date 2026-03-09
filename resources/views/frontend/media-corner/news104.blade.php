@@ -14,7 +14,7 @@
 
         </div>
 
-        <div class="container" style="padding: 20px; text-align: justify;">
+        <div class="container mt-5" style="padding: 20px; text-align: justify;">
 
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
                 Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India

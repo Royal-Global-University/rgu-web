@@ -3079,9 +3079,9 @@ Route::get('/cisr', function () {
 
 //media-corner
 
-Route::get('/assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university', function () {
-    return view('frontend/media-corner/news105');
-})->name('assam-dgp-harmeet-singh-unveils-bust-of-sardar-patel-at-royal-global-university');
+Route::get('/rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne', function () {
+    return view('frontend/media-corner/news106');
+})->name('rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne');
 
 Route::get('/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india', function () {
     return view('frontend/media-corner/news104');
@@ -3703,7 +3703,7 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
     return view('frontend/facultyprofile/rset/shinjini-paul-choudhury');
 })->name('faculty-shinjini-paul-choudhury');
 
-//RSL Faculty Profile 
+//RSL Faculty Profile
 
 Route::get('/faculty-krishna-barua', function () {
     return view('frontend/facultyprofile/rsl/krishna');
