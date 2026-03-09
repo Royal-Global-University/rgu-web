@@ -118,7 +118,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) B.C. Barooah</h3>
-                            <p class="card-designation">Professor & Deam, Royal School of Law & Administration (RSLA)</p>
+                            <p class="card-designation">Professor & Dean, Royal School of Law & Administration (RSLA)</p>
                             {{-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
