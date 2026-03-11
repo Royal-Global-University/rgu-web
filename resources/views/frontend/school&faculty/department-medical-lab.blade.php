@@ -109,8 +109,8 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px; padding-right: 20px;">B.Sc. - Medical Laboratory Technology
-                            (BMLT)</span> |
+                        <span style="font-size:18px; padding-right: 20px;">B.Sc. - Medical Laboratory Science
+                            (BMLS)</span> |
                         <span style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
                             with
                             Research</span>
@@ -170,13 +170,13 @@
 
                                                     <a href="mobile-assets/department-all/rsmas/mlt/updated-syllabus/BMLT-Syllabus-Structure.pdf"
                                                         target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BMLT
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BMLS
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/rsmas/mlt/updated-syllabus/BMLT-2025-SYLLABUS.pdf"
                                                         target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BMLT
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BMLS
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
@@ -968,8 +968,8 @@
                             <div
                                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:18px; padding-right: 20px;">B.Sc. - Medical Laboratory Technology
-                                    (BMLT)</span> |
+                                <span style="font-size:18px; padding-right: 20px;">B.Sc. - Medical Laboratory Science
+                                    (BMLS)</span> |
                                 <span style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours /
                                     Honours with
                                     Research</span>
@@ -1035,14 +1035,14 @@
                                                             <a href="mobile-assets/department-all/rsmas/mlt/updated-syllabus/BMLT-Syllabus-Structure.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- BMLT
+                                                                -- BMLS
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
                                                             <a href="mobile-assets/department-all/rsmas/mlt/updated-syllabus/BMLT-2025-SYLLABUS.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                BMLT
+                                                                BMLS
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 

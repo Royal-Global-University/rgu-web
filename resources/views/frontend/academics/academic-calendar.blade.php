@@ -14,7 +14,7 @@
 
                 <div style="padding: 20px 0px;">
                     <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/calendar/ACADEMIC-CALENDER.pdf" target="_blank"
+                        <a href="mobile-assets/academic-calendar/academic-calendar.pdf" target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar
