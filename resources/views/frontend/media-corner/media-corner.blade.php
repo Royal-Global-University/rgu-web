@@ -46,6 +46,19 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Guwahati emerging as a key centre linking cities across Southeast Asia: Secretary, Act East Policy Affairs
+                Department',
+                            'summary' => 'RGU holds Youth Interaction on Act East Policy and Assam’s Emerging Role',
+                            'date' => 'Guwahati, March 10, 2026:',
+                            'link' =>
+                                '/guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department',
+                            'image' => 'mobile-assets/media-corner/news82/113261.jpeg',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has held a
+                Quiz and a Debate Competition on “Youth Interaction on Act East Policy and Assam’s Emerging Role” here
+                today...',
+                        ],
+                        [
                             'title' => 'Rhythm of the Looms: RGU hosts mega Fashion, Handloom & Textiles Conclave celebrating women artisans and
                 designers of NE',
                             'summary' => '',
@@ -57,20 +70,23 @@
                                 'The Royal School of Fashion Design & Technology of The Assam Royal Global University (RGU) has organised “Rhythm of the Looms” –a Fashion Design, Handloom & Textiles Conclave here today celebrating the remarkable contributions of women across Northeast India. The Conclave was graced by Hara Kanta Baro...',
                         ],
                         [
-                            'title' => 'Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India',
-                            'summary' => 'RGU only private university from the seven-sister states of NE to achieve this Rank for 2025',
+                            'title' =>
+                                'Nature Index 2025 Ranking: Royal Global University placed among the top 100 institutions in India',
+                            'summary' =>
+                                'RGU only private university from the seven-sister states of NE to achieve this Rank for 2025',
                             'date' => 'Guwahati, February 27, 2026:',
                             'link' =>
                                 '/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india',
                             'image' => 'mobile-assets/media-corner/news82/2326.jpeg',
-                            'content' =>
-                                'The Department of Physics at The Assam Royal
+                            'content' => 'The Department of Physics at The Assam Royal
                 Global University (RGU) has been ranked at an unprecedented 53rd position in Physical Sciences by the
                 prestigious Nature Index-2025...',
                         ],
                         [
-                            'title' => 'RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction',
-                            'summary' => 'APSC topper Nihar Deka addresses aspiring students at his alma mater Royal Global University',
+                            'title' =>
+                                'RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction',
+                            'summary' =>
+                                'APSC topper Nihar Deka addresses aspiring students at his alma mater Royal Global University',
                             'date' => 'Guwahati, February 26, 2026:',
                             'link' =>
                                 '/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction',
@@ -79,19 +95,20 @@
                                 'Have the courage to pursue your goals even after failure. RGU gave me the confidence, the sense of discipline and consistency to believe on...',
                         ],
                         [
-                            'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
+                            'title' =>
+                                'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
                             'summary' => 'RGU Honours Dr Bhupen Hazarika with Book Release and Documentary Screening',
                             'date' => 'Guwahati, February 25, 2026:',
                             'link' =>
                                 '/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university',
                             'image' => 'mobile-assets/media-corner/news82/102.jpeg',
-                            'content' =>
-                                'Celebrating the life, legacy, and timeless
+                            'content' => 'Celebrating the life, legacy, and timeless
                 creativity of the Bard of the Brahmaputra, Dr Bhupen Hazarika Centre for Creativity at The Assam Royal
                 Global University (RGU)...',
                         ],
                         [
-                            'title' => 'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
+                            'title' =>
+                                'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
                             'summary' => 'Gagannauts to visit Space by 2030, Land on Moon by 2040: Ex-ISRO Chairman Dr. Kiran Kumar speaks on “Vision
                 for Indian Space Saga” at RGU',
                             'date' => 'Guwahati, February 24, 2026:',

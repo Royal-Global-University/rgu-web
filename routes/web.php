@@ -3079,6 +3079,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department', function () {
+    return view('frontend/media-corner/news107');
+})->name('guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department');
+
 Route::get('/rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne', function () {
     return view('frontend/media-corner/news106');
 })->name('rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne');
