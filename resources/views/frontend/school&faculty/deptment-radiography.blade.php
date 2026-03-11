@@ -67,7 +67,7 @@
           <!-- till about dept  -->
           <section style="padding-top: 130px; position: relative;">
 
-            <img src="mobile-assets/department-all/rsmas/radiography/mob-top.png" alt="">
+            <img src="mobile-assets/new-department/Radiology/radiology-mob.png" alt="">
 
             <img src="mobile-assets/department-all/rsmas/radiography/mob-btm.png" alt="">
 
@@ -775,7 +775,7 @@
             <section id="about">
               <section style="background-color: #FFF8F0;">
 
-                <img src="mobile-assets/department-all/rsmas/radiography/web-top.png" alt="">
+                <img src="mobile-assets/new-department/Radiology/radiology-web.png" alt="">
 
                 <img src="mobile-assets/department-all/rsmas/radiography/web-btm.png" alt="">
 

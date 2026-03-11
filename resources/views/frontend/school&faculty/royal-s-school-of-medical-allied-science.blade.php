@@ -56,8 +56,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Operation Theatre
-                                        Tech</h5>
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Anaesthesia and Operation Theatre Technology</h5>
                                 </div>
                             </div>
                         </a>
@@ -74,7 +73,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Lab Tech
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Science
                                     </h5>
                                 </div>
                             </div>
@@ -92,8 +91,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Radiography and
-                                        Advance Imaging Tech</h5>
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Radiology and Imaging Technology</h5>
                                 </div>
                             </div>
                         </a>
@@ -127,7 +125,7 @@
     <div class="website">
         @include('frontend/components/aheader')
         <section style="background-image: url('mobile-assets/royal-schools-assets/bg.svg');">
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal School of Medical <span style="color: #FF9A1E; font-weight: 500;">Allied Sciences (RSMAS)</span></h2>
 
@@ -180,8 +178,7 @@
                                 </div>
                                 <div class="p-4 card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Operation Theatre
-                                        Tech</h5>
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Anaesthesia and Operation Theatre Technology</h5>
                                 </div>
                             </div>
                         </a>
@@ -198,7 +195,7 @@
                                 </div>
                                 <div class="p-4 card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Lab Tech
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Science
                                     </h5>
                                 </div>
                             </div>
@@ -216,8 +213,7 @@
                                 </div>
                                 <div class="p-4 card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Radiography and
-                                        Advance Imaging Tech</h5>
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Radiology and Imaging Technology</h5>
                                 </div>
                             </div>
                         </a>
