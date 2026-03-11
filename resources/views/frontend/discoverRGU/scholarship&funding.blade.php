@@ -5,11 +5,21 @@
     specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
+<div class="mobile">
+        @include('frontend/components/mobileheader')
+
+    </div>
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+
+    </div>
 
         <style>
         .section-body {
             background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
-            padding: 50px 0px;
+            padding: 0px 0px;
             font-family: 'Times New Roman', Times, serif;
         }
     </style>
@@ -23,7 +33,7 @@
         .scholarship-btn {
             background: #132b4b;
             color: #fff;
-            
+
             font-weight: 500;
             display: flex;
             align-items: center;
