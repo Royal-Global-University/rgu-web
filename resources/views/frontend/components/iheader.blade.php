@@ -2,9 +2,6 @@
     <section>
         <style>
            /* Push the navbars down so the new Top Bar doesn't cover them */
-            .navbar {
-                top: 44px !important;
-            }
 
             /* --- New Responsive Top Bar Styles --- */
             .responsive-top-bar {
@@ -58,9 +55,7 @@
                 .top-bar-divider {
                     display: none; /* Hides the '|' on mobile for a cleaner look if it wraps */
                 }
-                .navbar {
-                    top: 60px !important; /* Pushes navbar down a bit more on mobile in case the top bar text wraps to 2 lines */
-                }
+
             }
 
             /* Push the mobile slide-out menu content down as well */
@@ -169,9 +164,6 @@
                 .top-bar-divider {
                     display: none; /* Keep the dividers hidden on mobile for a cleaner look */
                 }
-                .navbar {
-                    top: 85px !important; /* Pushes the main navbar completely below the double-line top bar */
-                }
                 .menu {
                     padding-top: 100px !important; /* Pushes the content of the mobile slide-out menu down too */
                 }
@@ -274,7 +266,7 @@
     </section>
     <!-- top-bar-modal  -->
 
-<nav id="mainNavbar" class="navbar navbar-expand-lg"
+<nav id="mainNavbar" class="navbar navbar-expand-lg pt-5"
     style="background-color: transparent; padding: 0px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
     <div class="container-fluid">
 
