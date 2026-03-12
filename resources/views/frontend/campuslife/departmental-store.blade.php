@@ -10,6 +10,7 @@
                 Departmental <span style="color: #FF9A1E; font-weight: 500;">Store</span></h2>
 
         </div>
+        <img src="mobile-assets/departmental-new/departmentalstore-mob.png" alt="">
     </div>
 
 
@@ -17,9 +18,6 @@
         <!--Start Header-->
         @include('frontend/components/aheader')
         <!--End Header-->
-
-        <img src="mobile-assets/department-store/web-banner.png" alt="">
-
-        <img src="mobile-assets/department-store/web-gallery.png" alt="">
+        <img src="mobile-assets/departmental-new/departmentalstore-web.png" alt="">
     </div>
 @endsection

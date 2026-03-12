@@ -7,7 +7,7 @@
 @section('content')
 <div class="mobile">
         @include('frontend/components/mobileheader')
-
+        <div style="padding-top: 80px"></div>
     </div>
 
     <div class="website">
@@ -20,7 +20,6 @@
         .section-body {
             font-family: 'Times New Roman', Times, serif;
             background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
-            padding: 3.125rem 0;
         }
 
         /* accordion */
