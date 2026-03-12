@@ -246,7 +246,7 @@
 
     <!-- ABOUT -->
 
-    <section class="sa-about-section">
+    <section class="sa-about-section text-dark">
 
         <div class="container">
 
@@ -324,7 +324,7 @@
 
     <!-- FUNCTIONS -->
 
-    <section class="sa-functions-section">
+    <section class="sa-functions-section text-dark">
 
         <div class="container">
 
