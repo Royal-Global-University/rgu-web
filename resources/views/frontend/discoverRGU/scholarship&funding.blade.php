@@ -15,30 +15,29 @@
         @include('frontend/components/aheader')
 
     </div>
-
         <style>
-        .section-body {
-            background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
-            padding: 0px 0px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-    </style>
 
-    <style>
+        .section-body {
+            font-family: 'Times New Roman', Times, serif;
+            background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
+            padding: 3.125rem 0;
+        }
+
+        /* accordion */
+
         .scholarship-item {
             border: none;
-            margin-bottom: 12px;
+            margin-bottom: .75rem;
         }
 
         .scholarship-btn {
             background: #132b4b;
             color: #fff;
-
-            font-weight: 500;
             display: flex;
             align-items: center;
-            gap: 15px;
-            padding: 18px 20px;
+            gap: .9rem;
+            padding: 1.1rem 1.25rem;
+            font-weight: 500;
         }
 
         .scholarship-btn:not(.collapsed) {
@@ -51,112 +50,130 @@
             box-shadow: none;
         }
 
+        .scholarship-btn::after {
+            filter: brightness(0) invert(1);
+        }
+
         .scholarship-label {
             background: #f39c12;
             color: #fff;
-            font-weight: 700;
-            width: 35px;
-            height: 35px;
+            width: 2.2rem;
+            height: 2.2rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 6px;
+            border-radius: .35rem;
+            font-weight: 700;
             flex-shrink: 0;
         }
 
         .accordion-body {
             background: #f9f9f9;
-            padding: 25px;
-            min-height: 120px;
-            /* space for your content */
+            padding: 1.5rem;
         }
 
-        .scholarship-btn::after {
-            filter: brightness(0) invert(1);
-            opacity: 1;
-        }
-    </style>
+        /* tables */
 
-    <style>
         .scholarship-table thead th {
             background: #132b4b;
             color: #fff;
-            font-weight: 600;
-            padding: 18px;
+            padding: 1rem;
             border: 1px solid #e5e5e5;
         }
 
         .scholarship-table tbody td {
             background: #f2f2f2;
-            padding: 18px;
-            font-size: 16px;
+            padding: 1rem;
         }
 
         .scholarship-table .percent {
             font-weight: 700;
-            font-size: 22px;
         }
 
         .scholarship-table .left-head {
             width: 35%;
         }
-    </style>
 
-    <style>
         .merit-table thead th {
             background: #132b4b;
             color: #fff;
-            font-weight: 600;
-            padding: 16px;
+            padding: 1rem;
         }
 
         .merit-table td {
-            padding: 16px;
+            padding: 1rem;
         }
+
+        /* headings */
 
         .section-title {
             color: #132b4b;
+            margin-top: 1.5rem;
+            margin-bottom: .6rem;
             font-weight: 600;
-            margin-top: 25px;
-            margin-bottom: 10px;
         }
 
-        .scholarship-content {
-            font-size: 16px;
-            line-height: 1.8;
+        /* responsive */
+
+        @media (max-width:1024px) {
+            .website {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+        }
+
+        @media (min-width:1025px) {
+            .website {
+                display: block;
+            }
+
+            .mobile {
+                display: none;
+            }
         }
     </style>
 
-    <!-- for mobile query  -->
+        <div class="section-body">
 
-    <div class="section-body">
+        <!-- mobile banner -->
 
-        <div class="mobile" style="padding-top: 120px; position: relative;">
-            <img style="width: 100%;" src="https://www.rgu.ac/mobile-assets/scholarship/mobile-scholarship.png" alt="">
+        <div class="mobile">
+            <img src="https://www.rgu.ac/mobile-assets/scholarship/mobile-scholarship.png" width="100%" alt="">
         </div>
 
+        <!-- desktop banner -->
+
         <div class="website">
-            <img style="width: 100%;" src="https://www.rgu.ac/mobile-assets/scholarship/web-scholarship.png" alt="">
+            <img src="https://www.rgu.ac/mobile-assets/scholarship/web-scholarship.png" width="100%" alt="">
         </div>
 
         <div class="container my-5">
 
             <div class="accordion" id="scholarshipAccordion">
 
-                <!-- A -->
+
+                <!-- ===================== A ===================== -->
+
                 <div class="accordion-item scholarship-item">
+
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#scholarshipA">
+
+                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
+                            data-bs-target="#scholarshipA">
 
                             <span class="scholarship-label">A</span>
+
                             Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnel
-                            (Military/Paramilitary/North-Eastern Police Forces)
 
                         </button>
+
                     </h2>
 
                     <div id="scholarshipA" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
+
                         <div class="accordion-body">
 
                             <div class="table-responsive">
@@ -338,27 +355,31 @@
                             </div>
 
                         </div>
+
                     </div>
-
-
-
                 </div>
 
 
-                <!-- B -->
+
+                <!-- ===================== B ===================== -->
+
                 <div class="accordion-item scholarship-item">
+
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#scholarshipB">
+
+                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
+                            data-bs-target="#scholarshipB">
 
                             <span class="scholarship-label">B</span>
-                            Royal Shaurya : Full freeship to the wards of braveheart security personnels
-                            (Scholarship offered on course fee)
+
+                            Royal Shaurya : Full freeship to the wards of braveheart security personnel
 
                         </button>
+
                     </h2>
 
                     <div id="scholarshipB" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
+
                         <div class="accordion-body">
 
                             <div class="table-responsive">
@@ -524,20 +545,26 @@
                 </div>
 
 
-                <!-- C -->
+
+                <!-- ===================== C ===================== -->
+
                 <div class="accordion-item scholarship-item">
+
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#scholarshipC">
+
+                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
+                            data-bs-target="#scholarshipC">
 
                             <span class="scholarship-label">C</span>
-                            Zubeen Garg Scholarship <br>(Policy for Promotion of Extracurricular Activities -
-                            <br>Sports/Dance/Music/Theatre<br>/Fine Arts/Literary)
+
+                            Zubeen Garg Scholarship (Extracurricular Activities)
 
                         </button>
+
                     </h2>
 
                     <div id="scholarshipC" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
+
                         <div class="accordion-body">
 
 
@@ -903,19 +930,26 @@
                 </div>
 
 
-                <!-- D -->
+
+                <!-- ===================== D ===================== -->
+
                 <div class="accordion-item scholarship-item">
+
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#scholarshipD">
+
+                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
+                            data-bs-target="#scholarshipD">
 
                             <span class="scholarship-label">D</span>
+
                             Royal Merit Scholarship
 
                         </button>
+
                     </h2>
 
                     <div id="scholarshipD" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
+
                         <div class="accordion-body">
 
 
@@ -1063,11 +1097,12 @@
                     </div>
                 </div>
 
+
             </div>
-
         </div>
-
     </div>
+
+
 
 @endsection
 @push('scripts')
