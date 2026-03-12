@@ -4,7 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <section>
+            <section style="padding-top: 90px;">
                 <img src="nss/nss-banner-mob.png" alt="">
             </section>
         </div>
@@ -18,8 +18,7 @@
 
 
         <div class="container mt-4 mb-4">
-            <h1 style="color: #27467A; text-align: center;" class="mobile-headd1">NSS Programmes at Royal Global
-                University: An Overview
+            <h1 style="color: #27467A; text-align: center;" class="mobile-headd1">Overview
             </h1>
 
             <div class="row mt-2" style="display: flex; align-items: center; justify-content: center;">

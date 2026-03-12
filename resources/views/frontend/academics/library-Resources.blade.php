@@ -5,7 +5,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <img src="mobile-assets/library/mobile-library-banner.png" />
+        <img style="margin-top: 90px;" src="mobile-assets/library/mobile-library-banner.png" />
 
         <section style="background-image: url(sarang/bg.svg); background-size: cover;">
 

@@ -290,6 +290,16 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('advisory-leadership') }}">
                     <li>Advisory Leadership</li>
                 </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('deans') }}">
+                    <li>Deans’ Corner</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('chief-vigilance-officer') }}">
+                    <li>Chief Vigilance Officer</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('ombudsperson') }}">
+                    <li>Ombudsperson</li>
+                </a>
+
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('vision-mission') }}">
                     <li>Vision and Mission</li>
                 </a>
@@ -351,31 +361,36 @@
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('academic-council') }}">Academic
                             Council</a></li>
-                    <li><a class="dropdown-item text-dark para1"
+                    <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('internal-complaints-committee') }}">Internal Complaints Committee</a></li>
-                    <li><a class="dropdown-item text-dark para1"
+                    <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('university-research-committee') }}">University Research Committee</a></li>
-                    {{-- <li><a class="dropdown-item text-dark para1"
+                    <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('institutional-ethical-committee') }}">Institutional Ethical
-                            Committee (IEC)</a></li> --}}
+                            Committee (IEC)</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('nss-advisory-committee') }}">NSS Advisory Committee</a></li>
                 </ul>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
+                {{-- <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
                     <li>Finance Committee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('internal-complaints-committee') }}">
                     <li>Internal Complaints Committee</li>
-                </a>
+                </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('anti-ragging') }}">
                     <li>Anti Ragging Committee</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('equal-opportunities-cell') }}">
+                {{-- <a class="mobile-para1" style="color: #27467A;" href="{{ route('equal-opportunities-cell') }}">
                     <li>Equal Opportunities Cell</li>
-                </a>
+                </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('proctorial') }}">
                     <li>Proctoral Board</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('organogram-planning') }}">
                     <li>Organogram and Planning</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('self-disclosure') }}">
+                    <li>Public Self Disclosure</li>
                 </a>
 
             </ul>
@@ -400,6 +415,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('multi-disciplinary') }}">
                     <li>Multidisciplinary/<br>
                         Interdisciplinary Courses</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('net-set-gate-coaching') }}">
+                    <li>NET/SET/GATE Coaching</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('achievements') }}">
                     <li>Achievements</li>
@@ -428,6 +446,11 @@
                 </a>
             </ul>
 
+            <li
+                style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/research-devlopment" class="mobile-headd3 text-dark">Research</a>
+            </li>
+
 
 
             <li onclick="toggleSubmenu('admission')"
@@ -442,7 +465,7 @@
                 <a class="mobile-para1 text-danger" style="color: #27467A;" href="https://admissions.rgu.ac/">
                     <li>Apply Now!</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="doctoral-programme">
+                <a class="mobile-para1" style="color: #27467A;" href="admission-programs-fees-structure">
                     <li>Course Fee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="programs">
@@ -544,14 +567,11 @@
                             Service</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('department-store') }}">Department Store</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">1st
-                            Hangouts</a>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">Hangouts</a>
                     </li>
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('medical-facility') }}">Medical
                             Facility</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;"
-                            href="{{ route('counselling-cell') }}">Counselling Cell</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('laundry') }}">Laundry</a>
                     </li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('salon') }}">Salon</a></li>
@@ -563,6 +583,14 @@
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('guest-house') }}">Guest
                             House</a></li>
                 </ul>
+
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('national-cadet-corps') }}">
+                    <li>National Cadet Corps</li>
+                </a>
+
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('national-service-scheme') }}">
+                    <li>National Service Scheme</li>
+                </a>
 
                 <!-- Events Section -->
                 <li onclick="toggleSubmenu('events')"
@@ -579,7 +607,7 @@
                     </li>
                 </ul>
 
-                <a class="mobile-para1" style="color: #27467A;" href="campus-life-games-sports">
+                <a class="mobile-para1" style="color: #27467A;" href="games&sports">
                     <li>Games and Sports</li>
                 </a>
 

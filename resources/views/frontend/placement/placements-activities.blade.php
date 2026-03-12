@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="padding: 30px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
+        <section style="padding: 130px 10px 0px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">

@@ -5,7 +5,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <section>
-                <img src="mobile-assets/ncc/disclosure-banner-mob.png" alt="">
+                <img style="margin-top: 100px" src="mobile-assets/ncc/disclosure-banner-mob.png" alt="">
             </section>
         </div>
 
@@ -16,7 +16,7 @@
             </section>
         </div>
 
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-2">
 
             <div class="row">
                 <div class="col-lg-6">
