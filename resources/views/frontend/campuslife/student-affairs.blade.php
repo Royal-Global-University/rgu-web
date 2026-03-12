@@ -1,610 +1,444 @@
 @extends('frontend.master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/student-affairs/mobb-header.png" alt="">
+    <style>
+        /* PAGE */
 
-        <section style="background-image: url(mobile-assets/student-affairs/mob-bg.png); background-size: cover;">
+        .sa-page {
+            font-family: "Times New Roman", serif;
+            background: #f5f5f5;
+            color: #333;
+        }
 
-            <div class="container">
+        /* HERO */
 
-                <h2 class="mobile-headd2 text-center fw-bold kd-title-ani kd-split-text pt-3"
-                    style="color: #27467A; font-weight: 900;">
-                    About Student <span style="color: #FF9A1E; font-weight: 500;">Affairs</span></h2>
+        .sa-hero {
+            width: 100%;
+            overflow: hidden;
+        }
 
-                <p class="mobile-para1" style="color: #264273; text-align: justify;">Department of Student Welfare is an
-                    important department of The Assam Royal Global University catering to the student welfare activities and
-                    dedicated to enhancing the overall student experience outside the classroom. The objectives of DSW includes
-                    holistic development, community building, essential support services, skill development, and nurtures
-                    leadership qualities and teamwork through various programmes and activities.
-                </p>
+        .sa-hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
-                <div>
-                    <img class="rounded" src="mobile-assets/student-affairs/mob-pic1.png" alt="">
-                </div>
+        /* ABOUT SECTION */
 
-                <div class="card p-4 mt-4 mb-3"
-                    style="background-color: #fdf7ed; box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.20);">
-                    <h2 class="headd3" style="color: #264273; font-weight: 800;">Related Links</h2>
-                    <hr>
+        .sa-about-section {
+            padding: 4rem 0;
+        }
 
-                    <ul class="headd3" style="list-style-type: disc; list-style-position: inside;">
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a href="clubs.html" style="text-decoration: none; color: inherit;">
-                                Clubs</i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Student_Council_SOP.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Students Council SOP <i class="fa fa-file-pdf-o" style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/StudentCouncil202223.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Students Council 2022 - 2023 <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Activity Report 2022 - 2023 <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Activity Report 2023 - 2024 <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Reports on Cultural Festivals <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Reports on Sports Festivals <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                        <li class="pt-1 para1" style="color: #264273;">
-                            <a target="_blank" href="mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf"
-                                style="text-decoration: none; color: inherit;">
-                                Reports on Technical Fest <i class="fa fa-file-pdf-o"
-                                    style="color: #b30000; margin-right: 5px;"></i>
-                            </a>
-                        </li>
-                    </ul>
+        .sa-title {
+            font-size: clamp(1.8rem, 3vw, 2.4rem);
+            font-weight: 700;
+            color: #27467A;
+            margin-bottom: 1rem;
+        }
 
-                </div>
+        .sa-title span {
+            color: #f39c12;
+        }
 
-                <h2 class="mobile-headd2 text-center fw-bold kd-title-ani kd-split-text pt-3"
-                    style="color: #27467A; font-weight: 900;">
-                    Key Functions <br><span style="color: #FF9A1E; font-weight: 500;">and Responsibilities</span></h2>
+        /* LINKS */
 
-                <div style="padding: 10px 0px;">
+        .sa-links-box {
+            background: #e7dfd2;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            height: 100%;
+        }
 
-                    <div class="row">
+        .sa-links-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #27467A;
+        }
 
-                        <div class="col-lg-4 mb-4">
+        .sa-links-list {
+            padding-left: 1rem;
+            margin: 0;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 250px;">
+        .sa-links-list li {
+            margin-bottom: 0.5rem;
+        }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+        .sa-links-list a {
+            text-decoration: none;
+            color: #27467A;
+            font-size: 1.0rem;
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Student <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
+        /* ABOUT TEXT */
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Counselling:</strong> Providing mental health support, counselling, and therapy.
-                                        <br><br>
-                                        <strong>Health Services:</strong> Offering medical care, health education, and wellness
-                                        programmes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        .sa-about-text {
+            font-size: 1.5rem;
+            line-height: 1.7;
+            color: #555;
+            text-align: justify;
+        }
 
-                        <div class="col-lg-4 mb-4">
+        /* FUNCTIONS */
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+        .sa-functions-section {
+            padding: 3rem 0 4rem 0;
+        }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+        .sa-functions-title {
+            text-align: center;
+            font-size: clamp(2rem, 4vw, 2.6rem);
+            font-weight: 700;
+            color: #27467A;
+            margin-bottom: 2.5rem;
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Residential <span style="color: #FF9A1E; font-weight: 500;">Life:</span></h2>
+        .sa-functions-title span {
+            color: #f39c12;
+        }
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Housing and Accomodation:</strong> Managing on-campus housing and assisting with
-                                        off-campus housing resources.
-                                        <br><br>
-                                        <strong>Residential programmes:</strong> Organizing activities and programs to build
-                                        community among residents.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        /* CARDS */
 
-                        <div class="col-lg-4 mb-4">
+        .sa-card {
+            background: #e7dfd2;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+            height: 100%;
+            position: relative;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+        .sa-card-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #27467A;
+            margin-bottom: 0.6rem;
+        }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+        .sa-card-title span {
+            color: #f39c12;
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Student Activities <span style="color: #FF9A1E; font-weight: 500;">Organizations:</span>
-                                    </h2>
+        .sa-card p {
+            font-size: 1.0rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Clubs:</strong> Supporting various student clubs and interest groups.
-                                        <br><br>
-                                        <strong>Leadership Development:</strong> Offering leadership training and development
-                                        opportunities through departments and Student Council.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        /* CORNER ACCENT */
 
-                        <div class="col-lg-4 mb-4">
+        .sa-card:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-width: 0 0 1.6rem 1.6rem;
+            border-style: solid;
+            border-color: transparent transparent #f39c12 transparent;
+            border-radius: 0 0 0.4rem 0;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+        /* BOTTOM TEXT */
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+        .sa-bottom-text {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #27467A;
+            margin-top: 2rem;
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Career <span style="color: #FF9A1E; font-weight: 500;">Guidance:</span></h2>
+        /* MOBILE IMPROVEMENTS */
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Career Counselling:</strong> Assisting students with career planning and job
-                                        search strategiesthrough Royal Centre for Corporate Relations.
-                                        <br><br>
-                                        <strong>Internships and Job Placements:</strong> Connecting students with internship and
-                                        employment opportunities.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        @media (max-width:768px) {
 
-                        <div class="col-lg-4 mb-4">
+            .sa-about-section {
+                padding: 2.5rem 0;
+            }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+            .sa-functions-section {
+                padding: 2.5rem 0;
+            }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+            .sa-links-box {
+                margin-bottom: 1rem;
+            }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Student <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Cultural Programmes:</strong> Promoting diversity and inclusion through events,
-                                        fests, and programmes.
-                                        <br><br>
-                                        <strong>Support for Marginalized Groups:</strong> Providing resources and support for
-                                        underrepresented student groups through different scholarships.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-lg-4 mb-4">
+        }
+    </style>
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 200px;">
+    <!-- for mobile query  -->
+    <style>
+        /* Mobile (Up to 767px) */
+        @media only screen and (max-width: 767px) {
+            .website {
+                display: none;
+            }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+            .mobile {
+                display: block;
+            }
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Academic <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
+        /* Tablet (768px - 1024px) */
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Tutorial and Remedial support:</strong> Offering academic assistance through
-                                        remedial and tutorial classes.
+            /* CSS rules for tablets */
+            .website {
+                display: none;
+            }
 
-                                </div>
-                            </div>
-                        </div>
+            .mobile {
+                display: block;
+            }
+        }
 
-                        <div class="col-lg-4 mb-4">
+        /* Laptop (1025px - 1280px) */
+        @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+            /* CSS rules for laptops */
+            .website {
+                display: block;
+            }
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+            .mobile {
+                display: none;
+            }
+        }
 
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Student Conduct <span style="color: #FF9A1E; font-weight: 500;">and Discipline:</span>
-                                    </h2>
+        /* Desktop (1281px and above) */
+        @media only screen and (min-width: 1281px) {
 
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Code of Conduct:</strong> Enforcing the university's code of conduct and
-                                        handling disciplinary matters.
-                                        <br><br>
-                                        <strong>Conflict Resolution:</strong> Mediating conflicts and providing support for
-                                        dispute resolution.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            /* CSS rules for desktops */
+            .website {
+                display: block;
+            }
 
-                        <div class="col-lg-4 mb-4">
+            .mobile {
+                display: none;
+            }
+        }
+    </style>
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
+        <div class="mobile">
+            @include('frontend/components/mobileheader')
+        <section class="sa-hero" style="padding-top: 100px; position: relative;">
 
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Campus Safety <span style="color: #FF9A1E; font-weight: 500;">and Security:</span></h2>
-
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Safety:</strong> Implementing safety protocols and emergency response plans.
-                                        <br><br>
-                                        <strong>Security Services:</strong> Ensuring the physical security of the campus with
-                                        24X7 campus security in the form of digital and manual surveillance.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
-
-                                <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                    <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                        Extra-curricular <span style="color: #FF9A1E; font-weight: 500;">Activity:</span></h2>
-
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        <strong>Sports and Fitness:</strong> Offering sports facilities, fitness programs, and
-                                        intramural sports.
-                                        <br><br>
-                                        <strong>Outdoor Activities:</strong> Organizing outdoor recreational activities, field
-                                        trips and extension activities.
-                                        <br><br>
-                                        <strong>Club Services:</strong> The 33 Clubs of the University function under the aegis
-                                        of Student Affairs cater to the different co-curricular and extra-curricular aspects of
-                                        the University.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <h2 class="mobile-para1 fw-bold text-center pb-4" style="color: #27467A; ">
-                    Student Affairs plays a pivotal role in shaping the university experience, contributing to student
-                    well-being, academic success, and personal growth.
-                </h2>
-
-            </div>
+            <!-- insert hero image -->
+            <img src="https://www.rgu.ac/mobile-assets/student-affairs/mobb-header.png" alt="Student Affairs">
 
         </section>
-
     </div>
 
     <div class="website">
         @include('frontend/components/aheader')
-        <img src="mobile-assets/student-affairs/web-header.png" alt="">
+        <section class="sa-hero">
 
-        <section style="background-image: url(mobile-assets/student-affairs/web-bg.png); background-size: cover;">
-
-            <div class="container pb-5 pt-5">
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-                    <div class="col-lg-5">
-
-                        <div class="card p-4" style="background-color: #fdf7ed; box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.20);">
-                            <h2 class="headd3" style="color: #264273; font-weight: 800;">Related Links</h2>
-                            <hr>
-
-                            <ul class="headd3" style="list-style-type: disc; list-style-position: inside;">
-
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a href="clubs" style="text-decoration: none; color: inherit;">
-                                        Clubs</i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Student_Council_SOP.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Students Council SOP <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/StudentCouncil202223.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Students Council 2022 - 2023 <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Activity Report 2022 - 2023 <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Activity Report 2023 - 2024 <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Reports on Cultural Festivals <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Reports on Sports Festivals <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                                <li class="pt-1 para1" style="color: #264273;">
-                                    <a target="_blank" href="mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf"
-                                        style="text-decoration: none; color: inherit;">
-                                        Reports on Technical Fest <i class="fa fa-file-pdf-o"
-                                            style="color: #b30000; margin-right: 5px;"></i>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-7">
-                        <h2 class="mobile-headd1 fw-bold kd-title-ani kd-split-text pt-4"
-                            style="color: #27467A; font-weight: 900; font-size: 50px; ">
-                            About Student <span style="color: #FF9A1E; font-weight: 500;">Affairs</span></h2>
-
-                        <p class="mobile-para1" style="color: #264273; text-align: justify;">Department of Student Welfare is an
-                            important department of The Assam Royal Global University catering to the student welfare activities
-                            and dedicated to enhancing the overall student experience outside the classroom. The objectives of
-                            DSW includes holistic development, community building, essential support services, skill
-                            development, and nurtures leadership qualities and teamwork through various programmes and
-                            activities.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <section>
-                <div class="container">
-                    <h2 class="mobile-headd1 text-center fw-bold kd-title-ani kd-split-text pt-3"
-                        style="color: #27467A; font-weight: 900; font-size: 50px; ">
-                        Key Functions <span style="color: #FF9A1E; font-weight: 500;">and Responsibilities</span></h2>
-
-                    <div style="padding: 40px 0px;">
-
-                        <div class="row">
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Student <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Counselling:</strong> Providing mental health support, counselling, and
-                                            therapy.
-                                            <br><br>
-                                            <strong>Health Services:</strong> Offering medical care, health education, and
-                                            wellness programmes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Residential <span style="color: #FF9A1E; font-weight: 500;">Life:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Housing and Accomodation:</strong> Managing on-campus housing and assisting
-                                            with off-campus housing resources.
-                                            <br><br>
-                                            <strong>Residential programmes:</strong> Organizing activities and programs to build
-                                            community among residents.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Student Activities <span
-                                                style="color: #FF9A1E; font-weight: 500;">Organizations:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Clubs:</strong> Supporting various student clubs and interest groups.
-                                            <br><br>
-                                            <strong>Leadership Development:</strong> Offering leadership training and
-                                            development opportunities through departments and Student Council.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Career <span style="color: #FF9A1E; font-weight: 500;">Guidance:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Career Counselling:</strong> Assisting students with career planning and job
-                                            search strategiesthrough Royal Centre for Corporate Relations.
-                                            <br><br>
-                                            <strong>Internships and Job Placements:</strong> Connecting students with internship
-                                            and employment opportunities.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Student <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Cultural Programmes:</strong> Promoting diversity and inclusion through
-                                            events, fests, and programmes.
-                                            <br><br>
-                                            <strong>Support for Marginalized Groups:</strong> Providing resources and support
-                                            for underrepresented student groups through different scholarships.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 300px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Academic <span style="color: #FF9A1E; font-weight: 500;">Support:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Tutorial and Remedial support:</strong> Offering academic assistance through
-                                            remedial and tutorial classes.
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Student Conduct <span style="color: #FF9A1E; font-weight: 500;">and
-                                                Discipline:</span></h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Code of Conduct:</strong> Enforcing the university's code of conduct and
-                                            handling disciplinary matters.
-                                            <br><br>
-                                            <strong>Conflict Resolution:</strong> Mediating conflicts and providing support for
-                                            dispute resolution.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Campus Safety <span style="color: #FF9A1E; font-weight: 500;">and Security:</span>
-                                        </h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Safety:</strong> Implementing safety protocols and emergency response plans.
-                                            <br><br>
-                                            <strong>Security Services:</strong> Ensuring the physical security of the campus
-                                            with 24X7 campus security in the form of digital and manual surveillance.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fffeee; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-
-                                    <div class="card-body d-flex flex-column flex-grow-1 p-4">
-
-                                        <h2 class="mobile-headd2 pb-3" style="color: #27467A; font-weight: 700;">
-                                            Extra-curricular <span style="color: #FF9A1E; font-weight: 500;">Activity:</span>
-                                        </h2>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            <strong>Sports and Fitness:</strong> Offering sports facilities, fitness programs,
-                                            and intramural sports.
-                                            <br><br>
-                                            <strong>Outdoor Activities:</strong> Organizing outdoor recreational activities,
-                                            field trips and extension activities.
-                                            <br><br>
-                                            <strong>Club Services:</strong> The 33 Clubs of the University function under the
-                                            aegis of Student Affairs cater to the different co-curricular and extra-curricular
-                                            aspects of the University.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <h2 class="mobile-headd2 text-center pt-1 pb-4" style="color: #27467A; font-weight: 600; ">
-                        Student Affairs plays a pivotal role in shaping the university experience, contributing to student
-                        well-being, academic success, and personal growth.
-                    </h2>
-                </div>
-            </section>
+            <!-- insert hero image -->
+            <img src="https://www.rgu.ac/mobile-assets/student-affairs/web-header.png" alt="Student Affairs">
 
         </section>
 
     </div>
+
+
+    <!-- ABOUT -->
+
+    <section class="sa-about-section">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+
+                    <div class="sa-links-box">
+
+                        <h5 class="sa-links-title">Related Links</h5>
+
+                        <ul class="sa-links-list">
+
+                            <li><a href="https://www.rgu.ac/clubs ">Clubs</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Student_Council_SOP.pdf ">Students
+                                    Council SOP</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/StudentCouncil202223.pdf ">Students
+                                    Council 2022 - 2023</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf ">Activity
+                                    Report 2022 - 2023</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf ">Activity
+                                    Report 2023 - 2024</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf ">Reports
+                                    on Cultural Festivals</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf ">Reports
+                                    on Sports Festivals</a></li>
+                            <li><a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf ">Reports
+                                    on Technical Fest</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-8">
+
+                    <h2 class="sa-title">
+                        About Student <span>Affairs</span>
+                    </h2>
+
+                    <p class="sa-about-text">
+
+                        Department of Student Welfare is an important department of The Assam Royal Global University
+                        catering to the student welfare activities and dedicated to enhancing the overall student
+                        experience outside the classroom.
+
+                    </p>
+
+                    <p class="sa-about-text">
+
+                        The objectives of DSW includes holistic development, community building, essential support
+                        services, skill development, and nurtures leadership qualities and teamwork through various
+                        programmes and activities.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FUNCTIONS -->
+
+    <section class="sa-functions-section">
+
+        <div class="container">
+
+            <h2 class="sa-functions-title">
+                Key Functions <span>And Responsibilities</span>
+            </h2>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Student <span>Support</span></h6>
+                        <p><b>Counselling:</b> Providing mental health support, counselling, and therapy.</p>
+                        <p><b>Health Services:</b> Offering medical care, health education, and wellness programmes.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Residential <span>Life</span></h6>
+                        <p><b>Housing:</b> Managing on-campus housing and assisting with off-campus housing resources.
+                        </p>
+                        <p><b>Residential programmes:</b> Organizing activities and programs to build community among
+                            residents.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Student Activities <span>Organizations</span></h6>
+                        <p><b>Clubs:</b> Supporting various student clubs and interest groups.</p>
+                        <p><b>Leadership Development:</b> Offering leadership training and development opportunities
+                            through departments and Student Council.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Career <span>Guidance</span></h6>
+                        <p><b>Career Counselling:</b> Assisting students with career planning and job search
+                            strategiesthrough Royal Centre for Corporate Relations.</p>
+                        <p><b>Internships:</b> Connecting students with internship and employment opportunities.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Student <span>Support</span></h6>
+                        <p><b>Cultural Programmes:</b> Promoting diversity and inclusion through events, fests, and
+                            programmes.</p>
+                        <p><b>Scholarship Support:</b> Providing resources and support for underrepresented student
+                            groups through different scholarships.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Academic <span>Support</span></h6>
+                        <p><b>Tutorial and Remedial support:</b> Offering academic assistance through remedial and
+                            tutorial classes.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Student Conduct <span>and Discipline</span></h6>
+                        <p><b>Code of Conduct:</b> Enforcing the university's code of conduct and handling disciplinary
+                            matters.</p>
+                        <p><b>Conflict Resolution:</b> Mediating conflicts and providing support for dispute resolution.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Campus Safety <span>and Security</span></h6>
+                        <p><b>Safety Protocols:</b> Implementing safety protocols and emergency response plans.</p>
+                        <p><b>Security Services:</b> Ensuring the physical security of the campus with 24X7 campus
+                            security in the form of digital and manual surveillance.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sa-card">
+                        <h6 class="sa-card-title">Extra-curricular <span>Activity</span></h6>
+                        <p><b>Sports:</b> Offering sports facilities, fitness programs, and intramural sports.</p>
+                        <p><b>Outdoor Activities:</b> Organizing outdoor recreational activities, field trips and
+                            extension activities.</p>
+                        <p><b>Club Services:</b> The 33 Clubs of the University function under the aegis of Student
+                            Affairs cater to the different co-curricular and extra-curricular aspects of the University.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <p class="sa-bottom-text">
+                Student Affairs plays a pivotal role in shaping the university experience, contributing to student
+                well-being, academic success, and personal growth.
+            </p>
+
+
+        </div>
+
+    </section>
 @endsection
