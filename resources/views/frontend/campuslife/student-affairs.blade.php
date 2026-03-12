@@ -109,7 +109,7 @@
         }
 
         .sa-card-title {
-            font-size: 1.05rem;
+            font-size: 1.7rem;
             font-weight: 700;
             color: #27467A;
             margin-bottom: 0.6rem;
