@@ -196,8 +196,8 @@
 
                 <!-- A -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header p-2">
-                        <button class="accordion-button collapsed scholarship-btn" type="button"
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipA">
 
                             <span class="scholarship-label">A</span>
@@ -398,8 +398,8 @@
 
                 <!-- B -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header p-2">
-                        <button class="accordion-button collapsed scholarship-btn" type="button"
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipB">
 
                             <span class="scholarship-label">B</span>
@@ -577,8 +577,8 @@
 
                 <!-- C -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header p-2">
-                        <button class="accordion-button collapsed scholarship-btn" type="button"
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipC">
 
                             <span class="scholarship-label">C</span>
@@ -956,8 +956,8 @@
 
                 <!-- D -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header p-2">
-                        <button class="accordion-button collapsed scholarship-btn" type="button"
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed scholarship-btn p-2" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipD">
 
                             <span class="scholarship-label">D</span>
