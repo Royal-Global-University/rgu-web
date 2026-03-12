@@ -58,6 +58,7 @@
             background: #f39c12;
             color: #fff;
             display: flex;
+            padding: 5px;
             align-items: center;
             justify-content: center;
             border-radius: .35rem;
