@@ -531,8 +531,8 @@
                             data-bs-toggle="collapse" data-bs-target="#scholarshipC">
 
                             <span class="scholarship-label">C</span>
-                            Zubeen Garg Scholarship (Policy for Promotion of Extracurricular Activities -
-                            Sports/Dance/Music/Theatre/Fine Arts/Literary)
+                            Zubeen Garg Scholarship <br>(Policy for Promotion of Extracurricular Activities -
+                            <br>Sports/Dance/Music/Theatre/Fine Arts/Literary)
 
                         </button>
                     </h2>
