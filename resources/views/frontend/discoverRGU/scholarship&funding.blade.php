@@ -166,7 +166,7 @@
 
                             <span class="scholarship-label">A</span>
 
-                            Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnel
+                            Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnel (Military/Paramilitary/North-Eastern Police Forces)
 
                         </button>
 
@@ -372,7 +372,7 @@
 
                             <span class="scholarship-label">B</span>
 
-                            Royal Shaurya : Full freeship to the wards of braveheart security personnel
+                            Royal Shaurya : Full freeship to the wards of braveheart security personnels (Scholarship offered on course fee)
 
                         </button>
 
@@ -557,7 +557,7 @@
 
                             <span class="scholarship-label">C</span>
 
-                            Zubeen Garg Scholarship (Extracurricular Activities)
+                            Zubeen Garg Scholarship (Policy for Promotion of Extracurricular Activities - Sports/Dance/Music/Theatre/Fine Arts/Literary)
 
                         </button>
 
