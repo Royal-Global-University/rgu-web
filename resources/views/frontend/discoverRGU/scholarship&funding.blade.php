@@ -128,57 +128,6 @@
     </style>
 
     <!-- for mobile query  -->
-    <style>
-        /* Mobile (Up to 767px) */
-        @media only screen and (max-width: 767px) {
-            .website {
-                display: none;
-            }
-
-            .mobile {
-                display: block;
-            }
-        }
-
-        /* Tablet (768px - 1024px) */
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-            /* CSS rules for tablets */
-            .website {
-                display: none;
-            }
-
-            .mobile {
-                display: block;
-            }
-        }
-
-        /* Laptop (1025px - 1280px) */
-        @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-
-            /* CSS rules for laptops */
-            .website {
-                display: block;
-            }
-
-            .mobile {
-                display: none;
-            }
-        }
-
-        /* Desktop (1281px and above) */
-        @media only screen and (min-width: 1281px) {
-
-            /* CSS rules for desktops */
-            .website {
-                display: block;
-            }
-
-            .mobile {
-                display: none;
-            }
-        }
-    </style>
 
     <div class="section-body">
 
