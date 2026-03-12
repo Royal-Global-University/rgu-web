@@ -57,8 +57,6 @@
         .scholarship-label {
             background: #f39c12;
             color: #fff;
-            width: 2.2rem;
-            height: 2.2rem;
             display: flex;
             align-items: center;
             justify-content: center;
