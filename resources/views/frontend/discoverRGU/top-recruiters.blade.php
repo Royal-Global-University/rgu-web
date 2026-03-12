@@ -67,52 +67,8 @@
 
             <img src="mobile-assets/recruiters/web-header.png" alt="">
 
-            {{-- <div>
+            <img src="mobile-assets/recruiters/recruiters-web.png" alt="">
 
-                <img style="width: 100%; padding-bottom: 50px;" src="mobile-assets/recruiters/web-all-logo.svg"
-                    alt="Logo image">
-
-                <div class="container pb-4">
-                    <div
-                        style="padding: 30px 50px; background-color: #ECA529; border-radius: 10px; border-bottom: 10px solid #27467A;">
-                        <div class="row">
-
-                            <div>
-                                <h2 class="headd2 fw-bold mb-4" style="color: #000;">Contact Details</h2>
-
-                                <div class="row">
-                                    <div class="col-lg-5">
-                                        <h2 class="headd3 fw-bold text-dark">Ms. Pahi Bhagawati</h2>
-                                        <p class="para1 fw-bold text-dark">Assistant Director, Royal Centre for Corporate
-                                            Relations (RCCR)</p>
-                                        <p class="para1 text-dark"><i class="fa fa-phone"></i> +91-8876938540</p>
-                                        <p class="para1 text-dark"><i class="fa fa-envelope"></i> pahib@rgu.ac</p>
-
-                                    </div>
-
-                                    <div class="col-lg-1">
-                                        <div style="border-left:2px solid #000;height:200px"></div>
-                                    </div>
-
-
-
-                                    <div class="col-lg-5">
-                                        <h2 class="headd3 fw-bold text-dark">Ms. Arpita Baruah</h2>
-                                        <p class="para1 text-dark fw-bold">Manager, Royal Centre for Corporate Relations
-                                            (RCCR)</p>
-                                        <p class="para1 text-dark"><i class="fa fa-phone"></i> +91-7002931289</p>
-                                        <p class="para1 text-dark"><i class="fa fa-envelope"></i> abaruah2@rgu.ac</p>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div> --}}
 
         </div>
     </div>
