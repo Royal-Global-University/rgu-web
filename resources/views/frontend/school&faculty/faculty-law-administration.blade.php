@@ -172,7 +172,7 @@
                             </div>
                             <h3 class="card-name">Dr. Momina Zahan</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-thaneshwar-kalita" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-momina-zahan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -221,7 +221,7 @@
                             </div>
                             <h3 class="card-name">Dr. Jahnavi Bhandari</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-bhupali-saikia" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-jahnavi-bhandari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

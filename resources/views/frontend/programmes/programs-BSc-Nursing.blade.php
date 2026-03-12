@@ -299,24 +299,38 @@
 
             <p class="mobile-para1 text-dark">
 
-            <ol>
+            <ul>
               <li class="text-dark">
-                10+2 in Science stream with Physics, Chemistry, Biology (PCB), and English as compulsory subjects.
+                1. The minimum age for admission shall be 17 years on 31st December of the year in which admission is sought. The maximum age limit for admission shall be 35 years.
+              </li>
+              <li class="text-dark strong">
+                2. Minimum Educational Qualification
               </li>
               <li class="text-dark">
-                Minimum 50% marks in PCB taken together.
+                &nbsp;&nbsp;a) Candidate with Science who have passed the qualifying 12th Standard examination (10+2) and must have obtained a minimum of 45% ( 40% for ST/ SC/ OBC Non creamy) marks in Physics, Chemistry and Biology taken together. The candidate must have pass marks in English.
               </li>
               <li class="text-dark">
-                5% relaxation for SC/ST/OBC – Non-Creamy Layer.
+                &nbsp;&nbsp;b) Candidates are also eligible from State Open School recognized by State Government and National Institute of Open School (NIOS) recognized by Central Government having Science subjects and English only.
               </li>
               <li class="text-dark">
-                The student should be medically fit.
+                &nbsp;&nbsp;c) English is a compulsory subject in 10+2 for being eligible for admission to B.Sc. (Nursing).
               </li>
-              <li class="text-dark">
-                The student must be a minimum of 17 years of age as on 31st December of the year in which admission is
-                sought.
+               <li class="text-dark">
+                3. Colour blind candidates are eligible provided that colour corrective contact lens and spectacles are worn by such candidates.
               </li>
-            </ol>
+               <li class="text-dark">
+                4. Candidate shall be medically fit.
+              </li>
+               <li class="text-dark">
+                5. Married candidates are also eligible for admission.
+              </li>
+               <li class="text-dark">
+                6. Students shall be admitted once in a year.
+              </li>
+               <li class="text-dark">
+                7. Selection of candidates should be based on the merit of the entrance examination. Entrance test shall be conducted by University/State Government.
+              </li>
+            </ul>
 
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -324,7 +338,7 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance in last examination followed by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
             <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>

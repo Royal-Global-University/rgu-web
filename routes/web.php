@@ -2556,6 +2556,7 @@ Route::get('/international-programs-BA-English', function () {
 
 //Royal School of Law & Administration (RSLA)
 
+
 Route::get('/international-programs-LLM-Day-Shift', function () {
     return view('frontend/international-fee/international-programs-LLM-Day-Shift');
 })->name('international-programs-LLM-Day-Shift');
@@ -5180,6 +5181,14 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-momina-zahan', function () {
+    return view('frontend/facultyprofile/rsla/momina-zahan');
+})->name('faculty-momina-zahan');
+
+Route::get('/faculty-jahnavi-bhandari', function () {
+    return view('frontend/facultyprofile/rsla/jahnavi-bhandari');
+})->name('faculty-jahnavi-bhandari');
 
 Route::get('/faculty-arkajit-debnath', function () {
     return view('frontend/facultyprofile/rsla/arkajit-debnath');

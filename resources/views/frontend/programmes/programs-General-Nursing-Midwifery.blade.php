@@ -301,21 +301,16 @@
 
             <ol>
               <li class="text-dark">
-                10+2 with English and a minimum of 40% marks at the qualifying examination and in English individually
-                from any recognized Board. Candidates from State Open Schools recognized by the State Government and the
-                National Institute of Open Schooling (NIOS) recognized by the Central Government are also eligible.
-                However, Science is preferable.
+                10+2 with English and must have obtained a minimum of 40% at the qualifying examination and English individually from any recognized board. Candidates are also eligible from State Open School recognized by State Government and National Institute of Open School (NIOS) recognized by Central Government. However, Science is preferable. Three (core elective) subject marks may be taken for calculating the percentage of marks excluding the marks in English. Also, it has to be ensured the candidate has pass marks in English.
               </li>
               <li class="text-dark">
-                10+2 with English having 40% marks in the vocational ANM course from a school recognized by the Indian
-                Nursing Council.
+                10+2 with English having 40% of marks in vocational ANM course from the school recognized by Indian Nursing Council.
               </li>
               <li class="text-dark">
-                10+2 with English having 40% marks in Vocational Stream – Health Care Science from a recognized
-                CBSE/State/Central Board.
+                10+2 with English having 40% of marks in Vocational Stream-Health care Science from a recognized CBSE board/State/Centre.
               </li>
               <li class="text-dark">
-                Registered ANM with pass marks.
+                Registered ANM with pass marks. (5% of total marks is relaxed for SC/ST candidates)
               </li>
             </ol>
 
@@ -325,7 +320,7 @@
             </h2>
 
             <p class="text-dark">
-              Based on overall performance in last examination followed by Personal Interview.
+              Based on fulfillment of eligibility criteria.
             </p>
 
             <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
