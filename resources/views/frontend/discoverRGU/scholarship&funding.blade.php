@@ -196,7 +196,7 @@
 
                 <!-- A -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header p-2">
                         <button class="accordion-button collapsed scholarship-btn" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipA">
 
@@ -398,7 +398,7 @@
 
                 <!-- B -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header p-2">
                         <button class="accordion-button collapsed scholarship-btn" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipB">
 
@@ -577,7 +577,7 @@
 
                 <!-- C -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header p-2">
                         <button class="accordion-button collapsed scholarship-btn" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipC">
 
@@ -956,7 +956,7 @@
 
                 <!-- D -->
                 <div class="accordion-item scholarship-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header p-2">
                         <button class="accordion-button collapsed scholarship-btn" type="button"
                             data-bs-toggle="collapse" data-bs-target="#scholarshipD">
 
