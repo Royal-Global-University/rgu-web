@@ -449,7 +449,7 @@
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route9.png"
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route9-1.jpeg"
                                         alt="Route 4">
                                 </div>
                             </div>

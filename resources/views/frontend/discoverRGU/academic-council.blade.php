@@ -9,8 +9,8 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
                 Academic <br><span style="color: #FF9A1E; font-weight: 500;"> Council</span></h2>
         </div>
 

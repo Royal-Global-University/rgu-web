@@ -657,9 +657,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-process') }}">
                     <li>Placement Process</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-members') }}">
+                {{-- <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-members') }}">
                     <li>Placement Members</li>
-                </a>
+                </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-events') }}">
                     <li>RCCR Events</li>
                 </a>
@@ -694,9 +694,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('frro-process') }}">
                     <li>FRRO Process</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="https://heyzine.com/flip-book/adfd7889ba.html">
+                {{-- <a class="mobile-para1" style="color: #27467A;" href="https://heyzine.com/flip-book/adfd7889ba.html">
                     <li>International Brochure</li>
-                </a>
+                </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply-international') }}">
                     <li>How to Apply?</li>
                 </a>

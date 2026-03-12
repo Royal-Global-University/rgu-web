@@ -12,7 +12,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
 
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
+            <section style="background-color: #fff8f0; padding: 130px 10px 20px 10px;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12">

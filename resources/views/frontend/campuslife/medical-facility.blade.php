@@ -5,7 +5,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <h2 style="padding-top: 90px; position: relative;" class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-3"
+        <h2 style="padding-top: 90px; position: relative; padding-top: 120px;" class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text"
             style="color: #27467A; font-weight: 900;">
             Medical <span style="color: #FF9A1E; font-weight: 500;">Facility</span></h2>
 

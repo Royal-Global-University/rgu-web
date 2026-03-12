@@ -19,7 +19,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/https://media.rgu.ac/social-outreach/1.jpeg"
+                                            height="220" src="https://media.rgu.ac/social-outreach/1.jpeg"
 
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />

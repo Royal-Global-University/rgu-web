@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-
+        <div style="padding-top: 80px;"></div>
     </div>
 
     <div class="website">
@@ -11,7 +11,7 @@
 
     </div>
     <div>
-        <h1 class="text-center pt-4 pb-4 text-dark">OMBUDSPERSON</h1>
+        <h3 class="text-center pt-4 pb-4 text-dark">OMBUDSPERSON</h3>
         <div style="overflow-x:auto;" class="container pb-5">
             <table
                 style="width:100%; border-collapse:collapse; background-color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); min-width:600px;">
