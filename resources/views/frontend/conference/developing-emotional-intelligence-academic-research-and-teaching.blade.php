@@ -54,11 +54,12 @@
             font-size: 50px;
             font-weight: 700;
             color: #93bcff;
-            margin-bottom: 10px;
+            line-height: 1.5;
         }
 
         .rgu-rp-hero-subtitle {
-            font-size: 26px;
+            font-size: 32px;
+            color: #93bcff;
             opacity: .9;
         }
 
@@ -178,13 +179,13 @@
 
         <div class="container rgu-rp-hero-content">
 
-            <h1 class="rgu-rp-hero-title">
+            <h1 class="rgu-rp-hero-subtitle">
                 FIVE-DAY INTERNATIONAL WORKSHOP
                 <br>
                 ON
             </h1>
 
-            <p class="rgu-rp-hero-subtitle">
+            <p class="rgu-rp-hero-title text-light">
                 DEVELOPING EMOTIONAL INTELLIGENCE,
                 ACADEMIC RESEARCH AND TEACHING
 
