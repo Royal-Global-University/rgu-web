@@ -2990,6 +2990,10 @@ Route::get('/lp', function () {
 
 //conference
 
+Route::get('/developing-emotional-intelligence-academic-research-and-teaching', function () {
+    return view('frontend/conference/developing-emotional-intelligence-academic-research-and-teaching');
+})->name('developing-emotional-intelligence-academic-research-and-teaching');
+
 Route::get('/icssr-project-positions-at-rgu', function () {
     return view('frontend/conference/icssr-project-positions');
 })->name('icssr-project-positions-at-rgu');

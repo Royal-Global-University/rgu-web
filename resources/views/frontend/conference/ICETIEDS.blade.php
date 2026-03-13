@@ -7,7 +7,7 @@
 
     <div class="website">
         <!--head image Section-->
-        @include('frontend/components/aheader')
+        {{-- @include('frontend/components/aheader') --}}
 
     </div>
 
@@ -52,7 +52,6 @@
             align-items: center;
             text-align: center;
             color: var(--text-light);
-            padding: 20px;
         }
 
         .hero h1 {
