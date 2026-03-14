@@ -1630,6 +1630,10 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
+Route::get('/department-physical-education-and-sports', function () {
+    return view('frontend/school&faculty/department-physical-education-and-sports');
+})->name('department-physical-education-and-sports');
+
 Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
