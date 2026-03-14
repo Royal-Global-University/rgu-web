@@ -442,7 +442,7 @@
                     </p>
 
                     <p>
-                        FOR PAYMENT SCAN THE QR CODE GIVEN BELOW OR CLICK HERE
+                        FOR PAYMENT SCAN THE QR CODE GIVEN BELOW OR <a class="text-danger fw-bold" href="https://rgu.renocampus.com/events/event/ae369e86-9373-44e6-9af7-1ff0444cb723">CLICK HERE</a>
                     </p>
 
                     <p>

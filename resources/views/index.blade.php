@@ -928,12 +928,15 @@
 
                 <div class="row p-3 text-center">
 
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
+                            <a href="/developing-emotional-intelligence-academic-research-and-teaching"><img style="border: 1px solid black"
+                                    src="five-days-conference/r&t.jpeg" /></a>
+                        </div>
+                        <div class="col-lg-4">
                             <a href="/icssr-project-positions-at-rgu"><img style="border: 1px solid black"
                                     src="mobile-assets/ads/icssr.jpeg" /></a>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
                             <a href="ICETIEDS–2026"><img style="border: 1px solid black"
                                     src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
                         </div>
