@@ -375,7 +375,7 @@
                             <h5 class="rgu-unique-headd2 mb-4">Royal School of Languages (RSL)</h5>
                             <div class="mt-auto d-flex justify-content-between">
                                 <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-languages">Department</a>
+                                    href="/royal-school-of-languages">Department</a>
                                 <a class="rgu-unique-caption rgu-unique-school-link" data-school="Languages"
                                     style="background:#FF9A1E; color:#fff; width:48%;"
                                     href="faculty-languages">Faculty</a>

@@ -1630,6 +1630,10 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
+Route::get('/royal-school-of-languages', function () {
+    return view('frontend/school&faculty/royal-school-of-languages');
+})->name('royal-school-of-languages');
+
 Route::get('/department-physical-education-and-sports', function () {
     return view('frontend/school&faculty/department-physical-education-and-sports');
 })->name('department-physical-education-and-sports');
@@ -1637,6 +1641,10 @@ Route::get('/department-physical-education-and-sports', function () {
 Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
+
+Route::get('/department-assamese', function () {
+    return view('frontend/school&faculty/department-assamese');
+})->name('department-assamese');
 
 Route::get('/department-of-political-science-public-administration', function () {
     return view('frontend/school&faculty/department-of-political-science-public-administration');
