@@ -422,7 +422,7 @@
                             FULLY ONLINE ADMISSION PROCESS
                         </h2>
 
-                        <script src="https://cdn.tailwindcss.com"></script>
+
                         <style>
                             /* 1. Define the keyframes for our unique animation.
       This animation pulses the button's scale and its box-shadow.

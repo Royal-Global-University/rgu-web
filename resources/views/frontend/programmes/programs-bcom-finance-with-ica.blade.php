@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Study B.Com Finance at Royal Global University | Top Commerce Program in Assam')
-@section('meta_description', 'Pursue B.Com Finance at Royal Global University, Assam. Learn from expert faculty, explore
+@section('meta_description',
+    'Pursue B.Com Finance at Royal Global University, Assam. Learn from expert faculty, explore
     industry-focused curriculum, and build a strong career in finance.')
 @section('meta_keywords', 'B.Com Finance')
 @section('content')
@@ -327,12 +328,12 @@
 
                         <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
 
-                <p class="text-dark">
+                    <p class="text-dark">
 
-                  10+3 - Years Diploma, recognized by Central/State Government with minimum 45% marks or equivalent grade in
-                  aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) along with Mathematics as compulsory subjects.
+                      10+3 - Years Diploma, recognized by Central/State Government with minimum 45% marks or equivalent grade in
+                      aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) along with Mathematics as compulsory subjects.
 
-                </p> -->
+                    </p> -->
 
                         </p>
 
@@ -436,11 +437,11 @@
                                 FULLY ONLINE ADMISSION PROCESS
                             </h2>
 
-                            <script src="https://cdn.tailwindcss.com"></script>
+
                             <style>
                                 /* 1. Define the keyframes for our unique animation.
-          This animation pulses the button's scale and its box-shadow.
-        */
+              This animation pulses the button's scale and its box-shadow.
+            */
                                 @keyframes uniquePulseAnimation {
                                     0% {
                                         transform: scale(1);
@@ -461,7 +462,7 @@
                                 }
 
                                 /* 2. Create our unique button class.
-        */
+            */
                                 .animated-pulse-button {
                                     /* We moved your inline styles here for cleaner HTML */
                                     padding: 15px 40px;
@@ -478,10 +479,10 @@
                                     text-decoration: none;
 
                                     /* 3. Apply the animation!
-             - 'uniquePulseAnimation' is the animation name
-             - '2s' is the duration (2 seconds)
-             - 'infinite' makes it loop forever
-          */
+                 - 'uniquePulseAnimation' is the animation name
+                 - '2s' is the duration (2 seconds)
+                 - 'infinite' makes it loop forever
+              */
                                     animation: uniquePulseAnimation 2s infinite;
 
                                     /* Add a smooth transition for the hover effect */
@@ -489,8 +490,8 @@
                                 }
 
                                 /* 4. (Optional) Add a nice hover effect.
-          This will pause the animation and just show the "up" state.
-        */
+              This will pause the animation and just show the "up" state.
+            */
                                 .animated-pulse-button:hover {
                                     animation-play-state: paused;
                                     /* Pause the pulse on hover */
@@ -508,11 +509,11 @@
                                 <div class="mt-4 text-center">
 
                                     <!--
-            This is your modified <a> tag.
-            - The inline 'style' attribute has been removed.
-            - The new 'animated-pulse-button' class has been added.
-            - Your original classes 'mobile-para1' and 'fw-bold' are kept.
-          -->
+                This is your modified <a> tag.
+                - The inline 'style' attribute has been removed.
+                - The new 'animated-pulse-button' class has been added.
+                - Your original classes 'mobile-para1' and 'fw-bold' are kept.
+              -->
                                     <a class="mobile-para1 fw-bold animated-pulse-button" href="https://admissions.rgu.ac/">
                                         Apply Now
                                     </a>
