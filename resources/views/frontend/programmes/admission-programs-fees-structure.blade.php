@@ -3748,6 +3748,21 @@
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course:
+                                                    Ph.D. in Physical Education and Sports</strong>
+
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course:
                                                         Bachelor of Physical Education and Sports (BPES)</strong>
                                                     <br>
                                                     <a href=""
@@ -7908,8 +7923,24 @@
                                         <th class="text-light  font-weight-bold">DETAILS</th>
                                     </thead>
                                     <tbody class="para1">
+
                                         <tr>
                                             <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course:
+                                                       Ph.D. in Physical Education and Sports</strong>
+
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>2.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course:

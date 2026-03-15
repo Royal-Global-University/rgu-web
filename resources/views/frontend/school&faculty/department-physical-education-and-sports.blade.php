@@ -145,6 +145,17 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
+                        <span style="font-size: 16px;">Ph.D. in Physical Education and Sports</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+                </div>
+
+                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
                         <span style="font-size: 16px;">Bachelor of Physical Education and Sports (BPES)</span>
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
@@ -733,7 +744,20 @@
                     <div class="container pb-5">
                         <h2 class="headd1 fw-bold text-center pt-4 pb-3"
                             style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span>
+                        </h2>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px;">Ph.D. in Physical Education and Sports</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                        </div>
 
                         <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
                             <!-- Heading Section -->
