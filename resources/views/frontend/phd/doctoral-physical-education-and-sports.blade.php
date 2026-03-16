@@ -122,60 +122,12 @@
 
                                     <p class="mobile-para1 pt-3"
                                         style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Department of Physics gained momentum with full-fledged UG and PG courses in
-                                        2017. The
-                                        department offers Ph.D. programs with a total of 8 full-time faculties. The
-                                        department is graced
-                                        with experienced professors and one advisor. All the faculty members are Ph.D.
-                                        holders with many
-                                        research papers in reputed journals, and a dedicated laboratory in-charge to help
-                                        the students
-                                        individually during the laboratory period. Fully dedicated faculties from 9:00 am to
-                                        5:15 pm and all
-                                        the laboratories are well equipped with all the necessary instruments with four
-                                        laboratories,
-                                        including one dark room and one research lab with remedial and guidance classes for
-                                        different
-                                        competitive examinations from time to time.
+                                        The PhD in Physical Education and Sports Programme is designed to promote advanced research and scholarly development in the field of physical education, sports science, and athletic performance. The programme aims to equip scholars with in-depth knowledge of exercise physiology, sports psychology, biomechanics, training methodology, and sports management. Through systematic research and scientific investigation, scholars are encouraged to contribute to the development of innovative practices that enhance physical fitness, sports performance, and overall well-being. The programme also focuses on addressing contemporary challenges in sports and physical education while promoting evidence-based approaches for athlete development, health promotion, and sports participation at various levels of society
                                     </p>
 
                                 </div>
 
                             </div>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Royal School of Physical Education (RSPES), a constituent school of The Assam Royal
-                                Global University will be offering BPES (H) from academic year 2026, with the objective of
-                                nurturing skilled professionals in the fields of sports, fitness, and wellness. It has been
-                                established with a vision to promote excellence in physical education and sports sciences in
-                                North-East. The programme is designed to combine academic rigor with intensive practical
-                                training.
-                            </p>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Adopting an interdisciplinary approach, the course integrates sports science, health
-                                education, psychology, physiology, biomechanics, and management to provide students with a
-                                strong scientific and professional foundation. Special focus areas include Sports Coaching
-                                and Training, Sports Psychology, Health and Fitness Management, Sports Management and
-                                Administration, and Yoga Education and Wellness.
-                            </p>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Emphasizing experiential and practice-oriented learning, the programme incorporates
-                                practical training sessions, fieldwork, internships, coaching camps, fitness assessments,
-                                performance analysis, and community outreach initiatives. With access to well-equipped
-                                sports facilities, gymnasiums, and indoor and outdoor infrastructure, students gain hands-on
-                                experience that enhances both technical competence and leadership abilities.
-                            </p>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Guided by experienced faculty members and sports professionals, the course aims to prepare
-                                graduates for rewarding careers as Physical Education Teachers, Coaches, Fitness and
-                                Wellness Consultants, Sports Administrators, Analysts, Researchers, and Entrepreneurs.
-                                Through its dedicated Placement and Training Cell, RSPE ensures strong industry linkage and
-                                career support, making the programme a gateway to meaningful employment and professional
-                                growth in the dynamic field of physical education and sports sciences.
-                            </p>
                         </div>
 
                     </section>
