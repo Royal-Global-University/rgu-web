@@ -180,7 +180,7 @@
                             </div>
                             <h3 class="card-name">Dr. Ravina Khumanlambam</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/olivia-kakati" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-ravina-khumanlambam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

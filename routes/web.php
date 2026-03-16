@@ -4749,6 +4749,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/faculty-ravina-khumanlambam', function () {
+    return view('frontend/facultyprofile/rsbas/ravina-khumanlambam');
+})->name('/faculty-ravina-khumanlambam');
+
 Route::get('/faculty-tejoswita-gogoi', function () {
     return view('frontend/facultyprofile/rsbas/tejoswita-gogoi');
 })->name('/faculty-tejoswita-gogoi');
