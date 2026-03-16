@@ -105,7 +105,7 @@
                         ],
                         [
                             'title' =>
-                                'Former ISRO Chief AS Kiran Kumar addresses Public Talk at Royal Global University',
+                                'BHUPEN HAZARIKA: Twenty Songs and Seven Portraits - released at Royal Global University',
                             'summary' => 'RGU Honours Dr Bhupen Hazarika with Book Release and Documentary Screening',
                             'date' => 'Guwahati, February 25, 2026:',
                             'link' =>
