@@ -1069,6 +1069,30 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news82/163262.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Padma Bhushan & creator of Mohan Veena mesmerises audience at RGU SMVA
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">March 14,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
@@ -1112,28 +1136,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news80/1001.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    RGU gave me confidence: APSC Topper Nihar Deka tells students during interaction
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">February 26,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">

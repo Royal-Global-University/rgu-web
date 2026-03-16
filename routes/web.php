@@ -3096,6 +3096,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva', function () {
+    return view('frontend/media-corner/news108');
+})->name('padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva');
+
 Route::get('/guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department', function () {
     return view('frontend/media-corner/news107');
 })->name('guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department');

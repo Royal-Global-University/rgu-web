@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Padma Bhushan & creator of Mohan Veena mesmerises audience at RGU SMVA',
+                            'summary' => '4-day-long SPIC MACAY Virasat Anubhav Series concludes at RGU',
+                            'date' => 'Guwahati, March 14, 2026:',
+                            'link' =>
+                                '/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva',
+                            'image' => 'mobile-assets/media-corner/news82/163262.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) successfully hosted the SPIC MACAY Virasat Anubhav (SMVA) Series 2026, a four-day cultural immersion programme from March 10 to 13...',
+                        ],
+
+                        [
                             'title' => 'Guwahati emerging as a key centre linking cities across Southeast Asia: Secretary, Act East Policy Affairs
                 Department',
                             'summary' => 'RGU holds Youth Interaction on Act East Policy and Assam’s Emerging Role',
@@ -53,8 +63,7 @@
                             'link' =>
                                 '/guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department',
                             'image' => 'mobile-assets/media-corner/news82/113261.jpeg',
-                            'content' =>
-                                'The Assam Royal Global University (RGU) has held a
+                            'content' => 'The Assam Royal Global University (RGU) has held a
                 Quiz and a Debate Competition on “Youth Interaction on Act East Policy and Assam’s Emerging Role” here
                 today...',
                         ],
