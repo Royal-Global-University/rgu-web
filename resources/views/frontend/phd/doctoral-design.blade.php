@@ -63,35 +63,6 @@
                 </table>
                         </div>
 
-                        <p class="para1" style="color: #264273; text-align: justify;">
-                            The program is ideal for candidates with a background in design or related fields who are passionate about shaping the future of design through research, scholarship, and teaching.
-                        </p>
-
-                        <h2 style="color: #333;" class="headd3 fw-bold pt-4 pb-2">
-                            Ph.D. Guides and Research Interests:
-                        </h2>
-
-                        <div class="bg-white card">
-                            <div class="row p-3">
-                                <div class="col-lg-2">
-                                    <img style="height: 200px; width: 200px;"
-                                        src="mobile-assets/phd-mobile/doctoral-design/1.png" alt="">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h2 class="headd3 fw-bold pt-3" style="color: #264273; font-size: 30px;">
-                                    Dr. Susmita Nath
-                                    </h2>
-
-                                    <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
-
-                                    <p class="para1 text-dark"><strong> Research Interests:</strong>
-                                        Physical Ergonomics (Product and Workstation design), Cognitive Ergonomics (Information processing), Design and work environment, Design and Occupational Health, Sustainable Design
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
@@ -188,26 +159,6 @@
                 The program is ideal for candidates with a background in design or related
                 fields who are passionate about shaping the future of design through research, scholarship, and teaching.
             </p>
-
-            <h2 style="color: #333;" class="headd2 fw-bold pt-3 pb-2">
-                Ph.D. Guides and Research Interests:
-            </h2>
-
-            <div class="bg-white card">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img style="height: 200px; width: 200px;" src="mobile-assets/phd-mobile/doctoral-design/1.png" alt="">
-                    </div>
-                    <div class="col-lg-10">
-                        <h2 class="headd3 fw-bold" style="color: #264273; font-size: 30px;">Dr. Susmita Nath</h2>
-                        <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
-
-                        <p class="para1 text-dark"><strong> Research Interests:</strong>
-                            Physical Ergonomics (Product and Workstation design), Cognitive Ergonomics (Information processing), Design and work environment, Design and Occupational Health, Sustainable Design
-                        </p>
-                    </div>
-                </div>
-            </div>
             <!-- Insert PHD Curriculum here  -->
         </div>
     </div>

@@ -48,36 +48,6 @@
                                 through meaningful and impactful research.
                             </p>
 
-                            <h2 style="color: #333;" class="headd3 fw-bold pt-4 pb-2">
-                                Ph.D. Guides and Research Interests:
-                            </h2>
-
-                            <div class="bg-white card">
-                                <div class="row p-3">
-                                    <div class="col-lg-2">
-                                        <img style="height: 200px; width: 200px;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/hotel/indrajit.jpg" alt="">
-                                    </div>
-                                    <div class="col-lg-10">
-                                        <h2 class="headd3 fw-bold pt-3" style="color: #264273; font-size: 30px;">
-                                            Dr. Indrajit Dutta
-                                        </h2>
-
-                                        <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
-
-                                        <p class="para1 text-dark"><strong> Research Interests:</strong>
-                                            Sustainable tourism, community-based tourism, hospitality operations, indigenous
-                                            communities, responsible tourism, human resource development, service
-                                            innovation, policy formulation, tourism economics, rural tourism, destination
-                                            management, eco-tourism, cultural tourism, hospitality marketing, tourism impact
-                                            assessment
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -161,29 +131,6 @@
                     hospitality industry through meaningful and impactful research.
                 </p>
 
-
-                <h2 style="color: #333;" class="headd2 fw-bold pt-3 pb-2">
-                    Ph.D. Guides and Research Interests:
-                </h2>
-
-                <div class="bg-white card">
-                    <div class="row p-3">
-                        <div class="col-lg-2">
-                            <img style="height: 200px; width: 200px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/hotel/indrajit.jpg" alt="">
-                        </div>
-                        <div class="col-lg-10">
-                            <h2 class="headd3 fw-bold" style="color: #264273; font-size: 30px;">Dr. Indrajit Dutta</h2>
-                            <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
-
-                            <p class="para1 text-dark"><strong> Research Interests:</strong>
-                                Sustainable tourism, community-based tourism, hospitality operations, indigenous
-                                communities, responsible tourism, human resource development, service innovation, policy
-                                formulation, tourism economics, rural tourism, destination management, eco-tourism, cultural
-                                tourism, hospitality marketing, tourism impact assessment
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
             </div>
     </div>

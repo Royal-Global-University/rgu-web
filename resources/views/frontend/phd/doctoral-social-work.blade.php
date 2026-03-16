@@ -47,75 +47,7 @@
                         </p>
 
 
-
-                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
-                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
-                                and Research Interests</span> </h2>
-
                     </div>
-
-                    <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
-
-                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-social-work/priyanka.jpeg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Priyanka Patowari
-                                        </h5>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Women & Children, Gender Studies, Community Development
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-social-work/amlan.jpg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Amlan Das
-                                        </h5>
-
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Disability Studies, Rural Development, Family & Child Welfare
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -180,69 +112,6 @@
                     needed to make a profound impact on individuals, families, and communities by advancing the field of
                     social work.
                 </p>
-
-
-                <h2 class="headd1 fw-bold pt-4 pb-4" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
-                        style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
-                </h2>
-
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-social-work/priyanka.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                    Dr. Priyanka Patowari
-                                </h5>
-
-                                <p class="para1 fw-bold" style="color: #264273;">
-                                    Research Interest
-                                </p>
-                                <p class="para1" style="color: #333; line-height: 1.3;">
-                                    Women & Children, Gender Studies, Community Development
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-social-work/amlan.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                    Dr. Amlan Das
-                                </h5>
-
-
-                                <p class="para1 fw-bold" style="color: #264273;">
-                                    Research Interest
-                                </p>
-                                <p class="para1" style="color: #333; line-height: 1.3;">
-                                    Disability Studies, Rural Development, Family & Child Welfare
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
             <!--End About-->

@@ -795,6 +795,10 @@ Route::get('/doctoral-economics', function () {
     return view('frontend/phd/doctoral-economics');
 })->name('doctoral-economics');
 
+Route::get('/doctoral-physical-education-and-sports', function () {
+    return view('frontend/phd/doctoral-physical-education-and-sports');
+})->name('doctoral-physical-education-and-sports');
+
 Route::get('/doctoral-english', function () {
     return view('frontend/phd/doctoral-english');
 })->name('doctoral-english');

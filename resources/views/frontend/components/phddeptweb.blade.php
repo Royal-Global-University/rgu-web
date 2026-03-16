@@ -48,7 +48,7 @@
         <div class="button-row">
             <a href="#" class="button para1">Medical Laboratory Technology</a>
             <a href="doctoral-political-science" class="button para1">Political Science</a>
-            <a href="doctoral-psychology" class="button para1">Physical Education and Sports</a>
+            <a href="#" class="button para1">Physical Education and Sports</a>
             <a href="doctoral-psychology" class="button para1">Psychology</a>
             <a href="doctoral-public-admin" class="button para1">Public Administration</a>
             <a href="doctoral-social-work" class="button para1">Social Work</a>

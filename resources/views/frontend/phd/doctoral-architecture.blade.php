@@ -26,7 +26,7 @@
             </div>
             </section>
 
-            <div class="container pt-4 pb-3" style="background-color: #f0f8ff;">
+            {{-- <div class="container pt-4 pb-3" style="background-color: #f0f8ff;">
                 <h2 class="mobile-headd2 text-dark">
                     Ph.D. Guides and Research Interests
                 </h2>
@@ -50,7 +50,7 @@
                             </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
                 <h2 class="mobile-headd2 text-dark">
@@ -106,7 +106,7 @@
             <hr>
         </div>
         <!--End About-->
-    <div style="padding: 40px 60px;">
+    {{-- <div style="padding: 40px 60px;">
 
         <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
 
@@ -129,7 +129,7 @@
 
         @include('frontend/components/phddeptweb')
 
-    </div>
+    </div> --}}
         </div>
 
 @endsection

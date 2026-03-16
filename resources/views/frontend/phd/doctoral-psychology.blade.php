@@ -75,49 +75,6 @@
 
         <div style="padding: 40px 60px;">
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
-
-            <div class="row d-flex"> <!-- Add d-flex here -->
-
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-psychology/2.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Mahuya Deb</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Clinical Psychology, Organizational Behaviour, Social Psychology, Child Psychology.
-                        </p>
-                        </div>
-                </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-psychology/4.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Fariza Saidin</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Neuropsychology, Social Psychology.
-                        </p>
-                        </div>
-                </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-psychology/5.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Syeda Anjum Afreen</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Clinical Psychology, Peace & Conflict, Social Psychology
-                        </p>
-                        </div>
-                </div>
-
-
-            </div>
-
-
-
             <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
 
             @include('frontend/components/phddeptweb')

@@ -96,28 +96,5 @@
 
 
         </div>
-
-        <div style="padding: 40px 60px;">
-
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-1">
-                        <img class="rounded shadow-sm border" style="height: 180px; width: 400px !important;" src="mobile-assets/phd-mobile/doctoral-civil-engg/1.jpg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-11">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Arnab Sarma</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
-
-            @include('frontend/components/phddeptweb')
-
-        </div>
     </div>
 @endsection

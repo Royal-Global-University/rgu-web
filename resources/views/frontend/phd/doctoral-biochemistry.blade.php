@@ -64,7 +64,7 @@
 
         </div>
 
-        <div style="padding: 40px 60px;">
+        {{-- <div style="padding: 40px 60px;">
 
             <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
 
@@ -127,6 +127,6 @@
 
             @include('frontend/components/phddeptweb')
 
-        </div>
+        </div> --}}
      </div>
 @endsection

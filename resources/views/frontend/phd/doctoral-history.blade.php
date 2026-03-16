@@ -75,26 +75,6 @@
 
         <div style="padding: 40px 60px;">
 
-               <p class="para1 text-dark" style="text-align: justify;">
-                The Department of History specializes in a myriad of areas of historical research from every period of Indian History with a special focus on the history of Assam and the other Northeastern states. Areas of interest include: history of ancient Assam, ethnographic history of North Eastern cultures, history of medieval Assam, history of colonialism in the North East, literary and oral history, history of protest and conflict, colonial resource-use regime and infrastructure, labour history etc.
-            </p>
-
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
-
-            <div class="row d-flex"> <!-- Add d-flex here -->
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-history/1.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Susmita Hazarika</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        </div>
-                </div>
-
-            </div>
-
-
-
             <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
 
             @include('frontend/components/phddeptweb')

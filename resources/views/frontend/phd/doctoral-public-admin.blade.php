@@ -44,48 +44,6 @@
                             Development, Development of Tribal Areas, Social Welfare, and Prison Administration.
                         </p>
 
-                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
-                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
-                                and Research Interests</span> </h2>
-
-                    </div>
-
-                    <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
-
-                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                            <div class="card mt-4 shadow-sm">
-                                <div class="row p-3">
-                                    <div class="col-lg-12">
-                                        <img class="rounded shadow-sm border" style="width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-public-admin/dr-monika.jpg" alt="">
-                                    </div>
-                                    <div class="col-lg-12 pt-3">
-                                        <h2 class="headd3 fw-bold " style="color: #264273;">
-                                            Dr. Monika Kumari
-                                        </h2>
-                                        <p class="para1 text-dark">
-                                            Assistant Professor
-                                        </p>
-
-                                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                                        <p class="para1 text-dark">
-                                            AI in Governance and Public Service Delivery, Local Administration and Smart
-                                            Governance,
-                                            E-Governance and Digital Transformation in Public Administration, Public
-                                            Policy
-                                            Formulation, Implementation, and Evaluation, Administrative Thinkers and
-                                            Contemporary
-                                            Relevance, Comparative Public Administration and Technological Innovations,
-                                            Indian
-                                            Administration and AI Integration in Bureaucratic Reform
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
 
                 </div>
@@ -146,48 +104,6 @@
                 Policies, Rural Development, Development of Tribal Areas, Social Welfare, and Prison Administration.
             </p>
         </div>
-
-        <div style="padding: 40px 60px; text-align: left;">
-
-            <h2 class="headd1 fw-bold" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
-                    style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
-            </h2>
-
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-2">
-                            <img class="rounded shadow-sm border"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-public-admin/dr-monika.jpg" alt="">
-                        </div>
-                        <div class="col-lg-9">
-                            <h2 class="headd3 fw-bold " style="color: #264273;">
-                                Dr. Monika Kumari
-                            </h2>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                AI in Governance and Public Service Delivery, Local Administration and Smart Governance,
-                                E-Governance and Digital Transformation in Public Administration, Public Policy
-                                Formulation, Implementation, and Evaluation, Administrative Thinkers and Contemporary
-                                Relevance, Comparative Public Administration and Technological Innovations, Indian
-                                Administration and AI Integration in Bureaucratic Reform
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- PHD Curriculum  -->
-
-        </div>
-
-
 
     </div>
 @endsection

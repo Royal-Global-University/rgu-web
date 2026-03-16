@@ -83,57 +83,6 @@
             <p class="text-dark para1">
                 Understanding and preserving forest ecosystems form a vital part of the department's objectives. This research provides essential insights into maintaining the delicate balance of biodiversity within these crucial habitats. Moreover, the utilization of remote sensing techniques is employed to monitor and manage natural resources. This cutting-edge technology is instrumental in the conservation and sustainable management of vital environmental assets. In essence, the Department of Environmental Science at Assam Royal Global University stands at the forefront of research and innovation in addressing pressing environmental challenges. Through a multidisciplinary approach and a dedicated team of PhD guides, the department is poised to make substantial contributions to sustainable environmental management and conservation. The future holds promise for groundbreaking research that will have a positive impact on our planet's well-being.        </p>
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-environmental-sc/1.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Prof. (Dr.) Kushal Kumar Baruah</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Environmental stress, Green house gas emission and mitigation from Agriculture Sector and Carbon Sequestration of terrestrial ecosystem.
-                        </p>
-                    </div>
-                </div>
-              </div>
-
-              <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-environmental-sc/2.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark" style="text-transform: capitalize;">Dr. Pallabi Borah</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Soil Chemistry; Soil Pollution; Water Pollution; Heavy Metal Pollution; Noise Pollution; Phytoremediation
-                        </p>
-                    </div>
-                </div>
-              </div>
-
-              <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-environmental-sc/3.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Demsai Reang</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Agroecology; Conservation biology; Environmental Sustainability; Forest Ecology; Landscape and natural resource management; Remote sensing and GIS; Socio-economic vulnerability.                    </p>
-                    </div>
-                </div>
-              </div>
 
             <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
 
