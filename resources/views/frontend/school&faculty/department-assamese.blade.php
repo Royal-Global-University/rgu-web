@@ -6,7 +6,8 @@
             @include('frontend/components/mobileheader')
             <!-- floating mob button  -->
             <div>
-                <a href="https://admissions.rgu.ac" style="
+                <a href="https://admissions.rgu.ac"
+                    style="
                                                                                                             position: fixed;
                                                                                                             bottom: 25px;
                                                                                                             right: 75px;
@@ -22,7 +23,8 @@
                                                                                                             overflow: hidden;
                                                                                                             animation: pulse 2s infinite;
                                                                                                             ">
-                    <span style="
+                    <span
+                        style="
                                                                                                             position: absolute;
                                                                                                             top: 0;
                                                                                                             left: -75%;
@@ -110,8 +112,8 @@
 
                         <span style="font-size:18px; padding-right: 20px;">BA(H) - Assamese
 
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            <span
+                                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                     </div>
 
                     <!-- Statute Items -->
@@ -132,6 +134,135 @@
             </div>
             <!-- courses offered  -->
 
+            <!-- syllabus  -->
+                    <div class="container">
+                        <div>
+                            {{-- <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                            </h2> --}}
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="accordion para1" id="mobileAccordionCourses"
+                                            style="border-radius: 12px; overflow: hidden;">
+
+                                            <!-- UG -->
+                                            {{-- <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- BA
+                                                                English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                BA English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> --}}
+
+                                            <!-- UG -->
+                                            {{-- <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Post Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- MA
+                                                                English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/MA-English_Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                MA English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> --}}
+
+                                            <!-- Doctoral -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <a href="phd" class="para1" target="_blank"
+                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- syllabus  -->
+
 
         </div>
 
@@ -139,7 +270,8 @@
             @include('frontend/components/aheader')
             <!-- floating button  -->
             <div>
-                <a href="https://admissions.rgu.ac/" style="
+                <a href="https://admissions.rgu.ac/"
+                    style="
                                                                                                                         position: fixed;
                                                                                                                         bottom: 35px;
                                                                                                                         right: 50px;
@@ -248,8 +380,8 @@
 
                                 <span style="font-size:18px; padding-right: 20px;">BA(H) - Assamese
 
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                                    <span
+                                        style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                             </div>
 
                             <!-- Statute Items -->
@@ -269,6 +401,135 @@
                         </div>
 
                     </div>
+
+                    <!-- syllabus  -->
+                    <div class="container">
+                        <div>
+                            {{-- <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                            </h2> --}}
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="accordion para1" id="mobileAccordionCourses"
+                                            style="border-radius: 12px; overflow: hidden;">
+
+                                            <!-- UG -->
+                                            {{-- <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- BA
+                                                                English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                BA English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> --}}
+
+                                            <!-- UG -->
+                                            {{-- <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Post Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- MA
+                                                                English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/MA-English_Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                MA English
+                                                                <i class="fa fa-download ms-2"
+                                                                    style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> --}}
+
+                                            <!-- Doctoral -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <a href="phd" class="para1" target="_blank"
+                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- syllabus  -->
 
                 </section>
 

@@ -84,6 +84,15 @@
                 English
             </a>
         </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Assamese
+            </a>
+        </div>
+
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="#" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
@@ -192,6 +201,14 @@
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                 Nutrition & Dietetics
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Physical Education and Sports
             </a>
         </div>
 

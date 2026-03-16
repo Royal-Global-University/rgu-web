@@ -84,8 +84,7 @@
 
                             <div class="txaa-slide-down-1">
                                 <div style=" height: 400px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async"
-                                        src="home-banner/bpes.png" alt="">
+                                    <img class="rounded" decoding="async" src="home-banner/bpes.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -103,19 +102,37 @@
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Royal School of Physical Education (RSPES), a constituent school of The Assam Royal Global University will be offering BPES (H) from academic year 2026, with the objective of nurturing skilled professionals in the fields of sports, fitness, and wellness. It has been established with a vision to promote excellence in physical education and sports sciences in North-East. The programme is designed to combine academic rigor with intensive practical training.
+                                The Royal School of Physical Education (RSPES), a constituent school of The Assam Royal
+                                Global University will be offering BPES (H) from academic year 2026, with the objective of
+                                nurturing skilled professionals in the fields of sports, fitness, and wellness. It has been
+                                established with a vision to promote excellence in physical education and sports sciences in
+                                North-East. The programme is designed to combine academic rigor with intensive practical
+                                training.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Adopting an interdisciplinary approach, the course integrates sports science, health education, psychology, physiology, biomechanics, and management to provide students with a strong scientific and professional foundation. Special focus areas include Sports Coaching and Training, Sports Psychology, Health and Fitness Management, Sports Management and Administration, and Yoga Education and Wellness.
+                                Adopting an interdisciplinary approach, the course integrates sports science, health
+                                education, psychology, physiology, biomechanics, and management to provide students with a
+                                strong scientific and professional foundation. Special focus areas include Sports Coaching
+                                and Training, Sports Psychology, Health and Fitness Management, Sports Management and
+                                Administration, and Yoga Education and Wellness.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Emphasizing experiential and practice-oriented learning, the programme incorporates practical training sessions, fieldwork, internships, coaching camps, fitness assessments, performance analysis, and community outreach initiatives. With access to well-equipped sports facilities, gymnasiums, and indoor and outdoor infrastructure, students gain hands-on experience that enhances both technical competence and leadership abilities.
+                                Emphasizing experiential and practice-oriented learning, the programme incorporates
+                                practical training sessions, fieldwork, internships, coaching camps, fitness assessments,
+                                performance analysis, and community outreach initiatives. With access to well-equipped
+                                sports facilities, gymnasiums, and indoor and outdoor infrastructure, students gain hands-on
+                                experience that enhances both technical competence and leadership abilities.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Guided by experienced faculty members and sports professionals, the course aims to prepare graduates for rewarding careers as Physical Education Teachers, Coaches, Fitness and Wellness Consultants, Sports Administrators, Analysts, Researchers, and Entrepreneurs. Through its dedicated Placement and Training Cell, RSPE ensures strong industry linkage and career support, making the programme a gateway to meaningful employment and professional growth in the dynamic field of physical education and sports sciences.
+                                Guided by experienced faculty members and sports professionals, the course aims to prepare
+                                graduates for rewarding careers as Physical Education Teachers, Coaches, Fitness and
+                                Wellness Consultants, Sports Administrators, Analysts, Researchers, and Entrepreneurs.
+                                Through its dedicated Placement and Training Cell, RSPE ensures strong industry linkage and
+                                career support, making the programme a gateway to meaningful employment and professional
+                                growth in the dynamic field of physical education and sports sciences.
                             </p>
 
                         </div>
@@ -149,6 +166,20 @@
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                     </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="phd" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            {{-- <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span> --}}
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="phd">View Details</a>
+                            </span>
+                        </div>
+                    </a>
                 </div>
 
                 <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
@@ -671,8 +702,7 @@
                                 <div class="col-lg-6 text-center">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div>
-                                            <img class="rounded w-60" decoding="async"
-                                                src="home-banner/bpes.png"
+                                            <img class="rounded w-60" decoding="async" src="home-banner/bpes.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -707,19 +737,37 @@
                             </div>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Royal School of Physical Education (RSPES), a constituent school of The Assam Royal Global University will be offering BPES (H) from academic year 2026, with the objective of nurturing skilled professionals in the fields of sports, fitness, and wellness. It has been established with a vision to promote excellence in physical education and sports sciences in North-East. The programme is designed to combine academic rigor with intensive practical training.
+                                The Royal School of Physical Education (RSPES), a constituent school of The Assam Royal
+                                Global University will be offering BPES (H) from academic year 2026, with the objective of
+                                nurturing skilled professionals in the fields of sports, fitness, and wellness. It has been
+                                established with a vision to promote excellence in physical education and sports sciences in
+                                North-East. The programme is designed to combine academic rigor with intensive practical
+                                training.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Adopting an interdisciplinary approach, the course integrates sports science, health education, psychology, physiology, biomechanics, and management to provide students with a strong scientific and professional foundation. Special focus areas include Sports Coaching and Training, Sports Psychology, Health and Fitness Management, Sports Management and Administration, and Yoga Education and Wellness.
+                                Adopting an interdisciplinary approach, the course integrates sports science, health
+                                education, psychology, physiology, biomechanics, and management to provide students with a
+                                strong scientific and professional foundation. Special focus areas include Sports Coaching
+                                and Training, Sports Psychology, Health and Fitness Management, Sports Management and
+                                Administration, and Yoga Education and Wellness.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Emphasizing experiential and practice-oriented learning, the programme incorporates practical training sessions, fieldwork, internships, coaching camps, fitness assessments, performance analysis, and community outreach initiatives. With access to well-equipped sports facilities, gymnasiums, and indoor and outdoor infrastructure, students gain hands-on experience that enhances both technical competence and leadership abilities.
+                                Emphasizing experiential and practice-oriented learning, the programme incorporates
+                                practical training sessions, fieldwork, internships, coaching camps, fitness assessments,
+                                performance analysis, and community outreach initiatives. With access to well-equipped
+                                sports facilities, gymnasiums, and indoor and outdoor infrastructure, students gain hands-on
+                                experience that enhances both technical competence and leadership abilities.
                             </p>
 
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                Guided by experienced faculty members and sports professionals, the course aims to prepare graduates for rewarding careers as Physical Education Teachers, Coaches, Fitness and Wellness Consultants, Sports Administrators, Analysts, Researchers, and Entrepreneurs. Through its dedicated Placement and Training Cell, RSPE ensures strong industry linkage and career support, making the programme a gateway to meaningful employment and professional growth in the dynamic field of physical education and sports sciences.
+                                Guided by experienced faculty members and sports professionals, the course aims to prepare
+                                graduates for rewarding careers as Physical Education Teachers, Coaches, Fitness and
+                                Wellness Consultants, Sports Administrators, Analysts, Researchers, and Entrepreneurs.
+                                Through its dedicated Placement and Training Cell, RSPE ensures strong industry linkage and
+                                career support, making the programme a gateway to meaningful employment and professional
+                                growth in the dynamic field of physical education and sports sciences.
                             </p>
                         </div>
 
@@ -747,16 +795,29 @@
                             Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span>
                         </h2>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                        <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
                             <!-- Heading Section -->
                             <div
                                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:22px;">Ph.D. in Physical Education and Sports</span>
+                                <span style="font-size: 22px;">Ph.D. in Physical Education and Sports</span>
                                 <span
                                     style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                             </div>
 
+                            <!-- Statute Items -->
+                            <a target="_blank" href="phd" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    {{-- <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span> --}}
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="phd">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
 
                         <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">

@@ -1722,9 +1722,9 @@ Route::get('/department-forestry', function () {
     return view('frontend/school&faculty/department-forestry');
 })->name('department-forestry');
 
-Route::get('/department-languages', function () {
-    return view('frontend/school&faculty/department-languages');
-})->name('department-languages');
+Route::get('/department-english', function () {
+    return view('frontend/school&faculty/department-english');
+})->name('department-english');
 
 Route::get('/department-zoology', function () {
     return view('frontend/school&faculty/department-zoology');

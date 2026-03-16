@@ -15,6 +15,7 @@
             <a href="doctoral-design" class="button para1">Design</a>
             <a href="doctoral-economics" class="button para1">Economics</a>
             <a href="doctoral-english" class="button para1">English</a>
+            <a href="#" class="button para1">Assamese</a>
             <a href="#" class="button para1">Forestry</a>
             <a href="#" class="button para1">Physiotherapy</a>
             {{-- <a href="doctoral-environmental" class="button para1">Environmental Science</a> --}}
@@ -47,6 +48,7 @@
         <div class="button-row">
             <a href="#" class="button para1">Medical Laboratory Technology</a>
             <a href="doctoral-political-science" class="button para1">Political Science</a>
+            <a href="doctoral-psychology" class="button para1">Physical Education and Sports</a>
             <a href="doctoral-psychology" class="button para1">Psychology</a>
             <a href="doctoral-public-admin" class="button para1">Public Administration</a>
             <a href="doctoral-social-work" class="button para1">Social Work</a>

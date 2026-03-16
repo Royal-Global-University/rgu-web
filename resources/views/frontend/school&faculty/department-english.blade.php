@@ -66,10 +66,7 @@
             <!-- floating button  -->
             <!-- till about dept  -->
             <section style="padding-top: 130px; position: relative;">
-
-                <img src="mobile-assets/department-all/rsl/mob-top.png" alt="">
-
-                <img src="mobile-assets/department-all/rsl/mob-down.png" alt="">
+                <img src="home-banner/en-mob.jpg"/>
 
             </section>
             <!-- till about dept  -->
@@ -968,7 +965,7 @@
                 <section id="about">
                     <section style="background-color: #FFF8F0;">
 
-                        <img src="mobile-assets/department-all/rsl/web-top.png" alt="">
+                        <img src="home-banner/en-web.jpg" alt="">
 
                         <img src="mobile-assets/department-all/rsla/web-law-down.png" alt="">
 
