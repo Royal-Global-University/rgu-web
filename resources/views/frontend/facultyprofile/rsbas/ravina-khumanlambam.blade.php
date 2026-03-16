@@ -178,7 +178,7 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img" style="height: 460px;"
+                            <img class="faculty-bio-img" style="height: 420px;"
                                 src="https://rgu.ac/mobile-assets/updated-faculty-img/ravina.jpeg" alt="">
                         </div>
                     </div>
