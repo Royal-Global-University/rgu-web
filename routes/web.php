@@ -1634,6 +1634,10 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
+Route::get('/faculty-physical-education-and-sports', function () {
+    return view('frontend/school&faculty/faculty-physical-education-and-sports');
+})->name('faculty-physical-education-and-sports');
+
 Route::get('/royal-school-of-languages', function () {
     return view('frontend/school&faculty/royal-school-of-languages');
 })->name('royal-school-of-languages');

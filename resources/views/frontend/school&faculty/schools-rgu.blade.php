@@ -459,8 +459,8 @@
                             <div class="mt-auto d-flex justify-content-between">
                                 <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
                                     href="/department-physical-education-and-sports">Department</a>
-                                {{-- <a class="rgu-unique-caption rgu-unique-school-link" data-school="Pharmacy"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-pharmacy">Faculty</a> --}}
+                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Pharmacy"
+                                    style="background:#FF9A1E; color:#fff; width:48%;" href="/faculty-physical-education-and-sports">Faculty</a>
                             </div>
                         </div>
                     </div>
