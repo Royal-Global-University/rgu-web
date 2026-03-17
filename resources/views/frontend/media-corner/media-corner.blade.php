@@ -45,6 +45,17 @@
             <div id="newsContainer" class="row">
                 @php
                     $newsItems = [
+
+                        [
+                            'title' => '156 Students of RGU Awarded Scholarship for Academic Excellence',
+                            'summary' => 'Planning is the pillar of your career: IGP Singh to RGU Scholarship Awardees',
+                            'date' => 'Guwahati, March 16, 2026:',
+                            'link' =>
+                                '/156-students-of-rgu-awarded-scholarship-for-academic-excellence',
+                            'image' => 'mobile-assets/media-corner/news83/173262.jpeg',
+                            'content' => 'Reinforcing its commitment to nurturing academic excellence and recognising meritorious students, The Assam Royal Global University (RGU) organised a Monthly Scholarship Award Ceremony ...',
+                        ],
+
                         [
                             'title' => 'Padma Bhushan & creator of Mohan Veena mesmerises audience at RGU SMVA',
                             'summary' => '4-day-long SPIC MACAY Virasat Anubhav Series concludes at RGU',

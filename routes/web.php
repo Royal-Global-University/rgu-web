@@ -3100,6 +3100,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/156-students-of-rgu-awarded-scholarship-for-academic-excellence', function () {
+    return view('frontend/media-corner/news109');
+})->name('156-students-of-rgu-awarded-scholarship-for-academic-excellence');
+
 Route::get('/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva', function () {
     return view('frontend/media-corner/news108');
 })->name('padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva');
