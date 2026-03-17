@@ -243,6 +243,19 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/karnikaa.jpeg"
+                                    alt="Profile image of Dr. Karnikaa Bhattacharyya">
+                            </div>
+                            <h3 class="card-name">Dr. Karnikaa Bhattacharyya</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="/faculty-amit-kumar" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pragya.jpeg"
                                     alt="Profile image of Pragya Tamang">
                             </div>
