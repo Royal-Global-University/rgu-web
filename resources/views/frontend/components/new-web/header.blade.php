@@ -192,7 +192,7 @@
                                         Practices</a>
                                     <a href="https://rgu.ac/human-resource-development-centre"
                                         class="m-sub-acc-link">RCHRD</a>
-                                    <a href="https://rgu.ac/library-Resources">Library</a>
+                                    <a href="https://rgu.ac/library-Resources" class="m-sub-acc-link">Library</a>
                                 </div>
                             </div>
                         </div>
