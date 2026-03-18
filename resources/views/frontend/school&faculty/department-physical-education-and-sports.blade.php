@@ -715,21 +715,7 @@
 
                                     <p class="mobile-para1 pt-3"
                                         style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Department of Physics gained momentum with full-fledged UG and PG courses in
-                                        2017. The
-                                        department offers Ph.D. programs with a total of 8 full-time faculties. The
-                                        department is graced
-                                        with experienced professors and one advisor. All the faculty members are Ph.D.
-                                        holders with many
-                                        research papers in reputed journals, and a dedicated laboratory in-charge to help
-                                        the students
-                                        individually during the laboratory period. Fully dedicated faculties from 9:00 am to
-                                        5:15 pm and all
-                                        the laboratories are well equipped with all the necessary instruments with four
-                                        laboratories,
-                                        including one dark room and one research lab with remedial and guidance classes for
-                                        different
-                                        competitive examinations from time to time.
+                                        With the growing focus on sports such as cricket, football, badminton, and kabaddi, where national teams are sponsored by corporates, new opportunities have emerged to view sports as a professional career option. This shift has encouraged many individuals to pursue careers in these fields. To support and guide aspiring athletes, appropriate counselling is essential, which can be effectively provided through well-structured programs.
                                     </p>
 
                                 </div>

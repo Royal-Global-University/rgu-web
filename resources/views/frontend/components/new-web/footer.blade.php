@@ -64,7 +64,7 @@
 
                     <ul class="unq-rgu-ftr-list">
                         <li><a href="https://rgu.ac/medical-facility">Medical Emergency No.</a></li>
-                        <li><a href="#">Women Helpline No.</a></li>
+                        {{-- <li><a href="#">Women Helpline No.</a></li> --}}
                         <li><a href="https://rgu.ac/internal-complaints-committee">Internal Complaints Committee</a>
                         </li>
                         <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
@@ -202,8 +202,7 @@
             <hr class="unq-rgu-ftr-divider">
 
             <div class="unq-rgu-ftr-bottom">
-                <div>© Royal Global University. All Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms
-                        & Conditions</a></div>
+                <div>© Royal Global University. All Rights Reserved.</div>
             </div>
         </div>
     </footer>
