@@ -3104,6 +3104,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026', function () {
+    return view('frontend/media-corner/news110');
+})->name('royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026');
+
 Route::get('/156-students-of-rgu-awarded-scholarship-for-academic-excellence', function () {
     return view('frontend/media-corner/news109');
 })->name('156-students-of-rgu-awarded-scholarship-for-academic-excellence');

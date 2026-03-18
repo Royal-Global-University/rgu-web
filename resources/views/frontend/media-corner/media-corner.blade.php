@@ -45,6 +45,17 @@
             <div id="newsContainer" class="row">
                 @php
                     $newsItems = [
+                        [
+                            'title' => 'Royal Global University Connects Talent with Industry at Mega Placement Day 2026',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 17, 2026:',
+                            'link' =>
+                                '/royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026',
+                            'image' => 'mobile-assets/media-corner/news83/183262.jpeg',
+                            'content' => 'A mega placement drive has been successfully
+                organised at the campus of the Assam Royal Global University (RGU) today that witnessed the participation of
+                64 leading companies and more than 132 industry professionals from diverse sectors.',
+                        ],
 
                         [
                             'title' => '156 Students of RGU Awarded Scholarship for Academic Excellence',
