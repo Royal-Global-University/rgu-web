@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Global University</title>
+    <title>@yield('title', 'The Assam Royal Global University | Best University in Assam, India')</title>
+    <meta name="description" content="@yield('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Best University in Assam')">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link
@@ -15,6 +17,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="new-web/css/style.css">
+
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
+        sizes="32x32" />
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/180x180.png" />
 
 </head>
 
