@@ -280,6 +280,72 @@
             </div>
 
             <!-- EXTRA MENU ITEMS (ADD BELOW EXISTING SECTIONS INSIDE mobile-drawer-card) -->
+            <!-- CAMPUS -->
+                <div class="m-acc-item">
+                    <div class="m-acc-header">CAMPUS <i class="bi bi-chevron-right"></i></div>
+                    <div class="m-acc-content-wrapper">
+                        <div class="m-acc-content">
+
+                            <div class="m-sub-acc-item">
+                                <div class="m-sub-acc-header">CAMPUS FACILITIES <i class="bi bi-chevron-down"></i></div>
+                                <div class="m-sub-acc-content-wrapper">
+                                    <div class="m-sub-acc-content">
+                                        <a href="https://rgu.ac/banking-services" class="m-sub-acc-link">Banking Service</a>
+                                        <a href="https://rgu.ac/department-store" class="m-sub-acc-link">Departmental Store</a>
+                                        <a href="https://rgu.ac/hangout" class="m-sub-acc-link">Hangout</a>
+                                        <a href="https://rgu.ac/medical-facility" class="m-sub-acc-link">Medical Facility</a>
+                                        <a href="https://rgu.ac/laundry" class="m-sub-acc-link">Laundry</a>
+                                        <a href="https://rgu.ac/salon" class="m-sub-acc-link">Salon</a>
+                                        <a href="https://rgu.ac/stationary-store" class="m-sub-acc-link">Stationary Store</a>
+                                        <a href="https://rgu.ac/guest-house" class="m-sub-acc-link">Guest House</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-sub-acc-item">
+                                <div class="m-sub-acc-header">STUDENT LIFE & ENGAGEMENT <i
+                                        class="bi bi-chevron-down"></i></div>
+                                <div class="m-sub-acc-content-wrapper">
+                                    <div class="m-sub-acc-content">
+                                        <a href="https://rgu.ac/clubs" class="m-sub-acc-link">Clubs</a>
+                                        <a href="https://rgu.ac/student-affairs" class="m-sub-acc-link">Student Affairs</a>
+                                        <a href="https://rgu.ac/student-gallery" class="m-sub-acc-link">Student Gallery</a>
+                                        <a href="https://rgu.ac/happy-happening" class="m-sub-acc-link">Happy and Happening Campus</a>
+                                        <a href="https://rgu.ac/royal-fests" class="m-sub-acc-link">Royal Fest</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-sub-acc-item">
+                                <div class="m-sub-acc-header">HOSTEL & ACCOMODATION <i class="bi bi-chevron-down"></i>
+                                </div>
+                                <div class="m-sub-acc-content-wrapper">
+                                    <div class="m-sub-acc-content">
+                                        <a href="https://rgu.ac/infrastructure" class="m-sub-acc-link">Infrastructure</a>
+                                        <a href="https://rgu.ac/hostel-life" class="m-sub-acc-link">Hostel Life</a>
+                                        <a target="_blank" href="https://rgu.ac/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf" class="m-sub-acc-link">Hostel Policy</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-sub-acc-item">
+                                <div class="m-sub-acc-header">SPORTS & EXTRA-CURRICULAR <i class="bi bi-chevron-down"></i>
+                                </div>
+                                <div class="m-sub-acc-content-wrapper">
+                                    <div class="m-sub-acc-content">
+                                        <a href="https://rgu.ac/games&sports" class="m-sub-acc-link">Games & Sports</a>
+                                        <a href="https://rgu.ac/national-cadet-corps" class="m-sub-acc-link">National Cadet Corps</a>
+                                        <a href="https://rgu.ac/national-service-scheme" class="m-sub-acc-link">National Service Scheme</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             <!-- PLACEMENT -->
             <div class="m-acc-item">
