@@ -229,10 +229,10 @@
                                     <a href="https://rgu.ac/admission-programs-fees-structure"
                                         class="m-sub-acc-link">Course Fee</a>
                                     <a href="https://rgu.ac/how-to-apply" class="m-sub-acc-link">How to Apply</a>
-                                    <a href="https://rgu.ac/general-elective">General Elective</a>
-                                    <a href="https://rgu.ac/schemes-differently-abled">Schemes for
+                                    <a href="https://rgu.ac/general-elective" class="m-sub-acc-link">General Elective</a>
+                                    <a href="https://rgu.ac/schemes-differently-abled" class="m-sub-acc-link">Schemes for
                                         Differently-Abled</a>
-                                    <a href="https://rgu.ac/programs">RGU Admission Eligibility & Selection
+                                    <a href="https://rgu.ac/programs" class="m-sub-acc-link">RGU Admission Eligibility & Selection
                                         Criteria</a>
                                 </div>
                             </div>
