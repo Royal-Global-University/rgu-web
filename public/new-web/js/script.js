@@ -1,17 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-
     /* ======================================================
        HERO VIDEO
     ====================================================== */
 
     const heroVideo = document.getElementById("heroVideo");
+    const poster = document.querySelector(".hero-poster");
 
     if (heroVideo) {
-        heroVideo.addEventListener("loadeddata", () => {
+        heroVideo.addEventListener("canplaythrough", () => {
             heroVideo.classList.add("loaded");
+
+            if (poster) {
+                poster.style.opacity = "0";
+            }
         });
     }
-
 
     /* ======================================================
        POPUP OVERLAY
@@ -21,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.getElementById("rguPopupClose");
 
     if (popup && closeBtn) {
-
         setTimeout(() => {
             popup.classList.add("active");
         }, 500);
@@ -35,9 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 popup.classList.remove("active");
             }
         });
-
     }
-
 
     /* ======================================================
        SCROLL TO TOP
@@ -49,11 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
         scrollToTopBtn.addEventListener("click", () => {
             window.scrollTo({
                 top: 0,
-                behavior: "smooth"
+                behavior: "smooth",
             });
         });
     }
-
 
     /* ======================================================
        GLOBAL SEARCH MODAL
@@ -66,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("globalSearchInput");
 
     function openSearch() {
-
         if (!searchModal) return;
 
         searchModal.classList.add("active");
@@ -75,11 +73,9 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             if (searchInput) searchInput.focus();
         }, 300);
-
     }
 
     function closeSearch() {
-
         if (!searchModal) return;
 
         searchModal.classList.remove("active");
@@ -88,7 +84,6 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             if (searchInput) searchInput.value = "";
         }, 400);
-
     }
 
     if (searchToggleBtn) searchToggleBtn.addEventListener("click", openSearch);
@@ -101,8 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-
-
     /* ======================================================
        DESKTOP MEGA MENU
     ====================================================== */
@@ -112,27 +105,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let activeMenu = null;
 
-    navItems.forEach(item => {
-
+    navItems.forEach((item) => {
         const menuName = item.dataset.mega;
         const mega = document.getElementById("mega-" + menuName);
 
         item.addEventListener("mouseenter", () => {
-
-            megaMenus.forEach(m => m.classList.remove("active"));
+            megaMenus.forEach((m) => m.classList.remove("active"));
 
             if (mega) {
                 mega.classList.add("active");
                 activeMenu = mega;
             }
-
         });
-
     });
 
-
-    megaMenus.forEach(menu => {
-
+    megaMenus.forEach((menu) => {
         menu.addEventListener("mouseenter", () => {
             menu.classList.add("active");
         });
@@ -140,19 +127,15 @@ document.addEventListener("DOMContentLoaded", () => {
         menu.addEventListener("mouseleave", () => {
             menu.classList.remove("active");
         });
-
     });
-
 
     const header = document.querySelector(".header");
 
     if (header) {
         header.addEventListener("mouseleave", () => {
-            megaMenus.forEach(m => m.classList.remove("active"));
+            megaMenus.forEach((m) => m.classList.remove("active"));
         });
     }
-
-
 
     /* ======================================================
        MEGA MENU INNER TAB SWITCH
@@ -160,10 +143,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const megaTriggers = document.querySelectorAll(".mega-trigger");
 
-    megaTriggers.forEach(trigger => {
-
+    megaTriggers.forEach((trigger) => {
         trigger.addEventListener("mouseenter", () => {
-
             const parentMenu = trigger.closest(".mega-menu");
 
             const triggers = parentMenu.querySelectorAll(".mega-trigger");
@@ -171,20 +152,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const target = trigger.dataset.target;
 
-            triggers.forEach(t => t.classList.remove("active"));
-            contents.forEach(c => c.classList.remove("active"));
+            triggers.forEach((t) => t.classList.remove("active"));
+            contents.forEach((c) => c.classList.remove("active"));
 
             trigger.classList.add("active");
 
-            const activeContent = parentMenu.querySelector(`[data-content="${target}"]`);
+            const activeContent = parentMenu.querySelector(
+                `[data-content="${target}"]`,
+            );
 
             if (activeContent) activeContent.classList.add("active");
-
         });
-
     });
-
-
 
     /* ======================================================
        DESKTOP HAMBURGER DROPDOWN
@@ -194,40 +173,35 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuDropdown = document.getElementById("menuDropdown");
 
     if (menuToggle && menuDropdown) {
-
         menuToggle.addEventListener("click", (e) => {
-
             e.stopPropagation();
 
             menuDropdown.classList.toggle("active");
-
         });
 
         document.addEventListener("click", (e) => {
-
-            if (!menuDropdown.contains(e.target) && !menuToggle.contains(e.target)) {
+            if (
+                !menuDropdown.contains(e.target) &&
+                !menuToggle.contains(e.target)
+            ) {
                 menuDropdown.classList.remove("active");
             }
-
         });
-
     }
 
-    document.querySelectorAll(".dropdown-toggle").forEach(item => {
-    item.addEventListener("click", function (e) {
-        e.preventDefault();
+    document.querySelectorAll(".dropdown-toggle").forEach((item) => {
+        item.addEventListener("click", function (e) {
+            e.preventDefault();
 
-        const parent = this.parentElement;
+            const parent = this.parentElement;
 
-        document.querySelectorAll(".dropdown-item").forEach(el => {
-            if (el !== parent) el.classList.remove("active");
+            document.querySelectorAll(".dropdown-item").forEach((el) => {
+                if (el !== parent) el.classList.remove("active");
+            });
+
+            parent.classList.toggle("active");
         });
-
-        parent.classList.toggle("active");
     });
-});
-
-
 
     /* ======================================================
        MOBILE DRAWER MENU
@@ -237,18 +211,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const mobileDrawer = document.getElementById("mobileDrawer");
 
     if (mobileMenuBtn && mobileDrawer) {
-
         mobileMenuBtn.addEventListener("click", () => {
-
             mobileDrawer.classList.toggle("active");
 
             document.querySelector(".header").classList.toggle("menu-open");
-
         });
-
     }
-
-
 
     /* ======================================================
        MOBILE ACCORDION
@@ -256,34 +224,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const mobileAccItems = document.querySelectorAll(".m-acc-item");
 
-    mobileAccItems.forEach(item => {
-
+    mobileAccItems.forEach((item) => {
         const header = item.querySelector(".m-acc-header");
 
         header.addEventListener("click", () => {
-
             item.classList.toggle("active");
-
         });
-
     });
-
 
     const subAccItems = document.querySelectorAll(".m-sub-acc-item");
 
-    subAccItems.forEach(item => {
-
+    subAccItems.forEach((item) => {
         const header = item.querySelector(".m-sub-acc-header");
 
         header.addEventListener("click", () => {
-
             item.classList.toggle("active");
-
         });
-
     });
-
-
 
     /* ======================================================
        FOOTER ACCORDION
@@ -291,43 +248,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const footerSections = document.querySelectorAll(".unq-rgu-ftr-col");
 
-    footerSections.forEach(section => {
-
+    footerSections.forEach((section) => {
         const heading = section.querySelector(".unq-rgu-ftr-heading");
 
         heading.addEventListener("click", () => {
-
             if (window.innerWidth > 768) return;
 
-            footerSections.forEach(other => {
-
+            footerSections.forEach((other) => {
                 if (other !== section) {
-
                     other.classList.remove("active");
 
                     const icon = other.querySelector(".footer-toggle");
                     if (icon) icon.textContent = "+";
-
                 }
-
             });
 
             const icon = section.querySelector(".footer-toggle");
 
             if (section.classList.contains("active")) {
-
                 section.classList.remove("active");
                 if (icon) icon.textContent = "+";
-
             } else {
-
                 section.classList.add("active");
                 if (icon) icon.textContent = "−";
-
             }
-
         });
-
     });
-
 });

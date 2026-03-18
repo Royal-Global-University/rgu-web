@@ -9,7 +9,7 @@
         <div class="hero-poster"></div>
 
         <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo"
-            poster="assets/img/index/hero/hero-thumbnail.png">
+            poster="new-web/assets/img/index/hero/hero-thumbnail.png">
             <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
         </video>
 

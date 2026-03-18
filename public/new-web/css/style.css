@@ -572,7 +572,10 @@ body {
     position: absolute;
     inset: 0;
     background: url("assets/img/index/hero/hero-thumbnail.png") center/cover no-repeat;
-    z-index: -3;
+    z-index: -1;
+    /* FIXED */
+    opacity: 1;
+    transition: opacity 0.8s ease;
 }
 
 .hero-video {
@@ -584,6 +587,15 @@ body {
     z-index: -2;
     opacity: 0;
     transition: opacity 1s ease;
+}
+
+.hero-video.loaded {
+    opacity: 1;
+}
+
+/* hide poster after video loads */
+.hero-video.loaded~.hero-poster {
+    opacity: 0;
 }
 
 .hero-video.loaded {
@@ -981,15 +993,15 @@ body {
         margin: auto;
     }
 
-     .rgu-news-prev {
+    .rgu-news-prev {
         display: none !important;
     }
 
-     .rgu-news-next {
+    .rgu-news-next {
         display: none !important;
     }
 
-     .rgu-news-cards {
+    .rgu-news-cards {
         scroll-snap-type: x mandatory;
     }
 
@@ -3611,6 +3623,7 @@ body {
         opacity: 1;
     }
 }
+
 /* ================= PHD MODAL (PREMIUM UI - ISOLATED) ================= */
 
 .phd-modal-overlay {
@@ -3712,7 +3725,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at top, rgba(255,255,255,0.6), transparent 70%);
+    background: radial-gradient(circle at top, rgba(255, 255, 255, 0.6), transparent 70%);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
