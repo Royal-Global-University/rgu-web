@@ -1,19 +1,31 @@
 document.addEventListener("DOMContentLoaded", () => {
     /* ======================================================
-       HERO VIDEO
+       HERO VIDEO (IMPROVED + RELIABLE)
     ====================================================== */
 
     const heroVideo = document.getElementById("heroVideo");
     const poster = document.querySelector(".hero-poster");
 
     if (heroVideo) {
-        heroVideo.addEventListener("canplaythrough", () => {
+        // Try to play immediately (important for some browsers)
+        heroVideo.play().catch(() => {});
+
+        const showVideo = () => {
             heroVideo.classList.add("loaded");
 
             if (poster) {
                 poster.style.opacity = "0";
             }
-        });
+        };
+
+        // Best case (fully ready)
+        heroVideo.addEventListener("canplaythrough", showVideo);
+
+        // Fallback (fires earlier)
+        heroVideo.addEventListener("loadeddata", showVideo);
+
+        // Ultimate fallback (in case events fail)
+        setTimeout(showVideo, 2500);
     }
 
     /* ======================================================
@@ -175,7 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (menuToggle && menuDropdown) {
         menuToggle.addEventListener("click", (e) => {
             e.stopPropagation();
-
             menuDropdown.classList.toggle("active");
         });
 
@@ -213,7 +224,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (mobileMenuBtn && mobileDrawer) {
         mobileMenuBtn.addEventListener("click", () => {
             mobileDrawer.classList.toggle("active");
-
             document.querySelector(".header").classList.toggle("menu-open");
         });
     }
