@@ -7,15 +7,20 @@
 
     <section class="hero">
         <div class="hero-poster"></div>
-        <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo">
+
+        <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo"
+            poster="assets/img/index/hero/hero-thumbnail.png">
             <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
         </video>
+
         <div class="overlay"></div>
+
         <div class="hero-content">
             <h1>Empowering Knowledge.<br>Inspiring Futures</h1>
             <div class="tagline">EXCELLENCE IN EDUCATION, RESEARCH & INNOVATION</div><br>
-            <a href="https://rgu.ac/admission-programs-fees-structure" class="explore-btn">EXPLORE PROGRAMS
-                <span>↗</span></a>
+            <a href="https://rgu.ac/admission-programs-fees-structure" class="explore-btn">
+                EXPLORE PROGRAMS <span>↗️</span>
+            </a>
         </div>
     </section>
 
