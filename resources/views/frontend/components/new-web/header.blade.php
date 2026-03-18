@@ -209,6 +209,17 @@
                             </div>
                         </div>
 
+                        <div class="m-sub-acc-item">
+                            <div class="m-sub-acc-header">GENERAL INFORMATION <i class="bi bi-chevron-down"></i>
+                            </div>
+                            <div class="m-sub-acc-content-wrapper">
+                                <div class="m-sub-acc-content">
+                                    <a href="https://rgu.ac/achievements" class="m-sub-acc-link">Achievements</a>
+                                    <a href="https://rgu.ac/academic-calendar" class="m-sub-acc-link">Academic Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
