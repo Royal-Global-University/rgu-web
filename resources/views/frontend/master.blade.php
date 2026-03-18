@@ -1423,9 +1423,8 @@
                                                         Refund Application
                                                     </p>
                                                 </a>
-                                                <a href="grievance">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
-                                                        Grievance</p>
+                                                <a href="mobile-assets/pdf/WITHDRAWAL.pdf">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Student Withdraw Form</p>
                                                 </a>
                                                 <a href="mobile-assets/Policy/consultancy policy.pdf">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">RGU
@@ -1467,6 +1466,10 @@
                                                         Brochure 2025 -
                                                         2026</p>
                                                 </a> --}}
+                                                <a href="grievance">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
+                                                        Grievance</p>
+                                                </a>
                                                 <a href="360-tour">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View
                                                     </p>
