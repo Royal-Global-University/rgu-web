@@ -3104,6 +3104,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year', function () {
+    return view('frontend/media-corner/news111');
+})->name('discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year');
+
 Route::get('/royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026', function () {
     return view('frontend/media-corner/news110');
 })->name('royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026');

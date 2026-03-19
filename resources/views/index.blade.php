@@ -1072,6 +1072,29 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news83/19326.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Discourse on Concept of Time at RGU Marks Hindu Lunar New Year
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">March 19,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news83/183262.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1090,7 +1113,7 @@
                                             </div>
                                         </div>
 
-                                         <div class="row bg-light p-2 rounded">
+                                        <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news83/173262.jpeg" alt="" />
@@ -1105,29 +1128,6 @@
                                                 </p>
                                                 <a
                                                     href="156-students-of-rgu-awarded-scholarship-for-academic-excellence">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news82/163262.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Padma Bhushan & creator of Mohan Veena mesmerises audience at RGU SMVA
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">March 14,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>

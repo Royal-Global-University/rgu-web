@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Discourse on Concept of Time at RGU Marks Hindu Lunar New Year',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 19, 2026:',
+                            'link' =>
+                                '/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year',
+                            'image' => 'mobile-assets/media-corner/news83/19326.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) celebrated the beginning of the Hindu Lunar New Year today with a thought-provoking discourse on “The Concept of Time,” beautifully highlighting the harmony between science and culture while emphasising India’s rich astronomical heritage.',
+                        ],
+
+                        [
                             'title' => 'Royal Global University Connects Talent with Industry at Mega Placement Day 2026',
                             'summary' => '',
                             'date' => 'Guwahati, March 17, 2026:',
