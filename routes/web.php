@@ -3104,6 +3104,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese', function () {
+    return view('frontend/media-corner/2026/news1');
+})->name('royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese');
+
 Route::get('/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year', function () {
     return view('frontend/media-corner/news111');
 })->name('discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year');

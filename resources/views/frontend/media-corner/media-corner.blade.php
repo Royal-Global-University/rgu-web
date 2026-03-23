@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University to Introduce UG and PG Programmes in Assamese',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 23, 2026:',
+                            'link' =>
+                                '/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese',
+                            'image' => 'mobile-assets/rgu-blog/blog2.jpeg',
+                            'content' => 'In a significant step towards promoting higher learning, research, and scholarly engagement in Assamese language and literature, The Assam Royal Global University (RGU) has decided to introduce modern Undergraduate and Postgraduate programmes in Assamese from the upcoming academic session. The programmes will be designed in accordance with the National Education Policy (NEP)...',
+                        ],
+                        [
                             'title' => 'Discourse on Concept of Time at RGU Marks Hindu Lunar New Year',
                             'summary' => '',
                             'date' => 'Guwahati, March 19, 2026:',
@@ -54,7 +63,6 @@
                             'image' => 'mobile-assets/media-corner/news83/19326.jpeg',
                             'content' => 'The Assam Royal Global University (RGU) celebrated the beginning of the Hindu Lunar New Year today with a thought-provoking discourse on “The Concept of Time,” beautifully highlighting the harmony between science and culture while emphasising India’s rich astronomical heritage.',
                         ],
-
                         [
                             'title' => 'Royal Global University Connects Talent with Industry at Mega Placement Day 2026',
                             'summary' => '',
