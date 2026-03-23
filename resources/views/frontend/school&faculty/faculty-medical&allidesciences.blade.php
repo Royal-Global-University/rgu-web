@@ -1178,7 +1178,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Manna Debnath</h3>
                                 <p class="card-designation">Associate Professor</p>
-                                {{-- <a href="/faculty-meghna-guha" class="profile-link">View Profile</a> --}}
+                                <a href="/faculty-manna-debnath" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

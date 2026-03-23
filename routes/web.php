@@ -4158,6 +4158,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-manna-debnath', function () {
+    return view('frontend/facultyprofile/rsmas/manna-debnath');
+})->name('faculty-manna-debnath');
+
 Route::get('/faculty-anindita-dutta', function () {
     return view('frontend/facultyprofile/rsmas/anindita-dutta');
 })->name('faculty-anindita-dutta');
@@ -4356,6 +4360,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 
 // RSAPS Faculty Profile
+
+Route::get('/faculty-suvani-subhadarshini', function () {
+    return view('frontend/facultyprofile/rsaps/suvani-subhadarshini');
+})->name('faculty-suvani-subhadarshini');
 
 Route::get('/faculty-aniruddha-chatterjee', function () {
     return view('frontend/facultyprofile/rsaps/aniruddha-chatterjee');
