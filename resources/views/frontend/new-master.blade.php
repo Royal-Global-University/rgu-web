@@ -58,6 +58,16 @@
 
 </body>
 
+<script type="text/javascript">
+var npf_d='https://admissions.rgu.ac';
+var npf_c='5076';
+var npf_m='1';
+var s=document.createElement("script");
+s.type="text/javascript";
+s.async=true;
+s.src="https://track.nopaperforms.com/js/track.js";
+document.body.appendChild(s);
+</script>
 <script src="new-web/js/script.js"></script>
 <script src="new-web/js/index-js/phd-modal.js"></script>
 <script src="new-web/js/index-js/academics-course.js"></script>

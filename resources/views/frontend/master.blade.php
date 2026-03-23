@@ -1424,7 +1424,8 @@
                                                     </p>
                                                 </a>
                                                 <a href="mobile-assets/pdf/WITHDRAWAL.pdf">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Student Withdraw Form</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Student
+                                                        Withdraw Form</p>
                                                 </a>
                                                 <a href="mobile-assets/Policy/consultancy policy.pdf">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">RGU
@@ -2474,6 +2475,16 @@
     <script src="{{ asset('assets/js/frontend.min.js') }}" id="elementor-frontend-js"></script>
     <script>
         new DataTable('#example');
+    </script>
+    <script type="text/javascript">
+        var npf_d = 'https://admissions.rgu.ac';
+        var npf_c = '5076';
+        var npf_m = '1';
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://track.nopaperforms.com/js/track.js";
+        document.body.appendChild(s);
     </script>
     <script>
         new DataTable('#example2');
