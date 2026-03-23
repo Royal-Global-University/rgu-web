@@ -914,7 +914,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/victor-narzary.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Victor Narzary</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Programme Coordinator, NSS</p>
                             <a href="/faculty-victor-narzary" class="profile-link">View Profile</a>
                         </div>
                     </div>
