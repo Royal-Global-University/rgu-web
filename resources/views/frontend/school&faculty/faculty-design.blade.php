@@ -158,6 +158,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
+                            <p class="card-designation">Assistant Professor & Deputy DSW</p>
+                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/suresh.jpg"
                                     alt="Profile image">
                             </div>
@@ -246,20 +258,6 @@
                             <a href="https://www.rgu.ac/faculty-ankit-bordoloi" class="profile-link">View Profile</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-
-
 
                 </div>
                 <!-- regular faculty  -->

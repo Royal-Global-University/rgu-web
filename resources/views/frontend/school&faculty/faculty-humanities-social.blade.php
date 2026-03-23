@@ -944,6 +944,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
+                            <p class="card-designation">Assistant Professor & Deputy DSW</p>
+                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Baiarbha.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Baiarbha Massar</h3>
@@ -1007,18 +1019,6 @@
                             <h3 class="card-name">Ms. Kristi Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-kristi-saikia" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
