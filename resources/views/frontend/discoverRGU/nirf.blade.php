@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                {{-- <a href="#" class="rounded"
+                <a href="nirf-2026" class="rounded"
                     style="
      padding: 60px 60px;
      font-size: 40px;
@@ -43,7 +43,7 @@
      display: inline-block;
    ">
                     NIRF 2026
-                </a> --}}
+                </a>
             </div>
         </div>
     </div>
