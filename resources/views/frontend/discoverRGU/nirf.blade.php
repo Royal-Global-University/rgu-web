@@ -17,7 +17,7 @@
     <div class="container mb-5">
         <div class="row text-center">
             <div class="col-lg-2"></div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 p-2">
                 <a href="/mobile-assets/pdf/NIRF 2025.pdf" class="rounded"
                     style="
      padding: 60px 60px;
@@ -31,7 +31,7 @@
                     NIRF 2025
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 p-2">
                 <a href="nirf-2026" class="rounded"
                     style="
      padding: 60px 60px;
