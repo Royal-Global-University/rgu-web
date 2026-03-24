@@ -189,7 +189,7 @@
                 Mr. Sattyakee D'Com Bhuyan
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-               Assistant Professor & Deputy DSW
+               Assistant Professor & Deputy Dean, Student Affairs
               </h2>
             </div>
           </div>
@@ -211,7 +211,7 @@
                Mr. Sattyakee D'Com Bhuyan
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Assistant Professor & Deputy DSW
+                Assistant Professor & Deputy Dean, Student Affairs
               </h2>
             </div>
 
