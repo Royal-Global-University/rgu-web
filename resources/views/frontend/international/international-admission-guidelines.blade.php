@@ -157,6 +157,12 @@
                 </tr>
                 <tr>
                     <td>16</td>
+                    <td>Humanities Brochure</td>
+                    <td><a href="mobile-assets/pdf/School of Arts, Design, Tourism & Hotel Mgmt., Law Brochure 2026.pdf" target="_blank"><button
+                                class="download-btn">Download</button></a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
                     <td>International Prospectus</td>
                     <td><a href="mobile-assets/pdf/International Prospectus.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>

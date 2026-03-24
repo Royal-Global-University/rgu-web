@@ -1306,6 +1306,11 @@
                                                         View Our Full Online Admission Process
                                                     </p>
                                                 </a>
+                                                <a href="https://rgu.renocampus.com/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee
+                                                        Online
+                                                    </p>
+                                                </a>
 
 
                                             </div>
@@ -1324,6 +1329,11 @@
 
                                                 <a href="preface">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Preface
+                                                    </p>
+                                                </a>
+
+                                                <a href="nirf">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">NIRF
                                                     </p>
                                                 </a>
 
@@ -1352,11 +1362,7 @@
                                                         Complaints Committee</p>
                                                 </a>
 
-                                                <a href="https://rgu.renocampus.com/">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee
-                                                        Online
-                                                    </p>
-                                                </a>
+
                                                 <a href="/institutional-development-plan">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">
                                                         Institutional

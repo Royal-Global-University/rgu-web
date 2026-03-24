@@ -44,6 +44,10 @@ Route::get('/index-media', function () {
     return view('frontend/index-media');
 });
 
+Route::get('/nirf', function () {
+    return view('frontend/discoverRGU/nirf');
+})->name('nirf');
+
 Route::get('/contact', function () {
     return view('frontend/contact/contact-us');
 })->name('contact');
