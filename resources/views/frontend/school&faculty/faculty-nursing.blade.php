@@ -147,7 +147,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Punam Debbarma</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HoD</p>
                             <a href="https://www.rgu.ac/faculty-punam-debbarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
