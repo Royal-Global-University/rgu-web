@@ -2,18 +2,19 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px;"></div>
+        <div class="pb-5" style="padding-top: 90px;">
+            <img src="home-banner/nirf-mob.png"/>
+        </div>
     </div>
 
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
+        <img class="mb-5" src="home-banner/nirf-web.png"/>
 
     </div>
-    <section>
-        <img src="home-banner/nirf-web.png" class="urd_hero_image" alt="Research Head" />
-    </section>
-    <div class="container mt-5 mb-5">
+
+    <div class="container mb-5">
         <div class="row text-center">
             <div class="col-lg-2"></div>
             <div class="col-lg-4">

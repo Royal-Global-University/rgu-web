@@ -48,6 +48,10 @@ Route::get('/nirf', function () {
     return view('frontend/discoverRGU/nirf');
 })->name('nirf');
 
+Route::get('/nirf-2026', function () {
+    return view('frontend/discoverRGU/nirf-2026');
+})->name('nirf-2026');
+
 Route::get('/contact', function () {
     return view('frontend/contact/contact-us');
 })->name('contact');
