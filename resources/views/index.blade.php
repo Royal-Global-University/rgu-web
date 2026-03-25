@@ -466,10 +466,7 @@
                         <div class="rgu-test-track"></div>
                     </div>
 
-                    <!-- RECRUITER -->
-                    <div class="rgu-test-slider recruiter">
-                        <div class="rgu-test-track"></div>
-                    </div>
+                    
 
                 </div>
 
