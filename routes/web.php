@@ -3937,6 +3937,10 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-nayanika-neog', function () {
+    return view('frontend/facultyprofile/rsp/nayanika-neog');
+})->name('faculty-nayanika-neog');
+
 Route::get('/faculty-pallab-kumar-nath', function () {
     return view('frontend/facultyprofile/rsp/pallab-kumar-nath');
 })->name('faculty-pallab-kumar-nath');
