@@ -38,6 +38,28 @@
 
                 </div>
 
+                <div class="unq-rgu-ftr-col">
+
+                    <h4 class="unq-rgu-ftr-heading">
+                        <span>UNIVERSITY INFORMATION</span>
+                        <span class="footer-toggle">+</span>
+                    </h4>
+
+                    <ul class="unq-rgu-ftr-list">
+                        <li><a href="https://rgu.ac/notifications">Announcement</a></li>
+                        <li><a href="https://rgu.ac/social-outreach">Social Outreach</a></li>
+                        <li><a href="https://rgu.ac/examinations">Examination</a></li>
+                        <li><a href="https://rgu.ac/research-devlopment">Research & Development</a></li>
+                        <li><a href="https://heyzine.com/flip-book/fd544660d3.html">Brochure 2025–2026</a></li>
+                        <li><a href="https://rgu.ac/annual-report">Annual Report</a></li>
+                        <li><a href="https://rgu.ac/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
+                                Application</a></li>
+                        <li><a href="https://rgu.ac/grievance">Students' Grievance</a></li>
+
+                    </ul>
+
+                </div>
+
 
                 <div class="unq-rgu-ftr-col">
 
@@ -50,6 +72,9 @@
                         <li><a href="https://rgu.ac/self-disclosure">Public Self Disclosure</a></li>
                         <li><a href="https://rgu.ac/preface">Preface</a></li>
                         <li><a href="https://rgu.ac/admission-programs-fees-structure">Fees 2026–27</a></li>
+                        <li><a href="https://rgujournal.in/">RGU Journal</a></li>
+                        <li><a href="/nirf">NIRF</a></li>
+                        <li><a href="https://rgu.ac/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>
                     </ul>
 
                 </div>
@@ -70,33 +95,28 @@
                         <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
                         <li><a href="https://rgu.ac/institutional-development-plan">Institutional Development Plan</a>
                         </li>
+                        <li><a href="https://shodhchakra.inflibnet.ac.in/">Shodh Chakra</a></li>
                     </ul>
 
                 </div>
-
 
                 <div class="unq-rgu-ftr-col">
 
                     <h4 class="unq-rgu-ftr-heading">
-                        <span>UNIVERSITY INFORMATION</span>
+                        <span>MEDIA</span>
                         <span class="footer-toggle">+</span>
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://rgu.ac/notifications">Announcement</a></li>
-                        <li><a href="https://rgu.ac/social-outreach">Social Outreach</a></li>
-                        <li><a href="https://rgu.ac/examinations">Examination</a></li>
-                        <li><a href="https://rgu.ac/research-devlopment">Research & Development</a></li>
-                        <li><a href="https://heyzine.com/flip-book/fd544660d3.html">Brochure 2025–2026</a></li>
-                        <li><a href="https://rgu.ac/annual-report">Annual Report</a></li>
-                        <li><a href="https://rgu.ac/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
-                                Application</a></li>
-                        <li><a href="https://rgu.ac/grievance">Students' Grievance</a></li>
-                        <li><a href="https://rgu.ac/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>
-
+                        <li><a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">Our Video</a></li>
+                        <li><a href="https://rgu.ac/media-corner">Media Corner</a></li>
+                        <li><a href="https://rgu.ac/blog">RGU Blog</a></li>
+                        <li><a href="https://rgu.ac/360-tour">360° View</a></li>
+                        <li><a href="https://nad.digilocker.gov.in/login">Digilocker NAD</a></li>
                     </ul>
 
                 </div>
+
 
 
                 <div class="unq-rgu-ftr-col">
@@ -111,28 +131,7 @@
                         <li><a href="https://rgu.ac/equal-opportunities-cell">Equal Opportunity Cell</a></li>
                         <li><a href="https://rgu.ac/counselling-cell">Counselling Cell</a></li>
                         <li><a href="https://rgu.ac/cisr">CISR</a></li>
-                        <li><a href="https://rgu.ac/360-tour">360° View</a></li>
-                        <li><a href="https://nad.digilocker.gov.in/login">Digilocker NAD</a></li>
-                        <li><a href="https://rgujournal.in/">RGU Journal</a></li>
-                        <li><a href="https://alumni.rgu.ac/">Alumni</a></li>
-                        <li><a href="https://shodhchakra.inflibnet.ac.in/">Shodh Chakra</a></li>
                         <li><a href="https://www.rgu.ac/jobs-vacancies">Jobs Vacancies</a></li>
-                    </ul>
-
-                </div>
-
-
-                <div class="unq-rgu-ftr-col">
-
-                    <h4 class="unq-rgu-ftr-heading">
-                        <span>MEDIA</span>
-                        <span class="footer-toggle">+</span>
-                    </h4>
-
-                    <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">Our Video</a></li>
-                        <li><a href="https://rgu.ac/media-corner">Media Corner</a></li>
-                        <li><a href="https://rgu.ac/blog">RGU Blog</a></li>
                     </ul>
 
                 </div>
