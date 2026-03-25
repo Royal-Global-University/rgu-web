@@ -31,6 +31,10 @@ Route::get('/test', function () {
     return view('test');
 });
 
+Route::get('/test1', function () {
+    return view('test1');
+});
+
 Route::get('/physics-test', function () {
     return view('frontend/school&faculty/department-physics-test');
 });
