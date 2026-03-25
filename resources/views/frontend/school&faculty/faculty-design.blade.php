@@ -419,9 +419,9 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajesh-Deb-RSD.png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Ar. Rajesh Deb</h3>
+                            <h3 class="card-name">Mr. Rajesh Deb</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="https://www.rgu.ac/faculty-rajesh-deb" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
