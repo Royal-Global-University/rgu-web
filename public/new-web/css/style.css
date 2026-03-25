@@ -5,6 +5,8 @@
     --orange-deep: #E15825;
     --white: #ffffff;
     --backgroundcolor: #EBF1FC;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -14,11 +16,20 @@ html {
 
 body {
     background-color: var(--backgroundcolor);
+    font-family: var(--font-body);
     margin: 0;
-    font-family: 'Inter', sans-serif;
     overflow-x: hidden;
     font-size: 1.6rem;
     color: #4a4a4a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
 }
 
 * {
@@ -37,11 +48,70 @@ body {
     }
 }
 
+/* ===== TOP BAR (FIXED RESPONSIVE) ===== */
+.top-bar {
+    width: 100%;
+    background: #20315F;
+    padding: 0.8rem 2rem;
+    position: relative;
+    z-index: 1001;
+}
+
+.top-bar-inner {
+    max-width: 180rem;
+    margin: 0 auto;
+    padding: 0 6rem; /* 🔥 SAME as .header-inner */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* empty left space (future logo/text if needed) */
+.top-bar-inner::before {
+    content: "";
+    flex: 1;
+}
+
+.top-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.top-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    white-space: nowrap;
+    /* prevents breaking */
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+    .top-bar {
+    display: none;
+}
+
+     .top-bar-inner {
+        padding: 0 2rem; /* match your mobile header padding */
+        justify-content: center;
+    }
+
+    .top-bar-inner::before {
+        display: none;
+    }
+
+    .top-links {
+        justify-content: center;
+        gap: 1.2rem;
+    }
+}
+
 /* ================= HEADER & NAV ================= */
 .header {
     position: absolute;
     width: 100%;
-    top: 3rem;
+    top: 4.2rem;
     z-index: 1000;
 }
 
@@ -61,7 +131,7 @@ body {
 }
 
 .logo img {
-    height: 10rem;
+    height: 11rem;
     object-fit: contain;
 }
 
@@ -131,7 +201,7 @@ body {
 /* ================= MEGA MENU ================= */
 .mega-menu {
     position: absolute;
-    top: 11.5rem;
+    top: 14.5rem;
     left: 35rem;
     right: 6rem;
     background: rgba(235, 237, 238, 0.95);
@@ -261,7 +331,7 @@ body {
 }
 
 .mega-bottom h2 {
-    font-family: 'Playfair Display', serif;
+
     font-size: 3.2rem;
     color: rgba(50, 55, 65, 0.85);
 }
@@ -429,7 +499,7 @@ body {
 
     /* HEADER */
     .header {
-        top: 1.5rem;
+        top: 4.2rem;
     }
 
     .header-inner {
@@ -610,7 +680,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
+
     font-size: 7.0rem;
     line-height: 1.05;
     letter-spacing: -0.1rem;
@@ -690,7 +760,7 @@ body {
 
 /* ================= RGU NEWS SECTION ================= */
 .rgu-news-section {
-    padding: 80px 0;
+    padding: 30px 0;
     background: var(--backgroundcolor);
     overflow: hidden;
 }
@@ -732,8 +802,8 @@ body {
 }
 
 .rgu-news-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 56px;
+
+    font-size: 4rem;
     color: var(--primary);
     margin-bottom: 25px;
 }
@@ -1004,7 +1074,7 @@ body {
 .rgu-ann-section {
     padding: 0;
     background: #eef2f6;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .rgu-ann-container {
@@ -1021,7 +1091,7 @@ body {
 
 .rgu-ann-title {
     font-family: "Playfair Display", serif;
-    font-size: 56px;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 60px;
     opacity: 0;
@@ -1207,7 +1277,7 @@ body {
 
 /* ================= E-BOARD ================= */
 .rgu-eboard-section {
-    padding: 80px 0;
+    padding: 30px 0;
     background: #f8faff;
     text-align: center;
     overflow: hidden;
@@ -1220,7 +1290,7 @@ body {
 
 .rgu-eboard-title {
     font-family: "Playfair Display", serif;
-    font-size: 56px;
+    font-size: 4rem;
     color: #2f4b77;
     margin-bottom: 70px;
     opacity: 0;
@@ -1399,7 +1469,7 @@ body {
 
 .rgu-next-events {
     background: #EBF1FC;
-    padding: 10rem 6rem;
+    padding: 4rem 6rem;
 }
 
 .rgu-next-container {
@@ -1409,8 +1479,8 @@ body {
 
 .rgu-next-title {
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 4.5rem;
+
+    font-size: 4.0rem;
     color: #2c4a7a;
     margin-bottom: 6rem;
 }
@@ -1676,9 +1746,120 @@ body {
 
 }
 
+/* ================= NEW DESKTOP LEGACY GRID ================= */
+.legacy-desktop {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.rgu-legacy-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Card Wrapper (The Clickable Anchor) */
+.rgu-legacy-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.4s ease;
+}
+
+/* ================= INDIVIDUAL CARD COLORS ================= */
+
+/* Card 1: Lightest Blue */
+.rgu-legacy-card:nth-child(1) {
+    background-color: #D3E4FD;
+}
+
+.rgu-legacy-card:nth-child(1):hover .rgu-legacy-card-content {
+    background-color: #C0D8FA;
+    /* Slightly darker on hover */
+}
+
+/* Card 2: Medium Blue */
+.rgu-legacy-card:nth-child(2) {
+    background-color: #ABC8F1;
+}
+
+.rgu-legacy-card:nth-child(2):hover .rgu-legacy-card-content {
+    background-color: #9EBEEC;
+}
+
+/* Card 3: Deepest Blue */
+.rgu-legacy-card:nth-child(3) {
+    background-color: #91B7ED;
+}
+
+.rgu-legacy-card:nth-child(3):hover .rgu-legacy-card-content {
+    background-color: #82ADE9;
+}
+
+/* ================= IMAGE & TEXT STYLING ================= */
+
+/* Image Wrapper */
+.rgu-legacy-card-img {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+/* The Image with Hover Zoom Transition */
+.rgu-legacy-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Hover Zoom Effect */
+.rgu-legacy-card:hover .rgu-legacy-card-img img {
+    transform: scale(1.1);
+}
+
+/* Text Content Area */
+.rgu-legacy-card-content {
+    padding: 40px 30px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+/* Title Styling */
+.rgu-legacy-card-content h3 {
+
+    font-size: 2.2rem;
+    color: var(--primary);
+    /* Uses your global #20315F */
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Paragraph Styling */
+.rgu-legacy-card-content p {
+
+    font-size: 1.5rem;
+    color: var(--primary);
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.9;
+}
+
 /* ================= LEGACY ================= */
+
 .rgu-legacy-section {
-    padding: 60px 0;
+    padding: 30px 0;
     background-color: #f8faff;
     /* Light fallback */
     background-image: url("assets/img/bg-img.png");
@@ -1699,9 +1880,9 @@ body {
 
 .rgu-legacy-title {
     font-family: "Playfair Display", serif;
-    font-size: 52px;
+    font-size: 4.0rem;
     color: #20315F;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     line-height: 1.2;
 }
 
@@ -1846,7 +2027,7 @@ body {
 
 .rgu-rd-section {
     background: #fff;
-    padding: 10rem 6rem;
+    padding: 6rem;
     color: #20315F;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
@@ -1861,8 +2042,8 @@ body {
 /* ===== TITLE ===== */
 
 .rgu-rd-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 5rem;
+
+    font-size: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -2117,7 +2298,7 @@ body {
 
 .rgu-maestro-title {
     font-family: "Playfair Display", serif;
-    font-size: 48px;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 60px;
     margin-top: 0;
@@ -2212,7 +2393,7 @@ body {
 /* ================= TESTIMONIALS ================= */
 .rgu-test-section {
     background: #EBF1FC;
-    padding: 60px 0 80px;
+    padding: 30px 0 40px;
     position: relative;
     overflow: hidden;
 }
@@ -2227,12 +2408,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 30px; */
 }
 
 .rgu-test-title {
     font-family: "Playfair Display", serif;
-    font-size: 56px;
+    font-size: 4rem;
     color: #2f4b77;
     margin: 0;
 }
@@ -2377,6 +2558,13 @@ body {
         gap: 40px;
     }
 
+    .rgu-test-tabs {
+        margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
     .rgu-test-card {
         flex-direction: column;
         text-align: center;
@@ -2407,10 +2595,9 @@ body {
 
 /* ================= FOOTER ================= */
 .unq-rgu-ftr-wrapper {
-    font-family: 'Inter', sans-serif;
     background-color: #ffffff;
     color: #3b4e6d;
-    padding: 60px 20px 20px;
+    padding: 30px 20px;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
@@ -2441,7 +2628,7 @@ body {
 .unq-rgu-ftr-tagline {
     color: #6b778c;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.0;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -2449,7 +2636,7 @@ body {
 .unq-rgu-ftr-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
     margin-bottom: 50px;
 }
 
@@ -2893,7 +3080,7 @@ body {
     color: #fff;
     font-size: 4rem;
     font-weight: 500;
-    font-family: 'Playfair Display', serif;
+
 }
 
 .search-input-wrapper input::placeholder {
@@ -3219,9 +3406,9 @@ body {
         display: block;
         padding: 1.2rem 0 1.2rem 1.5rem;
         /* Slight indent to show hierarchy */
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        color: #2a2929;
+        color: #777777;
         text-decoration: none;
         border-top: 1px dashed #d5d5d5;
         /* Distinguishes final links */
@@ -3242,7 +3429,7 @@ body {
 /* ACADEMIC SECTION  */
 
 .rgu-acad-section {
-    padding: 80px 0;
+    padding: 30px 0;
     background: #EBF1FC;
     overflow: hidden;
 }
@@ -3268,9 +3455,9 @@ body {
 
 .rgu-acad-title {
     font-family: "Playfair Display", serif;
-    font-size: 56px;
+    font-size: 4.0rem;
     color: #2f4b77;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     line-height: 1.2;
 }
 
@@ -3288,7 +3475,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 26px;
-    padding: 25px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #6e86a7;
     color: #2f4b77;
     cursor: pointer;
@@ -3340,7 +3527,7 @@ body {
 
 .rgu-acad-img-wrapper {
     width: 100%;
-    height: 480px;
+    height: 400px;
     overflow: hidden;
     background-color: #cbd7ec;
 }
@@ -3809,4 +3996,329 @@ body.phd-modal-open {
         font-size: 34px;
     }
 
+}
+
+
+/* ================= PAGE HERO (REUSABLE & ISOLATED) ================= */
+
+.pg-hero {
+    position: relative;
+    height: 65rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* dynamic background from inline style */
+.pg-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* overlay */
+.pg-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(20, 40, 70, 0.24);
+    z-index: 2;
+}
+
+/* content */
+.pg-hero-inner {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+/* title */
+.pg-hero-title {
+    font-family: "Playfair Display", serif;
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+/* breadcrumb */
+.pg-hero-breadcrumb {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* responsive */
+@media (max-width: 900px) {
+    .pg-hero {
+        height: 30rem;
+    }
+
+    .pg-hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pg-hero {
+        height: 26rem;
+    }
+
+    .pg-hero-title {
+        font-size: 2.6rem;
+    }
+}
+
+/* ------------------------------- DISCOVER RGU PREFACE -----------------------------  */
+
+/* ================= PREFACE SECTION (ISOLATED) ================= */
+
+.pf-sec {
+    background: #EEF2F6;
+    padding: 8rem 2rem 0rem 2rem;
+
+}
+
+.pf-container {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+/* IMAGE */
+.pf-img-wrap {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.pf-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* CONTENT */
+.pf-content {
+    color: #2f4b77;
+}
+
+/* TITLE */
+.pf-title {
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+/* TEXT */
+.pf-text {
+    font-size: 1.7rem;
+    line-height: 1.9;
+    color: #4a4a4a;
+    text-align: justify;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+    .pf-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .pf-title {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .pf-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .pf-sec {
+        padding: 5rem 1.5rem;
+    }
+
+    .pf-title {
+        font-size: 2.6rem;
+    }
+
+    .pf-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* ================= SECTION ================= */
+
+.dg-sec {
+    padding: 6rem 2rem;
+    background: #27467A;
+}
+
+/* ================= LAYOUT ================= */
+
+.dg-container {
+    max-width: 1350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 2rem;
+}
+
+.dg-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dg-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* ================= CARD ================= */
+
+.dg-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #eef2f7;
+    color: #2f4b77;
+
+    padding: 2.4rem 1.4rem;
+    border-radius: 14px;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    text-decoration: none;
+    overflow: hidden;
+
+    transition: all 0.35s ease;
+    min-height: 120px;
+}
+
+/* ICON SPACE */
+/* ICON WRAPPER (CIRCLE) */
+.dg-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* border: 2px solid #2f4b77; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000000f;
+
+    margin-bottom: 10px;
+}
+
+/* ICON IMAGE */
+.dg-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* TEXT */
+.dg-card span {
+    display: block;
+    line-height: 1.4;
+}
+
+/* HOVER EFFECT */
+.dg-card:hover {
+    background: #E15825;
+    color: #fff;
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* ARROW */
+.dg-card::after {
+    content: "↗";
+    position: absolute;
+    bottom: 12px;
+    right: 14px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.dg-card:hover::after {
+    opacity: 1;
+    transform: translate(4px, -4px);
+}
+
+/* ================= IMAGE CARD ================= */
+
+.dg-image {
+    padding: 0;
+    overflow: hidden;
+    grid-column: span 2;
+    min-height: 220px;
+}
+
+.dg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.dg-image:hover img {
+    transform: scale(1.05);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1100px) {
+    .dg-container {
+        grid-template-columns: 1fr;
+    }
+
+    .dg-col {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dg-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dg-image {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .dg-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dg-image {
+        grid-column: span 1;
+    }
+
+    .dg-card {
+        min-height: 100px;
+        font-size: 1.2rem;
+    }
 }

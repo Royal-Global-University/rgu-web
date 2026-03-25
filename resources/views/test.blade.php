@@ -1,10 +1,10 @@
 @extends('frontend.new-master')
 @section('title', 'The Assam Royal Global University | Best Private University in Assam, India')
-@section('meta_description', 'Discover Royal Global University, the best private university in Assam offering
+@section('meta_description',
+    'Discover Royal Global University, the best private university in Assam offering
     world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
-
     <section class="hero">
         <div class="hero-poster"></div>
 
@@ -19,7 +19,7 @@
             <h1>Empowering Knowledge.<br>Inspiring Futures</h1>
             <div class="tagline">EXCELLENCE IN EDUCATION, RESEARCH & INNOVATION</div><br>
             <a href="https://rgu.ac/admission-programs-fees-structure" class="explore-btn">
-                EXPLORE PROGRAMS <span>↗️</span>
+                EXPLORE PROGRAMS <span>↗</span>
             </a>
         </div>
     </section>
@@ -75,32 +75,6 @@
 
         </div>
 
-    </section>
-
-    <section class="rgu-ann-section">
-        <div class="rgu-ann-container">
-            <h2 class="rgu-ann-title">Important Announcements</h2>
-            <div class="rgu-ann-grid">
-
-                <div class="rgu-ann-card active" style="--anim-delay: 0.2s;">
-                    <div class="rgu-ann-icon-wrapper"><i class="bi bi-megaphone"></i></div>
-                    <a style="text-decoration: none;" href="https://admissions.rgu.ac/">
-                        <p>Ph.D. Admission Open (July 2026 - 2027)</p>
-                    </a>
-                </div>
-
-                <div class="rgu-ann-card " style="--anim-delay: 0.2s;">
-                    <div class="rgu-ann-icon-wrapper"><i class="bi bi-megaphone"></i></div>
-                    <a id="phdTrackerLink" style="text-decoration: none;" href="javascript:void(0)">
-                        <p>Track the status of your Ph.D. thesis</p>
-                    </a>
-                </div>
-
-            </div>
-            <!-- <div class="rgu-ann-viewall">
-                    <a href="#">View All <i class="bi bi-arrow-right"></i></a>
-                </div> -->
-        </div>
     </section>
 
     <!-- phd modal  -->
@@ -191,11 +165,44 @@
 
     <section class="rgu-legacy-section">
         <div class="rgu-legacy-container">
-            <h2 class="rgu-legacy-title">A Legacy of Excellence, <br> a Future of Possibility</h2>
+            <h2 class="rgu-legacy-title">A Legacy of Excellence, a Future of Possibility</h2>
 
             <div class="legacy-desktop">
-                <div class="rgu-legacy-image-wrap">
-                    <img src="new-web/assets/img/index/lagecy/lagecy-images.svg" alt="RGU Campus">
+                <div class="rgu-legacy-grid">
+
+                    <a href="https://rgu.ac/infrastructure" class="rgu-legacy-card">
+                        <div class="rgu-legacy-card-img">
+                            <img src="new-web/assets/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg" alt="RGU Campus">
+                        </div>
+                        <div class="rgu-legacy-card-content">
+                            <h3>The Best University in Assam</h3>
+                            <p>Empowering future leaders with academic excellence, industry collaboration and real-world
+                                skills.</p>
+                        </div>
+                    </a>
+
+                    <a href="/schools-rgu" class="rgu-legacy-card">
+                        <div class="rgu-legacy-card-img">
+                            <img src="new-web/assets/img/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg" alt="RGU Classroom">
+                        </div>
+                        <div class="rgu-legacy-card-content">
+                            <h3>Discover Your Potential at RGU</h3>
+                            <p>Where diverse programs, modern infrastructure, and dedicated faculty guide your success
+                                journey.</p>
+                        </div>
+                    </a>
+
+                    <a href="https://rgu.ac/admission-programs-fees-structure" class="rgu-legacy-card">
+                        <div class="rgu-legacy-card-img">
+                            <img src="new-web/assets/img/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg" alt="RGU Students">
+                        </div>
+                        <div class="rgu-legacy-card-content">
+                            <h3>Educating with Purpose, Inspiring with Vision</h3>
+                            <p>A transformative learning experience designed to shape confident, creative and socially
+                                responsible graduates.</p>
+                        </div>
+                    </a>
+
                 </div>
             </div>
 
@@ -252,18 +259,18 @@
                     </h2>
                     <ul class="rgu-acad-list">
                         <li class="rgu-acad-item active fade-in-up" style="--delay: 0.1s"
-                            data-img="https://www.rgu.ac/mobile-assets/laboratories/biochem.png"
+                            data-img="new-web/assets/img/index/labs/biochem.png"
                             data-title="Doctoral Programme" data-link="https://rgu.ac/doctoral-programme">
                             <span>Doctoral Programme</span>
                             <i class="bi bi-arrow-up-right"></i>
                         </li>
                         <li class="rgu-acad-item fade-in-up" style="--delay: 0.2s"
-                            data-img="https://www.rgu.ac/mobile-assets/laboratories/bioscience.png"
+                            data-img="new-web/assets/img/index/labs/bioscience-research-lab.png"
                             data-title="Postgraduate Programmes" data-link="https://rgu.ac/programs">
                             <span>Postgraduate Programmes</span>
                         </li>
                         <li class="rgu-acad-item fade-in-up" style="--delay: 0.3s"
-                            data-img="https://www.rgu.ac/mobile-assets/laboratories/biotech.png"
+                            data-img="new-web/assets/img/index/labs/biotech-lab.png"
                             data-title="Under Graduate Programmes" data-link="https://rgu.ac/programs">
                             <span>Under Graduate Programmes</span>
                         </li>
@@ -273,7 +280,7 @@
                 <div class="rgu-acad-right fade-in-up" style="--delay: 0.4s">
                     <a href="https://rgu.ac/doctoral-programme" class="rgu-acad-card" id="acadCard">
                         <div class="rgu-acad-img-wrapper">
-                            <img id="acadImage" src="https://www.rgu.ac/mobile-assets/laboratories/biochem.png"
+                            <img id="acadImage" src="new-web/assets/img/index/labs/biochem.png"
                                 alt="Academics">
                         </div>
                         <div class="rgu-acad-overlay">
@@ -376,12 +383,12 @@
                     </div>
                     <div class="rgu-maestro-card">
                         <img src="new-web/assets/img/index/footprints/2.jpg">
-                        <h3>Sri. Jagdeep Dhankhar</h3>
+                        <h3>Sri Jagdeep Dhankhar</h3>
                         <p>14th Vice President of India</p>
                     </div>
                     <div class="rgu-maestro-card">
                         <img src="new-web/assets/img/index/footprints/3.jpg">
-                        <h3>Sri. Om Birla</h3>
+                        <h3>Sri Om Birla</h3>
                         <p>18th Speaker of the Lok Sabha</p>
                     </div>
                     <div class="rgu-maestro-card">
@@ -391,7 +398,7 @@
                     </div>
                     <div class="rgu-maestro-card">
                         <img src="new-web/assets/img/index/footprints/5.jpg">
-                        <h3>Shri Piyush Goyal</h3>
+                        <h3>Sri Piyush Goyal</h3>
                         <p>Honourable Union Minister of Commerce & Industry</p>
                     </div>
                     <div class="rgu-maestro-card">
