@@ -377,32 +377,32 @@
             <div class="rgu-maestro-slider">
                 <div class="rgu-maestro-track">
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/1.jpg">
+                        <img src="new-web/assets/img/index/footprints/1.png">
                         <h3>Dr APJ Abdul Kalam</h3>
                         <p>The Missile Man Of India <br> Former President Of India</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/2.jpg">
+                        <img src="new-web/assets/img/index/footprints/2.png">
                         <h3>Sri Jagdeep Dhankhar</h3>
                         <p>14th Vice President of India</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/3.jpg">
+                        <img src="new-web/assets/img/index/footprints/3.png">
                         <h3>Sri Om Birla</h3>
                         <p>18th Speaker of the Lok Sabha</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/4.jpg">
+                        <img src="new-web/assets/img/index/footprints/4.png">
                         <h3>Sri Nitin Gadkari</h3>
                         <p>40th Union Minister of Road Transport and Highways</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/5.jpg">
+                        <img src="new-web/assets/img/index/footprints/5.png">
                         <h3>Sri Piyush Goyal</h3>
                         <p>Honourable Union Minister of Commerce & Industry</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="new-web/assets/img/index/footprints/6.jpg">
+                        <img src="new-web/assets/img/index/footprints/6.png">
                         <h3>Justice Mr. Ranjan Gogoi</h3>
                         <p>46th Chief Justice of India, Member of Parliament</p>
                     </div>
