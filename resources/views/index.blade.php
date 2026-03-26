@@ -301,7 +301,7 @@
         <div class="rgu-rd-container">
 
             <!-- TITLE -->
-            <h2 class="rgu-rd-title">Research Insights & Innovation</h2>
+            <h2 class="rgu-rd-title">Research & Development</h2>
 
             <p class="rgu-rd-subtitle">
                 At Royal Global University, research and innovation form the backbone of academic excellence.
@@ -375,7 +375,7 @@
 
     <section class="rgu-maestro-section">
         <div class="rgu-maestro-container">
-            <h2 class="rgu-maestro-title">Maestros Who Have Inspired Generations</h2>
+            <h2 class="rgu-maestro-title">Maestros at RGU Campus Who Have Inspired Generations</h2>
             <div class="rgu-maestro-slider">
                 <div class="rgu-maestro-track">
                     <div class="rgu-maestro-card">
