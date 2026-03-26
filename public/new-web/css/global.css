@@ -1139,6 +1139,28 @@ h6 {
     }
 }
 
+@media (max-width: 768px) {
+
+    .pg-hero-inner {
+        align-items: flex-start;
+        /* move left */
+        justify-content: flex-end;
+        /* move bottom */
+        text-align: left;
+        padding: 0 2rem 4rem 2rem;
+        /* bottom spacing */
+    }
+
+    .pg-hero-title {
+        font-size: 2.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .pg-hero-breadcrumb {
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width: 480px) {
     .pg-hero {
         height: 35rem;
