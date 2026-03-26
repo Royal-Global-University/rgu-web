@@ -3,14 +3,9 @@
 const eboardData = [
     { img: "mobile-assets/ads/25-03/25031.jpeg", alt: "Event 1" },
     { img: "mobile-assets/ads/25-03/25032.jpeg", alt: "Event 2" },
-    { img: "mobile-assets/ads/25-03/25033.jpeg", alt: "Event 3" },
-    { img: "mobile-assets/ads/25-03/250334.jpeg", alt: "Event 4" },
     { img: "new-web/assets/img/index/e-board/4.jpeg", alt: "Event 4" },
-
-    // { img: "new-web/assets/img/index/e-board/1.jpeg", alt: "Event 1" },
-    // { img: "new-web/assets/img/index/e-board/2.jpeg", alt: "Event 2" },
-    // { img: "new-web/assets/img/index/e-board/3.jpeg", alt: "Event 3" },
-    // { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
+    { img: "new-web/assets/img/index/e-board/3.jpeg", alt: "Event 3" },
+    { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
     // { img: "new-web/assets/img/index/e-board/6.jpeg", alt: "Event 6" },
 ];
 
