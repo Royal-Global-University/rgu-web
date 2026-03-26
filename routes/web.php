@@ -628,13 +628,17 @@ Route::get('/convocation-three-gallery', function () {
     return view('frontend/academics/convocation-three-gallery');
 })->name('convocation-three-gallery');
 
+Route::get('/convocation-fifth', function () {
+    return view('frontend/convocation/fifth-convocation');
+})->name('convocation-fifth');
+
 Route::get('/convocation-fourth', function () {
     return view('frontend/academics/convocation-fourth');
 })->name('convocation-fourth');
 
-Route::get('/convocation-fifth', function () {
-    return view('frontend/academics/convocation-fifth');
-})->name('convocation-fifth');
+// Route::get('/convocation-fifth', function () {
+//     return view('frontend/academics/convocation-fifth');
+// })->name('convocation-fifth');
 
 Route::get('/convocation-four-gallery', function () {
     return view('frontend/academics/convocation-four-gallery');
