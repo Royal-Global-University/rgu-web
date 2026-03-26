@@ -156,8 +156,8 @@
             </div>
 
             <!-- <div class="rgu-next-viewall">
-                        <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
-                    </div> -->
+                            <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
+                        </div> -->
 
         </div>
 
@@ -296,42 +296,44 @@
         </div>
     </section>
 
-    <section class="rgu-rd-section">
+    <section class="rgu-lab-section">
 
-        <div class="rgu-rd-container">
+        <div class="rgu-lab-container">
 
             <!-- TITLE -->
-            <h2 class="rgu-rd-title">Research & Development</h2>
+            <h2 class="rgu-lab-title">Explore Labs, Workshop & Studio</h2>
 
-            <p class="rgu-rd-subtitle">
-                At Royal Global University, research and innovation form the backbone of academic excellence.
-                Our scholars and faculty continually push boundaries to create impactful solutions for society.
-            </p>
+            <!-- <p class="rgu-lab-subtitle">
+                    At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
+                    and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
+                    students and researchers to experiment, explore, and transform ideas into real-world solutions. From
+                    scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
+                    thinking, and excellence in every discipline.
+                </p> -->
 
-
-            <div class="rgu-rd-row">
+            <div class="rgu-lab-row">
 
                 <!-- LEFT SIDE (GRAPHIC) -->
-                <div class="rgu-rd-left">
+                <!-- <div class="rgu-lab-left">
 
-                    <div class="rgu-rd-image">
-                        <img src="new-web/assets/img/research.png" alt="Research Statistics">
-                    </div>
+                        <div class="rgu-lab-image">
+                            <img src="assets/img/index/facts.svg" alt="Research Statistics">
+                        </div>
 
-                    <div style="margin-bottom: 20px;" class="rgu-next-viewall">
-                        <a href="https://rgu.ac/laboratories">View all Labs +</a>
-                    </div>
+                        <div style="margin-bottom: 20px;" class="rgu-next-viewall">
+                            <a href="https://rgu.ac/laboratories">View all Labs +</a>
+                        </div>
 
-                </div>
+                    </div> -->
 
 
                 <!-- RIGHT SIDE (SLIDER) -->
-                <div class="rgu-rd-right">
+                <div class="rgu-lab-right">
 
 
-                    <div class="rgu-rd-slider">
+                    <div class="rgu-lab-slider">
 
-                        <div class="rgu-rd-track" id="rdTrack">
+                        <div class="rgu-lab-track" id="rdTrack">
 
                             <!-- JS will inject cards here -->
 
@@ -341,15 +343,25 @@
 
 
                     <!-- CONTROLS -->
-                    <div class="rgu-rd-controls">
+                    <div class="rgu-lab-controls">
 
-                        <button class="rgu-rd-arrow rgu-rd-prev">
-                            <i class="fa fa-chevron-left"></i>
-                        </button>
+                        <!-- LEFT: ARROWS -->
+                        <div class="rgu-lab-arrows">
+                            <button class="rgu-lab-arrow rgu-lab-prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </button>
 
-                        <button class="rgu-rd-arrow rgu-rd-next">
-                            <i class="fa fa-chevron-right"></i>
-                        </button>
+                            <button class="rgu-lab-arrow rgu-lab-next">
+                                <i class="fa fa-chevron-right"></i>
+                            </button>
+                        </div>
+
+                        <!-- RIGHT: EXPLORE ALL -->
+                        <div class="rgu-lab-explore">
+                            <a href="https://rgu.ac/laboratories" class="rgu-lab-explore-btn">
+                                Explore All
+                            </a>
+                        </div>
 
                     </div>
 
@@ -361,7 +373,66 @@
 
     </section>
 
-    <section class="curve-section" style="background-color:#fff;">
+    <section class="rgu-research-section">
+
+        <div class="rgu-research-container">
+
+            <!-- TITLE -->
+            <h2 class="rgu-research-title">Research & Development</h2>
+
+            <p class="rgu-research-subtitle">
+                Discover cutting-edge research, innovation, and interdisciplinary exploration shaping the future across
+                domains.
+            </p>
+
+            <!-- TOP 2 IMAGES -->
+            <div class="rgu-research-top">
+                <div class="rgu-research-img">
+                    <img src="new-web/assets/img/research.png" alt="">
+                </div>
+                <div class="rgu-research-img">
+                    <img src="mobile-assets/research-development-new/ecosystem/center.png" alt="">
+                </div>
+            </div>
+
+            <h4 class="rgu-research-sub-title">Few High-Impact Scopus Q1–Q2 Publications (2024–2025)</h4>
+            <!-- INFINITE SCROLL -->
+            <div class="rgu-research-slider">
+                <div class="rgu-research-track">
+
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s5.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s1.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s2.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s3.jpg"
+                        class="rgu-research-item">
+
+                    <!-- duplicate for infinite effect -->
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s5.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s1.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s2.jpg"
+                        class="rgu-research-item">
+                    <img src="https://rgu.ac/mobile-assets/research-development-new/new-scopus/s3.jpg"
+                        class="rgu-research-item">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LIGHTBOX -->
+        <div class="rgu-lightbox" id="researchLightbox">
+            <span class="rgu-lightbox-close">&times;</span>
+            <img id="lightboxImg">
+        </div>
+
+    </section>
+
+    <section class="curve-section">
         <a href="https://rgu.ac/contact">
             <picture>
                 <!-- Mobile Image -->

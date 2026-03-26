@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="new-web/css/style.css">
 
+    <link rel="stylesheet" href="new-web/css/global.css">
+
     <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
         sizes="32x32" />
     <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png"
@@ -69,6 +71,7 @@ s.src="https://track.nopaperforms.com/js/track.js";
 document.body.appendChild(s);
 </script>
 <script src="new-web/js/script.js"></script>
+<script src="new-web/js/index-js/all-labs.js"></script>
 <script src="new-web/js/index-js/phd-modal.js"></script>
 <script src="new-web/js/index-js/academics-course.js"></script>
 <script src="new-web/js/index-js/e-board-slider.js"></script>

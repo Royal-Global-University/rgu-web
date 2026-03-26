@@ -3,7 +3,7 @@ const lightbox = document.getElementById("researchLightbox");
 const lightboxImg = document.getElementById("lightboxImg");
 const closeBtn = document.querySelector(".rgu-lightbox-close");
 
-items.forEach((item) => {
+items.forEach(item => {
     item.addEventListener("click", () => {
         lightbox.style.display = "flex";
         lightboxImg.src = item.src;
@@ -15,7 +15,7 @@ closeBtn.onclick = () => {
 };
 
 lightbox.onclick = (e) => {
-    if (e.target === lightbox) {
+    if(e.target === lightbox){
         lightbox.style.display = "none";
     }
 };
