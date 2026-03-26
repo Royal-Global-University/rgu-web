@@ -186,7 +186,7 @@
                             </div>
                             <h3 class="card-name">Dr. Susmita Nath</h3>
                             <p class="card-designation">Assistant Professor, Graphic & Product Design</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-susmita-nath" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -197,7 +197,7 @@
                             </div>
                             <h3 class="card-name">Mr. Dipankar Gogoi</h3>
                             <p class="card-designation">Assistant Professor</p>
-
+                            <a href="/faculty-dipankar-gogoi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

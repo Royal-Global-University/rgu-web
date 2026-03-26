@@ -4229,6 +4229,11 @@
                                         <td>Caution Money (Common for all streams) - Refundable</td>
                                         <td>10000.00</td>
                                     </tr>
+                                    <tr>
+                                        <td>D.</td>
+                                        <td>Admission Fee</td>
+                                        <td>60000.00</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

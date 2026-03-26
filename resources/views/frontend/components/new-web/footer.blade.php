@@ -25,9 +25,9 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://admissions.rgu.ac/">Admissions 2025–26</a></li>
-                        <li><a href="https://admissions.rgu.ac/">International Admissions 2025–26</a></li>
-                        <li><a href="https://rgu.ac/admission-programs-fees-structure">Eligibility & Selection
+                        <li><a href="https://admissions.rgu.ac/">Admissions 2026–27</a></li>
+                        <li><a href="https://admissions.rgu.ac/">International Admissions 2026–27</a></li>
+                        <li><a href="/programs">Eligibility & Selection
                                 Criteria</a></li>
                         <li><a href="https://rgu.ac/how-to-apply">How to Apply</a></li>
                         <li><a href="https://rgu.ac/faq">FAQs</a></li>

@@ -4,7 +4,7 @@ const rguTestimonials = {
     student: [
         {
             img: "new-web/assets/img/index/testimonial/1.png",
-            text: "I take immense pride in identifying Assam Royal Global University as my alma mater. I completed my Bachelor of Science in Behavioral and Allied Sciences at the Royal School of Biosciences, graduating in 2023. After this achievement, I chose to advance my education in the vibrant field of business, moving to the capital to enhance my knowledge in Behavioral and Allied Sciences. Currently, I serve as a Research Analyst at Georgian College in Ontario, Canada.",
+            text: "I take immense pride in identifying Assam Royal Global University as my alma mater. I completed my MSc in Biotechnology at the Royal School of Biosciences, graduating in 2023. After this achievement, I chose to advance my education in the vibrant field of business, moving to the capital to enhance my knowledge in Biosciences. Currently, I serve as a Research Analyst at Georgian College in Ontario, Canada.",
             name: "Maibam Noonny Khuman",
             role: "Royal School Of Biosciences | Associated as Research Analyst with Georgian College Ontario, Canada",
         },
@@ -40,7 +40,6 @@ const rguTestimonials = {
             name: "BiproJyoti Bhattacharjee",
             role: "Royal School of Engineering & Technology | Senior Customer Service Associate Indian Bank",
         },
-
     ],
 
     recruiter: [

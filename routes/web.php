@@ -3882,6 +3882,10 @@ Route::get('/Dr-Nandana-Dutta', function () {
 
 //RSA Faculty Profile
 
+Route::get('/faculty-krutika-madkaiker', function () {
+    return view('frontend/facultyprofile/rsa/krutika-madkaiker');
+})->name('faculty-krutika-madkaiker');
+
 Route::get('/faculty-shweta-das', function () {
     return view('frontend/facultyprofile/rsa/shweta-das');
 })->name('faculty-shweta-das');
@@ -4624,6 +4628,14 @@ Route::get('/faculty-sudip-chakraborty', function () {
 })->name('faculty-sudip-chakraborty');
 
 //RSD Faculty Profile
+
+Route::get('/faculty-susmita-nath', function () {
+    return view('frontend/facultyprofile/rsd/susmita-nath');
+})->name('faculty-susmita-nath');
+
+Route::get('/faculty-dipankar-gogoi', function () {
+    return view('frontend/facultyprofile/rsd/dipankar-gogoi');
+})->name('faculty-dipankar-gogoi');
 
 Route::get('/faculty-sattyakee-dcom-bhuyan', function () {
     return view('frontend/facultyprofile/rsd/sattyakee-dcom-bhuyan');
