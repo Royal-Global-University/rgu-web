@@ -71,13 +71,11 @@ s.src="https://track.nopaperforms.com/js/track.js";
 document.body.appendChild(s);
 </script>
 <script src="new-web/js/script.js"></script>
-<script src="new-web/js/index-js/all-labs.js"></script>
 <script src="new-web/js/index-js/phd-modal.js"></script>
 <script src="new-web/js/index-js/academics-course.js"></script>
 <script src="new-web/js/index-js/e-board-slider.js"></script>
 <script src="new-web/js/index-js/footprints.js"></script>
 <script src="new-web/js/index-js/news.js"></script>
-<script src="new-web/js/index-js/research-labs.js"></script>
 <script src="new-web/js/index-js/rgu-lagecy.js"></script>
 <script src="new-web/js/index-js/testimonial.js"></script>
 
