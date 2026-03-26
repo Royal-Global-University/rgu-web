@@ -77,6 +77,5 @@ document.body.appendChild(s);
 <script src="new-web/js/index-js/research-labs.js"></script>
 <script src="new-web/js/index-js/rgu-lagecy.js"></script>
 <script src="new-web/js/index-js/testimonial.js"></script>
-<script src="new-web/js/index-js/whats-next.js"></script>
 
 </html>
