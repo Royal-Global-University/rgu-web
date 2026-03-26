@@ -1167,7 +1167,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
                                     alt="Profile image of Susmita Banerjee">
                             </div>
-                            <h3 class="card-name">Susmita Banerjee</h3>
+                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
