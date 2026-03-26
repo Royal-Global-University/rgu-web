@@ -5,6 +5,7 @@
             </svg>
         </button>
 
+
         <div class="unq-rgu-ftr-container">
             <div class="unq-rgu-ftr-header">
                 <img src="new-web/assets/img/logo/dark-logo.svg" alt="The Assam Royal Global University"
@@ -29,6 +30,7 @@
                         <li><a href="https://admissions.rgu.ac/">International Admissions 2026–27</a></li>
                         <li><a href="/programs">Eligibility & Selection
                                 Criteria</a></li>
+                        <li><a href="https://rgu.ac/admission-programs-fees-structure">Fees 2026–27</a></li>
                         <li><a href="https://rgu.ac/how-to-apply">How to Apply</a></li>
                         <li><a href="https://rgu.ac/faq">FAQs</a></li>
                         <li><a href="https://rgu.ac/contact">Admission Offices</a></li>
@@ -71,7 +73,6 @@
                     <ul class="unq-rgu-ftr-list">
                         <li><a href="https://rgu.ac/self-disclosure">Public Self Disclosure</a></li>
                         <li><a href="https://rgu.ac/preface">Preface</a></li>
-                        <li><a href="https://rgu.ac/admission-programs-fees-structure">Fees 2026–27</a></li>
                         <li><a href="https://rgujournal.in/">RGU Journal</a></li>
                         <li><a href="/nirf">NIRF</a></li>
                         <li><a href="https://rgu.ac/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>

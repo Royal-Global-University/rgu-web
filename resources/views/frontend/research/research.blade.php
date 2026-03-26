@@ -659,7 +659,7 @@
 
                 <section class="urd_scroller_section">
                     <div class="urd_section_main_title">
-                        Journals <span>Published at RGU</span>
+                        Journal Published <span>by Student & Faculty</span>
                     </div>
                     <div class="urd_marquee_track urd_marquee_reverse_track" id="urd_journals_marquee_desktop">
                         <div class="urd_marquee_element urd_book_ratio">
