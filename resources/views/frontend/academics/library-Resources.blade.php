@@ -225,23 +225,6 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
                                     <div class="p-3">
                                         <img style=" width: 100%; border: 1px solid #99999984;"
-                                            src="mobile-assets/library/prasanna.jpg" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                            Prasanna Kumar Konch </h5>
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant
-                                            Librarian</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
-                                    <div class="p-3">
-                                        <img style=" width: 100%; border: 1px solid #99999984;"
                                             src="mobile-assets/library/bikramaditya.jpg" />
                                     </div>
                                     <div class="card-body d-flex flex-column flex-grow-1">
@@ -270,41 +253,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <hr>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 420px;">
-                                    <div class="p-3">
-                                        <img style=" width: 100%; border: 1px solid #99999984;"
-                                            src="mobile-assets/library/pinku.jpg" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                            Pinku Kalita </h5>
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">Peon</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 420px;">
-                                    <div class="p-3">
-                                        <img style=" width: 100%; border: 1px solid #99999984;"
-                                            src="mobile-assets/library/chintu.jpg" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                            Chintu Barman </h5>
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">Peon</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
 
                     </div>
@@ -1298,23 +1246,6 @@
                                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
                                         <div class="p-3">
                                             <img style=" width: 100%; border: 1px solid #99999984;"
-                                                src="mobile-assets/library/prasanna.jpg" />
-                                        </div>
-                                        <div class="card-body d-flex flex-column flex-grow-1">
-                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                                Prasanna Kumar Konch </h5>
-                                            <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant
-                                                Librarian</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 mb-4">
-                                    <div class="card rounded d-flex flex-column"
-                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
-                                        <div class="p-3">
-                                            <img style=" width: 100%; border: 1px solid #99999984;"
                                                 src="mobile-assets/library/bikramaditya.jpg" />
                                         </div>
                                         <div class="card-body d-flex flex-column flex-grow-1">
@@ -1339,40 +1270,6 @@
                                                 Mrs. Niharika Saikia </h5>
                                             <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant
                                                 Librarian</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <hr>
-
-                                <div class="col-lg-3 mb-4">
-                                    <div class="card rounded d-flex flex-column"
-                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 420px;">
-                                        <div class="p-3">
-                                            <img style=" width: 100%; border: 1px solid #99999984;"
-                                                src="mobile-assets/library/pinku.jpg" />
-                                        </div>
-                                        <div class="card-body d-flex flex-column flex-grow-1">
-                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                                Pinku Kalita </h5>
-                                            <p class="para1" style="color: #27467A; line-height: 1.3;">Peon</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 mb-4">
-                                    <div class="card rounded d-flex flex-column"
-                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 420px;">
-                                        <div class="p-3">
-                                            <img style=" width: 100%; border: 1px solid #99999984;"
-                                                src="mobile-assets/library/chintu.jpg" />
-                                        </div>
-                                        <div class="card-body d-flex flex-column flex-grow-1">
-                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
-                                                Chintu Barman </h5>
-                                            <p class="para1" style="color: #27467A; line-height: 1.3;">Peon</p>
 
                                         </div>
                                     </div>
