@@ -156,8 +156,8 @@
             </div>
 
             <!-- <div class="rgu-next-viewall">
-                                    <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
-                                </div> -->
+                                            <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
+                                        </div> -->
 
         </div>
 
@@ -304,27 +304,27 @@
             <h2 class="rgu-lab-title">Explore Labs, Workshop & Studio</h2>
 
             <!-- <p class="rgu-lab-subtitle">
-                            At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
-                            and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
-                            students and researchers to experiment, explore, and transform ideas into real-world solutions. From
-                            scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
-                            thinking, and excellence in every discipline.
-                        </p> -->
+                                    At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
+                                    and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
+                                    students and researchers to experiment, explore, and transform ideas into real-world solutions. From
+                                    scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
+                                    thinking, and excellence in every discipline.
+                                </p> -->
 
             <div class="rgu-lab-row">
 
                 <!-- LEFT SIDE (GRAPHIC) -->
                 <!-- <div class="rgu-lab-left">
 
-                                <div class="rgu-lab-image">
-                                    <img src="assets/img/index/facts.svg" alt="Research Statistics">
-                                </div>
+                                        <div class="rgu-lab-image">
+                                            <img src="assets/img/index/facts.svg" alt="Research Statistics">
+                                        </div>
 
-                                <div style="margin-bottom: 20px;" class="rgu-next-viewall">
-                                    <a href="https://rgu.ac/laboratories">View all Labs +</a>
-                                </div>
+                                        <div style="margin-bottom: 20px;" class="rgu-next-viewall">
+                                            <a href="https://rgu.ac/laboratories">View all Labs +</a>
+                                        </div>
 
-                            </div> -->
+                                    </div> -->
 
 
                 <!-- RIGHT SIDE (SLIDER) -->
@@ -552,58 +552,54 @@
     {{-- All array script --}}
 
     {{-- whats next at RGU --}}
-    <scrip>
+    <script>
         document.addEventListener("DOMContentLoaded", () => {
 
-        const events = [
-        // {
-        // day: "10<sup>th</sup>",
-        // month: "Mar 2026",
-        // img: "https://rgu.ac/mobile-assets/conference/bg.jpeg",
-        // title: "ICSSR Project Positions at The Assam Royal Global University",
-        // sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political
-        Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of
-        Lower Assam.",
-        // link: "https://rgu.ac/icssr-project-positions-at-rgu",
-        // },
-        // {
-        // day: "16<sup>th</sup> - 20<sup>th</sup>",
-        // month: "March 2026",
-        // img: "https://rgu.ac/five-days-conference/hero-img.jpg",
-        // title: "Five-Day International Workshop",
-        // sub: "Developing Emotional Intelligence, Academic Research and Teaching",
-        // link: "https://rgu.ac/developing-emotional-intelligence-academic-research-and-teaching",
-        // },
-        {
-        day: "13<sup>th</sup> - 14<sup>th</sup>",
-        month: "Nov 2026",
-        img: "https://rgu.ac/mobile-assets/conference/bg2.png",
-        title: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science
-        (ICETIEDS–2026)",
-        sub: "Flagship global event hosted by the Royal School of Engineering and Technology, The Assam Royal Global
-        University",
-        link: "https://rgu.ac/ICETIEDS%E2%80%932026",
-        },
-        ];
+            const events = [
+                // {
+                //     day: "10<sup>th</sup>",
+                //     month: "Mar 2026",
+                //     img: "https://rgu.ac/mobile-assets/conference/bg.jpeg",
+                //     title: "ICSSR Project Positions at The Assam Royal Global University",
+                //     sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of Lower Assam.",
+                //     link: "https://rgu.ac/icssr-project-positions-at-rgu",
+                // },
+                // {
+                //     day: "16<sup>th</sup> - 20<sup>th</sup>",
+                //     month: "March 2026",
+                //     img: "https://rgu.ac/five-days-conference/hero-img.jpg",
+                //     title: "Five-Day International Workshop",
+                //     sub: "Developing Emotional Intelligence, Academic Research and Teaching",
+                //     link: "https://rgu.ac/developing-emotional-intelligence-academic-research-and-teaching",
+                // },
+                {
+                    day: "13<sup>th</sup> - 14<sup>th</sup>",
+                    month: "Nov 2026",
+                    img: "https://rgu.ac/mobile-assets/conference/bg2.png",
+                    title: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science (ICETIEDS–2026)",
+                    sub: "Flagship global event hosted by the Royal School of Engineering and Technology, The Assam Royal Global University",
+                    link: "https://rgu.ac/ICETIEDS%E2%80%932026",
+                },
+            ];
 
-        const desktopContainer = document.getElementById("desktopEvents");
-        const mobileTabs = document.getElementById("mobileTabs");
-        const mobileCard = document.getElementById("mobileEventCard");
+            const desktopContainer = document.getElementById("desktopEvents");
+            const mobileTabs = document.getElementById("mobileTabs");
+            const mobileCard = document.getElementById("mobileEventCard");
 
 
 
-        /* ================= DESKTOP ================= */
+            /* ================= DESKTOP ================= */
 
-        events.forEach((e, i) => {
+            events.forEach((e, i) => {
 
-        const card = document.createElement("a");
+                const card = document.createElement("a");
 
-        card.className = "rgu-next-card";
-        if (i === 0) card.classList.add("is-active");
+                card.className = "rgu-next-card";
+                if (i === 0) card.classList.add("is-active");
 
-        card.href = e.link;
+                card.href = e.link;
 
-        card.innerHTML = `
+                card.innerHTML = `
         <div class="rgu-next-bg" style="background-image:url('${e.img}')"></div>
 
         <div class="rgu-next-overlay"></div>
@@ -625,50 +621,50 @@
         </div>
         `;
 
-        desktopContainer.appendChild(card);
+                desktopContainer.appendChild(card);
 
-        });
-
-
-        /* DESKTOP HOVER */
-
-        const desktopCards = document.querySelectorAll(".rgu-next-card");
-
-        desktopCards.forEach(card => {
-        card.addEventListener("mouseenter", function() {
-        desktopCards.forEach(c => c.classList.remove("is-active"));
-        this.classList.add("is-active");
-        });
-        });
+            });
 
 
+            /* DESKTOP HOVER */
 
-        /* ================= MOBILE ================= */
+            const desktopCards = document.querySelectorAll(".rgu-next-card");
 
-        events.forEach((e, i) => {
+            desktopCards.forEach(card => {
+                card.addEventListener("mouseenter", function() {
+                    desktopCards.forEach(c => c.classList.remove("is-active"));
+                    this.classList.add("is-active");
+                });
+            });
 
-        const tab = document.createElement("div");
 
-        tab.className = "rgu-next-tab";
-        if (i === 0) tab.classList.add("active");
 
-        tab.dataset.event = i;
+            /* ================= MOBILE ================= */
 
-        tab.innerHTML = `
+            events.forEach((e, i) => {
+
+                const tab = document.createElement("div");
+
+                tab.className = "rgu-next-tab";
+                if (i === 0) tab.classList.add("active");
+
+                tab.dataset.event = i;
+
+                tab.innerHTML = `
         <span>${e.day}</span>
         <small>${e.month}</small>
         `;
 
-        mobileTabs.appendChild(tab);
+                mobileTabs.appendChild(tab);
 
-        });
+            });
 
 
-        /* INITIAL MOBILE CARD */
+            /* INITIAL MOBILE CARD */
 
-        mobileCard.style.backgroundImage = `url(${events[0].img})`;
+            mobileCard.style.backgroundImage = `url(${events[0].img})`;
 
-        mobileCard.innerHTML = `
+            mobileCard.innerHTML = `
         <a href="${events[0].link}" style="text-decoration:none;color:white;">
             <div class="rgu-next-event-content">
                 <h4>${events[0].title}</h4>
@@ -680,364 +676,48 @@
 
 
 
-        /* MOBILE TAB SWITCH */
+            /* MOBILE TAB SWITCH */
 
-        document.querySelectorAll(".rgu-next-tab").forEach(tab => {
+            document.querySelectorAll(".rgu-next-tab").forEach(tab => {
 
-        tab.onclick = () => {
+                tab.onclick = () => {
 
-        document.querySelectorAll(".rgu-next-tab").forEach(t => t.classList.remove(
-        "active"));
+                    document.querySelectorAll(".rgu-next-tab").forEach(t => t.classList.remove(
+                        "active"));
 
-        tab.classList.add("active");
+                    tab.classList.add("active");
 
-        const e = events[tab.dataset.event];
+                    const e = events[tab.dataset.event];
 
-        mobileCard.style.backgroundImage = `url(${e.img})`;
+                    mobileCard.style.backgroundImage = `url(${e.img})`;
 
-        mobileCard.innerHTML = `
-        <a href="${e.link}" style="text-decoration:none;color:white;">
-            <div class="rgu-next-event-content">
-                <h4>${e.title}</h4>
-                <div class="rgu-next-event-line"></div>
-                <span>${e.sub}</span>
-            </div>
-        </a>
-        `;
+                    mobileCard.innerHTML = `
+<a href="${e.link}" style="text-decoration:none;color:white;">
+<div class="rgu-next-event-content">
+<h4>${e.title}</h4>
+<div class="rgu-next-event-line"></div>
+<span>${e.sub}</span>
+</div>
+</a>
+`;
 
-        };
+                };
 
-        });
+            });
 
         });
 
         /* ================= 5. WHAT'S NEXT EVENTS TABBING ================= */
         const eventCards = document.querySelectorAll(".rgu-next-card");
         eventCards.forEach(card => {
-        card.addEventListener("mouseenter", function() {
-        eventCards.forEach(c => c.classList.remove("is-active"));
-        this.classList.add("is-active");
-        });
-        });
-        </script>
-
-        <script>
-            const items = document.querySelectorAll(".rgu-research-item");
-            const lightbox = document.getElementById("researchLightbox");
-            const lightboxImg = document.getElementById("lightboxImg");
-            const closeBtn = document.querySelector(".rgu-lightbox-close");
-
-            items.forEach((item) => {
-                item.addEventListener("click", () => {
-                    lightbox.style.display = "flex";
-                    lightboxImg.src = item.src;
-                });
+            card.addEventListener("mouseenter", function() {
+                eventCards.forEach(c => c.classList.remove("is-active"));
+                this.classList.add("is-active");
             });
+        });
+    </script>
 
-            closeBtn.onclick = () => {
-                lightbox.style.display = "none";
-            };
 
-            lightbox.onclick = (e) => {
-                if (e.target === lightbox) {
-                    lightbox.style.display = "none";
-                }
-            };
-        </script>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-
-                /* ================= RESEARCH DATA ================= */
-
-                const researchData = [{
-                        img: "new-web/assets/img/index/labs/architecture.png",
-                        title: "Architecture Lab",
-                        link: "https://rgu.ac/lab-architecture",
-                    },
-
-                    {
-                        img: "new-web/assets/img/index/labs/biochem.png",
-                        title: "Biochemistry Lab",
-                        link: "https://rgu.ac/lab-bio-chemistry",
-                    },
-
-                    {
-                        img: "new-web/assets/img/index/labs/bioscience-research-lab.png",
-                        title: "Bioscience Research Lab",
-                        link: "https://rgu.ac/lab-bioscience-research",
-                    },
-
-                    {
-                        img: "new-web/assets/img/index/labs/biotech-lab.png",
-                        title: "Biotechnology Lab",
-                        link: "https://rgu.ac/lab-biotech",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/botany.png",
-                        title: "Botany Lab",
-                        link: "https://rgu.ac/lab-botany",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/chemistry.png",
-                        title: "Chemistry Lab",
-                        link: "https://rgu.ac/lab-chemistry",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/civil-engg-lab.png",
-                        title: "Civil Engineering Lab",
-                        link: "https://rgu.ac/lab-civilengineering",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/computer-lab.png",
-                        title: "Computer Lab",
-                        link: "https://rgu.ac/lab-computer",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/diagnostic.png",
-                        title: "Diagonastic Lab",
-                        link: "https://rgu.ac/lab-diagnostic",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/electrical.png",
-                        title: "Electrical Lab",
-                        link: "https://rgu.ac/lab-electrical",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/electronic.png",
-                        title: "Electronic Lab",
-                        link: "https://rgu.ac/lab-electronic",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/engineeringdrawing.png",
-                        title: "Engineering Drawing Lab",
-                        link: "https://rgu.ac/lab-engineering_drawing",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/ev.jpeg",
-                        title: "Electric Vehicle Lab",
-                        link: "https://rgu.ac/lab-ev-lab",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/foodtech.png",
-                        title: "Food Technology Lab",
-                        link: "https://rgu.ac/lab-foodteach",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/forensic.png",
-                        title: "Forensic Lab",
-                        link: "https://rgu.ac/lab-forensic-lab",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/hotelmanagement.png",
-                        title: "Hotel Management Lab",
-                        link: "https://rgu.ac/lab-hotelmanagement",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/interior.png",
-                        title: "Interior Designing Lab",
-                        link: "https://rgu.ac/lab-interior",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/language.png",
-                        title: "Language Lab",
-                        link: "https://rgu.ac/lab-language-lab",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/mechanical-engg.png",
-                        title: "Mechanical Lab",
-                        link: "https://rgu.ac/lab-mechanical",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/microbio.png",
-                        title: "Microbiology Lab",
-                        link: "https://rgu.ac/lab-microbiology",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/nursing.png",
-                        title: "Nursing Lab",
-                        link: "https://rgu.ac/lab-nursing",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/observe.jpeg",
-                        title: "Royal Observatory",
-                        link: "https://rgu.ac/lab-astronomy",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/operation.png",
-                        title: "Operation Theatre Lab",
-                        link: "https://rgu.ac/lab-operation_theater",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/optometry.png",
-                        title: "Optometry Lab",
-                        link: "https://rgu.ac/lab-optometry",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/pharmacy.png",
-                        title: "Pharmacutical Lab",
-                        link: "https://rgu.ac/lab-pharmacy",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/physics.png",
-                        title: "Physics Lab",
-                        link: "https://rgu.ac/lab-physics",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/physiotherapy.png",
-                        title: "Physiotherapy Lab",
-                        link: "https://rgu.ac/lab-physiotherapy",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/radiology.png",
-                        title: "Radiology Lab",
-                        link: "https://rgu.ac/lab-radiography",
-                    },
-                    {
-                        img: "new-web/assets/img/index/labs/zoology.png",
-                        title: "Zoology Lab",
-                        link: "https://rgu.ac/lab-zoology",
-                    },
-                ];
-
-
-                const rdTrack = document.getElementById("rdTrack");
-                const rdPrevBtn = document.querySelector(".rgu-lab-prev");
-                const rdNextBtn = document.querySelector(".rgu-lab-next");
-
-
-
-                /* ================= GENERATE CARDS ================= */
-
-                researchData.forEach(item => {
-
-                    const card = document.createElement("a");
-
-                    card.className = "rgu-lab-card";
-                    card.href = item.link;
-
-                    card.innerHTML = `
-            <img src="${item.img}" alt="${item.title}">
-            <div class="rgu-lab-overlay"></div>
-
-            <div class="rgu-lab-card-content">
-                <h4>${item.title}</h4>
-            </div>
-
-            <div class="rgu-lab-cta">
-                DISCOVER MORE +
-            </div>
-        `;
-
-                    rdTrack.appendChild(card);
-
-                });
-
-
-
-                /* ================= SLIDER ================= */
-
-                const rdCards = document.querySelectorAll(".rgu-lab-card");
-
-                if (rdTrack && rdCards.length > 0) {
-
-                    let rdAutoScroll;
-
-                    function getScrollAmount() {
-                        return rdCards[0].offsetWidth + 48;
-                    }
-
-                    function moveSlide(direction) {
-
-                        if (direction === "next") {
-
-                            if (rdTrack.scrollLeft + rdTrack.clientWidth >= rdTrack.scrollWidth - 10) {
-
-                                rdTrack.scrollTo({
-                                    left: 0,
-                                    behavior: "smooth"
-                                });
-
-                            } else {
-
-                                rdTrack.scrollBy({
-                                    left: getScrollAmount(),
-                                    behavior: "smooth"
-                                });
-
-                            }
-
-                        } else if (direction === "prev") {
-
-                            if (rdTrack.scrollLeft <= 0) {
-
-                                rdTrack.scrollTo({
-                                    left: rdTrack.scrollWidth,
-                                    behavior: "smooth"
-                                });
-
-                            } else {
-
-                                rdTrack.scrollBy({
-                                    left: -getScrollAmount(),
-                                    behavior: "smooth"
-                                });
-
-                            }
-
-                        }
-
-                    }
-
-
-
-                    /* BUTTON EVENTS */
-
-                    rdNextBtn?.addEventListener("click", () => {
-                        moveSlide("next");
-                        resetAuto();
-                    });
-
-                    rdPrevBtn?.addEventListener("click", () => {
-                        moveSlide("prev");
-                        resetAuto();
-                    });
-
-
-
-                    /* AUTO SLIDE */
-
-                    function startAuto() {
-
-                        rdAutoScroll = setInterval(() => {
-                            moveSlide("next");
-                        }, 3500);
-
-                    }
-
-                    function resetAuto() {
-
-                        clearInterval(rdAutoScroll);
-                        startAuto();
-
-                    }
-
-
-
-                    /* HOVER PAUSE */
-
-                    rdTrack.addEventListener("mouseenter", () => clearInterval(rdAutoScroll));
-                    rdTrack.addEventListener("mouseleave", startAuto);
-
-
-
-                    startAuto();
-
-                }
-
-            });
-        </script>
-
-        <!-- Popup Overlay -->
-        @include('frontend/components/new-web/popup')
-    @endsection
+    <!-- Popup Overlay -->
+    @include('frontend/components/new-web/popup')
+@endsection
