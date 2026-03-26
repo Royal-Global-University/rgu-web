@@ -315,7 +315,7 @@
                 <div class="rgu-rd-left">
 
                     <div class="rgu-rd-image">
-                        <img src="new-web/assets/img/index/facts.svg" alt="Research Statistics">
+                        <img src="new-web/assets/img/research.png" alt="Research Statistics">
                     </div>
 
                     <div style="margin-bottom: 20px;" class="rgu-next-viewall">
