@@ -298,7 +298,7 @@
               <p class="card-designation">
                 Assistant Professor
               </p>
-
+              <a href="/faculty-radhika-sharma" class="profile-link">View Profile</a>
             </div>
           </div>
 
