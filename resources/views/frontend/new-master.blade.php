@@ -16,9 +16,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="new-web/css/style.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{ asset('new-web/css/style.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('new-web/css/global.css') }}?v={{ time() }}">
 
-    <link rel="stylesheet" href="new-web/css/global.css">
+    <link rel="stylesheet" href="">
 
     <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
         sizes="32x32" />
@@ -70,15 +72,25 @@ s.async=true;
 s.src="https://track.nopaperforms.com/js/track.js";
 document.body.appendChild(s);
 </script>
-<script src="new-web/js/script.js"></script>
-<script src="new-web/js/index-js/all-labs.js"></script>
-<script src="new-web/js/index-js/phd-modal.js"></script>
-<script src="new-web/js/index-js/academics-course.js"></script>
-<script src="new-web/js/index-js/e-board-slider.js"></script>
-<script src="new-web/js/index-js/footprints.js"></script>
-<script src="new-web/js/index-js/news.js"></script>
-<script src="new-web/js/index-js/research-labs.js"></script>
-<script src="new-web/js/index-js/rgu-lagecy.js"></script>
-<script src="new-web/js/index-js/testimonial.js"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/script.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/all-labs.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/phd-modal.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/academics-course.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/e-board-slider.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/footprints.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/news.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/research-labs.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/rgu-lagecy.js') }}?v={{ time() }}"></script>
+<script src=""></script>
+<script src="{{ asset('new-web/js/index-js/testimonial.js') }}?v={{ time() }}"></script>
 
 </html>
