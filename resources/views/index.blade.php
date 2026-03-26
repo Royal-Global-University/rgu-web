@@ -478,6 +478,8 @@
 
     </section>
 
+    {{-- All array script --}}
+
     {{-- whats next at RGU --}}
     <script>
         document.addEventListener("DOMContentLoaded", () => {
