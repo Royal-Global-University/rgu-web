@@ -19,7 +19,7 @@
 
             <!-- February -->
             <div class="col-lg-4 p-2">
-                <a href="#"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 28-02-2025.pdf"
                     style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;">
                     February
                 </a>
@@ -43,7 +43,7 @@
 
             <!-- July -->
             <div class="col-lg-4 p-2">
-                <a href="#"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-07-2025.pdf"
                     style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;">
                     July
                 </a>
@@ -51,7 +51,7 @@
 
             <!-- August -->
             <div class="col-lg-4 p-2">
-                <a href="#"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-07-2025.pdf"
                     style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;">
                     August
                 </a>
@@ -81,21 +81,21 @@
                     <div class="row text-center">
 
                         <div class="col-4">
-                            <a href="/mobile-assets/pdf/apr1.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 01-04-2025.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     1</div>
                             </a>
                         </div>
 
                         <div class="col-4">
-                            <a href="/mobile-assets/pdf/apr2.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-04-2025.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     2</div>
                             </a>
                         </div>
 
                         <div class="col-4">
-                            <a href="/mobile-assets/pdf/apr3.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-04-2025(1).pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     3</div>
                             </a>
@@ -120,14 +120,14 @@
                     <div class="row text-center">
 
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/may1.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-05-2025.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     1</div>
                             </a>
                         </div>
 
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/may2.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-05-2025(1).pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     2</div>
                             </a>
@@ -152,14 +152,14 @@
                     <div class="row text-center">
 
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/oct1.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 13-10-2025.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     1</div>
                             </a>
                         </div>
 
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/oct2.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-10-2025.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     2</div>
                             </a>
