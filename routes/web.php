@@ -18,15 +18,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/research-development', function () {
-    return view('frontend/rgu-research/research-development');
-});
-
-Route::get('/test-research', function () {
-    return view('frontend/rgu-research/test-research');
-});
-
-
 Route::get('/test', function () {
     return view('test');
 });

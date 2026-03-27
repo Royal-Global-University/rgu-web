@@ -606,7 +606,12 @@
                         alt="Research Head" />
                 </section>
 
-                <section class="urd_ecosystem_wrapper" id="urd_eco_trigger_desktop">
+                <section>
+                    <img src="/mobile-assets/research/new-research-facts.png" class="urd_hero_image pt-2 pb-2"
+                        alt="Research Head" />
+                </section>
+
+                {{-- <section class="urd_ecosystem_wrapper" id="urd_eco_trigger_desktop">
                     <div class="urd_eco_flex_container">
                         <div class="urd_eco_col_group">
                             <img src="mobile-assets/research-development/ecosystem/new-eco/a12.png"
@@ -627,7 +632,7 @@
                                 class="urd_eco_floating_card" alt="Stat F" />
                         </div>
                     </div>
-                </section>
+                </section> --}}
 
                 <section class="urd_scroller_section">
                     <div class="urd_section_main_title">
