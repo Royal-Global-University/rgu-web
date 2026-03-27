@@ -8,7 +8,7 @@
 
         <div class="unq-rgu-ftr-container">
             <div class="unq-rgu-ftr-header">
-                <img src="new-web/assets/img/logo/dark-logo.svg" alt="The Assam Royal Global University"
+                <img src="/new-web/assets/img/logo/dark-logo.svg" alt="The Assam Royal Global University"
                     class="unq-rgu-ftr-logo-placeholder">
                 <p class="unq-rgu-ftr-tagline">
                     The Assam Royal Global University (RGU), one of the premium universities in India, has continuously
@@ -32,6 +32,7 @@
                                 Criteria</a></li>
                         <li><a href="https://rgu.ac/admission-programs-fees-structure">Fees 2026–27</a></li>
                         <li><a href="https://rgu.ac/how-to-apply">How to Apply</a></li>
+                        <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
                         <li><a href="https://rgu.ac/faq">FAQs</a></li>
                         <li><a href="https://rgu.ac/contact">Admission Offices</a></li>
                         <li><a href="https://rgu.ac/scholarship&funding">Scholarships & Funding</a></li>
@@ -93,7 +94,6 @@
                         {{-- <li><a href="#">Women Helpline No.</a></li> --}}
                         <li><a href="https://rgu.ac/internal-complaints-committee">Internal Complaints Committee</a>
                         </li>
-                        <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
                         <li><a href="https://rgu.ac/institutional-development-plan">Institutional Development Plan</a>
                         </li>
                         <li><a href="https://shodhchakra.inflibnet.ac.in/">Shodh Chakra</a></li>

@@ -1096,7 +1096,7 @@ h6 {
 .pg-hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(20, 40, 70, 0.24);
+    background: rgba(20, 40, 70, 0.459);
     z-index: 2;
 }
 

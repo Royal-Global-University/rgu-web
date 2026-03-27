@@ -11,7 +11,7 @@
         <div class="header-inner">
 
             <div class="logo">
-                <a href="/"><img src="new-web/assets/img/logo/light-logo.png"
+                <a href="/"><img src="/new-web/assets/img/logo/light-logo.png"
                         alt="Royal Global University Logo"></a>
             </div>
 

@@ -5729,3 +5729,11 @@ Route::get('/botany-botanique-3.0', function () {
 })->name('botany-botanique-3.0');
 
 
+
+// TEST LINK
+
+Route::get('/test/preface', function () {
+    return view('frontend/test/preface');
+})->name('/test/preface');
+
+
