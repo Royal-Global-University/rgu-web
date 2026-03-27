@@ -723,7 +723,6 @@
                                                 <li><strong>Ms. Afsana Laskar</strong> - Assistant Professor</li>
                                                 <li><strong>Mr. Spandan Barthakur</strong> - Assistant Professor</li>
                                                 <li><strong>Ms. Bidisha Goswami</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Akangkhi Borah</strong> - Assistant Professor</li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -2421,8 +2420,7 @@
                                                                     Professor</li>
                                                                 <li><strong>Ms. Bidisha Goswami</strong> - Assistant
                                                                     Professor</li>
-                                                                <li><strong>Ms. Akangkhi Borah</strong> - Assistant
-                                                                    Professor</li>
+
                                                             </ul>
                                                         </td>
                                                     </tr>

@@ -762,6 +762,36 @@ Route::get('/placement-contacts', function () {
 
 //phd
 
+Route::get('/phd-awarded', function () {
+    return view('frontend/phd-award/phd-awarded');
+})->name('phd-awarded');
+
+Route::get('/phd-awarded-2023', function () {
+    return view('frontend/phd-award/2023/phd-awarded-2023');
+})->name('phd-awarded-2023');
+
+Route::get('/phd-awarded-2024', function () {
+    return view('frontend/phd-award/2024/phd-awarded-2024');
+})->name('phd-awarded-2024');
+
+Route::get('/phd-awarded-2025', function () {
+    return view('frontend/phd-award/2025/phd-awarded-2025');
+})->name('phd-awarded-2025');
+
+Route::get('/doctoral-hotel-management', function () {
+    return view('frontend/phd/doctoral-hotel-management');
+})->name('doctoral-hotel-management');
+
+Route::get('/doctoral-hotel-management', function () {
+    return view('frontend/phd/doctoral-hotel-management');
+})->name('doctoral-hotel-management');
+
+Route::get('/doctoral-hotel-management', function () {
+    return view('frontend/phd/doctoral-hotel-management');
+})->name('doctoral-hotel-management');
+
+
+
 Route::get('/doctoral-hotel-management', function () {
     return view('frontend/phd/doctoral-hotel-management');
 })->name('doctoral-hotel-management');

@@ -894,7 +894,7 @@
                                         <li>Ms. Priyankita Priyam Thakuria</li>
                                         <li>Dr. Annu Kumari</li>
                                         <li>Dr. P. Wankitlang Shangpliang</li>
-                                        <li>Ms. Akangkhi Borah</li>
+
                                     </ol>
                                 </td>
                                 <td>Patent</td>
@@ -2105,7 +2105,7 @@
                                         <li>Ms. Priyankita Priyam Thakuria</li>
                                         <li>Dr. Annu Kumari</li>
                                         <li>Dr. P. Wankitlang Shangpliang</li>
-                                        <li>Ms. Akangkhi Borah</li>
+                                       
                                     </ol>
                                 </td>
                                 <td>Patent</td>
