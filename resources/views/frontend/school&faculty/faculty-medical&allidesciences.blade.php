@@ -364,7 +364,7 @@
                                 <div class="card-image">
                                     <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg" alt="Profile image">
                                 </div>
-                                <h3 class="card-name">Ms. Monalisha Medhi</h3>
+                                <h3 class="card-name">Dr. Monalisha Medhi</h3>
                                 <p class="card-designation">Assistant Professor, IKS</p>
                                 <a href="https://www.rgu.ac/faculty-monalisha-medhi" class="profile-link">View Profile</a>
                             </div>

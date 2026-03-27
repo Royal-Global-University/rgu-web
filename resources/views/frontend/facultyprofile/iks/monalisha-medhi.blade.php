@@ -30,7 +30,7 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Ms. Monalisha Medhi
+                                Dr. Monalisha Medhi
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
@@ -55,7 +55,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D. (Pursuing) – Folklore Studies, Gauhati University
+                                            Ph.D. – Folklore Studies, Gauhati University
                                         </span>
                                     </li>
                                     <li
@@ -434,7 +434,7 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Ms. Monalisha Medhi
+                            Dr. Monalisha Medhi
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
@@ -469,7 +469,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D. (Pursuing) – Folklore Studies, Gauhati University
+                                        Ph.D. – Folklore Studies, Gauhati University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">

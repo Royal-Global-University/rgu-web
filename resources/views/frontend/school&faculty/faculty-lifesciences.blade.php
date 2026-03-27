@@ -437,7 +437,7 @@
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg" alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Monalisha Medhi</h3>
+                            <h3 class="card-name">Dr. Monalisha Medhi</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-monalisha-medhi" class="profile-link">View Profile</a>
                         </div>
@@ -449,7 +449,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Ayushman-Devraj-RSL.png"
                                     alt="Profile image of Ayushman Devraj">
                             </div>
-                            <h3 class="card-name">Mr. Ayushman Devraj</h3>
+                            <h3 class="card-name">Dr. Ayushman Devraj</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
                         </div>

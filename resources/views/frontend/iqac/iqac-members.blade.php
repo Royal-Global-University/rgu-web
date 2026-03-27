@@ -175,7 +175,7 @@
                         </tr>
                         <tr>
                             <td>11</td>
-                            <td>Mr. Ayushman Devraj</td>
+                            <td>Dr. Ayushman Devraj</td>
                             <td>Assistant Professor, RSL</td>
                             <td>Member</td>
                         </tr>

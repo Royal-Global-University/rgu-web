@@ -11,7 +11,8 @@
         <div class="header-inner">
 
             <div class="logo">
-                <a href="/"><img src="new-web/assets/img/logo/light-logo.png" alt="Royal Global University Logo"></a>
+                <a href="/"><img src="new-web/assets/img/logo/light-logo.png"
+                        alt="Royal Global University Logo"></a>
             </div>
 
             <div class="header-actions-mobile">
@@ -67,11 +68,11 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/preface" class="m-sub-acc-link">Preface</a>
-                                        <a href="https://rgu.ac/vision-mission" class="m-sub-acc-link">Vision and
+                                        <a href="/preface" class="m-sub-acc-link">Preface</a>
+                                        <a href="/vision-mission" class="m-sub-acc-link">Vision and
                                             Mission</a>
-                                        <a href="https://rgu.ac/footprints" class="m-sub-acc-link">Royal Footprints</a>
-                                        <a href="https://rgu.ac/360-tour" class="m-sub-acc-link">360° Tour</a>
+                                        <a href="/footprints" class="m-sub-acc-link">Royal Footprints</a>
+                                        <a href="/360-tour" class="m-sub-acc-link">360° Tour</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,18 +82,18 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/leadership" class="m-sub-acc-link">Leadership Team</a>
-                                        <a href="https://rgu.ac/advisory-leadership" class="m-sub-acc-link">Advisory
+                                        <a href="/leadership" class="m-sub-acc-link">Leadership Team</a>
+                                        <a href="/advisory-leadership" class="m-sub-acc-link">Advisory
                                             Leadership</a>
-                                        <a href="https://rgu.ac/deans" class="m-sub-acc-link">Deans’ Corner</a>
-                                        <a href="https://rgu.ac/chief-vigilance-officer" class="m-sub-acc-link">Chief
+                                        <a href="/deans" class="m-sub-acc-link">Deans’ Corner</a>
+                                        <a href="/chief-vigilance-officer" class="m-sub-acc-link">Chief
                                             Vigilance Officer</a>
-                                        <a href="https://rgu.ac/ombudsperson" class="m-sub-acc-link">Ombudsperson</a>
-                                        <a href="https://rgu.ac/governing-body" class="m-sub-acc-link">Governing
+                                        <a href="/ombudsperson" class="m-sub-acc-link">Ombudsperson</a>
+                                        <a href="/governing-body" class="m-sub-acc-link">Governing
                                             Body</a>
-                                        <a href="https://rgu.ac/board-of-management" class="m-sub-acc-link">Board of
+                                        <a href="/board-of-management" class="m-sub-acc-link">Board of
                                             Management</a>
-                                        <a href="https://rgu.ac/academic-council" class="m-sub-acc-link">Academic
+                                        <a href="/academic-council" class="m-sub-acc-link">Academic
                                             Council</a>
                                     </div>
                                 </div>
@@ -103,17 +104,17 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/internal-complaints-committee"
-                                            class="m-sub-acc-link">Internal Complaints Committee</a>
-                                        <a href="https://rgu.ac/university-research-committee"
-                                            class="m-sub-acc-link">University Research Committee</a>
-                                        <a href="https://rgu.ac/institutional-ethical-committee"
+                                        <a href="/internal-complaints-committee" class="m-sub-acc-link">Internal
+                                            Complaints Committee</a>
+                                        <a href="/university-research-committee" class="m-sub-acc-link">University
+                                            Research Committee</a>
+                                        <a href="/institutional-ethical-committee"
                                             class="m-sub-acc-link">Institutional Ethical Committee</a>
-                                        <a href="https://rgu.ac/nss-advisory-committee" class="m-sub-acc-link">NSS
+                                        <a href="/nss-advisory-committee" class="m-sub-acc-link">NSS
                                             Advisory Committee</a>
-                                        <a href="https://rgu.ac/anti-ragging" class="m-sub-acc-link">Anti Ragging
+                                        <a href="/anti-ragging" class="m-sub-acc-link">Anti Ragging
                                             Committee</a>
-                                        <a href="https://rgu.ac/proctorial" class="m-sub-acc-link">Proctorial
+                                        <a href="/proctorial" class="m-sub-acc-link">Proctorial
                                             Board</a>
                                     </div>
                                 </div>
@@ -125,11 +126,11 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/statutes-ordinance-policies"
-                                            class="m-sub-acc-link">Statutes, Ordinance and Policies</a>
-                                        <a href="https://rgu.ac/organogram-planning" class="m-sub-acc-link">Organogram
+                                        <a href="/statutes-ordinance-policies" class="m-sub-acc-link">Statutes,
+                                            Ordinance and Policies</a>
+                                        <a href="/organogram-planning" class="m-sub-acc-link">Organogram
                                             and Planning</a>
-                                        <a href="https://rgu.ac/self-disclosure" class="m-sub-acc-link">Public Self
+                                        <a href="/self-disclosure" class="m-sub-acc-link">Public Self
                                             Disclosure</a>
                                     </div>
                                 </div>
@@ -140,12 +141,12 @@
                                         class="bi bi-chevron-down"></i></div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/recognition-accreditation"
-                                            class="m-sub-acc-link">Recognition and Accreditation</a>
-                                        <a href="https://rgu.ac/association-tieup" class="m-sub-acc-link">Associations
+                                        <a href="/recognition-accreditation" class="m-sub-acc-link">Recognition and
+                                            Accreditation</a>
+                                        <a href="/association-tieup" class="m-sub-acc-link">Associations
                                             and Tie Ups</a>
-                                        <a href="https://rgu.ac/award" class="m-sub-acc-link">Awards and Honors</a>
-                                        <a href="https://rgu.ac/top-recruiters" class="m-sub-acc-link">Top
+                                        <a href="/award" class="m-sub-acc-link">Awards and Honors</a>
+                                        <a href="/top-recruiters" class="m-sub-acc-link">Top
                                             Recruiters</a>
                                     </div>
                                 </div>
@@ -156,16 +157,16 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/facilities" class="m-sub-acc-link">Facilities</a>
-                                        <a href="https://rgu.ac/social-outreach" class="m-sub-acc-link">Social
+                                        <a href="/facilities" class="m-sub-acc-link">Facilities</a>
+                                        <a href="/social-outreach" class="m-sub-acc-link">Social
                                             Outreach</a>
-                                        <a href="https://rgu.ac/diversity-inclusion" class="m-sub-acc-link">Diversity
+                                        <a href="/diversity-inclusion" class="m-sub-acc-link">Diversity
                                             and Inclusion</a>
-                                        <a href="https://rgu.ac/diversechoices" class="m-sub-acc-link">Diverse
+                                        <a href="/diversechoices" class="m-sub-acc-link">Diverse
                                             Choices</a>
-                                        <a href="https://rgu.ac/strategic-location" class="m-sub-acc-link">Strategic
+                                        <a href="/strategic-location" class="m-sub-acc-link">Strategic
                                             Location</a>
-                                        <a href="https://rgu.ac/success" class="m-sub-acc-link">Success Stories</a>
+                                        <a href="/success" class="m-sub-acc-link">Success Stories</a>
                                     </div>
                                 </div>
                             </div>
@@ -184,11 +185,11 @@
                                 <div class="m-sub-acc-header">ACADEMICS <i class="bi bi-chevron-down"></i></div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/schools-rgu" class="m-sub-acc-link">Our Schools and
+                                        <a href="/schools-rgu" class="m-sub-acc-link">Our Schools and
                                             Faculties</a>
-                                        <a href="https://rgu.ac/phd" class="m-sub-acc-link">Doctoral Programme</a>
-                                        <a href="https://rgu.ac/multi-disciplinary"
-                                            class="m-sub-acc-link">Multidisciplinary Courses</a>
+                                        <a href="/phd" class="m-sub-acc-link">Doctoral Programme</a>
+                                        <a href="/multi-disciplinary" class="m-sub-acc-link">Multidisciplinary
+                                            Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -198,16 +199,14 @@
                                         class="bi bi-chevron-down"></i></div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/net-set-gate-coaching"
-                                            class="m-sub-acc-link">NET/SET/GATE
+                                        <a href="/net-set-gate-coaching" class="m-sub-acc-link">NET/SET/GATE
                                             Coaching</a>
-                                        <a href="https://rgu.ac/workshops-guest-lectures" class="m-sub-acc-link">Guest
+                                        <a href="/workshops-guest-lectures" class="m-sub-acc-link">Guest
                                             Lectures/ Workshops</a>
-                                        <a href="https://rgu.ac/teaching-practice" class="m-sub-acc-link">Teaching
+                                        <a href="/teaching-practice" class="m-sub-acc-link">Teaching
                                             Practices</a>
-                                        <a href="https://rgu.ac/human-resource-development-centre"
-                                            class="m-sub-acc-link">RCHRD</a>
-                                        <a href="https://rgu.ac/library-Resources" class="m-sub-acc-link">Library</a>
+                                        <a href="/human-resource-development-centre" class="m-sub-acc-link">RCHRD</a>
+                                        <a href="/library-Resources" class="m-sub-acc-link">Library</a>
                                     </div>
                                 </div>
                             </div>
@@ -217,9 +216,9 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/innovation" class="m-sub-acc-link">Innovation
+                                        <a href="/innovation" class="m-sub-acc-link">Innovation
                                             Council</a>
-                                        <a href="https://rgu.ac/laboratories" class="m-sub-acc-link">Laboratories</a>
+                                        <a href="/laboratories" class="m-sub-acc-link">Laboratories</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,8 +228,8 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/achievements" class="m-sub-acc-link">Achievements</a>
-                                        <a href="https://rgu.ac/academic-calendar" class="m-sub-acc-link">Academic
+                                        <a href="/achievements" class="m-sub-acc-link">Achievements</a>
+                                        <a href="/academic-calendar" class="m-sub-acc-link">Academic
                                             Calendar</a>
                                     </div>
                                 </div>
@@ -251,17 +250,16 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/faq" class="m-sub-acc-link">Admission FAQs</a>
+                                        <a href="/faq" class="m-sub-acc-link">Admission FAQs</a>
                                         <a href="https://admissions.rgu.ac/" class="m-sub-acc-link">Apply Now</a>
-                                        <a href="https://rgu.ac/admission-programs-fees-structure"
-                                            class="m-sub-acc-link">Course Fee</a>
-                                        <a href="https://rgu.ac/how-to-apply" class="m-sub-acc-link">How to Apply</a>
-                                        <a href="https://rgu.ac/general-elective" class="m-sub-acc-link">General
+                                        <a href="/admission-programs-fees-structure" class="m-sub-acc-link">Course
+                                            Fee</a>
+                                        <a href="/how-to-apply" class="m-sub-acc-link">How to Apply</a>
+                                        <a href="/general-elective" class="m-sub-acc-link">General
                                             Elective</a>
-                                        <a href="https://rgu.ac/schemes-differently-abled"
-                                            class="m-sub-acc-link">Schemes for
+                                        <a href="/schemes-differently-abled" class="m-sub-acc-link">Schemes for
                                             Differently-Abled</a>
-                                        <a href="https://rgu.ac/programs" class="m-sub-acc-link">RGU Admission
+                                        <a href="/programs" class="m-sub-acc-link">RGU Admission
                                             Eligibility & Selection
                                             Criteria</a>
                                     </div>
@@ -273,9 +271,8 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/scholarship&funding"
-                                            class="m-sub-acc-link">Scholarships</a>
-                                        <a href="https://rgu.ac/deans-listers" class="m-sub-acc-link">Dean's
+                                        <a href="/scholarship&funding" class="m-sub-acc-link">Scholarships</a>
+                                        <a href="/deans-listers" class="m-sub-acc-link">Dean's
                                             Lister</a>
                                     </div>
                                 </div>
@@ -291,21 +288,21 @@
                     <div class="m-acc-content-wrapper">
                         <div class="m-acc-content">
                             <div class="m-sub-acc-content">
-                                <a href="https://rgu.ac/international-faq" class="m-sub-acc-link">International
+                                <a href="/international-faq" class="m-sub-acc-link">International
                                     FAQs</a>
-                                <a href="https://rgu.ac/international-admission-guidelines"
-                                    class="m-sub-acc-link">Admission Guidelines</a>
-                                <a href="https://rgu.ac/frro-process" class="m-sub-acc-link">FRRO Process</a>
-                                <a href="https://rgu.ac/how-to-apply-international" class="m-sub-acc-link">How to
+                                <a href="/international-admission-guidelines" class="m-sub-acc-link">Admission
+                                    Guidelines</a>
+                                <a href="/frro-process" class="m-sub-acc-link">FRRO Process</a>
+                                <a href="/how-to-apply-international" class="m-sub-acc-link">How to
                                     Apply</a>
-                                <a href="https://rgu.ac/international-student-helpline" class="m-sub-acc-link">Student
+                                <a href="/international-student-helpline" class="m-sub-acc-link">Student
                                     Helpline</a>
-                                <a href="https://rgu.ac/campus-job" class="m-sub-acc-link">On Campus Job</a>
-                                <a href="https://rgu.ac/pre-arrival" class="m-sub-acc-link">Pre/Post Arrival</a>
-                                <a href="https://rgu.ac/scholarships-international" class="m-sub-acc-link">Scholarship
+                                <a href="/campus-job" class="m-sub-acc-link">On Campus Job</a>
+                                <a href="/pre-arrival" class="m-sub-acc-link">Pre/Post Arrival</a>
+                                <a href="/scholarships-international" class="m-sub-acc-link">Scholarship
                                     for International Students</a>
-                                <a href="https://rgu.ac/visa-information" class="m-sub-acc-link">Visa Information</a>
-                                <a href="https://rgu.ac/why-india" class="m-sub-acc-link">Why India</a>
+                                <a href="/visa-information" class="m-sub-acc-link">Visa Information</a>
+                                <a href="/why-india" class="m-sub-acc-link">Why India</a>
                             </div>
                         </div>
                     </div>
@@ -323,18 +320,18 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/banking-services" class="m-sub-acc-link">Banking
+                                        <a href="/banking-services" class="m-sub-acc-link">Banking
                                             Service</a>
-                                        <a href="https://rgu.ac/department-store" class="m-sub-acc-link">Departmental
+                                        <a href="/department-store" class="m-sub-acc-link">Departmental
                                             Store</a>
-                                        <a href="https://rgu.ac/hangout" class="m-sub-acc-link">Hangout</a>
-                                        <a href="https://rgu.ac/medical-facility" class="m-sub-acc-link">Medical
+                                        <a href="/hangout" class="m-sub-acc-link">Hangout</a>
+                                        <a href="/medical-facility" class="m-sub-acc-link">Medical
                                             Facility</a>
-                                        <a href="https://rgu.ac/laundry" class="m-sub-acc-link">Laundry</a>
-                                        <a href="https://rgu.ac/salon" class="m-sub-acc-link">Salon</a>
-                                        <a href="https://rgu.ac/stationary-store" class="m-sub-acc-link">Stationary
+                                        <a href="/laundry" class="m-sub-acc-link">Laundry</a>
+                                        <a href="/salon" class="m-sub-acc-link">Salon</a>
+                                        <a href="/stationary-store" class="m-sub-acc-link">Stationary
                                             Store</a>
-                                        <a href="https://rgu.ac/guest-house" class="m-sub-acc-link">Guest House</a>
+                                        <a href="/guest-house" class="m-sub-acc-link">Guest House</a>
 
                                     </div>
                                 </div>
@@ -345,14 +342,14 @@
                                         class="bi bi-chevron-down"></i></div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/clubs" class="m-sub-acc-link">Clubs</a>
-                                        <a href="https://rgu.ac/student-affairs" class="m-sub-acc-link">Student
+                                        <a href="/clubs" class="m-sub-acc-link">Clubs</a>
+                                        <a href="/student-affairs" class="m-sub-acc-link">Student
                                             Affairs</a>
-                                        <a href="https://rgu.ac/student-gallery" class="m-sub-acc-link">Student
+                                        <a href="/student-gallery" class="m-sub-acc-link">Student
                                             Gallery</a>
-                                        <a href="https://rgu.ac/happy-happening" class="m-sub-acc-link">Happy and
+                                        <a href="/happy-happening" class="m-sub-acc-link">Happy and
                                             Happening Campus</a>
-                                        <a href="https://rgu.ac/royal-fests" class="m-sub-acc-link">Royal Fest</a>
+                                        <a href="/royal-fests" class="m-sub-acc-link">Royal Fest</a>
                                     </div>
                                 </div>
                             </div>
@@ -362,11 +359,9 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/infrastructure"
-                                            class="m-sub-acc-link">Infrastructure</a>
-                                        <a href="https://rgu.ac/hostel-life" class="m-sub-acc-link">Hostel Life</a>
-                                        <a target="_blank"
-                                            href="https://rgu.ac/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf"
+                                        <a href="/infrastructure" class="m-sub-acc-link">Infrastructure</a>
+                                        <a href="/hostel-life" class="m-sub-acc-link">Hostel Life</a>
+                                        <a target="_blank" href="/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf"
                                             class="m-sub-acc-link">Hostel Policy</a>
 
                                     </div>
@@ -379,12 +374,12 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="https://rgu.ac/games&sports" class="m-sub-acc-link">Games &
+                                        <a href="/games&sports" class="m-sub-acc-link">Games &
                                             Sports</a>
-                                        <a href="https://rgu.ac/national-cadet-corps" class="m-sub-acc-link">National
+                                        <a href="/national-cadet-corps" class="m-sub-acc-link">National
                                             Cadet Corps</a>
-                                        <a href="https://rgu.ac/national-service-scheme"
-                                            class="m-sub-acc-link">National Service Scheme</a>
+                                        <a href="/national-service-scheme" class="m-sub-acc-link">National Service
+                                            Scheme</a>
 
                                     </div>
                                 </div>
@@ -401,18 +396,17 @@
                         <div class="m-acc-content">
 
                             <div class="m-sub-acc-content">
-                                <a href="https://rgu.ac/placements-introduction"
-                                    class="m-sub-acc-link">Introduction</a>
-                                <a href="https://rgu.ac/placements-activities" class="m-sub-acc-link">Activities
+                                <a href="/placements-introduction" class="m-sub-acc-link">Introduction</a>
+                                <a href="/placements-activities" class="m-sub-acc-link">Activities
                                     Undertaken</a>
-                                <a href="https://rgu.ac/placements-facilities" class="m-sub-acc-link">Facilities
+                                <a href="/placements-facilities" class="m-sub-acc-link">Facilities
                                     Available</a>
-                                <a href="https://rgu.ac/placements-process" class="m-sub-acc-link">Placement
+                                <a href="/placements-process" class="m-sub-acc-link">Placement
                                     Process</a>
-                                <a href="https://rgu.ac/placements-events" class="m-sub-acc-link">RCCR Events</a>
-                                <a href="https://rgu.ac/top-recruiters" class="m-sub-acc-link">Recruiters</a>
-                                <a href="https://rgu.ac/success" class="m-sub-acc-link">Testimonial</a>
-                                <a href="https://rgu.ac/placement-contacts" class="m-sub-acc-link">Contacts</a>
+                                <a href="/placements-events" class="m-sub-acc-link">RCCR Events</a>
+                                <a href="/top-recruiters" class="m-sub-acc-link">Recruiters</a>
+                                <a href="/success" class="m-sub-acc-link">Testimonial</a>
+                                <a href="/placement-contacts" class="m-sub-acc-link">Contacts</a>
                             </div>
 
                         </div>
@@ -426,12 +420,12 @@
                         <div class="m-acc-content">
 
                             <div class="m-sub-acc-content">
-                                <a href="https://rgu.ac/convocation-fifth" class="m-sub-acc-link">5th Convocation</a>
-                                <a href="https://rgu.ac/convocation-fourth" class="m-sub-acc-link">4th Convocation</a>
-                                <a href="https://rgu.ac/convocation-third" class="m-sub-acc-link">3rd Convocation</a>
-                                <a href="https://rgu.ac/convocation-second" class="m-sub-acc-link">2nd Convocation</a>
-                                <a href="https://rgu.ac/convocation-first" class="m-sub-acc-link">1st Convocation</a>
-                                <a href="https://rgu.ac/honoris-causa" class="m-sub-acc-link">Honoris Causa - Hall of
+                                <a href="/convocation-fifth" class="m-sub-acc-link">5th Convocation</a>
+                                <a href="/convocation-fourth" class="m-sub-acc-link">4th Convocation</a>
+                                <a href="/convocation-third" class="m-sub-acc-link">3rd Convocation</a>
+                                <a href="/convocation-second" class="m-sub-acc-link">2nd Convocation</a>
+                                <a href="/convocation-first" class="m-sub-acc-link">1st Convocation</a>
+                                <a href="/honoris-causa" class="m-sub-acc-link">Honoris Causa - Hall of
                                     Fame</a>
                             </div>
 
@@ -441,7 +435,7 @@
 
                 <!-- RESEARCH -->
                 <div class="m-acc-item">
-                    <a style="text-decoration: none;" href="https://rgu.ac/research-devlopment" class="m-acc-header">
+                    <a style="text-decoration: none;" href="/research-devlopment" class="m-acc-header">
                         RESEARCH
                     </a>
                 </div>
@@ -482,67 +476,67 @@
 
                 <div class="mega-content active" data-content="about-1">
                     <ul>
-                        <li><a href="https://rgu.ac/preface">Preface</a></li>
-                        <li><a href="https://rgu.ac/vision-mission">Vision and Mission</a></li>
-                        <li><a href="https://rgu.ac/footprints">Royal Footprints</a></li>
-                        <li><a href="https://rgu.ac/360-tour">360° Tour</a></li>
+                        <li><a href="/preface">Preface</a></li>
+                        <li><a href="/vision-mission">Vision and Mission</a></li>
+                        <li><a href="/footprints">Royal Footprints</a></li>
+                        <li><a href="/360-tour">360° Tour</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="about-2">
                     <ul>
-                        <li><a href="https://rgu.ac/leadership">Leadership Team</a></li>
-                        <li><a href="https://rgu.ac/advisory-leadership">Advisory Leadership</a></li>
-                        <li><a href="https://rgu.ac/deans">Deans’ Corner</a></li>
-                        <li><a href="https://rgu.ac/chief-vigilance-officer">Chief Vigilance Officer</a></li>
-                        <li><a href="https://rgu.ac/ombudsperson">Ombudsperson</a></li>
-                        <li><a href="https://rgu.ac/governing-body">Governing Body</a></li>
-                        <li><a href="https://rgu.ac/board-of-management">Board of Management</a></li>
-                        <li><a href="https://rgu.ac/academic-council">Academic Council</a></li>
+                        <li><a href="/leadership">Leadership Team</a></li>
+                        <li><a href="/advisory-leadership">Advisory Leadership</a></li>
+                        <li><a href="/deans">Deans’ Corner</a></li>
+                        <li><a href="/chief-vigilance-officer">Chief Vigilance Officer</a></li>
+                        <li><a href="/ombudsperson">Ombudsperson</a></li>
+                        <li><a href="/governing-body">Governing Body</a></li>
+                        <li><a href="/board-of-management">Board of Management</a></li>
+                        <li><a href="/academic-council">Academic Council</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="about-3">
                     <ul>
-                        <li><a href="https://rgu.ac/internal-complaints-committee">Internal Complaints Committee</a>
+                        <li><a href="/internal-complaints-committee">Internal Complaints Committee</a>
                         </li>
-                        <li><a href="https://rgu.ac/university-research-committee">University Research Committee</a>
+                        <li><a href="/university-research-committee">University Research Committee</a>
                         </li>
-                        <li><a href="https://rgu.ac/institutional-ethical-committee">Institutional Ethical
+                        <li><a href="/institutional-ethical-committee">Institutional Ethical
                                 Committee</a>
                         </li>
-                        <li><a href="https://rgu.ac/nss-advisory-committee">NSS Advisory Committee</a></li>
-                        <li><a href="https://rgu.ac/anti-ragging">Anti Ragging Committee</a></li>
-                        <li><a href="https://rgu.ac/proctorial">Proctorial Board</a></li>
+                        <li><a href="/nss-advisory-committee">NSS Advisory Committee</a></li>
+                        <li><a href="/anti-ragging">Anti Ragging Committee</a></li>
+                        <li><a href="/proctorial">Proctorial Board</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="about-4">
                     <ul>
-                        <li><a href="https://rgu.ac/statutes-ordinance-policies">Statutes, Ordinance and Policies</a>
+                        <li><a href="/statutes-ordinance-policies">Statutes, Ordinance and Policies</a>
                         </li>
-                        <li><a href="https://rgu.ac/organogram-planning">Organogram and Planning</a></li>
-                        <li><a href="https://rgu.ac/self-disclosure">Public Self Disclosure</a></li>
+                        <li><a href="/organogram-planning">Organogram and Planning</a></li>
+                        <li><a href="/self-disclosure">Public Self Disclosure</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="about-5">
                     <ul>
-                        <li><a href="https://rgu.ac/recognition-accreditation">Recognition and Accreditation</a></li>
-                        <li><a href="https://rgu.ac/association-tieup">Associations and Tie Ups</a></li>
-                        <li><a href="https://rgu.ac/award">Awards and Honors</a></li>
-                        <li><a href="https://rgu.ac/top-recruiters">Top Recruiters</a></li>
+                        <li><a href="/recognition-accreditation">Recognition and Accreditation</a></li>
+                        <li><a href="/association-tieup">Associations and Tie Ups</a></li>
+                        <li><a href="/award">Awards and Honors</a></li>
+                        <li><a href="/top-recruiters">Top Recruiters</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="about-6">
                     <ul>
-                        <li><a href="https://rgu.ac/facilities">Facilities</a></li>
-                        <li><a href="https://rgu.ac/social-outreach">Social Outreach</a></li>
-                        <li><a href="https://rgu.ac/diversity-inclusion">Diversity and Inclusion</a></li>
-                        <li><a href="https://rgu.ac/diversechoices">Diverse Choices</a></li>
-                        <li><a href="https://rgu.ac/strategic-location">Strategic Location</a></li>
-                        <li><a href="https://rgu.ac/success">Success Stories</a></li>
+                        <li><a href="/facilities">Facilities</a></li>
+                        <li><a href="/social-outreach">Social Outreach</a></li>
+                        <li><a href="/diversity-inclusion">Diversity and Inclusion</a></li>
+                        <li><a href="/diversechoices">Diverse Choices</a></li>
+                        <li><a href="/strategic-location">Strategic Location</a></li>
+                        <li><a href="/success">Success Stories</a></li>
                     </ul>
                 </div>
 
@@ -552,7 +546,7 @@
         <div class="mega-bottom">
             <div class="mega-bottom-inner">
                 <h2>Get Amazing Experience With Us</h2>
-                <a href="https://rgu.ac/admission-programs-fees-structure" class="mega-cta">EXPLORE COURSES</a>
+                <a href="/admission-programs-fees-structure" class="mega-cta">EXPLORE COURSES</a>
             </div>
         </div>
     </div>
@@ -584,9 +578,9 @@
 
                 <div class="mega-content active" data-content="acad-1">
                     <ul>
-                        <li><a href="https://rgu.ac/schools-rgu">Our Schools and Faculties</a></li>
-                        <li><a href="https://rgu.ac/phd">Doctoral Programme</a></li>
-                        <li><a href="https://rgu.ac/multi-disciplinary">Multidisciplinary/ Interdisciplinary
+                        <li><a href="/schools-rgu">Our Schools and Faculties</a></li>
+                        <li><a href="/phd">Doctoral Programme</a></li>
+                        <li><a href="/multi-disciplinary">Multidisciplinary/ Interdisciplinary
                                 Courses</a>
                         </li>
                     </ul>
@@ -594,19 +588,19 @@
 
                 <div class="mega-content" data-content="acad-2">
                     <ul>
-                        <li><a href="https://rgu.ac/net-set-gate-coaching">NET/SET/GATE Coaching</a></li>
-                        <li><a href="https://rgu.ac/workshops-guest-lectures">Guest Lectures/ Workshops</a></li>
-                        <li><a href="https://rgu.ac/teaching-practice">Teaching Practices</a></li>
-                        <li><a href="https://rgu.ac/library-Resources">Library</a></li>
-                        <li><a href="https://rgu.ac/human-resource-development-centre">Royal Centre For Human Resource
+                        <li><a href="/net-set-gate-coaching">NET/SET/GATE Coaching</a></li>
+                        <li><a href="/workshops-guest-lectures">Guest Lectures/ Workshops</a></li>
+                        <li><a href="/teaching-practice">Teaching Practices</a></li>
+                        <li><a href="/library-Resources">Library</a></li>
+                        <li><a href="/human-resource-development-centre">Royal Centre For Human Resource
                                 Development (RCHRD)</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="acad-3">
                     <ul>
-                        <li><a href="https://rgu.ac/laboratories">Laboratories</a></li>
-                        <li><a href="https://rgu.ac/innovation">Institution's Innovation Council (IIC-RGU)</a></li>
+                        <li><a href="/laboratories">Laboratories</a></li>
+                        <li><a href="/innovation">Institution's Innovation Council (IIC-RGU)</a></li>
 
                     </ul>
                 </div>
@@ -614,8 +608,8 @@
 
                 <div class="mega-content" data-content="acad-5">
                     <ul>
-                        <li><a href="https://rgu.ac/achievements">Achievements</a></li>
-                        <li><a href="https://rgu.ac/academic-calendar">Academic Calendar</a></li>
+                        <li><a href="/achievements">Achievements</a></li>
+                        <li><a href="/academic-calendar">Academic Calendar</a></li>
                     </ul>
                 </div>
 
@@ -626,7 +620,7 @@
         <div class="mega-bottom">
             <div class="mega-bottom-inner">
                 <h2>Shape Your Future With Us</h2>
-                <a href="https://rgu.ac/admission-programs-fees-structure" class="mega-cta">VIEW ALL PROGRAMS</a>
+                <a href="/admission-programs-fees-structure" class="mega-cta">VIEW ALL PROGRAMS</a>
             </div>
         </div>
     </div>
@@ -652,20 +646,20 @@
 
                 <div class="mega-content active" data-content="res-1">
                     <ul>
-                        <li><a href="https://rgu.ac/faq">Admission FAQs</a></li>
+                        <li><a href="/faq">Admission FAQs</a></li>
                         <li><a href="https://admissions.rgu.ac/">Apply Now!</a></li>
-                        <li><a href="https://rgu.ac/admission-programs-fees-structure">Course Fee</a></li>
-                        <li><a href="https://rgu.ac/how-to-apply">How to Apply?</a></li>
-                        <li><a href="https://rgu.ac/general-elective">General Elective</a></li>
-                        <li><a href="https://rgu.ac/schemes-differently-abled">Schemes for Differently-Abled</a></li>
-                        <li><a href="https://rgu.ac/programs">RGU Admission Eligibility & Selection Criteria</a></li>
+                        <li><a href="/admission-programs-fees-structure">Course Fee</a></li>
+                        <li><a href="/how-to-apply">How to Apply?</a></li>
+                        <li><a href="/general-elective">General Elective</a></li>
+                        <li><a href="/schemes-differently-abled">Schemes for Differently-Abled</a></li>
+                        <li><a href="/programs">RGU Admission Eligibility & Selection Criteria</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="res-2">
                     <ul>
-                        <li><a href="https://rgu.ac/scholarship&funding">Scholarships</a></li>
-                        <li><a href="https://rgu.ac/deans-listers">Dean's Lister</a></li>
+                        <li><a href="/scholarship&funding">Scholarships</a></li>
+                        <li><a href="/deans-listers">Dean's Lister</a></li>
                     </ul>
                 </div>
 
@@ -691,20 +685,20 @@
             <div class="mega-right">
                 <div class="mega-content active" data-content="intl-1">
                     <ul>
-                        <li><a href="https://rgu.ac/international-faq">International FAQs</a></li>
-                        <li><a href="https://rgu.ac/international-admission-guidelines">International Admission
+                        <li><a href="/international-faq">International FAQs</a></li>
+                        <li><a href="/international-admission-guidelines">International Admission
                                 Guidelines</a></li>
-                        <li><a href="https://rgu.ac/frro-process">FRRO Process</a></li>
-                        <li><a href="https://rgu.ac/how-to-apply-international">How to Apply?</a></li>
-                        <li><a href="https://rgu.ac/international-student-helpline">International Student Helpline</a>
+                        <li><a href="/frro-process">FRRO Process</a></li>
+                        <li><a href="/how-to-apply-international">How to Apply?</a></li>
+                        <li><a href="/international-student-helpline">International Student Helpline</a>
                         </li>
-                        <li><a href="https://rgu.ac/campus-job">On Campus Job</a></li>
-                        <li><a href="https://rgu.ac/pre-arrival">Pre-Arrival, Post-Arrival</a></li>
-                        <li><a href="https://rgu.ac/scholarships-international">Scholarship for International
+                        <li><a href="/campus-job">On Campus Job</a></li>
+                        <li><a href="/pre-arrival">Pre-Arrival, Post-Arrival</a></li>
+                        <li><a href="/scholarships-international">Scholarship for International
                                 Students</a>
                         </li>
-                        <li><a href="https://rgu.ac/visa-information">Visa Information</a></li>
-                        <li><a href="https://rgu.ac/why-india">Why India?</a></li>
+                        <li><a href="/visa-information">Visa Information</a></li>
+                        <li><a href="/why-india">Why India?</a></li>
                     </ul>
                 </div>
 
@@ -746,32 +740,32 @@
             <div class="mega-right">
                 <div class="mega-content active" data-content="camp-1">
                     <ul>
-                        <li><a href="https://rgu.ac/banking-services">Banking Service</a></li>
-                        <li><a href="https://rgu.ac/department-store">Departmental Store</a></li>
-                        <li><a href="https://rgu.ac/hangout">Hangout</a></li>
-                        <li><a href="https://rgu.ac/medical-facility">Medical Facility</a></li>
-                        <li><a href="https://rgu.ac/laundry">Laundry</a></li>
-                        <li><a href="https://rgu.ac/salon">Salon</a></li>
-                        <li><a href="https://rgu.ac/stationary-store">Stationary Store</a></li>
-                        <li><a href="https://rgu.ac/guest-house">Guest House</a></li>
+                        <li><a href="/banking-services">Banking Service</a></li>
+                        <li><a href="/department-store">Departmental Store</a></li>
+                        <li><a href="/hangout">Hangout</a></li>
+                        <li><a href="/medical-facility">Medical Facility</a></li>
+                        <li><a href="/laundry">Laundry</a></li>
+                        <li><a href="/salon">Salon</a></li>
+                        <li><a href="/stationary-store">Stationary Store</a></li>
+                        <li><a href="/guest-house">Guest House</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="camp-2">
                     <ul>
-                        <li><a href="https://rgu.ac/clubs">Clubs</a></li>
-                        <li><a href="https://rgu.ac/student-affairs">Student Affairs</a></li>
-                        <li><a href="https://rgu.ac/student-gallery">Student Gallery</a></li>
-                        <li><a href="https://rgu.ac/happy-happening">Happy And Happening Campus</a></li>
-                        <li><a href="https://rgu.ac/royal-fests">Royal Fest</a></li>
+                        <li><a href="/clubs">Clubs</a></li>
+                        <li><a href="/student-affairs">Student Affairs</a></li>
+                        <li><a href="/student-gallery">Student Gallery</a></li>
+                        <li><a href="/happy-happening">Happy And Happening Campus</a></li>
+                        <li><a href="/royal-fests">Royal Fest</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="camp-3">
                     <ul>
-                        <li><a href="https://rgu.ac/infrastructure">Infrastructure</a></li>
-                        <li><a href="https://rgu.ac/hostel-life">Hostel Life</a></li>
-                        <li><a href="https://rgu.ac/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf">Hostel
+                        <li><a href="/infrastructure">Infrastructure</a></li>
+                        <li><a href="/hostel-life">Hostel Life</a></li>
+                        <li><a href="/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf">Hostel
                                 Policy</a>
                         </li>
                     </ul>
@@ -779,9 +773,9 @@
 
                 <div class="mega-content" data-content="camp-4">
                     <ul>
-                        <li><a href="https://rgu.ac/games&sports">Games And Sports</a></li>
-                        <li><a href="https://rgu.ac/national-cadet-corps">National Cadet Corps</a></li>
-                        <li><a href="https://rgu.ac/national-service-scheme">National Service Scheme</a></li>
+                        <li><a href="/games&sports">Games And Sports</a></li>
+                        <li><a href="/national-cadet-corps">National Cadet Corps</a></li>
+                        <li><a href="/national-service-scheme">National Service Scheme</a></li>
                     </ul>
                 </div>
 
@@ -790,7 +784,7 @@
         <div class="mega-bottom">
             <div class="mega-bottom-inner">
                 <h2>Experience The Best Campus Life</h2>
-                <a href="https://rgu.ac/360-tour" class="mega-cta">TAKE A VIRTUAL TOUR</a>
+                <a href="/360-tour" class="mega-cta">TAKE A VIRTUAL TOUR</a>
             </div>
         </div>
     </div>
@@ -800,7 +794,7 @@
 
             <!-- RESEARCH -->
             <li>
-                <a href="https://rgu.ac/research-devlopment">
+                <a href="/research-devlopment">
                     RESEARCH <span>↗</span>
                 </a>
             </li>
@@ -811,14 +805,14 @@
                     PLACEMENT
                 </a>
                 <ul class="dropdown-submenu">
-                    <li><a href="https://rgu.ac/placements-introduction">Introduction</a></li>
-                    <li><a href="https://rgu.ac/placements-activities">Activities Undertaken</a></li>
-                    <li><a href="https://rgu.ac/placements-facilities">Facilities Available</a></li>
-                    <li><a href="https://rgu.ac/placements-process">Placement Process</a></li>
-                    <li><a href="https://rgu.ac/placements-events">RCCR Events</a></li>
-                    <li><a href="https://rgu.ac/top-recruiters">Recruiters</a></li>
-                    <li><a href="https://rgu.ac/success">Testimonial</a></li>
-                    <li><a href="https://rgu.ac/placement-contacts">Contacts</a></li>
+                    <li><a href="/placements-introduction">Introduction</a></li>
+                    <li><a href="/placements-activities">Activities Undertaken</a></li>
+                    <li><a href="/placements-facilities">Facilities Available</a></li>
+                    <li><a href="/placements-process">Placement Process</a></li>
+                    <li><a href="/placements-events">RCCR Events</a></li>
+                    <li><a href="/top-recruiters">Recruiters</a></li>
+                    <li><a href="/success">Testimonial</a></li>
+                    <li><a href="/placement-contacts">Contacts</a></li>
                 </ul>
             </li>
 
@@ -828,12 +822,12 @@
                     CONVOCATION
                 </a>
                 <ul class="dropdown-submenu">
-                    <li><a href="https://rgu.ac/convocation-fifth">5th Convocation</a></li>
-                    <li><a href="https://rgu.ac/convocation-fourth">4th Convocation</a></li>
-                    <li><a href="https://rgu.ac/convocation-third">3rd Convocation</a></li>
-                    <li><a href="https://rgu.ac/convocation-second">2nd Convocation</a></li>
-                    <li><a href="https://rgu.ac/convocation-first">1st Convocation</a></li>
-                    <li><a href="https://rgu.ac/honoris-causa">Honoris Causa - Hall of Fame</a></li>
+                    <li><a href="/convocation-fifth">5th Convocation</a></li>
+                    <li><a href="/convocation-fourth">4th Convocation</a></li>
+                    <li><a href="/convocation-third">3rd Convocation</a></li>
+                    <li><a href="/convocation-second">2nd Convocation</a></li>
+                    <li><a href="/convocation-first">1st Convocation</a></li>
+                    <li><a href="/honoris-causa">Honoris Causa - Hall of Fame</a></li>
                 </ul>
             </li>
 

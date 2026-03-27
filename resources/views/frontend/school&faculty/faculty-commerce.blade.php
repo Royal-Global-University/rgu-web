@@ -214,7 +214,7 @@
                                 <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Richika Kedia</h3>
+                            <h3 class="card-name">Dr. Richika Kedia</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-richika-kedia" class="profile-link">View Profile</a>
                         </div>
@@ -595,7 +595,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">
-                                Ayushman Devraj
+                                Dr. Ayushman Devraj
                             </h3>
                             <p class="card-designation">
                                 Assistant Professor
