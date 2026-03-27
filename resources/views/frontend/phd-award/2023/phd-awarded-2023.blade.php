@@ -32,7 +32,7 @@
 
             <!-- August -->
             <div class="col-lg-3 p-2">
-                <a href="nirf-2026"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 31-8-2023.pdf"
                     style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
@@ -45,7 +45,7 @@
 
             <!-- October -->
             <div class="col-lg-3 p-2">
-                <a href="nirf-2026"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 19-10-2023.pdf"
                     style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
@@ -58,7 +58,7 @@
 
             <!-- November -->
             <div class="col-lg-3 p-2">
-                <a href="nirf-2026"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 30-11-2023.pdf"
                     style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
@@ -87,7 +87,7 @@
 
                         <!-- Notification 1 -->
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/notification1.pdf" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 31-07-2023.pdf" style="text-decoration:none;">
                                 <div style="padding:30px;background:#f3e4d3;border-radius:10px;font-weight:600;color:#264678;transition:0.3s;"
                                     onmouseover="this.style.background='#264678';this.style.color='#fff';this.style.transform='scale(1.05)'"
                                     onmouseout="this.style.background='#f3e4d3';this.style.color='#264678';this.style.transform='scale(1)'">
@@ -98,7 +98,7 @@
 
                         <!-- Notification 2 -->
                         <div class="col-6">
-                            <a href="/mobile-assets/pdf/notification2.pdf" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 31-07-2023(1).pdf" style="text-decoration:none;">
                                 <div style="padding:30px;background:#f3e4d3;border-radius:10px;font-weight:600;color:#264678;transition:0.3s;"
                                     onmouseover="this.style.background='#264678';this.style.color='#fff';this.style.transform='scale(1.05)'"
                                     onmouseout="this.style.background='#f3e4d3';this.style.color='#264678';this.style.transform='scale(1)'">
