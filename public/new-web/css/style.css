@@ -3292,3 +3292,410 @@ body.phd-modal-open {
         height: 160px;
     }
 }
+
+ /* ================= RECOGNITION SECTION ================= */
+
+ .rgu-recog-section {
+     padding: 8rem 2rem;
+     background-color: var(--backgroundcolor, #EBF1FC);
+     font-family: 'Times New Roman', Times, serif;
+     overflow: hidden;
+ }
+
+ .rgu-recog-container {
+     max-width: 1400px;
+     margin: 0 auto;
+ }
+
+ /* --- Top Display Area --- */
+ .rgu-recog-display {
+     display: flex;
+     align-items: stretch;
+     justify-content: space-between;
+     gap: 4rem;
+     min-height: 350px;
+ }
+
+ .rgu-recog-image-pane {
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 2rem;
+ }
+
+ .rgu-recog-image-pane img {
+     max-width: 450px;
+     height: auto;
+     object-fit: contain;
+     transition: opacity 0.4s ease, transform 0.4s ease;
+ }
+
+ /* Animation classes for swapping content */
+ .rgu-recog-fade-out {
+     opacity: 0;
+     transform: translateY(10px);
+ }
+
+ .rgu-recog-fade-in {
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ /* Divider */
+ .rgu-recog-divider {
+     width: 1px;
+     background-color: #c9d5e8;
+     position: relative;
+     margin: 4rem 0;
+ }
+
+ .rgu-recog-dot {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 1.2rem;
+     height: 1.2rem;
+     background-color: var(--orange-deep, #E15825);
+     border-radius: 50%;
+     box-shadow: 0 0 0 4px rgba(225, 88, 37, 0.2);
+ }
+
+ /* Content Pane */
+ .rgu-recog-content-pane {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2rem 0;
+     transition: opacity 0.4s ease, transform 0.4s ease;
+ }
+
+ .rgu-recog-content-pane h3 {
+     font-size: 2.4rem;
+     color: var(--primary, #20315F);
+     font-weight: 700;
+     margin-top: 0;
+     margin-bottom: 2rem;
+     line-height: 1.3;
+ }
+
+ .rgu-recog-content-pane p {
+     font-size: 1.5rem;
+     color: #555;
+     line-height: 1.7;
+     margin-bottom: 2.5rem;
+ }
+
+ /* Action Button */
+ .rgu-recog-btn {
+     display: inline-flex;
+     align-items: center;
+     background: var(--white, #ffffff);
+     color: var(--orange-deep, #E15825);
+     font-size: 1.3rem;
+     font-weight: 700;
+     letter-spacing: 0.5px;
+     text-transform: uppercase;
+     padding: 1.2rem 2.4rem;
+     border-radius: 0.6rem;
+     text-decoration: none;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+     transition: all 0.3s ease;
+     border: 1px solid transparent;
+     align-self: flex-start;
+ }
+
+ .rgu-recog-btn span {
+     margin-left: 1rem;
+     font-size: 1.6rem;
+     font-weight: 400;
+ }
+
+ .rgu-recog-btn:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+     border-color: #fbdbd1;
+ }
+
+ /* --- Bottom Thumbnails Area (Centered Grid/Flex) --- */
+ .rgu-recog-thumbnails-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     margin-top: 6rem;
+ }
+
+ /* Thumbnails */
+ .rgu-recog-thumb {
+     width: 130px;
+     height: 110px;
+     background: #fff;
+     border: 2px solid transparent;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+     padding: 1.5rem;
+ }
+
+ .rgu-recog-thumb img {
+     max-width: 100%;
+     max-height: 100%;
+     object-fit: contain;
+     filter: grayscale(100%);
+     opacity: 0.6;
+     transition: all 0.3s ease;
+ }
+
+ .rgu-recog-thumb:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+ }
+
+ .rgu-recog-thumb:hover img {
+     filter: grayscale(0%);
+     opacity: 1;
+ }
+
+ .rgu-recog-thumb.active {
+     border-color: var(--orange-deep, #E15825);
+     transform: translateY(-5px);
+     box-shadow: 0 8px 15px rgba(225, 88, 37, 0.15);
+ }
+
+ .rgu-recog-thumb.active img {
+     filter: grayscale(0%);
+     opacity: 1;
+ }
+
+ /* --- Mobile Responsiveness --- */
+ @media (max-width: 900px) {
+     .rgu-recog-display {
+         flex-direction: column;
+         gap: 2rem;
+         text-align: center;
+     }
+
+     .rgu-recog-divider {
+         width: 100%;
+         height: 1px;
+         margin: 2rem 0;
+     }
+
+     .rgu-recog-content-pane {
+         padding: 0;
+         align-items: center;
+     }
+
+     .rgu-recog-content-pane h3 {
+         font-size: 2rem;
+     }
+
+     .rgu-recog-image-pane img {
+         max-width: 220px;
+     }
+
+     .rgu-recog-thumbnails-wrapper {
+         gap: 1.5rem;
+     }
+
+     .rgu-recog-thumb {
+         width: 100px;
+         height: 85px;
+         padding: 1rem;
+     }
+ }
+
+ /* ================= MEMBERSHIP SECTION ================= */
+
+ .rgu-mem-section {
+     padding: 5rem 2rem;
+     background-color: var(--backgroundcolor, #EBF1FC);
+     font-family: 'Times New Roman', Times, serif;
+     position: relative;
+ }
+
+ .rgu-mem-container {
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ /* Title */
+ .rgu-mem-title {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 5.5rem;
+     color: var(--primary, #20315F);
+     text-align: center;
+     margin-bottom: 5rem;
+     font-weight: 700;
+ }
+
+ /* List Container */
+ .rgu-mem-list {
+     display: flex;
+     flex-direction: column;
+     gap: 3rem;
+ }
+
+ /* Individual Card */
+ .rgu-mem-card {
+     background: #ffffff;
+     border-radius: 1.5rem;
+     padding: 4rem 5rem;
+     display: flex;
+     align-items: center;
+     gap: 4rem;
+     box-shadow: 0 10px 30px rgba(32, 49, 95, 0.04);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .rgu-mem-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 15px 40px rgba(32, 49, 95, 0.08);
+ }
+
+ /* Card Logo */
+ .rgu-mem-logo {
+     flex: 0 0 160px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .rgu-mem-logo img {
+     max-width: 100%;
+     height: auto;
+     object-fit: contain;
+ }
+
+ /* Vertical Divider */
+ .rgu-mem-divider {
+     width: 1px;
+     height: 140px;
+     background-color: #d1d8e0;
+     flex-shrink: 0;
+ }
+
+ /* Card Content */
+ .rgu-mem-content {
+     flex: 1;
+ }
+
+ .rgu-mem-content h3 {
+     font-size: 2.2rem;
+     color: #333333;
+     margin-top: 0;
+     margin-bottom: 1.5rem;
+     font-weight: 700;
+ }
+
+ .rgu-mem-content p {
+     font-size: 1.5rem;
+     color: #555555;
+     line-height: 1.6;
+     margin: 0;
+ }
+
+ /* Card Action Button */
+ .rgu-mem-action {
+     flex: 0 0 auto;
+ }
+
+ .rgu-mem-btn {
+     display: inline-flex;
+     align-items: center;
+     background: var(--orange-deep, #E15825);
+     color: #ffffff;
+     font-size: 1.3rem;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+     padding: 1.4rem 2.8rem;
+     border-radius: 0.6rem;
+     text-decoration: none;
+     transition: all 0.3s ease;
+ }
+
+ .rgu-mem-btn span {
+     margin-left: 1rem;
+     font-size: 1.6rem;
+     font-weight: 400;
+ }
+
+ .rgu-mem-btn:hover {
+     background: #c94b1e;
+     transform: translateY(-2px);
+     box-shadow: 0 8px 20px rgba(225, 88, 37, 0.2);
+ }
+
+
+ .rgu-mem-page-btn {
+     background: transparent;
+     border: none;
+     color: #a0a0a0;
+     font-size: 1.6rem;
+     width: 3.5rem;
+     height: 3.5rem;
+     border-radius: 50%;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.2s ease;
+ }
+
+ .rgu-mem-page-btn:hover {
+     background: rgba(255, 255, 255, 0.1);
+     color: #ffffff;
+ }
+
+ .rgu-mem-page-text {
+     color: #ffffff;
+     font-size: 1.3rem;
+     font-weight: 500;
+     margin: 0 1.5rem;
+     letter-spacing: 1px;
+ }
+
+ /* ================= MOBILE RESPONSIVENESS ================= */
+ @media (max-width: 900px) {
+     .rgu-mem-card {
+         flex-direction: column;
+         text-align: center;
+         padding: 4rem 3rem;
+         gap: 2.5rem;
+     }
+
+     .rgu-mem-divider {
+         width: 100px;
+         height: 1px;
+     }
+
+     .rgu-mem-title {
+         font-size: 4rem;
+     }
+ }
+
+ @media (max-width: 500px) {
+     .rgu-mem-card {
+         padding: 3rem 2rem;
+     }
+
+     .rgu-mem-content h3 {
+         font-size: 1.9rem;
+     }
+
+     .rgu-mem-content p {
+         font-size: 1.4rem;
+     }
+
+     .rgu-mem-btn {
+         width: 100%;
+         justify-content: center;
+     }
+ }

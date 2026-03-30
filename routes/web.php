@@ -5757,4 +5757,8 @@ Route::get('/test/preface', function () {
     return view('frontend/test/preface');
 })->name('/test/preface');
 
+Route::get('/test/recognition', function () {
+    return view('frontend/test/recognition');
+})->name('/test/recognition');
+
 

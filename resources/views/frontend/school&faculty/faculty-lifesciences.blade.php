@@ -450,7 +450,7 @@
                                     alt="Profile image of Ayushman Devraj">
                             </div>
                             <h3 class="card-name">Dr. Ayushman Devraj</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Student Affairs</p>
                             <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
                         </div>
                     </div>

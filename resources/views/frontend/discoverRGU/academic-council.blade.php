@@ -142,18 +142,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/3.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
-                            <p class="card-designation">Dean, Royal School of Applied and Pure Sciences</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png"
                                     alt="Profile image">
                             </div>
@@ -195,6 +183,28 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Abhijit Dutta</h3>
                             <p class="card-designation">Professor & Dean, RSMAS</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Prasanta Jyoti Baruah</h3>
+                            <p class="card-designation">Distinguished Professor & Dean, RSCOM</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/chatterjee.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
+                            <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
                             <a class="profile-link">Member</a>
                         </div>
                     </div>
@@ -270,6 +280,65 @@
                             <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
                             <p class="card-designation">Associate Professor & HOD, Department of CSE, RSET</p>
                             <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/shalini.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Shalini Saxena</h3>
+                            <p class="card-designation">Professor & HOD, Political Science & Administrative Service</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Supriyo Sen</h3>
+                            <p class="card-designation">Associate Professor & HoD</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Indrajit.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Indrajit Dutta</h3>
+                            <p class="card-designation">Associate Professor & HOD, RSTTM</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Dhruba Jyoti Borah</h3>
+                            <p class="card-designation">Chief Advisor to the Chancellor and Author-in-residence.</p>
+                            <a href="/advisory-prof-dr-dhruba-jyoti-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -420,11 +489,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                                <img src="https://www.rgu.ac/mobile-assets/faculty-profile/Rathindra.jpeg"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <h3 class="card-name">Dr. Rathindra Bhuyan</h3>
+                            <p class="card-designation">Senior Professor & Advisor</p>
                             <a class="profile-link">Member</a>
                         </div>
                     </div>

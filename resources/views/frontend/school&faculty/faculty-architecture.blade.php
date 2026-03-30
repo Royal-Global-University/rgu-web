@@ -275,7 +275,7 @@
                 Dr. Ayushman Devraj
               </h3>
               <p class="card-designation">
-                Assistant Professor
+                Assistant Professor, Assistant Dean, Student Affairs
               </p>
               <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
             </div>

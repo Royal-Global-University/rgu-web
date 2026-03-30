@@ -198,6 +198,29 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
+                                        src="/mobile-assets/updated-faculty-img/Amrit.jpeg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                        Prof. Amrit Pal Singh
+                                    </h5>
+                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, Royal School of
+                                        Commerce</p>
+
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
+                                        Member
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 mb-4">
+
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                <div class="p-3">
+                                    <img style="height: 290px; width: 100%;"
                                         src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
@@ -270,7 +293,8 @@
                                         (Dr.) Diganta Munshi
                                     </h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration
-                                        <br> The Assam Royal Global University</p>
+                                        <br> The Assam Royal Global University
+                                    </p>
 
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
                                         Registrar</p>
@@ -456,6 +480,28 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
+                                    src="/mobile-assets/updated-faculty-img/Amrit.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Prof. Amrit Pal Singh
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, Royal School of
+                                    Commerce</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
                                     src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
                                     class="img-fluid rounded" />
                             </div>
@@ -528,7 +574,8 @@
                                     Diganta Munshi
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration
-                                    <br> The Assam Royal Global University</p>
+                                    <br> The Assam Royal Global University
+                                </p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
                                     Registrar</p>
