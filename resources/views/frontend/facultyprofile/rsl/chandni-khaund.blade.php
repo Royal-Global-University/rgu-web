@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/all-faculty/rsl/Chandni.jpeg"
+              <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/chandni-khaund.png"
                 alt="">
             </div>
           </div>

@@ -252,7 +252,7 @@
 
                         <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>National: 4</span></li>
+                            <li><i class="fa fa-circle"></i> <span>National: 7</span></li>
                             <li><i class="fa fa-circle"></i> <span>International:5</span></li>
                         </ul>
 
