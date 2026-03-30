@@ -38,8 +38,8 @@
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                      Member of Advisory Board, The Assam Royal Global University
+                    </h2> -->
 
                             <div>
 
@@ -55,9 +55,10 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            B.A. in Home Science: Handique Girls’ College
+                                            Ph.D.: Department of Psychology, Gauhati University
                                         </span>
                                     </li>
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
@@ -66,6 +67,7 @@
                                             M.A. in Psychology: Gauhati University
                                         </span>
                                     </li>
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
@@ -74,6 +76,16 @@
                                             M.Sc. in Home Science (Specialization in Human Development): Jadavpur University
                                         </span>
                                     </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            B.A. in Home Science: Handique Girls’ College
+                                        </span>
+                                    </li>
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
@@ -82,14 +94,7 @@
                                             One-year Diploma in Guidance and Counselling: NCERT
                                         </span>
                                     </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ph.D.: Department of Psychology, Gauhati University
-                                        </span>
-                                    </li>
+
 
                                 </ul>
 
@@ -333,8 +338,8 @@
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                      Member of Advisory Board, The Assam Royal Global University
+                    </h2> -->
 
                     </div>
 
@@ -359,9 +364,10 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        B.A. in Home Science: Handique Girls’ College
+                                        Ph.D.: Department of Psychology, Gauhati University
                                     </span>
                                 </li>
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
@@ -369,6 +375,7 @@
                                         M.A. in Psychology: Gauhati University
                                     </span>
                                 </li>
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
@@ -376,6 +383,16 @@
                                         M.Sc. in Home Science (Specialization in Human Development): Jadavpur University
                                     </span>
                                 </li>
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        B.A. in Home Science: Handique Girls’ College
+                                    </span>
+                                </li>
+
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
@@ -383,13 +400,7 @@
                                         One-year Diploma in Guidance and Counselling: NCERT
                                     </span>
                                 </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Ph.D.: Department of Psychology, Gauhati University
-                                    </span>
-                                </li>
+
 
                             </ul>
 
