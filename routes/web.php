@@ -5062,6 +5062,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-chayasmita-deka', function () {
+    return view('frontend/facultyprofile/rshss/chayasmita-deka');
+})->name('faculty-chayasmita-deka');
+
 Route::get('/faculty-karnikaa-bhattacharyya', function () {
     return view('frontend/facultyprofile/rshss/karnikaa-bhattacharyya');
 })->name('faculty-karnikaa-bhattacharyya');

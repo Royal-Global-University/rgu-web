@@ -248,8 +248,8 @@
                             </div>
                             <h3 class="card-name">Dr. Chayasmita Deka</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-amit-kumar" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-chayasmita-deka" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
