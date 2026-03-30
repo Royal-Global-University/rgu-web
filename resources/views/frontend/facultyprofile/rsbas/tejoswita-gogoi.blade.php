@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Tejoswita.jpeg"
+              <img class="faculty-bio-img" style="width: 400px; height: 400px;" src="/mobile-assets/updated-faculty-img/tejoswita-gogoi-new.jpg"
                 alt="">
             </div>
           </div>
