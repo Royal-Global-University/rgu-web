@@ -118,7 +118,7 @@
                             <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences
                                 (RSHSS) & i/c
-                                Dean, Royal School of Behavioral & Allied Sciences</p>
+                                Dean, Royal School of Behavioral & Allied Sciences (RSBAS)</p>
                             <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
                         </div>
