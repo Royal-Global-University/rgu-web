@@ -1,8 +1,18 @@
 /* ================= 4. E-BOARD SLIDER ================= */
 
 const eboardData = [
-    { img: "https://media.rgu.ac/new-web/img/index/e-board/4.jpeg", alt: "Event 4" },
-    { img: "https://media.rgu.ac/new-web/img/index/e-board/3.jpeg", alt: "Event 3" },
+    {
+        img: "/new-web/js/index-js/e-board-slider.js",
+        alt: "Event 4",
+    },
+    {
+        img: "https://media.rgu.ac/new-web/img/index/e-board/4.jpeg",
+        alt: "Event 4",
+    },
+    {
+        img: "https://media.rgu.ac/new-web/img/index/e-board/3.jpeg",
+        alt: "Event 3",
+    },
     { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
     { img: "new-web/assets/img/index/e-board/6.jpeg", alt: "Event 6" },
 ];
