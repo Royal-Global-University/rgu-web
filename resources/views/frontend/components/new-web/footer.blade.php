@@ -49,15 +49,16 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://rgu.ac/notifications">Announcement</a></li>
-                        <li><a href="https://rgu.ac/social-outreach">Social Outreach</a></li>
-                        <li><a href="https://rgu.ac/examinations">Examination</a></li>
-                        <li><a href="https://rgu.ac/research-devlopment">Research & Development</a></li>
+                        <li><a href="/notifications">Announcement</a></li>
+                        <li><a href="/social-outreach">Social Outreach</a></li>
+                        <li><a href="/examinations">Examination</a></li>
+                        <li><a href="/research-devlopment">Research & Development</a></li>
                         <li><a href="https://heyzine.com/flip-book/fd544660d3.html">Brochure 2025–2026</a></li>
-                        <li><a href="https://rgu.ac/annual-report">Annual Report</a></li>
-                        <li><a href="https://rgu.ac/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
+                        <li><a href="/annual-report">Annual Report</a></li>
+                        <li><a href="/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
                                 Application</a></li>
-                        <li><a href="https://rgu.ac/grievance">Students' Grievance</a></li>
+                        <li><a href="/grievance">Students' Grievance</a></li>
+                        <li><a href="/phd">Doctoral Programme</a></li>
 
                     </ul>
 

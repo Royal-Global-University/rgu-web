@@ -3,14 +3,14 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div class="pb-5" style="padding-top: 90px;">
-            <img src="home-banner/nirf-mob.png" />
+            <img src="/mobile-assets/phd-awarded/phdaward.png" />
         </div>
     </div>
 
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
-        <img class="mb-5" src="home-banner/nirf-web.png" />
+        <img class="mb-5" src="/mobile-assets/phd-awarded/phdaward-web.png" />
 
     </div>
 
@@ -136,44 +136,51 @@
                     <div class="row text-center">
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 20-11-2024.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 5-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     1</div>
                             </a>
                         </div>
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 21-11-2024.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 20-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     2</div>
                             </a>
                         </div>
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 22-11-2024.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 21-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     3</div>
                             </a>
                         </div>
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 25-11-2024.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 22-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     4</div>
                             </a>
                         </div>
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 26-11-2024.pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 25-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     5</div>
                             </a>
                         </div>
 
                         <div class="col-4 p-2">
-                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 26-11-2024(1).pdf" target="_blank" style="text-decoration:none;">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 26-11-2024.pdf" target="_blank" style="text-decoration:none;">
                                 <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
                                     6</div>
+                            </a>
+                        </div>
+
+                        <div class="col-4 p-2">
+                            <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2024/Ph.D. Award Notification 26-11-2024(1).pdf" target="_blank" style="text-decoration:none;">
+                                <div style="padding:20px;background:#f3e4d3;border-radius:10px;color:#264678;">Notification
+                                    7</div>
                             </a>
                         </div>
 

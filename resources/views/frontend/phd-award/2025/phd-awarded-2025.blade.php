@@ -3,14 +3,14 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div class="pb-5" style="padding-top: 90px;">
-            <img src="home-banner/nirf-mob.png" />
+            <img src="/mobile-assets/phd-awarded/phdaward.png" />
         </div>
     </div>
 
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
-        <img class="mb-5" src="home-banner/nirf-web.png" />
+        <img class="mb-5" src="/mobile-assets/phd-awarded/phdaward-web.png" />
 
     </div>
 
@@ -51,7 +51,7 @@
 
             <!-- August -->
             <div class="col-lg-4 p-2">
-                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-07-2025.pdf"
+                <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2025/Ph.D. Award Notification 30-08-2025.pdf"
                     style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;">
                     August
                 </a>

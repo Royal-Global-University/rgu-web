@@ -30,7 +30,8 @@
             <source media="(max-width:768px)" srcset="https://media.rgu.ac/new-web/img/index/about/About-mob.png">
 
             <!-- Desktop Image -->
-            <img src="https://media.rgu.ac/new-web/img/index/about/about-web.png" alt="Trailblazer" style="width:100%; height:auto;">
+            <img src="https://media.rgu.ac/new-web/img/index/about/about-web.png" alt="Trailblazer"
+                style="width:100%; height:auto;">
         </picture>
     </section>
 
@@ -156,8 +157,8 @@
             </div>
 
             <!-- <div class="rgu-next-viewall">
-                                            <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
-                                        </div> -->
+                                                <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
+                                            </div> -->
 
         </div>
 
@@ -172,7 +173,8 @@
 
                     <a href="https://rgu.ac/infrastructure" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg" alt="RGU Campus">
+                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
+                                alt="RGU Campus">
                         </div>
                         <div class="rgu-legacy-card-content">
                             <h3>The Best University in Assam</h3>
@@ -213,7 +215,8 @@
                     <div class="legacy-carousel-track" id="legacyTrack">
 
                         <div class="legacy-slide">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg" alt="RGU Campus">
+                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
+                                alt="RGU Campus">
                             <div class="legacy-slide-content">
                                 <h3>The Best University in Assam</h3>
                                 <p>Empowering future leaders with academic excellence, industry collaboration, and
@@ -222,7 +225,8 @@
                         </div>
 
                         <div class="legacy-slide">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg" alt="RGU Library">
+                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
+                                alt="RGU Library">
                             <div class="legacy-slide-content">
                                 <h3>State-of-the-Art Facilities</h3>
                                 <p>Experience world-class infrastructure designed to foster innovation, research, and
@@ -262,8 +266,8 @@
                     </h2>
                     <ul class="rgu-acad-list">
                         <li class="rgu-acad-item active fade-in-up" style="--delay: 0.1s"
-                            data-img="https://media.rgu.ac/new-web/img/index/labs/biochem.png" data-title="Doctoral Programme"
-                            data-link="https://rgu.ac/doctoral-programme">
+                            data-img="https://media.rgu.ac/new-web/img/index/labs/biochem.png"
+                            data-title="Doctoral Programme" data-link="https://rgu.ac/doctoral-programme">
                             <span>Doctoral Programme</span>
                             <i class="bi bi-arrow-up-right"></i>
                         </li>
@@ -283,7 +287,8 @@
                 <div class="rgu-acad-right fade-in-up" style="--delay: 0.4s">
                     <a href="https://rgu.ac/doctoral-programme" class="rgu-acad-card" id="acadCard">
                         <div class="rgu-acad-img-wrapper">
-                            <img id="acadImage" src="https://media.rgu.ac/new-web/img/index/labs/biochem.png" alt="Academics">
+                            <img id="acadImage" src="https://media.rgu.ac/new-web/img/index/labs/biochem.png"
+                                alt="Academics">
                         </div>
                         <div class="rgu-acad-overlay">
                             <h3 id="acadTitle">Doctoral Programme</h3>
@@ -304,27 +309,27 @@
             <h2 class="rgu-lab-title">Explore Labs, Workshop & Studio</h2>
 
             <!-- <p class="rgu-lab-subtitle">
-                                    At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
-                                    and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
-                                    students and researchers to experiment, explore, and transform ideas into real-world solutions. From
-                                    scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
-                                    thinking, and excellence in every discipline.
-                                </p> -->
+                                        At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
+                                        and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
+                                        students and researchers to experiment, explore, and transform ideas into real-world solutions. From
+                                        scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
+                                        thinking, and excellence in every discipline.
+                                    </p> -->
 
             <div class="rgu-lab-row">
 
                 <!-- LEFT SIDE (GRAPHIC) -->
                 <!-- <div class="rgu-lab-left">
 
-                                        <div class="rgu-lab-image">
-                                            <img src="assets/img/index/facts.svg" alt="Research Statistics">
-                                        </div>
+                                            <div class="rgu-lab-image">
+                                                <img src="assets/img/index/facts.svg" alt="Research Statistics">
+                                            </div>
 
-                                        <div style="margin-bottom: 20px;" class="rgu-next-viewall">
-                                            <a href="https://rgu.ac/laboratories">View all Labs +</a>
-                                        </div>
+                                            <div style="margin-bottom: 20px;" class="rgu-next-viewall">
+                                                <a href="https://rgu.ac/laboratories">View all Labs +</a>
+                                            </div>
 
-                                    </div> -->
+                                        </div> -->
 
 
                 <!-- RIGHT SIDE (SLIDER) -->
@@ -439,7 +444,8 @@
                 <source media="(max-width:768px)" srcset="https://media.rgu.ac/new-web/img/index/idea1-mobile.svg">
 
                 <!-- Desktop Image -->
-                <img src="https://media.rgu.ac/new-web/img/index/idea1.svg" alt="" style="width:100%; height:auto;">
+                <img src="https://media.rgu.ac/new-web/img/index/idea1.svg" alt=""
+                    style="width:100%; height:auto;">
             </picture>
         </a>
     </section>
@@ -495,10 +501,12 @@
     <section class="trail-blazer">
         <picture>
             <!-- Mobile Image -->
-            <source media="(max-width:768px)" srcset="https://media.rgu.ac/new-web/img/index/trail-blazer/mobile-trailblazer.png">
+            <source media="(max-width:768px)"
+                srcset="https://media.rgu.ac/new-web/img/index/trail-blazer/mobile-trailblazer.png">
 
             <!-- Desktop Image -->
-            <img src="https://media.rgu.ac/new-web/img/index/trail-blazer/1.jpeg" alt="Trailblazer" style="width:100%; height:auto;">
+            <img src="https://media.rgu.ac/new-web/img/index/trail-blazer/1.jpeg" alt="Trailblazer"
+                style="width:100%; height:auto;">
         </picture>
     </section>
 

@@ -3,14 +3,14 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div class="pb-5" style="padding-top: 90px;">
-            <img src="home-banner/nirf-mob.png" />
+            <img src="/mobile-assets/phd-awarded/phdaward.png" />
         </div>
     </div>
 
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
-        <img class="mb-5" src="home-banner/nirf-web.png" />
+        <img class="mb-5" src="/mobile-assets/phd-awarded/phdaward-web.png" />
 
     </div>
 
@@ -20,12 +20,11 @@
             <!-- July 2023 (Popup Trigger) -->
             <div class="col-lg-3 p-2">
                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#julyModal"
-                    style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
                         <p>July</p>
-                        <p>2023</p>
                     </div>
                 </a>
             </div>
@@ -33,12 +32,11 @@
             <!-- August -->
             <div class="col-lg-3 p-2">
                 <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 31-8-2023.pdf"
-                    style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
                         <p>August</p>
-                        <p>2023</p>
                     </div>
                 </a>
             </div>
@@ -46,12 +44,11 @@
             <!-- October -->
             <div class="col-lg-3 p-2">
                 <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 19-10-2023.pdf"
-                    style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
                         <p>October</p>
-                        <p>2023</p>
                     </div>
                 </a>
             </div>
@@ -59,12 +56,11 @@
             <!-- November -->
             <div class="col-lg-3 p-2">
                 <a href="/mobile-assets/phd-awarded/Ph.D. Award Notification Year 2023/Ph.D. Award Notification 30-11-2023.pdf"
-                    style="padding:60px 60px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
                         <p>November</p>
-                        <p>2023</p>
                     </div>
                 </a>
             </div>
