@@ -245,7 +245,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
+                    {{-- <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
@@ -255,7 +255,7 @@
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/moidul-islam" class="profile-link">View Profile</a>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
