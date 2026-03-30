@@ -441,7 +441,7 @@
                     </a>
                 </div>
 
-                <a href="https://rgu.renocampus.com/hr/staff" class="erp-btn p-3">ERP LOGIN</a>
+                <a href="https://rgu.renocampus.com/hr/staff" class="erp-btn m-5">ERP LOGIN</a>
 
             </div>
         </div>
