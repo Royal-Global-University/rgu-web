@@ -180,7 +180,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/karnikaa.jpeg"
+              <img class="faculty-bio-img" style="height: 400px; width: 400px;" src="https://rgu.ac/mobile-assets/updated-faculty-img/karnikaa.jpeg"
                 alt="">
             </div>
           </div>
