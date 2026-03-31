@@ -3141,6 +3141,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi', function () {
+    return view('frontend/media-corner/2026/news2');
+})->name('art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi');
+
 Route::get('/rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam', function () {
     return view('frontend/media-corner/news112');
 })->name('rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam');

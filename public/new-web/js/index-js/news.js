@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, March 31, 2026",
+            title: "Art Grantee award to RGU alumnus at Hyundai Art for Hope 2026 in New Delhi",
+            desc: "Prabhat Jyoti Gowala, an alumnus of The Assam Royal Global University (RGU) has earned recognition as an Art Grantee at the prestigious “Art for Hope 2026” exhibition, organized by Hyundai Motor India Foundation at Travancore Palace in New Delhi.",
+            img: "/mobile-assets/media-corner/2026/1.jpeg",
+            link: "/art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi",
+        },
+        {
             date: "Guwahati, March 30, 2026",
             title: "RGU organizes workshop on Putala Nach – The Puppetry of Assam",
             desc: "On the occasion of World Theatre Day, a two-day workshop on Putala Nách – The Puppetry of Assam was organised by the Centre for Indian Knowledge Systems in association with the Royal School of Fine Arts and IQAC",

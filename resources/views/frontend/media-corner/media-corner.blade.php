@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Art Grantee award to RGU alumnus at Hyundai Art for Hope 2026 in New Delhi',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 31, 2026:',
+                            'link' => '/art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi',
+                            'image' => '/mobile-assets/media-corner/2026/1.jpeg',
+                            'content' => 'Prabhat Jyoti Gowala, an alumnus of The Assam Royal
+                Global University (RGU) has earned recognition as an Art Grantee at the prestigious “Art for Hope 2026”
+                exhibition, organized by Hyundai Motor India Foundation at Travancore Palace in New Delhi.',
+                        ],
+                        [
                             'title' => 'RGU organizes workshop on Putala Nach – The Puppetry of Assam',
                             'summary' => '',
                             'date' => 'Guwahati, March 30, 2026:',
