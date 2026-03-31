@@ -100,6 +100,201 @@
         </div>
     </div>
 
+    <section class="int-news-section">
+        <div class="int-news-container">
+
+            <h2 class="int-news-main-title">Global Connect</h2>
+
+            <!-- ================= SLIDER ================= -->
+
+            <h3 class="int-news-title">International Highlights</h3>
+
+            <div class="int-news-slider">
+                <div class="int-slider-track">
+
+                    <!-- SLIDE 1 -->
+                    <div class="int-slide">
+
+                        <div class="int-card">
+
+                            <div class="int-card-slider">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic1.jpg" class="active">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic2.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic3.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic4.jpg">
+                            </div>
+
+                            <div class="int-card-content">
+                                <h4>Report on Visit to INTI International University, Malaysia</h4>
+                                <p>The 7-day international immersion program from 28th July, 2025 to 3rd August 2025 was
+                                    organized by INTI International University, Malaysia, commenced on a vibrant note
+                                    with a warm welcome extended to the students of the Royal School of Commerce, The
+                                    Assam Royal Global University. Professor Dr. Ashokan Vasudevan, Director of the
+                                    International Relations and Collaboration Centre (IRCC), officially inaugurated the
+                                    program, emphasizing the significance of international collaboration and sustainable
+                                    business innovation. </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="int-card">
+
+                            <div class="int-card-slider">
+                                <img src="/new-web/assets/img/index/international-news/news2/1.jpg" class="active">
+                                <img src="/new-web/assets/img/index/international-news/news2/2.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/3.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/4.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/5.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/6.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/7.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/8.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/9.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/10.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/11.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/12.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/13.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/14.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/15.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/16.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/17.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/18.jpg">
+                            </div>
+
+                            <div class="int-card-content">
+                                <h4>Report on Visit to Krirk University, Bangkok, Thailand</h4>
+                                <p>A curated team of students from the Royal School of Business, The Assam Royal Global
+                                    University led by Dr. Arpee Saikia, Associate Professor, HOD and Mr. Nibir Pratim
+                                    Choudhury,
+                                    Assistant Professor, India, went on an Academic exchange program at Krirk
+                                    University,
+                                    Bangkok from the 23rd – 25th June 2025. The team from the Assam Royal Global
+                                    University
+                                    was welcomed by the officials from the Office of International Affairs and the
+                                    British
+                                    International College, Krirk University.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SLIDE 2 -->
+                    <!-- <div class="int-slide">
+
+                            <div class="int-card">
+                                <img src="assets/img/index/international-news/news3/1.jpg">
+                                <div class="int-card-content">
+                                    <h4>UK Collaboration</h4>
+                                    <p>International research tie-up</p>
+                                    <a href="#" class="int-readmore">Read More →</a>
+                                </div>
+                            </div>
+
+                            <div class="int-card">
+                                <img src="assets/img/index/international-news/news4/1.jpg">
+                                <div class="int-card-content">
+                                    <h4>Global Conference</h4>
+                                    <p>Student participation abroad</p>
+                                    <a href="#" class="int-readmore">Read More →</a>
+                                </div>
+                            </div>
+
+                        </div> -->
+
+                </div>
+            </div>
+
+            <!-- ================= MARQUEE ================= -->
+
+            <h3 class="int-news-title" style="margin-top:60px;">
+                International Associations
+            </h3>
+
+            <div class="int-marquee">
+                <div class="int-marquee-track">
+
+                    <img src="/new-web/assets/img/index/international-news/association-logos/1.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/2.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/3.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/4.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/5.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/6.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/7.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/8.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/9.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/10.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/11.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/12.jpg">
+
+
+                    <!-- duplicate -->
+                    <img src="/new-web/assets/img/index/international-news/association-logos/1.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/2.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/3.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/4.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/5.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/6.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/7.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/8.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/9.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/10.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/11.jpg">
+                    <img src="/new-web/assets/img/index/international-news/association-logos/12.jpg">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            document.querySelectorAll(".int-card-slider").forEach(slider => {
+
+                const images = slider.querySelectorAll("img");
+
+                // Skip if only one image
+                if (images.length <= 1) return;
+
+                let index = 0;
+                let interval;
+
+                // Activate first image
+                images[index].classList.add("active");
+
+                function startSlider() {
+                    interval = setInterval(() => {
+
+                        images[index].classList.remove("active");
+
+                        index = (index + 1) % images.length;
+
+                        images[index].classList.add("active");
+
+                    }, 4000); // sync with CSS animation
+                }
+
+                function stopSlider() {
+                    clearInterval(interval);
+                }
+
+                // Start initially
+                startSlider();
+
+                // Pause on hover (desktop UX)
+                slider.addEventListener("mouseenter", stopSlider);
+                slider.addEventListener("mouseleave", startSlider);
+
+            });
+
+        });
+    </script>
+
     <section class="rgu-eboard-section">
         <div class="rgu-eboard-container">
             <h2 class="rgu-eboard-title">RGU E-Board</h2>
@@ -156,9 +351,6 @@
 
             </div>
 
-            <!-- <div class="rgu-next-viewall">
-                                                    <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
-                                                </div> -->
 
         </div>
 
@@ -308,28 +500,7 @@
             <!-- TITLE -->
             <h2 class="rgu-lab-title">Explore Labs, Workshop & Studio</h2>
 
-            <!-- <p class="rgu-lab-subtitle">
-                                            At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
-                                            and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
-                                            students and researchers to experiment, explore, and transform ideas into real-world solutions. From
-                                            scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
-                                            thinking, and excellence in every discipline.
-                                        </p> -->
-
             <div class="rgu-lab-row">
-
-                <!-- LEFT SIDE (GRAPHIC) -->
-                <!-- <div class="rgu-lab-left">
-
-                                                <div class="rgu-lab-image">
-                                                    <img src="assets/img/index/facts.svg" alt="Research Statistics">
-                                                </div>
-
-                                                <div style="margin-bottom: 20px;" class="rgu-next-viewall">
-                                                    <a href="https://rgu.ac/laboratories">View all Labs +</a>
-                                                </div>
-
-                                            </div> -->
 
 
                 <!-- RIGHT SIDE (SLIDER) -->
