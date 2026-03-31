@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Discourse on Concept of Time at RGU Marks Hindu Lunar New Year')
+@section('title', 'RGU organizes workshop on Putala Nach – The Puppetry of Assam')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

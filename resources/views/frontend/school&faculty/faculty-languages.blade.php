@@ -372,8 +372,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/chandni-khaund.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/chandni-khaund.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Chandni Khaund
                             </h3>
@@ -435,6 +434,20 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card">
                         <div class="card-image">
+                            <img src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="Profile image">
+                        </div>
+                        <h3 class="card-name">Prof. Dhrubajyoti Borah
+                        </h3>
+                        <p class="card-designation">Professor
+
+                        </p>
+                        <!-- <a href="" class="profile-link">View Profile</a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-image">
                             <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dileep.jpeg"
                                 alt="Profile image">
                         </div>
@@ -444,20 +457,6 @@
 
                         </p>
                         <a href="/faculty-dileep-chandan-sarma" class="profile-link">View Profile</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
-                        </div>
-                        <h3 class="card-name">Prof. Dhrubajyoti Borah
-                        </h3>
-                        <p class="card-designation">Professor
-
-                        </p>
-                        <!-- <a href="" class="profile-link">View Profile</a> -->
                     </div>
                 </div>
 
