@@ -108,6 +108,20 @@
                 <div class="row justify-content-center">
 
                     <!-- Professor & Principal/HOD -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/abhijit-sports.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Abhijit Rajbongshi</h3>
+                            <p class="card-designation">Sports Officer and Assistant Professor, RSPES</p>
+                            <a href="/faculty-abhijit-rajbongshi" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -118,6 +132,19 @@
                             {{-- <p class="card-designation">Professor & Dean</p> --}}
                             {{-- <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
                                 Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr Hrishikesh Pathak</h3>
+                            <p class="card-designation">Sports Officer</p>
+                            <a href="/faculty-hrishikesh-pathak" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 

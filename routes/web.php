@@ -3621,6 +3621,18 @@ Route::get('/faculty-tinku', function () {
     return view('frontend/facultyprofile/iks/tinku');
 })->name('faculty-tinku');
 
+//RSPES Faculty Profile
+
+Route::get('/faculty-abhijit-rajbongshi', function () {
+    return view('frontend/facultyprofile/rspes/abhijit-rajbongshi');
+})->name('faculty-abhijit-rajbongshi');
+
+Route::get('/faculty-hrishikesh-pathak', function () {
+    return view('frontend/facultyprofile/rspes/hrishikesh-pathak');
+})->name('faculty-hrishikesh-pathak');
+
+
+
 //RSAG Faculty Profile
 
 Route::get('/faculty-monalisha-b-deka', function () {
