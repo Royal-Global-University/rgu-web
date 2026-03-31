@@ -139,12 +139,12 @@
                         </tr>
                         <tr>
                             <td>D.</td>
-                            <td>Yly Pay</td>
+                            <td>Yearly Pay</td>
                             <td>125000.00</td>
                         </tr>
                         <tr>
                             <td>E.</td>
-                            <td>Sem Pay</td>
+                            <td>Semester Pay</td>
                             <td>64500.00</td>
                         </tr>
                     </tbody>

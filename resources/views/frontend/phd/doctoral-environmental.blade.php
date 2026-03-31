@@ -169,50 +169,50 @@
     </div>
 
     <div class="container">
-        <h3 class="fw-bold pt-4 pb-2 text-dark text-capitalize headd3">A. Registration & Admission Fees</h3>
+            <h3 class="fw-bold pt-4 pb-2 text-dark text-capitalize headd3">A. Registration & Admission Fees</h3>
 
-        <div class="table-responsive mb-3">
-            <table class="table border table-responsive table-striped  vertical-scroll">
+            <div class="table-responsive mb-3">
+                <table class="table border table-responsive table-striped  vertical-scroll">
 
-                <thead class="text-light  para1" style="font-size: 14px;">
-                    <th class="text-light  font-weight-bold">SL. NO.</th>
-                    <th class="text-light  font-weight-bold"></th>
-                    <th class="text-light  font-weight-bold">AMOUNT (Rs)</th>
-                </thead>
-                <tbody class="para1">
-                    <tr>
-                        <td>A.</td>
-                        <td>Prospectus & Form</td>
-                        <td>1500.00</td>
-                    </tr>
-                    <tr>
-                        <td>B.</td>
-                        <td>Registration</td>
-                        <td>10000.00</td>
-                    </tr>
-                    <tr>
-                        <td>C.</td>
-                        <td>Caution Money (Common for all streams) - Refundable</td>
-                        <td>10000.00</td>
-                    </tr>
-                    <tr>
-                        <td>D.</td>
-                        <td>Yly Pay</td>
-                        <td>125000.00</td>
-                    </tr>
-                    <tr>
-                        <td>E.</td>
-                        <td>Sem Pay</td>
-                        <td>64500.00</td>
-                    </tr>
-                </tbody>
-            </table>
+                    <thead class="text-light  para1" style="font-size: 14px;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold"></th>
+                        <th class="text-light  font-weight-bold">AMOUNT (Rs)</th>
+                    </thead>
+                    <tbody class="para1">
+                        <tr>
+                            <td>A.</td>
+                            <td>Prospectus & Form</td>
+                            <td>1500.00</td>
+                        </tr>
+                        <tr>
+                            <td>B.</td>
+                            <td>Registration</td>
+                            <td>10000.00</td>
+                        </tr>
+                        <tr>
+                            <td>C.</td>
+                            <td>Caution Money (Common for all streams) - Refundable</td>
+                            <td>10000.00</td>
+                        </tr>
+                        <tr>
+                            <td>D.</td>
+                            <td>Yearly Pay</td>
+                            <td>125000.00</td>
+                        </tr>
+                        <tr>
+                            <td>E.</td>
+                            <td>Semester Pay</td>
+                            <td>64500.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <a href="https://admissions.rgu.ac/" class="text-white rounded fw-bold"
+                style="background-color: #f39f21; padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;">Apply
+                Now</a>
         </div>
-
-        <a href="https://admissions.rgu.ac/" class="text-white rounded fw-bold"
-            style="background-color: #f39f21; padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;">Apply
-            Now</a>
-    </div>
 
     <div class="container">
         <p class="para1 text-dark pt-5" style="text-align: justify;">
