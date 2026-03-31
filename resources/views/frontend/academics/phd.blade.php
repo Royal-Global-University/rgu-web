@@ -1563,6 +1563,7 @@
                         <button class="phd-tab" data-tab="tab5">Humanities</button>
                         <button class="phd-tab" data-tab="tab6">Design & Arts</button>
                         <button class="phd-tab" data-tab="tab7">Health Sciences</button>
+                        <button class="phd-tab" data-tab="tab8">Physical Education and Sports</button>
                     </div>
 
                     <!-- TAB CONTENT -->
@@ -1655,6 +1656,13 @@
                             <a href="#!" class="phd-card">Physiotherapy</a>
                             <a href="#!" class="phd-card">Radiography</a>
                             <a href="https://rgu.ac/doctoral-pharmacy" class="phd-card">Pharmacy</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 8 -->
+                    <div class="phd-tab-content" id="tab8">
+                        <div class="phd-grid">
+                            <a href="/doctoral-physical-education-and-sports" class="phd-card">Physical Education and Sports</a>
                         </div>
                     </div>
 
