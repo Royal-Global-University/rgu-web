@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'RGU PhD Admission 2025: Eligibility, Fees, & 20+ Research Subjects')
-@section('meta_description', 'RGU PhD Admissions Open for 2025! Check eligibility (55% minimum), detailed course work,
+@section('meta_description',
+    'RGU PhD Admissions Open for 2025! Check eligibility (55% minimum), detailed course work,
     and 20+ subject specializations (Law, English, Management, etc.). Apply Today!')
 @section('meta_keywords', 'Doctoral Programme')
 
@@ -1429,6 +1430,20 @@
             <div class="container-fluid">
                 <div class="row" style="text-align: justify;">
                     <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                                    Ph.D. Cell
+                                </button>
+                            </h2>
+                            <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <a href="/phd-cell" class="bg-danger p-2 rounded text-white fw-bold">Click to View</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="accordion-item mb-2">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
