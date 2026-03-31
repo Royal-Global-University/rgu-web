@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, March 30, 2026",
+            title: "RGU organizes workshop on Putala Nach – The Puppetry of Assam",
+            desc: "On the occasion of World Theatre Day, a two-day workshop on Putala Nách – The Puppetry of Assam was organised by the Centre for Indian Knowledge Systems in association with the Royal School of Fine Arts and IQAC",
+            img: "/mobile-assets/media-corner/news83/1.jpeg",
+            link: "/rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam",
+        },
+        {
             date: "Guwahati, March 23, 2026",
             title: "Royal Global University to Introduce UG and PG Programmes in Assamese",
             desc: "In a significant step towards promoting higher learning, research, and scholarly engagement in Assamese language and literature, The Assam Royal Global University (RGU) has decided to introduce modern Undergraduate and Postgraduate programmes in Assamese from the upcoming academic session.",
@@ -50,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
             img: "https://rgu.ac/mobile-assets/media-corner/news82/93261.jpeg",
             link: "https://rgu.ac/rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne",
         },
-        
     ];
 
     // ================= 2. DOM ELEMENTS =================

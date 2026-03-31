@@ -46,25 +46,36 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU organizes workshop on Putala Nach – The Puppetry of Assam',
+                            'summary' => '',
+                            'date' => 'Guwahati, March 30, 2026:',
+                            'link' => '/rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam',
+                            'image' => '/mobile-assets/media-corner/news83/1.jpeg',
+                            'content' => 'On the occasion of World Theatre Day, a two-day
+                workshop on Putala Nách – The Puppetry of Assam was organised by the Centre for Indian Knowledge Systems in
+                association with the Royal School of Fine Arts and IQAC.',
+                        ],
+                        [
                             'title' => 'Royal Global University to Introduce UG and PG Programmes in Assamese',
                             'summary' => '',
                             'date' => 'Guwahati, March 23, 2026:',
-                            'link' =>
-                                '/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese',
+                            'link' => '/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese',
                             'image' => 'mobile-assets/rgu-blog/blog2.jpeg',
-                            'content' => 'In a significant step towards promoting higher learning, research, and scholarly engagement in Assamese language and literature, The Assam Royal Global University (RGU) has decided to introduce modern Undergraduate and Postgraduate programmes in Assamese from the upcoming academic session. The programmes will be designed in accordance with the National Education Policy (NEP)...',
+                            'content' =>
+                                'In a significant step towards promoting higher learning, research, and scholarly engagement in Assamese language and literature, The Assam Royal Global University (RGU) has decided to introduce modern Undergraduate and Postgraduate programmes in Assamese from the upcoming academic session. The programmes will be designed in accordance with the National Education Policy (NEP)...',
                         ],
                         [
                             'title' => 'Discourse on Concept of Time at RGU Marks Hindu Lunar New Year',
                             'summary' => '',
                             'date' => 'Guwahati, March 19, 2026:',
-                            'link' =>
-                                '/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year',
+                            'link' => '/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year',
                             'image' => 'mobile-assets/media-corner/news83/19326.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) celebrated the beginning of the Hindu Lunar New Year today with a thought-provoking discourse on “The Concept of Time,” beautifully highlighting the harmony between science and culture while emphasising India’s rich astronomical heritage.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) celebrated the beginning of the Hindu Lunar New Year today with a thought-provoking discourse on “The Concept of Time,” beautifully highlighting the harmony between science and culture while emphasising India’s rich astronomical heritage.',
                         ],
                         [
-                            'title' => 'Royal Global University Connects Talent with Industry at Mega Placement Day 2026',
+                            'title' =>
+                                'Royal Global University Connects Talent with Industry at Mega Placement Day 2026',
                             'summary' => '',
                             'date' => 'Guwahati, March 17, 2026:',
                             'link' =>
@@ -79,20 +90,20 @@
                             'title' => '156 Students of RGU Awarded Scholarship for Academic Excellence',
                             'summary' => 'Planning is the pillar of your career: IGP Singh to RGU Scholarship Awardees',
                             'date' => 'Guwahati, March 16, 2026:',
-                            'link' =>
-                                '/156-students-of-rgu-awarded-scholarship-for-academic-excellence',
+                            'link' => '/156-students-of-rgu-awarded-scholarship-for-academic-excellence',
                             'image' => 'mobile-assets/media-corner/news83/173262.jpeg',
-                            'content' => 'Reinforcing its commitment to nurturing academic excellence and recognising meritorious students, The Assam Royal Global University (RGU) organised a Monthly Scholarship Award Ceremony ...',
+                            'content' =>
+                                'Reinforcing its commitment to nurturing academic excellence and recognising meritorious students, The Assam Royal Global University (RGU) organised a Monthly Scholarship Award Ceremony ...',
                         ],
 
                         [
                             'title' => 'Padma Bhushan & creator of Mohan Veena mesmerises audience at RGU SMVA',
                             'summary' => '4-day-long SPIC MACAY Virasat Anubhav Series concludes at RGU',
                             'date' => 'Guwahati, March 14, 2026:',
-                            'link' =>
-                                '/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva',
+                            'link' => '/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva',
                             'image' => 'mobile-assets/media-corner/news82/163262.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) successfully hosted the SPIC MACAY Virasat Anubhav (SMVA) Series 2026, a four-day cultural immersion programme from March 10 to 13...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) successfully hosted the SPIC MACAY Virasat Anubhav (SMVA) Series 2026, a four-day cultural immersion programme from March 10 to 13...',
                         ],
 
                         [

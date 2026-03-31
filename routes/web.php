@@ -3141,6 +3141,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam', function () {
+    return view('frontend/media-corner/news112');
+})->name('rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam');
+
 Route::get('/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese', function () {
     return view('frontend/media-corner/2026/news1');
 })->name('royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese');

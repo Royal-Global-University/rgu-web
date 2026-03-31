@@ -67,7 +67,7 @@
                     <button class="rgu-news-btn rgu-news-next"><i class="bi bi-arrow-right"></i></button>
 
                     <div class="rgu-news-viewall">
-                        <a href="https://rgu.ac/media-corner">View all News +</a>
+                        <a href="/media-corner">View all News +</a>
                     </div>
 
                 </div>
@@ -157,8 +157,8 @@
             </div>
 
             <!-- <div class="rgu-next-viewall">
-                                                <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
-                                            </div> -->
+                                                    <a href="#">DISCOVER ALL UPCOMING EVENTS +</a>
+                                                </div> -->
 
         </div>
 
@@ -309,27 +309,27 @@
             <h2 class="rgu-lab-title">Explore Labs, Workshop & Studio</h2>
 
             <!-- <p class="rgu-lab-subtitle">
-                                        At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
-                                        and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
-                                        students and researchers to experiment, explore, and transform ideas into real-world solutions. From
-                                        scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
-                                        thinking, and excellence in every discipline.
-                                    </p> -->
+                                            At Royal Global University, our advanced laboratories serve as dynamic hubs of discovery, innovation,
+                                            and hands-on learning. Equipped with modern technology and guided by expert faculty, these labs empower
+                                            students and researchers to experiment, explore, and transform ideas into real-world solutions. From
+                                            scientific research to interdisciplinary collaboration, our lab environments foster creativity, critical
+                                            thinking, and excellence in every discipline.
+                                        </p> -->
 
             <div class="rgu-lab-row">
 
                 <!-- LEFT SIDE (GRAPHIC) -->
                 <!-- <div class="rgu-lab-left">
 
-                                            <div class="rgu-lab-image">
-                                                <img src="assets/img/index/facts.svg" alt="Research Statistics">
-                                            </div>
+                                                <div class="rgu-lab-image">
+                                                    <img src="assets/img/index/facts.svg" alt="Research Statistics">
+                                                </div>
 
-                                            <div style="margin-bottom: 20px;" class="rgu-next-viewall">
-                                                <a href="https://rgu.ac/laboratories">View all Labs +</a>
-                                            </div>
+                                                <div style="margin-bottom: 20px;" class="rgu-next-viewall">
+                                                    <a href="https://rgu.ac/laboratories">View all Labs +</a>
+                                                </div>
 
-                                        </div> -->
+                                            </div> -->
 
 
                 <!-- RIGHT SIDE (SLIDER) -->
