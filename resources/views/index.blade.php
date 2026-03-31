@@ -564,7 +564,7 @@
             <!-- TOP 2 IMAGES -->
             <div class="rgu-research-top">
                 <div class="rgu-research-img">
-                    <img src="https://media.rgu.ac/new-web/img/index/research/research-1.svg" alt="">
+                    <img src="/new-web/assets/img/index/research/new-research-facts.svg" alt="">
                 </div>
                 <div class="rgu-research-img">
                     <img src="mobile-assets/research-development-new/ecosystem/center.png" alt="">

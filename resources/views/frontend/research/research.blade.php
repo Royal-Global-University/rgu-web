@@ -512,8 +512,8 @@
             }
 
             /* THE FIX: The Invisible Bridge
-               This creates a transparent block that fills the empty space (margin)
-               so the mouse doesn't "fall" into the gap. */
+                   This creates a transparent block that fills the empty space (margin)
+                   so the mouse doesn't "fall" into the gap. */
             .urd_ql_dropdown_list::after {
                 content: "";
                 position: absolute;
@@ -607,32 +607,15 @@
                 </section>
 
                 <section>
-                    <img src="/mobile-assets/research/new-research-facts.png" class="urd_hero_image pt-2 pb-2"
-                        alt="Research Head" />
-                </section>
-
-                {{-- <section class="urd_ecosystem_wrapper" id="urd_eco_trigger_desktop">
-                    <div class="urd_eco_flex_container">
-                        <div class="urd_eco_col_group">
-                            <img src="mobile-assets/research-development/ecosystem/new-eco/a12.png"
-                                class="urd_eco_floating_card" alt="Stat A" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/b1.png"
-                                class="urd_eco_floating_card" alt="Stat B" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/c1.png"
-                                class="urd_eco_floating_card" alt="Stat C" />
+                    <div class="row p-4 text-center">
+                        <div class="col-lg-6">
+                            <img src="/new-web/assets/img/index/research/new-research-facts.svg" alt="">
                         </div>
-                        <img src="mobile-assets/research-development-new/ecosystem/center.png" class="urd_eco_center_visual"
-                            alt="Ecosystem Center" />
-                        <div class="urd_eco_col_group">
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/d1.png"
-                                class="urd_eco_floating_card" alt="Stat D" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/e1.png"
-                                class="urd_eco_floating_card" alt="Stat E" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/f1.png"
-                                class="urd_eco_floating_card" alt="Stat F" />
+                        <div class="col-lg-5">
+                            <img src="mobile-assets/research-development-new/ecosystem/center.png" alt="">
                         </div>
                     </div>
-                </section> --}}
+                </section>
 
                 <section class="urd_scroller_section">
                     <div class="urd_section_main_title">
