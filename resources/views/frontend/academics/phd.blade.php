@@ -1386,9 +1386,296 @@
 
         <div style="padding: 40px 60px;">
 
-            <div class="headd2 fw-bold text-dark pb-5">Ph.D. Curriculum</div>
+            <style>
+                /* TABS CONTAINER */
+                .phd-tabs {
+                    display: flex;
+                    gap: 10px;
+                    overflow-x: auto;
+                    padding-bottom: 10px;
+                    margin-bottom: 25px;
+                    scroll-behavior: smooth;
+                }
 
-            @include('frontend/components/phddeptweb')
+                /* HIDE SCROLLBAR */
+                .phd-tabs::-webkit-scrollbar {
+                    display: none;
+                }
+
+                .phd-tabs {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+
+                /* TAB BUTTON */
+                .phd-tab {
+                    flex: 0 0 auto;
+                    padding: 10px 16px;
+                    border-radius: 30px;
+                    background: #e4ebf5;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 0.9rem;
+                    white-space: nowrap;
+                    transition: 0.3s;
+                }
+
+                /* ACTIVE TAB */
+                .phd-tab.active {
+                    background: #162a46;
+                    color: #fff;
+                }
+
+                /* TAB CONTENT */
+                .phd-tab-content {
+                    display: none;
+                    animation: fadeIn 0.3s ease;
+                }
+
+                .phd-tab-content.active {
+                    display: block;
+                }
+
+                /* ANIMATION */
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        transform: translateY(10px);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+
+                .phd-curriculum {
+                    padding: 60px 0;
+                    background: #f4f7fb;
+                }
+
+                .phd-container {
+                    max-width: 1400px;
+                    margin: auto;
+                    padding: 0 40px;
+                }
+
+                .phd-card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    background: #162a46;
+                    color: #fff;
+                    padding: 22px 18px;
+                    text-align: center;
+                    border-radius: 10px;
+                    font-size: 1.05rem;
+                    font-weight: 500;
+                    text-decoration: none;
+                    /* IMPORTANT */
+                    min-height: 80px;
+
+                    transition: all 0.3s ease;
+                }
+
+                /* Hover */
+                .phd-card:hover {
+                    background: #1d3c6a;
+                    transform: translateY(-4px);
+                    color: #fff;
+                    /* prevent link color change */
+                }
+
+                .phd-title {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: #1d3557;
+                    margin-bottom: 40px;
+                }
+
+                /* CATEGORY TITLE */
+                .phd-category {
+                    margin-bottom: 40px;
+                }
+
+                .phd-category h3 {
+                    font-size: 1.6rem;
+                    margin-bottom: 15px;
+                    color: #27467a;
+                    font-weight: 600;
+                }
+
+                /* GRID */
+                .phd-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+                    gap: 18px;
+                }
+
+                /* CARD BUTTON */
+                .phd-card {
+                    background: #162a46;
+                    color: #fff;
+                    padding: 22px 18px;
+                    text-align: center;
+                    border-radius: 10px;
+                    font-size: 1.05rem;
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    min-height: 80px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                /* HOVER EFFECT */
+                .phd-card:hover {
+                    background: #1d3c6a;
+                    transform: translateY(-4px);
+                }
+
+                /* RESPONSIVE */
+                @media (max-width: 768px) {
+                    .phd-title {
+                        font-size: 2.2rem;
+                    }
+
+                    .phd-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            </style>
+
+            <section class="phd-curriculum">
+                <div class="phd-container">
+
+                    <h2 class="phd-title">Ph.D. Curriculum</h2>
+
+                    <!-- TAB HEADINGS -->
+                    <div class="phd-tabs">
+                        <button class="phd-tab active" data-tab="tab1">Business & Management</button>
+                        <button class="phd-tab" data-tab="tab2">Science & Technology</button>
+                        <button class="phd-tab" data-tab="tab3">Earth Science</button>
+                        <button class="phd-tab" data-tab="tab4">Languages</button>
+                        <button class="phd-tab" data-tab="tab5">Humanities</button>
+                        <button class="phd-tab" data-tab="tab6">Design & Arts</button>
+                        <button class="phd-tab" data-tab="tab7">Health Sciences</button>
+                    </div>
+
+                    <!-- TAB CONTENT -->
+
+                    <!-- TAB 1 -->
+                    <div class="phd-tab-content active" id="tab1">
+                        <div class="phd-grid">
+                            <a href="https://rgu.ac/doctoral-management" class="phd-card">Business Administration</a>
+                            <a href="https://rgu.ac/doctoral-commerce" class="phd-card">Commerce</a>
+                            <a href="https://rgu.ac/doctoral-hotel-management" class="phd-card">Hotel Management</a>
+                            <a href="https://rgu.ac/doctoral-tourism-travel" class="phd-card">Travel & Tourism
+                                Management</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 2 -->
+                    <div class="phd-tab-content" id="tab2">
+                        <div class="phd-grid">
+                            <a href="#!" class="phd-card">Agriculture</a>
+                            <a href="https://rgu.ac/doctoral-physics" class="phd-card">Physics</a>
+                            <a href="https://rgu.ac/doctoral-chemistry" class="phd-card">Chemistry</a>
+                            <a href="https://rgu.ac/doctoral-mathematics" class="phd-card">Mathematics</a>
+                            <a href="https://rgu.ac/doctoral-civil-engineering" class="phd-card">Civil Engineering</a>
+                            <a href="#!" class="phd-card">Mechanical Engineering</a>
+                            <a href="#!" class="phd-card">Computer Science & Engineering</a>
+                            <a href="https://rgu.ac/doctoral-com-sc-engg" class="phd-card">Computer Applications</a>
+                            <a href="#!" class="phd-card">Artificial Intelligence</a>
+                            <a href="https://rgu.ac/doctoral-zoology" class="phd-card">Zoology</a>
+                            <a href="https://rgu.ac/doctoral-botany" class="phd-card">Botany</a>
+                            <a href="https://rgu.ac/doctoral-biotechnology" class="phd-card">Biotechnology</a>
+                            <a href="https://rgu.ac/doctoral-microbiology" class="phd-card">Microbiology</a>
+                            <a href="#!" class="phd-card">Forestry</a>
+                            <a href="https://rgu.ac/doctoral-com-sc-engg" class="phd-card">Information Technology</a>
+                            <a href="https://rgu.ac/phd#" class="phd-card">Forensic Science</a>
+                            <a href="#!" class="phd-card">Food Science & Technology</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 3 -->
+                    <div class="phd-tab-content" id="tab3">
+                        <div class="phd-grid">
+                            <a href="https://rgu.ac/doctoral-geography" class="phd-card">Geography</a>
+                            <a href="https://rgu.ac/phd#" class="phd-card">Geoinformatics</a>
+                            <a href="https://rgu.ac/doctoral-geology" class="phd-card">Geology</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 4 -->
+                    <div class="phd-tab-content" id="tab4">
+                        <div class="phd-grid">
+                            <a href="#!" class="phd-card">Assamese</a>
+                            <a href="https://rgu.ac/doctoral-english" class="phd-card">English</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 5 -->
+                    <div class="phd-tab-content" id="tab5">
+                        <div class="phd-grid">
+                            <a href="https://rgu.ac/doctoral-economics" class="phd-card">Economics</a>
+                            <a href="https://rgu.ac/doctoral-sociology" class="phd-card">Sociology</a>
+                            <a href="https://rgu.ac/doctoral-social-work" class="phd-card">Social Work</a>
+                            <a href="https://rgu.ac/doctoral-political-science" class="phd-card">Political Science</a>
+                            <a href="https://rgu.ac/doctoral-public-admin" class="phd-card">Public Administration</a>
+                            <a href="https://rgu.ac/doctoral-history" class="phd-card">History</a>
+                            <a href="https://rgu.ac/doctoral-law" class="phd-card">Law</a>
+                            <a href="https://rgu.ac/doctoral-library-science" class="phd-card">Library Science</a>
+                            <a href="https://rgu.ac/doctoral-mass-comm-journalism" class="phd-card">Journalism & Mass
+                                Communication</a>
+                            <a href="https://rgu.ac/doctoral-psychology" class="phd-card">Psychology</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 6 -->
+                    <div class="phd-tab-content" id="tab6">
+                        <div class="phd-grid">
+                            <a href="#!" class="phd-card">Product Design</a>
+                            <a href="#!" class="phd-card">Graphic Design</a>
+                            <a href="#!" class="phd-card">Fashion Design</a>
+                            <a href="#!" class="phd-card">Communication Design</a>
+                            <a href="https://rgu.ac/doctoral-architecture" class="phd-card">Architecture</a>
+                            <a href="https://rgu.ac/doctoral-fine-arts" class="phd-card">Fine Arts</a>
+                        </div>
+                    </div>
+
+                    <!-- TAB 7 -->
+                    <div class="phd-tab-content" id="tab7">
+                        <div class="phd-grid">
+                            <a href="#!" class="phd-card">Medical Laboratory Technology</a>
+                            <a href="#!" class="phd-card">Nutrition & Dietetics</a>
+                            <a href="#!" class="phd-card">Physiotherapy</a>
+                            <a href="#!" class="phd-card">Radiography</a>
+                            <a href="https://rgu.ac/doctoral-pharmacy" class="phd-card">Pharmacy</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <script>
+                const tabs = document.querySelectorAll(".phd-tab");
+                const contents = document.querySelectorAll(".phd-tab-content");
+
+                tabs.forEach(tab => {
+                    tab.addEventListener("click", () => {
+
+                        tabs.forEach(t => t.classList.remove("active"));
+                        contents.forEach(c => c.classList.remove("active"));
+
+                        tab.classList.add("active");
+                        document.getElementById(tab.dataset.tab).classList.add("active");
+                    });
+                });
+            </script>
 
 
             <p class="para1 text-dark pt-5" style="text-align: justify;">
