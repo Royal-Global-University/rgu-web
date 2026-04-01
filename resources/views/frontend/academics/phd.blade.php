@@ -376,12 +376,12 @@
                     <h3>Science, Engineering & Technology</h3>
                     <div class="phd-links">
                         <a href="#">Agriculture</a>
-                        <a href="#">Artificial Intelligence</a>
+                        <a href="https://rgu.ac/doctoral-com-sc-engg">Artificial Intelligence</a>
                         <a href="https://rgu.ac/doctoral-biotechnology">Biotechnology</a>
                         <a href="https://rgu.ac/doctoral-botany">Botany</a>
                         <a href="https://rgu.ac/doctoral-chemistry">Chemistry</a>
                         <a href="https://rgu.ac/doctoral-civil-engineering">Civil Engineering</a>
-                        <a href="#">Computer Science & Engineering</a>
+                        <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Science & Engineering</a>
                         <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Application</a>
                         <a href="#">Food Science & Technology</a>
                         <a href="#">Forestry</a>
@@ -420,8 +420,8 @@
                     <div class="phd-links">
                         <a href="https://rgu.ac/doctoral-economics">Economics</a>
                         <a href="https://rgu.ac/doctoral-history">History</a>
-                        <a href="#">Indian Knowledge System</a>
-                        <a href="https://rgu.ac/doctoral-journalism-mass-comm">Journalism and Mass Communication</a>
+                        <a href="/doctoral-indian-knowledge-sys">Indian Knowledge System</a>
+                        <a href="/doctoral-mass-comm-journalism">Journalism and Mass Communication</a>
                         <a href="https://rgu.ac/doctoral-law">Law</a>
                         <a href="https://rgu.ac/doctoral-library-science">Library Science</a>
                         <a href="https://rgu.ac/doctoral-political-science">Political Science</a>
@@ -461,7 +461,7 @@
                 <div class="phd-category">
                     <h3>Physical Education and Sports</h3>
                     <div class="phd-links">
-                        <a href="#">Physical Education and Sports</a>
+                        <a href="/doctoral-physical-education-and-sports">Physical Education and Sports</a>
                     </div>
                 </div>
 
