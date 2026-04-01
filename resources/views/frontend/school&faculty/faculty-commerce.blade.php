@@ -158,7 +158,7 @@
                         </div>
                     </div>
 
-                                        <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
@@ -167,6 +167,17 @@
                             <h3 class="card-name">Dr. Rajdeep Nag</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/amar-borah.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Amar Jyoti Borah</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
@@ -199,24 +210,24 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Ms-Baishali-Pathak.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Baishali Pathak</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://rgu.ac/faculty-dr-baishali-pathak" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Richika Kedia</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-richika-kedia" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Ms-Baishali-Pathak.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Baishali Pathak</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://rgu.ac/faculty-dr-baishali-pathak" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
