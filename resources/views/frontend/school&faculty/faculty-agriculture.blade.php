@@ -106,8 +106,6 @@
 
                 <!-- regular faculty  -->
                 <div class="row justify-content-center text-center">
-
-                    <div class="col-lg-1 col-md-6 mb-4"></div>
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -138,14 +136,26 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/bharati-lap.jpeg"
+                                    alt="Profile image of Dr. Abesh Chakraborty">
+                            </div>
+                            <h3 class="card-name">Dr. Bharati Lap</h3>
+                            <p class="card-designation">Assistant Professor
+                                {{-- <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a> --}}
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rslsc/AbeshChakraborty.jpeg"
                                     alt="Profile image of Dr. Abesh Chakraborty">
                             </div>
                             <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs </p>
                             <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a>
-
-                            </p>
                         </div>
                     </div>
 
