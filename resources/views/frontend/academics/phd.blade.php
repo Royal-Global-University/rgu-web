@@ -383,9 +383,9 @@
                         <a href="https://rgu.ac/doctoral-civil-engineering">Civil Engineering</a>
                         <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Science & Engineering</a>
                         <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Application</a>
-                        <a href="#">Food Science & Technology</a>
-                        <a href="#">Forestry</a>
-                        <a href="#">Forensic Science</a>
+                        <a href="/doctoral-food-technology">Food Science & Technology</a>
+                        <a href="/doctoral-forestry">Forestry</a>
+                        <a href="/doctoral-forensic-science">Forensic Science</a>
                         <a href="https://rgu.ac/doctoral-com-sc-engg">Information Technology</a>
                         <a href="https://rgu.ac/doctoral-mathematics">Mathematics</a>
                         <a href="#">Mechanical Engineering</a>
@@ -400,7 +400,7 @@
                     <h3>Earth Science</h3>
                     <div class="phd-links">
                         <a href="https://rgu.ac/doctoral-geography">Geography</a>
-                        <a href="#">Geoinformatics</a>
+                        <a href="/doctoral-geoinformatics">Geoinformatics</a>
                         <a href="https://rgu.ac/doctoral-geology">Geology</a>
                     </div>
                 </div>
@@ -439,7 +439,7 @@
                         <a href="https://rgu.ac/doctoral-architecture">Architecture</a>
                         <a href="#">Communication Design</a>
                         <a href="https://rgu.ac/doctoral-fine-arts">Fine Arts</a>
-                        <a href="#">Fashion Design</a>
+                        <a href="/doctoral-rsft">Fashion Design</a>
                         <a href="#">Graphic Design</a>
                         <a href="#">Product Design</a>
                     </div>

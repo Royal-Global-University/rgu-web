@@ -778,6 +778,26 @@ Route::get('/phd-awarded-2025', function () {
     return view('frontend/phd-award/2025/phd-awarded-2025');
 })->name('phd-awarded-2025');
 
+Route::get('/doctoral-forensic-science', function () {
+    return view('frontend/phd/doctoral-forensic-science');
+})->name('doctoral-forensic-science');
+
+Route::get('/doctoral-forestry', function () {
+    return view('frontend/phd/doctoral-forestry');
+})->name('doctoral-forestry');
+
+Route::get('/doctoral-geoinformatics', function () {
+    return view('frontend/phd/doctoral-geoinformatics');
+})->name('doctoral-geoinformatics');
+
+Route::get('/doctoral-food-technology', function () {
+    return view('frontend/phd/doctoral-food-technology');
+})->name('doctoral-food-technology');
+
+Route::get('/doctoral-rsft', function () {
+    return view('frontend/phd/doctoral-rsft');
+})->name('doctoral-rsft');
+
 Route::get('/doctoral-hotel-management', function () {
     return view('frontend/phd/doctoral-hotel-management');
 })->name('doctoral-hotel-management');
