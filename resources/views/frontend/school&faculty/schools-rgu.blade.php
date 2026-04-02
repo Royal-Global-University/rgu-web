@@ -14,8 +14,8 @@
 
     <style>
         /* ===============================
-           RESET
-        ================================ */
+                   RESET
+                ================================ */
         *,
         *::before,
         *::after {
@@ -30,8 +30,8 @@
         }
 
         /* ===============================
-           WRAPPER
-        ================================ */
+                   WRAPPER
+                ================================ */
         .rgu-sf-wrapper {
             max-width: 1250px;
             margin: auto;
@@ -39,8 +39,8 @@
         }
 
         /* ===============================
-           HEADING
-        ================================ */
+                   HEADING
+                ================================ */
         .rgu-sf-heading {
             text-align: center;
             font-size: 42px;
@@ -54,8 +54,8 @@
         }
 
         /* ===============================
-           TOP LAYOUT
-        ================================ */
+                   TOP LAYOUT
+                ================================ */
         .rgu-sf-top {
             display: flex;
             justify-content: space-between;
@@ -65,13 +65,13 @@
         }
 
         /* ===============================
-           BUTTON GROUP
-        ================================ */
+                   BUTTON GROUP
+                ================================ */
         .rgu-sf-btn-group {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            gap: 12px;
+            align-items: center;
+            gap: 20px;
         }
 
         .rgu-sf-btn {
@@ -90,8 +90,8 @@
         }
 
         /* ===============================
-           RIGHT CONTROLS
-        ================================ */
+                   RIGHT CONTROLS
+                ================================ */
         .rgu-sf-right {
             display: flex;
             align-items: center;
@@ -115,8 +115,8 @@
         }
 
         /* ===============================
-           INPUTS
-        ================================ */
+                   INPUTS
+                ================================ */
         .rgu-sf-select,
         .rgu-sf-search {
             height: 42px;
@@ -174,8 +174,8 @@
         }
 
         /* ===============================
-           🔥 SEARCH RESULTS (IMPROVED ONLY HERE)
-        ================================ */
+                   🔥 SEARCH RESULTS (IMPROVED ONLY HERE)
+                ================================ */
         .rgu-sf-results {
             position: absolute;
             top: 48px;
@@ -261,8 +261,8 @@
         }
 
         /* ===============================
-           CARDS (RESTORED EXACT)
-        ================================ */
+                   CARDS (RESTORED EXACT)
+                ================================ */
         .rgu-sf-cards {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -352,8 +352,8 @@
         }
 
         /* ===============================
-           RESPONSIVE
-        ================================ */
+                   RESPONSIVE
+                ================================ */
         @media (max-width: 992px) {
             .rgu-sf-cards {
                 grid-template-columns: repeat(2, 1fr);
@@ -366,16 +366,15 @@
         }
 
         /* ===============================
-           MOBILE / SMALL SCREEN FIX
-        ================================ */
+                   MOBILE / SMALL SCREEN FIX
+                ================================ */
         @media (max-width: 768px) {
 
             /* BUTTON GRID → 2 per row */
             .rgu-sf-btn-group {
                 width: 100%;
                 display: flex;
-                justify-content: space-around
-                gap: 20px;
+                justify-content: center;
             }
 
             .rgu-sf-btn {
@@ -419,8 +418,8 @@
 
     <style>
         /* ===============================
-           FIX CARD ALIGNMENT (REAL FIX)
-        ================================ */
+                   FIX CARD ALIGNMENT (REAL FIX)
+                ================================ */
 
         /* Ensure equal card sizing */
         .rgu-sf-cards {
@@ -497,24 +496,20 @@
             Schools and <span>Faculty</span>
         </div>
 
-        <div class="pt-3">
+        <div class="rgu-sf-top">
 
-            <div class="rgu-sf-btn-group" style="display: flex; justify-content: center">
-                <a href="https://rgu.ac/how-to-apply" class="rgu-sf-btn">How to Apply</a>
-                <a href="https://rgu.ac/placements-process" class="rgu-sf-btn">Placements</a>
-                <a href="https://rgu.ac/programs" class="rgu-sf-btn">Eligibility & Selection Criteria</a>
-                <a href="https://rgu.ac/admission-programs-fees-structure" class="rgu-sf-btn">Fee Structure</a>
+            <div class="rgu-sf-btn-group">
+                <a href="/how-to-apply" class="rgu-sf-btn">How to Apply</a>
+                <a href="/placements-process" class="rgu-sf-btn">Placements</a>
+                <a href="/programs" class="rgu-sf-btn">Eligibility & Selection Criteria</a>
+                <a href="/admission-programs-fees-structure" class="rgu-sf-btn">Fee Structure</a>
             </div>
 
-
-
-        </div>
-
-        <div class="rgu-sf-right mt-5">
+            <div class="rgu-sf-right">
 
                 <div class="rgu-sf-controls-row">
                     <select id="rguDeptDropdown" class="rgu-sf-select">
-                        <option value="">Select Department...</option>
+                        <option value="">Search Department...</option>
                     </select>
                     <button id="rguDeptBtn" class="rgu-sf-btn-go">Go</button>
                 </div>
@@ -531,6 +526,8 @@
 
             </div>
 
+        </div>
+
         <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
 
         <div class="rgu-sf-cards" id="rguSFContainer"></div>
@@ -539,519 +536,519 @@
 
     <script>
         /* ===============================
-               DATA (EDIT HERE ONLY)
-            ================================ */
+           DATA (EDIT HERE ONLY)
+        ================================ */
         const rguSFData = [
 
             {
                 title: "Integrated Civil Service Programme",
-                image: "/mobile-assets/school-rgu/ias-banner.png",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/ias-banner.png",
 
-                deptMainLink: "/ias-courses",
+                deptMainLink: "https://www.rgu.ac/ias-courses",
 
                 departments: [{
                         name: "IAS Course",
-                        link: "/ias-courses"
+                        link: "https://www.rgu.ac/ias-courses"
                     },
 
                 ],
-                facultyLink: "/faculty-csp"
+                facultyLink: "https://www.rgu.ac/faculty-applied-purescience"
             },
 
             {
                 title: "Royal School of Agriculture (RSAG)",
-                image: "/mobile-assets/agri.png",
+                image: "https://www.rgu.ac/mobile-assets/agri.png",
 
-                deptMainLink: "/department-agriculture",
+                deptMainLink: "https://www.rgu.ac/department-agriculture",
 
                 departments: [{
                     name: "Department of Agriculture",
-                    link: "/department-agriculture"
+                    link: "https://www.rgu.ac/department-agriculture"
                 }],
-                facultyLink: "/faculty-agriculture"
+                facultyLink: "https://www.rgu.ac/faculty-agriculture"
             },
 
             {
                 title: "Royal School of Architecture (RSA)",
-                image: "/mobile-assets/school-rgu/soa-1.jpg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/soa-1.jpg",
 
-                deptMainLink: "/department-architecture",
+                deptMainLink: "https://www.rgu.ac/department-architecture",
 
                 departments: [{
                     name: "Department of Architecture",
-                    link: "/department-architecture"
+                    link: "https://www.rgu.ac/department-architecture"
                 }, ],
-                facultyLink: "/faculty-architecture"
+                facultyLink: "https://www.rgu.ac/faculty-architecture"
             },
 
             {
                 title: "Royal School of Applied & Pure Sciences (RSAPS)",
-                image: "/mobile-assets/school-rgu/applied.001.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/applied.001.jpeg",
 
-                deptMainLink: "/royal-s-school-of-applied-pure-science",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-applied-pure-science",
 
                 departments: [{
                         name: "Department of Physics",
-                        link: "/department-physics"
+                        link: "https://www.rgu.ac/department-physics"
                     },
                     {
                         name: "Department of Chemistry",
-                        link: "/department-chemistry"
+                        link: "https://www.rgu.ac/department-chemistry"
                     },
                     {
                         name: "Department of Mathematics",
-                        link: "/department-mathematics"
+                        link: "https://www.rgu.ac/department-mathematics"
                     },
                 ],
-                facultyLink: "/faculty-applied-purescience"
+                facultyLink: "https://www.rgu.ac/faculty-applied-purescience"
             },
 
             {
                 title: "Royal School of Business (RSB)",
-                image: "/mobile-assets/school-rgu/business.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/business.jpeg",
 
-                deptMainLink: "/department-business",
+                deptMainLink: "https://www.rgu.ac/department-business",
 
                 departments: [{
                         name: "Department of Business",
-                        link: "/department-business"
+                        link: "https://www.rgu.ac/department-business"
                     },
 
                 ],
-                facultyLink: "/faculty-business"
+                facultyLink: "https://www.rgu.ac/faculty-business"
             },
 
 
             {
                 title: "Royal School of Behavioral & Allied Sciences (RSBAS)",
-                image: "/mobile-assets/school-rgu/behavioral.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/behavioral.jpeg",
 
-                deptMainLink: "/department-psychology",
+                deptMainLink: "https://www.rgu.ac/department-psychology",
 
                 departments: [{
                         name: "Department of Psychology",
-                        link: "/department-psychology"
+                        link: "https://www.rgu.ac/department-psychology"
                     },
 
                 ],
-                facultyLink: "/faculty-allied-sciences"
+                facultyLink: "https://www.rgu.ac/faculty-allied-sciences"
             },
 
             {
                 title: "Royal School of Bio-sciences (RSBSC)",
-                image: "/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
 
-                deptMainLink: "/royal-s-school-of-bio-science",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-bio-science",
 
                 departments: [{
                         name: "Department of Biotechnology",
-                        link: "/department-biotechnology"
+                        link: "https://www.rgu.ac/department-biotechnology"
                     },
                     {
                         name: "Department of Microbiology",
-                        link: "/department-microbiology"
+                        link: "https://www.rgu.ac/department-microbiology"
                     },
                     {
                         name: "Department of Food Technology",
-                        link: "/department-food-technology"
+                        link: "https://www.rgu.ac/department-food-technology"
                     },
 
 
                 ],
-                facultyLink: "/faculty-bio-sciences"
+                facultyLink: "https://www.rgu.ac/faculty-bio-sciences"
             },
 
             {
                 title: "Royal School of Commerce (RSC)",
-                image: "/mobile-assets/school-rgu/commerce.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/commerce.jpeg",
 
-                deptMainLink: "/department-commerce",
+                deptMainLink: "https://www.rgu.ac/department-commerce",
 
                 departments: [{
                         name: "Department of Commerce",
-                        link: "/department-commerce"
+                        link: "https://www.rgu.ac/department-commerce"
                     },
 
 
 
                 ],
-                facultyLink: "/faculty-commerce"
+                facultyLink: "https://www.rgu.ac/faculty-commerce"
             },
 
             {
                 title: "Royal School of Communications & Media (RSCOM)",
-                image: "/mobile-assets/school-rgu/media.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/media.jpeg",
 
-                deptMainLink: "/department-communications-media",
+                deptMainLink: "https://www.rgu.ac/department-communications-media",
 
                 departments: [{
                         name: "Department of Communications & Media",
-                        link: "/department-communications-media"
+                        link: "https://www.rgu.ac/department-communications-media"
                     },
 
 
 
                 ],
-                facultyLink: "/rscom-faculty"
+                facultyLink: "https://www.rgu.ac/rscom-faculty"
             },
 
 
             {
                 title: "Royal School of Design (RSD)",
-                image: "/mobile-assets/school-rgu/design.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/design.jpeg",
 
-                deptMainLink: "/royal-s-school-of-design",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-design",
 
                 departments: [{
                         name: "Department of Product Design",
-                        link: "/department-product-design"
+                        link: "https://www.rgu.ac/department-product-design"
                     },
                     {
                         name: "Department of Communication Design",
-                        link: "/department-communication-design"
+                        link: "https://www.rgu.ac/department-communication-design"
                     },
                     {
                         name: "Department of Interior Design",
-                        link: "/department-interior-design"
+                        link: "https://www.rgu.ac/department-interior-design"
                     },
                     {
                         name: "Department of Graphic Design",
-                        link: "/department-graphic-design"
+                        link: "https://www.rgu.ac/department-graphic-design"
                     },
                     {
                         name: "Department of Fashion Design",
-                        link: "/department-fashion-design"
+                        link: "https://www.rgu.ac/department-fashion-design"
                     },
 
 
 
                 ],
-                facultyLink: "/faculty-design"
+                facultyLink: "https://www.rgu.ac/faculty-design"
             },
             {
                 title: "Royal School of Environmental and Earth Sciences (RSEES)",
-                image: "/mobile-assets/school-rgu/earth.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/earth.jpeg",
 
-                deptMainLink: "/royal-s-school-of-enviroment-science",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-enviroment-science",
 
                 departments: [{
                         name: "Department of Geography & Geoinformatics",
-                        link: "/department-geography-geoinformatics"
+                        link: "https://www.rgu.ac/department-geography-geoinformatics"
                     },
                     {
                         name: "Department of Environmental Sciences",
-                        link: "/department-environmental-sciences"
+                        link: "https://www.rgu.ac/department-environmental-sciences"
                     },
                     {
                         name: "Department of Geology",
-                        link: "/department-geology"
+                        link: "https://www.rgu.ac/department-geology"
                     },
 
 
 
 
                 ],
-                facultyLink: "/faculty-environmental-earth"
+                facultyLink: "https://www.rgu.ac/faculty-environmental-earth"
             },
 
             {
                 title: "Royal School of Engineering and Technology (RSET)",
-                image: "/mobile-assets/school-rgu/soet.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/soet.jpeg",
 
-                deptMainLink: "/royal-s-school-of-engineering-technology",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-engineering-technology",
 
                 departments: [{
                         name: "Department of Computer Science and Engineering",
-                        link: "/department-cse"
+                        link: "https://www.rgu.ac/department-cse"
                     },
                     {
                         name: "Department of Mechanical Engineering",
-                        link: "/department-mechanical-engineering"
+                        link: "https://www.rgu.ac/department-mechanical-engineering"
                     },
                     {
                         name: "Department of Civil Engineering",
-                        link: "/department-civil-engineering"
+                        link: "https://www.rgu.ac/department-civil-engineering"
                     },
                 ],
-                facultyLink: "/faculty-engineeringtechnology"
+                facultyLink: "https://www.rgu.ac/faculty-engineeringtechnology"
             },
 
 
             {
                 title: "Royal School of Fine Arts (RSFA)",
-                image: "/mobile-assets/school-rgu/art.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/art.jpeg",
 
-                deptMainLink: "/department-fine-arts",
+                deptMainLink: "https://www.rgu.ac/department-fine-arts",
 
                 departments: [{
                         name: "Department of Fine Arts",
-                        link: "/department-fine-arts"
+                        link: "https://www.rgu.ac/department-fine-arts"
                     },
 
                 ],
-                facultyLink: "/faculty-finearts"
+                facultyLink: "https://www.rgu.ac/faculty-finearts"
             },
 
 
             {
                 title: "Royal School of Fashion Design (RSFT)",
-                image: "/mobile-assets/school-rgu/fashion.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/fashion.jpeg",
 
-                deptMainLink: "/department-fashion-design",
+                deptMainLink: "https://www.rgu.ac/department-fashion-design",
 
                 departments: [{
                         name: "Department of Fashion Design",
-                        link: "/department-fashion-design"
+                        link: "https://www.rgu.ac/department-fashion-design"
                     },
 
                 ],
-                facultyLink: "/faculty-fashion-design"
+                facultyLink: "https://www.rgu.ac/faculty-fashion-design"
             },
 
             {
                 title: "Royal School of Humanities (RSHSS)",
-                image: "/mobile-assets/school-rgu/humanities.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/humanities.jpeg",
 
-                deptMainLink: "/royal-s-school-of-humanities",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-humanities",
 
                 departments: [{
                         name: "Department of Economics",
-                        link: "/department-economics"
+                        link: "https://www.rgu.ac/department-economics"
                     },
                     {
                         name: "Department of History",
-                        link: "/department-history"
+                        link: "https://www.rgu.ac/department-history"
                     },
                     {
                         name: "Department of Political Science & Public Administration",
-                        link: "/department-of-political-science-public-administration"
+                        link: "https://www.rgu.ac/department-of-political-science-public-administration"
                     },
                     {
                         name: "Department of Sociology",
-                        link: "/department-sociology"
+                        link: "https://www.rgu.ac/department-sociology"
                     },
                     {
                         name: "Department of Social Work",
-                        link: "/department-social-work"
+                        link: "https://www.rgu.ac/department-social-work"
                     },
                     {
                         name: "Centre for Indian Knowledge Systems (IKS)",
-                        link: "/department-IKS"
+                        link: "https://www.rgu.ac/department-IKS"
                     },
 
 
                 ],
-                facultyLink: "/faculty-humanities-social"
+                facultyLink: "https://www.rgu.ac/faculty-humanities-social"
             },
 
             {
                 title: "Royal School of Hotel Management (RSHM)",
-                image: "/mobile-assets/school-rgu/hotel-mgn.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/hotel-mgn.jpeg",
 
-                deptMainLink: "/department-hotel-management",
+                deptMainLink: "https://www.rgu.ac/department-hotel-management",
 
                 departments: [{
                         name: "Department of Hotel Management",
-                        link: "/department-hotel-management"
+                        link: "https://www.rgu.ac/department-hotel-management"
                     },
 
 
                 ],
-                facultyLink: "/faculty-hotel-management"
+                facultyLink: "https://www.rgu.ac/faculty-hotel-management"
             },
 
             {
                 title: "Royal School of Information Technology (RSIT)",
-                image: "/mobile-assets/school-rgu/it-school.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/it-school.jpeg",
 
-                deptMainLink: "/department-information-technology",
+                deptMainLink: "https://www.rgu.ac/department-information-technology",
 
                 departments: [{
                         name: "Department of Information Technology",
-                        link: "/department-information-technology"
+                        link: "https://www.rgu.ac/department-information-technology"
                     },
 
 
                 ],
-                facultyLink: "/faculty-information-technology"
+                facultyLink: "https://www.rgu.ac/faculty-information-technology"
             },
 
             {
                 title: "Royal School of Law & Administration (RSLA)",
-                image: "/mobile-assets/school-rgu/law.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/law.jpeg",
 
-                deptMainLink: "/department-law",
+                deptMainLink: "https://www.rgu.ac/department-law",
 
                 departments: [{
                         name: "Department of Law",
-                        link: "/department-law"
+                        link: "https://www.rgu.ac/department-law"
                     },
 
 
                 ],
-                facultyLink: "/faculty-law-administration"
+                facultyLink: "https://www.rgu.ac/faculty-law-administration"
             },
 
             {
                 title: "Royal School of Life Sciences (RSLSC)",
-                image: "/mobile-assets/school-rgu/rgu-schools.003.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/rgu-schools.003.jpeg",
 
-                deptMainLink: "/royal-s-school-of-life-science",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-life-science",
 
                 departments: [{
                         name: "Department of Botany",
-                        link: "/department-botany"
+                        link: "https://www.rgu.ac/department-botany"
                     },
                     {
                         name: "Department of Zoology",
-                        link: "/department-zoology"
+                        link: "https://www.rgu.ac/department-zoology"
                     },
                     {
                         name: "Department of Forensic Sciences",
-                        link: "/department-forensic-sciences"
+                        link: "https://www.rgu.ac/department-forensic-sciences"
                     },
                     {
                         name: "Department of Forestry",
-                        link: "/department-forestry"
+                        link: "https://www.rgu.ac/department-forestry"
                     },
 
 
 
                 ],
-                facultyLink: "/faculty-lifesciences"
+                facultyLink: "https://www.rgu.ac/faculty-lifesciences"
             },
 
             {
                 title: "Royal School of Languages (RSL)",
-                image: "/mobile-assets/school-rgu/rgu-campus.001.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/rgu-campus.001.jpeg",
 
-                deptMainLink: "/royal-school-of-languages",
+                deptMainLink: "https://www.rgu.ac/royal-school-of-languages",
 
                 departments: [{
                         name: "Department of English",
-                        link: "/department-english"
+                        link: "https://www.rgu.ac/department-english"
                     },
                     {
                         name: "Department of Assamese",
-                        link: "/department-assamese"
+                        link: "https://www.rgu.ac/department-assamese"
                     },
 
 
                 ],
-                facultyLink: "/faculty-languages"
+                facultyLink: "https://www.rgu.ac/faculty-languages"
             },
 
             {
                 title: "Royal School of Library & Information Science (RSLISC)",
-                image: "/mobile-assets/school-rgu/schools-library.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/schools-library.jpeg",
 
-                deptMainLink: "/department-library-information",
+                deptMainLink: "https://www.rgu.ac/department-library-information",
 
                 departments: [{
                         name: "Department of Library & Information Science",
-                        link: "/department-library-information"
+                        link: "https://www.rgu.ac/department-library-information"
                     },
 
 
                 ],
-                facultyLink: "/faculty-librarysciences"
+                facultyLink: "https://www.rgu.ac/faculty-librarysciences"
             },
 
 
             {
                 title: "Royal School of Medical & Allied Sciences (RSMAS)",
-                image: "/assets/img/school-rgu/medical.jpeg",
+                image: "https://www.rgu.ac/assets/img/school-rgu/medical.jpeg",
 
-                deptMainLink: "/royal-s-school-of-medical-allied-science",
+                deptMainLink: "https://www.rgu.ac/royal-s-school-of-medical-allied-science",
 
                 departments: [{
                         name: "Department of Physiotherapy",
-                        link: "/department-physiotherapy"
+                        link: "https://www.rgu.ac/department-physiotherapy"
                     },
                     {
                         name: "Department of Optometry",
-                        link: "/department-optometry"
+                        link: "https://www.rgu.ac/department-optometry"
                     },
                     {
                         name: "Department of Anaesthesia and Operation Theatre Technology",
-                        link: "/department-operationtheatre"
+                        link: "https://www.rgu.ac/department-operationtheatre"
                     },
                     {
                         name: "Department of Medical Laboratory Science",
-                        link: "/department-medical-lab"
+                        link: "https://www.rgu.ac/department-medical-lab"
                     },
                     {
                         name: "Department of Medical Radiography and Imaging Technology",
-                        link: "/deptment-radiography"
+                        link: "https://www.rgu.ac/department-radiography"
                     },
                     {
                         name: "Department of Food Science & Nutrition",
-                        link: "/departement-food-science&nutrition"
+                        link: "https://www.rgu.ac/department-food-science&nutrition"
                     },
 
 
 
                 ],
-                facultyLink: "/faculty-medical&allidesciences"
+                facultyLink: "https://www.rgu.ac/faculty-medical&allidesciences"
             },
 
             {
                 title: "Royal School of Nursing (RSN)",
-                image: "/assets/img/school-rgu/nursing.jpeg",
+                image: "https://www.rgu.ac/assets/img/school-rgu/nursing.jpeg",
 
-                deptMainLink: "/department-nursing",
+                deptMainLink: "https://www.rgu.ac/department-nursing",
 
                 departments: [{
                         name: "Department of Nursing",
-                        link: "/department-nursing"
+                        link: "https://www.rgu.ac/department-nursing"
                     },
 
                 ],
-                facultyLink: "/faculty-nursing"
+                facultyLink: "https://www.rgu.ac/faculty-nursing"
             },
 
             {
                 title: "Royal School of Pharmacy (RSP)",
-                image: "/mobile-assets/school-rgu/pharmacy.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/pharmacy.jpeg",
 
-                deptMainLink: "/department-pharmacy",
+                deptMainLink: "https://www.rgu.ac/department-pharmacy",
 
                 departments: [{
                         name: "Department of Pharmacy",
-                        link: "/department-pharmacy"
+                        link: "https://www.rgu.ac/department-pharmacy"
                     },
 
 
                 ],
-                facultyLink: "/faculty-pharmacy"
+                facultyLink: "https://www.rgu.ac/faculty-pharmacy"
             },
 
 
             {
                 title: "Royal School of Physical Education and Sports (RSPES)",
-                image: "/home-banner/bpes.png",
+                image: "https://www.rgu.ac/home-banner/bpes.png",
 
-                deptMainLink: "/department-physical-education-and-sports",
+                deptMainLink: "https://www.rgu.ac/department-physical-education-and-sports",
 
                 departments: [{
                         name: "Royal School of Physical Education and Sports (RSPES)",
-                        link: "/department-physical-education-and-sports"
+                        link: "https://www.rgu.ac/department-physical-education-and-sports"
                     },
 
 
                 ],
-                facultyLink: "/faculty-physical-education-and-sports"
+                facultyLink: "https://www.rgu.ac/faculty-physical-education-and-sports"
             },
 
             {
                 title: "Royal School of Pharmaceutical Sciences",
-                image: "/mobile-assets/phar/pic.png",
+                image: "https://www.rgu.ac/mobile-assets/phar/pic.png",
 
-                deptMainLink: "/department-pharmaceutical-science",
+                deptMainLink: "https://www.rgu.ac/department-pharmaceutical-science",
 
                 departments: [{
                         name: "Royal School of Pharmaceutical Sciences",
-                        link: "/department-pharmaceutical-science"
+                        link: "https://www.rgu.ac/department-pharmaceutical-science"
                     },
 
 
@@ -1062,18 +1059,18 @@
 
             {
                 title: "Royal School of Travel & Tourism (RSTTM)",
-                image: "/assets/img/school-rgu/travel.jpeg",
+                image: "https://www.rgu.ac/assets/img/school-rgu/travel.jpeg",
 
-                deptMainLink: "/department-travel",
+                deptMainLink: "https://www.rgu.ac/department-travel",
 
                 departments: [{
                         name: "Department of Travel & Tourism Management",
-                        link: "/department-travel"
+                        link: "https://www.rgu.ac/department-travel"
                     },
 
 
                 ],
-                facultyLink: "/faculty-travel-tourism"
+                facultyLink: "https://www.rgu.ac/faculty-travel-tourism"
 
             },
 
@@ -1081,28 +1078,28 @@
             /* 🔥 SPECIAL CASE */
             {
                 title: "Indian Knowledge Systems (IKS)",
-                image: "https://rgu.ac/mobile-assets/school-rgu/IKS%20LOGO-new.jpeg",
+                image: "/mobile-assets/school-rgu/IKS%20LOGO-new.jpeg",
 
-                deptMainLink: "https://rgu.ac/indian-knowledge-system-cell-about",
+                deptMainLink: "/indian-knowledge-system-cell-about",
 
                 buttons: [{
                         text: "About IKS",
-                        link: "https://rgu.ac/indian-knowledge-system-cell-about",
+                        link: "/indian-knowledge-system-cell-about",
                         type: "dept"
                     },
                     {
                         text: "Composition",
-                        link: "https://rgu.ac/indian-knowledge-system-cell-composition",
+                        link: "/indian-knowledge-system-cell-composition",
                         type: "faculty"
                     },
                     {
                         text: "Events",
-                        link: "https://rgu.ac/indian-knowledge-system-cell-events",
+                        link: "/indian-knowledge-system-cell-events",
                         type: "dept"
                     },
                     {
                         text: "Syllabus",
-                        link: "https://rgu.ac/indian-knowledge-system-cell-syllabus",
+                        link: "/indian-knowledge-system-cell-syllabus",
                         type: "faculty"
                     }
                 ]
@@ -1141,11 +1138,11 @@
                     buttonsHTML = `
         <div class="rgu-sf-card-btns rgu-sf-multi">
           ${item.buttons.map(btn => `
-                        <a href="${btn.link}"
-                           class="rgu-sf-card-btn ${btn.type === 'dept' ? 'rgu-sf-dept' : 'rgu-sf-faculty'}">
-                           ${btn.text}
-                        </a>
-                      `).join("")}
+                    <a href="${btn.link}" 
+                       class="rgu-sf-card-btn ${btn.type === 'dept' ? 'rgu-sf-dept' : 'rgu-sf-faculty'}">
+                       ${btn.text}
+                    </a>
+                  `).join("")}
         </div>
       `;
                 }
@@ -1157,7 +1154,7 @@
                     /* ✅ Department button */
                     if (item.deptMainLink && item.deptMainLink.trim() !== "") {
                         buttons.push(`
-      <a href="${item.deptMainLink}"
+      <a href="${item.deptMainLink}" 
          class="rgu-sf-card-btn rgu-sf-dept">
          Department
       </a>
@@ -1167,7 +1164,7 @@
                     /* ✅ Faculty button */
                     if (item.facultyLink && item.facultyLink.trim() !== "") {
                         buttons.push(`
-      <a href="${item.facultyLink}"
+      <a href="${item.facultyLink}" 
          class="rgu-sf-card-btn rgu-sf-faculty">
          Faculty
       </a>
@@ -1202,7 +1199,7 @@
         ================================ */
         function renderDropdown(data) {
 
-            deptDropdown.innerHTML = `<option value="">Select Department...</option>`;
+            deptDropdown.innerHTML = `<option value="">Search Department...</option>`;
 
             data.forEach(item => {
 
