@@ -27,6 +27,13 @@
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
+                        <button class="nav-link border" id="tab6-tab" data-bs-toggle="tab" data-bs-target="#tab6"
+                            type="button" role="tab" aria-controls="tab2" aria-selected="false"
+                            style="font-size: 16px; font-weight: 500; color: #333; padding: 10px 18px; border: none; background: transparent; border-radius: 6px; transition: all 0.3s ease-in-out;">
+                            Programme USPs
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link border" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
                             type="button" role="tab" aria-controls="tab2" aria-selected="false"
                             style="font-size: 16px; font-weight: 500; color: #333; padding: 10px 18px; border: none; background: transparent; border-radius: 6px; transition: all 0.3s ease-in-out;">
@@ -81,6 +88,31 @@
                             </ol>
 
                         </div>
+
+                        <div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="tab6-tab">
+                            <p class="text-dark pt-2 fw-bold m-0">USPs of the Programme:</p>
+                            <div style="padding-left: 20px;">
+                                <p class="text-dark fw-bold pt-3">i. Industry-Aligned Curriculum (with TCS):</p>
+                                <p class="text-dark">Co-developed with TCS, aligned to Industry 4.0 and evolving market
+                                    needs.</p>
+
+                                <p class="text-dark fw-bold pt-3">ii. Tech + Business Integration:</p>
+                                <p class="text-dark">Combines Computer Science with Business, Finance, and Strategy to
+                                    develop industry-ready professionals.</p>
+
+                                <p class="text-dark fw-bold pt-3">iii. Focus on Emerging Technologies:</p>
+                                <p class="text-dark">Exposure to AI, ML, IoT, Data Analytics, Cyber Security, and Cloud
+                                    Computing.</p>
+
+                                <p class="text-dark fw-bold pt-3">iv. Employability-Focused Learning:</p>
+                                <p class="text-dark">Emphasis on hands-on training, real-world problem solving, and
+                                    industry-relevant skills.</p>
+
+                                <p class="text-dark fw-bold pt-3">v. TCS may conduct a Train the Trainer Programme (TTT)</p>
+                            </div>
+
+                        </div>
+
                         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
                             <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
                             </p>
@@ -110,7 +142,8 @@
                                 <img class="mb-3 rounded shadow-sm" style="width: 200px;"
                                     src="assets/img/File/brochurethumb.png" alt="">
 
-                                <a href="mobile-assets/Domestic/B.Tech.(CSE).pdf" target="_blank" class="btn mobile-para1"
+                                <a href="mobile-assets/Domestic/B.Tech.(CSE).pdf" target="_blank"
+                                    class="btn mobile-para1"
                                     style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
                                     <i class="fa fa-download"></i> Download Brochure
                                 </a>
@@ -245,6 +278,11 @@
                     Fee
                 </button>
                 <button type="button" class="btn p-3 text-white" data-bs-toggle="button"
+                    onclick="setActiveButton(this); openCity('Programme-USPs')"
+                    style="font-size: 20px; font-weight: 600; background-color: #a4a4a4dc; border: 2px solid #a4a4a4dc; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                    Programme USPs
+                </button>
+                <button type="button" class="btn p-3 text-white" data-bs-toggle="button"
                     onclick="setActiveButton(this); openCity('Eligibility')"
                     style="font-size: 20px; font-weight: 600; background-color: #a4a4a4dc; border: 2px solid #a4a4a4dc; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
                     Eligibility
@@ -281,6 +319,30 @@
                             Students 2025-26</p>
                         <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 2,00,000.00)</p>
                         {{-- <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 91500.00)</p> --}}
+                    </div>
+                </div>
+                <div id="Programme-USPs" class="w3-container city card p-5 shadow" style="display:none">
+                    <div class="card-body para1">
+                        <p class="text-dark pt-2 fw-bold m-0">USPs of the Programme:</p>
+                        <div style="padding-left: 20px;">
+                            <p class="text-dark fw-bold pt-3">i. Industry-Aligned Curriculum (with TCS):</p>
+                            <p class="text-dark">Co-developed with TCS, aligned to Industry 4.0 and evolving market needs.
+                            </p>
+
+                            <p class="text-dark fw-bold pt-3">ii. Tech + Business Integration:</p>
+                            <p class="text-dark">Combines Computer Science with Business, Finance, and Strategy to develop
+                                industry-ready professionals.</p>
+
+                            <p class="text-dark fw-bold pt-3">iii. Focus on Emerging Technologies:</p>
+                            <p class="text-dark">Exposure to AI, ML, IoT, Data Analytics, Cyber Security, and Cloud
+                                Computing.</p>
+
+                            <p class="text-dark fw-bold pt-3">iv. Employability-Focused Learning:</p>
+                            <p class="text-dark">Emphasis on hands-on training, real-world problem solving, and
+                                industry-relevant skills.</p>
+
+                            <p class="text-dark fw-bold pt-3">v. TCS may conduct a Train the Trainer Programme (TTT)</p>
+                        </div>
                     </div>
                 </div>
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
