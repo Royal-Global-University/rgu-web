@@ -778,6 +778,42 @@ Route::get('/phd-awarded-2025', function () {
     return view('frontend/phd-award/2025/phd-awarded-2025');
 })->name('phd-awarded-2025');
 
+Route::get('/doctoral-mechanical-engineering', function () {
+    return view('frontend/phd/doctoral-mechanical-engineering');
+})->name('doctoral-mechanical-engineering');
+
+Route::get('/doctoral-nutrition&dietetics', function () {
+    return view('frontend/phd/doctoral-nutrition&dietetics');
+})->name('doctoral-nutrition&dietetics');
+
+Route::get('/doctoral-physiotherapy', function () {
+    return view('frontend/phd/doctoral-physiotherapy');
+})->name('doctoral-physiotherapy');
+
+Route::get('/doctoral-product-design', function () {
+    return view('frontend/phd/doctoral-product-design');
+})->name('doctoral-product-design');
+
+Route::get('/doctoral-agriculture', function () {
+    return view('frontend/phd/doctoral-agriculture');
+})->name('doctoral-agriculture');
+
+Route::get('/doctoral-radiology-and-imaging-technology', function () {
+    return view('frontend/phd/doctoral-radiology-and-imaging-technology');
+})->name('doctoral-radiology-and-imaging-technology');
+
+Route::get('/doctoral-graphic-design', function () {
+    return view('frontend/phd/doctoral-graphic-design');
+})->name('doctoral-graphic-design');
+
+Route::get('/doctoral-communication-design', function () {
+    return view('frontend/phd/doctoral-communication-design');
+})->name('doctoral-communication-design');
+
+Route::get('/doctoral-medical-laboratory-technology', function () {
+    return view('frontend/phd/doctoral-medical-laboratory-technology');
+})->name('doctoral-medical-laboratory-technology');
+
 Route::get('/doctoral-forensic-science', function () {
     return view('frontend/phd/doctoral-forensic-science');
 })->name('doctoral-forensic-science');

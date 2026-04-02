@@ -9,8 +9,8 @@
                     <div class="col-lg-12">
                         <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
                             style="color: #264273; font-weight: 700;">
-                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                in Library Science</span>
+                            Ph.D. Programme in<br><span style="color: #FF9A1E; font-weight: 500;">
+                                Radiology and Imaging Technology</span>
                         </h2>
                         <div class="txaa-slide-down-1">
                             <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
@@ -68,8 +68,8 @@
                                         <div class="prthalign">
                                             <h2 class="headd1 kd-title-ani kd-split mb-4 text-center"
                                                 style="color: #264273; font-weight: 700;">
-                                                Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                                    in Library Science</span>
+                                                Ph.D. Programme in<br><span style="color: #FF9A1E; font-weight: 500;">
+                                                    Radiology and Imaging Technology</span>
                                             </h2>
                                         </div>
                                     </div>
@@ -90,69 +90,15 @@
     </div>
 
     <div class="container pt-4" style="text-align: justify; color: #27467A;">
-        <p>The Department of Library and Information Science (DLIS) is committed to advancing knowledge, research, and
-            innovation in the field of information science, digital librarianship, and knowledge management. The Ph.D.
-            Programme offered by the department aims to cultivate high-quality research scholars equipped with advanced
-            theoretical understanding and practical competencies to address emerging challenges in the information
-            ecosystem.
-        </p>
+
         <p>
-            <span class="fw-bold">Programme Overview</span><br />
-            The Ph.D. in Library and Information Science is a research-intensive programme designed to foster critical
-            thinking, scholarly inquiry, and interdisciplinary research. The programme emphasizes the integration of
-            traditional library science principles with emerging technologies such as Artificial Intelligence, Big Data,
-            Digital Repositories, and Knowledge Organization Systems.
+            Empowering the Future of Diagnostic Excellence, The Ph.D. program in Medical Radiology and Imaging Technology at The Assam Royal Global University is designed for visionary researchers eager to redefine the boundaries of modern healthcare. Hosted by the Royal School of Medical & Allied Sciences, our doctoral curriculum transcends traditional radiography, focusing on the convergence of clinical precision, advanced technology, and patient-centric innovation.
         </p>
-        <p class="fw-bold">Objectives of the Programme</p>
-        <ul style="padding-left: 10px;">
-            <li>> To develop advanced research skills in library and information science.</li>
-            <li>> To promote innovation in information organization, retrieval, and dissemination.</li>
-            <li>> To encourage interdisciplinary research addressing societal and technological challenges.</li>
-            <li>> To contribute to the development of sustainable and inclusive information systems.</li>
-            <li>> To prepare scholars for academic, research, and leadership roles.</li>
-        </ul>
-        <p class="fw-bold">Areas of Research</p>
-        <p>The department provides opportunities for research in diverse and emerging areas, including:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Digital Libraries and Institutional Repositories</li>
-            <li>> Knowledge Organization and Metadata Standards</li>
-            <li>> Information Retrieval Systems and AI Applications</li>
-            <li>> Bibliometrics, Scientometrics, and Research Analytics</li>
-            <li>> Open Access and Scholarly Communication</li>
-            <li>> Information Literacy and User Studies</li>
-            <li>> Digital Preservation and Archiving</li>
-            <li>> Library Automation and Management Systems (e.g., Koha, DSpace)</li>
-            <li>> Data Curation and Research Data Management</li>
-            <li>> Indigenous Knowledge Systems and Cultural Heritage Preservation</li>
-        </ul>
-        <p class="fw-bold">Eligibility Criteria</p>
-        <p>Candidates seeking admission to the Ph.D. programme must:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Hold a Master’s degree in Library and Information Science (MLISc) or a related discipline from a
-                recognized
-                university.</li>
-            <li>> Meet the minimum percentage criteria as prescribed by the university/regulatory bodies.</li>
-            <li>> Qualify for entrance examination/interview as per university norms.</li>
-        </ul>
-        <p class="fw-bold">Programme Structure</p>
-        <ul style="padding-left: 10px;">
-            <li>> <strong>Coursework Phase:</strong> Research methodology, advanced LIS concepts, ICT applications, and
-                subject-specific electives.</li>
-            <li>> <strong>Plan of Research Development:</strong> Preparation and presentation of a detailed research
-                proposal.
-            </li>
-            <li>> <strong>Research Work:</strong> Independent research under the guidance of a recognized supervisor.</li>
-            <li>> <strong>Progress Evaluation:</strong> Periodic review seminars and publications.</li>
-            <li>> <strong>Thesis Submission and Viva Voce:</strong> Final evaluation of research contribution.</li>
-        </ul>
-        <p class="fw-bold">Facilities and Resources:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Well-equipped digital and physical library with access to e-resources (JSTOR, EBSCO, ProQuest, etc.)</li>
-            <li>> Institutional repository and digital lab facilities</li>
-            <li>> Access to open-source and commercial library management systems</li>
-            <li>> High-speed internet and research support tools</li>
-            <li>> Collaboration opportunities with national and international institutions</li>
-        </ul>
+
+        <p>
+            As a doctoral scholar at RGU, you will engage in high-impact research ranging from molecular imaging and radiation physics to the integration of Artificial Intelligence (AI) in diagnostic workflows. Our mission is to produce global leaders who not only master existing modalities—like MRI, CT, and Ultrasound—but also pioneer the next generation of non-invasive diagnostic tools to solve complex clinical challenges.
+        </p>
+
     </div>
 
     <div class="container">

@@ -10,7 +10,7 @@
                         <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
                             style="color: #264273; font-weight: 700;">
                             Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                in Library Science</span>
+                                in Mechanical Engineering</span>
                         </h2>
                         <div class="txaa-slide-down-1">
                             <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
@@ -69,7 +69,7 @@
                                             <h2 class="headd1 kd-title-ani kd-split mb-4 text-center"
                                                 style="color: #264273; font-weight: 700;">
                                                 Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                                    in Library Science</span>
+                                                    in Mechanical Engineering</span>
                                             </h2>
                                         </div>
                                     </div>
@@ -90,69 +90,64 @@
     </div>
 
     <div class="container pt-4" style="text-align: justify; color: #27467A;">
-        <p>The Department of Library and Information Science (DLIS) is committed to advancing knowledge, research, and
-            innovation in the field of information science, digital librarianship, and knowledge management. The Ph.D.
-            Programme offered by the department aims to cultivate high-quality research scholars equipped with advanced
-            theoretical understanding and practical competencies to address emerging challenges in the information
-            ecosystem.
-        </p>
+
         <p>
-            <span class="fw-bold">Programme Overview</span><br />
-            The Ph.D. in Library and Information Science is a research-intensive programme designed to foster critical
-            thinking, scholarly inquiry, and interdisciplinary research. The programme emphasizes the integration of
-            traditional library science principles with emerging technologies such as Artificial Intelligence, Big Data,
-            Digital Repositories, and Knowledge Organization Systems.
+            The Department of Mechanical Engineering is one of the core pillars of the institute, dedicated to excellence in
+            teaching, research, and innovation. The department offers a comprehensive academic environment with
+            well-structured undergraduate and doctoral programs designed to meet the evolving needs of industry and
+            academia.
         </p>
-        <p class="fw-bold">Objectives of the Programme</p>
-        <ul style="padding-left: 10px;">
-            <li>> To develop advanced research skills in library and information science.</li>
-            <li>> To promote innovation in information organization, retrieval, and dissemination.</li>
-            <li>> To encourage interdisciplinary research addressing societal and technological challenges.</li>
-            <li>> To contribute to the development of sustainable and inclusive information systems.</li>
-            <li>> To prepare scholars for academic, research, and leadership roles.</li>
-        </ul>
-        <p class="fw-bold">Areas of Research</p>
-        <p>The department provides opportunities for research in diverse and emerging areas, including:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Digital Libraries and Institutional Repositories</li>
-            <li>> Knowledge Organization and Metadata Standards</li>
-            <li>> Information Retrieval Systems and AI Applications</li>
-            <li>> Bibliometrics, Scientometrics, and Research Analytics</li>
-            <li>> Open Access and Scholarly Communication</li>
-            <li>> Information Literacy and User Studies</li>
-            <li>> Digital Preservation and Archiving</li>
-            <li>> Library Automation and Management Systems (e.g., Koha, DSpace)</li>
-            <li>> Data Curation and Research Data Management</li>
-            <li>> Indigenous Knowledge Systems and Cultural Heritage Preservation</li>
-        </ul>
-        <p class="fw-bold">Eligibility Criteria</p>
-        <p>Candidates seeking admission to the Ph.D. programme must:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Hold a Master’s degree in Library and Information Science (MLISc) or a related discipline from a
-                recognized
-                university.</li>
-            <li>> Meet the minimum percentage criteria as prescribed by the university/regulatory bodies.</li>
-            <li>> Qualify for entrance examination/interview as per university norms.</li>
-        </ul>
-        <p class="fw-bold">Programme Structure</p>
-        <ul style="padding-left: 10px;">
-            <li>> <strong>Coursework Phase:</strong> Research methodology, advanced LIS concepts, ICT applications, and
-                subject-specific electives.</li>
-            <li>> <strong>Plan of Research Development:</strong> Preparation and presentation of a detailed research
-                proposal.
+
+        <p>
+            With a team of experienced faculty members, modern laboratories, and a strong emphasis on practical learning,
+            the department strives to produce competent engineers and researchers equipped to address real-world engineering
+            challenges.
+        </p>
+
+        <p class="fw-bold">Research Overview</p>
+        <p>
+            The Department of Mechanical Engineering is committed to advancing knowledge, innovation, and technological
+            excellence through high-quality research and academic rigor. With a strong foundation in core engineering
+            principles and a forward-looking approach to emerging technologies, the department provides an intellectually
+            stimulating environment for doctoral research.
+        </p>
+
+        <p>
+            Research activities are carried out in both fundamental and applied domains, addressing contemporary engineering
+            challenges with societal and industrial relevance. The department hosts well-equipped laboratories, modern
+            computational facilities, and a collaborative research ecosystem that supports interdisciplinary exploration.
+        </p>
+
+        <p class="fw-bold">Key Research Areas</p>
+        <ul style="padding-left: 18px;">
+            <li><strong>Thermofluidics:</strong> Focus on fluid flow behaviour, turbulence modelling, multiphase flows, and
+                computational fluid dynamics (CFD), with applications in energy systems, aerospace, and process industries.
             </li>
-            <li>> <strong>Research Work:</strong> Independent research under the guidance of a recognized supervisor.</li>
-            <li>> <strong>Progress Evaluation:</strong> Periodic review seminars and publications.</li>
-            <li>> <strong>Thesis Submission and Viva Voce:</strong> Final evaluation of research contribution.</li>
+
+            <li><strong>Solar Energy:</strong> Research on sustainable energy solutions including solar thermal systems,
+                photovoltaic integration, energy storage, and performance optimization of renewable energy systems.</li>
+
+            <li><strong>Welding and Joining Technologies:</strong> Work on advanced welding processes such as friction stir
+                welding, focusing on process optimization, microstructural evolution, and mechanical performance of joints.
+            </li>
+
+            <li><strong>Additive Manufacturing:</strong> Exploration of advanced manufacturing techniques including friction
+                stir additive manufacturing and metal-based AM processes, focusing on material development, process control,
+                and property enhancement.</li>
         </ul>
-        <p class="fw-bold">Facilities and Resources:</p>
-        <ul style="padding-left: 10px;">
-            <li>> Well-equipped digital and physical library with access to e-resources (JSTOR, EBSCO, ProQuest, etc.)</li>
-            <li>> Institutional repository and digital lab facilities</li>
-            <li>> Access to open-source and commercial library management systems</li>
-            <li>> High-speed internet and research support tools</li>
-            <li>> Collaboration opportunities with national and international institutions</li>
-        </ul>
+
+        <p>
+            The department emphasizes strong integration of experimental investigations, numerical modelling, and analytical
+            approaches. Doctoral scholars are encouraged to engage in high-impact research, publish in reputed journals, and
+            collaborate with leading institutions and industries.
+        </p>
+
+        <p>
+            With experienced faculty and a dynamic research culture, the Department of Mechanical Engineering offers an
+            excellent platform for aspiring researchers to contribute meaningfully to scientific advancement and
+            technological innovation.
+        </p>
+
     </div>
 
     <div class="container">

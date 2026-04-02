@@ -326,7 +326,7 @@
                 padding: 6px 14px;
                 border: 1px solid #27467a;
                 border-radius: 20px;
-                font-size: 14px;
+                font-size: 18px;
                 color: #27467a;
                 text-decoration: none;
                 transition: all 0.3s ease;
@@ -375,23 +375,23 @@
                 <div class="phd-category">
                     <h3>Science, Engineering & Technology</h3>
                     <div class="phd-links">
-                        <a href="#">Agriculture</a>
-                        <a href="https://rgu.ac/doctoral-com-sc-engg">Artificial Intelligence</a>
-                        <a href="https://rgu.ac/doctoral-biotechnology">Biotechnology</a>
-                        <a href="https://rgu.ac/doctoral-botany">Botany</a>
-                        <a href="https://rgu.ac/doctoral-chemistry">Chemistry</a>
-                        <a href="https://rgu.ac/doctoral-civil-engineering">Civil Engineering</a>
-                        <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Science & Engineering</a>
-                        <a href="https://rgu.ac/doctoral-com-sc-engg">Computer Application</a>
+                        <a href="/doctoral-agriculture">Agriculture</a>
+                        <a href="/doctoral-com-sc-engg">Artificial Intelligence</a>
+                        <a href="/doctoral-biotechnology">Biotechnology</a>
+                        <a href="/doctoral-botany">Botany</a>
+                        <a href="/doctoral-chemistry">Chemistry</a>
+                        <a href="/doctoral-civil-engineering">Civil Engineering</a>
+                        <a href="/doctoral-com-sc-engg">Computer Science & Engineering</a>
+                        <a href="/doctoral-com-sc-engg">Computer Application</a>
                         <a href="/doctoral-food-technology">Food Science & Technology</a>
                         <a href="/doctoral-forestry">Forestry</a>
                         <a href="/doctoral-forensic-science">Forensic Science</a>
-                        <a href="https://rgu.ac/doctoral-com-sc-engg">Information Technology</a>
-                        <a href="https://rgu.ac/doctoral-mathematics">Mathematics</a>
-                        <a href="#">Mechanical Engineering</a>
-                        <a href="https://rgu.ac/doctoral-microbiology">Microbiology</a>
-                        <a href="https://rgu.ac/doctoral-physics">Physics</a>
-                        <a href="https://rgu.ac/doctoral-zoology">Zoology</a>
+                        <a href="/doctoral-com-sc-engg">Information Technology</a>
+                        <a href="/doctoral-mathematics">Mathematics</a>
+                        <a href="/doctoral-mechanical-engineering">Mechanical Engineering</a>
+                        <a href="/doctoral-microbiology">Microbiology</a>
+                        <a href="/doctoral-physics">Physics</a>
+                        <a href="/doctoral-zoology">Zoology</a>
                     </div>
                 </div>
 
@@ -399,9 +399,9 @@
                 <div class="phd-category">
                     <h3>Earth Science</h3>
                     <div class="phd-links">
-                        <a href="https://rgu.ac/doctoral-geography">Geography</a>
+                        <a href="/doctoral-geography">Geography</a>
                         <a href="/doctoral-geoinformatics">Geoinformatics</a>
-                        <a href="https://rgu.ac/doctoral-geology">Geology</a>
+                        <a href="/doctoral-geology">Geology</a>
                     </div>
                 </div>
 
@@ -410,7 +410,7 @@
                     <h3>Languages</h3>
                     <div class="phd-links">
                         <a href="#">Assamese</a>
-                        <a href="https://rgu.ac/doctoral-english">English</a>
+                        <a href="/doctoral-english">English</a>
                     </div>
                 </div>
 
@@ -418,17 +418,17 @@
                 <div class="phd-category">
                     <h3>Law, Humanities & Social Sciences</h3>
                     <div class="phd-links">
-                        <a href="https://rgu.ac/doctoral-economics">Economics</a>
-                        <a href="https://rgu.ac/doctoral-history">History</a>
+                        <a href="/doctoral-economics">Economics</a>
+                        <a href="/doctoral-history">History</a>
                         <a href="/doctoral-indian-knowledge-sys">Indian Knowledge System</a>
                         <a href="/doctoral-mass-comm-journalism">Journalism and Mass Communication</a>
-                        <a href="https://rgu.ac/doctoral-law">Law</a>
-                        <a href="https://rgu.ac/doctoral-library-science">Library Science</a>
-                        <a href="https://rgu.ac/doctoral-political-science">Political Science</a>
-                        <a href="https://rgu.ac/doctoral-psychology">Psychology</a>
-                        <a href="https://rgu.ac/doctoral-public-admin">Public Administration</a>
-                        <a href="https://rgu.ac/doctoral-social-work">Social Work</a>
-                        <a href="https://rgu.ac/doctoral-sociology">Sociology</a>
+                        <a href="/doctoral-law">Law</a>
+                        <a href="/doctoral-library-science">Library Science</a>
+                        <a href="/doctoral-political-science">Political Science</a>
+                        <a href="/doctoral-psychology">Psychology</a>
+                        <a href="/doctoral-public-admin">Public Administration</a>
+                        <a href="/doctoral-social-work">Social Work</a>
+                        <a href="/doctoral-sociology">Sociology</a>
                     </div>
                 </div>
 
@@ -436,12 +436,12 @@
                 <div class="phd-category">
                     <h3>Architecture, Design & Fine Arts</h3>
                     <div class="phd-links">
-                        <a href="https://rgu.ac/doctoral-architecture">Architecture</a>
-                        <a href="#">Communication Design</a>
-                        <a href="https://rgu.ac/doctoral-fine-arts">Fine Arts</a>
+                        <a href="/doctoral-architecture">Architecture</a>
+                        <a href="/doctoral-communication-design">Communication Design</a>
+                        <a href="/doctoral-fine-arts">Fine Arts</a>
                         <a href="/doctoral-rsft">Fashion Design</a>
-                        <a href="#">Graphic Design</a>
-                        <a href="#">Product Design</a>
+                        <a href="/doctoral-graphic-design">Graphic Design</a>
+                        <a href="/doctoral-product-design">Product Design</a>
                     </div>
                 </div>
 
@@ -449,11 +449,11 @@
                 <div class="phd-category">
                     <h3>Allied Health Sciences</h3>
                     <div class="phd-links">
-                        <a href="#">Medical Laboratory Technology</a>
-                        <a href="#">Nutrition And Dietetics</a>
-                        <a href="https://rgu.ac/doctoral-pharmacy">Pharmacy</a>
-                        <a href="#">Physiotherapy</a>
-                        <a href="#">Radiography</a>
+                        <a href="/doctoral-medical-laboratory-technology">Medical Laboratory Technology</a>
+                        <a href="/doctoral-nutrition&dietetics">Nutrition And Dietetics</a>
+                        <a href="/doctoral-pharmacy">Pharmacy</a>
+                        <a href="/doctoral-physiotherapy">Physiotherapy</a>
+                        <a href="/doctoral-radiology-and-imaging-technology">Radiology and Imaging Technology</a>
                     </div>
                 </div>
 
