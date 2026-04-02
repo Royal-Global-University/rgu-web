@@ -5,7 +5,7 @@
         <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
 
             <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">
-                B.Tech. in Computer Science and Business Systems
+                B.Tech. in Computer Science Engineering and Business Systems (TCS)
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 04 Years <br> Royal School of
@@ -265,7 +265,7 @@
         @include('frontend/components/aheader')
         <div class="pt-4" style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp);">
             <div class="text-center">
-                <h2 class="text-center headd1 text-dark">B.Tech. in Computer Science and Business Systems</h3>
+                <h2 class="text-center headd1 text-dark">B.Tech. in Computer Science Engineering and Business Systems</h3>
                     <h3 class="text-center headd3 text-dark">Duration - 04 Years<br>
                         <span class="text-center" style="font-size: 22px;">Royal School of Engineering &amp; Technology
                             (RSET)</span>
@@ -318,7 +318,7 @@
                             New
                             Students 2025-26</p>
                         <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 2,00,000.00)</p>
-                        {{-- <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 91500.00)</p> --}}
+                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 101500.00)</p>
                     </div>
                 </div>
                 <div id="Programme-USPs" class="w3-container city card p-5 shadow" style="display:none">

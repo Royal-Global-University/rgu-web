@@ -1002,7 +1002,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="/program-btech-in-computer-science-and-business-system" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Tech. in Computer Science and Business Systems</div>
+                                            <div class="rgu-program-card-title">B.Tech. in Computer Science Engineering and Business Systems (TCS)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>

@@ -1793,7 +1793,7 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science and Business Systems</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science Engineering and Business Systems (TCS)</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-tech-me') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
@@ -1801,7 +1801,7 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
+                                            <td>101500</td>
                                             <td>2,00,000.00</td>
                                             <td><a href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -6000,7 +6000,7 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science and Business Systems</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science Engineering and Business Systems</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-tech-me') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4

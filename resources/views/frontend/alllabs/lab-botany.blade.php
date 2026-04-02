@@ -3,7 +3,9 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-botany/mobileBotanyLab.png" alt="">
+            <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
+                Botany Lab</h1>
+            <img class="p-3 rounded" src="mobile-assets/lab-botany/headimg1.JPG" alt="">
         </div>
     </div>
 
@@ -29,7 +31,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-botany/headimg1.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-botany/headimg1.JPG"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -45,7 +48,7 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                                             Botany Lab</h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
@@ -56,27 +59,6 @@
                                             tools and drive to conduct original independent research in the discipline of
                                             plant sciences. The lab is in block- D in room no- D201 on the second floor.
                                         </p>
-                                        <div class="headd3 text-dark fw-bold pb-3">Included In The Lab Are:
-                                        </div>
-
-                                        <ol class="para1 text-dark text-justify">
-                                            <li>Biosafety cabinets
-                                            </li>
-                                            <li>Spectrophotometer
-                                            </li>
-                                            <li>Incubator Shakers
-                                            </li>
-                                            <li>Deep Freezer
-                                            </li>
-                                            <li>Centrifuge
-                                            </li>
-                                            <li>Autoclave
-                                            </li>
-                                            <li>Colourimeter
-                                            </li>
-                                            <li>Models and charts
-                                            </li>
-                                        </ol>
 
                                     </div>
                                 </div>
@@ -87,30 +69,54 @@
                 </div>
             </section>
 
-            <hr>
+        </div>
+    </div>
 
-            <img src="mobile-assets/lab-botany/BotanyLab.png" alt="">
+    <div class="headd3 text-dark fw-bold text-center pt-4 pb-4">Included In The Lab Are:
+    </div>
 
-            <div class="container-fluid pb-4" style="padding: 0px 50px;">
+    <ol class="para1 text-dark" style="padding-left: 60px">
+        <li>Biosafety cabinets
+        </li>
+        <li>Spectrophotometer
+        </li>
+        <li>Incubator Shakers
+        </li>
+        <li>Deep Freezer
+        </li>
+        <li>Refrigerated laboratory centrifuge
+        </li>
+        <li>Autoclave
+        </li>
+        <li>Colourimeter
+        </li>
+        <li>Models and charts
+        </li>
+    </ol>
 
 
-                <div class="row pt-3">
+    <hr>
 
-                    <div class="col-lg-6">
-                        <img class="rounded" src="mobile-assets/lab-botany/41.png" alt="">
-                    </div>
+    <img src="mobile-assets/lab-botany/BotanyLab.png" alt="">
 
-                    <div class="col-lg-6">
+    <div class="container-fluid pb-4" style="padding: 0px 50px;">
 
-                        <iframe class="rounded" width="100%" height="100%"
-                            src="https://www.youtube.com/embed/nIl9b5RE6K8?autoplay=1&loop=1&playlist=nIl9b5RE6K8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                        </iframe>
 
-                    </div>
-                </div>
+        <div class="row pt-3">
+
+            <div class="col-lg-6">
+                <img class="rounded" src="mobile-assets/lab-botany/41.png" alt="">
+            </div>
+
+            <div class="col-lg-6">
+
+                <iframe class="rounded" width="100%" height="100%"
+                    src="https://www.youtube.com/embed/nIl9b5RE6K8?autoplay=1&loop=1&playlist=nIl9b5RE6K8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+
             </div>
         </div>
     </div>
