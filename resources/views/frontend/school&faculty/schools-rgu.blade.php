@@ -982,11 +982,11 @@
                     },
                     {
                         name: "Department of Medical Radiography and Imaging Technology",
-                        link: "/department-radiography"
+                        link: "/deptment-radiography"
                     },
                     {
                         name: "Department of Food Science & Nutrition",
-                        link: "/department-food-science&nutrition"
+                        link: "/departement-food-science&nutrition"
                     },
 
 

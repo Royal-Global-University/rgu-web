@@ -63,7 +63,7 @@
                             </p>
 
                             <ol class="mobile-para1 text-dark">
-                                <li>Prospectus & Form - 1000.00</li>
+                                <li>Prospectus & Form - 1500.00</li>
                                 <li>Registration (To be paid during the admission for all courses) - 10000.00</li>
                                 <li>Admission Fee - 60000.00</li>
                                 <li>Caution Money (Common for all streams) - Refundable 10000.00</li>
@@ -168,7 +168,8 @@
 
             <!-- Floating Section with Frosted Background -->
             <div class="container pb-4">
-                <div class="floating-wrapper" style="
+                <div class="floating-wrapper"
+                    style="
                     position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
                     width: 90%; max-width: 400px; z-index: 999;
                     backdrop-filter: blur(10px);
@@ -179,13 +180,15 @@
                     padding: 15px;">
 
                     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
-                        <span class="mobile-para1" style="
+                        <span class="mobile-para1"
+                            style="
                             font-weight: bold; font-size: 16px; line-height: 1.3;
                             color: #FFD700; flex-grow: 1;">
                             FULLY ONLINE ADMISSION PROCESS
                         </span>
 
-                        <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
+                        <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn"
+                            style="
                             background-color: #FFD700; color: #27467A;
                             font-weight: bold; padding: 10px 14px; border-radius: 5px;
                             text-decoration: none; white-space: nowrap;">
@@ -200,11 +203,11 @@
 
             <!-- JavaScript to Handle Active Tab Highlighting -->
             <script>
-                document.addEventListener("DOMContentLoaded", function () {
+                document.addEventListener("DOMContentLoaded", function() {
                     const tabs = document.querySelectorAll(".nav-link");
 
                     tabs.forEach(tab => {
-                        tab.addEventListener("click", function () {
+                        tab.addEventListener("click", function() {
                             tabs.forEach(t => {
                                 t.style.background = "transparent";
                                 t.style.color = "#333";
@@ -264,7 +267,7 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0"> A.) Registration & Admission Fees (To Be Paid Once Only)
                         </p>
-                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1000.00</p>
+                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1500.00</p>
                         <p class="text-dark pt-2 m-0">b. Registration(To be paid during the admission for all courses) -
                             10000.00</p>
                         <p class="text-dark pt-2 m-0">c. Admission Fee - 60000.00</p>
@@ -333,7 +336,8 @@
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more
+                                details
                                 click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>

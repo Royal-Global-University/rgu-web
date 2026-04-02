@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Study B.Sc Biochemistry at Royal Global University, Assam')
-@section('meta_description', 'Pursue B.Sc Biochemistry at Royal Global University—gain a solid foundation in molecular science with practical lab experience and expert guidance.')
+@section('meta_description', 'Pursue B.Sc Biochemistry at Royal Global University—gain a solid foundation in molecular
+    science with practical lab experience and expert guidance.')
 @section('meta_keywords', 'B.Sc Biochemistry')
 @section('content')
     <div id="page" class="site site_wrapper">
@@ -59,7 +60,7 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0"> A.) Registration & Admission Fees (To Be Paid Once Only)
                         </p>
-                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1000.00</p>
+                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1500.00</p>
                         <p class="text-dark pt-2 m-0">b. Registration(To be paid during the admission for all courses) -
                             10000.00</p>
                         <p class="text-dark pt-2 m-0">c. Admission Fee - 50000.00</p>

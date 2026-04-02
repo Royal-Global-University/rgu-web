@@ -1,22 +1,16 @@
 @extends('frontend.master')
-@section('title', 'Study M.Sc Nursing at Royal Global University – Top Postgraduate Nursing Course in Assam')
-@section('meta_description', 'Royal Global University offers a comprehensive M.Sc Nursing program focused on clinical
-    expertise, research, and advanced patient care for nursing professionals.')
-@section('meta_keywords', 'M.SC Nursing')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
 
-
             <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">
-                M.Sc. Nursing
+                B.Tech. in Computer Science and Business Systems
             </h2>
 
-            <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">(Medical Surgical Nursing/OBE
-                Nursing/Child Health
-                Nursing/Mental Health Nursing/Community Health Nursing)<br>
-                Duration - 02 Years <br> Royal School of Nursing (RSN)
+            <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 04 Years <br> Royal School of
+                Engineering &amp; Technology
+                (RSET)
             </p>
 
 
@@ -82,8 +76,8 @@
                             </p>
 
                             <ol class="mobile-para1 text-dark">
-                                <li>Yearly Payment (Rs. - 160000.00)</li>
-                                <li>Semester Payment (Rs. - 81500.00)</li>
+                                <li>Yearly Payment (Rs. - 2,00,000.00)</li>
+                                http://127.0.0.1:8000/program-btech-in-computer-science-and-business-system
                             </ol>
 
                         </div>
@@ -92,29 +86,14 @@
                             </p>
 
                             <p class="mobile-para1 text-dark">
-                            <ol class="para1 text-dark">
-                                <li>The minimum educational requirements shall be the passing of BSc. Nursing / BSc. Hons.
-                                    Nursing/Post Basic BSc. Nursing with a minimum of 55% marks in aggregate. 5% relaxation
-                                    of marks for SC/ST/OBC candidates will be given.</li>
-                                <li>The candidate should have undergone BSc. Nursing / BSc. Hons. Nursing / Post Basic BSc.
-                                    Nursing in an institution which is recognized by the Indian Nursing Council.</li>
-                                <li>The candidate should be a Registered Nurse and Registered Midwife or equivalent with any
-                                    State Nursing Registration Council.</li>
-                                <li>BSc. Nursing graduate should have a minimum of one year of experience in a hospital or
-                                    in a College or in a School of Nursing or in a Community Health Program after
-                                    registration in the State Nursing Council on the day of admission.</li>
-                                <li>Post Basic BSc. Nursing graduate should have a minimum of one year of work experience
-                                    prior or after in a hospital or in a College or in a School of Nursing or in a Community
-                                    Health Program after registration in the State Nursing Council on the day of admission.
-                                </li>
-                                <li>The candidate registered as “Registered Nurse” (and not Midwife) will not be eligible
-                                    for specialization in “Obstetrics & Gynaecology Nursing”.</li>
-                                <li>Candidate shall be medically fit. The candidate, selected for admission in the MSc.
-                                    Nursing course, shall have to submit a medical fitness certificate from a physician
-                                    during the admission.</li>
-                                <li>Candidates who have obtained degree qualification through distance mode will not be
-                                    eligible for admission.</li>
-                            </ol>
+                                i)10+2 or equivalent from a recognized Board/Council,
+                                ii) with Physics, Mathematics (Mandatory) and any one from the following: Chemistry/
+                                Computer Science/Electronics/Information Technology/Biology/Informatics Practices/
+                                Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/Business
+                                Studies/Entrepreneurship.
+                                iii) having minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC-Non-Creamy
+                                Layer) in the above subjects together.
+
                             </p>
 
                             <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -131,8 +110,7 @@
                                 <img class="mb-3 rounded shadow-sm" style="width: 200px;"
                                     src="assets/img/File/brochurethumb.png" alt="">
 
-                                <a href="mobile-assets/Domestic/brochure for web_compressed-min.pdf" target="_blank"
-                                    class="btn mobile-para1"
+                                <a href="mobile-assets/Domestic/B.Tech.(CSE).pdf" target="_blank" class="btn mobile-para1"
                                     style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
                                     <i class="fa fa-download"></i> Download Brochure
                                 </a>
@@ -199,28 +177,28 @@
             <div class="container pb-4">
                 <div class="floating-wrapper"
                     style="
-    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-    width: 90%; max-width: 400px; z-index: 999;
-    backdrop-filter: blur(10px);
-    background: rgba(12, 30, 96, 0.938); /* Frosty effect */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    padding: 15px;">
+                position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                width: 90%; max-width: 400px; z-index: 999;
+                backdrop-filter: blur(10px);
+                background: rgba(12, 30, 96, 0.938); /* Frosty effect */
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                padding: 15px;">
 
                     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                         <span class="mobile-para1"
                             style="
-            font-weight: bold; font-size: 16px; line-height: 1.3;
-            color: #FFD700; flex-grow: 1;">
+                        font-weight: bold; font-size: 16px; line-height: 1.3;
+                        color: #FFD700; flex-grow: 1;">
                             FULLY ONLINE ADMISSION PROCESS
                         </span>
 
                         <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn"
                             style="
-            background-color: #FFD700; color: #27467A;
-            font-weight: bold; padding: 10px 14px; border-radius: 5px;
-            text-decoration: none; white-space: nowrap;">
+                        background-color: #FFD700; color: #27467A;
+                        font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                        text-decoration: none; white-space: nowrap;">
                             Apply Now
                         </a>
                     </div>
@@ -254,12 +232,11 @@
         @include('frontend/components/aheader')
         <div class="pt-4" style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp);">
             <div class="text-center">
-                <h2 class="text-center headd2 text-dark">M.Sc. Nursing</h2>
-                <h3 class="text-center headd3 text-dark">(Medical Surgical Nursing/OBE Nursing/Child Health
-                    Nursing/Mental Health Nursing/Community Health Nursing)<br>
-                    <span class="text-center">Duration - 02 Years <br>Royal School of Nursing (RSN)
-                    </span>
-                </h3>
+                <h2 class="text-center headd1 text-dark">B.Tech. in Computer Science and Business Systems</h3>
+                    <h3 class="text-center headd3 text-dark">Duration - 04 Years<br>
+                        <span class="text-center" style="font-size: 22px;">Royal School of Engineering &amp; Technology
+                            (RSET)</span>
+                    </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">
                 <button type="button" class="btn p-3 text-white active" data-bs-toggle="button"
@@ -288,7 +265,6 @@
                     How To Apply
                 </button>
             </p>
-
             <div class="container pb-5">
                 <div id="Fee" class="w3-container city card p-5 shadow" style="display:block">
                     <div class="card-body para1">
@@ -303,47 +279,32 @@
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
                             Students 2025-26</p>
-                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 160000.00)</p>
-                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 81500.00)</p>
+                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 2,00,000.00)</p>
+                        {{-- <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 91500.00)</p> --}}
                     </div>
                 </div>
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-
-                        <ol class="text-dark pt-2 m-0">
-                            <li>The minimum educational requirements shall be the passing of BSc. Nursing / BSc. Hons.
-                                Nursing/Post Basic BSc. Nursing with a minimum of 55% marks in aggregate. 5% relaxation of
-                                marks for SC/ST/OBC candidates will be given.</li>
-                            <li>The candidate should have undergone BSc. Nursing / BSc. Hons. Nursing / Post Basic BSc.
-                                Nursing in an institution which is recognized by the Indian Nursing Council.</li>
-                            <li>The candidate should be a Registered Nurse and Registered Midwife or equivalent with any
-                                State Nursing Registration Council.</li>
-                            <li>BSc. Nursing graduate should have a minimum of one year of experience in a hospital or in a
-                                College or in a School of Nursing or in a Community Health Program after registration in the
-                                State Nursing Council on the day of admission.</li>
-                            <li>Post Basic BSc. Nursing graduate should have a minimum of one year of work experience prior
-                                or after in a hospital or in a College or in a School of Nursing or in a Community Health
-                                Program after registration in the State Nursing Council on the day of admission.</li>
-                            <li>The candidate registered as “Registered Nurse” (and not Midwife) will not be eligible for
-                                specialization in “Obstetrics & Gynaecology Nursing”.</li>
-                            <li>Candidate shall be medically fit. The candidate, selected for admission in the MSc. Nursing
-                                course, shall have to submit a medical fitness certificate from a physician during the
-                                admission.</li>
-                            <li>Candidates who have obtained degree qualification through distance mode will not be eligible
-                                for admission.</li>
-                        </ol>
+                        <p class="text-dark pt-2 m-0">
+                            i)10+2 or equivalent from a recognized Board/Council,
+                            <br />ii) with Physics, Mathematics (Mandatory) and any one from the following: Chemistry/
+                            Computer Science/Electronics/Information Technology/Biology/Informatics Practices/
+                            Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/Business
+                            Studies/Entrepreneurship.
+                            <br />iii) having minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC-Non-Creamy
+                            Layer) in the above subjects together.
+                        </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
-                            Personal Interview.</p>
+                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE/CEE or R-JEE (Royal
+                            Joint Entrance Examinations) followed by Personal Interview.</p>
                     </div>
                 </div>
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body text-center">
                         <img class="rounded shadow" src="assets/img/File/brochurethumb.png">
-                        <p class="text-dark pt-2 fw-bold m-0"><a
-                                href="mobile-assets/Domestic/brochure for web_compressed-min.pdf">Brochure 2025-26<i
-                                    class="fas fa-download ms-2"></i></a>
+                        <p class="text-dark pt-2 fw-bold m-0"><a href="mobile-assets/Domestic/B.Tech.(CSE).pdf">Brochure
+                                2024-25<i class="fas fa-download ms-2"></i></a>
                         </p>
                     </div>
                 </div>
@@ -359,11 +320,15 @@
                         <p class="text-dark pt-2 fw-bold m-0">Application Process</p>
                         <p class="text-dark pt-2 m-0">
                             Students seeking Scholarships will have to submit an application as per the category for
-                            which the student seeks scholarship.<br>
+                            which
+                            the
+                            student seeks scholarship.<br>
                             For fresh students seeking admission, if interested for applying scholarship can select the
                             scholarship facility during the online application process.<br>
                             Existing students can seek help from their departmental coordinators to keep themselves
-                            updated for the scholarship application deadlines and process.</p>
+                            updated
+                            for
+                            the scholarship application deadlines and process.</p>
 
                         <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click
                                 to view...</a></p>

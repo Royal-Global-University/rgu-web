@@ -25,9 +25,9 @@
 
         <style>
             /* ================================
-           UNIQUE NAMESPACE STYLES
-           Prefix: rgu-program-
-        ================================= */
+               UNIQUE NAMESPACE STYLES
+               Prefix: rgu-program-
+            ================================= */
 
             .body-part {
                 background: #f7f5f0;
@@ -56,8 +56,8 @@
             }
 
             /* ================================
-           CARD DESIGN (POP EFFECT)
-        ================================= */
+               CARD DESIGN (POP EFFECT)
+            ================================= */
 
             .rgu-program-card {
                 background: linear-gradient(135deg, #ffffff, #bdd1ff);
@@ -448,7 +448,8 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BSc-clinical-psychology-%28Hons%29" class="rgu-program-link">
+                                    <a href="https://www.rgu.ac/programs-BSc-clinical-psychology-%28Hons%29"
+                                        class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Clinical Psychology (Hons.)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -477,7 +478,8 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="/programs-isitep" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">Integrated Special and Inclusive Teacher Education Programme (ISITEP)</div>
+                                            <div class="rgu-program-card-title">Integrated Special and Inclusive Teacher
+                                                Education Programme (ISITEP)</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -815,7 +817,8 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry" class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry"
+                                        class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Interior Design (BID) Lateral Entry
@@ -1028,6 +1031,18 @@
                                     <a href="https://www.rgu.ac/programs-b-tech-me" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Tech. (ME)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/program-btech-in-computer-science-and-business-system"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Tech. in Computer Science and Business Systems
+                                            </div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
@@ -2316,19 +2331,20 @@
             });
 
             /* ===============================
-               COURSE SEARCH FUNCTION
-            =============================== */
+        COURSE SEARCH FUNCTION
+     =============================== */
 
             searchInput.addEventListener("input", function() {
-                const keyword = this.value.toLowerCase().trim();
+                const keyword = normalize(this.value);
 
                 accordionItems.forEach(item => {
                     const cards = item.querySelectorAll(".rgu-program-card");
                     let matchFound = false;
 
                     cards.forEach(card => {
-                        const title = card.querySelector(".rgu-program-card-title")
-                            .innerText.toLowerCase();
+                        const rawTitle = card.querySelector(".rgu-program-card-title")
+                            .innerText;
+                        const title = normalize(rawTitle);
 
                         if (title.includes(keyword)) {
                             card.closest(".col-lg-3").style.display = "";
@@ -2352,6 +2368,19 @@
                     }
                 });
             });
+
+
+            /* ===============================
+               NORMALIZE FUNCTION
+            =============================== */
+
+            function normalize(str) {
+                return str
+                    .toLowerCase()
+                    .replace(/\./g, "") // remove dots (B.Sc → BSc)
+                    .replace(/\s+/g, "") // remove spaces
+                    .replace(/[^a-z0-9]/g, ""); // remove special chars
+            }
 
             /* ===============================
                SCHOOL DROPDOWN FILTER

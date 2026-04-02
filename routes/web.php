@@ -1099,6 +1099,10 @@ Route::get('/programs', function () {
     return view('frontend/programmes/programs');
 })->name('programs');
 
+Route::get('/program-btech-in-computer-science-and-business-system', function () {
+    return view('frontend/programmes/program-btech-in-computer-science-and-business-system');
+})->name('program-btech-in-computer-science-and-business-system');
+
 Route::get('/admission-programs-fees-structure', function () {
     return view('frontend/programmes/admission-programs-fees-structure');
 })->name('admission-programs-fees-structure');

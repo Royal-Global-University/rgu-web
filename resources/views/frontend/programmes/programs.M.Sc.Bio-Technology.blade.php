@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'M.Sc Biotechnology at The Assam Royal Global University')
-@section('meta_description', 'Advance your career with an M.Sc in Biotechnology at Royal Global University—cutting-edge labs, expert faculty, and research-driven learning.')
+@section('meta_description', 'Advance your career with an M.Sc in Biotechnology at Royal Global University—cutting-edge
+    labs, expert faculty, and research-driven learning.')
 @section('meta_keywords', ' M.SC Biotechnology')
 @section('content')
     <div id="page" class="site site_wrapper">
@@ -58,7 +59,7 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0"> A.) Registration & Admission Fees (To Be Paid Once Only)
                         </p>
-                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1000.00</p>
+                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1500.00</p>
                         <p class="text-dark pt-2 m-0">b. Registration(To be paid during the admission for all courses) -
                             10000.00</p>
                         <p class="text-dark pt-2 m-0">c. Admission Fee - 50000.00</p>

@@ -57,7 +57,7 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0"> A.) Registration & Admission Fees (To Be Paid Once Only)
                         </p>
-                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1000.00</p>
+                        <p class="text-dark pt-2 m-0">a. Prospectus & Form - 1500.00</p>
                         <p class="text-dark pt-2 m-0">b. Registration(To be paid during the admission for all courses) -
                             10000.00</p>
                         <p class="text-dark pt-2 m-0">c. Admission Fee - 60000.00</p>
@@ -86,7 +86,8 @@
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body text-center">
                         <img class="rounded shadow" src="assets/Files/brochurethumb.png">
-                        <p class="text-dark pt-2 fw-bold m-0"><a href="assets/programme-pdf/BA-Applied-Psychology.pdf">Brochure
+                        <p class="text-dark pt-2 fw-bold m-0"><a
+                                href="assets/programme-pdf/BA-Applied-Psychology.pdf">Brochure
                                 2024-25<i class="fas fa-download ms-2"></i></a>
                         </p>
                     </div>
