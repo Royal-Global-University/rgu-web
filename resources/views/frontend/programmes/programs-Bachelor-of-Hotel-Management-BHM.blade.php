@@ -1,10 +1,11 @@
 @extends('frontend.master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
-            <div class="mobile" style="padding-top: 120px; position: relative;">
+        
+        <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+            <div class="mobile">
+                @include('frontend/components/mobileheader')
+            <div style="padding-top: 120px; position: relative;">
 
                 <div class="container">
 
@@ -23,8 +24,10 @@
                 </p>
 
             </div>
+            </div>
 
             <div class="website">
+                @include('frontend/components/aheader')
 
                 <div class="container">
 

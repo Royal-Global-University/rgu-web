@@ -575,7 +575,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="mba-finance.html" class="rgu-program-link">
+                                    <a href="programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MBA Finance</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1062,7 +1062,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="msc-geography.html" class="rgu-program-link">
+                                    <a href="/programs-MSc-geography" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Geography</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1071,7 +1071,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="ma-geography.html" class="rgu-program-link">
+                                    <a href="programs-MA-Geography" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. Geography</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1080,7 +1080,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="msc-geoinformatics.html" class="rgu-program-link">
+                                    <a href="programs-MSc-in-Geoinformatics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. in Geoinformatics</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1089,7 +1089,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="msc-geology.html" class="rgu-program-link">
+                                    <a href="programs-MSc-Geology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Geology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1098,7 +1098,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="bsc-ba-geography-nep.html" class="rgu-program-link">
+                                    <a href="programs-BSc-Geography" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc./B.A. Geography</div>
                                             <div class="rgu-program-card-duration">
@@ -1109,7 +1109,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="bsc-geology-nep.html" class="rgu-program-link">
+                                    <a href="/programs-b-sc-geology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Geology</div>
                                             <div class="rgu-program-card-duration">
@@ -1282,7 +1282,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Hotel-Management-BHM"
+                                    <a href="/programs-Bachelor-of-Hotel-Management-BHM"
                                         class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
