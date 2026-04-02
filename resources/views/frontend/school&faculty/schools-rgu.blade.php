@@ -12,845 +12,1353 @@
 
     </div>
 
-    <section
-        style="background-image: url('mobile-assets/school-rgu/bg.svg'); background-size: cover; padding-bottom: 50px; min-height: 100vh;">
-
-        <h2 class="rgu-unique-headd1 text-center pt-5 pb-2">
-            Schools and <span style="color: #FF9A1E;">Faculty</span>
-        </h2>
-
-        <div class="container">
-
-            <div class="rgu-control-bar">
-
-                <div class="rgu-buttons-group">
-                    <a href="how-to-apply" target="_blank" class="rgu-top-btn">How to Apply</a>
-                    <a href="placements-process" target="_blank" class="rgu-top-btn">Placements</a>
-                    <a href="programs" target="_blank" class="rgu-top-btn">Eligibility & Selection Criteria</a>
-                    <a href="admission-programs-fees-structure" target="_blank" class="rgu-top-btn">Fee Structure</a>
-                </div>
-
-                <div class="rgu-unique-search-wrapper">
-                    <i class="fas fa-search search-icon-overlay"></i>
-                    <input type="text" id="rguUniqueSearchInput" class="rgu-unique-search-input"
-                        placeholder="Search Faculty..." disabled>
-
-                    <div id="rguUniqueLoadingMsg"><i class="fas fa-circle-notch fa-spin"></i> Loading...</div>
-
-                    <div id="rguUniqueSearchResults" class="rgu-unique-dropdown"></div>
-                </div>
-
-            </div>
-            <hr>
-            <div class="row">
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Integrated Civil Service Programme</h5>
-                            <div class="mt-auto mb-4">
-                                <div class="text-center">
-                                    <a href="{{ route('ias-courses') }}"
-                                        style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                        Department
-                                    </a>
-                                    <a href="{{ route('faculty-csp') }}"
-                                        style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                        Faculty
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/agri.png" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Agriculture (RSAG)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-agriculture">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="IAS Course"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-agriculture">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/soa-1.jpg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Architecture (RSA)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-architecture">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Architecture (RSA)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-architecture">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/applied.001.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Applied & Pure Sciences (RSAPS)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-applied-pure-science">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Applied Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-applied-purescience">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/business.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Business (RSB)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-business">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Business (RSB)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-business">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/behavioral.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Behavioral & Allied Sciences (RSBAS)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-psychology">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Behavioral Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-allied-sciences">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/rsbsc-school-header.jpeg"
-                            class="img-fluid rounded" style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Bio-sciences (RSBSC)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-bio-science">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Bio-Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-bio-sciences">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/commerce.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Commerce (RSC)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-commerce">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Commerce (RSC)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-commerce">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/media.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Communications & Media (RSCOM)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-communications-media">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Media (RSCOM)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="rscom-faculty">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/design.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Design (RSD)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-design">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Design (RSD)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-design">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/earth.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Environmental and Earth Sciences (RSEES)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-enviroment-science">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Environmental Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-environmental-earth">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/soet.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Engineering and Technology (RSET)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-engineering-technology">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Engineering (RSET)"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-engineeringtechnology">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/art.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Fine Arts (RSFA)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-fine-arts">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Fine Arts"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-finearts">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/fashion.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Fashion Design (RSFT)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-fashion-design">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Fashion Design"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-fashion-design">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/humanities.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Humanities (RSHSS)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-humanities">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Humanities"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-humanities-social">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/hotel-mgn.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Hotel Management (RSHM)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-hotel-management">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Hotel Management"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-hotel-management">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/it-school.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Information Technology (RSIT)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-information-technology">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="IT School"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-information-technology">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/law.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Law & Administration (RSLA)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-law">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Law School"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-law-administration">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/rgu-schools.003.jpeg"
-                            class="img-fluid rounded" style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Life Sciences (RSLSC)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-life-science">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Life Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-lifesciences">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/rgu-campus.001.jpeg"
-                            class="img-fluid rounded" style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Languages (RSL)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="/royal-school-of-languages">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Languages"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-languages">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/schools-library.jpeg"
-                            class="img-fluid rounded" style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Library & Information Science (RSLISC)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-library-information">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Library Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-librarysciences">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="assets/img/school-rgu/medical.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Medical & Allied Sciences (RSMAS)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="royal-s-school-of-medical-allied-science">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Medical Sciences"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-medical&allidesciences">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="assets/img/school-rgu/nursing.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Nursing (RSN)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-nursing">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Nursing"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-nursing">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="https://www.rgu.ac/mobile-assets/school-rgu/pharmacy.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Pharmacy (RSP)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-pharmacy">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Pharmacy"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="faculty-pharmacy">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="home-banner/bpes.png" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Physical Education and Sports (RSPES)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="/department-physical-education-and-sports">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Pharmacy"
-                                    style="background:#FF9A1E; color:#fff; width:48%;" href="/faculty-physical-education-and-sports">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="mobile-assets/phar/pic.png" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Pharmaceutical Sciences</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-pharmaceutical-science">Department</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="assets/img/school-rgu/travel.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Travel & Tourism (RSTTM)</h5>
-                            <div class="mt-auto d-flex justify-content-between">
-                                <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
-                                    href="department-travel">Department</a>
-                                <a class="rgu-unique-caption rgu-unique-school-link" data-school="Travel & Tourism"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="faculty-travel-tourism">Faculty</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mt-3">
-                    <div class="card h-100 border-0 shadow-sm p-3">
-                        <img src="mobile-assets/school-rgu/IKS%20LOGO-new.jpeg" class="img-fluid rounded"
-                            style="height:200px; object-fit:cover;">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Indian Knowledge System</h5>
-                            <div class="mt-auto d-flex justify-content-between flex-wrap">
-                                <a class="rgu-unique-caption mb-2" style="background:#27467A; color:#fff; width:48%;"
-                                    href="indian-knowledge-system-cell-about">
-                                    About IKS
-                                </a>
-
-                                <a class="rgu-unique-caption rgu-unique-school-link mb-2" data-school="IKS"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="indian-knowledge-system-cell-composition">
-                                    Composition
-                                </a>
-
-                                <a class="rgu-unique-caption rgu-unique-school-link mb-2" data-school="IKS"
-                                    style="background:#27467A; color:#fff; width:48%;"
-                                    href="indian-knowledge-system-cell-events">
-                                    Events
-                                </a>
-
-                                <a class="rgu-unique-caption rgu-unique-school-link mb-2" data-school="IKS"
-                                    style="background:#FF9A1E; color:#fff; width:48%;"
-                                    href="indian-knowledge-system-cell-syllabus">
-                                    Syllabus
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    {{-- style ccs --}}
     <style>
-        /* --- TYPOGRAPHY --- */
-        .rgu-unique-headd1 {
-
-            font-size: 3rem;
-            font-weight: 700;
-            color: #27467A;
-            margin-bottom: 50px;
+        /* ===============================
+           RESET
+        ================================ */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
         }
 
-        .rgu-unique-headd2 {
-
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #27467A;
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+            background: linear-gradient(180deg, #f4efe9, #f7f3ee);
+            color: #2c2c2c;
         }
 
-        .rgu-unique-caption {
+        /* ===============================
+           WRAPPER
+        ================================ */
+        .rgu-sf-wrapper {
+            max-width: 1250px;
+            margin: auto;
+            padding: 50px 20px;
+        }
 
-            font-size: 1.6 rem;
-            font-weight: 800;
-            text-decoration: none;
-            display: inline-block;
-            padding: 10px 0;
+        /* ===============================
+           HEADING
+        ================================ */
+        .rgu-sf-heading {
             text-align: center;
-            border-radius: 8px;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #28477b;
         }
 
-        /* --- CONTROL BAR (Buttons + Search) --- */
-        .rgu-control-bar {
+        .rgu-sf-heading span {
+            color: #f7941d;
+        }
+
+        /* ===============================
+           TOP LAYOUT
+        ================================ */
+        .rgu-sf-top {
             display: flex;
             justify-content: space-between;
-            /* Buttons Left, Search Right */
             align-items: center;
             flex-wrap: wrap;
-            /* Stack on mobile */
             gap: 20px;
-            margin-bottom: 30px;
-            padding-top: 20px;
         }
 
-        .rgu-buttons-group {
+        /* ===============================
+           BUTTON GROUP
+        ================================ */
+        .rgu-sf-btn-group {
             display: flex;
-            gap: 15px;
+            justify-content: center;
             flex-wrap: wrap;
+            gap: 12px;
         }
 
-        /* UPDATED BUTTON STYLE based on your image */
-        .rgu-top-btn {
-            background-color: #204073;
-            /* Deep Blue from image */
-            color: white !important;
-
-            font-weight: 600;
-            padding: 12px 24px;
-            /* Taller padding like the image */
-            border-radius: 6px;
-            /* Slight curve, not round */
-            font-size: 1.2 rem;
+        .rgu-sf-btn {
+            background: #28477b;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 8px;
             text-decoration: none;
-            display: inline-block;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            /* Slight shadow */
-            transition: all 0.3s ease;
-            border: none;
-            text-align: center;
+            font-size: 22px;
+            transition: 0.25s ease;
         }
 
-        .rgu-top-btn:hover {
-            background-color: #FF9A1E;
-            /* Orange on hover for interaction */
+        .rgu-sf-btn:hover {
+            background: #1c3561;
             transform: translateY(-2px);
-            /* Slight lift effect */
-            color: white !important;
         }
 
-        /* Compact Search Container */
-        .rgu-unique-search-wrapper {
+        /* ===============================
+           RIGHT CONTROLS
+        ================================ */
+        .rgu-sf-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex: 0 0 600px;
+            max-width: 60%;
+        }
+
+        .rgu-sf-controls-row {
+            display: flex;
+            gap: 8px;
+            max-width: 300px;
+        }
+
+        .rgu-sf-search-wrapper {
+            flex: 1;
             position: relative;
-            width: 100%;
-            max-width: 400px;
+            display: flex;
+            align-items: center;
         }
 
-        /* Small Search Input */
-        .rgu-unique-search-input {
-            width: 100%;
-            padding: 10px 20px 10px 40px;
-            /* Left padding for icon */
-            border: 1px solid #ccc;
-            border-radius: 50px;
+        /* ===============================
+           INPUTS
+        ================================ */
+        .rgu-sf-select,
+        .rgu-sf-search {
+            height: 42px;
+            padding: 0 14px;
+            border-radius: 8px;
+            border: 1px solid #d6dbe4;
+            font-size: 14px;
+            background: #fff;
             outline: none;
-            background: white;
-
-            font-size: 0.9rem;
-            height: 45px;
-            transition: border-color 0.3s;
+            transition: 0.2s ease;
         }
 
-        .rgu-unique-search-input:focus {
-            border-color: #FF9A1E;
-            box-shadow: 0 0 5px rgba(255, 154, 30, 0.2);
+        .rgu-sf-select {
+            min-width: 200px;
+            appearance: none;
+            background-image: url("data:image/svg+xml;utf8,<svg fill='%2328477b' height='18' viewBox='0 0 20 20' width='18'><path d='M5.5 7l4.5 5 4.5-5z'/></svg>");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
         }
 
-        .search-icon-overlay {
+        .rgu-sf-search {
+            width: 100%;
+            padding: 0 40px 0 14px;
+        }
+
+        /* ICON */
+        .rgu-sf-search-icon {
             position: absolute;
-            left: 15px;
+            right: 12px;
             top: 50%;
             transform: translateY(-50%);
-            color: #27467A;
             pointer-events: none;
         }
 
-        #rguUniqueLoadingMsg {
-            text-align: right;
-            font-size: 11px;
-            color: #666;
-            margin-top: 5px;
-            margin-right: 10px;
-
+        /* FOCUS */
+        .rgu-sf-select:focus,
+        .rgu-sf-search:focus {
+            border-color: #28477b;
+            box-shadow: 0 0 0 2px rgba(40, 71, 123, 0.15);
         }
 
-        /* Dropdown Results */
-        .rgu-unique-dropdown {
-            display: none;
+        /* BUTTON */
+        .rgu-sf-btn-go {
+            height: 42px;
+            padding: 0 14px;
+            border-radius: 8px;
+            border: none;
+            background: #28477b;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .rgu-sf-btn-go:hover {
+            background: #1c3561;
+        }
+
+        /* ===============================
+           🔥 SEARCH RESULTS (IMPROVED ONLY HERE)
+        ================================ */
+        .rgu-sf-results {
             position: absolute;
-            top: 110%;
-            right: 0;
-            width: 400px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            z-index: 10000;
-            max-height: 400px;
+            top: 48px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 10px;
+            border: 1px solid #e5e9f2;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+            max-height: 320px;
             overflow-y: auto;
-            border: 1px solid #eee;
+            z-index: 100;
+            padding: 6px 0;
+            animation: dropdownFade 0.15s ease;
         }
 
-        @media (max-width: 991px) {
-            .rgu-control-bar {
-                flex-direction: column-reverse;
-                /* Put search on top on mobile? Or keep standard column */
-                align-items: stretch;
+        @keyframes dropdownFade {
+            from {
+                opacity: 0;
+                transform: translateY(6px);
             }
 
-            .rgu-buttons-group {
-                justify-content: center;
-            }
-
-            .rgu-top-btn {
-                flex: 1 1 45%;
-                /* Buttons take up half width on mobile */
-            }
-
-            .rgu-unique-search-wrapper {
-                max-width: 100%;
-            }
-
-            .rgu-unique-dropdown {
-                width: 100%;
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
 
-        /* Result Item Styles */
-        .rgu-unique-result-item {
+        .rgu-sf-results:empty {
+            display: none;
+        }
+
+        /* ITEM */
+        .rgu-sf-result-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 12px 15px;
-            border-bottom: 1px solid #f0f0f0;
+            gap: 10px;
+            padding: 10px 14px;
+            transition: all 0.2s ease;
         }
 
-        .rgu-unique-result-item:hover {
-            background-color: #f9fbff;
+        /* HOVER */
+        .rgu-sf-result-item:hover {
+            background: #f5f7fb;
+            transform: translateX(3px);
         }
 
-        .rgu-unique-result-info strong {
-            display: block;
-            color: #27467A;
-            font-size: 18px;
-
-        }
-
-        .rgu-unique-result-info small {
-            color: #FF9A1E;
+        /* TEXT */
+        .rgu-sf-result-name {
             font-weight: 600;
+            color: #28477b;
             font-size: 14px;
-            text-transform: uppercase;
-
         }
 
-        .rgu-unique-view-btn {
-            background: #27467A;
-            color: white !important;
-            padding: 6px 14px;
+        .rgu-sf-result-dept {
+            font-size: 12px;
+            color: #777;
+        }
+
+        /* VIEW BUTTON */
+        .rgu-sf-view-btn {
+            background: #28477b;
+            color: #fff;
+            padding: 5px 12px;
             border-radius: 6px;
-            font-size: 14px;
+            font-size: 12px;
             text-decoration: none;
-
+            transition: 0.2s ease;
         }
 
-        .rgu-unique-view-btn:hover {
-            background: #FF9A1E;
+        .rgu-sf-view-btn:hover {
+            background: #f7941d;
+        }
+
+        /* SCROLLBAR */
+        .rgu-sf-results::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .rgu-sf-results::-webkit-scrollbar-thumb {
+            background: #d0d6e2;
+            border-radius: 10px;
+        }
+
+        /* ===============================
+           CARDS (RESTORED EXACT)
+        ================================ */
+        .rgu-sf-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            /* ✅ back to original */
+            margin-top: 40px;
+            align-items: stretch;
+        }
+
+        .rgu-sf-card {
+            background: #fff;
+            border-radius: 14px;
+            /* ✅ original */
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+            /* ✅ original */
+            transition: all 0.3s ease;
+        }
+
+        .rgu-sf-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .rgu-sf-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .rgu-sf-card-title {
+            margin: 14px 0 10px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #28477b;
+            line-height: 1.3;
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* BUTTONS */
+        .rgu-sf-card-btns {
+            display: flex;
+            gap: 10px;
+            margin-top: auto;
+        }
+
+        .rgu-sf-card-btn {
+            flex: 1;
+            padding: 11px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 600;
+            transition: 0.25s ease;
+        }
+
+        .rgu-sf-dept {
+            background: #28477b;
+            color: #fff;
+        }
+
+        .rgu-sf-dept:hover {
+            background: #1c3561;
+        }
+
+        .rgu-sf-faculty {
+            background: #f7941d;
+            color: #fff;
+        }
+
+        .rgu-sf-faculty:hover {
+            background: #d97f0f;
+        }
+
+        /* MULTI GRID */
+        .rgu-sf-multi {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        /* ===============================
+           RESPONSIVE
+        ================================ */
+        @media (max-width: 992px) {
+            .rgu-sf-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .rgu-sf-right {
+                flex: 1 1 100%;
+                flex-wrap: wrap;
+            }
+        }
+
+        /* ===============================
+           MOBILE / SMALL SCREEN FIX
+        ================================ */
+        @media (max-width: 768px) {
+
+            /* BUTTON GRID → 2 per row */
+            .rgu-sf-btn-group {
+                width: 100%;
+                display: flex;
+                justify-content: space-around
+                gap: 20px;
+            }
+
+            .rgu-sf-btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            /* RIGHT SECTION FULL WIDTH */
+            .rgu-sf-right {
+                width: 100%;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            /* DROPDOWN + GO BUTTON */
+            .rgu-sf-controls-row {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: 8px;
+            }
+
+            .rgu-sf-select {
+                width: 100%;
+            }
+
+            .rgu-sf-btn-go {
+                min-width: 60px;
+            }
+
+            /* SEARCH FULL WIDTH */
+            .rgu-sf-search-wrapper {
+                width: 100%;
+            }
+
+            .rgu-sf-search {
+                width: 100%;
+            }
         }
     </style>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Unique variables
-            const rguAllFacultyDataUnique = [];
-            const rguSearchInputUnique = document.getElementById('rguUniqueSearchInput');
-            const rguLoadingMsgUnique = document.getElementById('rguUniqueLoadingMsg');
-            const rguResultsContainerUnique = document.getElementById('rguUniqueSearchResults');
+    <style>
+        /* ===============================
+           FIX CARD ALIGNMENT (REAL FIX)
+        ================================ */
 
-            const facultyNameSelector = '.card-name';
+        /* Ensure equal card sizing */
+        .rgu-sf-cards {
+            align-items: stretch;
+        }
 
-            async function rguFetchAllFacultyUnique() {
-                const schoolLinks = document.querySelectorAll('.rgu-unique-school-link');
+        .rgu-sf-card {
+            width: 100%;
+        }
 
-                if (schoolLinks.length === 0) {
-                    rguLoadingMsgUnique.innerHTML = "Error: No school buttons found.";
-                    return;
-                }
+        .rgu-sf-card-title a {
+            display: block;
+            /* 🔥 fixes alignment */
+            width: 100%;
+            /* 🔥 full clickable area */
+            color: inherit;
+            /* 🔥 keeps original blue */
+            text-decoration: none;
+            /* 🔥 removes underline */
+            font: inherit;
+            /* 🔥 keeps font size/style */
+            line-height: inherit;
+        }
 
-                if (window.location.protocol === 'file:') {
-                    rguLoadingMsgUnique.innerHTML =
-                        "<strong style='color:red'>Error:</strong> You are opening this file directly.<br>Search only works on a Local Server (Live Server).";
-                    return;
-                }
+        .rgu-sf-card-title a:hover {
+            color: #f7941d;
+        }
 
-                const promises = Array.from(schoolLinks).map(async (link) => {
-                    const url = link.href;
-                    if (url.includes('#') || url === "") return;
+        /* 🔥 MOBILE PERFECT GRID FIX */
+        @media (max-width: 768px) {
 
-                    const schoolName = link.getAttribute('data-school') ||
-                        "Royal Global University";
-
-                    try {
-                        const response = await fetch(url);
-                        if (response.ok) {
-                            const text = await response.text();
-                            const parser = new DOMParser();
-                            const doc = parser.parseFromString(text, 'text/html');
-
-                            const names = doc.querySelectorAll(facultyNameSelector);
-
-                            names.forEach(nameElement => {
-                                const cleanName = nameElement.innerText.replace(/\s+/g, ' ')
-                                    .trim();
-                                if (cleanName.length > 2) {
-                                    rguAllFacultyDataUnique.push({
-                                        name: cleanName,
-                                        school: schoolName,
-                                        link: url
-                                    });
-                                }
-                            });
-                        }
-                    } catch (error) {
-                        console.warn("Could not load: " + url);
-                    }
-                });
-
-                await Promise.all(promises);
-
-                if (rguAllFacultyDataUnique.length > 0) {
-                    rguLoadingMsgUnique.style.display = 'none';
-                    rguSearchInputUnique.disabled = false;
-                    rguSearchInputUnique.placeholder =
-                        `Search among ${rguAllFacultyDataUnique.length} Faculty Members...`;
-                } else {
-                    rguLoadingMsgUnique.innerHTML = "Connected, but no faculty found. Check console (F12).";
-                }
+            .rgu-sf-cards {
+                grid-template-columns: 1fr 1fr;
+                /* 🔥 FORCE 2 CARDS */
+                gap: 16px;
+                /* tighter spacing for mobile */
             }
 
-            rguFetchAllFacultyUnique();
+            /* Fix card height consistency */
+            .rgu-sf-card {
+                height: 100%;
+            }
 
-            rguSearchInputUnique.addEventListener('keyup', (e) => {
-                const query = e.target.value.toLowerCase();
-                rguResultsContainerUnique.innerHTML = '';
+            /* Fix image overflow issue */
+            .rgu-sf-card img {
+                height: 140px;
+            }
 
-                if (query.length < 2) {
-                    rguResultsContainerUnique.style.display = 'none';
-                    return;
+            /* Fix text wrapping */
+            .rgu-sf-card-title {
+                font-size: 15px;
+                min-height: 40px;
+            }
+
+            /* Buttons spacing */
+            .rgu-sf-card-btn {
+                font-size: 12px;
+                padding: 9px;
+            }
+        }
+
+        /* 🔥 VERY SMALL SCREEN (optional but clean) */
+        @media (max-width: 480px) {
+            .rgu-sf-cards {
+                grid-template-columns: 1fr;
+                /* fallback to 1 */
+            }
+        }
+    </style>
+
+    <div class="rgu-sf-wrapper">
+
+        <div class="rgu-sf-heading">
+            Schools and <span>Faculty</span>
+        </div>
+
+        <div class="pt-3">
+
+            <div class="rgu-sf-btn-group" style="display: flex; justify-content: center">
+                <a href="https://rgu.ac/how-to-apply" class="rgu-sf-btn">How to Apply</a>
+                <a href="https://rgu.ac/placements-process" class="rgu-sf-btn">Placements</a>
+                <a href="https://rgu.ac/programs" class="rgu-sf-btn">Eligibility & Selection Criteria</a>
+                <a href="https://rgu.ac/admission-programs-fees-structure" class="rgu-sf-btn">Fee Structure</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="rgu-sf-right mt-5">
+
+                <div class="rgu-sf-controls-row">
+                    <select id="rguDeptDropdown" class="rgu-sf-select">
+                        <option value="">Select Department...</option>
+                    </select>
+                    <button id="rguDeptBtn" class="rgu-sf-btn-go">Go</button>
+                </div>
+
+                <div class="rgu-sf-search-wrapper">
+                    <input type="text" class="rgu-sf-search" placeholder="Search faculty...">
+                    <span class="rgu-sf-search-icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#888">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </span>
+                </div>
+
+            </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+
+        <div class="rgu-sf-cards" id="rguSFContainer"></div>
+
+    </div>
+
+    <script>
+        /* ===============================
+               DATA (EDIT HERE ONLY)
+            ================================ */
+        const rguSFData = [
+
+            {
+                title: "Integrated Civil Service Programme",
+                image: "/mobile-assets/school-rgu/ias-banner.png",
+
+                deptMainLink: "/ias-courses",
+
+                departments: [{
+                        name: "IAS Course",
+                        link: "/ias-courses"
+                    },
+
+                ],
+                facultyLink: "/faculty-csp"
+            },
+
+            {
+                title: "Royal School of Agriculture (RSAG)",
+                image: "/mobile-assets/agri.png",
+
+                deptMainLink: "/department-agriculture",
+
+                departments: [{
+                    name: "Department of Agriculture",
+                    link: "/department-agriculture"
+                }],
+                facultyLink: "/faculty-agriculture"
+            },
+
+            {
+                title: "Royal School of Architecture (RSA)",
+                image: "/mobile-assets/school-rgu/soa-1.jpg",
+
+                deptMainLink: "/department-architecture",
+
+                departments: [{
+                    name: "Department of Architecture",
+                    link: "/department-architecture"
+                }, ],
+                facultyLink: "/faculty-architecture"
+            },
+
+            {
+                title: "Royal School of Applied & Pure Sciences (RSAPS)",
+                image: "/mobile-assets/school-rgu/applied.001.jpeg",
+
+                deptMainLink: "/royal-s-school-of-applied-pure-science",
+
+                departments: [{
+                        name: "Department of Physics",
+                        link: "/department-physics"
+                    },
+                    {
+                        name: "Department of Chemistry",
+                        link: "/department-chemistry"
+                    },
+                    {
+                        name: "Department of Mathematics",
+                        link: "/department-mathematics"
+                    },
+                ],
+                facultyLink: "/faculty-applied-purescience"
+            },
+
+            {
+                title: "Royal School of Business (RSB)",
+                image: "/mobile-assets/school-rgu/business.jpeg",
+
+                deptMainLink: "/department-business",
+
+                departments: [{
+                        name: "Department of Business",
+                        link: "/department-business"
+                    },
+
+                ],
+                facultyLink: "/faculty-business"
+            },
+
+
+            {
+                title: "Royal School of Behavioral & Allied Sciences (RSBAS)",
+                image: "/mobile-assets/school-rgu/behavioral.jpeg",
+
+                deptMainLink: "/department-psychology",
+
+                departments: [{
+                        name: "Department of Psychology",
+                        link: "/department-psychology"
+                    },
+
+                ],
+                facultyLink: "/faculty-allied-sciences"
+            },
+
+            {
+                title: "Royal School of Bio-sciences (RSBSC)",
+                image: "/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
+
+                deptMainLink: "/royal-s-school-of-bio-science",
+
+                departments: [{
+                        name: "Department of Biotechnology",
+                        link: "/department-biotechnology"
+                    },
+                    {
+                        name: "Department of Microbiology",
+                        link: "/department-microbiology"
+                    },
+                    {
+                        name: "Department of Food Technology",
+                        link: "/department-food-technology"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-bio-sciences"
+            },
+
+            {
+                title: "Royal School of Commerce (RSC)",
+                image: "/mobile-assets/school-rgu/commerce.jpeg",
+
+                deptMainLink: "/department-commerce",
+
+                departments: [{
+                        name: "Department of Commerce",
+                        link: "/department-commerce"
+                    },
+
+
+
+                ],
+                facultyLink: "/faculty-commerce"
+            },
+
+            {
+                title: "Royal School of Communications & Media (RSCOM)",
+                image: "/mobile-assets/school-rgu/media.jpeg",
+
+                deptMainLink: "/department-communications-media",
+
+                departments: [{
+                        name: "Department of Communications & Media",
+                        link: "/department-communications-media"
+                    },
+
+
+
+                ],
+                facultyLink: "/rscom-faculty"
+            },
+
+
+            {
+                title: "Royal School of Design (RSD)",
+                image: "/mobile-assets/school-rgu/design.jpeg",
+
+                deptMainLink: "/royal-s-school-of-design",
+
+                departments: [{
+                        name: "Department of Product Design",
+                        link: "/department-product-design"
+                    },
+                    {
+                        name: "Department of Communication Design",
+                        link: "/department-communication-design"
+                    },
+                    {
+                        name: "Department of Interior Design",
+                        link: "/department-interior-design"
+                    },
+                    {
+                        name: "Department of Graphic Design",
+                        link: "/department-graphic-design"
+                    },
+                    {
+                        name: "Department of Fashion Design",
+                        link: "/department-fashion-design"
+                    },
+
+
+
+                ],
+                facultyLink: "/faculty-design"
+            },
+            {
+                title: "Royal School of Environmental and Earth Sciences (RSEES)",
+                image: "/mobile-assets/school-rgu/earth.jpeg",
+
+                deptMainLink: "/royal-s-school-of-enviroment-science",
+
+                departments: [{
+                        name: "Department of Geography & Geoinformatics",
+                        link: "/department-geography-geoinformatics"
+                    },
+                    {
+                        name: "Department of Environmental Sciences",
+                        link: "/department-environmental-sciences"
+                    },
+                    {
+                        name: "Department of Geology",
+                        link: "/department-geology"
+                    },
+
+
+
+
+                ],
+                facultyLink: "/faculty-environmental-earth"
+            },
+
+            {
+                title: "Royal School of Engineering and Technology (RSET)",
+                image: "/mobile-assets/school-rgu/soet.jpeg",
+
+                deptMainLink: "/royal-s-school-of-engineering-technology",
+
+                departments: [{
+                        name: "Department of Computer Science and Engineering",
+                        link: "/department-cse"
+                    },
+                    {
+                        name: "Department of Mechanical Engineering",
+                        link: "/department-mechanical-engineering"
+                    },
+                    {
+                        name: "Department of Civil Engineering",
+                        link: "/department-civil-engineering"
+                    },
+                ],
+                facultyLink: "/faculty-engineeringtechnology"
+            },
+
+
+            {
+                title: "Royal School of Fine Arts (RSFA)",
+                image: "/mobile-assets/school-rgu/art.jpeg",
+
+                deptMainLink: "/department-fine-arts",
+
+                departments: [{
+                        name: "Department of Fine Arts",
+                        link: "/department-fine-arts"
+                    },
+
+                ],
+                facultyLink: "/faculty-finearts"
+            },
+
+
+            {
+                title: "Royal School of Fashion Design (RSFT)",
+                image: "/mobile-assets/school-rgu/fashion.jpeg",
+
+                deptMainLink: "/department-fashion-design",
+
+                departments: [{
+                        name: "Department of Fashion Design",
+                        link: "/department-fashion-design"
+                    },
+
+                ],
+                facultyLink: "/faculty-fashion-design"
+            },
+
+            {
+                title: "Royal School of Humanities (RSHSS)",
+                image: "/mobile-assets/school-rgu/humanities.jpeg",
+
+                deptMainLink: "/royal-s-school-of-humanities",
+
+                departments: [{
+                        name: "Department of Economics",
+                        link: "/department-economics"
+                    },
+                    {
+                        name: "Department of History",
+                        link: "/department-history"
+                    },
+                    {
+                        name: "Department of Political Science & Public Administration",
+                        link: "/department-of-political-science-public-administration"
+                    },
+                    {
+                        name: "Department of Sociology",
+                        link: "/department-sociology"
+                    },
+                    {
+                        name: "Department of Social Work",
+                        link: "/department-social-work"
+                    },
+                    {
+                        name: "Centre for Indian Knowledge Systems (IKS)",
+                        link: "/department-IKS"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-humanities-social"
+            },
+
+            {
+                title: "Royal School of Hotel Management (RSHM)",
+                image: "/mobile-assets/school-rgu/hotel-mgn.jpeg",
+
+                deptMainLink: "/department-hotel-management",
+
+                departments: [{
+                        name: "Department of Hotel Management",
+                        link: "/department-hotel-management"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-hotel-management"
+            },
+
+            {
+                title: "Royal School of Information Technology (RSIT)",
+                image: "/mobile-assets/school-rgu/it-school.jpeg",
+
+                deptMainLink: "/department-information-technology",
+
+                departments: [{
+                        name: "Department of Information Technology",
+                        link: "/department-information-technology"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-information-technology"
+            },
+
+            {
+                title: "Royal School of Law & Administration (RSLA)",
+                image: "/mobile-assets/school-rgu/law.jpeg",
+
+                deptMainLink: "/department-law",
+
+                departments: [{
+                        name: "Department of Law",
+                        link: "/department-law"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-law-administration"
+            },
+
+            {
+                title: "Royal School of Life Sciences (RSLSC)",
+                image: "/mobile-assets/school-rgu/rgu-schools.003.jpeg",
+
+                deptMainLink: "/royal-s-school-of-life-science",
+
+                departments: [{
+                        name: "Department of Botany",
+                        link: "/department-botany"
+                    },
+                    {
+                        name: "Department of Zoology",
+                        link: "/department-zoology"
+                    },
+                    {
+                        name: "Department of Forensic Sciences",
+                        link: "/department-forensic-sciences"
+                    },
+                    {
+                        name: "Department of Forestry",
+                        link: "/department-forestry"
+                    },
+
+
+
+                ],
+                facultyLink: "/faculty-lifesciences"
+            },
+
+            {
+                title: "Royal School of Languages (RSL)",
+                image: "/mobile-assets/school-rgu/rgu-campus.001.jpeg",
+
+                deptMainLink: "/royal-school-of-languages",
+
+                departments: [{
+                        name: "Department of English",
+                        link: "/department-english"
+                    },
+                    {
+                        name: "Department of Assamese",
+                        link: "/department-assamese"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-languages"
+            },
+
+            {
+                title: "Royal School of Library & Information Science (RSLISC)",
+                image: "/mobile-assets/school-rgu/schools-library.jpeg",
+
+                deptMainLink: "/department-library-information",
+
+                departments: [{
+                        name: "Department of Library & Information Science",
+                        link: "/department-library-information"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-librarysciences"
+            },
+
+
+            {
+                title: "Royal School of Medical & Allied Sciences (RSMAS)",
+                image: "/assets/img/school-rgu/medical.jpeg",
+
+                deptMainLink: "/royal-s-school-of-medical-allied-science",
+
+                departments: [{
+                        name: "Department of Physiotherapy",
+                        link: "/department-physiotherapy"
+                    },
+                    {
+                        name: "Department of Optometry",
+                        link: "/department-optometry"
+                    },
+                    {
+                        name: "Department of Anaesthesia and Operation Theatre Technology",
+                        link: "/department-operationtheatre"
+                    },
+                    {
+                        name: "Department of Medical Laboratory Science",
+                        link: "/department-medical-lab"
+                    },
+                    {
+                        name: "Department of Medical Radiography and Imaging Technology",
+                        link: "/department-radiography"
+                    },
+                    {
+                        name: "Department of Food Science & Nutrition",
+                        link: "/department-food-science&nutrition"
+                    },
+
+
+
+                ],
+                facultyLink: "/faculty-medical&allidesciences"
+            },
+
+            {
+                title: "Royal School of Nursing (RSN)",
+                image: "/assets/img/school-rgu/nursing.jpeg",
+
+                deptMainLink: "/department-nursing",
+
+                departments: [{
+                        name: "Department of Nursing",
+                        link: "/department-nursing"
+                    },
+
+                ],
+                facultyLink: "/faculty-nursing"
+            },
+
+            {
+                title: "Royal School of Pharmacy (RSP)",
+                image: "/mobile-assets/school-rgu/pharmacy.jpeg",
+
+                deptMainLink: "/department-pharmacy",
+
+                departments: [{
+                        name: "Department of Pharmacy",
+                        link: "/department-pharmacy"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-pharmacy"
+            },
+
+
+            {
+                title: "Royal School of Physical Education and Sports (RSPES)",
+                image: "/home-banner/bpes.png",
+
+                deptMainLink: "/department-physical-education-and-sports",
+
+                departments: [{
+                        name: "Royal School of Physical Education and Sports (RSPES)",
+                        link: "/department-physical-education-and-sports"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-physical-education-and-sports"
+            },
+
+            {
+                title: "Royal School of Pharmaceutical Sciences",
+                image: "/mobile-assets/phar/pic.png",
+
+                deptMainLink: "/department-pharmaceutical-science",
+
+                departments: [{
+                        name: "Royal School of Pharmaceutical Sciences",
+                        link: "/department-pharmaceutical-science"
+                    },
+
+
+                ],
+                facultyLink: ""
+
+            },
+
+            {
+                title: "Royal School of Travel & Tourism (RSTTM)",
+                image: "/assets/img/school-rgu/travel.jpeg",
+
+                deptMainLink: "/department-travel",
+
+                departments: [{
+                        name: "Department of Travel & Tourism Management",
+                        link: "/department-travel"
+                    },
+
+
+                ],
+                facultyLink: "/faculty-travel-tourism"
+
+            },
+
+
+            /* 🔥 SPECIAL CASE */
+            {
+                title: "Indian Knowledge Systems (IKS)",
+                image: "https://rgu.ac/mobile-assets/school-rgu/IKS%20LOGO-new.jpeg",
+
+                deptMainLink: "https://rgu.ac/indian-knowledge-system-cell-about",
+
+                buttons: [{
+                        text: "About IKS",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-about",
+                        type: "dept"
+                    },
+                    {
+                        text: "Composition",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-composition",
+                        type: "faculty"
+                    },
+                    {
+                        text: "Events",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-events",
+                        type: "dept"
+                    },
+                    {
+                        text: "Syllabus",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-syllabus",
+                        type: "faculty"
+                    }
+                ]
+            }
+
+        ];
+
+
+        /* ===============================
+           ELEMENTS
+        ================================ */
+        const container = document.getElementById("rguSFContainer");
+        const deptDropdown = document.getElementById("rguDeptDropdown");
+        const deptBtn = document.getElementById("rguDeptBtn");
+
+        const input = document.querySelector('.rgu-sf-search');
+        const resultsBox = document.createElement('div');
+        resultsBox.className = "rgu-sf-results";
+        document.querySelector('.rgu-sf-search-wrapper').appendChild(resultsBox);
+
+        let facultyData = [];
+
+
+        /* ===============================
+           RENDER CARDS
+        ================================ */
+        function renderCards(data) {
+            container.innerHTML = "";
+
+            data.forEach(item => {
+
+                let buttonsHTML = "";
+
+                /* SPECIAL CASE */
+                if (item.buttons) {
+                    buttonsHTML = `
+        <div class="rgu-sf-card-btns rgu-sf-multi">
+          ${item.buttons.map(btn => `
+                        <a href="${btn.link}"
+                           class="rgu-sf-card-btn ${btn.type === 'dept' ? 'rgu-sf-dept' : 'rgu-sf-faculty'}">
+                           ${btn.text}
+                        </a>
+                      `).join("")}
+        </div>
+      `;
                 }
 
-                const filtered = rguAllFacultyDataUnique.filter(person =>
-                    person.name.toLowerCase().includes(query)
-                );
+                /* NORMAL CASE */
+                else {
+                    let buttons = [];
 
-                if (filtered.length > 0) {
-                    rguResultsContainerUnique.style.display = 'block';
-                    filtered.forEach(person => {
-                        const div = document.createElement('div');
-                        div.className = 'rgu-unique-result-item';
-                        div.innerHTML = `
-                      <div class="rgu-unique-result-info">
-                          <strong>${person.name}</strong>
-                          <small>${person.school}</small>
-                      </div>
-                      <a href="${person.link}" class="rgu-unique-view-btn">View</a>
-                  `;
-                        rguResultsContainerUnique.appendChild(div);
-                    });
-                } else {
-                    rguResultsContainerUnique.style.display = 'block';
-                    rguResultsContainerUnique.innerHTML =
-                        '<div style="padding:15px; text-align:center; color:#888; font-family:Montserrat;">No faculty found.</div>';
+                    /* ✅ Department button */
+                    if (item.deptMainLink && item.deptMainLink.trim() !== "") {
+                        buttons.push(`
+      <a href="${item.deptMainLink}"
+         class="rgu-sf-card-btn rgu-sf-dept">
+         Department
+      </a>
+    `);
+                    }
+
+                    /* ✅ Faculty button */
+                    if (item.facultyLink && item.facultyLink.trim() !== "") {
+                        buttons.push(`
+      <a href="${item.facultyLink}"
+         class="rgu-sf-card-btn rgu-sf-faculty">
+         Faculty
+      </a>
+    `);
+                    }
+
+                    /* ✅ Only show wrapper if buttons exist */
+                    buttonsHTML = buttons.length ?
+                        `<div class="rgu-sf-card-btns">${buttons.join("")}</div>` :
+                        "";
                 }
+
+                container.innerHTML += `
+      <div class="rgu-sf-card">
+        <img src="${item.image}" alt="${item.title}">
+
+        <div class="rgu-sf-card-title">
+          <a href="${item.deptMainLink || item.facultyLink || '#'}">
+            ${item.title}
+          </a>
+        </div>
+
+        ${buttonsHTML}
+      </div>
+    `;
             });
+        }
 
-            document.addEventListener('click', function(e) {
-                if (!document.querySelector('.rgu-unique-search-wrapper').contains(e.target)) {
-                    rguResultsContainerUnique.style.display = 'none';
-                }
+
+        /* ===============================
+           DROPDOWN (GROUPED)
+        ================================ */
+        function renderDropdown(data) {
+
+            deptDropdown.innerHTML = `<option value="">Select Department...</option>`;
+
+            data.forEach(item => {
+
+                if (!item.departments) return;
+
+                const group = document.createElement("optgroup");
+                group.label = item.title;
+
+                item.departments.forEach(dept => {
+                    const option = document.createElement("option");
+                    option.value = dept.link;
+                    option.textContent = dept.name;
+                    group.appendChild(option);
+                });
+
+                deptDropdown.appendChild(group);
             });
+        }
+
+
+        /* ===============================
+           GO BUTTON
+        ================================ */
+        deptBtn.addEventListener('click', () => {
+            const url = deptDropdown.value;
+
+            if (url) {
+                window.location.href = url;
+            } else {
+                alert("Please select a department");
+            }
         });
+
+
+        /* ===============================
+           FETCH FACULTY DATA
+        ================================ */
+        async function loadPage(url) {
+            try {
+                const proxy = 'https://corsproxy.io/?' + encodeURIComponent(url);
+                const res = await fetch(proxy);
+                const html = await res.text();
+                return new DOMParser().parseFromString(html, "text/html");
+            } catch {
+                return null;
+            }
+        }
+
+        async function fetchFaculty() {
+
+            input.disabled = true;
+            input.placeholder = "Loading faculty...";
+
+            for (const item of rguSFData) {
+
+                if (!item.facultyLink) continue;
+
+                const doc = await loadPage(item.facultyLink);
+                if (!doc) continue;
+
+                const elements = doc.querySelectorAll('.card-name');
+
+                elements.forEach(el => {
+                    const name = el.innerText.trim();
+
+                    if (name.length > 4 && name.split(" ").length <= 4) {
+                        facultyData.push({
+                            name,
+                            parent: item.title,
+                            link: item.facultyLink
+                        });
+                    }
+                });
+            }
+
+            input.disabled = false;
+            input.placeholder = "Search faculty...";
+        }
+
+
+        /* ===============================
+           SEARCH INPUT
+        ================================ */
+        input.addEventListener("input", () => {
+
+            const q = input.value.toLowerCase().trim();
+
+            if (q.length < 2) {
+                resultsBox.innerHTML = "";
+                resultsBox.style.display = "none";
+                return;
+            }
+
+            const filtered = facultyData.filter(d =>
+                d.name.toLowerCase().includes(q)
+            );
+
+            renderResults(filtered, q);
+        });
+
+
+        /* ===============================
+           RENDER RESULTS
+        ================================ */
+        function renderResults(data, q) {
+
+            if (!data.length) {
+                resultsBox.innerHTML = `<div style="padding:15px;">No results found</div>`;
+                resultsBox.style.display = "block";
+                return;
+            }
+
+            resultsBox.innerHTML = data.map(item => `
+    <div class="rgu-sf-result-item">
+      <div>
+        <div class="rgu-sf-result-name">
+          ${highlight(item.name, q)}
+        </div>
+        <div class="rgu-sf-result-dept">
+          ${item.parent}
+        </div>
+      </div>
+      <a href="${item.link}" class="rgu-sf-view-btn">View</a>
+    </div>
+  `).join("");
+
+            resultsBox.style.display = "block";
+        }
+
+
+        /* ===============================
+           HIGHLIGHT MATCH
+        ================================ */
+        function highlight(text, q) {
+            return text.replace(
+                new RegExp(`(${q})`, "gi"),
+                `<span style="color:#f7941d;font-weight:700;">$1</span>`
+            );
+        }
+
+
+        /* ===============================
+           CLICK OUTSIDE
+        ================================ */
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.rgu-sf-search-wrapper')) {
+                resultsBox.style.display = "none";
+            }
+        });
+
+
+        /* ===============================
+           INIT
+        ================================ */
+        renderCards(rguSFData);
+        renderDropdown(rguSFData);
+        fetchFaculty();
     </script>
 @endsection
