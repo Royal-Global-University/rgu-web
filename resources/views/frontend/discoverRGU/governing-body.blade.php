@@ -233,6 +233,52 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
+                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
+                                    Dhruba Jyoti Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Chief Advisor to the Chancellor and Author in Residence
+                                </p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
+                                    Amarjyoti Choudhury
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity
+                                </p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
                                     src="https://media.rgu.ac/governing-body/Harsha.jpeg" class="img-fluid rounded" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -474,7 +520,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/governing-body/angshuman-bora.png" class="img-fluid rounded" />
@@ -495,7 +541,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;" src="mobile-assets/governing-body/sp-singh.png"
                                     class="img-fluid rounded" />
@@ -515,6 +561,57 @@
                     </div>
 
                 </div>
+
+                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
+                                    Dhruba Jyoti Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Chief Advisor to the Chancellor and Author in Residence
+                                </p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
+                                    Amarjyoti Choudhury
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity
+                                </p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 70px;">
 
