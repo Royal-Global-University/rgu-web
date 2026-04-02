@@ -398,6 +398,9 @@
                                         style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Doctoral
                                         Programme</a></li>
 
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('phd-cell') }}"
+                                        style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Ph.D. Cell</a></li>
+
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
                                         style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
                                         Interdisciplinary Courses</a>

@@ -778,6 +778,10 @@ Route::get('/phd-awarded-2025', function () {
     return view('frontend/phd-award/2025/phd-awarded-2025');
 })->name('phd-awarded-2025');
 
+Route::get('/phd-awarded-2026', function () {
+    return view('frontend/phd-award/2026/phd-awarded-2026');
+})->name('phd-awarded-2026');
+
 Route::get('/doctoral-mechanical-engineering', function () {
     return view('frontend/phd/doctoral-mechanical-engineering');
 })->name('doctoral-mechanical-engineering');

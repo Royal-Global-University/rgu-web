@@ -14,8 +14,8 @@
 
     <style>
         /* ===============================
-                   RESET
-                ================================ */
+                       RESET
+                    ================================ */
         *,
         *::before,
         *::after {
@@ -30,8 +30,8 @@
         }
 
         /* ===============================
-                   WRAPPER
-                ================================ */
+                       WRAPPER
+                    ================================ */
         .rgu-sf-wrapper {
             max-width: 1250px;
             margin: auto;
@@ -39,8 +39,8 @@
         }
 
         /* ===============================
-                   HEADING
-                ================================ */
+                       HEADING
+                    ================================ */
         .rgu-sf-heading {
             text-align: center;
             font-size: 42px;
@@ -54,8 +54,8 @@
         }
 
         /* ===============================
-                   TOP LAYOUT
-                ================================ */
+                       TOP LAYOUT
+                    ================================ */
         .rgu-sf-top {
             display: flex;
             justify-content: space-between;
@@ -65,8 +65,8 @@
         }
 
         /* ===============================
-                   BUTTON GROUP
-                ================================ */
+                       BUTTON GROUP
+                    ================================ */
         .rgu-sf-btn-group {
             display: flex;
             justify-content: center;
@@ -90,8 +90,8 @@
         }
 
         /* ===============================
-                   RIGHT CONTROLS
-                ================================ */
+                       RIGHT CONTROLS
+                    ================================ */
         .rgu-sf-right {
             display: flex;
             align-items: center;
@@ -115,8 +115,8 @@
         }
 
         /* ===============================
-                   INPUTS
-                ================================ */
+                       INPUTS
+                    ================================ */
         .rgu-sf-select,
         .rgu-sf-search {
             height: 42px;
@@ -174,8 +174,8 @@
         }
 
         /* ===============================
-                   🔥 SEARCH RESULTS (IMPROVED ONLY HERE)
-                ================================ */
+                       🔥 SEARCH RESULTS (IMPROVED ONLY HERE)
+                    ================================ */
         .rgu-sf-results {
             position: absolute;
             top: 48px;
@@ -261,8 +261,8 @@
         }
 
         /* ===============================
-                   CARDS (RESTORED EXACT)
-                ================================ */
+                       CARDS (RESTORED EXACT)
+                    ================================ */
         .rgu-sf-cards {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -352,8 +352,8 @@
         }
 
         /* ===============================
-                   RESPONSIVE
-                ================================ */
+                       RESPONSIVE
+                    ================================ */
         @media (max-width: 992px) {
             .rgu-sf-cards {
                 grid-template-columns: repeat(2, 1fr);
@@ -366,8 +366,8 @@
         }
 
         /* ===============================
-                   MOBILE / SMALL SCREEN FIX
-                ================================ */
+                       MOBILE / SMALL SCREEN FIX
+                    ================================ */
         @media (max-width: 768px) {
 
             /* BUTTON GRID → 2 per row */
@@ -418,8 +418,8 @@
 
     <style>
         /* ===============================
-                   FIX CARD ALIGNMENT (REAL FIX)
-                ================================ */
+                       FIX CARD ALIGNMENT (REAL FIX)
+                    ================================ */
 
         /* Ensure equal card sizing */
         .rgu-sf-cards {
@@ -536,8 +536,8 @@
 
     <script>
         /* ===============================
-           DATA (EDIT HERE ONLY)
-        ================================ */
+       DATA (EDIT HERE ONLY)
+    ================================ */
         const rguSFData = [
 
             {
@@ -1078,35 +1078,34 @@
             /* 🔥 SPECIAL CASE */
             {
                 title: "Indian Knowledge Systems (IKS)",
-                image: "/mobile-assets/school-rgu/IKS%20LOGO-new.jpeg",
+                image: "https://rgu.ac/mobile-assets/school-rgu/IKS%20LOGO-new.jpeg",
 
-                deptMainLink: "/indian-knowledge-system-cell-about",
+                deptMainLink: "https://rgu.ac/indian-knowledge-system-cell-about",
 
                 buttons: [{
                         text: "About IKS",
-                        link: "/indian-knowledge-system-cell-about",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-about",
                         type: "dept"
                     },
                     {
                         text: "Composition",
-                        link: "/indian-knowledge-system-cell-composition",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-composition",
                         type: "faculty"
                     },
                     {
                         text: "Events",
-                        link: "/indian-knowledge-system-cell-events",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-events",
                         type: "dept"
                     },
                     {
                         text: "Syllabus",
-                        link: "/indian-knowledge-system-cell-syllabus",
+                        link: "https://rgu.ac/indian-knowledge-system-cell-syllabus",
                         type: "faculty"
                     }
                 ]
             }
 
         ];
-
 
         /* ===============================
            ELEMENTS
@@ -1116,11 +1115,24 @@
         const deptBtn = document.getElementById("rguDeptBtn");
 
         const input = document.querySelector('.rgu-sf-search');
+
         const resultsBox = document.createElement('div');
         resultsBox.className = "rgu-sf-results";
         document.querySelector('.rgu-sf-search-wrapper').appendChild(resultsBox);
 
-        let facultyData = [];
+
+        /* ===============================
+           CACHE (VERY IMPORTANT)
+        ================================ */
+        const searchCache = {};
+
+
+        /* ===============================
+           NORMALIZE (SMART SEARCH)
+        ================================ */
+        function normalize(str) {
+            return str.toLowerCase().replace(/\./g, "").replace(/\s+/g, "");
+        }
 
 
         /* ===============================
@@ -1138,11 +1150,11 @@
                     buttonsHTML = `
         <div class="rgu-sf-card-btns rgu-sf-multi">
           ${item.buttons.map(btn => `
-                    <a href="${btn.link}" 
-                       class="rgu-sf-card-btn ${btn.type === 'dept' ? 'rgu-sf-dept' : 'rgu-sf-faculty'}">
-                       ${btn.text}
-                    </a>
-                  `).join("")}
+                <a href="${btn.link}" 
+                   class="rgu-sf-card-btn ${btn.type === 'dept' ? 'rgu-sf-dept' : 'rgu-sf-faculty'}">
+                   ${btn.text}
+                </a>
+              `).join("")}
         </div>
       `;
                 }
@@ -1151,27 +1163,24 @@
                 else {
                     let buttons = [];
 
-                    /* ✅ Department button */
                     if (item.deptMainLink && item.deptMainLink.trim() !== "") {
                         buttons.push(`
-      <a href="${item.deptMainLink}" 
-         class="rgu-sf-card-btn rgu-sf-dept">
-         Department
-      </a>
-    `);
+          <a href="${item.deptMainLink}" 
+             class="rgu-sf-card-btn rgu-sf-dept">
+             Department
+          </a>
+        `);
                     }
 
-                    /* ✅ Faculty button */
                     if (item.facultyLink && item.facultyLink.trim() !== "") {
                         buttons.push(`
-      <a href="${item.facultyLink}" 
-         class="rgu-sf-card-btn rgu-sf-faculty">
-         Faculty
-      </a>
-    `);
+          <a href="${item.facultyLink}" 
+             class="rgu-sf-card-btn rgu-sf-faculty">
+             Faculty
+          </a>
+        `);
                     }
 
-                    /* ✅ Only show wrapper if buttons exist */
                     buttonsHTML = buttons.length ?
                         `<div class="rgu-sf-card-btns">${buttons.join("")}</div>` :
                         "";
@@ -1195,7 +1204,7 @@
 
 
         /* ===============================
-           DROPDOWN (GROUPED)
+           DROPDOWN
         ================================ */
         function renderDropdown(data) {
 
@@ -1235,57 +1244,73 @@
 
 
         /* ===============================
-           FETCH FACULTY DATA
+           LIVE SEARCH (CORE)
         ================================ */
-        async function loadPage(url) {
-            try {
-                const proxy = 'https://corsproxy.io/?' + encodeURIComponent(url);
-                const res = await fetch(proxy);
-                const html = await res.text();
-                return new DOMParser().parseFromString(html, "text/html");
-            } catch {
-                return null;
+        async function liveSearch(query) {
+
+            const key = normalize(query);
+
+            /* CACHE HIT */
+            if (searchCache[key]) {
+                renderResults(searchCache[key], query);
+                return;
             }
-        }
 
-        async function fetchFaculty() {
+            resultsBox.innerHTML = `<div style="padding:15px;">Searching...</div>`;
+            resultsBox.style.display = "block";
 
-            input.disabled = true;
-            input.placeholder = "Loading faculty...";
+            let results = [];
 
             for (const item of rguSFData) {
 
                 if (!item.facultyLink) continue;
 
-                const doc = await loadPage(item.facultyLink);
-                if (!doc) continue;
+                try {
+                    const proxy = "https://api.allorigins.win/raw?url=" + encodeURIComponent(item.facultyLink);
 
-                const elements = doc.querySelectorAll('.card-name');
+                    const res = await fetch(proxy);
+                    const html = await res.text();
 
-                elements.forEach(el => {
-                    const name = el.innerText.trim();
+                    const doc = new DOMParser().parseFromString(html, "text/html");
+                    const elements = doc.querySelectorAll('.card-name');
 
-                    if (name.length > 4 && name.split(" ").length <= 4) {
-                        facultyData.push({
-                            name,
-                            parent: item.title,
-                            link: item.facultyLink
-                        });
-                    }
-                });
+                    elements.forEach(el => {
+                        const name = el.innerText.trim();
+
+                        if (normalize(name).includes(key)) {
+                            results.push({
+                                name,
+                                parent: item.title,
+                                link: item.facultyLink
+                            });
+                        }
+                    });
+
+                    /* LIMIT RESULTS (FAST) */
+                    if (results.length > 20) break;
+
+                } catch (err) {
+                    console.log("Fetch failed:", item.facultyLink);
+                }
             }
 
-            input.disabled = false;
-            input.placeholder = "Search faculty...";
+            /* SAVE CACHE */
+            searchCache[key] = results;
+
+            renderResults(results, query);
         }
 
 
         /* ===============================
-           SEARCH INPUT
+           INPUT HANDLER (DEBOUNCE)
         ================================ */
+        let debounceTimer;
+
         input.addEventListener("input", () => {
 
-            const q = input.value.toLowerCase().trim();
+            const q = input.value.trim();
+
+            clearTimeout(debounceTimer);
 
             if (q.length < 2) {
                 resultsBox.innerHTML = "";
@@ -1293,11 +1318,9 @@
                 return;
             }
 
-            const filtered = facultyData.filter(d =>
-                d.name.toLowerCase().includes(q)
-            );
-
-            renderResults(filtered, q);
+            debounceTimer = setTimeout(() => {
+                liveSearch(q);
+            }, 300);
         });
 
 
@@ -1331,7 +1354,7 @@
 
 
         /* ===============================
-           HIGHLIGHT MATCH
+           HIGHLIGHT
         ================================ */
         function highlight(text, q) {
             return text.replace(
@@ -1356,6 +1379,5 @@
         ================================ */
         renderCards(rguSFData);
         renderDropdown(rguSFData);
-        fetchFaculty();
     </script>
 @endsection

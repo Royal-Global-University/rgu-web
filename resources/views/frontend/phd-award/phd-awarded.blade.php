@@ -18,9 +18,9 @@
         <div class="row text-center">
 
             <!-- August -->
-            <div class="col-lg-4 p-2">
+            <div class="col-lg-3 p-2">
                 <a href="/phd-awarded-2023"
-                    style="padding:60px 120px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:60px 90px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
@@ -30,9 +30,9 @@
             </div>
 
             <!-- October -->
-            <div class="col-lg-4 p-2">
+            <div class="col-lg-3 p-2">
                 <a href="/phd-awarded-2024"
-                    style="padding:60px 120px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:60px 90px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
@@ -42,13 +42,24 @@
             </div>
 
             <!-- November -->
-            <div class="col-lg-4 p-2">
+            <div class="col-lg-3 p-2">
                 <a href="/phd-awarded-2025"
-                    style="padding:60px 120px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    style="padding:60px 90px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
                     onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
                     onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
                     <div>
                         <p>2025</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3 p-2">
+                <a href="/phd-awarded-2026"
+                    style="padding:60px 90px;font-size:40px;font-weight:700;background-color:#f3e4d3;color:#264678;text-decoration:none;display:inline-block;border-radius:10px;transition:0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'"
+                    onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
+                    <div>
+                        <p>2026</p>
                     </div>
                 </a>
             </div>
