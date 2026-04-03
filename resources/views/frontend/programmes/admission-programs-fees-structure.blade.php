@@ -6008,7 +6008,7 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
+                                            <td>101500.00</td>
                                             <td>2,00,000.00</td>
                                             <td><a href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>

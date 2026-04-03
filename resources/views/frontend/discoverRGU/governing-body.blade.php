@@ -68,6 +68,46 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/governing-body/anil-kumar-modi.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Anil Kumar
+                                    Modi</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, <br>
+                                    The Assam Royal Global University</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/governing-body/ankur-pansari.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
+                                    Pansari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
+                                    Gyan Sagar Foundation</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/governing-body/ranjit-borthakur.png" class="img-fluid rounded" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -89,54 +129,17 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/anil-kumar-modi.png" class="img-fluid rounded" />
+                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png" class="img-fluid rounded" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Anil Kumar
-                                    Modi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, <br>
-                                    The Assam Royal Global University</p>
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Dhruba Jyoti Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Chief Advisor to the Chancellor and Author in Residence</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Two Eminent Educationists nominated by Gyan Sagar Foundation</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/Subramanian-Ramadorai.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Subramanian
-                                    Ramadorai</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former CEO & MD of Tata
-                                    Consultancy Services and Former Chairperson of NSDC and NSDA</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {{-- <div class="col-lg-3 mb-4">
-
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/5.png" class="img-fluid rounded"/>
-                </div>
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal Global University</p>
-
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                </div>
-            </div>
-        </div> --}}
 
                     <div class="col-lg-3 mb-4">
 
@@ -161,6 +164,25 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) Amarjyoti Choudhury
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
+                                    Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity
+                                </p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Two Eminent Educationists nominated by Gyan Sagar Foundation</p>
+                            </div>
+                        </div>
+                    </div>
 
 
                     <div class="col-lg-3 mb-4">
@@ -169,19 +191,20 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/ankur-pansari.png" class="img-fluid rounded" />
+                                    src="mobile-assets/governing-body/Subramanian-Ramadorai.png"
+                                    class="img-fluid rounded" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
-                                    Pansari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
-                                    Gyan Sagar Foundation</p>
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Subramanian
+                                    Ramadorai</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former CEO & MD of Tata
+                                    Consultancy Services and Former Chairperson of NSDC and NSDA</p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-lg-3 mb-4">
 
@@ -196,75 +219,6 @@
                                     Angshuman Bora</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3; ">Sr. Advocate, <br> Gauhati
                                     High Court Guwahati
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/governing-body/sp-singh.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S.
-                                    P. Singh
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Director General (Vice Chancellor) <br> Kaushalya The Skill University, Ahmedabad
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Dhruba Jyoti Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Chief Advisor to the Chancellor and Author in Residence
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
-                                    Amarjyoti Choudhury
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity
                                 </p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
@@ -386,29 +340,6 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/ranjit-borthakur.png" class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
-                                    Barthakur
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Founding Trustee, Balipara
-                                    Foundation, and Chairperson, Royal Rajasthan Foundation</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Advisor,
-                                    Governing Body</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
@@ -426,45 +357,77 @@
                         </div>
                     </div>
 
+
+                </div>
+
+                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/Subramanian-Ramadorai.png"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/governing-body/ankur-pansari.png" class="img-fluid rounded" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri
-                                    Subramanian Ramadorai</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former CEO & MD of Tata
-                                    Consultancy Services and Former Chairperson of NSDC and NSDA</p>
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
+                                    Pansari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, <br>
+                                    Gyan Sagar Foundation</p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
                                 </p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/governing-body/ranjit-borthakur.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
+                                    Barthakur
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Chairman, Royal Multisport Pvt. Ltd, Guwahati, Assam</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Advisor,
+                                    Governing Body</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
 
                 <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
 
-                    {{-- <div class="col-lg-3 mb-4">
+                    <div class="col-lg-3 mb-4">
 
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/5.png" class="img-fluid rounded"/>
-                </div>
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal Global University</p>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
+                                    Prof. (Dr.) Dhruba Jyoti Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
+                                    Chief Advisor to the Chancellor and Author in Residence
+                                </p>
 
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                </div>
-            </div>
-        </div> --}}
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Two Eminent Educationists nominated by Gyan Sagar Foundation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -490,28 +453,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/governing-body/ankur-pansari.png" class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
-                                    Pansari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
-                                    Gyan Sagar Foundation</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
 
                 </div>
 
@@ -520,7 +461,58 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) Amarjyoti Choudhury</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Two Eminent Educationists nominated by Gyan Sagar Foundation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/governing-body/Subramanian-Ramadorai.png"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri
+                                    Subramanian Ramadorai</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former CEO & MD of Tata
+                                    Consultancy Services and Former Chairperson of NSDC and NSDA</p>
+
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
+
+
+
+
+                </div>
+
+                <div class="row pt-3">
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/governing-body/angshuman-bora.png" class="img-fluid rounded" />
@@ -537,83 +529,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/governing-body/sp-singh.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S.
-                                    P. Singh
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Director General (Vice Chancellor) <br> Kaushalya The Skill University, Ahmedabad
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Dhruba Jyoti Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Chief Advisor to the Chancellor and Author in Residence
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
-                                    Amarjyoti Choudhury
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 70px;">
 
                     <div class="col-lg-3 mb-4">
 

@@ -6,6 +6,14 @@
             <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                 Botany Lab</h1>
             <img class="p-3 rounded" src="mobile-assets/lab-botany/headimg1.JPG" alt="">
+            <p class="text-dark para1 p-4" style="text-align: justify;">
+                                            The botany lab is equipped with all the necessary infrastructure required by
+                                            students to carry out experiments to study the structure, properties and
+                                            biochemical processes of all forms of plant life. The Department of Botany
+                                            provides its students with a broad knowledge of botany and equips them with the
+                                            tools and drive to conduct original independent research in the discipline of
+                                            plant sciences. The lab is in block- D in room no- D201 on the second floor.
+                                        </p>
         </div>
     </div>
 

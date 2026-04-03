@@ -78,13 +78,12 @@
                                 <li>Caution Money (Common for all streams) - Refundable 10000.00</li>
                             </ol>
 
-                            <p class="mobile-headd3 fw-bold text-dark">B.) Programmes fee to be paid Yearly / semester
-                                payment for New Students 2025-26
+                            <p class="mobile-headd3 fw-bold text-dark">B.) Programmes fee to be paid Yearly / semester payment for New Students 2026-27
                             </p>
 
                             <ol class="mobile-para1 text-dark">
-                                <li>Yearly Payment (Rs. - 2,00,000.00)</li>
-                                http://127.0.0.1:8000/program-btech-in-computer-science-and-business-system
+                                <li>semester payment: 101500.00</li>
+                                <li>Yearly Payment: 2,00,000.00</li>
                             </ol>
 
                         </div>

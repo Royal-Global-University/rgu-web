@@ -3,7 +3,17 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-chemistry/mobileChemistryLab.png" alt="">
+            <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
+                Chemistry Lab
+            </h1>
+            <img class="p-3 rounded" src="mobile-assets/lab-chemistry/headimg.jpg" alt="">
+            <p class="text-dark para1 p-4" style="text-align: justify;">
+                The university boasts of a well-stocked chemistry lab with various reagents,
+                chemicals and other apparatuses required by students to perform experiments and
+                bring concepts to life. The chemistry lab has all the latest equipment and has
+                proper ventilation. Students can locate the chemistry lab in the block- B in
+                room No. B-Gr-012 on the ground floor.
+            </p>
         </div>
     </div>
 
@@ -25,7 +35,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-chemistry/headimg.jpg" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-chemistry/headimg.jpg"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -41,32 +52,18 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                                             Chemistry Lab
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The university boasts of a well-stocked chemistry lab with various regents,
+                                            The university boasts of a well-stocked chemistry lab with various reagents,
                                             chemicals and other apparatuses required by students to perform experiments and
                                             bring concepts to life. The chemistry lab has all the latest equipment and has
                                             proper ventilation. Students can locate the chemistry lab in the block- B in
-                                            room No. B004 on the ground floor.
+                                            room No. B-Gr-012 on the ground floor.
                                         </p>
 
-                                        <p class="text-dark headd3 fw-bold" style="text-align: justify;">
-                                            Work carried out in the laboratory includes:
-                                        </p>
-
-                                        <ol class="text-dark para1">
-                                            <li>Modern organic and inorganic synthetic techniques.</li>
-                                            <li>Chromatographic methods used in the separation and purification of reaction
-                                                products.</li>
-                                            <li>Spectroscopic techniques - infrared, nuclear magnetic resonance, atomic
-                                                absorption spectroscopy, and mass spectrometry used in chemical analysis and
-                                                in the study of molecular structure.</li>
-                                            <li>Kinetic and thermodynamic studies.</li>
-                                            <li>Some study of reaction mechanics and intermediates.</li>
-                                        </ol>
 
 
                                     </div>
@@ -80,14 +77,26 @@
             </section>
             <hr>
 
-
-            <div class="container-fluid mt-4 mb-5" style="padding: 0px 50px;">
-
-                <img src="mobile-assets/lab-chemistry/ChemistryLab.png" alt="">
-            </div>
-
         </div>
 
     </div>
 
+    <p class="text-dark headd3 fw-bold pt-4" style="text-align: justify; padding-left: 50px;">
+        Work carried out in the laboratory includes:
+    </p>
+
+    <ol class="text-dark para1" style="padding-left: 60px;">
+        <li>Modern organic and inorganic synthetic techniques.</li>
+        <li>Chromatographic methods used in the separation and purification of reaction
+            products.</li>
+        <li>UV-visible Spectrophotometer, Centrifuge, Ultrasonicator, Rotary Evaporator, Photochemical setup used in various modern chemical synthesis.</li>
+        <li>Kinetic and thermodynamic studies.</li>
+        <li>Some study of reaction mechanics and intermediates.</li>
+    </ol>
+
+
+    <div class="container-fluid mt-4 mb-5" style="padding: 0px 50px;">
+
+        <img src="mobile-assets/lab-chemistry/ChemistryLab.png" alt="">
+    </div>
 @endsection
