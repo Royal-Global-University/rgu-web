@@ -5,7 +5,7 @@
         <div style="padding-top: 90px; position: relative;">
             <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                 Botany Lab</h1>
-            <img class="p-3 rounded" src="mobile-assets/lab-botany/headimg1.JPG" alt="">
+            <img class="p-3 rounded" src="/mobile-assets/new-labs/botany/botany-img.jpeg" alt="">
             <p class="text-dark para1 p-4" style="text-align: justify;">
                                             The botany lab is equipped with all the necessary infrastructure required by
                                             students to carry out experiments to study the structure, properties and
@@ -39,7 +39,7 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-botany/headimg1.JPG"
+                                            <img decoding="async" src="/mobile-assets/new-labs/botany/botany-img.jpeg"
                                                 alt="">
                                         </div>
 
