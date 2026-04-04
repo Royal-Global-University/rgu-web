@@ -43,15 +43,10 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                            Architecture Design Lab</h1>
+                                            Architecture Design Studios</h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The design lab of the Royal School of Architecture throws a focus on advanced
-                                            digital technologies, material systems and design research which strives to
-                                            shape the future of the next generation of designers. In an era of smart cities,
-                                            sustainable buildings and contemporary interiors, we train our students to
-                                            become lateral thinkers by focusing on a critical design approach. The lab is
-                                            situated in block- C on the first floor.
+                                            The design studios of the Royal School of Architecture throw a focus on advanced digital technologies, material systems and design research which strives to shape the future of the next generation of designers. In an era of smart cities, sustainable buildings, and contemporary architecture, we train our students to become lateral thinkers by focusing on a critical design approach. The studios are situated in block- C on the second and third floor.
                                         </p>
                                         <div class="headd3 text-dark fw-bold pb-3">Available Software Programs:
                                         </div>

@@ -27,7 +27,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-interior/headimg.png" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-interior/headimg.png"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -44,18 +45,16 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                            Interior Designing Lab
+                                            Interior Design Studios
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            Our interior design lab is a collaborative space that provides student designers
-                                            access to resources (fabric – wallpapers – rugs) to support them in implementing
-                                            their projects.
-                                        </p>
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            With help of the lab resources, student designers conceptualize, design and
-                                            renovate spaces, translating ideas into reality in line with current needs and
-                                            preferences. The lab is in block- C on the first floor.
+                                            Our interior design studios is a collaborative space that provides student
+                                            designers access to design concepts, ideas, and resources to support them in
+                                            implementing their projects. With help of these resources, student designers
+                                            conceptualize, design, and renovate spaces, translating ideas into reality in
+                                            line with current needs and preferences. The studios are situated in Block-C on
+                                            second and third floor.
                                         </p>
                                         <p class="text-dark para1 fw-bold">Included in the lab are:</p>
                                         <ol class="text-dark para1">
