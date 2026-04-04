@@ -6,7 +6,7 @@
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
     <section class="hero">
-        <div class="hero-poster"></div>
+        <div class="hero-poster">1</div>
 
         <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo"
             poster="new-web/assets/img/index/hero/hero-thumbnail.png">
