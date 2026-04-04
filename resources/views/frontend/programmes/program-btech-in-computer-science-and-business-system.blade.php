@@ -130,8 +130,7 @@
                             <p class="mobile-headd3 fw-bold text-dark">Selection Process
                             </p>
 
-                            <p class="mobile-para1 text-dark">Based on overall performance in last examination followed by
-                                Personal Interview.
+                            <p class="mobile-para1 text-dark">Candidates must obtain a valid score in JEE/CEE or R-JEE (Royal Joint Entrance Examinations) followed by Personal Interview.
                             </p>
 
                         </div>
@@ -357,8 +356,7 @@
                             Layer) in the above subjects together.
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE/CEE or R-JEE (Royal
-                            Joint Entrance Examinations) followed by Personal Interview.</p>
+                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE/CEE or R-JEE (Royal Joint Entrance Examinations) followed by Personal Interview.</p>
                     </div>
                 </div>
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">
