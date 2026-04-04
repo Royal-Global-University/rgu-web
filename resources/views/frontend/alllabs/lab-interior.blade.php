@@ -75,8 +75,8 @@
         <div class="custom-container">
             <div class="custom-row">
                 <div class="custom-column p-4">
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Activities Includes:
+                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Our
+                        Activities
                     </h2>
                     <hr>
                     <ol>
