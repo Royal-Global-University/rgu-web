@@ -737,8 +737,8 @@
                             <div class="accordion-body">
                                 <!--Table Start-->
                                 <div class="table-responsive">
-                                    <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                        <thead class="text-white para1" style="background-color: #27467A;">
+                                    <table id="myTable" class="table table-bordered table-striped align-middle">
+                                        <thead>
                                             <tr>
                                                 <th>SL NO.</th>
                                                 <th>SESSION</th>
@@ -749,10 +749,12 @@
                                                 <th>GUIDE</th>
                                                 <th>CO-GUIDE</th>
                                                 <th>DATE</th>
-                                                <th>TOPIC OF RESEARCH</th>
+                                                <th class="topic">TOPIC OF RESEARCH</th>
                                             </tr>
                                         </thead>
-                                        <tbody class="para1" style="text-align: left !important;">
+
+                                        <tbody>
+
                                             <tr>
                                                 <td>1</td>
                                                 <td>2017-18</td>
@@ -777,36 +779,36 @@
                                                 <td>DR. TANIMA TARAFDAR</td>
                                                 <td>DR. HARI PRASAD GOENKA</td>
                                                 <td>31-07-2023</td>
-                                                <td>POSITIONING OF BRICK AND MORTAR RETAILERS WITH REFERENCE TO
-                                                    APPARELS: A STUDY OF SELECT RETAILERS IN KAMRUP (METRO).</td>
+                                                <td>POSITIONING OF BRICK AND MORTAR RETAILERS WITH REFERENCE TO APPARELS: A
+                                                    STUDY OF SELECT RETAILERS IN KAMRUP (METRO).</td>
                                             </tr>
 
                                             <tr>
                                                 <td>3</td>
                                                 <td>2017-18</td>
                                                 <td>RSCOM</td>
-                                                <td>J&amp;MC</td>
+                                                <td>JOURNALISM & MASS COMMUNICATION</td>
                                                 <td>ANKITA AGARWAL</td>
                                                 <td>1170704</td>
                                                 <td>DR. N. ROHIN KANTA SINGH</td>
                                                 <td>DR. RUPARANI SONOWAL</td>
                                                 <td>31-08-2023</td>
-                                                <td>USAGE PATTERN OF WHATSAPP AMONG THE STUDENTS OF SELECTED
-                                                    UNIVERSITIES OF ASSAM.</td>
+                                                <td>USAGE PATTERN OF WHATSAPP AMONG THE STUDENTS OF SELECTED UNIVERSITIES OF
+                                                    ASSAM.</td>
                                             </tr>
 
                                             <tr>
                                                 <td>4</td>
                                                 <td>2018-19</td>
                                                 <td>RSCOM</td>
-                                                <td>J&amp;MC</td>
+                                                <td>JOURNALISM & MASS COMMUNICATION</td>
                                                 <td>FARHA YASHMIN ROHMAN</td>
                                                 <td>1181179</td>
                                                 <td>DR. N. ROHIN KANTA SINGH</td>
                                                 <td>DR. RUPARANI SONOWAL</td>
                                                 <td>31-08-2023</td>
-                                                <td>PORTRAYAL OF IDENTITY ON FACEBOOK WITH REFERENCE TO STUDENT LEADERS
-                                                    IN ASSAM.</td>
+                                                <td>PORTRAYAL OF IDENTITY ON FACEBOOK WITH REFERENCE TO STUDENT LEADERS IN
+                                                    ASSAM.</td>
                                             </tr>
 
                                             <tr>
@@ -819,15 +821,15 @@
                                                 <td>DR. SUDIP CHAKRABORTY</td>
                                                 <td>PROF. N. B. DEY</td>
                                                 <td>31-08-2023</td>
-                                                <td>CORPORATE GOVERNANCE PRACTICES UNDER THE COMPANIES ACT, 2013: A
-                                                    STUDY ON SELECT BSE LISTED COMPANIES.</td>
+                                                <td>CORPORATE GOVERNANCE PRACTICES UNDER THE COMPANIES ACT, 2013: A STUDY ON
+                                                    SELECT BSE LISTED COMPANIES.</td>
                                             </tr>
 
                                             <tr>
                                                 <td>6</td>
                                                 <td>2018-19</td>
                                                 <td>RSET</td>
-                                                <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                <td>COMPUTER SCIENCE & ENGINEERING</td>
                                                 <td>MAYURI SHARMA</td>
                                                 <td>1170703</td>
                                                 <td>PROF. (DR.) ANKUR GANGULY</td>
@@ -836,6 +838,7 @@
                                                 <td>DESIGN AND DEVELOPMENT OF MACHINE LEARNING BASED FRAMEWORK FOR
                                                     DIAGNOSING DISEASE AND DEFICIENCY IN RICE PLANTS.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>7</td>
                                                 <td>2018-19</td>
@@ -847,9 +850,9 @@
                                                 <td>PROF. (DR.) GAUTAM MAZUMDER</td>
                                                 <td>16-10-2023</td>
                                                 <td>MICROFINANCE AS THE DRIVER OF INCOME AND EMPLOYMENT: AN ANALYSIS OF
-                                                    SOCIO ECONOMIC CONDITION IN UNDIVIDED BARPETA DISTRICT OF ASSAM.
-                                                </td>
+                                                    SOCIO ECONOMIC CONDITION IN UNDIVIDED BARPETA DISTRICT OF ASSAM.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>8</td>
                                                 <td>2018-19</td>
@@ -863,6 +866,7 @@
                                                 <td>AN ASSESSMENT OF URBAN POVERTY AND ITS DETERMINANTS: WITH SPECIAL
                                                     REFERENCE TO THE KAMRUP METRO.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>9</td>
                                                 <td>2017-18</td>
@@ -873,9 +877,10 @@
                                                 <td>PROF. (DR.) H. C. NATH</td>
                                                 <td>DR. ANUP HAZARIKA</td>
                                                 <td>30-11-2023</td>
-                                                <td>A STUDY ON INTERNATIONAL AND NATIONAL LEGAL FRAME WORK ON SURROGACY
-                                                    AND ITS CONFORMITY WITH RULE OF LAW.</td>
+                                                <td>A STUDY ON INTERNATIONAL AND NATIONAL LEGAL FRAME WORK ON SURROGACY AND
+                                                    ITS CONFORMITY WITH RULE OF LAW.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>10</td>
                                                 <td>2019-20</td>
@@ -903,6 +908,7 @@
                                                 <td>BIOSURFACTANT MEDIATED GREEN SYNTHESIS OF METAL NANO PARTICLES FOR
                                                     ENHANCING SEED GERMINATION AND ANTIMICROBIAL APPLICATIONS.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>12</td>
                                                 <td>2018-19</td>
@@ -913,9 +919,10 @@
                                                 <td>PROF. (DR.) H. C. NATH</td>
                                                 <td>PROF. (DR.) NALINI KANTA DUTTA</td>
                                                 <td>28-02-2024</td>
-                                                <td>PARDONING POWER AND JUDICIAL REVIEW: A COMPARATIVE STUDY (WITH
-                                                    SPECIAL REFERENCE TO THE CONSTITUTION OF INDIA).</td>
+                                                <td>PARDONING POWER AND JUDICIAL REVIEW: A COMPARATIVE STUDY (WITH SPECIAL
+                                                    REFERENCE TO THE CONSTITUTION OF INDIA).</td>
                                             </tr>
+
                                             <tr>
                                                 <td>13</td>
                                                 <td>2019-20</td>
@@ -926,9 +933,10 @@
                                                 <td>PROF. (DR.) SOUMITRA SEN</td>
                                                 <td>DR. DHARMA RAM DEKA</td>
                                                 <td>28-02-2024</td>
-                                                <td>A STUDY ON RURAL TOURISM IN RI-BHOI DISTRICT OF MEGHALAYA: PROSPECTS
-                                                    AND CHALLENGES.</td>
+                                                <td>A STUDY ON RURAL TOURISM IN RI-BHOI DISTRICT OF MEGHALAYA: PROSPECTS AND
+                                                    CHALLENGES.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>14</td>
                                                 <td>2019-20</td>
@@ -939,9 +947,10 @@
                                                 <td>PROF. (DR.) ARNAB SARMA</td>
                                                 <td>DR. A. R. KAMBEKAR</td>
                                                 <td>28-03-2024</td>
-                                                <td>SEA LEVEL RISE DUE TO CLIMATE CHANGE AND ITS IMPACT ALONG THE COAST
-                                                    OF MUMBAI.</td>
+                                                <td>SEA LEVEL RISE DUE TO CLIMATE CHANGE AND ITS IMPACT ALONG THE COAST OF
+                                                    MUMBAI.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>15</td>
                                                 <td>2019-20</td>
@@ -952,8 +961,8 @@
                                                 <td>DR. RANJAN DUTTA KALITA</td>
                                                 <td>DR. AJANITA MAZUMDAR</td>
                                                 <td>31-05-2024</td>
-                                                <td>WOUND HEALING AND ANTIMICROBIAL PROPERTIES OF <i>KAEMPFERIA
-                                                        GALANAGA</i> L. AND FORMULATION OF TOPICAL APPLICATIONS.</td>
+                                                <td>WOUND HEALING AND ANTIMICROBIAL PROPERTIES OF KAEMPFERIA GALANGA L. AND
+                                                    FORMULATION OF TOPICAL APPLICATIONS.</td>
                                             </tr>
 
                                             <tr>
@@ -966,9 +975,10 @@
                                                 <td>DR. KAMAL DEBNATH</td>
                                                 <td></td>
                                                 <td>31-05-2024</td>
-                                                <td>BEHAVIOURAL STUDY OF VISCO ELASTIC FLUID FLOW CHARACTERIZED BY
-                                                    WALTERS LIQUID (MODEL B-).</td>
+                                                <td>BEHAVIOURAL STUDY OF VISCO ELASTIC FLUID FLOW CHARACTERIZED BY WALTERS
+                                                    LIQUID (MODEL B-).</td>
                                             </tr>
+
                                             <tr>
                                                 <td>17</td>
                                                 <td>2018-19</td>
@@ -982,6 +992,7 @@
                                                 <td>IMPACT OF INDIAN ACCOUNTING STANDARDS (IND AS) ON THE FINANCIAL
                                                     STATEMENTS OF SELECT INDIAN COMPANIES.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>18</td>
                                                 <td>2019-20</td>
@@ -992,9 +1003,10 @@
                                                 <td>DR. MOUSUMI DEKA</td>
                                                 <td>DR. DEBASISH CHAKRABORTY</td>
                                                 <td>28-06-2024</td>
-                                                <td>INDIAN ABSTRACT ART OF POST INDEPENDENCE ERA: A PHILOSOPHICAL
-                                                    ANALYSIS.</td>
+                                                <td>INDIAN ABSTRACT ART OF POST INDEPENDENCE ERA: A PHILOSOPHICAL ANALYSIS.
+                                                </td>
                                             </tr>
+
                                             <tr>
                                                 <td>19</td>
                                                 <td>2018-19</td>
@@ -1005,9 +1017,10 @@
                                                 <td>DR. KAMAL DEBNATH</td>
                                                 <td></td>
                                                 <td>28-06-2024</td>
-                                                <td>SOME ASPECTS OF FLUID FLOW PROBLEMS WITH EMPHASIS ON
-                                                    VISCO-ELASTICITY.</td>
+                                                <td>SOME ASPECTS OF FLUID FLOW PROBLEMS WITH EMPHASIS ON VISCO-ELASTICITY.
+                                                </td>
                                             </tr>
+
                                             <tr>
                                                 <td>20</td>
                                                 <td>2019-20</td>
@@ -1032,9 +1045,10 @@
                                                 <td>PROF. (DR.) PRADIP JYOTI MAHANTA</td>
                                                 <td></td>
                                                 <td>31-07-2024</td>
-                                                <td>FOLKSONGS OF THE ANGAMI NAGAS: TRANSMISSION AND PRESERVATION OF
-                                                    CULTURE AND TRADITION</td>
+                                                <td>FOLKSONGS OF THE ANGAMI NAGAS: TRANSMISSION AND PRESERVATION OF CULTURE
+                                                    AND TRADITION.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>22</td>
                                                 <td>2018-19</td>
@@ -1045,9 +1059,10 @@
                                                 <td>PROF. (DR.) H. C. NATH</td>
                                                 <td>PROF. (DR.) NALINI KANTA DUTTA</td>
                                                 <td>31-07-2024</td>
-                                                <td>LEGAL ASPECTS OF EUTHANASIA AND RIGHT TO DIE WITH DIGNITY: A
-                                                    COMPARATIVE STUDY</td>
+                                                <td>LEGAL ASPECTS OF EUTHANASIA AND RIGHT TO DIE WITH DIGNITY: A COMPARATIVE
+                                                    STUDY.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>23</td>
                                                 <td>2019-20</td>
@@ -1058,10 +1073,11 @@
                                                 <td>PROF. (DR.) KRISHNA BARUA</td>
                                                 <td>PROF. (DR.) RAKHEE KALITA MORAL</td>
                                                 <td>30-08-2024</td>
-                                                <td>MILIEU, MEMORY, MYSTICISM: A COMPARATIVE STUDY OF NATURALISM AND
-                                                    DEEP ECOLOGY IN THE SELECTED NOVELS OF JOHN STEINBECK AND EASTERINE
-                                                    KIRE</td>
+                                                <td>MILIEU, MEMORY, MYSTICISM: A COMPARATIVE STUDY OF NATURALISM AND DEEP
+                                                    ECOLOGY IN THE SELECTED NOVELS OF JOHN STEINBECK AND EASTERINE KIRE.
+                                                </td>
                                             </tr>
+
                                             <tr>
                                                 <td>24</td>
                                                 <td>2019-20</td>
@@ -1072,9 +1088,10 @@
                                                 <td>PROF. (DR.) ANURADHA DEVI</td>
                                                 <td>DR. ADITYA GHOSH</td>
                                                 <td>30-10-2024</td>
-                                                <td>MATHEMATICAL MODELLING AND INTEGRATED MANAGEMENT OF
-                                                    ECO-EPIDEMIOLOGICAL SYSTEM UNDER THE APPLICATION OF PESTICIDES</td>
+                                                <td>MATHEMATICAL MODELLING AND INTEGRATED MANAGEMENT OF ECO-EPIDEMIOLOGICAL
+                                                    SYSTEM UNDER THE APPLICATION OF PESTICIDES.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>25</td>
                                                 <td>2020-21</td>
@@ -1085,9 +1102,9 @@
                                                 <td>DR. RASHMI SARMAH</td>
                                                 <td>DR. RAHUL CHANDA</td>
                                                 <td>30-10-2024</td>
-                                                <td>INFLUENCE OF TALK SHOWS WITH CELEBRITIES OF HINDI CINEMA ON
-                                                    UNIVERSITY STUDENTS IN ASSAM: A STUDY OF TWO HIGHLY POPULAR INDIAN
-                                                    TALK SHOWS AMONG SELECTED POPULATION</td>
+                                                <td>INFLUENCE OF TALK SHOWS WITH CELEBRITIES OF HINDI CINEMA ON UNIVERSITY
+                                                    STUDENTS IN ASSAM: A STUDY OF TWO HIGHLY POPULAR INDIAN TALK SHOWS AMONG
+                                                    SELECTED POPULATION</td>
                                             </tr>
 
                                             <tr>
@@ -1101,9 +1118,10 @@
                                                 <td>PROF. (DR.) ANOOP PANDEY</td>
                                                 <td>05-11-2024</td>
                                                 <td>IMPACT OF CUSTOMER RELATIONSHIP MANAGEMENT PRACTICES ON CUSTOMER
-                                                    SATISFACTION AND LOYALTY - A STUDY ON RETAIL CUSTOMERS OF SELECT
-                                                    BANKS</td>
+                                                    SATISFACTION AND LOYALTY - A STUDY ON RETAIL CUSTOMERS OF SELECT BANKS.
+                                                </td>
                                             </tr>
+
                                             <tr>
                                                 <td>27</td>
                                                 <td>2019-20</td>
@@ -1114,9 +1132,10 @@
                                                 <td>DR. DEVIKA PHUKAN</td>
                                                 <td>DR. ANURUP GOHAIN BARUA</td>
                                                 <td>20-11-2024</td>
-                                                <td>SIMULATIONS OF SOLITON TRANSMISSION IN OPTICAL FIBRE FOR LONG
-                                                    DISTANCE OPTICAL COMMUNICATION</td>
+                                                <td>SIMULATIONS OF SOLITON TRANSMISSION IN OPTICAL FIBRE FOR LONG DISTANCE
+                                                    OPTICAL COMMUNICATION.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>28</td>
                                                 <td>2020-21</td>
@@ -1127,9 +1146,10 @@
                                                 <td>DR. ESHA CHAKRABORTY</td>
                                                 <td>DR. RAHUL CHANDA</td>
                                                 <td>21-11-2024</td>
-                                                <td>THE EFFECTS OF FACEBOOK ON MARRIED COUPLES IN THE CONTEXT OF
-                                                    RELATIONAL DIALECTICS WITH SPECIAL REFERENCE TO GUWAHATI, ASSAM</td>
+                                                <td>THE EFFECTS OF FACEBOOK ON MARRIED COUPLES IN THE CONTEXT OF RELATIONAL
+                                                    DIALECTICS WITH SPECIAL REFERENCE TO GUWAHATI, ASSAM.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>29</td>
                                                 <td>2019-20</td>
@@ -1137,12 +1157,13 @@
                                                 <td>GEOGRAPHY</td>
                                                 <td>PARIMITA SAIKIA</td>
                                                 <td>1191460</td>
-                                                <td>PROF. (DR.) B.S.MIPUN</td>
+                                                <td>PROF. (DR.) B. S. MIPUN</td>
                                                 <td>DR. SHUKLA ACHARJEE</td>
                                                 <td>22-11-2024</td>
-                                                <td>GEOSPATIAL APPROACH FOR GROUNDWATER RESOURCE AND PROSPECT ZONE
-                                                    MAPPING OF KAMRUP METROPOLITAN DISTRICT, ASSAM</td>
+                                                <td>GEOSPATIAL APPROACH FOR GROUNDWATER RESOURCE AND PROSPECT ZONE MAPPING
+                                                    OF KAMRUP METROPOLITAN DISTRICT, ASSAM.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>30</td>
                                                 <td>2017-18</td>
@@ -1153,9 +1174,9 @@
                                                 <td>DR. RASHMI SARMAH</td>
                                                 <td>PROF. (DR.) NARENDRA NATH SHARMA</td>
                                                 <td>25-11-2024</td>
-                                                <td>THE HISTORICAL NARRATIVE OF INDIAN CINEMA: A STUDY OF THE PIONEERING
-                                                    CINEMATIC INNOVATIONS OF HARISHCHANDRA SAKHARAM BHATAVADEKAR,
-                                                    RAMCHANDRA GOPAL TORNEY AND JYOTIPRASAD AGARWALA</td>
+                                                <td>The Historical Narrative of Indian Cinema: A Study of the Pioneering
+                                                    Cinematic Innovations of Harishchandra Sakharam Bhatavdekar, Ramchandra
+                                                    Gopal Torney, and Jyotiprasad Agarwala</td>
                                             </tr>
 
                                             <tr>
@@ -1169,8 +1190,9 @@
                                                 <td>PROF. (DR.) SUBRATA HAZARIKA</td>
                                                 <td>26-11-2024</td>
                                                 <td>STUDY OF THE VARIATION AND ANALYSIS OF OPTICAL PULSES IN OPTICAL
-                                                    COMMUNICATION MEDIUM BY SIMULATION</td>
+                                                    COMMUNICATION MEDIUM BY SIMULATION.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>32</td>
                                                 <td>2018-19</td>
@@ -1178,12 +1200,13 @@
                                                 <td>MANAGEMENT</td>
                                                 <td>SUDIP BANIK</td>
                                                 <td>1181170</td>
-                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>PROF. (DR.) S. P. SINGH</td>
                                                 <td>DR. ASHUTOSH MURTI</td>
                                                 <td>26-11-2024</td>
-                                                <td>SOCIO-TECHNICAL SYSTEM: A STUDY OF TRIADIC ASPECT AMONG INDIVIDUAL,
-                                                    TEAM AND LOCI</td>
+                                                <td>SOCIO-TECHNICAL SYSTEM: A STUDY OF TRIADIC ASPECT AMONG INDIVIDUAL, TEAM
+                                                    AND LOCI.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>33</td>
                                                 <td>2019-20</td>
@@ -1191,12 +1214,13 @@
                                                 <td>MANAGEMENT</td>
                                                 <td>SANTOSH KUMAR ANAND</td>
                                                 <td>1190009</td>
-                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>PROF. (DR.) S. P. SINGH</td>
                                                 <td>PROF. (DR.) VIVEKANAND PANDEY</td>
                                                 <td>26-11-2024</td>
-                                                <td>PUBLIC AND PRIVATE FUNDING OF HIGHER EDUCATION IN INDIA: A STUDY OF
-                                                    ITS EFFECT ON QUALITY OF SELECT UNIVERSITIES IN ASSAM</td>
+                                                <td>PUBLIC AND PRIVATE FUNDING OF HIGHER EDUCATION IN INDIA: A STUDY OF ITS
+                                                    EFFECT ON QUALITY OF SELECT UNIVERSITIES IN ASSAM.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>34</td>
                                                 <td>2019-20</td>
@@ -1210,6 +1234,7 @@
                                                 <td>NON-NEWTON FLUID FLOWS OF SOME FRUIT AND VEGETABLE PRODUCTS IN FOOD
                                                     PROCESSING INDUSTRIES OBEYING POWER-LAW FLUID MODEL.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>35</td>
                                                 <td>2020-21</td>
@@ -1220,23 +1245,25 @@
                                                 <td>PROF. (DR.) ATANU BHATTACHARJEE</td>
                                                 <td>PROF. (DR.) MANODIP CHAKRABORTY</td>
                                                 <td>28-03-2025</td>
-                                                <td>IN-SILICO MARKER COMPOUND(S) ANALYSIS AND EVALUATION OF PHYTOSOME
-                                                    LOADED NOVEL DRUG DELIVERY SYSTEM OF PSIDIUM GUAJAVA (L) TARGETING
-                                                    ALZHEIMER'S DISEASE.</td>
+                                                <td>IN-SILICO MARKER COMPOUND(S) ANALYSIS AND EVALUATION OF PHYTOSOME LOADED
+                                                    NOVEL DRUG DELIVERY SYSTEM OF PSIDIUM GUAJAVA (L) TARGETING ALZHEIMER'S
+                                                    DISEASE.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>36</td>
                                                 <td>2019-20</td>
                                                 <td>RSET</td>
-                                                <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                <td>COMPUTER SCIENCE & ENGINEERING</td>
                                                 <td>ANTARA MALAKAR</td>
                                                 <td>1191454</td>
                                                 <td>PROF. (DR.) ANKUR GANGULY</td>
                                                 <td>DR. SWARNENDU KUMAR</td>
                                                 <td>30-04-2025</td>
-                                                <td>DESIGN AND DEVELOPMENT OF DEEP LEARNING BASED MODEL FOR PREDICTION
-                                                    OF EYE DISEASES IN NORTH EASTERN STATES OF INDIA</td>
+                                                <td>DESIGN AND DEVELOPMENT OF DEEP LEARNING BASED MODEL FOR PREDICTION OF
+                                                    EYE DISEASES IN NORTH EASTERN STATES OF INDIA.</td>
                                             </tr>
+
                                             <tr>
                                                 <td>37</td>
                                                 <td>2020-21</td>
@@ -1247,15 +1274,474 @@
                                                 <td>PROF. (DR.) BIPUL NATH</td>
                                                 <td>PROF. (DR.) DIPANKAR SAHA</td>
                                                 <td>30-04-2025</td>
-                                                <td>DEVELOPMENT AND EVALUATION OF POLYHERBAL FORMULATIONS BASED ON
-                                                    POTENTIAL ETHNO MEDICINAL PLANTS OF NORTHEAST INDIA AS ANTI-DIABETIC
-                                                    PHYTOTHERAPEUTICS</td>
+                                                <td>DEVELOPMENT AND EVALUATION OF POLYHERBAL FORMULATIONS BASED ON POTENTIAL
+                                                    ETHNO MEDICINAL PLANTS OF NORTHEAST INDIA AS ANTI-DIABETIC
+                                                    PHYTOTHERAPEUTICS.</td>
                                             </tr>
 
+                                            <tr>
+                                                <td>38</td>
+                                                <td>2020-21</td>
+                                                <td>RSAPS</td>
+                                                <td>MATHEMATICS</td>
+                                                <td>SINAM RAJKISHORE SINGHA</td>
+                                                <td>1200001</td>
+                                                <td>DR. BIMALENDU KALITA</td>
+                                                <td>DR. RITUPARNA CHUTIA</td>
+                                                <td>30-05-2025</td>
+                                                <td>NON-NEWTON FLUID FLOWS OF SOME FRUIT AND VEGETABLE PRODUCTS IN FOOD
+                                                    PROCESSING INDUSTRIES OBEYING POWER-LAW FLUID MODEL.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>39</td>
+                                                <td>2020-21</td>
+                                                <td>RSP</td>
+                                                <td>PHARMACY</td>
+                                                <td>KAMAL DEKA</td>
+                                                <td>1201545</td>
+                                                <td>PROF. (DR.) ATANU BHATTACHARJEE</td>
+                                                <td>PROF. SUBHASHIS DEBNATH, PROF. RAJA CHAKRABORTY</td>
+                                                <td>30-05-2025</td>
+                                                <td>FORMULATION, OPTIMIZATION AND EVALUATION OF NASAL IN SITU GEL OF MIMOSA
+                                                    PUDICA FOR ANXIOLYTIC AND ANTIDEPRESSANT ACTIVITY</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>40</td>
+                                                <td>2019-20</td>
+                                                <td>RSLSC</td>
+                                                <td>BOTANY</td>
+                                                <td>NAMITA DEKA</td>
+                                                <td>1190017</td>
+                                                <td>PROF.(DR.) SARANGA RANJAN PATGIRI</td>
+                                                <td>DR. BIDISHA SHARMA</td>
+                                                <td>30-05-2025</td>
+                                                <td>STUDIES ON SOME IMPORTANT ENDOPHYTIC MICROFLORA OF CISSUS QUADRANGULARIS
+                                                    LINN IN SOME DISTRICT OF ASSAM</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>41</td>
+                                                <td>2020-21</td>
+                                                <td>RSHSS</td>
+                                                <td>ECONOMICS</td>
+                                                <td>SHWETA SINGH</td>
+                                                <td>1200018</td>
+                                                <td>DR. MD. DELUWAR HOQUE</td>
+                                                <td>DR. MAUSUMI BORAH</td>
+                                                <td>30-07-2025</td>
+                                                <td>AN ANALYSIS OF TRENDS, PATTERNS AND DETERMINANTS OF FOREIGN DIRECT
+                                                    INVESTMENT INFLOWS IN INDIA</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>42</td>
+                                                <td>2020-21</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>SERAM RAJESHWARAN SINGH</td>
+                                                <td>1201543</td>
+                                                <td>PROF. (DR.) PRADIP JYOTI MAHANTA</td>
+                                                <td>DR. L. SUBHADRA DEVI</td>
+                                                <td>30-07-2025</td>
+                                                <td>AN AESTHETIC APPRAISAL OF MANIPURI RAAS LILA WITH PARTICULAR REFERANCE
+                                                    TO BASANTA RAS.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>43</td>
+                                                <td>2021-22</td>
+                                                <td>RSTTM</td>
+                                                <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                <td>PIYUSH GUPTA</td>
+                                                <td>1210021</td>
+                                                <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                <td>DR. AMITABH DEY</td>
+                                                <td>30-07-2025</td>
+                                                <td>GASTRONOMY OF NON-VEGETARIAN CUSISINE: A CASE STUDY OF SOME SELECTED
+                                                    SCHEDULED TRIBES OF ASSAM</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>44</td>
+                                                <td>2021-22</td>
+                                                <td>RSTTM</td>
+                                                <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                <td>CHANDAN JYOTI BEZBORAH</td>
+                                                <td>1210020</td>
+                                                <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                <td>SANJIB KUMAR BORKAKOTI</td>
+                                                <td>30-07-2025</td>
+                                                <td>CULTURAL TOURISM IN ASSAM WITH REFERANCE TO THE SATTRAS OF BARPETA,
+                                                    BORDOWA AND MAJULI
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>45</td>
+                                                <td>2021-22</td>
+                                                <td>RSBSC</td>
+                                                <td>BIO-TECHNOLOGY</td>
+                                                <td>SAHIBA KHAN</td>
+                                                <td>1210013</td>
+                                                <td>DR. DEBAJIT BORAH</td>
+                                                <td>DR. DEBASISH BORBORA</td>
+                                                <td>30-08-2025</td>
+                                                <td>ISOLATION AND CHARACTERIZATION OF SYNTHETIC-DYE DEGRADING INDIGENOUS
+                                                    SOIL MICROBES AND EXPLORING ITS BIOREMEDIATION POTENTIAL</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>46</td>
+                                                <td>2019-20</td>
+                                                <td>RSLA</td>
+                                                <td>LAW & ADMINISTRATION</td>
+                                                <td>BINU HAZARIKA KASHYAP</td>
+                                                <td>1190015</td>
+                                                <td>PROF. (DR.) H. C. NATH</td>
+                                                <td>DR. SMITA SARMAH</td>
+                                                <td>30-08-2025</td>
+                                                <td>THE SEXUAL HARASSMENT OF WOMEN AT WORKSPACE (PREVENTION, PROHIBITION,
+                                                    REDRESSAL) ACT, 2013 : A CRITICAL LEGAL ANALYSIS.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>47</td>
+                                                <td>2022-23</td>
+                                                <td>RSTTM</td>
+                                                <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                <td>SPARSH TIWARI</td>
+                                                <td>1222272</td>
+                                                <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                <td>DR. DEEPA SHRIVASTAVA</td>
+                                                <td>30-08-2025</td>
+                                                <td>ROLE OF TOURISM IN SOCIO-ECONOMIC DEVELOPMENT IN ASSAM WITH REFERENCE TO
+                                                    DHUBRI DISTRICT.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>48</td>
+                                                <td>2020-21</td>
+                                                <td>RSP</td>
+                                                <td>PHARMACY</td>
+                                                <td>RUNA CHAKRAVORTY</td>
+                                                <td>1200025</td>
+                                                <td>PROF. (DR.) BIPUL NATHA</td>
+                                                <td>PROF. SUBHASHIS DEBNATH</td>
+                                                <td>13-10-2025</td>
+                                                <td>SYNTHESIS OF CURCUMIN ENCAPSULATED SURFACE FUNCTIONALIZED GREEN
+                                                    NANOPARTICLE AND EVALUATION OF ITS EFFECT ON BREAST CARCINAOMA CELLS
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>49</td>
+                                                <td>2019-20</td>
+                                                <td>RSTTM</td>
+                                                <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                <td>SANJOY RONGHANG</td>
+                                                <td>1191464</td>
+                                                <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                <td>DR. DHARMA RAM DEKA</td>
+                                                <td>13-10-2025</td>
+                                                <td>ADVENTURE TOURISM IN THE KARBI ANGLONG DISTRICT, ASSAM: A STUDY ON
+                                                    PROSPECTS AND CHALLENGES.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>50</td>
+                                                <td>2019-20</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>BANANI DAS</td>
+                                                <td>1190014</td>
+                                                <td>PROF. (DR.) INDRANI SINGH RAI</td>
+                                                <td></td>
+                                                <td>13-10-2025</td>
+                                                <td>SEMANTICS OF POWER: A STUDY OF SELECT SHORT STORIES OF BHABENDRA NATH
+                                                    SAIKIA</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>51</td>
+                                                <td>2018-19</td>
+                                                <td>RSCOM</td>
+                                                <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                <td>PREETILATA KUMARI</td>
+                                                <td>1181178</td>
+                                                <td>DR. HAOGINLEN CHONGLOI</td>
+                                                <td>DR. RUPARANI SONOWAL</td>
+                                                <td>30-10-2025</td>
+                                                <td>PARADIGM SHIFT FROM RITUAL TO VIRTUAL: EFFECT OF SOCIAL MEDIA IN
+                                                    WEDDINGS OD ASSAM AND ITS CHANGING RITUAL PRACTICES</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>52</td>
+                                                <td>2021-22</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>DIMPY BANIA</td>
+                                                <td>1210008</td>
+                                                <td>PROF. (DR.) KRISHNA BARUA</td>
+                                                <td>DR. SAMIKSHYA GOHAIN</td>
+                                                <td>30-10-2025</td>
+                                                <td>SELF, IDENTITY AND HEROISM: A PSYCHO-PHILOSOPHICAL STUDY OF KARNA IN THE
+                                                    MAHABHARATA.</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>53</td>
+                                                <td>2020-21</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>GITIMA DEKA</td>
+                                                <td>1200011</td>
+                                                <td>PROF. (DR.) PRADIP JYOTI MAHANTA</td>
+                                                <td>DR. DIPAK KUMAR DOLEY</td>
+                                                <td>30-10-2025</td>
+                                                <td>WOMANHOOD FAITH AND JUSTICE: A STUDY OF SITA IN VALMIKI'S RAMAYANA AND
+                                                    DRAUPADI IN VYASA'S MAHABHARATA</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>54</td>
+                                                <td>2019-20</td>
+                                                <td>RSB</td>
+                                                <td>MANAGEMENT</td>
+                                                <td>KALYANI GOHAIN</td>
+                                                <td>1181894</td>
+                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>DR. PRADEEP KUMAR JAIN</td>
+                                                <td>30-10-2025</td>
+                                                <td>A CRITICAL STUDY ON STATUTORY PROVISIONS RELATING TO CORPORATE
+                                                    GOVERNANCE AND DEVELOPMENT OF CODE FOR EFFECTIVE CORPORATE GOVERNANCE
+                                                    PRACTICES</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>55</td>
+                                                <td>2020-21</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>IFTIKAR ALI AHMED</td>
+                                                <td>1200012</td>
+                                                <td>DR. BAISHALEE RAJKHOWA</td>
+                                                <td>DR. PRADEEP KUMAR JAIN</td>
+                                                <td>30-10-2025</td>
+                                                <td>LINGUISTIC IMPERIALISM OF ENGLISH: A STUDY OF ITS IMPACT ON THE ASSAMESE
+                                                    LANGUAGE</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>56</td>
+                                                <td>2021-22</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>RASHMIREKHA BARMAN</td>
+                                                <td>1180891</td>
+                                                <td>PROF. (DR.) KRISHNA BARUAH</td>
+                                                <td>DR. ANURAG BHATTACHARYYA</td>
+                                                <td>30-10-2025</td>
+                                                <td>WRITING FROM MEMORY AND HISTORY: A PSYCHOSOCIAL STUDY ON ABDULRAZAK
+                                                    GURNAH'S FICTION</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>57</td>
+                                                <td>2019-20</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>KARENG RONGHANGPI</td>
+                                                <td>1191457</td>
+                                                <td>DR. BAISHALEE RAJKHOWA</td>
+                                                <td>DR. MARGARET LYNGDOH</td>
+                                                <td>30-10-2025</td>
+                                                <td>MYTH, MEMORY, BELIEF: A STUDY ON KARBI ORAL NARRATIVES</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>58</td>
+                                                <td>2017-18</td>
+                                                <td>RSB</td>
+                                                <td>MANAGEMENT</td>
+                                                <td>ROSHINI SAIKIA</td>
+                                                <td>1170713</td>
+                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>DR. ANSHUMAN SHARMA</td>
+                                                <td>30-10-2025</td>
+                                                <td>THE CHANGING ENVIRONMENT OF TOURISM: A STUDY ON THE GROWTH AND
+                                                    DEVELOPMENT OF ECOTOURISM IN ASSAM</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>59</td>
+                                                <td>2019-20</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>CHIBENI MERRY</td>
+                                                <td>1191456</td>
+                                                <td>DR. JASMINE CHOUDHURY</td>
+                                                <td>DR. NASMEEN FARHIN AKHTAR</td>
+                                                <td>30-10-2025</td>
+                                                <td>OVERCOMING THE IMPEDIMENTS OF PATRIARCHY: PORTRAYAL OF NAGA WOMEN IN
+                                                    SELECT WORKS OF TEMSULA AO AND EASTERINE KIRE</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>60</td>
+                                                <td>2021-22</td>
+                                                <td>RSBSC</td>
+                                                <td>BIO-TECHNOLOGY</td>
+                                                <td>BISHWAPRIYA CHUTIA</td>
+                                                <td>1210011</td>
+                                                <td>DR. BHASKAR JYOTI GOGOI</td>
+                                                <td>DR. AJAY K. MANHAR</td>
+                                                <td>30-10-2025</td>
+                                                <td>ISOLATION. CHARACTERIZATION AND THERAPEUTIC ASSESSMENT OF POTENTIAL
+                                                    PROBIOTIC STRAINS FROM SELECTED FERMENTED FOODS OF NORTH-EAST INDIA</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>61</td>
+                                                <td>2020-21</td>
+                                                <td>RSHSS</td>
+                                                <td>SOCIAL WORK</td>
+                                                <td>ELIZABETH MISAO</td>
+                                                <td>1201539</td>
+                                                <td>DR. PRIYANTA PATOWARY</td>
+                                                <td>DR. DEEPSHIKHA CARPENTER</td>
+                                                <td>30-10-2025</td>
+                                                <td>EXPLORING THE NARRATIVES OF ARMED CONFLICT WIDOWS IN MANIPUR</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>62</td>
+                                                <td>2020-21</td>
+                                                <td>RSLSC</td>
+                                                <td>BOTANY</td>
+                                                <td>JASMINE SULTANA</td>
+                                                <td>1200013</td>
+                                                <td>DR. ANUSHREE BARUAH</td>
+                                                <td>DR. NIRMALI BORDOLOI</td>
+                                                <td>30-10-2025</td>
+                                                <td>EVALUATION OF NEEM (AZADIRACHTA INDICA) AND TEA (CAMELLIA SINENSIS) LEAF
+                                                    RESIDUES AS BIOLOGICAL NITRIFICATION INHIBITORS (BNIS) IN RICE
+                                                    CULTIVATION OF ASSAM</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>63</td>
+                                                <td>2019-20</td>
+                                                <td>RSB</td>
+                                                <td>MANAGEMENT</td>
+                                                <td>MAHENDRA PRASAD</td>
+                                                <td>1181197</td>
+                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>DR. ANSHUMAN SHARMA</td>
+                                                <td>30-10-2025</td>
+                                                <td>SERVICE QUALITY ASSESSMENT IN SELECT PUBLIC AND PRIVATE UNIVERSITIES OF
+                                                    ASSAM</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>64</td>
+                                                <td>2021-22</td>
+                                                <td>RSB</td>
+                                                <td>MANAGEMENT</td>
+                                                <td>NEHA TIWARI</td>
+                                                <td>1210004</td>
+                                                <td>PROF. (DR.) S.P. SINGH</td>
+                                                <td>DR. CHITRA KRISHNAN</td>
+                                                <td>30-10-2025</td>
+                                                <td>ROLE OF SPORTS IN WORK LIFE BALANCE</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>65</td>
+                                                <td>2022-23</td>
+                                                <td>RSL</td>
+                                                <td>ENGLISH</td>
+                                                <td>MIRANDA NGANGOM</td>
+                                                <td>1222254</td>
+                                                <td>DR. PRONAMI BHATTACHARYYA</td>
+                                                <td>PROF. (DR.) JYOTIRMOY PRODHANI</td>
+                                                <td>30-10-2025</td>
+                                                <td>INTERSECTIONALITY. OPPOSITIONAL GAZE AND ECRITURE FEMININE IN SELECT
+                                                    AFRICAN-AMERICAN SLAVE WOMEN'S NARRATIVES</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>66</td>
+                                                <td>2020-21</td>
+                                                <td>RSLSC</td>
+                                                <td>ZOOLOGY</td>
+                                                <td>ABUJAM ROMIBALA DEVI</td>
+                                                <td>1200015</td>
+                                                <td>DR. SUSMITA DEY</td>
+                                                <td>DR. DHARMESWAR BARHOI</td>
+                                                <td>31-03-2026</td>
+                                                <td>AN ECOLOGICAL STUDY OF FISH SPECIES IN JIRIMUKH, THE CONFLUENCE POINT OF
+                                                    JIRI RIVER WITH THE BARAK RIVER. </td>
+                                            </tr>
 
                                         </tbody>
                                     </table>
                                 </div>
+
+                                <!-- Pagination -->
+                                <nav>
+                                    <ul class="pagination justify-content-center mt-3" id="pagination"></ul>
+                                </nav>
+
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function() {
+                                        let table = document.getElementById("myTable");
+                                        let rows = table.querySelectorAll("tbody tr");
+                                        let rowsPerPage = 5;
+                                        let currentPage = 1;
+
+                                        function displayRows() {
+                                            rows.forEach((row, index) => {
+                                                row.style.display =
+                                                    index >= (currentPage - 1) * rowsPerPage &&
+                                                    index < currentPage * rowsPerPage ?
+                                                    "" :
+                                                    "none";
+                                            });
+                                        }
+
+                                        function setupPagination() {
+                                            let pageCount = Math.ceil(rows.length / rowsPerPage);
+                                            let pagination = document.getElementById("pagination");
+                                            pagination.innerHTML = "";
+
+                                            for (let i = 1; i <= pageCount; i++) {
+                                                let li = document.createElement("li");
+                                                li.className = "page-item " + (i === currentPage ? "active" : "");
+
+                                                let a = document.createElement("a");
+                                                a.className = "page-link";
+                                                a.href = "#";
+                                                a.innerText = i;
+
+                                                a.addEventListener("click", function(e) {
+                                                    e.preventDefault();
+                                                    currentPage = i;
+                                                    displayRows();
+                                                    setupPagination();
+                                                });
+
+                                                li.appendChild(a);
+                                                pagination.appendChild(li);
+                                            }
+                                        }
+
+                                        displayRows();
+                                        setupPagination();
+                                    });
+                                </script>
                                 <!--Table End-->
 
                             </div>
