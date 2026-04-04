@@ -279,7 +279,7 @@
                     link: "/lab-interior"
                     },
                     {
-                    title: "Interior Design Studios",
+                    title: "AR/VR Design Lab",
                     image: "/mobile-assets/new-labs/lab-ar-vr-product-design/1.jpg",
                     link: "/lab-ar-vr"
                     }
