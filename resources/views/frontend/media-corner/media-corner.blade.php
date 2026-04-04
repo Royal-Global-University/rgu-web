@@ -46,6 +46,17 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>
+                                'Royal Global University partners with TCS to start industry-integrated programmes',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 4, 2026:',
+                            'link' =>
+                                '/royal-global-university-partners-with-tcs-to-start-industry-integrated-programmes',
+                            'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
+                            'content' =>
+                                'In a significant step towards strengthening industry–academia collaboration in Northeast India, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with Tata Consultancy Services (TCS) to launch an industry-integrated undergraduate programme in Computer Science Engineering...',
+                        ],
+                        [
                             'title' => 'Art Grantee award to RGU alumnus at Hyundai Art for Hope 2026 in New Delhi',
                             'summary' => '',
                             'date' => 'Guwahati, March 31, 2026:',
