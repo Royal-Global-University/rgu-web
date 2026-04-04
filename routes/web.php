@@ -512,6 +512,10 @@ Route::get('/lab-ar-vr', function () {
     return view('frontend/alllabs/lab-ar-vr');
 })->name('lab-ar-vr');
 
+Route::get('/arts-studio', function () {
+    return view('frontend/alllabs/lab-fine-arts');
+})->name('arts-studio');
+
 //
 Route::get('/lab-astronomy', function () {
     return view('frontend/alllabs/lab-astronomy');

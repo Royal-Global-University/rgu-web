@@ -317,6 +317,17 @@
             },
 
             {
+                school: "Royal School of Fine Arts (RSFA)",
+                labs: [{
+                        title: "Art Studio Cum Gallery",
+                        image: "/mobile-assets/new-labs/lab-fine-arts-new/headimg.jpeg",
+                        link: "/arts-studio"
+                    }
+
+                ]
+            },
+
+            {
                 school: "Royal School of Hotel Management (RSHM)",
                 labs: [{
                     title: "Hotel Management Lab",
