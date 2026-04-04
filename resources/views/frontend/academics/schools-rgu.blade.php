@@ -569,7 +569,7 @@
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">
-                                        Royal School of Medical & Allied Sciences (RSMAS)</h5>
+                                        Royal School of Medical & Allied Science (RSMAS)</h5>
                                     <div class="mt-auto mb-4">
                                         <div class="d-flex justify-content-between">
                                             <a href="{{route('royalschoolofmedical&alliedsciences')}}"
@@ -1262,7 +1262,7 @@
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal
-                                        School of Medical & Allied Sciences (RSMAS)</h5>
+                                        School of Medical & Allied Science (RSMAS)</h5>
                                     <div class="mt-auto mb-4">
                                         <div class="d-flex justify-content-between">
                                             <a class="para1" href="{{route('royalschoolofmedical&alliedsciences')}}"

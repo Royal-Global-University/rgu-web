@@ -2,10 +2,6 @@
 
 const eboardData = [
     {
-        img: "/mobile-assets/ads/1-04.jpeg",
-        alt: "Event 4",
-    },
-    {
         img: "https://media.rgu.ac/new-web/img/index/e-board/4.jpeg",
         alt: "Event 4",
     },
