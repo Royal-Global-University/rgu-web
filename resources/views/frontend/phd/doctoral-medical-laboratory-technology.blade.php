@@ -94,7 +94,7 @@
         <p>
             The Ph.D. Programme in Medical Laboratory Science at The Assam Royal Global University (RGU) is a rigorous and
             research-intensive programme aimed at advancing knowledge in clinical diagnostics, disease pathogenesis, and
-            translational healthcare. Offered under the Royal School of Medical & Allied Sciences (RSMAS), the programme is
+            translational healthcare. Offered under the Royal School of Medical & Allied Science (RSMAS), the programme is
             designed to develop highly skilled researchers capable of addressing emerging challenges in biomedical science
             and public health.
         </p>

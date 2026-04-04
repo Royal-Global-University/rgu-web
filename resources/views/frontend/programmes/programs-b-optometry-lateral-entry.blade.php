@@ -228,7 +228,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">B. Optometry - Lateral Entry</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 03 Years<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

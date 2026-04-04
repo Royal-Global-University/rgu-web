@@ -6,14 +6,14 @@
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
                 style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
-                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Medical & Allied Sciences (RSMAS)</span>
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Medical & Allied Science (RSMAS)</span>
             </h2>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Medical & Allied Sciences (RSMAS)</span>
+                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Medical & Allied Science (RSMAS)</span>
             </h2>
 
         </div>
@@ -115,7 +115,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. Abhijit Dutta</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Medical & Allied Sciences</p>
+                            <p class="card-designation">Professor & Dean, Royal School of Medical & Allied Science</p>
                             <!-- <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

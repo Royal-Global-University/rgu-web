@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Top BMLT Lateral Science Program in Assam | Royal Global University')
-@section('meta_description', 'Looking to advance your diploma in medical lab tech? Royal Global University offers
+@section('meta_description',
+    'Looking to advance your diploma in medical lab tech? Royal Global University offers
     Assam’s top BMLT Lateral Science course with hands-on training and placement support.')
 @section('meta_keywords', 'bmlt lateral science')
 @section('content')
@@ -15,7 +16,7 @@
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 2 Yrs+1 Yr Internship <br>
-                Royal School of Medical & Allied Sciences (RSMAS)
+                Royal School of Medical & Allied Science (RSMAS)
             </p>
 
 
@@ -232,7 +233,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">B.Sc. - Medical Laboratory Technology (BMLT) Lateral Entry</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 2 Yrs+1 Yr Internship<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

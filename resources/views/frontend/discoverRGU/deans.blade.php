@@ -55,8 +55,8 @@
 
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -224,8 +224,8 @@
                                 </ul>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -249,8 +249,8 @@
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -274,8 +274,8 @@
                                 </ul>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -298,8 +298,8 @@
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -317,12 +317,12 @@
                                     Prof. Abhijit Dutta
                                 </h5>
                                 <p class="para1 pb-3" style="color: #27467A; font-size: 16px; line-height: 1.4;">
-                                    Professor & Dean, Royal School of Medical & Allied Sciences
+                                    Professor & Dean, Royal School of Medical & Allied Science
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -370,7 +370,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Nandana.jpeg" class="img-fluid rounded border" />
+                                    src="mobile-assets/updated-faculty-img/Nandana.jpeg"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
@@ -489,8 +490,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rsbas/surajit.jpeg"
-                                    class="img-fluid rounded border" />
+                                <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/all-faculty/rsbas/surajit.jpeg" class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
@@ -605,8 +606,8 @@
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -630,8 +631,8 @@
                                 </ul>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -654,8 +655,8 @@
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>
@@ -673,12 +674,12 @@
                                     Prof. Abhijit Dutta
                                 </h5>
                                 <p class="para1" style="color: #27467A; font-size: 16px; line-height: 1.4;">
-                                    Professor & Dean, Royal School of Medical & Allied Sciences
+                                    Professor & Dean, Royal School of Medical & Allied Science
                                 </p>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                    <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                                </a> -->
+                                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a> -->
                             </div>
                         </div>
                     </div>

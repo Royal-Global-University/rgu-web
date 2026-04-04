@@ -10,8 +10,9 @@
                     <div class="prthalign">
 
                         <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                            Royal School of Medical & Allied Sciences (RSMAS)</h1>
-                        <h2 class="headd2 p-2 text-dark  kd-split-text" style="background-color: #ffac46; border-radius: 10px;">
+                            Royal School of Medical & Allied Science (RSMAS)</h1>
+                        <h2 class="headd2 p-2 text-dark  kd-split-text"
+                            style="background-color: #ffac46; border-radius: 10px;">
                             Department of Optometry</h2>
                     </div>
                 </div>
@@ -218,7 +219,8 @@
                         <h2 class="headd2"><strong>Publications:</strong></h2>
                         <hr>
 
-                        <p class="para1 text-dark fw-bold">Smita Das, & Kalita, S. (2023). A Review On Measuring Intra-Ocular
+                        <p class="para1 text-dark fw-bold">Smita Das, & Kalita, S. (2023). A Review On Measuring
+                            Intra-Ocular
                             Pressure Using Different Types Of Tonometers. Journal of Survey in Fisheries Sciences, 10(3),
                             691-697.</p>
                         <hr>
@@ -258,8 +260,9 @@
                     <div class="prthalign">
 
                         <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text">
-                            Royal School of Medical & Allied Sciences (RSMAS)</h1>
-                        <h2 class="headd2 p-2 text-dark  kd-split-text" style="background-color: #ffac46; border-radius: 10px;">
+                            Royal School of Medical & Allied Science (RSMAS)</h1>
+                        <h2 class="headd2 p-2 text-dark  kd-split-text"
+                            style="background-color: #ffac46; border-radius: 10px;">
                             Department of Optometry</h2>
                     </div>
                 </div>
@@ -464,7 +467,8 @@
                         <h2 class="headd2"><strong>Publications:</strong></h2>
                         <hr>
 
-                        <p class="para1 text-dark fw-bold">Smita Das, & Kalita, S. (2023). A Review On Measuring Intra-Ocular
+                        <p class="para1 text-dark fw-bold">Smita Das, & Kalita, S. (2023). A Review On Measuring
+                            Intra-Ocular
                             Pressure Using Different Types Of Tonometers. Journal of Survey in Fisheries Sciences, 10(3),
                             691-697.</p>
                         <hr>

@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Royal Global University’s B.Sc Emergency & Critical Care – Excellence in Critical Health Education')
-@section('meta_description', 'Pursue a career in emergency healthcare with Royal Global University’s top-ranked B.Sc
+@section('meta_description',
+    'Pursue a career in emergency healthcare with Royal Global University’s top-ranked B.Sc
     Emergency & Critical Care course, offering modern facilities and expert guidance.')
 @section('meta_keywords', 'B.SC in Emergency & Critical care')
 @section('content')
@@ -14,7 +15,7 @@
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 3/4 Yrs as per NEP <br> Royal
-                School of Medical & Allied Sciences (RSMAS)
+                School of Medical & Allied Science (RSMAS)
             </p>
 
 
@@ -233,7 +234,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">B.Sc. in Emergency & Critical Care</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 3/4 Yrs as per NEP<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

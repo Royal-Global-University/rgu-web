@@ -23,9 +23,9 @@
 
     <style>
         /* ================================
-           UNIQUE NAMESPACE STYLES
-           Prefix: rgu-program-
-        ================================= */
+               UNIQUE NAMESPACE STYLES
+               Prefix: rgu-program-
+            ================================= */
 
         .body-part {
             padding: 20px 0px;
@@ -55,8 +55,8 @@
         }
 
         /* ================================
-           CARD DESIGN (POP EFFECT)
-        ================================= */
+               CARD DESIGN (POP EFFECT)
+            ================================= */
 
         .rgu-program-card {
             background: linear-gradient(135deg, #ffffff, #bdd1ff);
@@ -1000,9 +1000,11 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/program-btech-in-computer-science-and-business-system" class="rgu-program-link">
+                                    <a href="/program-btech-in-computer-science-and-business-system"
+                                        class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Tech. in Computer Science Engineering and Business Systems (TCS)</div>
+                                            <div class="rgu-program-card-title">B.Tech. in Computer Science Engineering and
+                                                Business Systems (TCS)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
@@ -1282,8 +1284,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Bachelor-of-Hotel-Management-BHM"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Hotel-Management-BHM" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Hotel Management (BHM)
@@ -1770,11 +1771,11 @@
 
                 <!-- RSMAS -->
                 <div class="accordion-item rgu-program-accordion-item"
-                    data-school="Royal School of Medical & Allied Sciences">
+                    data-school="Royal School of Medical & Allied Science">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
                             data-bs-target="#accRsmas">
-                            Royal School of Medical & Allied Sciences (RSMAS)
+                            Royal School of Medical & Allied Science (RSMAS)
                         </button>
                     </h2>
 
@@ -2167,8 +2168,8 @@
             });
 
             /* ===============================
-        COURSE SEARCH FUNCTION
-     =============================== */
+            COURSE SEARCH FUNCTION
+         =============================== */
 
             searchInput.addEventListener("input", function() {
                 const keyword = normalize(this.value);

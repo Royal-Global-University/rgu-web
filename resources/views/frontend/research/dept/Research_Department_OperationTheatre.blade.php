@@ -10,7 +10,7 @@
                     <div class="prthalign">
 
                         <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                            Royal School of Medical & Allied Sciences (RSMAS)</h1>
+                            Royal School of Medical & Allied Science (RSMAS)</h1>
                         <h2 class="headd2 p-2 text-dark mt-4 kd-split-text"
                             style="background-color: #ffac46; border-radius: 10px;">
                             Department of Operation Theatre</h2>
@@ -34,7 +34,8 @@
                         <h2 class="headd2"><strong>Instruments and Facilities</strong></h2>
                         <p class="para1 text-dark"><strong>The department of Operation Theatre Technology also has well
                                 maintained sophisticated instrumentation facilities like – OT table, OT lights, various
-                                mannequins, suction machine, diathermy machine, and various instruments used in the Operation
+                                mannequins, suction machine, diathermy machine, and various instruments used in the
+                                Operation
                                 Theatre. These instruments are being used by students to perform their regular practical,
                                 project related works.</strong></p>
                         <div class="row">
@@ -110,7 +111,8 @@
                             </tbody>
                         </table>
                         <h2 class="headd2"><strong>Publications:</strong></h2>
-                        <p class="para1 text-dark fw-bold">Mawlein I, Wankhar W, Resuh V, Kotso A, Kera V,Walling L. A Review on
+                        <p class="para1 text-dark fw-bold">Mawlein I, Wankhar W, Resuh V, Kotso A, Kera V,Walling L. A
+                            Review on
                             Paragonimiasis and its Differential Diagnosis Technique. Biotech Res Asia 2024;21(1).</p>
                         <hr>
                         <h2 class="headd2"><strong>Research Highlights :</strong></h2>
@@ -149,7 +151,7 @@
                     <div class="prthalign">
 
                         <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text">
-                            Royal School of Medical & Allied Sciences (RSMAS)</h1>
+                            Royal School of Medical & Allied Science (RSMAS)</h1>
                         <h2 class="headd2 p-2 text-dark mt-4 kd-split-text"
                             style="background-color: #ffac46; border-radius: 10px;">
                             Department of Operation Theatre</h2>
@@ -173,7 +175,8 @@
                         <h2 class="headd2"><strong>Instruments and Facilities</strong></h2>
                         <p class="para1 text-dark"><strong>The department of Operation Theatre Technology also has well
                                 maintained sophisticated instrumentation facilities like – OT table, OT lights, various
-                                mannequins, suction machine, diathermy machine, and various instruments used in the Operation
+                                mannequins, suction machine, diathermy machine, and various instruments used in the
+                                Operation
                                 Theatre. These instruments are being used by students to perform their regular practical,
                                 project related works.</strong></p>
                         <div class="row">
@@ -249,7 +252,8 @@
                             </tbody>
                         </table>
                         <h2 class="headd2"><strong>Publications:</strong></h2>
-                        <p class="para1 text-dark fw-bold">Mawlein I, Wankhar W, Resuh V, Kotso A, Kera V,Walling L. A Review on
+                        <p class="para1 text-dark fw-bold">Mawlein I, Wankhar W, Resuh V, Kotso A, Kera V,Walling L. A
+                            Review on
                             Paragonimiasis and its Differential Diagnosis Technique. Biotech Res Asia 2024;21(1).</p>
                         <hr>
                         <h2 class="headd2"><strong>Research Highlights :</strong></h2>

@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Study BMLT at Royal Global University – Top Medical Lab Technology Course in Assam')
-@section('meta_description', 'Pursue a Bachelor’s in Medical Laboratory Technology (BMLT) at Royal Global University,
+@section('meta_description',
+    'Pursue a Bachelor’s in Medical Laboratory Technology (BMLT) at Royal Global University,
     Assam. Get hands-on training, expert faculty, and industry-ready skills for a successful healthcare career.')
 @section('meta_keywords', 'BMLT')
 @section('content')
@@ -14,7 +15,7 @@
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 3 Yrs+1 Yr Internship <br>
-                Royal School of Medical & Allied Sciences (RSMAS)
+                Royal School of Medical & Allied Science (RSMAS)
             </p>
 
 
@@ -233,7 +234,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">B.Sc. - Medical Laboratory Technology (BMLT)</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 3 Yrs+1 Yr Internship<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

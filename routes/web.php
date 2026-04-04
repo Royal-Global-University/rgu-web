@@ -2729,7 +2729,7 @@ Route::get('/international-programs-BSc-ForensicScience', function () {
 Route::get('/international-programs-BSc-Forestry', function () {
     return view('frontend/international-fee/international-programs-BSc-Forestry');
 })->name('international-programs-BSc-Forestry');
-//ROYAL SCHOOL OF MEDICAL & ALLIED SCIENCES (RSMAS)
+//ROYAL SCHOOL of Medical & Allied Science (RSMAS)
 
 Route::get('/international-programs-Bachelor-of-Physiotherapy-BPT', function () {
     return view('frontend/international-fee/international-programs-Bachelor-of-Physiotherapy-BPT');
@@ -5848,5 +5848,3 @@ Route::get('/test/preface', function () {
 Route::get('/test/recognition', function () {
     return view('frontend/test/recognition');
 })->name('/test/recognition');
-
-

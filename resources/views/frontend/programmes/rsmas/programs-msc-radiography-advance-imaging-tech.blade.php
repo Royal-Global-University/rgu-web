@@ -9,7 +9,7 @@
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 02 Years <br> Royal School
-                of Medical & Allied Sciences (RSMAS)
+                of Medical & Allied Science (RSMAS)
             </p>
 
             <!-- YouTube-Style Fixed Tabs Start -->
@@ -231,7 +231,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">M.Sc. - Radiography and Advance Imaging Technology</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 02 Years<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

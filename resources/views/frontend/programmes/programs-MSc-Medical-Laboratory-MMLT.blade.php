@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Advance Your Career with M.Sc MLT at Royal Global University, Assam')
-@section('meta_description', 'Royal Global University offers an industry-focused M.Sc Medical Lab Technology program in
+@section('meta_description',
+    'Royal Global University offers an industry-focused M.Sc Medical Lab Technology program in
     Assam with advanced labs, experienced faculty, and strong placement support.')
 @section('meta_keywords', 'MSC Medical labrotary Technology')
 @section('content')
@@ -232,7 +233,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">M.Sc. - Medical Laboratory Technology (MMLT)</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 02 Years<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

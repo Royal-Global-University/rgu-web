@@ -145,7 +145,7 @@
                 </tr>
                 <tr>
                     <td>14</td>
-                    <td>School of Medical & Allied Sciences</td>
+                    <td>School of Medical & Allied Science</td>
                     <td><a href="mobile-assets/pdf/Medical & Allied Sciences.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>
                 </tr>

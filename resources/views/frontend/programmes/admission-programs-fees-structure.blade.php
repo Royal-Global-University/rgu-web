@@ -102,8 +102,7 @@
                                             </td>
                                             <td>140000.00</td>
                                             <td>71500.00</td>
-                                            <td><a href="{{route('programme-bsc-agri')}}"><button
-                                                        type="button"
+                                            <td><a href="{{ route('programme-bsc-agri') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -121,8 +120,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-msc-agri')}}"><button
-                                                        type="button"
+                                            <td><a href="{{ route('programme-msc-agri') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -555,7 +553,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programs-MA-Clinical-Psychology')}}"><button type="button"
+                                            <td><a href="{{ route('programs-MA-Clinical-Psychology') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -615,7 +614,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programs-BSc-clinical-psychology-(Hons)')}}"><button type="button"
+                                            <td><a href="{{ route('programs-BSc-clinical-psychology-(Hons)') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -633,7 +633,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programs-isitep')}}"><button type="button"
+                                            <td><a href="{{ route('programs-isitep') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -718,7 +718,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-msc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -779,7 +780,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-bsc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -1314,7 +1316,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-fashion-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-fashion-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1334,7 +1336,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-communication-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-communication-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1354,7 +1356,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-graphic-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-graphic-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1374,7 +1376,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-product-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-product-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1724,7 +1726,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-mtech-ce-cdc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-mtech-ce-cdc') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -1793,7 +1795,8 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science Engineering and Business Systems (TCS)</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in
+                                                        Computer Science Engineering and Business Systems (TCS)</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-tech-me') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
@@ -1803,7 +1806,9 @@
                                             </td>
                                             <td>101500</td>
                                             <td>2,00,000.00</td>
-                                            <td><a href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button type="button"
+                                            <td><a
+                                                    href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -2223,7 +2228,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programs-ma-iks')}}"><button type="button"
+                                            <td><a href="{{ route('programs-ma-iks') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -2638,15 +2643,15 @@
                                                     <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Assamese</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3/4
                                                             years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{ route('programme-ma-assamese') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -2658,15 +2663,15 @@
                                                     <strong style="color: #1b4332;" class="#">Course: MA - Assamese
                                                     </strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{ route('programme-ma-assamese') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -2678,15 +2683,15 @@
                                                     <strong style="color: #1b4332;" class="#">Certificate Course in
                                                         Sanskrit</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 1
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 1
                                                             years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>25,000.00</td>
                                             <td>NA</td>
-                                            <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
+                                            <td><a href="{{ route('programme-certi-sanskrit') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -2829,7 +2834,8 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{ route('programs-Master-of-Library&Information-Sciences') }}"><button
+                                            <td><a
+                                                    href="{{ route('programs-Master-of-Library&Information-Sciences') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -2900,7 +2906,8 @@
                                             <td>3.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc. Forensic
+                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
+                                                        Forensic
                                                         Science</strong>
                                                     <br>
                                                     <a href="{{ route('programs-MSc-ForensicScience') }}"
@@ -3024,7 +3031,7 @@
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
-                                <th>ROYAL SCHOOL OF MEDICAL & ALLIED SCIENCES (RSMAS)</th>
+                                <th>ROYAL SCHOOL of Medical & Allied Science (RSMAS)</th>
                             </div>
                             <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -3223,7 +3230,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-b-medical-lab-sc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-medical-lab-sc') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -3241,7 +3249,8 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programme-b-dialysis-therapy')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-dialysis-therapy') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -3259,7 +3268,8 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programme-b-emergency-care')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-emergency-care') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -3407,7 +3417,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-m-emergency-care')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-emergency-care') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -3443,7 +3454,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-m-medical-lab-sc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-medical-lab-sc') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -3770,8 +3782,9 @@
                                                     <strong style="color: #1b4332;" class="#">Course:
                                                         Bachelor of Physical Education and Sports (BPES)</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3/4 years as per NEP | Admission Fee:
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 3/4 years as per NEP |
+                                                            Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
@@ -4293,8 +4306,7 @@
                                             </td>
                                             <td>140000.00</td>
                                             <td>71500.00</td>
-                                            <td><a href="{{route('programme-bsc-agri')}}"><button
-                                                        type="button"
+                                            <td><a href="{{ route('programme-bsc-agri') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4312,8 +4324,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-msc-agri')}}"><button
-                                                        type="button"
+                                            <td><a href="{{ route('programme-msc-agri') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4688,7 +4699,7 @@
                                             </td>
                                             <td>200000.00</td>
                                             <td>101500.00</td>
-                                            <td><a href="{{route('program-executive-mba')}}"><button type="button"
+                                            <td><a href="{{ route('program-executive-mba') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4753,7 +4764,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programs-MA-Clinical-Psychology')}}"><button type="button"
+                                            <td><a href="{{ route('programs-MA-Clinical-Psychology') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4813,7 +4825,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programs-BSc-clinical-psychology-(Hons)')}}"><button type="button"
+                                            <td><a href="{{ route('programs-BSc-clinical-psychology-(Hons)') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4831,7 +4844,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programs-isitep')}}"><button type="button"
+                                            <td><a href="{{ route('programs-isitep') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4917,7 +4930,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-msc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4978,7 +4992,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-bsc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -5521,7 +5536,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-fashion-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-fashion-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -5541,7 +5556,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-communication-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-communication-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -5561,7 +5576,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-graphic-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-graphic-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -5581,7 +5596,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-mdes-product-design')}}"><button
+                                            <td><a href="{{ route('programme-mdes-product-design') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -5931,7 +5946,7 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-mtech-ce-cdc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-mtech-ce-cdc') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -6000,7 +6015,8 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in Computer Science Engineering and Business Systems</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech. in
+                                                        Computer Science Engineering and Business Systems</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-tech-me') }}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
@@ -6010,7 +6026,9 @@
                                             </td>
                                             <td>101500.00</td>
                                             <td>2,00,000.00</td>
-                                            <td><a href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button type="button"
+                                            <td><a
+                                                    href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -6411,7 +6429,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programs-ma-iks')}}"><button type="button"
+                                            <td><a href="{{ route('programs-ma-iks') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -6830,15 +6848,15 @@
                                                     <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Assamese</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration:
                                                             3/4 years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            <td><a href="{{route('programme-ba-assamese')}}"><button type="button"
+                                            <td><a href="{{ route('programme-ba-assamese') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -6850,15 +6868,15 @@
                                                     <strong style="color: #1b4332;" class="#">Course: MA - Assamese
                                                     </strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration:
                                                             2 years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{ route('programme-ma-assamese') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -6870,15 +6888,16 @@
                                                     <strong style="color: #1b4332;" class="#">Certificate Course in
                                                         Sanskrit</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 1
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 1
                                                             years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>25,000.00</td>
                                             <td>NA</td>
-                                            <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
+                                            <td><a href="{{ route('programme-certi-sanskrit') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7220,7 +7239,7 @@
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
-                                <th>ROYAL SCHOOL OF MEDICAL & ALLIED SCIENCES (RSMAS)</th>
+                                <th>ROYAL SCHOOL of Medical & Allied Science (RSMAS)</th>
                             </div>
                             <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -7373,7 +7392,8 @@
                                             <td>7.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical Radiology and Imaging Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical
+                                                        Radiology and Imaging Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7382,7 +7402,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-b-radio-imaging')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-radio-imaging') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7390,7 +7411,8 @@
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachelor of Anaesthesia and Operation Theatre Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of
+                                                        Anaesthesia and Operation Theatre Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7399,7 +7421,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-b-anaesthesia-ott')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-anaesthesia-ott') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7407,7 +7430,8 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical Laboratory Science (BMLS)</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical
+                                                        Laboratory Science (BMLS)</strong>
                                                     <br>
                                                     <a href="" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7416,7 +7440,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-b-medical-lab-sc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-medical-lab-sc') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7434,7 +7459,8 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programme-b-dialysis-therapy')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-dialysis-therapy') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7452,7 +7478,8 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programme-b-emergency-care')}}"><button type="button"
+                                            <td><a href="{{ route('programme-b-emergency-care') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7460,7 +7487,8 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food
+                                                        Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7469,7 +7497,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-bsc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7535,7 +7564,8 @@
                                             <td>13.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Master of Medical Radiology and Imaging Technology</strong>
+                                                    <strong style="color: #3c096c;" class="#">Master of Medical
+                                                        Radiology and Imaging Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2
@@ -7544,7 +7574,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-m-radio-imaging')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-radio-imaging') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7552,7 +7583,8 @@
                                             <td>14.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Master of Anaesthesia & Operation Theatre Technology</strong>
+                                                    <strong style="color: #3c096c;" class="#">Master of Anaesthesia
+                                                        & Operation Theatre Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2
@@ -7561,7 +7593,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-m-anaesthesia-ott')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-anaesthesia-ott') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7579,7 +7612,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-m-dialysis-therapy')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-dialysis-therapy') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7597,7 +7631,8 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            <td><a href="{{route('programme-m-emergency-care')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-emergency-care') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7615,7 +7650,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{ route('programme-msc-food-science') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7633,7 +7669,8 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programme-m-medical-lab-sc')}}"><button type="button"
+                                            <td><a href="{{ route('programme-m-medical-lab-sc') }}"><button
+                                                        type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -7960,8 +7997,9 @@
                                                     <strong style="color: #1b4332;" class="#">Course:
                                                         Bachelor of Physical Education and Sports (BPES)</strong>
                                                     <br>
-                                                    <a href=""
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3/4 years as per NEP | Admission Fee:
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 3/4 years as per NEP |
+                                                            Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
                                             </td>

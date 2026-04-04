@@ -92,11 +92,18 @@
     <div class="container pt-4" style="text-align: justify; color: #27467A;">
 
         <p>
-            Empowering the Future of Diagnostic Excellence, The Ph.D. program in Medical Radiology and Imaging Technology at The Assam Royal Global University is designed for visionary researchers eager to redefine the boundaries of modern healthcare. Hosted by the Royal School of Medical & Allied Sciences, our doctoral curriculum transcends traditional radiography, focusing on the convergence of clinical precision, advanced technology, and patient-centric innovation.
+            Empowering the Future of Diagnostic Excellence, The Ph.D. program in Medical Radiology and Imaging Technology at
+            The Assam Royal Global University is designed for visionary researchers eager to redefine the boundaries of
+            modern healthcare. Hosted by the Royal School of Medical & Allied Science, our doctoral curriculum transcends
+            traditional radiography, focusing on the convergence of clinical precision, advanced technology, and
+            patient-centric innovation.
         </p>
 
         <p>
-            As a doctoral scholar at RGU, you will engage in high-impact research ranging from molecular imaging and radiation physics to the integration of Artificial Intelligence (AI) in diagnostic workflows. Our mission is to produce global leaders who not only master existing modalities—like MRI, CT, and Ultrasound—but also pioneer the next generation of non-invasive diagnostic tools to solve complex clinical challenges.
+            As a doctoral scholar at RGU, you will engage in high-impact research ranging from molecular imaging and
+            radiation physics to the integration of Artificial Intelligence (AI) in diagnostic workflows. Our mission is to
+            produce global leaders who not only master existing modalities—like MRI, CT, and Ultrasound—but also pioneer the
+            next generation of non-invasive diagnostic tools to solve complex clinical challenges.
         </p>
 
     </div>

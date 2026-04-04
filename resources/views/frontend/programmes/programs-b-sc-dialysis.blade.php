@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Royal Global University’s B.Sc Dialysis Tech – Career-Focused Medical Program')
-@section('meta_description', 'Choose Royal Global University for a practical and comprehensive B.Sc in Dialysis
+@section('meta_description',
+    'Choose Royal Global University for a practical and comprehensive B.Sc in Dialysis
     Technology. Build expertise in dialysis procedures and patient monitoring.')
 @section('meta_keywords', 'B.SC-Dialysis tech')
 @section('content')
@@ -15,7 +16,7 @@
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 3/4 Yrs as per NEP <br> Royal
-                School of Medical & Allied Sciences (RSMAS)
+                School of Medical & Allied Science (RSMAS)
             </p>
 
 
@@ -234,7 +235,7 @@
             <div class="text-center">
                 <h2 class="text-center headd2 text-dark">B.Sc. - Dialysis Tech</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 3/4 Yrs as per NEP<br>
-                    <span class="text-center">Royal School of Medical & Allied Sciences (RSMAS)</span>
+                    <span class="text-center">Royal School of Medical & Allied Science (RSMAS)</span>
                 </h3>
             </div>
             <p class="d-flex justify-content-center gap-4 rounded pb-3 pt-3 text-center">

@@ -956,7 +956,7 @@
 
 
             {
-                title: "Royal School of Medical & Allied Sciences (RSMAS)",
+                title: "Royal School of Medical & Allied Science (RSMAS)",
                 image: "https://www.rgu.ac/assets/img/school-rgu/medical.jpeg",
 
                 deptMainLink: "https://www.rgu.ac/royal-s-school-of-medical-allied-science",
