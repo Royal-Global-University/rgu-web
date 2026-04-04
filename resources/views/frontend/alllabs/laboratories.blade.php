@@ -259,7 +259,7 @@
                 [
                     {
                         title: "Media Studio",
-                        image: "/mobile-assets/new-labs/studio-media-studio/3.jpeg",
+                        image: "/mobile-assets/new-labs/studio-media-studio/ms1.jpg",
                         link: "/media-studio"
                     },
                     {
@@ -338,7 +338,7 @@
                 school: "Royal School of Life Sciences (RSLSC)",
                 labs: [{
                         title: "Botany Lab",
-                        image: "/mobile-assets/laboratories/botany.png",
+                        image: "/mobile-assets/new-labs/botany/botany-img.jpeg",
                         link: "/lab-botany"
                     },
                     {
