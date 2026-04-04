@@ -1,1152 +1,466 @@
 @extends('frontend.master')
 @section('content')
-         <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <div style="padding-top: 90px; position: relative;">
-                <img src="mobile-assets/laboratories/mobile-lab-banner.png" alt="">
-
-                <div style="padding: 20px 20px;">
-                    <div class="row">
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="{{ route('lab-architecture') }}">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/architecture.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Architecture <span style="font-weight: 600 !important;">Design Lab</span> </h5>
-
-                                        <a href="{{ route('lab-architecture') }}">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-bio-chemistry">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/biochem.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Bio
-                                            Chemistry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-bio-chemistry">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-bioscience-research">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/bioscience.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Bio
-                                            Sciences <span style="font-weight: 600 !important;">Research Lab</span> </h5>
-
-                                        <a href="lab-bioscience-research">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-botany">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/botany.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Botany
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-botany">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-biotech">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/biotech.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Biotechnology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-biotech">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-computer">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/comp.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Computer
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-computer">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-civilengineering">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/civil.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Civil
-                                            Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-civilengineering">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-chemistry">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/chemistry.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Chemistry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-chemistry">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-diagnostic">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/diagnostic.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Diagnostic <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-diagnostic">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-engineering_drawing">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;"
-                                            src="mobile-assets/laboratories/engineeringdrawing.png" class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Engineering Drawing <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-engineering_drawing">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-electronic">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/electronic.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Electronic Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-electronic">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-electrical">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/electrical.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Electrical Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-electrical">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-foodteach">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/foodtech.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Foodtech
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-foodteach">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-forensic-lab">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/forensic.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Forensic
-                                            Science <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                                        <a href="lab-forensic-lab">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-hotelmanagement">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;"
-                                            src="mobile-assets/laboratories/hotelmanagement.png" class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Hotel
-                                            Management <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-hotelmanagement">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-interior">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/interior.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Interior
-                                            Designing <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                                        <a href="lab-interior">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-language-lab">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/language.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Language
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                                        <a href="lab-language-lab">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-mechanical">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/mechanical.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Mechanical Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-mechanical">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-microbiology">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/micro.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Microbiology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-microbiology">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-nursing">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/nursing.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Nursing
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                                        <a href="lab-nursing">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-optometry">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/opto.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Optometry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-optometry">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-operation_theater">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/operation.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Operation Theatre <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                                        <a href="lab-operation_theater">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-physics">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/physics.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Physics
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-physics">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-pharmacy">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/pharmacy.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Pharmacutical <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-pharmacy">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-physiotherapy">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/physiotherapy.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Physiotherapy <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-physiotherapy">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-radiography">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/radiology.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                            Radiology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-radiography">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-zoology">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/zoology.png"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Zoology
-                                            <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-zoology">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-ev-lab">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/ev.jpeg"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">EV <span
-                                                style="font-weight: 600 !important;">Lab</span> </h5>
-
-                                        <a href="lab-ev-lab">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div class="col-lg-12 mb-4">
-
-                            <a href="lab-astronomy">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
-                                    <div class="p-3">
-                                        <img style="height: 180px; width: 100%;" src="mobile-assets/laboratories/observe.jpeg"
-                                            class="img-fluid rounded" />
-                                    </div>
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Royal
-                                            <span style="font-weight: 600 !important;">Observatory</span> </h5>
-
-                                        <a href="lab-astronomy">
-                                            <p class="card-text mobile-para1 fw-bold half-underline mt-auto"
-                                                style="color: #FF9A1E;">Explore More</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-         </div>
-
-            <div class="website">
-            <!--Start Header-->
-                @include('frontend/components/aheader')
-            <!--End Header-->
-
-    <img src="mobile-assets/laboratories/web-lab-banner.png" alt="">
-
-
-    <div style="padding: 40px 120px; background-color: #fffbf6;">
-
-    <div>
-
-        <div class="row">
-
-            <div class="col-lg-4 mb-4">
-
-                 <a href="{{ route('lab-architecture') }}"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                      <div class="p-3">
-                        <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/architecture.png" class="img-fluid rounded"/>
-                      </div>
-                      <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Architecture <span style="font-weight: 600 !important;">Design Lab</span> </h5>
-
-                        <a href="{{ route('lab-architecture') }}"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                      </div>
-                  </div>
-                </a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-bio-chemistry"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/biochem.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Bio Chemistry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                     <a href="lab-bio-chemistry"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div>
-              </a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-bioscience-research"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/bioscience.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Bio Sciences <span style="font-weight: 600 !important;">Research Lab</span> </h5>
-
-                   <a href="lab-bioscience-research"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div>
-            </a>
-
+    <style>
+        /* ===============================
+       RESET
+    ================================ */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+            background: linear-gradient(180deg, #f4efe9, #f7f3ee);
+            color: #2c2c2c;
+        }
+
+
+        /* ===============================
+       WRAPPER
+    ================================ */
+        .rgu-lab-wrapper {
+            max-width: 1250px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+
+        /* ===============================
+       MAIN HEADING
+    ================================ */
+        .rgu-lab-heading {
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #28477b;
+        }
+
+
+        /* ===============================
+       🔥 FIX: SCHOOL STACK (COLUMN)
+    ================================ */
+        #rguLabContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+
+        /* ===============================
+       SCHOOL SECTION
+    ================================ */
+        .rgu-lab-school {
+            width: 100%;
+        }
+
+
+        /* SCHOOL TITLE */
+        .rgu-lab-school-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #28477b;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #28477b;
+            /* full width underline */
+        }
+
+
+        /* ===============================
+       CARDS GRID
+    ================================ */
+        .rgu-lab-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+
+        /* ===============================
+       CARD
+    ================================ */
+        .rgu-lab-card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .rgu-lab-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+        }
+
+
+        /* IMAGE */
+        .rgu-lab-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+
+        /* TITLE */
+        .rgu-lab-card-title {
+            margin: 16px 0 10px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #28477b;
+            line-height: 1.4;
+            min-height: 50px;
+        }
+
+
+        /* EXPLORE LINK */
+        .rgu-lab-explore {
+            margin-top: auto;
+            text-decoration: none;
+            color: #f7941d;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.25s ease;
+        }
+
+        .rgu-lab-explore:hover {
+            color: #28477b;
+            transform: translateX(3px);
+        }
+
+
+        /* ===============================
+       RESPONSIVE
+    ================================ */
+        @media (max-width: 992px) {
+            .rgu-lab-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .rgu-lab-heading {
+                font-size: 32px;
+            }
+
+            .rgu-lab-school-title {
+                font-size: 22px;
+            }
+
+            .rgu-lab-card img {
+                height: 160px;
+            }
+
+            .rgu-lab-card-title {
+                font-size: 16px;
+                min-height: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .rgu-lab-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+
+    </div>
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+
+    </div>
+
+    <div class="rgu-lab-hero">
+
+        <picture>
+            <!-- Mobile Image -->
+            <source media="(max-width: 768px)" srcset="/mobile-assets/laboratories/mobile-lab-banner.png">
+
+            <!-- Desktop Image -->
+            <img style="width: 100%;" src="/mobile-assets/laboratories/web-lab-banner.png"
+                alt="Laboratories Banner">
+        </picture>
+
+    </div>
+
+    <div class="rgu-lab-wrapper">
+
+        <div class="rgu-lab-cards" id="rguLabContainer"></div>
+
+    </div>
+
+    <script>
+        /* ===============================
+         DATA (EDIT HERE)
+      ================================ */
+        const rguLabData = [
+
+            {
+                school: "Royal School of Architecture (RSA)",
+                labs: [{
+                    title: "Architecture Design Studios",
+                    image: "/mobile-assets/laboratories/architecture.png",
+                    link: "/lab-architecture"
+                }]
+            },
+            {
+                school: "Royal School of Applied & Pure Sciences (RSAPS)",
+                labs: [{
+                        title: "Physics Lab",
+                        image: "/mobile-assets/laboratories/physics.png",
+                        link: "/lab-physics"
+                    },
+                    {
+                        title: "Bio Chemistry Lab",
+                        image: "/mobile-assets/laboratories/biochem.png",
+                        link: "/lab-bio-chemistry"
+                    },
+                    {
+                        title: "Chemistry Lab",
+                        image: "/mobile-assets/laboratories/chemistry.png",
+                        link: "/lab-chemistry"
+                    }
+                ]
+            },
+            {
+                school: "Royal School of Bio-sciences (RSBSC)",
+                labs: [{
+                        title: "Biotechnology Lab",
+                        image: "/mobile-assets/laboratories/biotech.png",
+                        link: "/lab-biotech"
+                    },
+                    {
+                        title: "Food Technology Lab",
+                        image: "/mobile-assets/laboratories/foodtech.png",
+                        link: "/lab-foodteach"
+                    },
+                    {
+                        title: "Microbiology Lab",
+                        image: "/mobile-assets/laboratories/micro.png",
+                        link: "/lab-microbiology"
+                    }
+                ]
+            },
+            {
+                school: "Royal School of Design (RSD)",
+                labs: [{
+                    title: "Interior Design Studios",
+                    image: "/mobile-assets/laboratories/interior.png",
+                    link: "/lab-interior"
+                }]
+            },
+            {
+                school: "Royal School of Engineering and Technology (RSET)",
+                labs: [{
+                        title: "Computer Lab",
+                        image: "/mobile-assets/laboratories/comp.png",
+                        link: "/lab-computer"
+                    },
+                    {
+                        title: "Civil Engineering Lab",
+                        image: "/mobile-assets/laboratories/civil.png",
+                        link: "/lab-civilengineering"
+                    },
+                    {
+                        title: "Mechanical Engineering Lab",
+                        image: "/mobile-assets/laboratories/mechanical.png",
+                        link: "/lab-mechanical"
+                    },
+                    {
+                        title: "Electronic Engineering Lab",
+                        image: "/mobile-assets/laboratories/electronic.png",
+                        link: "/lab-electronic"
+                    },
+                    {
+                        title: "Electrical Engineering Lab",
+                        image: "/mobile-assets/laboratories/electrical.png",
+                        link: "/lab-electrical"
+                    }
+
+                ]
+            },
+
+            {
+                school: "Royal School of Hotel Management (RSHM)",
+                labs: [{
+                    title: "Hotel Management Lab",
+                    image: "/mobile-assets/laboratories/hotelmanagement.png",
+                    link: "/lab-hotelmanagement"
+                }]
+            },
+
+            {
+                school: "Royal School of Information Technology (RSIT)",
+                labs: [{
+                    title: "Computer Lab",
+                    image: "/mobile-assets/laboratories/comp.png",
+                    link: "/lab-computer"
+                }]
+            },
+
+            {
+                school: "Royal School of Life Sciences (RSLSC)",
+                labs: [{
+                        title: "Botany Lab",
+                        image: "/mobile-assets/laboratories/botany.png",
+                        link: "/lab-botany"
+                    },
+                    {
+                        title: "Zoology Lab",
+                        image: "/mobile-assets/laboratories/zoology.png",
+                        link: "/lab-zoology"
+                    },
+                    {
+                        title: "Forensic Science Lab",
+                        image: "/mobile-assets/laboratories/forensic.png",
+                        link: "/lab-forensic-lab"
+                    }
+                ]
+            },
+
+            {
+                school: "Royal School of Languages (RSL)",
+                labs: [{
+                    title: "Language Lab",
+                    image: "/mobile-assets/laboratories/language.png",
+                    link: "/lab-language-lab"
+                }]
+            },
+
+            {
+                school: "Royal School of Medical & Allied Sciences (RSMAS)",
+                labs: [{
+                        title: "Diagnostic Lab",
+                        image: "/mobile-assets/laboratories/diagnostic.png",
+                        link: "/lab-diagnostic"
+                    },
+                    {
+                        title: "Optometry Lab",
+                        image: "/mobile-assets/laboratories/opto.png",
+                        link: "/lab-optometry"
+                    },
+                    {
+                        title: "Operation Theatre Lab",
+                        image: "/mobile-assets/laboratories/operation.png",
+                        link: "/lab-operation_theater"
+                    },
+                    {
+                        title: "Physiotherapy Lab",
+                        image: "/mobile-assets/laboratories/physiotherapy.png",
+                        link: "/lab-physiotherapy"
+                    },
+                    {
+                        title: "Radiology Lab",
+                        image: "/mobile-assets/laboratories/radiology.png",
+                        link: "/lab-radiography"
+                    }
+
+                ]
+            },
+
+            {
+                school: "Royal School of Nursing (RSN)",
+                labs: [{
+                    title: "Nursing Lab",
+                    image: "/mobile-assets/laboratories/nursing.png",
+                    link: "/lab-nursing"
+                }]
+            },
+
+            {
+                school: "Royal School of Pharmacy (RSP)",
+                labs: [{
+                    title: "Pharmacutical Lab",
+                    image: "/mobile-assets/laboratories/pharmacy.png",
+                    link: "/lab-pharmacy"
+                }]
+            },
+
+            {
+                school: "Others",
+                labs: [{
+                        title: "EV Lab",
+                        image: "/mobile-assets/laboratories/ev.jpeg",
+                        link: "/lab-ev-lab"
+                    },
+                    {
+                        title: "Royal Observatory",
+                        image: "/mobile-assets/laboratories/observe.jpeg",
+                        link: "/lab-astronomy"
+                    },
+
+                ]
+            },
+
+        ];
+
+        /* ===============================
+           ELEMENT
+        ================================ */
+        const container = document.getElementById("rguLabContainer");
+
+        /* ===============================
+           RENDER FUNCTION
+        ================================ */
+        function renderLabs(data) {
+
+            // Clear container
+            container.innerHTML = "";
+
+            // Loop through schools
+            data.forEach(group => {
+
+                // Create lab cards
+                let labsHTML = "";
+
+                group.labs.forEach(lab => {
+                    labsHTML += `
+        <div class="rgu-lab-card">
+          <img src="${lab.image}" alt="${lab.title}">
+          
+          <div class="rgu-lab-card-title">
+            ${lab.title}
           </div>
 
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-botany"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/botany.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Botany <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-botany"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-biotech"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/biotech.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Biotechnology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                     <a href="lab-biotech"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-computer"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/comp.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Computer <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-computer"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-civilengineering"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/civil.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Civil Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-civilengineering"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-chemistry"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/chemistry.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Chemistry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                     <a href="lab-chemistry"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-diagnostic"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/diagnostic.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Diagnostic <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-diagnostic"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-engineering_drawing"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/engineeringdrawing.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Engineering Drawing <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-engineering_drawing"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-electronic"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/electronic.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Electronic Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                     <a href="lab-electronic"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-electrical"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/electrical.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Electrical Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-electrical"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-foodteach"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/foodtech.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Foodtech <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-foodteach"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-forensic-lab"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/forensic.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Forensic Science <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                     <a href="lab-forensic-lab"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-hotelmanagement"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/hotelmanagement.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Hotel Management <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-hotelmanagement"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-interior"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/interior.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Interior Designing <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                   <a href="lab-interior"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-language-lab"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/language.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Language <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                     <a href="lab-language-lab"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-mechanical"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/mechanical.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mechanical Engineering <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-mechanical"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-microbiology"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/micro.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Microbiology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-microbiology"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-nursing"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/nursing.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Nursing <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                     <a href="lab-nursing"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-optometry"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/opto.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Optometry <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-optometry"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-operation_theater"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/operation.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Operation Theatre <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-
-                   <a href="lab-operation_theater"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-            <div class="col-lg-4 mb-4">
-
-                <a href="lab-physics"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                    <div class="p-3">
-                      <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/physics.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Physics <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                     <a href="lab-physics"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                    </div>
-                </div></a>
-
-            </div>
-
-            <div class="col-lg-4 mb-4">
-
-              <a href="lab-pharmacy"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/pharmacy.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Pharmacutical <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-pharmacy"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-physiotherapy"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/physiotherapy.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Physiotherapy <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-physiotherapy"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-radiography"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/radiology.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Radiology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-radiography"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-zoology"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/zoology.png" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Zoology <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-zoology"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-ev-lab"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/ev.jpeg" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">EV <span style="font-weight: 600 !important;">Lab</span> </h5>
-
-                   <a href="lab-ev-lab"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
-          <div class="col-lg-4 mb-4">
-
-              <a href="lab-astronomy"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 380px;">
-                  <div class="p-3">
-                    <img style="height: 230px; width: 100%;" src="mobile-assets/laboratories/observe.jpeg" class="img-fluid rounded"/>
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Royal <span style="font-weight: 600 !important;">Observatory</span> </h5>
-
-                   <a href="lab-astronomy"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
-                  </div>
-              </div></a>
-
-          </div>
-
+          <a href="${lab.link}" class="rgu-lab-explore">
+            Explore →
+          </a>
+        </div>
+      `;
+                });
+
+                // Append full block
+                container.innerHTML += `
+      <div class="rgu-lab-school">
+
+        <div class="rgu-lab-school-title">
+          ${group.school}
         </div>
 
-    </div>
+        <div class="rgu-lab-cards">
+          ${labsHTML}
+        </div>
 
-    </div>
-            </div>
+      </div>
+    `;
+            });
+        }
+
+        /* ===============================
+           INIT
+        ================================ */
+        renderLabs(rguLabData);
+    </script>
 @endsection

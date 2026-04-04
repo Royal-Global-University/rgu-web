@@ -2,9 +2,9 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
+        <div style="padding-top: 120px; position: relative;">
 
-            <img src="mobile-assets/lab-mechanical/mobileMechanicalWorkshop.png" alt="">
+            <img src="mobile-assets/new-labs/new-labs/lab-mechanical-new/mobileMechanicalWorkshop.png" alt="">
         </div>
     </div>
 
@@ -13,115 +13,355 @@
         @include('frontend/components/aheader')
         <!--End Header-->
 
-        <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-mechanical/background.svg);"
-                class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="f481aaf" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55"
-                        data-id="968af55" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx"
-                                data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                <div class="elementor-widget-container">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;"
-                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-mechanical/headimg.JPG" alt="">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111"
-                        data-id="9b49111" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading"
-                                data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                <div class="elementor-widget-container">
-                                    <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                            Mechanical Workshop
-                                        </h1>
-
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            The mechanical engineering lab is a huge asset of the university. Our mechanical
-                                            lab has several hand and power tools. The lab has been extensively used for
-                                            several mechanical testing – from research and development to consulting and
-                                            failure analysis. The lab is spacious and can seat 40 students at a time.
-                                            Students can find the lab in Block- C on the ground floor.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
-
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Instruments Includes:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Material Tester</li>
-                        <li class="para1 text-dark">Wind Tunnel</li>
-                        <li class="para1 text-dark">Thick Cylinder</li>
-                        <li class="para1 text-dark">Thin Cylinder</li>
-                        <li class="para1 text-dark">Universal Testing Machine</li>
-                        <li class="para1 text-dark">Digital Storage Oscillation</li>
-                        <li class="para1 text-dark">Beam Apparatus</li>
-                        <li class="para1 text-dark">Universal Test Frame</li>
-                        <li class="para1 text-dark">Bending Moment Beam</li>
-                        <li class="para1 text-dark">Gyroscope</li>
-                        <li class="para1 text-dark">Hardness Tester</li>
-                        <li class="para1 text-dark">Multimeter</li>
-                        <li class="para1 text-dark">LCD Digital Microscope</li>
-                    </ol>
-
-                </div>
-
-                <div class="custom-column p-4">
-
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Laboratory
-                        Work Carried Out In Years 1, 2 And 3 Includes The Following Areas:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Central Workshop comprising machine shop, carpentry shop, fitting shop,
-                            foundry shop, welding shop, smithy shop, sheet metal shop, and CNC machines.</li>
-                        <li class="para1 text-dark">Thermal Engineering</li>
-                        <li class="para1 text-dark">Internal Combustion Engine</li>
-                        <li class="para1 text-dark">Heat and Mass Transfer</li>
-                        <li class="para1 text-dark">Refrigeration and Air Conditioning</li>
-                        <li class="para1 text-dark">Fluid Mechanics</li>
-                        <li class="para1 text-dark">Fluid Machinery</li>
-                        <li class="para1 text-dark">Strength of Materials</li>
-                        <li class="para1 text-dark">Theory of Machines</li>
-                        <li class="para1 text-dark">Automobile</li>
-                        <li class="para1 text-dark">Mechanical Vibrations</li>
-                        <li class="para1 text-dark">CAD</li>
-                        <li class="para1 text-dark">Production Engineering</li>
-                        <li class="para1 text-dark">Mechatronics</li>
-                        <li class="para1 text-dark">Metrology & Measurements</li>
-                        <li class="para1 text-dark">Computer Integrated Manufacturing Systems</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-
-        <div style="padding: 30px 50px; background-color: #fff;">
-            <img src="mobile-assets/lab-mechanical/MechanicalWorkshop.png" alt="">
-        </div>
     </div>
+
+    <style>
+        /* ===== RESET ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ===== BASE ===== */
+        .rgu-mech-body {
+            font-family: "Times New Roman", serif;
+            background: #f4f6f9;
+            overflow-x: hidden;
+        }
+
+        /* ===== HERO ===== */
+        .rgu-mech-hero {
+            background: url('mobile-assets/new-labs/lab-mechanical-new/bgg.svg') center/cover no-repeat;
+            display: flex;
+            gap: 40px;
+            padding: 60px 5%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rgu-mech-hero-img {
+            width: 40%;
+            border-radius: 12px;
+        }
+
+        .rgu-mech-content {
+            width: 50%;
+        }
+
+        .rgu-mech-title {
+            font-size: 30px;
+            color: #1f355e;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .rgu-mech-text {
+            line-height: 1.7;
+            color: #333;
+            text-align: justify;
+        }
+
+        /* ===== LAB LIST ===== */
+        .rgu-mech-lablist {
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        .rgu-mech-lablist h4 {
+            margin-bottom: 10px;
+            color: #1f355e;
+        }
+
+        .rgu-mech-lablist ol {
+            padding-left: 20px;
+        }
+
+        /* ===== ACTIVITIES ===== */
+        .rgu-mech-activities {
+            width: 85%;
+            margin: 40px auto;
+            background: transparent;
+            /* Removed white bg to let cards pop */
+            padding: 10px;
+        }
+
+        .rgu-mech-activities-title {
+            text-align: center;
+            color: #1f355e;
+            margin-bottom: 35px;
+            font-size: 2.2rem;
+        }
+
+        /* ===== NEW CARD LAYOUT ===== */
+        .rgu-mech-cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .rgu-mech-section {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid #27467a;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rgu-mech-section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+            border-top-color: orange;
+        }
+
+        .rgu-mech-section-title {
+            color: #27467a;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Small decorative dot before titles */
+        .rgu-mech-section-title::before {
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            background-color: orange;
+            border-radius: 50%;
+        }
+
+        .rgu-mech-section ul {
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .rgu-mech-section ul li {
+            margin-bottom: 6px;
+        }
+
+        /* Custom color for bullet points */
+        .rgu-mech-section ul li::marker {
+            color: #27467a;
+        }
+
+        /* ===== GALLERY ===== */
+        .rgu-mech-gallery {
+            text-align: center;
+            padding: 40px 5%;
+            background-color: #FFFBF6;
+        }
+
+        .rgu-mech-gallery-title {
+            font-size: 28px;
+            margin-bottom: 25px;
+            color: #27467a;
+        }
+
+        .rgu-mech-highlight {
+            color: orange;
+        }
+
+        .rgu-mech-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .rgu-mech-grid img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .rgu-mech-grid img:hover {
+            transform: scale(1.03);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .rgu-mech-hero {
+                flex-direction: column;
+                padding: 30px 20px;
+                text-align: left;
+                background-color: #FFFBF6;
+            }
+
+            .rgu-mech-hero-img,
+            .rgu-mech-content {
+                width: 100%;
+            }
+
+            .rgu-mech-title {
+                font-size: 24px;
+            }
+
+            .rgu-mech-text {
+                text-align: justify;
+                font-size: 15px;
+            }
+
+            .rgu-mech-activities {
+                width: 100%;
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            .rgu-mech-activities-title {
+                font-size: 1.8rem;
+            }
+
+            .rgu-mech-cards-container {
+                grid-template-columns: 1fr;
+            }
+
+            .rgu-mech-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .rgu-mech-gallery {
+                background-color: #FFFBF6;
+                padding: 30px 20px;
+            }
+        }
+    </style>
+
+    <section class="rgu-mech-body">
+        <section class="rgu-mech-hero">
+
+            <img src="mobile-assets/new-labs/lab-mechanical-new/headimg.jpeg" class="rgu-mech-hero-img">
+
+            <div class="rgu-mech-content">
+                <h2 class="rgu-mech-title">Mechanical Engineering Laboratories</h2>
+
+                <p class="rgu-mech-text">
+                    The Mechanical Engineering Laboratories at The Assam Royal Global University encompass key areas such as
+                    Fluid Mechanics & Hydraulic Machines Lab, Heat Transfer Lab, Strength of Materials Lab, Dynamics of
+                    Machine
+                    Lab,
+                    Metrology Lab and Mechanical Workshops (Machine shop, Welding Shop, Carpentry and Fitting).
+                    These labs are well-equipped with modern instruments and experimental setups that enable students to
+                    explore,
+                    analyse, and validate fundamental Engineering concepts through practical applications.
+                    The facilities are designed to promote hands-on learning, technical skill development, and a deeper
+                    understanding
+                    of real-world engineering systems. The laboratories are situated in Block – C on the ground floor.
+                </p>
+
+
+            </div>
+        </section>
+
+        <div class="text-dark pt-4" style="padding-left: 50px;">
+            <h4>Available Labs:</h4>
+            <ol>
+                <li>Fluid Mechanics Lab</li>
+                <li>Heat Transfer Lab</li>
+                <li>Strength of Materials Lab</li>
+                <li>Dynamics of Machine Lab</li>
+                <li>Metrology Lab</li>
+                <li>Mechanical Workshop</li>
+            </ol>
+        </div>
+
+        <section class="rgu-mech-activities">
+
+            <h3 class="rgu-mech-activities-title">Included In The Lab Are:</h3>
+
+            <div class="rgu-mech-cards-container">
+
+                <div class="rgu-mech-section">
+                    <h4 class="rgu-mech-section-title">Fluid Mechanics Lab</h4>
+                    <ul>
+                        <li>Verification of Bernoulli’s theorem</li>
+                        <li>Flow measurement using Venturimeter/Orifice meter</li>
+                        <li>Study of Reynolds number</li>
+                        <li>Minor and major losses in pipes</li>
+                        <li>Kaplan Turbine</li>
+                        <li>Francis Turbine</li>
+                        <li>Impact of Jet apparatus</li>
+                        <li>Centrifugal Pump</li>
+                        <li>Hydraulic Ram</li>
+                    </ul>
+                </div>
+
+                <div class="rgu-mech-section">
+                    <h4 class="rgu-mech-section-title">Heat Transfer Lab</h4>
+                    <ul>
+                        <li>Heat transfer through composite wall</li>
+                        <li>Natural and forced convection experiments</li>
+                        <li>Stefan–Boltzmann constant determination</li>
+                        <li>Heat exchanger performance analysis</li>
+                        <li>Parallel and Counter flow Heat Exchangers</li>
+                        <li>Heat Pipe</li>
+                        <li>Condenser Heat exchanger</li>
+                        <li>Emissivity apparatus</li>
+                    </ul>
+                </div>
+
+                <div class="rgu-mech-section">
+                    <h4 class="rgu-mech-section-title">Strength of Materials Lab</h4>
+                    <ul>
+                        <li>Universal Testing Machine (UTM)</li>
+                        <li>Izod impact testing machine</li>
+                        <li>Charpy impact testing machine</li>
+                        <li>Rockwell Hardness Test Rig</li>
+                        <li>Fatigue Testing Machine</li>
+                    </ul>
+                </div>
+
+                <div class="rgu-mech-section">
+                    <h4 class="rgu-mech-section-title">Mechanical Workshop</h4>
+                    <ul>
+                        <li>Lathe, drilling, and milling operations</li>
+                        <li>Welding processes</li>
+                        <li>Carpentry</li>
+                        <li>Fitting</li>
+                    </ul>
+                </div>
+
+                <div class="rgu-mech-section">
+                    <h4 class="rgu-mech-section-title">Metrology Lab</h4>
+                    <ul>
+                        <li>Measurement using vernier caliper and micrometer</li>
+                        <li>Surface roughness measurement</li>
+                        <li>Gear and thread measurement</li>
+                        <li>Comparators and gauges</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="rgu-mech-gallery">
+
+            <h2 class="rgu-mech-gallery-title">
+                Glimpse of <span class="rgu-mech-highlight">Our Lab</span>
+            </h2>
+
+            <div class="rgu-mech-grid">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/1.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/2.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/3.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/4.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/5.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/6.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/7.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/8.jpeg">
+                <img src="mobile-assets/new-labs/lab-mechanical-new/9.jpeg">
+            </div>
+
+        </section>
+    </section>
 @endsection
