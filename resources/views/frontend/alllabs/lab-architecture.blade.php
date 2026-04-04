@@ -252,85 +252,109 @@
                     and third floor.
                 </p>
 
-                <!-- <div class="rgu-mech-lablist">
-              <h4>Available Labs:</h4>
-              <ol>
-                <li>Fluid Mechanics Lab</li>
-                
-              </ol>
-            </div> -->
+                <div class="text-dark">
+                    <h4>Available Software Programs:</h4>
+                    <ol>
+                        <li>AutoCAD</li>
+                        <li>Revit</li>
+                        <li>Adobe Photoshop</li>
+                        <li>ArchiCAD</li>
+                    </ol>
+                </div>
 
             </div>
         </section>
 
+        <div class="text-dark pt-3 pb-3" style="padding-left: 50px; padding-right: 50px;">
+            <ol>
+                <li>Developing architectural design projects, keeping in mind the climatic condition of the site
+                </li>
+
+                <li>Studying different building technologies and services like plumbing and sanitation</li>
+
+                <li>Practically observe building materials, their typologies and specifications</li>
+
+                <li>Study electrical wirings, fittings and services</li>
+
+                <li>Exercises related to surveying and levelling give students hands-on experience and help them
+                    understand the characteristics of the site</li>
+
+                <li>Learning techniques of testing compressive and tensile strengths of building materials</li>
+
+                <li>Making small prototypes of brick joints, wooden joints etc</li>
+
+                <li>Experiment with various building materials</li>
+            </ol>
+        </div>
+
         <!-- <section class="rgu-mech-activities">
 
-          <h3 class="rgu-mech-activities-title">Included In The Lab Are:</h3>
+                      <h3 class="rgu-mech-activities-title">Included In The Lab Are:</h3>
 
-          <div class="rgu-mech-cards-container">
+                      <div class="rgu-mech-cards-container">
 
-            <div class="rgu-mech-section">
-              <h4 class="rgu-mech-section-title">Fluid Mechanics Lab</h4>
-              <ul>
-                <li>Verification of Bernoulli’s theorem</li>
-                <li>Flow measurement using Venturimeter/Orifice meter</li>
-                <li>Study of Reynolds number</li>
-                <li>Minor and major losses in pipes</li>
-                <li>Kaplan Turbine</li>
-                <li>Francis Turbine</li>
-                <li>Impact of Jet apparatus</li>
-                <li>Centrifugal Pump</li>
-                <li>Hydraulic Ram</li>
-              </ul>
-            </div>
+                        <div class="rgu-mech-section">
+                          <h4 class="rgu-mech-section-title">Fluid Mechanics Lab</h4>
+                          <ul>
+                            <li>Verification of Bernoulli’s theorem</li>
+                            <li>Flow measurement using Venturimeter/Orifice meter</li>
+                            <li>Study of Reynolds number</li>
+                            <li>Minor and major losses in pipes</li>
+                            <li>Kaplan Turbine</li>
+                            <li>Francis Turbine</li>
+                            <li>Impact of Jet apparatus</li>
+                            <li>Centrifugal Pump</li>
+                            <li>Hydraulic Ram</li>
+                          </ul>
+                        </div>
 
-            <div class="rgu-mech-section">
-              <h4 class="rgu-mech-section-title">Heat Transfer Lab</h4>
-              <ul>
-                <li>Heat transfer through composite wall</li>
-                <li>Natural and forced convection experiments</li>
-                <li>Stefan–Boltzmann constant determination</li>
-                <li>Heat exchanger performance analysis</li>
-                <li>Parallel and Counter flow Heat Exchangers</li>
-                <li>Heat Pipe</li>
-                <li>Condenser Heat exchanger</li>
-                <li>Emissivity apparatus</li>
-              </ul>
-            </div>
+                        <div class="rgu-mech-section">
+                          <h4 class="rgu-mech-section-title">Heat Transfer Lab</h4>
+                          <ul>
+                            <li>Heat transfer through composite wall</li>
+                            <li>Natural and forced convection experiments</li>
+                            <li>Stefan–Boltzmann constant determination</li>
+                            <li>Heat exchanger performance analysis</li>
+                            <li>Parallel and Counter flow Heat Exchangers</li>
+                            <li>Heat Pipe</li>
+                            <li>Condenser Heat exchanger</li>
+                            <li>Emissivity apparatus</li>
+                          </ul>
+                        </div>
 
-            <div class="rgu-mech-section">
-              <h4 class="rgu-mech-section-title">Strength of Materials Lab</h4>
-              <ul>
-                <li>Universal Testing Machine (UTM)</li>
-                <li>Izod impact testing machine</li>
-                <li>Charpy impact testing machine</li>
-                <li>Rockwell Hardness Test Rig</li>
-                <li>Fatigue Testing Machine</li>
-              </ul>
-            </div>
+                        <div class="rgu-mech-section">
+                          <h4 class="rgu-mech-section-title">Strength of Materials Lab</h4>
+                          <ul>
+                            <li>Universal Testing Machine (UTM)</li>
+                            <li>Izod impact testing machine</li>
+                            <li>Charpy impact testing machine</li>
+                            <li>Rockwell Hardness Test Rig</li>
+                            <li>Fatigue Testing Machine</li>
+                          </ul>
+                        </div>
 
-            <div class="rgu-mech-section">
-              <h4 class="rgu-mech-section-title">Mechanical Workshop</h4>
-              <ul>
-                <li>Lathe, drilling, and milling operations</li>
-                <li>Welding processes</li>
-                <li>Carpentry</li>
-                <li>Fitting</li>
-              </ul>
-            </div>
+                        <div class="rgu-mech-section">
+                          <h4 class="rgu-mech-section-title">Mechanical Workshop</h4>
+                          <ul>
+                            <li>Lathe, drilling, and milling operations</li>
+                            <li>Welding processes</li>
+                            <li>Carpentry</li>
+                            <li>Fitting</li>
+                          </ul>
+                        </div>
 
-            <div class="rgu-mech-section">
-              <h4 class="rgu-mech-section-title">Metrology Lab</h4>
-              <ul>
-                <li>Measurement using vernier caliper and micrometer</li>
-                <li>Surface roughness measurement</li>
-                <li>Gear and thread measurement</li>
-                <li>Comparators and gauges</li>
-              </ul>
-            </div>
+                        <div class="rgu-mech-section">
+                          <h4 class="rgu-mech-section-title">Metrology Lab</h4>
+                          <ul>
+                            <li>Measurement using vernier caliper and micrometer</li>
+                            <li>Surface roughness measurement</li>
+                            <li>Gear and thread measurement</li>
+                            <li>Comparators and gauges</li>
+                          </ul>
+                        </div>
 
-          </div>
-        </section> -->
+                      </div>
+                    </section> -->
 
         <section class="rgu-mech-gallery">
 
