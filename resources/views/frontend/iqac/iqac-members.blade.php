@@ -122,7 +122,7 @@
                         <tr>
                             <td>2</td>
                             <td>Sri Ankur Pansari</td>
-                            <td>Executive Vice President, GSF</td>
+                            <td>Pro-Chancellor, RGU</td>
                             <td>Member</td>
                         </tr>
                         <tr>
