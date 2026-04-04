@@ -254,12 +254,36 @@
                 ]
             },
             {
+                school: "Royal School of Communications & Media (RSCOM)",
+                labs: 
+                [
+                    {
+                        title: "Media Studio",
+                        image: "/mobile-assets/new-labs/studio-media-studio/3.jpeg",
+                        link: "/media-studio"
+                    },
+                    {
+                        title: "Multimedia Lab",
+                        image: "/mobile-assets/new-labs/lab-multimedia/1.jpeg",
+                        link: "/lab-multimedia"
+                    }
+                ]
+            },
+            {
                 school: "Royal School of Design (RSD)",
-                labs: [{
+                labs: 
+                [
+                    {
                     title: "Interior Design Studios",
                     image: "/mobile-assets/laboratories/interior.png",
                     link: "/lab-interior"
-                }]
+                    },
+                    {
+                    title: "Interior Design Studios",
+                    image: "/mobile-assets/new-labs/lab-ar-vr-product-design/1.jpg",
+                    link: "/lab-ar-vr"
+                    }
+                ]
             },
             {
                 school: "Royal School of Engineering and Technology (RSET)",

@@ -351,15 +351,14 @@
             </h2>
 
             <div class="rgu-mech-grid">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/1.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/2.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/3.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/4.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/5.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/6.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/7.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/8.jpeg">
-                <img src="mobile-assets/new-labs/lab-mechanical-new/9.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-1.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-2.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-3.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-4.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-5.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-6.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-7.jpeg">
+                <img src="/mobile-assets/new-labs/me-new/me-8.jpeg">
             </div>
 
         </section>

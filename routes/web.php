@@ -500,6 +500,18 @@ Route::get('/laboratories', function () {
     return view('frontend/alllabs/laboratories');
 })->name('laboratories');
 
+Route::get('/media-studio', function () {
+    return view('frontend/alllabs/media-studio');
+})->name('media-studio');
+
+Route::get('/lab-multimedia', function () {
+    return view('frontend/alllabs/lab-multimedia');
+})->name('lab-multimedia');
+
+Route::get('/lab-ar-vr', function () {
+    return view('frontend/alllabs/lab-ar-vr');
+})->name('lab-ar-vr');
+
 //
 Route::get('/lab-astronomy', function () {
     return view('frontend/alllabs/lab-astronomy');
