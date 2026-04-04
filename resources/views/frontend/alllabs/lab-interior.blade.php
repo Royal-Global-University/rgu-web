@@ -56,7 +56,7 @@
                                             line with current needs and preferences. The studios are situated in Block-C on
                                             second and third floor.
                                         </p>
-                                        <p class="text-dark para1 fw-bold">Included in the lab are:</p>
+                                        <p class="text-dark para1 fw-bold">Included in the studio:</p>
                                         <ol class="text-dark para1">
                                             <li class="para1 text-dark">A collaborative space</li>
                                             <li class="para1 text-dark">Benching stations with drafting tables</li>
