@@ -18,7 +18,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Medical and Allied Sciences (RSMAS)
+                Royal School of Medical and Allied Science (RSMAS)
             </p>
 
         </div>
@@ -38,7 +38,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Medical and Allied Sciences (RSMAS)
+                Royal School of Medical and Allied Science (RSMAS)
             </p>
 
         </div>

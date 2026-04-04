@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Science
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Sciences
                                     </h5>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="p-4 card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Science
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Medical Laboratory Sciences
                                     </h5>
                                 </div>
                             </div>

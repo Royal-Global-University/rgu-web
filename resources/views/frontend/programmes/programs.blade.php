@@ -1876,7 +1876,7 @@
                                     <a href="https://www.rgu.ac/programme-b-medical-lab-sc" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Bachelor – Medical Laboratory Science (BMLS)
+                                                Bachelor – Medical Laboratory Sciences (BMLS)
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
@@ -1975,7 +1975,7 @@
                                     <a href="https://www.rgu.ac/programme-m-medical-lab-sc" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Master – Medical Laboratory Science (MMLS)
+                                                Master – Medical Laboratory Sciences (MMLS)
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>

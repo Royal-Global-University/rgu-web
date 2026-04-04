@@ -8,7 +8,7 @@
             <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                    Bachelor of Medical Laboratory Science (BMLS)
+                    Bachelor of Medical Laboratory Sciences (BMLS)
                 </h2>
 
             </div>
@@ -18,7 +18,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Medical and Allied Sciences (RSMAS)
+                Royal School of Medical and Allied Science (RSMAS)
             </p>
 
         </div>
@@ -28,7 +28,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                    Bachelor of Medical Laboratory Science (BMLS)
+                    Bachelor of Medical Laboratory Sciences (BMLS)
                 </h2>
 
             </div>
@@ -38,7 +38,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Medical and Allied Sciences (RSMAS)
+                Royal School of Medical and Allied Science (RSMAS)
             </p>
 
         </div>
