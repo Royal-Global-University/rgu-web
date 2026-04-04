@@ -131,7 +131,7 @@
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        International: 5
+                        International: 7
                       </span>
                     </li>
 
@@ -139,7 +139,7 @@
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        National:10
+                        National: 12
                       </span>
                     </li>
 
@@ -200,7 +200,7 @@
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        Regular columnist of The Assam Tribune and the GPlus, Guwahati.
+                        Regular columnist of <span style="font-style: italic;">The Assam Tribune and the GPlus</span>, Guwahati.
                       </span>
                     </li>
                     <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
@@ -223,6 +223,13 @@
                           style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                         <span style="display: block;">
                             Joint Convenor of ICHR sponsored Two-day National seminar on the topic, Anti-British Uprising of Peasants and the Role of Tribes during the British Rule in India: A Study on Political and Socio-economic Aspects of the Tribes along with Hatichong College, Nagaon dt. 29th & 30th June 2024.
+                        </span>
+                      </li>
+                      <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                        <i class="fa fa-circle"
+                          style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                        <span style="display: block;">
+                            Local Secretary (nominated), Upcoming Forty-Fifth NEIHA session, scheduled on 28th, 29th and 30th October 2026, RGU, Guwahati.
                         </span>
                       </li>
 
@@ -367,7 +374,7 @@
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        International: 5
+                        International: 7
                       </span>
                     </li>
 
@@ -375,7 +382,7 @@
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        National:10
+                        National: 12
                       </span>
                     </li>
 
@@ -425,6 +432,7 @@
                         Life member- North East India History Association (NEIHA)
                       </span>
                     </li>
+
                     <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
@@ -432,11 +440,12 @@
                         External Expert- Board of Studies of the Dept. of History, Himalayan University, Itanagar, Arunachal Pradesh.
                       </span>
                     </li>
+
                     <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                       <i class="fa fa-circle"
                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                       <span style="display: block;">
-                        Regular columnist of The Assam Tribune and the GPlus, Guwahati.
+                        Regular columnist of <span style="font-style: italic;">The Assam Tribune and the GPlus</span>, Guwahati.
                       </span>
                     </li>
 
@@ -462,6 +471,15 @@
                         Joint Convenor of ICHR sponsored Two-day National seminar on the topic, Anti-British Uprising of Peasants and the Role of Tribes during the British Rule in India: A Study on Political and Socio-economic Aspects of the Tribes along with Hatichong College, Nagaon dt. 29th & 30th June 2024.
                         </span>
                     </li>
+
+                    <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                        <i class="fa fa-circle"
+                          style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                        <span style="display: block;">
+                        Local Secretary (nominated), Upcoming Forty-Fifth NEIHA session, scheduled on 28th, 29th and 30th October 2026, RGU, Guwahati.
+                        </span>
+                    </li>
+
 
                   </ul>
 

@@ -145,7 +145,16 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            10 (National)
+                                            12 (National)
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            7 (International)
                                         </span>
                                     </li>
 
@@ -371,7 +380,15 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        10 (National)
+                                        12 (National)
+                                    </span>
+                                </li>
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        7 (International)
                                     </span>
                                 </li>
 
