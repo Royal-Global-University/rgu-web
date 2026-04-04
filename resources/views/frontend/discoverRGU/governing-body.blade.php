@@ -93,8 +93,7 @@
                                 <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
                                     Pansari
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
-                                    Gyan Sagar Foundation</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, RGU</p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                             </div>
@@ -373,8 +372,8 @@
                                 <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
                                     Pansari
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, <br>
-                                    Gyan Sagar Foundation</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, 
+                                    RGU</p>
 
                                 <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
                                 </p>
