@@ -255,7 +255,7 @@
             },
             {
                 school: "Royal School of Communications & Media (RSCOM)",
-                labs: 
+                labs:
                 [
                     {
                         title: "Media Studio",
@@ -271,7 +271,7 @@
             },
             {
                 school: "Royal School of Design (RSD)",
-                labs: 
+                labs:
                 [
                     {
                     title: "Interior Design Studios",
@@ -280,7 +280,7 @@
                     },
                     {
                     title: "AR/VR Design Lab (Product Design Lab)",
-                    image: "/mobile-assets/new-labs/lab-ar-vr-product-design/1.jpg",
+                    image: "/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595884.jpg",
                     link: "/lab-ar-vr"
                     }
                 ]
@@ -464,7 +464,7 @@
                     labsHTML += `
         <div class="rgu-lab-card">
           <img src="${lab.image}" alt="${lab.title}">
-          
+
           <div class="rgu-lab-card-title">
             ${lab.title}
           </div>

@@ -170,7 +170,7 @@
 
         <section class="rgu-mmlab-hero">
 
-            <img src="mobile-assets/new-labs/lab-ar-vr-product-design/headimg.jpg" class="rgu-mmlab-img">
+            <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595884.jpg" class="rgu-mmlab-img">
 
             <div class="rgu-mmlab-content">
 
@@ -208,10 +208,10 @@
             </h2>
 
             <div class="rgu-mmlab-grid">
-                <img src="mobile-assets/new-labs/lab-ar-vr-product-design/1.jpg">
-                <img src="mobile-assets/new-labs/lab-ar-vr-product-design/2.jpg">
-                <img src="mobile-assets/new-labs/lab-ar-vr-product-design/4.jpg">
-                <img src="mobile-assets/new-labs/lab-ar-vr-product-design/5.jpg">
+                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595877.jpg">
+                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595879.jpg">
+                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595886.jpg">
+                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595884.jpg">
             </div>
 
         </section>

@@ -2,9 +2,32 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-operation/mobileOperationTheatre.png" alt="">
+        <div style="padding-top: 110px; position: relative;"></div>
+        <h1 class="headd2 text-dark fw-bold text-center">
+            Anesthesia & Operation Theatre Technology
+        </h1>
+        <div class="rounded p-3">
+            <img decoding="async" src="mobile-assets/lab-operation/headimg.JPG" alt="">
         </div>
+        <div class="p-4">
+            <p class="text-dark para1" style="text-align: justify;">
+                The University has established an action learning laboratory for Anesthesia &
+                Operation Theatre (AOT) techniques. This facility is equipped with a modern
+                operating theatre that includes an anesthesia machine, surgical table, OT
+                lighting, patient monitoring systems, electrosurgical cautery, suction
+                apparatus, etc. along with advanced mannequins. These resources provide students
+                with immersive, hands-on training and practice-oriented learning, enabling them
+                to confidently operate essential tools used in surgical environments.
+            </p>
+            <p class="text-dark para1" style="text-align: justify;">
+                The primary objective of the laboratory is to help students develop a
+                comprehensive and in-depth understanding of surgical procedures. By mastering
+                both the theoretical and practical aspects of anesthesia and OT technology,
+                students will be prepared to enhance the quality of patient care during surgical
+                interventions.
+            </p>
+        </div>
+
     </div>
 
     <div class="website">
@@ -27,7 +50,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-operation/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-operation/headimg.JPG"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -44,21 +68,24 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                            Operation Theatre Technology
+                                            Anesthesia & Operation Theatre Technology
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The University has established an action learning laboratory for Operation
-                                            Theatre (OT) techniques. It is equipped with state-of-art OT facility consisting
-                                            of surgical table, OT light, multipara monitor, electrosurgical cautery machine,
-                                            electric suction machine, and different types of mannequins for hands-on
-                                            learning and practice-based pedagogy that will enable students to handle tools
-                                            in the Operation Theatre.
+                                            The University has established an action learning laboratory for Anesthesia &
+                                            Operation Theatre (AOT) techniques. This facility is equipped with a modern
+                                            operating theatre that includes an anesthesia machine, surgical table, OT
+                                            lighting, patient monitoring systems, electrosurgical cautery, suction
+                                            apparatus, etc. along with advanced mannequins. These resources provide students
+                                            with immersive, hands-on training and practice-oriented learning, enabling them
+                                            to confidently operate essential tools used in surgical environments.
                                         </p>
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The laboratory aims to enable students to acquire fundamental, thorough, and
-                                            in-depth understanding of surgical procedures in order to be competent enough to
-                                            elevate the quality of patient care offered during the surgical conditions.
+                                            The primary objective of the laboratory is to help students develop a
+                                            comprehensive and in-depth understanding of surgical procedures. By mastering
+                                            both the theoretical and practical aspects of anesthesia and OT technology,
+                                            students will be prepared to enhance the quality of patient care during surgical
+                                            interventions.
                                         </p>
                                     </div>
                                 </div>
