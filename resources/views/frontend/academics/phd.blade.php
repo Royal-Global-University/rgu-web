@@ -978,6 +978,24 @@
 
                     <div class="accordion-item mb-2">
                         <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                                aria-controls="collapseTen">
+                                Ph.D. Scholars
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body mt-3 mb-3">
+                                <a href="/phd-scholars" class="rounded bg-danger text-white fw-bold"
+                                    style="padding: 20px">Click to View</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                                 Alumni

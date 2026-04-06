@@ -786,6 +786,10 @@ Route::get('/placement-contacts', function () {
 
 //phd
 
+Route::get('/phd-scholars', function () {
+    return view('frontend/phd/phd-scholars');
+})->name('phd-scholars');
+
 Route::get('/phd-awarded', function () {
     return view('frontend/phd-award/phd-awarded');
 })->name('phd-awarded');
@@ -3228,6 +3232,10 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/news4');
+})->name('northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university');
 
 Route::get('/royal-global-university-partners-with-tcs-to-start-industry-integrated-programmes', function () {
     return view('frontend/media-corner/2026/news3');

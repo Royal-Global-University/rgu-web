@@ -47,6 +47,21 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Northeast must become India’s next pharma hub: PCI President speaks at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 6, 2026:',
+                            'link' =>
+                                '/northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/media604.jpeg',
+                            'content' => 'In a significant initiative aimed at inspiring future
+                pharmacy professionals, the Pharmacy Council of India (PCI) today organised an awareness programme titled
+                “Inspire & Interact” with pharmacy students from across the Northeast at The Assam Royal Global University
+                (RGU)
+and featured an enlightening address by Dr. Montukumar M. Patel, President, Pharmacy Council of India
+                (PCI).',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University partners with TCS to start industry-integrated programmes',
                             'summary' => '',
                             'date' => 'Guwahati, April 4, 2026:',

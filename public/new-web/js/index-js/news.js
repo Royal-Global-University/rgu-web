@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 6, 2026",
+            title: "Northeast must become India’s next pharma hub: PCI President speaks at Royal Global University",
+            desc: "In a significant initiative aimed at inspiring future pharmacy professionals, the Pharmacy Council of India (PCI) today organised an awareness programme titled “Inspire & Interact” with pharmacy students from across the Northeast at The Assam Royal Global University(RGU) and featured an enlightening address by Dr. Montukumar M. Patel, President, Pharmacy Council of India(PCI).",
+            img: "/mobile-assets/media-corner/2026/media604-1.jpeg",
+            link: "/northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university",
+        },
+        {
             date: "Guwahati, April 4, 2026",
             title: "Royal Global University partners with TCS to start industry-integrated programmes",
             desc: "In a significant step towards strengthening industry–academia collaboration in Northeast India, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with Tata Consultancy Services (TCS) to launch an industry-integrated undergraduate programme in Computer Science Engineering and Business Systems (CSEBS), aimed at creating future-ready professionals equipped with both technological expertise and business acumen.",
