@@ -361,6 +361,11 @@
                         title: "Forensic Science Lab",
                         image: "/mobile-assets/laboratories/forensic.png",
                         link: "/lab-forensic-lab"
+                    },
+                    {
+                        title: "Forestry and Environmental Science Laboratory",
+                        image: "/mobile-assets/lab-forestry/f11.png",
+                        link: "/lab-forestry-environmental-science"
                     }
                 ]
             },
@@ -387,7 +392,7 @@
                         link: "/lab-optometry"
                     },
                     {
-                        title: "Operation Theatre Lab",
+                        title: "Anesthesia & Operation Theatre Technology",
                         image: "/mobile-assets/laboratories/operation.png",
                         link: "/lab-operation_theater"
                     },

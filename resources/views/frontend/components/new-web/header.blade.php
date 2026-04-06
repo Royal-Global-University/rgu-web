@@ -191,7 +191,6 @@
                                         <a href="/phd" class="m-sub-acc-link">Doctoral Programme</a>
                                         <a href="/multi-disciplinary" class="m-sub-acc-link">Multidisciplinary
                                             Courses</a>
-                                        <a href="/phd-cell" class="m-sub-acc-link">Ph.D. Cell</a>
                                     </div>
                                 </div>
                             </div>
@@ -587,7 +586,6 @@
                         <li><a href="/multi-disciplinary">Multidisciplinary/ Interdisciplinary
                                 Courses</a>
                         </li>
-                        <li><a href="/phd-cell" class="m-sub-acc-link">Ph.D. Cell</a></li>
                     </ul>
                 </div>
 
@@ -799,8 +797,8 @@
 
              <!-- Ph.D. Cell -->
             <li>
-                <a href="/phd-cell">
-                    Ph.D. Cell <span>↗</span>
+                <a href="/phd">
+                    DOCTORAL PROGRAMME <span>↗</span>
                 </a>
             </li>
 

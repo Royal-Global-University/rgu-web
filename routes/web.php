@@ -508,6 +508,10 @@ Route::get('/lab-multimedia', function () {
     return view('frontend/alllabs/lab-multimedia');
 })->name('lab-multimedia');
 
+Route::get('/lab-forestry-environmental-science', function () {
+    return view('frontend/alllabs/lab-forestry-environmental-science');
+})->name('lab-forestry-environmental-science');
+
 Route::get('/lab-ar-vr', function () {
     return view('frontend/alllabs/lab-ar-vr');
 })->name('lab-ar-vr');
