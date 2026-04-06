@@ -740,7 +740,7 @@
 
                                     <!-- 2020 (PDF) -->
                                     <div class="col-md-4">
-                                        <a href="YOUR_PDF_LINK_2020.pdf" target="_blank">
+                                        <a href="/mobile-assets/PhD-examinations-notifications/2020/PhD coursework examinations notifications-01-10-2020.pdf" target="_blank">
                                             <div class="card year-card p-3 text-center">
                                                 <h5>2020</h5>
                                             </div>
@@ -789,7 +789,7 @@
 
                                     <!-- 2026 (PDF) -->
                                     <div class="col-md-4">
-                                        <a href="YOUR_PDF_LINK_2026.pdf" target="_blank">
+                                        <a href="/mobile-assets/PhD-examinations-notifications/2026/PhD coursework examinations notifications-20-02-2026.pdf" target="_blank">
                                             <div class="card year-card p-3 text-center">
                                                 <h5>2026</h5>
                                             </div>
@@ -812,12 +812,12 @@
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
                                                 <div class="col-md-3 d-flex justify-content-center">
-                                                    <a href="#">
+                                                    <a href="/mobile-assets/PhD-examinations-notifications/2018/PhD coursework examinations notifications-29.05.2018.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a>
                                                 </div>
                                                 <div class="col-md-3 d-flex justify-content-center">
-                                                    <a href="#">
+                                                    <a href="/mobile-assets/PhD-examinations-notifications/2018/PhD coursework examinations notifications-27.11.2018.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a>
                                                 </div>
@@ -835,10 +835,10 @@
                                             <h5 class="w-100">2019 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2019/PhD coursework examinations notifications-01-07-2019.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2019/PhD coursework examinations notifications-02-12-2019.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
                                             </div>
@@ -855,10 +855,10 @@
                                             <h5 class="w-100">2021 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2021/PhD coursework examinations notifications-04-02-2021.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2021/PhD coursework examinations notifications-24.09.2021.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
                                             </div>
@@ -875,10 +875,10 @@
                                             <h5 class="w-100">2022 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2022/PhD coursework examinations notifications-28-02-2022.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2022/PhD coursework examinations notifications-12-08-2022.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
                                             </div>
@@ -895,10 +895,10 @@
                                             <h5 class="w-100">2023 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2023/PhD coursework examinations notifications-11-01-2023.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2023/PhD coursework examinations notifications-26-07-2023.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
                                             </div>
@@ -915,13 +915,13 @@
                                             <h5 class="w-100">2024 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-12-01-2024.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-09-07-2024.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-20-07-2024.pdf">
                                                         <div class="notify-card">Notification 3</div>
                                                     </a></div>
                                             </div>
@@ -938,28 +938,28 @@
                                             <h5 class="w-100">2025 Notifications</h5>
 
                                             <div class="row g-3 mt-2 justify-content-center w-100">
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-09-01-2025.pdf">
                                                         <div class="notify-card">Notification 1</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-09.01.2025.pdf">
                                                         <div class="notify-card">Notification 2</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-25-03-2025.pdf">
                                                         <div class="notify-card">Notification 3</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-03-06-2025.pdf">
                                                         <div class="notify-card">Notification 4</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-03.06.2025.pdf">
                                                         <div class="notify-card">Notification 5</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-16-07-2025.pdf">
                                                         <div class="notify-card">Notification 6</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-08-12-2025.pdf">
                                                         <div class="notify-card">Notification 7</div>
                                                     </a></div>
-                                                <div class="col-md-3 d-flex justify-content-center"><a href="#">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-12-12-2025.pdf">
                                                         <div class="notify-card">Notification 8</div>
                                                     </a></div>
                                             </div>
