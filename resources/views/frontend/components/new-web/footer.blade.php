@@ -59,6 +59,7 @@
                                 Application</a></li>
                         <li><a href="/grievance">Students' Grievance</a></li>
                         <li><a href="/phd">Doctoral Programme</a></li>
+                        <li><a href="/phd-scholars">Doctoral Degrees</a></li>
 
                     </ul>
 

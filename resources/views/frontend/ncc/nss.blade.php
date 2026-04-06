@@ -2,6 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
+        <div style="padding-top: 110px"></div>
 
     </div>
 
