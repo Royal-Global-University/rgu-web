@@ -125,7 +125,7 @@
                             <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
                                 Director, Centre for Inter-Disciplinary Research</p>
-                            <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
+                            <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
                             <p class="card-designation">Professor & Advisor</p>
-                            <a href="https://www.rgu.ac/faculty-shiela-bora" class="profile-link">View Profile</a>
+                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -175,7 +175,7 @@
                             </div>
                             <h3 class="card-name">Prof. Swabera Islam</h3>
                             <p class="card-designation">Professor & Advisor</p>
-                            <a href="https://www.rgu.ac/faculty-swabera-islam" class="profile-link">View Profile</a>
+                            <a href="/faculty-swabera-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -194,12 +194,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Gautam.jpeg"
+                                <img src="/mobile-assets/all-faculty/rshss/Gautam.jpeg"
                                     alt="Profile image Gautam Mazumdar">
                             </div>
                             <h3 class="card-name">Prof. Gautam Mazumdar</h3>
                             <p class="card-designation">Professor</p>
-                            <a href="https://www.rgu.ac/faculty-gautam-mazumdar" class="profile-link">View Profile</a>
+                            <a href="/faculty-gautam-mazumdar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -210,7 +210,7 @@
                             </div>
                             <h3 class="card-name">Prof. Swabera Islam</h3>
                             <p class="card-designation">Professor & Advisor</p>
-                            <a href="https://www.rgu.ac/faculty-swabera-islam" class="profile-link">View Profile</a>
+                            <a href="/faculty-swabera-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -222,7 +222,7 @@
                             </div>
                             <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
-                            <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
+                            <a href="/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pragya.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Pragya.jpeg"
                                     alt="Profile image of Pragya Tamang">
                             </div>
                             <h3 class="card-name">Dr. Pragya Tamang</h3>
@@ -281,12 +281,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sanghamitra-Hazarika.png"
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Sanghamitra-Hazarika.png"
                                     alt="Profile image of Dr. Sanghamitra Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Sanghamitra Hazarika</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-sanghamitra-hazarika" class="profile-link">View
+                            <a href="/faculty-sanghamitra-hazarika" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -294,12 +294,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/jugal.jpeg"
+                                <img src="/mobile-assets/all-faculty/rshss/jugal.jpeg"
                                     alt="Profile image of Mr. Jugal Kishore Bhattacharyya">
                             </div>
                             <h3 class="card-name">Mr. Jugal Kishore Bhattacharyya</h3>
                             <p class="card-designation">Assistant Professor & Coordinator GE/AEEC</p>
-                            <a href="https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
+                            <a href="/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -307,12 +307,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
                             <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> -->
+                            <!-- <a href="/faculty-george-ap" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -349,7 +349,7 @@
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
                             <p class="card-designation">Professor & Advisor</p>
-                            <a href="https://www.rgu.ac/faculty-shiela-bora" class="profile-link">View Profile</a>
+                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -369,73 +369,73 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Susmita-Hazarika-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Susmita-Hazarika-RSHSS.png"
                                     alt="Profile image of Dr. Susmita Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Susmita Hazarika</h3>
                             <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-susmita-hazarika" class="profile-link">View Profile</a>
+                            <a href="/faculty-susmita-hazarika" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
                                     alt="Profile image Mr. Mukesh Kalita">
                             </div>
                             <h3 class="card-name">Mr. Mukesh Kalita</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs &
                                 Coordinator, History</p>
-                            <a href="https://www.rgu.ac/faculty-mukesh-kalita" class="profile-link">View Profile</a>
+                            <a href="/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bishnu-Gurung.png"
+                                <img src="/mobile-assets/updated-faculty-img/Bishnu-Gurung.png"
                                     alt="Profile image of Dr. Bishnu Gurung">
                             </div>
                             <h3 class="card-name">Dr. Bishnu Gurung</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-bishnu-gurung" class="profile-link">View Profile</a>
+                            <a href="/faculty-bishnu-gurung" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-KM-Sudha-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Ms-KM-Sudha-RSHSS.png"
                                     alt="Profile image of Ms. KM Sudha">
                             </div>
                             <h3 class="card-name">Dr. KM Sudha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-km-sudha" class="profile-link">View Profile</a>
+                            <a href="/faculty-km-sudha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mir-Kamruzzaman-Chowdhary.png"
+                                <img src="/mobile-assets/updated-faculty-img/Mir-Kamruzzaman-Chowdhary.png"
                                     alt="Profile image of Dr. Mir Kamruzzaman Chowdhary">
                             </div>
                             <h3 class="card-name">Dr. Mir Kamruzzaman Chowdhary</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-mir-kamruzzaman" class="profile-link">View Profile</a>
+                            <a href="/faculty-mir-kamruzzaman" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Tania-Begum.png"
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Tania-Begum.png"
                                     alt="Profile image of Dr. Tania Begum">
                             </div>
                             <h3 class="card-name">Dr. Tania Begum</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-tania-begum" class="profile-link">View Profile</a>
+                            <a href="/faculty-tania-begum" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -447,7 +447,7 @@
                             </div>
                             <h3 class="card-name">Dr. Premmi Wahengbam</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-premmi" class="profile-link">View Profile</a>
+                            <a href="/faculty-premmi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -459,7 +459,7 @@
                             </div>
                             <h3 class="card-name">Dr. Susmita Banerjee</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
+                            <a href="/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -470,14 +470,14 @@
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
                             <p class="card-title">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell</p>
-                            <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
+                            <a href="/faculty-pranab-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
                                     alt="Profile image of Dr. Baishali Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishali Rajkhowa</h3>
@@ -488,38 +488,38 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
+                                <img src="/mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
                                     alt="Profile image of Asif Iqbal Majid">
                             </div>
                             <h3 class="card-name">Mr. Asif Iqbal Mazid</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fashion Design &
                                 Technology
                             </p>
-                            <a href="https://www.rgu.ac/faculty-asif-iqbal-mazid" class="profile-link">View Profile</a>
+                            <a href="/faculty-asif-iqbal-mazid" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/suresh.jpg"
+                                <img src="/mobile-assets/updated-faculty-img/suresh.jpg"
                                     alt="Profile image of Suresh Ranjan Goduka">
                             </div>
                             <h3 class="card-name">Suresh Ranjan Goduka</h3>
                             <p class="card-title">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-suresh-goduka" class="profile-link">View Profile</a>
+                            <a href="/faculty-suresh-goduka" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
+                                <img src="/mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
                                     alt="Profile image of Prabahan Pujari">
                             </div>
                             <h3 class="card-name">Dr. Prabahan Puzari</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-prabahan-puzari" class="profile-link">View Profile</a>
+                            <a href="/faculty-prabahan-puzari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -531,19 +531,19 @@
                             </div>
                             <h3 class="card-name">Dr. Tripti Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-tripti-das" class="profile-link">View Profile</a>
+                            <a href="/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/b_deeparani.png"
+                                <img src="/mobile-assets/updated-faculty-img/b_deeparani.png"
                                     alt="Profile image of bachaspatimayum Devi">
                             </div>
                             <h3 class="card-name" style="font-size: 20px;">Ms. Bachaspatimayum Deeparani Devi</h3>
                             <p class="card-designation">Assistant Professor and Clinical Psychologist (Associate)</p>
-                            <a href="https://www.rgu.ac/bachaspatimayum-deeparani-devi" class="profile-link">View
+                            <a href="/bachaspatimayum-deeparani-devi" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -556,7 +556,7 @@
                             </div>
                             <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
+                            <a href="/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -568,14 +568,14 @@
                             </div>
                             <h3 class="card-name">Dr. Mahuya Deb</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-mahuya-deb" class="profile-link">View Profile</a>
+                            <a href="/faculty-mahuya-deb" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Jasmine-Choudhury-RSL.png"
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Jasmine-Choudhury-RSL.png"
                                     alt="Profile image of Dr. Jasmine A Choudhury">
                             </div>
                             <h3 class="card-name">Dr. Jasmine A Choudhury</h3>
@@ -592,7 +592,7 @@
                             </div>
                             <h3 class="card-name">Mr. Jugal Kishore Bhattacharyya</h3>
                             <p class="card-designation">Assistant Professor & Coordinator GE/AEEC</p>
-                            <a href="https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
+                            <a href="/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -625,24 +625,24 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/shalini.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/shalini.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Shalini Saxena</h3>
                             <p class="card-designation">Professor & HOD, Political Science & Administrative Service</p>
-                            <a href="https://www.rgu.ac/faculty-shalini-saxena" class="profile-link">View Profile</a>
+                            <a href="/faculty-shalini-saxena" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dhiraj.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Dhiraj.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dhiraj Kumar Borkotoky</h3>
                             <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dhiraj-kumar-borkotoky" class="profile-link">View
+                            <a href="/faculty-dhiraj-kumar-borkotoky" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -663,36 +663,36 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg"
+                                <img src="/mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Baba Chandra Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-babachandra-singha" class="profile-link">View Profile</a>
+                            <a href="/faculty-babachandra-singha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Krishangi-Saikia.png"
+                                <img src="/mobile-assets/updated-faculty-img/Krishangi-Saikia.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Krishangi Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-krishangi-saikia" class="profile-link">View Profile</a>
+                            <a href="/faculty-krishangi-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sushmita-Nongmeikapam.png"
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Sushmita-Nongmeikapam.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Sushmita Nongmeikapam</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-sushmita-hoshi-nongmeikapam" class="profile-link">View
+                            <a href="/faculty-sushmita-hoshi-nongmeikapam" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -700,57 +700,70 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/syamkumar.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Syamkumar V</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="/faculty-sushmita-hoshi-nongmeikapam" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Y. Monojit Singha</h3>
                             <p class="card-designation">Assistant Professor
                             </p>
-                            <a href="https://www.rgu.ac/faculty-monojit-singha" class="profile-link">View Profile</a>
+                            <a href="/faculty-monojit-singha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
+                            <a href="/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <a href="https://www.rgu.ac/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
+                            <a href="/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Nikita Biswakarma</h3>
                             <p class="card-designation">Teaching Assistant & Departmental Representative, Academic Affairs
                             </p>
-                            <a href="https://www.rgu.ac/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
+                            <a href="/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
@@ -780,7 +793,7 @@
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
                                 Director,
                                 Centre for Inter-Disciplinary Research</p>
-                            <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
+                            <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -797,21 +810,21 @@
                             </div>
                             <h3 class="card-name">Dr. Tripti Das</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <a href="https://www.rgu.ac/faculty-tripti-das" class="profile-link">View Profile</a>
+                            <a href="/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Denim-Deka.jpg"
+                                <img src="/mobile-assets/updated-faculty-img/Denim-Deka.jpg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Denim Deka</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            <a href="https://www.rgu.ac/faculty-denim-deka" class="profile-link">View Profile</a>
+                            <a href="/faculty-denim-deka" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -830,63 +843,63 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Adishree-Borgohain.png"
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Adishree-Borgohain.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Adishree Borgohain</h3>
                             <p class="card-designation">
                                 Assistant Professor & Assistant Dean, Academic Affairs
                             </p>
-                            <a href="https://www.rgu.ac/faculty-adishree-borgohain" class="profile-link">View Profile</a>
+                            <a href="/faculty-adishree-borgohain" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
+                                <img src="/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Kadiguang Panmei</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            <a href="https://www.rgu.ac/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
+                            <a href="/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Lalzikpuii-Rajkhowa.png"
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Lalzikpuii-Rajkhowa.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Lalzikpuii Rajkhowa</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            <a href="https://www.rgu.ac/faculty-lalzikpuii-rajkhowa" class="profile-link">View Profile</a>
+                            <a href="/faculty-lalzikpuii-rajkhowa" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prajna-Borah-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Prajna-Borah-RSHSS.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Prajna Borah</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            <a href="https://www.rgu.ac/faculty-prajna-borah" class="profile-link">View Profile</a>
+                            <a href="/faculty-prajna-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
@@ -926,7 +939,7 @@
                             </div>
                             <h3 class="card-name">Dr. Priyanka Patowari</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <a href="https://www.rgu.ac/faculty-priyanka-patowari" class="profile-link">View Profile</a>
+                            <a href="/faculty-priyanka-patowari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -949,7 +962,7 @@
                             </div>
                             <h3 class="card-name">Dr. Amlan Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-amlan-das-rshss" class="profile-link">View Profile</a>
+                            <a href="/faculty-amlan-das-rshss" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -990,12 +1003,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Bikash%20c.jpg"
+                                <img src="/mobile-assets/all-faculty/rshss/Bikash%20c.jpg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Bikash Chetry</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <a href="https://www.rgu.ac/faculty-bikash-chetry" class="profile-link">View Profile</a>
+                            <a href="/faculty-bikash-chetry" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1006,7 +1019,7 @@
                             </div>
                             <h3 class="card-name">Ms. Joyeeta Bhattacharjee</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-joyeeta-bhattacharjee" class="profile-link">View
+                            <a href="/faculty-joyeeta-bhattacharjee" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>
@@ -1014,12 +1027,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kristi-Saikia-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Kristi-Saikia-RSHSS.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Kristi Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-kristi-saikia" class="profile-link">View Profile</a>
+                            <a href="/faculty-kristi-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1043,7 +1056,7 @@
             Sociology,
             and Social Work at Royal Global University.
             ",
-            "url": "https://www.rgu.ac/index.php/faculty-humanities-social",
+            "url": "/index.php/faculty-humanities-social",
             "numberOfItems": 56,
             "itemListElement": [{
                     "@type": "ListItem",
@@ -1053,7 +1066,7 @@
                         "name": "Prof. (Dr.) S.C. Mukhopadhyay",
                         "jobTitle": "Professor & Dean, Royal School of Humanities & Social Sciences, Director, Centre for Inter-Disciplinary
                         Research ",
-                        "url": "https://www.rgu.ac/faculty-surajit-c-mukhopadhyay",
+                        "url": "/faculty-surajit-c-mukhopadhyay",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Royal School of Humanities & Social Sciences"
@@ -1080,7 +1093,7 @@
                         "@type": "Person",
                         "name": "Prof. Shiela Bora",
                         "jobTitle": "Professor & Advisor",
-                        "url": "https://www.rgu.ac/faculty-shiela-bora",
+                        "url": "/faculty-shiela-bora",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1107,7 +1120,7 @@
                         "@type": "Person",
                         "name": "Prof. Swabera Islam",
                         "jobTitle": "Professor & Advisor",
-                        "url": "https://www.rgu.ac/faculty-swabera-islam",
+                        "url": "/faculty-swabera-islam",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Royal School of Humanities & Social Sciences"
@@ -1121,7 +1134,7 @@
                         "@type": "Person",
                         "name": "Prof. Gautam Mazumdar",
                         "jobTitle": "Professor",
-                        "url": "https://www.rgu.ac/faculty-gautam-mazumdar",
+                        "url": "/faculty-gautam-mazumdar",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Economics"
@@ -1135,7 +1148,7 @@
                         "@type": "Person",
                         "name": "Dr. Muhammad Deluwar Hoque",
                         "jobTitle": "Associate Professor & HOD, Economics",
-                        "url": "https://www.rgu.ac/faculty-mohammed-deluwar-hoque",
+                        "url": "/faculty-mohammed-deluwar-hoque",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Economics"
@@ -1149,7 +1162,7 @@
                         "@type": "Person",
                         "name": "Dr. Pragya Tamang",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-pragya-tamang",
+                        "url": "/faculty-pragya-tamang",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Economics"
@@ -1163,7 +1176,7 @@
                         "@type": "Person",
                         "name": "Dr. Sanghamitra Hazarika",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-sanghamitra-hazarika",
+                        "url": "/faculty-sanghamitra-hazarika",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Economics"
@@ -1177,7 +1190,7 @@
                         "@type": "Person",
                         "name": "Mr. Jugal Kishore Bhattacharyya",
                         "jobTitle": "Assistant Professor & Coordinator GE/AEEC",
-                        "url": "https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya",
+                        "url": "/faculty-jugal-kishore-bhattacharyya",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Economics"
@@ -1204,7 +1217,7 @@
                         "@type": "Person",
                         "name": "Mr. Mukesh Kalita",
                         "jobTitle": "Assistant Professor & Coordinator, History",
-                        "url": "https://www.rgu.ac/faculty-mukesh-kalita",
+                        "url": "/faculty-mukesh-kalita",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1218,7 +1231,7 @@
                         "@type": "Person",
                         "name": "Dr. Susmita Hazarika",
                         "jobTitle": "Associate Professor",
-                        "url": "https://www.rgu.ac/faculty-susmita-hazarika",
+                        "url": "/faculty-susmita-hazarika",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1232,7 +1245,7 @@
                         "@type": "Person",
                         "name": "Dr. Bishnu Gurung",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-bishnu-gurung",
+                        "url": "/faculty-bishnu-gurung",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1246,7 +1259,7 @@
                         "@type": "Person",
                         "name": "Dr. Mir Kamruzzaman Chowdhary",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-mir-kamruzzaman",
+                        "url": "/faculty-mir-kamruzzaman",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1260,7 +1273,7 @@
                         "@type": "Person",
                         "name": "Dr. Mitali Kalita",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-mitali-kalita",
+                        "url": "/faculty-mitali-kalita",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1274,7 +1287,7 @@
                         "@type": "Person",
                         "name": "Dr. Tania Begum",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-tania-begum",
+                        "url": "/faculty-tania-begum",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1288,7 +1301,7 @@
                         "@type": "Person",
                         "name": "Dr. Susmita Banerjee",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-susmita-banerjee",
+                        "url": "/faculty-susmita-banerjee",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1302,7 +1315,7 @@
                         "@type": "Person",
                         "name": "Dr. Premmi Wahengbam",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-premmi",
+                        "url": "/faculty-premmi",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1316,7 +1329,7 @@
                         "@type": "Person",
                         "name": "Ms. KM Sudha",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-km-sudha",
+                        "url": "/faculty-km-sudha",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1330,7 +1343,7 @@
                         "@type": "Person",
                         "name": "Prof. Shalini Saxena",
                         "jobTitle": "Professor & HOD, Political Science & Administrative Service",
-                        "url": "https://www.rgu.ac/faculty-shalini-saxena",
+                        "url": "/faculty-shalini-saxena",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1344,7 +1357,7 @@
                         "@type": "Person",
                         "name": "Dr. Y. Monojit Singha",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-monojit-singha",
+                        "url": "/faculty-monojit-singha",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1358,7 +1371,7 @@
                         "@type": "Person",
                         "name": "Dr. Dhiraj Kumar Borkotoky",
                         "jobTitle": "Associate Professor",
-                        "url": "https://www.rgu.ac/faculty-dhiraj-kumar-borkotoky",
+                        "url": "/faculty-dhiraj-kumar-borkotoky",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1372,7 +1385,7 @@
                         "@type": "Person",
                         "name": "Dr. Baba Chandra Singha",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-babachandra-singha",
+                        "url": "/faculty-babachandra-singha",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1386,7 +1399,7 @@
                         "@type": "Person",
                         "name": "Dr. Krishangi Saikia",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-krishangi-saikia",
+                        "url": "/faculty-krishangi-saikia",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1400,7 +1413,7 @@
                         "@type": "Person",
                         "name": "Dr. Monika Kumari",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-monika-kumari",
+                        "url": "/faculty-monika-kumari",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1414,7 +1427,7 @@
                         "@type": "Person",
                         "name": "Dr. Sushmita Nongmeikapam",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-sushmita-hoshi-nongmeikapam",
+                        "url": "/faculty-sushmita-hoshi-nongmeikapam",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1428,7 +1441,7 @@
                         "@type": "Person",
                         "name": "Mr. Abhinav Chaliha",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
+                        "url": "/faculty-abhinav-chaliha",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1442,7 +1455,7 @@
                         "@type": "Person",
                         "name": "Ms. Monisha Bordoloi",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-monisha-bordoloi",
+                        "url": "/faculty-monisha-bordoloi",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1456,7 +1469,7 @@
                         "@type": "Person",
                         "name": "Ms. Tanjeela Mehboob",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-tanjeela-mehboob",
+                        "url": "/faculty-tanjeela-mehboob",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1470,7 +1483,7 @@
                         "@type": "Person",
                         "name": "Ms. Nikita Biswakarma",
                         "jobTitle": "Teaching Assistant",
-                        "url": "https://www.rgu.ac/faculty-nikita-biswakarma",
+                        "url": "/faculty-nikita-biswakarma",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Political Science & Public Administration"
@@ -1484,7 +1497,7 @@
                         "@type": "Person",
                         "name": "Dr. Denim Deka",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-denim-deka",
+                        "url": "/faculty-denim-deka",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1498,7 +1511,7 @@
                         "@type": "Person",
                         "name": "Dr. Suhail Ahmed",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-suhail-ahmed",
+                        "url": "/faculty-suhail-ahmed",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1512,7 +1525,7 @@
                         "@type": "Person",
                         "name": "Dr. Tripti Das",
                         "jobTitle": "Assistant Professor & Coordinator",
-                        "url": "https://www.rgu.ac/faculty-tripti-das",
+                        "url": "/faculty-tripti-das",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1539,7 +1552,7 @@
                         "@type": "Person",
                         "name": "Ms. Adishree Borgohain",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-adishree-borgohain",
+                        "url": "/faculty-adishree-borgohain",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1553,7 +1566,7 @@
                         "@type": "Person",
                         "name": "Mr. Kadiguang Panmei",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-kadiguang-panmei",
+                        "url": "/faculty-kadiguang-panmei",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1567,7 +1580,7 @@
                         "@type": "Person",
                         "name": "Ms. Lalzikpuii Rajkhowa",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-lalzikpuii-rajkhowa",
+                        "url": "/faculty-lalzikpuii-rajkhowa",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1581,7 +1594,7 @@
                         "@type": "Person",
                         "name": "Ms. Prajna Borah",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-prajna-borah",
+                        "url": "/faculty-prajna-borah",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Sociology"
@@ -1595,7 +1608,7 @@
                         "@type": "Person",
                         "name": "Dr. Amlan Das",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-amlan-das-rshss",
+                        "url": "/faculty-amlan-das-rshss",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1609,7 +1622,7 @@
                         "@type": "Person",
                         "name": "Dr. Priyanka Patowari",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-priyanka-patowari",
+                        "url": "/faculty-priyanka-patowari",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1623,7 +1636,7 @@
                         "@type": "Person",
                         "name": "Mr. Bikash Chetry",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-bikash-chetry",
+                        "url": "/faculty-bikash-chetry",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1637,7 +1650,7 @@
                         "@type": "Person",
                         "name": "Ms. Joyeeta Bhattacharjee",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-joyeeta-bhattacharjee",
+                        "url": "/faculty-joyeeta-bhattacharjee",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1651,7 +1664,7 @@
                         "@type": "Person",
                         "name": "Ms. Kristi Saikia",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-kristi-saikia",
+                        "url": "/faculty-kristi-saikia",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1665,7 +1678,7 @@
                         "@type": "Person",
                         "name": "Ms. Nabanita Hazarika",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-nabanita-hazarika",
+                        "url": "/faculty-nabanita-hazarika",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of Social Work"
@@ -1679,7 +1692,7 @@
                         "@type": "Person",
                         "name": "Dr. Pranab Jyoti Sarma",
                         "jobTitle": "Faculty Member, IKS Cell",
-                        "url": "https://www.rgu.ac/faculty-pranab-sarma",
+                        "url": "/faculty-pranab-sarma",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1706,7 +1719,7 @@
                         "@type": "Person",
                         "name": "Mr. Asif Iqbal Mazid",
                         "jobTitle": "Assistant Professor & Coordinator, Royal School of Fashion Design & Technology",
-                        "url": "https://www.rgu.ac/faculty-asif-iqbal-mazid",
+                        "url": "/faculty-asif-iqbal-mazid",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1720,7 +1733,7 @@
                         "@type": "Person",
                         "name": "Suresh Ranjan Goduka",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-suresh-goduka",
+                        "url": "/faculty-suresh-goduka",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1734,7 +1747,7 @@
                         "@type": "Person",
                         "name": "Dr. Prabahan Pujari",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-prabahan-puzari",
+                        "url": "/faculty-prabahan-puzari",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1748,7 +1761,7 @@
                         "@type": "Person",
                         "name": "Ms. Bachaspatimayum Deeparani Devi",
                         "jobTitle": "Assistant Professor and Clinical Psychologist (Associate)",
-                        "url": "https://www.rgu.ac/bachaspatimayum-deeparani-devi",
+                        "url": "/bachaspatimayum-deeparani-devi",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1762,7 +1775,7 @@
                         "@type": "Person",
                         "name": "Prof. Abhinav Chaliha",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
+                        "url": "/faculty-abhinav-chaliha",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"
@@ -1789,7 +1802,7 @@
                         "@type": "Person",
                         "name": "Dr. Mahuya Deb",
                         "jobTitle": "Assistant Professor",
-                        "url": "https://www.rgu.ac/faculty-mahuya-deb",
+                        "url": "/faculty-mahuya-deb",
                         "worksFor": {
                             "@type": "EducationalOrganization",
                             "name": "Department of History"

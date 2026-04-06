@@ -409,7 +409,7 @@
                 <div class="phd-category">
                     <h3>Languages</h3>
                     <div class="phd-links">
-                        <a href="#">Assamese</a>
+                        <a href="/doctoral-assamese">Assamese</a>
                         <a href="/doctoral-english">English</a>
                     </div>
                 </div>
@@ -675,53 +675,304 @@
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Exam Notification/ News/Events
+                                Exam Notification
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
 
-                                <strong class="text-primary">Exam Notification -</strong><br>
-                                <ul>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/1. Examination Form fill-up (Regular & Repeat) for PhD Coursework.pdf">Examination
-                                            Form fill-up (Regular & Repeat) for Ph.D. Coursework</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/2. PhD Course Work Examination Timetable.pdf">Ph.D.
-                                            Course Work Examination Timetable</a></li>
-                                </ul>
-                                <strong class="text-primary">Ph.D. Awareded Notification -</strong><br>
-                                <ul>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D Notification_30-03-2024.pdf">Ph.D
-                                            Notification_30-03-2024</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notifcation 01.07.2024.pdf">Ph.D.
-                                            Notification 01.07.2024</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Neha Garg)[58701].pdf">Ph.D.
-                                            Notification (Neha Garg)[58701]</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Rajdeep Nag)[58700].pdf">Ph.D.
-                                            Notification (Rajdeep Nag)[58700]</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification 31.5.2024.pdf">Ph.D.
-                                            Notification 31.5.2024</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_19-10-2023.pdf">Ph.D.
-                                            Notification_19-10-2023</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_28-02-2024.pdf">Ph.D.
-                                            Notification_28-02-2024</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_30-11-2023.pdf">Ph.D.
-                                            Notification_30-11-2023</a></li>
-                                    <li><a
-                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_31-08-2023.pdf">Ph.D.
-                                            Notification_31-08-2023</a></li>
+                                <!-- ================= STYLES ================= -->
+                                <style>
+                                    .year-card {
+                                        border: 2px solid #ffa929;
+                                        border-radius: 10px;
+                                        transition: 0.3s;
+                                        cursor: pointer;
+                                    }
+
+                                    .year-card:hover {
+                                        background-color: #fff5e6;
+                                        transform: scale(1.03);
+                                    }
+
+                                    .notify-card {
+                                        border: 2px solid #ffa929;
+                                        border-radius: 8px;
+                                        padding: 12px;
+                                        text-align: center;
+                                        transition: 0.3s;
+                                        font-size: 22px;
+                                        text-align: center;
+                                    }
+
+                                    .notify-card:hover {
+                                        background-color: #fff5e6;
+                                        transform: scale(1.03);
+                                    }
+
+                                    a {
+                                        text-decoration: none;
+                                        color: inherit;
+                                        font-size: 22px;
+                                    }
+                                </style>
+
+
+                                <!-- ================= YEAR CARDS ================= -->
+                                <div class="row g-3">
+
+                                    <!-- 2018 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal1">
+                                            <h5>2018</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2019 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal2">
+                                            <h5>2019</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2020 (PDF) -->
+                                    <div class="col-md-4">
+                                        <a href="/mobile-assets/PhD-examinations-notifications/2020/PhD coursework examinations notifications-01-10-2020.pdf" target="_blank">
+                                            <div class="card year-card p-3 text-center">
+                                                <h5>2020</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <!-- 2021 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal4">
+                                            <h5>2021</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2022 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal5">
+                                            <h5>2022</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2023 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal6">
+                                            <h5>2023</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2024 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal7">
+                                            <h5>2024</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2025 -->
+                                    <div class="col-md-4">
+                                        <div class="card year-card p-3 text-center" data-bs-toggle="modal"
+                                            data-bs-target="#modal8">
+                                            <h5>2025</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2026 (PDF) -->
+                                    <div class="col-md-4">
+                                        <a href="/mobile-assets/PhD-examinations-notifications/2026/PhD coursework examinations notifications-20-02-2026.pdf" target="_blank">
+                                            <div class="card year-card p-3 text-center">
+                                                <h5>2026</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- ================= MODALS ================= -->
+
+                                <!-- COMMON STRUCTURE APPLIED -->
+
+                                <!-- 2018 -->
+                                <div class="modal fade" id="modal1">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2018 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center">
+                                                    <a href="/mobile-assets/PhD-examinations-notifications/2018/PhD coursework examinations notifications-29.05.2018.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-3 d-flex justify-content-center">
+                                                    <a href="/mobile-assets/PhD-examinations-notifications/2018/PhD coursework examinations notifications-27.11.2018.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2019 -->
+                                <div class="modal fade" id="modal2">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2019 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2019/PhD coursework examinations notifications-01-07-2019.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2019/PhD coursework examinations notifications-02-12-2019.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2021 -->
+                                <div class="modal fade" id="modal4">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2021 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2021/PhD coursework examinations notifications-04-02-2021.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2021/PhD coursework examinations notifications-24.09.2021.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2022 -->
+                                <div class="modal fade" id="modal5">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2022 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2022/PhD coursework examinations notifications-28-02-2022.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2022/PhD coursework examinations notifications-12-08-2022.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2023 -->
+                                <div class="modal fade" id="modal6">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2023 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2023/PhD coursework examinations notifications-11-01-2023.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2023/PhD coursework examinations notifications-26-07-2023.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2024 -->
+                                <div class="modal fade" id="modal7">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2024 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-12-01-2024.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-09-07-2024.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2024/PhD coursework examinations notifications-20-07-2024.pdf">
+                                                        <div class="notify-card">Notification 3</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2025 -->
+                                <div class="modal fade" id="modal8">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content p-3 text-center align-items-center">
+
+                                            <h5 class="w-100">2025 Notifications</h5>
+
+                                            <div class="row g-3 mt-2 justify-content-center w-100">
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-09-01-2025.pdf">
+                                                        <div class="notify-card">Notification 1</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-09.01.2025.pdf">
+                                                        <div class="notify-card">Notification 2</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-25-03-2025.pdf">
+                                                        <div class="notify-card">Notification 3</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-03-06-2025.pdf">
+                                                        <div class="notify-card">Notification 4</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-03.06.2025.pdf">
+                                                        <div class="notify-card">Notification 5</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-16-07-2025.pdf">
+                                                        <div class="notify-card">Notification 6</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-08-12-2025.pdf">
+                                                        <div class="notify-card">Notification 7</div>
+                                                    </a></div>
+                                                <div class="col-md-3 d-flex justify-content-center"><a href="/mobile-assets/PhD-examinations-notifications/2025/PhD coursework examinations notifications-12-12-2025.pdf">
+                                                        <div class="notify-card">Notification 8</div>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
 
                             </div>
+
+                            <!-- Bootstrap JS (REQUIRED) -->
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                         </div>
                     </div>
 

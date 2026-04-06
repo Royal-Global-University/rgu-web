@@ -409,7 +409,7 @@
                 <div class="phd-category">
                     <h3>Languages</h3>
                     <div class="phd-links">
-                        <a href="#">Assamese</a>
+                        <a href="/doctoral-assamese">Assamese</a>
                         <a href="/doctoral-english">English</a>
                     </div>
                 </div>

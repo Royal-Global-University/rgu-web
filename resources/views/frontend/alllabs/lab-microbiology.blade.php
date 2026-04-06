@@ -2,9 +2,18 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-microbio/mobileMicrobiologyLab.png" alt="">
-        </div>
+        <div style="padding-top: 110px; position: relative;"></div>
+        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">Microbiology Lab</h1>
+        <img decoding="async" class="p-4 rounded" src="mobile-assets/lab-microbio/headimg.JPG" alt="">
+        <p class="text-dark para1 p-3" style="text-align: justify;">
+            The Microbiology lab is one of the many labs at Royal Global University. The
+            laboratory caters to both undergraduate and postgraduate students of the
+            department. The microbiology laboratory is devoted to the culturing,
+            examination, and identification of microorganisms including bacteria, fungi,
+            yeasts, etc. The lab is supervised by experts with proper educational
+            qualifications and training. The lab is in block- D in room No. D202 on the
+            second floor.
+        </p>
     </div>
 
     <div class="website">
@@ -27,7 +36,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-microbio/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-microbio/headimg.JPG"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -66,64 +76,60 @@
             </section>
         </div>
 
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
-
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Included
-                        In The Lab Are:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Laminar air flow horizontal</li>
-                        <li class="para1 text-dark">Laminar air flow vertical</li>
-                        <li class="para1 text-dark">Hot air oven</li>
-                        <li class="para1 text-dark">Autoclave vertical</li>
-                        <li class="para1 text-dark">UV Vis spectrophotometer</li>
-                        <li class="para1 text-dark">PH Meter</li>
-                        <li class="para1 text-dark">BOD cooling incubator</li>
-                        <li class="para1 text-dark">Shaker Incubator</li>
-                        <li class="para1 text-dark">Uni Bloc ATx224 lab balance</li>
-                        <li class="para1 text-dark">Refrigerator</li>
-                        <li class="para1 text-dark">Cooling high-speed centrifuge</li>
-                        <li class="para1 text-dark">Magnetic Stirrer</li>
-                        <li class="para1 text-dark">Double distillation unit with cut off</li>
-                        <li class="para1 text-dark">Microbiological shaker</li>
-                        <li class="para1 text-dark">Water bath</li>
-                        <li class="para1 text-dark">Mini Centrifuge Fixed Speed</li>
-                        <li class="para1 text-dark">Compound microscope</li>
-                        <li class="para1 text-dark">Cell Disruptor</li>
-                        <li class="para1 text-dark">Analytical weighing balance</li>
-                        <li class="para1 text-dark">Refractometer</li>
-                        <li class="para1 text-dark">Ultrafiltration cell unit etc</li>
-                    </ol>
-
-                </div>
-
-                <div class="custom-column p-4">
-
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Activities Includes:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Isolation and identification of industrially important microorganisms
-                        </li>
-                        <li class="para1 text-dark">Effect of various parameters on the growth curve of bacteria and yeast
-                        </li>
-                        <li class="para1 text-dark">Application of replica plate and gradient plate technique on the
-                            isolation of antibiotic-resistant mutants</li>
-                        <li class="para1 text-dark">Microbiological quality of processed food like milk, dehydrated food and
-                            spoiled food</li>
-                        <li class="para1 text-dark">Batch fermentation in shake flakes, alcohol production from fruits,
-                            enzyme immobilization techniques etc</li>
-                    </ol>
-                </div>
-            </div>
-
-        </div>
-
 
         <img src="mobile-assets/lab-microbio/MicrobiologyLab.png" alt="">
+    </div>
+
+    <div class="pt-4 pb-4">
+        <div class="custom-row">
+            <div class="custom-column p-4">
+
+                <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Included
+                    In The Lab Are:
+                </h2>
+                <hr>
+                <ol>
+                    <li class="para1 text-dark">Analytical Balance</li>
+                    <li class="para1 text-dark">Autoclave</li>
+                    <li class="para1 text-dark">Agarose Gel Electrophoresis Unit</li>
+                    <li class="para1 text-dark">Bench Top Cooling Centrifuge</li>
+                    <li class="para1 text-dark">Bio Safety Cabinet</li>
+                    <li class="para1 text-dark">Digital Colony Counter</li>
+                    <li class="para1 text-dark">Digital pH Meter</li>
+                    <li class="para1 text-dark">Deep Freezer (-20°C)</li>
+                    <li class="para1 text-dark">Hot Air Oven</li>
+                    <li class="para1 text-dark">Hot Plate</li>
+                    <li class="para1 text-dark">Static Incubator</li>
+                    <li class="para1 text-dark">Microscope</li>
+                    <li class="para1 text-dark">Magnetic Stirrer</li>
+                    <li class="para1 text-dark">Refrigerators</li>
+                    <li class="para1 text-dark">Water Bath</li>
+                    <li class="para1 text-dark">Double Distillation Unit</li>
+                    <li class="para1 text-dark">Shaker Incubator</li>
+                </ol>
+
+            </div>
+
+            <div class="custom-column p-4">
+
+                <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
+                    Activities Includes:
+                </h2>
+                <hr>
+                <ol>
+                    <li class="para1 text-dark">Isolation and identification of industrially important microorganisms
+                    </li>
+                    <li class="para1 text-dark">Effect of various parameters on the growth curve of bacteria and yeast
+                    </li>
+                    <li class="para1 text-dark">Application of replica plate and gradient plate technique on the
+                        isolation of antibiotic-resistant mutants</li>
+                    <li class="para1 text-dark">Microbiological quality of processed food like milk, dehydrated food and
+                        spoiled food</li>
+                    <li class="para1 text-dark">Batch fermentation in shake flakes, alcohol production from fruits,
+                        enzyme immobilization techniques etc</li>
+                </ol>
+            </div>
+        </div>
+
     </div>
 @endsection

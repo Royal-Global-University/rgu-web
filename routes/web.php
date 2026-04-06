@@ -754,6 +754,10 @@ Route::get('/doctoral-biochemistry', function () {
     return view('frontend/phd/doctoral-biochemistry');
 })->name('doctoral-biochemistry');
 
+Route::get('/doctoral-assamese', function () {
+    return view('frontend/phd/doctoral-assamese');
+})->name('doctoral-assamese');
+
 Route::get('/placements-events', function () {
     return view('frontend/placement/placement-events');
 })->name('placements-events');

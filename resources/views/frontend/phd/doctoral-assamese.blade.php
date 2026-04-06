@@ -14,7 +14,7 @@
 
                 <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
                     <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Ph.D. Programme in</span> <br>
-                    Physical Education and Sports (RSPES)
+                    Assamese
                 </h2>
 
                 <div class="container">
@@ -23,25 +23,21 @@
 
                             <div class="txaa-slide-down-1">
                                 <div style=" height: 400px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="home-banner/bpes.png" alt="">
+                                    <img class="rounded" decoding="async"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/headimg.jpeg"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12">
 
-                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
                             <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The PhD in Physical Education and Sports Programme is designed to promote advanced research
-                                and scholarly development in the field of physical education, sports science, and athletic
-                                performance. The programme aims to equip scholars with in-depth knowledge of exercise
-                                physiology, sports psychology, biomechanics, training methodology, and sports management.
-                                Through systematic research and scientific investigation, scholars are encouraged to
-                                contribute to the development of innovative practices that enhance physical fitness, sports
-                                performance, and overall well-being. The programme also focuses on addressing contemporary
-                                challenges in sports and physical education while promoting evidence-based approaches for
-                                athlete development, health promotion, and sports participation at various levels of society
+                                The Doctoral Programme of the Department of Assamese is designed to foster rigorous
+                                scholarly inquiry and original research in Assamese language and literature. The programme
+                                encourages interdisciplinary research that explores the intersections of language, culture,
+                                history, and folklore of Assam and Northeast India. Research areas include Ethnic Studies,
+                                Oral Traditions, World Literatures, Environmental Humanities, and Translation Studies,
+                                situating Assamese literature within a broader global literary context.
                             </p>
 
                         </div>
@@ -69,7 +65,7 @@
 
                             <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
                                 <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Ph.D. Programme in</span>
-                                Physical Education and Sports (RSPES)
+                                Assamese
                             </h2>
                         </div>
 
@@ -79,7 +75,8 @@
                                 <div class="col-lg-6 text-center">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div>
-                                            <img class="rounded w-60" decoding="async" src="home-banner/bpes.png"
+                                            <img class="rounded w-60" decoding="async" style="height: 450px"
+                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/headimg.jpeg"
                                                 alt="">
                                         </div>
                                     </div>
@@ -87,21 +84,15 @@
 
                                 <div class="col-lg-6">
 
-                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
                                     <p class="mobile-para1 pt-3"
                                         style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The PhD in Physical Education and Sports Programme is designed to promote advanced
-                                        research and scholarly development in the field of physical education, sports
-                                        science, and athletic performance. The programme aims to equip scholars with
-                                        in-depth knowledge of exercise physiology, sports psychology, biomechanics, training
-                                        methodology, and sports management. Through systematic research and scientific
-                                        investigation, scholars are encouraged to contribute to the development of
-                                        innovative practices that enhance physical fitness, sports performance, and overall
-                                        well-being. The programme also focuses on addressing contemporary challenges in
-                                        sports and physical education while promoting evidence-based approaches for athlete
-                                        development, health promotion, and sports participation at various levels of society
+                                        The Doctoral Programme of the Department of Assamese is designed to foster rigorous
+                                        scholarly inquiry and original research in Assamese language and literature. The
+                                        programme encourages interdisciplinary research that explores the intersections of
+                                        language, culture, history, and folklore of Assam and Northeast India. Research
+                                        areas include Ethnic Studies, Oral Traditions, World Literatures, Environmental
+                                        Humanities, and Translation Studies, situating Assamese literature within a broader
+                                        global literary context.
                                     </p>
 
                                 </div>
@@ -198,7 +189,6 @@
             </p>
 
             <hr>
-
         </div>
 
     </div>
