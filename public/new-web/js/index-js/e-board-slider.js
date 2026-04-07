@@ -1,9 +1,6 @@
 /* ================= 4. E-BOARD SLIDER ================= */
 
 const eboardData = [
-    { img: "/mobile-assets/ads/april/604-1.jpeg", alt: "Event 5" },
-    { img: "/mobile-assets/ads/april/604-2.jpeg", alt: "Event 6" },
-    { img: "/mobile-assets/ads/april/604-3.jpeg", alt: "Event 5" },
     {
         img: "https://media.rgu.ac/new-web/img/index/e-board/4.jpeg",
         alt: "Event 4",
