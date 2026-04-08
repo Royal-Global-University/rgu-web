@@ -209,12 +209,8 @@
 
             <section class="rgu-swayam-section rgu-swayam-delay-1">
                 <h2>Vision & Integration</h2>
-                <p>The Assam Royal Global University actively promotes SWAYAM as a key initiative aligned with its
-                    commitment to digital learning, academic excellence, and holistic student development in line with the
-                    vision of the Ministry of Education.</p>
-                <p>The University encourages students from all disciplines to enroll in SWAYAM courses to complement their
-                    curriculum, enhance conceptual understanding, and gain exposure to high-quality content delivered by
-                    experts from premier institutions.</p>
+                <p>The Assam Royal Global University actively promotes SWAYAM as a key initiative aligned with its commitment to digital learning, academic excellence, and holistic student development in line with the vision of the Ministry of Education.</p>
+                <p>The University mandates students of UG and PG level, from all disciplines to enrol in SWAYAM courses to complement their curriculum, enhance conceptual understanding, and gain exposure to high-quality content delivered by experts from platform of SWAYAM.</p>
             </section>
 
             <section class="rgu-swayam-section rgu-swayam-delay-3">
@@ -222,7 +218,7 @@
 
                 <div class="rgu-swayam-stats-grid">
                     <div class="rgu-swayam-stat-box">
-                        <div class="rgu-swayam-stat-number">1,630</div>
+                        <div class="rgu-swayam-stat-number">3,000</div>
                         <div class="rgu-swayam-stat-label">Students Enrolled<br>(AY 2025-26)</div>
                     </div>
                     <div class="rgu-swayam-stat-box">
@@ -244,32 +240,19 @@
                 <h2>Support & Mentorship System</h2>
                 <div class="rgu-swayam-highlight-grid">
                     <div class="rgu-swayam-highlight-card">
-                        <p>To ensure effective implementation, faculty members are designated as mentors and course
-                            coordinators who guide students in course selection, monitor their academic progress, and
-                            provide continuous support throughout the learning process.</p>
+                        <p>To ensure effective implementation, faculty members are designated as mentors who guide students in course selection, monitor their academic progress, ensure timely completion of assignments as per the course requirements. and provide continuous support throughout the learning process.</p>
                     </div>
                     <div class="rgu-swayam-highlight-card">
-                        <p>In addition, the SWAYAM Nodal Officer plays a pivotal role as the central coordinating authority,
-                            facilitating communication with SWAYAM, overseeing enrolments, ensuring timely dissemination of
-                            information regarding courses and examinations, maintaining records of student participation and
-                            certifications, and supporting credit transfer as per regulatory guidelines.</p>
+                        <p>The SWAYAM Nodal Officer is involved for coordinating, facilitating communication with SWAYAM, overseeing enrolments, ensuring timely dissemination of information regarding courses and examinations, maintaining records of student participation and certifications, and supporting credit transfer as per regulatory guidelines.</p>
                     </div>
                 </div>
-                <p style="margin-top: 20px;">The University also conducts regular awareness programs, workshops, and
-                    orientation sessions to promote participation and highlight the benefits of SWAYAM, including flexible
-                    learning, skill enhancement, and increased employability. Through this well-structured and collaborative
-                    approach, the University fosters a culture of self-directed and lifelong learning, empowering students
-                    to become technologically proficient, academically enriched, and globally competitive in an evolving
-                    educational landscape.</p>
+                <p style="margin-top: 20px;">All students enrolled in University programmes from the Academic Year 2025–26 onwards are required to undertake one SWAYAM course in each semester, till 4th semester. Accordingly, undergraduate students must complete a total of four SWAYAM courses, while postgraduate students are required to complete two courses during their programme.</p>
             </section>
 
             <section class="rgu-swayam-section rgu-swayam-delay-3">
                 <h2>Infrastructure & Academic Policies</h2>
-                <p>As an approved SWAYAM examination centre, RGU provides necessary infrastructure and support for
-                    conducting proctored Semester End Examination, for the courses enrolled by the students.</p>
-                <p>Credits earned through SWAYAM are considered as per university norms. All students enrolled in University
-                    programmes from the Academic Year 2025–26 onwards are required to undertake one SWAYAM course in each
-                    semester, till 4th semester.</p>
+                <p>As an approved SWAYAM examination centre, RGU provides necessary infrastructure and support for conducting proctored Semester End Examination, for the courses enrolled by the students.</p>
+                <p>Credits earned through SWAYAM are considered as per university norms.</p>
                 <div class="rgu-swayam-highlight-grid">
                     <div class="rgu-swayam-highlight-card" style="border-left-color: var(--rgu-swayam-primary);">
                         <strong>Undergraduate Requirement:</strong> Undergraduate students must complete a total of four
