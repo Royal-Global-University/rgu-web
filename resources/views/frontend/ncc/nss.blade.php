@@ -904,12 +904,12 @@
             </p>
 
             <!-- Buttons -->
-            <div class="nss-buttons">
+            {{-- <div class="nss-buttons">
                 <a href="https://nss-rgu-service.preview.static.emergentagent.com/volunteer" class="btn-primary">Become a
                     Volunteer →</a>
                 <a href="https://nss-rgu-service.preview.static.emergentagent.com/activities" class="btn-outline">Explore
                     Activities</a>
-            </div>
+            </div> --}}
 
         </div>
 
@@ -1173,15 +1173,15 @@
                 experiences.
             </p>
 
-            <a href="https://nss-rgu-service.preview.static.emergentagent.com/volunteer" class="nss-cta-btn">
+            {{-- <a href="https://nss-rgu-service.preview.static.emergentagent.com/volunteer" class="nss-cta-btn">
                 Join NSS Today →
-            </a>
+            </a> --}}
 
         </div>
 
     </section>
 
-    <section class="nss-marquee">
+    {{-- <section class="nss-marquee">
 
         <div class="nss-marquee-container">
 
@@ -1236,7 +1236,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <section class="nss-contact">
 
@@ -1270,7 +1270,7 @@
                 </div>
 
                 <!-- Phone -->
-                <div class="item">
+                {{-- <div class="item">
                     <span class="icon">
                         <svg viewBox="0 0 24 24" fill="none">
                             <path d="M5 4h4l2 5-2 1a12 12 0 0 0 5 5l1-2 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2z"
@@ -1279,9 +1279,9 @@
                     </span>
                     <div>
                         <h4>Phone</h4>
-                        <p>+91 361 2570 000</p>
+                        <p></p>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Email -->
                 <div class="item">
@@ -1308,7 +1308,7 @@
                     </span>
                     <div>
                         <h4>Office Hours</h4>
-                        <p>Mon–Fri: 9–5<br>Sat: 10–2</p>
+                        <p>Mon–Fri: 9 AM – 5 PM<br>Sat: 10 AM – 2 PM</p>
                     </div>
                 </div>
 
