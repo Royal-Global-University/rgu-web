@@ -55,6 +55,10 @@ Route::get('/notifications', function () {
     return view('frontend/discoverRGU/notifications');
 })->name('notifications');
 
+Route::get('/swayam', function () {
+    return view('frontend/swayam/swayam');
+})->name('swayam');
+
 
 //Discover RGU
 
