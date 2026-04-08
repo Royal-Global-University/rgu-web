@@ -919,12 +919,12 @@
         <div class="nss-stats-container">
 
             <div class="nss-stat">
-                <h2>150+</h2>
+                <h2>200+</h2>
                 <p>Active Volunteers</p>
             </div>
 
             <div class="nss-stat">
-                <h2>500+</h2>
+                <h2>100+</h2>
                 <p>Blood Units Collected</p>
             </div>
 
