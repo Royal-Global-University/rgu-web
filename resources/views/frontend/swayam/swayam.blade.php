@@ -214,7 +214,7 @@
             </section>
 
             <section class="rgu-swayam-section rgu-swayam-delay-3">
-                <h2>Current Enrollment Statistics</h2>
+                <h2>Swayam Current Enrollment Statistics in RGU</h2>
 
                 <div class="rgu-swayam-stats-grid">
                     <div class="rgu-swayam-stat-box">
@@ -256,11 +256,11 @@
                 <div class="rgu-swayam-highlight-grid">
                     <div class="rgu-swayam-highlight-card" style="border-left-color: var(--rgu-swayam-primary);">
                         <strong>Undergraduate Requirement:</strong> Undergraduate students must complete a total of four
-                        SWAYAM courses.
+                        SWAYAM courses till 4th sem of UG.
                     </div>
                     <div class="rgu-swayam-highlight-card" style="border-left-color: var(--rgu-swayam-primary);">
                         <strong>Postgraduate Requirement:</strong> Postgraduate students are required to complete two
-                        courses during their programme.
+                        courses till 2nd sem.
                     </div>
                 </div>
             </section>
