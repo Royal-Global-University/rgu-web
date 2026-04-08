@@ -3739,6 +3739,10 @@ Route::get('/faculty-hrishikesh-pathak', function () {
 
 //RSAG Faculty Profile
 
+Route::get('/faculty-bharati-lap', function () {
+    return view('frontend/facultyprofile/rsag/bharati-lap');
+})->name('faculty-bharati-lap');
+
 Route::get('/faculty-monalisha-b-deka', function () {
     return view('frontend/facultyprofile/rsag/monalisha');
 })->name('faculty-monalisha-b-deka');

@@ -58,8 +58,8 @@
                         <li><a href="/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
                                 Application</a></li>
                         <li><a href="/grievance">Students' Grievance</a></li>
-                        <li><a href="/phd">Doctoral Programme</a></li>
-                        <li><a href="/phd-scholars">Doctoral Degrees</a></li>
+                        <li><a href="/mobile-assets/pdf/WITHDRAWAL.pdf">Students Withdrawal Form</a></li>
+
 
                     </ul>
 
@@ -79,6 +79,8 @@
                         <li><a href="https://rgujournal.in/">RGU Journal</a></li>
                         <li><a href="/nirf">NIRF</a></li>
                         <li><a href="https://rgu.ac/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>
+                        <li><a href="/phd">Doctoral Programme</a></li>
+                        <li><a href="/phd-scholars">Doctoral Degrees</a></li>
                     </ul>
 
                 </div>
