@@ -219,11 +219,11 @@
                 <div class="rgu-swayam-stats-grid">
                     <div class="rgu-swayam-stat-box">
                         <div class="rgu-swayam-stat-number">3,000</div>
-                        <div class="rgu-swayam-stat-label">Students Enrolled<br>(AY 2025-26)</div>
+                        <div class="rgu-swayam-stat-label">Students Enrolled<br>(Jul-Dec 2025)</div>
                     </div>
                     <div class="rgu-swayam-stat-box">
                         <div class="rgu-swayam-stat-number">86</div>
-                        <div class="rgu-swayam-stat-label">SWAYAM Courses<br>(AY 2025-26)</div>
+                        <div class="rgu-swayam-stat-label">SWAYAM Courses<br>(Jul-Dec 2025)</div>
                     </div>
                     <div class="rgu-swayam-stat-box">
                         <div class="rgu-swayam-stat-number">3,520</div>
