@@ -51,6 +51,10 @@ Route::get('/contact', function () {
     return view('frontend/contact/contact-us');
 })->name('contact');
 
+Route::get('/contact-us', function () {
+    return view('frontend/contact/contact');
+})->name('contact-us');
+
 Route::get('/notifications', function () {
     return view('frontend/discoverRGU/notifications');
 })->name('notifications');

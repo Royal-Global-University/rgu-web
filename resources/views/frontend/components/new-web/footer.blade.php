@@ -30,12 +30,12 @@
                         <li><a href="https://admissions.rgu.ac/">International Admissions 2026–27</a></li>
                         <li><a href="/programs">Eligibility & Selection
                                 Criteria</a></li>
-                        <li><a href="https://rgu.ac/admission-programs-fees-structure">Fees 2026–27</a></li>
-                        <li><a href="https://rgu.ac/how-to-apply">How to Apply</a></li>
-                        <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
-                        <li><a href="https://rgu.ac/faq">FAQs</a></li>
-                        <li><a href="https://rgu.ac/contact">Admission Offices</a></li>
-                        <li><a href="https://rgu.ac/scholarship&funding">Scholarships & Funding</a></li>
+                        <li><a href="/admission-programs-fees-structure">Fees 2026–27</a></li>
+                        <li><a href="/how-to-apply">How to Apply</a></li>
+
+                        <li><a href="/faq">FAQs</a></li>
+                        <li><a href="/contact">Admission Offices</a></li>
+                        <li><a href="/scholarship&funding">Scholarships & Funding</a></li>
                         <li><a href="https://admissions.rgu.ac/">View Our Full Online Admission Process</a></li>
                     </ul>
 
@@ -49,18 +49,13 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="/notifications">Announcement</a></li>
-                        <li><a href="/social-outreach">Social Outreach</a></li>
-                        <li><a href="/examinations">Examination</a></li>
-                        <li><a href="/research-devlopment">Research & Development</a></li>
-                        <li><a href="https://heyzine.com/flip-book/fd544660d3.html">Brochure 2025–2026</a></li>
+                        {{-- <li><a href="/examinations">Examination</a></li> --}}
+                        <li><a href="/mobile-assets/pdf/Brochure 2026.pdf">Brochure 2026–2027</a></li>
                         <li><a href="/annual-report">Annual Report</a></li>
-                        <li><a href="/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
-                                Application</a></li>
-                        <li><a href="/grievance">Students' Grievance</a></li>
-                        <li><a href="/mobile-assets/pdf/WITHDRAWAL.pdf">Students Withdrawal Form</a></li>
-
-
+                        <li><a href="/institutional-development-plan">Institutional Development Plan</a></li>
+                        <li><a href="/self-disclosure">Public Self Disclosure</a></li>
+                        <li><a href="https://www.rgujournal.in/">RGU Journal</a></li>
+                        <li><a href="/nirf">NIRF</a></li>
                     </ul>
 
                 </div>
@@ -69,18 +64,35 @@
                 <div class="unq-rgu-ftr-col">
 
                     <h4 class="unq-rgu-ftr-heading">
-                        <span>ABOUT THE BEST PRIVATE UNIVERSITY</span>
+                        <span>Research</span>
                         <span class="footer-toggle">+</span>
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://rgu.ac/self-disclosure">Public Self Disclosure</a></li>
-                        <li><a href="https://rgu.ac/preface">Preface</a></li>
+                        <li><a href="https://shodhchakra.inflibnet.ac.in/">Shodh Chakra</a></li>
+                        {{-- <li><a href="/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li> --}}
+                        <li><a href="/phd">Doctoral Programme</a></li>
+                        <li><a href="/research-devlopment">R&D Activities</a></li>
+                    </ul>
+
+                    <h4 class="unq-rgu-ftr-heading pt-3">
+                        <span>Student Section</span>
+                        <span class="footer-toggle">+</span>
+                    </h4>
+
+                    <ul class="unq-rgu-ftr-list">
+                        <li><a href="/mobile-assets/Alumni/Alumni%20Form.pdf">Caution Money Refund
+                                Application</a></li>
+                        <li><a href="/grievance">Students' Grievance</a></li>
+                        <li><a href="/mobile-assets/pdf/WITHDRAWAL.pdf">Students Withdrawal Form</a></li>
+                        <li><a href="/equal-opportunities-cell">Equal Opportunity Cell</a></li>
+                        <li><a href="/counselling-cell">Counselling Cell</a></li>
+                        {{-- <li><a href="/institutional-development-plan">Institutional Development Plan</a></li>
                         <li><a href="https://rgujournal.in/">RGU Journal</a></li>
                         <li><a href="/nirf">NIRF</a></li>
-                        <li><a href="https://rgu.ac/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>
+                        <li><a href="/mobile-assets/Policy/consultancy%20policy.pdf">RGU Policy</a></li>
                         <li><a href="/phd">Doctoral Programme</a></li>
-                        <li><a href="/phd-scholars">Doctoral Degrees</a></li>
+                        <li><a href="/phd-scholars">Doctoral Degrees</a></li> --}}
                     </ul>
 
                 </div>
@@ -94,13 +106,12 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://rgu.ac/medical-facility">Medical Emergency No.</a></li>
-                        {{-- <li><a href="#">Women Helpline No.</a></li> --}}
-                        <li><a href="https://rgu.ac/internal-complaints-committee">Internal Complaints Committee</a>
+                        <li><a href="/medical-facility">Medical Emergency No.</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/internal-complaints-committee">Internal Complaints Committee</a>
                         </li>
-                        <li><a href="https://rgu.ac/institutional-development-plan">Institutional Development Plan</a>
-                        </li>
-                        <li><a href="https://shodhchakra.inflibnet.ac.in/">Shodh Chakra</a></li>
+                        <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
+                        <li><a href="https://nad.digilocker.gov.in/login">Digilocker NAD</a></li>
                     </ul>
 
                 </div>
@@ -114,10 +125,10 @@
 
                     <ul class="unq-rgu-ftr-list">
                         <li><a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">Our Video</a></li>
-                        <li><a href="https://rgu.ac/media-corner">Media Corner</a></li>
-                        <li><a href="https://rgu.ac/blog">RGU Blog</a></li>
-                        <li><a href="https://rgu.ac/360-tour">360° View</a></li>
-                        <li><a href="https://nad.digilocker.gov.in/login">Digilocker NAD</a></li>
+                        <li><a href="/media-corner">Media Corner</a></li>
+                        <li><a href="/blog">RGU Blog</a></li>
+                        <li><a href="/360-tour">360° View</a></li>
+
                     </ul>
 
                 </div>
@@ -132,11 +143,10 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="https://rgu.ac/phd-cell">Ph.D. Cell</a></li>
-                        <li><a href="https://rgu.ac/equal-opportunities-cell">Equal Opportunity Cell</a></li>
-                        <li><a href="https://rgu.ac/counselling-cell">Counselling Cell</a></li>
-                        <li><a href="https://rgu.ac/cisr">CISR</a></li>
-                        <li><a href="https://www.rgu.ac/jobs-vacancies">Jobs Vacancies</a></li>
+                        <li><a href="/social-outreach">Social Outreach</a></li>
+                        <li><a href="/national-service-scheme">NSS</a></li>
+                        <li><a href="/national-cadet-corps">NCC</a></li>
+
                     </ul>
 
                 </div>
