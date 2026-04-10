@@ -524,6 +524,10 @@ Route::get('/arts-studio', function () {
     return view('frontend/alllabs/lab-fine-arts');
 })->name('arts-studio');
 
+Route::get('/arts-drape-studio', function () {
+    return view('frontend/alllabs/lab-drape');
+})->name('arts-drape-studio');
+
 //
 Route::get('/lab-astronomy', function () {
     return view('frontend/alllabs/lab-astronomy');

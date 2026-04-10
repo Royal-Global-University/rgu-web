@@ -282,6 +282,21 @@
                     title: "AR/VR Design Lab (Product Design Lab)",
                     image: "/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595884.jpg",
                     link: "/lab-ar-vr"
+                    },
+                    {
+                    title: "Royal Boutique",
+                    image: "/mobile-assets/studio/boutique/royal boutique 4.jpeg",
+                    link: "/facilities-royal-boutique"
+                    },
+                    {
+                    title: "The Drape Studio",
+                    image: "/mobile-assets/studio/drape/drape studio pic 2.jpeg",
+                    link: "/arts-drape-studio"
+                    },
+                    {
+                    title: "The Fashion Studio",
+                    image: "/mobile-assets/studio/fashion-studio/fashion studio pic 1.jpeg",
+                    link: "/facilities-fashion-studio"
                     }
                 ]
             },

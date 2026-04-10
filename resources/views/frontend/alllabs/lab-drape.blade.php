@@ -236,19 +236,16 @@
     <section class="rgu-fine-arts-body">
         <section class="rgu-fine-arts-hero">
 
-            <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 6.jpeg" style="height: 600px;" class="rgu-fine-arts-hero-img">
+            <img src="/mobile-assets/studio/drape/drape studio pic 2.jpeg" class="rgu-fine-arts-hero-img">
 
             <div class="rgu-fine-arts-content">
-                <h2 class="rgu-fine-arts-title">The Fashion Studio</h2>
-                <p style="font-style: italic" class="text-dark">“Great fashion begins with a well-crafted pattern.” </p>
+                <h2 class="rgu-fine-arts-title">The Drape Studio</h2>
+                <p style="font-style: italic" class="text-dark">“Draping is the art of letting fabric speak.” </p>
 
                 <p class="rgu-fine-arts-text">
-                    The Fashion Studio (6th Floor) at the Royal School of Fashion Design and Technology, is a dynamic
-                    workspace where students across semesters develop patterns for a wide range of creative ensembles. This
-                    hands-on approach strengthens their understanding of garment construction, precision, and design
-                    translation from concept to form. It fosters analytical thinking, enhances technical proficiency, and
-                    equips students with the skills required for professional fashion development. 6th Floor, C- Block
+                    The Drape Studio at the Royal School of Fashion Design and Technology, is a vibrant learning space where students across semesters explore the art of draping—an essential technique that goes beyond traditional pattern making. By working directly on dress forms, students create innovative ensembles while developing a deeper understanding of fabric behaviour, fit, and structure. This experiential approach nurtures creativity, strengthens technical skills, and prepares them for real-world design challenges. 7th floor, C- Block
                 </p>
+
 
             </div>
         </section>
@@ -261,21 +258,19 @@
 
                 <div class="rgu-fine-arts-section">
                     <!-- <h4 class="rgu-fine-arts-section-title">Fluid Mechanics Lab</h4> -->
-                    <ol style="padding-left:20px; line-height:1.8;">
-                        <li><span style="font-weight:500;">Premium dress forms</span> that support accurate shaping and
-                            pattern visualisation.</li>
-                        <li><span style="font-weight:500;">Dedicated leg forms</span> to assist in developing structured and
-                            fitted designs.</li>
-                        <li><span style="font-weight:500;">A range of sewing machines</span>, including industrial units,
-                            for efficient garment assembly.</li>
-                        <li><span style="font-weight:500;">Large worktables</span> designed to facilitate detailed drafting
-                            and pattern-making processes.</li>
-                        <li><span style="font-weight:500;">Advanced embroidery machines</span> that enable creative surface
-                            embellishment.</li>
-                        <li><span style="font-weight:500;">Overlock and interlocking machines</span> to ensure durability
-                            and refined finishing.</li>
-                        <li><span style="font-weight:500;">A well-equipped studio environment</span> that encourages
-                            practical learning and innovation.</li>
+                    <ol class="text-dark" style="padding-left:20px; line-height:1.8;">
+                        <li><span style="font-weight:500;">High-end, industry-quality dress forms</span> for accurate
+                            draping practice.</li>
+                        <li><span style="font-weight:500;">Specialised leg forms</span> for advanced garment construction.
+                        </li>
+                        <li><span style="font-weight:500;">Advanced sewing machines</span> enabling precision and finishing.
+                        </li>
+                        <li><span style="font-weight:500;">Spacious pattern tables</span> for efficient fabric handling and
+                            layout.</li>
+                        <li><span style="font-weight:500;">Custom-made ironing tables</span> with high-end steam irons for
+                            professional finishing.</li>
+                        <li><span style="font-weight:500;">Professional studio setup</span> that simulates real industry
+                            environments.</li>
                     </ol>
                 </div>
 
@@ -286,17 +281,19 @@
         <section class="rgu-fine-arts-gallery">
 
             <h2 class="rgu-fine-arts-gallery-title">
-                Glimpse of <span class="rgu-fine-arts-highlight">The Art Royal Boutique</span>
+                Glimpse of <span class="rgu-fine-arts-highlight">The Drape Studio</span>
             </h2>
 
             <div class="rgu-fine-arts-grid">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 6.jpeg">
-                {{-- <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 1.jpeg"> --}}
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 2.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 3.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 4.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 5.jpeg">
-                {{-- <img src="/mobile-assets/studio/boutique/royal boutique 7.jpeg"> --}}
+                <img src="/mobile-assets/studio/drape/drape studio pic 5.jpeg">
+                <img src="/mobile-assets/studio/drape/drape studio pic 8.jpeg">
+                <img src="/mobile-assets/studio/drape/drape studio pic 3.jpeg">
+                <img src="/mobile-assets/studio/drape/drape studio pic 4.jpeg">
+                {{-- <img src="/mobile-assets/studio/drape/drape studio pic 5.jpeg"> --}}
+                {{-- <img src="/mobile-assets/studio/drape/drape studio pic 6.jpeg">
+                <img src="/mobile-assets/studio/drape/drape studio pic 7.jpeg"> --}}
+                <img src="/mobile-assets/studio/drape/drape studio pic 9.jpeg">
+                <img src="/mobile-assets/studio/drape/drape studio pic 10.jpeg">
             </div>
 
         </section>
