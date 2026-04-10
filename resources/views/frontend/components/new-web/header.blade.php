@@ -586,6 +586,8 @@
                         <li><a href="/multi-disciplinary">Multidisciplinary/ Interdisciplinary
                                 Courses</a>
                         </li>
+                        <li><a href="/cisr">Centre for Interdisciplinary Study and Research (CISR)</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -806,6 +808,13 @@
             <li>
                 <a href="/research-devlopment">
                     RESEARCH <span>↗</span>
+                </a>
+            </li>
+
+            <!-- Examination -->
+            <li>
+                <a href="">
+                    EXAMINATION <span>↗</span>
                 </a>
             </li>
 

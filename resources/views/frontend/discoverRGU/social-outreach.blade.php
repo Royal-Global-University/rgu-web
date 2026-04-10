@@ -52,9 +52,9 @@
                 <div class="elementor-widget-container">
 
                     <div class="row txaa-slide-down-1">
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        <div class="col-lg-6 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
+                                style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
                                     <img fetchpriority="high" decoding="async" width="357" height="220"
                                         src="https://media.rgu.ac/social-outreach/1.jpeg"
@@ -72,9 +72,9 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        <div class="col-lg-6 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
+                                style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
                                     <img decoding="async" width="357" height="500"
                                         src="https://media.rgu.ac/social-outreach/2.jpeg"
@@ -92,7 +92,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        <div class="col-lg-6 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
@@ -112,20 +112,20 @@
                                     <span class="fw-bold">“For it is in giving that we receive.” – ST. FRANCIS OF
                                         ASSISI</span>
                                     <br><br>
-                                    {{-- <span class="fw-bold">Please take care of the following points while participating in
+                                    <span class="fw-bold">Please take care of the following points while participating in
                                         the drive:</span>
                                     <br>
                                     1. The donors will carry some old newspapers or paper carry bags along with their
                                     donation items, as it will help the donee collect their needed items and wrap them.
 
                                     2. The donors are to donate by offering clean, wearable clothes and usable items and not
-                                    treat this platform as a discarding space. --}}
+                                    treat this platform as a discarding space.
 
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        <div class="col-lg-6 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                                 <div class="main-img fix img-cover">
@@ -154,7 +154,7 @@
 
                         {{-- new design --}}
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        {{-- <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                                 <div class="main-img fix img-cover">
@@ -173,9 +173,9 @@
                                     <br>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                        {{-- <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
                             <div class="kd-course-2-card bg-white"
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                                 <div class="main-img fix img-cover">
@@ -200,7 +200,7 @@
                                     <br>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
 
                     </div>

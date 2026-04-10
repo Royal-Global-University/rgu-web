@@ -4970,6 +4970,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/faculty-lalnunpuii', function () {
+    return view('frontend/facultyprofile/rsbas/lalnunpuii');
+})->name('/faculty-lalnunpuii');
+
 Route::get('/faculty-ravina-khumanlambam', function () {
     return view('frontend/facultyprofile/rsbas/ravina-khumanlambam');
 })->name('/faculty-ravina-khumanlambam');
@@ -5197,6 +5201,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-syamkumar', function () {
+    return view('frontend/facultyprofile/rshss/syamkumar');
+})->name('faculty-syamkumar');
 
 Route::get('/faculty-chayasmita-deka', function () {
     return view('frontend/facultyprofile/rshss/chayasmita-deka');

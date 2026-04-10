@@ -705,8 +705,8 @@
                             </div>
                             <h3 class="card-name">Dr. Syamkumar V</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-sushmita-hoshi-nongmeikapam" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-syamkumar" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
