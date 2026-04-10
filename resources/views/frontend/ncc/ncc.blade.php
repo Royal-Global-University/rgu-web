@@ -14,8 +14,8 @@
 
         <style>
             /* ===============================
-        ROOT VARIABLES
-        ================================= */
+                        ROOT VARIABLES
+                        ================================= */
             :root {
                 --nccx-green: #2f4f2f;
                 --nccx-dark: #0d1b12;
@@ -25,8 +25,8 @@
             }
 
             /* ===============================
-        RESET
-        ================================= */
+                        RESET
+                        ================================= */
             * {
                 margin: 0;
                 padding: 0;
@@ -45,8 +45,8 @@
             }
 
             /* ===============================
-        HERO SECTION
-        ================================= */
+                        HERO SECTION
+                        ================================= */
             .nccx-hero {
                 position: relative;
                 height: 75vh;
@@ -89,15 +89,15 @@
             }
 
             /* ===============================
-        SECTIONS
-        ================================= */
+                        SECTIONS
+                        ================================= */
             .nccx-section {
                 padding: 50px 8%;
             }
 
             /* ===============================
-        GLASS CARD
-        ================================= */
+                        GLASS CARD
+                        ================================= */
             .nccx-glass {
                 background: var(--nccx-glass);
                 backdrop-filter: blur(10px);
@@ -107,8 +107,8 @@
             }
 
             /* ===============================
-        TITLES
-        ================================= */
+                        TITLES
+                        ================================= */
             .nccx-title {
                 font-size: 1.8rem;
                 margin-bottom: 15px;
@@ -126,8 +126,8 @@
             }
 
             /* ===============================
-        TEXT
-        ================================= */
+                        TEXT
+                        ================================= */
             .nccx-text {
                 font-size: 14px;
                 line-height: 1.7;
@@ -135,8 +135,8 @@
             }
 
             /* ===============================
-        GRID SYSTEM
-        ================================= */
+                        GRID SYSTEM
+                        ================================= */
             .nccx-grid {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -144,8 +144,8 @@
             }
 
             /* ===============================
-        CARDS
-        ================================= */
+                        CARDS
+                        ================================= */
             .nccx-card {
                 padding: 15px;
                 border-left: 3px solid var(--nccx-accent);
@@ -158,8 +158,8 @@
             }
 
             /* ===============================
-        LIST
-        ================================= */
+                        LIST
+                        ================================= */
             .nccx-list {
                 padding-left: 18px;
             }
@@ -170,8 +170,8 @@
             }
 
             /* ===============================
-        SPLIT LAYOUT
-        ================================= */
+                        SPLIT LAYOUT
+                        ================================= */
             .nccx-split {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -179,8 +179,8 @@
             }
 
             /* ===============================
-        MARQUEE GALLERY (NEW)
-        ================================= */
+                        MARQUEE GALLERY (NEW)
+                        ================================= */
             .nccx-marquee {
                 overflow: hidden;
                 position: relative;
@@ -207,8 +207,8 @@
             }
 
             /* ===============================
-        FOOTER
-        ================================= */
+                        FOOTER
+                        ================================= */
             .nccx-footer {
                 text-align: center;
                 padding: 20px;
@@ -217,8 +217,8 @@
             }
 
             /* ===============================
-        ANIMATIONS
-        ================================= */
+                        ANIMATIONS
+                        ================================= */
             @keyframes nccxFadeUp {
                 from {
                     opacity: 0;
@@ -242,8 +242,8 @@
             }
 
             /* ===============================
-        RESPONSIVE
-        ================================= */
+                        RESPONSIVE
+                        ================================= */
             @media(max-width:768px) {
 
                 .nccx-hero {
@@ -270,8 +270,8 @@
             }
 
             /* ===============================
-        ACHIEVEMENTS TABLE
-        ================================= */
+                        ACHIEVEMENTS TABLE
+                        ================================= */
 
             .nccx-table-wrap {
                 overflow-x: auto;
@@ -342,8 +342,8 @@
             }
 
             /* ===============================
-        TABS
-        ================================= */
+                        TABS
+                        ================================= */
 
             .nccx-tabs {
                 display: flex;
@@ -517,249 +517,286 @@
                 <!-- TAB CONTENT 1 -->
                 <div class="nccx-tab-content active" id="faculty">
                     <div class="nccx-table-wrap">
-                        <table class="nccx-table">
+                        <table class="nccx-table" style="width:100%; border-collapse: collapse;">
                             <thead>
                                 <tr>
                                     <th>Sl. No.</th>
+                                    <th>Name</th>
                                     <th>Achievement</th>
                                     <th>Year</th>
                                     <th>Details</th>
+                                    <th>Image</th>
                                 </tr>
                             </thead>
                             <tbody>
 
                                 <tr>
-                                    <td data-label="Sl. No.">1</td>
-                                    <td data-label="Achievement">Inter Coy Drill Competition</td>
-                                    <td data-label="Year">02-12-2025</td>
-                                    <td data-label="Details">
+                                    <td>1</td>
+                                    <td>Lt. Dr. KM Sudha</td>
+                                    <td>Inter Coy Drill Competition</td>
+                                    <td>02-12-2025</td>
+                                    <td>
                                         Lt. Dr. KM Sudha represented NCC RGU at NCC OTA, Gwalior and secured the award for
                                         Best Drill Company.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-1.png"
+                                            style="width:300px;height:300px;object-fit:cover;cursor:pointer;border-radius:8px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
                                 <tr>
-                                    <td data-label="Sl. No.">2</td>
-                                    <td data-label="Achievement">Firing Competition</td>
-                                    <td data-label="Year">19-12-2025</td>
-                                    <td data-label="Details">
+                                    <td>2</td>
+                                    <td>Lt. Dr. KM Sudha</td>
+                                    <td>Firing Competition</td>
+                                    <td>19-12-2025</td>
+                                    <td>
                                         Lt. Dr. KM Sudha participated in the Firing Competition at NCC OTA, Gwalior and
-                                        achieved Best Firing
-                                        award.
+                                        achieved Best Firing award.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-2.png"
+                                            style="width:300px;height:300px;object-fit:cover;cursor:pointer;border-radius:8px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
                             </tbody>
                         </table>
+
+                        <!-- Popup Modal -->
+                        <div id="imgModal"
+                            style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+            background:rgba(0,0,0,0.8);justify-content:center;align-items:center;z-index:9999;"
+                            onclick="this.style.display='none'">
+
+                            <!-- Close Button -->
+                            <span onclick="document.getElementById('imgModal').style.display='none'"
+                                style="position:absolute;top:20px;right:30px;font-size:40px;color:#fff;cursor:pointer;font-weight:bold;">
+                                &times;
+                            </span>
+
+                            <!-- Image -->
+                            <img id="popupImg" onclick="event.stopPropagation();"
+                                style="max-width:60%;max-height:60%;border-radius:10px;">
+                        </div>
                     </div>
                 </div>
 
                 <!-- TAB CONTENT 2 -->
                 <div class="nccx-tab-content" id="student">
                     <div class="nccx-table-wrap">
-                        <table class="nccx-table">
+                        <table class="nccx-table" style="width:100%; border-collapse: collapse;">
                             <thead>
                                 <tr>
                                     <th>Sl. No.</th>
                                     <th>Achievement</th>
                                     <th>Year</th>
                                     <th>Details</th>
+                                    <th>Image</th>
                                 </tr>
                             </thead>
                             <tbody>
 
+                                <!-- Row 1 -->
                                 <tr>
-                                    <td data-label="Sl. No.">1</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
+                                    <td>1</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>
                                         Gungun Deka received Sports Awards at 30 Assam Bn NCC, CATC-35 for securing 1st
-                                        position in Tug of War
-                                        and 2nd position in Volleyball.
+                                        position in Tug of War and 2nd position in Volleyball.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-3.png"
+                                            style="width:220px;height:220px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
+                                <!-- Row 2 -->
                                 <tr>
-                                    <td data-label="Sl. No.">2</td>
-                                    <td data-label="Achievement">Best Cadet (Senior Wing) & Sports</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
+                                    <td>2</td>
+                                    <td>Best Cadet (Senior Wing) & Sports</td>
+                                    <td>22-05-2025</td>
+                                    <td>
                                         Ryka Gogoi was awarded Best SW Cadet and also secured 1st position in Tug of War and
-                                        2nd position in
-                                        Volleyball at 30 Assam Bn NCC, CATC-35.
+                                        2nd position in Volleyball at 30 Assam Bn NCC, CATC-35.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-4.png"
+                                            style="width:220px;height:220px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
+                                <!-- Row 3 -->
                                 <tr>
-                                    <td data-label="Sl. No.">3</td>
-                                    <td data-label="Achievement">Cultural Award</td>
-                                    <td data-label="Year">01-05-2025</td>
-                                    <td data-label="Details">
+                                    <td>3</td>
+                                    <td>Cultural Award</td>
+                                    <td>01-05-2025</td>
+                                    <td>
                                         Deepjyoti Talukdar received the Cultural Award at 48 Assam Naval NCC, CATC-35 for
-                                        securing 1st
-                                        position in Cultural Singing.
+                                        securing 1st position in Cultural Singing.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-5.png"
+                                            style="width:220px;height:220px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
+                                <!-- Row 4–13 -->
                                 <tr>
-                                    <td data-label="Sl. No.">4</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
+                                    <td>4</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>
                                         Harsh Jain secured 1st position in Tug of War and 2nd position in Volleyball at 30
-                                        Assam Bn NCC,
-                                        CATC-35.
+                                        Assam Bn NCC, CATC-35.
+                                    </td>
+
+                                    <td rowspan="10" style="text-align:center;">
+                                        <img src="/mobile-assets/ncc-acheivement/p-6.png"
+                                            style="width:320px;height:320px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
                                 <tr>
-                                    <td data-label="Sl. No.">5</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        MC Lalthlenkima secured 1st position in Tug of War and 2nd position in Volleyball at
-                                        30 Assam Bn NCC,
-                                        CATC-35.
-                                    </td>
+                                    <td>5</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>MC Lalthlenkima secured 1st position in Tug of War and 2nd position in Volleyball at
+                                        30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>Ayush Raj secured 1st position in Tug of War and 2nd position in Volleyball at 30
+                                        Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>Minal Ahmed secured 1st position in Tug of War and 2nd position in Volleyball at 30
+                                        Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>Kunaldip Hazarika secured 1st position in Tug of War and 2nd position in Volleyball
+                                        at 30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>Aditya Urang secured 1st position in Tug of War at 30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Sports Award</td>
+                                    <td>22-05-2025</td>
+                                    <td>Thrune Elapra secured 1st position in Tug of War and 2nd position in Volleyball at
+                                        30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Best Cadet (Senior Division) & Sports</td>
+                                    <td>22-05-2025</td>
+                                    <td>Bicky Chetri was awarded Best SD Cadet and also secured 1st position in Tug of War
+                                        and 2nd position in Volleyball at 30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Sports & Cultural</td>
+                                    <td>22-05-2025</td>
+                                    <td>GVK Lakshmi Likhita secured 1st position in Tug of War, 2nd position in Volleyball,
+                                        and participated in Cultural Dance at 30 Assam Bn NCC, CATC-35.</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Sports & Cultural</td>
+                                    <td>22-05-2025</td>
+                                    <td>Digbijaya Sil secured 1st position in Tug of War, 2nd position in Volleyball, and
+                                        participated in Cultural Dance at 30 Assam Bn NCC, CATC-35.</td>
                                 </tr>
 
+                                <!-- Row 14–17 -->
                                 <tr>
-                                    <td data-label="Sl. No.">6</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Ayush Raj secured 1st position in Tug of War and 2nd position in Volleyball at 30
-                                        Assam Bn NCC,
-                                        CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">7</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Minal Ahmed secured 1st position in Tug of War and 2nd position in Volleyball at 30
-                                        Assam Bn NCC,
-                                        CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">8</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Kunaldip Hazarika secured 1st position in Tug of War and 2nd position in Volleyball
-                                        at 30 Assam Bn
-                                        NCC, CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">9</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Aditya Urang secured 1st position in Tug of War at 30 Assam Bn NCC, CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">10</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Thrune Elapra secured 1st position in Tug of War and 2nd position in Volleyball at
-                                        30 Assam Bn NCC,
-                                        CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">11</td>
-                                    <td data-label="Achievement">Best Cadet (Senior Division) & Sports</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Bicky Chetri was awarded Best SD Cadet and also secured 1st position in Tug of War
-                                        and 2nd position in
-                                        Volleyball at 30 Assam Bn NCC, CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">12</td>
-                                    <td data-label="Achievement">Sports & Cultural</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        GVK Lakshmi Likhita secured 1st position in Tug of War, 2nd position in Volleyball,
-                                        and participated
-                                        in Cultural Dance at 30 Assam Bn NCC, CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">13</td>
-                                    <td data-label="Achievement">Sports & Cultural</td>
-                                    <td data-label="Year">22-05-2025</td>
-                                    <td data-label="Details">
-                                        Digbijaya Sil secured 1st position in Tug of War, 2nd position in Volleyball, and
-                                        participated in
-                                        Cultural Dance at 30 Assam Bn NCC, CATC-35.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">14</td>
-                                    <td data-label="Achievement">Sports Award & Best Cadet</td>
-                                    <td data-label="Year">05-08-2025</td>
-                                    <td data-label="Details">
+                                    <td>14</td>
+                                    <td>Sports Award & Best Cadet</td>
+                                    <td>05-08-2025</td>
+                                    <td>
                                         Agnes Newmai secured 1st position in Volleyball and was awarded Best SW Cadet at 30
-                                        Assam Bn NCC,
-                                        CATC-85.
+                                        Assam Bn NCC, CATC-85.
+                                    </td>
+
+                                    <td rowspan="4" style="text-align:center;">
+                                        <img src="/mobile-assets/ncc-acheivement/p-7.png"
+                                            style="width:320px;height:260px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
                                 <tr>
-                                    <td data-label="Sl. No.">15</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">05-08-2025</td>
-                                    <td data-label="Details">
-                                        Rajkkumari Isabellee secured 1st position in Volleyball at 30 Assam Bn NCC, CATC-85.
+                                    <td>15</td>
+                                    <td>Sports Award</td>
+                                    <td>05-08-2025</td>
+                                    <td>Rajkkumari Isabellee secured 1st position in Volleyball at 30 Assam Bn NCC, CATC-85.
                                     </td>
                                 </tr>
-
                                 <tr>
-                                    <td data-label="Sl. No.">16</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">05-08-2025</td>
-                                    <td data-label="Details">
-                                        Nima Choten secured 2nd position in Volleyball at 30 Assam Bn NCC, CATC-85.
-                                    </td>
+                                    <td>16</td>
+                                    <td>Sports Award</td>
+                                    <td>05-08-2025</td>
+                                    <td>Nima Choten secured 2nd position in Volleyball at 30 Assam Bn NCC, CATC-85.</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Sports Award</td>
+                                    <td>05-08-2025</td>
+                                    <td>Bhaamini Kakati secured 3rd position in Volleyball at 30 Assam Bn NCC, CATC-85.</td>
                                 </tr>
 
+                                <!-- Row 18 -->
                                 <tr>
-                                    <td data-label="Sl. No.">17</td>
-                                    <td data-label="Achievement">Sports Award</td>
-                                    <td data-label="Year">05-08-2025</td>
-                                    <td data-label="Details">
-                                        Bhaamini Kakati secured 3rd position in Volleyball at 30 Assam Bn NCC, CATC-85.
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="Sl. No.">18</td>
-                                    <td data-label="Achievement">Defence Secretary Commendation</td>
-                                    <td data-label="Year">22-12-2025</td>
-                                    <td data-label="Details">
+                                    <td>18</td>
+                                    <td>Defence Secretary Commendation</td>
+                                    <td>22-12-2025</td>
+                                    <td>
                                         Aditya Singh received the Defence Secretary Commendation & Card 2025 from the
-                                        Ministry of Defence,
-                                        Government of India.
+                                        Ministry of Defence, Government of India.
+                                    </td>
+                                    <td>
+                                        <img src="/mobile-assets/ncc-acheivement/p-8.png"
+                                            style="width:220px;height:220px;cursor:pointer;border-radius:6px;"
+                                            onclick="document.getElementById('popupImg').src=this.src;document.getElementById('imgModal').style.display='flex';">
                                     </td>
                                 </tr>
 
                             </tbody>
                         </table>
+
+                        <!-- Popup -->
+                        <div id="imgModal"
+                            style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+            background:rgba(0,0,0,0.8);justify-content:center;align-items:center;z-index:9999;"
+                            onclick="this.style.display='none'">
+
+                            <span onclick="document.getElementById('imgModal').style.display='none'"
+                                style="position:absolute;top:20px;right:30px;font-size:40px;color:#fff;cursor:pointer;">
+                                &times;
+                            </span>
+
+                            <img id="popupImg" onclick="event.stopPropagation();"
+                                style="max-width:90%;max-height:90%;border-radius:10px;">
+                        </div>
                     </div>
                 </div>
 
