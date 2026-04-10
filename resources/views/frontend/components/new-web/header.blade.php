@@ -734,7 +734,7 @@
                     </li>
 
                     <li class="mega-trigger" data-target="camp-4">
-                        <a href="#">SPORTS & EXTRA-CURRICULAR <span>→</span></a>
+                        <a href="#">NCC & NSS <span>→</span></a>
                     </li>
 
                 </ul>
@@ -771,14 +771,14 @@
                         <li><a href="/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf">Hostel
                                 Policy</a>
                         </li>
+                        <li><a href="/games&sports">Games And Sports</a></li>
                     </ul>
                 </div>
 
                 <div class="mega-content" data-content="camp-4">
                     <ul>
-                        <li><a href="/games&sports">Games And Sports</a></li>
-                        <li><a href="/national-cadet-corps">National Cadet Corps</a></li>
-                        <li><a href="/national-service-scheme">National Service Scheme</a></li>
+                        <li><a href="/national-cadet-corps">National Cadet Corps (NCC)</a></li>
+                        <li><a href="/national-service-scheme">National Service Scheme (NSS)</a></li>
                     </ul>
                 </div>
 

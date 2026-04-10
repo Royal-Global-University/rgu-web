@@ -201,7 +201,7 @@
     <div>
         <header class="rgu-swayam-hero">
             <div>
-                <h1>SWAYAM</h1>
+                <h1>SWAYAM @ RGU</h1>
             </div>
         </header>
 
