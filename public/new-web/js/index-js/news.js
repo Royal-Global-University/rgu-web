@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 10, 2026",
+            title: "ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies",
+            desc: "In a significant boost to advanced medical and translational research, the Indian Council of Medical Research (ICMR), New Delhi has awarded four prestigious research project grants worth ₹90 lakhs to faculty members of The Assam Royal Global University (RGU).",
+            img: "/mobile-assets/media-corner/2026/10/ICMR.png",
+            link: "/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies",
+        },
+        {
             date: "Guwahati, April 6, 2026",
             title: "Northeast must become India’s next pharma hub: PCI President speaks at Royal Global University",
             desc: "In a significant initiative aimed at inspiring future pharmacy professionals, the Pharmacy Council of India (PCI) today organised an awareness programme titled “Inspire & Interact” with pharmacy students from across the Northeast at The Assam Royal Global University(RGU) and featured an enlightening address by Dr. Montukumar M. Patel, President, Pharmacy Council of India(PCI).",

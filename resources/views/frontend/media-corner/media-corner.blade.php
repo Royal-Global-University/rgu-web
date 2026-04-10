@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 10, 2026:',
+                            'link' =>
+                                '/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies',
+                            'image' => '/mobile-assets/media-corner/2026/10/ICMR.png',
+                            'content' => 'In a significant boost to advanced medical and translational research, the Indian Council of Medical Research (ICMR), New Delhi has awarded four prestigious research project grants worth ₹90 lakhs to faculty members of The Assam Royal Global University (RGU).',
+                        ],
+                        [
+                            'title' =>
                                 'Northeast must become India’s next pharma hub: PCI President speaks at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, April 6, 2026:',

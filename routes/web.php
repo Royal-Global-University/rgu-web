@@ -3245,6 +3245,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies', function () {
+    return view('frontend/media-corner/2026/news5');
+})->name('icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies');
+
 Route::get('/northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university', function () {
     return view('frontend/media-corner/2026/news4');
 })->name('northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university');
