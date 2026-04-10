@@ -178,7 +178,7 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Akash.jpeg"
+                            <img style="height: 400px; width: 400px;" class="faculty-bio-img" src="https://rgu.ac/mobile-assets/updated-faculty-img/Akash.jpeg"
                                 alt="">
                         </div>
                     </div>
