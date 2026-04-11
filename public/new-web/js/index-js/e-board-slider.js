@@ -2,11 +2,23 @@
 
 const eboardData = [
     {
-        img: "https://media.rgu.ac/new-web/img/index/e-board/4.jpeg",
+        img: "/mobile-assets/ads/e-board/1.jpeg",
         alt: "Event 4",
     },
     {
-        img: "https://media.rgu.ac/new-web/img/index/e-board/3.jpeg",
+        img: "/mobile-assets/ads/e-board/2.jpeg",
+        alt: "Event 4",
+    },
+    {
+        img: "/mobile-assets/ads/e-board/3.jpeg",
+        alt: "Event 4",
+    },
+    {
+        img: "/new-web/img/index/e-board/4.jpeg",
+        alt: "Event 4",
+    },
+    {
+        img: "/new-web/img/index/e-board/3.jpeg",
         alt: "Event 3",
     },
     { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
