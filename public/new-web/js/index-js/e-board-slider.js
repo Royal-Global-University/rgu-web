@@ -17,14 +17,7 @@ const eboardData = [
         img: "/mobile-assets/ads/e-board/13-4.jpeg",
         alt: "Event 4",
     },
-    // {
-    //     img: "/new-web/img/index/e-board/4.jpeg",
-    //     alt: "Event 4",
-    // },
-    // {
-    //     img: "/new-web/img/index/e-board/3.jpeg",
-    //     alt: "Event 3",
-    // },
+    { img: "/mobile-assets/ads/e-board/13-4-2.jpeg", alt: "Event 5" },
     { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
     { img: "new-web/assets/img/index/e-board/6.jpeg", alt: "Event 6" },
 ];
