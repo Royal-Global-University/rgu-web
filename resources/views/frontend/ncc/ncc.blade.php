@@ -14,8 +14,8 @@
 
         <style>
             /* ===============================
-                        ROOT VARIABLES
-                        ================================= */
+                            ROOT VARIABLES
+                            ================================= */
             :root {
                 --nccx-green: #2f4f2f;
                 --nccx-dark: #0d1b12;
@@ -25,8 +25,8 @@
             }
 
             /* ===============================
-                        RESET
-                        ================================= */
+                            RESET
+                            ================================= */
             * {
                 margin: 0;
                 padding: 0;
@@ -45,8 +45,8 @@
             }
 
             /* ===============================
-                        HERO SECTION
-                        ================================= */
+                            HERO SECTION
+                            ================================= */
             .nccx-hero {
                 position: relative;
                 height: 75vh;
@@ -89,15 +89,15 @@
             }
 
             /* ===============================
-                        SECTIONS
-                        ================================= */
+                            SECTIONS
+                            ================================= */
             .nccx-section {
                 padding: 50px 8%;
             }
 
             /* ===============================
-                        GLASS CARD
-                        ================================= */
+                            GLASS CARD
+                            ================================= */
             .nccx-glass {
                 background: var(--nccx-glass);
                 backdrop-filter: blur(10px);
@@ -107,8 +107,8 @@
             }
 
             /* ===============================
-                        TITLES
-                        ================================= */
+                            TITLES
+                            ================================= */
             .nccx-title {
                 font-size: 1.8rem;
                 margin-bottom: 15px;
@@ -126,8 +126,8 @@
             }
 
             /* ===============================
-                        TEXT
-                        ================================= */
+                            TEXT
+                            ================================= */
             .nccx-text {
                 font-size: 14px;
                 line-height: 1.7;
@@ -135,8 +135,8 @@
             }
 
             /* ===============================
-                        GRID SYSTEM
-                        ================================= */
+                            GRID SYSTEM
+                            ================================= */
             .nccx-grid {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -144,8 +144,8 @@
             }
 
             /* ===============================
-                        CARDS
-                        ================================= */
+                            CARDS
+                            ================================= */
             .nccx-card {
                 padding: 15px;
                 border-left: 3px solid var(--nccx-accent);
@@ -158,8 +158,8 @@
             }
 
             /* ===============================
-                        LIST
-                        ================================= */
+                            LIST
+                            ================================= */
             .nccx-list {
                 padding-left: 18px;
             }
@@ -170,8 +170,8 @@
             }
 
             /* ===============================
-                        SPLIT LAYOUT
-                        ================================= */
+                            SPLIT LAYOUT
+                            ================================= */
             .nccx-split {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -179,8 +179,8 @@
             }
 
             /* ===============================
-                        MARQUEE GALLERY (NEW)
-                        ================================= */
+                            MARQUEE GALLERY (NEW)
+                            ================================= */
             .nccx-marquee {
                 overflow: hidden;
                 position: relative;
@@ -189,7 +189,7 @@
             .nccx-marquee-track {
                 display: flex;
                 width: max-content;
-                animation: nccxScroll 180s linear infinite;
+                animation: nccxScroll 380s linear infinite;
             }
 
             .nccx-marquee img {
@@ -207,8 +207,8 @@
             }
 
             /* ===============================
-                        FOOTER
-                        ================================= */
+                            FOOTER
+                            ================================= */
             .nccx-footer {
                 text-align: center;
                 padding: 20px;
@@ -217,8 +217,8 @@
             }
 
             /* ===============================
-                        ANIMATIONS
-                        ================================= */
+                            ANIMATIONS
+                            ================================= */
             @keyframes nccxFadeUp {
                 from {
                     opacity: 0;
@@ -242,8 +242,8 @@
             }
 
             /* ===============================
-                        RESPONSIVE
-                        ================================= */
+                            RESPONSIVE
+                            ================================= */
             @media(max-width:768px) {
 
                 .nccx-hero {
@@ -270,8 +270,8 @@
             }
 
             /* ===============================
-                        ACHIEVEMENTS TABLE
-                        ================================= */
+                            ACHIEVEMENTS TABLE
+                            ================================= */
 
             .nccx-table-wrap {
                 overflow-x: auto;
@@ -342,8 +342,8 @@
             }
 
             /* ===============================
-                        TABS
-                        ================================= */
+                            TABS
+                            ================================= */
 
             .nccx-tabs {
                 display: flex;
@@ -850,79 +850,138 @@
             <h2 class="nccx-title">Gallery</h2>
 
             <div class="nccx-marquee">
+
                 <div class="nccx-marquee-track">
 
-                    <img src="mobile-assets/new-ncc-page/gallery/1.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/2.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/3.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/4.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/5.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/6.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/7.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/8.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/9.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/10.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/11.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/12.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/13.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/14.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/15.jpg">
-                    <img src="mobile-assets/new-ncc-page/gallery/16.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/17.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/18.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/19.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/20.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/21.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/22.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/23.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/24.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/25.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/26.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/27.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/28.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/29.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/30.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/31.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/32.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/33.jpg">
-                    <img src="mobile-assets/new-ncc-page/gallery/34.jpeg">
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/1.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            03/02/2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">RDC Return
+                                felicitation Ceremony</span></p>
+                    </div>
 
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/3.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            21/08/2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Briefing on
+                                Ops Sindoor</span></p>
+                    </div>
 
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/4.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            21/08/2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Briefing on
+                                Ops Sindoor</span></p>
+                    </div>
 
-                    <img src="mobile-assets/new-ncc-page/gallery/1.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/2.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/3.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/4.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/5.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/6.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/7.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/8.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/9.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/10.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/11.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/12.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/13.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/14.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/15.jpg">
-                    <img src="mobile-assets/new-ncc-page/gallery/16.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/17.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/18.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/19.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/20.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/21.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/22.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/23.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/24.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/25.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/26.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/27.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/28.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/29.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/30.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/31.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/32.jpeg">
-                    <img src="mobile-assets/new-ncc-page/gallery/33.jpg">
-                    <img src="mobile-assets/new-ncc-page/gallery/34.jpeg">
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/6.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">06/09/25<br /><span
+                                style="color: #13213b; font-size: 22px; font-weight: bold;">CATC – 85 Panikhati</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/7.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            01/01/2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Old Age Home
+                                Visit</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/8.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            15-08-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Independence
+                                Day</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/9.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            26-01-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Republic
+                                day</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/11.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            26-01-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Republic
+                                day</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/12.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            22-05-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">30 Assam Bn
+                                NCC CATC 35</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/13.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            22-05-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">30 Assam Bn
+                                NCC CATC 35</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/14.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            01-05-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">48 Naval
+                                Assam NCC CATC 35</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/16.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            19-07-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Routine Drill
+                                Practice</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/17.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            22-12-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Defence
+                                Secretary Commendation</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/18.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;"><br /><span
+                                style="color: #13213b; font-size: 22px; font-weight: bold;">RGU Convocation 2025</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/22.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            10-11-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">150 Years of
+                                Vande matarm</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/28.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">
+                            19-12-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Passing Out Parade, OTA Gwalior</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/29.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;"><br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">RDC Felicitation 2026</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/32.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">21-07-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Special Lecture by Brig A K Pait</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/33.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">03-12-2024<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">NCC Raising Day</span></p>
+                    </div>
+
+                    <div class="bg-light p-2 m-2 rounded">
+                        <img src="mobile-assets/new-ncc-page/gallery/34.jpeg">
+                        <p class="pt-2" style="color: #ff9933; font-size: 18px; padding-left: 10px;">29-01-2025<br /><span style="color: #13213b; font-size: 22px; font-weight: bold;">Yuva Bhagidari Event at Cotton University</span></p>
+                    </div>
+
                 </div>
             </div>
         </section>
