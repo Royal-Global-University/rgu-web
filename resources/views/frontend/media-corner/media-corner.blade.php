@@ -47,13 +47,34 @@
                     $newsItems = [
                         [
                             'title' =>
-                                'ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies',
+                                'MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya',
+                            'summary' => 'Landmark MoU signed between Meghalaya Police & Royal Global University',
+                            'date' => 'Guwahati, April 18, 2026:',
+                            'link' =>
+                                '/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya',
+                            'image' => '/mobile-assets/media-corner/2026/mou/m-1.jpeg',
+                            'content' =>
+                                'Reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Meghalaya Police.',
+                        ],
+                        [
+                            'title' =>
+                                'Royal Global University Signs Landmark MoU with Indian Navy to Support Wards of Defence Personnel',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 16, 2026:',
+                            'link' =>
+                                '/royal-global-university-signs-landmark-mou-with-indian-navy-to-support-wards-of-defence-personnel',
+                            'image' => '/mobile-assets/media-corner/2026/mou/MOU-2.jpeg',
+                            'content' =>
+                                'In a significant stride towards reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Indian Navy on Monday at the office of the Navy Welfare and Wellness Association (NWWA), Chanakyapuri, New Delhi.',
+                        ],
+                        [
+                            'title' => 'ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies',
                             'summary' => '',
                             'date' => 'Guwahati, April 10, 2026:',
-                            'link' =>
-                                '/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies',
+                            'link' => '/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies',
                             'image' => '/mobile-assets/media-corner/2026/10/ICMR.png',
-                            'content' => 'In a significant boost to advanced medical and translational research, the Indian Council of Medical Research (ICMR), New Delhi has awarded four prestigious research project grants worth ₹90 lakhs to faculty members of The Assam Royal Global University (RGU).',
+                            'content' =>
+                                'In a significant boost to advanced medical and translational research, the Indian Council of Medical Research (ICMR), New Delhi has awarded four prestigious research project grants worth ₹90 lakhs to faculty members of The Assam Royal Global University (RGU).',
                         ],
                         [
                             'title' =>

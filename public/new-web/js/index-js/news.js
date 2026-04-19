@@ -2,6 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 18, 2026",
+            title: "MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya",
+            desc: "Reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Meghalaya Police. The agreement was formalised yesterday at the Office of the Director General of Police in Shillong in the presence of officials from Meghalaya Police and RGU.",
+            img: "/mobile-assets/media-corner/2026/mou/m-1.jpeg",
+            link: "/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya",
+        },
+        {
+            date: "Guwahati, April 16, 2026",
+            title: "Royal Global University Signs Landmark MoU with Indian Navy to Support Wards of Defence Personnel",
+            desc: "In a significant stride towards reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Indian Navy on Monday at the office of the Navy Welfare and Wellness Association (NWWA), Chanakyapuri, New Delhi.",
+            img: "/mobile-assets/media-corner/2026/mou/MOU-2.jpeg",
+            link: "/royal-global-university-signs-landmark-mou-with-indian-navy-to-support-wards-of-defence-personnel",
+        },
+        {
             date: "Guwahati, April 10, 2026",
             title: "ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies",
             desc: "In a significant boost to advanced medical and translational research, the Indian Council of Medical Research (ICMR), New Delhi has awarded four prestigious research project grants worth ₹90 lakhs to faculty members of The Assam Royal Global University (RGU).",

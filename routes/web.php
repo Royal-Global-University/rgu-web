@@ -3245,6 +3245,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya', function () {
+    return view('frontend/media-corner/2026/news7');
+})->name('mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya');
+
+Route::get('/royal-global-university-signs-landmark-mou-with-indian-navy-to-support-wards-of-defence-personnel', function () {
+    return view('frontend/media-corner/2026/news6');
+})->name('royal-global-university-signs-landmark-mou-with-indian-navy-to-support-wards-of-defence-personnel');
+
 Route::get('/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies', function () {
     return view('frontend/media-corner/2026/news5');
 })->name('icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies');
