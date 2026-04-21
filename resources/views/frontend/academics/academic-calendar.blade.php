@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'RGU Holiday List & Academic Calendar 2025-26: View All Dates')
-@section('meta_description', 'Official RGU Holiday List 2025-26: View all vacation days, exam schedules, key events, and deadlines for students and faculty. Download PDF/View Dates.')
+@section('meta_description', 'Official RGU Holiday List 2025-26: View all vacation days, exam schedules, key events, and
+    deadlines for students and faculty. Download PDF/View Dates.')
 @section('meta_keywords', 'Academic calender')
 @section('content')
     <div class="mobile">
@@ -20,31 +21,32 @@
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar
                         </a>
                     </div>
-                    {{-- <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/academic-calendar/new/RSP-25-26.pdf" target="_blank"
+                    <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                        <a href="/mobile-assets/pdf/calendar/Tentative Academic Calender (D. Pharm, B. Pharm, M. Pharm) 2025-26.pdf"
+                            target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar for RSP
                         </a>
                     </div>
                     <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/academic-calendar/2025/RSN Academic Calender 2025-26.pdf" target="_blank"
+                        <a href="/mobile-assets/pdf/calendar/Revised Academic Calender (RSN) 2025-26.pdf" target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar for RSN
                         </a>
                     </div>
                     <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/academic-calendar/new/RSB-25-26.pdf" target="_blank"
+                        <a href="/mobile-assets/pdf/calendar/Tentative Academic Calender (RSB) 2025-26.pdf" target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar for RSB
                         </a>
-                    </div> --}}
+                    </div>
 
                 </div>
 
-                </section>
+            </section>
         </div>
     </div>
 
@@ -60,7 +62,8 @@
 
                 <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
                     style="color: #27467A; font-weight: 900;">
-                    Tentative Academic Calendar for the <span style="color: #FF9A1E; font-weight: 500;">Year 2025-2026</span>
+                    Tentative Academic Calendar for the <span style="color: #FF9A1E; font-weight: 500;">Year
+                        2025-2026</span>
                 </h2>
 
 
@@ -70,23 +73,23 @@
                                 style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd2">
                                 <i class="bi bi-download"></i>Download Academic Calender
                             </button></a>
-                        {{-- <a target="_blank" href="mobile-assets/academic-calendar/new/RSP-25-26.pdf"> <button
+                        <a target="_blank" href="/mobile-assets/pdf/calendar/Tentative Academic Calender (D. Pharm, B. Pharm, M. Pharm) 2025-26.pdf"> <button
                                 style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
                                 <i class="bi bi-download"></i> Academic Calender for RSP
                             </button> </a>
 
-                        <a target="_blank" href="mobile-assets/academic-calendar/2025/RSN Academic Calender 2025-26.pdf"> <button
-                                style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
+                        <a target="_blank" href="/mobile-assets/pdf/calendar/Revised Academic Calender (RSN) 2025-26.pdf">
+                            <button style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
                                 <i class="bi bi-download"></i> Academic Calender for RSN
                             </button> </a>
 
-                            <a target="_blank" href="mobile-assets/academic-calendar/new/RSB-25-26.pdf"> <button
-                                    style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
-                                    <i class="bi bi-download"></i> Academic Calender for RSB
-                                </button> </a> --}}
+                        <a target="_blank" href="/mobile-assets/pdf/calendar/Tentative Academic Calender (RSB) 2025-26.pdf"> <button
+                                style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
+                                <i class="bi bi-download"></i> Academic Calender for RSB
+                            </button> </a>
                     </div>
                 </div>
             </div>
-            </section>
+        </section>
     </div>
 @endsection
