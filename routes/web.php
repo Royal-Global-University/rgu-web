@@ -504,6 +504,10 @@ Route::get('/lab-optometry', function () {
     return view('frontend/alllabs/lab-optometry');
 })->name('lab-optometry');
 
+Route::get('/lab-cartography', function () {
+    return view('frontend/alllabs/lab-cartography');
+})->name('lab-cartography');
+
 Route::get('/laboratories', function () {
     return view('frontend/alllabs/laboratories');
 })->name('laboratories');

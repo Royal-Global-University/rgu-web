@@ -300,6 +300,19 @@
                     }
                 ]
             },
+
+            {
+                school: "Royal School of Environmental and Earth Sciences (RSEES)",
+                labs:
+                [
+                    {
+                    title: "Cartography Lab",
+                    image: "/mobile-assets/laboratories/Cartography/Photo 3.jpeg",
+                    link: "/lab-cartography"
+                    }
+                ]
+            },
+
             {
                 school: "Royal School of Engineering and Technology (RSET)",
                 labs: [{
