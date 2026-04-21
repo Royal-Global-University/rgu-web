@@ -108,20 +108,6 @@
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
 
-                    <!-- Professor -->
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rashel Sarkar</h3>
-                            <p class="card-designation">Professor</p>
-                            <a href="https://www.rgu.ac/faculty-rashel-sarkar" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">

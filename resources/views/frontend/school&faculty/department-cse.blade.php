@@ -706,7 +706,6 @@
                                                 <li><strong>Prof. (Dr.) Diganta Munshi</strong> - Registrar
                                                     (Administration), Dean
                                                     (RSET)</li>
-                                                <li><strong>Prof. (Dr.) Rashel Sarkar</strong> - Professor</li>
                                                 <li><strong>Dr. Bhairab Sarma</strong> - Associate Professor</li>
                                                 <li><strong>Dr. Dipankar Dutta</strong> - Associate Professor</li>
                                                 <li><strong>Dr. Anurag Barthwal</strong> - Associate Professor</li>
@@ -791,41 +790,34 @@
                                     </tr>
                                     <tr>
                                         <td>3.</td>
-                                        <td>Professors</td>
-                                        <td>Prof. Rashel Sarkar</td>
-                                        <td>Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
                                         <td>Associate Professor (Member Secretary)</td>
                                         <td>Dr. Anurag Barthwal</td>
                                         <td>Associate Professor</td>
                                         <td>Member Secretary</td>
                                     </tr>
                                     <tr>
-                                        <td>5.</td>
+                                        <td>4.</td>
                                         <td>Assistant Professor (Ph.D.)</td>
                                         <td>Dr. Hidangmayum Satyajeet Sharma</td>
                                         <td>Assistant Professor</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>6.</td>
+                                        <td>5.</td>
                                         <td>Assistant Professor (Ph.D.)</td>
                                         <td>Dr. Bikash Baruah</td>
                                         <td>Assistant Professor</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>7.</td>
+                                        <td>6.</td>
                                         <td>External Member</td>
                                         <td>Prof. (Dr.) Hiren Kumar Deva Sarma</td>
                                         <td>Professor</td>
                                         <td>External Member</td>
                                     </tr>
                                     <tr>
-                                        <td>8.</td>
+                                        <td>7.</td>
                                         <td>External Member</td>
                                         <td>Prof. (Dr.) Shwetambara Verma</td>
                                         <td>Professor</td>
@@ -2389,8 +2381,6 @@
                                                                 <li><strong>Prof. (Dr.) Diganta Munshi</strong> - Registrar
                                                                     (Administration), Dean
                                                                     (RSET)</li>
-                                                                <li><strong>Prof. (Dr.) Rashel Sarkar</strong> - Professor
-                                                                </li>
                                                                 <li><strong>Dr. Bhairab Sarma</strong> - Associate Professor
                                                                 </li>
                                                                 <li><strong>Dr. Dipankar Dutta</strong> - Associate
@@ -2492,41 +2482,34 @@
                                                     </tr>
                                                     <tr>
                                                         <td>3.</td>
-                                                        <td>Professors</td>
-                                                        <td>Prof. Rashel Sarkar</td>
-                                                        <td>Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4.</td>
                                                         <td>Associate Professor (Member Secretary)</td>
                                                         <td>Dr. Anurag Barthwal</td>
                                                         <td>Associate Professor</td>
                                                         <td>Member Secretary</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>5.</td>
+                                                        <td>4.</td>
                                                         <td>Assistant Professor (Ph.D.)</td>
                                                         <td>Dr. Hidangmayum Satyajeet Sharma</td>
                                                         <td>Assistant Professor</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>6.</td>
+                                                        <td>5.</td>
                                                         <td>Assistant Professor (Ph.D.)</td>
                                                         <td>Dr. Bikash Baruah</td>
                                                         <td>Assistant Professor</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>7.</td>
+                                                        <td>6.</td>
                                                         <td>External Member</td>
                                                         <td>Prof. (Dr.) Hiren Kumar Deva Sarma</td>
                                                         <td>Professor</td>
                                                         <td>External Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>8.</td>
+                                                        <td>7.</td>
                                                         <td>External Member</td>
                                                         <td>Prof. (Dr.) Shwetambara Verma</td>
                                                         <td>Professor</td>
