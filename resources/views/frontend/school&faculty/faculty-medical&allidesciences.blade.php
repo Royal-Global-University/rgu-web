@@ -710,18 +710,6 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/Ms-Jahnabi-Mahanta-RSBAS.png"
-                                        alt="Profile image of Jahnabi">
-                                </div>
-                                <h3 class="card-name">Ms. Jahnabi Mahanta</h3>
-                                <p class="card-designation">Assistant Professor</p>
-                                <a href="https://www.rgu.ac/faculty-jahnabi-mahanta" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
                                     <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kristi-Saikia-RSHSS.png"
                                         alt="Profile image ">
                                 </div>
@@ -929,18 +917,6 @@
                             <h3 class="card-name">Dr. Y. Monojit Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-monojit-singha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Jahnabi-Mahanta-RSBAS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Jahnabi Mahanta</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-jahnabi-mahanta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
