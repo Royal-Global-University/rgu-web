@@ -3249,6 +3249,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-observes-national-public-relations-day', function () {
+    return view('frontend/media-corner/2026/news8');
+})->name('rgu-observes-national-public-relations-day');
+
 Route::get('/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya', function () {
     return view('frontend/media-corner/2026/news7');
 })->name('mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya');

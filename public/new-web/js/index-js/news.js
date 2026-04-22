@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 22, 2026",
+            title: "RGU observes National Public Relations Day",
+            desc: "The Royal School of Communication and Media, in collaboration with the PRSI Guwahati Chapter, observed the National Public Relations Day on 21st April 2026 at the premises of the Assam Royal Global University. The topic of panel discussion was “Public Relations: The Emerging Fifth Pillar of Democracy”, which had expert panellists from diverse field.",
+            img: "/mobile-assets/media-corner/2026/22-4.jpeg",
+            link: "rgu-observes-national-public-relations-day",
+        },
+        {
             date: "Guwahati, April 18, 2026",
             title: "MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya",
             desc: "Reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Meghalaya Police. The agreement was formalised yesterday at the Office of the Director General of Police in Shillong in the presence of officials from Meghalaya Police and RGU.",

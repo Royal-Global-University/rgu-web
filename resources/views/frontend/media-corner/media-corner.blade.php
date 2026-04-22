@@ -47,6 +47,20 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU observes National Public Relations Day',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 22, 2026:',
+                            'link' =>
+                                '/rgu-observes-national-public-relations-day',
+                            'image' => '/mobile-assets/media-corner/2026/22-4.jpeg',
+                            'content' =>
+                                'The Royal School of Communication and Media, in
+                collaboration with the PRSI Guwahati Chapter, observed the National Public Relations Day on 21st April 2026
+                at the premises of the Assam Royal Global University. The topic of panel discussion was “Public Relations:
+                The Emerging Fifth Pillar of Democracy”, which had expert panellists from diverse field.',
+                        ],
+                        [
+                            'title' =>
                                 'MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya',
                             'summary' => 'Landmark MoU signed between Meghalaya Police & Royal Global University',
                             'date' => 'Guwahati, April 18, 2026:',
