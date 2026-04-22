@@ -426,7 +426,7 @@
                             </div>
                             <h3 class="card-name">Mr. Ankur Pansari</h3>
                             <p class="card-designation">
-                                Executive Vice-President, GSF and Member of Governing Body, The Assam Royal Global
+                                Pro-Chancellor and Member of Governing Body, The Assam Royal Global
                                 University
                             </p>
                             <a class="profile-link">Member</a>

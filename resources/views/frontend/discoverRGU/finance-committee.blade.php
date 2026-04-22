@@ -170,9 +170,7 @@
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                         Mr.
                                         Ankur Pansari</h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Executive
-                                        Vice-President,
-                                        Gyan Sagar Foundation & Member, Board of Management, Royal Global University</p>
+                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, RGU</p>
                                     <p class="card-text mobile-para1 half-underline mt-auto fw-bold"
                                         style="color: #FF9A1E;">
                                         Member</p>
