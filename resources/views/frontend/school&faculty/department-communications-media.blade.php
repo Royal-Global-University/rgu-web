@@ -1558,6 +1558,23 @@
                                 </div>
                                 <!-- event 1  -->
 
+                                <!-- event 2  -->
+
+
+
+                                <div class="text-center">
+                                    <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #243B95;">
+                                        RGU observes National Public Relations Day
+                                    </h2>
+
+                                    <img class="mt-4" src="https://www.rgu.ac/mobile-assets/media-corner/2026/22-4.jpeg"/>
+
+                                    <p class="text-dark mobile-para1 mt-3" style="text-align: justify;">
+                                        The Royal School of Communication and Media, in collaboration with the PRSI Guwahati Chapter, observed the National Public Relations Day on 21st April 2026 at the premises of the Assam Royal Global University. The topic of panel discussion was “Public Relations: The Emerging Fifth Pillar of Democracy”, which had expert panellists from diverse field. <span class="bg-primary text-white p-1 rounded"><a href="/rgu-observes-national-public-relations-day">read more</a></span>
+                                    </p>
+                                </div>
+                                <!-- event 2  -->
+
 
                                 <!-- all events  -->
                                 <div style="max-width: 100%; position: relative; margin-top: 30px;">
