@@ -4998,6 +4998,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/faculty-siddharth-shahi', function () {
+    return view('frontend/facultyprofile/rsbas/siddharth-shahi');
+})->name('/faculty-siddharth-shahi');
+
 Route::get('/faculty-lalnunpuii', function () {
     return view('frontend/facultyprofile/rsbas/lalnunpuii');
 })->name('/faculty-lalnunpuii');

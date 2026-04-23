@@ -204,7 +204,7 @@
                             </div>
                             <h3 class="card-name">Dr. Siddharth Shahi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-ravina-khumanlambam" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-siddharth-shahi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
