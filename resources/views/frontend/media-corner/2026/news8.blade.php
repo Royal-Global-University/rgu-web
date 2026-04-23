@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', '156 Students of RGU Awarded Scholarship for Academic Excellence')
+@section('title', 'RGU observes National Public Relations Day')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

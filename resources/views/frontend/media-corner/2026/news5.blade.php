@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University partners with TCS to start industry-integrated programmes')
+@section('title', 'ICMR Awards ₹90 Lakhs in Research Grants to RGU Faculty for Medical Studies')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

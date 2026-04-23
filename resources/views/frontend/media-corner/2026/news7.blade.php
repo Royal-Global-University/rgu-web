@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', '156 Students of RGU Awarded Scholarship for Academic Excellence')
+@section('title', 'MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University partners with TCS to start industry-integrated programmes')
+@section('title', 'Northeast must become India’s next pharma hub: PCI President speaks at Royal Global University)
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
