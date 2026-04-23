@@ -1,255 +1,202 @@
 @extends('frontend.master')
 @section('content')
+    <style>
+        /* ===== RESET ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ===== BASE ===== */
+        body {
+            font-family: "Times New Roman", serif;
+            background: #f4f6f9;
+            overflow-x: hidden;
+            color: #333;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .rgu-exam-hero {
+            /* Replaced with your image path. Added a fallback background color */
+            background: url('mobile-assets/new-exam-cell/head-img2.png') center/cover no-repeat, #1f355e;
+            height: 40vh;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Dark overlay to ensure text readability over the image */
+        .rgu-exam-hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .rgu-exam-hero-title {
+            position: relative;
+            color: #ffffff;
+            font-size: 48px;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        /* ===== MAIN LAYOUT (TWO COLUMNS) ===== */
+        .rgu-exam-container {
+            display: flex;
+            gap: 40px;
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 0 5%;
+        }
+
+        /* ===== LEFT SIDEBAR (LINKS) ===== */
+        .rgu-exam-sidebar {
+            flex: 0 0 300px;
+            /* Fixed width for the sidebar */
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            align-self: flex-start;
+        }
+
+        .rgu-exam-links-title {
+            font-size: 24px;
+            color: #1f355e;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #1f355e;
+            padding-bottom: 10px;
+        }
+
+        .rgu-exam-links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .rgu-exam-link-btn {
+            display: block;
+            padding: 15px 20px;
+            background: #1f355e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s ease;
+            text-align: center;
+        }
+
+        .rgu-exam-link-btn:hover {
+            background: #27467a;
+            transform: translateX(5px);
+            /* Slight slide to the right on hover */
+        }
+
+        /* ===== RIGHT CONTENT ===== */
+        .rgu-exam-content {
+            flex: 1;
+            /* Takes up remaining space */
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .rgu-exam-content-title {
+            font-size: 30px;
+            color: #1f355e;
+            margin-bottom: 20px;
+        }
+
+        .rgu-exam-text {
+            line-height: 1.8;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .rgu-exam-container {
+                flex-direction: column;
+                /* Stack on smaller screens */
+            }
+
+            .rgu-exam-sidebar {
+                flex: auto;
+                width: 100%;
+            }
+
+            .rgu-exam-hero-title {
+                font-size: 36px;
+            }
+        }
+    </style>
+
+
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px; padding-top: 90px; position: relative;">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                            style="color: #264273; font-weight: 700;">Examination <span
-                                style="color: #FF9A1E; font-weight: 500;">Cell</span> </h2>
-                        <div class="txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/examination/about/headimg.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
 
-                        <p class="mobile-para1 mt-4" style="color: #264273; text-align: justify;">
-                            The Examination Cell serves as a crucial administrative unit responsible for overseeing all aspects
-                            related to assessments, examinations, and academic evaluations. With a commitment to maintaining the
-                            integrity of the university's evaluation processes, the Examination Cell plays a pivotal role in
-                            ensuring fair and accurate assessment of students' academic performance.
-                        </p>
-                        <p class="mobile-para1 mt-4" style="color: #264273; text-align: justify;">
-                            Comprising a team of experienced professionals, the Examination Cell meticulously plans,
-                            coordinates, and executes various examination-related activities. From scheduling and conducting
-                            regular semester examinations to organizing supplementary exams and re-evaluation processes, the
-                            cell maintains a well-structured framework to manage the entire examination cycle efficiently.
-                            Furthermore, the Examination Cell offers a supportive and responsive platform for addressing
-                            students' queries and concerns related to examinations.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <hr>
-
-            <div class="container">
-
-                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                    style="color: #27467A; font-weight: 900;">
-                    Quick <span style="color: #FF9A1E; font-weight: 500;">Links</span></h2>
-
-                <div style="margin: 30px 0px 30px 0px;">
-                    <section class="button-container"
-                        style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-                        <a href="examinations.html" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            About Examination Cell
-                        </a>
-                        <a href="examinations-members.html" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Office of the COE
-                        </a>
-                        <a target="_blank" href="mobile-assets/examination/Examination Committee Existing Members01062024.pdf"
-                            class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Examination Committee <i style="color: white; padding-left: 10px;" class="fa fa-download"></i>
-                        </a>
-                        <a target="_blank" href="mobile-assets/examination/Examination Regulation 2024.pdf" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Rules and Regulations <i style="color: white; padding-left: 10px;" class="fa fa-download"></i>
-                        </a>
-                        <a class="button para1"
-                            style="text-decoration: none; background-color: #c4c4c4; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Announcements/Notifications
-                        </a>
-
-
-                        <div class="btn-group">
-                            <button type="button"
-                                style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;"
-                                class="btn btn-secondary dropdown-toggle para1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Results
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a href="examinations-diploma.html"><button class="dropdown-item para1 fw-bold"
-                                            style="color: #264273;" type="button">Diploma</button></a></li>
-                                <li><a href="examinations-under-grad.html"><button class="dropdown-item para1 fw-bold"
-                                            style="color: #264273;" type="button">Under-Graduate</button></a></li>
-                                <li><a href="examinations-post-grad.html"><button class="dropdown-item para1 fw-bold"
-                                            style="color: #264273;" type="button">Post-Graduate</button></a></li>
-                                <li><a href="examinations-phd.html"><button class="dropdown-item para1 fw-bold"
-                                            style="color: #264273;" type="button">Doctoral Course</button></a></li>
-                            </ul>
-                        </div>
-
-
-                        <div class="btn-group">
-                            <button type="button"
-                                style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;"
-                                class="btn btn-secondary dropdown-toggle para1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Forms and Applications
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a target="_blank"
-                                        href="mobile-assets/examination/Application Format for issuing Transcript.pdf"><button
-                                            class="dropdown-item para1 fw-bold" style="color: #264273;" type="button">Transcript
-                                            <i style="color: #264273;" class="fa fa-download"></i></button></a></li>
-                                <li><a target="_blank"
-                                        href="mobile-assets/examination/Application Form for Provisional or Duplicate Gradesheet.pdf"><button
-                                            class="dropdown-item para1 fw-bold" style="color: #264273;"
-                                            type="button">Provisional/ Duplicate Grade Sheet <i style="color: #264273;"
-                                                class="fa fa-download"></i></button></a></li>
-                            </ul>
-                        </div>
-
-
-                        <a target="_blank" href="https://www.abc.gov.in/" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 400px; height: 70px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Academic Bank of Credit
-                        </a>
-                    </section>
-                </div>
-            </div>
-
-        </section>
     </div>
 
     <div class="website">
+        <!--head image Section-->
         @include('frontend/components/aheader')
-        <!--head image Section-->
-        <section
-            style="background-image: url(mobile-assets/examination/about/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/examination/about/headimg.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
 
-                        <h2 class="headd1 kd-title-ani kd-split-text" style="color: #264273; font-weight: 700">Examination <span
-                                style="color: #FF9A1E; font-weight: 500;">Cell</span> </h2>
-
-                        <p style="color: #264273; text-align: justify;" class="para1">
-                            The Examination Cell serves as a crucial administrative unit responsible for overseeing all aspects
-                            related to assessments, examinations, and academic evaluations. With a commitment to maintaining the
-                            integrity of the university's evaluation processes, the Examination Cell plays a pivotal role in
-                            ensuring fair and accurate assessment of students' academic performance.
-                        </p>
-                        <p style="color: #264273; text-align: justify;" class="para1">
-                            Comprising a team of experienced professionals, the Examination Cell meticulously plans,
-                            coordinates, and executes various examination-related activities. From scheduling and conducting
-                            regular semester examinations to organizing supplementary exams and re-evaluation processes, the
-                            cell maintains a well-structured framework to manage the entire examination cycle efficiently.
-                            Furthermore, the Examination Cell offers a supportive and responsive platform for addressing
-                            students' queries and concerns related to examinations.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--head image Section-->
-
-        <div class="container">
-
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Quick <span style="color: #FF9A1E; font-weight: 500;">Links</span></h2>
-
-            <div style="margin: 30px 0px 30px 0px;">
-                <section class="row">
-
-                    <div class="col-lg-4 pb-3">
-                        <a target="_blank" href="timetable-of-odd-sem-2025" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Timetable of Odd sem-2025
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 pb-3">
-                        <a target="_blank" href="mobile-assets/pdf/result.pdf" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Odd Sem Regular Result
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 pb-3">
-                        <a href="examination-members" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Office of the COE
-                        </a>
-                    </div>
-                    <div class="col-lg-4 pb-3">
-                        <a target="_blank" href="mobile-assets/examination/Examination Committee Existing Members01062024.pdf"
-                            class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Examination Committee <i style="color: white; padding-left: 10px;" class="fa fa-download"></i>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 pb-3">
-                        <a target="_blank" href="mobile-assets/examination/Examination Regulation 2024.pdf" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Rules and Regulations <i style="color: white; padding-left: 10px;" class="fa fa-download"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 pb-3">
-                        <a target="_blank" href="https://www.abc.gov.in/" class="button para1"
-                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
-                            Academic Bank of Credit
-                        </a>
-                    </div>
-
-                    {{-- <div class="col-lg-4">
-
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle para1" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"
-                                style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">
-                                Results
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a href="examination-diploma"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
-                                        type="button">Diploma</button></a>
-                                <a href="examination-under-graduate"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
-                                        type="button">Under-Graduate</button></a>
-                                <a href="examination-post-graduate"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
-                                        type="button">Post-Graduate</button></a>
-                                <a href="examination-phd"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
-                                        type="button">Doctoral
-                                        Course</button></a>
-                            </div>
-                            </div>
-                    </div> --}}
-                    {{-- <div class="col-lg-4">
-
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle para1" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">
-                                Forms and Applications
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a target="_blank" href="mobile-assets/examination/Application Format for issuing Transcript.pdf"><button
-                                        class="dropdown-item para1 fw-bold" style="color: #264273;" type="button">Transcript <i style="color: #264273;"
-                                            class="fa fa-download"></i></button></a>
-                                            <a target="_blank" href="mobile-assets/examination/Application Form for Provisional or Duplicate Gradesheet.pdf"><button
-                                                    class="dropdown-item para1 fw-bold" style="color: #264273;" type="button">Provisional/
-                                                    Duplicate Grade Sheet <i style="color: #264273;" class="fa fa-download"></i></button></a>
-                            </div>
-                        </div>
-                    </div> --}}
-
-                </section>
-            </div>
-        </div>
     </div>
+
+    <section class="rgu-exam-hero">
+        <h1 class="rgu-exam-hero-title">Examination</h1>
+    </section>
+
+    <main class="rgu-exam-container">
+
+        <aside class="rgu-exam-sidebar">
+            <h2 class="rgu-exam-links-title">Quick Links</h2>
+            <div class="rgu-exam-links-list">
+                <a href="/examinations" class="rgu-exam-link-btn">About the Examination Cell</a>
+                <a href="/examination-cell-office-controller" target="_blank" class="rgu-exam-link-btn">Office of the Controller of
+                    Examination</a>
+                <a href="/examination-cell-committee" target="_blank" class="rgu-exam-link-btn">Examination Committee</a>
+                <a href="#" class="rgu-exam-link-btn">Admit Card</a>
+                <a href="#" class="rgu-exam-link-btn">Rules & Regulations</a>
+                <a href="#" class="rgu-exam-link-btn">Annoucement/ Notifications</a>
+                <a href="#" class="rgu-exam-link-btn">Results</a>
+                <a href="#" class="rgu-exam-link-btn">Transcript</a>
+                <a href="#" class="rgu-exam-link-btn">Academic Bank of Credit</a>
+                <a href="#" class="rgu-exam-link-btn">Downloads</a>
+            </div>
+        </aside>
+
+        <section class="rgu-exam-content">
+            <h2 class="rgu-exam-content-title">About the Examination Cell</h2>
+            <p class="rgu-exam-text">
+                The Examination Cell serves as a crucial administrative unit responsible for overseeing all aspects related
+                to
+                assessments, examinations, and academic evaluations. With a commitment to maintaining the integrity of the
+                university's evaluation processes, the Examination Cell plays a pivotal role in ensuring fair and accurate
+                assessment of students' academic performance.
+                <br><br>
+                Comprising a team of experienced professionals, the Examination Cell meticulously plans, coordinates, and
+                executes various examination-related activities. From scheduling and conducting regular semester
+                examinations
+                to organizing supplementary exams and re-evaluation processes, the cell maintains a well-structured
+                framework
+                to manage the entire examination cycle efficiently. Furthermore, the Examination Cell offers a supportive
+                and
+                responsive platform for addressing students' queries and concerns related to examinations.
+            </p>
+        </section>
+
+    </main>
 @endsection

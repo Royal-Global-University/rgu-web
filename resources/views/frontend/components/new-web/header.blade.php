@@ -814,7 +814,7 @@
 
             <!-- Examination -->
             <li>
-                <a href="">
+                <a href="/examinations">
                     EXAMINATION <span>↗</span>
                 </a>
             </li>

@@ -2843,6 +2843,14 @@ Route::get('/examinations', function () {
     return view('frontend/examination/examinations');
 })->name('examinations');
 
+Route::get('/examination-cell-committee', function () {
+    return view('frontend/examination/examination-cell-committee');
+})->name('examination-cell-committee');
+
+Route::get('/examination-cell-office-controller', function () {
+    return view('frontend/examination/examination-cell-office-controller');
+})->name('examination-cell-office-controller');
+
 Route::get('/examination-members', function () {
     return view('frontend/examination/examination-members');
 })->name('examination-members');
