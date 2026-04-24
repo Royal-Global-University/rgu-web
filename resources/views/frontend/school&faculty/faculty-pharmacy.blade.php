@@ -272,19 +272,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Aaditya.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Aaditya Das</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-aitilaris" class="profile-link">View Profile</a> --}}
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Aitilaris-Nongsiej-RSP.png"
                                     alt="Profile image">
                             </div>
@@ -353,18 +340,6 @@
                             <h3 class="card-name">Mr. Himanta Biswa Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/himanta-saikia" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Joydeep.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Joydeep Singh</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/himanta-saikia" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
