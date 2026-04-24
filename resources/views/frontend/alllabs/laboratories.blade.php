@@ -309,7 +309,12 @@
                     title: "Cartography Lab",
                     image: "/mobile-assets/laboratories/Cartography/Photo 3.jpeg",
                     link: "/lab-cartography"
-                    }
+                    },
+                    {
+                    title: "Geology Lab",
+                    image: "/mobile-assets/laboratories/new-lab-geology/4.jpg",
+                    link: "/lab-geology"
+                    },
                 ]
             },
 

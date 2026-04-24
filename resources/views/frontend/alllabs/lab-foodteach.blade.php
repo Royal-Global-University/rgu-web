@@ -26,7 +26,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-foodtech/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-foodtech/headimg.JPG"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -80,6 +81,35 @@
             </div>
 
             <img src="mobile-assets/lab-foodtech/Food-TechLab.png" alt="">
+        </div>
+    </div>
+    <div class="container pt-4 pb-4">
+        <h2 class="text-center pb-4" style="font-size: 38px; color: #f7921e; font-weight: 700;">Lab Equipments</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="p-2 rounded" style="background-color: #264678">
+                    <img class="pb-2" src="/mobile-assets/lab-foodtech/items/ft-1.png" />
+                    <p class="text-center pt-2 text-white fw-bold">Food Fibre estimation System</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="p-2 rounded" style="background-color: #264678">
+                    <img class="pb-2" src="/mobile-assets/lab-foodtech/items/ft-2.png" />
+                    <p class="text-center pt-2 text-white fw-bold">Protein Estimation System</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="p-2 rounded" style="background-color: #264678">
+                    <img class="pb-2" src="/mobile-assets/lab-foodtech/items/ft-3.png" />
+                    <p class="text-center pt-2 text-white fw-bold">Fat Estimation System</p>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-3">
+                <div class="p-2 rounded" style="background-color: #264678">
+                    <img class="pb-2" src="/mobile-assets/lab-foodtech/items/ft-4.png" />
+                    <p class="text-center pt-2 text-white fw-bold">Food Sample Digesting System for Protein Estimation</p>
+                </div>
+            </div>
         </div>
     </div>
     </div>
