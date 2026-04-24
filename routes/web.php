@@ -4738,11 +4738,15 @@ Route::get('/faculty-biswajit-sarma', function () {
 
 
 
-//RSC FACULTY PROFILE
+//RSC FACULTY PROFILE.
 
 Route::get('/amrit-pal-singh', function () {
     return view('frontend/facultyprofile/rsc/amrit-pal-singh');
 })->name('amrit-pal-singh');
+
+Route::get('/faculty-amar-jyoti-borah', function () {
+    return view('frontend/facultyprofile/rsc/amar-jyoti-borah');
+})->name('faculty-amar-jyoti-borah');
 
 Route::get('/faculty-bittu-sonowal', function () {
     return view('frontend/facultyprofile/rsc/bittu-sonowal');
