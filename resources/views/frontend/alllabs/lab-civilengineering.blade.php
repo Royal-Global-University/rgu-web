@@ -28,7 +28,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-engineering/headimg.png" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-engineering/headimg.png"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -44,7 +45,7 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Civil Engineering Lab
                                         </h1>
 
@@ -66,19 +67,16 @@
                 </div>
             </section>
 
-            <hr>
+
+            <h2 style="color: #0056b3 !important;"
+                class="headd1 fw-bold text-dark text-center pb-4 pt-4 kd-title-ani kd-split-text">Lab Activities
+                Includes
+            </h2>
 
             <div class="custom-container">
                 <div class="custom-row">
                     <div class="custom-column p-4">
-
-                        <h2 style="color: #0056b3 !important;"
-                            class="headd3 fw-bold text-dark text-center pb-2 pt-2 kd-title-ani kd-split-text">Lab Activities
-                            Includes
-                        </h2>
-
-                        <hr>
-                        <ol class="text-dark para1">
+                        <ol class="text-dark para1" style="column-count: 2; column-gap: 40px;">
                             <li>Fresh concrete, soil, aggregate, rock, cement, water & asphalt sampling</li>
                             <li>Testing of concrete repair</li>
                             <li>
@@ -104,9 +102,6 @@
                                 <ol type="a">
                                     <li>Core density & asphalt field compaction</li>
                                     <li>Marshal density, stability & flow</li>
-                                    <li>Maximum theoretical density</li>
-                                    <li>Voids in marshal & field sample</li>
-                                    <li>Voids filled with asphalt</li>
                                 </ol>
                             </li>
                             <li>Lightweight pieces, shell content, clay lumps & friable particles in the aggregate sample
@@ -137,32 +132,93 @@
                 </div>
             </div>
 
-            <div class="container mt-4">
+        </div>
+    </div>
 
-                <p class="text-dark headd3 fw-bold" style="text-align: justify;">
-                </p>
-                <ol class="text-dark para1">
+    <h2 style="color: #0056b3 !important;"
+        class="headd1 fw-bold text-dark text-center pb-4 pt-4 kd-title-ani kd-split-text">Lab Equipments
+    </h2>
 
-
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/18.jpg" />
             </div>
-
-
-
-            <div class="container-fluid mt-2 mb-5" style="padding: 0px 50px;">
-
-
-                <img src="mobile-assets/lab-engineering/CivilEngineeringLab.png" alt="">
-
-                <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-
-                    <iframe width="800" height="600" src="https://www.youtube.com/embed/pCSQDyoTbvc?si=HQ6WO5_uHgVTR_Lq"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/19.jpg" />
             </div>
-
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/20.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/21.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/22.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/23.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/24.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/25.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/26.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/27.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/28.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/29.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/30.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/31.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/32.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/33.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/34.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/35.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/36.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/37.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/38.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/39.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/40.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/41.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/42.jpg" />
+            </div>
+            <div class="col-lg-4">
+                <img class="p-2 rounded" src="/mobile-assets/laboratories/Civil Engg Lab Machines/43.jpg" />
+            </div>
         </div>
     </div>
 @endsection

@@ -263,21 +263,9 @@
             </div>
         </section>
 
-        <div class="text-dark pt-4" style="padding-left: 50px;">
-            <h4>Available Labs:</h4>
-            <ol>
-                <li>Fluid Mechanics Lab</li>
-                <li>Heat Transfer Lab</li>
-                <li>Strength of Materials Lab</li>
-                <li>Dynamics of Machine Lab</li>
-                <li>Metrology Lab</li>
-                <li>Mechanical Workshop</li>
-            </ol>
-        </div>
-
         <section class="rgu-mech-activities">
 
-            <h3 class="rgu-mech-activities-title">Included In The Lab Are:</h3>
+            <h3 class="rgu-mech-activities-title">LIST OF LAB ACTIVITIES:</h3>
 
             <div class="rgu-mech-cards-container">
 
