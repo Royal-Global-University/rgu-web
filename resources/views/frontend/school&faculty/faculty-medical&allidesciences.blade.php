@@ -277,6 +277,19 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
+                                    <img src="/mobile-assets/updated-faculty-img/subarna.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Mr. Subarna Sankar Das</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                                {{-- <a href="https://www.rgu.ac/faculty-phurailatpam-jeny-sharma" class="profile-link">View
+                                    Profile</a> --}}
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
                                     <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Trishna%20Kakati-RSMAS.png"
                                         alt="Profile image">
                                 </div>
