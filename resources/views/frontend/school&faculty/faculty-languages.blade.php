@@ -505,6 +505,20 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card">
                         <div class="card-image">
+                            <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
+                        </div>
+                        <h3 class="card-name">Prof. Dhrubajyoti Borah
+                        </h3>
+                        <p class="card-designation">Professor
+
+                        </p>
+                        <!-- <a href="" class="profile-link">View Profile</a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-image">
                             <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dileep.jpeg"
                                 alt="Profile image">
                         </div>
@@ -518,18 +532,56 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Pradip Jyoti Mahanta</h3>
+                            <p class="card-designation">Professor</p>
+                            <a href="/faculty-pradip-jyoti-mahanta" class="profile-link">View Profile</a>
                         </div>
-                        <h3 class="card-name">Prof. Dhrubajyoti Borah
-                        </h3>
-                        <p class="card-designation">Professor
-
-                        </p>
-                        <!-- <a href="" class="profile-link">View Profile</a> -->
                     </div>
-                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
+                                    alt="Profile image of Prof. Anuradha Devi">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
+                            <p class="card-designation">Professor
+                            </p>
+                            <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bapan-Kalita.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Bapan Kalita</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-bapan-kalita" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Stuti Goswami
+                            </h3>
+                            <p class="card-designation">Associate Professor
+
+                            </p>
+                            <a href="/faculty-stuti-goswami" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card">

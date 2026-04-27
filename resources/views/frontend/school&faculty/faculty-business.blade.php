@@ -392,7 +392,7 @@
                             </div>
                             <h3 class="card-name">Dr. Bapan Kalita</h3>
                             <p class="card-designation">Associate Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="https://www.rgu.ac/faculty-dr-bapan-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
