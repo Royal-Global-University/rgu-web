@@ -3,7 +3,27 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-zoology/mobileZoologyLab.png" alt="">
+            <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center pt-3">
+                Zoology Lab
+            </h1>
+            <img class="p-4 rounded" decoding="async" src="mobile-assets/lab-zoology/headimg.JPG" alt="" />
+            <p class="text-dark para1 p-4" style="text-align: justify;">
+                The Zoology Laboratory is a premier facility dedicated to the comprehensive
+                study of animal life, providing students with an immersive environment to
+                explore the vast complexities of the animal kingdom. Equipped with
+                high-resolution microscopy and advanced anatomical resources, the laboratory
+                bridges the gap between theoretical knowledge and practical discovery, allowing
+                for the detailed investigation of animal physiology, morphology, and
+                evolutionary biology.
+            </p>
+            <p class="text-dark para1 p-3" style="text-align: justify;">Through hands-on engagement with diverse biological
+                specimens, students develop a profound understanding of comparative anatomy,
+                histology, and the ecological roles of different species. The facility is
+                designed to sharpen technical and analytical skills, encouraging students to
+                apply scientific rigor to the study of genetics, ethology, and conservation. By
+                fostering critical thinking and a spirit of inquiry, the Zoology Laboratory
+                plays a vital role in preparing students to address modern environmental
+                challenges, wildlife management, and the preservation of global biodiversity.</p>
         </div>
     </div>
 
@@ -27,7 +47,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-zoology/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-zoology/headimg.JPG"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -42,17 +63,18 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Zoology Lab
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The zoology lab has all the necessary infrastructure and equipment to conduct
-                                            various subject related experiments. The practical sessions help students to
-                                            comprehend scientific concepts easily. It prepares students to indulge in the
-                                            emerging fields of zoology. It also focuses on developing students’ practical
-                                            scientific skills and train them in developing expertise in animal science. The
-                                            lab is located in block- D in room no- E103 on the second floor.
+                                            The Zoology Laboratory is a premier facility dedicated to the comprehensive
+                                            study of animal life, providing students with an immersive environment to
+                                            explore the vast complexities of the animal kingdom. Equipped with
+                                            high-resolution microscopy and advanced anatomical resources, the laboratory
+                                            bridges the gap between theoretical knowledge and practical discovery, allowing
+                                            for the detailed investigation of animal physiology, morphology, and
+                                            evolutionary biology.
                                         </p>
 
                                     </div>
@@ -61,49 +83,91 @@
                         </div>
                     </div>
                 </div>
+                <p class="p-5 text-dark">Through hands-on engagement with diverse biological
+                    specimens, students develop a profound understanding of comparative anatomy,
+                    histology, and the ecological roles of different species. The facility is
+                    designed to sharpen technical and analytical skills, encouraging students to
+                    apply scientific rigor to the study of genetics, ethology, and conservation. By
+                    fostering critical thinking and a spirit of inquiry, the Zoology Laboratory
+                    plays a vital role in preparing students to address modern environmental
+                    challenges, wildlife management, and the preservation of global biodiversity.</p>
             </section>
         </div>
 
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
+    </div>
+    <div>
+        <h3 class="text-dark text-center pb-4">List of equipment’s:</h3>
+        <div class="container">
+            <div class="row" style="padding-left: 50px">
 
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Included
-                        In The Lab Are:
-                    </h2>
-
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">High-resolution compound microscope</li>
-                        <li class="para1 text-dark">Dissection microscope</li>
-                        <li class="para1 text-dark">Microbial hood</li>
-                        <li class="para1 text-dark">Double distillation unit</li>
-                        <li class="para1 text-dark">Bacteriological hoods</li>
-                        <li class="para1 text-dark">Incubators</li>
-                        <li class="para1 text-dark">Calorimeter</li>
-                        <li class="para1 text-dark">Microtome etc</li>
+                <div class="col-md-6">
+                    <ol class="text-dark ps-3 mb-0">
+                        <li>Auto Double Distillation Unit</li>
+                        <li>Autoclave Unit</li>
+                        <li>Centrifuge with Rotor</li>
+                        <li>Chromatography Chamber</li>
+                        <li>Compound Light Microscope</li>
+                        <li>Desiccator</li>
+                        <li>Digital Water Bath</li>
+                        <li>Digital Weigh Balance</li>
+                        <li>Digital pH meter</li>
+                        <li>Digital Photoelectric Colorimeter</li>
+                        <li>Digital Nephelo Turbidity Meter</li>
+                        <li>Dissecting Microscope</li>
+                        <li>Double Door Refrigerator</li>
+                        <li>Egg Incubator</li>
+                        <li>Handheld GPS</li>
+                        <li>Haemocytometer</li>
                     </ol>
                 </div>
 
-                <div class="custom-column p-4">
-
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Activities Includes:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Preservation and collection of animal species</li>
-                        <li class="para1 text-dark">Dissection of vertebrate and invertebrate animals</li>
-                        <li class="para1 text-dark">Studying the general anatomy of animals</li>
-                        <li class="para1 text-dark">Identification of embryological slides and embryological stage</li>
-                        <li class="para1 text-dark">Application of micro techniques for slide preparation etc</li>
+                <div class="col-md-6">
+                    <ol start="17" class="text-dark ps-3 mb-0">
+                        <li>Haemoglobinometer</li>
+                        <li>Heating Mental</li>
+                        <li>Hot Air Oven</li>
+                        <li>Magnetic Stirrer with Hot Plate</li>
+                        <li>Micro Centrifuge</li>
+                        <li>Microtome</li>
+                        <li>Refrigerator</li>
+                        <li>Simple Microscope</li>
+                        <li>Sphygmomanometer</li>
+                        <li>Stethoscope</li>
+                        <li>Stereo-Microscope</li>
+                        <li>UV - Vis Spectrophotometer</li>
+                        <li>UV Transilluminator</li>
+                        <li>Vertical, Horizontal Electrophoresis with Power supply</li>
+                        <li>Vortex</li>
                     </ol>
-
                 </div>
 
             </div>
         </div>
-
-        <img src="mobile-assets/lab-zoology/ZoologyLab.png" alt="">
+    </div>
+    <div class="container">
+        <h3 class="text-dark text-center pb-5">Major Instruments</h3>
+        <div class="row pb-5">
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/4.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/5.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/6.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/1.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/2.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/3.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="/mobile-assets/zoology eq/7.jpg"/>
+            </div>
+        </div>
     </div>
 @endsection

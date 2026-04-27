@@ -557,6 +557,10 @@ Route::get('/lab-physics', function () {
     return view('frontend/alllabs/lab-physics');
 })->name('lab-physics');
 
+Route::get('/lab-psychology', function () {
+    return view('frontend/alllabs/lab-psychology');
+})->name('lab-psychology');
+
 Route::get('/lab-physiotherapy', function () {
     return view('frontend/alllabs/lab-physiotherapy');
 })->name('lab-physiotherapy');

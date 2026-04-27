@@ -235,6 +235,15 @@
                 ]
             },
             {
+                school: "Royal School of Behavioural & Allied Sciences (RSBAS)",
+                labs: [{
+                        title: "Psychological Lab",
+                        image: "/mobile-assets/Psychological/Picture1.png",
+                        link: "/lab-psychology"
+                    }
+                ]
+            },
+            {
                 school: "Royal School of Bio-sciences (RSBSC)",
                 labs: [{
                         title: "Biotechnology Lab",
