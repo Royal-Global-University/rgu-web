@@ -725,7 +725,7 @@
 
     <section class="csifx-hero">
         <video autoplay muted loop playsinline class="csifx-hero-video">
-            <source src="mobile-assets/csif-lab/CSIF-Promotional-Video.mp4" type="video/mp4">
+            <source src="https://media.rgu.ac/index/CSIF-Promotional-Video.mp4" type="video/mp4">
         </video>
 
         <div class="csifx-hero-overlay"></div>
@@ -826,12 +826,16 @@
                                 <span>HPLC</span>
                             </div>
                             <div class="csifx-equip-content">
-                                <h3>HPLC</h3>
-                                <p><strong>MAKE:</strong> #</p>
-                                <p><strong>MODEL:</strong> #</p>
+                                <h3>High-Performance Liquid Chromatography (HPLC) System</h3>
+                                <p><strong>MAKE:</strong> Shimadzu</p>
+                                <p><strong>MODEL:</strong> Ai series LC2050C 3D</p>
                                 <h4>Applications</h4>
                                 <ul>
-                                    <li>#</li>
+                                    <li>1. Product purity and quality control of industrial products and fine chemicals</li>
+                                    <li>2. Separation and purification of biopolymers such as enzymes or nucleic acids</li>
+                                    <li>3. Analysis of pollutants in environmental analytics</li>
+                                    <li>4. Analysis of drugs and pharmaceuticals</li>
+                                    <li>5. Pre-concentration of trace components</li>
 
                                 </ul>
                             </div>
@@ -977,7 +981,7 @@
                 <a target="_blank" href="mobile-assets/csif-lab/Access Policy_CSIF-RGU.pdf" class="csifx-ql-btn">Access
                     Policy -
                     CSIF ⬇</a>
-                <a target="_blank" href="mobile-assets/csif-lab/CSIF Indent Form.pdf" class="csifx-ql-btn">CSIF Indent
+                <a target="_blank" href="mobile-assets/csif-lab/CSIF Indent Form 2026.pdf" class="csifx-ql-btn">CSIF Indent
                     Form
                     ⬇</a>
                 <a target="_blank" href="mobile-assets/csif-lab/CSIF SERVICE CHARGES.pdf" class="csifx-ql-btn">CSIF
