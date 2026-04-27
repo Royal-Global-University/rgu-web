@@ -286,7 +286,7 @@
         <section class="rgu-fine-arts-gallery">
 
             <h2 class="rgu-fine-arts-gallery-title">
-                Glimpse of <span class="rgu-fine-arts-highlight">The Royal Boutique</span>
+                Glimpse of <span class="rgu-fine-arts-highlight">The Fashion Studio</span>
             </h2>
 
             <div class="rgu-fine-arts-grid">
