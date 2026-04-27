@@ -6,14 +6,17 @@
             <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                 Botany Lab</h1>
             <img class="p-3 rounded" src="/mobile-assets/new-labs/botany/botany-img.jpeg" alt="">
-            <p class="text-dark para1 p-4" style="text-align: justify;">
-                                            The botany lab is equipped with all the necessary infrastructure required by
-                                            students to carry out experiments to study the structure, properties and
-                                            biochemical processes of all forms of plant life. The Department of Botany
-                                            provides its students with a broad knowledge of botany and equips them with the
-                                            tools and drive to conduct original independent research in the discipline of
-                                            plant sciences. The lab is in block- D in room no- D201 on the second floor.
-                                        </p>
+            <p class="text-dark para1 p-4" style="text-align: justify;">The Botany Laboratory is a well-established facility
+                designed to support both foundational learning and advanced research in plant sciences. It provides a
+                structured and hands-on environment where students gain practical expertise in plant morphology, anatomy,
+                physiology, taxonomy, and molecular aspects of plant biology. Equipped with essential instruments and
+                experimental setups, the laboratory supports studies in key areas such as plant molecular biology, plant
+                microbiology, plant pathology, mycology (mushroom studies), phytochemistry, ecology, and environmental
+                botany</p>
+            <p class="text-dark para1 p-4" style="text-align: justify;">By integrating classical botanical knowledge with modern molecular and microbiological approaches, the
+                laboratory promotes critical thinking and research ability. Overall, the Botany Laboratory plays a vital
+                role in preparing students to address challenges related to plant health, sustainable agriculture,
+                biodiversity conservation, and emerging innovations in plant-based sciences.</p>
         </div>
     </div>
 
@@ -26,7 +29,7 @@
 
 
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-botany/background.svg);"
+            <section style="padding-top: 30px;"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -59,13 +62,22 @@
                                         <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                                             Botany Lab</h1>
 
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            The botany lab is equipped with all the necessary infrastructure required by
-                                            students to carry out experiments to study the structure, properties and
-                                            biochemical processes of all forms of plant life. The Department of Botany
-                                            provides its students with a broad knowledge of botany and equips them with the
-                                            tools and drive to conduct original independent research in the discipline of
-                                            plant sciences. The lab is in block- D in room no- D201 on the second floor.
+                                        <p class="text-dark" style="text-align: justify;">
+                                            The Botany Laboratory is a well-established facility designed to support both
+                                            foundational learning and advanced research in plant sciences. It provides a
+                                            structured and hands-on environment where students gain practical expertise in
+                                            plant morphology, anatomy, physiology, taxonomy, and molecular aspects of plant
+                                            biology. Equipped with essential instruments and experimental setups, the
+                                            laboratory supports studies in key areas such as plant molecular biology, plant
+                                            microbiology, plant pathology, mycology (mushroom studies), phytochemistry,
+                                            ecology, and environmental botany.
+                                        </p>
+                                        <p class="text-dark" style="text-align: justify;">
+                                            By integrating classical botanical knowledge with modern molecular and
+                                            microbiological approaches, the laboratory promotes critical thinking and
+                                            research ability. Overall, the Botany Laboratory plays a vital role in preparing
+                                            students to address challenges related to plant health, sustainable agriculture,
+                                            biodiversity conservation, and emerging innovations in plant-based sciences.
                                         </p>
 
                                     </div>
@@ -80,27 +92,69 @@
         </div>
     </div>
 
-    <div class="headd3 text-dark fw-bold text-center pt-4 pb-4">Included In The Lab Are:
+    <div class="text-dark fw-bold text-center pt-4 pb-4" style="font-size: 32px;">List of instruments:
     </div>
 
-    <ol class="para1 text-dark" style="padding-left: 60px">
-        <li>Biosafety cabinets
-        </li>
-        <li>Spectrophotometer
-        </li>
-        <li>Incubator Shakers
-        </li>
-        <li>Deep Freezer
-        </li>
-        <li>Refrigerated laboratory centrifuge
-        </li>
-        <li>Autoclave
-        </li>
-        <li>Colourimeter
-        </li>
-        <li>Models and charts
-        </li>
-    </ol>
+    <div class="container text-dark">
+        <ol class="equipment-list">
+            <li>Autoclave</li>
+            <li>Bench Top Centrifuge</li>
+            <li>BOD Incubator</li>
+            <li>Centrifuge</li>
+            <li>Chest Freezer (-20°C)</li>
+            <li>Digital Colorimeter</li>
+            <li>Digital Colony Counter</li>
+            <li>Digital Hot Air Oven</li>
+            <li>Digital pH Meter</li>
+            <li>Digital Water Bath</li>
+            <li>Double Distillation Unit 5L</li>
+            <li>Gel Documentation System</li>
+            <li>Heating Mantle</li>
+            <li>Hot Plate with Magnetic Stirrer</li>
+            <li>Incubator</li>
+            <li>Kjeldahl Digestion and Distillation Unit</li>
+            <li>Laminar Air Flow</li>
+            <li>Microwave Oven</li>
+            <li>Microscopes</li>
+            <li>Mini Sub System with Power Supply</li>
+            <li>Muffle Furnace</li>
+            <li>Orbital Shaking Incubator</li>
+            <li>Refrigerator</li>
+            <li>Rotary Microtome with Accessories</li>
+            <li>Thermal Cycler / PCR Machine</li>
+            <li>Ultra Deep Freezer (-80°C)</li>
+            <li>UV Spectrophotometer</li>
+            <li>Vertical Mini Gel System with Power Supply</li>
+        </ol>
+    </div>
+
+    <style>
+        .equipment-list {
+            column-count: 2;
+            column-gap: 40px;
+            padding-left: 120px;
+            margin: 0;
+        }
+
+        .equipment-list li {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .equipment-list {
+                column-count: 1;
+                padding-left: 25px;
+                column-gap: 0;
+            }
+
+            .equipment-list li {
+                font-size: 14px;
+                margin-bottom: 6px;
+            }
+        }
+    </style>
 
 
     <hr>

@@ -517,6 +517,18 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Prasanta Jyoti Baruah</h3>
+                            <p class="card-designation">Distinguished Professor & Dean, RSCOM</p>
+                            <a href="/faculty-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card">
                         <div class="card-image">
                             <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dileep.jpeg"
