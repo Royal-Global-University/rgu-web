@@ -2,8 +2,20 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/lab-physics/mobilePhysicslab.png" alt="">
+        <div style="padding-top: 100px; position: relative;">
+            <h3 class="text-center text-dark fw-bold">Physics Lab</h3>
+            <img class="p-3 rounded" src="mobile-assets/lab-physics/headimg.JPG" alt="">
+            <div class="p-3">
+                <p class="text-dark para1" style="text-align: justify;">
+                    Our Physics laboratory is well-equipped with modern instruments to help students understand the concepts
+                    of Physics through experiments. It is designed to assist and guide students in taking measurements,
+                    analyzing data, and drawing inferences during practical work.
+                    There are separate laboratories dedicated to B.Sc. and M.Sc. Physics students, equipped with basic to
+                    advanced experimental setups according to semester requirements. Students are encouraged to perform
+                    hands-on experiments under expert supervision, enabling them to gain detailed practical insights.
+                </p>
+
+            </div>
         </div>
     </div>
 
@@ -25,7 +37,8 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-physics/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-physics/headimg.JPG"
+                                                alt="">
                                         </div>
 
                                     </div>
@@ -41,20 +54,19 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Physics Lab
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            Our Physics laboratory is well stocked with all the modern equipment to help the
-                                            students learn the concepts of Physics with experiments. It is designed to aid
-                                            and guide students in taking measurements, analysing data and draw inferences
-                                            while experimenting.
-                                        </p>
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            The lab is quite spacious and very well-ventilated with lots of light. The
-                                            laboratory can accommodate 40 students at a time. The lab is in block- B in room
-                                            No. B108 on the first floor.
+                                            Our Physics laboratory is well-equipped with modern instruments to help students
+                                            understand the concepts of Physics through experiments. It is designed to assist
+                                            and guide students in taking measurements, analyzing data, and drawing
+                                            inferences during practical work.
+                                            There are separate laboratories dedicated to B.Sc. and M.Sc. Physics students,
+                                            equipped with basic to advanced experimental setups according to semester
+                                            requirements. Students are encouraged to perform hands-on experiments under
+                                            expert supervision, enabling them to gain detailed practical insights.
                                         </p>
                                     </div>
                                 </div>
@@ -65,37 +77,128 @@
             </section>
         </div>
 
+    </div>
 
+    <div class="custom-container">
+        <div class="custom-row">
+            <div class="custom-column">
+                <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
+                    Instruments Includes:
 
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Instruments Includes:
+                </h2>
 
-                    </h2>
+                <hr>
+                <ol>
+                    <li class="para1 text-dark">Four Probe Experimental Set-up</li>
+                    <li class="para1 text-dark">Hall Effect Set-up</li>
+                    <li class="para1 text-dark">Michelson Interferometer</li>
+                    <li class="para1 text-dark">Fabry-Perot Interferometer</li>
+                    <li class="para1 text-dark">Ultrasonic Velocity Measurements Set-up</li>
+                    <li class="para1 text-dark">Thomsons e/m Measurements Set-up</li>
+                    <li class="para1 text-dark">Millikan’s Oil Drop Experimental Set-up</li>
+                    <li class="para1 text-dark">Geiger-Müller (GM) Counter</li>
+                    <li class="para1 text-dark">LED/PIN Photo Detector/ Photo-diode/ Solar-Cell Characteristics Study
+                        Set-up</li>
+                    <li class="para1 text-dark">Lattice Vibrational Kit</li>
+                    <li class="para1 text-dark">Frank and Hertz Experimental Set-up</li>
+                    <li class="para1 text-dark">Babinet Compensator</li>
+                    <li class="para1 text-dark">Fresnel Biprism</li>
+                    <li class="para1 text-dark">Electron Spin Resonance (ESR) Spectrometer</li>
+                    <li class="para1 text-dark">BJT/FET/ Zener Diode/ LCR circuit etc.</li>
+                </ol>
 
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">X-Ray Diffractometer (XRD)</li>
-                        <li class="para1 text-dark">Telescope 14" (Celestron CGE Pro)</li>
-                        <li class="para1 text-dark">Automated Research Microscope</li>
-                        <li class="para1 text-dark">Closed Cycle Optical Cryostat</li>
-                        <li class="para1 text-dark">HF LCR Meter</li>
-                        <li class="para1 text-dark">Fourier Transform Infrared (FTIR) Spectrometer</li>
-                        <li class="para1 text-dark">UV/Vis/NIR Spectrometer</li>
-                        <li class="para1 text-dark">Monochromator with ICCD Camera</li>
-                        <li class="para1 text-dark">Q-Switched Nd: Yag Laser</li>
-                        <li class="para1 text-dark">Cyclone Plus Phosho Imager (Scanner)</li>
-                        <li class="para1 text-dark">Grating Spectrograph</li>
-                        <li class="para1 text-dark">Four-Channel Gas Dryer Mixer with 4 Channel Flow Divider</li>
-                    </ol>
+            </div>
+        </div>
+    </div>
 
+    <div>
+        <h3 class="text-center text-dark pt-3">Glimpse of Our Lab</h3>
+        <div class="row p-4">
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/B-H Curve Set Up.jpg"/>
+                    <h4 class="text-center pt-3 text-light">B-H Curve</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Dark Room Inside.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Dark Room</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Dielectric Constant Set Up.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Dielectric Constant</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Distillation unit.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Distillation Unit</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/GM Counter.jpg"/>
+                    <h4 class="text-center pt-3 text-light">GM Counter</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Hall Effect Set Up.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Hall Effect</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Magnetic stirrer.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Magnetic Stirrer</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/MI Table and Travelling Microscope.jpg"/>
+                    <h4 class="text-center pt-3 text-light">MI Table and Travelling Microscope</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Newtons Ring Set Up.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Newtons Ring</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Optical Bench and LASER.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Optical Bench and Laser</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Potentiometer.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Potentiometer</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Sextant.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Sextant</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Spectrometer.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Spectrometer</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-3">
+                <div class="p-2 rounded" style="background-color: #4987c9">
+                    <img class="rounded" src="/mobile-assets/laboratories/physics-lab/Wave Oscillator.jpg"/>
+                    <h4 class="text-center pt-3 text-light">Wave Oscillator</h4>
                 </div>
             </div>
         </div>
-
-        <img src="mobile-assets/lab-physics/Physicslab.png" alt="">
-
     </div>
+
 @endsection
