@@ -75,9 +75,6 @@
                 </div>
             </section>
         </div>
-
-
-        <img src="mobile-assets/lab-microbio/MicrobiologyLab.png" alt="">
     </div>
 
     <div class="pt-4 pb-4">
@@ -131,5 +128,45 @@
             </div>
         </div>
 
+    </div>
+    <div class="container pt-4 pb-4">
+        <h2 style="color: #0056b3 !important; font-size: 36px;" class=" fw-bold text-dark text-center pb-2 pt-2">
+                    LIST OF MAJOR INSTRUMENT
+                </h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/9.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/10.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/11.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/12.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/13.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/14.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/15.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/16.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/17.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/18.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img class="p-3 rounded" src="/mobile-assets/microbio eq/19.jpg"/>
+            </div>
+        </div>
     </div>
 @endsection
