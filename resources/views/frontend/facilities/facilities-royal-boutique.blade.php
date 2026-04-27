@@ -260,9 +260,6 @@
                 departmental events and highlights, providing students with valuable opportunities to build confidence,
                 enhance creativity, and gain practical exposure to the fashion industry.
             </p>
-            <p class="rgu-fine-arts-text">
-                Ground Floor, C- Block
-            </p>
         </div>
 
         <section class="rgu-fine-arts-gallery">
