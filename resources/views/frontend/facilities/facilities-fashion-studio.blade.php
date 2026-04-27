@@ -236,7 +236,7 @@
     <section class="rgu-fine-arts-body">
         <section class="rgu-fine-arts-hero">
 
-            <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 6.jpeg" style="height: 600px;" class="rgu-fine-arts-hero-img">
+            <img src="/mobile-assets/laboratories/rsft/Photo for Fashion Design Studio -3.jpeg" style="height: 600px;" class="rgu-fine-arts-hero-img">
 
             <div class="rgu-fine-arts-content">
                 <h2 class="rgu-fine-arts-title">The Fashion Studio</h2>
@@ -247,7 +247,7 @@
                     workspace where students across semesters develop patterns for a wide range of creative ensembles. This
                     hands-on approach strengthens their understanding of garment construction, precision, and design
                     translation from concept to form. It fosters analytical thinking, enhances technical proficiency, and
-                    equips students with the skills required for professional fashion development. 6th Floor, C- Block
+                    equips students with the skills required for professional fashion development.
                 </p>
 
             </div>
@@ -291,12 +291,12 @@
 
             <div class="rgu-fine-arts-grid">
                 <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 6.jpeg">
-                {{-- <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 1.jpeg"> --}}
                 <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 2.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 3.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 4.jpeg">
-                <img src="/mobile-assets/studio/fashion-studio/fashion studio pic 5.jpeg">
-                {{-- <img src="/mobile-assets/studio/boutique/royal boutique 7.jpeg"> --}}
+                <img src="/mobile-assets/laboratories/rsft/Photo for Fashion Design Studio -1.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/Photo for Fashion Design Studio -2.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/Photo for Fashion Design Studio -4.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/Photo for Fashion Design Studio -5.jpeg">
+
             </div>
 
         </section>

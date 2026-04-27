@@ -273,7 +273,7 @@
 
             <div class="rgu-fine-arts-grid">
                 <img src="/mobile-assets/studio/boutique/royal boutique 1.jpeg">
-                <img src="/mobile-assets/studio/boutique/royal boutique 5.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/photo for royal boutique 1.jpeg">
                 <img src="/mobile-assets/studio/boutique/royal boutique 3.jpeg">
                 {{-- <img src="/mobile-assets/studio/boutique/royal boutique 4.jpeg"> --}}
                 <img src="/mobile-assets/studio/boutique/royal boutique 5.jpeg">

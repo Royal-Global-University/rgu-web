@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-
+        <div style="padding-top: 90px;"></div>
     </div>
 
     <div class="website">
@@ -243,7 +243,11 @@
                 <p style="font-style: italic" class="text-dark">“Draping is the art of letting fabric speak.” </p>
 
                 <p class="rgu-fine-arts-text">
-                    The Drape Studio at the Royal School of Fashion Design and Technology, is a vibrant learning space where students across semesters explore the art of draping—an essential technique that goes beyond traditional pattern making. By working directly on dress forms, students create innovative ensembles while developing a deeper understanding of fabric behaviour, fit, and structure. This experiential approach nurtures creativity, strengthens technical skills, and prepares them for real-world design challenges. 7th floor, C- Block
+                    The Drape Studio at the Royal School of Fashion Design and Technology, is a vibrant learning space where
+                    students across semesters explore the art of draping—an essential technique that goes beyond traditional
+                    pattern making. By working directly on dress forms, students create innovative ensembles while
+                    developing a deeper understanding of fabric behaviour, fit, and structure. This experiential approach
+                    nurtures creativity, strengthens technical skills, and prepares them for real-world design challenges.
                 </p>
 
 
@@ -288,11 +292,8 @@
                 <img src="/mobile-assets/studio/drape/drape studio pic 5.jpeg">
                 <img src="/mobile-assets/studio/drape/drape studio pic 8.jpeg">
                 <img src="/mobile-assets/studio/drape/drape studio pic 3.jpeg">
-                <img src="/mobile-assets/studio/drape/drape studio pic 4.jpeg">
-                {{-- <img src="/mobile-assets/studio/drape/drape studio pic 5.jpeg"> --}}
-                {{-- <img src="/mobile-assets/studio/drape/drape studio pic 6.jpeg">
-                <img src="/mobile-assets/studio/drape/drape studio pic 7.jpeg"> --}}
-                <img src="/mobile-assets/studio/drape/drape studio pic 9.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/Photo for Drape studio-1.jpeg">
+                <img src="/mobile-assets/laboratories/rsft/Photo for Drape studio-2.jpeg">
                 <img src="/mobile-assets/studio/drape/drape studio pic 10.jpeg">
             </div>
 
