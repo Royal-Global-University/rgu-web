@@ -56,7 +56,6 @@
                                         <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Microbiology Lab
                                         </h1>
-
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The Microbiology lab is one of the many labs at Royal Global University. The
                                             laboratory caters to both undergraduate and postgraduate students of the
