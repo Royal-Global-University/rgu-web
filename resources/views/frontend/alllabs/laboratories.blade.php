@@ -222,11 +222,11 @@
                         image: "/mobile-assets/laboratories/physics.png",
                         link: "/lab-physics"
                     },
-                    {
-                        title: "Bio Chemistry Lab",
-                        image: "/mobile-assets/laboratories/biochem.png",
-                        link: "/lab-bio-chemistry"
-                    },
+                    // {
+                    //     title: "Bio Chemistry Lab",
+                    //     image: "/mobile-assets/laboratories/biochem.png",
+                    //     link: "/lab-bio-chemistry"
+                    // },
                     {
                         title: "Chemistry Lab",
                         image: "/mobile-assets/laboratories/chemistry.png",
