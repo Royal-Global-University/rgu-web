@@ -340,7 +340,7 @@
 
             <div class="rgu-mech-grid">
                 <img src="/mobile-assets/new-labs/me-new/me-1.jpeg">
-                <img src="/mobile-assets/new-labs/me-new/me-2.jpeg">
+                <img src="/mobile-assets/laboratories/heat-transfer-lab.png">
                 <img src="/mobile-assets/new-labs/me-new/me-3.jpeg">
                 <img src="/mobile-assets/new-labs/me-new/me-4.jpeg">
                 <img src="/mobile-assets/new-labs/me-new/me-5.jpeg">
