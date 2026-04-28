@@ -168,13 +168,13 @@
                 <a href="/examination-cell-office-controller" target="_blank" class="rgu-exam-link-btn">Office of the Controller of
                     Examination</a>
                 <a href="/examination-cell-committee" target="_blank" class="rgu-exam-link-btn">Examination Committee</a>
-                <a href="#" class="rgu-exam-link-btn">Admit Card</a>
+                {{-- <a href="#" class="rgu-exam-link-btn">Admit Card</a>
                 <a href="#" class="rgu-exam-link-btn">Rules & Regulations</a>
                 <a href="#" class="rgu-exam-link-btn">Annoucement/ Notifications</a>
                 <a href="#" class="rgu-exam-link-btn">Results</a>
                 <a href="#" class="rgu-exam-link-btn">Transcript</a>
                 <a href="#" class="rgu-exam-link-btn">Academic Bank of Credit</a>
-                <a href="#" class="rgu-exam-link-btn">Downloads</a>
+                <a href="#" class="rgu-exam-link-btn">Downloads</a> --}}
             </div>
         </aside>
 

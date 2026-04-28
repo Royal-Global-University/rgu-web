@@ -199,9 +199,9 @@
         <h1 class="uxe-hero-title">Office of the Controller of Examination</h1>
     </section>
 
-    <main class="uxe-container">
+    <main>
 
-        <section class="uxe-content">
+        {{-- <section class="uxe-content">
             <!-- <h2 class="uxe-content-title">Our Team</h2> -->
 
             <div class="uxe-team-grid">
@@ -269,7 +269,264 @@
 
             </div>
 
-        </section>
+        </section> --}}
+
+        <div>
+            <div class="p-5"
+                style="margin:auto;background:#ffffff;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.08);overflow:hidden;">
+
+                <!-- Header -->
+
+                <!-- Search -->
+
+                <div style="padding:15px;background:#eef3f7;text-align:right;">
+
+                    <input type="text" id="searchInput" placeholder="Search member..."
+                        style="padding:10px 15px;width:280px;border:1px solid #ccc;border-radius:8px;font-size:14px;outline:none;">
+
+                </div>
+
+                <!-- Table -->
+
+                <div style="overflow-x:auto;">
+
+                    <table id="memberTable" style="width:100%;border-collapse:collapse;min-width:900px;">
+
+                        <thead>
+
+                            <tr class="text-center" style="background:#0d4b7a;color:#fff;">
+
+                                <th style="padding:14px;border:1px solid #ddd;">Sl. No.</th>
+
+                                <th style="padding:14px;border:1px solid #ddd;">Designation</th>
+
+                                <th style="padding:14px;border:1px solid #ddd;">Name</th>
+
+                                <th style="padding:14px;border:1px solid #ddd;">Email</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">1</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dr. Narinder Kumar</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">nkumar@rgu.ac / controller@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">2</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Joint Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dr. Atanu Kumar Bhattacharjee</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">jointcontroller@rgu.ac /
+                                    abhattacharjee@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">3</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Deputy Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dr. Sanotsh Kumar Anand</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">deputycoe@rgu.ac / skanand@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">4</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Assistant Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Mr. Zunaid Ahmed</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Zunaid.Ahmed@rgi.edu.in</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">5</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Assistant Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Mr. Jugal Kishore Bhattacharya</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">jkbhattacharyya@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">6</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Assistant Controller of Examinations</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dr. Bhaskar Jyoti Gogoi</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">bgogoi1@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">7</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Manager</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Mrs. Payel Dasgupta</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">pdasgupta@rgu.ac / coeoffice@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">8</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Deputy Manager</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Raktim Dutta</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">rdutta2@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">9</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Assistant Manager 1</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dhrubajyoti Kalita</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">djkalita@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">10</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Assistant Manager 2</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Manabjyoti Sarmah</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">mjsarmah@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">11</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Senior Executive</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Rahul Chowdhury</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">rchowdhury@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">12</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Executive</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Madhuri Deb</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">mdeb2@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">13</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Executive</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Jayshree Hazarika</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">jhazarika@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">14</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Data Entry Operator</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Dipankar Lahkar</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">dlahkar@rgu.ac</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding:12px;border:1px solid #ddd;">15</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Office Executive</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Punam Medhi</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">pmedhi4@rgu.ac</td>
+
+                            </tr>
+
+                            <tr style="background:#f9fbfd;">
+
+                                <td style="padding:12px;border:1px solid #ddd;">16</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Peon</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">Jogendra Nath Das</td>
+
+                                <td style="padding:12px;border:1px solid #ddd;">-</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <script>
+                document.getElementById("searchInput").addEventListener("keyup", function() {
+
+                    let value = this.value.toLowerCase();
+
+                    let rows = document.querySelectorAll("#memberTable tbody tr");
+
+                    rows.forEach(function(row) {
+
+                        row.style.display = row.innerText.toLowerCase().includes(value) ? "" : "none";
+
+                    });
+
+                });
+            </script>
+        </div>
 
     </main>
 @endsection
