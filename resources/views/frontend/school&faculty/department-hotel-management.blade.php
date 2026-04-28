@@ -229,7 +229,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rshm/syllabus-pdf/BA-Culinary-Arts-Detailed Syllabus.pdf"
+                                                    <a href="/mobile-assets/hotel/BA Culinary Arts _NEP_11-25(BOS 10)_RSHM.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Culinary
                                                         Arts
@@ -245,7 +245,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rshm/syllabus-pdf/BA-BSC-Hotel-Management-Detailed Syllabus.pdf"
+                                                    <a href="/mobile-assets/hotel/BA-BSC Hotel Management WEF 2023 Batch (BoS 10)_RSHM.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA/B.Sc.
                                                         Hotel Management
@@ -1042,7 +1042,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rshm/syllabus-pdf/BA-Culinary-Arts-Detailed Syllabus.pdf"
+                                                            <a href="/mobile-assets/hotel/BA Culinary Arts _NEP_11-25(BOS 10)_RSHM.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Culinary Arts
@@ -1058,7 +1058,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rshm/syllabus-pdf/BA-BSC-Hotel-Management-Detailed Syllabus.pdf"
+                                                            <a href="/mobile-assets/hotel/BA-BSC Hotel Management WEF 2023 Batch (BoS 10)_RSHM.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BA/B.Sc. Hotel Management
