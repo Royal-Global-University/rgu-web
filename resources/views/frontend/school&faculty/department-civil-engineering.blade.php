@@ -272,7 +272,7 @@
             /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
             .dept-civil-wrapper {
                 padding-bottom: 160px;
-                padding-top: 90px;
+                padding-top: 110px;
             }
 
             .dept-civil-hero {
