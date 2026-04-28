@@ -335,7 +335,7 @@
                 left: 50%;
                 right: auto;
                 transform: translateX(-50%);
-                width: 60%;
+                width: 80%;
                 /* Wide enough to be prominent, but doesn't touch screen edges */
                 max-width: 350px;
                 justify-content: center;
