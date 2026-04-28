@@ -198,7 +198,7 @@
         /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
         .dept-civil-admission-btn {
             position: fixed;
-            bottom: 50px;
+            bottom: 40px;
             right: 40px;
             z-index: 999;
             background: var(--accent);
