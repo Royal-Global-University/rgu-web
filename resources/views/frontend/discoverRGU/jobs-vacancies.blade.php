@@ -41,36 +41,7 @@
           our portal:
         </p>
 
-        <div style="padding: 30px; background-color: #ffe8cd; border-radius: 20px; border: 2px solid #FF9A1E;">
-
-          <div class="row" style="display: flex; flex-direction: row;">
-
-            <div class="col-lg-6"
-              style="display: flex; flex-direction: column; align-items: center; border-right: 2px solid #FF9A1E; padding-right: 20px; margin-right: -1px;">
-              <p class="mobile-headd3 fw-bold text-center" style="color: #24477f; padding-top: 15px;">
-                To apply/ register, click the link below -
-              </p>
-              <a class="mobile-headd3 fw-bold mt-5" style="color: #FF9A1E;"
-                href="https://rgu.renocampus.com/activeOpenings">https://rgu.renocampus.com/activeOpenings</a>
-            </div>
-
-            <div class="col-lg-6"
-              style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-              <p class="mobile-headd3 fw-bold text-center" style="color: #24477f; padding-top: 15px;">
-                Or scan the QR code below -
-              </p>
-
-              <img style="width: 40%; border: 2px solid #24477f;" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="">
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div style="padding: 20px; background-color: #1d315f; border-radius: 20px; margin: 20px;">
+         <div style="padding: 20px; background-color: #1d315f; border-radius: 20px; margin: 20px;">
 
         <div>
           <style>
@@ -206,8 +177,41 @@
             })();
           </script>
         </div>
+        </div>
 
-        <div class="mt-3">
+        <div style="padding: 30px; background-color: #ffe8cd; border-radius: 20px; border: 2px solid #FF9A1E;">
+
+          <div class="row" style="display: flex; flex-direction: row;">
+
+            <div class="col-lg-6" style="display: flex; flex-direction: column; align-items: center; border-right: 2px solid #FF9A1E; padding-right: 20px; margin-right: -1px;">
+                <img src="/mobile-assets/ads/jobs-2026.jpeg"/>
+            </div>
+
+            <div class="col-lg-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+                              <p class="mobile-headd3 fw-bold text-center" style="color: #24477f; padding-top: 15px;">
+                To apply/ register, click the link below -
+              </p>
+              <a class="mobile-headd3 fw-bold" style="color: #FF9A1E;"
+                href="https://rgu.renocampus.com/activeOpenings">https://rgu.renocampus.com/activeOpenings</a>
+
+              <p class="mobile-headd3 fw-bold text-center" style="color: #24477f; padding-top: 15px;">
+                Or scan the QR code below -
+              </p>
+
+              <img style="width: 40%; border: 2px solid #24477f;" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+        {{-- <div class="mt-3">
 
 
           <div class="max-w-5xl mx-auto glass-panel rounded-3xl overflow-hidden p-6 md:p-10">
@@ -386,9 +390,9 @@
 
           <h2 class="mobile-headd3 text-center mt-4 fw-bold" style="color: #FF9A1E;">Candidates with experience in private universities will be given preference. Interested Candidates may apply by scanning the QR code, specifying the position applied for.</h2>
 
-        </div>
+        </div> --}}
 
-
+{{--
       </div>
 
       <div style="padding: 20px; background-color: #1d315f; border-radius: 20px; margin: 20px;">
@@ -1003,7 +1007,7 @@
 
         <h2 class="mobile-headd3 text-center mt-4 fw-bold" style="color: #FF9A1E;">Candidates with experience in private universities will be given preference. Interested Candidates may apply by scanning the QR code, specifying the position applied for.</h2>
 
-      </div>
+      </div> --}}
 
     </div>
 
