@@ -5956,3 +5956,15 @@ Route::get('/test/preface', function () {
 Route::get('/test/recognition', function () {
     return view('frontend/test/recognition');
 })->name('/test/recognition');
+
+Route::get('/test/governing-body', function () {
+    return view('frontend/test/governing-body');
+})->name('/test/governing-body');
+
+Route::get('/test/leadership-team', function () {
+    return view('frontend/test/leadership-team');
+})->name('/test/leadership-team');
+
+Route::get('/test/statutes-ordinance-and-policies', function () {
+    return view('frontend/test/statutes-ordinance-and-policies');
+})->name('/test/statutes-ordinance-and-policies');

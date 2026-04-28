@@ -1,8 +1,7 @@
 @extends('frontend/new-master')
 @section('content')
-
     <section class="pg-hero">
-        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/discover-rgu-preface/hero-img.jpg');"></div>
+        <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg');"></div>
 
         <div class="pg-hero-bg"></div>
         <div class="pg-hero-overlay"></div>
@@ -60,7 +59,8 @@
                     </div>
 
                     <div class="rgu-mem-action">
-                        <a href="/new-web/assets/img/discover-rgu-recognition/pdf/AIU.pdf" class="rgu-mem-btn">APPROVAL LETTER <span>+</span></a>
+                        <a href="/new-web/assets/img/discover-rgu-recognition/pdf/AIU.pdf" class="rgu-mem-btn">APPROVAL LETTER
+                            <span>+</span></a>
                     </div>
                 </div>
 
@@ -80,7 +80,21 @@
                     </div>
 
                     <div class="rgu-mem-action">
-                        <a href="/new-web/assets/img/discover-rgu-recognition/pdf/ACU.pdf" class="rgu-mem-btn">APPROVAL LETTER <span>+</span></a>
+                        <a href="/new-web/assets/img/discover-rgu-recognition/pdf/ACU.pdf" class="rgu-mem-btn">APPROVAL LETTER
+                            <span>+</span></a>
+                    </div>
+                </div>
+
+                <div class="rgu-mem-card">
+                    <div class="rgu-mem-logo">
+                        <img src="/mobile-assets/ads/aip-logo.png" alt="ACU Logo">
+                    </div>
+
+                    <div class="rgu-mem-divider"></div>
+
+                    <div class="rgu-mem-content">
+                        <h3>THE INDIAN ASSOCIATION OF PHYSIOTHERAPISTS (IAP)</h3>
+                        <p>The Assam Royal Global University has been awarded provisional institutional membership by the Indian Association of Physiotherapists (IAP) for the period 2025–2027. This recognition affirms that the University meets the prescribed academic and training standards, enabling its Bachelor of Physiotherapy graduates to be eligible for IAP membership as per prevailing norms. The certification reflects the institution’s commitment to quality education and professional excellence in physiotherapy.</p>
                     </div>
                 </div>
 
@@ -88,11 +102,11 @@
         </div>
     </section>
 
+
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // 1. Data array representing the 8 different recognitions
-            const recognitionsData = [
-                {
+            const recognitionsData = [{
                     id: 0,
                     title: "Recognised By University Grants Commission (UGC)",
                     htmlContent: `
@@ -201,7 +215,8 @@
                         updateDisplay(index);
 
                         // Update active class
-                        document.querySelectorAll(".rgu-recog-thumb").forEach(t => t.classList.remove("active"));
+                        document.querySelectorAll(".rgu-recog-thumb").forEach(t => t.classList
+                            .remove("active"));
                         thumb.classList.add("active");
                     });
 
@@ -236,5 +251,4 @@
             updateDisplay(0); // Set initial state
         });
     </script>
-
 @endsection
