@@ -307,7 +307,7 @@
                               flex-direction: column;
                               gap: 12px;
                             ">
-                                                        <a href="mobile-assets/department-all/rsttm/updated-syllabus/Course-structure-TTM.pdf Arts.pdf"
+                                                        <a href="/mobile-assets/syllabus/RSTTM/BA-BSC Travel & Tourism Management.pdf"
                                                             target="_blank" style="color: #27467a">
                                                             <i class="fa fa-file-text px-2"></i> Detailed
                                                             Syllabus -- B.Sc./BA - TTM
@@ -360,7 +360,7 @@
                               flex-direction: column;
                               gap: 12px;
                             ">
-                                                        <a href="mobile-assets/department-all/rsttm/updated-syllabus/MTTM-Detailed-Syllabus.pdf"
+                                                        <a href="/mobile-assets/syllabus/RSTTM/MTTM Syllabus.pdf"
                                                             target="_blank" style="color: #27467a">
                                                             <i class="fa fa-file-text px-2"></i> Detailed
                                                             Syllabus -- MTTM
@@ -1518,7 +1518,7 @@
                                   flex-direction: column;
                                   gap: 12px;
                                 ">
-                                                                <a href="mobile-assets/department-all/rsttm/updated-syllabus/Course-structure-TTM.pdf Arts.pdf"
+                                                                <a href="/mobile-assets/syllabus/RSTTM/BA-BSC Travel & Tourism Management.pdf"
                                                                     target="_blank" style="color: #27467a">
                                                                     <i class="fa fa-file-text px-2"></i> Detailed
                                                                     Syllabus -- B.Sc./BA - TTM
@@ -1573,7 +1573,7 @@
                                   flex-direction: column;
                                   gap: 12px;
                                 ">
-                                                                <a href="mobile-assets/department-all/rsttm/updated-syllabus/MTTM-Detailed-Syllabus.pdf"
+                                                                <a href="/mobile-assets/syllabus/RSTTM/MTTM Syllabus.pdf"
                                                                     target="_blank" style="color: #27467a">
                                                                     <i class="fa fa-file-text px-2"></i> Detailed
                                                                     Syllabus -- MTTM

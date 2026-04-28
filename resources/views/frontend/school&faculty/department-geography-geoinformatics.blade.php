@@ -145,7 +145,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/UG_Syllabus_Geography.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSEES/UG _Geography_Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geography
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -183,7 +183,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/PG_syllabus_Geography.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSEES/PG syllabus Geography.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geography
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -198,7 +198,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/MSc_Geoinformatics_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSEES/MSc Geoinformatics Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                         Geoinformatics
@@ -920,7 +920,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/UG_Syllabus_Geography.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSEES/UG _Geography_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Geography
@@ -962,7 +962,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/PG_syllabus_Geography.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSEES/PG syllabus Geography.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Geography
@@ -980,7 +980,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/MSc_Geoinformatics_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSEES/MSc Geoinformatics Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Geoinformatics
