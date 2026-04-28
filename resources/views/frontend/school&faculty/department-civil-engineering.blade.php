@@ -2,7 +2,6 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px;"></div>
     </div>
 
     <div class="website">
@@ -273,6 +272,7 @@
             /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
             .dept-civil-wrapper {
                 padding-bottom: 160px;
+                padding-top: 90px;
             }
 
             .dept-civil-hero {
