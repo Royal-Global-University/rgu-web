@@ -258,7 +258,7 @@
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                               </a>
 
-                              <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ug.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/UG Sociology Syllabus.pdf"
                                 target="_blank" style="color: #27467A;">
                                 <i class="fa fa-file-text px-2"></i> Syllabus - B.A. Sociology
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -285,7 +285,7 @@
                           <div class="accordion-body"
                             style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                             <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                              <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ma-pg.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/PG Sociology Syllabus.pdf"
                                 target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
                                 <i class="fa fa-file-text px-2"></i> Syllabus - M.A. Sociology
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -294,6 +294,7 @@
                           </div>
                         </div>
                       </div>
+
 
                       <!-- Doctoral -->
                       <div class="accordion-item"
@@ -1134,7 +1135,7 @@
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                   </a>
 
-                                  <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ug.pdf"
+                                  <a href="/mobile-assets/syllabus/RSHSS/UG Sociology Syllabus.pdf"
                                     target="_blank" style="color: #27467A;">
                                     <i class="fa fa-file-text px-2"></i> Syllabus - B.A. Sociology
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1161,7 +1162,7 @@
                               <div class="accordion-body"
                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                                  <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ma-pg.pdf"
+                                  <a href="/mobile-assets/syllabus/RSHSS/PG Sociology Syllabus.pdf"
                                     target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
                                     <i class="fa fa-file-text px-2"></i> Syllabus - M.A. Sociology
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>

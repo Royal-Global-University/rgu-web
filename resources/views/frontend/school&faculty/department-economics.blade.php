@@ -172,7 +172,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rshss/economics/updated-syllabus/BA-Economics.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSHSS/BA Economics.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                         Economics
@@ -201,16 +201,16 @@
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/rshss/economics/updated-syllabus/PG-Course-structure.pdf"
+                                                    <a href="/mobile-assets/department-all/rshss/economics/updated-syllabus/PG-Course-structure.pdf"
                                                         target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BA
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- MA
                                                         Economics
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rshss/economics/updated-syllabus/MA-Economics.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSHSS/MA Economics.pdf"
                                                         target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA
                                                         Economics
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>

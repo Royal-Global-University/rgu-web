@@ -163,7 +163,7 @@
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/rset/me/updated-syllabus/Course-structure_ME.pdf"
+                                                    <a href="/mobile-assets/syllabus/ME/UPDATED  NEW ME syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
                                                         B.Tech. ME
@@ -803,7 +803,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rset/me/updated-syllabus/BTech_Syllabus_ME.pdf"
+                                                            <a href="/mobile-assets/syllabus/ME/UPDATED  NEW ME syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Tech. ME

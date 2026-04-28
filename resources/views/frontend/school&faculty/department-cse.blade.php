@@ -362,14 +362,14 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rset/cse/updated-syllabus/BTech_Syllabus_CSE.pdf"
+                                                    <a href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Tech
                                                         CSE
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rset/cse/updated-syllabus/BTech_Syllabus_AI.pdf"
+                                                    <a href="/mobile-assets/syllabus/AI/BTech_AI & DS Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Tech AI
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -398,7 +398,7 @@
                                                 <div class="row"
                                                     style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
+                                                    <a href="/mobile-assets/syllabus/CSE/M. Tech (CSE)_Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech
                                                         CSE
@@ -1348,7 +1348,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rset/cse/updated-syllabus/BTech_Syllabus_CSE.pdf"
+                                                            <a href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Tech CSE
@@ -1356,7 +1356,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rset/cse/updated-syllabus/BTech_Syllabus_AI.pdf"
+                                                            <a href="/mobile-assets/syllabus/AI/BTech_AI & DS Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Tech AI
@@ -1388,7 +1388,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
+                                                            <a href="/mobile-assets/syllabus/CSE/M. Tech (CSE)_Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 M.Tech CSE

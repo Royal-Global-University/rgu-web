@@ -171,7 +171,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA English
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -206,7 +206,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsl/updated-syllabus/MA-English_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSL/PG_ English_Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA English
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1079,7 +1079,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                                 English
@@ -1117,7 +1117,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/MA-English_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSL/PG_ English_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA
                                                                 English

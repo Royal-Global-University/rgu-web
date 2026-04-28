@@ -264,7 +264,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rshss/history/syllabus-pdf/syllabus-ug.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSHSS/UG_History_Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA History
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -292,7 +292,7 @@
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/rshss/history/syllabus-pdf/syllabus-pg.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSHSS/PG_History_Syllabus.pdf"
                                                         target="_blank"
                                                         style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA History
@@ -1170,7 +1170,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rshss/history/syllabus-pdf/syllabus-ug.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSHSS/UG_History_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                                 History
@@ -1201,7 +1201,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rshss/history/syllabus-pdf/syllabus-pg.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSHSS/PG_History_Syllabus.pdf"
                                                                 target="_blank"
                                                                 style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA

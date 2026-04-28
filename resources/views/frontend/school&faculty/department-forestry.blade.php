@@ -171,7 +171,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rslsc/forestry/updated-syllabus/B.Sc-Forestry-Detailed-Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSLSC/B.Sc Forestry Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc.
                                                         Forestry
@@ -200,7 +200,7 @@
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/rslsc/forestry/updated-syllabus/M.Sc-Forestry-Detailed-Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSLSC/M.Sc Forestry Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc.
                                                         Forestry
@@ -741,7 +741,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rslsc/forestry/updated-syllabus/B.Sc-Forestry-Detailed-Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLSC/B.Sc Forestry Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Sc. Forestry
@@ -772,7 +772,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rslsc/forestry/updated-syllabus/M.Sc-Forestry-Detailed-Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLSC/M.Sc Forestry Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 M.Sc. Forestry

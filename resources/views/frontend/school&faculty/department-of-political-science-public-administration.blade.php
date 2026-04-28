@@ -173,7 +173,7 @@
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                               </a>
 
-                              <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-Admin-Syllabus.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/BA Pub Admin Syllabus.pdf"
                                 target="_blank" style="color: #27467A;">
                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA Administrative Service
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -189,7 +189,7 @@
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                               </a>
 
-                              <a href="mobile-assets/department-all/dept-public-admin/syllabus-pdf/ba-public-admin.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/BA Pub Admin Syllabus.pdf"
                                 target="_blank" style="color: #27467A;">
                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA Public Administration
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1100,7 +1100,7 @@
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                   </a>
 
-                                  <a href="mobile-assets/department-all/dept-public-admin/syllabus-pdf/ba-public-admin.pdf"
+                                  <a href="/mobile-assets/syllabus/RSHSS/BA Pub Admin Syllabus.pdf"
                                     target="_blank" style="color: #27467A;">
                                     <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA Public Administration
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>

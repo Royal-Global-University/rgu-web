@@ -1270,7 +1270,7 @@
                                 <i class="fa-solid fa-download dept-civil-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rset/ce/updated-syllabus/BTech_Syllabus_CE.pdf"
+                                href="/mobile-assets/syllabus/CE/Syllabus_Civil_Engineering_2025-26.pdf"
                                 class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1294,7 +1294,7 @@
                     <div class="dept-civil-accordion-content">
                         <div class="dept-civil-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rset/ce/updated-syllabus/M.TECH._Syllabus_CE-%20SE.pdf"
+                                href="/mobile-assets/syllabus/CE/SYLLABUS- M. TECH. (CE- SE)- 16-07-2025(1).pdf"
                                 class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

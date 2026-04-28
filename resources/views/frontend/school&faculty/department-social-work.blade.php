@@ -163,7 +163,7 @@
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                               </a>
 
-                              <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/bsw-syllabus.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/BSW_syllabus.pdf"
                                 target="_blank" style="color: #27467A;">
                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BSW
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -190,7 +190,7 @@
                           <div class="accordion-body"
                             style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                             <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                              <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/msw-syllabus.pdf"
+                              <a href="/mobile-assets/syllabus/RSHSS/MSW_syllabus.pdf"
                                 target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MSW
                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1182,7 +1182,7 @@
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                   </a>
 
-                                  <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/bsw-syllabus.pdf"
+                                  <a href="/mobile-assets/syllabus/RSHSS/BSW_syllabus.pdf"
                                     target="_blank" style="color: #27467A;">
                                     <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BSW
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1209,7 +1209,7 @@
                               <div class="accordion-body"
                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                 <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                                  <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/msw-syllabus.pdf"
+                                  <a href="/mobile-assets/syllabus/RSHSS/MSW_syllabus.pdf"
                                     target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
                                     <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MSW
                                     <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
