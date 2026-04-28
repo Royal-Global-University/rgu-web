@@ -347,6 +347,7 @@
                 <img src="/mobile-assets/new-labs/me-new/me-6.jpeg">
                 <img src="/mobile-assets/new-labs/me-new/me-7.jpeg">
                 <img src="/mobile-assets/new-labs/me-new/me-8.jpeg">
+                <img src="/mobile-assets/laboratories/carpentry-shop.png">
             </div>
 
         </section>
