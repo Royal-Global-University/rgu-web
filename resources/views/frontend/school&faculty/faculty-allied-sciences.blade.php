@@ -278,7 +278,7 @@
                             </div>
                             <h3 class="card-name">Ms. Priyanka Bhattacharjee</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-jahnabi-mahanta" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-priyanka-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

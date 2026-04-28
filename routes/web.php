@@ -5010,6 +5010,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/faculty-priyanka-bhattacharjee', function () {
+    return view('frontend/facultyprofile/rsbas/priyanka-bhattacharjee');
+})->name('/faculty-priyanka-bhattacharjee');
+
 Route::get('/faculty-siddharth-shahi', function () {
     return view('frontend/facultyprofile/rsbas/siddharth-shahi');
 })->name('/faculty-siddharth-shahi');
