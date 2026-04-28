@@ -198,7 +198,7 @@
         /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
         .dept-civil-admission-btn {
             position: fixed;
-            bottom: 40px;
+            bottom: 30px;
             right: 40px;
             z-index: 999;
             background: var(--accent);
@@ -330,7 +330,7 @@
 
             /* 2. Center the Admission Button right above the nav menu */
             .dept-civil-admission-btn {
-                bottom: 45px;
+                bottom: 95px;
                 /* Sits nicely above the 20px nav menu */
                 left: 50%;
                 right: auto;
