@@ -330,7 +330,7 @@
 
             /* 2. Center the Admission Button right above the nav menu */
             .dept-civil-admission-btn {
-                bottom: 95px;
+                bottom: 40px;
                 /* Sits nicely above the 20px nav menu */
                 left: 50%;
                 right: auto;
