@@ -1448,7 +1448,7 @@
             },
 
             {
-                title: "Master – Food Technology",
+                title: "Master – Food Science & Technology",
                 duration: "2 Years",
                 link: "https://www.rgu.ac/programme-msc-food-science"
             },
@@ -1460,7 +1460,7 @@
             },
 
             {
-                title: "Bachelor – Food Technology",
+                title: "Bachelor – Food Science & Technology",
                 duration: "4 years",
                 link: "https://www.rgu.ac/programme-bsc-food-science"
             }
