@@ -13,7 +13,6 @@
         </div>
         <!-- header image  -->
 
-
         <!-- heading  -->
         <div style="margin-top: 40px;"
             class="text-center elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
@@ -1007,7 +1006,7 @@
                                             <td>2.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - (J &
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - (J &
                                                         MC)</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-J&MC') }}" class="text-primary"><span
@@ -1047,7 +1046,7 @@
                                             <td>4.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc. -
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H) -
                                                         (Animation and
                                                         Visual Effects)</strong>
                                                     <br>
@@ -1485,7 +1484,7 @@
                                             <td>5.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc. /BA
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H) /BA(H)
                                                         Geography</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BSc-Geography') }}"
@@ -1504,7 +1503,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H)
                                                         Geology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-geology') }}"
@@ -2273,7 +2272,7 @@
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Sociology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Sociology') }}"
@@ -2293,7 +2292,7 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Economics</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Economics') }}"
@@ -2313,7 +2312,7 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - Public
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Public
                                                         Administration</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Public-Administration') }}"
@@ -2333,7 +2332,7 @@
                                             <td>11.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - Political
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Political
                                                         Science</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Political-Science') }}"
@@ -2354,7 +2353,7 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         History</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-History') }}"
@@ -2396,7 +2395,7 @@
                                             <td>1.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc./BA -
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.(H)/BA(H) -
                                                         Hotel
                                                         Management</strong>
                                                     <br>
@@ -2418,7 +2417,7 @@
                                             <td>2.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - Culinary
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Culinary
                                                         Arts</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-in-Culinary-Arts') }}"
@@ -2620,7 +2619,7 @@
                                             <td>2.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         English</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-English') }}"
@@ -3821,7 +3820,7 @@
                                             <td>1.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc./BA
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H)/BA(H)
                                                         Travel &
                                                         Tourism Management</strong>
                                                     <br>
@@ -4457,7 +4456,7 @@
                                             <td>4.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H)
                                                         Physics</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-physics') }}"
@@ -4477,7 +4476,7 @@
                                             <td>5.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H)
                                                         Chemistry</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-chemistry') }}"
@@ -4498,7 +4497,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H)
                                                         Mathematics</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-mathematics') }}"
@@ -4774,7 +4773,7 @@
                                             <td>3.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Psychology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Psychology') }}"
@@ -4794,7 +4793,7 @@
                                             <td>4.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - Applied
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Applied
                                                         Psychology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Applied-Psychology') }}"
@@ -5705,7 +5704,7 @@
                                             <td>5.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc. /BA
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H) /BA(H)
                                                         Geography</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BSc-Geography') }}"
@@ -5724,7 +5723,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H)
                                                         Geology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-geology') }}"
@@ -6474,7 +6473,7 @@
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Sociology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Sociology') }}"
@@ -6494,7 +6493,7 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Economics</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Economics') }}"
@@ -6514,7 +6513,7 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA - Public
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Public
                                                         Administration</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-Public-Administration') }}"
@@ -6535,7 +6534,7 @@
                                             <td>11.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         Political
                                                         Science</strong>
                                                     <br>
@@ -6557,7 +6556,7 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         History</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-History') }}"
@@ -6825,7 +6824,7 @@
                                             <td>2.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: BA -
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) -
                                                         English</strong>
                                                     <br>
                                                     <a href="{{ route('programs-BA-English') }}"
@@ -7154,7 +7153,7 @@
                                             <td>5.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.(H)
                                                         Botany</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-botany') }}"
@@ -7173,7 +7172,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.(H)
                                                         Zoology</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-zoology') }}"
@@ -7192,7 +7191,7 @@
                                             <td>7.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.(H)
                                                         Forensic
                                                         Science</strong>
                                                     <br>
@@ -7213,7 +7212,7 @@
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.(H)
                                                         Forestry</strong>
                                                     <br>
                                                     <a href="{{ route('programs-b-sc-forestry') }}"
@@ -8035,7 +8034,7 @@
                                             <td>1.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc./BA
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H)/BA(H)
                                                         Travel &
                                                         Tourism Management</strong>
                                                     <br>

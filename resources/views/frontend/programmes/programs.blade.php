@@ -362,7 +362,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-physics" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. – Physics</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) – Physics</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -371,7 +371,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-chemistry" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. – Chemistry</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) – Chemistry</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -380,7 +380,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-mathematics" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. – Mathematics</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) – Mathematics</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -461,7 +461,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-BA-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.A. Psychology</div>
+                                            <div class="rgu-program-card-title">B.A.(H) Psychology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -470,7 +470,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-BA-Applied-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.A. Applied Psychology</div>
+                                            <div class="rgu-program-card-title">B.A.(H) Applied Psychology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
                                         </div>
                                     </a>
@@ -1102,7 +1102,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="programs-BSc-Geography" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc./B.A. Geography</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H)/B.A.(H) Geography</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1113,7 +1113,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="/programs-b-sc-geology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. Geology</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) Geology</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1252,7 +1252,7 @@
                                     <a href="https://www.rgu.ac/programs-BA-HotelManagement" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                B.Sc./B.A. – Hotel Management
+                                                B.Sc.(H)/B.A.(H) – Hotel Management
                                             </div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
@@ -1264,7 +1264,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-BA-in-Culinary-Arts" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.A. – Culinary Arts</div>
+                                            <div class="rgu-program-card-title">B.A.(H) – Culinary Arts</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1548,7 +1548,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-BA-English" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">BA - English</div>
+                                            <div class="rgu-program-card-title">BA(H) - English</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1720,7 +1720,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-botany" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. Botany</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) Botany</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1731,7 +1731,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-zoology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. Zoology</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) Zoology</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
@@ -1755,7 +1755,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-b-sc-forestry" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. – Forestry</div>
+                                            <div class="rgu-program-card-title">B.Sc.(H) – Forestry</div>
                                             <div class="rgu-program-card-duration">
                                                 Duration: 3/4 Yrs as per NEP
                                             </div>
