@@ -236,7 +236,6 @@
                 <img src="/mobile-assets/new-labs/multi-media-lab/7.jpg">
                 <img src="/mobile-assets/new-labs/multi-media-lab/8.jpg">
             </div>
-
         </section>
 
     </section>
