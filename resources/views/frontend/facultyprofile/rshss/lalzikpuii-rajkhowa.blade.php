@@ -55,7 +55,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Pursuing Ph.D (Sociology), University of Science & Technology Meghalaya.
+                                            Ph.D. (Sociology), University of Science & Technology Meghalaya.
                                         </span>
                                     </li>
                                     <li
@@ -63,7 +63,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            M.A (Sociology), Delhi School of Economics, University of Delhi.
+                                            M.A. (Sociology), Delhi School of Economics, University of Delhi.
                                         </span>
                                     </li>
                                     <li
@@ -71,7 +71,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            B.A Philosophy (Hons), St. Stephen’s College, University of Delhi.
+                                            B.A. (hons) in Philosophy, St. Stephen’s College, University of Delhi.
                                         </span>
                                     </li>
 
@@ -237,21 +237,21 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Pursuing Ph.D (Sociology), University of Science & Technology Meghalaya.
+                                        Ph.D. (Sociology), University of Science & Technology Meghalaya.
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        M.A (Sociology), Delhi School of Economics, University of Delhi.
+                                        M.A. (Sociology), Delhi School of Economics, University of Delhi.
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        B.A Philosophy (Hons), St. Stephen’s College, University of Delhi.
+                                        B.A. (hons) in Philosophy, St. Stephen’s College, University of Delhi.
                                     </span>
                                 </li>
 

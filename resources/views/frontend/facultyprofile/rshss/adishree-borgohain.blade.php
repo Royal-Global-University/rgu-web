@@ -49,6 +49,23 @@
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Ph.D. (Medical Sociology), Tezpur University.
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            M.A. (Sociology), Delhi School of Economics.
+                                        </span>
+                                    </li>
 
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
@@ -58,22 +75,7 @@
                                             B.A (hons.) in Sociology, Lady Shri Ram College of Women, University of Delhi
                                         </span>
                                     </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            M.A in Sociology in Delhi School of Economics.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            PhD (pursuing) in Medical Sociology from Tezpur University.
-                                        </span>
-                                    </li>
+
 
                                 </ul>
 
@@ -308,21 +310,21 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
+                                        Ph.D. (Medical Sociology), Tezpur University.
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        M.A. (Sociology), Delhi School of Economics.
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
                                         B.A (hons.) in Sociology, Lady Shri Ram College of Women, University of Delhi
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        M.A in Sociology in Delhi School of Economics.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        PhD (pursuing) in Medical Sociology from Tezpur University.
                                     </span>
                                 </li>
 

@@ -194,8 +194,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/all-faculty/rshss/Gautam.jpeg"
-                                    alt="Profile image Gautam Mazumdar">
+                                <img src="/mobile-assets/all-faculty/rshss/Gautam.jpeg" alt="Profile image Gautam Mazumdar">
                             </div>
                             <h3 class="card-name">Prof. Gautam Mazumdar</h3>
                             <p class="card-designation">Professor</p>
@@ -625,8 +624,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/shalini.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/shalini.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Shalini Saxena</h3>
                             <p class="card-designation">Professor & HOD, Political Science & Administrative Service</p>
@@ -637,8 +635,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Dhiraj.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Dhiraj.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dhiraj Kumar Borkotoky</h3>
                             <p class="card-designation">Associate Professor</p>
@@ -650,8 +647,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Akash.jpeg"
-                                    alt="Profile image">
+                                <img src="mobile-assets/updated-faculty-img/Akash.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Akash Singh Thakur</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -663,8 +659,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Baba Chandra Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -675,8 +670,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Krishangi-Saikia.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Krishangi-Saikia.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Krishangi Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -687,8 +681,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rugmini-Devi-M.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Rugmini-Devi-M.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Rugmini Devi M</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -712,8 +705,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/syamkumar.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/syamkumar.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Syamkumar V</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -829,32 +821,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Denim-Deka.jpg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Denim Deka</h3>
-                            <p class="card-designation">
-                                Assistant Professor
-                            </p>
-                            <a href="/faculty-denim-deka" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/nutrition/Trishna.jpeg"
-                                    alt="Profile image of Tripti Das">
-                            </div>
-                            <h3 class="card-name">Dr. Trishna Mani Thakuria</h3>
-                            <p class="card-designation">Assistant Professor and Assistant Director, Finishing School</p>
-                            <a href="/faculty-trishna-mani-thakuria" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Ms-Adishree-Borgohain.png"
                                     alt="Profile image ">
                             </div>
@@ -866,17 +832,17 @@
                         </div>
                     </div>
 
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
-                                    alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/Denim-Deka.jpg" alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Mr. Kadiguang Panmei</h3>
+                            <h3 class="card-name">Dr. Denim Deka</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            <a href="/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
+                            <a href="/faculty-denim-deka" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -897,8 +863,33 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Prajna-Borah-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/nutrition/Trishna.jpeg"
+                                    alt="Profile image of Tripti Das">
+                            </div>
+                            <h3 class="card-name">Dr. Trishna Mani Thakuria</h3>
+                            <p class="card-designation">Assistant Professor and Assistant Director, Finishing School</p>
+                            <a href="/faculty-trishna-mani-thakuria" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
                                     alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Kadiguang Panmei</h3>
+                            <p class="card-designation">
+                                Assistant Professor
+                            </p>
+                            <a href="/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Prajna-Borah-RSHSS.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Prajna Borah</h3>
                             <p class="card-designation">
@@ -958,8 +949,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Sattyakee D'Com Bhuyan</h3>
                             <p class="card-designation">Assistant Professor & Deputy Dean, Student Affairs</p>
@@ -1015,8 +1005,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/all-faculty/rshss/Bikash%20c.jpg"
-                                    alt="Profile image ">
+                                <img src="/mobile-assets/all-faculty/rshss/Bikash%20c.jpg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Bikash Chetry</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
