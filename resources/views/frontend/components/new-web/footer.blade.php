@@ -112,7 +112,7 @@
                         </li>
                         <li><a href="https://rgu.renocampus.com/">Pay Fee Online</a></li>
                         <li><a href="https://nad.digilocker.gov.in/login">Digilocker NAD</a></li>
-                        <li><a href="/jobs-vacancies">Jobs Vacancies</a></li>
+                        {{-- <li><a href="/jobs-vacancies">Jobs Vacancies</a></li> --}}
                     </ul>
 
                 </div>

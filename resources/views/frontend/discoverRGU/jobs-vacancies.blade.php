@@ -7,6 +7,7 @@
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
+      <div style="padding-top: 90px;"></div>
       <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
         Join The <br><span style="color: #FF9A1E; font-weight: 500;"> Assam Royal Global University</span></h2>
     </div>
