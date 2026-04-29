@@ -1253,7 +1253,7 @@
                     <div class="dept-civil-accordion-header">
                         <div class="dept-civil-accordion-header-left">
                             <i class="fa-solid fa-graduation-cap"></i>
-                            <span>Post Graduate</span>
+                            <span>Under Graduate</span>
                         </div>
                         <i class="fa-solid fa-chevron-down dept-civil-chevron"></i>
                     </div>
@@ -1286,7 +1286,7 @@
                     <div class="dept-civil-accordion-header">
                         <div class="dept-civil-accordion-header-left">
                             <i class="fa-solid fa-graduation-cap"></i>
-                            <span>Under Graduate</span>
+                            <span>Post Graduate</span>
                         </div>
                         <i class="fa-solid fa-chevron-down dept-civil-chevron"></i>
                     </div>
