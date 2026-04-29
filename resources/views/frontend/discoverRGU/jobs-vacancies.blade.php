@@ -41,8 +41,13 @@
           <div class="row" style="display: flex; flex-direction: row; justify-content: center;">
 
             <div class="col-lg-12" style="display: flex; flex-direction: column; align-items: center; padding-right: 20px; margin-right: -1px;">
-                <h3 class="text-center text-dark fw-bold pb-4">Current Vacancy</h3>
-                <img style="height: 700px" src="/mobile-assets/ads/jobs-2026.jpeg"/>
+                <h3 class="text-center text-dark fw-bold pb-4">Current Vacancies</h3>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/1ads.jpeg"/>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-2.jpeg"/>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-3.jpeg"/>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-4.jpeg"/>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-7.jpeg"/>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-5.jpeg"/>
             </div>
 
             <div class="col-lg-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
@@ -1039,14 +1044,34 @@
         </div>
         </div>
 
-        
+
         <div style="padding: 30px; background-color: #ffe8cd; border-radius: 20px; border: 2px solid #FF9A1E;">
 
           <div class="row" style="display: flex; flex-direction: row; justify-content: center;">
 
-            <div class="col-lg-9" style="display: flex; flex-direction: column; align-items: center; padding-right: 20px; margin-right: -1px;">
-                <h2 class="text-center text-dark fw-bold">Current Vacancy</h2>
-                <img style="height: 700px" src="/mobile-assets/ads/jobs-2026.jpeg"/>
+            <div class="col-lg-12" style="display: flex; flex-direction: column; align-items: center; padding-right: 20px; margin-right: -1px;">
+                <h2 class="text-center text-dark fw-bold">Current Vacancies</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img style="height: 700px" src="/mobile-assets/carrer/1ads.jpeg"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <img style="height: 700px" src="/mobile-assets/carrer/ads-2.jpeg"/>
+                    </div>
+                    <div class="col-lg-6 pt-3">
+                        <img style="height: 700px" src="/mobile-assets/carrer/ads-3.jpeg"/>
+                    </div>
+                    <div class="col-lg-6 pt-3">
+                        <img style="height: 700px" src="/mobile-assets/carrer/ads-4.jpeg"/>
+                    </div>
+                    <div class="col-lg-6 pt-3">
+                        <img style="height: 700px" src="/mobile-assets/carrer/ads-7.jpeg"/>
+                    </div>
+                    <div class="col-lg-6 pt-3">
+                        <img style="height: 700px" src="/mobile-assets/carrer/ads-5.jpeg"/>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-lg-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">

@@ -3,8 +3,8 @@
             <div class="top-links">
                 <a href="https://admissions.rgu.ac/">Ph.D. Admission Open (July 2026 - 2027) | </a>
                 <a href="/nirf">NIRF | </a>
-                <a id="phdTrackerLink" href="javascript:void(0)"> Track the status of your Ph.D. thesis</a>
-                <!-- <a href="#">Link 3</a> -->
+                <a id="phdTrackerLink" href="javascript:void(0)"> Track the status of your Ph.D. thesis | </a>
+                <a href="/jobs-vacancies">Jobs Vacancies</a>
             </div>
         </div>
     </div>
