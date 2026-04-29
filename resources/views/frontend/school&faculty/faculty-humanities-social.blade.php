@@ -824,7 +824,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Ms-Adishree-Borgohain.png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Ms. Adishree Borgohain</h3>
+                            <h3 class="card-name">Dr. Adishree Borgohain</h3>
                             <p class="card-designation">
                                 Assistant Professor & Assistant Dean, Academic Affairs
                             </p>
@@ -852,7 +852,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Ms-Lalzikpuii-Rajkhowa.png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Ms. Lalzikpuii Rajkhowa</h3>
+                            <h3 class="card-name">Dr. Lalzikpuii Rajkhowa</h3>
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
