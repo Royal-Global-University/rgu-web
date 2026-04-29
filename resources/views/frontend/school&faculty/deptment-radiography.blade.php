@@ -1,1718 +1,1860 @@
 @extends('frontend.master')
 @section('content')
-          <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile" >
-                      @include('frontend/components/mobileheader')
-                        <!-- floating mob button  -->
-                        <div>
-                            <a href="https://admissions.rgu.ac" style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                                <span style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                                Admission Open - Apply Now
-                            </a>
-                            <style>
-                                @keyframes pulse {
-                                    0% {
-                                        transform: scale(1);
-                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                    }
+    </div>
 
-                                    50% {
-                                        transform: scale(1.05);
-                                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                    }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                                    100% {
-                                        transform: scale(1);
-                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                    }
-                                }
+    </div>
+      <style>
+    /* ================= CSS VARIABLES & RESETS ================= */
+    :root {
+      --primary: #2c4a7a;
+      --accent: #f28c28;
+      --accent-hover: #e07b1f;
+      --bg-color: #FFF8F0;
+      --text-muted: #1a2739;
+      --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
 
-                                @keyframes shine {
-                                    0% {
-                                        left: -75%;
-                                    }
+    html {
+      scroll-behavior: smooth;
+    }
 
-                                    100% {
-                                        left: 125%;
-                                    }
-                                }
-                            </style>
-                        </div>
-                        <!-- floating button  -->
-          <!-- till about dept  -->
-          <section style="padding-top: 130px; position: relative;">
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-color);
+      font-family: 'Times New Roman', Times, serif;
+      color: var(--primary);
+      overflow-x: hidden;
+    }
 
-            <img src="mobile-assets/new-department/Radiology/radiology-mob.png" alt="">
+    .dept-radiology-wrapper {
+      padding: 3vw 5vw;
+      max-width: 1400px;
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-            <img src="mobile-assets/department-all/rsmas/radiography/mob-btm.png" alt="">
+    /* ================= HEADINGS ================= */
+    .dept-radiology-heading {
+      text-align: center;
+      margin-bottom: 5vw;
+      animation: fadeInDown 1s ease-out;
+    }
 
-          </section>
-          <!-- till about dept  -->
+    .dept-radiology-heading h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin: 0;
+      line-height: 1.1;
+      color: var(--primary);
+    }
 
-          <!-- courses offered  -->
-          <div class="container">
-            <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-              Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+    .dept-radiology-heading h1 span {
+      color: var(--accent);
+    }
 
-            <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-              <!-- Heading Section -->
-              <div
-                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+    .dept-radiology-heading h2 {
+      font-size: clamp(1.2rem, 2.5vw, 2rem);
+      font-weight: 400;
+      margin-top: 15px;
+      color: var(--text-muted);
+    }
 
-                <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">B.Sc. - Radiography and Advance Imaging
-                  Technology</span> |
-                <span style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">
-                  Honours/ Honours with Research
-                </span>
+    /* ================= HERO ================= */
+    .dept-radiology-hero {
+      display: flex;
+      align-items: center;
+      animation: fadeInUp 1s ease-out 0.2s both;
+      justify-content: center;
+    }
 
-                <span
-                  style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-              </div>
+    /* LEFT IMAGE */
+    .dept-radiology-img {
+      flex: 1;
+      position: relative;
+    }
 
-              <!-- Statute Items -->
-              <a target="_blank" href="#" style="text-decoration:none;">
-                <div
-                  style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    .dept-radiology-img img {
+      width: 85%;
+      margin-left: 7%;
+      height: auto;
+      border-radius: 24px;
+      /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+      transition: var(--transition);
+      object-fit: contain;
+    }
 
-                  <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span>
-                  <span>
-                    <a class="para1 fw-bold"
-                      style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                      href="">View Details</a>
-                  </span>
+    .dept-radiology-img img:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+    }
+
+    /* RIGHT CONTENT */
+    .dept-radiology-content {
+      flex: 1;
+    }
+
+    .dept-radiology-content h3 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: clamp(2rem, 3.5vw, 2.5rem);
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .dept-radiology-content h3 span {
+      color: var(--accent);
+    }
+
+    .dept-radiology-content p {
+      font-size: clamp(1rem, 1.2vw, 1.125rem);
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 25px;
+      font-weight: 500;
+      text-align: justify;
+    }
+
+    .dept-radiology-content ol li {
+      font-size: clamp(1rem, 1.2vw, 1.125rem);
+      line-height: 0.8;
+      color: var(--text-muted);
+      margin-bottom: 25px;
+      font-weight: 300;
+    }
+
+    /* ================= FLOATING MENU (LEFT) ================= */
+    .dept-radiology-floating {
+      position: fixed;
+      left: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 998;
+    }
+
+    .dept-radiology-float-item {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color: var(--primary);
+      border-radius: 50px;
+      overflow: hidden;
+      width: 56px;
+      height: 56px;
+      text-decoration: none;
+      transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .dept-radiology-float-item i {
+      min-width: 56px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 56px;
+      color: var(--accent);
+      transition: var(--transition);
+    }
+
+    .dept-radiology-float-text {
+      white-space: nowrap;
+      padding-right: 25px;
+      font-weight: 500;
+      opacity: 0;
+      transform: translateX(10px);
+      transition: var(--transition);
+    }
+
+    .dept-radiology-float-item:hover {
+      width: 200px;
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .dept-radiology-float-item:hover i {
+      color: #fff;
+    }
+
+    .dept-radiology-float-item:hover .dept-radiology-float-text {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+    .dept-radiology-admission-btn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      z-index: 999;
+      background: var(--accent);
+      color: #fff;
+      padding: 16px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      animation: pulse 2s infinite;
+    }
+
+    .dept-radiology-admission-btn i {
+      font-size: 1.2rem;
+    }
+
+    .dept-radiology-admission-btn:hover {
+      background: var(--accent-hover);
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+      animation: none;
+      /* Stops pulsing when hovered */
+    }
+
+    /* ================= ANIMATIONS ================= */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+      }
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media(max-width: 960px) {
+
+      /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+      .dept-radiology-wrapper {
+        padding-bottom: 160px;
+        padding-top: 110px;
+
+      }
+
+      .dept-radiology-hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .dept-radiology-img img {
+        padding-left: 0%;
+      }
+
+      .dept-radiology-floating {
+        display: none;
+        top: auto;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        background: rgba(255, 255, 255, 0.95);
+        /* Slightly less transparent */
+        backdrop-filter: blur(10px);
+        padding: 10px 20px;
+        border-radius: 50px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        z-index: 1000;
+        /* Ensure it stays on top */
+      }
+
+      .dept-radiology-float-item {
+        width: 45px;
+        height: 45px;
+        box-shadow: none;
+        background: transparent;
+        border: none;
+      }
+
+      .dept-radiology-float-item i {
+        min-width: 45px;
+        line-height: 45px;
+      }
+
+      .dept-radiology-float-item:hover {
+        width: 45px;
+        background: transparent;
+      }
+
+      .dept-radiology-float-item:active i {
+        color: var(--primary);
+      }
+
+      .dept-radiology-float-text {
+        display: none;
+      }
+
+      /* 2. Center the Admission Button right above the nav menu */
+      .dept-radiology-admission-btn {
+        bottom: 40px;
+        /* Sits nicely above the 20px nav menu */
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        width: 80%;
+        /* Wide enough to be prominent, but doesn't touch screen edges */
+        max-width: 350px;
+        justify-content: center;
+        /* Centers text and arrow */
+        padding: 14px 24px;
+        font-size: 1rem;
+        z-index: 999;
+      }
+
+      /* Fix the hover animation to account for the center transform */
+      .dept-radiology-admission-btn:hover {
+        transform: translateX(-50%) translateY(-5px) scale(1.02);
+      }
+    }
+
+    /* ================= COURSES SECTION ================= */
+    .dept-radiology-courses-section {
+      margin-top: 3vw;
+      width: 100%;
+    }
+
+    .dept-radiology-section-title {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: clamp(2rem, 4vw, 2.5rem);
+      color: var(--primary);
+      margin-bottom: 4vw;
+      animation: fadeInUp 1s ease-out 0.3s both;
+    }
+
+    .dept-radiology-section-title span {
+      color: var(--accent);
+    }
+
+    .dept-radiology-course-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .dept-radiology-course-card {
+      width: 100%;
+      animation: fadeInUp 1s ease-out 0.4s both;
+    }
+
+    /* Updated Course Header for Button Layout */
+    .dept-radiology-course-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 18px 25px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-radius: 6px;
+      position: relative;
+      box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+      /* Flexbox added to align title and button */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Keep the orange accent triangle */
+    .dept-radiology-course-header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-bottom: 20px solid var(--accent);
+      border-bottom-right-radius: 6px;
+      z-index: 1;
+      /* Pushed behind the button */
+    }
+
+    /* New Button Styles */
+    .dept-radiology-view-btn {
+      background: #f28c28;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 8px 18px;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      z-index: 2;
+      /* Ensures it stays clickable over the triangle */
+    }
+
+    .dept-radiology-view-btn:hover {
+      background: #fff;
+      color: var(--primary);
+    }
+
+    .dept-radiology-course-body {
+      background: #fdfdfd;
+      color: var(--primary);
+      padding: 18px 25px;
+      margin: 0 auto;
+      width: 95%;
+      /* Creates the slight inset look */
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 0 0 6px 6px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+      border: 1px solid #f0f0f0;
+      border-top: none;
+    }
+
+    /* ================= COURSES MOBILE FIX ================= */
+    @media (max-width: 768px) {
+      .dept-radiology-course-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 20px 15px;
+      }
+
+      .dept-radiology-img img {
+        padding-left: 0%;
+      }
+
+      .dept-radiology-course-header span {
+        font-size: 1.2rem;
+        /* Make title slightly smaller on mobile */
+        z-index: 2;
+        /* Keep above the orange triangle */
+      }
+
+      .dept-radiology-view-btn {
+        width: 100%;
+        /* Make button full width for easy tapping */
+        text-align: center;
+        box-sizing: border-box;
+      }
+
+      .dept-radiology-course-body {
+        width: 100%;
+        /* Remove the 95% inset on mobile so it doesn't look too narrow */
+        box-sizing: border-box;
+      }
+
+      .dept-radiology-prospects-content {
+        padding: 25px 20px;
+      }
+
+
+      .dept-radiology-subheading {
+        font-size: 1.3rem;
+      }
+    }
+
+    /* ================= CAREER PROSPECTS SECTION ================= */
+    .dept-radiology-prospects-section {
+      margin-top: 3vw;
+      width: 100%;
+      animation: fadeInUp 1s ease-out 0.5s both;
+    }
+
+    .dept-radiology-prospects-content {
+      background: #fff;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+      max-width: 1200px;
+      margin: 0 auto;
+      border-top: 4px solid var(--accent);
+      /* Adds a nice touch of orange at the top */
+    }
+
+    .dept-radiology-intro-lab {
+      text-align: justify;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    .dept-radiology-intro-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    .dept-radiology-subheading {
+      font-family: 'Times New Roman', Times, serif;
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    .dept-radiology-list {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      padding-left: 25px;
+      /* Indents the numbers nicely */
+      margin: 0;
+    }
+
+    .dept-radiology-list li {
+      margin-bottom: 12px;
+    }
+
+    .dept-radiology-list li::marker {
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    /* ================= SYLLABUS ACCORDION SECTION ================= */
+    .dept-radiology-accordion-section {
+      margin-top: 3vw;
+      width: 100%;
+      animation: fadeInUp 1s ease-out 0.6s both;
+    }
+
+    .dept-radiology-accordion-wrapper {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .dept-radiology-accordion-item {
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .dept-radiology-accordion-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 18px 25px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: var(--transition);
+      user-select: none;
+    }
+
+    .dept-radiology-accordion-header-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .dept-radiology-accordion-header-left i {
+      font-size: 1.3rem;
+    }
+
+    .dept-radiology-chevron {
+      transition: transform 0.3s ease;
+    }
+
+    /* Accordion Content (Hidden by default) */
+    .dept-radiology-accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-in-out;
+      background: #fdfdfd;
+    }
+
+    /* Active State for Accordion */
+    .dept-radiology-accordion-item.active .dept-radiology-accordion-content {
+      /* Max-height is handled by JS for smooth animation */
+    }
+
+    .dept-radiology-accordion-item.active .dept-radiology-accordion-header {
+      border-radius: 8px 8px 0 0;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .dept-radiology-accordion-item.active .dept-radiology-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Syllabus Links Inside Accordion */
+    .dept-radiology-syllabus-list {
+      padding: 15px 25px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .dept-radiology-syllabus-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      text-decoration: none;
+      color: var(--primary);
+      font-size: 1.05rem;
+      border-bottom: 1px solid #eee;
+      transition: var(--transition);
+    }
+
+    .dept-radiology-syllabus-link:last-child {
+      border-bottom: none;
+    }
+
+    .dept-radiology-syllabus-link-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .dept-radiology-syllabus-link-left i {
+      color: var(--text-muted);
+    }
+
+    .dept-radiology-syllabus-link:hover {
+      color: var(--accent);
+      transform: translateX(5px);
+    }
+
+    .dept-radiology-syllabus-link:hover .dept-radiology-syllabus-link-left i {
+      color: var(--accent);
+    }
+
+    .dept-radiology-download-icon {
+      color: var(--accent);
+      font-size: 1.2rem;
+    }
+
+    /* ================= OUR LAB SECTION ================= */
+
+    .dept-radiology-lab-section {
+      width: 100%;
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out 0.7s both;
+    }
+
+    /* New 1300px Wrapper */
+    .dept-radiology-lab-container {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+      border-top: 4px solid var(--accent);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 50px;
+      /* Adds safe spacing on the sides */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+    }
+
+    .dept-radiology-lab-heading {
+      font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
+
+    /* Intro Text */
+    .dept-radiology-lab-intro {
+      font-size: 2.0rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      max-width: 1200px;
+      margin: 0 auto 4vw auto;
+      font-weight: 400;
+      text-align: justify;
+    }
+
+
+
+    /* Gallery (Now spans 100% of the 1300px container minus padding) */
+    .dept-radiology-lab-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 20px;
+      width: 100%;
+    }
+
+    .dept-radiology-lab-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      aspect-ratio: 5 / 3;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+      transition: var(--transition);
+    }
+
+    .dept-radiology-lab-img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+    }
+
+    .dept-radiology-explore-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 16px 32px;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      transition: var(--transition);
+      box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .dept-radiology-explore-btn:hover {
+      background: var(--accent-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+    }
+
+    /* ================= LAB RESPONSIVE FIXES ================= */
+    @media (max-width: 960px) {
+      .dept-radiology-lab-features {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .dept-radiology-lab-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .dept-radiology-lab-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+      }
+    }
+
+    /* Custom Bullet List for Vision/Mission */
+    .dept-radiology-bullet-list {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      padding-left: 25px;
+      margin: 0;
+      list-style-type: none;
+      /* Removes default dots */
+    }
+
+    .dept-radiology-bullet-list li {
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    /* Uses FontAwesome checkmark for bullets */
+    .dept-radiology-bullet-list li::before {
+      content: '\f058';
+      /* Check-circle icon */
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      position: absolute;
+      left: -28px;
+      top: 2px;
+      color: var(--accent);
+      font-size: 1.1rem;
+    }
+
+    /* ================= EVENTS SECTION ================= */
+    .dept-radiology-events-section {
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .dept-radiology-events-box {
+      max-width: 1300px;
+      height: 450px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+      border-top: 4px solid var(--accent);
+      position: relative;
+    }
+
+    /* Track */
+    .dept-radiology-events-track {
+      display: flex;
+      flex-direction: column;
+      animation: scrollEvents 30s linear infinite;
+    }
+
+    .dept-radiology-events-box:hover .dept-radiology-events-track {
+      animation-play-state: paused;
+    }
+
+    /* Event Item */
+    .dept-radiology-event-item {
+      padding: 18px 25px;
+      border-bottom: 1px solid #eee;
+      font-size: 1.05rem;
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+    /* Button */
+    .dept-radiology-events-btn {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+
+    .dept-radiology-events-btn:hover {
+      background: var(--accent);
+    }
+
+    /* Animation */
+    @keyframes scrollEvents {
+      0% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(-50%);
+      }
+    }
+
+    /* ================= TABLE LIST SECTION ================= */
+    .dept-radiology-table-section {
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    /* SINGLE COLUMN LAYOUT */
+    .dept-radiology-table-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    /* ACCORDION CARD */
+    .dept-radiology-table-acc {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+      transition: 0.3s ease;
+    }
+
+    /* HEADER */
+    .dept-radiology-table-header {
+      background: #3a5786;
+      color: #fff;
+      padding: 18px 22px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* ICON */
+    .dept-radiology-table-header i {
+      transition: 0.3s;
+    }
+
+    /* CONTENT */
+    .dept-radiology-table-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      background: #fff;
+    }
+
+    /* ACTIVE */
+    .dept-radiology-table-acc.active .dept-radiology-table-content {
+      padding: 20px;
+    }
+
+    .dept-radiology-table-acc.active .dept-radiology-table-header i {
+      transform: rotate(180deg);
+    }
+
+    /* TABLE */
+    .dept-radiology-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    .dept-radiology-table th {
+      background: #142a47;
+      color: #fff;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .dept-radiology-table td {
+      padding: 12px;
+      border: 1px solid #eee;
+      background: #fafafa;
+      color: #333;
+    }
+
+    /* DISABLED */
+    .dept-radiology-table-acc.disabled {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .dept-radiology-table-responsive {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .dept-radiology-table {
+      min-width: 700px;
+      border-collapse: collapse;
+    }
+
+    .dept-radiology-table td,
+    .dept-radiology-table th {
+      white-space: nowrap;
+    }
+
+    /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+    .dept-radiology-event-gallery-section {
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .dept-radiology-event-card {
+      max-width: 1300px;
+      margin: 0 auto 40px;
+    }
+
+    .dept-radiology-event-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    /* MARQUEE BOX */
+    .dept-radiology-marquee {
+      overflow: hidden;
+      border-radius: 12px;
+      /* background: #fff; */
+      box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+      /* border-top: 4px solid var(--accent); */
+    }
+
+    /* TRACK */
+    .dept-radiology-marquee-track {
+      display: flex;
+      gap: 20px;
+      width: max-content;
+      animation: marqueeScroll 80s linear infinite;
+    }
+
+    /* PAUSE ON HOVER */
+    .dept-radiology-marquee:hover .dept-radiology-marquee-track {
+      animation-play-state: paused;
+    }
+
+    /* IMAGE */
+    .dept-radiology-marquee img {
+      height: 300px;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    /* ANIMATION */
+    @keyframes marqueeScroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* MOBILE */
+    @media(max-width:768px) {
+      .dept-radiology-marquee img {
+        height: 160px;
+      }
+    }
+
+    /* ================= ACHIEVEMENT SECTION ================= */
+    .dept-radiology-achievement-section {
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    /* Tabs */
+    .dept-radiology-achievement-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+
+    .dept-achievement-tab {
+      padding: 12px 25px;
+      border-radius: 40px;
+      border: 2px solid var(--primary);
+      background: transparent;
+      color: var(--primary);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .dept-achievement-tab:hover {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .dept-achievement-tab.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    /* Content Box */
+    .dept-radiology-achievement-content {
+      max-width: 1250px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+      border-top: 4px solid var(--accent);
+      padding: 20px;
+    }
+
+    /* Panes */
+    .dept-achievement-pane {
+      display: none;
+    }
+
+    .dept-achievement-pane.active {
+      display: block;
+    }
+
+    /* ================= RECOGNITION SECTION ================= */
+    .dept-radiology-recognition-section {
+      margin-top: 3vw;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .dept-radiology-recognition-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      background: #fff;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+      border-top: 4px solid var(--accent);
+    }
+
+    /* LEFT IMAGE */
+    .dept-radiology-recognition-img {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .dept-radiology-recognition-img img {
+      width: 100%;
+      max-width: 300px;
+      object-fit: contain;
+    }
+
+    /* RIGHT CONTENT */
+    .dept-radiology-recognition-content {
+      flex: 2;
+    }
+
+    .dept-radiology-recognition-content p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+
+    /* BUTTON */
+    .dept-radiology-recognition-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent);
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .dept-radiology-recognition-btn i {
+      font-size: 1.2rem;
+    }
+
+    .dept-radiology-recognition-btn:hover {
+      background: var(--accent-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width: 960px) {
+      .dept-radiology-recognition-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 30px 20px;
+      }
+
+      .dept-radiology-recognition-content p {
+        text-align: center;
+      }
+
+      .dept-radiology-recognition-btn {
+        justify-content: center;
+      }
+    }
+  </style>
+
+    <div class="dept-radiology-floating">
+    <a href="#dept-home" class="dept-radiology-float-item">
+      <i class="fa fa-home"></i>
+      <span class="dept-radiology-float-text">Home</span>
+    </a>
+
+    <a href="#dept-about" class="dept-radiology-float-item">
+      <i class="fa fa-book"></i>
+      <span class="dept-radiology-float-text">About</span>
+    </a>
+
+    <a href="#dept-vision" class="dept-radiology-float-item">
+      <i class="fa fa-bullseye"></i>
+      <span class="dept-radiology-float-text">Vision & Mission</span>
+    </a>
+
+    <a href="#dept-courses" class="dept-radiology-float-item">
+      <i class="fa fa-graduation-cap"></i>
+      <span class="dept-radiology-float-text">Courses</span>
+    </a>
+
+    <a href="#dept-syllabus" class="dept-radiology-float-item">
+      <i class="fa fa-file-text"></i>
+      <span class="dept-radiology-float-text">Syllabus</span>
+    </a>
+
+
+    <a href="#dept-events" class="dept-radiology-float-item">
+      <i class="fa fa-calendar"></i>
+      <span class="dept-radiology-float-text">Events</span>
+    </a>
+
+    <a href="#dept-committee" class="dept-radiology-float-item">
+      <i class="fa fa-users"></i>
+      <span class="dept-radiology-float-text">Committee</span>
+    </a>
+
+    <a href="#dept-lab" class="dept-radiology-float-item">
+      <i class="fa fa-flask"></i>
+      <span class="dept-radiology-float-text">Lab</span>
+    </a>
+
+  </div>
+
+  <a href="https://admissions.rgu.ac/" class="dept-radiology-admission-btn">
+    Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+  </a>
+
+  <div class="dept-radiology-wrapper">
+
+    <div class="dept-radiology-heading" id="dept-home">
+      <h1>Department of <br><span>Medical Radiology & Imaging Technology</span></h1>
+      <h2>Royal School of Medical & Allied Sciences (RSMAS)</h2>
+    </div>
+
+    <div class="dept-radiology-hero" id="dept-about">
+
+      <div class="dept-radiology-img">
+        <img src="mobile-assets/rsmas-new-dept/radiology/headimg.png" alt="mls">
+      </div>
+
+      <div class="dept-radiology-content">
+
+        <h3>About <span>Department</span></h3>
+        <p>
+          The Department of Radiography & Advanced Imaging Technology was established under the Royal School of Medical
+          Radiology & Imaging Technology in 2022, starting with an undergraduate batch. The department has
+          fully-equipped classrooms for Bachelor’s students, featuring projectors, whiteboards, and proper seating
+          arrangements. Looking ahead,
+          the department aims to expand its academic offerings by introducing postgraduate programs. These programs
+          focus on cutting-edge research in radiographic techniques, radiation safety, and emerging imaging
+          technologies. Additionally, the department boasts a state-of-the-art AERB-registered X-ray Radiography
+          laboratory, which consists of sophisticated computerized X-ray unit, protective devices, and a view board for
+          assessing different x-ray films, enabling hands-on practical experience and experiential learning.
+
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="dept-radiology-prospects-section" id="dept-prospects">
+
+      <div class="dept-radiology-prospects-content">
+
+        <p class="dept-radiology-intro-text" style="text-align: justify;">
+          Collaboration with clinical experts and healthcare organizations have been set up to enrich the curriculum,
+          offering students practical insights and hands-on experience with the latest advancements in this field. To
+          enhance their learning experience, students are regularly taken on off-campus tours to various educational and
+          clinical organizations. The department also arranges various webinars, seminars, and workshops to provide
+          students with additional knowledge and skills in the field. The department is also committed to fostering a
+          strong research culture. By encouraging faculty and students to engage in interdisciplinary research projects,
+          the department aims to contribute significantly to the body of knowledge in radiography and imaging
+          technology.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- vision mission  -->
+    <div class="dept-radiology-prospects-section" id="dept-vision">
+      <h2 class="dept-radiology-section-title">Vision <span>& Mission</span></h2>
+
+      <div class="dept-radiology-prospects-content">
+
+        <h3 class="dept-radiology-subheading" style="margin-top: 0;">Our Vision</h3>
+        <ul class="dept-radiology-bullet-list">
+          <li>
+            To produce future technologists who will uphold the highest standards of patient care and who will be able
+            to advance in practice with excellence in medical imaging, nuclear medicine, interventional procedures and
+            radiation therapy, provided with opportunities for global exposure that are integrated on a national and
+            international scale.
+          </li>
+
+        </ul>
+
+        <h3 class="dept-radiology-subheading">Our Mission</h3>
+        <ul class="dept-radiology-bullet-list">
+          <li>
+            To attain academic success by professionally developed, widely researched, and practically focused
+            coursework.
+          </li>
+
+          <li>
+            To incorporate community service to instill moral behavior and empathy towards patients.
+          </li>
+
+          <li>
+            To give back the society with responsible medical professionals who might enhance our hospital experience
+            and benefit immensely by providing adept assistance to the public.
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="dept-radiology-courses-section" id="dept-courses">
+      <h2 class="dept-radiology-section-title">Courses <span>Offered</span></h2>
+
+      <div class="dept-radiology-course-list" id="course-list-container">
+      </div>
+    </div>
+
+    <!-- <div class="dept-radiology-prospects-section" id="dept-prospects">
+      <h2 class="dept-radiology-section-title">Career <span>Prospects</span></h2>
+
+      <div class="dept-radiology-prospects-content">
+        <p class="dept-radiology-intro-text">
+          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+          strong foundation in agricultural sciences, preparing them for following careers opportunities:
+        </p>
+
+        <h3 class="dept-radiology-subheading">Higher Education Opportunities</h3>
+        <ol class="dept-radiology-list">
+          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+          </li>
+          <li>MBA in Agribusiness Management</li>
+          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+            disciplines</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Government Sector Jobs</h3>
+        <ol class="dept-radiology-list">
+          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+          <li>IBPS AFO (Agricultural Field Officer)</li>
+          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Private Sector Careers</h3>
+        <ol class="dept-radiology-list">
+          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+          <li>Food Processing Industries</li>
+          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Research & Teaching</h3>
+        <ol class="dept-radiology-list">
+          <li>Research Assistant / Scientist – in public and private research institutions</li>
+          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Entrepreneurship & Startups</h3>
+        <ol class="dept-radiology-list">
+          <li>Organic farming, dairy, poultry, aquaculture</li>
+          <li>Agri-tourism, greenhouse farming, vertical farming</li>
+          <li>Processing units for spices, cereals, or fruits</li>
+          <li>Agri-consultancy or freelance advisory services</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Jobs Abroad</h3>
+        <ol class="dept-radiology-list">
+          <li>Agricultural research, farm management, and food security projects</li>
+          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+        </ol>
+
+        <h3 class="dept-radiology-subheading">Key Skills That Boost Career</h3>
+        <ol class="dept-radiology-list">
+          <li>Practical knowledge of farming tools and technologies</li>
+          <li>Communication and management skills (especially in extension or agribusiness)</li>
+          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+          <li>Language skills and report writing</li>
+        </ol>
+
+      </div>
+    </div> -->
+
+    <div class="dept-radiology-accordion-section" id="dept-syllabus">
+      <h2 class="dept-radiology-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+      <div class="dept-radiology-accordion-wrapper">
+
+        <div class="dept-radiology-accordion-item active">
+          <div class="dept-radiology-accordion-header">
+            <div class="dept-radiology-accordion-header-left">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Under Graduate</span>
+            </div>
+            <i class="fa-solid fa-chevron-down dept-radiology-chevron"></i>
+          </div>
+
+          <div class="dept-radiology-accordion-content">
+            <div class="dept-radiology-syllabus-list">
+
+              <a target="_blank"
+                href="mobile-assets/rsmas-new-dept/radiology/syllabus/BRIT-Syllabus_2025-26.pdf"
+                class="dept-radiology-syllabus-link" >
+                <div class="dept-radiology-syllabus-link-left">
+                  <i class="fa-solid fa-file-lines"></i>
+                  Course Structure and Syllabus -- BRIT 2025 - 2026
                 </div>
+                <i class="fa-solid fa-download dept-radiology-download-icon"></i>
               </a>
-            </div>
 
-          </div>
-          <!-- courses offered  -->
-
-          <!-- syllabus  -->
-          <div class="container">
-            <div>
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-              </h2>
-
-              <div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="accordion para1" id="mobileAccordionCourses" style="border-radius: 12px; overflow: hidden;">
-
-                      <!-- UG -->
-                      <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                            aria-controls="collapseOne">
-                            <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                              <a href="mobile-assets/department-all/rsmas/radiography/updated-syllabus/Course-structure_Radiography-and-Advance-Imaging-Technology.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Radiography & Advance Imaging
-                                Technology
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                              <a href="mobile-assets/department-all/rsmas/radiography/updated-syllabus/BRIT-Syllabus-2025-26.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Radiography & Advance Imaging
-                                Technology
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- PG -->
-                      <!-- <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                            aria-controls="collapseTwo">
-                            <i class="fa fa-graduation-cap me-2"></i> Post Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                              <a href="mobile-assets/department-all/rsmas/physiotherapy/updated-syllabus/MPT SYLLABUS-2025.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MPT
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div> -->
-
-                      <!-- Doctoral -->
-                      <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                            aria-controls="collapseThree">
-                            <i class="fa fa-book me-2"></i> Doctoral Programme
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <a href="phd" class="para1" target="_blank"
-                              style="color: #27467A; font-weight: 600; text-decoration: none;">
-                              <i class="fa fa-external-link me-2"></i> Click to View...
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
+              <a target="_blank"
+                href="mobile-assets/rsmas-new-dept/radiology/syllabus/BRIT-syllabus-2024_25.pdf"
+                class="dept-radiology-syllabus-link" >
+                <div class="dept-radiology-syllabus-link-left">
+                  <i class="fa-solid fa-file-lines"></i>
+                  Course Structure and Syllabus -- BRIT 2024 - 2025
                 </div>
-              </div>
+                <i class="fa-solid fa-download dept-radiology-download-icon"></i>
+              </a>
 
             </div>
           </div>
-          <!-- syllabus  -->
-
-          <hr>
-
-          <!-- events and highlights  -->
-          <div class="container pb-4">
-
-            <div class="row" style="display: flex; justify-content: center;">
-              <div class="col-lg-12">
-                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                  Events
-                </h2>
-
-                <div style="max-width: 100%; position: relative;">
-                  <div style="border: 1px solid #ccc;">
-
-                    <div id="mobileEventScrollContainer"
-                      style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                      <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                        <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Mrs. Anamika Bhuyan, Principal of NEPNI College of Nursing, visited the department.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. Bibhuti Bhusan Borthakur, Director of BBCI, visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. Sunil Kumar S and Mr. Shreekumar R Chandra, National Governing Body Members of ISRT,
-                                visited the department for training.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Preeti Singh, RSO/NABH Co-ordinator at the Department of Nuclear Medicine, GDRC, New
-                                Delhi, visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. P. Mansa, Senior Resident in Radiation Oncology at SCI, Guwahati, visited the department
-                                for a seminar.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Sushmeeta Saha, Senior Radiographer at BF Railways, Guwahati, visited the department for
-                                a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Mamta Panda, Assistant Professor at Rayat Bahar University, visited the department for a
-                                guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Mr. Manna Debnath, Assistant Professor at Charter University of Science & Technology,
-                                visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 31st March 2023, Ms. Sarita Devi Chettri conducted a webinar on Surgical Instrumentation.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 6th April 2023, Prof. (Dr.) Bibhuti Bhushan Borthakur delivered a guest lecture on World
-                                Health Day.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 12th May 2023, Dr. Dashwa Langhbang delivered a guest lecture on infection control.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 16th October 2023, Dr. Daisy Gogoi delivered a guest lecture on World Anaesthesia Day.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 1st April 2024, Mr. Rickystar Syiemlieh conducted a webinar on Laparoscopic
-                                Instrumentation.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 9th August 2024, Mr. Chinmoy Thakuria delivered a guest lecture during the Student
-                                Induction Programme.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 18th September 2024, Ms. Sarita Chettri delivered a guest lecture for students.
-                              </div>
-                            </td>
-                          </tr>
-
-
-                        </tbody>
-
-                      </table>
-                    </div>
-
-                  </div>
-
-                  <div style="text-align: center; margin-top: 15px;">
-                    <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                      View All
-                    </a>
-                  </div>
-
-
-                </div>
-
-                <script>
-                  const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                  const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                  // Duplicate content for infinite scroll (mobile)
-                  mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                  let mobileEventScrollPos = 0;
-                  const mobileEventScrollSpeed = 0.2;
-
-                  function mobileEventScrollStep() {
-                    mobileEventScrollPos += mobileEventScrollSpeed;
-                    if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                      mobileEventScrollPos = 0;
-                    }
-                    mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                    requestAnimationFrame(mobileEventScrollStep);
-                  }
-
-                  mobileEventScrollStep();
-                </script>
-
-              </div>
-            </div>
-
-
-          </div>
-          <!-- events and highlights  -->
-
-          <!-- Mobile-Friendly Board of Studies & DRC -->
-          <div id="bos-mobile" class="container pb-5">
-
-            <!-- Board of Studies -->
-            <div style="margin-bottom:20px;">
-              <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                <i class="fa fa-users me-2"></i> The Board of Studies
-                <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-              </button>
-
-              <div id="mobAccPanel1"
-                style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                <div class="table-responsive">
-                  <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                    <thead class="text-white" style="background-color: #27467a">
-                      <tr>
-                        <th>Sl. No.</th>
-                        <th>Name</th>
-                        <th>Designations and Address</th>
-                        <th>Expert/Member</th>
-                      </tr>
-                    </thead>
-                    <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                      <tr>
-                        <td>1</td>
-                        <td>Ms Mayuri Ojah</td>
-                        <td>Head of Department, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Convener</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Prof (Dr) Dolly Sharma</td>
-                        <td>Professor, Dept of Medical Radiology &amp; Imaging Technology, Institute of Allied Health
-                          Sciences, SGT University, Gurugram</td>
-                        <td>External Expert (Academic)</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Dr Bhargav Das</td>
-                        <td>Consultant Radiologist, Life Care Diagnostics, Maligaon, Guwahati</td>
-                        <td>External Expert (Industry)</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Ms Meghna Guha</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Ms Priyanka Kumari</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Ms Anudeep Kaur</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-              </div>
-            </div>
-
-            <!-- Departmental Research Committee (DRC) -->
-            <!-- <div style="margin-bottom:20px;">
-              <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-              </button>
-
-              <div id="mobAccPanel2"
-                style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                <div class="table-responsive">
-                  <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                    <thead class="text-white" style="background-color: #27467a">
-                      <tr>
-                        <th class="text-white">#</th>
-                        <th class="text-white">Position in D-BoS</th>
-                        <th class="text-white">Name and Designation</th>
-                      </tr>
-                    </thead>
-                    <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                      <tr>
-                        <td>1</td>
-                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                        <td>
-                          Dr. Dharmeswar Barhoi, Coordinator and Assistant Professor,
-                          Dept. Of Zoology
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>
-                          All Faculty members of the Department Members (Ex-Officio)
-                        </td>
-                        <td>
-                          Prof. J. Arjun, Professor, Department of Zoology
-                          <hr>
-                          Dr. Utsab Singha, Assistant Professor, Dept. Of Zoology
-                          <hr>
-                          Dr. Annu Kumari, Assistant Professor, Dept. Of Zoology
-                          <hr>
-                          Dr. Parimal C Ray, Assistant Professor, Dept. Of Zoology
-                          <hr>
-                          Dr. Abesh Chakraborty, Assistant Professor, Dept. Of Zoology
-                          <hr>
-                          Ms. Sangeeta Biswas, Assistant Professor, Dept. Of Zoology
-                          <hr>
-                          Mr. Anurudha Chakraborty, Teaching Assistant, Department of
-                          Zoology
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>External Expert (Academic)</td>
-                        <td>
-                          Dr. Rezina Ahmed, Associate Professor, Department of Zoology,
-                          Cotton University
-                          <hr>
-                          Prof. Mamata Goswami, Retd. HoD, Department of Zoology, Cotton
-                          University.
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-              </div>
-            </div> -->
-
-
-          </div>
-
-          <script>
-            const mobAccPairs = [
-              { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
-              { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
-            ];
-
-            function closeAllMob() {
-              mobAccPairs.forEach(p => {
-                const b = document.getElementById(p.btn);
-                const panel = document.getElementById(p.panel);
-                if (panel) panel.style.display = 'none';
-                if (b) {
-                  b.setAttribute('aria-expanded', 'false');
-                  const sp = b.querySelector('span');
-                  if (sp) sp.textContent = '＋';
-                }
-              });
-            }
-
-            mobAccPairs.forEach(p => {
-              const b = document.getElementById(p.btn);
-              const panel = document.getElementById(p.panel);
-              if (!b || !panel) return;
-
-              b.addEventListener('click', function () {
-                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                if (isOpen) {
-                  panel.style.display = 'none';
-                  this.setAttribute('aria-expanded', 'false');
-                  const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                } else {
-                  closeAllMob();
-                  panel.style.display = 'block';
-                  this.setAttribute('aria-expanded', 'true');
-                  const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                }
-              });
-            });
-
-            document.addEventListener('keydown', function (e) {
-              if (e.key === 'Escape') closeAllMob();
-            });
-          </script>
-          <!-- Mobile-Friendly Board of Studies & DRC -->
-
         </div>
 
-        <div class="website">
-                      @include('frontend/components/aheader')
-                        <!-- floating button  -->
-                        <div>
-                            <a href="https://admissions.rgu.ac/" style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                                <span style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                                Admission Open - Apply Now
-                            </a>
-                            <style>
-                                @keyframes pulse {
-                                    0% {
-                                        transform: scale(1);
-                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                    }
-
-                                    50% {
-                                        transform: scale(1.05);
-                                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                    }
-
-                                    100% {
-                                        transform: scale(1);
-                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                    }
-                                }
-
-                                @keyframes shine {
-                                    0% {
-                                        left: -75%;
-                                    }
-
-                                    100% {
-                                        left: 125%;
-                                    }
-                                }
-                            </style>
-                        </div>
-                        <!-- floating button  -->
-          <section>
-
-            <!-- floating buttons  -->
-            <div
-              style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
-
-              <!-- About -->
-              <a href="#about" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-              </a>
-
-              <!-- Course -->
-              <a href="#course" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                  Offered</span>
-              </a>
-
-              <!-- Syllabus -->
-              <a href="#syllabus" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure &
-                  Syllabus</span>
-              </a>
-
-              <!-- Events -->
-              <a href="#events" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                  Highlights</span>
-              </a>
-
-              <!-- Academic Excellence -->
-              <a href="#academic-excellence" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                  Excellence</span>
-              </a>
-
-              <!-- BOS -->
-              <a href="#bos" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                  Studies</span>
-              </a>
-
-              <!-- DRC -->
-              <a href="#drc" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-              </a>
-
+        <div class="dept-radiology-accordion-item">
+          <div class="dept-radiology-accordion-header">
+            <div class="dept-radiology-accordion-header-left">
+              <i class="fa-solid fa-book"></i>
+              <span>Doctoral Programme</span>
             </div>
-            <!-- floating buttons  -->
+            <i class="fa-solid fa-chevron-down dept-radiology-chevron"></i>
+          </div>
 
-            <section id="about">
-              <section style="background-color: #FFF8F0;">
-
-                <img src="mobile-assets/new-department/Radiology/radiology-web.png" alt="">
-
-                <img src="mobile-assets/department-all/rsmas/radiography/web-btm.png" alt="">
-
-              </section>
-            </section>
-
-            <section id="course">
-
-              <div class="container">
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 35px;">
-                  Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-              <!-- Heading Section -->
-              <div
-                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">B.Sc. - Radiography and Advance Imaging
-                  Technology</span> |
-                <span style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">
-                  Honours/ Honours with Research
-                </span>
-
-                <span
-                  style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-              </div>
-
-
-              <!-- Statute Items -->
-              <a target="_blank" href="#" style="text-decoration:none;">
-                <div
-                  style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                  <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span>
-                  <span>
-                    <a class="para1 fw-bold"
-                      style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                      href="programs-b-sc-radiography">View Details</a>
-                  </span>
+          <div class="dept-radiology-accordion-content">
+            <div class="dept-radiology-syllabus-list">
+              <a href="https://www.rgu.ac/phd" class="dept-radiology-syllabus-link" download>
+                <div class="dept-radiology-syllabus-link-left">
+                  <i class="fa-solid fa-file-lines"></i>
+                  Click to View
                 </div>
+
               </a>
-                </div>
-
-                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">M.Sc. - Radiography and Advance Imaging
-                            Technology</span>
-
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="#" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-msc-radiography-advance-imaging-tech">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-              </div>
-
-            </section>
-
-            <section id="syllabus">
-              <div class="container">
-                <div>
-                  <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                    style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                    Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                  </h2>
-
-                  <div>
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <div class="accordion para1" id="accordionExample" style="border-radius: 12px; overflow: hidden;">
-
-                          <!-- UG -->
-                          <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                            aria-controls="collapseOne">
-                            <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                              <a href="mobile-assets/department-all/rsmas/radiography/updated-syllabus/Course-structure_Radiography-and-Advance-Imaging-Technology.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Radiography & Advance Imaging
-                                Technology
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                              <a href="mobile-assets/department-all/rsmas/radiography/updated-syllabus/BRIT-Syllabus-2025-26.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Radiography & Advance Imaging
-                                Technology
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                            </div>
-                          </div>
-                        </div>
-                          </div>
-
-                          <!-- PG -->
-                          <!-- <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <i class="fa fa-graduation-cap me-2"></i> Post Graduate
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                  <a href="mobile-assets/department-all/rsmas/physiotherapy/updated-syllabus/MPT SYLLABUS-2025.pdf"
-                                    target="_blank" style="color: #27467A;">
-                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MPT
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
-
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-
-                          <!-- Doctoral -->
-                          <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
-                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                              </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <a href="phd" class="para1" target="_blank"
-                                  style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                  <i class="fa fa-external-link me-2"></i> Click to View...
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </section>
-
-            <section id="events">
-              <div class="container pb-4">
-                <div class="row" style="display: flex; justify-content: center;">
-                  <div class="col-lg-12">
-                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                      Events
-                    </h2>
-
-                    <div style="max-width: 100%; position: relative;">
-                      <div style="border: 1px solid #ccc;">
-                        <div id="scrollContainer"
-                          style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                          <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                            <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
-
-                               <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Mrs. Anamika Bhuyan, Principal of NEPNI College of Nursing, visited the department.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. Bibhuti Bhusan Borthakur, Director of BBCI, visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. Sunil Kumar S and Mr. Shreekumar R Chandra, National Governing Body Members of ISRT,
-                                visited the department for training.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Preeti Singh, RSO/NABH Co-ordinator at the Department of Nuclear Medicine, GDRC, New
-                                Delhi, visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Dr. P. Mansa, Senior Resident in Radiation Oncology at SCI, Guwahati, visited the department
-                                for a seminar.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Sushmeeta Saha, Senior Radiographer at BF Railways, Guwahati, visited the department for
-                                a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Ms. Mamta Panda, Assistant Professor at Rayat Bahar University, visited the department for a
-                                guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                Mr. Manna Debnath, Assistant Professor at Charter University of Science & Technology,
-                                visited the department for a guest lecture.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 31st March 2023, Ms. Sarita Devi Chettri conducted a webinar on Surgical Instrumentation.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 6th April 2023, Prof. (Dr.) Bibhuti Bhushan Borthakur delivered a guest lecture on World
-                                Health Day.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 12th May 2023, Dr. Dashwa Langhbang delivered a guest lecture on infection control.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 16th October 2023, Dr. Daisy Gogoi delivered a guest lecture on World Anaesthesia Day.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 1st April 2024, Mr. Rickystar Syiemlieh conducted a webinar on Laparoscopic
-                                Instrumentation.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 9th August 2024, Mr. Chinmoy Thakuria delivered a guest lecture during the Student
-                                Induction Programme.
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: flex-start; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div style="color: #27467A; font-weight: bold;">
-                                On 18th September 2024, Ms. Sarita Chettri delivered a guest lecture for students.
-                              </div>
-                            </td>
-                          </tr>
-
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-
-                      <div style="text-align: center; margin-top: 15px;">
-                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                  background: linear-gradient(135deg, #243B95, #151B5B);
-                  color: #fff; font-weight: 600; font-size: 16px;
-                  border-radius: 25px; text-decoration: none;
-                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                  transition: all 0.3s ease-in-out;">
-                          View All
-                        </a>
-                      </div>
-                    </div>
-
-                    <script>
-                      const scrollContainer = document.getElementById('scrollContainer');
-                      const scrollContent = document.getElementById('scrollContent');
-
-                      scrollContent.innerHTML += scrollContent.innerHTML;
-
-                      let scrollPos = 0;
-                      const scrollSpeed = 0.2;
-
-                      function scrollStep() {
-                        scrollPos += scrollSpeed;
-                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                          scrollPos = 0;
-                        }
-                        scrollContainer.scrollTop = scrollPos;
-                        requestAnimationFrame(scrollStep);
-                      }
-
-                      scrollStep();
-                    </script>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <!-- <section id="academic-excellence">
-              <section
-                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                </h2>
-
-                <div
-                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                </div>
-
-                <div class="row">
-
-                  <div class="col-lg-6">
-
-                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                    </h2>
-
-                    <div
-                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                      <div style="padding: 30px 20px;">
-                        <div class="carousel" mask>
-                          <div class="carousel-track">
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Yubita Deka<br>
-                                    <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                  </p>
-                                </div>
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Susmita Paul<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                              </div>
-
-                            </article>
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Bhaskar Jyoti Borah<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                              </div>
-
-                            </article>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <style>
-                      .carousel {
-                        --carousel-width: min(85vw, 650px);
-                        --carousel-item-width: 280px;
-                        --carousel-item-height: 350px;
-                        --carousel-item-gap: 2rem;
-                        position: relative;
-                        width: var(--carousel-width);
-                        overflow: hidden;
-                      }
-
-                      .carousel[mask] {
-                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                      }
-
-                      .carousel-track {
-                        display: flex;
-                        gap: var(--carousel-item-gap);
-                        animation: marquee var(--carousel-duration) linear infinite;
-                      }
-
-                      .carousel article {
-                        flex: 0 0 var(--carousel-item-width);
-                        height: var(--carousel-item-height);
-                        display: grid;
-                        grid-template-rows: 200px auto 1fr auto;
-                        border-radius: 10px;
-                        background: white;
-                        color: #314158;
-                      }
-
-                      .carousel img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 15px !important;
-                      }
-
-                      .carousel article>*:not(img) {
-                        padding: 0 1rem;
-                      }
-
-                      @keyframes marquee {
-                        from {
-                          transform: translateX(0);
-                        }
-
-                        to {
-                          transform: translateX(var(--scroll-distance));
-                        }
-                      }
-                    </style>
-
-                    <script>
-                      const track = document.querySelector('.carousel-track');
-                      const cards = Array.from(track.children);
-
-                      cards.forEach(card => {
-                        track.appendChild(card.cloneNode(true));
-                      });
-
-                      const carouselEl = document.querySelector('.carousel');
-                      const styles = getComputedStyle(carouselEl);
-                      const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                      const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                      const totalCards = track.children.length;
-                      const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                      track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                      const speed = 80;
-                      const duration = halfTrackWidth / speed;
-                      track.style.setProperty('--carousel-duration', `${duration}s`);
-                    </script>
-
-                  </div>
-
-                  <div class="col-lg-6">
-
-                    <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                    </h2>
-
-                    <div
-                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                      <div style="padding: 30px 20px;">
-                        <div class="carousel2" mask>
-                          <div class="carousel-track2">
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Ritu Sharma<br>
-                                    <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                  </p>
-                                </div>
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Anil Kumar<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                              </div>
-
-                            </article>
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Meera Das<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                              </div>
-
-                            </article>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <style>
-                      .carousel2 {
-                        --carousel-width: min(85vw, 650px);
-                        --carousel-item-width: 280px;
-                        --carousel-item-height: 350px;
-                        --carousel-item-gap: 2rem;
-                        position: relative;
-                        width: var(--carousel-width);
-                        overflow: hidden;
-                      }
-
-                      .carousel2[mask] {
-                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                      }
-
-                      .carousel-track2 {
-                        display: flex;
-                        gap: var(--carousel-item-gap);
-                        animation: marquee2 var(--carousel-duration) linear infinite;
-                      }
-
-                      .carousel2 article {
-                        flex: 0 0 var(--carousel-item-width);
-                        height: var(--carousel-item-height);
-                        display: grid;
-                        grid-template-rows: 200px auto 1fr auto;
-                        border-radius: 10px;
-                        background: white;
-                        color: #314158;
-                      }
-
-                      .carousel2 img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 15px !important;
-                      }
-
-                      .carousel2 article>*:not(img) {
-                        padding: 0 1rem;
-                      }
-
-                      @keyframes marquee2 {
-                        from {
-                          transform: translateX(0);
-                        }
-
-                        to {
-                          transform: translateX(var(--scroll-distance));
-                        }
-                      }
-                    </style>
-
-                    <script>
-                      const track2 = document.querySelector('.carousel-track2');
-                      const cards2 = Array.from(track2.children);
-
-                      cards2.forEach(card => {
-                        track2.appendChild(card.cloneNode(true));
-                      });
-
-                      const carouselEl2 = document.querySelector('.carousel2');
-                      const styles2 = getComputedStyle(carouselEl2);
-                      const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                      const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                      const totalCards2 = track2.children.length;
-                      const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                      track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                      const speed2 = 80;
-                      const duration2 = halfTrackWidth2 / speed2;
-                      track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                    </script>
-
-                  </div>
-
-                </div>
-
-              </section>
-            </section> -->
-
-            <div id="bos" class="container pb-5 pt-5">
-
-              <!-- Container -->
-              <div id="drc" style="margin:0 auto;">
-
-                <!-- Row 1 -->
-                <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                  <!-- Board of Studies -->
-                  <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                    <div
-                      style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                      <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                      </button>
-                      <div id="accPanel1"
-                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                        <div class="table-responsive">
-                  <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                    <thead class="text-white" style="background-color: #27467a">
-                      <tr>
-                        <th>Sl. No.</th>
-                        <th>Name</th>
-                        <th>Designations and Address</th>
-                        <th>Expert/Member</th>
-                      </tr>
-                    </thead>
-                    <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                      <tr>
-                        <td>1</td>
-                        <td>Ms Mayuri Ojah</td>
-                        <td>Head of Department, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Convener</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Prof (Dr) Dolly Sharma</td>
-                        <td>Professor, Dept of Medical Radiology &amp; Imaging Technology, Institute of Allied Health
-                          Sciences, SGT University, Gurugram</td>
-                        <td>External Expert (Academic)</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Dr Bhargav Das</td>
-                        <td>Consultant Radiologist, Life Care Diagnostics, Maligaon, Guwahati</td>
-                        <td>External Expert (Industry)</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Ms Meghna Guha</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Ms Priyanka Kumari</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Ms Anudeep Kaur</td>
-                        <td>Assistant Professor, Dept of Radiography &amp; Advance Imaging Technology</td>
-                        <td>Member</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- DRC -->
-                  <!-- <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                    <div
-                      style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                      <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                      </button>
-                      <div id="accPanel2"
-                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                        <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th class="text-white">#</th>
-                                <th class="text-white">Position in D-BoS</th>
-                                <th class="text-white">Name and Designation</th>
-                              </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                              <tr>
-                                <td>1</td>
-                                <td>Convener (Ex-Officio)- Head of the Department</td>
-                                <td>
-                                  Dr. Dharmeswar Barhoi, Coordinator and Assistant Professor,
-                                  Dept. Of Zoology
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>
-                                  All Faculty members of the Department Members (Ex-Officio)
-                                </td>
-                                <td>
-                                  Prof. J. Arjun, Professor, Department of Zoology
-                                  <hr>
-                                  Dr. Utsab Singha, Assistant Professor, Dept. Of Zoology
-                                  <hr>
-                                  Dr. Annu Kumari, Assistant Professor, Dept. Of Zoology
-                                  <hr>
-                                  Dr. Parimal C Ray, Assistant Professor, Dept. Of Zoology
-                                  <hr>
-                                  Dr. Abesh Chakraborty, Assistant Professor, Dept. Of Zoology
-                                  <hr>
-                                  Ms. Sangeeta Biswas, Assistant Professor, Dept. Of Zoology
-                                  <hr>
-                                  Mr. Anurudha Chakraborty, Teaching Assistant, Department of
-                                  Zoology
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>External Expert (Academic)</td>
-                                <td>
-                                  Dr. Rezina Ahmed, Associate Professor, Department of Zoology,
-                                  Cotton University
-                                  <hr>
-                                  Prof. Mamata Goswami, Retd. HoD, Department of Zoology, Cotton
-                                  University.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div> -->
-
-                </div>
-
-              </div>
-
-              <!-- JS remains same -->
-              <script>
-
-                const accPairs = [
-                  { btn: 'accBtn1', panel: 'accPanel1' },
-                  { btn: 'accBtn2', panel: 'accPanel2' }
-                ];
-
-                function closeAll() {
-                  accPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (panel) panel.style.display = 'none';
-                    if (b) {
-                      b.setAttribute('aria-expanded', 'false');
-                      const sp = b.querySelector('span');
-                      if (sp) sp.textContent = '＋';
-                    }
-                  });
-                }
-
-                accPairs.forEach(p => {
-                  const b = document.getElementById(p.btn);
-                  const panel = document.getElementById(p.panel);
-                  if (!b || !panel) return;
-
-                  b.addEventListener('click', function () {
-                    const isOpen = this.getAttribute('aria-expanded') === 'true';
-                    if (isOpen) {
-                      panel.style.display = 'none';
-                      this.setAttribute('aria-expanded', 'false');
-                      const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                    } else {
-                      closeAll();
-                      panel.style.display = 'block';
-                      this.setAttribute('aria-expanded', 'true');
-                      const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                    }
-                  });
-                });
-
-                document.addEventListener('keydown', function (e) {
-                  if (e.key === 'Escape') closeAll();
-                });
-              </script>
-
             </div>
-
-            <script>
-              document.querySelectorAll('a.special-link').forEach(anchor => {
-                anchor.addEventListener('mouseover', function () {
-                  this.style.width = '200px';
-                  this.querySelector('span').style.opacity = '1';
-                });
-                anchor.addEventListener('mouseout', function () {
-                  this.style.width = '42px';
-                  this.querySelector('span').style.opacity = '0';
-                });
-                anchor.addEventListener('click', function (e) {
-                  e.preventDefault();
-                  document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                  });
-                });
-              });
-
-            </script>
-
-          </section>
-
+          </div>
         </div>
 
       </div>
+    </div>
+
+    <div class="dept-radiology-events-section" id="dept-events">
+
+      <h2 class="dept-radiology-section-title">Events</h2>
+
+      <div class="dept-radiology-events-box">
+        <div class="dept-radiology-events-track" id="events-track"></div>
+      </div>
+
+      <!-- <div style="text-align:center; margin-top:30px;">
+        <a href="#" class="dept-radiology-events-btn">View All</a>
+      </div> -->
+
+    </div>
+
+    <div class="dept-radiology-table-section" id="dept-committee">
+
+      <div class="dept-radiology-table-grid" id="table-accordion-container"></div>
+
+    </div>
+
+    <div class="dept-radiology-lab-section" id="dept-lab">
+
+      <div class="dept-radiology-lab-container">
+
+        <h2 class="dept-radiology-section-title">Our <span>Lab</span></h2>
+
+        <p class="dept-radiology-intro-lab" style="padding-bottom: 30px;">
+          17th June, 2023: A state-of-the-art Radiography Lab was inaugurated at The Assam Royal Global University on
+          the 16th of June, 2023, by Dr. A.K. Pansari, Honourable Chancellor of the varsity.
+
+          Well equipped with the latest technology and machinery, it can conduct tests and offers practical knowledge to
+          Royalites ranging from Postero-anterior and Anterior oblique of the upper limb to Antero-posterior – supine
+          and Antero-posterior – erect of the Abdomen and Pelvic Cavity.
+        </p>
+
+        <!-- <p class="dept-radiology-lab-intro">
+          The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+        </p> -->
+
+
+        <!-- <h3 class="dept-radiology-lab-heading">Our Lab Equipments</h3> -->
+
+        <!-- <h2 class="dept-radiology-section-title">Glimpse of <span>our Lab</span></h2> -->
+
+        <div class="dept-radiology-lab-gallery">
+          <img src="mobile-assets/rsmas-new-dept/radiology/1.jpg" alt="Lab 1" class="dept-radiology-lab-img">
+          <img src="mobile-assets/rsmas-new-dept/radiology/2.jpg" alt="Lab 2" class="dept-radiology-lab-img">
+          <img src="mobile-assets/rsmas-new-dept/radiology/3.jpg" alt="Lab 3" class="dept-radiology-lab-img">
+          <img src="mobile-assets/rsmas-new-dept/radiology/4.jpg" alt="Lab 4" class="dept-radiology-lab-img">
+
+        </div>
+
+        <!-- <button class="dept-radiology-explore-btn">Explore</button> -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+  // 1. Define the courses array
+  const coursesData = [
+    {
+      title: "Master – Medical Radiology and Imaging Technology",
+      duration: "2 Years",
+      link: "https://www.rgu.ac/programme-m-radio-imaging"
+    },
+
+    {
+      title: "Bachelor – Medical Radiology and Imaging Technology",
+      duration: "4 years",
+      link: "https://www.rgu.ac/programme-b-radio-imaging"
+    },
+
+  ];
+
+  // 2. Get container
+  const courseContainer = document.getElementById('course-list-container');
+
+  // 3. Render courses
+  if (courseContainer) {
+
+    // If array is empty → show fallback
+    if (!coursesData || coursesData.length === 0) {
+      courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+    }
+    else {
+      // Generate course cards
+      courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-radiology-course-card">
+
+          <div class="dept-radiology-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+          ? `<a href="${course.link}" class="dept-radiology-view-btn">View details</a>`
+          : ``
+        }
+
+          </div>
+
+          <div class="dept-radiology-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+    }
+  }
+</script>
+
+<script>
+  // --- ACCORDION LOGIC ---
+  const accordionHeaders = document.querySelectorAll('.dept-radiology-accordion-header');
+
+  // Function to calculate and set the exact height for smooth transitions
+  function setAccordionHeights() {
+    const activeItems = document.querySelectorAll('.dept-radiology-accordion-item.active');
+    activeItems.forEach(item => {
+      const content = item.querySelector('.dept-radiology-accordion-content');
+      content.style.maxHeight = content.scrollHeight + "px";
+    });
+  }
+
+  // Initialize the open item on load
+  setAccordionHeights();
+
+  accordionHeaders.forEach(header => {
+    header.addEventListener('click', function () {
+      const currentItem = this.parentElement;
+      const currentContent = currentItem.querySelector('.dept-radiology-accordion-content');
+
+      // Toggle 'active' class
+      currentItem.classList.toggle('active');
+
+      // If it is now active, set max-height to its scrollHeight (actual content height)
+      if (currentItem.classList.contains('active')) {
+        currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+      } else {
+        // If closed, collapse it back to 0
+        currentContent.style.maxHeight = 0;
+      }
+    });
+  });
+
+  // Recalculate heights if the window resizes (prevents text clipping on mobile)
+  window.addEventListener('resize', setAccordionHeights);
+</script>
+
+<script>
+  // ================= EVENTS DATA =================
+  const eventsData = [
+    "18-09-2024 | Ms. Sarita Chettri delivered a guest lecture for students.",
+    "09-08-2024 | Mr. Chinmoy Thakuria delivered a guest lecture during the Student Induction Programme.",
+    "01-04-2024 | Mr. Rickystar Syiemlieh conducted a webinar on Laparoscopic Instrumentation.",
+    "16-10-2023 | Dr. Daisy Gogoi delivered a guest lecture on World Anaesthesia Day.",
+    "12-05-2023 | Dr. Dashwa Langhbang delivered a guest lecture on Infection Control.",
+    "06-04-2023 | Prof. (Dr.) Bibhuti Bhushan Borthakur delivered a guest lecture on World Health Day.",
+    "31-03-2023 | Ms. Sarita Devi Chettri conducted a webinar on Surgical Instrumentation.",
+    "Mrs. Anamika Bhuyan, Principal of NEPNI College of Nursing, visited the department.",
+    "Dr. Bibhuti Bhusan Borthakur, Director of BBCI, visited the department for a guest lecture.",
+    "Dr. Sunil Kumar S and Mr. Shreekumar R Chandra, National Governing Body Members of ISRT, visited the department for training.",
+    "Ms. Preeti Singh, RSO/NABH Co-ordinator at the Department of Nuclear Medicine, GDRC, New Delhi, visited the department for a guest lecture.",
+    "Dr. P. Mansa, Senior Resident in Radiation Oncology at SCI, Guwahati, visited the department for a seminar.",
+    "Ms. Sushmeeta Saha, Senior Radiographer at BF Railways, Guwahati, visited the department for a guest lecture.",
+    "Ms. Mamta Panda, Assistant Professor at Rayat Bahar University, visited the department for a guest lecture.",
+    "Mr. Manna Debnath, Assistant Professor at Charter University of Science & Technology, visited the department for a guest lecture."
+  ];
+
+  const eventsTrack = document.getElementById("events-track");
+
+  if (eventsTrack) {
+
+    if (!eventsData || eventsData.length === 0) {
+      eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+    } else {
+
+      const createEventHTML = (text) => `
+        <div class="dept-radiology-event-item">
+          ${text}
+        </div>
+      `;
+
+      // Duplicate for seamless infinite scroll
+      const fullContent = [...eventsData, ...eventsData]
+        .map(createEventHTML)
+        .join("");
+
+      eventsTrack.innerHTML = fullContent;
+    }
+  }
+</script>
+
+<script>
+  const tableData = [
+    {
+      title: "The Board of Studies",
+      headers: ["Sl. No.", "Name", "Designation And Address", "Role"],
+      rows: [
+        ["1", "Ms Mayuri Ojah", "Head of Department, Dept of Radiography & Advance Imaging Technology", "Convener"],
+
+        ["2", "Prof. (Dr.) Dolly Sharma", "Professor, Dept of Medical Radiology & Imaging Technology, Institute of Allied Health Sciences, SGT University, Gurugram", "External Expert (Academic)"],
+
+        ["3", "Dr. Bhargav Das", "Consultant Radiologist, Life Care Diagnostics, Maligaon, Guwahati", "External Expert (Industry)"],
+
+        ["4", "Ms Meghna Guha", "Assistant Professor, Dept of Radiography & Advance Imaging Technology", "Member"],
+        ["5", "Ms Priyanka Kumari", "Assistant Professor, Dept of Radiography & Advance Imaging Technology", "Member"],
+        ["6", "Ms Anudeep Kaur", "Assistant Professor, Dept of Radiography & Advance Imaging Technology", "Member"]
+      ]
+    }
+  ];
+
+  const container = document.getElementById("table-accordion-container");
+
+  if (container) {
+
+    const createTable = (headers, rows) => {
+      if (!rows || rows.length === 0) {
+        return `<p style="color:#556b8d;">No data available</p>`;
+      }
+
+      return `
+        <div class="dept-radiology-table-responsive">
+          <table class="dept-radiology-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                <tr>
+                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    };
+
+    container.innerHTML = tableData.map(item => {
+
+      const isEmpty = !item.rows || item.rows.length === 0;
+
+      return `
+        <div class="dept-radiology-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-radiology-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-radiology-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+    }).join("");
+  }
+
+  /* ACCORDION (single open at a time) */
+  document.addEventListener("click", function (e) {
+    const header = e.target.closest(".dept-radiology-table-header");
+    if (!header) return;
+
+    const item = header.parentElement;
+    if (item.classList.contains("disabled")) return;
+
+    const allItems = document.querySelectorAll(".dept-radiology-table-acc");
+
+    allItems.forEach(acc => {
+      if (acc !== item) {
+        acc.classList.remove("active");
+        const content = acc.querySelector(".dept-radiology-table-content");
+        const icon = acc.querySelector("i");
+        if (content) content.style.maxHeight = 0;
+        if (icon) icon.classList.replace("fa-minus", "fa-plus");
+      }
+    });
+
+    const content = item.querySelector(".dept-radiology-table-content");
+    const icon = header.querySelector("i");
+
+    item.classList.toggle("active");
+
+    if (item.classList.contains("active")) {
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.classList.replace("fa-plus", "fa-minus");
+    } else {
+      content.style.maxHeight = 0;
+      icon.classList.replace("fa-minus", "fa-plus");
+    }
+  });
+</script>
+
+<script>
+  const eventGalleryData = [
+    {
+      title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+      images: [
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+      ]
+    },
+    {
+      title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+      images: [
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+      ]
+    }
+  ];
+
+  const galleryContainer = document.getElementById("event-gallery-container");
+
+  if (galleryContainer) {
+
+    galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+      const images = event.images || [];
+
+      if (images.length === 0) {
+        return "";
+      }
+
+      // duplicate for infinite effect
+      const marqueeImages = [...images, ...images]
+        .map(img => `<img src="${img}" alt="event">`)
+        .join("");
+
+      return `
+      <div class="dept-radiology-event-card">
+
+        <div class="dept-radiology-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-radiology-marquee">
+          <div class="dept-radiology-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+    }).join("");
+  }
+</script>
+
+<script>
+  const tabs = document.querySelectorAll(".dept-achievement-tab");
+  const panes = document.querySelectorAll(".dept-achievement-pane");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+
+      // remove active
+      tabs.forEach(t => t.classList.remove("active"));
+      panes.forEach(p => p.classList.remove("active"));
+
+      // add active
+      tab.classList.add("active");
+      document.getElementById(tab.dataset.tab).classList.add("active");
+    });
+  });
+</script>
 @endsection
