@@ -214,9 +214,6 @@
             <!-- syllabus  -->
 
 
-          </div> -->
-            <!-- events and highlights  -->
-
             <!-- Mobile-Friendly Board of Studies & DRC -->
             <div id="bos-mobile" class="container pb-5">
 
@@ -394,6 +391,11 @@
                 });
             </script>
             <!-- Mobile-Friendly Board of Studies & DRC -->
+
+
+          </div> -->
+            <!-- events and highlights  -->
+
 
         </div>
 
