@@ -1511,7 +1511,7 @@
 
                     <div class="dept-mls-accordion-content">
                         <div class="dept-mls-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-mls-syllabus-link" download>
+                            <a href="https://www.rgu.ac/phd" class="dept-mls-syllabus-link" target="_blank">
                                 <div class="dept-mls-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View

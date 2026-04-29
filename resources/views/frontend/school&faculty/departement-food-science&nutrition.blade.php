@@ -1383,7 +1383,7 @@
 
                     <div class="dept-food-sc-accordion-content">
                         <div class="dept-food-sc-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-food-sc-syllabus-link" download>
+                            <a href="https://www.rgu.ac/phd" class="dept-food-sc-syllabus-link" target="_blank">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View

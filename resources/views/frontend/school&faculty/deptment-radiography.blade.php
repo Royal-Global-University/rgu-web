@@ -1460,7 +1460,7 @@
 
           <div class="dept-radiology-accordion-content">
             <div class="dept-radiology-syllabus-list">
-              <a href="https://www.rgu.ac/phd" class="dept-radiology-syllabus-link" download>
+              <a href="https://www.rgu.ac/phd" class="dept-radiology-syllabus-link" target="_blank">
                 <div class="dept-radiology-syllabus-link-left">
                   <i class="fa-solid fa-file-lines"></i>
                   Click to View

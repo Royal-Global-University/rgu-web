@@ -1538,7 +1538,7 @@
 
                     <div class="dept-optometry-accordion-content">
                         <div class="dept-optometry-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-optometry-syllabus-link" download>
+                            <a href="https://www.rgu.ac/phd" class="dept-optometry-syllabus-link" target="_blank">
                                 <div class="dept-optometry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View

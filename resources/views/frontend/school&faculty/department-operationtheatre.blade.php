@@ -1408,7 +1408,7 @@
 
                     <div class="dept-operationtheatre-accordion-content">
                         <div class="dept-operationtheatre-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-operationtheatre-syllabus-link" download>
+                            <a href="https://www.rgu.ac/phd" class="dept-operationtheatre-syllabus-link" target="_blank">
                                 <div class="dept-operationtheatre-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View

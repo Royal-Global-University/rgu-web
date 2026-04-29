@@ -1474,7 +1474,7 @@
 
           <div class="dept-physiotherapy-accordion-content">
             <div class="dept-physiotherapy-syllabus-list">
-              <a href="https://www.rgu.ac/phd" class="dept-physiotherapy-syllabus-link" download>
+              <a href="https://www.rgu.ac/phd" class="dept-physiotherapy-syllabus-link" target="_blank">
                 <div class="dept-physiotherapy-syllabus-link-left">
                   <i class="fa-solid fa-file-lines"></i>
                   Click to View
