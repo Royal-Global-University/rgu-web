@@ -89,7 +89,6 @@
                                         <a href="/deans" class="m-sub-acc-link">Deans’ Corner</a>
                                         <a href="/chief-vigilance-officer" class="m-sub-acc-link">Chief
                                             Vigilance Officer</a>
-                                        <a href="/ombudsperson" class="m-sub-acc-link">Ombudsperson</a>
                                         <a href="/governing-body" class="m-sub-acc-link">Governing
                                             Body</a>
                                         <a href="/board-of-management" class="m-sub-acc-link">Board of
@@ -493,7 +492,6 @@
                         <li><a href="/advisory-leadership">Advisory Leadership</a></li>
                         <li><a href="/deans">Deans’ Corner</a></li>
                         <li><a href="/chief-vigilance-officer">Chief Vigilance Officer</a></li>
-                        <li><a href="/ombudsperson">Ombudsperson</a></li>
                         <li><a href="/governing-body">Governing Body</a></li>
                         <li><a href="/board-of-management">Board of Management</a></li>
                         <li><a href="/academic-council">Academic Council</a></li>

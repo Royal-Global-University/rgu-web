@@ -70,9 +70,9 @@ Route::get('/university-research-committee', function () {
     return view('frontend/discoverRGU/university-research-committee');
 })->name('university-research-committee');
 
-Route::get('/ombudsperson', function () {
-    return view('frontend/discoverRGU/ombudsperson');
-})->name('ombudsperson');
+// Route::get('/ombudsperson', function () {
+//     return view('frontend/discoverRGU/ombudsperson');
+// })->name('ombudsperson');
 
 Route::get('/self-disclosure', function () {
     return view('frontend/discoverRGU/self-disclosure');

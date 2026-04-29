@@ -296,9 +296,6 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('chief-vigilance-officer') }}">
                     <li>Chief Vigilance Officer</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('ombudsperson') }}">
-                    <li>Ombudsperson</li>
-                </a>
 
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('vision-mission') }}">
                     <li>Vision and Mission</li>

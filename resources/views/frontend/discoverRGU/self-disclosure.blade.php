@@ -144,13 +144,6 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="mobile-para1"><a href="/ombudsperson" target="_blank"
-                                            style="color: #27467A;">Ombudsperson</a></td>
-                                    <td></td>
-                                </tr>
-
-
-                                <tr>
                                     <td class="mobile-para1"><a href="https://rgu.ac/governing-body" target="_blank"
                                             style="color: #27467A;">Governing Body</a></td>
                                     <td></td>
@@ -430,7 +423,7 @@
                                 <tr>
                                     <td class="mobile-para1"><a href="https://rgu.ac/grievance" target="_blank"
                                             style="color: #27467A;">Details of Student Grievance Redressal Committee
-                                            (SGRC) and Ombudsperson</a></td>
+                                            (SGRC)</a></td>
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1"><a href="https://rgu.ac/medical-facility" target="_blank"
