@@ -170,58 +170,51 @@
 
         <section class="rgu-mmlab-hero">
 
-            <img src="mobile-assets/new-labs/lab-multimedia/headimg.jpeg" class="rgu-mmlab-img">
+            <img src="/mobile-assets/new-labs/multi-media-lab/8.jpg" class="rgu-mmlab-img">
 
             <div class="rgu-mmlab-content">
 
-                <h2 class="rgu-mmlab-title">Multimedia Lab</h2>
+                <h2 class="text-dark">Multimedia Lab</h2>
 
                 <p class="rgu-mmlab-text">
-                    Multimedia Lab
-
-                    The Multimedia Lab of the Royal School of Communication and Media provides a dynamic platform for
-                    students to
-                    explore digital media, visual communication, and contemporary content creation practices. The lab
-                    focuses on
-                    integrating creativity with technology, enabling students to develop competencies in graphic design,
-                    animation, video production, and interactive media. With an emphasis on experiential learning and
-                    industry-oriented training, the lab fosters critical thinking, storytelling skills, and innovative
-                    problem-solving. The lab is situated in Block–C on the 7th floor Room No. 706.
+                    The Multimedia Lab at the Royal School of Communication and Media serves as a dynamic and innovative space where students engage with digital media, visual communication, and contemporary content creation practices. The lab is designed to seamlessly integrate creativity with technology, enabling students to develop essential skills in graphic design, animation, video production, and interactive media.
+                </p>
+                <p class="rgu-mmlab-text">
+                    With a strong emphasis on experiential learning and industry-oriented training, the lab nurtures critical thinking, storytelling abilities, and innovative problem-solving. It provides students with hands-on experience and prepares them to meet the evolving demands of the media and creative industries.
                 </p>
 
-                
+
 
             </div>
         </section>
 
         <div class="text-dark pt-4 pb-4" style="padding-left: 50px;">
-                    <h4>Available Software Programs:</h4>
+                    <h4>Lab Specifications:</h4>
                     <ol>
-                        <li>DaVinci</li>
-                        <li>Blackmagic Fusion</li>
-                        <li>Foundry Nuke (Student Version)</li>
-                        <li>OpenToonz</li>
-                        <li>Affinity</li>
-                        <li>Autodesk Maya</li>
-                        <li>Blender</li>
-                        <li>Unity (for interactive media and AR/VR development)</li>
+                        <li>Intel i7 Processor</li>
+                        <li>AMD Ryzen 5 7600X Processor</li>
+                        <li>AMD Ryzen 5 5600GT Processor</li>
+                        <li>Gigabyte B560M Motherboard</li>
+                        <li>16 GB RAM</li>
+                        <li>1 TB SSD</li>
+                        <li>NVIDIA GV-N105TD5 4GB Graphics Card</li>
+                        <li>Gigabyte B450M Motherboard</li>
                     </ol>
                 </div>
 
         <section class="rgu-mmlab-section">
 
-            <h3 class="rgu-mmlab-section-title">Some highlights and features of our multimedia Lab</h3>
+            <h3 class="rgu-mmlab-section-title">Key Highlights and Features</h3>
 
             <div class="rgu-mmlab-card">
                 <ol>
-                    <li>Development of visual communication and media production projects through practical assignments.
+                    <li>Development of visual communication and media production projects through practical, assignment-based learning.
                     </li>
-                    <li>Hands-on training in video editing, motion graphics, digital content creation, 2D animation and 3D
-                        animation.</li>
-                    <li>Exploration of animation principles, colour theory, and composition for media applications.</li>
-                    <li>Creation of multimedia content including short films, animations, and digital campaigns.</li>
-                    <li>Exposure to industry-standard tools, workflows, and production techniques.</li>
-                    <li>Encouragement of interdisciplinary projects combining communication, design, and technology.</li>
+                    <li>Hands-on training in video editing, motion graphics, digital content creation, filmmaking, visual effects, 2D animation, and 3D animation.</li>
+                    <li>Exploration of fundamental concepts such as animation principles, colour theory, and composition for media applications.</li>
+                    <li>Creation of diverse multimedia outputs, including short films, animations, and digital campaigns.</li>
+                    <li>Exposure to industry-standard tools, professional workflows, and production techniques.</li>
+                    <li>Encouragement of interdisciplinary projects that integrate communication, design, and technology.</li>
                     <li>Portfolio development through project-based learning and creative experimentation.</li>
                     <li>Emphasis on maintaining a disciplined, clean, and professionally managed lab environment.</li>
                 </ol>
@@ -236,10 +229,12 @@
             </h2>
 
             <div class="rgu-mmlab-grid">
-                <img src="mobile-assets/new-labs/lab-multimedia/1.jpeg">
-                <img src="mobile-assets/new-labs/lab-multimedia/2.jpeg">
-                <img src="mobile-assets/new-labs/lab-multimedia/3.jpeg">
-                <img src="mobile-assets/new-labs/lab-multimedia/4.jpeg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/1.jpg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/2.jpg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/4.jpg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/6.jpg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/7.jpg">
+                <img src="/mobile-assets/new-labs/multi-media-lab/8.jpg">
             </div>
 
         </section>
