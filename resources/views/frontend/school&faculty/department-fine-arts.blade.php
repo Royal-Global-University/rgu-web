@@ -177,7 +177,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsfa/updated-syllabus/BFA_Detailed_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSFA/BFA - Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BFA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -212,7 +212,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsfa/updated-syllabus/MFA_Detailed_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSFA/MFA - Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MFA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1688,7 +1688,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsfa/updated-syllabus/BFA_Detailed_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSFA/BFA - Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BFA
@@ -1728,7 +1728,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsfa/updated-syllabus/MFA_Detailed_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSFA/MFA - Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 MFA
