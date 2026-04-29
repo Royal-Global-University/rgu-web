@@ -205,7 +205,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/M.Sc_Geology_Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSEES/M.Sc Geology Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geology
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -980,7 +980,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/M.Sc_Geology_Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSEES/M.Sc Geology Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Geology

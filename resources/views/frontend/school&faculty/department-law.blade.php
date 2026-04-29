@@ -225,7 +225,7 @@
 
                                                     <a href="/mobile-assets/syllabus/RSLA/BA LL.B Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BA LLB
+                                                        <i class="fa fa-file-text px-2"></i> Details Syllabus -- BA LLB
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
@@ -1077,9 +1077,9 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsla/updated-syllabus/Course-structure_BBA-LLB.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLA/BA LL.B Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                <i class="fa fa-file-text px-2"></i> Details Syllabus
                                                                 -- BA LLB
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
@@ -1091,14 +1091,14 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsla/syllabus-pdf/ba-llb-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLA/LLB_Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 LLB
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsla/syllabus-pdf/bba-llb-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLA/BBA LL.B Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BBA LLB
@@ -1143,7 +1143,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsla/syllabus-pdf/llm-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSLA/LLM syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 LLM
