@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam', function () {
+    return view('frontend/media-corner/2026/news9');
+})->name('sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam');
+
 Route::get('/rgu-observes-national-public-relations-day', function () {
     return view('frontend/media-corner/2026/news8');
 })->name('rgu-observes-national-public-relations-day');

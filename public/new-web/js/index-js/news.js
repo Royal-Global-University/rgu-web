@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 29, 2026",
+            title: "Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam",
+            desc: "A significant symposium on the rich tradition of Charita literature in Assam was held today at The Assam Royal Global University (RGU), bringing together eminent scholars, academicians, and students for a day of insightful discussions. The event sparked meaningful dialogue and generated keen interest among young learners on the Charita Puthi—biographical narratives of Srimanta Sankardev, Sri Madhavdev, and other prominent figures of the Vaishnavite movement in Assam.",
+            img: "/mobile-assets/media-corner/2026/apr/1.jpeg",
+            link: "/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam",
+        },
+        {
             date: "Guwahati, April 22, 2026",
             title: "RGU observes National Public Relations Day",
             desc: "The Royal School of Communication and Media, in collaboration with the PRSI Guwahati Chapter, observed the National Public Relations Day on 21st April 2026 at the premises of the Assam Royal Global University. The topic of panel discussion was “Public Relations: The Emerging Fifth Pillar of Democracy”, which had expert panellists from diverse field.",

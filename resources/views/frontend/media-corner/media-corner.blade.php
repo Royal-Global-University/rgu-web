@@ -46,26 +46,29 @@
                 @php
                     $newsItems = [
                         [
-                            'title' =>
-                                'RGU observes National Public Relations Day',
+                            'title' => 'Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam',
+                            'summary' => 'Assam’s Unique Biographical Tradition Celebrated at RGU Symposium',
+                            'date' => 'Guwahati, April 29, 2026:',
+                            'link' => '/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam',
+                            'image' => '/mobile-assets/media-corner/2026/apr/1.jpeg',
+                            'content' => 'A significant symposium on the rich tradition of Charita literature in Assam was held today at The Assam Royal Global University (RGU), bringing together eminent scholars, academicians, and students for a day of insightful discussions. ',
+                        ],
+                        [
+                            'title' => 'RGU observes National Public Relations Day',
                             'summary' => '',
                             'date' => 'Guwahati, April 22, 2026:',
-                            'link' =>
-                                '/rgu-observes-national-public-relations-day',
+                            'link' => '/rgu-observes-national-public-relations-day',
                             'image' => '/mobile-assets/media-corner/2026/22-4.jpeg',
-                            'content' =>
-                                'The Royal School of Communication and Media, in
+                            'content' => 'The Royal School of Communication and Media, in
                 collaboration with the PRSI Guwahati Chapter, observed the National Public Relations Day on 21st April 2026
                 at the premises of the Assam Royal Global University. The topic of panel discussion was “Public Relations:
                 The Emerging Fifth Pillar of Democracy”, which had expert panellists from diverse field.',
                         ],
                         [
-                            'title' =>
-                                'MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya',
+                            'title' => 'MoU with RGU will benefit Wards of Meghalaya Police: DGP Meghalaya',
                             'summary' => 'Landmark MoU signed between Meghalaya Police & Royal Global University',
                             'date' => 'Guwahati, April 18, 2026:',
-                            'link' =>
-                                '/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya',
+                            'link' => '/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya',
                             'image' => '/mobile-assets/media-corner/2026/mou/m-1.jpeg',
                             'content' =>
                                 'Reinforcing its commitment to nation-building through education, The Assam Royal Global University (RGU) has signed a landmark Memorandum of Understanding (MoU) with the Meghalaya Police.',
