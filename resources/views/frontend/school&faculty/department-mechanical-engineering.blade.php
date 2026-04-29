@@ -213,131 +213,6 @@
             </div>
             <!-- syllabus  -->
 
-            <hr>
-
-            <!-- events and highlights  -->
-            <!-- <div class="container pb-4">
-
-            <div class="row" style="display: flex; justify-content: center;">
-              <div class="col-lg-12">
-                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                  Events
-                </h2>
-
-                <div style="max-width: 100%; position: relative;">
-                  <div style="border: 1px solid #ccc;">
-
-                    <div id="mobileEventScrollContainer"
-                      style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                      <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                        <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
-
-                           <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A;">
-                                      28-09-2023 | Dr. SubbaRao M Gavaravarapu (Scientist F & head, nutrition, communication
-                                      & health education, ICMR-NIN, Tarnaka, Hyderabad) | Invited talk.
-                                    </div>
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A;">
-                                      14-03-2024 | Dr. Dhruvajyoti Choudhury (Consultant nephrologist & renal transplant
-                                      physician, Apollo Hospitals, Guwahati) | Invited talk.
-                                    </div>
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A;">
-                                      08-04-2024 | Dr. Jesto George (Deputy director & central licensing authority, FSSAI,
-                                      Guwahati) | Invited talk.
-                                    </div>
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A;">
-                                      10-09-2024 | Ms. Dimi Ingtipi (Senior dietician, Department of Digestive Disease and
-                                      Clinical Nutrition, Dr. B Barooah Cancer Institute, Guwahati) | Invited talk.
-                                    </div>
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                        </tbody>
-
-                      </table>
-                    </div>
-
-                  </div>
-
-                  <div style="text-align: center; margin-top: 15px;">
-                    <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                      View All
-                    </a>
-                  </div>
-
-
-                </div>
-
-                <script>
-                  const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                  const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                  // Duplicate content for infinite scroll (mobile)
-                  mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                  let mobileEventScrollPos = 0;
-                  const mobileEventScrollSpeed = 0.2;
-
-                  function mobileEventScrollStep() {
-                    mobileEventScrollPos += mobileEventScrollSpeed;
-                    if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                      mobileEventScrollPos = 0;
-                    }
-                    mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                    requestAnimationFrame(mobileEventScrollStep);
-                  }
-
-                  mobileEventScrollStep();
-                </script>
-
-              </div>
-            </div>
-
 
           </div> -->
             <!-- events and highlights  -->
@@ -369,39 +244,40 @@
                                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                     <tr>
                                         <td>1</td>
-                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                        <td>Mr. Biswajit Choudhury, Assistant Professor</td>
+                                        <td>Member</td>
+                                        <td>Prof. Diganta Munshi, Registrar, Administration & Director, IQAC and i/c Dean, RSET and RSIT</td>
                                     </tr>
 
                                     <tr>
                                         <td>2</td>
                                         <td>
-                                            All Faculty members of the Department Members (Ex-Officio)
+                                            Co-ordinator (Ex-officio)
                                         </td>
                                         <td>
-                                            Mr. Zunaid Ahmed, Assistant Professor
-                                            <hr>
-                                            Mr. Ashok Talukdar, Assistant Professor
-                                            <hr>
-                                            Dr. Bishal Poddar, Assistant Professor
+                                            Dr. Bishal Podder, Assistant Professor
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>3</td>
-                                        <td>External Experts(Academic)</td>
+                                        <td>Members</td>
                                         <td>
-                                            Dr Bashab Jyoti Phukan, Associate Professor, Assam Engineering
-                                            College, Guwahati
+                                            Mr. Zunaid Ahmed
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>4</td>
-                                        <td>External Experts(Industry)</td>
+                                        <td>Members</td>
                                         <td>
-                                            Mr. Sanjeeb Barman, Senior Manager, Commercial, Numaligarh
-                                            Refinery Limited
+                                           Dr. Smrity Choudhury
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>External expert (Academic) nominated by Vice Chancellor</td>
+                                        <td>
+                                           Prof. Shyamantamoni Hazarika, HoD, Mechanical Engineering, IIT G.
                                         </td>
                                     </tr>
                                 </tbody>
@@ -436,38 +312,32 @@
                                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                     <tr>
                                         <td>1</td>
-                                        <td>Prof. (Dr.) Ankur Ganguly</td>
-                                        <td>Professor, Dean Academics and i/c Dean, RSET &amp; RSIT</td>
+                                        <td>Prof. (Dr) Diganta Munshi</td>
+                                        <td>Registrar, Administration & Director, IQAC and i/c Dean, RSET and RSIT</td>
                                         <td>Chairperson</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
                                         <td>Dr. Bishal Podder</td>
-                                        <td>Assistant Professor, Mechanical Engineering</td>
+                                        <td>Assistant Professor</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>Mr. Biswajit Choudhury</td>
-                                        <td>Assistant Professor, Mechanical Engineering</td>
-                                        <td>Member</td>
+                                        <td>Dr. Smrity Choudhury</td>
+                                        <td>Assistant Professor</td>
+                                        <td>Member Secretary</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>Mr. Ashok Talukdar</td>
-                                        <td>Assistant Professor, Mechanical Engineering</td>
+                                        <td>Prof.(Dr) Shyamanta M. Hazarika </td>
+                                        <td>Professor (IIT G)</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>Prof. (Dr.) Anuradha Devi</td>
-                                        <td>Professor, Dean, RSAPS</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Prof. (Dr.) Arnab Sarma</td>
-                                        <td>Professor, Civil Engineering, HoD</td>
+                                        <td>Prof. (Dr) Shwetambara Verma</td>
+                                        <td>Professor</td>
                                         <td>Member</td>
                                     </tr>
                                 </tbody>
@@ -1313,39 +1183,40 @@
                                                     style="background-color: #f9f9f9; text-align: start;">
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>Mr. Biswajit Choudhury, Assistant Professor</td>
+                                                        <td>Member</td>
+                                                        <td>Prof. Diganta Munshi, Registrar, Administration & Director, IQAC and i/c Dean, RSET and RSIT</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>2</td>
                                                         <td>
-                                                            All Faculty members of the Department Members (Ex-Officio)
+                                                            Co-ordinator (Ex-officio)
                                                         </td>
                                                         <td>
-                                                            Mr. Zunaid Ahmed, Assistant Professor
-                                                            <hr>
-                                                            Mr. Ashok Talukdar, Assistant Professor
-                                                            <hr>
-                                                            Dr. Bishal Poddar, Assistant Professor
+                                                            Dr. Bishal Podder, Assistant Professor
                                                         </td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>External Experts(Academic)</td>
+                                                        <td>Members</td>
                                                         <td>
-                                                            Dr Bashab Jyoti Phukan, Associate Professor, Assam Engineering
-                                                            College, Guwahati
+                                                            Mr. Zunaid Ahmed
                                                         </td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>External Experts(Industry)</td>
+                                                        <td>Members</td>
                                                         <td>
-                                                            Mr. Sanjeeb Barman, Senior Manager, Commercial, Numaligarh
-                                                            Refinery Limited
+                                                            Dr. Smrity Choudhury
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>External expert (Academic) nominated by Vice Chancellor</td>
+                                                        <td>
+                                                            Prof. Shyamantamoni Hazarika, HoD, Mechanical Engineering, IIT G.
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -1383,38 +1254,32 @@
                                                     style="background-color: #f9f9f9; text-align: start;">
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Prof. (Dr.) Ankur Ganguly</td>
-                                                        <td>Professor, Dean Academics and i/c Dean, RSET &amp; RSIT</td>
+                                                        <td>Prof. (Dr) Diganta Munshi</td>
+                                                        <td>Registrar, Administration & Director, IQAC and i/c Dean, RSET and RSIT</td>
                                                         <td>Chairperson</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>Dr. Bishal Podder</td>
-                                                        <td>Assistant Professor, Mechanical Engineering</td>
+                                                        <td>Assistant Professor</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>Mr. Biswajit Choudhury</td>
-                                                        <td>Assistant Professor, Mechanical Engineering</td>
-                                                        <td>Member</td>
+                                                        <td>Dr. Smrity Choudhury</td>
+                                                        <td>Assistant Professor</td>
+                                                        <td>Member Secretary</td>
                                                     </tr>
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>Mr. Ashok Talukdar</td>
-                                                        <td>Assistant Professor, Mechanical Engineering</td>
+                                                        <td>Prof.(Dr) Shyamanta M. Hazarika </td>
+                                                        <td>Professor (IIT G)</td>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
                                                         <td>5</td>
-                                                        <td>Prof. (Dr.) Anuradha Devi</td>
-                                                        <td>Professor, Dean, RSAPS</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Prof. (Dr.) Arnab Sarma</td>
-                                                        <td>Professor, Civil Engineering, HoD</td>
+                                                        <td>Prof. (Dr) Shwetambara Verma</td>
+                                                        <td>Professor</td>
                                                         <td>Member</td>
                                                     </tr>
                                                 </tbody>
