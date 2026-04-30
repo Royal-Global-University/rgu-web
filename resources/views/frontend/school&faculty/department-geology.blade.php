@@ -1,2378 +1,2023 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                    <span
-                        style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-geology-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-geology-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-geology-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-geology-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-geology-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-geology-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-geology-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-geology-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-geology-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-geology-content {
+            flex: 1;
+        }
+
+        .dept-geology-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-geology-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-geology-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-geology-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-geology-floating {
+            position: fixed;
+            left: 30px;
+            top: 58%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-geology-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-geology-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-geology-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-geology-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-geology-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-geology-float-item:hover .dept-geology-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-geology-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-geology-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-geology-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-geology-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-geology-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-geology-img img {
+                padding-left: 0%;
+            }
+
+            .dept-geology-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-geology-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-geology-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-geology-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-geology-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-geology-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-geology-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-geology-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-geology-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-geology-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-geology-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-geology-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-geology-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-geology-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-geology-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-geology-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-geology-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-geology-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-geology-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-geology-img img {
+                padding-left: 0%;
+            }
+
+            .dept-geology-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-geology-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-geology-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-geology-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-geology-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-geology-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-geology-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-geology-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-geology-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-geology-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-geology-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-geology-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-geology-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-geology-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-geology-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-geology-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-geology-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-geology-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-geology-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-geology-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-geology-accordion-item.active .dept-geology-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-geology-accordion-item.active .dept-geology-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-geology-accordion-item.active .dept-geology-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-geology-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-geology-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-geology-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-geology-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-geology-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-geology-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-geology-syllabus-link:hover .dept-geology-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-geology-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-geology-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-geology-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* LEFT ALIGN EVERYTHING */
+            text-align: left;
+        }
+
+        .dept-geology-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+
+        }
+
+        /* Intro Text */
+        .dept-geology-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 0vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-geology-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-geology-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 5 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-geology-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-geology-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-geology-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-geology-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-geology-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-geology-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-geology-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-geology-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-geology-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-geology-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-geology-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-geology-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 80s linear infinite;
+        }
+
+        .dept-geology-events-box:hover .dept-geology-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-geology-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-geology-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-geology-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-geology-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-geology-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-geology-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-geology-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-geology-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-geology-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-geology-table-acc.active .dept-geology-table-content {
+            padding: 20px;
+        }
+
+        .dept-geology-table-acc.active .dept-geology-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-geology-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-geology-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-geology-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-geology-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-geology-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-geology-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-geology-table td,
+        .dept-geology-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+        .dept-geology-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-geology-event-card {
+            max-width: 1300px;
+            margin: 0 auto 40px;
+        }
+
+        .dept-geology-event-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* MARQUEE BOX */
+        .dept-geology-marquee {
+            overflow: hidden;
+            border-radius: 12px;
+            /* background: #fff; */
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            /* border-top: 4px solid var(--accent); */
+        }
+
+        /* TRACK */
+        .dept-geology-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: marqueeScroll 80s linear infinite;
+        }
+
+        /* PAUSE ON HOVER */
+        .dept-geology-marquee:hover .dept-geology-marquee-track {
+            animation-play-state: paused;
+        }
+
+        /* IMAGE */
+        .dept-geology-marquee img {
+            height: 300px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* ANIMATION */
+        @keyframes marqueeScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .dept-geology-marquee img {
+                height: 160px;
+            }
+        }
+
+        /* ================= ACHIEVEMENT SECTION ================= */
+        .dept-geology-achievement-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Tabs */
+        .dept-geology-achievement-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .dept-achievement-tab {
+            padding: 12px 25px;
+            border-radius: 40px;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-achievement-tab:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .dept-achievement-tab.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Content Box */
+        .dept-geology-achievement-content {
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            padding: 20px;
+        }
+
+        /* Panes */
+        .dept-achievement-pane {
+            display: none;
+        }
+
+        .dept-achievement-pane.active {
+            display: block;
+        }
+
+        /* ================= RECOGNITION SECTION ================= */
+        .dept-geology-recognition-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-geology-recognition-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            background: #fff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* LEFT IMAGE */
+        .dept-geology-recognition-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .dept-geology-recognition-img img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: contain;
+        }
+
+        /* RIGHT CONTENT */
+        .dept-geology-recognition-content {
+            flex: 2;
+        }
+
+        .dept-geology-recognition-content p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        /* BUTTON */
+        .dept-geology-recognition-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-geology-recognition-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-geology-recognition-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 960px) {
+            .dept-geology-recognition-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+                padding: 30px 20px;
+            }
+
+            .dept-geology-recognition-content p {
+                text-align: center;
+            }
+
+            .dept-geology-recognition-btn {
+                justify-content: center;
+            }
+        }
+
+        .dept-geology-lab-list {
+            text-align: left;
+            /* ensures left alignment */
+            padding-left: 20px;
+            /* proper spacing for numbers */
+            margin-top: 10px;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .dept-geology-lab-list li {
+            margin-bottom: 8px;
+            line-height: 1.8;
+            /* fix readability */
+        }
+    </style>
+
+    <div class="dept-geology-floating">
+        <a href="#dept-home" class="dept-geology-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-geology-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-geology-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-geology-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-geology-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-geology-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-geology-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-geology-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-geology-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-geology-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-geology-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-geology-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-geology-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-geology-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-geology-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-geology-float-text">Lab</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-geology-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-geology-wrapper">
+
+        <div class="dept-geology-heading" id="dept-home">
+            <h1>Department of <span>Geology</span></h1>
+            <h2>Royal School of Environmental & Earth Sciences (RSEES)</h2>
+        </div>
+
+        <div class="dept-geology-hero" id="dept-about">
+
+            <div class="dept-geology-img">
+                <img src="/mobile-assets/zoology-1.jpeg" alt="Geology">
             </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="padding-top: 130px; position: relative;">
-                <img src="mobile-assets/department-all/rsses/geology/mob-top.png" alt="">
-            </section>
-            <!-- till about dept  -->
 
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+            <div class="dept-geology-content">
 
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                <h3>About <span>Department</span></h3>
 
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+                <p>
+                    The Department of Geology, established in October 2020, has rapidly emerged as a center of academic
+                    and research excellence. It offers B.Sc. (H) Geology aligned with the National Education Policy
+                    (NEP) 2020, along with M.Sc. Geology and PhD programs.
 
-                        <span style="font-size:18px;">M.Sc. - Geology</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
+                    The programs are periodically updated to meet industry standards and academic requirements, ensuring
+                    that students receive a comprehensive education that prepares them for successful careers. With a
+                    strong emphasis on hands-on learning and research, the department is equipped with well-developed
+                    laboratory facilities featuring a comprehensive collection of mineral, rock, and fossil specimens,
+                    crystal models, and geomorphic models.
+                </p>
 
 
-                    <a target="_blank" href="programs-MSc-Geology" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MSc-Geology">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">B.Sc. - Geology</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-
-                    <a target="_blank" href="programs-b-sc-geology" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-sc-geology">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
 
             </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_UG_Geology.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Geology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSEES/UG _Geography_Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_PG_Geology.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Geology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSEES/M.Sc Geology Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <hr>
-
-            <!-- events and highlights  -->
-            <!-- <div class="container pb-4">
-
-                <div class="row" style="display: flex; justify-content: center;">
-                  <div class="col-lg-12">
-                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                      Events
-                    </h2>
-
-                    <div style="max-width: 100%; position: relative;">
-                      <div style="border: 1px solid #ccc;">
-
-                        <div id="mobileEventScrollContainer"
-                          style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                          <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                            <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
-
-                               <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior professor, department of geography
-                                          and resource management, Mizoram University) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          15-05-2023 | Prof. D. K. Nayak (Professor, department of geography, North-East Hill
-                                          University) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          22-09-2023 | Prof. (Dr.) Sunando Bandhyopadhyay (Department of geography, University
-                                          of Calcutta) | Guest lecture.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          02-11-2023 | Dr. Hirak Ranjan Das (Deputy director, innovation incubation and
-                                          entrepreneurship, The Assam Royal Global University) | Guest lecture.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU, New Delhi) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          22-04-2024 | Prof. Sachidanand Sinha (Former chairperson, CSRD, JNU, New Delhi) |
-                                          Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          05-06-2024 | Prof. Kushal Kumar Baruah (Professor and dean of academic affairs,
-                                          Auniati University, Assam) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          08-06-2024 | Prof. Bindhy Wasini Pandey (Professor, department of geography, Delhi
-                                          School of Economics, University of Delhi) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          20-08-2024 | Sri Atul Chandrakant Kulkarni (Chairman, Amazing Namaste Foundation,
-                                          member, board of governor, IIM Shillong) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
-
-                            </tbody>
-
-                          </table>
-                        </div>
-
-                      </div>
-
-                      <div style="text-align: center; margin-top: 15px;">
-                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                          View All
-                        </a>
-                      </div>
-
-
-                    </div>
-
-                    <script>
-                        const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                        const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                        // Duplicate content for infinite scroll (mobile)
-                        mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                        let mobileEventScrollPos = 0;
-                        const mobileEventScrollSpeed = 0.2;
-
-                        function mobileEventScrollStep() {
-                            mobileEventScrollPos += mobileEventScrollSpeed;
-                            if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                mobileEventScrollPos = 0;
-                            }
-                            mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                            requestAnimationFrame(mobileEventScrollStep);
-                        }
-
-                        mobileEventScrollStep();
-                    </script>
-
-                  </div>
-                </div>
-
-
-              </div> -->
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in D-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                        <td>
-                                            Dr. Annesha Borah, Coordinator and Assistant Professor,
-                                            Department of Geography
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>2</td>
-                                        <td>
-                                            All Faculty members of the Department Members (Ex-Officio)
-                                        </td>
-                                        <td>
-                                            Prof. B S Mipun, Senior Professor, Department of Geography
-                                            <hr>
-                                            Dr. Saurav Kumar, Assistant Professor, Department of Geography
-                                            <hr>
-                                            Dr. Tushar Sarkar, Assistant Professor, Department of Geography
-                                            <hr>
-                                            Dr.Takhellabam Prameshwari Devi, Assistant Professor, Department
-                                            of Geography
-                                            <hr>
-                                            Dr. Trishna Changkakoti, Assistant Professor, Department of
-                                            Geography
-                                            <hr>
-                                            Ms. Jubilee Goswami, Assistant Professor, Department of
-                                            Geography
-                                            <hr>
-                                            Miss Deepanjali Reang, Assistant Professor, Department of
-                                            Geography
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts</td>
-                                        <td>
-                                            Prof. Bimal Kumar Kar, Professor, Department of Geography,
-                                            Gauhati University
-                                            <hr>
-                                            Prof. D K Nayak, Professor, Department of Geography, North
-                                            Eastern Hill University
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Head of the Department</td>
-                                        <td>Dr. Roshmi Boruah</td>
-                                        <td>Assistant Professor&amp; Coordinator</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">2.</td>
-                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                        <td>Prof. (Dr.) Hemangi Deka Sarma</td>
-                                        <td>Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) B.S. Mipun</td>
-                                        <td>Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>
-                                            Two Associate Professors – one of them will be the member
-                                            secretary
-                                        </td>
-                                        <td>Dr. Biswajit Sharma</td>
-                                        <td>Associate Professor, Department of Physics (RSAPS)</td>
-                                        <td>Member Secretary</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">4.</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>Dr. Abhijit Gogoi</td>
-                                        <td>Assistant Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Nishanta Sahariah</td>
-                                        <td>Assistant Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">5.</td>
-                                        <td rowspan="3" class="align-middle">
-                                            Three external members not below the rank of Professors,
-                                            including members from an allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. (Dr.) Amarendra Rajput</td>
-                                        <td>Professor, Department of Physics (RSAPS)</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) Parag Phukan</td>
-                                        <td>
-                                            Professor, Department of Geological Sciences, Gauhati
-                                            University
-                                        </td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) Santanu Sarma</td>
-                                        <td>Professor, Department of Geology, Cotton University</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <script>
-                const mobAccPairs = [{
-                        btn: 'mobAccBtn1',
-                        panel: 'mobAccPanel1'
-                    },
-                    {
-                        btn: 'mobAccBtn2',
-                        panel: 'mobAccPanel2'
-                    },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/"
-                    style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                    <span
-                        style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+        <div class="dept-geology-prospects-section" id="dept-vision">
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+            <div class="dept-geology-prospects-content">
+                <p class="dept-geology-intro-text">
+                    The Department of Geology focuses on a diverse range of research areas, leveraging the expertise of
+                    its faculty, which includes one Professor and seven Assistant Professors. Key research domains
+                    include Geomorphology, Earth and Climate Studies, Ore Geology and Mineral Exploration, Sedimentology
+                    and Stratigraphy, Volcanology and Petrology, Palaeomagnetism, and Palaeogeography.
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+                    These research efforts ensure that the department remains at the forefront of geological sciences,
+                    contributing valuable insights and advancements to the field. Moreover, the department nurtures
+                    talent and celebrates student achievements, fostering a vibrant academic community. Notable
+                    accomplishments include success in national entrance examinations, achievements in debates and
+                    competitions, and active participation in cultural events.
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+                    This blend of academic excellence, research innovation, and student engagement establishes the
+                    Department of Geology as a premier destination for geological studies and research in the region.
+                </p>
+
+
+
             </div>
-            <!-- floating button  -->
-            <section>
-
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
-
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
-
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
-
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
-
-                    <!-- Events -->
-                    <!-- <a href="#events" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                      Highlights</span>
-                  </a> -->
-
-                    <!-- Academic Excellence -->
-                    <!-- <a href="#academic-excellence" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                      Excellence</span>
-                  </a> -->
-
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
-
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
-
-                </div>
-                <!-- floating buttons  -->
-
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-
-                        <img src="mobile-assets/department-all/rsses/geology/web-top.png" alt="">
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">M.Sc. - Geology</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
+        </div>
 
 
-                            <a target="_blank" href="programs-MSc-Geology" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <!-- vision mission  -->
+        <div class="dept-geology-prospects-section" id="dept-vision">
+            <h2 class="dept-geology-section-title">Vision <span>& Mission</span></h2>
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MSc-Geology">View Details</a>
-                                    </span>
+            <div class="dept-geology-prospects-content">
+
+                <h3 class="dept-geology-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-geology-bullet-list">
+                    <li>
+                        To be a leading center of geological excellence, providing globally integrated educational
+                        opportunities that empower students to become adept geoscientists, contributing to sustainable
+                        development and environmental stewardship on a national and international scale.
+                    </li>
+
+                </ul>
+
+                <h3 class="dept-geology-subheading">Our Mission</h3>
+                <ul class="dept-geology-bullet-list">
+                    <li>
+                        To achieve academic excellence by delivering research-intensive programmes and integrating
+                        industry-oriented education to prepare students for successful careers in evolving geological
+                        and environmental sectors.
+                    </li>
+                    <li>
+                        To incorporate community service initiatives to instill ethical conduct, social responsibility,
+                        and compassion among our students, faculty, and staff, creating geologists who are not only
+                        technically proficient but also socially conscious.
+                    </li>
+                    <li>
+                        To give back responsible geologists who are not only academically proficient but also
+                        compassionate and ethical leaders, dedicated to making positive contributions to society and
+                        actively participating in the global community.
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="dept-geology-courses-section" id="dept-courses">
+            <h2 class="dept-geology-section-title">Courses <span>Offered</span></h2>
+
+            <div class="dept-geology-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-geology-prospects-section" id="dept-prospects">
+          <h2 class="dept-geology-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-geology-prospects-content">
+            <p class="dept-geology-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-geology-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-geology-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Government Sector Jobs</h3>
+            <ol class="dept-geology-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Private Sector Careers</h3>
+            <ol class="dept-geology-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Research & Teaching</h3>
+            <ol class="dept-geology-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-geology-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Jobs Abroad</h3>
+            <ol class="dept-geology-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-geology-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-geology-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-geology-accordion-section" id="dept-syllabus">
+            <h2 class="dept-geology-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-geology-accordion-wrapper">
+
+                <div class="dept-geology-accordion-item active">
+                    <div class="dept-geology-accordion-header">
+                        <div class="dept-geology-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-geology-chevron"></i>
+                    </div>
+
+                    <div class="dept-geology-accordion-content">
+                        <div class="dept-geology-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_UG_Geology.pdf"
+                                class="dept-geology-syllabus-link" download>
+                                <div class="dept-geology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- Geology
                                 </div>
+                                <i class="fa-solid fa-download dept-geology-download-icon"></i>
                             </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px; padding-right: 20px;">B.sc. - Geology</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-sc-geology" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-sc-geology">View Details</a>
-                                    </span>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/B.Sc_Geology_Syllabus.pdf"
+                                class="dept-geology-syllabus-link" download>
+                                <div class="dept-geology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- Geology
                                 </div>
+                                <i class="fa-solid fa-download dept-geology-download-icon"></i>
                             </a>
-                        </div>
-
-
-                    </div>
-
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_UG_Geology.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Geology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/B.Sc_Geology_Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Geology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-university me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_PG_Geology.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Geology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSEES/M.Sc Geology Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Geology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
-                </section>
-
-                <hr>
-
-                <section id="events">
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <!-- event 1  -->
-                                <div class="container mt-2">
-
-
-                                    <section style="background-color: #fff4e3; padding-bottom: 30px;">
-
-                                        <div style="margin-top: 10px;" class="endless-scroll-container">
-
-                                            <div class="scroll-track-wrapper" style="padding-top: 0px;">
-
-                                                <div class="scroll-content-images unique-set-alpha">
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/1.jpg"
-                                                            alt="Image 1" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/2.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/3.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/4.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/5.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/6.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/7.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/8.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/9.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/10.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/11.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/12.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/13.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/14.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/15.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/16.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="scroll-content-images unique-set-beta">
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/1.jpg"
-                                                            alt="Image 1" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/2.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/3.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/4.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/5.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/6.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/7.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/8.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/9.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/10.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/11.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/12.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/13.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/14.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/15.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-                                                    <div class="slider-image-frame">
-                                                        <img src="mobile-assets/department-all/rsses/geology/events/16.jpg"
-                                                            alt="Image 2" class="scroller-image"
-                                                            onclick="openLightbox(this.src)">
-                                                    </div>
-
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-                                        <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                                            <span class="close-btn">&times;</span>
-
-                                            <div class="lightbox-controls">
-                                                <button id="zoom-in" title="Zoom In">+</button>
-                                                <button id="zoom-out" title="Zoom Out">-</button>
-                                            </div>
-
-                                            <img class="lightbox-content" id="lightbox-img" src=""
-                                                alt="">
-                                        </div>
-
-                                        <style>
-                                            /*
-    * 1. Setup the main container and animation logic (Identical to list version)
-    */
-                                            .endless-scroll-container {
-                                                margin: auto;
-                                                width: 97%;
-                                                overflow: hidden;
-                                                padding: 10px 0;
-                                                border-bottom: 2px solid #EF991F;
-                                            }
-
-                                            .scroll-track-wrapper {
-                                                display: flex;
-                                                width: fit-content;
-                                                animation: scroll-movement 120s linear infinite;
-                                            }
-
-                                            .scroll-track-wrapper:hover {
-                                                animation-play-state: paused;
-                                            }
-
-                                            /*
-    * 2. Style the Image Frames and Images
-    */
-                                            .scroll-content-images {
-                                                display: flex;
-                                            }
-
-                                            /* --- THIS IS THE MODIFIED RULE --- */
-                                            .slider-image-frame {
-                                                width: 600px;
-                                                /* <-- CHANGED from 150px */
-                                                margin-right: 20px;
-                                                flex-shrink: 0;
-                                                overflow: hidden;
-                                                border: 1px solid #d1d1d1;
-                                                border-radius: 8px;
-                                                /* <-- CHANGED from 50px */
-                                                background-color: #fff;
-                                            }
-
-                                            /* --- END OF MODIFIED RULE --- */
-
-                                            .scroller-image {
-                                                width: 100%;
-                                                height: 100%;
-                                                object-fit: cover;
-                                                display: block;
-                                                cursor: pointer;
-                                                transition: opacity 0.3s;
-                                            }
-
-                                            /* Lightbox Styles */
-                                            .lightbox {
-                                                display: none;
-                                                position: fixed;
-                                                z-index: 1000;
-                                                left: 0;
-                                                top: 0;
-                                                width: 100%;
-                                                height: 100%;
-                                                background-color: rgba(222, 222, 222, 0.942);
-                                                overflow: hidden;
-                                                /* Changed from auto to hidden to prevent scrollbars */
-                                            }
-
-                                            .lightbox-content {
-                                                margin: auto;
-                                                display: block;
-                                                position: absolute;
-                                                top: 50%;
-                                                left: 50%;
-                                                transform: translate(-50%, -50%) scale(1);
-                                                /* Initial state */
-                                                max-width: 90%;
-                                                max-height: 90%;
-                                                width: auto;
-                                                height: auto;
-                                                object-fit: contain;
-                                                animation-name: zoom;
-                                                animation-duration: 0.6s;
-                                                cursor: grab;
-                                                /* NEW: Indicate it's grabbable */
-                                                transition: transform 0.2s ease-out;
-                                                /* NEW: Smooth transitions for zoom/pan */
-                                            }
-
-                                            .close-btn {
-                                                position: absolute;
-                                                top: 20px;
-                                                right: 35px;
-                                                color: #fff;
-                                                font-size: 40px;
-                                                font-weight: bold;
-                                                transition: 0.3s;
-                                                cursor: pointer;
-                                                z-index: 1002;
-                                                /* Ensure it's on top of controls */
-                                            }
-
-                                            .close-btn:hover,
-                                            .close-btn:focus {
-                                                color: #bbb;
-                                                text-decoration: none;
-                                                cursor: pointer;
-                                            }
-
-                                            /* NEW: Styles for Zoom Controls */
-                                            .lightbox-controls {
-                                                position: absolute;
-                                                top: 25px;
-                                                right: 90px;
-                                                /* Position next to the close button */
-                                                z-index: 1001;
-                                                display: flex;
-                                                gap: 10px;
-                                            }
-
-                                            .lightbox-controls button {
-                                                background-color: rgba(30, 30, 30, 0.7);
-                                                border: 1px solid #fff;
-                                                color: #fff;
-                                                font-size: 24px;
-                                                font-weight: bold;
-                                                width: 40px;
-                                                height: 40px;
-                                                cursor: pointer;
-                                                border-radius: 5px;
-                                                transition: background-color 0.3s;
-                                                line-height: 1;
-                                            }
-
-                                            .lightbox-controls button:hover {
-                                                background-color: rgba(0, 0, 0, 0.9);
-                                            }
-
-
-                                            @keyframes zoom {
-                                                from {
-                                                    transform: translate(-50%, -50%) scale(0.1);
-                                                }
-
-                                                to {
-                                                    transform: translate(-50%, -50%) scale(1);
-                                                }
-                                            }
-
-                                            /*
-    * 3. Define the Keyframes for the Movement
-    */
-                                            @keyframes scroll-movement {
-                                                from {
-                                                    transform: translateX(0%);
-                                                }
-
-                                                to {
-                                                    transform: translateX(-50%);
-                                                }
-                                            }
-                                        </style>
-
-                                        <script>
-                                            document.addEventListener('DOMContentLoaded', () => {
-                                                const setAlpha = document.querySelector('.unique-set-alpha');
-                                                const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                                                if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                                                    const setBeta = setAlpha.cloneNode(true);
-                                                    setBeta.classList.remove('unique-set-alpha');
-                                                    setBeta.classList.add('unique-set-beta');
-                                                    trackWrapper.appendChild(setBeta);
-                                                    console.log('Image slider duplicated successfully for infinite loop.');
-                                                }
-                                            });
-
-                                            // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
-
-                                            const lightbox = document.getElementById('lightbox');
-                                            const lightboxImg = document.getElementById('lightbox-img');
-                                            const zoomInBtn = document.getElementById('zoom-in');
-                                            const zoomOutBtn = document.getElementById('zoom-out');
-
-                                            // State variables
-                                            let scale = 1;
-                                            let isDragging = false;
-                                            let start = {
-                                                x: 0,
-                                                y: 0
-                                            };
-                                            let pan = {
-                                                x: 0,
-                                                y: 0
-                                            };
-
-                                            // Function to apply the current transform to the image
-                                            function updateImageTransform() {
-                                                // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                                                lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                                            }
-
-                                            function openLightbox(src) {
-                                                // Reset state every time a new image is opened
-                                                scale = 1;
-                                                isDragging = false;
-                                                pan = {
-                                                    x: 0,
-                                                    y: 0
-                                                };
-                                                updateImageTransform(); // Apply initial transform
-
-                                                lightbox.style.display = 'block';
-                                                lightboxImg.src = src;
-                                            }
-
-                                            function closeLightbox(event) {
-                                                if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                                                    lightbox.style.display = 'none';
-                                                }
-                                            }
-
-                                            // --- Event Listeners for Zoom and Pan ---
-
-                                            zoomInBtn.addEventListener('click', (e) => {
-                                                e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                                scale += 0.2;
-                                                updateImageTransform();
-                                            });
-
-                                            zoomOutBtn.addEventListener('click', (e) => {
-                                                e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                                if (scale > 1) {
-                                                    scale -= 0.2;
-                                                    if (scale < 1) {
-                                                        scale = 1;
-                                                    }
-                                                }
-                                                // If we zoom all the way out, reset the pan to center the image
-                                                if (scale === 1) {
-                                                    pan = {
-                                                        x: 0,
-                                                        y: 0
-                                                    };
-                                                }
-                                                updateImageTransform();
-                                            });
-
-                                            lightboxImg.addEventListener('mousedown', (e) => {
-                                                // Panning only works if the image is zoomed in
-                                                if (scale > 1) {
-                                                    e.preventDefault();
-                                                    isDragging = true;
-                                                    // Record starting point relative to current pan position
-                                                    start = {
-                                                        x: e.clientX - pan.x,
-                                                        y: e.clientY - pan.y
-                                                    };
-                                                    lightboxImg.style.cursor = 'grabbing';
-                                                }
-                                            });
-
-                                            // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                                            window.addEventListener('mousemove', (e) => {
-                                                if (isDragging) {
-                                                    e.preventDefault();
-                                                    pan = {
-                                                        x: e.clientX - start.x,
-                                                        y: e.clientY - start.y
-                                                    };
-                                                    updateImageTransform();
-                                                }
-                                            });
-
-                                            window.addEventListener('mouseup', (e) => {
-                                                if (isDragging) {
-                                                    isDragging = false;
-                                                    lightboxImg.style.cursor = 'grab';
-                                                }
-                                            });
-                                        </script>
-
-                                    </section>
-
-                                    <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #243B95;">
-                                        International Conference on
-                                        "Critical and
-                                        Energy Minerals in North East India - Potentials and Possibilities!"
-                                    </h2>
-
-                                    <p class="text-dark mobile-para1 mt-3" style="text-align: justify;">
-                                        Organised by the Department of Geology in joint collaboration with the SECONE
-                                        Society, the event was
-                                        a massive success, marked by incredible energy and innovation. We were honoured to
-                                        host 200
-                                        delegates and participants, featuring insightful discussions from 11 distinguished
-                                        keynote speakers
-                                        (including 1 international expert), and showcasing 31 cutting-edge presentations.
-                                    </p>
-
-
-                                </div>
-                                <!-- event 1  -->
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9;">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior
-                                                                    professor, department of geography
-                                                                    and resource management, Mizoram University) | Invited
-                                                                    talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    15-05-2023 | Prof. D. K. Nayak (Professor, department of
-                                                                    geography, North-East Hill
-                                                                    University) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    22-09-2023 | Prof. (Dr.) Sunando Bandhyopadhyay
-                                                                    (Department of geography, University
-                                                                    of Calcutta) | Guest lecture.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    02-11-2023 | Dr. Hirak Ranjan Das (Deputy director,
-                                                                    innovation incubation and
-                                                                    entrepreneurship, The Assam Royal Global University) |
-                                                                    Guest lecture.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU, New
-                                                                    Delhi) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    22-04-2024 | Prof. Sachidanand Sinha (Former
-                                                                    chairperson, CSRD, JNU, New Delhi) |
-                                                                    Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    05-06-2024 | Prof. Kushal Kumar Baruah (Professor and
-                                                                    dean of academic affairs,
-                                                                    Auniati University, Assam) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    08-06-2024 | Prof. Bindhy Wasini Pandey (Professor,
-                                                                    department of geography, Delhi
-                                                                    School of Economics, University of Delhi) | Invited
-                                                                    talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    20-08-2024 | Sri Atul Chandrakant Kulkarni (Chairman,
-                                                                    Amazing Namaste Foundation,
-                                                                    member, board of governor, IIM Shillong) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events"
-                                            style="display: inline-block; padding: 10px 28px;
-              background: linear-gradient(135deg, #243B95, #151B5B);
-              color: #fff; font-weight: 600; font-size: 16px;
-              border-radius: 25px; text-decoration: none;
-              box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-              transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
-
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
-
-                    <div class="row">
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track = document.querySelector('.carousel-track');
-                            const cards = Array.from(track.children);
-
-                            cards.forEach(card => {
-                                track.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl = document.querySelector('.carousel');
-                            const styles = getComputedStyle(carouselEl);
-                            const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                            const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                            const totalCards = track.children.length;
-                            const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                            track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                            const speed = 80;
-                            const duration = halfTrackWidth / speed;
-                            track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
-
-                      </div>
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track2 = document.querySelector('.carousel-track2');
-                            const cards2 = Array.from(track2.children);
-
-                            cards2.forEach(card => {
-                                track2.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl2 = document.querySelector('.carousel2');
-                            const styles2 = getComputedStyle(carouselEl2);
-                            const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                            const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                            const totalCards2 = track2.children.length;
-                            const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                            track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                            const speed2 = 80;
-                            const duration2 = halfTrackWidth2 / speed2;
-                            track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section> -->
-
-                <div id="bos" class="container pb-5 pt-3">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>
-                                                            Dr. Annesha Borah, Coordinator and Assistant Professor,
-                                                            Department of Geography
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>
-                                                            All Faculty members of the Department Members (Ex-Officio)
-                                                        </td>
-                                                        <td>
-                                                            Prof. B S Mipun, Senior Professor, Department of Geography
-                                                            <hr>
-                                                            Dr. Saurav Kumar, Assistant Professor, Department of Geography
-                                                            <hr>
-                                                            Dr. Tushar Sarkar, Assistant Professor, Department of Geography
-                                                            <hr>
-                                                            Dr.Takhellabam Prameshwari Devi, Assistant Professor, Department
-                                                            of Geography
-                                                            <hr>
-                                                            Dr. Trishna Changkakoti, Assistant Professor, Department of
-                                                            Geography
-                                                            <hr>
-                                                            Ms. Jubilee Goswami, Assistant Professor, Department of
-                                                            Geography
-                                                            <hr>
-                                                            Miss Deepanjali Reang, Assistant Professor, Department of
-                                                            Geography
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Experts</td>
-                                                        <td>
-                                                            Prof. Bimal Kumar Kar, Professor, Department of Geography,
-                                                            Gauhati University
-                                                            <hr>
-                                                            Prof. D K Nayak, Professor, Department of Geography, North
-                                                            Eastern Hill University
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Dr. Roshmi Boruah</td>
-                                                        <td>Assistant Professor&amp; Coordinator</td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">2.</td>
-                                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                                        <td>Prof. (Dr.) Hemangi Deka Sarma</td>
-                                                        <td>Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. (Dr.) B.S. Mipun</td>
-                                                        <td>Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3.</td>
-                                                        <td>
-                                                            Two Associate Professors – one of them will be the member
-                                                            secretary
-                                                        </td>
-                                                        <td>Dr. Biswajit Sharma</td>
-                                                        <td>Associate Professor, Department of Physics (RSAPS)</td>
-                                                        <td>Member Secretary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">4.</td>
-                                                        <td rowspan="2" class="align-middle">
-                                                            Two Assistant Professors holding Ph.D. degree
-                                                        </td>
-                                                        <td>Dr. Abhijit Gogoi</td>
-                                                        <td>Assistant Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Nishanta Sahariah</td>
-                                                        <td>Assistant Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">5.</td>
-                                                        <td rowspan="3" class="align-middle">
-                                                            Three external members not below the rank of Professors,
-                                                            including members from an allied department, who will be
-                                                            nominated by the URC
-                                                        </td>
-                                                        <td>Prof. (Dr.) Amarendra Rajput</td>
-                                                        <td>Professor, Department of Physics (RSAPS)</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. (Dr.) Parag Phukan</td>
-                                                        <td>
-                                                            Professor, Department of Geological Sciences, Gauhati
-                                                            University
-                                                        </td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. (Dr.) Santanu Sarma</td>
-                                                        <td>Professor, Department of Geology, Cotton University</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-                        const accPairs = [{
-                                btn: 'accBtn1',
-                                panel: 'accPanel1'
-                            },
-                            {
-                                btn: 'accBtn2',
-                                panel: 'accPanel2'
-                            }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function() {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function(e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
-
                 </div>
 
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function() {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function() {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
+                <div class="dept-geology-accordion-item">
+                    <div class="dept-geology-accordion-header">
+                        <div class="dept-geology-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-geology-chevron"></i>
+                    </div>
 
-            </section>
+                    <div class="dept-geology-accordion-content">
+                        <div class="dept-geology-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_PG_Geology.pdf"
+                                class="dept-geology-syllabus-link" download>
+                                <div class="dept-geology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- Geology
+                                </div>
+                                <i class="fa-solid fa-download dept-geology-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/RSEES/M.Sc%20Geology%20Syllabus.pdf"
+                                class="dept-geology-syllabus-link" download>
+                                <div class="dept-geology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- Geology
+                                </div>
+                                <i class="fa-solid fa-download dept-geology-download-icon"></i>
+                            </a>
 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="dept-geology-accordion-item">
+                    <div class="dept-geology-accordion-header">
+                        <div class="dept-geology-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-geology-chevron"></i>
+                    </div>
+
+                    <div class="dept-geology-accordion-content">
+                        <div class="dept-geology-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-geology-syllabus-link" download>
+                                <div class="dept-geology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="dept-geology-events-section" id="dept-events">
+
+            <h2 class="dept-geology-section-title">Events</h2>
+
+            <div class="dept-geology-events-box">
+                <div class="dept-geology-events-track" id="events-track"></div>
+            </div>
+
+            <!-- <div style="text-align:center; margin-top:30px;">
+            <a href="#" class="dept-geology-events-btn">View All</a>
+          </div> -->
+
+        </div>
+
+
+
+        <!-- <div class="dept-geology-event-gallery-section">
+
+          <h2 class="dept-geology-section-title">Event <span>Highlights</span></h2>
+
+          <div id="event-gallery-container"></div>
+
+        </div> -->
+
+        <div class="dept-geology-table-section" id="dept-committee">
+
+            <div class="dept-geology-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+        <div class="dept-geology-prospects-section" id="dept-lab">
+            <h2 class="dept-geology-section-title">Our <span>Lab</span></h2>
+
+            <div class="dept-geology-prospects-content">
+
+                <h3 class="dept-geology-lab-heading">Geology Laboratory</h3>
+
+                <p class="dept-geology-lab-intro">
+
+                    Our Geology laboratory is professional and purpose-built, consisting of two specialized sections:
+                    the Geological Sample Lab and the Petrography Lab. The labs are well-equipped with a diverse
+                    collection of crystal models, mineral, rock, and fossil specimens alongside modern analytical tools,
+                    such as Petrological Polarizing Microscopes, to help students explore the Earth's composition and
+                    history through hands-on study. It is designed to aid and guide students in identifying physical
+                    properties and microscopic characteristics, analyzing structural features, and drawing geological
+                    inferences while experimenting.
+                </p>
+
+
+
+                <h3 class="dept-geology-subheading" style="margin-top: 2;">Lab Instruments Includes</h3>
+                <ul class="dept-geology-bullet-list">
+                    <li>
+                        Polarizing (Petrological) Microscope
+                    </li>
+                    <li>
+                        Compensator
+                    </li>
+                    <li>
+                        Goniometer
+                    </li>
+                    <li>
+                        Opisometer
+                    </li>
+                    <li>
+                        Brunton Compass
+                    </li>
+                    <li>
+                        Clinometer
+                    </li>
+
+                </ul>
+
+
+                <h3 class="dept-geology-subheading" style="margin-top: 2;">Included activities in the lab:</h3>
+                <ul class="dept-geology-bullet-list">
+                    <li>
+                        Crystallographic analysis and symmetry identification using wooden crystal models
+                    </li>
+                    <li>
+                        Petrographic characterization of rocks (Megascopic & Microscopic)
+                    </li>
+                    <li>
+                        Hands-on recognition of rock-forming and ore-forming minerals, and their economic assessment
+                    </li>
+                    <li>
+                        Geological map interpretation and subsurface structural cross-section profiling, Stereonet
+                        analysis for structural orientation and tectonic data interpretation
+                    </li>
+                    <li>
+                        Palaeontological documentation of fossil morphology
+                        Fluvial morphometry, sinuosity analysis, and drainage density calculations
+                    </li>
+                    <li>
+                        Geospatial and Remote Sensing applications in terrain analysis
+                        Support for dissertation, project work, and research-based training in Geology
+                    </li>
+
+                </ul>
+
+
+
+
+
+                <h2 class="dept-geology-section-title">Our Lab Equipments</h2>
+
+                <div class="dept-geology-lab-gallery">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/1.jpg" alt="Lab 1"
+                        class="dept-geology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/2.jpg" alt="Lab 2"
+                        class="dept-geology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/3.jpg" alt="Lab 3"
+                        class="dept-geology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/4.jpg" alt="Lab 4"
+                        class="dept-geology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/5.jpg" alt="Lab 5"
+                        class="dept-geology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/6.jpg" alt="Lab 6"
+                        class="dept-geology-lab-img">
+                </div>
+
+
+
+
+
+
+            </div>
         </div>
 
     </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M.Sc. - Geology",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MSc-Geology"
+            },
+            {
+                title: "B.sc. - Geology | Honours / Honours with Research",
+                duration: "4 Years",
+                link: "https://www.rgu.ac/programs-b-sc-geology"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-geology-course-card">
+
+          <div class="dept-geology-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-geology-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-geology-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-geology-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-geology-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-geology-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-geology-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior Professor, Department of Geography and Resource Management, Mizoram University) | Invited talk.",
+
+            "15-05-2023 | Prof. D. K. Nayak (Professor, Department of Geography, North-East Hill University) | Invited talk.",
+
+            "22-09-2023 | Prof. (Dr.) Sunando Bandyopadhyay (Department of Geography, University of Calcutta) | Guest lecture.",
+
+            "02-11-2023 | Dr. Hirak Ranjan Das (Deputy Director, Innovation Incubation and Entrepreneurship, The Assam Royal Global University) | Guest lecture.",
+
+            "21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU, New Delhi) | Invited talk.",
+
+            "22-04-2024 | Prof. Sachidanand Sinha (Former Chairperson, CSRD, JNU, New Delhi) | Invited talk.",
+
+            "05-06-2024 | Prof. Kushal Kumar Baruah (Professor and Dean of Academic Affairs, Auniati University, Assam) | Invited talk.",
+
+            "08-06-2024 | Prof. Bindhy Wasini Pandey (Professor, Department of Geography, Delhi School of Economics, University of Delhi) | Invited talk.",
+
+            "20-08-2024 | Sri Atul Chandrakant Kulkarni (Chairman, Amazing Namaste Foundation; Member, Board of Governors, IIM Shillong) | Invited talk."
+        ];
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-geology-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position in D-BoS", "Name And Designation"],
+                rows: [
+                    ["1", "Convener (Ex-Officio)- Head of the Department",
+                        "Dr. Roshmi Boruah, Assistant Professor and Coordinator, Dept. of Geology"
+                    ],
+
+                    ["2", "All Faculty members of the Department Members (Ex-Officio)",
+                        "Prof. Hemangi Deka Sharma, Professor, Dept. of Geology"
+                    ],
+                    ["3", "", "Mr. Rajdeep Deb, Assistant Professor, Dept. of Geology"],
+                    ["4", "", "Mr. Amarjyoti Borah, Assistant Professor, Dept. of Geology"],
+                    ["5", "", "Dr. Neeta Moni Sharma, Assistant Professor, Dept. of Geology"],
+                    ["6", "", "Dr. Abhijit Gogoi, Assistant Professor, Dept. of Geology"],
+                    ["7", "", "Dr. Nishanta Sahariah, Assistant Professor, Dept. of Geology"],
+                    ["8", "", "Dr. Pritom Borah, Assistant Professor, Dept. of Geology"],
+                    ["9", "External Academic Expert (Subject Expert)",
+                        "Dr. Jayanta Jivan Laskar, Professor, Dept. of Geological Sciences, Gauhati University "
+                    ],
+                    ["10", "", "Dr. Santanu Sharma, Professor, Dept. of Geology, Cotton University"],
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name of the Member", "Assistant Professor and Coordinator",
+                    "Designation in the Committee"
+                ],
+                rows: [
+                    ["1", "Head of the Department", "Dr. Roshmi Boruah", "Assistant Professor and Coordinator",
+                        "Chairperson"
+                    ],
+
+                    ["2", "Professors, including the Dean of the School", "Prof. (Dr.) Hemangi Deka Sarma",
+                        "Professor", "Member"
+                    ],
+
+                    ["3", "", "Prof. (Dr.) Debendra Kumar Nayak",
+                        "Professor and Dean, Royal School of Environmental and Earth Sciences", "Member"
+                    ],
+
+                    ["4", "Two Assistant Professors", "Dr. Abhijit Gogoi", "Assistant Professor", "Member"],
+
+                    ["5", "", "Dr. Pritom Borah", "Assistant Professor", "Member"],
+                    ["6", "One External Member from outside the University nominated by URC",
+                        "Prof. (Dr.) Parag Phukon",
+                        "Professor, Department of Geological Sciences, Gauhati University", "External Member"
+                    ],
+
+
+
+                ]
+            },
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-geology-table-responsive">
+          <table class="dept-geology-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-geology-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-geology-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-geology-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-geology-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-geology-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-geology-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-geology-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
+            }
+        ];
+
+        const galleryContainer = document.getElementById("event-gallery-container");
+
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
+      <div class="dept-geology-event-card">
+
+        <div class="dept-geology-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-geology-marquee">
+          <div class="dept-geology-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+            }).join("");
+        }
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+    </script>
 @endsection
