@@ -50,11 +50,10 @@
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The Civil Engineering Lab at our university covers a wide range of cement, rock,
-                                            soil, marble, tiles, asphalt and other construction materials. The lab is
-                                            equipped with the latest engineering instruments which are extensively used by
-                                            students to design, analyse and simulate physical and environmental systems. The
-                                            laboratory is in Block- C on the ground floor.
+                                            The Department of Civil Engineering is equipped with adequate, wellmaintained laboratory that support effective teaching–learning processes, research activities, and skill development in alignment with programme outcomes and university objectives.
+                                        </p>
+                                        <p class="text-dark para1" style="text-align: justify;">
+                                            The Civil Engineering laboratories cater to a wide spectrum of experimental work related to cement, concrete, rocks, soils, aggregates, asphalt and other construction materials. The facilities are furnished with modern, functional, and calibrated equipment to conduct experiments as per relevant Indian and international standards, ensuring accuracy, reliability, and quality compliance.
                                         </p>
 
 
@@ -66,6 +65,15 @@
                     </div>
                 </div>
             </section>
+            <p class="text-dark para1 pt-5" style="padding-left: 20px; padding-right: 20px; text-align: justify;">
+                The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses, mini projects, major projects, researchoriented activities. These facilities enable students to design, analyse, test, and simulate structural, material, geotechnical, fluid mechanics and environmental systems, thereby strengthening practical competence, analytical ability, and problemsolving skills.
+            </p>
+            <p class="text-dark para1" style="padding-left: 20px; padding-right: 20px; text-align: justify;">
+                The laboratories are supported by qualified and experienced faculty and  technical staff who assist in the conduct of experiments, preparation of laboratory setups, equipment handling, and implementation of safety procedures. The department follows a systematic approach for equipment inventory management, calibration, preventive maintenance, and periodic upgradation, ensuring continuous availability and effective utilisation of resources.
+            </p>
+            <p class="text-dark para1" style="padding-left: 20px; padding-right: 20px; text-align: justify;">
+                Appropriate safety measures, housekeeping practices, and waste management procedures are implemented to provide a safe, clean, and conducive learning environment. Overall, the laboratory and infrastructure facilities of the Department of Civil Engineering effectively support academic delivery, research, skill development, and continuous improvement.
+            </p>
 
 
             <h2 style="color: #0056b3 !important;"

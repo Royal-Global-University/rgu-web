@@ -1095,7 +1095,7 @@
         <div class="dept-civil-hero" id="dept-about">
 
             <div class="dept-civil-img">
-                <img src="https://www.rgu.ac/mobile-assets/lab-engineering/headimg.png" alt="Architecture">
+                <img src="/mobile-assets/civil.jpeg" alt="Architecture">
             </div>
 
             <div class="dept-civil-content">
@@ -1103,18 +1103,7 @@
                 <h3>About <span>Department</span></h3>
 
                 <p>
-                    The Department of Civil Engineering is equipped with adequate, well maintained laboratory that support
-                    effective teaching–learning processes, research activities, and skill development in alignment with
-                    programme
-                    outcomes and university objectives.
-                    <br><br>
-                    The Civil Engineering laboratories cater to a wide spectrum of experimental work related to cement,
-                    concrete,
-                    rocks, soils, aggregates, asphalt and other construction materials. The facilities are furnished with
-                    modern,
-                    functional, and calibrated equipment to conduct experiments as per relevant Indian and international
-                    standards, ensuring accuracy, reliability, and quality compliance.
-
+                    Civil engineering forms the backbone of modern society by enabling the planning, design, construction, and maintenance of critical infrastructure, including transportation systems, buildings, water resources, and environmental facilities. Recognizing its pivotal role in sustainable development and nation building, the Department of Civil Engineering at The Assam Royal Global University is committed to producing competent, ethical, and industry-ready professionals capable of addressing contemporary societal and infrastructural challenges.
                 </p>
 
 
@@ -1122,6 +1111,20 @@
             </div>
 
         </div>
+        <p>
+            Established in 2009, the department has evolved into a dynamic and forward-looking academic unit emphasizing theoretical rigor, practical competence, and industry relevance. The Department offers a four-year B.Tech program in Civil Engineering, two-year M.Tech programs in Structural Engineering and Water Resource Development and Management, and a doctoral program in Civil Engineering.
+        </p>
+        <p>
+
+The curriculum is periodically updated in line with Outcome-Based Education (OBE) principles and aligned with contemporary industry and societal needs. It integrates emerging and interdisciplinary areas such as sustainable and green construction, smart and resilient infrastructure, environmental engineering, geospatial technologies, and modern surveying practices.
+        </p>
+        <p>
+                                Supported by a dedicated faculty of 10 experienced members with strong academic, research, and industry backgrounds, the department ensures effective teaching–learning processes, personalized mentoring, and comprehensive academic and career guidance.
+The program emphasizes experiential and outcome-based learning through laboratory experiments, field visits, design and analysis projects, internships, expert lectures, and sustained industry interactions. Students engage in projects across diverse domains, including sustainable and low-carbon concrete materials, water quality assessment of rivers in Assam, bamboo-based construction materials in collaboration with CSIR–NEIST, and geotechnical investigations including soil characterization and pile foundation design for high-rise structures in seismic-prone areas.
+        </p>
+        <p>
+            Students also gain industrial exposure through internships at reputed organizations such as Star Cement, Public Works Department (Government of Assam), IIT Guwahati, UltraTech Cement, and Ready-Mix Concrete (RMC) plants. These initiatives equip graduates with strong technical competence, problem-solving skills, ethical awareness, teamwork abilities, and a professional outlook, preparing them for successful careers in industry, public sector organizations, consultancy, entrepreneurship, or higher studies and research.
+        </p>
 
         <!-- vision mission  -->
         <div class="dept-civil-prospects-section" id="dept-vision">
