@@ -300,11 +300,7 @@
                         <p class="mobile-para1 text-dark">
 
                         <p class="text-dark">
-                            10+2 or equivalent from a recognized Board/Council with Mathematics/ Computer Science /
-                            Information
-                            Technology as one of the compulsory subjects, with minimum 45% marks or equivalent grade (5%
-                            relaxation to
-                            SC/ST/OBC – Non-Creamy Layer)
+                            10+2 or equivalent from a recognized Board/Council  with minimum 45% marks or equivalent grade provided the candidate in his qualifying exam has studied in the English medium (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
                         </p>
 
                         <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
@@ -312,7 +308,7 @@
                         </h2>
 
                         <p class="text-dark">
-                            Based on overall performance in last examination followed by Personal Interview.
+                            Based on fulfillment of eligibility criteria.
                         </p>
 
                         <!-- <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">OR</h2>
