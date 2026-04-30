@@ -1,3425 +1,1876 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                    <span
-                        style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #556b8d;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-physics-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-physics-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-physics-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-physics-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-physics-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-physics-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-physics-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-physics-img img {
+            width: 80%;
+            padding-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-physics-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-physics-content {
+            flex: 1;
+        }
+
+        .dept-physics-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-physics-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-physics-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+            text-align: justify;
+        }
+
+        .dept-physics-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-physics-floating {
+            position: fixed;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-physics-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-physics-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-physics-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-physics-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-physics-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-physics-float-item:hover .dept-physics-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-physics-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-physics-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-physics-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-physics-wrapper {
+                padding-bottom: 160px;
+            }
+
+            .dept-physics-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-physics-img img {
+                padding-left: 0%;
+            }
+
+            .dept-physics-floating {
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-physics-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-physics-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-physics-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-physics-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-physics-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-physics-admission-btn {
+                bottom: 95px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 85%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-physics-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-physics-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-physics-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-physics-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-physics-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-physics-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-physics-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-physics-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-physics-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-physics-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-physics-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-physics-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-physics-img img {
+                padding-left: 0%;
+            }
+
+            .dept-physics-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-physics-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-physics-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-physics-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-physics-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-physics-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-physics-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-physics-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-physics-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-physics-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-physics-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-physics-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-physics-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-physics-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-physics-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-physics-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-physics-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-physics-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-physics-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-physics-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-physics-accordion-item.active .dept-physics-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-physics-accordion-item.active .dept-physics-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-physics-accordion-item.active .dept-physics-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-physics-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-physics-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-physics-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-physics-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-physics-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-physics-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-physics-syllabus-link:hover .dept-physics-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-physics-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-physics-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-physics-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-physics-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-physics-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-physics-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-physics-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-physics-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-physics-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-physics-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-physics-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-physics-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-physics-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-physics-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-physics-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-physics-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-physics-events-section {
+            /* margin-top: 3vw; */
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-physics-events-box {
+            max-width: 1300px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-physics-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 100s linear infinite;
+        }
+
+        .dept-physics-events-box:hover .dept-physics-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-physics-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-physics-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-physics-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-physics-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-physics-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-physics-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-physics-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-physics-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-physics-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-physics-table-acc.active .dept-physics-table-content {
+            padding: 20px;
+        }
+
+        .dept-physics-table-acc.active .dept-physics-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-physics-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-physics-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-physics-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-physics-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-physics-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-physics-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-physics-table td,
+        .dept-physics-table th {
+            white-space: nowrap;
+        }
+
+        /* ===== EVENTS + HIGHLIGHTS LAYOUT (REWRITTEN) ===== */
+
+        .dept-physics-events-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 3vw;
+            align-items: stretch;
+        }
+
+        /* LEFT EVENTS */
+        .dept-physics-events-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* RIGHT HIGHLIGHTS */
+        .dept-physics-highlights-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ================= CAROUSEL ================= */
+
+        .dept-physics-carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 14px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* FORCE LANDSCAPE */
+        .dp-track {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 100%;
+        }
+
+        .dp-slide {
+            min-width: 100%;
+            aspect-ratio: 16 / 9;
+            /* 🔥 KEY FIX */
+            position: relative;
+        }
+
+        /* IMAGE */
+        .dp-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ================= BUTTONS ================= */
+
+        .dp-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(44, 74, 122, 0.75);
+            color: #fff;
+            border: none;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 2;
+            transition: 0.3s;
+        }
+
+        .dp-btn.prev {
+            left: 12px;
+        }
+
+        .dp-btn.next {
+            right: 12px;
+        }
+
+        .dp-btn:hover {
+            background: var(--accent);
+        }
+
+        .dp-btn.hidden {
+            display: none;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .dept-physics-events-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .dept-physics-carousel {
+                border-radius: 10px;
+            }
+
+            .dp-slide {
+                aspect-ratio: 16 / 9;
+                /* 🔥 stays landscape ALWAYS */
+            }
+
+            .dp-btn {
+                width: 36px;
+                height: 36px;
+                font-size: 14px;
+            }
+
+        }
+
+        .dept-physics-explore-btn {
+            text-decoration: none !important;
+        }
+    </style>
+
+    <div class="dept-physics-floating">
+        <a href="#dept-home" class="dept-physics-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-physics-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-physics-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-physics-float-text">About</span>
+        </a>
+
+        <!-- <a href="#dept-vision" class="dept-physics-float-item">
+          <i class="fa fa-bullseye"></i>
+          <span class="dept-physics-float-text">Vision & Mission</span>
+        </a> -->
+
+        <a href="#dept-courses" class="dept-physics-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-physics-float-text">Courses</span>
+        </a>
+
+        <!-- <a href="#dept-prospects" class="dept-physics-float-item">
+          <i class="fa fa-file-text"></i>
+          <span class="dept-physics-float-text">Prospects</span>
+        </a> -->
+
+        <a href="#dept-syllabus" class="dept-physics-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-physics-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-physics-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-physics-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-physics-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-physics-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-physics-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-physics-float-text">Lab</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-physics-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-physics-wrapper">
+
+        <div class="dept-physics-heading" id="dept-home">
+            <h1>Department of <span>Physics</span></h1>
+            <h2>Royal School of Applied and Pure Sciences (RSAPS)</h2>
+        </div>
+
+        <div class="dept-physics-hero" id="dept-about">
+
+            <div class="dept-physics-img">
+                <img src="mobile-assets/rsaps-new-dept/physics/head-img.png" alt="Architecture">
             </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px; position: relative;">
 
-                <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Physics</span>
-                </h1>
+            <div class="dept-physics-content">
+
+                <h3>About <span>Department</span></h3>
+
+                <p>
+                    The Department of Physics gained momentum with full-fledged UG and PG courses in 2017. The department
+                    offers
+                    Ph.D. programs with a total of 8 full-time faculties. The department is graced with experienced
+                    professors and
+                    one advisor. All the faculty members are Ph.D. holders with many research papers in reputed journals,
+                    and a
+                    dedicated laboratory in-charge to help the students individually during the laboratory period. Fully
+                    dedicated
+                    faculties from 9:00 am to 5:15 pm and all the laboratories are well equipped with all the necessary
+                    instruments with four laboratories, including one dark room and one research lab with remedial and
+                    guidance
+                    classes for different competitive examinations from time to time.
+                </p>
 
-                <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-                    Applied and Pure Sciences (RSAPS)
-                </h2>
 
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-
-                            <div class="txaa-slide-down-1">
-                                <div style=" height: 400px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async"
-                                        src="mobile-assets/department-all/dept-physics/head-img.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-
-                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Department of Physics gained momentum with full-fledged UG and PG courses in 2017. The
-                                department
-                                offers Ph.D. programs with a total of 8 full-time faculties. The department is graced with
-                                experienced
-                                professors and one advisor. All the faculty members are Ph.D. holders with many research
-                                papers in
-                                reputed journals, and a dedicated laboratory in-charge to help the students individually
-                                during the
-                                laboratory period. Fully dedicated faculties from 9:00 am to 5:15 pm and all the
-                                laboratories are well
-                                equipped with all the necessary instruments with four laboratories, including one dark room
-                                and one
-                                research lab with remedial and guidance classes for different competitive examinations from
-                                time to
-                                time.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="pt-3">
-
-                    <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
-                        <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                    </h1>
-
-                    <img src="mobile-assets/department-all/dept-physics/vision-mission-mob.png" alt="">
-                </div>
-
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size: 16px;">M.Sc. - Physics</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MSc-Physics" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MSc-Physics">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size: 16px; padding-right: 10px; line-height: 1.3;">B.Sc. - Physics</span> |
-                        <span
-                            style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">Honours
-                            / Honours with Research
-                        </span>
-
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-sc-physics" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years as per
-                                NEP</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-sc-physics">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapseOne"
-                                                aria-expanded="false" aria-controls="mobileCollapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingOne" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#mobileCollapseTwo" aria-expanded="false"
-                                                aria-controls="mobileCollapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingTwo" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
-                                                        target="_blank"
-                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -
-                                                        Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
-                                                        target="_blank"
-                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#mobileCollapseThree" aria-expanded="false"
-                                                aria-controls="mobileCollapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingThree" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="doctoral-programme-mobile" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <!-- mobile events  -->
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 12th February 2018, the event "Student Interaction" was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 27th July 2018, the "Student Development Program" was
-                                                            conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 12th September 2018, the "Freshers’ Social Programme" was
-                                                            organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 26th September 2018, a "Visit to Tetelia School" took place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 12th October 2018, a field trip to "North Eastern Space
-                                                            Applications Centre
-                                                            (NESAC)" was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 15th and 16th November 2018, the "Science Conclave" was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 18th January 2019, the "Re Orientation Programme" was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2019, the "National Science Day Celebration"
-                                                            was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 29th April 2019, a "Parents teacher interaction" session took
-                                                            place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 15th March 2019, an invited talk was delivered by Dr.
-                                                            Gauranga Dhar Baruah.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 6th August 2019, a "Student Development Programme" was
-                                                            conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 18th–19th November 2019, an educational field trip to the
-                                                            "Centre of Plasma
-                                                            Physics" was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 14th February 2020, an educational trip to the Regional
-                                                            Science Museum, Guwahati
-                                                            was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2020, the "National Science Day Celebration"
-                                                            was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 13th March 2020, an interactive session with Priyanka Das
-                                                            Rajkakati took place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 3rd March 2021, the "National Science Day Celebration" was
-                                                            held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 6th March 2021, a field trip to Umium was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 15th March 2021, a Parents Teachers Interaction session took
-                                                            place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 1st and 2nd June 2021, the International Conference (Virtual)
-                                                            on Emerging Areas in
-                                                            Science &amp; Technology (EAST 2021) was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 25th November 2021, an interactive session with Dr. Debashish
-                                                            Borah, Department of
-                                                            Physics, IIT Guwahati was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 2nd December 2021, the PG 1st Semester Orientation Programme
-                                                            was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 15th December 2021, a field trip to the Bureau of Indian
-                                                            Standards (BIS)
-                                                            Laboratory, Guwahati was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2022, the "National Science Day" was
-                                                            celebrated.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 23rd April 2022, a field trip to the 7th Indian Industrial
-                                                            Fair, UDYAM 2022,
-                                                            Khanapara was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th April 2022, an interactive session with an ex-student
-                                                            was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            From 27th to 29th April 2022, an Interschool Volleyball
-                                                            Tournament was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 1st June 2022, an interactive session with Dr. Angaraj Duara,
-                                                            Researcher at the
-                                                            Space Research Center, University of Leicester, UK, took place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 16th August 2022, a Reorientation Program for the existing
-                                                            students was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 30th August 2022, an interactive session was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            From 9th to 13th September 2022, the Orientation Programme (PG)
-                                                            was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 31st October 2022, an interactive session was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 3rd December 2022, a field trip was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 17th December 2022, another field trip was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2023, the "National Science Day Celebration"
-                                                            was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2023, the departmental magazine was launched.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 2nd March 2023, a Talk-cum-Interactive Session was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            From 15th to 18th March 2023, a Cricket Tournament was
-                                                            organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 24th March 2023, an Outreach Program was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 6th and 7th December 2023, an Online Lecture Series was
-                                                            organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 10th September 2024, an Outreach Program was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 16th September 2024, a Career Guidance Program was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 26th September 2024, a Badminton Tournament was organized in
-                                                            collaboration with
-                                                            Arya Vidyapeeth College, Guwahati.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th October 2024, a Webinar on Simulation Technique with
-                                                            Python Coding was
-                                                            delivered by Dr. Subir Sarkar.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 29th October 2024, an Invited Talk by Dr. Angaraj Duara was
-                                                            held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 21st February 2025, a field visit to the Center of Plasma
-                                                            Physics – Institute for
-                                                            Plasma Research (CPP-IPR), Guwahati was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 24th February 2025, an invited talk by Dr. Hemen Kumar Kalita
-                                                            was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th February 2025, the "National Science Day Celebration"
-                                                            was held.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 19th March 2025, an invited talk by Dr. Namrata Gogoi took
-                                                            place.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 28th March 2025, an invited talk by Prof. Bipin Kumar Gupta
-                                                            was organized.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-                                                            On 14th May 2025, a one-day seminar on the Centenary Anniversary
-                                                            of Quantum Mechanics
-                                                            was conducted.
-                                                        </div>
-
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events"
-                                    style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-                <!-- mobile events  -->
 
             </div>
-            <!-- events and highlights  -->
-
 
         </div>
 
-        <div class="website">
+        <!-- vision mission  -->
+        <div class="dept-physics-prospects-section" id="dept-vision">
+            <h2 class="dept-physics-section-title">Vision <span>& Mission</span></h2>
 
-            <section>
-                <!--Start Header-->
-                @include('frontend/components/aheader')
-                <!--End Header-->
-                <!-- floating button  -->
-                <div>
-                    <a href="https://admissions.rgu.ac/"
-                        style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                        <span
-                            style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                        Admission Open - Apply Now
-                    </a>
-                    <style>
-                        @keyframes pulse {
-                            0% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
+            <div class="dept-physics-prospects-content">
 
-                            50% {
-                                transform: scale(1.05);
-                                box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                            }
+                <h3 class="dept-physics-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-physics-bullet-list">
+                    <li>
+                        To empower students with the skills and knowledge needed to excel in regional, national, and
+                        international
+                        arenas to create valued citizens of society.
+                    </li>
 
-                            100% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-                        }
+                </ul>
 
-                        @keyframes shine {
-                            0% {
-                                left: -75%;
-                            }
+                <h3 class="dept-physics-subheading">Our Mission</h3>
+                <ul class="dept-physics-bullet-list">
+                    <li>To provide excellent education through an innovative-designed curriculum having intensive research
+                        with
+                        industry relevance.</li>
+                    <li>Promote a sense of responsibility and integrity via community service, aligning students with the
+                        ethical
+                        dimensions of physics in society.</li>
+                    <li>To build responsible citizens in society for a better world.</li>
+                </ul>
 
-                            100% {
-                                left: 125%;
-                            }
-                        }
-                    </style>
-                </div>
-                <!-- floating button  -->
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
+            </div>
+        </div>
 
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
+        <div class="dept-physics-courses-section" id="dept-courses">
+            <h2 class="dept-physics-section-title">Courses <span>Offered</span></h2>
 
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
+            <div class="dept-physics-course-list" id="course-list-container">
+            </div>
+        </div>
 
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
+        <!-- <div class="dept-physics-prospects-section" id="dept-prospects">
+          <h2 class="dept-physics-section-title">Career <span>Prospects</span></h2>
 
-                    <!-- Events -->
-                    <a href="#events" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                            Highlights</span>
-                    </a>
+          <div class="dept-physics-prospects-content">
+            <p class="dept-physics-intro-text">
+              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-                    <!-- Academic Excellence -->
-                    <a href="#academic-excellence" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                            Excellence</span>
-                    </a>
+            <h3 class="dept-physics-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-physics-list">
+              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
+            <h3 class="dept-physics-subheading">Government Sector Jobs</h3>
+            <ol class="dept-physics-list">
+              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
+            <h3 class="dept-physics-subheading">Private Sector Careers</h3>
+            <ol class="dept-physics-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
+            <h3 class="dept-physics-subheading">Research & Teaching</h3>
+            <ol class="dept-physics-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
+            <h3 class="dept-physics-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-physics-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-                </div>
-                <!-- floating buttons  -->
+            <h3 class="dept-physics-subheading">Jobs Abroad</h3>
+            <ol class="dept-physics-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
 
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-                        <div class="p-5">
-                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Physics</span>
-                            </h1>
+            <h3 class="dept-physics-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-physics-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+              <li>Language skills and report writing</li>
+            </ol>
 
-                            <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                                Applied and Pure Sciences (RSAPS)
-                            </h2>
+          </div>
+        </div> -->
+
+        <div class="dept-physics-accordion-section" id="dept-syllabus">
+            <h2 class="dept-physics-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-physics-accordion-wrapper">
+
+                <div class="dept-physics-accordion-item active">
+                    <div class="dept-physics-accordion-header">
+                        <div class="dept-physics-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
                         </div>
+                        <i class="fa-solid fa-chevron-down dept-physics-chevron"></i>
+                    </div>
 
-                        <div class="container p-4">
-                            <div class="row align-items-center gx-5">
-
-                                <div class="col-lg-6 text-center">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div>
-                                            <img class="rounded w-60" decoding="async"
-                                                src="mobile-assets/department-all/dept-physics/head-img.png"
-                                                alt="">
-                                        </div>
-                                    </div>
+                    <div class="dept-physics-accordion-content">
+                        <div class="dept-physics-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
+                                class="dept-physics-syllabus-link" download>
+                                <div class="dept-physics-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- Physics
                                 </div>
-
-                                <div class="col-lg-6">
-
-                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                                    <p class="mobile-para1 pt-3"
-                                        style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Department of Physics gained momentum with full-fledged UG and PG courses in
-                                        2017. The
-                                        department offers Ph.D. programs with a total of 8 full-time faculties. The
-                                        department is graced
-                                        with experienced professors and one advisor. All the faculty members are Ph.D.
-                                        holders with many
-                                        research papers in reputed journals, and a dedicated laboratory in-charge to help
-                                        the students
-                                        individually during the laboratory period. Fully dedicated faculties from 9:00 am to
-                                        5:15 pm and all
-                                        the laboratories are well equipped with all the necessary instruments with four
-                                        laboratories,
-                                        including one dark room and one research lab with remedial and guidance classes for
-                                        different
-                                        competitive examinations from time to time.
-                                    </p>
-
+                                <i class="fa-solid fa-download dept-physics-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
+                                class="dept-physics-syllabus-link" download>
+                                <div class="dept-physics-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- Physics
                                 </div>
-
-                            </div>
-                        </div>
-
-
-                        <div style="background-color: #fff;">
-                            <div class="p-5">
-                                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the
-                                        Department</span>
-                                </h1>
-
-                                <img class="w-100" src="mobile-assets/department-all/dept-physics/vision-mission.png"
-                                    alt="">
-                            </div>
-                        </div>
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">M.Sc. - Physics</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MSc-Physics" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        2 years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MSc-Physics">View Details</a>
-                                    </span>
-                                </div>
+                                <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
                         </div>
+                    </div>
+                </div>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+                <div class="dept-physics-accordion-item">
+                    <div class="dept-physics-accordion-header">
+                        <div class="dept-physics-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-physics-chevron"></i>
+                    </div>
 
-                                <span style="font-size:22px; padding-right: 20px;">B.Sc. - Physics</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-sc-physics" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4 years as per
-                                        NEP</span>
-                                    <span>
-                                        <a class="para1 fw-bold" target="_blank"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-sc-physics">View Details</a>
-                                    </span>
+                    <div class="dept-physics-accordion-content">
+                        <div class="dept-physics-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
+                                class="dept-physics-syllabus-link" download>
+                                <div class="dept-physics-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- Physics
                                 </div>
+                                <i class="fa-solid fa-download dept-physics-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
+                                class="dept-physics-syllabus-link" download>
+                                <div class="dept-physics-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- Physics
+                                </div>
+                                <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
                         </div>
+                    </div>
+                </div>
+
+                <div class="dept-physics-accordion-item">
+                    <div class="dept-physics-accordion-header">
+                        <div class="dept-physics-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-physics-chevron"></i>
+                    </div>
+
+                    <div class="dept-physics-accordion-content">
+                        <div class="dept-physics-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-physics-syllabus-link" download>
+                                <div class="dept-physics-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dept-physics-events-wrapper" id="dept-events">
+
+            <!-- LEFT: EVENTS -->
+            <div class="dept-physics-events-section">
+                <h2 class="dept-physics-section-title">Events</h2>
+
+                <div class="dept-physics-events-box">
+                    <div class="dept-physics-events-track" id="events-track"></div>
+                </div>
+            </div>
+
+            <!-- RIGHT: HIGHLIGHTS -->
+            <div class="dept-physics-highlights-section">
+
+                <h2 class="dept-physics-section-title">Departmental <span>Highlights</span></h2>
+
+                <div class="dept-physics-carousel">
+
+                    <div class="dp-track" id="dpTrack">
+
+                        <!-- ADD IMAGES HERE -->
+                        <div class="dp-slide">
+                            <img
+                                src="https://www.rgu.ac/mobile-assets/department-all/dept-physics/highlights/achievement1.png" />
+                        </div>
+
+
 
                     </div>
 
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                - Physics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -
-                                                                Physics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-university me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
-                                                                target="_blank"
-                                                                style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                - Physics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
-                                                                target="_blank"
-                                                                style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -
-                                                                Physics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="doctoral-programme" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section id="events">
-
-                    <div class="container pb-4">
-
-                        <!-- events  -->
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-6">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9; ">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 12th February 2018, the event "Student Interaction"
-                                                                    was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 27th July 2018, the "Student Development Program" was
-                                                                    conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 12th September 2018, the "Freshers’ Social Programme"
-                                                                    was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 26th September 2018, a "Visit to Tetelia School" took
-                                                                    place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 12th October 2018, a field trip to "North Eastern
-                                                                    Space Applications Centre
-                                                                    (NESAC)" was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 15th and 16th November 2018, the "Science Conclave"
-                                                                    was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 18th January 2019, the "Re Orientation Programme" was
-                                                                    held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2019, the "National Science Day
-                                                                    Celebration" was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 29th April 2019, a "Parents teacher interaction"
-                                                                    session took place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 15th March 2019, an invited talk was delivered by Dr.
-                                                                    Gauranga Dhar Baruah.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 6th August 2019, a "Student Development Programme"
-                                                                    was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 18th–19th November 2019, an educational field trip to
-                                                                    the "Centre of Plasma
-                                                                    Physics" was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 14th February 2020, an educational trip to the
-                                                                    Regional Science Museum, Guwahati
-                                                                    was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2020, the "National Science Day
-                                                                    Celebration" was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 13th March 2020, an interactive session with Priyanka
-                                                                    Das Rajkakati took place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 3rd March 2021, the "National Science Day
-                                                                    Celebration" was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 6th March 2021, a field trip to Umium was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 15th March 2021, a Parents Teachers Interaction
-                                                                    session took place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 1st and 2nd June 2021, the International Conference
-                                                                    (Virtual) on Emerging Areas in
-                                                                    Science &amp; Technology (EAST 2021) was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 25th November 2021, an interactive session with Dr.
-                                                                    Debashish Borah, Department of
-                                                                    Physics, IIT Guwahati was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 2nd December 2021, the PG 1st Semester Orientation
-                                                                    Programme was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 15th December 2021, a field trip to the Bureau of
-                                                                    Indian Standards (BIS)
-                                                                    Laboratory, Guwahati was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2022, the "National Science Day" was
-                                                                    celebrated.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 23rd April 2022, a field trip to the 7th Indian
-                                                                    Industrial Fair, UDYAM 2022,
-                                                                    Khanapara was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th April 2022, an interactive session with an
-                                                                    ex-student was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    From 27th to 29th April 2022, an Interschool Volleyball
-                                                                    Tournament was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 1st June 2022, an interactive session with Dr.
-                                                                    Angaraj Duara, Researcher at the
-                                                                    Space Research Center, University of Leicester, UK, took
-                                                                    place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 16th August 2022, a Reorientation Program for the
-                                                                    existing students was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 30th August 2022, an interactive session was
-                                                                    conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    From 9th to 13th September 2022, the Orientation
-                                                                    Programme (PG) was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 31st October 2022, an interactive session was
-                                                                    organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 3rd December 2022, a field trip was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 17th December 2022, another field trip was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2023, the "National Science Day
-                                                                    Celebration" was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2023, the departmental magazine was
-                                                                    launched.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 2nd March 2023, a Talk-cum-Interactive Session was
-                                                                    conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    From 15th to 18th March 2023, a Cricket Tournament was
-                                                                    organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 24th March 2023, an Outreach Program was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 6th and 7th December 2023, an Online Lecture Series
-                                                                    was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 10th September 2024, an Outreach Program was
-                                                                    organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 16th September 2024, a Career Guidance Program was
-                                                                    conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 26th September 2024, a Badminton Tournament was
-                                                                    organized in collaboration with
-                                                                    Arya Vidyapeeth College, Guwahati.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th October 2024, a Webinar on Simulation Technique
-                                                                    with Python Coding was
-                                                                    delivered by Dr. Subir Sarkar.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 29th October 2024, an Invited Talk by Dr. Angaraj
-                                                                    Duara was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 21st February 2025, a field visit to the Center of
-                                                                    Plasma Physics – Institute for
-                                                                    Plasma Research (CPP-IPR), Guwahati was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 24th February 2025, an invited talk by Dr. Hemen
-                                                                    Kumar Kalita was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th February 2025, the "National Science Day
-                                                                    Celebration" was held.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 19th March 2025, an invited talk by Dr. Namrata Gogoi
-                                                                    took place.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 28th March 2025, an invited talk by Prof. Bipin Kumar
-                                                                    Gupta was organized.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-                                                                    On 14th May 2025, a one-day seminar on the Centenary
-                                                                    Anniversary of Quantum Mechanics
-                                                                    was conducted.
-                                                                </div>
-
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    // Duplicate content for infinite scroll
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-
-                            </div>
-
-                            <div class="col-lg-6">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Departmental <span style="color: #FF9A1E; font-weight: 500;">Highlights</span></h2>
-
-                                <!-- Carousel with Popup Image -->
-
-                                <div id="customCarouselDeptPA" class="carousel slide unique-carousel-deptpa"
-                                    data-bs-ride="carousel" data-bs-interval="2000"
-                                    style="max-width:100%; margin:auto;">
-
-                                    <!-- Indicators -->
-                                    <div class="carousel-indicators" style="bottom:5px;">
-                                        <button type="button" data-bs-target="#customCarouselDeptPA"
-                                            data-bs-slide-to="0" class="active" aria-current="true"
-                                            aria-label="Slide 1"
-                                            style="width:12px;height:12px;border-radius:50%;"></button>
-
-                                    </div>
-
-                                    <!-- Slides -->
-                                    <div class="carousel-inner" style="overflow:hidden;">
-                                        <div class="carousel-item active">
-                                            <img src="mobile-assets/department-all/dept-physics/highlights/achievement1.png"
-                                                class="d-block w-100" alt="Slide 1"
-                                                style="max-height:500px; object-fit:cover;">
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Controls -->
-                                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#customCarouselDeptPA"
-                                data-bs-slide="prev" style="width:5%;">
-                                <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#customCarouselDeptPA"
-                                data-bs-slide="next" style="width:5%;">
-                                <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button> -->
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <!-- events  -->
-
-                    </div>
-
-                </section>
-
-                <!-- event 1  -->
-                <div class="container mt-2">
-
-                    <h3 class="mobile-headd2 fw-bold text-left mt-3" style="color: #243B95;">
-                        1. National Conference on Frontiers in Modern Physics, Astrophysics and Cosmology.
-                    </h3>
-
-                    <section style="background-color: #fff4e3; padding-bottom: 30px;">
-
-                        <div style="margin-top: 10px;" class="endless-scroll-container">
-
-
-                            <div class="scroll-track-wrapper" style="padding-top: 0px;">
-
-                                <div class="scroll-content-images unique-set-alpha">
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/dept-physics/events/1.jpeg"
-                                            style="height: 340px;" alt="Image 1" class="scroller-image"
-                                            onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/dept-physics/events/2.jpeg"
-                                            style="height: 340px;" alt="Image 2" class="scroller-image"
-                                            onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/dept-physics/events/3.jpeg"
-                                            style="height: 340px;" alt="Image 2" class="scroller-image"
-                                            onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/dept-physics/events/4.jpeg"
-                                            style="height: 340px;" alt="Image 2" class="scroller-image"
-                                            onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/dept-physics/events/5.jpeg"
-                                            style="height: 340px;" alt="Image 2" class="scroller-image"
-                                            onclick="openLightbox(this.src)">
-                                    </div>
-
-
-
-                                </div>
-
-                                <div class="scroll-content-images unique-set-beta">
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/rset/ce/events/1.jpeg" alt="Image 1"
-                                            class="scroller-image" onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/rset/ce/events/2.jpeg" alt="Image 2"
-                                            class="scroller-image" onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/rset/ce/events/3.jpeg" alt="Image 2"
-                                            class="scroller-image" onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/rset/ce/events/4.jpeg" alt="Image 2"
-                                            class="scroller-image" onclick="openLightbox(this.src)">
-                                    </div>
-
-                                    <div class="slider-image-frame">
-                                        <img src="mobile-assets/department-all/rset/ce/events/5.jpeg" alt="Image 2"
-                                            class="scroller-image" onclick="openLightbox(this.src)">
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                            <span class="close-btn">&times;</span>
-
-                            <div class="lightbox-controls">
-                                <button id="zoom-in" title="Zoom In">+</button>
-                                <button id="zoom-out" title="Zoom Out">-</button>
-                            </div>
-
-                            <img class="lightbox-content" id="lightbox-img" src="" alt="">
-                        </div>
-
-                        <style>
-                            /*
-                * 1. Setup the main container and animation logic (Identical to list version)
-                */
-                            .endless-scroll-container {
-                                margin: auto;
-                                width: 97%;
-                                overflow: hidden;
-                                padding: 10px 0;
-                                border-bottom: 2px solid #EF991F;
-                            }
-
-                            .scroll-track-wrapper {
-                                display: flex;
-                                width: fit-content;
-                                animation: scroll-movement 60s linear infinite;
-                            }
-
-                            .scroll-track-wrapper:hover {
-                                animation-play-state: paused;
-                            }
-
-                            /*
-                * 2. Style the Image Frames and Images
-                */
-                            .scroll-content-images {
-                                display: flex;
-                            }
-
-                            /* --- THIS IS THE MODIFIED RULE --- */
-                            .slider-image-frame {
-                                width: 600px;
-                                /* <-- CHANGED from 150px */
-                                margin-right: 20px;
-                                flex-shrink: 0;
-                                overflow: hidden;
-                                border: 1px solid #d1d1d1;
-                                border-radius: 8px;
-                                /* <-- CHANGED from 50px */
-                                background-color: #fff;
-                            }
-
-                            /* --- END OF MODIFIED RULE --- */
-
-                            .scroller-image {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                                display: block;
-                                cursor: pointer;
-                                transition: opacity 0.3s;
-                            }
-
-                            /* Lightbox Styles */
-                            .lightbox {
-                                display: none;
-                                position: fixed;
-                                z-index: 1000;
-                                left: 0;
-                                top: 0;
-                                width: 100%;
-                                height: 100%;
-                                background-color: rgba(222, 222, 222, 0.942);
-                                overflow: hidden;
-                                /* Changed from auto to hidden to prevent scrollbars */
-                            }
-
-                            .lightbox-content {
-                                margin: auto;
-                                display: block;
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%) scale(1);
-                                /* Initial state */
-                                max-width: 90%;
-                                max-height: 90%;
-                                width: auto;
-                                height: auto;
-                                object-fit: contain;
-                                animation-name: zoom;
-                                animation-duration: 0.6s;
-                                cursor: grab;
-                                /* NEW: Indicate it's grabbable */
-                                transition: transform 0.2s ease-out;
-                                /* NEW: Smooth transitions for zoom/pan */
-                            }
-
-                            .close-btn {
-                                position: absolute;
-                                top: 20px;
-                                right: 35px;
-                                color: #fff;
-                                font-size: 40px;
-                                font-weight: bold;
-                                transition: 0.3s;
-                                cursor: pointer;
-                                z-index: 1002;
-                                /* Ensure it's on top of controls */
-                            }
-
-                            .close-btn:hover,
-                            .close-btn:focus {
-                                color: #bbb;
-                                text-decoration: none;
-                                cursor: pointer;
-                            }
-
-                            /* NEW: Styles for Zoom Controls */
-                            .lightbox-controls {
-                                position: absolute;
-                                top: 25px;
-                                right: 90px;
-                                /* Position next to the close button */
-                                z-index: 1001;
-                                display: flex;
-                                gap: 10px;
-                            }
-
-                            .lightbox-controls button {
-                                background-color: rgba(30, 30, 30, 0.7);
-                                border: 1px solid #fff;
-                                color: #fff;
-                                font-size: 24px;
-                                font-weight: bold;
-                                width: 40px;
-                                height: 40px;
-                                cursor: pointer;
-                                border-radius: 5px;
-                                transition: background-color 0.3s;
-                                line-height: 1;
-                            }
-
-                            .lightbox-controls button:hover {
-                                background-color: rgba(0, 0, 0, 0.9);
-                            }
-
-
-                            @keyframes zoom {
-                                from {
-                                    transform: translate(-50%, -50%) scale(0.1);
-                                }
-
-                                to {
-                                    transform: translate(-50%, -50%) scale(1);
-                                }
-                            }
-
-                            /*
-                * 3. Define the Keyframes for the Movement
-                */
-                            @keyframes scroll-movement {
-                                from {
-                                    transform: translateX(0%);
-                                }
-
-                                to {
-                                    transform: translateX(-50%);
-                                }
-                            }
-                        </style>
-
-                        <script>
-                            document.addEventListener('DOMContentLoaded', () => {
-                                const setAlpha = document.querySelector('.unique-set-alpha');
-                                const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                                if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                                    const setBeta = setAlpha.cloneNode(true);
-                                    setBeta.classList.remove('unique-set-alpha');
-                                    setBeta.classList.add('unique-set-beta');
-                                    trackWrapper.appendChild(setBeta);
-                                    console.log('Image slider duplicated successfully for infinite loop.');
-                                }
-                            });
-
-                            // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
-
-                            const lightbox = document.getElementById('lightbox');
-                            const lightboxImg = document.getElementById('lightbox-img');
-                            const zoomInBtn = document.getElementById('zoom-in');
-                            const zoomOutBtn = document.getElementById('zoom-out');
-
-                            // State variables
-                            let scale = 1;
-                            let isDragging = false;
-                            let start = {
-                                x: 0,
-                                y: 0
-                            };
-                            let pan = {
-                                x: 0,
-                                y: 0
-                            };
-
-                            // Function to apply the current transform to the image
-                            function updateImageTransform() {
-                                // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                                lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                            }
-
-                            function openLightbox(src) {
-                                // Reset state every time a new image is opened
-                                scale = 1;
-                                isDragging = false;
-                                pan = {
-                                    x: 0,
-                                    y: 0
-                                };
-                                updateImageTransform(); // Apply initial transform
-
-                                lightbox.style.display = 'block';
-                                lightboxImg.src = src;
-                            }
-
-                            function closeLightbox(event) {
-                                if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                                    lightbox.style.display = 'none';
-                                }
-                            }
-
-                            // --- Event Listeners for Zoom and Pan ---
-
-                            zoomInBtn.addEventListener('click', (e) => {
-                                e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                scale += 0.2;
-                                updateImageTransform();
-                            });
-
-                            zoomOutBtn.addEventListener('click', (e) => {
-                                e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                if (scale > 1) {
-                                    scale -= 0.2;
-                                    if (scale < 1) {
-                                        scale = 1;
-                                    }
-                                }
-                                // If we zoom all the way out, reset the pan to center the image
-                                if (scale === 1) {
-                                    pan = {
-                                        x: 0,
-                                        y: 0
-                                    };
-                                }
-                                updateImageTransform();
-                            });
-
-                            lightboxImg.addEventListener('mousedown', (e) => {
-                                // Panning only works if the image is zoomed in
-                                if (scale > 1) {
-                                    e.preventDefault();
-                                    isDragging = true;
-                                    // Record starting point relative to current pan position
-                                    start = {
-                                        x: e.clientX - pan.x,
-                                        y: e.clientY - pan.y
-                                    };
-                                    lightboxImg.style.cursor = 'grabbing';
-                                }
-                            });
-
-                            // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                            window.addEventListener('mousemove', (e) => {
-                                if (isDragging) {
-                                    e.preventDefault();
-                                    pan = {
-                                        x: e.clientX - start.x,
-                                        y: e.clientY - start.y
-                                    };
-                                    updateImageTransform();
-                                }
-                            });
-
-                            window.addEventListener('mouseup', (e) => {
-                                if (isDragging) {
-                                    isDragging = false;
-                                    lightboxImg.style.cursor = 'grab';
-                                }
-                            });
-                        </script>
-
-                    </section>
+                    <!-- CONTROLS -->
+                    <button class="dp-btn prev" id="dpPrev">&#10094;</button>
+                    <button class="dp-btn next" id="dpNext">&#10095;</button>
 
                 </div>
-                <!-- event 1  -->
-
-            </section>
-
-        </div>
-
-        <div id="bos" class="container pb-5 pt-5">
-
-            <!-- Container -->
-            <div id="drc" style="margin:0 auto;">
-
-                <!-- Row 1 -->
-                <style>
-@media (min-width: 768px) {
-  .colBox {
-    flex: 1 1 calc(50% - 8px) !important;
-    max-width: calc(50% - 8px) !important;
-  }
-}
-</style>
-
-<div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-  <!-- ================= BOS ================= -->
-  <div class="colBox" style="flex:1 1 100%; max-width:100%; box-sizing:border-box;">
-    <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-
-      <button id="accBtn1" onclick="toggleAcc(1)" style="width:100%; text-align:left; padding:16px 20px; border:0;
-      background:linear-gradient(135deg,#24477f,#1a365d);
-      color:white; font-weight:600; font-size:18px; cursor:pointer;">
-        <i class="fa fa-users me-2"></i> The Board of Studies
-        <span id="icon1" style="float:right; font-size:20px;">＋</span>
-      </button>
-
-      <div id="accPanel1" style="display:none; padding:20px; background:#f9fbfd;">
-
-        <div class="table-responsive">
-          <table style="width:100%; border-collapse:collapse; font-family:Arial;">
-
-            <thead style="background:#27467a; color:#fff;">
-              <tr>
-                <th style="padding:10px; border:1px solid #ddd;">S.No</th>
-                <th style="padding:10px; border:1px solid #ddd;">Name & Profile</th>
-                <th style="padding:10px; border:1px solid #ddd;">Category</th>
-                <th style="padding:10px; border:1px solid #ddd;">Role</th>
-              </tr>
-            </thead>
-
-            <tbody style="background:#f9f9f9;" class="text-dark">
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">1</td>
-                <td style="padding:10px; border:1px solid #ddd;">
-                  Dr. Maidul Islam, Assistant Professor & Co-ordinator
-                </td>
-                <td style="padding:10px; border:1px solid #ddd;">Ex-Officio</td>
-                <td style="padding:10px; border:1px solid #ddd;">Convener</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">2</td>
-                <td style="padding:10px; border:1px solid #ddd;">
-                  • Prof. (Dr.) Amarendra Rajput <br>
-                  • Dr. Devika Phukan <br>
-                  • Dr. Sankar Barman <br>
-                  • Dr. Bornali Chetia <br>
-                  • Dr. Koushik Saikia <br>
-                  • Dr. Nitu Borgohain
-                </td>
-                <td style="padding:10px; border:1px solid #ddd;">Ex-Officio</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td colspan="4" style="text-align:center; padding:10px; font-weight:600;">
-                  External Academic Member
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">3</td>
-                <td style="padding:10px; border:1px solid #ddd;">
-                  Prof. (Dr.) Anurup Gohain Barua, Professor, Department of Physics, Gauhati University.
-                </td>
-                <td style="padding:10px; border:1px solid #ddd;">Nominated</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td colspan="4" style="text-align:center; padding:10px; font-weight:600;">
-                  External Industry Member
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">4</td>
-                <td style="padding:10px; border:1px solid #ddd;">
-                  Mr. Hemendra Ch. Das
-Rtd. Group General Manager, Oil India.
-                </td>
-                <td style="padding:10px; border:1px solid #ddd;">Nominated</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-            </tbody>
-          </table>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- ================= DRC ================= -->
-  <div class="colBox" style="flex:1 1 100%; max-width:100%; box-sizing:border-box;">
-    <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-
-      <button id="accBtn2" onclick="toggleAcc(2)" style="width:100%; text-align:left; padding:16px 20px; border:0;
-      background:linear-gradient(135deg,#24477f,#1a365d);
-      color:white; font-weight:600; font-size:18px; cursor:pointer;">
-        <i class="fa fa-flask me-2"></i> Departmental Research Committee (DRC)
-        <span id="icon2" style="float:right; font-size:20px;">＋</span>
-      </button>
-
-      <div id="accPanel2" style="display:none; padding:20px; background:#f9fbfd;">
-
-        <div class="table-responsive">
-          <table style="width:100%; border-collapse:collapse;" class="text-dark">
-
-            <thead style="background:#27467a; color:white;">
-              <tr>
-                <th style="padding:10px; border:1px solid #ddd;">#</th>
-                <th style="padding:10px; border:1px solid #ddd;">Content</th>
-                <th style="padding:10px; border:1px solid #ddd;">Name</th>
-                <th style="padding:10px; border:1px solid #ddd;">Designation</th>
-                <th style="padding:10px; border:1px solid #ddd;">Role</th>
-              </tr>
-            </thead>
-
-            <tbody style="background:#f9f9f9;">
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">1</td>
-                <td style="padding:10px; border:1px solid #ddd;">Head of Department</td>
-                <td style="padding:10px; border:1px solid #ddd;">Dr. Maidul Islam</td>
-                <td style="padding:10px; border:1px solid #ddd;">Assistant Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Chairperson</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">2</td>
-                <td style="padding:10px; border:1px solid #ddd;">Two Professors, including the Dean of the School</td>
-                <td style="padding:10px; border:1px solid #ddd;">Prof. Amarendra Rajput</td>
-                <td style="padding:10px; border:1px solid #ddd;">Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">3</td>
-                <td></td>
-                <td style="padding:10px; border:1px solid #ddd;">Prof. Aniruddha Chatterjee</td>
-                <td style="padding:10px; border:1px solid #ddd;">Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">4</td>
-                <td style="padding:10px; border:1px solid #ddd;">Two Associate Professors – one of them will be the member secretary</td>
-                <td style="padding:10px; border:1px solid #ddd;">Dr. Sankar Barman</td>
-                <td style="padding:10px; border:1px solid #ddd;">Associate Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member Secretary</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">5</td>
-                <td></td>
-                <td style="padding:10px; border:1px solid #ddd;">Dr. Devika Phukan</td>
-                <td style="padding:10px; border:1px solid #ddd;">Associate Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">6</td>
-                <td style="padding:10px; border:1px solid #ddd;">Two Assistant Professors holding Ph.D. degree</td>
-                <td style="padding:10px; border:1px solid #ddd;">Dr. Bornali Chetia</td>
-                <td style="padding:10px; border:1px solid #ddd;">Assistant Professor</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">7</td>
-                <td></td>
-                <td style="padding:10px; border:1px solid #ddd;">Dr. Faizuddin Ahmed</td>
-                <td style="padding:10px; border:1px solid #ddd;">Assistant Professor (Research)</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-              <tr>
-                <td style="padding:10px; border:1px solid #ddd;">8</td>
-                <td style="padding:10px; border:1px solid #ddd;">Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC</td>
-                <td style="padding:10px; border:1px solid #ddd;">Prof. Anurup Gohain Barua</td>
-                <td style="padding:10px; border:1px solid #ddd;">Gauhati University</td>
-                <td style="padding:10px; border:1px solid #ddd;">Member</td>
-              </tr>
-
-            </tbody>
-          </table>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</div>
 
             </div>
 
-            <!-- JS remains same -->
-            <script>
-                const accPairs = [{
-                        btn: 'accBtn1',
-                        panel: 'accPanel1'
-                    },
-                    {
-                        btn: 'accBtn2',
-                        panel: 'accPanel2'
-                    }
-                ];
+        </div>
 
-                function closeAll() {
-                    accPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
+        <div class="dept-physics-table-section" id="dept-committee">
+
+            <h2 class="dept-physics-section-title">Table <span>List</span></h2>
+
+            <div class="dept-physics-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+        <div class="dept-physics-prospects-section" id="dept-lab">
+            <h2 class="dept-physics-section-title">Our <span>Lab</span></h2>
+
+            <div class="dept-physics-prospects-content">
+
+                <h3 class="dept-physics-lab-heading">Physics Lab</h3>
+
+                <p class="dept-physics-lab-intro">
+                    Our Physics laboratory is well-equipped with modern instruments to help students understand the concepts
+                    of
+                    Physics through experiments. It is designed to assist and guide students in taking measurements,
+                    analyzing
+                    data, and drawing inferences during practical work. There are separate laboratories dedicated to B.Sc.
+                    and
+                    M.Sc. Physics students, equipped with basic to advanced experimental setups according to semester
+                    requirements. Students are encouraged to perform hands-on experiments under expert supervision, enabling
+                    them
+                    to gain detailed practical insights.
+                </p>
+
+                <h3 class="dept-physics-subheading" style="margin-top: 0;">Lab Instruments Includes</h3>
+                <ul class="dept-physics-bullet-list">
+                    <li>
+                        Four Probe Experimental Set-up
+                    </li>
+                    <li>
+                        Hall Effect Set-up
+                    </li>
+                    <li>
+                        Michelson Interferometer
+                    </li>
+                    <li>
+                        Fabry-Perot Interferometer
+                    </li>
+                    <li>
+                        Ultrasonic Velocity Measurements Set-up
+                    </li>
+                    <li>
+                        Thomsons e/m Measurements Set-up
+                    </li>
+                    <li>
+                        Millikan’s Oil Drop Experimental Set-up
+                    </li>
+                    <li>
+                        Geiger-Müller (GM) Counter
+                    </li>
+                    <li>
+                        LED/PIN Photo Detector/ Photo-diode/ Solar-Cell Characteristics Study Set-up
+                    </li>
+                    <li>
+                        Lattice Vibrational Kit
+                    </li>
+                    <li>
+                        Frank and Hertz Experimental Set-up
+                    </li>
+                    <li>
+                        Babinet Compensator
+                    </li>
+                    <li>
+                        Fresnel Biprism
+                    </li>
+                    <li>
+                        Electron Spin Resonance (ESR) Spectrometer
+                    </li>
+                    <li>
+                        BJT/FET/ Zener Diode/ LCR circuit etc.
+                    </li>
+
+                </ul>
+
+                <div class="dept-physics-lab-gallery">
+
+                    <img src="mobile-assets/rsaps-new-dept/physics/1.jpg" alt="Lab 1" class="dept-physics-lab-img">
+                    <img src="mobile-assets/rsaps-new-dept/physics/2.jpg" alt="Lab 2" class="dept-physics-lab-img">
+                    <img src="mobile-assets/rsaps-new-dept/physics/3.jpg" alt="Lab 3" class="dept-physics-lab-img">
+                    <img src="mobile-assets/rsaps-new-dept/physics/4.jpg" alt="Lab 4" class="dept-physics-lab-img">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M.Sc. - Physics",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MSc-Physics"
+            },
+            {
+                title: "B.Sc. - Physics | Honours / Honours with Research",
+                duration: "4 years as per NEP",
+                link: "https://www.rgu.ac/programs-b-sc-physics"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-physics-course-card">
+
+          <div class="dept-physics-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+          ? `<a href="${course.link}" class="dept-physics-view-btn">View details</a>`
+          : ``
+        }
+
+          </div>
+
+          <div class="dept-physics-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-physics-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-physics-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-physics-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-physics-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "On 14.05.2025, a one-day seminar on the Centenary Anniversary of Quantum Mechanics was conducted.",
+            "On 28.03.2025, an invited talk by Prof. Bipin Kumar Gupta was organized.",
+            "On 19.03.2025, an invited talk by Dr. Namrata Gogoi took place.",
+            "On 28.02.2025, the \"National Science Day Celebration\" was held.",
+            "On 24.02.2025, an invited talk by Dr. Hemen Kumar Kalita was conducted.",
+            "On 21.02.2025, a field visit to CPP-IPR, Guwahati was organized.",
+
+            "On 29.10.2024, an Invited Talk by Dr. Angaraj Duara was held.",
+            "On 28.10.2024, a Webinar on Simulation Technique with Python Coding was delivered by Dr. Subir Sarkar.",
+            "On 26.09.2024, a Badminton Tournament was organized in collaboration with Arya Vidyapeeth College, Guwahati.",
+            "On 16.09.2024, a Career Guidance Program was conducted.",
+            "On 10.09.2024, an Outreach Program was organized.",
+
+            "On 06.12.2023 to 07.12.2023, an Online Lecture Series was organized.",
+            "On 24.03.2023, an Outreach Program was conducted.",
+            "On 15.03.2023 to 18.03.2023, a Cricket Tournament was organized.",
+            "On 02.03.2023, a Talk-cum-Interactive Session was conducted.",
+            "On 28.02.2023, the departmental magazine was launched.",
+            "On 28.02.2023, the \"National Science Day Celebration\" was held.",
+
+            "On 17.12.2022, another field trip was organized.",
+            "On 03.12.2022, a field trip was conducted.",
+            "On 31.10.2022, an interactive session was organized.",
+            "On 09.09.2022 to 13.09.2022, the Orientation Programme (PG) was held.",
+            "On 30.08.2022, an interactive session was conducted.",
+            "On 16.08.2022, a Reorientation Programme was organized.",
+            "On 01.06.2022, an interactive session with Dr. Angaraj Duara was held.",
+            "On 27.04.2022 to 29.04.2022, an Interschool Volleyball Tournament was held.",
+            "On 28.04.2022, an interactive session with an ex-student was conducted.",
+            "On 23.04.2022, a field trip to the UDYAM 2022 Industrial Fair, Khanapara was organized.",
+            "On 28.02.2022, National Science Day was celebrated.",
+
+            "On 15.12.2021, a field trip to the Bureau of Indian Standards (BIS) Laboratory, Guwahati was organized.",
+            "On 02.12.2021, the PG 1st Semester Orientation Programme was organized.",
+            "On 25.11.2021, an interactive session with Dr. Debashish Borah (IIT Guwahati) was held.",
+            "On 01.06.2021 to 02.06.2021, the International Conference (EAST 2021) was conducted.",
+            "On 15.03.2021, a Parents–Teachers Interaction session took place.",
+            "On 06.03.2021, a field trip to Umium was organized.",
+            "On 03.03.2021, the \"National Science Day Celebration\" was held.",
+
+            "On 13.03.2020, an interactive session with Priyanka Das Rajkakati took place.",
+            "On 28.02.2020, the \"National Science Day Celebration\" was held.",
+            "On 14.02.2020, an educational trip to the Regional Science Museum, Guwahati was organized.",
+
+            "On 18.11.2019 to 19.11.2019, a field trip to the Centre of Plasma Physics was organized.",
+            "On 06.08.2019, a \"Student Development Programme\" was conducted.",
+            "On 29.04.2019, a Parents–Teacher Interaction session took place.",
+            "On 15.03.2019, an invited talk by Dr. Gauranga Dhar Baruah was delivered.",
+            "On 28.02.2019, the \"National Science Day Celebration\" was organized.",
+            "On 18.01.2019, the \"Re Orientation Programme\" was held.",
+
+            "On 15.11.2018 to 16.11.2018, the \"Science Conclave\" was held.",
+            "On 12.10.2018, a field trip to North Eastern Space Applications Centre (NESAC) was organized.",
+            "On 26.09.2018, a visit to Tetelia School took place.",
+            "On 12.09.2018, the \"Freshers’ Social Programme\" was organized.",
+            "On 27.07.2018, the \"Student Development Program\" was conducted.",
+            "On 12.02.2018, the event \"Student Interaction\" was held."
+        ];
+
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-physics-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const track = document.getElementById("dpTrack");
+        const slides = document.querySelectorAll(".dp-slide");
+        const prevBtn = document.getElementById("dpPrev");
+        const nextBtn = document.getElementById("dpNext");
+
+        let index = 0;
+        let autoSlide;
+
+        function updateSlide() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        // CLICK EVENTS
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // CONDITION: SINGLE IMAGE
+        if (slides.length <= 1) {
+            prevBtn.classList.add("hidden");
+            nextBtn.classList.add("hidden");
+        } else {
+            autoSlide = setInterval(nextSlide, 3000);
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Name & Profile", "Category", "Role"],
+                rows: [
+                    ["1", "Dr. Maidul Islam, Assistant Professor & Co-ordinator", "Ex-Officio", "Convener"],
+
+                    ["2", "Prof. (Dr.) Amarendra Rajput", "Ex-Officio", "Member"],
+
+                    ["", "Dr. Devika Phukan", "Ex-Officio", "Member"],
+                    ["", "Dr. Sankar Barman", "Ex-Officio", "Member"],
+                    ["", "Dr. Bornali Chetia", "Ex-Officio", "Member"],
+                    ["", "Dr. Koushik Saikia", "Ex-Officio", "Member"],
+                    ["", "Dr. Nitu Borgohain", "Ex-Officio", "Member"],
+                    ["External Academic Member", "", "", ""],
+                    ["3", "Prof. (Dr.) Anurup Gohain Barua, Professor, Department of Physics, Gauhati University.",
+                        "Nominated", "Member"
+                    ],
+                    ["External Industry Member", "", "", ""],
+
+                    ["4", "Mr. Hemendra Ch. Das Rtd. Group General Manager, Oil India.", "Nominated", "Member"]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name", "Designation", "Role"],
+                rows: [
+                    ["1", "Head of the Department", "Dr. Maidul Islam", "Assistant Professor", "Chairperson"],
+
+                    ["2", "Two Professors, including the Dean of the School", "Prof. Amarendra Rajput", "Professor",
+                        "Member"
+                    ],
+
+                    ["3", "", "Prof. Aniruddha Chatterjee", "Professor", "Member"],
+
+                    ["4", "Two Associate Professors – one of them will be the member secretary",
+                        "Dr. Sankar Barman", "Associate Professor", "Member Secretary"
+                    ],
+
+                    ["5", "", "Dr. Devika Phukan", "Associate Professor", "Member"],
+                    ["6", "Two Assistant Professors holding Ph.D. degree", "Dr. Bornali Chetia",
+                        "Assistant Professor", "Member"
+                    ],
+                    ["7", "", "Dr. Faizuddin Ahmed", "Assistant Professor (Research)", "Member"],
+                    ["8",
+                        "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                        "Prof. Anurup Gohain Barua", "Gauhati University", "Member"
+                    ]
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
                 }
 
-                accPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
+                return `
+        <div class="dept-physics-table-responsive">
+          <table class="dept-physics-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
 
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAll();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
+            container.innerHTML = tableData.map(item => {
 
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAll();
-                });
-            </script>
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-physics-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-physics-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-physics-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
 
         </div>
+      `;
+            }).join("");
+        }
 
-        <script>
-            document.querySelectorAll('a.special-link').forEach(anchor => {
-                anchor.addEventListener('mouseover', function() {
-                    this.style.width = '200px';
-                    this.querySelector('span').style.opacity = '1';
-                });
-                anchor.addEventListener('mouseout', function() {
-                    this.style.width = '42px';
-                    this.querySelector('span').style.opacity = '0';
-                });
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-physics-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-physics-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-physics-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
             });
-        </script>
 
-    </div>
+            const content = item.querySelector(".dept-physics-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
 @endsection
