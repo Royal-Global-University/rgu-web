@@ -1370,28 +1370,16 @@ The program emphasizes experiential and outcome-based learning through laborator
                 <h2 class="dept-civil-section-title">Our <span>Lab</span></h2>
 
                 <p class="dept-civil-lab-intro">
-                    The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory
-                    courses,
-                    mini projects, major projects, research oriented activities. These facilities enable students to design,
-                    analyse, test, and simulate structural, material, geotechnical, fluid mechanics and environmental
-                    systems,
-                    thereby strengthening practical competence, analytical ability, and problem solving skills.
+                    The Department of Civil Engineering is equipped with adequate, wellmaintained laboratory that support effective teaching–learning processes, research activities, and skill development in alignment with programme outcomes and university objectives.
                     <br> <br>
-                    The laboratories are supported by qualified and experienced faculty and technical staff who assist in
-                    the
-                    conduct of experiments, preparation of laboratory setups, equipment handling, and implementation of
-                    safety
-                    procedures. The department follows a systematic approach for equipment inventory management,
-                    calibration,
-                    preventive maintenance, and periodic upgradation, ensuring continuous availability and effective
-                    utilisation
-                    of resources.
+                    The Civil Engineering laboratories cater to a wide spectrum of experimental work related to cement, concrete, rocks, soils, aggregates, asphalt and other construction materials. The facilities are furnished with modern, functional, and calibrated equipment to conduct experiments as per relevant Indian and international standards, ensuring accuracy, reliability, and quality compliance.
                     <br> <br>
-                    Appropriate safety measures, housekeeping practices, and waste management procedures are implemented to
-                    provide a safe, clean, and conducive learning environment. Overall, the laboratory and infrastructure
-                    facilities of the Department of Civil Engineering effectively support academic delivery, research, skill
-                    development, and continuous improvement.
-
+                    The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses, mini projects, major projects, researchoriented activities. These facilities enable students to design, analyse, test, and simulate structural, material, geotechnical, fluid mechanics and environmental systems, thereby strengthening practical competence, analytical ability, and problemsolving skills.
+                    <br><br>
+                    The laboratories are supported by qualified and experienced faculty and  technical staff who assist in the conduct of experiments, preparation of laboratory setups, equipment handling, and implementation of safety procedures. The department follows a systematic approach for equipment inventory management, calibration, preventive maintenance, and periodic upgradation, ensuring continuous availability and effective utilisation of resources.
+                    <br><br>
+                    Appropriate safety measures, housekeeping practices, and waste management procedures are implemented to provide a safe, clean, and conducive learning environment. Overall, the laboratory and infrastructure facilities of the Department of Civil Engineering effectively support academic delivery, research, skill development, and continuous improvement.
+                    <br>
                 </p>
 
 
