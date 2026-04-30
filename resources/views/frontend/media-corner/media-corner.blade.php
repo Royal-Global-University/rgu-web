@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, April 30, 2026:',
+                            'link' => '/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu',
+                            'image' => '/mobile-assets/media-corner/2026/aprl/4.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) celebrated World Dance Day 2026 with “Nritya Arpanam”, a graceful tribute to the spirit of rhythm, expression, and cultural heritage. The vibrant cultural programme was held yesterday at Jyoti Manch, bringing together students, artists, academicians, and dance enthusiasts...',
+                        ],
+                        [
                             'title' => 'Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam',
                             'summary' => 'Assam’s Unique Biographical Tradition Celebrated at RGU Symposium',
                             'date' => 'Guwahati, April 29, 2026:',

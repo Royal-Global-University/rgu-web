@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, April 30, 2026",
+            title: "Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU",
+            desc: "The Assam Royal Global University (RGU) celebrated World Dance Day 2026 with “Nritya Arpanam”, a graceful tribute to the spirit of rhythm, expression, and cultural heritage. The vibrant cultural programme was held yesterday at Jyoti Manch, bringing together students, artists, academicians, and dance enthusiasts in a celebration of the universal language of dance.",
+            img: "/mobile-assets/media-corner/2026/aprl/4.jpeg",
+            link: "/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu",
+        },
+        {
             date: "Guwahati, April 29, 2026",
             title: "Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam",
             desc: "A significant symposium on the rich tradition of Charita literature in Assam was held today at The Assam Royal Global University (RGU), bringing together eminent scholars, academicians, and students for a day of insightful discussions. The event sparked meaningful dialogue and generated keen interest among young learners on the Charita Puthi—biographical narratives of Srimanta Sankardev, Sri Madhavdev, and other prominent figures of the Vaishnavite movement in Assam.",

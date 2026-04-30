@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu', function () {
+    return view('frontend/media-corner/2026/news10');
+})->name('create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu');
+
 Route::get('/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam', function () {
     return view('frontend/media-corner/2026/news9');
 })->name('sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam');
