@@ -1898,7 +1898,7 @@
                                     <a href="https://www.rgu.ac/programme-b-emergency-care" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Bachelor – Emergency Care
+                                                Bachelor of Emergency Medical Technologist
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
@@ -1953,7 +1953,7 @@
                                     <a href="https://www.rgu.ac/programme-m-emergency-care" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
-                                                Master – Emergency Care
+                                                Masters of Advanced Care Paramedic
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>

@@ -3257,8 +3257,7 @@
                                             <td>11.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency
-                                                        Care</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency Medical Technologist</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -3406,8 +3405,7 @@
                                             <td>16.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Masters of Emergency
-                                                        Care</strong>
+                                                    <strong style="color: #3c096c;" class="#">Masters of Advanced Care Paramedic</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years|
@@ -7467,8 +7465,7 @@
                                             <td>11.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency
-                                                        Care</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency Medical Technologist</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7620,8 +7617,7 @@
                                             <td>16.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Masters of Emergency
-                                                        Care</strong>
+                                                    <strong style="color: #3c096c;" class="#">Masters of Advanced Care Paramedic</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years|
