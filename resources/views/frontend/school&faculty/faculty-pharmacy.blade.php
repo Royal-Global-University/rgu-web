@@ -196,6 +196,18 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/rajat.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Rajat Subhra Dutta</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-dr-mukta-agarwal" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
                     <!-- Associate Professor -->
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -434,6 +446,18 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Rekib Uddin Ahmed</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/rubina.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Rubina Chowdhury</h3>
                             <p class="card-designation">Assistant Professor</p>
                             {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
                         </div>
