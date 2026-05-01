@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'May Day celebrated at RGU with Cultural Fervour and Gratitude to Support Staff',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 1, 2026:',
+                            'link' => '/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff',
+                            'image' => '/mobile-assets/media-corner/2026/may-1/3.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) celebrated International Workers’ Day with great enthusiasm, respect, and cultural vibrancy at the university campus today. The celebration was organised to honour the invaluable contribution, dedication, and tireless service of the support staff members of Royal Global University and Royal Global School, whose relentless efforts ensure the smooth...',
+                        ],
+                        [
                             'title' => 'Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, April 30, 2026:',

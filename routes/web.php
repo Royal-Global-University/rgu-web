@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff', function () {
+    return view('frontend/media-corner/2026/news11');
+})->name('may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff');
+
 Route::get('/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu', function () {
     return view('frontend/media-corner/2026/news10');
 })->name('create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu');

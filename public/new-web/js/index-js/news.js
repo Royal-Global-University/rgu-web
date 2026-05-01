@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const newsData = [
         {
             date: "Guwahati, April 30, 2026",
+            title: "May Day celebrated at RGU with Cultural Fervour and Gratitude to Support Staff",
+            desc: "The Assam Royal Global University (RGU) celebrated International Workers’ Day with great enthusiasm, respect, and cultural vibrancy at the university campus today. The celebration was organised to honour the invaluable contribution, dedication, and tireless service of the support staff members of Royal Global University and Royal Global School, whose relentless efforts ensure the smooth functioning of the institution every day.",
+            img: "/mobile-assets/media-corner/2026/may-1/3.jpeg",
+            link: "/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff",
+        },
+        {
+            date: "Guwahati, April 30, 2026",
             title: "Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU",
             desc: "The Assam Royal Global University (RGU) celebrated World Dance Day 2026 with “Nritya Arpanam”, a graceful tribute to the spirit of rhythm, expression, and cultural heritage. The vibrant cultural programme was held yesterday at Jyoti Manch, bringing together students, artists, academicians, and dance enthusiasts in a celebration of the universal language of dance.",
             img: "/mobile-assets/media-corner/2026/aprl/4.jpeg",
