@@ -1054,9 +1054,12 @@
                 <h2 class="text-center text-dark fw-bold">Current Vacancies</h2>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img style="height: 700px" src="/mobile-assets/carrer/1ads.jpeg"/>
+                        <img style="height: 700px" src="/mobile-assets/carrer/jrf-2.png"/>
                     </div>
                     <div class="col-lg-6">
+                        <img style="height: 700px" src="/mobile-assets/carrer/1ads.jpeg"/>
+                    </div>
+                    <div class="col-lg-6 pt-3">
                         <img style="height: 700px" src="/mobile-assets/carrer/ads-2.jpeg"/>
                     </div>
                     <div class="col-lg-6 pt-3">
