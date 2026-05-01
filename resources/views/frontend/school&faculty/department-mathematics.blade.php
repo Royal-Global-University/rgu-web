@@ -1644,24 +1644,6 @@
                 ["7", "External Member", "Prof. (Dr.) Bipan Hazarika, Professor, Department of Mathematics, Gauhati University"]
             ]
         },
-        {
-            title: "Faculty List - Department of Mathematics",
-            headers: ["S.No.", "Name And Designation"],
-            rows: [
-                ["1", "Prof. (Dr.) Anuradha Devi, Professor"],
-                ["2", "Prof. (Dr.) Dilip Chandra Nath, Professor Emeritus"],
-                ["3", "Prof. (Dr.) Laishram Ladusingh, Professor Emeritus"],
-                ["4", "Dr. Bimalendu Kalita, Associate Professor & HoD"],
-                ["5", "Dr. Bapan Kalita, Associate Professor"],
-                ["6", "Mr. H. Imo Mani Singha, Assistant Professor"],
-                ["7", "Dr. Parismita Phukan, Assistant Professor"],
-                ["8", "Dr. Marbarisha M. Kharkongor, Assistant Professor"],
-                ["9", "Dr. Bikram Bir, Assistant Professor"],
-                ["10", "Dr. Neelav Sarma, Assistant Professor"],
-                ["11", "Dr. Kshetrimayum Renubebeta Devi, Assistant Professor"],
-                ["12", "Dr. Rupak Kumar Dalai, Assistant Professor"]
-            ]
-        },
 
 
     ];
