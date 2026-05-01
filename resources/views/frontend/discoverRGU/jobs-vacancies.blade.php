@@ -42,6 +42,7 @@
 
             <div class="col-lg-12" style="display: flex; flex-direction: column; align-items: center; padding-right: 20px; margin-right: -1px;">
                 <h3 class="text-center text-dark fw-bold pb-4">Current Vacancies</h3>
+                <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/jrf-2.png"/>
                 <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/1ads.jpeg"/>
                 <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-2.jpeg"/>
                 <img class="pt-3" style="height: 700px" src="/mobile-assets/carrer/ads-3.jpeg"/>
