@@ -137,7 +137,7 @@
         .dept-finearts-floating {
             position: fixed;
             left: 30px;
-            top: 50%;
+            top: 55%;
             transform: translateY(-50%);
             display: flex;
             flex-direction: column;
