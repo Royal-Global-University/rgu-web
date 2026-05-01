@@ -1585,6 +1585,8 @@
                             Syllabus</span>
                     </a>
 
+
+
                     <!-- Events -->
                     <a href="#events" class="special-link"
                         style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
@@ -1934,6 +1936,19 @@
                     </div>
                 </section>
 
+                <div class="container text-center pt-3 pb-3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold text-dark">Faculty Achievements</h3>
+                            <img style="width: 600px; height: 600px;" src="/mobile-assets/Faculty.jpeg"/>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold text-dark">Student Achievements</h3>
+                            <img style="width: 600px; height: 600px;" src="/mobile-assets/Student.jpeg"/>
+                        </div>
+                    </div>
+                </div>
+
                 <section id="events">
                     <div class="container pb-4">
                         <div class="row" style="display: flex; justify-content: center;">
@@ -2116,6 +2131,8 @@
                         </div>
                     </div>
                 </section>
+
+
 
                 <section>
                     <!-- event 1  -->
