@@ -635,8 +635,8 @@
                     <div class="col-lg-5">
 
                         <p class="mb-0">
-                            <strong>Mithun Sarma</strong>, Transport Incharge <br>
-                            Ph: +91 7099021539
+                            <strong>Jyoti Prasad Changmai</strong>, Deputy Manager, Transport <br>
+                            Ph: +91 7099028761 / 8638687322
                         </p>
 
                     </div>
