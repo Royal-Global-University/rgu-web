@@ -9,7 +9,7 @@
         <div class="hero-poster"></div>
 
         <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo"
-            poster="https://media.rgu.ac/new-web/img/index/hero/hero-thumbnail.png">
+            poster="/new-web/assets/index/hero/hero-thumbnail.png">
             <source src="/v-2.mp4" type="video/mp4">
         </video>
 
@@ -27,10 +27,10 @@
     <section class="about-rgu">
         <picture>
             <!-- Mobile Image -->
-            <source media="(max-width:768px)" srcset="https://media.rgu.ac/new-web/img/index/about/About-mob.png">
+            <source media="(max-width:768px)" srcset="/new-web/assets/index/about/About-mob.png">
 
             <!-- Desktop Image -->
-            <img src="https://media.rgu.ac/new-web/img/index/about/about-web.png" alt="Trailblazer"
+            <img src="/new-web/assets/index/about/about-web.png" alt="Trailblazer"
                 style="width:100%; height:auto;">
         </picture>
     </section>
@@ -365,7 +365,7 @@
 
                     <a href="https://rgu.ac/infrastructure" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
                                 alt="RGU Campus">
                         </div>
                         <div class="rgu-legacy-card-content">
@@ -377,7 +377,7 @@
 
                     <a href="/schools-rgu" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
                                 alt="RGU Classroom">
                         </div>
                         <div class="rgu-legacy-card-content">
@@ -389,7 +389,7 @@
 
                     <a href="https://rgu.ac/admission-programs-fees-structure" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
                                 alt="RGU Students">
                         </div>
                         <div class="rgu-legacy-card-content">
@@ -407,7 +407,7 @@
                     <div class="legacy-carousel-track" id="legacyTrack">
 
                         <div class="legacy-slide">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
                                 alt="RGU Campus">
                             <div class="legacy-slide-content">
                                 <h3>The Best University in Assam</h3>
@@ -417,7 +417,7 @@
                         </div>
 
                         <div class="legacy-slide">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
                                 alt="RGU Library">
                             <div class="legacy-slide-content">
                                 <h3>State-of-the-Art Facilities</h3>
@@ -427,7 +427,7 @@
                         </div>
 
                         <div class="legacy-slide">
-                            <img src="https://media.rgu.ac/new-web/img/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
                                 alt="RGU Students">
                             <div class="legacy-slide-content">
                                 <h3>Vibrant Campus Life</h3>
@@ -458,18 +458,18 @@
                     </h2>
                     <ul class="rgu-acad-list">
                         <li class="rgu-acad-item active fade-in-up" style="--delay: 0.1s"
-                            data-img="https://media.rgu.ac/new-web/img/index/labs/biochem.png"
+                            data-img="/new-web/assets/index/labs/biochem.png"
                             data-title="Doctoral Programme" data-link="https://rgu.ac/doctoral-programme">
                             <span>Doctoral Programme</span>
                             <i class="bi bi-arrow-up-right"></i>
                         </li>
                         <li class="rgu-acad-item fade-in-up" style="--delay: 0.2s"
-                            data-img="https://media.rgu.ac/new-web/img/index/labs/bioscience-research-lab.png"
+                            data-img="/new-web/assets/index/labs/bioscience-research-lab.png"
                             data-title="Postgraduate Programmes" data-link="https://rgu.ac/programs">
                             <span>Postgraduate Programmes</span>
                         </li>
                         <li class="rgu-acad-item fade-in-up" style="--delay: 0.3s"
-                            data-img="https://media.rgu.ac/new-web/img/index/labs/biotech-lab.png"
+                            data-img="/new-web/assets/index/labs/biotech-lab.png"
                             data-title="Under Graduate Programmes" data-link="https://rgu.ac/programs">
                             <span>Under Graduate Programmes</span>
                         </li>
@@ -479,7 +479,7 @@
                 <div class="rgu-acad-right fade-in-up" style="--delay: 0.4s">
                     <a href="https://rgu.ac/doctoral-programme" class="rgu-acad-card" id="acadCard">
                         <div class="rgu-acad-img-wrapper">
-                            <img id="acadImage" src="https://media.rgu.ac/new-web/img/index/labs/biochem.png"
+                            <img id="acadImage" src="/new-web/assets/index/labs/biochem.png"
                                 alt="Academics">
                         </div>
                         <div class="rgu-acad-overlay">
@@ -612,10 +612,10 @@
         <a href="https://rgu.ac/contact">
             <picture>
                 <!-- Mobile Image -->
-                <source media="(max-width:768px)" srcset="https://media.rgu.ac/new-web/img/index/idea1-mobile.svg">
+                <source media="(max-width:768px)" srcset="/new-web/assets/index/idea1-mobile.svg">
 
                 <!-- Desktop Image -->
-                <img src="https://media.rgu.ac/new-web/img/index/idea1.svg" alt=""
+                <img src="/new-web/assets/index/idea1.svg" alt=""
                     style="width:100%; height:auto;">
             </picture>
         </a>
@@ -627,32 +627,32 @@
             <div class="rgu-maestro-slider">
                 <div class="rgu-maestro-track">
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/1.png">
+                        <img src="/new-web/assets/index/footprints/1.png">
                         <h3>Dr APJ Abdul Kalam</h3>
                         <p>The Missile Man Of India <br> Former President Of India</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/2.png">
+                        <img src="/new-web/assets/index/footprints/2.png">
                         <h3>Sri Jagdeep Dhankhar</h3>
                         <p>14th Vice President of India</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/3.png">
+                        <img src="/new-web/assets/index/footprints/3.png">
                         <h3>Sri Om Birla</h3>
                         <p>18th Speaker of the Lok Sabha</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/4.png">
+                        <img src="/new-web/assets/index/footprints/4.png">
                         <h3>Sri Nitin Gadkari</h3>
                         <p>40th Union Minister of Road Transport and Highways</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/5.png">
+                        <img src="/new-web/assets/index/footprints/5.png">
                         <h3>Sri Piyush Goyal</h3>
                         <p>Honourable Union Minister of Commerce & Industry</p>
                     </div>
                     <div class="rgu-maestro-card">
-                        <img src="https://media.rgu.ac/new-web/img/index/footprints/6.png">
+                        <img src="/new-web/assets/index/footprints/6.png">
                         <h3>Justice Mr. Ranjan Gogoi</h3>
                         <p>46th Chief Justice of India, Member of Parliament</p>
                     </div>
@@ -673,10 +673,10 @@
         <picture>
             <!-- Mobile Image -->
             <source media="(max-width:768px)"
-                srcset="https://media.rgu.ac/new-web/img/index/trail-blazer/mobile-trailblazer.png">
+                srcset="/new-web/assets/index/trail-blazer/mobile-trailblazer.png">
 
             <!-- Desktop Image -->
-            <img src="https://media.rgu.ac/new-web/img/index/trail-blazer/1.jpeg" alt="Trailblazer"
+            <img src="/new-web/assets/index/trail-blazer/1.jpeg" alt="Trailblazer"
                 style="width:100%; height:auto;">
         </picture>
     </section>
