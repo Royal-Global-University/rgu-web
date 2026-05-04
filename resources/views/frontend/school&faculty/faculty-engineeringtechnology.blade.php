@@ -340,7 +340,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
+                                    <img src="/mobile-assets/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Saswati Bordoloi</h3>
                                 <p class="card-designation">Co-Cordinator, IKS Cell</p>
@@ -545,7 +545,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg"
+                                <img src="/mobile-assets/iks/Dr.SaswatiBordoloi.jpeg"
                                     alt="Profile image of Dr. Saswati Bordoloi">
                             </div>
                             <h3 class="card-name">Dr. Saswati Bordoloi</h3>
@@ -615,15 +615,15 @@
                     </div>
 
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                          <div class="card-image">
-                            <img src="" alt="Profile image of Mrs. Ankita Banerjee">
-                          </div>
-                          <h3 class="card-name">Mrs. Ankita Banerjee</h3>
-                          <p class="card-designation">Assistant Professor</p>
-                          <a href="" class="profile-link">View Profile</a>
-                        </div>
-                      </div> -->
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="" alt="Profile image of Mrs. Ankita Banerjee">
+                                  </div>
+                                  <h3 class="card-name">Mrs. Ankita Banerjee</h3>
+                                  <p class="card-designation">Assistant Professor</p>
+                                  <a href="" class="profile-link">View Profile</a>
+                                </div>
+                              </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -653,7 +653,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image of Dr. Pranab Sarma">
+                                <img src="/mobile-assets/iks/Pranab.jpg" alt="Profile image of Dr. Pranab Sarma">
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell

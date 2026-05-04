@@ -306,7 +306,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
+                                <img src="/mobile-assets/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Saswati Bordoloi</h3>
                             <p class="card-designation">Co-Cordinator, IKS Cell</p>

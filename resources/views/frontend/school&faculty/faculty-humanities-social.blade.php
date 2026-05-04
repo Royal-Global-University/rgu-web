@@ -465,7 +465,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image of Dr. Pranab Sarma">
+                                <img src="/mobile-assets/iks/Pranab.jpg" alt="Profile image of Dr. Pranab Sarma">
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
                             <p class="card-title">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell</p>

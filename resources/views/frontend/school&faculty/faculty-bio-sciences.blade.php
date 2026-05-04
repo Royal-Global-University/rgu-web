@@ -568,7 +568,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Abesh Chakraborty</h3>
                                 <p class="card-designation">Assistant Professor
-                                <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a>
+                                    <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a>
                                 </p>
                             </div>
                         </div>
@@ -647,7 +647,8 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg" alt="Profile image">
+                                    <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg"
+                                        alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Monalisha Medhi</h3>
                                 <p class="card-designation">Faculty Member, IKS Cell</p>
@@ -751,7 +752,7 @@
 
                 <!-- visitng faculty  -->
 
-                                <!-- Food Science and Nutrition  -->
+                <!-- Food Science and Nutrition  -->
                 <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
                     <h2 class="text-center justify-content-center fw-bold"
                         style="color: #fff; padding: 10px; font-size: 30px;">
@@ -966,7 +967,7 @@
                             </div>
                             <h3 class="card-name">Ms. Meghna Bordoloi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                             <a href="/faculty-meghna-bordoloi" class="profile-link">View Profile</a>
+                            <a href="/faculty-meghna-bordoloi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -985,8 +986,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg"
-                                    alt="Profile image of Tinku Das">
+                                <img src="/mobile-assets/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image of Tinku Das">
                             </div>
                             <h3 class="card-name">Mr. Tinku Moni Das</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>

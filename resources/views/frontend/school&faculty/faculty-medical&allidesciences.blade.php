@@ -277,8 +277,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/subarna.png"
-                                        alt="Profile image">
+                                    <img src="/mobile-assets/updated-faculty-img/subarna.png" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Mr. Subarna Sankar Das</h3>
                                 <p class="card-designation">Assistant Professor</p>
@@ -376,7 +375,8 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg" alt="Profile image">
+                                    <img src="mobile-assets/updated-faculty-img/monalisa-faculty.jpeg"
+                                        alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Monalisha Medhi</h3>
                                 <p class="card-designation">Assistant Professor, IKS</p>
@@ -720,7 +720,7 @@
                                 <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a>
                             </div>
                         </div>
-{{--
+                        {{--
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
@@ -796,7 +796,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
+                                    <img src="/mobile-assets/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Saswati Bordoloi</h3>
                                 <p class="card-designation">Co-Coordinator, IKS Cell</p>
@@ -849,8 +849,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/Jayanta.png"
-                                        alt="Profile image ">
+                                    <img src="mobile-assets/updated-faculty-img/Jayanta.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name">Dr. Jayanta Kumar Das</h3>
                                 <p class="card-designation">Visiting Faculty</p>
@@ -1163,8 +1162,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/manna.png"
-                                        alt="Profile image">
+                                    <img src="mobile-assets/updated-faculty-img/manna.png" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Manna Debnath</h3>
                                 <p class="card-designation">Associate Professor</p>
@@ -1291,7 +1289,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image">
+                                    <img src="/mobile-assets/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Mr. Tinku Moni Das</h3>
                                 <p class="card-designation">Assistant Professor</p>
@@ -1401,8 +1399,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/chandni-khaund.png"
-                                        alt="Profile image">
+                                    <img src="/mobile-assets/updated-faculty-img/chandni-khaund.png" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Ms. Chandni Khaund</h3>
                                 <p class="card-designation">Assistant Professor</p>
@@ -1687,7 +1684,7 @@
                             </div>
                             <h3 class="card-name">Ms. Meghna Bordoloi</h3>
                             <p class="card-designation">Assistant Professor</p>
-                             <a href="/faculty-meghna-bordoloi" class="profile-link">View Profile</a>
+                            <a href="/faculty-meghna-bordoloi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1706,8 +1703,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg"
-                                    alt="Profile image of Tinku Das">
+                                <img src="/mobile-assets/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image of Tinku Das">
                             </div>
                             <h3 class="card-name">Mr. Tinku Moni Das</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>

@@ -511,8 +511,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/amar-borah.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/amar-borah.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Amar Jyoti Borah</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -559,7 +558,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image">
+                                <img src="/mobile-assets/iks/Pranab.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean Academic Affairs, IKS Cell</p>

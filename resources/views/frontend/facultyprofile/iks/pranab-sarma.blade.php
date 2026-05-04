@@ -10,8 +10,8 @@
                     <div class="row">
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
-                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;" src="https://media.rgu.ac/iks/Pranab.jpg"
-                                    alt="">
+                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
+                                    src="/mobile-assets/iks/Pranab.jpg" alt="">
                             </div>
                         </div>
 
@@ -38,8 +38,8 @@
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                          Member of Advisory Board, The Assam Royal Global University
+                        </h2> -->
 
                             <div>
 
@@ -218,9 +218,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2006: “Roles Played by Two River Valleys of Assam in the Indo-Chinese Trade
-                                            Network,” <i>Journal of
-                                                Indian Ocean Archaeology</i>, No. 3, 2006.
+
+                                            2006: Sarma, Pranab Jyoti, “Roles Played by Two River Valleys of Assam in the
+                                            Indo-Chinese Trade Network,” Journal of Indian Ocean Archaeology, Vol. 3, 2006.
                                         </span>
                                     </li>
                                     <li
@@ -228,9 +228,23 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2005: “Preliminary Report of the Third Season of Excavations at Sanjan-2004,”
-                                            <i>Journal of Indian
-                                                Ocean Archaeology</i>, No. 2, 2005.
+                                            2006: Book review on “V.K. Dabral written Buddhist Art in India and Sri Lanka (300 BC–600 AD), New Delhi: D.K. Printworld”, published in History Today, Vol. 7, 2006-07.
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            2006: Sarma, Pranab Jyoti & P. P. Joglekar, “Archaeology of Early Settlements in Dhansiri-Doyang Valley, Assam: A Study in Regional Perspective,” Bulletin of the Deccan College Post-Graduate and Research Institute, Vol. 66/67 (2006-2007), pp. 441-444. https://www.jstor.org/stable/42931473
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            2005: Dalal, K. et al., “Preliminary Report of the Third Season of Excavations at Sanjan-2004,” Journal of Indian Ocean Archaeology, Vol. 2, 2005.
                                         </span>
                                     </li>
 
@@ -249,9 +263,16 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            “Historical Myth or Mythological History: A Fresh Approach to Understand the
-                                            History of Assam”,
-                                            Space and Culture – India, 2(3): 61. DOI:10.20896/saci.v2i3.94
+                                            2025: Sarma, Pranab Jyoti, “Decolonizing Indian Knowledge Systems: Towards a Plural and Inclusive Framework,” South East Asian Review (SEAR), Vol. 50, 2025. https://doi.org/10.32381/SEAR.2025.50.3
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            2014: Sarma, Pranab Jyoti, “Historical Myth or Mythological History: A Fresh Approach to Understand the History of Assam”, Space and Culture – India, Vol. 2, No. 3, 2014. DOI:10.20896/saci.v2i3.94 [Scopus indexed]
                                         </span>
                                     </li>
 
@@ -259,7 +280,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Books Chapter Published: 2
+                                    Books Chapter Published: 3
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -269,11 +290,16 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2014: “Situating Northeast Indian Archaeology in Chronological Perspective:
-                                            Fresh Observations”, in
-                                            Tiatoshi Jamir and Manjil Hazarika (eds.), <i>50 Years after Daojali-Hading:
-                                                Emerging Perspectives
-                                                in the Archaeology of Northeast India</i>.
+                                            2026: Sarma, Pranab Jyoti. “A Decade of Act East Policy and the Emerging Role of Indian Knowledge Systems.” (Act East Policy, edited by Dr. Manjil Hazarika, Cotton University, Assam).
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            2014: Sarma, Pranab Jyoti & Manjil Hazarika, “Situating Northeast Indian Archaeology in Chronological Perspective: Fresh Observations,” in Tiatoshi Jamir and Manjil Hazarika (eds.), 50 Years after Daojali-Hading: Emerging Perspectives in the Archaeology of Northeast India. New Delhi: Research India Publications.
                                         </span>
                                     </li>
                                     <li
@@ -281,11 +307,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2011: “Reconstructing the Medieval Fort at Numoligarh: A Multidisciplinary
-                                            Approach”, in Madhu
-                                            Rajput (ed.), <i>Social and Cultural Stratification in North East India</i>. New
-                                            Delhi: Manak
-                                            Publications.
+                                            2011: Sarma, Pranab Jyoti, “Reconstructing the Medieval Fort at Numoligarh: A Multidisciplinary Approach”, in Madhu Rajput (ed.), Social and Cultural Stratification in North East India. New Delhi: Manak Publications.
                                         </span>
                                     </li>
 
@@ -366,7 +388,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://media.rgu.ac/iks/Pranab.jpg" alt="">
+                                src="/mobile-assets/iks/Pranab.jpg" alt="">
                         </div>
 
                     </div>
@@ -383,8 +405,8 @@
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                          Member of Advisory Board, The Assam Royal Global University
+                        </h2> -->
 
                     </div>
 

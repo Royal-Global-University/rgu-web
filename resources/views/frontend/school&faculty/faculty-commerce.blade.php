@@ -480,8 +480,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Pranab.jpg"
-                                    alt="Profile image of Dr. Pranabjyoti Sarma">
+                                <img src="/mobile-assets/iks/Pranab.jpg" alt="Profile image of Dr. Pranabjyoti Sarma">
                             </div>
                             <h3 class="card-name">Dr. Pranabjyoti Sarma</h3>
                             <p class="card-designation">Assistant Professor, IKS Cell</p>
@@ -540,7 +539,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg"
+                                <img src="/mobile-assets/iks/Dr.SaswatiBordoloi.jpeg"
                                     alt="Profile image of Dr. Saswati Bordoloi">
                             </div>
                             <h3 class="card-name">Dr. Saswati Bordoloi</h3>

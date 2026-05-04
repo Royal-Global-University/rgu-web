@@ -1,607 +1,309 @@
 @extends('frontend.master')
 @section('content')
-    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
+        <!-- copy this inside the body  -->
+    <style>
+        /* Mobile (Up to 1024px) - Controls visibility */
+        @media only screen and (max-width: 1024px) {
+            .faculty-bio-desktop-display {
+                display: none !important;
+            }
+
+            .faculty-bio-mobile-display {
+                display: block !important;
+            }
+        }
+
+        /* Desktop (1025px+) - Controls visibility */
+        @media only screen and (min-width: 1025px) {
+            .faculty-bio-desktop-display {
+                display: block !important;
+            }
+
+            .faculty-bio-mobile-display {
+                display: none !important;
+            }
+        }
+    </style>
+
+    <style>
+        /* 1. White Section Spacing Logic */
+        .faculty-bio-white-section {
+            background-color: #fff;
+            position: relative;
+        }
+
+        @media (min-width: 1025px) {
+            .faculty-bio-white-section {
+                height: 42vh;
+                overflow: visible;
+            }
+
+            .faculty-bio-img {
+                margin-top: 100px;
+                width: 480px;
+                margin-left: 45px;
+            }
+
+            .faculty-bio-name-pad {
+                padding-top: 3rem;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .faculty-bio-white-section {
+                height: 40vh;
+                padding-top: 90px;
+            }
+
+            .faculty-bio-img {
+                margin-top: 70px;
+                width: 380px;
+            }
+        }
+
+        /* 2. Image Border Style (Common) */
+        .faculty-bio-img {
+            border: 1px solid #27467A;
+            max-width: 100%;
+            /* Safety for very small screens */
+        }
+
+        /* 3. Font Styles (Responsive) */
+        .faculty-bio-main-name {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            color: #FF9A1E;
+        }
+
+        .faculty-bio-designation {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Desktop Font Sizes */
+        @media (min-width: 1025px) {
+            .faculty-bio-main-name {
+                font-size: 45px;
+            }
+
+            .faculty-bio-designation {
+                font-size: 26px;
+                color: #27467A;
+            }
+        }
+
+        /* Mobile Font Sizes */
+        @media (max-width: 1024px) {
+            .faculty-bio-main-name {
+                font-size: 35px;
+            }
+
+            .faculty-bio-designation {
+                font-size: 20px;
+                color: #fff;
+            }
+
+            /* White title on blue bg */
+        }
+
+        /* 4. Underline Style */
+        .faculty-bio-underline-effect::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 300px;
+            height: 4px;
+            background-color: #FF9A1E;
+        }
+
+        /* 5. List Styles (Blue Section) */
+        .faculty-bio-blue-section {
+            background-color: #27467A;
+            padding-bottom: 50px;
+        }
+
+        @media (max-width: 1024px) {
+            .faculty-bio-blue-section {
+                padding-top: 190px;
+            }
+        }
+
+        .faculty-bio-sub-heading {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            font-weight: 700;
+            font-style: italic;
+            color: #FF9A1E;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .faculty-bio-info-list {
+            list-style: none;
+            padding-left: 0;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        .faculty-bio-info-list li {
+            display: flex;
+            align-items: flex-start;
+            line-height: 1.8;
+            margin-bottom: 8px;
+        }
+
+        .faculty-bio-info-list i {
+            font-size: 8px;
+            margin-right: 10px;
+            margin-top: 12px;
+            flex-shrink: 0;
+        }
+    </style>
+
+    <section>
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div style="background-color: #fff; height: 40vh; padding-top: 90px;">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <div class="text-center">
-                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 pt-3"></div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6"></div>
-                        <div class="col-lg-6 pt-4 pb-4">
-
-                            <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Susmita Banerjee
-                            </h2>
-
-                            <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor
-                            </h2>
-
-                            <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
-
-                            <div>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Qualifications
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ph.D., 2024 – Subaltern History, Tripura University
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            M.A., 2017 – Modern History, Tripura University
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            B.A., 2015 – History, Tripura University
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Total Experience:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            12 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Academic Experience:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            03 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Industry Experience (Media):
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            09 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research Interest:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            History of Subaltern Communities
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ethnographic and Cultural Studies
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Modern Indian History and Social Reform Movements
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Conflict, Insurgency, and Rehabilitation
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Paper Publications in Journals:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            National: UGC CARE listed
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Women at the Crossroads: Insurgency and Internal Displacement in Tripura”
-                                            published in Sarkar,
-                                            Anil
-                                            Kumar (ed.), Journal of People’s History and Culture, Volume 10, No. 2, Pages
-                                            58-69, December
-                                            2024,
-                                            ISSN: 2395-7379.
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            International: SCOPUS-indexed Journal:
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Indigenous Knowledge Systems and Sustainable Learning: A Comprehensive Regional
-                                            Analysis Of
-                                            Northeast India, published in International Journal of Environmental Sciences,
-                                            Vol. 11, No. 16s,
-                                            2025, Pages 1999-2012,July 2025, ISSN: 2229-7359
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Chapters Published:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            “Matriarchs of Power: The Socio-Economic and Political Legacy of Queens from the
-                                            Manikya Dynasty
-                                            of
-                                            Tripura” in Dr. Kemee Das, et.al. (ed.), <i>Gender and Society</i> (pp.
-                                            127–138). Purbayan
-                                            Publication, ISBN: 978-93-5860-606-5.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            “Introduction to Indian Knowledge Systems (IKS)” in Dr. Saswati Bordoloi (ed.)
-                                            <i>Bridging Ancient
-                                                Wisdom and Modern Knowledge: Indian Knowledge Systems</i> (pp. 15–64). The
-                                            Assam Royal Global
-                                            University, ISBN: 978-81-980420-5-7.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            “A Case Study on the Indigenous Knowledge System and Practices of Tribal
-                                            Communities of Tripura”
-                                            in
-                                            R. N. Sen (ed.), <i>Indigenous Knowledge and Practices</i> (pp. 85–96). Akansha
-                                            Publishing House,
-                                            ISBN: 978-93-48001-29-0.
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Awarded Gold Medal in History from Tripura University in 2018.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            National Award as the Third Best Speaker at the 13th National Level Youth
-                                            Parliament Competition
-                                            for
-                                            Universities in 2016–17 by the Ministry of Parliamentary Affairs.
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
-
         <div class="website">
             @include('frontend/components/aheader')
-            <div style="background-color: #fff; height: 35vh; overflow: visible;">
+        </div>
 
+        <div class="faculty-bio-white-section">
+            <div class="container">
                 <div class="row">
+
                     <div class="col-lg-5 text-center">
-
                         <div class="text-center">
-                            <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png" alt="">
+                            <img class="faculty-bio-img" style="height: 400px; width: 400px;"
+                                src="/mobile-assets/updated-faculty-img/susmita-b.jpeg"
+                                alt="">
                         </div>
-
                     </div>
 
-                    <div class="col-lg-7 pt-5">
-
-                        <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Susmita Banerjee
-                        </h2>
-
-                        <h2 class="headd3 mb-5 fw-bold half-underline"
-                            style="color: #27467A; font-weight: 700; font-size: 26px;">
-                            Assistant Professor
-                        </h2>
-
-                        <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
-
+                    <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
+                        <div class="faculty-bio-name-pad">
+                            <h2 class="faculty-bio-main-name mb-3 pt-5">
+                                Dr. Susmita Banerjee
+                            </h2>
+                            <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
+                                Assistant Professor
+                            </h2>
+                        </div>
                     </div>
 
                 </div>
             </div>
+        </div>
 
-            <div style="background-color: #27467A;">
+        <div class="faculty-bio-blue-section">
+            <div class="container">
+                <div class="row">
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5"></div>
-                        <div class="col-lg-7 pt-4 pb-4">
+                    <div class="col-lg-5"></div>
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Qualifications
+                    <div class="col-lg-7 pt-4 pb-4">
+
+                        <div class="faculty-bio-mobile-display">
+                            <h2 class="faculty-bio-main-name fw-bold pt-4">
+                                Dr. Susmita Banerjee
                             </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Ph.D., 2024 – Subaltern History, Tripura University
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        M.A., 2017 – Modern History, Tripura University
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        B.A., 2015 – History, Tripura University
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Total Experience:
+                            <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
+                                Assistant Professor
                             </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        12 years
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Academic Experience:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        03 years
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Industry Experience (Media):
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        09 years
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research Interest:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        History of Subaltern Communities
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Ethnographic and Cultural Studies
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Modern Indian History and Social Reform Movements
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Conflict, Insurgency, and Rehabilitation
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Paper Publications in Journals:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        National: UGC CARE listed
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Women at the Crossroads: Insurgency and Internal Displacement in Tripura” published
-                                        in Sarkar, Anil
-                                        Kumar (ed.), Journal of People’s History and Culture, Volume 10, No. 2, Pages 58-69,
-                                        December 2024,
-                                        ISSN: 2395-7379.
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        International: SCOPUS-indexed Journal:
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Indigenous Knowledge Systems and Sustainable Learning: A Comprehensive Regional
-                                        Analysis Of
-                                        Northeast India, published in International Journal of Environmental Sciences, Vol.
-                                        11, No. 16s,
-                                        2025, Pages 1999-2012,July 2025, ISSN: 2229-7359
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Book Chapters Published:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        “Matriarchs of Power: The Socio-Economic and Political Legacy of Queens from the
-                                        Manikya Dynasty of
-                                        Tripura” in Dr. Kemee Das, et.al. (ed.), <i>Gender and Society</i> (pp. 127–138).
-                                        Purbayan
-                                        Publication, ISBN: 978-93-5860-606-5.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        “Introduction to Indian Knowledge Systems (IKS)” in Dr. Saswati Bordoloi (ed.)
-                                        <i>Bridging Ancient
-                                            Wisdom and Modern Knowledge: Indian Knowledge Systems</i> (pp. 15–64). The Assam
-                                        Royal Global
-                                        University, ISBN: 978-81-980420-5-7.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        “A Case Study on the Indigenous Knowledge System and Practices of Tribal Communities
-                                        of Tripura” in
-                                        R. N. Sen (ed.), <i>Indigenous Knowledge and Practices</i> (pp. 85–96). Akansha
-                                        Publishing House,
-                                        ISBN: 978-93-48001-29-0.
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievements/Awards:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Awarded Gold Medal in History from Tripura University in 2018.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        National Award as the Third Best Speaker at the 13th National Level Youth Parliament
-                                        Competition for
-                                        Universities in 2016–17 by the Ministry of Parliamentary Affairs.
-                                    </span>
-                                </li>
-
-                            </ul>
-
                         </div>
+
+                        <h2 class="faculty-bio-sub-heading">Qualifications</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>Ph.D. in Gender History.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>MA in Modern History</span></li>
+
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>15 years</span></li>
+                        </ul>
+
+
+                        <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>4 years</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Industry Experience:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>11 years in Electronic Media</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Specialization:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i><span>Gender History</span></li>
+                            <li><i class="fa fa-circle"></i><span>Tribal History</span></li>
+                            <li><i class="fa fa-circle"></i><span>Ethnographic and Cultural Studies</span></li>
+                            <li><i class="fa fa-circle"></i><span>Modern Indian History and Social Reform
+                                    Movements</span></li>
+                            <li><i class="fa fa-circle"></i><span>Conflict, Insurgency, and Rehabilitation.</span></li>
+                        </ul>
+
+
+                        <h2 class="faculty-bio-sub-heading">Paper Published:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>07</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Book Chapters:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>02</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Projects:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>1 (ongoing)</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Seminars and Conferences:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>20</span></li>
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>Awarded Gold Medal in History from Tripura University
+                                    in 2018.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Delivered a Lecture as a resource person on “Yoga and
+                                    Indian Knowledge System” organised by VKIC, Uzanbazar, Guwahati on
+                                    16.06.2025.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Delivered a Lecture as a resource person on “Netaji
+                                    Subhas Chandra Bose: The Rebel Who Redefined Patriotism” organised by Virasat Volume
+                                    lecture Series #7 at Royal Global School on 22nd January, 2026</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Delivered a Lecture (online) as a resource person on
+                                    “Writing History from Below: Dalit Historiography, Memory, and Resistance in Modern
+                                    India — Reading Ambedkar and Periyar Together” organised by Scholars’ Circuli on
+                                    11th April, 2026.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Delivered a Lecture (online) on as a resource person
+                                    on “Beyond the Archive:
+                                    Narrating Tribal and Subaltern Histories in Contemporary Scholarship” organised by
+                                    Nucleus of Learning and Development on 18th April, 2026.</span></li>
+
+                        </ul>
+
+                        <h2 class="faculty-bio-sub-heading">Memberships:</h2>
+                        <ul class="faculty-bio-info-list">
+                            <li><i class="fa fa-circle"></i> <span>Lifetime Membership in North East India Historical Association (NEIHA)</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Annual Membership in Indian History Congress (IHC)</span></li>
+
+                        </ul>
 
                     </div>
                 </div>
-
             </div>
-
         </div>
 
     </section>
+    <!-- copy this inside the body  -->
 @endsection
