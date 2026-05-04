@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-faculty-honoured-with-best-scientist-award', function () {
+    return view('frontend/media-corner/2026/news12');
+})->name('royal-global-university-faculty-honoured-with-best-scientist-award');
+
 Route::get('/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff', function () {
     return view('frontend/media-corner/2026/news11');
 })->name('may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff');

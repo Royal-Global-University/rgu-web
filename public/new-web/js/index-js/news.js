@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 4, 2026",
+            title: "Royal Global University Faculty Honoured with Best Scientist Award",
+            desc: "Jebin Sultana, Assistant Professor and Coordinator in the Department of Food Science and Nutrition (Nutrition & Dietetics) at The Assam Royal Global University (RGU), has been conferred the prestigious Best Scientist Award in Food and Nutrition – 2026 at the 13th International Conference on Frontiers in Science and Technology for Sustainable Agricultural and Environmental Development (FSTSAED-2026).",
+            img: "/mobile-assets/media-corner/2026/may/1.jpeg",
+            link: "/royal-global-university-faculty-honoured-with-best-scientist-award",
+        },
+        {
             date: "Guwahati, April 30, 2026",
             title: "May Day celebrated at RGU with Cultural Fervour and Gratitude to Support Staff",
             desc: "The Assam Royal Global University (RGU) celebrated International Workers’ Day with great enthusiasm, respect, and cultural vibrancy at the university campus today. The celebration was organised to honour the invaluable contribution, dedication, and tireless service of the support staff members of Royal Global University and Royal Global School, whose relentless efforts ensure the smooth functioning of the institution every day.",
