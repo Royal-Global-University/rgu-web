@@ -449,7 +449,7 @@
                 <div class="phd-category">
                     <h3>Allied Health Sciences</h3>
                     <div class="phd-links">
-                        <a href="/doctoral-medical-laboratory-technology">Medical Laboratory Technology</a>
+                        <a href="/doctoral-medical-laboratory-technology">Medical Laboratory Sciences</a>
                         <a href="/doctoral-nutrition&dietetics">Nutrition And Dietetics</a>
                         <a href="/doctoral-pharmacy">Pharmacy</a>
                         <a href="/doctoral-physiotherapy">Physiotherapy</a>
@@ -974,6 +974,24 @@
                             <!-- Bootstrap JS (REQUIRED) -->
                             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                         </div>
+                    </div>
+
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                                aria-controls="collapseTen">
+                                Ph.D. Scholars
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body mt-3 mb-3">
+                                <a href="/phd-scholars" class="rounded bg-danger text-white fw-bold"
+                                    style="padding: 20px">Click to View</a>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="accordion-item mb-2">

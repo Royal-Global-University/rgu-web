@@ -1,2249 +1,2390 @@
- @extends('frontend.master')
+@extends('frontend.master')
 @section('content')
-         <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
-
-        <div class="mobile">
-          @include('frontend/components/mobileheader')
-          <!-- till about dept  -->
-          <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
-
-            <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-              <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Social Work</span>
-            </h1>
-
-            <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
-              <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-              Humanities & Social Sciences (RSHSS)
-            </h2>
-
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-lg-12">
-
-                  <div class="txaa-slide-down-1">
-                    <div style=" height: 400px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                      <img class="rounded" decoding="async" src="mobile-assets/department-all/dept-social-work/head-img.png"
-                        alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-
-                  <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                    About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                  <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                    The Social Work Department at The Assam Royal Global University is dedicated to developing skilled
-                    professionals who are equipped to address complex social issues with compassion and expertise. Our
-                    department's strength lies in a comprehensive curriculum which integrates theory with hands-on practice
-                    through extensive fieldwork opportunities, cutting-edge research, and community engagement. With a focus
-                    on areas such as community development, psychiatric social work, family and child welfare, and
-                    livelihood & social entrepreneurship, our programmes emphasize both the micro and macro aspects of
-                    social work practice. Our faculty consists of experienced practitioners and researchers who bring a
-                    wealth of knowledge and practical insights to the classroom. Prospects for our graduates are promising,
-                    with opportunities in the development sector including healthcare, non-profits, government agencies, and
-                    international organizations. Our alumni network is strong and active, providing ongoing support and
-                    professional development opportunities. We are committed to fostering a learning environment that
-                    promotes innovation, ethical practice, and a commitment to social change, preparing our students to be
-                    leaders in the field of social work.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="pt-3">
-
-              <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
-                <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-              </h1>
-
-              <img src="mobile-assets/department-all/dept-social-work/vision-mission-mob.png" alt="">
-            </div>
-
-
-          </section>
-          <!-- till about dept  -->
-
-          <!-- courses offered  -->
-          <div class="container">
-            <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-              Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-            <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-              <!-- Heading Section -->
-              <div
-                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                <span style="font-size: 16px;">Master of Social Work</span>
-                <span
-                  style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-              </div>
-
-              <!-- Statute Items -->
-              <a target="_blank" href="#" style="text-decoration:none;">
-                <div
-                  style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                  <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">2 years</span>
-                  <span>
-                    <a class="para1 fw-bold"
-                      style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                      href="">View Details</a>
-                  </span>
-                </div>
-              </a>
-            </div>
-
-            <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-              <!-- Heading Section -->
-              <div
-                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">Bachelor of Social Work</span> |
-                <span style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">
-                  Honours/ Honours with Research
-                </span>
-
-                <span
-                  style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-              </div>
-
-              <!-- Statute Items -->
-              <a target="_blank" href="#" style="text-decoration:none;">
-                <div
-                  style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                  <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years as per NEP</span>
-                  <span>
-                    <a class="para1 fw-bold"
-                      style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                      href="">View Details</a>
-                  </span>
-                </div>
-              </a>
-            </div>
-
-          </div>
-          <!-- courses offered  -->
-
-          <!-- syllabus  -->
-          <div class="container">
-            <div>
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-              </h2>
-
-              <div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="accordion para1" id="mobileAccordionCourses" style="border-radius: 12px; overflow: hidden;">
-
-                      <!-- UG -->
-                      <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                            aria-controls="collapseOne">
-                            <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                              <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/structure-syllabus.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                              <a href="/mobile-assets/syllabus/RSHSS/BSW_syllabus.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BSW
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- PG -->
-                      <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                            aria-controls="collapseTwo">
-                            <i class="fa fa-university me-2"></i> Post Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                              <a href="/mobile-assets/syllabus/RSHSS/MSW_syllabus.pdf"
-                                target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MSW
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- Doctoral -->
-                      <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                            aria-controls="collapseThree">
-                            <i class="fa fa-book me-2"></i> Doctoral Programme
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <a href="doctoral-programme" class="para1" target="_blank"
-                              style="color: #27467A; font-weight: 600; text-decoration: none;">
-                              <i class="fa fa-external-link me-2"></i> Click to View...
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- syllabus  -->
-
-          <!-- events and highlights  -->
-          <div class="container pb-4">
-
-            <!-- mobile events  -->
-            <div class="row" style="display: flex; justify-content: center;">
-              <div class="col-lg-12">
-                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                  Events
-                </h2>
-
-                <div style="max-width: 100%; position: relative;">
-                  <div style="border: 1px solid #ccc;">
-
-                    <div id="mobileEventScrollContainer"
-                      style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                      <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                        <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">Mr. Shivalal Gautam, Co-Founder of
-                                  Xomonnoy, delivered an invited talk on Gender and Social
-                                  Exclusion.</div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Mohan Sharma, a researcher, delivered an invited talk on Human-Animal
-                                  Relationship.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Ms. Juree Hojai, Program Officer of Disability Inclusion at Team Lease Foundation,
-                                  conducted an interactive session on careers in the development sector.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative Trust, Dibrugarh,
-                                  along
-                                  with Mr. Henry Wood from the University of Durham, UK, conducted an interactive
-                                  session.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Ms. Manjari Nandy, Assistant Professor in the Department of Sociology at The Maharaja
-                                  Sayajirao University of Baroda and Ph.D. scholar at the Central University of Gujarat,
-                                  delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Bhargabi Das, Assistant Professor in the Department of Rural Management at Shiv
-                                  Nadar
-                                  Institution of Eminence, Greater Noida, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Ms. Suchismita Majumdar, Founder-Director of Swabalambi Foundation, and Mr. Kanhaiya
-                                  Lal,
-                                  Senior Co-Worker in Education at SOS Village of Children, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Bitasta Das, Senior Editor and Instructor at the Indian Institute of Science,
-                                  Bangalore,
-                                  conducted a two-day workshop on the intersectionality of social sciences.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Prof. (Dr.) Surajit Ch. Mukhopadhyay, Dean of RSHSS, participated as an in-house
-                                  resource
-                                  person.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Joseph Riamei, Assistant Professor from the School of Social Work at TISS Guwahati
-                                  Off-Campus, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Ms. Nipurnh Gupta, a global development communication professional from UNICEF,
-                                  delivered an
-                                  invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Mukund Marodia, Manager of Strategic and Academic Affairs at the Indian School of
-                                  Development Management, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Sriparna B. Baruah, former Head (CIE) and Director I/C at IIE, currently Advisor
-                                  (Livelihood & Entrepreneurship) at NEHHDC, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Nayan Jyoti Hazarika, Ph.D. scholar from the Department of Social Work, delivered
-                                  an
-                                  invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Shivani Chauhan Barooah, Chairperson of the Centre for Labour Studies and Social
-                                  Protection at TISS Guwahati, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Gayatri Gogoi (AMCH and Pratishruti Trust), Dr. Pankaj Deka (Health City
-                                  Hospital), and
-                                  Ms. Nabanita Kalita (N.E News & Prag News) delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Anupam Joya Sharma, a doctoral fellow of Social Epidemiology at IIT Gandhinagar,
-                                  delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Aarushi Kehkar Malhotra, Senior Manager of Research, Advocacy, and Wellness at
-                                  Sirona
-                                  Hygiene Foundation, delivered an invited talk online.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Sahbaz Ahmed and Mr. Syed Rizwan Ahmed, Advocates from Gauhati High Court,
-                                  delivered an
-                                  invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Ms. Archana Borthakur of Priya Bondhu and Mr. Uttam Teron of Parijat Academy delivered
-                                  an
-                                  invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Ashok Kumar Das (Dr. B. Barooah Cancer Institute) and Dr. Mythili Hazarika
-                                  (Gauhati
-                                  Medical College and Hospital) delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Mr. Miguel Das Queah, Executive Director of UTSAH, delivered an invited talk.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr style="border-bottom: 1px solid #ddd;">
-                            <td style="display: flex; align-items: center; padding: 12px;">
-                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                              <div>
-                                <div style="font-weight: bold; color: #27467A; ">
-                                  Dr. Razdan Sarim Rahman, Assistant Professor at TISS Guwahati, visited the department.
-                                </div>
-
-                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                  ...</a>
-                              </div>
-                            </td>
-                          </tr>
-
-                        </tbody>
-                      </table>
-                    </div>
-
-                  </div>
-
-                  <div style="text-align: center; margin-top: 15px;">
-                    <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                      View All
-                    </a>
-                  </div>
-
-
-                </div>
-
-                <script>
-                  const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                  const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                  // Duplicate content for infinite scroll (mobile)
-                  mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                  let mobileEventScrollPos = 0;
-                  const mobileEventScrollSpeed = 0.6;
-
-                  function mobileEventScrollStep() {
-                    mobileEventScrollPos += mobileEventScrollSpeed;
-                    if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                      mobileEventScrollPos = 0;
-                    }
-                    mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                    requestAnimationFrame(mobileEventScrollStep);
-                  }
-
-                  mobileEventScrollStep();
-                </script>
-
-              </div>
-            </div>
-            <!-- mobile events  -->
-
-          </div>
-          <!-- events and highlights  -->
-
-          <!-- Mobile-Friendly Board of Studies & DRC -->
-          <div id="bos-mobile" class="container pb-5">
-
-            <!-- Board of Studies -->
-            <div style="margin-bottom:20px;">
-              <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                <i class="fa fa-users me-2"></i> The Board of Studies
-                <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-              </button>
-
-              <div id="mobAccPanel1"
-                style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th>S.No.</th>
-                                <th>Position in D-Bos</th>
-                                <th>Name and Designation</th>
-                              </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-
-                              <tr>
-                                <td>1</td>
-                                <td>Convener (Ex-Officio) - Head of the Department</td>
-                                <td>Dr. Y. Monojit Singha, Assistant Professor & Co-ordinator</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td rowspan="10">All Faculty members of the Department Members (Ex-Officio)</td>
-                                <td>Dr. Dhiraj Borkotoky, Associate Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Baba Chandra Singha, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Krishangi Saikia, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Sushmita Hoshi N., Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Tanjeela Mehboob, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Abhinav Chaliha, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Monisha Bordoloi, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Rhitwique Dutta, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Mustafa Syed Ihtimum Alam, Teaching Assistant</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Birina Borthakur, Teaching Assistant</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>External Expert (Academic)</td>
-                                <td>
-                                  Prof. Subrajyoti Konwar, Professor, Department of Political Science, Gauhati University,
-                                  Guwahati<br>
-                                  Dr. Dilip Gogoi, Associate Professor, Department of Political Science, Cotton University,
-                                  Guwahati
-                                </td>
-                              </tr>
-
-                            </tbody>
-                          </table>
-                </div>
-
-              </div>
-            </div>
-
-            <!-- Departmental Research Committee (DRC) -->
-            <div>
-              <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-              </button>
-
-              <div id="mobAccPanel2"
-                style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th class="text-white">S.No.</th>
-                                <th class="text-white">Content</th>
-                                <th class="text-white">Name of the Member</th>
-                                <th class="text-white">Designation</th>
-                                <th class="text-white">Designation in the committee</th>
-                              </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                              <tr>
-                                <td>1.</td>
-                                <td>Head of the Department</td>
-                                <td>Prof. (Dr.) Sajal Nag</td>
-                                <td>Dean, RSHSS</td>
-                                <td>Chairperson</td>
-                              </tr>
-                              <tr>
-                                <td rowspan="2">2.</td>
-                                <td rowspan="2" class="align-middle">
-                                  Two Assistant Professors holding Ph.D. degree
-                                </td>
-                                <td>Dr. Priyanka Patowari</td>
-                                <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                                <td>Member</td>
-                              </tr>
-                              <tr>
-                                <td>Dr. T Luithuiwung Awungshi</td>
-                                <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                                <td>Member</td>
-                              </tr>
-                              <tr>
-                                <td rowspan="3">3.</td>
-                                <td rowspan="3" class="align-middle">
-                                  Three external members not below the rank of Professors,
-                                  including members from an allied department, who will be
-                                  nominated by the URC
-                                </td>
-                                <td>Prof. Gautam Mazumder</td>
-                                <td>Professor, Department of Economics, RSHSS, RGU</td>
-                                <td>External Member</td>
-                              </tr>
-                              <tr>
-                                <td>Prof. Swabera Islam</td>
-                                <td>Professor, Department of Economics, RSHSS, RGU</td>
-                                <td>External Member</td>
-                              </tr>
-                              <tr>
-                                <td>Prof. Shiela Bora</td>
-                                <td>
-                                  Professor &amp; Advisor, Department of History, RSHSS, RGU
-                                </td>
-                                <td>External Member</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                </div>
-
-              </div>
-            </div>
-
-            <!-- Departmental Research Committee (DRC) -->
-            <div class="mt-3">
-              <button id="mobAccBtn3" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:15px; cursor:pointer; border-radius:12px;">
-                <i class="fa fa-magnifying-glass me-2"></i> Ph.D. Research and Research Interest
-                <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-              </button>
-
-              <div id="mobAccPanel3"
-                style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th>S.No.</th>
-                                <th>Name</th>
-                                <th>Qualification</th>
-                                <th>Research</th>
-                              </tr>
-
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                              <tr>
-                                <td>1</td>
-                                <td>Dr. T Luithuiwung Awungshi</td>
-                                <td>Ph.D.</td>
-                                <td>Youth, Drug Abuse, Family & Child Welfare</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>Dr. Amlan Das</td>
-                                <td>Ph.D.</td>
-                                <td>Disability Studies, Rural Development, Family & Child Welfare</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>Dr. Madhu Monjuri Gohain</td>
-                                <td>Ph.D.</td>
-                                <td>Residential Education and Migration</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-
-          <script>
-            const mobAccPairs = [
-              { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
-              { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
-              { btn: 'mobAccBtn3', panel: 'mobAccPanel3' },
-            ];
-
-            function closeAllMob() {
-              mobAccPairs.forEach(p => {
-                const b = document.getElementById(p.btn);
-                const panel = document.getElementById(p.panel);
-                if (panel) panel.style.display = 'none';
-                if (b) {
-                  b.setAttribute('aria-expanded', 'false');
-                  const sp = b.querySelector('span');
-                  if (sp) sp.textContent = '＋';
-                }
-              });
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+
+    </div>
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+
+    </div>
+
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-socialwork-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-socialwork-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-socialwork-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-socialwork-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-socialwork-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-socialwork-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-socialwork-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-socialwork-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-socialwork-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-socialwork-content {
+            flex: 1;
+        }
+
+        .dept-socialwork-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-socialwork-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-socialwork-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-socialwork-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-socialwork-floating {
+            position: fixed;
+            left: 30px;
+            top: 57%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-socialwork-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-socialwork-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-socialwork-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-socialwork-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-socialwork-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-socialwork-float-item:hover .dept-socialwork-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-socialwork-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-socialwork-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-socialwork-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
             }
 
-            mobAccPairs.forEach(p => {
-              const b = document.getElementById(p.btn);
-              const panel = document.getElementById(p.panel);
-              if (!b || !panel) return;
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-              b.addEventListener('click', function () {
-                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                if (isOpen) {
-                  panel.style.display = 'none';
-                  this.setAttribute('aria-expanded', 'false');
-                  const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                } else {
-                  closeAllMob();
-                  panel.style.display = 'block';
-                  this.setAttribute('aria-expanded', 'true');
-                  const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                }
-              });
-            });
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
 
-            document.addEventListener('keydown', function (e) {
-              if (e.key === 'Escape') closeAllMob();
-            });
-          </script>
-          <!-- Mobile-Friendly Board of Studies & DRC -->
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-socialwork-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-socialwork-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-socialwork-img img {
+                padding-left: 0%;
+            }
+
+            .dept-socialwork-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-socialwork-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-socialwork-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-socialwork-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-socialwork-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-socialwork-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-socialwork-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-socialwork-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-socialwork-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-socialwork-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-socialwork-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-socialwork-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-socialwork-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-socialwork-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-socialwork-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-socialwork-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-socialwork-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-socialwork-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-socialwork-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-socialwork-img img {
+                padding-left: 0%;
+            }
+
+            .dept-socialwork-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-socialwork-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-socialwork-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-socialwork-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-socialwork-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-socialwork-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-socialwork-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-socialwork-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-socialwork-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-socialwork-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-socialwork-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-socialwork-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-socialwork-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-socialwork-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-socialwork-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-socialwork-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-socialwork-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-socialwork-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-socialwork-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-socialwork-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-socialwork-accordion-item.active .dept-socialwork-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-socialwork-accordion-item.active .dept-socialwork-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-socialwork-accordion-item.active .dept-socialwork-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-socialwork-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-socialwork-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-socialwork-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-socialwork-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-socialwork-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-socialwork-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-socialwork-syllabus-link:hover .dept-socialwork-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-socialwork-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-socialwork-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-socialwork-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* LEFT ALIGN EVERYTHING */
+            text-align: left;
+        }
+
+        .dept-socialwork-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+
+        }
+
+        /* Intro Text */
+        .dept-socialwork-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 0vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-socialwork-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-socialwork-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 5 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-socialwork-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-socialwork-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-socialwork-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-socialwork-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-socialwork-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-socialwork-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-socialwork-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-socialwork-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-socialwork-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+
+        /* ================= WRAPPER ================= */
+        .dept-socialwork-events-wrapper {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        /* ================= EVENTS SECTION (LEFT 50%) ================= */
+        .dept-socialwork-events-section {
+            order: 1;
+            flex: 0 0 calc(50% - 1rem);
+            width: calc(50% - 1rem);
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-socialwork-events-box {
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-socialwork-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 80s linear infinite;
+        }
+
+        .dept-socialwork-events-box:hover .dept-socialwork-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-socialwork-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-socialwork-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-socialwork-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= HIGHLIGHTS SECTION (RIGHT 50%) ================= */
+        .dept-socialwork-highlights-section {
+            order: 2;
+            flex: 0 0 calc(50% - 1rem);
+            width: calc(50% - 1rem);
+            margin-top: 3vw;
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 768px) {
+            .dept-socialwork-events-wrapper {
+                flex-direction: column;
+            }
+
+            .dept-socialwork-events-section,
+            .dept-socialwork-highlights-section {
+                flex: 0 0 100%;
+                width: 100%;
+                order: unset;
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-socialwork-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-socialwork-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-socialwork-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-socialwork-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-socialwork-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-socialwork-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-socialwork-table-acc.active .dept-socialwork-table-content {
+            padding: 20px;
+        }
+
+        .dept-socialwork-table-acc.active .dept-socialwork-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-socialwork-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-socialwork-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-socialwork-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-socialwork-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-socialwork-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-socialwork-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-socialwork-table td,
+        .dept-socialwork-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+        .dept-socialwork-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-socialwork-event-card {
+            max-width: 1300px;
+            margin: 0 auto 40px;
+        }
+
+        .dept-socialwork-event-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* MARQUEE BOX */
+        .dept-socialwork-marquee {
+            overflow: hidden;
+            border-radius: 12px;
+            /* background: #fff; */
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            /* border-top: 4px solid var(--accent); */
+        }
+
+        /* TRACK */
+        .dept-socialwork-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: marqueeScroll 80s linear infinite;
+        }
+
+        /* PAUSE ON HOVER */
+        .dept-socialwork-marquee:hover .dept-socialwork-marquee-track {
+            animation-play-state: paused;
+        }
+
+        /* IMAGE */
+        .dept-socialwork-marquee img {
+            height: 300px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* ANIMATION */
+        @keyframes marqueeScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .dept-socialwork-marquee img {
+                height: 160px;
+            }
+        }
+
+        /* ================= ACHIEVEMENT SECTION ================= */
+        .dept-socialwork-achievement-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Tabs */
+        .dept-socialwork-achievement-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .dept-achievement-tab {
+            padding: 12px 25px;
+            border-radius: 40px;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-achievement-tab:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .dept-achievement-tab.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Content Box */
+        .dept-socialwork-achievement-content {
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            padding: 20px;
+        }
+
+        /* Panes */
+        .dept-achievement-pane {
+            display: none;
+        }
+
+        .dept-achievement-pane.active {
+            display: block;
+        }
+
+        /* ================= RECOGNITION SECTION ================= */
+        .dept-socialwork-recognition-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-socialwork-recognition-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            background: #fff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* LEFT IMAGE */
+        .dept-socialwork-recognition-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .dept-socialwork-recognition-img img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: contain;
+        }
+
+        /* RIGHT CONTENT */
+        .dept-socialwork-recognition-content {
+            flex: 2;
+        }
+
+        .dept-socialwork-recognition-content p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        /* BUTTON */
+        .dept-socialwork-recognition-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-socialwork-recognition-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-socialwork-recognition-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 960px) {
+            .dept-socialwork-recognition-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+                padding: 30px 20px;
+            }
+
+            .dept-socialwork-recognition-content p {
+                text-align: center;
+            }
+
+            .dept-socialwork-recognition-btn {
+                justify-content: center;
+            }
+        }
+
+        .dept-socialwork-lab-list {
+            text-align: left;
+            /* ensures left alignment */
+            padding-left: 20px;
+            /* proper spacing for numbers */
+            margin-top: 10px;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .dept-socialwork-lab-list li {
+            margin-bottom: 8px;
+            line-height: 1.8;
+            /* fix readability */
+        }
+    </style>
+
+    <div class="dept-socialwork-floating">
+        <a href="#dept-home" class="dept-socialwork-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-socialwork-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-socialwork-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-socialwork-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-socialwork-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-socialwork-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-socialwork-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-socialwork-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-socialwork-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-socialwork-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-socialwork-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-socialwork-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-socialwork-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-socialwork-float-text">Committee</span>
+        </a>
+
+        <!-- <a href="#dept-lab" class="dept-socialwork-float-item">
+                <i class="fa fa-flask"></i>
+                <span class="dept-socialwork-float-text">Lab</span>
+            </a> -->
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-socialwork-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-socialwork-wrapper">
+
+        <div class="dept-socialwork-heading" id="dept-home">
+            <h1>Department of <span>Social Work</span></h1>
+            <h2>Royal School of Humanities & Social Sciences (RSHSS)</h2>
+        </div>
+
+        <div class="dept-socialwork-hero" id="dept-about">
+
+            <div class="dept-socialwork-img">
+                <img src="https://www.rgu.ac/mobile-assets/department-all/dept-social-work/head-img.png"
+                    alt="Political Science and Public Administration">
+            </div>
+
+            <div class="dept-socialwork-content">
+
+                <h3>About <span>Department</span></h3>
+
+                <p>
+                    The Social Work Department at The Assam Royal Global University is dedicated to developing skilled
+                    professionals who are equipped to address complex social issues with compassion and expertise. Our
+                    department's strength lies in a comprehensive curriculum which integrates theory with hands-on
+                    practice through extensive fieldwork opportunities, cutting-edge research, and community engagement.
+                    With a focus on areas such as community development, psychiatric social work, family and child
+                    welfare, and livelihood & social entrepreneurship, our programmes emphasize both the micro and macro
+                    aspects of social work practice. Our faculty consists of experienced practitioners and researchers
+                    who bring a wealth of knowledge and practical insights to the classroom. Prospects for our graduates
+                    are promising, with opportunities in the development sector including healthcare, non-profits,
+                    government agencies, and international organizations. Our alumni network is strong and active,
+                    providing ongoing support and professional development opportunities. We are committed to fostering
+                    a learning environment that promotes innovation, ethical practice, and a commitment to social
+                    change, preparing our students to be leaders in the field of social work.
+                </p>
+
+
+
+            </div>
 
         </div>
 
-        <div class="website">
-          @include('frontend/components/aheader')
-          <section>
 
-            <!-- floating buttons  -->
-            <div
-              style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
 
-              <!-- About -->
-              <a href="#about" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-              </a>
 
-              <!-- Course -->
-              <a href="#course" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                  Offered</span>
-              </a>
+        <!-- vision mission  -->
+        <div class="dept-socialwork-prospects-section" id="dept-vision">
+            <h2 class="dept-socialwork-section-title">Vision <span>& Mission</span></h2>
 
-              <!-- Syllabus -->
-              <a href="#syllabus" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure &
-                  Syllabus</span>
-              </a>
+            <div class="dept-socialwork-prospects-content">
 
-              <!-- Events -->
-              <a href="#events" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                  Highlights</span>
-              </a>
+                <h3 class="dept-socialwork-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-socialwork-bullet-list">
+                    <li>
+                        To be a pioneering center of excellence in social work education and research in Northeast
+                        India, fostering innovative solutions to regional and global social challenges thereby
+                        producing highly skilled, compassionate, and ethical social work professionals who are
+                        committed to enhancing the well-being and empowerment of diverse communities.
+                    </li>
 
-              <!-- Academic Excellence -->
-              <a href="#academic-excellence" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                  Excellence</span>
-              </a>
+                </ul>
 
-              <!-- BOS -->
-              <a href="#bos" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                  Studies</span>
-              </a>
+                <h3 class="dept-socialwork-subheading">Our Mission</h3>
+                <ul class="dept-socialwork-bullet-list">
+                    <li>
+                        To deliver a cutting-edge, research-intensive curriculum in social work that aligns with current
+                        industry practices, ensuring our graduates are equipped with the knowledge, skills, and
+                        competencies needed to excel in their professional careers and contribute meaningfully to the
+                        field.
+                    </li>
+                    <li>
+                        To integrate comprehensive community service initiatives into the social work curriculum,
+                        fostering
+                        ethical conduct, compassion, and a deep commitment to social justice among students, while
+                        addressing the needs of diverse populations.
+                    </li>
+                    <li>
+                        To nurture and develop responsible leaders in the field of social work who are prepared to drive
+                        positive and sustainable transformation in society through innovative practices, advocacy, and a
+                        dedication to improving the well-being of individuals and communities.
+                    </li>
 
-              <!-- DRC -->
-              <a href="#drc" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-              </a>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="dept-socialwork-courses-section" id="dept-courses">
+            <h2 class="dept-socialwork-section-title">Courses <span>Offered</span></h2>
+
+            <div class="dept-socialwork-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-socialwork-prospects-section" id="dept-prospects">
+          <h2 class="dept-socialwork-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-socialwork-prospects-content">
+            <p class="dept-socialwork-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-socialwork-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-socialwork-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Government Sector Jobs</h3>
+            <ol class="dept-socialwork-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Private Sector Careers</h3>
+            <ol class="dept-socialwork-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Research & Teaching</h3>
+            <ol class="dept-socialwork-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-socialwork-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Jobs Abroad</h3>
+            <ol class="dept-socialwork-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-socialwork-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-socialwork-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-socialwork-accordion-section" id="dept-syllabus">
+            <h2 class="dept-socialwork-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-socialwork-accordion-wrapper">
+
+
+                <div class="dept-socialwork-accordion-item active">
+                    <div class="dept-socialwork-accordion-header">
+                        <div class="dept-socialwork-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-socialwork-chevron"></i>
+                    </div>
+
+                    <div class="dept-socialwork-accordion-content">
+                        <div class="dept-socialwork-syllabus-list">
+
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-social-work/syllabus-pdf/structure-syllabus.pdf"
+                                class="dept-socialwork-syllabus-link" download>
+                                <div class="dept-socialwork-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus
+                                </div>
+                                <i class="fa-solid fa-download dept-socialwork-download-icon"></i>
+                            </a>
+                            <a target="_blank" href="https://www.rgu.ac/mobile-assets/syllabus/RSHSS/BSW_syllabus.pdf"
+                                class="dept-socialwork-syllabus-link" download>
+                                <div class="dept-socialwork-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus - BSW
+                                </div>
+                                <i class="fa-solid fa-download dept-socialwork-download-icon"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="dept-socialwork-accordion-item">
+                    <div class="dept-socialwork-accordion-header">
+                        <div class="dept-socialwork-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-socialwork-chevron"></i>
+                    </div>
+
+                    <div class="dept-socialwork-accordion-content">
+                        <div class="dept-socialwork-syllabus-list">
+
+                            <a target="_blank" href="https://www.rgu.ac/mobile-assets/syllabus/RSHSS/MSW_syllabus.pdf"
+                                class="dept-socialwork-syllabus-link" download>
+                                <div class="dept-socialwork-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus - MSW
+                                </div>
+                                <i class="fa-solid fa-download dept-socialwork-download-icon"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-socialwork-accordion-item">
+                    <div class="dept-socialwork-accordion-header">
+                        <div class="dept-socialwork-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-socialwork-chevron"></i>
+                    </div>
+
+                    <div class="dept-socialwork-accordion-content">
+                        <div class="dept-socialwork-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-socialwork-syllabus-link" download>
+                                <div class="dept-socialwork-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="dept-socialwork-events-wrapper">
+
+            <!-- LEFT: EVENTS -->
+            <div class="dept-socialwork-events-section">
+                <h2 class="dept-socialwork-section-title">Events</h2> <!-- ✅ inside left -->
+                <div class="dept-socialwork-events-box">
+                    <div class="dept-socialwork-events-track" id="events-track"></div>
+                </div>
+            </div>
+
+            <!-- RIGHT: HIGHLIGHTS -->
+            <div class="dept-socialwork-highlights-section">
+                <h2 class="dept-socialwork-section-title">Departmental <span>Highlights</span></h2> <!-- ✅ inside right -->
+                <div class="dept-socialwork-carousel">
+                    <div class="dp-track" id="dpTrack">
+                        <div class="dp-slide">
+                            <img src="/mobile-assets/social-work/1.jpg" />
+                        </div>
+                    </div>
+                    <button class="dp-btn prev" id="dpPrev">&#10094;</button>
+                    <button class="dp-btn next" id="dpNext">&#10095;</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================= ACHIEVEMENT SECTION ================= -->
+        <div class="dept-socialwork-achievement-section" id="dept-achievement">
+
+            <h2 class="dept-socialwork-section-title">
+                Achievements
+            </h2>
+
+            <!-- Tabs -->
+            <div class="dept-socialwork-achievement-tabs">
+                <button class="dept-achievement-tab active" data-tab="student">
+                    Faculty Achievement
+                </button>
+
+
+            </div>
+
+            <!-- Content -->
+            <div class="dept-socialwork-achievement-content">
+
+                <!-- STUDENT TAB -->
+                <div class="dept-achievement-pane active" id="student">
+
+                    <div class="dept-socialwork-table-responsive">
+                        <table class="dept-socialwork-table">
+                            <thead>
+                                <tr>
+                                    <!-- YOU WILL ADD HEADERS -->
+                                    <th>Sl. No.</th>
+                                    <th>Name of the faculty</th>
+                                    <th>Name of the Award</th>
+                                    <th>Year</th>
+                                    <th>Funding Agency</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Dr. Priyanka Patowari</td>
+                                    <td>Consultancy from Grant Thornton Bharat on Maternal and Child Health</td>
+                                    <td>2024</td>
+                                    <td>Grant Thornton Bharat</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Field Research Fellowship from International Institute of SDGs and Public Policy
+                                    </td>
+                                    <td>2025</td>
+                                    <td>International Institute of SDGs and Public Policy</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Consultancy from NEDFI on Prospects of Rural Tourism & Status of Investment in
+                                        Mizoram</td>
+                                    <td>2025</td>
+                                    <td>NEDFI</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Consultancy from CINI NGO on Gender Based Violence </td>
+                                    <td>2025</td>
+                                    <td>CINI NGO</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Research Analyst in Nurture and Foster Private Limited</td>
+                                    <td>2025</td>
+                                    <td>Nurture and Foster Private Limited</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Consultancy from Grant Thornton Bharat for Need Assessment Survey</td>
+                                    <td>2022</td>
+                                    <td>Grant Thornton Bharat</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Bikash Chetry</td>
+                                    <td>Asia Student Scholarship </td>
+                                    <td>2023</td>
+                                    <td>Association for Nepal and Himalayan Studies (ANHS) </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>NEEDs Conference Travel Grant </td>
+                                    <td>2023</td>
+                                    <td>University of Twente, ISS and NEEDs </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Bicycle: past, present and future prospect in South Asia Conference and Travel
+                                        Grant </td>
+                                    <td>2024</td>
+                                    <td>University of Chicago </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Travel and Support Grant for 1st Development Studies Conference Dhaka</td>
+                                    <td>2024</td>
+                                    <td>Development Studies Department, University of Dhaka </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Henry Luce Foundation Dissertation Award </td>
+                                    <td>2025</td>
+                                    <td>Association of Asian Studies </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Conference and Travel Grant</td>
+                                    <td>2025</td>
+                                    <td>MPISSR and ILRT, India </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Jagah Fellowship 1st Cohort 2026 </td>
+                                    <td>2026</td>
+                                    <td>Factor Daily and Rainmatter Foundation (Zerodha CSR Unit) </td>
+
+                                </tr>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
 
 
 
             </div>
-            <!-- floating buttons  -->
 
-            <section id="about">
-              <section style="background-color: #FFF8F0;">
-                <div class="p-5">
-                  <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Social Work</span>
-                  </h1>
+        </div>
 
-                  <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                    Humanities & Social Sciences (RSHSS)
-                  </h2>
+        <!-- <div class="dept-socialwork-event-gallery-section">
+
+          <h2 class="dept-socialwork-section-title">Event <span>Highlights</span></h2>
+
+          <div id="event-gallery-container"></div>
+
+        </div> -->
+
+        <div class="dept-socialwork-table-section" id="dept-committee">
+
+            <div class="dept-socialwork-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+        <!-- <div class="dept-socialwork-lab-section" id="dept-lab">
+
+                <div class="dept-socialwork-lab-container">
+
+                    <h2 class="dept-socialwork-section-title">Physiotherapy <span> OPD</span></h2>
+
+                    <p class="dept-socialwork-lab-intro">
+                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                        patient. The
+                        students through OPD practicals would learn how to treat patients with physical disabilities and
+                        injuries in a
+                        range of settings including hospitals, health centres, private practices and sports clubs under the
+                        proper
+                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                    </p>
+
+                    <ol class="dept-socialwork-lab-list">
+                        <li>
+                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                            pain, reduce
+                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                            acts as a
+                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                            tissue
+                            repair.
+                        </li>
+
+                        <li>
+                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                            include reducing
+                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                            scar
+                            tissue, and treating muscle spasms.
+                        </li>
+
+                        <li>
+                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                            upper trap
+                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                            stiffness, and
+                            improve upper body posture.
+                        </li>
+
+                        <li>
+                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                            inflammation, and improves blood circulation.
+                        </li>
+
+                        <li>
+                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                            assess range
+                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                        </li>
+
+                        <li>
+                            Exterior image of the Physiotherapy OPD.
+                        </li>
+                    </ol>
+
+
+                     <h3 class="dept-socialwork-lab-heading">Our Lab Equipments</h3>
+
+                    <h2 class="dept-socialwork-section-title">Glimpse of <span>our Lab</span></h2>
+
+                    <div class="dept-socialwork-lab-gallery">
+
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                            class="dept-socialwork-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                            class="dept-socialwork-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                            class="dept-socialwork-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                            class="dept-socialwork-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                            class="dept-socialwork-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                            class="dept-socialwork-lab-img">
+
+                    </div>
+
+                    <button class="dept-socialwork-explore-btn">Explore</button>
                 </div>
 
-                <div class="container p-4">
-                  <div class="row align-items-center gx-5">
-
-                    <div class="col-lg-6 text-center">
-                      <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                        <div>
-                          <img class="rounded w-60" decoding="async"
-                            src="mobile-assets/department-all/dept-social-work/head-img.png" alt="">
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-6">
-
-                      <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                      <p class="mobile-para1 pt-3" style="color: #264273; text-align: justify; line-height: 1.5;">
-                        The Social Work Department at The Assam Royal Global University is dedicated to developing skilled
-                        professionals who are equipped to address complex social issues with compassion and expertise. Our
-                        department's strength lies in a comprehensive curriculum which integrates theory with hands-on
-                        practice through extensive fieldwork opportunities, cutting-edge research, and community engagement.
-                        With a focus on areas such as community development, psychiatric social work, family and child
-                        welfare, and livelihood & social entrepreneurship, our programmes emphasize both the micro and macro
-                        aspects of social work practice. Our faculty consists of experienced practitioners and researchers
-                        who bring a wealth of knowledge and practical insights to the classroom. Prospects for our graduates
-                        are promising, with opportunities in the development sector including healthcare, non-profits,
-                        government agencies, and international organizations. Our alumni network is strong and active,
-                        providing ongoing support and professional development opportunities. We are committed to fostering
-                        a learning environment that promotes innovation, ethical practice, and a commitment to social
-                        change, preparing our students to be leaders in the field of social work.
-                      </p>
-
-                    </div>
-
-                  </div>
-                </div>
-
-
-                <div style="background-color: #fff;">
-                  <div class="p-5">
-                    <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                      <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                    </h1>
-
-                    <img class="w-100" src="mobile-assets/department-all/dept-social-work/vision-mission-web.png" alt="">
-                  </div>
-                </div>
-
-              </section>
-            </section>
-
-            <section id="course">
-
-              <div class="container">
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 35px;">
-                  Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                  <!-- Heading Section -->
-                  <div
-                    style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                    <span style="font-size:22px;">Master of Social Work</span>
-                    <span
-                      style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                  </div>
-
-                  <!-- Statute Items -->
-                  <a target="_blank" href="#" style="text-decoration:none;">
-                    <div
-                      style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                      <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2 years</span>
-                      <span>
-                        <a class="para1 fw-bold"
-                          style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                          href="">View Details</a>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                  <!-- Heading Section -->
-                  <div
-                    style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                    <span style="font-size:22px; padding-right: 20px;">Bachelor of Social Work</span> | <span
-                      style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours with
-                      Research</span>
-
-                    <span
-                      style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                  </div>
-
-                  <!-- Statute Items -->
-                  <a target="_blank" href="mobile-assets/statute/The-First-Statutes-min.pdf" style="text-decoration:none;">
-                    <div
-                      style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                      <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4 years as per
-                        NEP</span>
-                      <span>
-                        <a class="para1 fw-bold"
-                          style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                          href="">View Details</a>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-
-              </div>
-
-            </section>
-
-            <section id="syllabus">
-              <div class="container">
-                <div>
-                  <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                    style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                    Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                  </h2>
-
-                  <div>
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <div class="accordion para1" id="accordionExample" style="border-radius: 12px; overflow: hidden;">
-
-                          <!-- UG -->
-                          <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingOne">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                                aria-controls="collapseOne">
-                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                              </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                  <a href="mobile-assets/department-all/dept-social-work/syllabus-pdf/structure-syllabus.pdf"
-                                    target="_blank" style="color: #27467A;">
-                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
-
-                                  <a href="/mobile-assets/syllabus/RSHSS/BSW_syllabus.pdf"
-                                    target="_blank" style="color: #27467A;">
-                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BSW
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
-
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <!-- PG -->
-                          <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <i class="fa fa-university me-2"></i> Post Graduate
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-                                  <a href="/mobile-assets/syllabus/RSHSS/MSW_syllabus.pdf"
-                                    target="_blank" style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MSW
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <!-- Doctoral -->
-                          <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
-                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                              </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <a href="doctoral-programme" class="para1" target="_blank"
-                                  style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                  <i class="fa fa-external-link me-2"></i> Click to View...
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </section>
-
-            <section id="events">
-
-              <div class="container pb-4">
-
-                <!-- events  -->
-                <div class="row" style="display: flex; justify-content: center;">
-
-                  <div class="col-lg-6">
-                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                      Events
-                    </h2>
-
-                    <div style="max-width: 100%; position: relative;">
-                      <div style="border: 1px solid #ccc;">
-
-                        <div id="scrollContainer"
-                          style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                          <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                            <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9; ">
-
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">Mr. Shivalal Gautam, Co-Founder of
-                                      Xomonnoy, delivered an invited talk on Gender and Social
-                                      Exclusion.</div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Mohan Sharma, a researcher, delivered an invited talk on Human-Animal
-                                      Relationship.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Ms. Juree Hojai, Program Officer of Disability Inclusion at Team Lease Foundation,
-                                      conducted an interactive session on careers in the development sector.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative Trust, Dibrugarh,
-                                      along
-                                      with Mr. Henry Wood from the University of Durham, UK, conducted an interactive
-                                      session.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Ms. Manjari Nandy, Assistant Professor in the Department of Sociology at The Maharaja
-                                      Sayajirao University of Baroda and Ph.D. scholar at the Central University of Gujarat,
-                                      delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Bhargabi Das, Assistant Professor in the Department of Rural Management at Shiv
-                                      Nadar
-                                      Institution of Eminence, Greater Noida, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Ms. Suchismita Majumdar, Founder-Director of Swabalambi Foundation, and Mr. Kanhaiya
-                                      Lal,
-                                      Senior Co-Worker in Education at SOS Village of Children, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Bitasta Das, Senior Editor and Instructor at the Indian Institute of Science,
-                                      Bangalore,
-                                      conducted a two-day workshop on the intersectionality of social sciences.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Prof. (Dr.) Surajit Ch. Mukhopadhyay, Dean of RSHSS, participated as an in-house
-                                      resource
-                                      person.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Joseph Riamei, Assistant Professor from the School of Social Work at TISS Guwahati
-                                      Off-Campus, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Ms. Nipurnh Gupta, a global development communication professional from UNICEF,
-                                      delivered an
-                                      invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Mukund Marodia, Manager of Strategic and Academic Affairs at the Indian School of
-                                      Development Management, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Sriparna B. Baruah, former Head (CIE) and Director I/C at IIE, currently Advisor
-                                      (Livelihood & Entrepreneurship) at NEHHDC, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Nayan Jyoti Hazarika, Ph.D. scholar from the Department of Social Work, delivered
-                                      an
-                                      invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Shivani Chauhan Barooah, Chairperson of the Centre for Labour Studies and Social
-                                      Protection at TISS Guwahati, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Gayatri Gogoi (AMCH and Pratishruti Trust), Dr. Pankaj Deka (Health City
-                                      Hospital), and
-                                      Ms. Nabanita Kalita (N.E News & Prag News) delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Anupam Joya Sharma, a doctoral fellow of Social Epidemiology at IIT Gandhinagar,
-                                      delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Aarushi Kehkar Malhotra, Senior Manager of Research, Advocacy, and Wellness at
-                                      Sirona
-                                      Hygiene Foundation, delivered an invited talk online.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Sahbaz Ahmed and Mr. Syed Rizwan Ahmed, Advocates from Gauhati High Court,
-                                      delivered an
-                                      invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Ms. Archana Borthakur of Priya Bondhu and Mr. Uttam Teron of Parijat Academy delivered
-                                      an
-                                      invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Ashok Kumar Das (Dr. B. Barooah Cancer Institute) and Dr. Mythili Hazarika
-                                      (Gauhati
-                                      Medical College and Hospital) delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Mr. Miguel Das Queah, Executive Director of UTSAH, delivered an invited talk.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="display: flex; align-items: center; padding: 12px;">
-                                  <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                  <div>
-                                    <div style="font-weight: bold; color: #27467A; ">
-                                      Dr. Razdan Sarim Rahman, Assistant Professor at TISS Guwahati, visited the department.
-                                    </div>
-
-                                    <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                      ...</a>
-                                  </div>
-                                </td>
-                              </tr>
-
-
-                            </tbody>
-                          </table>
-                        </div>
-
-                      </div>
-
-                      <div style="text-align: center; margin-top: 15px;">
-                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                          View All
-                        </a>
-                      </div>
-
-
-                    </div>
-
-                    <script>
-                      const scrollContainer = document.getElementById('scrollContainer');
-                      const scrollContent = document.getElementById('scrollContent');
-
-                      // Duplicate content for infinite scroll
-                      scrollContent.innerHTML += scrollContent.innerHTML;
-
-                      let scrollPos = 0;
-                      const scrollSpeed = 0.2;
-
-                      function scrollStep() {
-                        scrollPos += scrollSpeed;
-                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                          scrollPos = 0;
-                        }
-                        scrollContainer.scrollTop = scrollPos;
-                        requestAnimationFrame(scrollStep);
-                      }
-
-                      scrollStep();
-                    </script>
-
-                  </div>
-
-                  <div class="col-lg-6">
-                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                      Departmental <span style="color: #FF9A1E; font-weight: 500;">Highlights</span></h2>
-
-                    <!-- Carousel with Popup Image -->
-
-                    <div id="customCarouselDeptPA" class="carousel slide unique-carousel-deptpa" data-bs-ride="carousel"
-                      data-bs-interval="2000" style="max-width:100%; margin:auto;">
-
-                      <!-- Indicators -->
-                      <div class="carousel-indicators" style="bottom:5px;">
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="0" class="active"
-                          aria-current="true" aria-label="Slide 1"
-                          style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="1"
-                          aria-label="Slide 2" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="2"
-                          aria-label="Slide 3" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="3"
-                          aria-label="Slide 4" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="4"
-                          aria-label="Slide 5" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="5"
-                          aria-label="Slide 6" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="6"
-                          aria-label="Slide 7" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="7"
-                          aria-label="Slide 8" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="8"
-                          aria-label="Slide 9" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="9"
-                          aria-label="Slide 10" style="width:12px;height:12px;border-radius:50%;"></button>
-                        <button type="button" data-bs-target="#customCarouselDeptPA" data-bs-slide-to="10"
-                          aria-label="Slide 11" style="width:12px;height:12px;border-radius:50%;"></button>
-                      </div>
-
-                      <!-- Slides -->
-                      <div class="carousel-inner" style="overflow:hidden;">
-                        <div class="carousel-item active">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/1.jpg" class="d-block w-100"
-                            alt="Slide 1" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/2.jpg" class="d-block w-100"
-                            alt="Slide 2" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/3.jpg" class="d-block w-100"
-                            alt="Slide 3" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/4.jpg" class="d-block w-100"
-                            alt="Slide 4" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/5.jpg" class="d-block w-100"
-                            alt="Slide 5" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/6.jpg" class="d-block w-100"
-                            alt="Slide 6" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/7.jpg" class="d-block w-100"
-                            alt="Slide 7" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/8.jpg" class="d-block w-100"
-                            alt="Slide 8" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/9.jpg" class="d-block w-100"
-                            alt="Slide 9" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/10.jpg" class="d-block w-100"
-                            alt="Slide 10" style="max-height:500px; object-fit:cover;">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="mobile-assets/department-all/dept-public-admin/highlights/11.jpg" class="d-block w-100"
-                            alt="Slide 11" style="max-height:500px; object-fit:cover;">
-                        </div>
-                      </div>
-
-                      <!-- Controls -->
-                      <button class="carousel-control-prev" type="button" data-bs-target="#customCarouselDeptPA"
-                        data-bs-slide="prev" style="width:5%;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#customCarouselDeptPA"
-                        data-bs-slide="next" style="width:5%;">
-                        <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-
-                    </div>
-
-                  </div>
-
-                </div>
-                <!-- events  -->
-
-              </div>
-
-            </section>
-
-            <section id="academic-excellence">
-
-              <section
-                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 95vh; padding: 50px;">
-
-                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                </h2>
-
-                <div
-                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                </div>
-
-                <div class="row">
-
-                  <div class="col-lg-12">
-
-                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">UGC NET
-                    </h2>
-
-                    <div style="display: flex; justify-content: center;">
-                      <div style="padding: 30px 20px;">
-                        <div class="carousel" mask>
-                          <div class="carousel-track">
-
-                            <!-- Example cards -->
-                            <article class="bg-white text-dark">
-                              <img class="p-2 rounded"
-                                src="mobile-assets/department-all/dept-social-work/candidates/ugc-net/a.png" alt="">
-                              <h2 class="headd1 fw-bold" style="color: #24477f; font-size: 26px;">Hiba Ansari</h2>
-                              <p class="para1 fw-bold">Social Work</p>
-                              <div class="rounded text-center" style="background-color: #FF9A1E; height: 45px;">
-                                <p class="para1 fw-bold text-white pt-2">Batch: 2025</p>
-                              </div>
-                            </article>
-
-                            <article class="bg-white text-dark">
-                              <img class="p-2 rounded"
-                                src="mobile-assets/department-all/dept-social-work/candidates/ugc-net/b.png" alt="">
-                              <h2 class="headd1 fw-bold" style="color: #24477f; font-size: 20px;">Grace Lampahhoi Kipgen
-                              </h2>
-                              <p class="para1 fw-bold">Social Work</p>
-                              <div class="rounded text-center" style="background-color: #FF9A1E; height: 45px;">
-                                <p class="para1 fw-bold text-white pt-2">Batch: 2023 - 2025</p>
-                              </div>
-                            </article>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <style>
-                      .carousel {
-                        --carousel-width: min(85vw, 880px);
-                        --carousel-item-width: 280px;
-                        --carousel-item-height: 350px;
-                        --carousel-item-gap: 2rem;
-                        position: relative;
-                        width: var(--carousel-width);
-                        overflow: hidden;
-                      }
-
-                      .carousel[mask] {
-                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                      }
-
-                      .carousel-track {
-                        display: flex;
-                        justify-content: center;
-                        gap: var(--carousel-item-gap);
-                        animation: marquee var(--carousel-duration) linear infinite;
-                      }
-
-                      .carousel article {
-                        flex: 0 0 var(--carousel-item-width);
-                        height: var(--carousel-item-height);
-                        display: grid;
-                        grid-template-rows: 200px auto 1fr auto;
-                        border-radius: 10px;
-                        background: white;
-                        color: #314158;
-                      }
-
-                      .carousel img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 15px !important;
-                      }
-
-                      .carousel article>*:not(img) {
-                        padding: 0 1rem;
-                      }
-
-                      @keyframes marquee {
-                        from {
-                          transform: translateX(0);
-                        }
-
-                        to {
-                          transform: translateX(var(--scroll-distance));
-                        }
-                      }
-                    </style>
-
-                    <!-- <script>
-                      const track = document.querySelector('.carousel-track');
-                      const cards = Array.from(track.children);
-
-                      cards.forEach(card => {
-                        track.appendChild(card.cloneNode(true));
-                      });
-
-
-                      const carouselEl = document.querySelector('.carousel');
-                      const styles = getComputedStyle(carouselEl);
-                      const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                      const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                      const totalCards = track.children.length;
-
-
-                      const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-
-                      track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-
-                      const speed = 80;
-                      const duration = halfTrackWidth / speed;
-                      track.style.setProperty('--carousel-duration', `${duration}s`);
-                    </script> -->
-
-                  </div>
-
-                </div>
-
-              </section>
-
-            </section>
-
-            <div id="bos" class="container pb-5 pt-5">
-
-              <!-- Container -->
-              <div id="drc" style="margin:0 auto;">
-
-                <!-- Row 1 -->
-                <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                  <!-- Board of Studies -->
-                  <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                    <div
-                      style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                      <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                      </button>
-                      <div id="accPanel1"
-                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                        <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th>S.No.</th>
-                                <th>Position in D-Bos</th>
-                                <th>Name and Designation</th>
-                              </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-
-                              <tr>
-                                <td>1</td>
-                                <td>Convener (Ex-Officio) - Head of the Department</td>
-                                <td>Dr. Y. Monojit Singha, Assistant Professor & Co-ordinator</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td rowspan="10">All Faculty members of the Department Members (Ex-Officio)</td>
-                                <td>Dr. Dhiraj Borkotoky, Associate Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Baba Chandra Singha, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Krishangi Saikia, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Sushmita Hoshi N., Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Tanjeela Mehboob, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Dr. Abhinav Chaliha, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Monisha Bordoloi, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Rhitwique Dutta, Assistant Professor</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Mustafa Syed Ihtimum Alam, Teaching Assistant</td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                                <td>Birina Borthakur, Teaching Assistant</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>External Expert (Academic)</td>
-                                <td>
-                                  Prof. Subrajyoti Konwar, Professor, Department of Political Science, Gauhati University,
-                                  Guwahati<br>
-                                  Dr. Dilip Gogoi, Associate Professor, Department of Political Science, Cotton University,
-                                  Guwahati
-                                </td>
-                              </tr>
-
-                            </tbody>
-                          </table>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- DRC -->
-                  <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                    <div
-                      style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                      <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                      </button>
-                      <div id="accPanel2"
-                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                        <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th class="text-white">S.No.</th>
-                                <th class="text-white">Content</th>
-                                <th class="text-white">Name of the Member</th>
-                                <th class="text-white">Designation</th>
-                                <th class="text-white">Designation in the committee</th>
-                              </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                              <tr>
-                                <td>1.</td>
-                                <td>Head of the Department</td>
-                                <td>Prof. (Dr.) Sajal Nag</td>
-                                <td>Dean, RSHSS</td>
-                                <td>Chairperson</td>
-                              </tr>
-                              <tr>
-                                <td rowspan="2">2.</td>
-                                <td rowspan="2" class="align-middle">
-                                  Two Assistant Professors holding Ph.D. degree
-                                </td>
-                                <td>Dr. Priyanka Patowari</td>
-                                <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                                <td>Member</td>
-                              </tr>
-                              <tr>
-                                <td>Dr. T Luithuiwung Awungshi</td>
-                                <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                                <td>Member</td>
-                              </tr>
-                              <tr>
-                                <td rowspan="3">3.</td>
-                                <td rowspan="3" class="align-middle">
-                                  Three external members not below the rank of Professors,
-                                  including members from an allied department, who will be
-                                  nominated by the URC
-                                </td>
-                                <td>Prof. Gautam Mazumder</td>
-                                <td>Professor, Department of Economics, RSHSS, RGU</td>
-                                <td>External Member</td>
-                              </tr>
-                              <tr>
-                                <td>Prof. Swabera Islam</td>
-                                <td>Professor, Department of Economics, RSHSS, RGU</td>
-                                <td>External Member</td>
-                              </tr>
-                              <tr>
-                                <td>Prof. Shiela Bora</td>
-                                <td>
-                                  Professor &amp; Advisor, Department of History, RSHSS, RGU
-                                </td>
-                                <td>External Member</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Ph.D. Research and Research Interest -->
-                  <div style="flex:1 1 calc(100% - 8px); box-sizing:border-box;">
-                    <div
-                      style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                      <button id="accBtn3" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-magnifying-glass me-2"></i> Ph.D. Research and Research Interest
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                      </button>
-                      <div id="accPanel3"
-                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                        <div class="table-responsive">
-                          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                              <tr>
-                                <th>S.No.</th>
-                                <th>Name</th>
-                                <th>Qualification</th>
-                                <th>Research</th>
-                              </tr>
-
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                              <tr>
-                                <td>1</td>
-                                <td>Dr. T Luithuiwung Awungshi</td>
-                                <td>Ph.D.</td>
-                                <td>Youth, Drug Abuse, Family & Child Welfare</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>Dr. Amlan Das</td>
-                                <td>Ph.D.</td>
-                                <td>Disability Studies, Rural Development, Family & Child Welfare</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>Dr. Madhu Monjuri Gohain</td>
-                                <td>Ph.D.</td>
-                                <td>Residential Education and Migration</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <!-- JS remains same -->
-              <script>
-
-                const accPairs = [
-                  { btn: 'accBtn1', panel: 'accPanel1' },
-                  { btn: 'accBtn2', panel: 'accPanel2' },
-                  { btn: 'accBtn3', panel: 'accPanel3' }
-                ];
-
-                function closeAll() {
-                  accPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (panel) panel.style.display = 'none';
-                    if (b) {
-                      b.setAttribute('aria-expanded', 'false');
-                      const sp = b.querySelector('span');
-                      if (sp) sp.textContent = '＋';
-                    }
-                  });
+            </div> -->
+
+    </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "Master of Social Work",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MSW"
+            },
+            {
+                title: "Bachelor of Social Work | Honours / Honours with Research",
+                duration: "4 years as per NEP",
+                link: "https://www.rgu.ac/programs-BSW"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-socialwork-course-card">
+
+          <div class="dept-socialwork-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-socialwork-view-btn">View details</a>`
+                    : ``
                 }
 
-                accPairs.forEach(p => {
-                  const b = document.getElementById(p.btn);
-                  const panel = document.getElementById(p.panel);
-                  if (!b || !panel) return;
+          </div>
 
-                  b.addEventListener('click', function () {
-                    const isOpen = this.getAttribute('aria-expanded') === 'true';
-                    if (isOpen) {
-                      panel.style.display = 'none';
-                      this.setAttribute('aria-expanded', 'false');
-                      const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                    } else {
-                      closeAll();
-                      panel.style.display = 'block';
-                      this.setAttribute('aria-expanded', 'true');
-                      const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                    }
-                  });
-                });
+          <div class="dept-socialwork-course-body">
+            Duration: ${course.duration}
+          </div>
 
-                document.addEventListener('keydown', function (e) {
-                  if (e.key === 'Escape') closeAll();
-                });
-              </script>
+        </div>
+      `).join('');
+            }
+        }
+    </script>
 
-            </div>
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-socialwork-accordion-header');
 
-            <script>
-              document.querySelectorAll('a.special-link').forEach(anchor => {
-                anchor.addEventListener('mouseover', function () {
-                  this.style.width = '200px';
-                  this.querySelector('span').style.opacity = '1';
-                });
-                anchor.addEventListener('mouseout', function () {
-                  this.style.width = '42px';
-                  this.querySelector('span').style.opacity = '0';
-                });
-                anchor.addEventListener('click', function (e) {
-                  e.preventDefault();
-                  document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                  });
-                });
-              });
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-socialwork-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-socialwork-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
 
-            </script>
+        // Initialize the open item on load
+        setAccordionHeights();
 
-          </section>
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-socialwork-accordion-content');
 
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+
+        const eventsData = [
+            "Mr. Shivalal Gautam, Co-Founder of Xomonnoy, delivered an invited talk on Gender and Social Exclusion.",
+            "Mr. Mohan Sharma, a researcher, delivered an invited talk on Human-Animal Relationship.",
+            "Ms. Juree Hojai, Program Officer of Disability Inclusion at Team Lease Foundation, conducted an interactive session on careers in the development sector.",
+            "Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative Trust, Dibrugarh, along with Mr. Henry Wood from the University of Durham, UK, conducted an interactive session.",
+            "Ms. Manjari Nandy, Assistant Professor in the Department of Sociology at The Maharaja Sayajirao University of Baroda and Ph.D. scholar at the Central University of Gujarat, delivered an invited talk.",
+            "Dr. Bhargabi Das, Assistant Professor in the Department of Rural Management at Shiv Nadar Institution of Eminence, Greater Noida, delivered an invited talk.",
+            "Ms. Suchismita Majumdar, Founder-Director of Swabalambi Foundation, and Mr. Kanhaiya Lal, Senior Co-Worker in Education at SOS Village of Children, delivered an invited talk.",
+            "Dr. Bitasta Das, Senior Editor and Instructor at the Indian Institute of Science, Bangalore, conducted a two-day workshop on the intersectionality of social sciences.",
+            "Prof. (Dr.) Surajit Ch. Mukhopadhyay, Dean of RSHSS, participated as an in-house resource person.",
+            "Dr. Joseph Riamei, Assistant Professor from the School of Social Work at TISS Guwahati Off-Campus, delivered an invited talk.",
+            "Ms. Nipurnh Gupta, a global development communication professional from UNICEF, delivered an invited talk.",
+            "Mr. Mukund Marodia, Manager of Strategic and Academic Affairs at the Indian School of Development Management, delivered an invited talk.",
+            "Dr. Sriparna B. Baruah, former Head (CIE) and Director I/C at IIE, currently Advisor (Livelihood & Entrepreneurship) at NEHHDC, delivered an invited talk.",
+            "Mr. Nayan Jyoti Hazarika, Ph.D. scholar from the Department of Social Work, delivered an invited talk.",
+            "Dr. Shivani Chauhan Barooah, Chairperson of the Centre for Labour Studies and Social Protection at TISS Guwahati, delivered an invited talk.",
+            "Dr. Gayatri Gogoi (AMCH and Pratishruti Trust), Dr. Pankaj Deka (Health City Hospital), and Ms. Nabanita Kalita (N.E News & Prag News) delivered an invited talk.",
+            "Mr. Anupam Joya Sharma, a doctoral fellow of Social Epidemiology at IIT Gandhinagar, delivered an invited talk.",
+            "Dr. Aarushi Kehkar Malhotra, Senior Manager of Research, Advocacy, and Wellness at Sirona Hygiene Foundation, delivered an invited talk online.",
+            "Mr. Sahbaz Ahmed and Mr. Syed Rizwan Ahmed, Advocates from Gauhati High Court, delivered an invited talk.",
+            "Ms. Archana Borthakur of Priya Bondhu and Mr. Uttam Teron of Parijat Academy delivered an invited talk.",
+            "Dr. Ashok Kumar Das (Dr. B. Barooah Cancer Institute) and Dr. Mythili Hazarika (Gauhati Medical College and Hospital) delivered an invited talk.",
+            "Mr. Miguel Das Queah, Executive Director of UTSAH, delivered an invited talk.",
+            "Dr. Razdan Sarim Rahman, Assistant Professor at TISS Guwahati, visited the department."
+        ];
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-socialwork-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Name & Address", "Designation"],
+                rows: [
+                    ["1",
+                        "Dr. Razdan Sarim Rahman, Assistant Professor, Centre for Livelihood and Social Entrepreneurship, TISS-Guwahati",
+                        "External Expert"
+                    ],
+
+                    ["2", "Mr. Jeet Jyoti Das, Director, Nurture and Foster Pvt Ltd", "Industry Expert"],
+                    ["3", "Prof. (Dr) Surajit Chandra Mukhopadhyay, Dean (RSHSS)", "Chairperson"],
+                    ["4", "Dr. Priyanka Patowari Coordinator & Assistant Professor, Department of Social Work",
+                        "Member Secretary"
+                    ],
+                    ["5", "Dr. Amlan Das Assistant Professor, Department of Social Work", "Member"],
+                    ["6", "Dr. Bitopi Dutta Assistant Professor, Department of Social Work", "Member"],
+                    ["", "Ms. Kristi Saikia Assistant Professor, Department of Social Work", "Member"],
+                    ["", "Ms. Joyeeta Bhattacharjee Assistant Professor, Department of Social Work", "Member"],
+                    ["", "Mr. Bikash Chetry Assistant Professor, Department of Social Work", "Member"]
+
+
+
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name and Designation", ],
+                rows: [
+                    ["1", "Chairperson: Head of the Department/ Centre",
+                        "Dr. Priyanka Patowari Assistant Professor& Coordinator, Department of Social Work, RSHSS",
+                    ],
+                    ["2", "Member: Two professors, including the Dean of the school",
+                        "Prof. (Dr) Surajit C. Mukhopadhyay Dean, Royal School of Humanities and Social Sciences,Royal School of Behavioural and Allied Sciences,Director, Centre for Interdisciplinary Studies The Assam Royal Global University Guwahati- 781035"
+                    ],
+                    ["", "",
+                        "Prof. (Dr) Indrani Singh Rai Dean, Royal School of Language The Assam Royal Global University Guwahati- 781035"
+                    ],
+                    ["3", "Two Associate Professors- one of them will be the member secretary",
+                        "Dr. Victor Narzary, Associate Professor Department of Social Work, RSHSS"
+                    ],
+                    ["4", "Two Assistant Professors holding Ph.D. degree",
+                        "Dr. Amlan Das, Assistant Professor, Department of Social Work, RSHSS"
+                    ],
+                    ["", "", "Dr. Bitopi Dutta ,Assistant Professor,Department of Social Work, RSHSS"],
+                    ["", "", "Dr. Debangana Baruah,Assistant Professor, Department of Social Work, RSHSS"],
+                    ["", "", "Dr. Baiarbha Massar,Assistant Professor, Department of Social Work, RSHSS"],
+                    ["5",
+                        "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                        "Prof. (Dr) Kalpana Sarathy ,Dean School of Social Work,TISS, Guwahati"
+                    ],
+                    ["", "", "Prof. (Dr) Shiela Bora , Department of History(RSHSS)"],
+                    ["", "", "Prof. (Dr) Sajal Nag, Department of History, RSHSS"],
+
+
+
+                ]
+            },
+            {
+                title: "LIST OF ACTIVITIES",
+                headers: ["S.No.", "Type & Name of Activity Conducted", "Nature of Participants",
+                    "Activity Conducted By (Batch/Semester)", "Brief Description"
+                ],
+                rows: [
+                    ["1", "Field Orientation Visits", "Student social worker, NGOs", "BSW",
+                        "Visited organizations to understand professional social work practice and functioning"
+                    ],
+                    ["2", "Assistance in Tuition Classes", "School children", "BSW",
+                        "Assisted teachers in teaching and supporting students academically"
+                    ],
+                    ["3", "Transect Walk (Sarab Bhatti)", "Community members", "BSW",
+                        "Observed community structure, environment, and resources"
+                    ],
+                    ["4", "Remedial Classes", "Children (Class 1–5)", "BSW",
+                        "Helped children overcome academic difficulties and learning gaps"
+                    ],
+                    ["5", "Collection of Child Profiles", "Children & families", "BSW",
+                        "Collected socio-economic and educational data for documentation"
+                    ],
+                    ["6", "Child Rights Week & Children’s Day Activities", "Children, community", "BSW",
+                        "Organized awareness activities and participated in rallies"
+                    ],
+                    ["7", "Pre-Christmas Celebration", "Children", "BSW",
+                        "Assisted in organizing festive activities for children"
+                    ],
+                    ["8", "Awareness Programme on Education & Cleanliness", "School children", "BSW",
+                        "Promoted importance of education and hygiene"
+                    ],
+                    ["9", "Rural Camp – Site Visit", "Students, faculty", "BSW",
+                        "Observed geographical and environmental setting"
+                    ],
+                    ["10", "PRA Session (Medhipamua Community)", "Community members", "BSW",
+                        "Conducted participatory rural appraisal and mapping"
+                    ],
+                    ["11", "Transect Walk (Rural Camp)", "Community members", "BSW",
+                        "Studied rural lifestyle, culture, and resources"
+                    ],
+                    ["12", "PRA Activities & Street Play", "Community members", "BSW",
+                        "Conducted participatory activities and awareness street play"
+                    ],
+                    ["13", "Group Discussion & Presentation", "Students", "BSW",
+                        "Presented findings and reflections from rural camp"
+                    ],
+                    ["14", "Transect Walk (Pub Boragaon)", "Community members", "MSW",
+                        "Observed physical and social environment of community"
+                    ],
+                    ["15", "Local Manufacturing Unit Visit", "Workers, students", "MSW",
+                        "Learned about industrial operations and community impact"
+                    ],
+                    ["16", "“Thinking Out of the Box” Activity", "School students", "MSW",
+                        "Encouraged creativity and innovative thinking"
+                    ],
+                    ["17", "PRA Resource Mapping (Lokhra)", "Community members", "MSW",
+                        "Identified and mapped local resources"
+                    ],
+                    ["18", "Health Check-up Camp", "Community members", "MSW",
+                        "Conducted basic health tests (BP, glucose)"
+                    ],
+                    ["19", "Study on Women in Local Business", "Women entrepreneurs", "MSW",
+                        "Analyzed role of women in economic activities"
+                    ],
+                    ["20", "Healthy Habits Awareness Programme", "School students", "MSW",
+                        "Promoted hygiene and healthy lifestyle practices"
+                    ],
+                    ["21", "International Mother Language Day Celebration", "Students", "MSW",
+                        "Promoted cultural and linguistic diversity"
+                    ],
+                    ["22", "Workplace Safety Awareness (Glass Facility)", "Workers", "MSW",
+                        "Educated workers on occupational safety"
+                    ],
+                    ["23", "Cleanliness Drive (World Social Work Day)", "Community members", "MSW",
+                        "Promoted sanitation and environmental awareness"
+                    ],
+                    ["24", "Earth Day Poster Competition", "School students", "MSW",
+                        "Encouraged environmental awareness through art"
+                    ],
+                    ["25", "School Uniform Distribution Programme", "School children", "MSW",
+                        "Distributed uniforms to support education"
+                    ],
+                    ["26", "Road Safety Awareness Programme", "Community/ students", "MSW",
+                        "Educated participants on traffic safety rules"
+                    ],
+                    ["27", "Road Safety Role Play", "Students", "MSW",
+                        "Conducted interactive learning through role play"
+                    ],
+                    ["28", "Awareness on Health & Hygiene", "School students", "MSW",
+                        "Taught personal hygiene and healthy habits"
+                    ],
+                    ["29", "Substance Abuse Awareness (Video Screening)", "Students", "MSW",
+                        "Used audio-visual tools to explain harmful effects"
+                    ],
+                    ["30", "Qualitative Interviews on Food Habits", "Community members", "MSW",
+                        "Studied dietary patterns and cultural influences"
+                    ],
+                    ["31", "Health & Nutrition Quiz Programme", "Students", "MSW",
+                        "Assessed knowledge on nutrition through quiz"
+                    ],
+                    ["32", "Drawing Competition (Social Work Day)", "Students", "MSW",
+                        "Promoted environmental awareness through creativity"
+                    ],
+                    ["33", "Mid-Day Meal Distribution & Recreational Activities", "School children", "MSW",
+                        "Assisted meal distribution and conducted games"
+                    ],
+                    ["34", "Financial Awareness (Diary Distribution)", "Domestic workers", "MSW",
+                        "Promoted record-keeping and financial literacy"
+                    ],
+                    ["35", "Awareness on Mobile Phone Usage", "Children", "MSW",
+                        "Educated on digital addiction and responsible use"
+                    ],
+                    ["36", "Menstrual Hygiene Awareness Programme", "Women", "MSW",
+                        "Promoted safe hygiene practices and awareness"
+                    ],
+                    ["37", "Community Interaction (Sports Activities)", "Children", "MSW",
+                        "Encouraged participation in physical activities"
+                    ],
+                    ["38", "Community Interaction (Sports Activities)", "Children", "MSW",
+                        "Promoted sports and engagement among children"
+                    ],
+                    ["39", "Yoga & Pranayama Sessions", "Children with special needs", "MSW",
+                        "Improved concentration and emotional well-being"
+                    ],
+                    ["40", "Basic Educational Sessions", "Children", "MSW",
+                    "Taught literacy and numeracy concepts"],
+                    ["41", "Creative Activities (Art & Charts)", "Children", "MSW",
+                        "Encouraged creativity and motor skills"
+                    ],
+                    ["42", "Training on Child Rights Laws", "Interns, organization members", "MSW",
+                        "Learned about POCSO, IT Act, and legal provisions"
+                    ],
+                    ["43", "Puppetry Training Programme", "Trainees", "MSW",
+                        "Developed communication skills with children"
+                    ],
+                    ["44", "Baseline Survey (School Visits)", "School staff", "MSW",
+                        "Conducted interviews and collected school data"
+                    ],
+                    ["45", "Vaccination Drive Participation", "Community members", "MSW",
+                        "Assisted in immunization awareness and support"
+                    ],
+                    ["46", "Relief Distribution", "Community members", "MSW",
+                        "Distributed essential materials to beneficiaries"
+                    ],
+                    ["47", "Plantation Drive", "Children with special needs", "MSW",
+                        "Promoted environmental awareness through planting"
+                    ],
+                    ["48", "Fundraising Activities (Diyas, Cards)", "Community", "MSW",
+                        "Generated funds for institutional support"
+                    ],
+                    ["49", "Occupational Therapy Assistance", "Children with special needs", "MSW",
+                        "Assisted in therapeutic exercises and interventions"
+                    ]
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-socialwork-table-responsive">
+          <table class="dept-socialwork-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-socialwork-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-socialwork-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-socialwork-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-socialwork-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-socialwork-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-socialwork-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-socialwork-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
+            }
+        ];
+
+        const galleryContainer = document.getElementById("event-gallery-container");
+
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
+      <div class="dept-socialwork-event-card">
+
+        <div class="dept-socialwork-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-socialwork-marquee">
+          <div class="dept-socialwork-marquee-track">
+            ${marqueeImages}
+          </div>
         </div>
 
       </div>
+    `;
 
+            }).join("");
+        }
+    </script>
+
+    <script>
+        const track = document.getElementById("dpTrack");
+        const slides = document.querySelectorAll(".dp-slide");
+        const prevBtn = document.getElementById("dpPrev");
+        const nextBtn = document.getElementById("dpNext");
+
+        let index = 0;
+        let autoSlide;
+
+        function updateSlide() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        // CLICK EVENTS
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // CONDITION: SINGLE IMAGE
+        if (slides.length <= 1) {
+            prevBtn.classList.add("hidden");
+            nextBtn.classList.add("hidden");
+        } else {
+            autoSlide = setInterval(nextSlide, 3000);
+        }
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+    </script>
 @endsection

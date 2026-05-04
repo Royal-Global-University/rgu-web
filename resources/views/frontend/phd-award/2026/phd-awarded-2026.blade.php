@@ -17,8 +17,8 @@
     <div class="container mb-5 mt-5">
         <div class="row text-center">
 
-            <div class="col-lg-4 p-2">
-               
+            <div class="col-lg-2 p-2">
+
             </div>
 
             <!-- February -->
@@ -30,7 +30,15 @@
             </div>
 
             <div class="col-lg-4 p-2">
-               
+                <a href="/home-banner/Ph.D Notification on 1st May 2026.pdf"
+                    style="padding:40px;font-size:28px;font-weight:700;background:#f3e4d3;color:#264678;text-decoration:none;display:block;border-radius:10px;">
+                    May
+                </a>
+
+            </div>
+
+            <div class="col-lg-1 p-2">
+
             </div>
 
         </div>

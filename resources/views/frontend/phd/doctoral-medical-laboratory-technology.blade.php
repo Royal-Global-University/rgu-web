@@ -10,7 +10,7 @@
                         <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
                             style="color: #264273; font-weight: 700;">
                             Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                in Medical Laboratory Technology</span>
+                                in Medical Laboratory Sciences</span>
                         </h2>
                         <div class="txaa-slide-down-1">
                             <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
@@ -69,7 +69,7 @@
                                             <h2 class="headd1 kd-title-ani kd-split mb-4 text-center"
                                                 style="color: #264273; font-weight: 700;">
                                                 Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
-                                                    in Medical Laboratory Technology</span>
+                                                    in Medical Laboratory Sciences</span>
                                             </h2>
                                         </div>
                                     </div>

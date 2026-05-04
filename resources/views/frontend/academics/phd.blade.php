@@ -449,7 +449,7 @@
                 <div class="phd-category">
                     <h3>Allied Health Sciences</h3>
                     <div class="phd-links">
-                        <a href="/doctoral-medical-laboratory-technology">Medical Laboratory Technology</a>
+                        <a href="/doctoral-medical-laboratory-technology">Medical Laboratory Sciences</a>
                         <a href="/doctoral-nutrition&dietetics">Nutrition And Dietetics</a>
                         <a href="/doctoral-pharmacy">Pharmacy</a>
                         <a href="/doctoral-physiotherapy">Physiotherapy</a>
