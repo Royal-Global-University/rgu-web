@@ -258,7 +258,7 @@
                   <h4>Available Labs:</h4>
                   <ol>
                     <li>Fluid Mechanics Lab</li>
-                    
+
                   </ol>
                 </div> -->
 
@@ -319,7 +319,6 @@
 
             <div class="rgu-cse-lab-grid">
                 <img src="mobile-assets/new-labs/lab-cse-lab-new/1.jpeg">
-                <img src="mobile-assets/new-labs/lab-cse-lab-new/2.jpeg">
                 <img src="mobile-assets/new-labs/lab-cse-lab-new/3.jpg">
                 <img src="mobile-assets/new-labs/lab-cse-lab-new/4.jpg">
                 <img src="mobile-assets/new-labs/lab-cse-lab-new/5.jpg">
