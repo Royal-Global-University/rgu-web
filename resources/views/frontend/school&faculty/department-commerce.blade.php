@@ -1360,62 +1360,74 @@
                                 <thead class="text-white" style="background-color: #27467a">
                                     <tr>
                                         <th>Sl No.</th>
+                                        <th>Content</th>
                                         <th>Name of the Member</th>
                                         <th>Designation</th>
                                         <th>Designation in the Committee</th>
                                     </tr>
                                 </thead>
                                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+
                                     <tr>
                                         <td>1</td>
+                                        <td>Head of the Department</td>
                                         <td>Dr Aruna Dev Rroy</td>
                                         <td>Associate Professor, HOD, RSC</td>
                                         <td>Chairperson</td>
                                     </tr>
+
                                     <tr>
                                         <td>2</td>
-                                        <td>Prof. (Dr) Sudip Chakraborty</td>
-                                        <td>Professor, Dy. Dean, RSC</td>
+                                        <td>Two Professors, including the Dean of the School</td>
+                                        <td>Prof. (Dr) A.P. Singh</td>
+                                        <td>Professor, RSC</td>
                                         <td>Member Secretary</td>
                                     </tr>
+
                                     <tr>
                                         <td>3</td>
+                                        <td></td>
                                         <td>Prof. (Dr) George A.P.</td>
-                                        <td>Professor, RSB<br>Dean, RSB &amp; RSC</td>
+                                        <td>Professor, RSB<br>Dean, RSB & RSC</td>
                                         <td>Member</td>
                                     </tr>
+
                                     <tr>
                                         <td>4</td>
+                                        <td>Two Associate Professors - one of them will be member secretary
+                                        </td>
                                         <td>Dr Rajdeep Nag</td>
-                                        <td>Assistant Professor, RSC</td>
-                                        <td>Member</td>
+                                        <td>Associate Professor, RSC</td>
+                                        <td>Member Secretary</td>
                                     </tr>
+
                                     <tr>
                                         <td>5</td>
+                                        <td>Two Assistant Professors holding Ph.D. degree</td>
                                         <td>Dr Niva Kalita</td>
                                         <td>Assistant Professor, RSC</td>
                                         <td>Member</td>
                                     </tr>
+
                                     <tr>
                                         <td>6</td>
-                                        <td>Prof. (Dr) Kamal Debnath</td>
-                                        <td>Professor, RSAPS</td>
-                                        <td>External Member</td>
+                                        <td></td>
+                                        <td>Dr Padum Chetry</td>
+                                        <td>Assistant Professor, RSC</td>
+                                        <td>Member</td>
                                     </tr>
+
                                     <tr>
                                         <td>7</td>
-                                        <td>Prof. (Dr) Anuradha Devi</td>
-                                        <td>Professor, RSAPS</td>
+                                        <td>Three external members not below the rank of Professors,
+                                            including members from an allied department, nominated by the
+                                            URC</td>
+                                        <td>Prof. (Dr) Aparajeeta Borkakoty</td>
+                                        <td>Professor (Department of Management)</td>
                                         <td>External Member</td>
                                     </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Prof. (Dr) Soumitra Sen</td>
-                                        <td>Professor, RSHM &amp; RSTTM</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
 
+                                </tbody>
                             </table>
                         </div>
 
@@ -2328,317 +2340,317 @@
                 </section>
 
                 <!-- <section id="academic-excellence">
-                      <section
-                        style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
+                              <section
+                                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
 
-                        <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                          Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                        </h2>
+                                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
+                                </h2>
 
-                        <div
-                          style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                        </div>
+                                <div
+                                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
+                                </div>
 
-                        <div class="row">
+                                <div class="row">
 
-                          <div class="col-lg-6">
+                                  <div class="col-lg-6">
 
-                            <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                            </h2>
+                                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                                    </h2>
 
-                            <div
-                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                              <div style="padding: 30px 20px;">
-                                <div class="carousel" mask>
-                                  <div class="carousel-track">
+                                    <div
+                                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                                      <div style="padding: 30px 20px;">
+                                        <div class="carousel" mask>
+                                          <div class="carousel-track">
 
-                                    <article class="bg-white text-dark rounded"
-                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                            <article class="bg-white text-dark rounded"
+                                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para1 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Yubita Deka<br>
-                                            <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                          </p>
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para1 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Yubita Deka<br>
+                                                    <span class="text-dark" style="font-size: 18px;">Physics</span>
+                                                  </p>
+                                                </div>
+
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para1 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Susmita Paul<br>
+                                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                                  </p>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="rounded text-center"
+                                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                                <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                              </div>
+
+                                            </article>
+
+                                            <article class="bg-white text-dark rounded"
+                                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para1 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Bhaskar Jyoti Borah<br>
+                                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                                  </p>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="rounded text-center"
+                                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                                <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
+                                              </div>
+
+                                            </article>
+
+                                          </div>
                                         </div>
-
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para1 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Susmita Paul<br>
-                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                          </p>
-                                        </div>
-
                                       </div>
+                                    </div>
 
-                                      <div class="rounded text-center"
-                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                        <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                      </div>
+                                    <style>
+                                      .carousel {
+                                        --carousel-width: min(85vw, 650px);
+                                        --carousel-item-width: 280px;
+                                        --carousel-item-height: 350px;
+                                        --carousel-item-gap: 2rem;
+                                        position: relative;
+                                        width: var(--carousel-width);
+                                        overflow: hidden;
+                                      }
 
-                                    </article>
+                                      .carousel[mask] {
+                                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                                      }
 
-                                    <article class="bg-white text-dark rounded"
-                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                      .carousel-track {
+                                        display: flex;
+                                        gap: var(--carousel-item-gap);
+                                        animation: marquee var(--carousel-duration) linear infinite;
+                                      }
 
-                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                      .carousel article {
+                                        flex: 0 0 var(--carousel-item-width);
+                                        height: var(--carousel-item-height);
+                                        display: grid;
+                                        grid-template-rows: 200px auto 1fr auto;
+                                        border-radius: 10px;
+                                        background: white;
+                                        color: #314158;
+                                      }
 
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para1 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Bhaskar Jyoti Borah<br>
-                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                          </p>
-                                        </div>
+                                      .carousel img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        border-radius: 15px !important;
+                                      }
 
-                                      </div>
+                                      .carousel article>*:not(img) {
+                                        padding: 0 1rem;
+                                      }
 
-                                      <div class="rounded text-center"
-                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                        <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                      </div>
+                                      @keyframes marquee {
+                                        from {
+                                          transform: translateX(0);
+                                        }
 
-                                    </article>
+                                        to {
+                                          transform: translateX(var(--scroll-distance));
+                                        }
+                                      }
+                                    </style>
+
+                                    <script>
+                                        const track = document.querySelector('.carousel-track');
+                                        const cards = Array.from(track.children);
+
+                                        cards.forEach(card => {
+                                            track.appendChild(card.cloneNode(true));
+                                        });
+
+                                        const carouselEl = document.querySelector('.carousel');
+                                        const styles = getComputedStyle(carouselEl);
+                                        const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
+                                        const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
+                                        const totalCards = track.children.length;
+                                        const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
+                                        track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+
+                                        const speed = 80;
+                                        const duration = halfTrackWidth / speed;
+                                        track.style.setProperty('--carousel-duration', `${duration}s`);
+                                    </script>
 
                                   </div>
-                                </div>
-                              </div>
-                            </div>
 
-                            <style>
-                              .carousel {
-                                --carousel-width: min(85vw, 650px);
-                                --carousel-item-width: 280px;
-                                --carousel-item-height: 350px;
-                                --carousel-item-gap: 2rem;
-                                position: relative;
-                                width: var(--carousel-width);
-                                overflow: hidden;
-                              }
+                                  <div class="col-lg-6">
 
-                              .carousel[mask] {
-                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                              }
+                                    <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
+                                    </h2>
 
-                              .carousel-track {
-                                display: flex;
-                                gap: var(--carousel-item-gap);
-                                animation: marquee var(--carousel-duration) linear infinite;
-                              }
+                                    <div
+                                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                                      <div style="padding: 30px 20px;">
+                                        <div class="carousel2" mask>
+                                          <div class="carousel-track2">
 
-                              .carousel article {
-                                flex: 0 0 var(--carousel-item-width);
-                                height: var(--carousel-item-height);
-                                display: grid;
-                                grid-template-rows: 200px auto 1fr auto;
-                                border-radius: 10px;
-                                background: white;
-                                color: #314158;
-                              }
+                                            <article class="bg-white text-dark rounded"
+                                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                              .carousel img {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                                border-radius: 15px !important;
-                              }
+                                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                              .carousel article>*:not(img) {
-                                padding: 0 1rem;
-                              }
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para2 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Ritu Sharma<br>
+                                                    <span class="text-dark" style="font-size: 18px;">Chemistry</span>
+                                                  </p>
+                                                </div>
 
-                              @keyframes marquee {
-                                from {
-                                  transform: translateX(0);
-                                }
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para2 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Anil Kumar<br>
+                                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                                  </p>
+                                                </div>
 
-                                to {
-                                  transform: translateX(var(--scroll-distance));
-                                }
-                              }
-                            </style>
+                                              </div>
 
-                            <script>
-                                const track = document.querySelector('.carousel-track');
-                                const cards = Array.from(track.children);
+                                              <div class="rounded text-center"
+                                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                                <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
+                                              </div>
 
-                                cards.forEach(card => {
-                                    track.appendChild(card.cloneNode(true));
-                                });
+                                            </article>
 
-                                const carouselEl = document.querySelector('.carousel');
-                                const styles = getComputedStyle(carouselEl);
-                                const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                                const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                                const totalCards = track.children.length;
-                                const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                                track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+                                            <article class="bg-white text-dark rounded"
+                                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                                const speed = 80;
-                                const duration = halfTrackWidth / speed;
-                                track.style.setProperty('--carousel-duration', `${duration}s`);
-                            </script>
+                                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                          </div>
+                                                <div class="rounded"
+                                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                                  <p class="para2 fw-bold m-0 text-center"
+                                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                    Meera Das<br>
+                                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                                  </p>
+                                                </div>
 
-                          <div class="col-lg-6">
+                                              </div>
 
-                            <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                            </h2>
+                                              <div class="rounded text-center"
+                                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                                <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                              </div>
 
-                            <div
-                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                              <div style="padding: 30px 20px;">
-                                <div class="carousel2" mask>
-                                  <div class="carousel-track2">
+                                            </article>
 
-                                    <article class="bg-white text-dark rounded"
-                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para2 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Ritu Sharma<br>
-                                            <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                          </p>
+                                          </div>
                                         </div>
-
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para2 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Anil Kumar<br>
-                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                          </p>
-                                        </div>
-
                                       </div>
+                                    </div>
 
-                                      <div class="rounded text-center"
-                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                        <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                      </div>
+                                    <style>
+                                      .carousel2 {
+                                        --carousel-width: min(85vw, 650px);
+                                        --carousel-item-width: 280px;
+                                        --carousel-item-height: 350px;
+                                        --carousel-item-gap: 2rem;
+                                        position: relative;
+                                        width: var(--carousel-width);
+                                        overflow: hidden;
+                                      }
 
-                                    </article>
+                                      .carousel2[mask] {
+                                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                                      }
 
-                                    <article class="bg-white text-dark rounded"
-                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                      .carousel-track2 {
+                                        display: flex;
+                                        gap: var(--carousel-item-gap);
+                                        animation: marquee2 var(--carousel-duration) linear infinite;
+                                      }
 
-                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                      .carousel2 article {
+                                        flex: 0 0 var(--carousel-item-width);
+                                        height: var(--carousel-item-height);
+                                        display: grid;
+                                        grid-template-rows: 200px auto 1fr auto;
+                                        border-radius: 10px;
+                                        background: white;
+                                        color: #314158;
+                                      }
 
-                                        <div class="rounded"
-                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                          <p class="para2 fw-bold m-0 text-center"
-                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                            Meera Das<br>
-                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                          </p>
-                                        </div>
+                                      .carousel2 img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        border-radius: 15px !important;
+                                      }
 
-                                      </div>
+                                      .carousel2 article>*:not(img) {
+                                        padding: 0 1rem;
+                                      }
 
-                                      <div class="rounded text-center"
-                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                        <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                      </div>
+                                      @keyframes marquee2 {
+                                        from {
+                                          transform: translateX(0);
+                                        }
 
-                                    </article>
+                                        to {
+                                          transform: translateX(var(--scroll-distance));
+                                        }
+                                      }
+                                    </style>
+
+                                    <script>
+                                        const track2 = document.querySelector('.carousel-track2');
+                                        const cards2 = Array.from(track2.children);
+
+                                        cards2.forEach(card => {
+                                            track2.appendChild(card.cloneNode(true));
+                                        });
+
+                                        const carouselEl2 = document.querySelector('.carousel2');
+                                        const styles2 = getComputedStyle(carouselEl2);
+                                        const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
+                                        const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
+                                        const totalCards2 = track2.children.length;
+                                        const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
+                                        track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
+
+                                        const speed2 = 80;
+                                        const duration2 = halfTrackWidth2 / speed2;
+                                        track2.style.setProperty('--carousel-duration', `${duration2}s`);
+                                    </script>
 
                                   </div>
+
                                 </div>
-                              </div>
-                            </div>
 
-                            <style>
-                              .carousel2 {
-                                --carousel-width: min(85vw, 650px);
-                                --carousel-item-width: 280px;
-                                --carousel-item-height: 350px;
-                                --carousel-item-gap: 2rem;
-                                position: relative;
-                                width: var(--carousel-width);
-                                overflow: hidden;
-                              }
-
-                              .carousel2[mask] {
-                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                              }
-
-                              .carousel-track2 {
-                                display: flex;
-                                gap: var(--carousel-item-gap);
-                                animation: marquee2 var(--carousel-duration) linear infinite;
-                              }
-
-                              .carousel2 article {
-                                flex: 0 0 var(--carousel-item-width);
-                                height: var(--carousel-item-height);
-                                display: grid;
-                                grid-template-rows: 200px auto 1fr auto;
-                                border-radius: 10px;
-                                background: white;
-                                color: #314158;
-                              }
-
-                              .carousel2 img {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                                border-radius: 15px !important;
-                              }
-
-                              .carousel2 article>*:not(img) {
-                                padding: 0 1rem;
-                              }
-
-                              @keyframes marquee2 {
-                                from {
-                                  transform: translateX(0);
-                                }
-
-                                to {
-                                  transform: translateX(var(--scroll-distance));
-                                }
-                              }
-                            </style>
-
-                            <script>
-                                const track2 = document.querySelector('.carousel-track2');
-                                const cards2 = Array.from(track2.children);
-
-                                cards2.forEach(card => {
-                                    track2.appendChild(card.cloneNode(true));
-                                });
-
-                                const carouselEl2 = document.querySelector('.carousel2');
-                                const styles2 = getComputedStyle(carouselEl2);
-                                const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                                const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                                const totalCards2 = track2.children.length;
-                                const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                                track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                                const speed2 = 80;
-                                const duration2 = halfTrackWidth2 / speed2;
-                                track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                            </script>
-
-                          </div>
-
-                        </div>
-
-                      </section>
-                    </section> -->
+                              </section>
+                            </section> -->
 
                 <div id="bos" class="container pb-5 pt-5">
 
@@ -3439,6 +3451,7 @@
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
                                                         <th>Sl No.</th>
+                                                        <th>Content</th>
                                                         <th>Name of the Member</th>
                                                         <th>Designation</th>
                                                         <th>Designation in the Committee</th>
@@ -3446,56 +3459,67 @@
                                                 </thead>
                                                 <tbody class="para1 align-middle"
                                                     style="background-color: #f9f9f9; text-align: start;">
+
                                                     <tr>
                                                         <td>1</td>
+                                                        <td>Head of the Department</td>
                                                         <td>Dr Aruna Dev Rroy</td>
                                                         <td>Associate Professor, HOD, RSC</td>
                                                         <td>Chairperson</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>Prof. (Dr) Sudip Chakraborty</td>
-                                                        <td>Professor, Dy. Dean, RSC</td>
+                                                        <td>Two Professors, including the Dean of the School</td>
+                                                        <td>Prof. (Dr) A.P. Singh</td>
+                                                        <td>Professor, RSC</td>
                                                         <td>Member Secretary</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>3</td>
+                                                        <td></td>
                                                         <td>Prof. (Dr) George A.P.</td>
-                                                        <td>Professor, RSB<br>Dean, RSB &amp; RSC</td>
+                                                        <td>Professor, RSB<br>Dean, RSB & RSC</td>
                                                         <td>Member</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>4</td>
+                                                        <td>Two Associate Professors - one of them will be member secretary
+                                                        </td>
                                                         <td>Dr Rajdeep Nag</td>
-                                                        <td>Assistant Professor, RSC</td>
-                                                        <td>Member</td>
+                                                        <td>Associate Professor, RSC</td>
+                                                        <td>Member Secretary</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>5</td>
+                                                        <td>Two Assistant Professors holding Ph.D. degree</td>
                                                         <td>Dr Niva Kalita</td>
                                                         <td>Assistant Professor, RSC</td>
                                                         <td>Member</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>6</td>
-                                                        <td>Prof. (Dr) Kamal Debnath</td>
-                                                        <td>Professor, RSAPS</td>
-                                                        <td>External Member</td>
+                                                        <td></td>
+                                                        <td>Dr Padum Chetry</td>
+                                                        <td>Assistant Professor, RSC</td>
+                                                        <td>Member</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>7</td>
-                                                        <td>Prof. (Dr) Anuradha Devi</td>
-                                                        <td>Professor, RSAPS</td>
+                                                        <td>Three external members not below the rank of Professors,
+                                                            including members from an allied department, nominated by the
+                                                            URC</td>
+                                                        <td>Prof. (Dr) Aparajeeta Borkakoty</td>
+                                                        <td>Professor (Department of Management)</td>
                                                         <td>External Member</td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>Prof. (Dr) Soumitra Sen</td>
-                                                        <td>Professor, RSHM &amp; RSTTM</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
 
+                                                </tbody>
                                             </table>
                                         </div>
 

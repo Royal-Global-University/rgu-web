@@ -6,13 +6,13 @@
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
                 style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
-                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Hotel Management (RSHM)</span></h2>
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Travel & Tourism Management (RSTTM)</span></h2>
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Hotel Management (RSHM)</span></h2>
+                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Travel & Tourism Management (RSTTM)</span></h2>
 
         </div>
 
@@ -219,6 +219,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Arhit-Sarkar.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Arhit Sarkar</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="/faculty-angshumi-goswami" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dikhyant.png"
                                     alt="Profile image ">
                             </div>
@@ -231,6 +243,19 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Raag-Roshan.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Raag Roshan Talukdar</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image ">
                             </div>
@@ -238,7 +263,6 @@
                             <p class="card-designation">Visiting Faculty</p>
                         </div>
                     </div>
-
 
                 </div>
                 <!-- regular faculty  -->
