@@ -216,128 +216,128 @@
             <!-- events and highlights  -->
             <!-- <div class="container pb-4">
 
-                <div class="row" style="display: flex; justify-content: center;">
-                  <div class="col-lg-12">
-                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                      Events
-                    </h2>
+                        <div class="row" style="display: flex; justify-content: center;">
+                          <div class="col-lg-12">
+                            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
+                              Events
+                            </h2>
 
-                    <div style="max-width: 100%; position: relative;">
-                      <div style="border: 1px solid #ccc;">
+                            <div style="max-width: 100%; position: relative;">
+                              <div style="border: 1px solid #ccc;">
 
-                        <div id="mobileEventScrollContainer"
-                          style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                          <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                            <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
+                                <div id="mobileEventScrollContainer"
+                                  style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                  <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
+                                    <tbody class="para1" id="mobileEventScrollContent" style="background-color: #f9f9f9; ">
 
-                               <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          28-09-2023 | Dr. SubbaRao M Gavaravarapu (Scientist F & head, nutrition, communication
-                                          & health education, ICMR-NIN, Tarnaka, Hyderabad) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                       <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  28-09-2023 | Dr. SubbaRao M Gavaravarapu (Scientist F & head, nutrition, communication
+                                                  & health education, ICMR-NIN, Tarnaka, Hyderabad) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          14-03-2024 | Dr. Dhruvajyoti Choudhury (Consultant nephrologist & renal transplant
-                                          physician, Apollo Hospitals, Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  14-03-2024 | Dr. Dhruvajyoti Choudhury (Consultant nephrologist & renal transplant
+                                                  physician, Apollo Hospitals, Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          08-04-2024 | Dr. Jesto George (Deputy director & central licensing authority, FSSAI,
-                                          Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  08-04-2024 | Dr. Jesto George (Deputy director & central licensing authority, FSSAI,
+                                                  Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          10-09-2024 | Ms. Dimi Ingtipi (Senior dietician, Department of Digestive Disease and
-                                          Clinical Nutrition, Dr. B Barooah Cancer Institute, Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  10-09-2024 | Ms. Dimi Ingtipi (Senior dietician, Department of Digestive Disease and
+                                                  Clinical Nutrition, Dr. B Barooah Cancer Institute, Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                            </tbody>
+                                    </tbody>
 
-                          </table>
-                        </div>
+                                  </table>
+                                </div>
 
-                      </div>
+                              </div>
 
-                      <div style="text-align: center; margin-top: 15px;">
-                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                              <div style="text-align: center; margin-top: 15px;">
+                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
                 background: linear-gradient(135deg, #243B95, #151B5B);
                 color: #fff; font-weight: 600; font-size: 16px;
                 border-radius: 25px; text-decoration: none;
                 box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                 transition: all 0.3s ease-in-out;">
-                          View All
-                        </a>
-                      </div>
+                                  View All
+                                </a>
+                              </div>
 
 
-                    </div>
+                            </div>
 
-                    <script>
-                        const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                        const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
+                            <script>
+                                const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
+                                const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
 
-                        // Duplicate content for infinite scroll (mobile)
-                        mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
+                                // Duplicate content for infinite scroll (mobile)
+                                mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
 
-                        let mobileEventScrollPos = 0;
-                        const mobileEventScrollSpeed = 0.2;
+                                let mobileEventScrollPos = 0;
+                                const mobileEventScrollSpeed = 0.2;
 
-                        function mobileEventScrollStep() {
-                            mobileEventScrollPos += mobileEventScrollSpeed;
-                            if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                mobileEventScrollPos = 0;
-                            }
-                            mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                            requestAnimationFrame(mobileEventScrollStep);
-                        }
+                                function mobileEventScrollStep() {
+                                    mobileEventScrollPos += mobileEventScrollSpeed;
+                                    if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
+                                        mobileEventScrollPos = 0;
+                                    }
+                                    mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
+                                    requestAnimationFrame(mobileEventScrollStep);
+                                }
 
-                        mobileEventScrollStep();
-                    </script>
+                                mobileEventScrollStep();
+                            </script>
 
-                  </div>
-                </div>
+                          </div>
+                        </div>
 
 
-              </div> -->
+                      </div> -->
             <!-- events and highlights  -->
 
             <!-- Mobile-Friendly Board of Studies & DRC -->
@@ -360,71 +360,79 @@
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in D-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
+                                        <th class="text-white">S.No.</th>
+                                        <th class="text-white">Position In S-BOS</th>
+                                        <th class="text-white">Name And Designation</th>
                                     </tr>
                                 </thead>
                                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+
                                     <tr>
                                         <td>1</td>
-                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                        <td>Prof. (Dr.) Hari Prasad Agarwal, Dean of RSA/RSD/RSFA</td>
+                                        <td>Coordinator</td>
+                                        <td>Mr. Asif Iqbal Mazid, Assistant Professor</td>
                                     </tr>
 
                                     <tr>
                                         <td>2</td>
-                                        <td>All Heads of the Departments - Member (Ex-Officio)</td>
-                                        <td>
-                                            Zubin Islam,Assistant Professor Co-Ordinator of CD,GD&amp; PD
-                                            <hr>
-                                            Asif Iqbal Mazid,Assistant Professor, Co-Ordinator of FD
-                                            <hr>
-                                            Ar. Bhola Saha,Assistant Professor Co-Ordinator of ID
-                                        </td>
+                                        <td>Industry Expert (External)</td>
+                                        <td>Sumit Baruah, Senior Design Lead, Quick Sand, Delhi</td>
                                     </tr>
 
                                     <tr>
                                         <td>3</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>
-                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept. of Design, Indian
-                                            Institute of Technology, Guwahati
-                                        </td>
+                                        <td>Academic Expert (External)</td>
+                                        <td>Dr. Shiv Kumar Verma, Design Faculty, IIT Jodhpur</td>
                                     </tr>
 
                                     <tr>
                                         <td>4</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>
-                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                            Founder @ Projckt, Chandigarh
-                                        </td>
+                                        <td>Convener</td>
+                                        <td>Varsha Jain, Assistant Professor</td>
                                     </tr>
 
                                     <tr>
                                         <td>5</td>
-                                        <td>
-                                            Two Faculty members of the School nominated by the Vice
-                                            Chancellor
-                                        </td>
-                                        <td>
-                                            Asif Iqbal MazId, Assistant Professor, Fashion Design
-                                            <hr>
-                                            Sanjay Krishna Kutum, Assistant Professor, Communication Design
-                                        </td>
+                                        <td>Member</td>
+                                        <td>T. Abhishek, Assistant Professor</td>
                                     </tr>
 
                                     <tr>
                                         <td>6</td>
-                                        <td>
-                                            Registrar, Member Secretary (Ex-officio)/Registrar nominee
-                                        </td>
-                                        <td>
-                                            Ms. Moon Moon Ahmed, Senior Manager, Academic Section, The Assam
-                                            Royal Global University
-                                        </td>
+                                        <td>Member</td>
+                                        <td>Manash Borah, Assistant Professor</td>
                                     </tr>
+
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Member</td>
+                                        <td>Dipankar Gogoi, Assistant Professor</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Member</td>
+                                        <td>Ankit Bordoloi, Teaching Assistant</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Member</td>
+                                        <td>Suresh Goduka, Assistant Professor</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Member</td>
+                                        <td>Tikendra Kumar Sahu, Assistant Professor</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Member</td>
+                                        <td>Jintu Mhanta, Assistant Professor</td>
+                                    </tr>
+
                                 </tbody>
                             </table>
                         </div>
@@ -655,21 +663,21 @@
 
                     <!-- Events -->
                     <!-- <a href="#events" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                      Highlights</span>
-                  </a> -->
+                            style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                            <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                            <span class="para1"
+                              style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                              Highlights</span>
+                          </a> -->
 
                     <!-- Academic Excellence -->
                     <!-- <a href="#academic-excellence" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                      Excellence</span>
-                  </a> -->
+                            style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                            <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                            <span class="para1"
+                              style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                              Excellence</span>
+                          </a> -->
 
                     <!-- BOS -->
                     <a href="#bos" class="special-link"
@@ -817,38 +825,38 @@
 
                                             <!-- PG -->
                                             <!-- <div class="accordion-item"
-                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                <h2 class="accordion-header" id="headingTwo">
-                                  <button class="accordion-button collapsed"
-                                    style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
-                                    <i class="fa fa-university me-2"></i> Post Graduate
-                                  </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                  data-bs-parent="#accordionExample">
-                                  <div class="accordion-body"
-                                    style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                    <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                          <button class="accordion-button collapsed"
+                                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            <i class="fa fa-university me-2"></i> Post Graduate
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                          data-bs-parent="#accordionExample">
+                                          <div class="accordion-body"
+                                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                      <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/structure-of-syllabus-msc.pdf"
-                                        target="_blank" style="color: #27467A;">
-                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- M.Sc. Nutrition and
-                                        Dietetics
-                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                      </a>
+                                              <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/structure-of-syllabus-msc.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- M.Sc. Nutrition and
+                                                Dietetics
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                              </a>
 
-                                      <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/NUTRITION-PG-2025-SYLLABUS.pdf"
-                                        target="_blank" style="color: #27467A;">
-                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Nutrition and Dietetics
-                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                      </a>
+                                              <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/NUTRITION-PG-2025-SYLLABUS.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Nutrition and Dietetics
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                              </a>
 
-                                    </div>
-                                  </div>
-                                </div>
-                              </div> -->
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> -->
 
                                             <!-- Doctoral -->
                                             <div class="accordion-item"
@@ -886,435 +894,435 @@
                 <hr>
 
                 <!-- <section id="events">
-                  <div class="container pb-4">
-                    <div class="row" style="display: flex; justify-content: center;">
-                      <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                          Events
-                        </h2>
+                          <div class="container pb-4">
+                            <div class="row" style="display: flex; justify-content: center;">
+                              <div class="col-lg-12">
+                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                                  Events
+                                </h2>
 
-                        <div style="max-width: 100%; position: relative;">
-                          <div style="border: 1px solid #ccc;">
-                            <div id="scrollContainer"
-                              style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                              <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
+                                <div style="max-width: 100%; position: relative;">
+                                  <div style="border: 1px solid #ccc;">
+                                    <div id="scrollContainer"
+                                      style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                      <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
+                                        <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          28-09-2023 | Dr. SubbaRao M Gavaravarapu (Scientist F & head, nutrition, communication
-                                          & health education, ICMR-NIN, Tarnaka, Hyderabad) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  28-09-2023 | Dr. SubbaRao M Gavaravarapu (Scientist F & head, nutrition, communication
+                                                  & health education, ICMR-NIN, Tarnaka, Hyderabad) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          14-03-2024 | Dr. Dhruvajyoti Choudhury (Consultant nephrologist & renal transplant
-                                          physician, Apollo Hospitals, Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  14-03-2024 | Dr. Dhruvajyoti Choudhury (Consultant nephrologist & renal transplant
+                                                  physician, Apollo Hospitals, Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          08-04-2024 | Dr. Jesto George (Deputy director & central licensing authority, FSSAI,
-                                          Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  08-04-2024 | Dr. Jesto George (Deputy director & central licensing authority, FSSAI,
+                                                  Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
-                                  <tr style="border-bottom: 1px solid #ddd;">
-                                    <td style="display: flex; align-items: center; padding: 12px;">
-                                      <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                      <div>
-                                        <div style="font-weight: bold; color: #27467A;">
-                                          10-09-2024 | Ms. Dimi Ingtipi (Senior dietician, Department of Digestive Disease and
-                                          Clinical Nutrition, Dr. B Barooah Cancer Institute, Guwahati) | Invited talk.
-                                        </div>
-                                        <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
-                                          ...</a>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                          <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="display: flex; align-items: center; padding: 12px;">
+                                              <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                              <div>
+                                                <div style="font-weight: bold; color: #27467A;">
+                                                  10-09-2024 | Ms. Dimi Ingtipi (Senior dietician, Department of Digestive Disease and
+                                                  Clinical Nutrition, Dr. B Barooah Cancer Institute, Guwahati) | Invited talk.
+                                                </div>
+                                                <a href="#" style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read More
+                                                  ...</a>
+                                              </div>
+                                            </td>
+                                          </tr>
 
 
-                                </tbody>
-                              </table>
-                            </div>
-                          </div>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
 
-                          <div style="text-align: center; margin-top: 15px;">
-                            <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                                  <div style="text-align: center; margin-top: 15px;">
+                                    <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
                   background: linear-gradient(135deg, #243B95, #151B5B);
                   color: #fff; font-weight: 600; font-size: 16px;
                   border-radius: 25px; text-decoration: none;
                   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
                   transition: all 0.3s ease-in-out;">
-                              View All
-                            </a>
+                                      View All
+                                    </a>
+                                  </div>
+                                </div>
+
+                                <script>
+                                    const scrollContainer = document.getElementById('scrollContainer');
+                                    const scrollContent = document.getElementById('scrollContent');
+
+                                    scrollContent.innerHTML += scrollContent.innerHTML;
+
+                                    let scrollPos = 0;
+                                    const scrollSpeed = 0.2;
+
+                                    function scrollStep() {
+                                        scrollPos += scrollSpeed;
+                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
+                                            scrollPos = 0;
+                                        }
+                                        scrollContainer.scrollTop = scrollPos;
+                                        requestAnimationFrame(scrollStep);
+                                    }
+
+                                    scrollStep();
+                                </script>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-
-                        <script>
-                            const scrollContainer = document.getElementById('scrollContainer');
-                            const scrollContent = document.getElementById('scrollContent');
-
-                            scrollContent.innerHTML += scrollContent.innerHTML;
-
-                            let scrollPos = 0;
-                            const scrollSpeed = 0.2;
-
-                            function scrollStep() {
-                                scrollPos += scrollSpeed;
-                                if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                    scrollPos = 0;
-                                }
-                                scrollContainer.scrollTop = scrollPos;
-                                requestAnimationFrame(scrollStep);
-                            }
-
-                            scrollStep();
-                        </script>
-                      </div>
-                    </div>
-                  </div>
-                </section> -->
+                        </section> -->
 
                 <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
+                          <section
+                            style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
 
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
+                            <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                              Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
+                            </h2>
 
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
+                            <div
+                              style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
+                            </div>
 
-                    <div class="row">
+                            <div class="row">
 
-                      <div class="col-lg-6">
+                              <div class="col-lg-6">
 
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                        </h2>
+                                <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                                </h2>
 
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
+                                <div
+                                  style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                                  <div style="padding: 30px 20px;">
+                                    <div class="carousel" mask>
+                                      <div class="carousel-track">
 
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                        <article class="bg-white text-dark rounded"
+                                          style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                          <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para1 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Yubita Deka<br>
+                                                <span class="text-dark" style="font-size: 18px;">Physics</span>
+                                              </p>
+                                            </div>
+
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para1 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Susmita Paul<br>
+                                                <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                              </p>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="rounded text-center"
+                                            style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                            <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                          </div>
+
+                                        </article>
+
+                                        <article class="bg-white text-dark rounded"
+                                          style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                                          <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para1 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Bhaskar Jyoti Borah<br>
+                                                <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                              </p>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="rounded text-center"
+                                            style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                            <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
+                                          </div>
+
+                                        </article>
+
+                                      </div>
                                     </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
                                   </div>
+                                </div>
 
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
+                                <style>
+                                  .carousel {
+                                    --carousel-width: min(85vw, 650px);
+                                    --carousel-item-width: 280px;
+                                    --carousel-item-height: 350px;
+                                    --carousel-item-gap: 2rem;
+                                    position: relative;
+                                    width: var(--carousel-width);
+                                    overflow: hidden;
+                                  }
 
-                                </article>
+                                  .carousel[mask] {
+                                    mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                                  }
 
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                  .carousel-track {
+                                    display: flex;
+                                    gap: var(--carousel-item-gap);
+                                    animation: marquee var(--carousel-duration) linear infinite;
+                                  }
 
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                  .carousel article {
+                                    flex: 0 0 var(--carousel-item-width);
+                                    height: var(--carousel-item-height);
+                                    display: grid;
+                                    grid-template-rows: 200px auto 1fr auto;
+                                    border-radius: 10px;
+                                    background: white;
+                                    color: #314158;
+                                  }
 
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
+                                  .carousel img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    border-radius: 15px !important;
+                                  }
 
-                                  </div>
+                                  .carousel article>*:not(img) {
+                                    padding: 0 1rem;
+                                  }
 
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
+                                  @keyframes marquee {
+                                    from {
+                                      transform: translateX(0);
+                                    }
 
-                                </article>
+                                    to {
+                                      transform: translateX(var(--scroll-distance));
+                                    }
+                                  }
+                                </style>
+
+                                <script>
+                                    const track = document.querySelector('.carousel-track');
+                                    const cards = Array.from(track.children);
+
+                                    cards.forEach(card => {
+                                        track.appendChild(card.cloneNode(true));
+                                    });
+
+                                    const carouselEl = document.querySelector('.carousel');
+                                    const styles = getComputedStyle(carouselEl);
+                                    const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
+                                    const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
+                                    const totalCards = track.children.length;
+                                    const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
+                                    track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+
+                                    const speed = 80;
+                                    const duration = halfTrackWidth / speed;
+                                    track.style.setProperty('--carousel-duration', `${duration}s`);
+                                </script>
 
                               </div>
-                            </div>
-                          </div>
-                        </div>
 
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
+                              <div class="col-lg-6">
 
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
+                                <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
+                                </h2>
 
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
+                                <div
+                                  style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                                  <div style="padding: 30px 20px;">
+                                    <div class="carousel2" mask>
+                                      <div class="carousel-track2">
 
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
+                                        <article class="bg-white text-dark rounded"
+                                          style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
+                                          <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para2 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Ritu Sharma<br>
+                                                <span class="text-dark" style="font-size: 18px;">Chemistry</span>
+                                              </p>
+                                            </div>
 
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para2 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Anil Kumar<br>
+                                                <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                              </p>
+                                            </div>
 
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
+                                          </div>
 
-                        <script>
-                            const track = document.querySelector('.carousel-track');
-                            const cards = Array.from(track.children);
+                                          <div class="rounded text-center"
+                                            style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                            <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
+                                          </div>
 
-                            cards.forEach(card => {
-                                track.appendChild(card.cloneNode(true));
-                            });
+                                        </article>
 
-                            const carouselEl = document.querySelector('.carousel');
-                            const styles = getComputedStyle(carouselEl);
-                            const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                            const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                            const totalCards = track.children.length;
-                            const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                            track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+                                        <article class="bg-white text-dark rounded"
+                                          style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                            const speed = 80;
-                            const duration = halfTrackWidth / speed;
-                            track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
+                                          <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                      </div>
+                                            <div class="rounded"
+                                              style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                              <p class="para2 fw-bold m-0 text-center"
+                                                style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                                Meera Das<br>
+                                                <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                              </p>
+                                            </div>
 
-                      <div class="col-lg-6">
+                                          </div>
 
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
+                                          <div class="rounded text-center"
+                                            style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                            <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                          </div>
 
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
+                                        </article>
 
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
+                                      </div>
                                     </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
                                   </div>
+                                </div>
 
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
+                                <style>
+                                  .carousel2 {
+                                    --carousel-width: min(85vw, 650px);
+                                    --carousel-item-width: 280px;
+                                    --carousel-item-height: 350px;
+                                    --carousel-item-gap: 2rem;
+                                    position: relative;
+                                    width: var(--carousel-width);
+                                    overflow: hidden;
+                                  }
 
-                                </article>
+                                  .carousel2[mask] {
+                                    mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                                  }
 
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+                                  .carousel-track2 {
+                                    display: flex;
+                                    gap: var(--carousel-item-gap);
+                                    animation: marquee2 var(--carousel-duration) linear infinite;
+                                  }
 
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+                                  .carousel2 article {
+                                    flex: 0 0 var(--carousel-item-width);
+                                    height: var(--carousel-item-height);
+                                    display: grid;
+                                    grid-template-rows: 200px auto 1fr auto;
+                                    border-radius: 10px;
+                                    background: white;
+                                    color: #314158;
+                                  }
 
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
+                                  .carousel2 img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    border-radius: 15px !important;
+                                  }
 
-                                  </div>
+                                  .carousel2 article>*:not(img) {
+                                    padding: 0 1rem;
+                                  }
 
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
+                                  @keyframes marquee2 {
+                                    from {
+                                      transform: translateX(0);
+                                    }
 
-                                </article>
+                                    to {
+                                      transform: translateX(var(--scroll-distance));
+                                    }
+                                  }
+                                </style>
+
+                                <script>
+                                    const track2 = document.querySelector('.carousel-track2');
+                                    const cards2 = Array.from(track2.children);
+
+                                    cards2.forEach(card => {
+                                        track2.appendChild(card.cloneNode(true));
+                                    });
+
+                                    const carouselEl2 = document.querySelector('.carousel2');
+                                    const styles2 = getComputedStyle(carouselEl2);
+                                    const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
+                                    const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
+                                    const totalCards2 = track2.children.length;
+                                    const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
+                                    track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
+
+                                    const speed2 = 80;
+                                    const duration2 = halfTrackWidth2 / speed2;
+                                    track2.style.setProperty('--carousel-duration', `${duration2}s`);
+                                </script>
 
                               </div>
+
                             </div>
-                          </div>
-                        </div>
 
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track2 = document.querySelector('.carousel-track2');
-                            const cards2 = Array.from(track2.children);
-
-                            cards2.forEach(card => {
-                                track2.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl2 = document.querySelector('.carousel2');
-                            const styles2 = getComputedStyle(carouselEl2);
-                            const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                            const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                            const totalCards2 = track2.children.length;
-                            const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                            track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                            const speed2 = 80;
-                            const duration2 = halfTrackWidth2 / speed2;
-                            track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section> -->
+                          </section>
+                        </section> -->
 
                 <div id="bos" class="container pb-5 pt-3">
 
@@ -1342,72 +1350,80 @@
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
+                                                        <th class="text-white">S.No.</th>
+                                                        <th class="text-white">Position In S-BOS</th>
+                                                        <th class="text-white">Name And Designation</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="para1 align-middle"
                                                     style="background-color: #f9f9f9; text-align: start;">
+
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                                        <td>Prof. (Dr.) Hari Prasad Agarwal, Dean of RSA/RSD/RSFA</td>
+                                                        <td>Coordinator</td>
+                                                        <td>Mr. Asif Iqbal Mazid, Assistant Professor</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>All Heads of the Departments - Member (Ex-Officio)</td>
-                                                        <td>
-                                                            Zubin Islam,Assistant Professor Co-Ordinator of CD,GD&amp; PD
-                                                            <hr>
-                                                            Asif Iqbal Mazid,Assistant Professor, Co-Ordinator of FD
-                                                            <hr>
-                                                            Ar. Bhola Saha,Assistant Professor Co-Ordinator of ID
-                                                        </td>
+                                                        <td>Industry Expert (External)</td>
+                                                        <td>Sumit Baruah, Senior Design Lead, Quick Sand, Delhi</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>External Experts for each Department (Academic)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept. of Design, Indian
-                                                            Institute of Technology, Guwahati
-                                                        </td>
+                                                        <td>Academic Expert (External)</td>
+                                                        <td>Dr. Shiv Kumar Verma, Design Faculty, IIT Jodhpur</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>External Experts for each Department (Industry)</td>
-                                                        <td>
-                                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                                            Founder @ Projckt, Chandigarh
-                                                        </td>
+                                                        <td>Convener</td>
+                                                        <td>Varsha Jain, Assistant Professor</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>5</td>
-                                                        <td>
-                                                            Two Faculty members of the School nominated by the Vice
-                                                            Chancellor
-                                                        </td>
-                                                        <td>
-                                                            Asif Iqbal MazId, Assistant Professor, Fashion Design
-                                                            <hr>
-                                                            Sanjay Krishna Kutum, Assistant Professor, Communication Design
-                                                        </td>
+                                                        <td>Member</td>
+                                                        <td>T. Abhishek, Assistant Professor</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>6</td>
-                                                        <td>
-                                                            Registrar, Member Secretary (Ex-officio)/Registrar nominee
-                                                        </td>
-                                                        <td>
-                                                            Ms. Moon Moon Ahmed, Senior Manager, Academic Section, The Assam
-                                                            Royal Global University
-                                                        </td>
+                                                        <td>Member</td>
+                                                        <td>Manash Borah, Assistant Professor</td>
                                                     </tr>
+
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Member</td>
+                                                        <td>Dipankar Gogoi, Assistant Professor</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Member</td>
+                                                        <td>Ankit Bordoloi, Teaching Assistant</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>Member</td>
+                                                        <td>Suresh Goduka, Assistant Professor</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>Member</td>
+                                                        <td>Tikendra Kumar Sahu, Assistant Professor</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td>Member</td>
+                                                        <td>Jintu Mhanta, Assistant Professor</td>
+                                                    </tr>
+
                                                 </tbody>
                                             </table>
                                         </div>
