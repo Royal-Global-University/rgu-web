@@ -4,7 +4,7 @@
 
             <button class="rgu-popup-close" id="rguPopupClose">&times;</button>
 
-            <img src="https://media.rgu.ac/ads/PHD.png" alt="Event">
+            <img src="/new-web/assets/img/ads/PHD.png" alt="Event">
 
         </div>
 
