@@ -454,6 +454,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/home-banner/Ritika baidya.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms Ritika Baidya</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/rubina.png"
                                     alt="Profile image">
                             </div>
