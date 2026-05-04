@@ -1451,7 +1451,7 @@
                     <div class="dept-business-accordion-header">
                         <div class="dept-business-accordion-header-left">
                             <i class="fa-solid fa-graduation-cap"></i>
-                            <span>Under Graduate</span>
+                            <span>Post Graduate</span>
                         </div>
                         <i class="fa-solid fa-chevron-down dept-business-chevron"></i>
                     </div>
