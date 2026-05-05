@@ -1456,8 +1456,8 @@
     <div class="dept-rsttm-wrapper">
 
         <div class="dept-rsttm-heading" id="dept-home">
-            <h1>Department of <span>Travel & Tourism</span></h1>
-            <h2>Royal School of Travel & Tourism (RSTTM)</h2>
+            <h1>Department of <span>Travel & Tourism Management</span></h1>
+            <h2>Royal School of Travel & Tourism Management (RSTTM)</h2>
         </div>
 
         <div class="dept-rsttm-hero" id="dept-about">
