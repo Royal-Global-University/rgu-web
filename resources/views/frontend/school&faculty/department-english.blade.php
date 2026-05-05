@@ -1,2099 +1,2107 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
-
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac" style="
-                                                                                                            position: fixed;
-                                                                                                            bottom: 25px;
-                                                                                                            right: 75px;
-                                                                                                            background-color: #ef991f;
-                                                                                                            color: #fff;
-                                                                                                            padding: 12px 20px;
-                                                                                                            font-size: 16px;
-                                                                                                            font-weight: bold;
-                                                                                                            text-decoration: none;
-                                                                                                            border-radius: 20px;
-                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                            z-index: 1000;
-                                                                                                            overflow: hidden;
-                                                                                                            animation: pulse 2s infinite;
-                                                                                                            ">
-                    <span style="
-                                                                                                            position: absolute;
-                                                                                                            top: 0;
-                                                                                                            left: -75%;
-                                                                                                            width: 50%;
-                                                                                                            height: 100%;
-                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                            transform: skewX(-25deg);
-                                                                                                            animation: shine 2s infinite;
-                                                                                                            "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="padding-top: 130px; position: relative;">
-                <img src="home-banner/en-mob.jpg"/>
-
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">MA English</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MA-English" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MA-English">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">BA English</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
-
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MA-English" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MA-English">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BA
-                                                        English
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA English
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-graduation-cap me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- MA
-                                                        English
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSL/PG_ English_Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA English
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <hr>
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            16-03-2018 | Dr. Anwesha Mahanta (Dance exponent) | Invited talk
-                                                            on Literature and
-                                                            Performing Arts.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            25-10-2018 | Prof. Alison East (University of Otago, NZ) &amp;
-                                                            Prof. Barbara Snook
-                                                            (Auckland University, NZ) | Talk Program on Culture and
-                                                            Environment.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            29-01-2019 | Mintie Das (Author) | Interactive session on How to
-                                                            tell and sell your story.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            30-09-2019 | Dr. Ranjit Choudhury (Former Professor, Cotton
-                                                            University) | Special talk on
-                                                            T.S. Eliot's 131st birth anniversary.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            06-11-2019 | Easterine Kire (Author) | Talk on Folktales,
-                                                            Narratives, Fiction.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            12-11-2019 | Prof. Ananya Dutta Gupta (Dibrugarh University) |
-                                                            Talk on "Women in Popular
-                                                            Fiction".
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            28-02-2020 | Prof. Ranjit Choudhury (Former Professor, Cotton
-                                                            University) | Talk on
-                                                            Translation Studies.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            06-08-2020 | Dr. Abhijit K. Borah (Author, Gauhati University) |
-                                                            Online Talk on Myth and
-                                                            Contemporary Assamese Fiction.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            15-11-2020 | Dr. Subhendu Mund (Hyderabad University) | Talk on
-                                                            Life Narratives.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            10-03-2021 | Prof. Nandini Bhattacharya (Gauhati University) |
-                                                            Talk on Women's Writing.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            31-05-2022 | Prof. S.C. Bagri (Director, Centre for Tourism and
-                                                            Hospitality and Research,
-                                                            Dehradun) | Webinar on The Employability Factors for the
-                                                            Hospitality Industry.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            12-05-2022 | Mr. Anirban Goswami (Sous-Chef, Novotel Guwahati) |
-                                                            Skill Enhancement on
-                                                            Culinary Knowledge.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            21-11-2022 | Mr. Anjan Choudhary (Director of E&amp;ICT, IIT
-                                                            Guwahati) | Soft Skill,
-                                                            Personality Development & Grooming.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            09-02-2023 | Ms. Chayanika Kalita (Coursed Trainer, North East
-                                                            Skills Center, Guwahati) |
-                                                            Developing Interview Skills for the Student of Hospitality.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            31-05-2023 | Mr. Nayanjyoti Saikia (Master Chef India Winner
-                                                            2023) | Culinary Chef
-                                                            Challenge Cum Moctail Masterclass.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            29-08-2024 | Mr. Ranvijay Singh, Mr. K. Kartikeyan, Mrs. Santa
-                                                            Sharma (Corporate Chef,
-                                                            Executive Chef, Master Chef India 1st Runner Up 2023) |
-                                                            Inauguration ceremony of the
-                                                            Advance Food Production Laboratory and F&amp;B Training
-                                                            Restaurant Laboratory.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                    background: linear-gradient(135deg, #243B95, #151B5B);
-                    color: #fff; font-weight: 600; font-size: 16px;
-                    border-radius: 25px; text-decoration: none;
-                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                    transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-              background:linear-gradient(135deg,#24477f,#1a365d);
-              color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in S-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                        <td>Prof. (Dr.) Krishna Barua, Dean (i/c), RSL</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                        <td>Dr. Baishalee Rajkhowa, Associate Professor &amp; Head</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Professors of the School Members (Ex-Officio)</td>
-                                        <td>
-                                            Prof. (Dr.) Pradip Jyoti Mahanta, Professor, Department of
-                                            English &amp; Dean (i/c), RSCOM.
-                                            <hr>
-                                            Prof. (Dr.) Bornali Bhuyan, Professor
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>
-                                            Prof. (Dr.) Rakhee Kalita Moral, Dean of Languages &amp; Head,
-                                            Center for Women’s Studies, Cotton University, Guwahati
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>
-                                            Dhruba Hazarika, Eminent writer &amp; Former Chairperson, Assam,
-                                            Public Service Commission
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>
-                                            Two Faculty members of the School nominated by the Vice
-                                            Chancellor
-                                        </td>
-                                        <td>
-                                            Dr. Jasmine Choudhury, Assistant Professor
-                                            <hr>
-                                            Dr. Pronami Bhattacharyya, Assistant Professor
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                        <td>Dr. D N Singh, Registrar and his nominee</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-              background:linear-gradient(135deg,#24477f,#1a365d);
-              color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Head of the Department</td>
-                                        <td>Prof. Tushti Sharma</td>
-                                        <td>Professor, HoD, RSL</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">2</td>
-                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                        <td>Prof. Indrani Singh Rai</td>
-                                        <td>Professor and Dean, RSL</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Krishna Barua</td>
-                                        <td>Senior Professor, RSL</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Associate Professors – one of them will be the member
-                                            secretary
-                                        </td>
-                                        <td>Dr. Baishalee Rajkhowa</td>
-                                        <td>Associate Professor, RSL</td>
-                                        <td>Member Secretary</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Stuti Goswami</td>
-                                        <td>Associate Professor, RSL</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">4</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>Dr. Jasmine A Choudhury</td>
-                                        <td>Associate Professor, RSL</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Pompi Basumatary</td>
-                                        <td>Assistant Professor, RSL</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">5</td>
-                                        <td rowspan="3" class="align-middle">
-                                            Three external members not below the rank of Professors,
-                                            including members from an allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. Ankur Ganguly</td>
-                                        <td>Dean Academics, RGU</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Sajal Nag</td>
-                                        <td>Professor &amp; Dean RSHSS</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Bhuban Barooah</td>
-                                        <td>Professor &amp; Dean, RSLA</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <script>
-                const mobAccPairs = [
-                    { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
-                    { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function () {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function (e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-
-        </div>
-
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/" style="
-                                                                                                                        position: fixed;
-                                                                                                                        bottom: 35px;
-                                                                                                                        right: 50px;
-                                                                                                                        background-color: #ef991f;
-                                                                                                                        color: #fff;
-                                                                                                                        padding: 12px 20px;
-                                                                                                                        font-size: 18px;
-                                                                                                                        font-weight: bold;
-                                                                                                                        text-decoration: none;
-                                                                                                                        border-radius: 20px;
-                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                        z-index: 1000;
-                                                                                                                        overflow: hidden;
-                                                                                                                        animation: pulse 2s infinite;
-                                                                                                                        ">
-                    <span
-                        style="
-                                                                                                                        position: absolute;
-                                                                                                                        top: 0;
-                                                                                                                        left: -75%;
-                                                                                                                        width: 50%;
-                                                                                                                        height: 100%;
-                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                        transform: skewX(-25deg);
-                                                                                                                        animation: shine 2s infinite;
-                                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            <section>
-
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
-
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
-
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
-
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
-
-                    <!-- Events -->
-                    <a href="#events" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                            Highlights</span>
-                    </a>
-
-                    <!-- Academic Excellence -->
-                    <a href="#academic-excellence" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                            Excellence</span>
-                    </a>
-
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
-
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
-
-                </div>
-                <!-- floating buttons  -->
-
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-
-                        <img src="home-banner/en-web.jpg" alt="">
-
-                        <img src="mobile-assets/department-all/rsla/web-law-down.png" alt="">
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:18px;">MA English</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MA-English" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                            href="programs-MA-English">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:18px; padding-right: 20px;">BA English</span> | <span
-                                    style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MA-English" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                            href="programs-MA-English">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- BA English
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
-                                                                English
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- MA English
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSL/PG_ English_Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA
-                                                                English
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section id="events">
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    16-03-2018 | Dr. Anwesha Mahanta (Dance exponent) |
-                                                                    Invited talk on Literature and
-                                                                    Performing Arts.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    25-10-2018 | Prof. Alison East (University of Otago, NZ)
-                                                                    &amp; Prof. Barbara Snook
-                                                                    (Auckland University, NZ) | Talk Program on Culture and
-                                                                    Environment.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    29-01-2019 | Mintie Das (Author) | Interactive session
-                                                                    on How to tell and sell your story.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    30-09-2019 | Dr. Ranjit Choudhury (Former Professor,
-                                                                    Cotton University) | Special talk on
-                                                                    T.S. Eliot's 131st birth anniversary.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    06-11-2019 | Easterine Kire (Author) | Talk on
-                                                                    Folktales, Narratives, Fiction.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    12-11-2019 | Prof. Ananya Dutta Gupta (Dibrugarh
-                                                                    University) | Talk on "Women in Popular
-                                                                    Fiction".
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    28-02-2020 | Prof. Ranjit Choudhury (Former Professor,
-                                                                    Cotton University) | Talk on
-                                                                    Translation Studies.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    06-08-2020 | Dr. Abhijit K. Borah (Author, Gauhati
-                                                                    University) | Online Talk on Myth and
-                                                                    Contemporary Assamese Fiction.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    15-11-2020 | Dr. Subhendu Mund (Hyderabad University) |
-                                                                    Talk on Life Narratives.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    10-03-2021 | Prof. Nandini Bhattacharya (Gauhati
-                                                                    University) | Talk on Women's Writing.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    31-05-2022 | Prof. S.C. Bagri (Director, Centre for
-                                                                    Tourism and Hospitality and Research,
-                                                                    Dehradun) | Webinar on The Employability Factors for the
-                                                                    Hospitality Industry.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    12-05-2022 | Mr. Anirban Goswami (Sous-Chef, Novotel
-                                                                    Guwahati) | Skill Enhancement on
-                                                                    Culinary Knowledge.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    21-11-2022 | Mr. Anjan Choudhary (Director of E&amp;ICT,
-                                                                    IIT Guwahati) | Soft Skill,
-                                                                    Personality Development & Grooming.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    09-02-2023 | Ms. Chayanika Kalita (Coursed Trainer,
-                                                                    North East Skills Center, Guwahati) |
-                                                                    Developing Interview Skills for the Student of
-                                                                    Hospitality.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    31-05-2023 | Mr. Nayanjyoti Saikia (Master Chef India
-                                                                    Winner 2023) | Culinary Chef
-                                                                    Challenge Cum Moctail Masterclass.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    29-08-2024 | Mr. Ranvijay Singh, Mr. K. Kartikeyan, Mrs.
-                                                                    Santa Sharma (Corporate Chef,
-                                                                    Executive Chef, Master Chef India 1st Runner Up 2023) |
-                                                                    Inauguration ceremony of the
-                                                                    Advance Food Production Laboratory and F&amp;B Training
-                                                                    Restaurant Laboratory.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                      background: linear-gradient(135deg, #243B95, #151B5B);
-                      color: #fff; font-weight: 600; font-size: 16px;
-                      border-radius: 25px; text-decoration: none;
-                      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                      transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
-
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
-
-                    <div class="row">
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                          const track = document.querySelector('.carousel-track');
-                          const cards = Array.from(track.children);
-
-                          cards.forEach(card => {
-                            track.appendChild(card.cloneNode(true));
-                          });
-
-                          const carouselEl = document.querySelector('.carousel');
-                          const styles = getComputedStyle(carouselEl);
-                          const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                          const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                          const totalCards = track.children.length;
-                          const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                          track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                          const speed = 80;
-                          const duration = halfTrackWidth / speed;
-                          track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
-
-                      </div>
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                          const track2 = document.querySelector('.carousel-track2');
-                          const cards2 = Array.from(track2.children);
-
-                          cards2.forEach(card => {
-                            track2.appendChild(card.cloneNode(true));
-                          });
-
-                          const carouselEl2 = document.querySelector('.carousel2');
-                          const styles2 = getComputedStyle(carouselEl2);
-                          const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                          const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                          const totalCards2 = track2.children.length;
-                          const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                          track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                          const speed2 = 80;
-                          const duration2 = halfTrackWidth2 / speed2;
-                          track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section> -->
-
-                <div id="bos" class="container pb-5 pt-5">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                           background:linear-gradient(135deg,#24477f,#1a365d);
-                           color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in S-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>Prof. (Dr.) Krishna Barua, Dean (i/c), RSL</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                                        <td>Dr. Baishalee Rajkhowa, Associate Professor &amp; Head</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Professors of the School Members (Ex-Officio)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Pradip Jyoti Mahanta, Professor, Department of
-                                                            English &amp; Dean (i/c), RSCOM.
-                                                            <hr>
-                                                            Prof. (Dr.) Bornali Bhuyan, Professor
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>External Experts for each Department (Academic)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Rakhee Kalita Moral, Dean of Languages &amp; Head,
-                                                            Center for Women’s Studies, Cotton University, Guwahati
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>External Experts for each Department (Industry)</td>
-                                                        <td>
-                                                            Dhruba Hazarika, Eminent writer &amp; Former Chairperson, Assam,
-                                                            Public Service Commission
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>
-                                                            Two Faculty members of the School nominated by the Vice
-                                                            Chancellor
-                                                        </td>
-                                                        <td>
-                                                            Dr. Jasmine Choudhury, Assistant Professor
-                                                            <hr>
-                                                            Dr. Pronami Bhattacharyya, Assistant Professor
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                                        <td>Dr. D N Singh, Registrar and his nominee</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                           background:linear-gradient(135deg,#24477f,#1a365d);
-                           color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Prof. Tushti Sharma</td>
-                                                        <td>Professor, HoD, RSL</td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">2</td>
-                                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                                        <td>Prof. Indrani Singh Rai</td>
-                                                        <td>Professor and Dean, RSL</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Krishna Barua</td>
-                                                        <td>Senior Professor, RSL</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">3</td>
-                                                        <td rowspan="2" class="align-middle">
-                                                            Two Associate Professors – one of them will be the member
-                                                            secretary
-                                                        </td>
-                                                        <td>Dr. Baishalee Rajkhowa</td>
-                                                        <td>Associate Professor, RSL</td>
-                                                        <td>Member Secretary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Stuti Goswami</td>
-                                                        <td>Associate Professor, RSL</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">4</td>
-                                                        <td rowspan="2" class="align-middle">
-                                                            Two Assistant Professors holding Ph.D. degree
-                                                        </td>
-                                                        <td>Dr. Jasmine A Choudhury</td>
-                                                        <td>Associate Professor, RSL</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Pompi Basumatary</td>
-                                                        <td>Assistant Professor, RSL</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">5</td>
-                                                        <td rowspan="3" class="align-middle">
-                                                            Three external members not below the rank of Professors,
-                                                            including members from an allied department, who will be
-                                                            nominated by the URC
-                                                        </td>
-                                                        <td>Prof. Ankur Ganguly</td>
-                                                        <td>Dean Academics, RGU</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Sajal Nag</td>
-                                                        <td>Professor &amp; Dean RSHSS</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Bhuban Barooah</td>
-                                                        <td>Professor &amp; Dean, RSLA</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-
-                        const accPairs = [
-                            { btn: 'accBtn1', panel: 'accPanel1' },
-                            { btn: 'accBtn2', panel: 'accPanel2' }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function () {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function (e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
-
-                </div>
-
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function () {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function () {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function (e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-
-                </script>
-
-            </section>
-
-        </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
     </div>
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+
+    </div>
+
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #556b8d;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-english-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-english-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-english-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-english-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-english-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-english-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-english-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-english-img img {
+            width: 80%;
+            padding-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-english-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-english-content {
+            flex: 1;
+        }
+
+        .dept-english-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-english-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-english-content p {
+            font-size: clamp(1.3rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-english-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-english-floating {
+            position: fixed;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-english-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-english-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-english-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-english-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-english-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-english-float-item:hover .dept-english-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-english-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-english-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-english-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-english-wrapper {
+                padding-bottom: 160px;
+            }
+
+            .dept-english-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-english-img img {
+                padding-left: 0%;
+            }
+
+            .dept-english-floating {
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-english-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-english-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-english-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-english-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-english-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-english-admission-btn {
+                bottom: 95px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 85%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-english-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-english-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-english-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-english-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-english-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-english-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-english-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-english-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-english-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-english-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-english-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-english-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-english-img img {
+                padding-left: 0%;
+            }
+
+            .dept-english-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-english-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-english-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-english-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-english-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-english-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-english-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-english-intro-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-english-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-english-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-english-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-english-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-english-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-english-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-english-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-english-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-english-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-english-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-english-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-english-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-english-accordion-item.active .dept-english-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-english-accordion-item.active .dept-english-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-english-accordion-item.active .dept-english-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-english-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-english-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-english-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-english-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-english-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-english-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-english-syllabus-link:hover .dept-english-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-english-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-english-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-english-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-english-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-english-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-english-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-english-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-english-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-english-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-english-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-english-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-english-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-english-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-english-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-english-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-english-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-english-events-section {
+            /* margin-top: 3vw; */
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-english-events-box {
+            max-width: 1300px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-english-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 100s linear infinite;
+        }
+
+        .dept-english-events-box:hover .dept-english-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-english-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-english-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-english-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-english-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-english-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-english-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-english-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-english-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-english-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-english-table-acc.active .dept-english-table-content {
+            padding: 20px;
+        }
+
+        .dept-english-table-acc.active .dept-english-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-english-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-english-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-english-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-english-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-english-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-english-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-english-table td,
+        .dept-english-table th {
+            white-space: nowrap;
+        }
+
+        /* ===== EVENTS + HIGHLIGHTS LAYOUT (REWRITTEN) ===== */
+
+        .dept-english-events-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 3vw;
+            align-items: stretch;
+        }
+
+        /* LEFT EVENTS */
+        .dept-english-events-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* RIGHT HIGHLIGHTS */
+        .dept-english-highlights-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ================= CAROUSEL ================= */
+
+        .dept-english-carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 14px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* FORCE LANDSCAPE */
+        .dp-track {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 100%;
+        }
+
+        .dp-slide {
+            min-width: 100%;
+            aspect-ratio: 16 / 9;
+            /* 🔥 KEY FIX */
+            position: relative;
+        }
+
+        /* IMAGE */
+        .dp-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ================= BUTTONS ================= */
+
+        .dp-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(44, 74, 122, 0.75);
+            color: #fff;
+            border: none;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 2;
+            transition: 0.3s;
+        }
+
+        .dp-btn.prev {
+            left: 12px;
+        }
+
+        .dp-btn.next {
+            right: 12px;
+        }
+
+        .dp-btn:hover {
+            background: var(--accent);
+        }
+
+        .dp-btn.hidden {
+            display: none;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .dept-english-events-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .dept-english-carousel {
+                border-radius: 10px;
+            }
+
+            .dp-slide {
+                aspect-ratio: 16 / 9;
+                /* 🔥 stays landscape ALWAYS */
+            }
+
+            .dp-btn {
+                width: 36px;
+                height: 36px;
+                font-size: 14px;
+            }
+
+        }
+
+        .dept-english-explore-btn {
+            text-decoration: none !important;
+        }
+
+        /* ================= ACHIEVEMENT SECTION ================= */
+        .dept-english-achievement-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Tabs */
+        .dept-english-achievement-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .dept-achievement-tab {
+            padding: 12px 25px;
+            border-radius: 40px;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-achievement-tab:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .dept-achievement-tab.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Content Box */
+        .dept-english-achievement-content {
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            padding: 20px;
+        }
+
+        /* Panes */
+        .dept-achievement-pane {
+            display: none;
+        }
+
+        .dept-achievement-pane.active {
+            display: block;
+        }
+    </style>
+
+    <div class="dept-english-floating">
+        <a href="#dept-home" class="dept-english-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-english-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-english-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-english-float-text">About</span>
+        </a>
+
+        <!-- <a href="#dept-vision" class="dept-english-float-item">
+          <i class="fa fa-bullseye"></i>
+          <span class="dept-english-float-text">Vision & Mission</span>
+        </a> -->
+
+        <a href="#dept-courses" class="dept-english-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-english-float-text">Courses</span>
+        </a>
+
+        <!-- <a href="#dept-prospects" class="dept-english-float-item">
+          <i class="fa fa-file-text"></i>
+          <span class="dept-english-float-text">Prospects</span>
+        </a> -->
+
+        <a href="#dept-syllabus" class="dept-english-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-english-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-english-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-english-float-text">Committee</span>
+        </a>
+
+        <!-- <a href="#dept-lab" class="dept-english-float-item">
+                <i class="fa fa-flask"></i>
+                <span class="dept-english-float-text">Lab</span>
+            </a> -->
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-english-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-english-wrapper">
+
+        <div class="dept-english-heading" id="dept-home">
+            <h1>Department of <span>English</span></h1>
+            <h2>Royal School of Languages (RSL)</h2>
+        </div>
+
+        <div class="dept-english-hero" id="dept-about">
+
+            <div class="dept-english-img">
+                <img src="/mobile-assets/rsl.png"
+                    alt="Political Science and Public Administration">
+            </div>
+
+            <div class="dept-english-content">
+
+                <h3>About <span>Department</span></h3>
+
+                <p>
+                    The Department of English the cornerstone of Royal School of Languages is one of
+                    the founding departments of Royal Global University. The Department offers a
+                    diverse range of courses in the Undergraduate, Postgraduate and Ph.D
+                    programmes in Literature Language and Culture.The Department provides a fresh
+                    dimension in exploring the fascinating world of literature and language by its
+                    innovative teaching, multidisciplinary approach and research- oriented teaching
+                    pedagogy by experienced academic professionals. In designing the curriculum,
+                    the department has been responsive to the emerging trends of literary, linguistic
+                    and cultural theory, covering the fields of Aesthetics, Film / Visual Culture and
+                    Literature of North East India.
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="dept-english-prospects-section" id="dept-vision">
+
+
+            <div class="dept-english-prospects-content">
+
+                <p class="dept-english-intro-text">
+                    The department strives to imbibe a transformative experience in the students by instilling
+                    sensitivity, curiosity and mainly passion in analyzing the
+                    multidimensional fields of literature and language. In doing so the Department aims to develop in
+                    the students a strong sense of values and
+                    ethics, respect for the individual and society in a vibrant dynamic intellectual environment. The
+                    rigorous graduate and post graduate curriculum
+                    prepare the students for careers in academics and other leadership fields. Above all the Department
+                    aims for the students to master the power of
+                    communication and instill confidence and personal integrity in the affairs of everyday life.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="dept-english-prospects-section" id="dept-vision">
+            <h2 class="dept-english-section-title">Vision <span>& Mission</span></h2>
+
+            <div class="dept-english-prospects-content">
+
+                <h3 class="dept-english-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-english-bullet-list">
+                    <li>
+                        To offer Nationally and Internationally integrated learning of literature and language to
+                        create global citizens endowed with sensitivity and inclusive ideal of culture.
+                    </li>
+
+                </ul>
+
+                <h3 class="dept-english-subheading">Our Mission</h3>
+                <ul class="dept-english-bullet-list">
+                    <li>
+                        To achieve academic excellence through innovatively designed curriculum of literature,
+                        language and culture windowing on the world and the ingenuity of the country.
+                    </li>
+                    <li>
+                        To instill ethical conduct, foresight, critical and imaginative ability in the learners.
+                    </li>
+                    <li>
+                        To develop passion and intellectual curiosity for literature in English and the mother
+                        tongue.
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="dept-english-courses-section" id="dept-courses">
+            <h2 class="dept-english-section-title">Courses <span>Offered</span></h2>
+
+            <div class="dept-english-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-english-prospects-section" id="dept-prospects">
+          <h2 class="dept-english-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-english-prospects-content">
+            <p class="dept-english-intro-text">
+              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-english-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-english-list">
+              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Government Sector Jobs</h3>
+            <ol class="dept-english-list">
+              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Private Sector Careers</h3>
+            <ol class="dept-english-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Research & Teaching</h3>
+            <ol class="dept-english-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-english-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Jobs Abroad</h3>
+            <ol class="dept-english-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-english-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-english-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-english-accordion-section" id="dept-syllabus">
+            <h2 class="dept-english-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-english-accordion-wrapper">
+
+
+                <div class="dept-english-accordion-item active">
+                    <div class="dept-english-accordion-header">
+                        <div class="dept-english-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-english-chevron"></i>
+                    </div>
+
+                    <div class="dept-english-accordion-content">
+                        <div class="dept-english-syllabus-list">
+
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
+                                class="dept-english-syllabus-link" download>
+                                <div class="dept-english-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- BA English
+                                </div>
+                                <i class="fa-solid fa-download dept-english-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
+                                class="dept-english-syllabus-link" download>
+                                <div class="dept-english-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- BA English
+                                </div>
+                                <i class="fa-solid fa-download dept-english-download-icon"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="dept-english-accordion-item">
+                    <div class="dept-english-accordion-header">
+                        <div class="dept-english-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-english-chevron"></i>
+                    </div>
+
+                    <div class="dept-english-accordion-content">
+                        <div class="dept-english-syllabus-list">
+
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
+                                class="dept-english-syllabus-link" download>
+                                <div class="dept-english-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- MA English
+                                </div>
+                                <i class="fa-solid fa-download dept-english-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/RSL/PG_%20English_Syllabus.pdf"
+                                class="dept-english-syllabus-link" download>
+                                <div class="dept-english-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- MA English
+                                </div>
+                                <i class="fa-solid fa-download dept-english-download-icon"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-english-accordion-item">
+                    <div class="dept-english-accordion-header">
+                        <div class="dept-english-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-english-chevron"></i>
+                    </div>
+
+                    <div class="dept-english-accordion-content">
+                        <div class="dept-english-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-english-syllabus-link" download>
+                                <div class="dept-english-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dept-english-events-section" id="dept-events">
+
+            <h2 class="dept-english-section-title">Events</h2>
+
+            <div class="dept-english-events-box">
+                <div class="dept-english-events-track" id="events-track"></div>
+            </div>
+
+            <!-- <div style="text-align:center; margin-top:30px;">
+                    <a href="#" class="dept-english-events-btn">View All</a>
+                </div> -->
+
+        </div>
+
+        <!-- ================= ACHIEVEMENT SECTION ================= -->
+        <div class="dept-english-achievement-section" id="dept-achievement">
+
+            <h2 class="dept-english-section-title">
+                Achievements
+            </h2>
+
+            <!-- Tabs -->
+            <div class="dept-english-achievement-tabs">
+                <button class="dept-achievement-tab active" data-tab="student">
+                    Student Achievement
+                </button>
+
+                <button class="dept-achievement-tab" data-tab="faculty">
+                    Faculty Achievement
+                </button>
+
+
+            </div>
+
+            <!-- Content -->
+            <div class="dept-english-achievement-content">
+
+                <!-- STUDENT TAB -->
+                <div class="dept-achievement-pane active" id="student">
+
+                    <div class="dept-english-table-responsive">
+                        <table class="dept-english-table">
+                            <thead>
+                                <tr>
+                                    <!-- YOU WILL ADD HEADERS -->
+                                    <th>Sl. No.</th>
+                                    <th>Name</th>
+                                    <th>Achievement</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rohan Wahengbam</td>
+                                    <td> Rohan Wahengbam of Batch 2022–2025 was admitted to the MLitt course in English
+                                        Literature at the University of Glasgow, School of Critical Studies, for the
+                                        September 2026 intake.</td>
+
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Krishadwipta Pathak</td>
+                                    <td>Krishadwipta Pathak of BA 6th Semester was published with a poetry collection
+                                        titled Slivers within the Evanescent.</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Krishadwipta Pathak of BA 6th Semester was awarded the Semester Topper Scholarship
+                                        for the 1st, 2nd, 3rd, and 5th semesters. </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Krishadwipta Pathak of BA 6th Semester was recognized as a Dean’s Lister for
+                                        2025–26.</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Krishadwipta Pathak of BA 6th Semester completed an online Certificate Course in
+                                        Korean Language from Yonsei University. </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Dristi Darsana Saikia of BA 4th Semester was awarded 2nd prize in both one-act and
+                                        skit at the 39th  AIU Zonal Youth Festival and 3rd position in skit at the AIU
+                                        National Youth Festival. </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Doli Sarma</td>
+                                    <td>Doli Sarma of BA English 2nd Semester was awarded 1st prize in the 100m running race
+                                        at the Airports Authority of India event. </td>
+
+                                </tr>
+
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Manali Roy</td>
+                                    <td>Manali Roy of MA 4th Semester was awarded 1st prize for Neela Khamor Sithi in an
+                                        on-the-spot epistolary poetry writing competition. </td>
+
+                                </tr>
+
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Suchetan Sinha</td>
+                                    <td>Suchetan Sinha of 2nd Semester was awarded High Commendation at NITMMUN 2026 for
+                                        representing Shashi Tharoor in the Lok Sabha committee discussing India’s foreign
+                                        policy </td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <!-- faculty -->
+                <div class="dept-achievement-pane" id="faculty">
+
+                    <div class="dept-english-table-responsive">
+                        <table class="dept-english-table">
+                            <thead>
+                                <tr>
+                                    <!-- YOU WILL ADD HEADERS -->
+                                    <th>Sl. No.</th>
+                                    <th>Name of the faculty</th>
+                                    <th>Achievement</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Prof PJ Mahanta</td>
+                                    <td>Krishna Kanta Handique Award awarded by Department of Cultural Affairs, Govt. of
+                                        India (2023)  Raseswar Saikia Barbayan Memorial Award offered by Sangeet Sattra,
+                                        Assam (2022) </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Mr. Pankaj Gogoi</td>
+                                    <td>Paper title: “Echoes of the Earth: Exploring the Interwoven Realms of Nature, Faith,
+                                        Identity and Conservation among the Sonowal Kacharis of Assam” Secured 3rd prize at
+                                        the STATE-LEVEL RESEARCH PAPER COMPETITION under the aegis of INDIGENOUS AND TRIBAL
+                                        FAITH AND CULTURE DEPARTMENT, GOVT. OF ASSAM. Organised by DIRECTORATE OF INDIGENOUS
+                                        AND TRIBAL FAITH AND CULTURE award given by Dr. Ranoj Pegu, Hon'ble Minister of
+                                        Education </td>
+
+                                </tr>
+
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="dept-english-table-section" id="dept-committee">
+
+            <h2 class="dept-english-section-title">Table <span>List</span></h2>
+
+            <div class="dept-english-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script>
+        const track = document.getElementById("dpTrack");
+        const slides = document.querySelectorAll(".dp-slide");
+        const prevBtn = document.getElementById("dpPrev");
+        const nextBtn = document.getElementById("dpNext");
+
+        let index = 0;
+        let autoSlide;
+
+        function updateSlide() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        // CLICK EVENTS
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // CONDITION: SINGLE IMAGE
+        if (slides.length <= 1) {
+            prevBtn.classList.add("hidden");
+            nextBtn.classList.add("hidden");
+        } else {
+            autoSlide = setInterval(nextSlide, 3000);
+        }
+    </script>
+
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "MA English",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MA-English"
+            },
+            {
+                title: "BA English | Honours / Honours with Research",
+                duration: "4 years",
+                link: "https://www.rgu.ac/programs-MA-English"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-english-course-card">
+
+          <div class="dept-english-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-english-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-english-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-english-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-english-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-english-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-english-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+
+        const eventsData = [
+            "Mr. Shivalal Gautam, Co-Founder of Xomonnoy, delivered an invited talk on Gender and Social Exclusion.",
+            "Mr. Mohan Sharma, a researcher, delivered an invited talk on Human-Animal Relationship.",
+            "Ms. Juree Hojai, Program Officer of Disability Inclusion at Team Lease Foundation, conducted an interactive session on careers in the development sector.",
+            "Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative Trust, Dibrugarh, along with Mr. Henry Wood from the University of Durham, UK, conducted an interactive session.",
+            "Ms. Manjari Nandy, Assistant Professor in the Department of Sociology at The Maharaja Sayajirao University of Baroda and Ph.D. scholar at the Central University of Gujarat, delivered an invited talk.",
+            "Dr. Bhargabi Das, Assistant Professor in the Department of Rural Management at Shiv Nadar Institution of Eminence, Greater Noida, delivered an invited talk.",
+            "Ms. Suchismita Majumdar, Founder-Director of Swabalambi Foundation, and Mr. Kanhaiya Lal, Senior Co-Worker in Education at SOS Village of Children, delivered an invited talk.",
+            "Dr. Bitasta Das, Senior Editor and Instructor at the Indian Institute of Science, Bangalore, conducted a two-day workshop on the intersectionality of social sciences.",
+            "Prof. (Dr.) Surajit Ch. Mukhopadhyay, Dean of RSHSS, participated as an in-house resource person.",
+            "Dr. Joseph Riamei, Assistant Professor from the School of Social Work at TISS Guwahati Off-Campus, delivered an invited talk.",
+            "Ms. Nipurnh Gupta, a global development communication professional from UNICEF, delivered an invited talk.",
+            "Mr. Mukund Marodia, Manager of Strategic and Academic Affairs at the Indian School of Development Management, delivered an invited talk.",
+            "Dr. Sriparna B. Baruah, former Head (CIE) and Director I/C at IIE, currently Advisor (Livelihood & Entrepreneurship) at NEHHDC, delivered an invited talk.",
+            "Mr. Nayan Jyoti Hazarika, Ph.D. scholar from the Department of Social Work, delivered an invited talk.",
+            "Dr. Shivani Chauhan Barooah, Chairperson of the Centre for Labour Studies and Social Protection at TISS Guwahati, delivered an invited talk.",
+            "Dr. Gayatri Gogoi (AMCH and Pratishruti Trust), Dr. Pankaj Deka (Health City Hospital), and Ms. Nabanita Kalita (N.E News & Prag News) delivered an invited talk.",
+            "Mr. Anupam Joya Sharma, a doctoral fellow of Social Epidemiology at IIT Gandhinagar, delivered an invited talk.",
+            "Dr. Aarushi Kehkar Malhotra, Senior Manager of Research, Advocacy, and Wellness at Sirona Hygiene Foundation, delivered an invited talk online.",
+            "Mr. Sahbaz Ahmed and Mr. Syed Rizwan Ahmed, Advocates from Gauhati High Court, delivered an invited talk.",
+            "Ms. Archana Borthakur of Priya Bondhu and Mr. Uttam Teron of Parijat Academy delivered an invited talk.",
+            "Dr. Ashok Kumar Das (Dr. B. Barooah Cancer Institute) and Dr. Mythili Hazarika (Gauhati Medical College and Hospital) delivered an invited talk.",
+            "Mr. Miguel Das Queah, Executive Director of UTSAH, delivered an invited talk.",
+            "Dr. Razdan Sarim Rahman, Assistant Professor at TISS Guwahati, visited the department.",
+            "April 17, 2024 | Dr. Dhurjjati Sarma (Gauhati University) | Concept of Indian Literature: Problems and Possibilities.",
+
+            "April 4, 2024 to April 5, 2024 | Madhu Raghavendra, Rashmi Narzary, Amanda Basaiawmoit, Meenakshi Goswami | Spring Orchestra 2024: National level poetry competition, panel discussion on poetry, recitation, and sher-o-shayari.",
+
+            "May 16, 2024 | Prof. Pradipta Borgohain (Gauhati University) | Birth Centenary of Franz Kafka: Essay competition and invited talk on The Relevance of Kafka.",
+
+            "September 9, 2024 | Prof. Pradip Jyoti Mahanta | First Annual Srimanta Sankaradeva Memorial Lecture.",
+
+            "November 5, 2024 | Prof. Amarjyoti Choudhury | Remembering Sudhakantha (Commemorating Dr. Bhupen Hazarika).",
+
+            "November 5, 2024 | Prof. Pradip Jyoti Mahanta, Prof. Shiela Bora, Prof. Shikhar Sharma | Celebrating Recognition of Assamese as a Classical Language.",
+
+            "October 23, 2024 to October 26, 2024 | Prof. Kynpham Sing Nonnynrih, Dr. Moushumi Kandali, Dr. Thiyesieno Keditsu, Mrinal Talukdar, Sushanta Talukdar, Madhu Raghavendra | 18th International and 54th Annual Conference of ELTAI: Exploring Languages and Literatures for Evolving Pedagogical Practices.",
+
+            "November 29, 2024 | Vikram Seth, Dhruba Hazarika, Jahnvi Phukan, Rakhee Kalita Moral | Vikram Seth in Conversation.",
+
+            "February 11, 2025 | Milda Varnauskaite | Workshop on the Art of Storytelling.",
+
+            "February 25, 2025 | Dr. Teresa Garrido-Tamayo (Newcastle University, UK) | Detecting Developmental Language Disorder in Multilingual Children: Research Insights and Practical Guidance.",
+
+            "February 28, 2025 | Prof. Anil K. Boro, Dhruba Hazarika, Prof. Sajal Nag, Prof. Dilip K. Kalita | Panel discussion on Narrating Northeast: Revisiting Alternate Histories.",
+
+            "March 10, 2025 to March 11, 2025 | Prof. Rohini Mokashi-Punekar (IIT Guwahati) | First Research Scholars’ Meet: Inclusive Narratives, Writing for Change.",
+
+            "March 13, 2025 | Sri Pramod Jain (IAS Retd.) | Poetry of Despair and Hope.",
+
+            "March 20, 2025 | Prof. G.N. Devy | Eighteenth Anita Baruah Sarmah Memorial Lecture.",
+
+            "April 29, 2025 to April 30, 2025 | Thiyesiyeno Keditsu, Madhu Raghavendra, Lou Majaw | Spring Orchestra 2025: The Planet’s Palette.",
+
+            "July 24, 2025 | Prof. Sunil Kumar Dutta, Prof. Shiela Bora, Prof. Surajit C. Mukhopadhyay | Managing World Heritage: People, Nature, and Culture in the Context of Northeast.",
+
+            "August 14, 2025 | Dr. Dinesh Baishya, Prof. Sajal Nag, Prof. P.J. Baruah | Partition and Its Resonances (Partition Horrors Remembrance Day).",
+
+            "August 29, 2025 | Dr. Amalesh Gope (Tezpur University) | Understanding Speech Sounds: The Fundamentals of Phonetics and Phonology.",
+
+            "November 15, 2025 | Dr. Sandhya Purecha, Sri Raju Das, Prof. Samudraguptra Kashyap, Anuradha Sarma Pujari | Reminiscing Sudhakantha: A Colloquium on His Life and Variegated Contributions.",
+
+            "Scheduled | Prof. Nani Gopal Mahanta, Prof. Dhruba Jyoti Borah, Prof. Alak Kumar Buragohain | Tradition of Charita Literature of Assam."
+
+        ];
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-english-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
+                rows: [
+                    ["1", "Chairperson", "Prof. Indrani Singh Rai, Dean, RSL"],
+                    ["2", "Members (ex-officio)", "Dr. Pronami Bhattacharyya"],
+                    ["", "", "Prof. Bornali Bhuyan, Prof. Amlandeep Das"],
+                    ["3", "One External Academic Expert",
+                        "Prof. Lalan Kishore Singh, Dept. of English, Gauhati University"
+                    ],
+                    ["4", "One External Industry Expert",
+                        "Sri Dhruba Jyoti Hazarika, eminent author and former Chairperson, Assam Public Service Commission"
+                    ],
+                    ["5", "Two teachers nominated by the Vice Chancellor",
+                        "Dr. Stuti Goswami, Associate Professor, Dept. of English, RSL (Member-Secy)"
+                    ],
+                    ["", "", "Dr. Baishalee Rajkhowa Associate Professor, Dept. of English, RSL"]
+
+
+
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name and Designation", ],
+                rows: [
+                    ["1", "Head of the Department", "Dr. Pronami Bhattacharyya, Professor ,Chairperson", ],
+                    ["2", "Two Professors", "Prof. Indrani Singh Rai, Professor and Dean,Member"],
+                    ["", "", "Prof. Bornali Bhuyan , Professor,Member"],
+                    ["3", "Two Associate Professors – one of them will be the member secretary ",
+                        "Dr. Jasmine Choudhury ,Associate Professor, Dept. of English, Member"
+                    ],
+                    ["", " ", "Dr. Stuti Goswami,Member Secretary, Member Secretary"],
+                    ["4", "Two Assistant Professors holding Ph.D. degree  ",
+                        "Dr. Prabuddha Ghosh,Asst. Professor, Dept. of English,Member"
+                    ],
+                    ["", " ", "Dr Pompi Basumatary ,Asst. Professor, Dept. of English, Member"],
+                    ["5", "External member of DRC ", "Prof. Anjali Daimary, HoD English, Gauhati University"]
+
+
+                ]
+            },
+
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-english-table-responsive">
+          <table class="dept-english-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-english-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-english-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-english-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-english-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-english-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-english-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-english-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
+            }
+        ];
+
+        const galleryContainer = document.getElementById("event-gallery-container");
+
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
+      <div class="dept-english-event-card">
+
+        <div class="dept-english-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-english-marquee">
+          <div class="dept-english-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+            }).join("");
+        }
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+    </script>
 @endsection
