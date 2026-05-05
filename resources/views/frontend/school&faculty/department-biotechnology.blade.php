@@ -1,1639 +1,2013 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                    position: fixed;
-                                                                    bottom: 25px;
-                                                                    right: 75px;
-                                                                    background-color: #ef991f;
-                                                                    color: #fff;
-                                                                    padding: 12px 20px;
-                                                                    font-size: 16px;
-                                                                    font-weight: bold;
-                                                                    text-decoration: none;
-                                                                    border-radius: 20px;
-                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                    z-index: 1000;
-                                                                    overflow: hidden;
-                                                                    animation: pulse 2s infinite;
-                                                                    ">
-                    <span
-                        style="
-                                                                    position: absolute;
-                                                                    top: 0;
-                                                                    left: -75%;
-                                                                    width: 50%;
-                                                                    height: 100%;
-                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                    transform: skewX(-25deg);
-                                                                    animation: shine 2s infinite;
-                                                                    "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-biotechnology-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-biotechnology-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-biotechnology-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-biotechnology-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-biotechnology-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-biotechnology-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-biotechnology-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-biotechnology-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-biotechnology-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-biotechnology-content {
+            flex: 1;
+        }
+
+        .dept-biotechnology-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-biotechnology-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-biotechnology-content p {
+            font-size: clamp(1.3rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-biotechnology-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-biotechnology-floating {
+            position: fixed;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-biotechnology-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-biotechnology-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-biotechnology-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-biotechnology-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-biotechnology-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-biotechnology-float-item:hover .dept-biotechnology-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-biotechnology-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-biotechnology-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-biotechnology-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-biotechnology-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-biotechnology-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-biotechnology-img img {
+                padding-left: 0%;
+            }
+
+            .dept-biotechnology-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-biotechnology-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-biotechnology-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-biotechnology-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-biotechnology-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-biotechnology-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-biotechnology-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-biotechnology-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-biotechnology-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-biotechnology-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-biotechnology-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-biotechnology-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-biotechnology-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-biotechnology-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-biotechnology-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-biotechnology-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-biotechnology-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-biotechnology-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-biotechnology-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-biotechnology-img img {
+                padding-left: 0%;
+            }
+
+            .dept-biotechnology-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-biotechnology-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-biotechnology-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-biotechnology-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-biotechnology-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-biotechnology-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-biotechnology-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-biotechnology-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-biotechnology-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-biotechnology-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-biotechnology-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-biotechnology-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-biotechnology-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-biotechnology-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-biotechnology-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-biotechnology-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-biotechnology-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-biotechnology-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-biotechnology-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-biotechnology-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-biotechnology-accordion-item.active .dept-biotechnology-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-biotechnology-accordion-item.active .dept-biotechnology-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-biotechnology-accordion-item.active .dept-biotechnology-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-biotechnology-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-biotechnology-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-biotechnology-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-biotechnology-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-biotechnology-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-biotechnology-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-biotechnology-syllabus-link:hover .dept-biotechnology-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-biotechnology-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-biotechnology-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-biotechnology-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-biotechnology-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-biotechnology-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-biotechnology-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-biotechnology-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 5 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-biotechnology-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-biotechnology-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-biotechnology-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-biotechnology-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-biotechnology-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-biotechnology-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-biotechnology-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-biotechnology-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-biotechnology-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-biotechnology-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-biotechnology-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-biotechnology-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 15s linear infinite;
+        }
+
+        .dept-biotechnology-events-box:hover .dept-biotechnology-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-biotechnology-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-biotechnology-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-biotechnology-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-biotechnology-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-biotechnology-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-biotechnology-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-biotechnology-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-biotechnology-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-biotechnology-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-biotechnology-table-acc.active .dept-biotechnology-table-content {
+            padding: 20px;
+        }
+
+        .dept-biotechnology-table-acc.active .dept-biotechnology-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-biotechnology-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-biotechnology-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-biotechnology-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-biotechnology-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-biotechnology-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-biotechnology-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-biotechnology-table td,
+        .dept-biotechnology-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+        .dept-biotechnology-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-biotechnology-event-card {
+            max-width: 1300px;
+            margin: 0 auto 40px;
+        }
+
+        .dept-biotechnology-event-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* MARQUEE BOX */
+        .dept-biotechnology-marquee {
+            overflow: hidden;
+            border-radius: 12px;
+            /* background: #fff; */
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            /* border-top: 4px solid var(--accent); */
+        }
+
+        /* TRACK */
+        .dept-biotechnology-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: marqueeScroll 80s linear infinite;
+        }
+
+        /* PAUSE ON HOVER */
+        .dept-biotechnology-marquee:hover .dept-biotechnology-marquee-track {
+            animation-play-state: paused;
+        }
+
+        /* IMAGE */
+        .dept-biotechnology-marquee img {
+            height: 300px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* ANIMATION */
+        @keyframes marqueeScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .dept-biotechnology-marquee img {
+                height: 160px;
+            }
+        }
+
+        /* ================= ACHIEVEMENT SECTION ================= */
+        .dept-biotechnology-achievement-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Tabs */
+        .dept-biotechnology-achievement-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .dept-achievement-tab {
+            padding: 12px 25px;
+            border-radius: 40px;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-achievement-tab:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .dept-achievement-tab.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Content Box */
+        .dept-biotechnology-achievement-content {
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            padding: 20px;
+        }
+
+        /* Panes */
+        .dept-achievement-pane {
+            display: none;
+        }
+
+        .dept-achievement-pane.active {
+            display: block;
+        }
+
+        /* ================= RECOGNITION SECTION ================= */
+        .dept-biotechnology-recognition-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-biotechnology-recognition-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            background: #fff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* LEFT IMAGE */
+        .dept-biotechnology-recognition-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .dept-biotechnology-recognition-img img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: contain;
+        }
+
+        /* RIGHT CONTENT */
+        .dept-biotechnology-recognition-content {
+            flex: 2;
+        }
+
+        .dept-biotechnology-recognition-content p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        /* BUTTON */
+        .dept-biotechnology-recognition-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-biotechnology-recognition-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-biotechnology-recognition-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 960px) {
+            .dept-biotechnology-recognition-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+                padding: 30px 20px;
+            }
+
+            .dept-biotechnology-recognition-content p {
+                text-align: center;
+            }
+
+            .dept-biotechnology-recognition-btn {
+                justify-content: center;
+            }
+        }
+
+        /* new css */
+
+        .dept-biotechnology-bullett-list {
+            column-count: 3;
+            column-gap: 30px;
+        }
+
+        .dept-biotechnology-bullett-list {
+            column-count: 3;
+            column-gap: 40px;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .dept-biotechnology-bullett-list li {
+            break-inside: avoid;
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            margin-bottom: 10px;
+            display: list-item;
+            /* important fix */
+        }
+
+        @media (max-width: 992px) {
+            .dept-biotechnology-bullett-list {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .dept-biotechnology-bullett-list {
+                column-count: 1;
+            }
+        }
+    </style>
+
+    <div class="dept-biotechnology-floating">
+        <a href="#dept-home" class="dept-biotechnology-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-biotechnology-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-biotechnology-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-biotechnology-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-biotechnology-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-biotechnology-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-biotechnology-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-biotechnology-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-biotechnology-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-biotechnology-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-biotechnology-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-biotechnology-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-biotechnology-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-biotechnology-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-biotechnology-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-biotechnology-float-text">Lab</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-biotechnology-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-biotechnology-wrapper">
+
+        <div class="dept-biotechnology-heading" id="dept-home">
+            <h1>Department of <span>Biotechnology</span></h1>
+            <h2>Royal School of Bio-Sciences (RSBSC)</h2>
+        </div>
+
+        <div class="dept-biotechnology-hero" id="dept-about">
+
+            <div class="dept-biotechnology-img">
+                <img src="/home-banner/bio-tech.png"
+                    alt="Architecture">
             </div>
-            <!-- floating button  -->
-            @include('frontend/components/mobileheader')
-            <!-- till about dept  -->
-            <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
 
-                <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Biotechnology</span>
-                </h1>
+            <div class="dept-biotechnology-content">
 
-                <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-                    Bio-Sciences (RSBSC)
-                </h2>
+                <h3>About <span>Department</span></h3>
 
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
+                <p>
+                    The Department of Biotechnology was Established in 2018, the Department of Biotechnology is
+                    committed to delivering quality
+                    education and advancing impactful research in the field of bio-sciences. The department
+                    offers graduate, master's, and doctoral programs designed to equip students with
+                    multidisciplinary skills, preparing them for diverse careers in biotechnology and
+                    fostering innovative ideas in bio-entrepreneurship. <br></br>
 
-                            <div class="txaa-slide-down-1">
-                                <div style=" height: 500px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded " decoding="async"
-                                        src="mobile-assets/department-all/rsbsc/biotechnology/headimg.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-
-                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Department of Biotechnology was established in the year 2018 with an objective of
-                                imparting
-                                quality education and carrying out of quality research in the subject area. The department
-                                provides
-                                graduate, masters and PhD programs in biotechnology, focusing on multidisciplinary skills
-                                for
-                                students to pursue careers in biotechnology and develop innovative ideas for
-                                bio-entrepreneurship.
-                                Various elective courses are floated by experienced faculty of the school, enabling the
-                                students to
-                                choose and receive specialization in the area of their research interest. The school has
-                                faculty
-                                members from reputable academic institutions and universities, with diverse and
-                                inter-disciplinary
-                                backgrounds, who align with national strategic development policies and their demands.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div style="background-color: #fff;">
-                    <div class="container p-4">
-                        <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                            The school’s academic and research programs provide basic to advanced infrastructure for the
-                            students
-                            to enhance their technical and innovative skills. Upon completion of the requirements of The
-                            Assam
-                            Royal Global University’s degree in biotechnology—you will be able to understand and apply basic
-                            science, perform technical skills, learn written and oral communication skills, develop critical
-                            thinking, understand the societal and environmental impact of life sciences, and realize
-                            practical
-                            perspectives of biotechnology in the private sector and government.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="pt-3">
-
-                    <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
-                        <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                    </h1>
-
-                    <img src="mobile-assets/department-all/rsbsc/biotechnology/vision-mission-mob.png" alt="">
-                </div>
-
-                <div class="p-4">
-                    <img class="w-100" src="mobile-assets/department-all/rsbsc/biotechnology/infra-mob.png" alt="">
-                </div>
-
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">M.Sc. - Biotechnology</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MSc-Bio-Technology" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MSc-Bio-Technology">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">B.Sc. - Biotechnology</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-sc-bio-technology" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years as per
-                                NEP</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-sc-bio-technology">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
+                </p>
 
             </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc.
-                                                        Biotechnology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc.
-                                                        Biotechnology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
-                                                        target="_blank"
-                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc.
-                                                        Biotechnology
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <hr>
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            14-05-2025 | One day Seminar on Centenary Anniversary of Quantum
-                                                            Mechanics.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            28-03-2025 | Invited Talk by Prof. Bipin Kumar Gupta.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            19-03-2025 | Invited Talk by Dr. Namrata Gogoi.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            28-02-2025 | National Science Day Celebration.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            24-02-2025 | Invited Talk by Dr. Hemen Kumar Kalita.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            21-02-2025 | Field visit to Center of Plasma Physics – Institute
-                                                            for Plasma Research
-                                                            (CPP-IPR) Guwahati.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            04-06-2022 | As part of the MoU with ICT Mumbai, a lecture
-                                                            series was organized by the
-                                                            Department of Chemistry and Biotechnology.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            13-03-2020 | Interactive session with Ms. Priyanka Das
-                                                            Rajkakati.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events"
-                                    style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                                <thead class="text-white" style="background-color: #27467A;">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in D-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                        <td>Dr. Ranjan Dutta Kalita,
-                                            Associate Professor and HoD, Dept of Biotechnology, RSBSC
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td class="justify-align-center">All Faculty members of the Department Members
-                                            (Ex-Officio)</td>
-                                        <td>Dr. Debajit Borah,
-                                            Associate Professor, Dept of Biotechnology,RSBSC
-                                            <hr>
-                                            Dr. Rupesh Kumar,
-                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                            <hr>Dr. Bhaskarjyoti Gogoi,
-                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                            <hr>Dr. Siddhartha Narayan Borah,
-                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                            <hr>Dr.Rupsikha Patowary,
-                                            Assistant Professor, Dept of Biotechnology,RSBSC
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Expert</td>
-                                        <td>Prof. Probodh Borah,
-                                            Professor and Head of Dept, Dept. Of Animal Biotechnology, College of
-                                            Vererinary
-                                            Sciences, Assam Agricultural University, Khanapara, Guwahati
-                                            <hr>Dr.Hridip Kr Sarma,
-                                            Associate Professor, Dept of Biotechnology, Gauhati University
-
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                                <thead class="text-white" style="background-color: #27467A;">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Head of the Department </td>
-                                        <td>Dr. Debajit Borah</td>
-                                        <td>Associate Prof. and Head, Dept. of Biotechnology </td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">2.</td>
-                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                        <td>Prof. Anupam Chaterjee, </td>
-                                        <td>Prof. and Dean, RSBSC </td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Ranjan Dutta Kalita</td>
-                                        <td>Professor, Dept. of Biotechnology </td>
-                                        <td>Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3.</td>
-                                        <td rowspan="2" class="align-middle">Two Assistant Professors holding Ph.D.
-                                            degree
-                                        </td>
-                                        <td>Dr. Bhaskarjyoti Gogoi </td>
-                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                        <td>Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Siddhartha Narayan Borah </td>
-                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                        <td>Member&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">4.</td>
-                                        <td rowspan="3" class="align-middle">Three external members not below the rank
-                                            of
-                                            Professors, including members from an allied department, who will be
-                                            nominated
-                                            by
-                                            the URC </td>
-                                        <td>Prof. Amlan Das </td>
-                                        <td>Professor, Dept. of Microbiology </td>
-                                        <td>External Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Minaram Nath</td>
-                                        <td>Professor, Dept. of Botany </td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Bipul Nath </td>
-                                        <td>Professor, Royal School of Pharmacy</td>
-                                        <td>External Member</td>
-                                    </tr>
-
-
-                                </tbody>
-                            </table>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <script>
-                const mobAccPairs = [{
-                        btn: 'mobAccBtn1',
-                        panel: 'mobAccPanel1'
-                    },
-                    {
-                        btn: 'mobAccBtn2',
-                        panel: 'mobAccPanel2'
-                    },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/"
-                    style="
-                                                                        position: fixed;
-                                                                        bottom: 35px;
-                                                                        right: 50px;
-                                                                        background-color: #ef991f;
-                                                                        color: #fff;
-                                                                        padding: 12px 20px;
-                                                                        font-size: 18px;
-                                                                        font-weight: bold;
-                                                                        text-decoration: none;
-                                                                        border-radius: 20px;
-                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                        z-index: 1000;
-                                                                        overflow: hidden;
-                                                                        animation: pulse 2s infinite;
-                                                                        ">
-                    <span
-                        style="
-                                                                        position: absolute;
-                                                                        top: 0;
-                                                                        left: -75%;
-                                                                        width: 50%;
-                                                                        height: 100%;
-                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                        transform: skewX(-25deg);
-                                                                        animation: shine 2s infinite;
-                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+        <div class="dept-biotechnology-prospects-section" id="dept-prospects">
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+            <div class="dept-biotechnology-prospects-content">
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+                <p class="dept-biotechnology-intro-text">
+                    Our curriculum includes a wide range of elective courses, allowing students to specialize
+                    in areas aligned with their research interests. Experienced faculty members, coming from
+                    leading academic institutions and universities, bring diverse, interdisciplinary expertise
+                    and contribute to national strategic development goals. <br></br>
+                    To support academic and research excellence, the department provides state-of-the-art
+                    infrastructure that enables students to strengthen both technical and innovative skills.
+                    This capacity has been substantially enhanced through extramural grants amounting
+                    to ₹1.95 crore, awarded under various schemes by funding agencies such as DBT, ICMR,
+                    and DHR. These grants have significantly strengthened the department's research
+                    infrastructure, enabling cutting-edge investigations and innovation. <br></br>
+                </p>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+                <p class="dept-biotechnology-intro-text">
+                    Graduates of our programs emerge with:
+                </p>
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+                <ul class="dept-biotechnology-bullet-list">
+                    <li>Strong technical expertise and critical thinking to address scientific challenges</li>
+                    <li>Effective written and oral communication skills</li>
+                    <li>Awareness of the societal and environmental impact of biotechnology</li>
+                    <li>Readiness to contribute to both private and government sectors of the biotechnology industry
+                    </li>
+
+
+                </ul>
+
+                <p class="dept-biotechnology-intro-text">
+                    The Department of Biotechnology is dedicated to nurturing the next generation of
+                    scientists, innovators, and leaders who will shape the future of life sciences and bio-
+                    industries.
+                </p>
+
+
+
+
             </div>
-            <!-- floating button  -->
-            <section>
+        </div>
 
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
+        <!-- vision mission  -->
+        <div class="dept-biotechnology-prospects-section" id="dept-vision">
+            <h2 class="dept-biotechnology-section-title">Vision <span>& Mission</span></h2>
 
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
+            <div class="dept-biotechnology-prospects-content">
 
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
+                <h3 class="dept-biotechnology-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-biotechnology-bullet-list">
+                    <li>
+                        To produce biologists with strong ethics, integrity, acumen, and preparedness to tackle any
+                        emerging problem of global concern by fostering curated opportunities in the course area
+                        to push themselves at the global platform.
+                    </li>
 
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
+                </ul>
 
-                    <!-- Events -->
-                    <a href="#events" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                            Highlights</span>
-                    </a>
+                <h3 class="dept-biotechnology-subheading">Our Mission</h3>
+                <ul class="dept-biotechnology-bullet-list">
+                    <li>
+                        To impart quality education to studentsthrough scientifically designed up-to-date course
+                        structure and make them globally competitive.
+                    </li>
+                    <li>
+                        To instil confidence in the students fordeveloping analytical skills to find out solutions
+                        forcurrent and emerging problems of global concern.
+                    </li>
+                    <li>
+                        To provide stateof the art academic and laboratory facilities with skilled training and
+                        integration of interdisciplinary approach to foster entrepreneurial thinking.
+                    </li>
 
-                    <!-- Academic Excellence -->
-                    <a href="#academic-excellence" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                            Excellence</span>
-                    </a>
+                </ul>
 
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
+            </div>
+        </div>
 
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
+        <div class="dept-biotechnology-courses-section" id="dept-courses">
+            <h2 class="dept-biotechnology-section-title">Courses <span>Offered</span></h2>
 
+            <div class="dept-biotechnology-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-biotechnology-prospects-section" id="dept-prospects">
+          <h2 class="dept-biotechnology-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-biotechnology-prospects-content">
+            <p class="dept-biotechnology-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-biotechnology-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-biotechnology-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Government Sector Jobs</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Private Sector Careers</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Research & Teaching</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Jobs Abroad</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-biotechnology-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-biotechnology-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-biotechnology-accordion-section" id="dept-syllabus">
+            <h2 class="dept-biotechnology-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-biotechnology-accordion-wrapper">
+
+                <div class="dept-biotechnology-accordion-item active">
+                    <div class="dept-biotechnology-accordion-header">
+                        <div class="dept-biotechnology-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-biotechnology-chevron"></i>
+                    </div>
+
+                    <div class="dept-biotechnology-accordion-content">
+                        <div class="dept-biotechnology-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
+                                class="dept-biotechnology-syllabus-link">
+                                <div class="dept-biotechnology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- B.Sc. Biotechnology
+                                </div>
+                                <i class="fa-solid fa-download dept-biotechnology-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
+                                class="dept-biotechnology-syllabus-link">
+                                <div class="dept-biotechnology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- B.Sc. Biotechnology
+                                </div>
+                                <i class="fa-solid fa-download dept-biotechnology-download-icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
-                <!-- floating buttons  -->
 
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-                        <div class="p-5">
-                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Biotechnology</span>
-                            </h1>
-
-                            <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                                Bio-Sciences (RSBSC)
-                            </h2>
+                <div class="dept-biotechnology-accordion-item">
+                    <div class="dept-biotechnology-accordion-header">
+                        <div class="dept-biotechnology-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
                         </div>
+                        <i class="fa-solid fa-chevron-down dept-biotechnology-chevron"></i>
+                    </div>
 
-                        <div class="container p-4">
-                            <div class="row align-items-center gx-5">
+                    <div class="dept-biotechnology-accordion-content">
+                        <div class="dept-biotechnology-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
+                                class="dept-biotechnology-syllabus-link">
+                                <div class="dept-biotechnology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- M.Sc. Biotechnology
+                                </div>
+                                <i class="fa-solid fa-download dept-biotechnology-download-icon"></i>
+                            </a>
 
-                                <div class="col-lg-6 text-center">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div>
-                                            <img class="rounded w-60" decoding="async"
-                                                src="mobile-assets/department-all/rsbsc/biotechnology/headimg.png"
-                                                alt="">
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-biotechnology-accordion-item">
+                    <div class="dept-biotechnology-accordion-header">
+                        <div class="dept-biotechnology-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-biotechnology-chevron"></i>
+                    </div>
+
+                    <div class="dept-biotechnology-accordion-content">
+                        <div class="dept-biotechnology-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-biotechnology-syllabus-link" download>
+                                <div class="dept-biotechnology-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
                                 </div>
 
-                                <div class="col-lg-6">
-
-                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                                    <p class="mobile-para1 pt-3"
-                                        style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Department of Biotechnology was established in the year 2018 with an objective
-                                        of imparting
-                                        quality education and carrying out of quality research in the subject area. The
-                                        department provides
-                                        graduate, masters and PhD programs in biotechnology, focusing on multidisciplinary
-                                        skills for
-                                        students to pursue careers in biotechnology and develop innovative ideas for
-                                        bio-entrepreneurship.
-                                        Various elective courses are floated by experienced faculty of the school, enabling
-                                        the students to
-                                        choose and receive specialization in the area of their research interest. The school
-                                        has faculty
-                                        members from reputable academic institutions and universities, with diverse and
-                                        inter-disciplinary
-                                        backgrounds, who align with national strategic development policies and their
-                                        demands.
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div style="background-color: #fff;">
-                            <div class="container p-4">
-                                <p style="color: #243B95; text-align: justify;" class="para1">
-                                    The school’s academic and research programs provide basic to advanced infrastructure for
-                                    the students
-                                    to enhance their technical and innovative skills. Upon completion of the requirements of
-                                    The Assam
-                                    Royal Global University’s degree in biotechnology—you will be able to understand and
-                                    apply basic
-                                    science, perform technical skills, learn written and oral communication skills, develop
-                                    critical
-                                    thinking, understand the societal and environmental impact of life sciences, and realize
-                                    practical
-                                    perspectives of biotechnology in the private sector and government.
-
-                                </p>
-                            </div>
-                        </div>
-
-                        <div style="background-color: #fff;">
-                            <div class="p-5">
-                                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the
-                                        Department</span>
-                                </h1>
-
-                                <img class="w-100"
-                                    src="mobile-assets/department-all/rsbsc/biotechnology/vision-mission-web.png"
-                                    alt="">
-                            </div>
-                        </div>
-
-                        <div class="p-4">
-                            <img class="w-100" src="mobile-assets/department-all/rsbsc/biotechnology/infra-web.png"
-                                alt="">
-                        </div>
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">M.Sc. - Biotechnology</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MSc-Bio-Technology" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MSc-Bio-Technology">View Details</a>
-                                    </span>
-                                </div>
                             </a>
                         </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px; padding-right: 20px;">B.Sc. - Biotechnology</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-sc-bio-technology" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4 years as
-                                        per NEP</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-sc-bio-technology">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
                     </div>
+                </div>
 
-                </section>
+            </div>
+        </div>
 
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
+        <div class="dept-biotechnology-events-section" id="dept-events">
 
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
+            <h2 class="dept-biotechnology-section-title">Events</h2>
 
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
+            <div class="dept-biotechnology-events-box">
+                <div class="dept-biotechnology-events-track" id="events-track"></div>
+            </div>
 
-                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- B.Sc. Biotechnology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
+            <!-- <div style="text-align:center; margin-top:30px;">
+            <a href="#" class="dept-biotechnology-events-btn">View All</a>
+          </div> -->
 
-                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                B.Sc. Biotechnology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-university me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
-                                                                target="_blank"
-                                                                style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                M.Sc. Biotechnology
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section id="events">
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9;">
+        </div>
 
 
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    14-05-2025 | One day Seminar on Centenary Anniversary of
-                                                                    Quantum Mechanics.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    28-03-2025 | Invited Talk by Prof. Bipin Kumar Gupta.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    19-03-2025 | Invited Talk by Dr. Namrata Gogoi.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    28-02-2025 | National Science Day Celebration.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    24-02-2025 | Invited Talk by Dr. Hemen Kumar Kalita.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    21-02-2025 | Field visit to Center of Plasma Physics –
-                                                                    Institute for Plasma Research
-                                                                    (CPP-IPR) Guwahati.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    04-06-2022 | As part of the MoU with ICT Mumbai, a
-                                                                    lecture series was organized by the
-                                                                    Department of Chemistry and Biotechnology.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    13-03-2020 | Interactive session with Ms. Priyanka Das
-                                                                    Rajkakati.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
 
 
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
 
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events"
-                                            style="display: inline-block; padding: 10px 28px;
-                  background: linear-gradient(135deg, #243B95, #151B5B);
-                  color: #fff; font-weight: 600; font-size: 16px;
-                  border-radius: 25px; text-decoration: none;
-                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                  transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-                                </div>
+        <div class="dept-biotechnology-table-section" id="dept-committee">
 
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
+            <div class="dept-biotechnology-table-grid" id="table-accordion-container"></div>
 
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
+        </div>
 
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
+        <div class="dept-biotechnology-lab-section" id="dept-lab">
 
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
+            <div class="dept-biotechnology-lab-container">
 
-                                    scrollStep();
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <h2 class="dept-biotechnology-section-title">Our <span>Lab</span></h2>
 
-                <div id="bos" class="container pb-5 pt-5">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+                <p class="dept-biotechnology-lab-intro">
+                    The Biotechnology Laboratory is a state-of-the-art facility equipped with advanced instruments to
+                    support high-quality practical training and research activities. It provides an interactive learning
+                    environment where students gain hands-on experience with biological systems and bioprocesses,
+                    fostering applications in medicine, engineering, technology, and the development of bioproducts.
+                    Through access to modern laboratory resources, students develop a comprehensive understanding of
+                    biomolecules, key biochemical concepts, and fundamental principles across diverse areas such as
+                    microbiology, immunology, and environmental biotechnology. The laboratory is designed to cultivate
+                    scientific curiosity and critical thinking while equipping students with strong theoretical,
+                    technical, and analytical skills. Overall, the facility plays a pivotal role in preparing students
+                    to effectively address real-world challenges and emerging opportunities in the field of
+                    biotechnology.
+                </p>
 
 
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+                <h3 class="dept-biotechnology-subheading">List of equipments</h3>
+                <ul class="dept-biotechnology-bullett-list">
+                    <li>All glass double distillation unit 5L</li>
+                    <li>Autoclave</li>
+                    <li>Bench top cold centrifuge with stabilizer</li>
+                    <li>Benchtop Centrifuge</li>
+                    <li>Biospectrophotometer</li>
+                    <li>Chest freezer</li>
+                    <li>Cyclo Mixer CM101</li>
+                    <li>Digital colorimeter</li>
+                    <li>Digital Colony Counter</li>
+                    <li>Digital pH meter</li>
+                    <li>Electronic Balance</li>
+                    <li>ELISA Plate Reader</li>
+                    <li>Gel Rocker</li>
+                    <li>Gel-Doc Imaging system</li>
+                    <li>High speed Homogenizer</li>
+                    <li>Heating Mantel</li>
+                    <li>Horizontal Gel Electrophoresis Apparatus</li>
+                    <li>Hot air oven</li>
+                    <li>Hot plate</li>
+                    <li>Incubator (benchtop)</li>
+                    <li>Laminar air flow</li>
+                    <li>Magnetic Stirrer with hot plate</li>
+                    <li>Microscopes</li>
+                    <li>Probe Sonicator with Jack and sound enclosure</li>
+                    <li>SDS Page</li>
+                    <li>Shaker Incubator</li>
+                    <li>Soxhlet Apparatus with heating mantle</li>
+                    <li>T100 Thermal Cycler/PCR</li>
+                    <li>Ultrasonic Bath Sonicator</li>
+                    <li>UV-Visible Double beam spectrophotometer</li>
+                    <li>UV-Vis Ultra transilluminator</li>
+                    <li>Vertical Gel Electrophoresis Apparatus and power supply</li>
+                    <li>Vortex shaker</li>
+                    <li>Water Bath</li>
+                    <li>Western Blot unit</li>
+                    <li>Refrigerator</li>
+                    <li>-20°C Deep freezer</li>
 
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                                                <thead class="text-white" style="background-color: #27467A;">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>Dr. Ranjan Dutta Kalita,
-                                                            Associate Professor and HoD, Dept of Biotechnology, RSBSC
-
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td class="justify-align-center">All Faculty members of the
-                                                            Department Members
-                                                            (Ex-Officio)</td>
-                                                        <td>Dr. Debajit Borah,
-                                                            Associate Professor, Dept of Biotechnology,RSBSC
-                                                            <hr>
-                                                            Dr. Rupesh Kumar,
-                                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                                            <hr>Dr. Bhaskarjyoti Gogoi,
-                                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                                            <hr>Dr. Siddhartha Narayan Borah,
-                                                            Assistant Professor, Dept of Biotechnology,RSBSC
-                                                            <hr>Dr.Rupsikha Patowary,
-                                                            Assistant Professor, Dept of Biotechnology,RSBSC
-
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Expert</td>
-                                                        <td>Prof. Probodh Borah,
-                                                            Professor and Head of Dept, Dept. Of Animal Biotechnology,
-                                                            College of
-                                                            Vererinary
-                                                            Sciences, Assam Agricultural University, Khanapara, Guwahati
-                                                            <hr>Dr.Hridip Kr Sarma,
-                                                            Associate Professor, Dept of Biotechnology, Gauhati University
-
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                                                <thead class="text-white" style="background-color: #27467A;">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department </td>
-                                                        <td>Dr. Debajit Borah</td>
-                                                        <td>Associate Prof. and Head, Dept. of Biotechnology </td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">2.</td>
-                                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                                        <td>Prof. Anupam Chaterjee, </td>
-                                                        <td>Prof. and Dean, RSBSC </td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Ranjan Dutta Kalita</td>
-                                                        <td>Professor, Dept. of Biotechnology </td>
-                                                        <td>Member </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">3.</td>
-                                                        <td rowspan="2" class="align-middle">Two Assistant Professors
-                                                            holding Ph.D.
-                                                            degree
-                                                        </td>
-                                                        <td>Dr. Bhaskarjyoti Gogoi </td>
-                                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                                        <td>Member </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Siddhartha Narayan Borah </td>
-                                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                                        <td>Member&nbsp;</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">4.</td>
-                                                        <td rowspan="3" class="align-middle">Three external members not
-                                                            below the rank
-                                                            of
-                                                            Professors, including members from an allied department, who
-                                                            will be
-                                                            nominated
-                                                            by
-                                                            the URC </td>
-                                                        <td>Prof. Amlan Das </td>
-                                                        <td>Professor, Dept. of Microbiology </td>
-                                                        <td>External Member </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Minaram Nath</td>
-                                                        <td>Professor, Dept. of Botany </td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Bipul Nath </td>
-                                                        <td>Professor, Royal School of Pharmacy</td>
-                                                        <td>External Member</td>
-                                                    </tr>
+                </ul>
 
 
-                                                </tbody>
-                                            </table>
+                <h3 class="dept-biotechnology-lab-heading">Our Lab Equipments</h3>
 
-                                        </div>
+                <!-- <h2 class="dept-biotechnology-section-title">Glimpse of <span>our Lab</span></h2> -->
 
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-                        const accPairs = [{
-                                btn: 'accBtn1',
-                                panel: 'accPanel1'
-                            },
-                            {
-                                btn: 'accBtn2',
-                                panel: 'accPanel2'
-                            }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function() {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function(e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
+                <div class="dept-biotechnology-lab-gallery">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/3.jpg" alt="Lab 1"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/4.jpg" alt="Lab 2"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/5.jpg" alt="Lab 3"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/1.jpg" alt="Lab 4"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/2.jpg" alt="Lab 5"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/6.jpg" alt="Lab 6"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/7.jpg" alt="Lab 7"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/8.jpg" alt="Lab 8"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/9.jpg" alt="Lab 9"
+                        class="dept-biotechnology-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/10.jpg" alt="Lab 10"
+                        class="dept-biotechnology-lab-img">
 
                 </div>
 
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function() {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function() {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
-
-            </section>
+                <!-- <button class="dept-biotechnology-explore-btn">Explore</button> -->
+            </div>
 
         </div>
 
     </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M.Sc. - Biotechnology",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MSc-Bio-Technology"
+            },
+            {
+                title: "B.Sc. - Biotechnology | Honours / Honours with Research",
+                duration: "4 years as per NEP",
+                link: "https://www.rgu.ac/programs-b-sc-bio-technology"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-biotechnology-course-card">
+
+          <div class="dept-biotechnology-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-biotechnology-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-biotechnology-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-biotechnology-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-biotechnology-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-biotechnology-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-biotechnology-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "14-05-2025 | One day Seminar on Centenary Anniversary of Quantum Mechanics.",
+            "28-03-2025 | Invited Talk by Prof. Bipin Kumar Gupta.",
+            "19-03-2025 | Invited Talk by Dr. Namrata Gogoi.",
+            "28-02-2025 | National Science Day Celebration.",
+            "24-02-2025 | Invited Talk by Dr. Hemen Kumar Kalita.",
+            "21-02-2025 | Field visit to Center of Plasma Physics – Institute for Plasma Research (CPP-IPR), Guwahati.",
+            "04-06-2022 | As part of the MoU with ICT Mumbai, a lecture series was organized by the Department of Chemistry and Biotechnology.",
+            "13-03-2020 | Interactive session with Ms. Priyanka Das Rajkakati."
+        ];
+
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-biotechnology-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
+                rows: [
+                    ["1", "Chairperson (ex-officio)", "Dr. Debajit Borah, Asst. Prof. and HOD, Biotechnology"],
+                    ["2", "External Member",
+                        "Prof. Probodh Borah, Director of Research, Assam Veterinary and Fishery University, Guwahati"
+                    ],
+                    ["3", "External Member",
+                        "Dr. Hridip Kr Sarma, Prof., Dept. of Biotechnology, Gauhati University"
+                    ],
+                    ["4", "Member", "Prof. Anupam Chatterjee, Prof. and Dean, RSBSC, RGU"],
+                    ["5", "Member", "Dr. Rupesh Kumar, Asst. Professor, Dept. of Biotechnology, RGU"],
+                    ["6", "Member", "Dr. Bhaskarjyoti Gogoi, Asst. Professor, Dept. of Biotechnology, RGU"],
+                    ["7", "Member", "Dr. Siddhartha Narayan Borah, Asst. Professor, Dept. of Biotechnology, RGU"],
+                    ["8", "Member", "Dr. Rupshikha Patowary, Asst. Professor, Dept. of Biotechnology, RGU "],
+                    ["9", "Member", "Dr. Mousumi Das Goswami, Asst. Professor, Dept. of Biotechnology, RGU"],
+                    ["10", "Member", "Dr. Anuj Kumar Borah, Asst. Professor, Dept. of Biotechnology, RGU"],
+                    ["11", "Member",
+                    "Dr. Chongtham Sovachandra Singh, Asst. Professor, Dept. of Biotechnology,RGU"],
+                    ["12", "Member", "Dr. Manisha Choudhury, Asst. Professor, Dept. of Biotechnology, RGU"],
+
+
+
+
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Position in DRC", "Name and Designation", ],
+                rows: [
+                    ["1", "Chairperson", "Dr. Debajit Borah, Assoc. Prof. and Head, Dept. of Biotechnology", ],
+                    ["2", "Member", "Prof. Anupam Chatterjee, Prof. and Dean, RSBSC"],
+                    ["3", "Member", "Dr. Bhaskarjyoti Gogoi, Asst. Prof., Dept. of Biotechnology"],
+                    ["4", "Member", "Dr. Siddhartha Narayan Borah, Asst. Prof., Dept. of Biotechnology"],
+                    ["5", "External Member",
+                        "Prof. Jagat C. Borah, Department of Medicinal Chemistry, National Institute of Pharmaceutical Education and Research (NIPER)-Guwahati"
+                    ],
+
+
+
+                ]
+            },
+
+        ];
+
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-biotechnology-table-responsive">
+          <table class="dept-biotechnology-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-biotechnology-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-biotechnology-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-biotechnology-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-biotechnology-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-biotechnology-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-biotechnology-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-biotechnology-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
+            }
+        ];
+
+        const galleryContainer = document.getElementById("event-gallery-container");
+
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
+      <div class="dept-biotechnology-event-card">
+
+        <div class="dept-biotechnology-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-biotechnology-marquee">
+          <div class="dept-biotechnology-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+            }).join("");
+        }
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+    </script>
 @endsection

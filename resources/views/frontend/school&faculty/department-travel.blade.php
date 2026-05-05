@@ -1,2574 +1,2444 @@
-    @extends('frontend.master')
-    @section('content')
-        <div
-            style="
-        background-image: url(mobile-assets/department-all/bg.svg);
-        background-size: cover;
-      ">
-            <div class="mobile">
-                @include('frontend/components/mobileheader')
-                <!-- floating mob button  -->
-                <div>
-                    <a href="https://admissions.rgu.ac"
-                        style="
-              position: fixed;
-              bottom: 25px;
-              right: 75px;
-              background-color: #ef991f;
-              color: #fff;
-              padding: 12px 20px;
-              font-size: 16px;
-              font-weight: bold;
-              text-decoration: none;
-              border-radius: 20px;
-              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-              z-index: 1000;
-              overflow: hidden;
-              animation: pulse 2s infinite;
-            ">
-                        <span
-                            style="
-                position: absolute;
-                top: 0;
-                left: -75%;
-                width: 50%;
-                height: 100%;
-                background: linear-gradient(
-                  120deg,
-                  rgba(255, 255, 255, 0.4),
-                  rgba(255, 255, 255, 0)
-                );
-                transform: skewX(-25deg);
-                animation: shine 2s infinite;
-              "></span>
-                        Admission Open - Apply Now
-                    </a>
-                    <style>
-                        @keyframes pulse {
-                            0% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
+@extends('frontend.master')
+@section('content')
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-                            50% {
-                                transform: scale(1.05);
-                                box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                            }
+    </div>
 
-                            100% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        @keyframes shine {
-                            0% {
-                                left: -75%;
-                            }
+    </div>
 
-                            100% {
-                                left: 125%;
-                            }
-                        }
-                    </style>
-                </div>
-                <!-- floating button  -->
-                <!-- till about dept  -->
-                <section style="padding-top: 130px; position: relative">
-                    <img src="mobile-assets/department-all/rsttm/mob-top.png" alt="" />
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                    <img src="mobile-assets/department-all/rsttm/mob-btm.png" alt="" />
-                </section>
-                <!-- till about dept  -->
+        html {
+            scroll-behavior: smooth;
+        }
 
-                <!-- courses offered  -->
-                <div class="container">
-                    <h2 class="headd1 fw-bold text-center" style="color: #27467a; font-weight: 900; font-size: 25px">
-                        Courses
-                        <span style="color: #ff9a1e; font-weight: 500">Offered</span>
-                    </h2>
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
 
-                    <div
-                        style="
-              background-color: #fdf9f4;
-              padding: 10px;
-              width: 100%;
-              margin: 0px auto;
-            ">
-                        <!-- Heading Section -->
-                        <div
-                            style="
-                display: flex;
-                align-items: center;
-                background-color: #27467a;
-                padding: 12px 15px;
-                font-weight: bold;
-                color: #ffff;
-                position: relative;
-                border-radius: 5px;
-              ">
-                            <span style="font-size: 18px">Master of Travel & Tourism Management (MTTM)</span>
-                            <span
-                                style="
-                  position: absolute;
-                  right: 0;
-                  bottom: 0;
-                  width: 15px;
-                  height: 15px;
-                  background-color: #ff9a1e;
-                  clip-path: polygon(100% 0, 0 100%, 100% 100%);
-                "></span>
-                        </div>
+        .dept-rsttm-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-                        <!-- Statute Items -->
-                        <a target="_blank" href="programs-Master-Travel&Tourism" style="text-decoration: none">
-                            <div
-                                style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: space-between;
-                  background-color: #f9f9f9;
-                  padding: 10px 15px;
-                  margin-top: 5px;
-                  margin-left: 20px;
-                  border-radius: 5px;
-                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                ">
-                                <span
-                                    style="
-                    flex-grow: 1;
-                    color: #27467a;
-                    font-weight: bold;
-                    font-size: 20px;
-                  ">2
-                                    years</span>
-                                <span>
-                                    <a class="para1 fw-bold"
-                                        style="
-                      padding: 5px 20px;
-                      border-radius: 5px;
-                      color: #fff;
-                      background: linear-gradient(
-                        135deg,
-                        hsla(33, 100%, 56%, 1) 0%,
-                        hsla(8, 52%, 50%, 1) 100%
-                      );
-                      font-size: 13px;
-                    "
-                                        href="programs-Master-Travel&Tourism">View Details</a>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+        /* ================= HEADINGS ================= */
+        .dept-rsttm-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
 
+        .dept-rsttm-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
 
-                    <div
-                        style="
-              background-color: #fdf9f4;
-              padding: 10px;
-              width: 100%;
-              margin: 0px auto;
-            ">
-                        <!-- Heading Section -->
-                        <div
-                            style="
-                display: flex;
-                align-items: center;
-                background-color: #27467a;
-                padding: 12px 15px;
-                font-weight: bold;
-                color: #ffff;
-                position: relative;
-                border-radius: 5px;
-              ">
-                            <span style="font-size: 18px; padding-right: 20px">B.Sc./ BA Travel & Tourism Management</span>
-                            |
-                            <span
-                                style="
-                  font-size: 16px;
-                  padding-left: 16px;
-                  font-weight: 300px !important;
-                ">Honours
-                                / Honours with Research</span>
+        .dept-rsttm-heading h1 span {
+            color: var(--accent);
+        }
 
-                            <span
-                                style="
-                  position: absolute;
-                  right: 0;
-                  bottom: 0;
-                  width: 15px;
-                  height: 15px;
-                  background-color: #ff9a1e;
-                  clip-path: polygon(100% 0, 0 100%, 100% 100%);
-                "></span>
-                        </div>
+        .dept-rsttm-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
 
-                        <!-- Statute Items -->
-                        <a target="_blank" href="programs-b-sc-ba-travel" style="text-decoration: none">
-                            <div
-                                style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: space-between;
-                  background-color: #f9f9f9;
-                  padding: 10px 15px;
-                  margin-top: 5px;
-                  margin-left: 20px;
-                  border-radius: 5px;
-                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                ">
-                                <span
-                                    style="
-                    flex-grow: 1;
-                    color: #27467a;
-                    font-weight: bold;
-                    font-size: 20px;
-                  ">4
-                                    years</span>
-                                <span>
-                                    <a class="para1 fw-bold"
-                                        style="
-                      padding: 5px 20px;
-                      border-radius: 5px;
-                      color: #fff;
-                      background: linear-gradient(
-                        135deg,
-                        hsla(33, 100%, 56%, 1) 0%,
-                        hsla(8, 52%, 50%, 1) 100%
-                      );
-                      font-size: 13px;
-                    "
-                                        href="programs-b-sc-ba-travel">View Details</a>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- courses offered  -->
+        /* ================= HERO ================= */
+        .dept-rsttm-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
 
-                <!-- syllabus  -->
-                <div class="container">
-                    <div>
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="
-                color: #27467a;
-                font-weight: 900;
-                font-size: 25px;
-                letter-spacing: 0.5px;
-              ">
-                            Courses Structure
-                            <span style="color: #ff9a1e; font-weight: 600">and Syllabus</span>
-                        </h2>
+        /* LEFT IMAGE */
+        .dept-rsttm-img {
+            flex: 1;
+            position: relative;
+        }
 
-                        <div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="accordion para1" id="mobileAccordionCourses"
-                                        style="border-radius: 12px; overflow: hidden">
-                                        <!-- UG -->
-                                        <div class="accordion-item"
-                                            style="
-                        border: none;
-                        margin-bottom: 12px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                        border-radius: 10px;
-                      ">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button collapsed"
-                                                    style="
-                            background: linear-gradient(
-                              135deg,
-                              #24477f,
-                              #1a365d
-                            );
-                            color: #fff;
-                            font-weight: 600;
-                            font-size: 18px;
-                            padding: 14px 20px;
-                            border-radius: 10px;
-                          "
-                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                    aria-expanded="false" aria-controls="collapseOne">
-                                                    <i class="fa fa-graduation-cap me-2"></i> Under
-                                                    Graduate
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse"
-                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body"
-                                                    style="
-                            background: #f9fbfd;
-                            padding: 18px;
-                            border-radius: 0 0 10px 10px;
-                          ">
-                                                    <div class="row"
-                                                        style="
-                              display: flex;
-                              flex-direction: column;
-                              gap: 12px;
-                            ">
-                                                        <a href="/mobile-assets/syllabus/RSTTM/BA-BSC Travel & Tourism Management.pdf"
-                                                            target="_blank" style="color: #27467a">
-                                                            <i class="fa fa-file-text px-2"></i> Detailed
-                                                            Syllabus -- B.Sc./BA - TTM
-                                                            <i class="fa fa-download ms-2" style="color: #ff9a1e"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+        .dept-rsttm-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
 
-                                        <!-- PG -->
-                                        <div class="accordion-item"
-                                            style="
-                        border: none;
-                        margin-bottom: 12px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                        border-radius: 10px;
-                      ">
-                                            <h2 class="accordion-header" id="headingTwo">
-                                                <button class="accordion-button collapsed"
-                                                    style="
-                            background: linear-gradient(
-                              135deg,
-                              #24477f,
-                              #1a365d
-                            );
-                            color: #fff;
-                            font-weight: 600;
-                            font-size: 18px;
-                            padding: 14px 20px;
-                            border-radius: 10px;
-                          "
-                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                    aria-expanded="false" aria-controls="collapseTwo">
-                                                    <i class="fa fa-graduation-cap me-2"></i> Post
-                                                    Graduate
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body"
-                                                    style="
-                            background: #f9fbfd;
-                            padding: 18px;
-                            border-radius: 0 0 10px 10px;
-                          ">
-                                                    <div class="row"
-                                                        style="
-                              display: flex;
-                              flex-direction: column;
-                              gap: 12px;
-                            ">
-                                                        <a href="/mobile-assets/syllabus/RSTTM/MTTM Syllabus.pdf"
-                                                            target="_blank" style="color: #27467a">
-                                                            <i class="fa fa-file-text px-2"></i> Detailed
-                                                            Syllabus -- MTTM
-                                                            <i class="fa fa-download ms-2" style="color: #ff9a1e"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+        .dept-rsttm-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
 
-                                        <!-- Doctoral -->
-                                        <div class="accordion-item"
-                                            style="
-                        border: none;
-                        margin-bottom: 12px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                        border-radius: 10px;
-                      ">
-                                            <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button collapsed"
-                                                    style="
-                            background: linear-gradient(
-                              135deg,
-                              #24477f,
-                              #1a365d
-                            );
-                            color: #fff;
-                            font-weight: 600;
-                            font-size: 18px;
-                            padding: 14px 20px;
-                            border-radius: 10px;
-                          "
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
-                                                    <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse"
-                                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body"
-                                                    style="
-                            background: #f9fbfd;
-                            padding: 18px;
-                            border-radius: 0 0 10px 10px;
-                          ">
-                                                    <a href="phd" class="para1" target="_blank"
-                                                        style="
-                              color: #27467a;
-                              font-weight: 600;
-                              text-decoration: none;
-                            ">
-                                                        <i class="fa fa-external-link me-2"></i> Click to
-                                                        View...
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- syllabus  -->
+        /* RIGHT CONTENT */
+        .dept-rsttm-content {
+            flex: 1;
+        }
 
-                <hr />
+        .dept-rsttm-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
 
-                <!-- events and highlights  -->
-                <div class="container pb-4">
-                    <div class="row" style="display: flex; justify-content: center">
-                        <div class="col-lg-12">
-                            <h2 class="headd1 fw-bold pt-4 pb-3"
-                                style="color: #27467a; font-weight: 900; font-size: 28px">
-                                Events
-                            </h2>
+        .dept-rsttm-content h3 span {
+            color: var(--accent);
+        }
 
-                            <div style="max-width: 100%; position: relative">
-                                <div style="border: 1px solid #ccc">
-                                    <div id="mobileEventScrollContainer"
-                                        style="
-                      height: 450px;
-                      overflow: hidden;
-                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                    ">
-                                        <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%">
-                                            <tbody class="para1" id="mobileEventScrollContent"
-                                                style="background-color: #f9f9f9">
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 20th February, 2020, Prof. Shiela Bora,
-                                                                Professor of History Department in Royal Global
-                                                                University, Guwahati, conducted an Interactive
-                                                                Session on Tourism with Special Focus on Home
-                                                                Stay.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 27th September, 2021, Mr. Chandan Nath,
-                                                                Founder and Head - CN Travels and Founder
-                                                                Director - Centre for Tourism Studies, Guwahati,
-                                                                conducted a Webinar on World Tourism Day 2021:
-                                                                Tourism for Inclusive Growth.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 12th May, 2022, Mr. Anirban Goswami,
-                                                                Sous-Chef Novotel, Guwahati, conducted a Skill
-                                                                Enhancement session on Culinary Knowledge.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-rsttm-floating {
+            position: fixed;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 31st May, 2022, Prof. S.C. Bagri conducted a
-                                                                Webinar on The Employability Factors for the
-                                                                Hospitality Industry.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 13th September, 2022, Mr. Udit Bhanu
-                                                                Barthakur conducted a Tourism Awareness Program
-                                                                on "Rethinking Tourism".
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 20th October, 2022, Mr. Chandan Nath
-                                                                conducted a session on Tourism Entrepreneurship
-                                                                - A Way Forward for the New Generation.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 21st November, 2022, Mr. Anjan Choudhary
-                                                                conducted a session on Soft Skill, Personality
-                                                                Development & Grooming.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+        .dept-rsttm-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
 
-                                                <tr style="border-bottom: 1px solid #ddd">
-                                                    <td
-                                                        style="
-                              display: flex;
-                              align-items: center;
-                              padding: 12px;
-                            ">
-                                                        <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                            style="
-                                width: 120px;
-                                height: 80px;
-                                object-fit: cover;
-                                border-radius: 12px;
-                                border: 1px solid #ccc;
-                                margin-right: 15px;
-                              " />
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #27467a">
-                                                                On 26th May, 2023, Dr. Sanjeev Kumar Saxena, Dr.
-                                                                Mridul Dutta, and Dr. Shapana Medhi conducted a
-                                                                session on Tourism and North East India: The Way
-                                                                Forward.
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+        .dept-rsttm-float-item:hover i {
+            color: #fff;
+        }
 
-                                <div style="text-align: center; margin-top: 15px">
-                                    <a href="department-new-rshss-sociology-events"
-                                        style="
-                      display: inline-block;
-                      padding: 10px 28px;
-                      background: linear-gradient(135deg, #243b95, #151b5b);
-                      color: #fff;
-                      font-weight: 600;
-                      font-size: 16px;
-                      border-radius: 25px;
-                      text-decoration: none;
-                      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-                      transition: all 0.3s ease-in-out;
-                    ">
-                                        View All
-                                    </a>
-                                </div>
-                            </div>
+        .dept-rsttm-float-item:hover .dept-rsttm-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
 
-                            <script>
-                                const mobileEventScrollContainer = document.getElementById(
-                                    "mobileEventScrollContainer"
-                                );
-                                const mobileEventScrollContent = document.getElementById(
-                                    "mobileEventScrollContent"
-                                );
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-rsttm-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
 
-                                // Duplicate content for infinite scroll (mobile)
-                                mobileEventScrollContent.innerHTML +=
-                                    mobileEventScrollContent.innerHTML;
+        .dept-rsttm-admission-btn i {
+            font-size: 1.2rem;
+        }
 
-                                let mobileEventScrollPos = 0;
-                                const mobileEventScrollSpeed = 0.2;
+        .dept-rsttm-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
 
-                                function mobileEventScrollStep() {
-                                    mobileEventScrollPos += mobileEventScrollSpeed;
-                                    if (
-                                        mobileEventScrollPos >=
-                                        mobileEventScrollContent.scrollHeight / 2
-                                    ) {
-                                        mobileEventScrollPos = 0;
-                                    }
-                                    mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                    requestAnimationFrame(mobileEventScrollStep);
-                                }
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
 
-                                mobileEventScrollStep();
-                            </script>
-                        </div>
-                    </div>
-                </div>
-                <!-- events and highlights  -->
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-                <!-- Mobile-Friendly Board of Studies & DRC -->
-                <div id="bos-mobile" class="container pb-5">
-                    <!-- Board of Studies -->
-                    <div style="margin-bottom: 20px">
-                        <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                            style="
-                width: 100%;
-                text-align: left;
-                padding: 14px 18px;
-                border: 0;
-                background: linear-gradient(135deg, #24477f, #1a365d);
-                color: white;
-                font-weight: 600;
-                font-size: 16px;
-                cursor: pointer;
-                border-radius: 12px;
-              ">
-                            <i class="fa fa-users me-2"></i> The Board of Studies
-                            <span style="float: right; font-weight: 700; font-size: 20px">＋</span>
-                        </button>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
 
-                        <div id="mobAccPanel1"
-                            style="
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-rsttm-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-rsttm-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-rsttm-img img {
+                padding-left: 0%;
+            }
+
+            .dept-rsttm-floating {
                 display: none;
-                padding: 16px;
-                background: #f9fbfd;
-                border: 1px solid #ddd;
-                border-radius: 0 0 12px 12px;
-                margin-top: 5px;
-              ">
-                            <div class="table-responsive">
-                                <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                    <thead class="text-white" style="background-color: #27467a">
-                                        <tr>
-                                            <th class="text-white">#</th>
-                                            <th class="text-white">Position in S-BoS</th>
-                                            <th class="text-white">Name and Designation</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="para1 align-middle"
-                                        style="background-color: #f9f9f9; text-align: start">
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Chairperson (Ex-Officio) Dean of School</td>
-                                            <td>
-                                                Dr. Soumita Sen, Professor and Dean, RSHM &amp; RSTTM
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>
-                                                All Heads of the Departments - Members (Ex-Officio)
-                                            </td>
-                                            <td>
-                                                Dr. Indrajit Dutta, Assistant Professor and
-                                                Co-ordinator, RSHM &amp; RSTTM
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Professors of the School Members (Ex-Officio)</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>External Experts for each Department (Academic)</td>
-                                            <td>
-                                                Dr. Saurabh Kumar Dixit, Associate Professor/Registrar
-                                                i.c, Department of Tourism &amp; Hotel Management, NEHU
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>External Experts for each Department (Industry)</td>
-                                            <td>
-                                                Mr. Nirmalaya Choudhury, Executive Director Operation
-                                                Jungle Travels, Guwahati
-                                                <hr />
-                                                Mr. Jayanta Das (Cluster General Manager Northeast,
-                                                Darjeeling, and General Manager Vivanta Guwahati
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td>
-                                                Two Faculty members of the School nominated by the Vice
-                                                Chancellor
-                                            </td>
-                                            <td>
-                                                Mr. Chandan Bezborah, Lecturer, RSHM &amp; RSTTM
-                                                <hr />
-                                                Ms. Ankita Saikia, Assistant Professor, RSHM &amp; RSTTM
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>7</td>
-                                            <td>Registrar, Member Secretary (Ex-officio)</td>
-                                            <td>Dr. D N Singh, Registrar or his nominee</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
 
-                    <!-- Departmental Research Committee (DRC) -->
-                    <div style="margin-bottom: 20px">
-                        <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                            style="
-                width: 100%;
-                text-align: left;
-                padding: 14px 18px;
-                border: 0;
-                background: linear-gradient(135deg, #24477f, #1a365d);
-                color: white;
-                font-weight: 600;
-                font-size: 16px;
-                cursor: pointer;
-                border-radius: 12px;
-              ">
-                            <i class="fa fa-flask me-2"></i> The Departmental Research
-                            Committee (DRC)
-                            <span style="float: right; font-weight: 700; font-size: 20px">＋</span>
-                        </button>
+            .dept-rsttm-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
 
-                        <div id="mobAccPanel2"
-                            style="
+            .dept-rsttm-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-rsttm-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-rsttm-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-rsttm-float-text {
                 display: none;
-                padding: 16px;
-                background: #f9fbfd;
-                border: 1px solid #ddd;
-                border-radius: 0 0 12px 12px;
-                margin-top: 5px;
-              ">
-                            <div class="table-responsive">
-                                <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                    <thead class="text-white" style="background-color: #27467a">
-                                        <tr>
-                                            <th class="text-white">#</th>
-                                            <th class="text-white">Content</th>
-                                            <th class="text-white">Name of the Member</th>
-                                            <th class="text-white">Designation</th>
-                                            <th class="text-white">Designation in the committee</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="para1 align-middle"
-                                        style="background-color: #f9f9f9; text-align: start">
-                                        <tr>
-                                            <td>1.</td>
-                                            <td>Head of the Department</td>
-                                            <td>Dr. Syed Islam</td>
-                                            <td>HOD, RSTTM</td>
-                                            <td>Chairperson</td>
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="2">2.</td>
-                                            <td rowspan="2" class="align-middle">Two Professors</td>
-                                            <td>Prof. (Dr.) Soumitra Sen</td>
-                                            <td>Professor</td>
-                                            <td>Member</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Prof. (Dr.) Mahesh Uniyal</td>
-                                            <td>Dean, RSHM &amp; RSTTM</td>
-                                            <td>Member</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td>
-                                                Two Associate Professors – one of them will be the
-                                                member secretary
-                                            </td>
-                                            <td>Dr. Indrajit Dutta</td>
-                                            <td>Associate Professor</td>
-                                            <td>Member Secretary</td>
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="3">4.</td>
-                                            <td rowspan="3" class="align-middle">
-                                                Three external members not below the rank of Professors,
-                                                including members from an allied department, who will be
-                                                nominated by the URC
-                                            </td>
-                                            <td>Prof. (Dr.) B. S Mipun</td>
-                                            <td>Dean, RSEES</td>
-                                            <td>External Member</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Prof. (Dr.) Bhuban Chandra Barooah</td>
-                                            <td>Dean, RSLA</td>
-                                            <td>External Member</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Prof. (Dr.) George</td>
-                                            <td>Dean, RSB</td>
-                                            <td>External Member</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            }
 
-                <script>
-                    const mobAccPairs = [{
-                            btn: "mobAccBtn1",
-                            panel: "mobAccPanel1"
-                        },
-                        {
-                            btn: "mobAccBtn2",
-                            panel: "mobAccPanel2"
-                        },
-                    ];
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-rsttm-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
 
-                    function closeAllMob() {
-                        mobAccPairs.forEach((p) => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (panel) panel.style.display = "none";
-                            if (b) {
-                                b.setAttribute("aria-expanded", "false");
-                                const sp = b.querySelector("span");
-                                if (sp) sp.textContent = "＋";
-                            }
-                        });
-                    }
+            /* Fix the hover animation to account for the center transform */
+            .dept-rsttm-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
 
-                    mobAccPairs.forEach((p) => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (!b || !panel) return;
+        /* ================= COURSES SECTION ================= */
+        .dept-rsttm-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
 
-                        b.addEventListener("click", function() {
-                            const isOpen = this.getAttribute("aria-expanded") === "true";
-                            if (isOpen) {
-                                panel.style.display = "none";
-                                this.setAttribute("aria-expanded", "false");
-                                const sp = this.querySelector("span");
-                                if (sp) sp.textContent = "＋";
-                            } else {
-                                closeAllMob();
-                                panel.style.display = "block";
-                                this.setAttribute("aria-expanded", "true");
-                                const sp = this.querySelector("span");
-                                if (sp) sp.textContent = "−";
-                            }
-                        });
-                    });
+        .dept-rsttm-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
 
-                    document.addEventListener("keydown", function(e) {
-                        if (e.key === "Escape") closeAllMob();
-                    });
-                </script>
-                <!-- Mobile-Friendly Board of Studies & DRC -->
+        .dept-rsttm-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-rsttm-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-rsttm-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-rsttm-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-rsttm-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-rsttm-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-rsttm-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-rsttm-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-rsttm-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-rsttm-img img {
+                padding-left: 0%;
+            }
+
+            .dept-rsttm-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-rsttm-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-rsttm-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-rsttm-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-rsttm-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-rsttm-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-rsttm-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-rsttm-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-rsttm-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-rsttm-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-rsttm-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-rsttm-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-rsttm-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-rsttm-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-rsttm-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-rsttm-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-rsttm-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-rsttm-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-rsttm-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-rsttm-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-rsttm-accordion-item.active .dept-rsttm-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-rsttm-accordion-item.active .dept-rsttm-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-rsttm-accordion-item.active .dept-rsttm-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-rsttm-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-rsttm-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-rsttm-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-rsttm-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-rsttm-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-rsttm-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-rsttm-syllabus-link:hover .dept-rsttm-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-rsttm-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-rsttm-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-rsttm-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* LEFT ALIGN EVERYTHING */
+            text-align: left;
+        }
+
+        .dept-rsttm-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+
+        }
+
+        /* Intro Text */
+        .dept-rsttm-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1200px;
+            margin: 0 auto 0vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-rsttm-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-rsttm-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 5 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-rsttm-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-rsttm-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-rsttm-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-rsttm-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-rsttm-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-rsttm-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-rsttm-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-rsttm-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-rsttm-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENT GALLERY ACCORDION ================= */
+
+        .dept-rsttm-event-accordion {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* CARD */
+        .dept-rsttm-event-acc-item {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* HEADER */
+        .dept-rsttm-event-acc-header {
+            padding: 18px 22px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--primary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-rsttm-event-acc-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-rsttm-event-acc-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        /* ACTIVE */
+        .dept-rsttm-event-acc-item.active .dept-rsttm-event-acc-content {
+            padding: 20px;
+        }
+
+        .dept-rsttm-event-acc-item.active .dept-rsttm-event-acc-header i {
+            transform: rotate(180deg);
+        }
+
+        /* IMAGE */
+        .dept-rsttm-event-img {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .dept-rsttm-event-img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .dept-rsttm-event-list {
+            padding-left: 20px;
+            margin-bottom: 15px;
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .dept-rsttm-event-list li {
+            margin-bottom: 6px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .dept-rsttm-event-img img {
+                height: 220px;
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-rsttm-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-rsttm-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-rsttm-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-rsttm-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-rsttm-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-rsttm-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-rsttm-table-acc.active .dept-rsttm-table-content {
+            padding: 20px;
+        }
+
+        .dept-rsttm-table-acc.active .dept-rsttm-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-rsttm-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-rsttm-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-rsttm-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-rsttm-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-rsttm-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-rsttm-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-rsttm-table td,
+        .dept-rsttm-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (SINGLE IMAGE) ================= */
+
+        .dept-rsttm-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-rsttm-event-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        /* CARD */
+        .dept-rsttm-event-card {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-rsttm-event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 18px 40px rgba(44, 74, 122, 0.12);
+        }
+
+        /* TITLE */
+        .dept-rsttm-event-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--primary);
+            padding: 20px 25px;
+            line-height: 1.7;
+        }
+
+        /* IMAGE WRAPPER */
+        .dept-rsttm-event-img {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* IMAGE */
+        .dept-rsttm-event-img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+            transition: var(--transition);
+        }
+
+        /* HOVER EFFECT */
+        .dept-rsttm-event-card:hover img {
+            transform: scale(1.03);
+        }
+
+        /* ================= MOBILE ================= */
+        @media (max-width: 768px) {
+            .dept-rsttm-event-title {
+                font-size: 1rem;
+                padding: 15px;
+            }
+
+            .dept-rsttm-event-img img {
+                height: 220px;
+            }
+        }
+
+
+
+        /* ================= ACHIEVEMENT SECTION ================= */
+        .dept-rsttm-achievement-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Tabs */
+        .dept-rsttm-achievement-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .dept-achievement-tab {
+            padding: 12px 25px;
+            border-radius: 40px;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-achievement-tab:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .dept-achievement-tab.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* Content Box */
+        .dept-rsttm-achievement-content {
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            padding: 20px;
+        }
+
+        /* Panes */
+        .dept-achievement-pane {
+            display: none;
+        }
+
+        .dept-achievement-pane.active {
+            display: block;
+        }
+
+        /* ================= RECOGNITION SECTION ================= */
+        .dept-rsttm-recognition-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-rsttm-recognition-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            background: #fff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* LEFT IMAGE */
+        .dept-rsttm-recognition-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .dept-rsttm-recognition-img img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: contain;
+        }
+
+        /* RIGHT CONTENT */
+        .dept-rsttm-recognition-content {
+            flex: 2;
+        }
+
+        .dept-rsttm-recognition-content p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        /* BUTTON */
+        .dept-rsttm-recognition-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-rsttm-recognition-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-rsttm-recognition-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 960px) {
+            .dept-rsttm-recognition-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+                padding: 30px 20px;
+            }
+
+            .dept-rsttm-recognition-content p {
+                text-align: center;
+            }
+
+            .dept-rsttm-recognition-btn {
+                justify-content: center;
+            }
+        }
+
+        .dept-rsttm-lab-list {
+            text-align: left;
+            /* ensures left alignment */
+            padding-left: 20px;
+            /* proper spacing for numbers */
+            margin-top: 10px;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .dept-rsttm-lab-list li {
+            margin-bottom: 8px;
+            line-height: 1.8;
+            /* fix readability */
+        }
+    </style>
+
+    <style>
+        /* ================= EVENTS SECTION ================= */
+        .dept-rsttm-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-rsttm-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-rsttm-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 20s linear infinite;
+        }
+
+        .dept-rsttm-events-box:hover .dept-rsttm-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-rsttm-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-rsttm-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-rsttm-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+    </style>
+
+    <style>
+        /* ================= COPY EVENT ACCORDION ================= */
+
+        .dept-rsttm-event-gallery-section-copy {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Title */
+        .dept-rsttm-section-title-copy {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 3vw;
+        }
+
+        .dept-rsttm-section-title-copy span {
+            color: var(--accent);
+        }
+
+        /* Accordion wrapper */
+        .dept-rsttm-event-accordion-copy {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Card */
+        .dept-rsttm-event-acc-item-copy {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* Header */
+        .dept-rsttm-event-acc-header-copy {
+            padding: 18px 22px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--primary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Icon */
+        .dept-rsttm-event-acc-header-copy i {
+            transition: 0.3s;
+        }
+
+        /* Content */
+        .dept-rsttm-event-acc-content-copy {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        /* Active state */
+        .dept-rsttm-event-acc-item-copy.active-copy .dept-rsttm-event-acc-content-copy {
+            padding: 20px;
+        }
+
+        .dept-rsttm-event-acc-item-copy.active-copy .dept-rsttm-event-acc-header-copy i {
+            transform: rotate(180deg);
+        }
+
+        /* Image */
+        .dept-rsttm-event-img-copy {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .dept-rsttm-event-img-copy img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* List */
+        .dept-rsttm-event-list-copy {
+            padding-left: 20px;
+            margin-bottom: 15px;
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .dept-rsttm-event-list-copy li {
+            margin-bottom: 6px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .dept-rsttm-event-img-copy img {
+                height: 220px;
+            }
+        }
+    </style>
+
+    <div class="dept-rsttm-floating">
+        <a href="#dept-home" class="dept-rsttm-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-rsttm-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-rsttm-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-rsttm-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-rsttm-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-rsttm-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-rsttm-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-rsttm-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-rsttm-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-rsttm-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-rsttm-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-rsttm-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-rsttm-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-rsttm-float-text">Committee</span>
+        </a>
+
+        <!-- <a href="#dept-lab" class="dept-rsttm-float-item">
+                <i class="fa fa-flask"></i>
+                <span class="dept-rsttm-float-text">Lab</span>
+            </a> -->
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-rsttm-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-rsttm-wrapper">
+
+        <div class="dept-rsttm-heading" id="dept-home">
+            <h1>Department of <span>Travel & Tourism</span></h1>
+            <h2>Royal School of Travel & Tourism (RSTTM)</h2>
+        </div>
+
+        <div class="dept-rsttm-hero" id="dept-about">
+
+            <div class="dept-rsttm-img">
+                <img src="mobile-assets/new-dept-rshm-ttm/headimg-rsttm.png" alt="Royal School of Travel & Tourism">
             </div>
 
-            <div class="website">
-                @include('frontend/components/aheader')
-                <!-- floating button  -->
-                <div>
-                    <a href="https://admissions.rgu.ac/"
-                        style="
-              position: fixed;
-              bottom: 35px;
-              right: 50px;
-              background-color: #ef991f;
-              color: #fff;
-              padding: 12px 20px;
-              font-size: 18px;
-              font-weight: bold;
-              text-decoration: none;
-              border-radius: 20px;
-              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-              z-index: 1000;
-              overflow: hidden;
-              animation: pulse 2s infinite;
-            ">
-                        <span
-                            style="
-                position: absolute;
-                top: 0;
-                left: -75%;
-                width: 50%;
-                height: 100%;
-                background: linear-gradient(
-                  120deg,
-                  rgba(255, 255, 255, 0.4),
-                  rgba(255, 255, 255, 0)
-                );
-                transform: skewX(-25deg);
-                animation: shine 2s infinite;
-              "></span>
-                        Admission Open - Apply Now
-                    </a>
-                    <style>
-                        @keyframes pulse {
-                            0% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
+            <div class="dept-rsttm-content">
+
+                <h3>About <span>Department</span></h3>
+
+                <p>
+                    The Department of Travel and Tourism at The Assam Royal Global University Guwahati, stands at the
+                    forefront of fostering innovative and comprehensive education in the dynamic field of travel and
+                    tourism. Our curriculum is meticulously designed to equip students with a robust understanding of
+                    global tourism system, sustainable practices, and cutting-edge technological applications in travel
+                    management. With a strong emphasis on experiential learning, students benefit from industry
+                    partnerships, internships, and global exposure, ensuring they are well-prepared to meet the demands
+                    of the tourism industry. Our students emerge as highly skilled professionals ready to excel in
+                    diverse roles such as tour operators, travel consultants, tourism managers and allied services. The
+                    department's commitment to research and development in sustainable tourism practices positions our
+                    students to contribute significantly to the industry's growth and sustainability.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- vision mission  -->
+        <div class="dept-rsttm-prospects-section" id="dept-vision">
+            <h2 class="dept-rsttm-section-title">Vision <span>& Mission</span></h2>
+
+            <div class="dept-rsttm-prospects-content">
+
+                <h3 class="dept-rsttm-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-rsttm-bullet-list">
+                    <li>
+                        To provide integrated opportunities both nationally and internationally, fostering the
+                        development of global citizens. We aspire to develop future leaders who will transform the
+                        travel and tourism industry through their expertise, creativity, and commitment to excellence.
+                    </li>
+
+                </ul>
+
+                <h3 class="dept-rsttm-subheading">Our Mission</h3>
+                <ul class="dept-rsttm-bullet-list">
+
+                    <li>
+                        To empower exploration, foster cultural exchange and shaping the future of travel with a goal to
+                        prepare dynamic professionals for the global hospitality industry through collaborative
+                        partnerships, interdisciplinary research, and experiential education, who will enrich lives,
+                        foster connections, and contribute positively to the global travel landscape.
+                    </li>
+                    <li>
+                        To focus on experiential learning, sustainable practices, and innovative technology thereby
+                        equip our students with the skills, knowledge and mindset to thrive in diverse roles within the
+                        travel and tourism sector.
+                    </li>
+                    <li>
+                        To give back leaders to the society grounded with a commitment to responsible travel, cultural
+                        appreciation, and community engagement, who will champion authenticity, inclusivity, and ethical
+                        stewardship in their endeavors.
+                    </li>
+
+                </ul>
 
-                            50% {
-                                transform: scale(1.05);
-                                box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                            }
-
-                            100% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-                        }
-
-                        @keyframes shine {
-                            0% {
-                                left: -75%;
-                            }
-
-                            100% {
-                                left: 125%;
-                            }
-                        }
-                    </style>
-                </div>
-                <!-- floating button  -->
-                <section>
-                    <!-- floating buttons  -->
-                    <div
-                        style="
-              position: fixed;
-              top: 50%;
-              left: 10px;
-              transform: translateY(-50%);
-              display: flex;
-              flex-direction: column;
-              gap: 10px;
-              z-index: 1000;
-            ">
-                        <!-- About -->
-                        <a href="#about" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsl(33, 100%, 56%) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-home" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">About</span>
-                        </a>
-
-                        <!-- Course -->
-                        <a href="#course" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-book" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">Courses
-                                Offered</span>
-                        </a>
-
-                        <!-- Syllabus -->
-                        <a href="#syllabus" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-file-text" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">Structure
-                                & Syllabus</span>
-                        </a>
-
-                        <!-- Events -->
-                        <a href="#events" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-calendar" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">Events
-                                & Highlights</span>
-                        </a>
-
-                        <!-- Academic Excellence -->
-                        <a href="#academic-excellence" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-graduation-cap" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">Academic
-                                Excellence</span>
-                        </a>
-
-                        <!-- BOS -->
-                        <a href="#bos" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-users" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">Board
-                                of Studies</span>
-                        </a>
-
-                        <!-- DRC -->
-                        <a href="#drc" class="special-link"
-                            style="
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                color: white;
-                padding: 5px;
-                width: 42px;
-                overflow: hidden;
-                border-radius: 8px;
-                text-decoration: none;
-                white-space: nowrap;
-                transition: width 0.3s ease;
-                background: linear-gradient(
-                  135deg,
-                  hsla(33, 100%, 56%, 1) 0%,
-                  hsla(8, 52%, 50%, 1) 100%
-                );
-                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-              ">
-                            <i class="fa fa-university" style="min-width: 30px; text-align: center"></i>
-                            <span class="para1"
-                                style="
-                  margin-left: 10px;
-                  opacity: 0;
-                  transition: opacity 0.3s ease;
-                  font-size: 14px;
-                ">DRC</span>
-                        </a>
-                    </div>
-                    <!-- floating buttons  -->
-
-                    <section id="about">
-                        <section style="background-color: #fff8f0">
-                            <img src="mobile-assets/department-all/rsttm/web-top.png" alt="" />
-
-                            <img src="mobile-assets/department-all/rsttm/web-btm.png" alt="" />
-                        </section>
-                    </section>
-
-                    <section id="course">
-                        <div class="container">
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467a; font-weight: 900; font-size: 35px">
-                                Courses
-                                <span style="color: #ff9a1e; font-weight: 500">Offered</span>
-                            </h2>
-
-                            <div
-                                style="
-                  background-color: #fdf9f4;
-                  padding: 10px;
-                  width: 100%;
-                  margin: 0px auto;
-                ">
-                                <!-- Heading Section -->
-                                <div
-                                    style="
-                    display: flex;
-                    align-items: center;
-                    background-color: #27467a;
-                    padding: 12px 15px;
-                    font-weight: bold;
-                    color: #ffff;
-                    position: relative;
-                    border-radius: 5px;
-                  ">
-                                    <span style="font-size: 18px">Master of Travel & Tourism Management (MTTM)</span>
-                                    <span
-                                        style="
-                      position: absolute;
-                      right: 0;
-                      bottom: 0;
-                      width: 15px;
-                      height: 15px;
-                      background-color: #ff9a1e;
-                      clip-path: polygon(100% 0, 0 100%, 100% 100%);
-                    "></span>
-                                </div>
-
-                                <!-- Statute Items -->
-                                <a target="_blank" href="programs-Master-Travel&Tourism" style="text-decoration: none">
-                                    <div
-                                        style="
-                      display: flex;
-                      align-items: center;
-                      justify-content: space-between;
-                      background-color: #f9f9f9;
-                      padding: 10px 15px;
-                      margin-top: 5px;
-                      margin-left: 20px;
-                      border-radius: 5px;
-                      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    ">
-                                        <span
-                                            style="
-                        flex-grow: 1;
-                        color: #27467a;
-                        font-weight: bold;
-                        font-size: 20px;
-                      ">2
-                                            years</span>
-                                        <span>
-                                            <a class="para1 fw-bold"
-                                                style="
-                          padding: 5px 20px;
-                          border-radius: 5px;
-                          color: #fff;
-                          background: linear-gradient(
-                            135deg,
-                            hsla(33, 100%, 56%, 1) 0%,
-                            hsla(8, 52%, 50%, 1) 100%
-                          );
-                          font-size: 13px;
-                        "
-                                                href="programs-Master-Travel&Tourism">View Details</a>
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                            <div
-                                style="
-                  background-color: #fdf9f4;
-                  padding: 10px;
-                  width: 100%;
-                  margin: 0px auto;
-                ">
-                                <!-- Heading Section -->
-                                <div
-                                    style="
-                    display: flex;
-                    align-items: center;
-                    background-color: #27467a;
-                    padding: 12px 15px;
-                    font-weight: bold;
-                    color: #ffff;
-                    position: relative;
-                    border-radius: 5px;
-                  ">
-                                    <span style="font-size: 18px; padding-right: 20px">B.Sc./ BA Travel & Tourism
-                                        Management</span>
-                                    |
-                                    <span
-                                        style="
-                      font-size: 16px;
-                      padding-left: 16px;
-                      font-weight: 300px !important;
-                    ">Honours
-                                        / Honours with Research</span>
-
-                                    <span
-                                        style="
-                      position: absolute;
-                      right: 0;
-                      bottom: 0;
-                      width: 15px;
-                      height: 15px;
-                      background-color: #ff9a1e;
-                      clip-path: polygon(100% 0, 0 100%, 100% 100%);
-                    "></span>
-                                </div>
-
-                                <!-- Statute Items -->
-                                <a target="_blank" href="programs-b-sc-ba-travel" style="text-decoration: none">
-                                    <div
-                                        style="
-                      display: flex;
-                      align-items: center;
-                      justify-content: space-between;
-                      background-color: #f9f9f9;
-                      padding: 10px 15px;
-                      margin-top: 5px;
-                      margin-left: 20px;
-                      border-radius: 5px;
-                      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    ">
-                                        <span
-                                            style="
-                        flex-grow: 1;
-                        color: #27467a;
-                        font-weight: bold;
-                        font-size: 20px;
-                      ">4
-                                            years</span>
-                                        <span>
-                                            <a class="para1 fw-bold"
-                                                style="
-                          padding: 5px 20px;
-                          border-radius: 5px;
-                          color: #fff;
-                          background: linear-gradient(
-                            135deg,
-                            hsla(33, 100%, 56%, 1) 0%,
-                            hsla(8, 52%, 50%, 1) 100%
-                          );
-                          font-size: 13px;
-                        "
-                                                href="programs-b-sc-ba-travel">View Details</a>
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="syllabus">
-                        <div class="container">
-                            <div>
-                                <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                    style="
-                    color: #27467a;
-                    font-weight: 900;
-                    font-size: 35px;
-                    letter-spacing: 0.5px;
-                  ">
-                                    Courses Structure
-                                    <span style="color: #ff9a1e; font-weight: 600">and Syllabus</span>
-                                </h2>
-
-                                <div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="accordion para1" id="accordionExample"
-                                                style="border-radius: 12px; overflow: hidden">
-                                                <!-- UG -->
-                                                <div class="accordion-item"
-                                                    style="
-                            border: none;
-                            margin-bottom: 12px;
-                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                            border-radius: 10px;
-                          ">
-                                                    <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button collapsed"
-                                                            style="
-                                background: linear-gradient(
-                                  135deg,
-                                  #24477f,
-                                  #1a365d
-                                );
-                                color: #fff;
-                                font-weight: 600;
-                                font-size: 18px;
-                                padding: 14px 20px;
-                                border-radius: 10px;
-                              "
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseOne" aria-expanded="false"
-                                                            aria-controls="collapseOne">
-                                                            <i class="fa fa-graduation-cap me-2"></i> Under
-                                                            Graduate
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseOne" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body"
-                                                            style="
-                                background: #f9fbfd;
-                                padding: 18px;
-                                border-radius: 0 0 10px 10px;
-                              ">
-                                                            <div class="row"
-                                                                style="
-                                  display: flex;
-                                  flex-direction: column;
-                                  gap: 12px;
-                                ">
-                                                                <a href="/mobile-assets/syllabus/RSTTM/BA-BSC Travel & Tourism Management.pdf"
-                                                                    target="_blank" style="color: #27467a">
-                                                                    <i class="fa fa-file-text px-2"></i> Detailed
-                                                                    Syllabus -- B.Sc./BA - TTM
-                                                                    <i class="fa fa-download ms-2"
-                                                                        style="color: #ff9a1e"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- PG -->
-                                                <div class="accordion-item"
-                                                    style="
-                            border: none;
-                            margin-bottom: 12px;
-                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                            border-radius: 10px;
-                          ">
-                                                    <h2 class="accordion-header" id="headingTwo">
-                                                        <button class="accordion-button collapsed"
-                                                            style="
-                                background: linear-gradient(
-                                  135deg,
-                                  #24477f,
-                                  #1a365d
-                                );
-                                color: #fff;
-                                font-weight: 600;
-                                font-size: 18px;
-                                padding: 14px 20px;
-                                border-radius: 10px;
-                              "
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseTwo" aria-expanded="false"
-                                                            aria-controls="collapseTwo">
-                                                            <i class="fa fa-graduation-cap me-2"></i> Post
-                                                            Graduate
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body"
-                                                            style="
-                                background: #f9fbfd;
-                                padding: 18px;
-                                border-radius: 0 0 10px 10px;
-                              ">
-                                                            <div class="row"
-                                                                style="
-                                  display: flex;
-                                  flex-direction: column;
-                                  gap: 12px;
-                                ">
-                                                                <a href="/mobile-assets/syllabus/RSTTM/MTTM Syllabus.pdf"
-                                                                    target="_blank" style="color: #27467a">
-                                                                    <i class="fa fa-file-text px-2"></i> Detailed
-                                                                    Syllabus -- MTTM
-                                                                    <i class="fa fa-download ms-2"
-                                                                        style="color: #ff9a1e"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Doctoral -->
-                                                <div class="accordion-item"
-                                                    style="
-                            border: none;
-                            margin-bottom: 12px;
-                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                            border-radius: 10px;
-                          ">
-                                                    <h2 class="accordion-header" id="headingThree">
-                                                        <button class="accordion-button collapsed"
-                                                            style="
-                                background: linear-gradient(
-                                  135deg,
-                                  #24477f,
-                                  #1a365d
-                                );
-                                color: #fff;
-                                font-weight: 600;
-                                font-size: 18px;
-                                padding: 14px 20px;
-                                border-radius: 10px;
-                              "
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                                            aria-controls="collapseThree">
-                                                            <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body"
-                                                            style="
-                                background: #f9fbfd;
-                                padding: 18px;
-                                border-radius: 0 0 10px 10px;
-                              ">
-                                                            <a href="phd" class="para1" target="_blank"
-                                                                style="
-                                  color: #27467a;
-                                  font-weight: 600;
-                                  text-decoration: none;
-                                ">
-                                                                <i class="fa fa-external-link me-2"></i> Click
-                                                                to View...
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="events">
-                        <div class="container pb-4">
-                            <div class="row" style="display: flex; justify-content: center">
-                                <div class="col-lg-12">
-                                    <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467a; font-weight: 900">
-                                        Events
-                                    </h2>
-
-                                    <div style="max-width: 100%; position: relative">
-                                        <div style="border: 1px solid #ccc">
-                                            <div id="scrollContainer"
-                                                style="
-                          height: 360px;
-                          overflow: hidden;
-                          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-                        ">
-                                                <table class="table table-borderless mb-0"
-                                                    style="font-size: 16px; width: 100%">
-                                                    <tbody class="para1" id="scrollContent"
-                                                        style="background-color: #f9f9f9">
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 20th February, 2020, Prof. Shiela Bora,
-                                                                        Professor of History Department in Royal
-                                                                        Global University, Guwahati, conducted an
-                                                                        Interactive Session on Tourism with Special
-                                                                        Focus on Home Stay.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 27th September, 2021, Mr. Chandan Nath,
-                                                                        Founder and Head - CN Travels and Founder
-                                                                        Director - Centre for Tourism Studies,
-                                                                        Guwahati, conducted a Webinar on World
-                                                                        Tourism Day 2021: Tourism for Inclusive
-                                                                        Growth.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 12th May, 2022, Mr. Anirban Goswami,
-                                                                        Sous-Chef Novotel, Guwahati, conducted a
-                                                                        Skill Enhancement session on Culinary
-                                                                        Knowledge.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 31st May, 2022, Prof. S.C. Bagri
-                                                                        conducted a Webinar on The Employability
-                                                                        Factors for the Hospitality Industry.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 13th September, 2022, Mr. Udit Bhanu
-                                                                        Barthakur conducted a Tourism Awareness
-                                                                        Program on "Rethinking Tourism".
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 20th October, 2022, Mr. Chandan Nath
-                                                                        conducted a session on Tourism
-                                                                        Entrepreneurship - A Way Forward for the New
-                                                                        Generation.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 21st November, 2022, Mr. Anjan Choudhary
-                                                                        conducted a session on Soft Skill,
-                                                                        Personality Development & Grooming.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd">
-                                                            <td
-                                                                style="
-                                  display: flex;
-                                  align-items: center;
-                                  padding: 12px;
-                                ">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="
-                                    width: 120px;
-                                    height: 80px;
-                                    object-fit: cover;
-                                    border-radius: 12px;
-                                    border: 1px solid #ccc;
-                                    margin-right: 15px;
-                                  " />
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467a">
-                                                                        On 26th May, 2023, Dr. Sanjeev Kumar Saxena,
-                                                                        Dr. Mridul Dutta, and Dr. Shapana Medhi
-                                                                        conducted a session on Tourism and North
-                                                                        East India: The Way Forward.
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-
-                                        <div style="text-align: center; margin-top: 15px">
-                                            <a href="department-new-rshss-sociology-events"
-                                                style="
-                          display: inline-block;
-                          padding: 10px 28px;
-                          background: linear-gradient(135deg, #243b95, #151b5b);
-                          color: #fff;
-                          font-weight: 600;
-                          font-size: 16px;
-                          border-radius: 25px;
-                          text-decoration: none;
-                          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-                          transition: all 0.3s ease-in-out;
-                        ">
-                                                View All
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <script>
-                                        const scrollContainer =
-                                            document.getElementById("scrollContainer");
-                                        const scrollContent =
-                                            document.getElementById("scrollContent");
-
-                                        scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                        let scrollPos = 0;
-                                        const scrollSpeed = 0.2;
-
-                                        function scrollStep() {
-                                            scrollPos += scrollSpeed;
-                                            if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                                scrollPos = 0;
-                                            }
-                                            scrollContainer.scrollTop = scrollPos;
-                                            requestAnimationFrame(scrollStep);
-                                        }
-
-                                        scrollStep();
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- <section id="academic-excellence">
-              <section
-                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                </h2>
-
-                <div
-                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                </div>
-
-                <div class="row">
-
-                  <div class="col-lg-6">
-
-                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                    </h2>
-
-                    <div
-                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                      <div style="padding: 30px 20px;">
-                        <div class="carousel" mask>
-                          <div class="carousel-track">
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Yubita Deka<br>
-                                    <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                  </p>
-                                </div>
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Susmita Paul<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                              </div>
-
-                            </article>
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para1 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Bhaskar Jyoti Borah<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                              </div>
-
-                            </article>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <style>
-                      .carousel {
-                        --carousel-width: min(85vw, 650px);
-                        --carousel-item-width: 280px;
-                        --carousel-item-height: 350px;
-                        --carousel-item-gap: 2rem;
-                        position: relative;
-                        width: var(--carousel-width);
-                        overflow: hidden;
-                      }
-
-                      .carousel[mask] {
-                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                      }
-
-                      .carousel-track {
-                        display: flex;
-                        gap: var(--carousel-item-gap);
-                        animation: marquee var(--carousel-duration) linear infinite;
-                      }
-
-                      .carousel article {
-                        flex: 0 0 var(--carousel-item-width);
-                        height: var(--carousel-item-height);
-                        display: grid;
-                        grid-template-rows: 200px auto 1fr auto;
-                        border-radius: 10px;
-                        background: white;
-                        color: #314158;
-                      }
-
-                      .carousel img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 15px !important;
-                      }
-
-                      .carousel article>*:not(img) {
-                        padding: 0 1rem;
-                      }
-
-                      @keyframes marquee {
-                        from {
-                          transform: translateX(0);
-                        }
-
-                        to {
-                          transform: translateX(var(--scroll-distance));
-                        }
-                      }
-                    </style>
-
-                    <script>
-                        const track = document.querySelector('.carousel-track');
-                        const cards = Array.from(track.children);
-
-                        cards.forEach(card => {
-                            track.appendChild(card.cloneNode(true));
-                        });
-
-                        const carouselEl = document.querySelector('.carousel');
-                        const styles = getComputedStyle(carouselEl);
-                        const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                        const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                        const totalCards = track.children.length;
-                        const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                        track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                        const speed = 80;
-                        const duration = halfTrackWidth / speed;
-                        track.style.setProperty('--carousel-duration', `${duration}s`);
-                    </script>
-
-                  </div>
-
-                  <div class="col-lg-6">
-
-                    <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                    </h2>
-
-                    <div
-                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                      <div style="padding: 30px 20px;">
-                        <div class="carousel2" mask>
-                          <div class="carousel-track2">
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Ritu Sharma<br>
-                                    <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                  </p>
-                                </div>
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Anil Kumar<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                              </div>
-
-                            </article>
-
-                            <article class="bg-white text-dark rounded"
-                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                <div class="rounded"
-                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                  <p class="para2 fw-bold m-0 text-center"
-                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                    Meera Das<br>
-                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                  </p>
-                                </div>
-
-                              </div>
-
-                              <div class="rounded text-center"
-                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                              </div>
-
-                            </article>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <style>
-                      .carousel2 {
-                        --carousel-width: min(85vw, 650px);
-                        --carousel-item-width: 280px;
-                        --carousel-item-height: 350px;
-                        --carousel-item-gap: 2rem;
-                        position: relative;
-                        width: var(--carousel-width);
-                        overflow: hidden;
-                      }
-
-                      .carousel2[mask] {
-                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                      }
-
-                      .carousel-track2 {
-                        display: flex;
-                        gap: var(--carousel-item-gap);
-                        animation: marquee2 var(--carousel-duration) linear infinite;
-                      }
-
-                      .carousel2 article {
-                        flex: 0 0 var(--carousel-item-width);
-                        height: var(--carousel-item-height);
-                        display: grid;
-                        grid-template-rows: 200px auto 1fr auto;
-                        border-radius: 10px;
-                        background: white;
-                        color: #314158;
-                      }
-
-                      .carousel2 img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 15px !important;
-                      }
-
-                      .carousel2 article>*:not(img) {
-                        padding: 0 1rem;
-                      }
-
-                      @keyframes marquee2 {
-                        from {
-                          transform: translateX(0);
-                        }
-
-                        to {
-                          transform: translateX(var(--scroll-distance));
-                        }
-                      }
-                    </style>
-
-                    <script>
-                        const track2 = document.querySelector('.carousel-track2');
-                        const cards2 = Array.from(track2.children);
-
-                        cards2.forEach(card => {
-                            track2.appendChild(card.cloneNode(true));
-                        });
-
-                        const carouselEl2 = document.querySelector('.carousel2');
-                        const styles2 = getComputedStyle(carouselEl2);
-                        const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                        const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                        const totalCards2 = track2.children.length;
-                        const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                        track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                        const speed2 = 80;
-                        const duration2 = halfTrackWidth2 / speed2;
-                        track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                    </script>
-
-                  </div>
-
-                </div>
-
-              </section>
-            </section> -->
-
-                    <div id="bos" class="container pb-5 pt-5">
-                        <!-- Container -->
-                        <div id="drc" style="margin: 0 auto">
-                            <!-- Row 1 -->
-                            <div
-                                style="
-                  display: flex;
-                  flex-wrap: wrap;
-                  gap: 16px;
-                  margin-bottom: 16px;
-                ">
-                                <!-- Board of Studies -->
-                                <div style="flex: 1 1 calc(50% - 8px); box-sizing: border-box">
-                                    <div
-                                        style="
-                      border-radius: 12px;
-                      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-                      background: white;
-                      overflow: hidden;
-                    ">
-                                        <button id="accBtn1" aria-expanded="false" class="para1"
-                                            style="
-                        width: 100%;
-                        text-align: left;
-                        padding: 16px 20px;
-                        border: 0;
-                        background: linear-gradient(135deg, #24477f, #1a365d);
-                        color: white;
-                        font-weight: 600;
-                        font-size: 18px;
-                        cursor: pointer;
-                        border-radius: 12px;
-                      ">
-                                            <i class="fa fa-users me-2"></i> The Board of Studies
-                                            <span style="float: right; font-weight: 700; font-size: 20px">＋</span>
-                                        </button>
-                                        <div id="accPanel1"
-                                            style="
-                        display: none;
-                        padding: 20px;
-                        background: #f9fbfd;
-                        border-top: 1px solid #e5e5e5;
-                        color: #222;
-                        line-height: 1.6;
-                        border-radius: 0 0 12px 12px;
-                      ">
-                                            <div class="table-responsive">
-                                                <table
-                                                    class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                    <thead class="text-white" style="background-color: #27467a">
-                                                        <tr>
-                                                            <th class="text-white">#</th>
-                                                            <th class="text-white">Position in S-BoS</th>
-                                                            <th class="text-white">Name and Designation</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="para1 align-middle"
-                                                        style="background-color: #f9f9f9; text-align: start">
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>Chairperson (Ex-Officio) Dean of School</td>
-                                                            <td>
-                                                                Dr. Soumita Sen, Professor and Dean, RSHM &amp;
-                                                                RSTTM
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2</td>
-                                                            <td>
-                                                                All Heads of the Departments - Members
-                                                                (Ex-Officio)
-                                                            </td>
-                                                            <td>
-                                                                Dr. Indrajit Dutta, Assistant Professor and
-                                                                Co-ordinator, RSHM &amp; RSTTM
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>3</td>
-                                                            <td>
-                                                                Professors of the School Members (Ex-Officio)
-                                                            </td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>4</td>
-                                                            <td>
-                                                                External Experts for each Department (Academic)
-                                                            </td>
-                                                            <td>
-                                                                Dr. Saurabh Kumar Dixit, Associate
-                                                                Professor/Registrar i.c, Department of Tourism
-                                                                &amp; Hotel Management, NEHU
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>5</td>
-                                                            <td>
-                                                                External Experts for each Department (Industry)
-                                                            </td>
-                                                            <td>
-                                                                Mr. Nirmalaya Choudhury, Executive Director
-                                                                Operation Jungle Travels, Guwahati
-                                                                <hr />
-                                                                Mr. Jayanta Das (Cluster General Manager
-                                                                Northeast, Darjeeling, and General Manager
-                                                                Vivanta Guwahati
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>6</td>
-                                                            <td>
-                                                                Two Faculty members of the School nominated by
-                                                                the Vice Chancellor
-                                                            </td>
-                                                            <td>
-                                                                Mr. Chandan Bezborah, Lecturer, RSHM &amp; RSTTM
-                                                                <hr />
-                                                                Ms. Ankita Saikia, Assistant Professor, RSHM
-                                                                &amp; RSTTM
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>7</td>
-                                                            <td>Registrar, Member Secretary (Ex-officio)</td>
-                                                            <td>Dr. D N Singh, Registrar or his nominee</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- DRC -->
-                                <div style="flex: 1 1 calc(50% - 8px); box-sizing: border-box">
-                                    <div
-                                        style="
-                      border-radius: 12px;
-                      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-                      background: white;
-                      overflow: hidden;
-                    ">
-                                        <button id="accBtn2" aria-expanded="false" class="para1"
-                                            style="
-                        width: 100%;
-                        text-align: left;
-                        padding: 16px 20px;
-                        border: 0;
-                        background: linear-gradient(135deg, #24477f, #1a365d);
-                        color: white;
-                        font-weight: 600;
-                        font-size: 18px;
-                        cursor: pointer;
-                        border-radius: 12px;
-                      ">
-                                            <i class="fa fa-flask me-2"></i> The Departmental Research
-                                            Committee (DRC)
-                                            <span style="float: right; font-weight: 700; font-size: 20px">＋</span>
-                                        </button>
-                                        <div id="accPanel2"
-                                            style="
-                        display: none;
-                        padding: 20px;
-                        background: #f9fbfd;
-                        border-top: 1px solid #e5e5e5;
-                        color: #222;
-                        line-height: 1.6;
-                        border-radius: 0 0 12px 12px;
-                      ">
-                                            <div class="table-responsive">
-                                                <table
-                                                    class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                    <thead class="text-white" style="background-color: #27467a">
-                                                        <tr>
-                                                            <th class="text-white">#</th>
-                                                            <th class="text-white">Content</th>
-                                                            <th class="text-white">Name of the Member</th>
-                                                            <th class="text-white">Designation</th>
-                                                            <th class="text-white">
-                                                                Designation in the committee
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="para1 align-middle"
-                                                        style="background-color: #f9f9f9; text-align: start">
-                                                        <tr>
-                                                            <td>1.</td>
-                                                            <td>Head of the Department</td>
-                                                            <td>Dr. Syed Islam</td>
-                                                            <td>HOD, RSTTM</td>
-                                                            <td>Chairperson</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td rowspan="2">2.</td>
-                                                            <td rowspan="2" class="align-middle">
-                                                                Two Professors
-                                                            </td>
-                                                            <td>Prof. (Dr.) Soumitra Sen</td>
-                                                            <td>Professor</td>
-                                                            <td>Member</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Prof. (Dr.) Mahesh Uniyal</td>
-                                                            <td>Dean, RSHM &amp; RSTTM</td>
-                                                            <td>Member</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>3.</td>
-                                                            <td>
-                                                                Two Associate Professors – one of them will be
-                                                                the member secretary
-                                                            </td>
-                                                            <td>Dr. Indrajit Dutta</td>
-                                                            <td>Associate Professor</td>
-                                                            <td>Member Secretary</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td rowspan="3">4.</td>
-                                                            <td rowspan="3" class="align-middle">
-                                                                Three external members not below the rank of
-                                                                Professors, including members from an allied
-                                                                department, who will be nominated by the URC
-                                                            </td>
-                                                            <td>Prof. (Dr.) B. S Mipun</td>
-                                                            <td>Dean, RSEES</td>
-                                                            <td>External Member</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Prof. (Dr.) Bhuban Chandra Barooah</td>
-                                                            <td>Dean, RSLA</td>
-                                                            <td>External Member</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Prof. (Dr.) George</td>
-                                                            <td>Dean, RSB</td>
-                                                            <td>External Member</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- JS remains same -->
-                        <script>
-                            const accPairs = [{
-                                    btn: "accBtn1",
-                                    panel: "accPanel1"
-                                },
-                                {
-                                    btn: "accBtn2",
-                                    panel: "accPanel2"
-                                },
-                            ];
-
-                            function closeAll() {
-                                accPairs.forEach((p) => {
-                                    const b = document.getElementById(p.btn);
-                                    const panel = document.getElementById(p.panel);
-                                    if (panel) panel.style.display = "none";
-                                    if (b) {
-                                        b.setAttribute("aria-expanded", "false");
-                                        const sp = b.querySelector("span");
-                                        if (sp) sp.textContent = "＋";
-                                    }
-                                });
-                            }
-
-                            accPairs.forEach((p) => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (!b || !panel) return;
-
-                                b.addEventListener("click", function() {
-                                    const isOpen = this.getAttribute("aria-expanded") === "true";
-                                    if (isOpen) {
-                                        panel.style.display = "none";
-                                        this.setAttribute("aria-expanded", "false");
-                                        const sp = this.querySelector("span");
-                                        if (sp) sp.textContent = "＋";
-                                    } else {
-                                        closeAll();
-                                        panel.style.display = "block";
-                                        this.setAttribute("aria-expanded", "true");
-                                        const sp = this.querySelector("span");
-                                        if (sp) sp.textContent = "−";
-                                    }
-                                });
-                            });
-
-                            document.addEventListener("keydown", function(e) {
-                                if (e.key === "Escape") closeAll();
-                            });
-                        </script>
-                    </div>
-
-                    <script>
-                        document.querySelectorAll("a.special-link").forEach((anchor) => {
-                            anchor.addEventListener("mouseover", function() {
-                                this.style.width = "200px";
-                                this.querySelector("span").style.opacity = "1";
-                            });
-                            anchor.addEventListener("mouseout", function() {
-                                this.style.width = "42px";
-                                this.querySelector("span").style.opacity = "0";
-                            });
-                            anchor.addEventListener("click", function(e) {
-                                e.preventDefault();
-                                document
-                                    .querySelector(this.getAttribute("href"))
-                                    .scrollIntoView({
-                                        behavior: "smooth",
-                                    });
-                            });
-                        });
-                    </script>
-                </section>
             </div>
         </div>
-    @endsection
+
+        <div class="dept-rsttm-courses-section" id="dept-courses">
+            <h2 class="dept-rsttm-section-title">Courses <span>Offered</span></h2>
+
+            <div class="dept-rsttm-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-rsttm-prospects-section" id="dept-prospects">
+          <h2 class="dept-rsttm-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-rsttm-prospects-content">
+            <p class="dept-rsttm-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-rsttm-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-rsttm-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Government Sector Jobs</h3>
+            <ol class="dept-rsttm-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Private Sector Careers</h3>
+            <ol class="dept-rsttm-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Research & Teaching</h3>
+            <ol class="dept-rsttm-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-rsttm-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Jobs Abroad</h3>
+            <ol class="dept-rsttm-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-rsttm-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-rsttm-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-rsttm-accordion-section" id="dept-syllabus">
+            <h2 class="dept-rsttm-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-rsttm-accordion-wrapper">
+
+                <div class="dept-rsttm-accordion-item active">
+                    <div class="dept-rsttm-accordion-header">
+                        <div class="dept-rsttm-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsttm-chevron"></i>
+                    </div>
+
+                    <div class="dept-rsttm-accordion-content">
+                        <div class="dept-rsttm-syllabus-list">
+                            <!-- <h3>Political Science</h3> -->
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/RSTTM/BA-BSC%20Travel%20&%20Tourism%20Management.pdf"
+                                class="dept-rsttm-syllabus-link">
+                                <div class="dept-rsttm-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- B.Sc./BA -- Travel & Tourism
+                                </div>
+                                <i class="fa-solid fa-download dept-rsttm-download-icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-rsttm-accordion-item">
+                    <div class="dept-rsttm-accordion-header">
+                        <div class="dept-rsttm-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsttm-chevron"></i>
+                    </div>
+
+                    <div class="dept-rsttm-accordion-content">
+                        <div class="dept-rsttm-syllabus-list">
+                            <!-- <h3>Political Science</h3> -->
+                            <a target="_blank" href="https://www.rgu.ac/mobile-assets/syllabus/RSTTM/MTTM%20Syllabus.pdf"
+                                class="dept-rsttm-syllabus-link">
+                                <div class="dept-rsttm-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- MTTM
+                                </div>
+                                <i class="fa-solid fa-download dept-rsttm-download-icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-rsttm-accordion-item">
+                    <div class="dept-rsttm-accordion-header">
+                        <div class="dept-rsttm-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsttm-chevron"></i>
+                    </div>
+
+                    <div class="dept-rsttm-accordion-content">
+                        <div class="dept-rsttm-syllabus-list">
+                            <a target="_blank" href="https://www.rgu.ac/phd" class="dept-rsttm-syllabus-link">
+                                <div class="dept-rsttm-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dept-rsttm-events-section" id="dept-events">
+
+            <h2 class="dept-rsttm-section-title">Events</h2>
+
+            <div class="dept-rsttm-events-box">
+                <div class="dept-rsttm-events-track" id="events-track"></div>
+            </div>
+
+            <!-- <div style="text-align:center; margin-top:30px;">
+            <a href="#" class="dept-rsttm-events-btn">View All</a>
+          </div> -->
+
+        </div>
+
+        <div class="dept-rsttm-event-gallery-section" id="dept-events">
+
+            <h2 class="dept-rsttm-section-title">
+                Awards and Achievements of <span>Faculty Members (RSHM/RSTTM)</span>
+            </h2>
+
+            <div class="dept-rsttm-event-accordion" id="event-gallery-container"></div>
+
+        </div>
+
+        <div class="dept-rsttm-event-gallery-section-copy" id="dept-events-copy">
+
+            <h2 class="dept-rsttm-section-title-copy">
+                Student <span>Achievements</span>
+            </h2>
+
+            <div class="dept-rsttm-event-accordion-copy" id="event-gallery-container-copy"></div>
+
+        </div>
+
+        <div class="dept-rsttm-table-section" id="dept-committee">
+
+            <div class="dept-rsttm-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+        <!-- <div class="dept-rsttm-lab-section" id="dept-lab">
+
+                <div class="dept-rsttm-lab-container">
+
+                    <h2 class="dept-rsttm-section-title">Physiotherapy <span> OPD</span></h2>
+
+                    <p class="dept-rsttm-lab-intro">
+                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                        patient. The
+                        students through OPD practicals would learn how to treat patients with physical disabilities and
+                        injuries in a
+                        range of settings including hospitals, health centres, private practices and sports clubs under the
+                        proper
+                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                    </p>
+
+                    <ol class="dept-rsttm-lab-list">
+                        <li>
+                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                            pain, reduce
+                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                            acts as a
+                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                            tissue
+                            repair.
+                        </li>
+
+                        <li>
+                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                            include reducing
+                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                            scar
+                            tissue, and treating muscle spasms.
+                        </li>
+
+                        <li>
+                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                            upper trap
+                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                            stiffness, and
+                            improve upper body posture.
+                        </li>
+
+                        <li>
+                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                            inflammation, and improves blood circulation.
+                        </li>
+
+                        <li>
+                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                            assess range
+                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                        </li>
+
+                        <li>
+                            Exterior image of the Physiotherapy OPD.
+                        </li>
+                    </ol>
+
+
+                     <h3 class="dept-rsttm-lab-heading">Our Lab Equipments</h3>
+
+                    <h2 class="dept-rsttm-section-title">Glimpse of <span>our Lab</span></h2>
+
+                    <div class="dept-rsttm-lab-gallery">
+
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                            class="dept-rsttm-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                            class="dept-rsttm-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                            class="dept-rsttm-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                            class="dept-rsttm-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                            class="dept-rsttm-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                            class="dept-rsttm-lab-img">
+
+                    </div>
+
+                    <button class="dept-rsttm-explore-btn">Explore</button>
+                </div>
+
+            </div> -->
+
+    </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "Master of Travel & Tourism Management – MTTM",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-Master-Travel&Tourism"
+            },
+            {
+                title: "B.Sc./B.A. Travel & Tourism Management",
+                duration: "3/ 3+1 years",
+                link: "https://www.rgu.ac/programs-b-sc-ba-travel"
+            }
+
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-rsttm-course-card">
+
+          <div class="dept-rsttm-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-rsttm-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-rsttm-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-rsttm-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-rsttm-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-rsttm-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-rsttm-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "On 26th May 2023, Dr. Sanjeev Kumar Saxena, Dr. Mridul Dutta, and Dr. Shapana Medhi conducted a session on 'Tourism and North East India: The Way Forward'.",
+            "On 21st November 2022, Mr. Anjan Choudhary conducted a session on 'Soft Skill, Personality Development & Grooming'.",
+            "On 20th October 2022, Mr. Chandan Nath conducted a session on 'Tourism Entrepreneurship – A Way Forward for the New Generation'.",
+            "On 13th September 2022, Mr. Udit Bhanu Barthakur conducted a Tourism Awareness Program on 'Rethinking Tourism'.",
+            "On 31st May 2022, Prof. S.C. Bagri conducted a webinar on 'The Employability Factors for the Hospitality Industry'.",
+            "On 12th May 2022, Mr. Anirban Goswami conducted a skill enhancement session on 'Culinary Knowledge'.",
+            "On 27th September 2021, Mr. Chandan Nath conducted a webinar on 'World Tourism Day 2021: Tourism for Inclusive Growth'.",
+            "On 20th February 2020, Prof. Shiela Bora conducted an interactive session on tourism with special focus on homestay."
+        ];
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-rsttm-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+                    ["1", "Chairperson (Ex-Officio) Dean of School",
+                        "Dr. Soumita Sen, Professor and Dean, RSHM & RSTTM"
+                    ],
+
+                    ["2", "All Heads of the Departments - Members (Ex-Officio)",
+                        "Dr. Indrajit Dutta, Assistant Professor and Co-ordinator, RSHM & RSTTM"
+                    ],
+
+                    ["3", "Professors of the School Members (Ex-Officio)", ""],
+
+                    ["4", "External Experts for each Department (Academic)",
+                        "Dr. Saurabh Kumar Dixit, Associate Professor/Registrar i.c, Department of Tourism & Hotel Management, NEHU"
+                    ],
+
+                    ["5", "External Experts for each Department (Industry)",
+                        "Mr. Nirmalaya Choudhury, Executive Director Operation Jungle Travels, Guwahati / Mr. Jayanta Das (Cluster General Manager Northeast, Darjeeling, and General Manager Vivanta Guwahati)"
+                    ],
+
+                    ["6", "Two Faculty members of the School nominated by the Vice Chancellor",
+                        "Mr. Chandan Bezborah, Lecturer, RSHM & RSTTM / Ms. Ankita Saikia, Assistant Professor, RSHM & RSTTM"
+                    ],
+
+                    ["7", "Registrar, Member Secretary (Ex-officio)", "Dr. D N Singh, Registrar or his nominee"]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the committee"],
+                rows: [
+                    ["1", "Head of the Department", "Dr. Syed Islam", "HOD, RSTTM", "Chairperson"],
+
+                    ["2", "Two Professors", "Prof. (Dr.) Soumitra Sen", "Professor", "Member"],
+                    ["2", "Two Professors", "Prof. (Dr.) Mahesh Uniyal", "Dean, RSHM & RSTTM", "Member"],
+
+                    ["3", "Two Associate Professors – one of them will be the member secretary",
+                        "Dr. Indrajit Dutta", "Associate Professor", "Member Secretary"
+                    ],
+
+                    ["4",
+                        "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                        "Prof. (Dr.) B. S Mipun", "Dean, RSEES", "External Member"
+                    ],
+                    ["", "", "Prof. (Dr.) Bhuban Chandra Barooah", "Dean, RSLA", "External Member"],
+                    ["", "", "Prof. (Dr.) George", "Dean, RSB", "External Member"]
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-rsttm-table-responsive">
+          <table class="dept-rsttm-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-rsttm-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-rsttm-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-rsttm-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-rsttm-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-rsttm-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-rsttm-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-rsttm-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        (function() {
+
+            /* ================= EVENT DATA ================= */
+            const eventGalleryData = [{
+                    heading: "DR. AJEET KR. SINGH",
+                    points: [
+                        "Invited as a Keynote speaker for the 10th International Conference on Advanced Technologies and Innovations in Tourism and Hospitality Industry 2025 organized by Swami Vivekanand Subharti University, Meerut, held on 6th and 7th December 2025.",
+                        "Invited as a Keynote speaker for the International Conference on “Redefining Hospitality: Sustainability and Innovation for an Inclusive, Resilient Future” organized by Nipuniya College of Hotel Management, Kerala, held on 2nd February 2026.",
+                        "Invited as a resource person for a guest speech at the 16th India International Hotel, Travel and Tourism Research Conference titled “Healing Horizons: Integrating Spiritual Tourism and Indian Hospitality for Global Peace,” organized by Banarsidas Chandiwala Institute of Hotel Management and Catering Technology on 5th March 2026.",
+                        "Invited as an Advisor for the International Conference “TRISHIL-26: Tourism Research, Innovation & Sustainability for Hospitality Industry & Learning,” organized by the School of Hotel Management and Tourism, Dev Bhoomi Uttarakhand University, Dehradun, held online on 27–28 March 2026.",
+                        "Participated in a two-day National Seminar on “Multi-Faceted Approaches to Driving Inclusive Rural Development,” organized by Government College Una and sponsored by ICSSR North West Regional Centre, Panjab University, Chandigarh."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/events/e1/1.jpg"
+                },
+                {
+                    heading: "DR. INDRAJIT DUTTA",
+                    points: [
+                        "Attended a Faculty Development Programme on “Mastering Student Engagement: Innovative Pedagogical Techniques,” organized by the School of Hotel Management & Tourism, Desh Bhagat University, Punjab, held from 13th to 17th January 2026.",
+                        "Presented a paper titled “Voices from the Highlands: Community-Led Tourism and Indigenous Development among the Gompa Tribe of Tawang” at the ICSSR-sponsored National Conference “Samunnati,” organized by the Department of Commerce, The Assam Royal Global University, Guwahati, held on 7th January 2026."
+                    ],
+                },
+                {
+                    heading: "DR. SUPRIYA SIKARI",
+                    points: [
+                        "Received the Naari Shakti Award for Best Academician under the Global Iconic Women Award 2026.",
+                        "Attended the ATAL Faculty Development Programme titled “Data Insights Unlocked: FDP on Research Methodology in Data Mining and Analytics,” held from 28th July to 2nd August 2025.",
+                        "Attended a five-day Faculty Development Programme on “Research Development and Academic Writing,” organized by the Department of Management Science, MCKV Institute of Engineering, Liluah.",
+                        "Attended a Faculty Development Programme organized by Amity School of Hospitality, Kolkata, on the topic “Curriculum Innovation: Bridging the Gap Between Hospitality Industry & Academia.”",
+                        "Presented a paper at the Third International Tourism & Hospitality Conference 2025 (ITHC 2025), organized by NSHM, Durgapur.",
+                        "Presented a paper at the 16th India International Hotel, Travel and Tourism Research Conference titled “Healing Horizons: Integrating Spiritual Tourism & Indian Hospitality for Global Peace,” organized by Banarsidas Chandiwala Institute of Hotel Management & Catering Technology."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/events/e2/1.jpg"
+                },
+                {
+                    heading: "DR. PIYUSH GUPTA",
+                    points: [
+                        "Attended a five-day Faculty Development Programme on “Systematic Approach to Research Paper Writing,” organized by the Research Foundation of India.",
+                        "Attended “Culinary Heritage and Festivals,” organized by the ITSA Amity Regional Conference for Asia 2025.",
+                        "Attended “Tribal Gastronomy & Health Tourism,” organized by DSPSR.",
+                        "Attended “Waste Management in Food Establishments,” organized by The Assam Royal Global University."
+                    ],
+                },
+                {
+                    heading: "DR. PRABAHAN PUZARI",
+                    points: [
+                        "Secured 1st Runner-Up position for Best Research Presentation Award at Parul University.",
+                        "Received the Best Faculty for Placement Assistance Award in Tourism.",
+                        "Invited as a keynote speaker in an online seminar organized by the School of Hospitality and Tourism Studies, DY Patil University, Navi Mumbai.",
+                        "Invited as a keynote speaker in an online seminar hosted by Riya Institute of Tourism and Hospitality, Mumbai.",
+                        "Invited as a keynote speaker for a seminar on the prospects of tourism, organized by Jagannath Barooah University, Jorhat.",
+                        "Invited as a keynote speaker to a webinar hosted by Global Group of Institutions, Haldia, West Bengal.",
+                        "Invited as a panel member at the Times of India Education Conclave, hosted by Byatikram Masdo.",
+                        "Invited as a panel member to speak on the importance of Muga Silk and Mekhela Sador in tourism of Assam at the International Women’s Day event, hosted by the Times of India in association with Byatikram Masdo.",
+                        "Invited as a keynote speaker at the online International FDP “Innovative Practices in Hospitality and Tourism,” organized by AAFT School of Hospitality and Tourism, New Delhi.",
+                        "Invited as a keynote speaker for the National Workshop on Tourism Entrepreneurship and Startup Opportunities, organized by the Department of Hospitality and Tourism Management, Assam University, Silchar.",
+                        "Received a certificate of paper presentation at the 16th India International Hotel, Travel and Tourism Research Conference 2026, organized by Banarsidas Chandiwala Institute of Hotel Management and Catering Technology, New Delhi.",
+                        "Received a certificate of paper presentation at the International Tourism and Hospitality Conference 2025, organized by NSHM, Durgapur.",
+                        "Received a certificate of paper presentation at the Conference on Promoting Responsible Tourism Through Regenerative Tourism Practices 2025, hosted by BIT Mesra, Jharkhand.",
+                        "Received a certificate of paper presentation at the 3rd Asian Tourism Research Conference, hosted by Christ University, Bengaluru.",
+                        "Received a certificate of paper presentation at the International Conference on Hospitality and Tourism (ICHT), organized by Jagran Lakecity University, Bhopal, Madhya Pradesh.",
+                        "Awarded Lifetime Membership of the Indian Tourism and Hospitality Congress."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/events/e3/1.jpg"
+                },
+                {
+                    heading: "DR. SYED SAJIDUL ISLAM",
+                    points: [
+                        "Paper presented at SMART-MET 2026 International Conference on Tourism, organized by Amity University, Tashkent (Uzbekistan)"
+                    ],
+                },
+                {
+                    heading: "MR. DIKHYANT RATH",
+                    points: [
+                        "Attended FDP on Qualitative Research in the Digital Era organised by RGU.",
+                        "Attended the seminar of Embracing Diversity, Equity, and Inclusivity in Tourism and Hospitality Sector: Viksit Bharat@2047 organised by Mizoram University in 2025."
+                    ],
+                },
+                {
+                    heading: "MS. ANGSHUMI GOSWAMI",
+                    points: [
+                        "Attended the seminar Embracing Diversity, Equity, and Inclusivity in Tourism and Hospitality Sector: Viksit Bharat@2047, organised by Mizoram University from November 19-21, 2025."
+                    ],
+                },
+            ];
+
+            /* ================= GET CONTAINER ================= */
+            const eventGalleryContainer = document.getElementById("event-gallery-container");
+
+            if (!eventGalleryContainer) return;
+
+            /* ================= RENDER FUNCTION ================= */
+            function renderEventGallery() {
+
+                if (!eventGalleryData || eventGalleryData.length === 0) {
+                    eventGalleryContainer.innerHTML = `
+                <p style="text-align:center; color:#556b8d;">
+                    No events available at the moment.
+                </p>
+            `;
+                    return;
+                }
+
+                const html = eventGalleryData.map(event => `
+            <div class="dept-rsttm-event-acc-item">
+
+                <!-- HEADER -->
+                <div class="dept-rsttm-event-acc-header">
+                    <span>${event.heading}</span>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+
+                <!-- CONTENT -->
+                <div class="dept-rsttm-event-acc-content">
+
+                    <!-- BULLET LIST -->
+                    ${event.points && event.points.length > 0 ? `
+                            <ul class="dept-rsttm-event-list">
+                                ${event.points.map(point => `<li>${point}</li>`).join("")}
+                            </ul>
+                        ` : ""}
+
+                    <!-- IMAGE -->
+                    ${event.image ? `
+                            <div class="dept-rsttm-event-img">
+                                <img src="${event.image}" alt="event image">
+                            </div>
+                        ` : ""}
+
+                </div>
+
+            </div>
+        `).join("");
+
+                eventGalleryContainer.innerHTML = html;
+            }
+
+            /* ================= ACCORDION LOGIC ================= */
+            function initAccordion() {
+
+                const items = eventGalleryContainer.querySelectorAll(".dept-rsttm-event-acc-item");
+
+                items.forEach(item => {
+
+                    const header = item.querySelector(".dept-rsttm-event-acc-header");
+                    const content = item.querySelector(".dept-rsttm-event-acc-content");
+
+                    header.addEventListener("click", () => {
+
+                        const isActive = item.classList.contains("active");
+
+                        // Close all
+                        items.forEach(i => {
+                            i.classList.remove("active");
+                            const c = i.querySelector(".dept-rsttm-event-acc-content");
+                            if (c) c.style.maxHeight = 0;
+                        });
+
+                        // Open clicked
+                        if (!isActive) {
+                            item.classList.add("active");
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                    });
+
+                });
+            }
+
+            /* ================= INIT ================= */
+            renderEventGallery();
+            initAccordion();
+
+        })();
+    </script>
+
+    <script>
+        (function() {
+
+            /* ================= EVENT DATA ================= */
+            const eventGalleryDataCopy = [{
+                    heading: "NATALIYA KIM MERCY, BTTM",
+                    points: [
+                        "2nd position in Tug of War at Varsity Week 2026.",
+                        "Semester topper scholarships 2025, 2024, 2023."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/student-ach/e1/1.jpg"
+                },
+                {
+                    heading: "ASHOK KR. GOGOI, MTTM",
+                    points: [
+                        "2nd position in Bhaona Monologue Competition in 2024."
+                    ]
+
+                },
+                {
+                    heading: "KENNONG TALOH, MTTM",
+                    points: [
+                        "Second Semester Topper Scholarship 2025."
+                    ]
+                },
+                {
+                    heading: "NEEKITA DAOLAGUPU, Ph.D. pursuing",
+                    points: [
+                        "Selected for National Fellowship in 2025 for Higher Education of ST students."
+                    ]
+                },
+                {
+                    heading: "CHRISTOPHER THOMAS, BTTM",
+                    points: [
+                        "4th Semester Topper Scholarship in 2025."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/student-ach/e2/1.jpg"
+                },
+                {
+                    heading: "SIMI KHAKLARY, MTTM",
+                    points: [
+                        "Korean SME’s Street Fair participation hosted by Embassy of the Republic of Korea in 2025.",
+                        "Participation at Nex-us All India K-POP contest."
+                    ]
+                },
+                {
+                    heading: "CYOLYNE LAMARE, BHM",
+                    points: [
+                        "Certification for participation in Mocktail Workshop in 2025, hosted by Royal Global University."
+                    ]
+                },
+                {
+                    heading: "BAIAHUNLANG KHARMYNDAL, BHM",
+                    points: [
+                        "Certification for participation in Mocktail Workshop in 2025, hosted by Royal Global University."
+                    ]
+                },
+
+                {
+                    heading: "MRITIKA MAHIMA BARUAH, MTTM (passed out)",
+                    points: [
+                        "Dean’s List Award 2023–24.",
+                        "Gold Medalist.",
+                        "UGC NET 2025."
+                    ],
+                    image: "mobile-assets/new-dept-rsttm-ttm/student-ach/e3/1.jpg"
+                },
+                {
+                    heading: "ANURUPA DEBNATH, BTTM",
+                    points: [
+                        "2nd position at District Level Cultural Competition 2023 in Hojai.",
+                        "Distinction in Rabindra Natyan (honoured with Nrityamani Award 2023).",
+                        "2nd position in Ethnic Group Dance Competition 2023, hosted by Cultural Affairs Department, Govt. of Assam."
+                    ]
+                }
+            ];
+
+            /* ================= GET CONTAINER ================= */
+            const eventGalleryContainerCopy = document.getElementById("event-gallery-container-copy");
+
+            if (!eventGalleryContainerCopy) return;
+
+            /* ================= RENDER FUNCTION ================= */
+            function renderEventGalleryCopy() {
+
+                if (!eventGalleryDataCopy || eventGalleryDataCopy.length === 0) {
+                    eventGalleryContainerCopy.innerHTML = `
+                <p style="text-align:center; color:#556b8d;">
+                    No data available.
+                </p>
+            `;
+                    return;
+                }
+
+                const html = eventGalleryDataCopy.map(event => `
+            <div class="dept-rsttm-event-acc-item-copy">
+
+                <!-- HEADER -->
+                <div class="dept-rsttm-event-acc-header-copy">
+                    <span>${event.heading}</span>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+
+                <!-- CONTENT -->
+                <div class="dept-rsttm-event-acc-content-copy">
+
+                    ${event.points && event.points.length > 0 ? `
+                            <ul class="dept-rsttm-event-list-copy">
+                                ${event.points.map(point => `<li>${point}</li>`).join("")}
+                            </ul>
+                        ` : ""}
+
+                    ${event.image ? `
+                            <div class="dept-rsttm-event-img-copy">
+                                <img src="${event.image}" alt="event image">
+                            </div>
+                        ` : ""}
+
+                </div>
+
+            </div>
+        `).join("");
+
+                eventGalleryContainerCopy.innerHTML = html;
+            }
+
+            /* ================= ACCORDION ================= */
+            function initAccordionCopy() {
+
+                const items = eventGalleryContainerCopy.querySelectorAll(".dept-rsttm-event-acc-item-copy");
+
+                items.forEach(item => {
+
+                    const header = item.querySelector(".dept-rsttm-event-acc-header-copy");
+                    const content = item.querySelector(".dept-rsttm-event-acc-content-copy");
+
+                    header.addEventListener("click", () => {
+
+                        const isActive = item.classList.contains("active-copy");
+
+                        // Close all
+                        items.forEach(i => {
+                            i.classList.remove("active-copy");
+                            const c = i.querySelector(".dept-rsttm-event-acc-content-copy");
+                            if (c) c.style.maxHeight = 0;
+                        });
+
+                        // Open clicked
+                        if (!isActive) {
+                            item.classList.add("active-copy");
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+
+                    });
+
+                });
+            }
+
+            /* ================= INIT ================= */
+            renderEventGalleryCopy();
+            initAccordionCopy();
+
+        })();
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+    </script>
+@endsection
