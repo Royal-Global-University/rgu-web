@@ -18,7 +18,7 @@
             --accent: #f28c28;
             --accent-hover: #e07b1f;
             --bg-color: #FFF8F0;
-            --text-muted: #1a2739;
+            --text-muted: #556b8d;
             --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
@@ -86,8 +86,8 @@
         }
 
         .dept-socialwork-img img {
-            width: 85%;
-            margin-left: 7%;
+            width: 80%;
+            padding-left: 7%;
             height: auto;
             border-radius: 24px;
             /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
@@ -121,7 +121,7 @@
             line-height: 1.8;
             color: var(--text-muted);
             margin-bottom: 25px;
-            font-weight: 500;
+            font-weight: 300;
             text-align: justify;
         }
 
@@ -137,7 +137,7 @@
         .dept-socialwork-floating {
             position: fixed;
             left: 30px;
-            top: 57%;
+            top: 50%;
             transform: translateY(-50%);
             display: flex;
             flex-direction: column;
@@ -273,8 +273,6 @@
             /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
             .dept-socialwork-wrapper {
                 padding-bottom: 160px;
-                padding-top: 110px;
-
             }
 
             .dept-socialwork-hero {
@@ -287,7 +285,6 @@
             }
 
             .dept-socialwork-floating {
-                display: none;
                 top: auto;
                 bottom: 20px;
                 left: 50%;
@@ -332,12 +329,12 @@
 
             /* 2. Center the Admission Button right above the nav menu */
             .dept-socialwork-admission-btn {
-                bottom: 40px;
+                bottom: 95px;
                 /* Sits nicely above the 20px nav menu */
                 left: 50%;
                 right: auto;
                 transform: translateX(-50%);
-                width: 80%;
+                width: 85%;
                 /* Wide enough to be prominent, but doesn't touch screen edges */
                 max-width: 350px;
                 justify-content: center;
@@ -682,20 +679,18 @@
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
             border-top: 4px solid var(--accent);
-            max-width: 1200px;
+            max-width: 1300px;
             margin: 0 auto;
             padding: 40px 50px;
             /* Adds safe spacing on the sides */
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            /* LEFT ALIGN EVERYTHING */
+            align-items: center;
             text-align: left;
         }
 
         .dept-socialwork-lab-heading {
             font-size: clamp(1.2rem, 2.5vw, 2rem);
-
         }
 
         /* Intro Text */
@@ -704,7 +699,7 @@
             line-height: 1.8;
             color: var(--text-muted);
             max-width: 1200px;
-            margin: 0 auto 0vw auto;
+            margin: 0 auto 4vw auto;
             font-weight: 400;
             text-align: justify;
         }
@@ -724,7 +719,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            aspect-ratio: 5 / 3;
+            aspect-ratio: 16 / 9;
             border-radius: 12px;
             box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
             transition: var(--transition);
@@ -809,27 +804,16 @@
             font-size: 1.1rem;
         }
 
-
-        /* ================= WRAPPER ================= */
-        .dept-socialwork-events-wrapper {
-            display: flex;
-            gap: 2rem;
-            align-items: flex-start;
-            width: 100%;
-        }
-
-        /* ================= EVENTS SECTION (LEFT 50%) ================= */
+        /* ================= EVENTS SECTION ================= */
         .dept-socialwork-events-section {
-            order: 1;
-            flex: 0 0 calc(50% - 1rem);
-            width: calc(50% - 1rem);
-            margin-top: 3vw;
+            /* margin-top: 3vw; */
             animation: fadeInUp 1s ease-out;
         }
 
         .dept-socialwork-events-box {
-            width: 100%;
-            height: 450px;
+            max-width: 1300px;
+            height: 350px;
+            margin: 0 auto;
             overflow: hidden;
             border-radius: 12px;
             background: #fff;
@@ -842,7 +826,7 @@
         .dept-socialwork-events-track {
             display: flex;
             flex-direction: column;
-            animation: scrollEvents 80s linear infinite;
+            animation: scrollEvents 100s linear infinite;
         }
 
         .dept-socialwork-events-box:hover .dept-socialwork-events-track {
@@ -881,28 +865,6 @@
 
             100% {
                 transform: translateY(-50%);
-            }
-        }
-
-        /* ================= HIGHLIGHTS SECTION (RIGHT 50%) ================= */
-        .dept-socialwork-highlights-section {
-            order: 2;
-            flex: 0 0 calc(50% - 1rem);
-            width: calc(50% - 1rem);
-            margin-top: 3vw;
-        }
-
-        /* ================= RESPONSIVE ================= */
-        @media (max-width: 768px) {
-            .dept-socialwork-events-wrapper {
-                flex-direction: column;
-            }
-
-            .dept-socialwork-events-section,
-            .dept-socialwork-highlights-section {
-                flex: 0 0 100%;
-                width: 100%;
-                order: unset;
             }
         }
 
@@ -1008,70 +970,127 @@
             white-space: nowrap;
         }
 
-        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
-        .dept-socialwork-event-gallery-section {
+        /* ===== EVENTS + HIGHLIGHTS LAYOUT (REWRITTEN) ===== */
+
+        .dept-socialwork-events-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
             margin-top: 3vw;
-            animation: fadeInUp 1s ease-out;
+            align-items: stretch;
         }
 
-        .dept-socialwork-event-card {
-            max-width: 1300px;
-            margin: 0 auto 40px;
-        }
-
-        .dept-socialwork-event-title {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-
-        /* MARQUEE BOX */
-        .dept-socialwork-marquee {
-            overflow: hidden;
-            border-radius: 12px;
-            /* background: #fff; */
-            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
-            /* border-top: 4px solid var(--accent); */
-        }
-
-        /* TRACK */
-        .dept-socialwork-marquee-track {
+        /* LEFT EVENTS */
+        .dept-socialwork-events-section {
             display: flex;
-            gap: 20px;
-            width: max-content;
-            animation: marqueeScroll 80s linear infinite;
+            flex-direction: column;
         }
 
-        /* PAUSE ON HOVER */
-        .dept-socialwork-marquee:hover .dept-socialwork-marquee-track {
-            animation-play-state: paused;
+        /* RIGHT HIGHLIGHTS */
+        .dept-socialwork-highlights-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ================= CAROUSEL ================= */
+
+        .dept-socialwork-carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 14px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* FORCE LANDSCAPE */
+        .dp-track {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 100%;
+        }
+
+        .dp-slide {
+            min-width: 100%;
+            aspect-ratio: 16 / 9;
+            /* 🔥 KEY FIX */
+            position: relative;
         }
 
         /* IMAGE */
-        .dept-socialwork-marquee img {
-            height: 300px;
-            aspect-ratio: 16/9;
+        .dp-slide img {
+            width: 100%;
+            height: 100%;
             object-fit: cover;
-            border-radius: 10px;
+            display: block;
         }
 
-        /* ANIMATION */
-        @keyframes marqueeScroll {
-            0% {
-                transform: translateX(0);
-            }
+        /* ================= BUTTONS ================= */
 
-            100% {
-                transform: translateX(-50%);
+        .dp-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(44, 74, 122, 0.75);
+            color: #fff;
+            border: none;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 2;
+            transition: 0.3s;
+        }
+
+        .dp-btn.prev {
+            left: 12px;
+        }
+
+        .dp-btn.next {
+            right: 12px;
+        }
+
+        .dp-btn:hover {
+            background: var(--accent);
+        }
+
+        .dp-btn.hidden {
+            display: none;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .dept-socialwork-events-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
             }
         }
 
-        /* MOBILE */
-        @media(max-width:768px) {
-            .dept-socialwork-marquee img {
-                height: 160px;
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .dept-socialwork-carousel {
+                border-radius: 10px;
             }
+
+            .dp-slide {
+                aspect-ratio: 16 / 9;
+                /* 🔥 stays landscape ALWAYS */
+            }
+
+            .dp-btn {
+                width: 36px;
+                height: 36px;
+                font-size: 14px;
+            }
+
+        }
+
+        .dept-socialwork-explore-btn {
+            text-decoration: none !important;
         }
 
         /* ================= ACHIEVEMENT SECTION ================= */
@@ -1131,111 +1150,6 @@
         .dept-achievement-pane.active {
             display: block;
         }
-
-        /* ================= RECOGNITION SECTION ================= */
-        .dept-socialwork-recognition-section {
-            margin-top: 3vw;
-            animation: fadeInUp 1s ease-out;
-        }
-
-        .dept-socialwork-recognition-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            gap: 60px;
-            background: #fff;
-            padding: 50px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
-            border-top: 4px solid var(--accent);
-        }
-
-        /* LEFT IMAGE */
-        .dept-socialwork-recognition-img {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-        }
-
-        .dept-socialwork-recognition-img img {
-            width: 100%;
-            max-width: 300px;
-            object-fit: contain;
-        }
-
-        /* RIGHT CONTENT */
-        .dept-socialwork-recognition-content {
-            flex: 2;
-        }
-
-        .dept-socialwork-recognition-content p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: var(--text-muted);
-            margin-bottom: 25px;
-            text-align: justify;
-        }
-
-        /* BUTTON */
-        .dept-socialwork-recognition-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: var(--accent);
-            color: #fff;
-            padding: 12px 22px;
-            border-radius: 40px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: var(--transition);
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .dept-socialwork-recognition-btn i {
-            font-size: 1.2rem;
-        }
-
-        .dept-socialwork-recognition-btn:hover {
-            background: var(--accent-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.4);
-        }
-
-        /* ================= RESPONSIVE ================= */
-        @media (max-width: 960px) {
-            .dept-socialwork-recognition-container {
-                flex-direction: column;
-                text-align: center;
-                gap: 30px;
-                padding: 30px 20px;
-            }
-
-            .dept-socialwork-recognition-content p {
-                text-align: center;
-            }
-
-            .dept-socialwork-recognition-btn {
-                justify-content: center;
-            }
-        }
-
-        .dept-socialwork-lab-list {
-            text-align: left;
-            /* ensures left alignment */
-            padding-left: 20px;
-            /* proper spacing for numbers */
-            margin-top: 10px;
-            color: var(--text-muted);
-            font-size: 1.05rem;
-            line-height: 1.8;
-        }
-
-        .dept-socialwork-lab-list li {
-            margin-bottom: 8px;
-            line-height: 1.8;
-            /* fix readability */
-        }
     </style>
 
     <div class="dept-socialwork-floating">
@@ -1249,24 +1163,24 @@
             <span class="dept-socialwork-float-text">About</span>
         </a>
 
-        <a href="#dept-vision" class="dept-socialwork-float-item">
-            <i class="fa fa-bullseye"></i>
-            <span class="dept-socialwork-float-text">Vision & Mission</span>
-        </a>
+        <!-- <a href="#dept-vision" class="dept-socialwork-float-item">
+          <i class="fa fa-bullseye"></i>
+          <span class="dept-socialwork-float-text">Vision & Mission</span>
+        </a> -->
 
         <a href="#dept-courses" class="dept-socialwork-float-item">
             <i class="fa fa-graduation-cap"></i>
             <span class="dept-socialwork-float-text">Courses</span>
         </a>
 
+        <!-- <a href="#dept-prospects" class="dept-socialwork-float-item">
+          <i class="fa fa-file-text"></i>
+          <span class="dept-socialwork-float-text">Prospects</span>
+        </a> -->
+
         <a href="#dept-syllabus" class="dept-socialwork-float-item">
             <i class="fa fa-file-text"></i>
             <span class="dept-socialwork-float-text">Syllabus</span>
-        </a>
-
-        <a href="#dept-events" class="dept-socialwork-float-item">
-            <i class="fa fa-calendar"></i>
-            <span class="dept-socialwork-float-text">Events</span>
         </a>
 
         <a href="#dept-committee" class="dept-socialwork-float-item">
@@ -1274,10 +1188,10 @@
             <span class="dept-socialwork-float-text">Committee</span>
         </a>
 
-        <!-- <a href="#dept-lab" class="dept-socialwork-float-item">
-                <i class="fa fa-flask"></i>
-                <span class="dept-socialwork-float-text">Lab</span>
-            </a> -->
+        {{-- <a href="#dept-lab" class="dept-socialwork-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-socialwork-float-text">Lab</span>
+        </a> --}}
 
     </div>
 
@@ -1326,9 +1240,6 @@
         </div>
 
 
-
-
-        <!-- vision mission  -->
         <div class="dept-socialwork-prospects-section" id="dept-vision">
             <h2 class="dept-socialwork-section-title">Vision <span>& Mission</span></h2>
 
@@ -1382,14 +1293,14 @@
 
           <div class="dept-socialwork-prospects-content">
             <p class="dept-socialwork-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
               sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
               strong foundation in agricultural sciences, preparing them for following careers opportunities:
             </p>
 
             <h3 class="dept-socialwork-subheading">Higher Education Opportunities</h3>
             <ol class="dept-socialwork-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
               </li>
               <li>MBA in Agribusiness Management</li>
               <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
@@ -1399,7 +1310,7 @@
 
             <h3 class="dept-socialwork-subheading">Government Sector Jobs</h3>
             <ol class="dept-socialwork-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
               <li>IBPS AFO (Agricultural Field Officer)</li>
               <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
               <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
@@ -1411,7 +1322,7 @@
               <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
               <li>Food Processing Industries</li>
               <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
               <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
             </ol>
 
@@ -1441,7 +1352,7 @@
             <ol class="dept-socialwork-list">
               <li>Practical knowledge of farming tools and technologies</li>
               <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
               <li>Language skills and report writing</li>
             </ol>
 
@@ -1541,12 +1452,12 @@
             </div>
         </div>
 
-
         <div class="dept-socialwork-events-wrapper">
 
             <!-- LEFT: EVENTS -->
             <div class="dept-socialwork-events-section">
-                <h2 class="dept-socialwork-section-title">Events</h2> <!-- ✅ inside left -->
+                <h2 class="dept-socialwork-section-title">Events</h2>
+
                 <div class="dept-socialwork-events-box">
                     <div class="dept-socialwork-events-track" id="events-track"></div>
                 </div>
@@ -1554,20 +1465,70 @@
 
             <!-- RIGHT: HIGHLIGHTS -->
             <div class="dept-socialwork-highlights-section">
-                <h2 class="dept-socialwork-section-title">Departmental <span>Highlights</span></h2> <!-- ✅ inside right -->
+
+                <h2 class="dept-socialwork-section-title">Departmental <span>Highlights</span></h2>
+
                 <div class="dept-socialwork-carousel">
+
                     <div class="dp-track" id="dpTrack">
+
+                        <!-- ADD IMAGES HERE -->
                         <div class="dp-slide">
-                            <img src="/mobile-assets/social-work/1.jpg" />
+                            <img
+                                src="/mobile-assets/social-work/1.jpg" />
                         </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/2.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/3.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/4.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/5.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/6.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/7.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/8.jpg" />
+                        </div>
+
+                        <div class="dp-slide">
+                            <img
+                                src="/mobile-assets/social-work/9\.jpg" />
+                        </div>
+
                     </div>
+
+                    <!-- CONTROLS -->
                     <button class="dp-btn prev" id="dpPrev">&#10094;</button>
                     <button class="dp-btn next" id="dpNext">&#10095;</button>
+
                 </div>
+
             </div>
 
         </div>
-
 
         <!-- ================= ACHIEVEMENT SECTION ================= -->
         <div class="dept-socialwork-achievement-section" id="dept-achievement">
@@ -1726,107 +1687,56 @@
 
         </div>
 
-        <!-- <div class="dept-socialwork-event-gallery-section">
-
-          <h2 class="dept-socialwork-section-title">Event <span>Highlights</span></h2>
-
-          <div id="event-gallery-container"></div>
-
-        </div> -->
-
         <div class="dept-socialwork-table-section" id="dept-committee">
+
+            <h2 class="dept-socialwork-section-title">Table <span>List</span></h2>
 
             <div class="dept-socialwork-table-grid" id="table-accordion-container"></div>
 
         </div>
 
-        <!-- <div class="dept-socialwork-lab-section" id="dept-lab">
-
-                <div class="dept-socialwork-lab-container">
-
-                    <h2 class="dept-socialwork-section-title">Physiotherapy <span> OPD</span></h2>
-
-                    <p class="dept-socialwork-lab-intro">
-                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
-                        patient. The
-                        students through OPD practicals would learn how to treat patients with physical disabilities and
-                        injuries in a
-                        range of settings including hospitals, health centres, private practices and sports clubs under the
-                        proper
-                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
-                    </p>
-
-                    <ol class="dept-socialwork-lab-list">
-                        <li>
-                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
-                            pain, reduce
-                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
-                            acts as a
-                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
-                            tissue
-                            repair.
-                        </li>
-
-                        <li>
-                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
-                            include reducing
-                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
-                            scar
-                            tissue, and treating muscle spasms.
-                        </li>
-
-                        <li>
-                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
-                            upper trap
-                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
-                            stiffness, and
-                            improve upper body posture.
-                        </li>
-
-                        <li>
-                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
-                            inflammation, and improves blood circulation.
-                        </li>
-
-                        <li>
-                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
-                            assess range
-                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
-                        </li>
-
-                        <li>
-                            Exterior image of the Physiotherapy OPD.
-                        </li>
-                    </ol>
 
 
-                     <h3 class="dept-socialwork-lab-heading">Our Lab Equipments</h3>
 
-                    <h2 class="dept-socialwork-section-title">Glimpse of <span>our Lab</span></h2>
-
-                    <div class="dept-socialwork-lab-gallery">
-
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
-                            class="dept-socialwork-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
-                            class="dept-socialwork-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
-                            class="dept-socialwork-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
-                            class="dept-socialwork-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
-                            class="dept-socialwork-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
-                            class="dept-socialwork-lab-img">
-
-                    </div>
-
-                    <button class="dept-socialwork-explore-btn">Explore</button>
-                </div>
-
-            </div> -->
 
     </div>
+
+    <script>
+        const track = document.getElementById("dpTrack");
+        const slides = document.querySelectorAll(".dp-slide");
+        const prevBtn = document.getElementById("dpPrev");
+        const nextBtn = document.getElementById("dpNext");
+
+        let index = 0;
+        let autoSlide;
+
+        function updateSlide() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        // CLICK EVENTS
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // CONDITION: SINGLE IMAGE
+        if (slides.length <= 1) {
+            prevBtn.classList.add("hidden");
+            nextBtn.classList.add("hidden");
+        } else {
+            autoSlide = setInterval(nextSlide, 3000);
+        }
+    </script>
+
 
     <script>
         // 1. Define the courses array
@@ -2331,42 +2241,6 @@
     `;
 
             }).join("");
-        }
-    </script>
-
-    <script>
-        const track = document.getElementById("dpTrack");
-        const slides = document.querySelectorAll(".dp-slide");
-        const prevBtn = document.getElementById("dpPrev");
-        const nextBtn = document.getElementById("dpNext");
-
-        let index = 0;
-        let autoSlide;
-
-        function updateSlide() {
-            track.style.transform = `translateX(-${index * 100}%)`;
-        }
-
-        function nextSlide() {
-            index = (index + 1) % slides.length;
-            updateSlide();
-        }
-
-        function prevSlide() {
-            index = (index - 1 + slides.length) % slides.length;
-            updateSlide();
-        }
-
-        // CLICK EVENTS
-        nextBtn.addEventListener("click", nextSlide);
-        prevBtn.addEventListener("click", prevSlide);
-
-        // CONDITION: SINGLE IMAGE
-        if (slides.length <= 1) {
-            prevBtn.classList.add("hidden");
-            nextBtn.classList.add("hidden");
-        } else {
-            autoSlide = setInterval(nextSlide, 3000);
         }
     </script>
 

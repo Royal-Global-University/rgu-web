@@ -204,7 +204,7 @@
                             </div>
                             <h3 class="card-name">Dr. Rajat Subhra Dutta</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dr-mukta-agarwal" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-rajat-subhra-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -301,7 +301,7 @@
                             </div>
                             <h3 class="card-name">Mr. Bhaskar Jyoti Dutta</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-aitilaris" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-bhaskar-jyoti-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -471,7 +471,7 @@
                             </div>
                             <h3 class="card-name">Ms. Rubina Chowdhury</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-rubina-chowdhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

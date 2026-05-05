@@ -4158,6 +4158,18 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-bhaskar-jyoti-dutta', function () {
+    return view('frontend/facultyprofile/rsp/bhaskar-jyoti-dutta');
+})->name('faculty-bhaskar-jyoti-dutta');
+
+Route::get('/faculty-rubina-chowdhury', function () {
+    return view('frontend/facultyprofile/rsp/rubina-chowdhury');
+})->name('faculty-rubina-chowdhury');
+
+Route::get('/faculty-rajat-subhra-dutta', function () {
+    return view('frontend/facultyprofile/rsp/rajat-subhra-dutta');
+})->name('faculty-rajat-subhra-dutta');
+
 Route::get('/faculty-nayanika-neog', function () {
     return view('frontend/facultyprofile/rsp/nayanika-neog');
 })->name('faculty-nayanika-neog');

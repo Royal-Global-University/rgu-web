@@ -1260,12 +1260,7 @@
                 <h3>About <span>Department</span></h3>
 
                 <p>
-                    The Operation Theatre Technology Programme at Royal Global University (RGU) offers a comprehensive
-                    curriculum
-                    that focuses on both the technical and clinical aspects of operating room procedures. Throughout the
-                    four-year
-                    duration (3+1) divided into eight semesters, students gain expertise in managing surgical equipment,
-                    maintaining sterile environments, and effectively assisting surgical teams.
+                    The Anesthesia & Operation Theatre Technology Programme at Royal Global University (RGU) offers a four-year (3+1) journey designed to transform passionate learners into indispensable members of surgical teams. This comprehensive curriculum blends technical mastery with clinical expertise, preparing students to manage sophisticated surgical equipment, uphold the highest standards of sterile practice, and provide seamless support during critical procedures.
                 </p>
 
             </div>
@@ -1277,25 +1272,7 @@
             <div class="dept-operationtheatre-prospects-content">
 
                 <p class="dept-operationtheatre-intro-text" style="text-align: justify;">
-                    Our programme integrates theoretical knowledge with hands-on training in state-of-the-art facilities;
-                    ensuring
-                    graduates are well-prepared for careers as skilled operation theatre technologists. With a strong
-                    emphasis on
-                    practical skills and industry relevance, our graduates cover a wide range of subjects including surgical
-                    procedures, sterile techniques, medical equipment management, and Here is the extracted text:
-                    patient care within operating rooms. Through classroom lectures, laboratory sessions, and clinical
-                    rotations,
-                    students develop the necessary skills and expertise to excel in healthcare settings, contributing
-                    effectively
-                    to ensuring safe and efficient surgical outcomes in hospitals, surgical centers, and other medical
-                    facilities.
-                    Our OTT department boasts state-of-the-art clinical labs, research facilities, and extensive libraries,
-                    creating an immersive environment for learning and exploration. In addition to academic pursuits,
-                    students can
-                    engage in various extracurricular activities, including clubs, societies, and sports teams, ensuring a
-                    holistic university experience. Come join us at RGU and embark on a rewarding journey dedicated to
-                    innovation
-                    and impacting lives positively.
+                    Our programme offers a transformative learning experience that blends rigorous academic knowledge with immersive practical training in cutting-edge facilities. Over four years, students gain expertise in anesthesia techniques, surgical procedures, sterile techniques, medical equipment management, and patient care, preparing them to excel in hospitals, surgical centers, and other healthcare environments. With classroom lectures, laboratory sessions, and clinical rotations, the programme ensures graduates are confident, skilled, and industry-ready. Beyond academics, RGU provides a vibrant campus life with clubs, societies, and sports, fostering a holistic university experience. Join us and embark on a rewarding journey where innovation meets compassion, and every step brings you closer to making a positive impact in healthcare.
                 </p>
 
             </div>
@@ -1590,6 +1567,8 @@
     <script>
         // ================= EVENTS DATA =================
         const eventsData = [
+            "17-05-2025 | Organized Free Blood Pressure Screening Camp at The Assam Royal Global University.",
+            "13-03-2026 | Dr. Tanu Rekha Hazarika, Senior Consultant Nephrologist and Renal Transplant Physician, Peerless Hospital, Guwahati delivered an insightful guest lecture and engaged students in an interactive session to Celebrate World Kidney Day.",
             "18-09-2024 | Ms. Sarita Chettri delivered a guest lecture for students.",
             "09-08-2024 | Mr. Chinmoy Thakuria delivered a guest lecture during the Student Induction Programme.",
             "01-04-2024 | Mr. Rickystar Syiemlieh conducted a webinar on Laparoscopic Instrumentation.",
