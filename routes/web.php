@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/training-on-forest-ecosystem-services-held-at-rgu', function () {
+    return view('frontend/media-corner/2026/news13');
+})->name('training-on-forest-ecosystem-services-held-at-rgu');
+
 Route::get('/royal-global-university-faculty-honoured-with-best-scientist-award', function () {
     return view('frontend/media-corner/2026/news12');
 })->name('royal-global-university-faculty-honoured-with-best-scientist-award');

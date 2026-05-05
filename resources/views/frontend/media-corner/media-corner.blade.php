@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Training on Forest Ecosystem Services held at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 5, 2026:',
+                            'link' => '/training-on-forest-ecosystem-services-held-at-rgu',
+                            'image' => '/mobile-assets/media-corner/2026/may/5-may.jpg',
+                            'content' => 'The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.',
+                        ],
+                        [
                             'title' => 'Royal Global University Faculty Honoured with Best Scientist Award',
                             'summary' => '',
                             'date' => 'Guwahati, May 4, 2026:',
