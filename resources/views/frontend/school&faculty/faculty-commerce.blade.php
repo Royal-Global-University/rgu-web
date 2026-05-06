@@ -243,18 +243,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Ms-Rituparna-Baruah.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rituparna Baruah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://rgu.ac/faculty-rituparna-baruah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                     <!-- Assistant Professors -->
 
                     <div class="col-lg-3 col-md-6 mb-4">

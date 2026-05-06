@@ -1,2527 +1,2186 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div>
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                    <span
-                        style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="padding-top: 80px; position: relative;">
-                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/mobile-geography-geoinformatics.png"
-                    alt="">
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <!-- <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                  Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-
-                  <div
-                    style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                    <span style="font-size:18px;">Bachelor of Design (Product Design)</span>
-                    <span
-                      style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                  </div>
-
-
-                  <a target="_blank" href="programs-Bachelor-of-Design-Product-Design" style="text-decoration:none;">
-                    <div
-                      style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                      <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                      <span>
-                        <a class="para1 fw-bold"
-                          style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                          href="programs-Bachelor-of-Design-Product-Design">View Details</a>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-
-              </div> -->
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_UG_Geography.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Geography
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSEES/UG _Geography_Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geography
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geography.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Geography
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSEES/PG syllabus Geography.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geography
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <hr>
-
-                                                    <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geoinformatics.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Geoinformatics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/RSEES/MSc Geoinformatics Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                        Geoinformatics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <hr>
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior professor,
-                                                            department of geography
-                                                            and resource management, Mizoram University) | Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            15-05-2023 | Prof. D. K. Nayak (Professor, department of
-                                                            geography, North-East Hill
-                                                            University) | Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            22-09-2023 | Prof. (Dr.) Sunando Bandhyopadhyay (Department of
-                                                            geography, University
-                                                            of Calcutta) | Guest lecture.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            02-11-2023 | Dr. Hirak Ranjan Das (Deputy director, innovation
-                                                            incubation and
-                                                            entrepreneurship, The Assam Royal Global University) | Guest
-                                                            lecture.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU, New Delhi) |
-                                                            Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            22-04-2024 | Prof. Sachidanand Sinha (Former chairperson, CSRD,
-                                                            JNU, New Delhi) |
-                                                            Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            05-06-2024 | Prof. Kushal Kumar Baruah (Professor and dean of
-                                                            academic affairs,
-                                                            Auniati University, Assam) | Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            08-06-2024 | Prof. Bindhy Wasini Pandey (Professor, department
-                                                            of geography, Delhi
-                                                            School of Economics, University of Delhi) | Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            20-08-2024 | Sri Atul Chandrakant Kulkarni (Chairman, Amazing
-                                                            Namaste Foundation,
-                                                            member, board of governor, IIM Shillong) | Invited talk.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events"
-                                    style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in D-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                        <td>
-                                            Dr. Annesha Borah, Coordinator and Assistant Professor,
-                                            Department of Geography
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>2</td>
-                                        <td>
-                                            All Faculty members of the Department Members (Ex-Officio)
-                                        </td>
-                                        <td>
-                                            Prof. B S Mipun, Senior Professor, Department of Geography
-                                            <hr>
-                                            Dr. Saurav Kumar, Assistant Professor, Department of Geography
-                                            <hr>
-                                            Dr. Tushar Sarkar, Assistant Professor, Department of Geography
-                                            <hr>
-                                            Dr.Takhellabam Prameshwari Devi, Assistant Professor, Department
-                                            of Geography
-                                            <hr>
-                                            Dr. Trishna Changkakoti, Assistant Professor, Department of
-                                            Geography
-                                            <hr>
-                                            Ms. Jubilee Goswami, Assistant Professor, Department of
-                                            Geography
-                                            <hr>
-                                            Miss Deepanjali Reang, Assistant Professor, Department of
-                                            Geography
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts</td>
-                                        <td>
-                                            Prof. Bimal Kumar Kar, Professor, Department of Geography,
-                                            Gauhati University
-                                            <hr>
-                                            Prof. D K Nayak, Professor, Department of Geography, North
-                                            Eastern Hill University
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Head of the Department</td>
-                                        <td>Dr. Annesha Borah</td>
-                                        <td>
-                                            Coordinator and Assistant Professor, Department of Geography and
-                                            Geoinformatics
-                                        </td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Two Professors</td>
-                                        <td>Prof. B S Mipun</td>
-                                        <td>Dean RSEES and DSW</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3.</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>Dr. Trishna Changkakati</td>
-                                        <td>
-                                            Assistant Professor, Department of Geography and Geoinformatics
-                                        </td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Saurav Kumar</td>
-                                        <td>
-                                            Assistant Professor, Department of Geography and Geoinformatics
-                                        </td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">4.</td>
-                                        <td rowspan="3" class="align-middle">
-                                            Three external members not below the rank of Professors,
-                                            including members from an allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. Soumitra Sen</td>
-                                        <td>Senior Professor, RSTTM and RSHM</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Sajal Nag</td>
-                                        <td>Professor and Dean, RSHSS, RGU</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Hemangi Deka Sarma</td>
-                                        <td>Prof. Department of Geology, RGU</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <script>
-                const mobAccPairs = [{
-                        btn: 'mobAccBtn1',
-                        panel: 'mobAccPanel1'
-                    },
-                    {
-                        btn: 'mobAccBtn2',
-                        panel: 'mobAccPanel2'
-                    },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
         <div class="website">
+            <!--head image Section-->
             @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/"
-                    style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                    <span
-                        style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            <section>
-
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
-
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
-
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
-
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
-
-                    <!-- Events -->
-                    <!-- <a href="#events" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                      Highlights</span>
-                  </a> -->
-
-                    <!-- Academic Excellence -->
-                    <!-- <a href="#academic-excellence" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                      Excellence</span>
-                  </a> -->
-
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
-
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
-
-                </div>
-                <!-- floating buttons  -->
-
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-
-                        <img src="mobile-assets/department-all/rsses/geography-geoinformatics/web-geography.png"
-                            alt="">
-
-                    </section>
-                </section>
-
-                <!-- <section id="course">
-
-                  <div class="container">
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 35px;">
-                      Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-
-                      <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:22px;">Bachelor of Design (Product Design)</span>
-                        <span
-                          style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                      </div>
-
-
-                      <a target="_blank" href="programs-Bachelor-of-Design-Product-Design" style="text-decoration:none;">
-                        <div
-                          style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                          <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4 years</span>
-                          <span>
-                            <a class="para1 fw-bold"
-                              style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                              href="programs-Bachelor-of-Design-Product-Design">View Details</a>
-                          </span>
-                        </div>
-                      </a>
-                    </div>
-
-
-                  </div>
-
-                </section> -->
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_UG_Geography.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Geography
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSEES/UG _Geography_Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Geography
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-university me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geography.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Geography
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSEES/PG syllabus Geography.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Geography
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <hr>
-
-                                                            <a href="mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geoinformatics.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Geoinformatics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/RSEES/MSc Geoinformatics Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Geoinformatics
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <hr>
-
-                <section id="events">
-
-                    <section id="events">
-
-                        <div class="container mt-2">
-
-                            <h2 class="headd1 text-center fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                Events
-                            </h2>
-
-                            <h2 class="mobile-headd3 fw-bold text-left mt-3" style="color: #243B95; text-align: justify;">
-                                Department of Geography & Geoinformatics, The Assam Royal Global University
-                                in collaboration with Assam State Space Application Centre (ASSAC) organised GIS Day on 19
-                                November 2025.
-                                The event featured insightful talks by experts from ASSAC, engaging technical sessions,
-                                poster
-                                presentations, and an interactive showcase of GIS tools. Students also participated in a
-                                map-making
-                                competition, followed by prize distribution.
-
-                                The day strengthened academic–industry collaboration and inspired students to explore the
-                                power of
-                                geospatial technologies.
-                            </h2>
-
-                            <section style="background-color: #fff4e3; padding-bottom: 30px;">
-
-                                <div style="margin-top: 10px;" class="endless-scroll-container">
-                                    <div class="scroll-track-wrapper" style="padding-top: 0px;">
-
-                                        <div class="scroll-content-images unique-set-alpha">
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/1.jpg"
-                                                    alt="Image 1" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/2.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/3.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/4.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/5.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/6.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/7.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/8.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/9.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/10.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                        </div>
-
-                                        <div class="scroll-content-images unique-set-beta">
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/1.jpg"
-                                                    alt="Image 1" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/2.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/3.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/4.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/5.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/6.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/7.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/8.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/9.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-                                            <div class="slider-image-frame">
-                                                <img src="mobile-assets/department-all/rsses/geography-geoinformatics/events/event1/10.jpg"
-                                                    alt="Image 2" class="scroller-image"
-                                                    onclick="openLightbox(this.src)">
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                                    <span class="close-btn">&times;</span>
-
-                                    <div class="lightbox-controls">
-                                        <button id="zoom-in" title="Zoom In">+</button>
-                                        <button id="zoom-out" title="Zoom Out">-</button>
-                                    </div>
-
-                                    <img class="lightbox-content" id="lightbox-img" src="" alt="">
-                                </div>
-
-                                <style>
-                                    /*
-    * 1. Setup the main container and animation logic (Identical to list version)
-    */
-                                    .endless-scroll-container {
-                                        margin: auto;
-                                        width: 97%;
-                                        overflow: hidden;
-                                        padding: 10px 0;
-                                        border-bottom: 2px solid #EF991F;
-                                    }
-
-                                    .scroll-track-wrapper {
-                                        display: flex;
-                                        width: fit-content;
-                                        animation: scroll-movement 60s linear infinite;
-                                    }
-
-                                    .scroll-track-wrapper:hover {
-                                        animation-play-state: paused;
-                                    }
-
-                                    /*
-    * 2. Style the Image Frames and Images
-    */
-                                    .scroll-content-images {
-                                        display: flex;
-                                    }
-
-                                    /* --- THIS IS THE MODIFIED RULE --- */
-                                    .slider-image-frame {
-                                        width: 600px;
-                                        /* <-- CHANGED from 150px */
-                                        margin-right: 20px;
-                                        flex-shrink: 0;
-                                        overflow: hidden;
-                                        border: 1px solid #d1d1d1;
-                                        border-radius: 8px;
-                                        /* <-- CHANGED from 50px */
-                                        background-color: #fff;
-                                    }
-
-                                    /* --- END OF MODIFIED RULE --- */
-
-                                    .scroller-image {
-                                        width: 100%;
-                                        height: 100%;
-                                        object-fit: cover;
-                                        display: block;
-                                        cursor: pointer;
-                                        transition: opacity 0.3s;
-                                    }
-
-                                    /* Lightbox Styles */
-                                    .lightbox {
-                                        display: none;
-                                        position: fixed;
-                                        z-index: 1000;
-                                        left: 0;
-                                        top: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        background-color: rgba(222, 222, 222, 0.942);
-                                        overflow: hidden;
-                                        /* Changed from auto to hidden to prevent scrollbars */
-                                    }
-
-                                    .lightbox-content {
-                                        margin: auto;
-                                        display: block;
-                                        position: absolute;
-                                        top: 50%;
-                                        left: 50%;
-                                        transform: translate(-50%, -50%) scale(1);
-                                        /* Initial state */
-                                        max-width: 90%;
-                                        max-height: 90%;
-                                        width: auto;
-                                        height: auto;
-                                        object-fit: contain;
-                                        animation-name: zoom;
-                                        animation-duration: 0.6s;
-                                        cursor: grab;
-                                        /* NEW: Indicate it's grabbable */
-                                        transition: transform 0.2s ease-out;
-                                        /* NEW: Smooth transitions for zoom/pan */
-                                    }
-
-                                    .close-btn {
-                                        position: absolute;
-                                        top: 20px;
-                                        right: 35px;
-                                        color: #fff;
-                                        font-size: 40px;
-                                        font-weight: bold;
-                                        transition: 0.3s;
-                                        cursor: pointer;
-                                        z-index: 1002;
-                                        /* Ensure it's on top of controls */
-                                    }
-
-                                    .close-btn:hover,
-                                    .close-btn:focus {
-                                        color: #bbb;
-                                        text-decoration: none;
-                                        cursor: pointer;
-                                    }
-
-                                    /* NEW: Styles for Zoom Controls */
-                                    .lightbox-controls {
-                                        position: absolute;
-                                        top: 25px;
-                                        right: 90px;
-                                        /* Position next to the close button */
-                                        z-index: 1001;
-                                        display: flex;
-                                        gap: 10px;
-                                    }
-
-                                    .lightbox-controls button {
-                                        background-color: rgba(30, 30, 30, 0.7);
-                                        border: 1px solid #fff;
-                                        color: #fff;
-                                        font-size: 24px;
-                                        font-weight: bold;
-                                        width: 40px;
-                                        height: 40px;
-                                        cursor: pointer;
-                                        border-radius: 5px;
-                                        transition: background-color 0.3s;
-                                        line-height: 1;
-                                    }
-
-                                    .lightbox-controls button:hover {
-                                        background-color: rgba(0, 0, 0, 0.9);
-                                    }
-
-
-                                    @keyframes zoom {
-                                        from {
-                                            transform: translate(-50%, -50%) scale(0.1);
-                                        }
-
-                                        to {
-                                            transform: translate(-50%, -50%) scale(1);
-                                        }
-                                    }
-
-                                    /*
-    * 3. Define the Keyframes for the Movement
-    */
-                                    @keyframes scroll-movement {
-                                        from {
-                                            transform: translateX(0%);
-                                        }
-
-                                        to {
-                                            transform: translateX(-50%);
-                                        }
-                                    }
-                                </style>
-
-                                <script>
-                                    document.addEventListener('DOMContentLoaded', () => {
-                                        const setAlpha = document.querySelector('.unique-set-alpha');
-                                        const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                                        if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                                            const setBeta = setAlpha.cloneNode(true);
-                                            setBeta.classList.remove('unique-set-alpha');
-                                            setBeta.classList.add('unique-set-beta');
-                                            trackWrapper.appendChild(setBeta);
-                                            console.log('Image slider duplicated successfully for infinite loop.');
-                                        }
-                                    });
-
-                                    // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
-
-                                    const lightbox = document.getElementById('lightbox');
-                                    const lightboxImg = document.getElementById('lightbox-img');
-                                    const zoomInBtn = document.getElementById('zoom-in');
-                                    const zoomOutBtn = document.getElementById('zoom-out');
-
-                                    // State variables
-                                    let scale = 1;
-                                    let isDragging = false;
-                                    let start = {
-                                        x: 0,
-                                        y: 0
-                                    };
-                                    let pan = {
-                                        x: 0,
-                                        y: 0
-                                    };
-
-                                    // Function to apply the current transform to the image
-                                    function updateImageTransform() {
-                                        // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                                        lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                                    }
-
-                                    function openLightbox(src) {
-                                        // Reset state every time a new image is opened
-                                        scale = 1;
-                                        isDragging = false;
-                                        pan = {
-                                            x: 0,
-                                            y: 0
-                                        };
-                                        updateImageTransform(); // Apply initial transform
-
-                                        lightbox.style.display = 'block';
-                                        lightboxImg.src = src;
-                                    }
-
-                                    function closeLightbox(event) {
-                                        if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                                            lightbox.style.display = 'none';
-                                        }
-                                    }
-
-                                    // --- Event Listeners for Zoom and Pan ---
-
-                                    zoomInBtn.addEventListener('click', (e) => {
-                                        e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                        scale += 0.2;
-                                        updateImageTransform();
-                                    });
-
-                                    zoomOutBtn.addEventListener('click', (e) => {
-                                        e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                        if (scale > 1) {
-                                            scale -= 0.2;
-                                            if (scale < 1) {
-                                                scale = 1;
-                                            }
-                                        }
-                                        // If we zoom all the way out, reset the pan to center the image
-                                        if (scale === 1) {
-                                            pan = {
-                                                x: 0,
-                                                y: 0
-                                            };
-                                        }
-                                        updateImageTransform();
-                                    });
-
-                                    lightboxImg.addEventListener('mousedown', (e) => {
-                                        // Panning only works if the image is zoomed in
-                                        if (scale > 1) {
-                                            e.preventDefault();
-                                            isDragging = true;
-                                            // Record starting point relative to current pan position
-                                            start = {
-                                                x: e.clientX - pan.x,
-                                                y: e.clientY - pan.y
-                                            };
-                                            lightboxImg.style.cursor = 'grabbing';
-                                        }
-                                    });
-
-                                    // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                                    window.addEventListener('mousemove', (e) => {
-                                        if (isDragging) {
-                                            e.preventDefault();
-                                            pan = {
-                                                x: e.clientX - start.x,
-                                                y: e.clientY - start.y
-                                            };
-                                            updateImageTransform();
-                                        }
-                                    });
-
-                                    window.addEventListener('mouseup', (e) => {
-                                        if (isDragging) {
-                                            isDragging = false;
-                                            lightboxImg.style.cursor = 'grab';
-                                        }
-                                    });
-                                </script>
-
-                            </section>
-
-                        </div>
-
-                        <div class="container pb-4">
-                            <div class="row" style="display: flex; justify-content: center;">
-                                <div class="col-lg-12">
-
-                                    <div style="max-width: 100%; position: relative;">
-                                        <div style="border: 1px solid #ccc;">
-                                            <div id="scrollContainer"
-                                                style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                                <table class="table table-borderless mb-0"
-                                                    style="font-size: 16px; width: 100%;">
-                                                    <tbody class="para1" id="scrollContent"
-                                                        style="background-color: #f9f9f9;">
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior
-                                                                        professor, department of geography
-                                                                        and resource management, Mizoram University) |
-                                                                        Invited talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        15-05-2023 | Prof. D. K. Nayak (Professor,
-                                                                        department of geography, North-East Hill
-                                                                        University) | Invited talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        22-09-2023 | Prof. (Dr.) Sunando Bandhyopadhyay
-                                                                        (Department of geography, University
-                                                                        of Calcutta) | Guest lecture.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        02-11-2023 | Dr. Hirak Ranjan Das (Deputy director,
-                                                                        innovation incubation and
-                                                                        entrepreneurship, The Assam Royal Global University)
-                                                                        | Guest lecture.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU,
-                                                                        New Delhi) | Invited talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        22-04-2024 | Prof. Sachidanand Sinha (Former
-                                                                        chairperson, CSRD, JNU, New Delhi) |
-                                                                        Invited talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        05-06-2024 | Prof. Kushal Kumar Baruah (Professor
-                                                                        and dean of academic affairs,
-                                                                        Auniati University, Assam) | Invited talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        08-06-2024 | Prof. Bindhy Wasini Pandey (Professor,
-                                                                        department of geography, Delhi
-                                                                        School of Economics, University of Delhi) | Invited
-                                                                        talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr style="border-bottom: 1px solid #ddd;">
-                                                            <td style="display: flex; align-items: center; padding: 12px;">
-                                                                <img src="mobile-assets/department-all/imgg.jpg"
-                                                                    alt="Event Image"
-                                                                    style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                                <div>
-                                                                    <div style="font-weight: bold; color: #27467A;">
-                                                                        20-08-2024 | Sri Atul Chandrakant Kulkarni
-                                                                        (Chairman, Amazing Namaste Foundation,
-                                                                        member, board of governor, IIM Shillong) | Invited
-                                                                        talk.
-                                                                    </div>
-                                                                    <a href="#"
-                                                                        style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                        More
-                                                                        ...</a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-
-                                        <div style="text-align: center; margin-top: 15px;">
-                                            <a href="department-new-rshss-sociology-events"
-                                                style="display: inline-block; padding: 10px 28px;
-              background: linear-gradient(135deg, #243B95, #151B5B);
-              color: #fff; font-weight: 600; font-size: 16px;
-              border-radius: 25px; text-decoration: none;
-              box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-              transition: all 0.3s ease-in-out;">
-                                                View All
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <script>
-                                        const scrollContainer = document.getElementById('scrollContainer');
-                                        const scrollContent = document.getElementById('scrollContent');
-
-                                        scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                        let scrollPos = 0;
-                                        const scrollSpeed = 0.2;
-
-                                        function scrollStep() {
-                                            scrollPos += scrollSpeed;
-                                            if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                                scrollPos = 0;
-                                            }
-                                            scrollContainer.scrollTop = scrollPos;
-                                            requestAnimationFrame(scrollStep);
-                                        }
-
-                                        scrollStep();
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </section>
-
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9;">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    04-11-2023 | Prof. Vishwambhar Prasad Sati (Senior
-                                                                    professor, department of geography
-                                                                    and resource management, Mizoram University) | Invited
-                                                                    talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    15-05-2023 | Prof. D. K. Nayak (Professor, department of
-                                                                    geography, North-East Hill
-                                                                    University) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    22-09-2023 | Prof. (Dr.) Sunando Bandhyopadhyay
-                                                                    (Department of geography, University
-                                                                    of Calcutta) | Guest lecture.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    02-11-2023 | Dr. Hirak Ranjan Das (Deputy director,
-                                                                    innovation incubation and
-                                                                    entrepreneurship, The Assam Royal Global University) |
-                                                                    Guest lecture.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    21-11-2023 | Prof. Milap Chand Sharma (CSRD, JNU, New
-                                                                    Delhi) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    22-04-2024 | Prof. Sachidanand Sinha (Former
-                                                                    chairperson, CSRD, JNU, New Delhi) |
-                                                                    Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    05-06-2024 | Prof. Kushal Kumar Baruah (Professor and
-                                                                    dean of academic affairs,
-                                                                    Auniati University, Assam) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    08-06-2024 | Prof. Bindhy Wasini Pandey (Professor,
-                                                                    department of geography, Delhi
-                                                                    School of Economics, University of Delhi) | Invited
-                                                                    talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    20-08-2024 | Sri Atul Chandrakant Kulkarni (Chairman,
-                                                                    Amazing Namaste Foundation,
-                                                                    member, board of governor, IIM Shillong) | Invited talk.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events"
-                                            style="display: inline-block; padding: 10px 28px;
-                  background: linear-gradient(135deg, #243B95, #151B5B);
-                  color: #fff; font-weight: 600; font-size: 16px;
-                  border-radius: 25px; text-decoration: none;
-                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                  transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
-
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
-
-                    <div class="row">
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track = document.querySelector('.carousel-track');
-                            const cards = Array.from(track.children);
-
-                            cards.forEach(card => {
-                                track.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl = document.querySelector('.carousel');
-                            const styles = getComputedStyle(carouselEl);
-                            const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                            const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                            const totalCards = track.children.length;
-                            const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                            track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                            const speed = 80;
-                            const duration = halfTrackWidth / speed;
-                            track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
-
-                      </div>
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track2 = document.querySelector('.carousel-track2');
-                            const cards2 = Array.from(track2.children);
-
-                            cards2.forEach(card => {
-                                track2.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl2 = document.querySelector('.carousel2');
-                            const styles2 = getComputedStyle(carouselEl2);
-                            const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                            const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                            const totalCards2 = track2.children.length;
-                            const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                            track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                            const speed2 = 80;
-                            const duration2 = halfTrackWidth2 / speed2;
-                            track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section> -->
-
-                <div id="bos" class="container pb-5 pt-3">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>
-                                                            Dr. Annesha Borah, Coordinator and Assistant Professor,
-                                                            Department of Geography
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>
-                                                            All Faculty members of the Department Members (Ex-Officio)
-                                                        </td>
-                                                        <td>
-                                                            Prof. B S Mipun, Senior Professor, Department of Geography
-                                                            <hr>
-                                                            Dr. Saurav Kumar, Assistant Professor, Department of Geography
-                                                            <hr>
-                                                            Dr. Tushar Sarkar, Assistant Professor, Department of Geography
-                                                            <hr>
-                                                            Dr.Takhellabam Prameshwari Devi, Assistant Professor, Department
-                                                            of Geography
-                                                            <hr>
-                                                            Dr. Trishna Changkakoti, Assistant Professor, Department of
-                                                            Geography
-                                                            <hr>
-                                                            Ms. Jubilee Goswami, Assistant Professor, Department of
-                                                            Geography
-                                                            <hr>
-                                                            Miss Deepanjali Reang, Assistant Professor, Department of
-                                                            Geography
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Experts</td>
-                                                        <td>
-                                                            Prof. Bimal Kumar Kar, Professor, Department of Geography,
-                                                            Gauhati University
-                                                            <hr>
-                                                            Prof. D K Nayak, Professor, Department of Geography, North
-                                                            Eastern Hill University
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Dr. Annesha Borah</td>
-                                                        <td>
-                                                            Coordinator and Assistant Professor, Department of Geography and
-                                                            Geoinformatics
-                                                        </td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2.</td>
-                                                        <td>Two Professors</td>
-                                                        <td>Prof. B S Mipun</td>
-                                                        <td>Dean RSEES and DSW</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">3.</td>
-                                                        <td rowspan="2" class="align-middle">
-                                                            Two Assistant Professors holding Ph.D. degree
-                                                        </td>
-                                                        <td>Dr. Trishna Changkakati</td>
-                                                        <td>
-                                                            Assistant Professor, Department of Geography and Geoinformatics
-                                                        </td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Saurav Kumar</td>
-                                                        <td>
-                                                            Assistant Professor, Department of Geography and Geoinformatics
-                                                        </td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">4.</td>
-                                                        <td rowspan="3" class="align-middle">
-                                                            Three external members not below the rank of Professors,
-                                                            including members from an allied department, who will be
-                                                            nominated by the URC
-                                                        </td>
-                                                        <td>Prof. Soumitra Sen</td>
-                                                        <td>Senior Professor, RSTTM and RSHM</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Sajal Nag</td>
-                                                        <td>Professor and Dean, RSHSS, RGU</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. Hemangi Deka Sarma</td>
-                                                        <td>Prof. Department of Geology, RGU</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-                        const accPairs = [{
-                                btn: 'accBtn1',
-                                panel: 'accPanel1'
-                            },
-                            {
-                                btn: 'accBtn2',
-                                panel: 'accPanel2'
-                            }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function() {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function(e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
-
-                </div>
-
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function() {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function() {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
-
-            </section>
 
         </div>
+
+        <style>
+            /* ================= CSS VARIABLES & RESETS ================= */
+            :root {
+                --primary: #2c4a7a;
+                --accent: #f28c28;
+                --accent-hover: #e07b1f;
+                --bg-color: #FFF8F0;
+                --text-muted: #556b8d;
+                --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background: var(--bg-color);
+                font-family: 'Times New Roman', Times, serif;
+                color: var(--primary);
+                overflow-x: hidden;
+            }
+
+            .dept-geography-wrapper {
+                padding: 3vw 5vw;
+                max-width: 1400px;
+                margin: 0 auto;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            /* ================= HEADINGS ================= */
+            .dept-geography-heading {
+                text-align: center;
+                margin-bottom: 5vw;
+                animation: fadeInDown 1s ease-out;
+            }
+
+            .dept-geography-heading h1 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: clamp(2.5rem, 5vw, 3.5rem);
+                margin: 0;
+                line-height: 1.1;
+                color: var(--primary);
+            }
+
+            .dept-geography-heading h1 span {
+                color: var(--accent);
+            }
+
+            .dept-geography-heading h2 {
+                font-size: clamp(1.2rem, 2.5vw, 2rem);
+                font-weight: 400;
+                margin-top: 15px;
+                color: var(--text-muted);
+            }
+
+            /* ================= HERO ================= */
+            .dept-geography-hero {
+                display: flex;
+                align-items: center;
+                animation: fadeInUp 1s ease-out 0.2s both;
+                justify-content: center;
+            }
+
+            /* LEFT IMAGE */
+            .dept-geography-img {
+                flex: 1;
+                position: relative;
+            }
+
+            .dept-geography-img img {
+                width: 80%;
+                padding-left: 7%;
+                height: auto;
+                border-radius: 24px;
+                /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+                transition: var(--transition);
+                object-fit: contain;
+            }
+
+            .dept-geography-img img:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+            }
+
+            /* RIGHT CONTENT */
+            .dept-geography-content {
+                flex: 1;
+            }
+
+            .dept-geography-content h3 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: clamp(2rem, 3.5vw, 2.5rem);
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+
+            .dept-geography-content h3 span {
+                color: var(--accent);
+            }
+
+            .dept-geography-content p {
+                font-size: clamp(1rem, 1.2vw, 1.125rem);
+                line-height: 1.8;
+                color: var(--text-muted);
+                margin-bottom: 25px;
+                font-weight: 300;
+                text-align: justify;
+            }
+
+            .dept-geography-content ol li {
+                font-size: clamp(1rem, 1.2vw, 1.125rem);
+                line-height: 0.8;
+                color: var(--text-muted);
+                margin-bottom: 25px;
+                font-weight: 300;
+            }
+
+            /* ================= FLOATING MENU (LEFT) ================= */
+            .dept-geography-floating {
+                position: fixed;
+                left: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                z-index: 998;
+            }
+
+            .dept-geography-float-item {
+                display: flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.8);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                color: var(--primary);
+                border-radius: 50px;
+                overflow: hidden;
+                width: 56px;
+                height: 56px;
+                text-decoration: none;
+                transition: var(--transition);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+                border: 1px solid rgba(255, 255, 255, 0.5);
+            }
+
+            .dept-geography-float-item i {
+                min-width: 56px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 56px;
+                color: var(--accent);
+                transition: var(--transition);
+            }
+
+            .dept-geography-float-text {
+                white-space: nowrap;
+                padding-right: 25px;
+                font-weight: 500;
+                opacity: 0;
+                transform: translateX(10px);
+                transition: var(--transition);
+            }
+
+            .dept-geography-float-item:hover {
+                width: 200px;
+                background: var(--accent);
+                color: #fff;
+            }
+
+            .dept-geography-float-item:hover i {
+                color: #fff;
+            }
+
+            .dept-geography-float-item:hover .dept-geography-float-text {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+            .dept-geography-admission-btn {
+                position: fixed;
+                bottom: 40px;
+                right: 40px;
+                z-index: 999;
+                background: var(--accent);
+                color: #fff;
+                padding: 16px 32px;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1.1rem;
+                box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+                transition: var(--transition);
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                animation: pulse 2s infinite;
+            }
+
+            .dept-geography-admission-btn i {
+                font-size: 1.2rem;
+            }
+
+            .dept-geography-admission-btn:hover {
+                background: var(--accent-hover);
+                transform: translateY(-5px) scale(1.02);
+                box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+                animation: none;
+                /* Stops pulsing when hovered */
+            }
+
+            /* ================= ANIMATIONS ================= */
+            @keyframes fadeInDown {
+                from {
+                    opacity: 0;
+                    transform: translateY(-30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+                }
+
+                70% {
+                    box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+                }
+
+                100% {
+                    box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+                }
+            }
+
+            /* ================= RESPONSIVE ================= */
+            @media(max-width: 960px) {
+
+                /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+                .dept-geography-wrapper {
+                    padding-bottom: 160px;
+                }
+
+                .dept-geography-hero {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .dept-geography-img img {
+                    padding-left: 0%;
+                }
+
+                .dept-geography-floating {
+                    top: auto;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    flex-direction: row;
+                    background: rgba(255, 255, 255, 0.95);
+                    /* Slightly less transparent */
+                    backdrop-filter: blur(10px);
+                    padding: 10px 20px;
+                    border-radius: 50px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                    border: 1px solid rgba(255, 255, 255, 0.4);
+                    z-index: 1000;
+                    /* Ensure it stays on top */
+                }
+
+                .dept-geography-float-item {
+                    width: 45px;
+                    height: 45px;
+                    box-shadow: none;
+                    background: transparent;
+                    border: none;
+                }
+
+                .dept-geography-float-item i {
+                    min-width: 45px;
+                    line-height: 45px;
+                }
+
+                .dept-geography-float-item:hover {
+                    width: 45px;
+                    background: transparent;
+                }
+
+                .dept-geography-float-item:active i {
+                    color: var(--primary);
+                }
+
+                .dept-geography-float-text {
+                    display: none;
+                }
+
+                /* 2. Center the Admission Button right above the nav menu */
+                .dept-geography-admission-btn {
+                    bottom: 95px;
+                    /* Sits nicely above the 20px nav menu */
+                    left: 50%;
+                    right: auto;
+                    transform: translateX(-50%);
+                    width: 85%;
+                    /* Wide enough to be prominent, but doesn't touch screen edges */
+                    max-width: 350px;
+                    justify-content: center;
+                    /* Centers text and arrow */
+                    padding: 14px 24px;
+                    font-size: 1rem;
+                    z-index: 999;
+                }
+
+                /* Fix the hover animation to account for the center transform */
+                .dept-geography-admission-btn:hover {
+                    transform: translateX(-50%) translateY(-5px) scale(1.02);
+                }
+            }
+
+            /* ================= COURSES SECTION ================= */
+            .dept-geography-courses-section {
+                margin-top: 3vw;
+                width: 100%;
+            }
+
+            .dept-geography-section-title {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: clamp(2rem, 4vw, 2.5rem);
+                color: var(--primary);
+                margin-bottom: 4vw;
+                animation: fadeInUp 1s ease-out 0.3s both;
+            }
+
+            .dept-geography-section-title span {
+                color: var(--accent);
+            }
+
+            .dept-geography-course-list {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+
+            .dept-geography-course-card {
+                width: 100%;
+                animation: fadeInUp 1s ease-out 0.4s both;
+            }
+
+            /* Updated Course Header for Button Layout */
+            .dept-geography-course-header {
+                background: var(--primary);
+                color: #fff;
+                padding: 18px 25px;
+                font-size: 1.4rem;
+                font-weight: bold;
+                border-radius: 6px;
+                position: relative;
+                box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+                /* Flexbox added to align title and button */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* Keep the orange accent triangle */
+            .dept-geography-course-header::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 0;
+                height: 0;
+                border-left: 20px solid transparent;
+                border-bottom: 20px solid var(--accent);
+                border-bottom-right-radius: 6px;
+                z-index: 1;
+                /* Pushed behind the button */
+            }
+
+            /* New Button Styles */
+            .dept-geography-view-btn {
+                background: #f28c28;
+                color: #fff;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                padding: 8px 18px;
+                border-radius: 4px;
+                font-size: 0.95rem;
+                font-weight: 500;
+                cursor: pointer;
+                transition: var(--transition);
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                z-index: 2;
+                /* Ensures it stays clickable over the triangle */
+            }
+
+            .dept-geography-view-btn:hover {
+                background: #fff;
+                color: var(--primary);
+            }
+
+            .dept-geography-course-body {
+                background: #fdfdfd;
+                color: var(--primary);
+                padding: 18px 25px;
+                margin: 0 auto;
+                width: 95%;
+                /* Creates the slight inset look */
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 0 0 6px 6px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+                border: 1px solid #f0f0f0;
+                border-top: none;
+            }
+
+            /* ================= COURSES MOBILE FIX ================= */
+            @media (max-width: 768px) {
+                .dept-geography-course-header {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 15px;
+                    padding: 20px 15px;
+                }
+
+                .dept-geography-img img {
+                    padding-left: 0%;
+                }
+
+                .dept-geography-course-header span {
+                    font-size: 1.2rem;
+                    /* Make title slightly smaller on mobile */
+                    z-index: 2;
+                    /* Keep above the orange triangle */
+                }
+
+                .dept-geography-view-btn {
+                    width: 100%;
+                    /* Make button full width for easy tapping */
+                    text-align: center;
+                    box-sizing: border-box;
+                }
+
+                .dept-geography-course-body {
+                    width: 100%;
+                    /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                    box-sizing: border-box;
+                }
+
+                .dept-geography-prospects-content {
+                    padding: 25px 20px;
+                }
+
+
+                .dept-geography-subheading {
+                    font-size: 1.3rem;
+                }
+            }
+
+            /* ================= CAREER PROSPECTS SECTION ================= */
+            .dept-geography-prospects-section {
+                margin-top: 3vw;
+                width: 100%;
+                animation: fadeInUp 1s ease-out 0.5s both;
+            }
+
+            .dept-geography-prospects-content {
+                background: #fff;
+                padding: 40px 50px;
+                border-radius: 12px;
+                box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+                max-width: 1200px;
+                margin: 0 auto;
+                border-top: 4px solid var(--accent);
+                /* Adds a nice touch of orange at the top */
+            }
+
+            .dept-geography-intro-text {
+                font-size: 1.1rem;
+                line-height: 1.8;
+                color: var(--text-muted);
+                margin-bottom: 30px;
+                font-weight: 400;
+            }
+
+            .dept-geography-subheading {
+                font-family: 'Times New Roman', Times, serif;
+                color: var(--primary);
+                font-size: 1.5rem;
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+
+            .dept-geography-list {
+                color: var(--text-muted);
+                font-size: 1.05rem;
+                line-height: 1.8;
+                padding-left: 25px;
+                /* Indents the numbers nicely */
+                margin: 0;
+            }
+
+            .dept-geography-list li {
+                margin-bottom: 12px;
+            }
+
+            .dept-geography-list li::marker {
+                color: var(--primary);
+                font-weight: bold;
+            }
+
+            /* ================= SYLLABUS ACCORDION SECTION ================= */
+            .dept-geography-accordion-section {
+                margin-top: 3vw;
+                width: 100%;
+                animation: fadeInUp 1s ease-out 0.6s both;
+            }
+
+            .dept-geography-accordion-wrapper {
+                max-width: 1300px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .dept-geography-accordion-item {
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+                background: #fff;
+                overflow: hidden;
+            }
+
+            .dept-geography-accordion-header {
+                background: var(--primary);
+                color: #fff;
+                padding: 18px 25px;
+                font-size: 1.2rem;
+                font-weight: 600;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+                transition: var(--transition);
+                user-select: none;
+            }
+
+            .dept-geography-accordion-header-left {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .dept-geography-accordion-header-left i {
+                font-size: 1.3rem;
+            }
+
+            .dept-geography-chevron {
+                transition: transform 0.3s ease;
+            }
+
+            /* Accordion Content (Hidden by default) */
+            .dept-geography-accordion-content {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.4s ease-in-out;
+                background: #fdfdfd;
+            }
+
+            /* Active State for Accordion */
+            .dept-geography-accordion-item.active .dept-geography-accordion-content {
+                /* Max-height is handled by JS for smooth animation */
+            }
+
+            .dept-geography-accordion-item.active .dept-geography-accordion-header {
+                border-radius: 8px 8px 0 0;
+                border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+            }
+
+            .dept-geography-accordion-item.active .dept-geography-chevron {
+                transform: rotate(180deg);
+            }
+
+            /* Syllabus Links Inside Accordion */
+            .dept-geography-syllabus-list {
+                padding: 15px 25px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .dept-geography-syllabus-link {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0;
+                text-decoration: none;
+                color: var(--primary);
+                font-size: 1.05rem;
+                border-bottom: 1px solid #eee;
+                transition: var(--transition);
+            }
+
+            .dept-geography-syllabus-link:last-child {
+                border-bottom: none;
+            }
+
+            .dept-geography-syllabus-link-left {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .dept-geography-syllabus-link-left i {
+                color: var(--text-muted);
+            }
+
+            .dept-geography-syllabus-link:hover {
+                color: var(--accent);
+                transform: translateX(5px);
+            }
+
+            .dept-geography-syllabus-link:hover .dept-geography-syllabus-link-left i {
+                color: var(--accent);
+            }
+
+            .dept-geography-download-icon {
+                color: var(--accent);
+                font-size: 1.2rem;
+            }
+
+            /* ================= OUR LAB SECTION ================= */
+
+            .dept-geography-lab-section {
+                width: 100%;
+                margin-top: 3vw;
+                animation: fadeInUp 1s ease-out 0.7s both;
+            }
+
+            /* New 1300px Wrapper */
+            .dept-geography-lab-container {
+                background: #fff;
+                border-radius: 12px;
+                box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+                border-top: 4px solid var(--accent);
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 40px 50px;
+                /* Adds safe spacing on the sides */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: left;
+            }
+
+            .dept-geography-lab-heading {
+                font-size: clamp(1.2rem, 2.5vw, 2rem);
+            }
+
+            /* Intro Text */
+            .dept-geography-lab-intro {
+                font-size: 1.15rem;
+                line-height: 1.8;
+                color: var(--text-muted);
+                max-width: 1200px;
+                margin: 0 auto 4vw auto;
+                font-weight: 400;
+                text-align: justify;
+            }
+
+
+
+            /* Gallery (Now spans 100% of the 1300px container minus padding) */
+            .dept-geography-lab-gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 20px;
+                width: 100%;
+            }
+
+            .dept-geography-lab-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                aspect-ratio: 16 / 9;
+                border-radius: 12px;
+                box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+                transition: var(--transition);
+            }
+
+            .dept-geography-lab-img:hover {
+                transform: scale(1.03);
+                box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+            }
+
+            .dept-geography-explore-btn {
+                background: var(--accent);
+                color: #fff;
+                border: none;
+                padding: 16px 32px;
+                border-radius: 50px;
+                font-size: 1.1rem;
+                font-weight: 600;
+                cursor: pointer;
+                margin-top: 5vw;
+                margin-bottom: 5vw;
+                transition: var(--transition);
+                box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .dept-geography-explore-btn:hover {
+                background: var(--accent-hover);
+                transform: translateY(-3px);
+                box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+            }
+
+            /* ================= LAB RESPONSIVE FIXES ================= */
+            @media (max-width: 960px) {
+                .dept-geography-lab-features {
+                    flex-direction: column;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .dept-geography-lab-gallery {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    gap: 15px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .dept-geography-lab-gallery {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(6, 1fr);
+                    gap: 10px;
+                }
+            }
+
+            /* Custom Bullet List for Vision/Mission */
+            .dept-geography-bullet-list {
+                color: var(--text-muted);
+                font-size: 1.05rem;
+                line-height: 1.8;
+                padding-left: 25px;
+                margin: 0;
+                list-style-type: none;
+                /* Removes default dots */
+            }
+
+            .dept-geography-bullet-list li {
+                margin-bottom: 12px;
+                position: relative;
+            }
+
+            /* Uses FontAwesome checkmark for bullets */
+            .dept-geography-bullet-list li::before {
+                content: '\f058';
+                /* Check-circle icon */
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 900;
+                position: absolute;
+                left: -28px;
+                top: 2px;
+                color: var(--accent);
+                font-size: 1.1rem;
+            }
+
+            /* ================= EVENTS SECTION ================= */
+            .dept-geography-events-section {
+                margin-top: 3vw;
+                animation: fadeInUp 1s ease-out;
+            }
+
+            .dept-geography-events-box {
+                max-width: 1300px;
+                height: 450px;
+                margin: 0 auto;
+                overflow: hidden;
+                border-radius: 12px;
+                background: #fff;
+                box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+                border-top: 4px solid var(--accent);
+                position: relative;
+            }
+
+            /* Track */
+            .dept-geography-events-track {
+                display: flex;
+                flex-direction: column;
+                animation: scrollEvents 15s linear infinite;
+            }
+
+            .dept-geography-events-box:hover .dept-geography-events-track {
+                animation-play-state: paused;
+            }
+
+            /* Event Item */
+            .dept-geography-event-item {
+                padding: 18px 25px;
+                border-bottom: 1px solid #eee;
+                font-size: 1.05rem;
+                color: var(--primary);
+                line-height: 1.6;
+            }
+
+            /* Button */
+            .dept-geography-events-btn {
+                background: var(--primary);
+                color: #fff;
+                padding: 12px 28px;
+                border-radius: 40px;
+                text-decoration: none;
+                font-weight: 600;
+                transition: var(--transition);
+            }
+
+            .dept-geography-events-btn:hover {
+                background: var(--accent);
+            }
+
+            /* Animation */
+            @keyframes scrollEvents {
+                0% {
+                    transform: translateY(0);
+                }
+
+                100% {
+                    transform: translateY(-50%);
+                }
+            }
+
+
+            /* ================= TABLE LIST SECTION ================= */
+            .dept-geography-table-section {
+                margin-top: 3vw;
+                animation: fadeInUp 1s ease-out;
+            }
+
+            /* SINGLE COLUMN LAYOUT */
+            .dept-geography-table-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+
+            /* ACCORDION CARD */
+            .dept-geography-table-acc {
+                background: #fff;
+                border-radius: 14px;
+                overflow: hidden;
+                box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+                transition: 0.3s ease;
+            }
+
+            /* HEADER */
+            .dept-geography-table-header {
+                background: #3a5786;
+                color: #fff;
+                padding: 18px 22px;
+                font-size: 1.1rem;
+                font-weight: 600;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* ICON */
+            .dept-geography-table-header i {
+                transition: 0.3s;
+            }
+
+            /* CONTENT */
+            .dept-geography-table-content {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.4s ease;
+                background: #fff;
+            }
+
+            /* ACTIVE */
+            .dept-geography-table-acc.active .dept-geography-table-content {
+                padding: 20px;
+            }
+
+            .dept-geography-table-acc.active .dept-geography-table-header i {
+                transform: rotate(180deg);
+            }
+
+            /* TABLE */
+            .dept-geography-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 0.95rem;
+            }
+
+            .dept-geography-table th {
+                background: #142a47;
+                color: #fff;
+                padding: 12px;
+                text-align: left;
+            }
+
+            .dept-geography-table td {
+                padding: 12px;
+                border: 1px solid #eee;
+                background: #fafafa;
+                color: #333;
+            }
+
+            /* DISABLED */
+            .dept-geography-table-acc.disabled {
+                opacity: 0.6;
+                pointer-events: none;
+            }
+
+            .dept-geography-table-responsive {
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .dept-geography-table {
+                min-width: 700px;
+                border-collapse: collapse;
+            }
+
+            .dept-geography-table td,
+            .dept-geography-table th {
+                white-space: nowrap;
+            }
+
+            /* ===== EVENTS + HIGHLIGHTS LAYOUT (REWRITTEN) ===== */
+
+            .dept-geography-events-wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+                margin-top: 3vw;
+                align-items: stretch;
+            }
+
+            /* LEFT EVENTS */
+            .dept-geography-events-section {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* RIGHT HIGHLIGHTS */
+            .dept-geography-highlights-section {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* ================= CAROUSEL ================= */
+
+            .dept-geography-carousel {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                border-radius: 14px;
+                background: #fff;
+                box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+                border-top: 4px solid var(--accent);
+            }
+
+            /* FORCE LANDSCAPE */
+            .dp-track {
+                display: flex;
+                transition: transform 0.5s ease;
+                width: 100%;
+            }
+
+            .dp-slide {
+                min-width: 100%;
+                aspect-ratio: 16 / 9;
+                /* 🔥 KEY FIX */
+                position: relative;
+            }
+
+            /* IMAGE */
+            .dp-slide img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            /* ================= BUTTONS ================= */
+
+            .dp-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: rgba(44, 74, 122, 0.75);
+                color: #fff;
+                border: none;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                cursor: pointer;
+                z-index: 2;
+                transition: 0.3s;
+            }
+
+            .dp-btn.prev {
+                left: 12px;
+            }
+
+            .dp-btn.next {
+                right: 12px;
+            }
+
+            .dp-btn:hover {
+                background: var(--accent);
+            }
+
+            .dp-btn.hidden {
+                display: none;
+            }
+
+            /* ================= RESPONSIVE ================= */
+
+            /* Tablet */
+            @media (max-width: 900px) {
+                .dept-geography-events-wrapper {
+                    grid-template-columns: 1fr;
+                    gap: 30px;
+                }
+            }
+
+            /* Mobile */
+            @media (max-width: 600px) {
+
+                .dept-geography-carousel {
+                    border-radius: 10px;
+                }
+
+                .dp-slide {
+                    aspect-ratio: 16 / 9;
+                    /* 🔥 stays landscape ALWAYS */
+                }
+
+                .dp-btn {
+                    width: 36px;
+                    height: 36px;
+                    font-size: 14px;
+                }
+
+            }
+
+            .dept-geography-explore-btn {
+                text-decoration: none !important;
+            }
+
+            /* ================= ACHIEVEMENT SECTION ================= */
+            .dept-geography-achievement-section {
+                margin-top: 3vw;
+                animation: fadeInUp 1s ease-out;
+            }
+
+            /* Tabs */
+            .dept-geography-achievement-tabs {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-bottom: 25px;
+                flex-wrap: wrap;
+            }
+
+            .dept-achievement-tab {
+                padding: 12px 25px;
+                border-radius: 40px;
+                border: 2px solid var(--primary);
+                background: transparent;
+                color: var(--primary);
+                font-weight: 600;
+                cursor: pointer;
+                transition: var(--transition);
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .dept-achievement-tab:hover {
+                background: var(--primary);
+                color: #fff;
+            }
+
+            .dept-achievement-tab.active {
+                background: var(--primary);
+                color: #fff;
+                border-color: var(--primary);
+            }
+
+            /* Content Box */
+            .dept-geography-achievement-content {
+                max-width: 1250px;
+                margin: 0 auto;
+                background: #fff;
+                border-radius: 12px;
+                box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+                border-top: 4px solid var(--accent);
+                padding: 20px;
+            }
+
+            /* Panes */
+            .dept-achievement-pane {
+                display: none;
+            }
+
+            .dept-achievement-pane.active {
+                display: block;
+            }
+        </style>
+
+        <div class="dept-geography-floating">
+            <a href="#dept-home" class="dept-geography-float-item">
+                <i class="fa fa-home"></i>
+                <span class="dept-geography-float-text">Home</span>
+            </a>
+
+            <a href="#dept-about" class="dept-geography-float-item">
+                <i class="fa fa-book"></i>
+                <span class="dept-geography-float-text">About</span>
+            </a>
+
+            <!-- <a href="#dept-vision" class="dept-geography-float-item">
+              <i class="fa fa-bullseye"></i>
+              <span class="dept-geography-float-text">Vision & Mission</span>
+            </a> -->
+
+            <a href="#dept-courses" class="dept-geography-float-item">
+                <i class="fa fa-graduation-cap"></i>
+                <span class="dept-geography-float-text">Courses</span>
+            </a>
+
+            <!-- <a href="#dept-prospects" class="dept-geography-float-item">
+              <i class="fa fa-file-text"></i>
+              <span class="dept-geography-float-text">Prospects</span>
+            </a> -->
+
+            <a href="#dept-syllabus" class="dept-geography-float-item">
+                <i class="fa fa-file-text"></i>
+                <span class="dept-geography-float-text">Syllabus</span>
+            </a>
+
+            <a href="#dept-committee" class="dept-geography-float-item">
+                <i class="fa fa-users"></i>
+                <span class="dept-geography-float-text">Committee</span>
+            </a>
+
+            <a href="#dept-lab" class="dept-geography-float-item">
+                <i class="fa fa-flask"></i>
+                <span class="dept-geography-float-text">Lab</span>
+            </a>
+
+        </div>
+
+        <a href="https://admissions.rgu.ac/" class="dept-geography-admission-btn">
+            Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <div class="dept-geography-wrapper">
+
+            <div class="dept-geography-heading" id="dept-home">
+                <h1>Department of <span>Geography & Geoinformatics</span></h1>
+                <h2>Royal School of Environmental & Earth Sciences (RSEES)</h2>
+            </div>
+
+            <div class="dept-geography-hero" id="dept-about">
+
+                <div class="dept-geography-img">
+                    <img src="/mobile-assets/new-dept-sociology/academic-excellance/new/geo.jpeg"
+                        alt="Political Science and Public Administration">
+                </div>
+
+                <div class="dept-geography-content">
+
+                    <h3>About <span>Department</span></h3>
+
+                    <p>
+                        The Department of Geography at The Assam Royal Global University in Guwahati
+                        is renowned for its comprehensive integration of physical and human geography,
+                        providing a diverse curriculum for undergraduate and postgraduate students. The
+                        Department runs various programmes such BA/B.Sc Geography, MA/M.SC
+                        Geography, M.Sc Geoinformatics and PhD programmes. The courses includes
+                        geomorphology, climatology, biogeography, urban geography, regional planning,
+                        and Remote Sensing and GIS. The syllabus includes field-based learning and visit
+                        to institutions of prominence for exposure visits to the students of the department.
+                        Moreover the Department of Geography frequently organises outreach programs
+                        for the students to embed community involvement strategies into geographical
+                        pursuits and to nurture ethical values and empathy among students. The faculties
+                        of the department are specialized to guide students through inter-disciplinary
+                        courses and a balanced education that emphasizes field-based learning and the
+                        use of advanced GIS and remote sensing technologies. Key focus areas such as
+                        Physical Geography, Environmental Geography, Tourism Geography, Agricultural
+                        Geography and Migration Studies enable the department to understand the
+                        pressing issues of man-environment relationship and sustainability. Graduates
+                        and post graduates are well equipped with critical thinking, spatial analysis through GIS and Remote
+                        sensing, field based empirical research making them well-suited for
+                        careers in urban and regional planning, environmental management, transportation planning, public
+                        policy and geospatial technology with strong prospects for further
+                        academic studies, including PhDs.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div class="dept-geography-prospects-section" id="dept-vision">
+                <h2 class="dept-geography-section-title">Vision <span>& Mission</span></h2>
+
+                <div class="dept-geography-prospects-content">
+
+                    <h3 class="dept-geography-subheading" style="margin-top: 0;">Our Vision</h3>
+                    <ul class="dept-geography-bullet-list">
+                        <li>
+                            To provide globally integrated education in Geography by leveraging emerging
+                            geo-spatial sciences and research methodologies, fostering the development of
+                            global citizens.
+                        </li>
+
+                    </ul>
+
+                    <h3 class="dept-geography-subheading">Our Mission</h3>
+                    <ul class="dept-geography-bullet-list">
+                        <li>
+                            To inculcate the spirit of Geography through innovative inputs and a
+                            research-intensive, skill-oriented curriculum;
+                        </li>
+                        <li>
+                            To embed community involvement strategies into geographical pursuits, nurturing
+                            ethical values and empathy among students.
+                        </li>
+                        <li>
+                            To nurture competent leaders who are environmentally aware and dedicated for
+                            the well-being of environment and society.
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="dept-geography-courses-section" id="dept-courses">
+                <h2 class="dept-geography-section-title">Courses <span>Offered</span></h2>
+
+                <div class="dept-geography-course-list" id="course-list-container">
+                </div>
+            </div>
+
+            <!-- <div class="dept-geography-prospects-section" id="dept-prospects">
+              <h2 class="dept-geography-section-title">Career <span>Prospects</span></h2>
+
+              <div class="dept-geography-prospects-content">
+                <p class="dept-geography-intro-text">
+                  The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
+
+                <h3 class="dept-geography-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-geography-list">
+                  <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Government Sector Jobs</h3>
+                <ol class="dept-geography-list">
+                  <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Private Sector Careers</h3>
+                <ol class="dept-geography-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Research & Teaching</h3>
+                <ol class="dept-geography-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-geography-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Jobs Abroad</h3>
+                <ol class="dept-geography-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
+
+                <h3 class="dept-geography-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-geography-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+                  <li>Language skills and report writing</li>
+                </ol>
+
+              </div>
+            </div> -->
+
+            <div class="dept-geography-accordion-section" id="dept-syllabus">
+                <h2 class="dept-geography-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+                <div class="dept-geography-accordion-wrapper">
+
+
+                    <div class="dept-geography-accordion-item active">
+                        <div class="dept-geography-accordion-header">
+                            <div class="dept-geography-accordion-header-left">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Under Graduate</span>
+                            </div>
+                            <i class="fa-solid fa-chevron-down dept-geography-chevron"></i>
+                        </div>
+
+                        <div class="dept-geography-accordion-content">
+                            <div class="dept-geography-syllabus-list">
+
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_UG_Geography.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Structure of Syllabus -- Geography
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/syllabus/RSEES/UG%20_Geography_Syllabus.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Detailed Syllabus -- Geography
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dept-geography-accordion-item">
+                        <div class="dept-geography-accordion-header">
+                            <div class="dept-geography-accordion-header-left">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Post Graduate</span>
+                            </div>
+                            <i class="fa-solid fa-chevron-down dept-geography-chevron"></i>
+                        </div>
+
+                        <div class="dept-geography-accordion-content">
+                            <div class="dept-geography-syllabus-list">
+
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geography.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Structure of Syllabus -- Geography
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/syllabus/RSEES/PG%20syllabus%20Geography.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Detailed Syllabus -- Geography
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+                                <hr>
+
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/department-all/rsses/geography-geoinformatics/updated-syllabus/Course_Structure_PG_Geoinformatics.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Structure of Syllabus -- Geoinformatics
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/mobile-assets/syllabus/RSEES/MSc%20Geoinformatics%20Syllabus.pdf"
+                                    class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Detailed Syllabus -- Geoinformatics
+                                    </div>
+                                    <i class="fa-solid fa-download dept-geography-download-icon"></i>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dept-geography-accordion-item">
+                        <div class="dept-geography-accordion-header">
+                            <div class="dept-geography-accordion-header-left">
+                                <i class="fa-solid fa-book"></i>
+                                <span>Doctoral Programme</span>
+                            </div>
+                            <i class="fa-solid fa-chevron-down dept-geography-chevron"></i>
+                        </div>
+
+                        <div class="dept-geography-accordion-content">
+                            <div class="dept-geography-syllabus-list">
+                                <a href="https://www.rgu.ac/phd" class="dept-geography-syllabus-link" download>
+                                    <div class="dept-geography-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Click to View
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="dept-geography-events-section" id="dept-events">
+
+                <h2 class="dept-geography-section-title">Events</h2>
+
+                <div>
+                    <h4 class="text-dark" style="text-align: justify;">Department of Geography & Geoinformatics, The Assam Royal Global University in collaboration with Assam State Space Application Centre (ASSAC) organised GIS Day on 19 November 2025. The event featured insightful talks by experts from ASSAC, engaging technical sessions, poster presentations, and an interactive showcase of GIS tools. Students also participated in a map-making competition, followed by prize distribution. The day strengthened academic–industry collaboration and inspired students to explore the power of geospatial technologies.</h4>
+                    <img src="/mobile-assets/new-dept-sociology/academic-excellance/new/geo-info.jpeg"/>
+                </div>
+
+                <div class="dept-geography-events-box">
+                    <div class="dept-geography-events-track" id="events-track"></div>
+                </div>
+
+                <!-- <div style="text-align:center; margin-top:30px;">
+                <a href="#" class="dept-geography-events-btn">View All</a>
+              </div> -->
+
+            </div>
+
+            <!-- ================= ACHIEVEMENT SECTION ================= -->
+            <div class="dept-geography-achievement-section" id="dept-achievement">
+
+                <h2 class="dept-geography-section-title">
+                    Achievements
+                </h2>
+
+                <!-- Tabs -->
+                <div class="dept-geography-achievement-tabs">
+                    <button class="dept-achievement-tab active" data-tab="student">
+                        Student Achievement
+                    </button>
+                    <button class="dept-achievement-tab" data-tab="faculty">
+                        Faculty Achievement
+                    </button>
+
+
+                </div>
+
+                <!-- Content -->
+                <div class="dept-geography-achievement-content">
+
+                    <!-- STUDENT TAB -->
+                    <div class="dept-achievement-pane active" id="student">
+
+                        <div class="dept-geography-table-responsive">
+                            <table class="dept-geography-table">
+                                <thead>
+                                    <tr>
+                                        <!-- YOU WILL ADD HEADERS -->
+                                        <th>Sl. No.</th>
+                                        <th>Achievement Category</th>
+                                        <th>2023–24</th>
+                                        <th>2024–25</th>
+                                        <th>2025–26</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>NET / SLET / TET Qualified</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Co-curricular Activities</td>
+                                        <td>3</td>
+                                        <td>6</td>
+                                        <td>4</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Students Progressing to Higher Education</td>
+                                        <td>14</td>
+                                        <td>16</td>
+                                        <td>15</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Students Placed (Employment)</td>
+                                        <td>4</td>
+                                        <td>1</td>
+                                        <td>6</td>
+
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <!-- Faculty -->
+
+                    <div class="dept-achievement-pane" id="faculty">
+
+                        <div class="dept-geography-table-responsive">
+                            <table class="dept-geography-table">
+                                <thead>
+                                    <tr>Research Output Summary</tr>
+                                    <tr>
+                                        <!-- YOU WILL ADD HEADERS -->
+                                        <th>Sl. No.</th>
+                                        <th>Research Output Type</th>
+                                        <th>Count</th>
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Research Articles Published</td>
+                                        <td>75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Book Chapters Published</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Patents Filed</td>
+                                        <td>08</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Consultancy Projects</td>
+                                        <td>01</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Grants & Faculty Recognition</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sl. No.</td>
+                                        <td>Award Type</td>
+                                        <td>Details</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>RGU Seed Money Grant awarded to 5 faculty members in March 2026</td>
+                                        <td>recognized for high-impact research potential.</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="dept-geography-table-section" id="dept-committee">
+
+                <h2 class="dept-geography-section-title">Commit<span>tee</span></h2>
+
+                <div class="dept-geography-table-grid" id="table-accordion-container"></div>
+
+            </div>
+
+
+            <div class="dept-geography-lab-section" id="dept-lab">
+
+                <div class="dept-geography-lab-container">
+
+                    <h2 class="dept-geography-section-title">Our <span>Lab</span></h2>
+
+                    <h3>Cartography Lab</h2>
+
+                        <p class="dept-geography-lab-intro">
+                            The Cartography Lab is equipped with essential instruments and infrastructure required for
+                            teaching and training in map-making, surveying, and spatial data representation. The laboratory
+                            enables students to gain practical knowledge of cartographic techniques and field survey
+                            methods. The Department of Geography provides students with hands-on experience and skills
+                            necessary for understanding spatial patterns and conducting basic geographical research. The lab
+                            is located in Block- B, Room No- B 206-A on the 2nd Floor.
+                        </p>
+
+
+
+                        <h3 class="dept-geography-lab-heading">Our Lab Equipments</h3>
+
+                        <!-- <h2 class="dept-geography-section-title">Glimpse of <span>our Lab</span></h2> -->
+
+                        <div class="container">
+                            <img src="https://www.rgu.ac/mobile-assets/laboratories/Cartography/photo%201.jpg"
+                                alt="Lab 1" style="width: 100%;">
+
+
+                        </div>
+
+                        <!-- <button class="dept-geography-explore-btn">Explore</button> -->
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <script>
+            const track = document.getElementById("dpTrack");
+            const slides = document.querySelectorAll(".dp-slide");
+            const prevBtn = document.getElementById("dpPrev");
+            const nextBtn = document.getElementById("dpNext");
+
+            let index = 0;
+            let autoSlide;
+
+            function updateSlide() {
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            function nextSlide() {
+                index = (index + 1) % slides.length;
+                updateSlide();
+            }
+
+            function prevSlide() {
+                index = (index - 1 + slides.length) % slides.length;
+                updateSlide();
+            }
+
+            // CLICK EVENTS
+            nextBtn.addEventListener("click", nextSlide);
+            prevBtn.addEventListener("click", prevSlide);
+
+            // CONDITION: SINGLE IMAGE
+            if (slides.length <= 1) {
+                prevBtn.classList.add("hidden");
+                nextBtn.classList.add("hidden");
+            } else {
+                autoSlide = setInterval(nextSlide, 3000);
+            }
+        </script>
+
+        <script>
+            // 1. Define the courses array
+            const coursesData = [{
+                    title: "M.A. Geography",
+                    duration: "2 years",
+                    link: "https://www.rgu.ac/programs-MA-Geography"
+                },
+                {
+                    title: "M.Sc. Geography",
+                    duration: "2 years",
+                    link: "https://www.rgu.ac/programs-MSc-geography"
+                },
+                {
+                    title: "M.Sc. Geoinformatics",
+                    duration: "2 years",
+                    link: "https://www.rgu.ac/programs-MSc-in-Geoinformatics"
+                },
+                {
+                    title: "B.A./B.Sc. Geography | Honours / Honours with Research",
+                    duration: "4 years as per NEP",
+                    link: "https://www.rgu.ac/programs-BSc-Geography"
+                },
+                {
+                    title: " B.A./B.Sc. Geography — Integrated Civil Service Programme",
+                    duration: "4 years",
+
+                }
+            ];
+
+            // 2. Get container
+            const courseContainer = document.getElementById('course-list-container');
+
+            // 3. Render courses
+            if (courseContainer) {
+
+                // If array is empty → show fallback
+                if (!coursesData || coursesData.length === 0) {
+                    courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+                } else {
+                    // Generate course cards
+                    courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-geography-course-card">
+
+          <div class="dept-geography-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-geography-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-geography-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+                }
+            }
+        </script>
+
+        <script>
+            // --- ACCORDION LOGIC ---
+            const accordionHeaders = document.querySelectorAll('.dept-geography-accordion-header');
+
+            // Function to calculate and set the exact height for smooth transitions
+            function setAccordionHeights() {
+                const activeItems = document.querySelectorAll('.dept-geography-accordion-item.active');
+                activeItems.forEach(item => {
+                    const content = item.querySelector('.dept-geography-accordion-content');
+                    content.style.maxHeight = content.scrollHeight + "px";
+                });
+            }
+
+            // Initialize the open item on load
+            setAccordionHeights();
+
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const currentItem = this.parentElement;
+                    const currentContent = currentItem.querySelector('.dept-geography-accordion-content');
+
+                    // Toggle 'active' class
+                    currentItem.classList.toggle('active');
+
+                    // If it is now active, set max-height to its scrollHeight (actual content height)
+                    if (currentItem.classList.contains('active')) {
+                        currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                    } else {
+                        // If closed, collapse it back to 0
+                        currentContent.style.maxHeight = 0;
+                    }
+                });
+            });
+
+            // Recalculate heights if the window resizes (prevents text clipping on mobile)
+            window.addEventListener('resize', setAccordionHeights);
+        </script>
+
+        <script>
+            // ================= EVENTS DATA =================
+
+            const eventsData = [
+
+                "21-11-2023 | Abnormal Mass Loss at ELAs in the Himalayas: Style, Trends, Consequences | Prof. Milap Chand Sharma (CSRD, JNU, New Delhi) | Invited Talk.",
+
+                "03-11-2023 | Developing and Entrepreneurial Mindset | Prof. Hirak Ranjan Das (Deputy Director, Innovation Incubation and Entrepreneurship, RGU) | Guest Lecture.",
+
+                "22-09-2023 | Coastal Flooding in Sundarban Areas of West Bengal | Prof. Sunando Bandhyopadhyay (Geography Dept., University of Calcutta, Kolkata) | Guest Lecture.",
+
+                "15-05-2023 | The Young North and the Old South | Prof. D K Nayak (Dept. of Geography, NEHU, Shillong) | Invited Talk.",
+
+                "09-08-2024 | Geography and SDGs | Dr. Theo Ebbers (Principal Advisor, Program Management Education, ChildAid Network Foundation, Germany) | Invited Talk.",
+
+                "08-06-2024 | Hydrospheric Dynamics and Sustainable Development | Prof. B W Pandey (Dept. of Geography, DSE, Delhi University) | Webinar.",
+
+                "05-06-2024 | Land Restoration, Desertification, and Drought Resilience | Prof. Kushal Kumar Baruah (Dean of Academic Affairs, Auniati University, Assam) | Invited Talk.",
+
+                "25-03-2025 | Climate Change Realities - The Geoinformatical Perspective | Prof. Shahab Fazal (Head, Dept. of Geography, Aligarh Muslim University, Aligarh) | Invited Talk.",
+
+                "19-11-2025 | Application of Geospatial Technology for Societal Benefits & SDG | Sri Prosanna Boruah (Sr. Scientific Officer, ASSAC) | Invited Talk + Map Making Competition.",
+
+                "19-02-2026 | Women Empowerment and Agriculture | Dr. Barnali Gogoi (Professor and former Head, Dept. of Cotton University, Guwahati) | Invited Talk.",
+
+                "20-02-2026 | Application of Remote Sensing in Geographical Studies | Dr. Shukla Acharjee (Dept. of Geography, Dibrugarh University, Assam) | Invited Talk.",
+
+                "26-02-2026 | Startup Ecosystem of India and Future Perspective | Dr. Krantisagar More (Senior Advisor - Savishkar India, GLF Pvt. Ltd., Startup 20-G20 India & Brazil, BRICS Delegate) | Invited Talk.",
+
+                "27-02-2026 | Introduction to Compound Extremes Using Geospatial and Reanalysis Datasets | Dr. Swomil Swarnkar (Asst. Professor, Dept. of Earth and Environmental Sciences, IISER Bhopal) | Invited Talk.",
+
+                "10-03-2026 | Geospatial Technology in Everyday Life: Applications and Impacts | Dr. Manash Jyoti Nath (Asst. Professor, Dept. of Geography, Gauhati University, Assam) | Invited Talk.",
+
+                "01-04-2026 | Geography, Northeast and Ethnic Diversity: The Convoluted Truth | Prof. Amarjyoti Choudhury (Chair Dr. Bhupen Hazarika Centre for Creativity, RGU, Assam) | Distinguished Lecture Series.",
+
+                "08-06-2023 - 09-06-2023 | Reimagining Brahmaputra: Beyond Risks and Towards Values | Robert J. Wasson (Emeritus Professor, James Cook University & Australian National University, Australia) | Workshop.",
+
+                "10-04-2023 | A training programme on Effective Public Speaking | Sri Nishant Paharia (Coordinator, ISTD, Guwahati Chapter) | Workshop.",
+
+                "16-03-2026 - 20-03-2026 | Developing Emotional Intelligence, Academic Research and Teaching | In collaboration with Lavender Literary Club, India & MIRHA, Malaysia | Workshop.",
+                "11-04-2023 | Sustainable Livelihood Approaches to Poverty Reduction | Prof. V P Sati (Dept. of Geography & Resource Management, MZU, Mizoram) | One-day Seminar.",
+
+                "22-03-2023 | Accelerating Change to Solve the Water and Sanitation Crises | Prof. S P Singh (VC, RGU) | One-day Seminar.",
+
+                "20-08-2024 | Emerging North-east and Opportunities | Sri Atul Chandrakant Kulkarni (Chairman, Amazing Namaster Foundation, Board of Governor, Shillong) | One-day Seminar.",
+
+                "22-04-2024 | Our Planet: Reflections on Space and Society | Prof. Sachidanand Sinha (Dept. of Geography, CSRD, JNU & President, Indian Institute of Geographers) | One-day Seminar.",
+
+                "20-08-2025 | From Ideas to Creating IP through Innovation and Accessing Global Opportunities | Er. Dolly Bhasin (Managing Director, SPH Consultancy and E-services Pvt. Ltd.) | One-day Seminar.",
+
+                "28-02-2023 | Environmental Awareness: Reducing the use of plastic and water conservation | Educational Outreach Programme at Garbhanga forest village | Outreach Programme.",
+
+                "22-03-2023 | World Water Day Celebration | Educational Outreach Programme at Garbhanga Parijat Academy | Outreach Programme.",
+
+                "01-04-2024 | Community Outreach Program in Nagaland on Water Conservation | Community Outreach and Awareness Program | Outreach Programme.",
+
+                "02-04-2024 | Community Outreach Program in Meghalaya on Solid Waste Management | Community Outreach and Awareness Program | Outreach Programme.",
+
+                "02-04-2024 | Community Outreach Program in Manipur on Solid Waste Management | Community Outreach and Awareness Program | Outreach Programme.",
+                "03-04-2024 | Community Outreach Program in Manipur on Need of Basic Healthcare and Education | Community Outreach and Awareness Program | Outreach Programme.",
+
+                "13-09-2024 | Reduce, Reuse, Recycle: The lifecycle of Department of Geography | Environmental Conservation Initiatives | Outreach Programme.",
+
+                "01-10-2024 | Single-use plastic free Campus | Environmental Conservation Initiatives | Outreach Programme.",
+
+                "24-01-2025 | Documentary and Essay Writing Competition celebrating Republic Day | Educational Programme | Outreach Programme.",
+
+                "22-03-2025 | Clean Water, Healthy Communities: A World Water Day Initiative | Community Outreach and Awareness Program | Outreach Programme.",
+
+                "15-12-2021 - 24-12-2021 | Understanding Landforms and Resources of Rajasthan | Field Based learning to place of geographical significance | Field Visit.",
+
+                "26-02-2023 - 04-03-2023 | Understanding Landforms and resources of Tarai Region of Himalayas in Uttarakhand and visit to institutions of Prominence in Dehradun | Field Based learning to place of geographical significance | Field Visit.",
+
+                "30-03-2024 - 04-04-2024 | Exploring mangrove forest in Kolkata and visit to institutions of Prominence in Kolkata | Field Based learning to place of geographical significance | Field Visit.",
+
+                "05-06-2024 | Industrial Visit to Star Cement Factory cum Plantation Drive | Educational Industrial Visit | Field Visit.",
+
+                "24-01-2025 | Documentary and Essay Writing Competition celebrating Republic Day | Educational Programme | Field Visit.",
+
+                "05-02-2025 | Cleanliness Drive at Deeppor Beel | Educational Programme | Field Visit.",
+
+                "28-02-2025 | Visit to Indian Oil Limited, Guwahati | Industrial Visit | Field Visit.",
+
+                "01-04-2025 - 05-04-2025 | Understanding our Environment: Field Survey for Geographical Studies in Sikkim | Field Based learning to place of geographical significance | Field Visit.",
+
+                "31-01-2026 | Dumpy Level Survey at Deeppor Beel, Guwahati | Field Based Experiential Learning Programme | Field Visit.",
+
+                "31-01-2026 | Thematic Landscape Models - Desert, Glacial, Fluvial, and Coastal Display | Educational Exhibition at Srimanta Sankaradeva Kalakshetram | Field Visit.",
+
+                "03-02-2026 | Field Visit: Mayong Museum, Raja Mayang, Assam | Field Based Experiential Learning Programme | Field Visit."
+
+            ];
+
+
+            const eventsTrack = document.getElementById("events-track");
+
+            if (eventsTrack) {
+
+                if (!eventsData || eventsData.length === 0) {
+                    eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+                } else {
+
+                    const createEventHTML = (text) => `
+        <div class="dept-geography-event-item">
+          ${text}
+        </div>
+      `;
+
+                    // Duplicate for seamless infinite scroll
+                    const fullContent = [...eventsData, ...eventsData]
+                        .map(createEventHTML)
+                        .join("");
+
+                    eventsTrack.innerHTML = fullContent;
+                }
+            }
+        </script>
+
+        <script>
+            const tableData = [{
+                    title: "The Board of Studies",
+                    headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
+                    rows: [
+                        ["1", "Convener (Ex-Officio)- Head of the Department ",
+                            "Dr. Annesha Borah, Coordinator and Assistant Professor, Department of Geography"
+                        ],
+                        ["", " ", "Prof. B S Mipun, Senior Professor, Department of Geography"],
+                        ["", " ", "Dr. Saurav Kumar, Assistant Professor, Department of Geography"],
+                        ["", " ", "Dr. Tushar Sarkar, Assistant Professor, Department of Geography"],
+                        ["2", "All Faculty members of the Department Members (Ex-Officio)",
+                            "Dr.Takhellabam Prameshwari Devi, Assistant Professor, Department of Geography"
+                        ],
+                        ["", " ", "Dr. Trishna Changkakoti, Assistant Professor, Department of Geography"],
+                        ["", " ", "Ms. Jubilee Goswami, Assistant Professor, Department of Geography"],
+                        ["", " ", "Miss Deepanjali Reang, Assistant Professor, Department of Geography"],
+                        ["3", "External Experts ",
+                            "Prof. Bimal Kumar Kar, Professor, Department of Geography, Gauhati University"
+                        ],
+                        ["", " ", "Prof. D K Nayak, Professor, Department of Geography, North Eastern Hill University"]
+
+
+
+
+
+                    ]
+                },
+                {
+                    title: "The Departmental Research Committee (DRC)",
+                    headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the committee"],
+                    rows: [
+                        ["1", "Head of the Department", "Dr. Annesha Borah",
+                            "Coordinator and Assistant Professor, Department of Geography and Geoinformatics",
+                            "Chairperson"
+                        ],
+                        ["2", "Two Professors", "Prof. B S Mipun", "Dean RSEES and DSW", "Member"],
+                        ["3", "Two Assistant Professors holding Ph.D. degree", "Dr. Trishna Changkakati",
+                            "Assistant Professor, Department of Geography and Geoinformatics", "Member"
+                        ],
+                        ["", "", "Dr. Saurav Kumar", "Assistant Professor, Department of Geography and Geoinformatics",
+                            "Member"
+                        ],
+                        ["4",
+                            "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                            "Prof. Soumitra Sen", "Senior Professor, RSTTM and RSHM", "External Member"
+                        ],
+                        ["", "", "Prof. Sajal Nag", "Professor and Dean, RSHSS, RGU", "External Member"],
+                        ["", "", "Prof. Hemangi Deka Sarma", "Prof. Department of Geology, RGU", "External Member"]
+                    ]
+                }
+
+            ];
+
+            const container = document.getElementById("table-accordion-container");
+
+            if (container) {
+
+                const createTable = (headers, rows) => {
+                    if (!rows || rows.length === 0) {
+                        return `<p style="color:#556b8d;">No data available</p>`;
+                    }
+
+                    return `
+        <div class="dept-geography-table-responsive">
+          <table class="dept-geography-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                                <tr>
+                                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                                </tr>
+                              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+                };
+
+                container.innerHTML = tableData.map(item => {
+
+                    const isEmpty = !item.rows || item.rows.length === 0;
+
+                    return `
+        <div class="dept-geography-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-geography-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-geography-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+                }).join("");
+            }
+
+            /* ACCORDION (single open at a time) */
+            document.addEventListener("click", function(e) {
+                const header = e.target.closest(".dept-geography-table-header");
+                if (!header) return;
+
+                const item = header.parentElement;
+                if (item.classList.contains("disabled")) return;
+
+                const allItems = document.querySelectorAll(".dept-geography-table-acc");
+
+                allItems.forEach(acc => {
+                    if (acc !== item) {
+                        acc.classList.remove("active");
+                        const content = acc.querySelector(".dept-geography-table-content");
+                        const icon = acc.querySelector("i");
+                        if (content) content.style.maxHeight = 0;
+                        if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                    }
+                });
+
+                const content = item.querySelector(".dept-geography-table-content");
+                const icon = header.querySelector("i");
+
+                item.classList.toggle("active");
+
+                if (item.classList.contains("active")) {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    icon.classList.replace("fa-plus", "fa-minus");
+                } else {
+                    content.style.maxHeight = 0;
+                    icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+        </script>
+
+        <script>
+            const eventGalleryData = [{
+                    title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                    images: [
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    ]
+                },
+                {
+                    title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                    images: [
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                        "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    ]
+                }
+            ];
+
+            const galleryContainer = document.getElementById("event-gallery-container");
+
+            if (galleryContainer) {
+
+                galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                    const images = event.images || [];
+
+                    if (images.length === 0) {
+                        return "";
+                    }
+
+                    // duplicate for infinite effect
+                    const marqueeImages = [...images, ...images]
+                        .map(img => `<img src="${img}" alt="event">`)
+                        .join("");
+
+                    return `
+      <div class="dept-geography-event-card">
+
+        <div class="dept-geography-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-geography-marquee">
+          <div class="dept-geography-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+                }).join("");
+            }
+        </script>
+
+        <script>
+            const tabs = document.querySelectorAll(".dept-achievement-tab");
+            const panes = document.querySelectorAll(".dept-achievement-pane");
+
+            tabs.forEach(tab => {
+                tab.addEventListener("click", () => {
+
+                    // remove active
+                    tabs.forEach(t => t.classList.remove("active"));
+                    panes.forEach(p => p.classList.remove("active"));
+
+                    // add active
+                    tab.classList.add("active");
+                    document.getElementById(tab.dataset.tab).classList.add("active");
+                });
+            });
+        </script>
 
     </div>
 @endsection

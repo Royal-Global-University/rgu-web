@@ -4419,6 +4419,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-ankita-kalita', function () {
+    return view('frontend/facultyprofile/rsmas/ankita-kalita');
+})->name('faculty-ankita-kalita');
+
 Route::get('/faculty-manna-debnath', function () {
     return view('frontend/facultyprofile/rsmas/manna-debnath');
 })->name('faculty-manna-debnath');
