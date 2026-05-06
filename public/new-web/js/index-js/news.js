@@ -3,6 +3,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const newsData = [
         {
             date: "Guwahati, May 5, 2026",
+            title: "Capacity Building Session on Internship Engagement and Career Development",
+            desc: "An interactive session on “Capacity Building for Internship Engagement and Career Development” was successfully organized on 5 May 2026 by the Royal School of Business, Royal School of Engineering & Technology, and Royal School of Medical & Allied Sciences in association with the Internal Quality Assurance Cell (IQAC) of The Assam Royal Global University (RGU).",
+            img: "/mobile-assets/media-corner/2026/may/new/1.jpg",
+            link: "/capacity-building-session-on-internship-engagement-and-career-development",
+        },
+        {
+            date: "Guwahati, May 4, 2026",
+            title: "Royal Global University Faculty Honoured with Best Scientist Award",
+            desc: "Jebin Sultana, Assistant Professor and Coordinator in the Department of Food Science and Nutrition (Nutrition & Dietetics) at The Assam Royal Global University (RGU), has been conferred the prestigious Best Scientist Award in Food and Nutrition – 2026 at the 13th International Conference on Frontiers in Science and Technology for Sustainable Agricultural and Environmental Development (FSTSAED-2026).",
+            img: "/mobile-assets/media-corner/2026/may/1.jpeg",
+            link: "/royal-global-university-faculty-honoured-with-best-scientist-award",
+        },
+
+        {
+            date: "Guwahati, May 5, 2026",
             title: "Training on Forest Ecosystem Services held at RGU",
             desc: "The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.",
             img: "/mobile-assets/media-corner/2026/may/5-may.jpg",

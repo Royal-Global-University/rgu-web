@@ -297,18 +297,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsn/Bakor.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Bakor Kharbudon</h3>
-                            <p class="card-designation">Lecturer/Tutor</p>
-                            <a href="https://www.rgu.ac/faculty-bakor-kharbudon" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Manisha-Kalita.png"
                                     alt="Profile image">
                             </div>
@@ -363,18 +351,6 @@
                             <h3 class="card-name">Ms. Pankhi Lahkar</h3>
                             <p class="card-designation">Lecturer/Tutor</p>
                             <a href="https://www.rgu.ac/faculty-pankhi-lahkar" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ilawanpyntngen-Kharsohnoh-RSN.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Ilawanpyntngen Kharsohnoh</h3>
-                            <p class="card-designation">Tutor</p>
-                            {{-- <a href="" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 

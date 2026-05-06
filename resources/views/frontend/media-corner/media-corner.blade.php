@@ -46,10 +46,18 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Student wins Silver at State Arm Wrestling Championship, Qualifies for Nationals',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 6, 2026:',
+                            'link' => '/rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals',
+                            'image' => '/mobile-assets/media-corner/2026/may/new/Abhay%20Chaudhary.jpg',
+                            'content' => 'Abhay Chaudhary, a B.Tech. Computer Science & Engineering (CSE) 2nd semester student, at The Assam Royal Global University (RGU) has brought laurels to the university through his outstanding performance in arm wrestling.',
+                        ],
+                        [
                             'title' => 'Training on Forest Ecosystem Services held at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, May 5, 2026:',
-                            'link' => '/training-on-forest-ecosystem-services-held-at-rgu',
+                            'link' => '/capacity-building-session-on-internship-engagement-and-career-development',
                             'image' => '/mobile-assets/media-corner/2026/may/5-may.jpg',
                             'content' => 'The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.',
                         ],

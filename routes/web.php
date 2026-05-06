@@ -3265,6 +3265,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/capacity-building-session-on-internship-engagement-and-career-development', function () {
+    return view('frontend/media-corner/2026/news15');
+})->name('capacity-building-session-on-internship-engagement-and-career-development');
+
+Route::get('/rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals', function () {
+    return view('frontend/media-corner/2026/news14');
+})->name('rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals');
+
 Route::get('/training-on-forest-ecosystem-services-held-at-rgu', function () {
     return view('frontend/media-corner/2026/news13');
 })->name('training-on-forest-ecosystem-services-held-at-rgu');
