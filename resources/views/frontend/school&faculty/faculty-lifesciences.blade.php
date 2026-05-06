@@ -140,8 +140,24 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Binay Singh.jpeg"
+                                    alt="Profile image of Prof. Nikhil Kumar Chrungoo">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Binay Singh</h3>
+                            <p class="card-designation">
+                                Professor
+                            </p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
                 </div>
                 <!-- regular faculty  -->
+
+
 
                 <!-- Botany  -->
                 <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
