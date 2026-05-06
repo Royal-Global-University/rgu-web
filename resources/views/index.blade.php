@@ -18,7 +18,7 @@
         <div class="hero-content">
             <h1>Empowering Knowledge<br>Inspiring Futures</h1>
             <div class="tagline">EXCELLENCE IN EDUCATION, RESEARCH & INNOVATION</div><br>
-            <a href="https://rgu.ac/admission-programs-fees-structure" class="explore-btn">
+            <a href="http://rgu.ac/admission-programs-fees-structure" class="explore-btn">
                 EXPLORE PROGRAMS <span>↗</span>
             </a>
         </div>
