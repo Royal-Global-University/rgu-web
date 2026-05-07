@@ -217,7 +217,7 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Pharmaceutical Sciences (Dibrugarh University)</span></li>
+              <li><i class="fa fa-circle"></i> <span>Pursuing Ph.D. in Pharmaceutical Sciences (Dibrugarh University)</span></li>
               <li><i class="fa fa-circle"></i> <span>M.Pharm in Pharmaceutical Chemistry (Dibrugarh University)</span></li>
               <li><i class="fa fa-circle"></i> <span>B.Pharm in Pharmaceutical Sciences (Dibrugarh University)</span></li>
             </ul>
