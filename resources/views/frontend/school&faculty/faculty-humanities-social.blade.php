@@ -116,7 +116,7 @@
 
                 <div class="row justify-content-center">
 
-                    <div class="col-lg-3 col-md-6 mb-4">
+                    {{-- <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Prof-Surajit-Mukhopadhyay..png"
@@ -127,6 +127,18 @@
                                 Director, Centre for Inter-Disciplinary Research</p>
                             <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
+                        </div>
+                    </div> --}}
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="Profile ">
+                            </div>
+                            <h3 class="card-name">Prof. Shiela Bora</h3>
+                            <p class="card-designation">Professor & Adviser and Dean in-charge, Royal School of Humanities
+                                and Social Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
+                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -145,17 +157,6 @@
                 </div>
 
                 <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="Profile ">
-                            </div>
-                            <h3 class="card-name">Prof. Shiela Bora</h3>
-                            <p class="card-designation">Professor & Advisor</p>
-                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -331,6 +332,19 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
+                                    alt="Profile image Shiela">
+                            </div>
+                            <h3 class="card-name">Prof. Shiela Bora</h3>
+                            <p class="card-designation">Professor & Adviser and Dean in-charge, Royal School of Humanities
+                                and Social Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
+                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/RanjanChakrabarti.jpeg"
                                     alt="Profile image Ranjan Chakrabarti">
                             </div>
@@ -339,19 +353,6 @@
 
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
-                                    alt="Profile image Shiela">
-                            </div>
-                            <h3 class="card-name">Prof. Shiela Bora</h3>
-                            <p class="card-designation">Professor & Advisor</p>
-                            <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -794,9 +795,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
-                                Director,
-                                Centre for Inter-Disciplinary Research</p>
+                            <p class="card-designation">Professor & Director, Centre for Inter-Disciplinary Research</p>
                             <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
                         </div>
