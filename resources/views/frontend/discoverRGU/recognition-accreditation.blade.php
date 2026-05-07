@@ -193,10 +193,10 @@
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
                         <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20GNM%202025-26.pdf">
+                            href="/mobile-assets/pdf-2027/INC for GNM 2026-27 letter.pdf">
                             <i class="fas fa-file-pdf"></i> Click Here to View</a>
                         <br><a download style="color: #FF9A1E;" class="fw-bold"
-                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20B.Sc.%20Nursing%202025-26.pdf">
+                            href="/mobile-assets/pdf-2027/INC for BSN 2026-27 letter.pdf">
                             <i class="fas fa-image"></i> Click Here to View</a>
                     </p>
                 </div>
@@ -433,10 +433,10 @@
                         <p class="para1 text-dark" style="text-align: justify;">
                             GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
                             <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20GNM%202025-26.pdf">
+                                href="/mobile-assets/pdf-2027/INC for GNM 2026-27 letter.pdf">
                                 <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
                             <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20B.Sc.%20Nursing%202025-26.pdf">
+                                href="/mobile-assets/pdf-2027/INC for BSN 2026-27 letter.pdf">
                                 <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
                         </p>
                     </div>
