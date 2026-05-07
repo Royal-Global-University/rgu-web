@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/Arhit-Sarkar.jpeg" alt="">
+              <img class="faculty-bio-img" style="height: 400px; width: 400px;" src="/mobile-assets/updated-faculty-img/Arhit-Sarkar.jpeg" alt="">
             </div>
           </div>
 

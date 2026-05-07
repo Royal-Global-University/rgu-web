@@ -224,7 +224,7 @@
                             </div>
                             <h3 class="card-name">Mr. Arhit Sarkar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-angshumi-goswami" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-arhit-sarkar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
