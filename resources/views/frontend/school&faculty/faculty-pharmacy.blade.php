@@ -321,7 +321,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/chayanika.jpeg"
+                                <img src="/assets/mobile-assets/Chayanika Talukdar.jpg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Chayanika Talukdar</h3>

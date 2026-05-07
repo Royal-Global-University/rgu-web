@@ -436,7 +436,7 @@
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
-                            style="color: #27467A; font-weight: 700; font-size: 26px;">
+                            style="color: #27467A; font-weight: 700; font-size: 22px;">
                             Professor & Adviser and Dean in-charge, Royal School of Humanities and Social Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)
                         </h2>
 
@@ -467,14 +467,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        UG, 1963 – Calcutta University, Calcutta
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        PG, 1970 – Gauhati University, Guwahati
+                                        Post Doctoral, 1986 – Yale University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
@@ -488,7 +481,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Post Doctoral, 1986 – Yale University
+                                        PG, 1970 – Gauhati University, Guwahati
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        UG, 1963 – Calcutta University, Calcutta
                                     </span>
                                 </li>
 
