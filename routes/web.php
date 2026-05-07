@@ -4983,6 +4983,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 //RSHM-RSTTM Faculty Profile
 
+Route::get('/faculty-arhit-sarkar', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/arhit-sarkar');
+})->name('faculty-arhit-sarkar');
+
 Route::get('/faculty-angshumi-goswami', function () {
     return view('frontend/facultyprofile/rshm-rsttm/angshumi-goswami');
 })->name('faculty-angshumi-goswami');
