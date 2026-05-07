@@ -4999,6 +4999,10 @@ Route::get('/faculty-ajeet-kr-singh', function () {
     return view('frontend/facultyprofile/rshm-rsttm/ajeet-kr-singh');
 })->name('faculty-ajeet-kr-singh');
 
+Route::get('/faculty-raag-roshan-talukdar', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/raag-roshan-talukdar');
+})->name('faculty-raag-roshan-talukdar');
+
 Route::get('/faculty-m-p-verma', function () {
     return view('frontend/facultyprofile/rshm-rsttm/m-p-verma');
 })->name('faculty-m-p-verma');

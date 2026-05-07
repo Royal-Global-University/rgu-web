@@ -248,7 +248,7 @@
                             </div>
                             <h3 class="card-name">Mr. Raag Roshan Talukdar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-raag-roshan-talukdar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
