@@ -1,2237 +1,2223 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac" style="
-                                                                                                                        position: fixed;
-                                                                                                                        bottom: 25px;
-                                                                                                                        right: 75px;
-                                                                                                                        background-color: #ef991f;
-                                                                                                                        color: #fff;
-                                                                                                                        padding: 12px 20px;
-                                                                                                                        font-size: 16px;
-                                                                                                                        font-weight: bold;
-                                                                                                                        text-decoration: none;
-                                                                                                                        border-radius: 20px;
-                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                        z-index: 1000;
-                                                                                                                        overflow: hidden;
-                                                                                                                        animation: pulse 2s infinite;
-                                                                                                                        ">
-                    <span
-                        style="
-                                                                                                                        position: absolute;
-                                                                                                                        top: 0;
-                                                                                                                        left: -75%;
-                                                                                                                        width: 50%;
-                                                                                                                        height: 100%;
-                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                        transform: skewX(-25deg);
-                                                                                                                        animation: shine 2s infinite;
-                                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-architecture-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-architecture-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-architecture-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-architecture-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-architecture-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-architecture-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-architecture-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-architecture-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-architecture-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-architecture-content {
+            flex: 1;
+        }
+
+        .dept-architecture-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-architecture-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-architecture-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-architecture-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-architecture-floating {
+            position: fixed;
+            left: 30px;
+            top: 60%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-architecture-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-architecture-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-architecture-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-architecture-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-architecture-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-architecture-float-item:hover .dept-architecture-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-architecture-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-architecture-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-architecture-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-architecture-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-architecture-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-architecture-img img {
+                padding-left: 0%;
+            }
+
+            .dept-architecture-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-architecture-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-architecture-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-architecture-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-architecture-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-architecture-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-architecture-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-architecture-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-architecture-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-architecture-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-architecture-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-architecture-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-architecture-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-architecture-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-architecture-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-architecture-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-architecture-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-architecture-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-architecture-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-architecture-img img {
+                padding-left: 0%;
+            }
+
+            .dept-architecture-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-architecture-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-architecture-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-architecture-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-architecture-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-architecture-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-architecture-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-architecture-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-architecture-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-architecture-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-architecture-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-architecture-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-architecture-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-architecture-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-architecture-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-architecture-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-architecture-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-architecture-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-architecture-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-architecture-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-architecture-accordion-item.active .dept-architecture-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-architecture-accordion-item.active .dept-architecture-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-architecture-accordion-item.active .dept-architecture-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-architecture-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-architecture-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-architecture-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-architecture-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-architecture-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-architecture-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-architecture-syllabus-link:hover .dept-architecture-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-architecture-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-architecture-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-architecture-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-architecture-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-architecture-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1300px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-architecture-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-architecture-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 4 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-architecture-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-architecture-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-architecture-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-architecture-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-architecture-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-architecture-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-architecture-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-architecture-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-architecture-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-architecture-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-architecture-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-architecture-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 80s linear infinite;
+        }
+
+        .dept-architecture-events-box:hover .dept-architecture-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-architecture-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-architecture-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-architecture-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-architecture-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-architecture-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-architecture-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-architecture-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-architecture-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-architecture-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-architecture-table-acc.active .dept-architecture-table-content {
+            padding: 20px;
+        }
+
+        .dept-architecture-table-acc.active .dept-architecture-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-architecture-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-architecture-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-architecture-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-architecture-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-architecture-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-architecture-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-architecture-table td,
+        .dept-architecture-table th {
+            white-space: nowrap;
+        }
+    </style>
+
+    <style>
+        /* ================= EVENT GALLERY (SINGLE IMAGE) ================= */
+
+        .dept-architecture-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-architecture-event-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        /* CARD */
+        .dept-architecture-event-card {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-architecture-event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 18px 40px rgba(44, 74, 122, 0.12);
+        }
+
+        /* TITLE */
+        .dept-architecture-event-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--primary);
+            padding: 20px 25px;
+            line-height: 1.7;
+        }
+
+        /* IMAGE WRAPPER */
+        .dept-architecture-event-img {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* IMAGE */
+        .dept-architecture-event-img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+            transition: var(--transition);
+        }
+
+        /* HOVER EFFECT */
+        .dept-architecture-event-card:hover img {
+            transform: scale(1.03);
+        }
+
+        /* ================= MOBILE ================= */
+        @media (max-width: 768px) {
+            .dept-architecture-event-title {
+                font-size: 1rem;
+                padding: 15px;
+            }
+
+            .dept-architecture-event-img img {
+                height: 220px;
+            }
+        }
+
+        .dept-architecture-event-accordion {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* CARD */
+        .dept-architecture-event-acc-item {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* HEADER */
+        .dept-architecture-event-acc-header {
+            padding: 18px 22px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--primary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-architecture-event-acc-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-architecture-event-acc-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        /* ACTIVE */
+        .dept-architecture-event-acc-item.active .dept-architecture-event-acc-content {
+            padding: 20px;
+        }
+
+        .dept-architecture-event-acc-item.active .dept-architecture-event-acc-header i {
+            transform: rotate(180deg);
+        }
+
+        /* IMAGE */
+        .dept-architecture-event-img {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .dept-architecture-event-img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .dept-architecture-event-img img {
+                height: 220px;
+            }
+        }
+    </style>
+
+    <style>
+        /* =========================================================
+       ACADEMIC EXCELLENCE SECTION
+       PREFIX: academic-exce-
+    ========================================================= */
+
+        .academic-exce-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* =========================================================
+       GRID CONTROL
+    ========================================================= */
+
+        .academic-exce-grid {
+
+            display: grid;
+
+            /* =========================================
+           MANUAL CONTROL
+        ========================================= */
+
+            grid-template-columns: 1fr;
+
+            /*
+            EXAMPLES:
+
+            grid-template-columns: 60% 40%;
+
+            grid-template-columns: 2fr 1fr;
+
+            grid-template-columns: 1.4fr 0.6fr;
+        */
+
+            gap: 30px;
+
+            max-width: 1300px;
+
+            margin: 0 auto;
+        }
+
+        /* =========================================================
+       COLUMN
+    ========================================================= */
+
+        .academic-exce-column {
+
+            background: #ffffff;
+
+            border-radius: 18px;
+
+            padding: 22px;
+
+            overflow: hidden;
+
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+
+            border-top: 4px solid var(--accent);
+
+            transition: var(--transition);
+        }
+
+        .academic-exce-column:hover {
+            transform: translateY(-4px);
+        }
+
+        /* =========================================================
+       SUBTITLE
+    ========================================================= */
+
+        .academic-exce-subtitle {
+
+            font-family: 'Times New Roman', Times, serif;
+
+            font-size: clamp(1.5rem, 2.2vw, 2rem);
+
+            color: var(--primary);
+
+            text-align: center;
+
+            margin-top: 0;
+
+            margin-bottom: 24px;
+        }
+
+        .academic-exce-subtitle span {
+            color: var(--accent);
+        }
+
+        /* =========================================================
+       HORIZONTAL MARQUEE
+    ========================================================= */
+
+        .academic-exce-marquee {
+
+            width: 100%;
+
+            overflow: hidden;
+
+            position: relative;
+
+            border-radius: 16px;
+        }
+
+        /* =========================================================
+       TRACK
+    ========================================================= */
+
+        .academic-exce-track {
+
+            display: flex;
+
+            gap: 18px;
+
+            width: max-content;
+
+            animation: academicExceHorizontal 22s linear infinite;
+
+            will-change: transform;
+        }
+
+        /* STOP IF SINGLE IMAGE */
+
+        .academic-exce-marquee[data-count="1"] .academic-exce-track {
+
+            animation: none;
+
+            width: 100%;
+
+            justify-content: center;
+        }
+
+        /* PAUSE ON HOVER */
+
+        .academic-exce-marquee:hover .academic-exce-track {
+            animation-play-state: paused;
+        }
+
+        /* =========================================================
+       IMAGE
+       VERTICAL IMAGE
+    ========================================================= */
+
+        .academic-exce-track img {
+
+            width: 250px;
+
+            height: 300px;
+
+            object-fit: cover;
+
+            border-radius: 16px;
+
+            flex-shrink: 0;
+
+            display: block;
+
+            box-shadow: 0 10px 24px rgba(44, 74, 122, 0.14);
+
+            transition: var(--transition);
+        }
+
+        .academic-exce-track img:hover {
+
+            transform: scale(1.03);
+        }
+
+        /* =========================================================
+       ANIMATION
+    ========================================================= */
+
+        @keyframes academicExceHorizontal {
+
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+        @media (max-width: 1100px) {
+
+            .academic-exce-grid {
+
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .academic-exce-column {
+                padding: 18px;
+            }
+
+            .academic-exce-track img {
+
+                width: 220px;
+
+                height: 340px;
+            }
+
+            .academic-exce-subtitle {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .academic-exce-column {
+                padding: 14px;
+            }
+
+            .academic-exce-track {
+
+                gap: 14px;
+            }
+
+            .academic-exce-track img {
+
+                width: 180px;
+
+                height: 280px;
+
+                border-radius: 12px;
+            }
+
+            .academic-exce-subtitle {
+
+                font-size: 1.15rem;
+
+                margin-bottom: 18px;
+            }
+        }
+    </style>
+
+    <div class="dept-architecture-floating">
+        <a href="#dept-home" class="dept-architecture-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-architecture-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-architecture-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-architecture-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-architecture-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-architecture-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-architecture-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-architecture-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-architecture-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-architecture-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-architecture-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-architecture-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-architecture-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-architecture-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-architecture-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-architecture-float-text">Lab</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-architecture-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-architecture-wrapper">
+
+        <div class="dept-architecture-heading" id="dept-home">
+            <h1>Department of <span>Architecture</span></h1>
+            <h2>Royal School of Architecture (RSA)</h2>
+        </div>
+
+        <div class="dept-architecture-hero" id="dept-about">
+
+            <div class="dept-architecture-img">
+                <img src="mobile-assets/new-dept-architecture/head-img.png" alt="Nursing">
             </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="background-color: #fff8f0; padding: 120px 10px 0px 10px; position: relative;">
 
-                <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Architecture</span>
-                </h1>
+            <div class="dept-architecture-content">
 
-                <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-                    Architecture (RSA)
-                </h2>
+                <h3>About <span>Department</span></h3>
 
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-
-                            <div class="txaa-slide-down-1">
-                                <div style=" height: 400px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async"
-                                        src="mobile-assets/department-all/dept-arch/head-img.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-
-                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Architecture Department is a dynamic hub of innovation and creativity, boasting a
-                                diverse array of
-                                strengths and competencies. With a strong emphasis on sustainable design practices, digital
-                                fabrication
-                                techniques, and interdisciplinary collaboration, graduates emerge equipped to tackle the
-                                complex
-                                challenges facing the built environment. The department's thrust areas encompass urban
-                                revitalization,
-                                resilient infrastructure, and adaptive reuse, reflecting a commitment to addressing pressing
-                                societal
-                                needs while embracing technological advancements. Graduates possess a unique blend of
-                                artistic vision,
-                                technical expertise, and critical thinking skills, positioning them for success in a variety
-                                of career
-                                paths. Whether pursuing roles in architectural firms, urban planning agencies, or academia,
-                                alumni are
-                                well-prepared to make meaningful contributions to shaping the future of our cities and
-                                communities.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pt-3">
-
-                    <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
-                        <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                    </h1>
-
-                    <img src="mobile-assets/department-all/dept-arch/vision-mission-mob.png" alt="">
-                </div>
-
-
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <div class="container pt-3">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size: 18px;">B.Arch</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-barch" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">5 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-barch">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-
+                <p>
+                    The Architecture Department is a dynamic hub of innovation and creativity, boasting a diverse array
+                    of strengths and competencies. With a strong emphasis on sustainable design practices, digital
+                    fabrication techniques, and interdisciplinary collaboration, graduates emerge equipped to tackle the
+                    complex challenges facing the built environment. The department's thrust areas encompass urban
+                    revitalization, resilient infrastructure, and adaptive reuse, reflecting a commitment to addressing
+                    pressing societal needs while embracing technological advancements. Graduates possess a unique blend
+                    of artistic vision, technical expertise, and critical thinking skills, positioning them for success
+                    in a variety of career paths. Whether pursuing roles in architectural firms, urban planning
+                    agencies, or academia, alumni are well-prepared to make meaningful contributions to shaping the
+                    future of our cities and communities.
+                </p>
 
             </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Arch
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="doctoral-programme" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <!-- mobile events  -->
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9;">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.09.2024, Er. JN Khatanair, Chief Consultant Engineer
-                                                            Shrishtie Guwahati,
-                                                            Chairperson Northeast Chapter Indian Green Building Council IGBC
-                                                            Hyderabad, attended a
-                                                            Technical Lecture on “Sustainable Building for Warm and Humid
-                                                            Climatic Zone,” on the
-                                                            occasion of Engineer’s Day.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.09.2024, Ms. Faye Fernandes, Country Director of Torrens
-                                                            University, Australia,
-                                                            attended an interactive session on "Career Opportunity for
-                                                            Designers," organized by
-                                                            Royal School of Architecture and Royal School of Design.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            From 31.07.2024 to 10.08.2024, Er. Rajesh Dutta (Engineering
-                                                            Consultant in ASDMA)
-                                                            attended a Session on Disaster Management and Mitigation
-                                                            organized by Royal School of
-                                                            Architecture and Royal School of Design.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 23.07.2024, Ar. Anuj Bhajanka attended a Re-orientation
-                                                            program for the upcoming
-                                                            semester organized by Royal School of Architecture and Royal
-                                                            School of Design.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.05.2024, Ar. Ronojoy Sen joined Panel Discussions
-                                                            organised as part of Day 3 of
-                                                            Knoxis Design Fest.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 28.08.2023, Ar. Farha Shermin attended an Interactive Session
-                                                            as part of the
-                                                            Students Induction Program of B.Arch and BID/DID 1st Sem.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.05.2023, Ar. Gita Balakrishnana joined Panel Discussions
-                                                            organised as part of
-                                                            Day 3 of Knoxis Design Fest.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.05.2023, Ar. Ashish Agarwal joined Panel Discussions
-                                                            organised as part of Day 3
-                                                            of Knoxis Design Fest.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.05.2023, Mahan J Dutta conducted Workshops organised as
-                                                            part of Day 3 of Knoxis
-                                                            Design Fest.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 18.05.2023, Asutosh Kashyap conducted Workshops organised as
-                                                            part of Day 3 of
-                                                            Knoxis Design Fest.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 05.04.2023, Dr. Anunaya Chaubey held an Interactive session
-                                                            regarding Anant
-                                                            University's flagship program, Anant Fellowship.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 28.10.2022, Debabrata Rajkumar conducted an Interactive
-                                                            Session on Climate Change
-                                                            and Waste Management.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 11.10.2022, Mr. Ashish Agarwal, Entrepreneur, conducted an
-                                                            Interactive session.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            From 20.08.2019 to 21.08.2019, Ar. Pragati Goyal led the
-                                                            Orientation Programme for
-                                                            Freshers of RSA, RSFT, RSD, RSFA.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 16.08.2019, Nilakshi More led the Orientation Programme for
-                                                            Freshers of RSA and
-                                                            RSD.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            From 6 to 8.03.2019, Prof. Abhijit Shirodkar held an Interactive
-                                                            session.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            From 24 to 25.01.2019, Trailokya Hazarika coordinated Birla
-                                                            White Cement Competitions:
-                                                            1. Yuvaratna, 2. Yuvaratna Nxt.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            From 21 to 23.01.2019, Asoke Sengupta, Gaurav Dalmia, Pragyan
-                                                            Dowerah, and Parijit
-                                                            Phukan hosted a Meditation Workshop by Heartfulness Foundation.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 7.08.2018, Ashish Batliwala conducted a 3D Printing Workshop.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 30.07.2018, Pankaj Bhattacharjee from Greenlam conducted a
-                                                            Workshop on Laminates.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A; ">
-
-                                                            On 5.02.2018, Dr. Repaul Kanji from IIT Roorkee conducted a
-                                                            Workshop on ‘Awareness of
-                                                            Disaster Mitigation & Management’.
-
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                    background: linear-gradient(135deg, #243B95, #151B5B);
-                    color: #fff; font-weight: 600; font-size: 16px;
-                    border-radius: 25px; text-decoration: none;
-                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                    transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.6;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-                <!-- mobile events  -->
-
-            </div>
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-              background:linear-gradient(135deg,#24477f,#1a365d);
-              color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-2"
-                                style="font-size: 16px;">
-                                <thead class="text-white" style="background-color: #27467a;">
-                                    <tr>
-                                        <th class="text-white">S.No.</th>
-                                        <th class="text-white">Position In S-BOS</th>
-                                        <th class="text-white">Name And Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="mobile-para1 align-middle"
-                                    style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                        <td>Prof. (Dr.) Hari Prasad Agarwal, Principal, RSA</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Professors of the School Members (Ex-Officio)</td>
-                                        <td>Ar. Siddhartha Deb, Professor</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>Prof. (Dr.) Abhijit Shirodkar, Dean, School of Architecture &amp; Planning,
-                                            Woxsen
-                                            University, Kamkole,
-                                            Sadasivpet, District Sangareddy, Telangana 502345</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>Ar. Ranel Kumar Das, Founder &amp; Principal Architect of Ranel Associates
-                                            Architects,
-                                            B. Baruah Road,
-                                            Ullubari, Guwahati-07</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Two Faculty members of the School nominated by the Vice Chancellor</td>
-                                        <td>Ar. Kasturi Borah, Associate Professor, RSA</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                        <td>Dr. Dip Narayain Singh or his nominee</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div>
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
-              background:linear-gradient(135deg,#24477f,#1a365d);
-              color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-2"
-                                style="font-size: 16px;">
-                                <thead class="text-white align-middle" style="background-color: #27467a;">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="mobile-para1 align-middle"
-                                    style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Head of the Department</td>
-                                        <td>Dr. Hari Prasad Agarwal, RSA</td>
-                                        <td>Professor</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">2</td>
-                                        <td rowspan="2">Two Professors</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3</td>
-                                        <td rowspan="2">
-                                            Two Associate Professors – one of them will be the member secretary
-                                        </td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">4</td>
-                                        <td rowspan="2">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">5</td>
-                                        <td rowspan="3">
-                                            Three external members not below the rank of Professors,
-                                            including members from an allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. (Dr.) Shila Bora</td>
-                                        <td>Professor, RSHSS, RGU</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) Krishna Barua</td>
-                                        <td>Professor, RSL, RGU</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) Suresh Chandra Nayak</td>
-                                        <td>Professor, RSCOM</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
-
-            <script>
-                const mobAccPairs = [
-                    { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
-                    { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
-                    { btn: 'mobAccBtn3', panel: 'mobAccPanel3' },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function () {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function (e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
-        <div class="website">
+        <!-- vision mission  -->
+        <div class="dept-architecture-prospects-section" id="dept-vision">
+            <h2 class="dept-architecture-section-title">Vision <span>& Mission</span></h2>
 
-            <section>
+            <div class="dept-architecture-prospects-content">
 
-                @include('frontend/components/aheader')
-                <!-- floating button  -->
-                <div>
-                    <a href="https://admissions.rgu.ac/"
-                        style="
-                                                                                                                                            position: fixed;
-                                                                                                                                            bottom: 35px;
-                                                                                                                                            right: 50px;
-                                                                                                                                            background-color: #ef991f;
-                                                                                                                                            color: #fff;
-                                                                                                                                            padding: 12px 20px;
-                                                                                                                                            font-size: 18px;
-                                                                                                                                            font-weight: bold;
-                                                                                                                                            text-decoration: none;
-                                                                                                                                            border-radius: 20px;
-                                                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                                            z-index: 1000;
-                                                                                                                                            overflow: hidden;
-                                                                                                                                            animation: pulse 2s infinite;
-                                                                                                                                            ">
-                        <span
-                            style="
-                                                                                                                                            position: absolute;
-                                                                                                                                            top: 0;
-                                                                                                                                            left: -75%;
-                                                                                                                                            width: 50%;
-                                                                                                                                            height: 100%;
-                                                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                                            transform: skewX(-25deg);
-                                                                                                                                            animation: shine 2s infinite;
-                                                                                                                                            "></span>
-                        Admission Open - Apply Now
-                    </a>
-                    <style>
-                        @keyframes pulse {
-                            0% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
+                <h3 class="dept-architecture-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-architecture-bullet-list">
+                    <li>
+                        To offer students nationally and internationally integrated opportunities in the field of design
+                        to create global citizens, endowed with creativity and inclusive ideal of sustainability.
+                    </li>
 
-                            50% {
-                                transform: scale(1.05);
-                                box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                            }
+                </ul>
 
-                            100% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-                        }
+                <h3 class="dept-architecture-subheading">Our Mission</h3>
+                <ul class="dept-architecture-bullet-list">
+                    <li>
+                        To achieve innovative research and curriculum design with industry-oriented teaching learning
+                        methodologies.
+                    </li>
 
-                        @keyframes shine {
-                            0% {
-                                left: -75%;
-                            }
+                    <li>
+                        To encourage students to become professionally adept, morally upright citizens capable of
+                        rendering invaluable service to Society and the Nation.
+                    </li>
 
-                            100% {
-                                left: 125%;
-                            }
-                        }
-                    </style>
-                </div>
-                <!-- floating button  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
+                    <li>
+                        To encourage students to become World Class Architects with ethical and value-based practices
+                        for sustainable development & core human values.
+                    </li>
 
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
+                </ul>
 
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
+            </div>
+        </div>
 
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
+        <div class="dept-architecture-courses-section" id="dept-courses">
+            <h2 class="dept-architecture-section-title">Courses <span>Offered</span></h2>
 
-                    <!-- Events -->
-                    <a href="#events" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                            Highlights</span>
-                    </a>
+            <div class="dept-architecture-course-list" id="course-list-container">
+            </div>
+        </div>
 
-                    <!-- Academic Excellence -->
-                    <a href="#academic-excellence" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                            Excellence</span>
-                    </a>
+        <!-- <div class="dept-architecture-prospects-section" id="dept-prospects">
+          <h2 class="dept-architecture-section-title">Career <span>Prospects</span></h2>
 
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
+          <div class="dept-architecture-prospects-content">
+            <p class="dept-architecture-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
+            <h3 class="dept-architecture-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-architecture-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
+            <h3 class="dept-architecture-subheading">Government Sector Jobs</h3>
+            <ol class="dept-architecture-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
+            <h3 class="dept-architecture-subheading">Private Sector Careers</h3>
+            <ol class="dept-architecture-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
-                </div>
-                <!-- floating buttons  -->
+            <h3 class="dept-architecture-subheading">Research & Teaching</h3>
+            <ol class="dept-architecture-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-                        <div class="p-5">
-                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Architecture</span>
-                            </h1>
+            <h3 class="dept-architecture-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-architecture-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-                            <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                                Architecture (RSA)
-                            </h2>
+            <h3 class="dept-architecture-subheading">Jobs Abroad</h3>
+            <ol class="dept-architecture-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-architecture-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-architecture-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-architecture-accordion-section" id="dept-syllabus">
+            <h2 class="dept-architecture-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-architecture-accordion-wrapper">
+
+                <!-- <div class="dept-architecture-accordion-item active">
+                        <div class="dept-architecture-accordion-header">
+                            <div class="dept-architecture-accordion-header-left">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Diploma</span>
+                            </div>
+                            <i class="fa-solid fa-chevron-down dept-architecture-chevron"></i>
                         </div>
 
-                        <div class="container p-4">
-                            <div class="row align-items-center gx-5">
+                        <div class="dept-architecture-accordion-content">
+                            <div class="dept-architecture-syllabus-list">
 
-                                <div class="col-lg-6 text-center">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div>
-                                            <img class="rounded w-60" decoding="async"
-                                                src="mobile-assets/department-all/dept-arch/head-img.png" alt="">
-                                        </div>
+                                <a target="_blank"
+                                    href="https://www.rgu.ac/programs-General-Nursing-Midwifery"
+                                    class="dept-architecture-syllabus-link">
+                                    <div class="dept-architecture-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        General Nursing & Midwifery (GNM)
                                     </div>
-                                </div>
-
-                                <div class="col-lg-6">
-
-                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                                    <p class="mobile-para1 pt-3"
-                                        style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Architecture Department is a dynamic hub of innovation and creativity, boasting
-                                        a diverse array
-                                        of strengths and competencies. With a strong emphasis on sustainable design
-                                        practices, digital
-                                        fabrication techniques, and interdisciplinary collaboration, graduates emerge
-                                        equipped to tackle the
-                                        complex challenges facing the built environment. The department's thrust areas
-                                        encompass urban
-                                        revitalization, resilient infrastructure, and adaptive reuse, reflecting a
-                                        commitment to addressing
-                                        pressing societal needs while embracing technological advancements. Graduates
-                                        possess a unique blend
-                                        of artistic vision, technical expertise, and critical thinking skills, positioning
-                                        them for success
-                                        in a variety of career paths. Whether pursuing roles in architectural firms, urban
-                                        planning
-                                        agencies, or academia, alumni are well-prepared to make meaningful contributions to
-                                        shaping the
-                                        future of our cities and communities.
-
-
-                                    </p>
-
-                                </div>
+                                    <i class="fa-solid fa-download dept-architecture-download-icon"></i>
+                                </a>
 
                             </div>
                         </div>
+                    </div> -->
 
-
-                        <div style="background-color: #fff;">
-                            <div class="p-5">
-                                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                                </h1>
-
-                                <img class="w-100" src="mobile-assets/department-all/dept-arch/vision-mission-web.png"
-                                    alt="">
-                            </div>
+                <div class="dept-architecture-accordion-item active">
+                    <div class="dept-architecture-accordion-header">
+                        <div class="dept-architecture-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
                         </div>
+                        <i class="fa-solid fa-chevron-down dept-architecture-chevron"></i>
+                    </div>
 
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">B.Arch</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-barch" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 5
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-barch">View Details</a>
-                                    </span>
+                    <div class="dept-architecture-accordion-content">
+                        <div class="dept-architecture-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf"
+                                class="dept-architecture-syllabus-link">
+                                <div class="dept-architecture-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus
                                 </div>
+                                <i class="fa-solid fa-download dept-architecture-download-icon"></i>
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf"
+                                class="dept-architecture-syllabus-link">
+                                <div class="dept-architecture-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus
+                                </div>
+                                <i class="fa-solid fa-download dept-architecture-download-icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-architecture-accordion-item">
+                    <div class="dept-architecture-accordion-header">
+                        <div class="dept-architecture-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-architecture-chevron"></i>
+                    </div>
+
+                    <div class="dept-architecture-accordion-content">
+                        <div class="dept-architecture-syllabus-list">
+                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-architecture-syllabus-link"
+                                download>
+                                <div class="dept-architecture-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
+                                </div>
+
                             </a>
                         </div>
-
-
-
                     </div>
+                </div>
 
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -
-                                                                B.Arch
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="doctoral-programme" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section id="events">
-
-                    <div class="container pb-4">
-
-                        <!-- events  -->
-                        <div class="row" style="display: flex; justify-content: center;">
-
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9; ">
-
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.09.2024, Er. JN Khatanair, Chief Consultant
-                                                                    Engineer Shrishtie Guwahati,
-                                                                    Chairperson Northeast Chapter Indian Green Building
-                                                                    Council IGBC Hyderabad, attended a
-                                                                    Technical Lecture on “Sustainable Building for Warm and
-                                                                    Humid Climatic Zone,” on the
-                                                                    occasion of Engineer’s Day.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.09.2024, Ms. Faye Fernandes, Country Director of
-                                                                    Torrens University, Australia,
-                                                                    attended an interactive session on "Career Opportunity
-                                                                    for Designers," organized by
-                                                                    Royal School of Architecture and Royal School of Design.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    From 31.07.2024 to 10.08.2024, Er. Rajesh Dutta
-                                                                    (Engineering Consultant in ASDMA)
-                                                                    attended a Session on Disaster Management and Mitigation
-                                                                    organized by Royal School of
-                                                                    Architecture and Royal School of Design.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 23.07.2024, Ar. Anuj Bhajanka attended a
-                                                                    Re-orientation program for the upcoming
-                                                                    semester organized by Royal School of Architecture and
-                                                                    Royal School of Design.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.05.2024, Ar. Ronojoy Sen joined Panel Discussions
-                                                                    organised as part of Day 3 of
-                                                                    Knoxis Design Fest.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 28.08.2023, Ar. Farha Shermin attended an Interactive
-                                                                    Session as part of the
-                                                                    Students Induction Program of B.Arch and BID/DID 1st
-                                                                    Sem.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.05.2023, Ar. Gita Balakrishnana joined Panel
-                                                                    Discussions organised as part of
-                                                                    Day 3 of Knoxis Design Fest.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.05.2023, Ar. Ashish Agarwal joined Panel
-                                                                    Discussions organised as part of Day 3
-                                                                    of Knoxis Design Fest.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.05.2023, Mahan J Dutta conducted Workshops
-                                                                    organised as part of Day 3 of Knoxis
-                                                                    Design Fest.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 18.05.2023, Asutosh Kashyap conducted Workshops
-                                                                    organised as part of Day 3 of
-                                                                    Knoxis Design Fest.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 05.04.2023, Dr. Anunaya Chaubey held an Interactive
-                                                                    session regarding Anant
-                                                                    University's flagship program, Anant Fellowship.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 28.10.2022, Debabrata Rajkumar conducted an
-                                                                    Interactive Session on Climate Change
-                                                                    and Waste Management.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 11.10.2022, Mr. Ashish Agarwal, Entrepreneur,
-                                                                    conducted an Interactive session.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    From 20.08.2019 to 21.08.2019, Ar. Pragati Goyal led the
-                                                                    Orientation Programme for
-                                                                    Freshers of RSA, RSFT, RSD, RSFA.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 16.08.2019, Nilakshi More led the Orientation
-                                                                    Programme for Freshers of RSA and
-                                                                    RSD.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    From 6 to 8.03.2019, Prof. Abhijit Shirodkar held an
-                                                                    Interactive session.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    From 24 to 25.01.2019, Trailokya Hazarika coordinated
-                                                                    Birla White Cement Competitions:
-                                                                    1. Yuvaratna, 2. Yuvaratna Nxt.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    From 21 to 23.01.2019, Asoke Sengupta, Gaurav Dalmia,
-                                                                    Pragyan Dowerah, and Parijit
-                                                                    Phukan hosted a Meditation Workshop by Heartfulness
-                                                                    Foundation.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 7.08.2018, Ashish Batliwala conducted a 3D Printing
-                                                                    Workshop.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 30.07.2018, Pankaj Bhattacharjee from Greenlam
-                                                                    conducted a Workshop on Laminates.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A; ">
-
-                                                                    On 5.02.2018, Dr. Repaul Kanji from IIT Roorkee
-                                                                    conducted a Workshop on ‘Awareness of
-                                                                    Disaster Mitigation & Management’.
-
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
-                    background: linear-gradient(135deg, #243B95, #151B5B);
-                    color: #fff; font-weight: 600; font-size: 16px;
-                    border-radius: 25px; text-decoration: none;
-                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                    transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-
-
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    // Duplicate content for infinite scroll
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-
-                            </div>
-
-
-                        </div>
-                        <!-- events  -->
-
-                    </div>
-
-                </section>
-
-                <section id="academic-excellence">
-
-                    <section
-                        style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 95vh; padding: 50px;">
-
-                        <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                            Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                        </h2>
-
-                        <div
-                            style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-lg-12">
-
-                                <h2 class="headd1 fw-bold mb-3"
-                                    style="font-size: 35px; color: #f8c22f; padding-left: 10px;">APSC 2023
-                                </h2>
-
-                                <div style="display: flex; justify-content: center;">
-                                    <div style="padding: 30px 20px;">
-                                        <div class="carousel" mask>
-                                            <div class="carousel-track">
-
-                                                <!-- Example cards -->
-                                                <article class="bg-white text-dark rounded"
-                                                    style="width: 300px; height: 340px; display: flex; flex-direction: column;">
-
-                                                    <div class="rounded"
-                                                        style="background-color: #E6E6E6; padding: 5px 20px; margin: 10px 10px;">
-                                                        <p class="para1 fw-bold pt-1"
-                                                            style="color: #24477f; font-size: 26px;">Nilakshi Chakravarty
-                                                            <br>
-                                                            <span class="text-dark"
-                                                                style="font-size: 18px;">Architecture</span>
-
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="rounded"
-                                                        style="background-color: #E6E6E6; padding: 5px 20px; margin: 5px 10px;">
-                                                        <p class="para1 fw-bold pt-1"
-                                                            style="color: #24477f; font-size: 26px;">Priyanka Saikia
-                                                            <br>
-                                                            <span class="text-dark"
-                                                                style="font-size: 18px;">Architecture</span>
-
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="rounded text-center"
-                                                        style="background-color: #FF9A1E; height: 45px; margin-top: auto;">
-                                                        <p class="para1 fw-bold text-white pt-2">Batch: 2011 - 15</p>
-                                                    </div>
-                                                </article>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <style>
-                                    .carousel {
-                                        --carousel-width: min(85vw, 880px);
-                                        --carousel-item-width: 280px;
-                                        --carousel-item-height: 350px;
-                                        --carousel-item-gap: 2rem;
-                                        position: relative;
-                                        width: var(--carousel-width);
-                                        overflow: hidden;
-                                    }
-
-                                    .carousel[mask] {
-                                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                                    }
-
-                                    .carousel-track {
-                                        display: flex;
-                                        justify-content: center;
-                                        gap: var(--carousel-item-gap);
-                                        animation: marquee var(--carousel-duration) linear infinite;
-                                    }
-
-                                    .carousel article {
-                                        flex: 0 0 var(--carousel-item-width);
-                                        height: var(--carousel-item-height);
-                                        display: grid;
-                                        grid-template-rows: 200px auto 1fr auto;
-                                        border-radius: 10px;
-                                        background: white;
-                                        color: #314158;
-                                    }
-
-                                    .carousel img {
-                                        width: 100%;
-                                        height: 100%;
-                                        object-fit: cover;
-                                        border-radius: 15px !important;
-                                    }
-
-                                    .carousel article>*:not(img) {
-                                        padding: 0 1rem;
-                                    }
-
-                                    @keyframes marquee {
-                                        from {
-                                            transform: translateX(0);
-                                        }
-
-                                        to {
-                                            transform: translateX(var(--scroll-distance));
-                                        }
-                                    }
-                                </style>
-
-                                <!-- <script>
-                          const track = document.querySelector('.carousel-track');
-                          const cards = Array.from(track.children);
-
-                          cards.forEach(card => {
-                            track.appendChild(card.cloneNode(true));
-                          });
-
-
-                          const carouselEl = document.querySelector('.carousel');
-                          const styles = getComputedStyle(carouselEl);
-                          const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                          const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                          const totalCards = track.children.length;
-
-
-                          const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-
-                          track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-
-                          const speed = 80;
-                          const duration = halfTrackWidth / speed;
-                          track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script> -->
-
-                            </div>
-
-                        </div>
-
-                    </section>
-
-                </section>
-
-                <div id="bos" class="container pb-5 pt-5">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                           background:linear-gradient(135deg,#24477f,#1a365d);
-                           color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-2"
-                                                style="font-size: 16px;">
-                                                <thead class="text-white" style="background-color: #27467a;">
-                                                    <tr>
-                                                        <th class="text-white">S.No.</th>
-                                                        <th class="text-white">Position In S-BOS</th>
-                                                        <th class="text-white">Name And Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="mobile-para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                                        <td>Prof. (Dr.) Hari Prasad Agarwal, Principal, RSA</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Professors of the School Members (Ex-Officio)</td>
-                                                        <td>Ar. Siddhartha Deb, Professor</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Experts for each Department (Academic)</td>
-                                                        <td>Prof. (Dr.) Abhijit Shirodkar, Dean, School of Architecture
-                                                            &amp; Planning, Woxsen
-                                                            University, Kamkole,
-                                                            Sadasivpet, District Sangareddy, Telangana 502345</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>External Experts for each Department (Industry)</td>
-                                                        <td>Ar. Ranel Kumar Das, Founder &amp; Principal Architect of Ranel
-                                                            Associates Architects,
-                                                            B. Baruah Road,
-                                                            Ullubari, Guwahati-07</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Two Faculty members of the School nominated by the Vice
-                                                            Chancellor</td>
-                                                        <td>Ar. Kasturi Borah, Associate Professor, RSA</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                                        <td>Dr. Dip Narayain Singh or his nominee</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                           background:linear-gradient(135deg,#24477f,#1a365d);
-                           color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-2"
-                                                style="font-size: 16px;">
-                                                <thead class="text-white align-middle" style="background-color: #27467a;">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="mobile-para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Dr. Hari Prasad Agarwal, RSA</td>
-                                                        <td>Professor</td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">2</td>
-                                                        <td rowspan="2">Two Professors</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">3</td>
-                                                        <td rowspan="2">
-                                                            Two Associate Professors – one of them will be the member
-                                                            secretary
-                                                        </td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">4</td>
-                                                        <td rowspan="2">
-                                                            Two Assistant Professors holding Ph.D. degree
-                                                        </td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">5</td>
-                                                        <td rowspan="3">
-                                                            Three external members not below the rank of Professors,
-                                                            including members from an allied department, who will be
-                                                            nominated by the URC
-                                                        </td>
-                                                        <td>Prof. (Dr.) Shila Bora</td>
-                                                        <td>Professor, RSHSS, RGU</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. (Dr.) Krishna Barua</td>
-                                                        <td>Professor, RSL, RGU</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. (Dr.) Suresh Chandra Nayak</td>
-                                                        <td>Professor, RSCOM</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-
-                        const accPairs = [
-                            { btn: 'accBtn1', panel: 'accPanel1' },
-                            { btn: 'accBtn2', panel: 'accPanel2' },
-                            { btn: 'accBtn3', panel: 'accPanel3' }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function () {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function (e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
+            </div>
+        </div>
+
+        <div class="dept-architecture-events-section" id="dept-events">
+
+            <h2 class="dept-architecture-section-title">Events</h2>
+
+            <div class="dept-architecture-events-box">
+                <div class="dept-architecture-events-track" id="events-track"></div>
+            </div>
+
+            <!-- <div style="text-align:center; margin-top:30px;">
+            <a href="#" class="dept-architecture-events-btn">View All</a>
+          </div> -->
+
+        </div>
+
+        <div class="academic-exce-section">
+
+            <h2 class="dept-architecture-section-title">Academic <span>Excellence</span></h2>
+
+            <div class="academic-exce-grid" id="academicExceGrid">
+
+                <!-- JS RENDER -->
+
+            </div>
+
+        </div>
+
+        <div class="dept-architecture-table-section" id="dept-committee">
+
+            <div class="dept-architecture-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+        <div class="dept-architecture-lab-section" id="dept-lab">
+
+            <div class="dept-architecture-lab-container">
+
+                <h2 class="dept-architecture-section-title">Architecture <span>Design Studios</span></h2>
+
+                <p class="dept-architecture-lab-intro">
+                    The design studios of the Royal School of Architecture throw a focus on advanced digital
+                    technologies, material systems and design research which strives to shape the future of the next
+                    generation of designers. In an era of smart cities, sustainable buildings, and contemporary
+                    architecture, we train our students to become lateral thinkers by focusing on a critical design
+                    approach. The studios are situated in block- C on the second and third floor.
+                </p>
+
+
+
+                <!-- <h2 class="dept-architecture-section-title">Glimpse of <span>our Lab</span></h2> -->
+
+                <div class="dept-architecture-lab-gallery">
+                    <img src="mobile-assets/new-dept-architecture/studio/1.jpg" alt="Lab 1"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/2.jpg" alt="Lab 2"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/3.jpg" alt="Lab 3"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/4.jpg" alt="Lab 4"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/5.jpg" alt="Lab 5"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/6.jpg" alt="Lab 6"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/7.jpg" alt="Lab 7"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/8.jpg" alt="Lab 8"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/9.jpg" alt="Lab 8"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/10.jpg" alt="Lab 8"
+                        class="dept-architecture-lab-img">
+
+                    <img src="mobile-assets/new-dept-architecture/studio/11.jpg" alt="Lab 8"
+                        class="dept-architecture-lab-img">
 
                 </div>
 
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function () {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function () {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function (e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-
-                </script>
-
-            </section>
+                <!-- <button class="dept-architecture-explore-btn">Explore</button> -->
+            </div>
 
         </div>
 
     </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+            title: "B.Arch",
+            duration: "5 years",
+            link: "https://www.rgu.ac/programs-barch"
+        }];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-architecture-course-card">
+
+          <div class="dept-architecture-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-architecture-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-architecture-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-architecture-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-architecture-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-architecture-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-architecture-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "On 18th September 2024, Er. JN Khatanair attended a technical lecture on 'Sustainable Building for Warm and Humid Climatic Zone' on the occasion of Engineer’s Day.",
+            "On 18th September 2024, Ms. Faye Fernandes, Country Director of Torrens University, Australia, attended an interactive session on 'Career Opportunity for Designers' organized by Royal School of Architecture and Royal School of Design.",
+            "From 31st July 2024 to 10th August 2024, Er. Rajesh Dutta attended a session on disaster management and mitigation organized by Royal School of Architecture and Royal School of Design.",
+            "On 23rd July 2024, Ar. Anuj Bhajanka attended a re-orientation program for the upcoming semester organized by Royal School of Architecture and Royal School of Design.",
+            "On 18th May 2024, Ar. Ronojoy Sen joined panel discussions organized as part of Day 3 of Knoxis Design Fest.",
+            "On 28th August 2023, Ar. Farha Shermin attended an interactive session as part of the Students Induction Program of B.Arch and BID/DID 1st Semester.",
+            "On 18th May 2023, Ar. Gita Balakrishnan joined panel discussions organized as part of Day 3 of Knoxis Design Fest.",
+            "On 18th May 2023, Ar. Ashish Agarwal joined panel discussions organized as part of Day 3 of Knoxis Design Fest.",
+            "On 18th May 2023, Mahan J Dutta conducted workshops organized as part of Day 3 of Knoxis Design Fest.",
+            "On 18th May 2023, Asutosh Kashyap conducted workshops organized as part of Day 3 of Knoxis Design Fest.",
+            "On 5th April 2023, Dr. Anunaya Chaubey held an interactive session regarding Anant University's flagship program, Anant Fellowship.",
+            "On 28th October 2022, Debabrata Rajkumar conducted an interactive session on climate change and waste management.",
+            "On 11th October 2022, Mr. Ashish Agarwal conducted an interactive session.",
+            "From 20th August 2019 to 21st August 2019, Ar. Pragati Goyal led the orientation programme for freshers of RSA, RSFT, RSD, and RSFA.",
+            "On 16th August 2019, Nilakshi More led the orientation programme for freshers of RSA and RSD.",
+            "From 6th March 2019 to 8th March 2019, Prof. Abhijit Shirodkar held an interactive session.",
+            "From 24th January 2019 to 25th January 2019, Trailokya Hazarika coordinated Birla White Cement Competitions: Yuvaratna and Yuvaratna Nxt.",
+            "From 21st January 2019 to 23rd January 2019, Asoke Sengupta, Gaurav Dalmia, Pragyan Dowerah, and Parijit Phukan hosted a meditation workshop by Heartfulness Foundation.",
+            "On 7th August 2018, Ashish Batliwala conducted a 3D Printing Workshop.",
+            "On 30th July 2018, Pankaj Bhattacharjee from Greenlam conducted a workshop on laminates.",
+            "On 5th February 2018, Dr. Repaul Kanji from IIT Roorkee conducted a workshop on 'Awareness of Disaster Mitigation & Management'."
+        ];
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-architecture-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Name of the Member", "Designation", "Status"],
+                rows: [
+                    ["1", "Prof. (Dr.) Hari Prasad Agarwal", "Principal of RSA", "Chairperson"],
+
+                    ["2", "Ar. Siddhartha Deb", "Professor", "Ex-officio Member"],
+
+                    ["3", "Prof. N S Rathor", "Professor and Dean", "Academic Expert"],
+
+                    ["4", "Ar. Rajesh Gaggar", "Architect", "Industry Expert"],
+
+                    ["5", "Dr. Diganta Munshi", "Registrar-Administration", "Member Secretary"],
+
+                    ["6", "Prof. Nandana Dutta", "Dean of Academics", "Invited Member"],
+
+                    ["7", "Ar. Kasturi Borah", "Associate Professor", "Nominee of the Vice-Chancellor"],
+
+                    ["8", "Ar. Sanchari Kar", "Assistant Professor", "Nominee of the Vice-Chancellor"],
+
+                    ["9", "Ar. Barsha Kunda", "Assistant Professor", "Special Invitee"],
+
+                    ["10", "Ar. Ritu Rani", "Assistant Professor", "Special Invitee"]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the committee"],
+                rows: [
+                    ["1", "Head of the Department", "Prof. Dr. Hari Prasad Agarwal", "Dean, RSA, RSD, RSFD, RSFA",
+                        "Chairperson"
+                    ],
+
+                    ["2", "Two Professors, including the Dean of the School", "Prof. Dr. Debendra Nayak",
+                        "Dean, RSEES", "Member"
+                    ],
+
+                    ["3", "", "Prof. Dr. Shwetambara", "Head, Civil Department", "Member"],
+
+                    ["4", "Two Associate Professors – one of them will be the member secretary", "", "", ""],
+
+
+                    ["5", "Two Assistant Professors holding Ph.D. degree", "Dr. Mousumi Deka",
+                        "Assistant Professor, RSFA", "Member"
+                    ],
+
+                    ["6", "", "Dr. Susmita Nath", "Assistant Professor, RSD", "Member"],
+
+                    ["7",
+                        "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                        "Prof. (Dr.) Suchandra Bardhan",
+                        "Professor, Department of Architecture, Jadavpur University, Kolkata", "External Member"
+                    ],
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-architecture-table-responsive">
+          <table class="dept-architecture-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-architecture-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-architecture-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-architecture-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-architecture-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-architecture-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-architecture-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-architecture-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        (function() {
+
+            /* ================= EVENT DATA ================= */
+            const eventGalleryData = [{
+                    title: "03-06-2025: World No Tobacco Day (Organised at Swagat Hospital, Maligaon)",
+                    image: "mobile-assets/new-dept-architecture/events/e1/1.jpg"
+                },
+                {
+                    title: "15–16 July 2025: International Conference on Exploring Technological Advancement in Health Care: Empowering Nurses for Quality Care",
+                    image: "mobile-assets/new-dept-architecture/events/e2/2.jpg"
+                },
+                {
+                    title: "1–7 August: World Breastfeeding Week (Theme: Prioritize Breastfeeding – Create Sustainable Support System)",
+                    image: "mobile-assets/new-dept-architecture/events/e12/1.jpg"
+                },
+                {
+                    title: "06-08-2025: Mental Health Awareness Talk (in collaboration with Deeksharambha)",
+                    image: "mobile-assets/new-dept-architecture/events/e3/3.jpg"
+                },
+                {
+                    title: "17-09-2026: World Patient Safety Day (Theme: Safe Care for Every Newborn and Every Child; Slogan: Patient Safety from the Start)",
+                    image: "mobile-assets/new-dept-architecture/events/e4/4.jpg"
+                },
+                {
+                    title: "24-10-2025: Lamp Lighting and Path Taking Ceremony",
+                    image: "mobile-assets/new-dept-architecture/events/e5/5.jpg"
+                },
+                {
+                    title: "14-11-2026: World Diabetes Day (Celebrated at NE Railway Hospital, Maligaon; Theme: Diabetes Across Life Stages)",
+                    image: "mobile-assets/new-dept-architecture/events/e6/6.jpg"
+                },
+                {
+                    title: "01-12-2025: World AIDS Day (Theme: Overcoming Disruption, Transforming the AIDS Response; District Hospital Sonapur)",
+                    image: "mobile-assets/new-dept-architecture/events/e7/7.jpg"
+                },
+                {
+                    title: "04-02-2026: World Cancer Day (Theme: United by Unique; Swagat Super Speciality Hospital)",
+                    image: "mobile-assets/new-dept-architecture/events/e8/8.jpg"
+                },
+                {
+                    title: "24-03-2026: World TB Day (Theme: Yes We Can End TB – Led by Countries, Powered by People; Swagat Super Speciality Hospital)",
+                    image: "mobile-assets/new-dept-architecture/events/e9/9.jpg"
+                },
+                {
+                    title: "28-02-2026: School Health Programme (Nalapara Prathamik Vidyalaya, Guwahati)",
+                    image: "mobile-assets/new-dept-architecture/events/e10/10.jpg"
+                },
+                {
+                    title: "07-04-2026: World Health Day (Rani High School)",
+                    image: "mobile-assets/new-dept-architecture/events/e11/11.jpg"
+                },
+
+            ];
+
+            /* ================= GET CONTAINER ================= */
+            const eventGalleryContainer = document.getElementById("event-gallery-container");
+
+            if (!eventGalleryContainer) return;
+
+            /* ================= RENDER FUNCTION ================= */
+            function renderEventGallery() {
+
+                if (!eventGalleryData || eventGalleryData.length === 0) {
+                    eventGalleryContainer.innerHTML = `
+                <p style="text-align:center; color:#556b8d;">
+                    No events available at the moment.
+                </p>
+            `;
+                    return;
+                }
+
+                const html = eventGalleryData.map(event => `
+            <div class="dept-architecture-event-acc-item">
+
+                <div class="dept-architecture-event-acc-header">
+                    <span>${event.title}</span>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+
+                <div class="dept-architecture-event-acc-content">
+                    <div class="dept-architecture-event-img">
+                        <img src="${event.image}" alt="event image">
+                    </div>
+                </div>
+
+            </div>
+        `).join("");
+
+                eventGalleryContainer.innerHTML = html;
+            }
+
+            /* ================= ACCORDION LOGIC ================= */
+            function initAccordion() {
+
+                const items = eventGalleryContainer.querySelectorAll(".dept-architecture-event-acc-item");
+
+                items.forEach(item => {
+
+                    const header = item.querySelector(".dept-architecture-event-acc-header");
+                    const content = item.querySelector(".dept-architecture-event-acc-content");
+
+                    header.addEventListener("click", () => {
+
+                        const isActive = item.classList.contains("active");
+
+                        // Close all
+                        items.forEach(i => {
+                            i.classList.remove("active");
+                            const c = i.querySelector(".dept-architecture-event-acc-content");
+                            if (c) c.style.maxHeight = 0;
+                        });
+
+                        // Open clicked (if it was closed)
+                        if (!isActive) {
+                            item.classList.add("active");
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                    });
+
+                });
+            }
+
+            /* ================= INIT ================= */
+            renderEventGallery();
+            initAccordion();
+
+        })();
+    </script>
+
+    <script>
+        /* =====================================================
+           ACADEMIC EXCELLENCE DATA
+        ===================================================== */
+
+        const academicExceData = [
+
+            {
+                subtitle: "APSC",
+
+                images: [
+                    "mobile-assets/new-dept-architecture/academic-excellence/APSC/adcademic1.png",
+                ]
+            }
+
+        ];
+
+        /* =====================================================
+           RENDER
+        ===================================================== */
+
+        const academicExceGrid = document.getElementById("academicExceGrid");
+
+        if (academicExceGrid) {
+
+            academicExceGrid.innerHTML = academicExceData.map((item) => {
+
+                const imageCount = item.images.length;
+
+                /* =============================================
+                   DUPLICATE ONLY IF MORE THAN 1 IMAGE
+                ============================================= */
+
+                const finalImages = imageCount > 1 ?
+                    [...item.images, ...item.images] :
+                    item.images;
+
+                return `
+
+                <div class="academic-exce-column">
+
+                    <h3 class="academic-exce-subtitle">
+                        ${item.subtitle}
+                    </h3>
+
+                    <div class="academic-exce-marquee" data-count="${imageCount}">
+
+                        <div class="academic-exce-track">
+
+                            ${finalImages.map(img => `
+
+                                    <img src="${img}" alt="${item.subtitle}">
+
+                                `).join("")}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            `;
+
+            }).join("");
+
+        }
+    </script>
 @endsection

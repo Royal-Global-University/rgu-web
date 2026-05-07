@@ -1,2608 +1,1803 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                    <span
-                        style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+    <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-cse-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-cse-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-cse-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-cse-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-cse-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-cse-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-cse-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-cse-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-cse-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-cse-content {
+            flex: 1;
+        }
+
+        .dept-cse-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-cse-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-cse-content p {
+            font-size: clamp(1.3rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-cse-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-cse-floating {
+            position: fixed;
+            left: 30px;
+            top: 60%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-cse-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-cse-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-cse-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-cse-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-cse-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-cse-float-item:hover .dept-cse-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-cse-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-cse-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-cse-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-cse-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-cse-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-cse-img img {
+                padding-left: 0%;
+            }
+
+            .dept-cse-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-cse-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-cse-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-cse-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-cse-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-cse-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-cse-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-cse-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-cse-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-cse-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-cse-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-cse-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-cse-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-cse-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-cse-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-cse-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-cse-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-cse-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-cse-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-cse-img img {
+                padding-left: 0%;
+            }
+
+            .dept-cse-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-cse-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-cse-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-cse-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-cse-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-cse-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-cse-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-cse-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-cse-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-cse-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-cse-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-cse-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-cse-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-cse-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-cse-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-cse-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-cse-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-cse-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-cse-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-cse-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-cse-accordion-item.active .dept-cse-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-cse-accordion-item.active .dept-cse-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-cse-accordion-item.active .dept-cse-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-cse-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-cse-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-cse-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-cse-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-cse-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-cse-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-cse-syllabus-link:hover .dept-cse-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-cse-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-cse-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-cse-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-cse-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-cse-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1300px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-cse-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-cse-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 4 / 4;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-cse-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-cse-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-cse-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-cse-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-cse-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-cse-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-cse-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-cse-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-cse-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-cse-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-cse-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-cse-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 80s linear infinite;
+        }
+
+        .dept-cse-events-box:hover .dept-cse-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-cse-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-cse-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-cse-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-cse-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-cse-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-cse-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-cse-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-cse-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-cse-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-cse-table-acc.active .dept-cse-table-content {
+            padding: 20px;
+        }
+
+        .dept-cse-table-acc.active .dept-cse-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-cse-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-cse-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-cse-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-cse-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-cse-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-cse-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-cse-table td,
+        .dept-cse-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+        .dept-cse-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-cse-event-card {
+            max-width: 1300px;
+            margin: 0 auto 40px;
+        }
+
+        .dept-cse-event-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* MARQUEE BOX */
+        .dept-cse-marquee {
+            overflow: hidden;
+            border-radius: 12px;
+            /* background: #fff; */
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            /* border-top: 4px solid var(--accent); */
+        }
+
+        /* TRACK */
+        .dept-cse-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: marqueeScroll 80s linear infinite;
+        }
+
+        /* PAUSE ON HOVER */
+        .dept-cse-marquee:hover .dept-cse-marquee-track {
+            animation-play-state: paused;
+        }
+
+        /* IMAGE */
+        .dept-cse-marquee img {
+            height: 300px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* ANIMATION */
+        @keyframes marqueeScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .dept-cse-marquee img {
+                height: 160px;
+            }
+        }
+    </style>
+
+    <div class="dept-cse-floating">
+        <a href="#dept-home" class="dept-cse-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-cse-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-cse-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-cse-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-cse-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-cse-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-cse-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-cse-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-cse-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-cse-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-cse-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-cse-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-cse-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-cse-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-cse-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-cse-float-text">Lab</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-cse-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-cse-wrapper">
+
+        <div class="dept-cse-heading" id="dept-home">
+            <h1>Department of <span>Computer Science & Engineering</span></h1>
+            <h2>Royal School of Engineering & Technology (RSET)</h2>
+        </div>
+
+        <div class="dept-cse-hero" id="dept-about">
+
+            <div class="dept-cse-img">
+                <img src="https://www.rgu.ac/mobile-assets/department-all/rset/cse/headimg.png" alt="Architecture">
             </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
 
-                <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Computer Science & Engineering</span>
-                </h1>
+            <div class="dept-cse-content">
 
-                <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-                    Engineering & Technology (RSET)
-                </h2>
+                <h3>About <span>Department</span></h3>
 
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-
-                            <div class="txaa-slide-down-1">
-                                <div style=" height: 550px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded " decoding="async"
-                                        src="mobile-assets/department-all/rset/cse/headimg.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-
-                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
-                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
-                                The Department of Computer Science and Engineering (CSE) provides comprehensive facilities
-                                and
-                                resources essential for academic and research excellence, including audiovisual equipment,
-                                advanced
-                                computing labs, a well-stocked library, robust networking infrastructure, and dedicated
-                                technical
-                                support. The department focuses on key areas such as Network Engineering, AI, Data Mining,
-                                Neural
-                                Networks, Image Processing, NLP, and Computer Vision. Strengths of the department include
-                                dynamic
-                                faculty, strong student-teacher relationships, excellent exam performance, and a commendable
-                                placement record, while opportunities lie in technological adaptation, enhanced R&D
-                                consultancy,
-                                adaption of new CSE courses, and interdisciplinary growth.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div style="background-color: #fff;">
-                    <div class="container p-4">
-
-                        <p style="color: #243B95; text-align: justify;" class="para1">
-                            Challenges include international collaboration, national R&D networking, NRI student attraction,
-                            and
-                            extension activities. Future plans feature the formation of IoT and Data Science labs with
-                            industry
-                            collaboration, interdisciplinary research projects, and organizing cutting-edge technology
-                            workshops
-                            and international conferences. Graduates and postgraduates from the department enjoy promising
-                            career
-                            prospects in various sectors, securing roles in tech giants, finance, healthcare, manufacturing,
-                            and
-                            government, often continuing education in AI, ML, Data Science, or Cybersecurity, and achieving
-                            professional certifications. Emerging trends in AI, ML, cybersecurity, data science, cloud
-                            computing,
-                            blockchain, IoT, and quantum computing offer substantial opportunities. Technical expertise
-                            combined
-                            with soft skills like problem-solving, communication, teamwork, and adaptability ensures
-                            graduates
-                            remain competitive, continuously engaging in lifelong learning to stay ahead in a dynamic tech
-                            industry, thus positioning them for success in a technology-driven future.
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="pt-3">
-
-                    <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
-                        <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                    </h1>
-
-                    <img src="mobile-assets/department-all/rset/cse/vision-mission-mob.png" alt="">
-                </div>
-
-                <img class="w-100" src="mobile-assets/department-all/rset/cse/mob-btm.png" alt="">
-
-            </section>
-            <!-- till about dept  -->
-
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+                <p>
+                    The Department of Computer Science and Engineering (CSE) provides comprehensive facilities and
+                    resources essential for academic and research excellence, including audiovisual equipment, advanced
+                    computing labs, a well-stocked library, robust networking infrastructure, and dedicated technical
+                    support. The department focuses on key areas such as Network Engineering, AI, Data Mining, Neural
+                    Networks, Image Processing, NLP, and Computer Vision. Strengths of the department include dynamic
+                    faculty, strong student-teacher relationships, excellent exam performance, and a commendable
+                    placement record, while opportunities lie in technological adaptation, enhanced R&D consultancy,
+                    adaption of new CSE courses, and interdisciplinary growth.
 
 
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px;">M.Tech. CSE in Artificial Intelligence</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
+                </p>
 
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MTech-CSE-in-Artifical-Intelligence" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MTech-CSE-in-Artifical-Intelligence">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">M.Tech. CSE in Internet of Things</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MTech-CSE-in-Internet-of-Things" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MTech-CSE-in-Internet-of-Things">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">B.Tech. - (Lateral Entry) - CE/CSE/ME/AI & Data Science</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-tech-lateral-entry" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 3
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-tech-lateral-entry">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">B.Tech. - Working Professional (CE, CSE, ME)</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
-                        style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 3
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">B.Tech. - Artificial Intelligence - AI & Data Science</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
-                        style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px;">B.Tech. (CSE)</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-tech-cse" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
-                                years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-tech-cse">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
 
             </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rset/cse/updated-syllabus/Course_structure_CSE.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- CSE
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Tech
-                                                        CSE
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="/mobile-assets/syllabus/AI/BTech_AI & DS Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Tech AI
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="/mobile-assets/syllabus/CSE/M. Tech (CSE)_Detailed Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech
-                                                        CSE
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- syllabus  -->
-
-            <hr>
-
-            <!-- events and highlights  -->
-            <div class="container pb-4">
-
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
-
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
-
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            26-09-2024 | Dr. John Jose (Associate Professor, Department of
-                                                            CSE, IIT Guwahati;
-                                                            Vice-chair IEEE India Council) | Speaker at IEEE-IC: Standard
-                                                            Workshop and Hackathon
-                                                            2024.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            26-09-2024 | Mr. Anupam Agarwal (Chair of the India Internet
-                                                            Foundation) | Speaker at
-                                                            IEEE-IC: Standard Workshop and Hackathon 2024.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            26-09-2024 | Mr. Anand Raje (Co-founder & Director, BASIS
-                                                            Technologies Pvt. Ltd.; CTO,
-                                                            India Internet Foundation) | Speaker at IEEE-IC: Standard
-                                                            Workshop and Hackathon 2024.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            24-09-2024 | Prof. Ujjwal K. Saha (Professor, Mechanical
-                                                            Engineering, IIT Guwahati) |
-                                                            Sensitization program on GATE and JAM.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            11-09-2024 | Ms. Megha Roy Chatterjee (Education USA advisor,
-                                                            USIEF Kolkata) | Invited
-                                                            talk: Prospects of higher education in the United States.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            09-09-2024 | Ms. Promita Mazumdar (Founder, All About You) |
-                                                            Workshop on personality
-                                                            development and soft skills.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            07-08-2024 | Dr. Pradip Kumar Das (Professor, Computer Science &
-                                                            Engineering, IIT
-                                                            Guwahati) | Invited talk: On drones and technology.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            06-08-2024 | Mr. Rintu Das (Scientist D, NIELIT Guwahati) |
-                                                            Invited talk: NIELIT and
-                                                            current trends of technology.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            More
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events"
-                                    style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- events and highlights  -->
-
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
-
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-      background:linear-gradient(135deg,#24477f,#1a365d);
-      color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in D-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td class="text-center fw-bold">1</td>
-                                        <td class="fw-bold">Convener (Ex-Officio)<br><small
-                                                class="text-muted fw-normal">Head of the
-                                                Department</small></td>
-                                        <td>
-                                            Dr. Deepjyoti Choudhury<br>
-                                            <small class="text-muted">Associate Professor, HoD, Dept. of CSE</small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center fw-bold">2</td>
-                                        <td class="fw-bold">All Faculty members of the Department<br><small
-                                                class="text-muted fw-normal">Members (Ex-Officio)</small></td>
-                                        <td>
-                                            <ul class="faculty-list">
-                                                <li><strong>Prof. (Dr.) Diganta Munshi</strong> - Registrar
-                                                    (Administration), Dean
-                                                    (RSET)</li>
-                                                <li><strong>Dr. Bhairab Sarma</strong> - Associate Professor</li>
-                                                <li><strong>Dr. Dipankar Dutta</strong> - Associate Professor</li>
-                                                <li><strong>Dr. Anurag Barthwal</strong> - Associate Professor</li>
-                                                <li><strong>Ms. Vanita Agrawal</strong> - Assistant Professor & Head,
-                                                    Laboratory
-                                                    Services</li>
-                                                <li><strong>Dr. Dillip Rout</strong> - Assistant Professor</li>
-                                                <li><strong>Dr. Naveen R Shahi</strong> - Assistant Professor</li>
-                                                <li><strong>Dr. Bikash Baruah</strong> - Assistant Professor</li>
-                                                <li><strong>Dr. H. Satyajeet Sharma</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Ankita Goyal Agarwala</strong> - Assistant Professor</li>
-                                                <li><strong>Mr. Nayan Jyoti Kalita</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Nilakshi Deka</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Afsana Laskar</strong> - Assistant Professor</li>
-                                                <li><strong>Mr. Spandan Barthakur</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Bidisha Goswami</strong> - Assistant Professor</li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center fw-bold">3</td>
-                                        <td class="fw-bold">External Experts (Academic)</td>
-                                        <td>
-                                            Prof. (Dr.) Utpal Sarma<br>
-                                            <small class="text-muted">Professor, Department of USIC, Gauhati
-                                                University</small>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center fw-bold">4</td>
-                                        <td class="fw-bold">External Experts (Industry)</td>
-                                        <td>
-                                            Mr. Kalyanjit Hatibaruah<br>
-                                            <small class="text-muted">MD, CEO, Flugelsoft, Guwahati</small>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-      background:linear-gradient(135deg,#24477f,#1a365d);
-      color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the Committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Head of the Department/School</td>
-                                        <td>Dr. Deepjyoti Choudhury</td>
-                                        <td>Associate Professor</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Professors</td>
-                                        <td>Prof. Diganta Munshi</td>
-                                        <td>Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>Associate Professor (Member Secretary)</td>
-                                        <td>Dr. Anurag Barthwal</td>
-                                        <td>Associate Professor</td>
-                                        <td>Member Secretary</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>Assistant Professor (Ph.D.)</td>
-                                        <td>Dr. Hidangmayum Satyajeet Sharma</td>
-                                        <td>Assistant Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>Assistant Professor (Ph.D.)</td>
-                                        <td>Dr. Bikash Baruah</td>
-                                        <td>Assistant Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6.</td>
-                                        <td>External Member</td>
-                                        <td>Prof. (Dr.) Hiren Kumar Deva Sarma</td>
-                                        <td>Professor</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7.</td>
-                                        <td>External Member</td>
-                                        <td>Prof. (Dr.) Shwetambara Verma</td>
-                                        <td>Professor</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <script>
-                const mobAccPairs = [{
-                        btn: 'mobAccBtn1',
-                        panel: 'mobAccPanel1'
-                    },
-                    {
-                        btn: 'mobAccBtn2',
-                        panel: 'mobAccPanel2'
-                    },
-                ];
-
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
-                }
-
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
-
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/"
-                    style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                    <span
-                        style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+        <div class="dept-cse-prospects-section" id="dept-vision">
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+            <div class="dept-cse-prospects-content">
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+                <p class="dept-cse-intro-text">
+                    Challenges include international collaboration, national R&D networking, NRI student attraction, and
+                    extension activities. Future plans feature the formation of IoT and Data Science labs with industry
+                    collaboration, interdisciplinary research projects, and organizing cutting-edge technology workshops
+                    and international conferences. Graduates and postgraduates from the department enjoy promising
+                    career prospects in various sectors, securing roles in tech giants, finance, healthcare,
+                    manufacturing, and government, often continuing education in AI, ML, Data Science, or Cybersecurity,
+                    and achieving professional certifications. Emerging trends in AI, ML, cybersecurity, data science,
+                    cloud computing, blockchain, IoT, and quantum computing offer substantial opportunities. Technical
+                    expertise combined with soft skills like problem-solving, communication, teamwork, and adaptability
+                    ensures graduates remain competitive, continuously engaging in lifelong learning to stay ahead in a
+                    dynamic tech industry, thus positioning them for success in a technology-driven future.
+                </p>
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+
             </div>
-            <!-- floating button  -->
-            <section>
+        </div>
 
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
 
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
+        <!-- vision mission  -->
+        <div class="dept-cse-prospects-section" id="dept-vision">
+            <h2 class="dept-cse-section-title">Vision <span>& Mission</span></h2>
 
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
+            <div class="dept-cse-prospects-content">
 
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
+                <h3 class="dept-cse-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-cse-bullet-list">
+                    <li>
+                        To offer globally integrated opportunities in the domain of computer science and
+                        engineering, fostering the development of students as global citizens with the skills and
+                        perspectives needed to thrive in an interconnected world.
+                    </li>
 
-                    <!-- Events -->
-                    <a href="#events" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                            Highlights</span>
-                    </a>
+                </ul>
 
-                    <!-- Academic Excellence -->
-                    <a href="#academic-excellence" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                            Excellence</span>
-                    </a>
+                <h3 class="dept-cse-subheading">Our Mission</h3>
+                <ul class="dept-cse-bullet-list">
+                    <li>
+                        To achieve academic excellence in computer science education through dynamic
+                        curriculum, research-driven initiatives, and industry-aligned programs.
+                    </li>
+                    <li>
+                        To instil ethical values and a spirit of community service
+                    </li>
+                    <li>
+                        To give back responsible leaders equipped to drive positive change and innovation in the
+                        global technological landscape.
+                    </li>
+                </ul>
 
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
+            </div>
+        </div>
 
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
+        <div class="dept-cse-courses-section" id="dept-courses">
+            <h2 class="dept-cse-section-title">Courses <span>Offered</span></h2>
 
+            <div class="dept-cse-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-cse-prospects-section" id="dept-prospects">
+          <h2 class="dept-cse-section-title">Career <span>Prospects</span></h2>
+
+          <div class="dept-cse-prospects-content">
+            <p class="dept-cse-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
+
+            <h3 class="dept-cse-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-cse-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Government Sector Jobs</h3>
+            <ol class="dept-cse-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Private Sector Careers</h3>
+            <ol class="dept-cse-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Research & Teaching</h3>
+            <ol class="dept-cse-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-cse-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Jobs Abroad</h3>
+            <ol class="dept-cse-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
+
+            <h3 class="dept-cse-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-cse-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
+
+          </div>
+        </div> -->
+
+        <div class="dept-cse-accordion-section" id="dept-syllabus">
+            <h2 class="dept-cse-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-cse-accordion-wrapper">
+
+                <div class="dept-cse-accordion-item active">
+                    <div class="dept-cse-accordion-header">
+                        <div class="dept-cse-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-cse-chevron"></i>
+                    </div>
+
+                    <div class="dept-cse-accordion-content">
+                        <div class="dept-cse-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rset/cse/updated-syllabus/Course_structure_CSE.pdf"
+                                class="dept-cse-syllabus-link" download>
+                                <div class="dept-cse-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- CSE
+                                </div>
+                                <i class="fa-solid fa-download dept-cse-download-icon"></i>
+                            </a>
+                            <a target="_blank" href="https://www.rgu.ac/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
+                                class="dept-cse-syllabus-link" download>
+                                <div class="dept-cse-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- B.Tech CSE
+                                </div>
+                                <i class="fa-solid fa-download dept-cse-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/AI/BTech_AI%20&%20DS%20Syllabus.pdf"
+                                class="dept-cse-syllabus-link" download>
+                                <div class="dept-cse-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- B.Tech AI
+                                </div>
+                                <i class="fa-solid fa-download dept-cse-download-icon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- floating buttons  -->
 
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-                        <div class="p-5">
-                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Computer Science &
-                                    Engineering</span>
-                            </h1>
-
-                            <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                                Engineering & Technology (RSET)
-                            </h2>
+                <div class="dept-cse-accordion-item">
+                    <div class="dept-cse-accordion-header">
+                        <div class="dept-cse-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
                         </div>
-
-                        <div class="container p-4">
-                            <div class="row align-items-center gx-5">
-
-                                <div class="col-lg-6 text-center">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div>
-                                            <img class="rounded w-60" decoding="async"
-                                                src="mobile-assets/department-all/rset/cse/headimg.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-
-                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                                    <p class="mobile-para1 pt-3"
-                                        style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        The Department of Computer Science and Engineering (CSE) provides comprehensive
-                                        facilities and
-                                        resources essential for academic and research excellence, including audiovisual
-                                        equipment, advanced
-                                        computing labs, a well-stocked library, robust networking infrastructure, and
-                                        dedicated technical
-                                        support. The department focuses on key areas such as Network Engineering, AI, Data
-                                        Mining, Neural
-                                        Networks, Image Processing, NLP, and Computer Vision. Strengths of the department
-                                        include dynamic
-                                        faculty, strong student-teacher relationships, excellent exam performance, and a
-                                        commendable
-                                        placement record, while opportunities lie in technological adaptation, enhanced R&D
-                                        consultancy,
-                                        adaption of new CSE courses, and interdisciplinary growth.
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div style="background-color: #fff;">
-                            <div class="container p-4">
-
-                                <p style="color: #243B95; text-align: justify;" class="para1">
-                                    Challenges include international collaboration, national R&D networking, NRI student
-                                    attraction, and
-                                    extension activities. Future plans feature the formation of IoT and Data Science labs
-                                    with industry
-                                    collaboration, interdisciplinary research projects, and organizing cutting-edge
-                                    technology workshops
-                                    and international conferences. Graduates and postgraduates from the department enjoy
-                                    promising career
-                                    prospects in various sectors, securing roles in tech giants, finance, healthcare,
-                                    manufacturing, and
-                                    government, often continuing education in AI, ML, Data Science, or Cybersecurity, and
-                                    achieving
-                                    professional certifications. Emerging trends in AI, ML, cybersecurity, data science,
-                                    cloud computing,
-                                    blockchain, IoT, and quantum computing offer substantial opportunities. Technical
-                                    expertise combined
-                                    with soft skills like problem-solving, communication, teamwork, and adaptability ensures
-                                    graduates
-                                    remain competitive, continuously engaging in lifelong learning to stay ahead in a
-                                    dynamic tech
-                                    industry, thus positioning them for success in a technology-driven future.
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div style="background-color: #fff;">
-                            <div class="p-5">
-                                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the
-                                        Department</span>
-                                </h1>
-
-                                <img class="w-100" src="mobile-assets/department-all/rset/cse/vision-mission-web.png"
-                                    alt="">
-
-                            </div>
-                            <img class="w-100" src="mobile-assets/department-all/rset/cse/web-btm.png" alt="">
-                        </div>
-
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">M.Tech. CSE in Artificial Intelligence</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MTech-CSE-in-Artifical-Intelligence"
-                                style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MTech-CSE-in-Artifical-Intelligence">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">M.Tech. CSE in Internet of Things</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MTech-CSE-in-Internet-of-Things"
-                                style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MTech-CSE-in-Internet-of-Things">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">B.Tech. - (Lateral Entry) - CE/CSE/ME/AI & Data
-                                    Science</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-tech-lateral-entry" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        3
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-tech-lateral-entry">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">B.Tech. - Working Professional (CE, CSE, ME)</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
-                                style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        3
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE">View
-                                            Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">B.Tech - Artificial Intelligence - AI & Data Science</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
-                                style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai">View
-                                            Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px;">B.Tech. (CSE)</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-tech-cse" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-tech-cse">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-
+                        <i class="fa-solid fa-chevron-down dept-cse-chevron"></i>
                     </div>
 
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rset/cse/updated-syllabus/Course_structure_CSE.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- CSE
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                B.Tech CSE
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="/mobile-assets/syllabus/AI/BTech_AI & DS Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                B.Tech AI
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        <i class="fa fa-university me-2"></i> Post Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="/mobile-assets/syllabus/CSE/M. Tech (CSE)_Detailed Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                M.Tech CSE
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
+                    <div class="dept-cse-accordion-content">
+                        <div class="dept-cse-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/syllabus/CSE/M.%20Tech%20(CSE)_Detailed%20Syllabus.pdf"
+                                class="dept-cse-syllabus-link" download>
+                                <div class="dept-cse-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- M.Tech CSE
                                 </div>
-                            </div>
+                                <i class="fa-solid fa-download dept-cse-download-icon"></i>
+                            </a>
 
                         </div>
                     </div>
-                </section>
+                </div>
 
-                <section id="events">
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
+                <div class="dept-cse-accordion-item">
+                    <div class="dept-cse-accordion-header">
+                        <div class="dept-cse-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-cse-chevron"></i>
+                    </div>
 
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9;">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    26-09-2024 | Dr. John Jose (Associate Professor,
-                                                                    Department of CSE, IIT Guwahati;
-                                                                    Vice-chair IEEE India Council) | Speaker at IEEE-IC:
-                                                                    Standard Workshop and Hackathon
-                                                                    2024.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    26-09-2024 | Mr. Anupam Agarwal (Chair of the India
-                                                                    Internet Foundation) | Speaker at
-                                                                    IEEE-IC: Standard Workshop and Hackathon 2024.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    26-09-2024 | Mr. Anand Raje (Co-founder & Director,
-                                                                    BASIS Technologies Pvt. Ltd.; CTO,
-                                                                    India Internet Foundation) | Speaker at IEEE-IC:
-                                                                    Standard Workshop and Hackathon 2024.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    24-09-2024 | Prof. Ujjwal K. Saha (Professor, Mechanical
-                                                                    Engineering, IIT Guwahati) |
-                                                                    Sensitization program on GATE and JAM.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    11-09-2024 | Ms. Megha Roy Chatterjee (Education USA
-                                                                    advisor, USIEF Kolkata) | Invited
-                                                                    talk: Prospects of higher education in the United
-                                                                    States.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    09-09-2024 | Ms. Promita Mazumdar (Founder, All About
-                                                                    You) | Workshop on personality
-                                                                    development and soft skills.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    07-08-2024 | Dr. Pradip Kumar Das (Professor, Computer
-                                                                    Science & Engineering, IIT
-                                                                    Guwahati) | Invited talk: On drones and technology.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    06-08-2024 | Mr. Rintu Das (Scientist D, NIELIT
-                                                                    Guwahati) | Invited talk: NIELIT and
-                                                                    current trends of technology.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    More
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                    <div class="dept-cse-accordion-content">
+                        <div class="dept-cse-syllabus-list">
+                            <a href="https://www.rgu.ac/phd" class="dept-cse-syllabus-link" download>
+                                <div class="dept-cse-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
                                 </div>
 
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                </section>
+                </div>
 
-                <!-- event 1  -->
-                    <div class="container mt-2">
+            </div>
+        </div>
 
-                        <h3 class="mobile-headd2 fw-bold text-left mt-3" style="color: #243B95;">
-                            <span class="text-danger">1. AI for Indigenous & Mountain Communities:</span> Dr. Deepjyoti Choudhury, Associate Professor & HoD, CSE delivered an invited talk at the Multi-Stakeholders Seminar on “AI for the Indigenous & Mountain Communities in the Eastern Himalayan Region: Our Readiness, Our Digital Future”, held at the Department of IT, Gauhati University, Assam.
-                        </h3>
+        <div class="dept-cse-events-section" id="dept-events">
 
-                        <section style="background-color: #fff4e3; padding-bottom: 30px;">
+            <h2 class="dept-cse-section-title">Events</h2>
 
-                            <div style="margin-top: 10px;" class="endless-scroll-container">
+            <div class="dept-cse-events-box">
+                <div class="dept-cse-events-track" id="events-track"></div>
+            </div>
 
+            <!-- <div style="text-align:center; margin-top:30px;">
+            <a href="#" class="dept-cse-events-btn">View All</a>
+          </div> -->
 
-                                <div class="scroll-track-wrapper" style="padding-top: 0px;">
+        </div>
 
-                                    <div class="scroll-content-images unique-set-alpha">
+        <div class="dept-cse-event-gallery-section">
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/cse/events/1.JPG" alt="Image 1"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+            <h2 class="dept-cse-section-title">Event <span>Highlights</span></h2>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/cse/events/2.JPG" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+            <div id="event-gallery-container"></div>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/cse/events/3.JPG" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+        </div>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/cse/events/4.JPG" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+        <div class="dept-cse-table-section" id="dept-committee">
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/5.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+            <div class="dept-cse-table-grid" id="table-accordion-container"></div>
 
+        </div>
 
+        <div class="dept-cse-lab-section" id="dept-lab">
 
-                                    </div>
+            <div class="dept-cse-lab-container">
 
-                                    <div class="scroll-content-images unique-set-beta">
+                <h2 class="dept-cse-section-title">Our <span>Lab</span></h2>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/1.jpeg" alt="Image 1"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+                <p class="dept-cse-lab-intro">
+                    The Computer Science Laboratories feature a robust and well-integrated ecosystem of computing
+                    laboratories designed to support academic excellence, hands-on learning, and advanced research
+                    across multiple domains of computing. The department hosts several specialized labs, including
+                    Computer Programming lab, Software Engineering Lab, Modern Database Systems Lab, Cryptography and
+                    Network Security Lab, and a dedicated Artificial Intelligence Lab, collectively comprising over 280
+                    computing systems configured for diverse workloads. These labs are powered by modern Intel Core i3
+                    and i5 processors along with high-performance AMD Ryzen 7 systems, supported by NVMe storage and
+                    GPU-enabled machines for compute-intensive tasks.
+                    <br> <br>
+                    The infrastructure enables work across a wide range of domains such as Software Development, Data
+                    Structures & Algorithms, Machine Learning, Deep Learning, Computer Vision, Natural Language
+                    Processing, Cybersecurity, Cloud Computing, Internet of Things (IoT), Big Data Analytics,
+                    Distributed Systems, Operating Systems, Database Management, Robotics, Edge Computing, Data
+                    Annotations, Information Retrieval, Smart Systems, and Human-Computer Interaction. Each laboratory
+                    is equipped with centralized air conditioning and 1 Gigabit high-speed network connectivity,
+                    ensuring a reliable and comfortable working environment, and is provisioned with a rich ecosystem of
+                    open-source software tools and platforms to promote flexibility, innovation, and cost-effective
+                    learning. Supported by robust power backup through online UPS systems, the labs provide a seamless,
+                    industry-aligned practical environment that empowers students to translate theoretical concepts into
+                    real-world solutions and prepares them for emerging technological challenges.
+                </p>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/2.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/3.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+                <h3 class="dept-cse-lab-heading">Glimpse of Our Labs</h3>
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/4.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+                <!-- <h2 class="dept-cse-section-title">Glimpse of <span>our Lab</span></h2> -->
 
-                                        <div class="slider-image-frame">
-                                            <img src="mobile-assets/department-all/rset/ce/events/5.jpeg" alt="Image 2"
-                                                class="scroller-image" onclick="openLightbox(this.src)">
-                                        </div>
+                <div class="dept-cse-lab-gallery">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/1.jpeg" alt="Lab 1"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/3.jpg" alt="Lab 2"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/4.jpg" alt="Lab 3"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/5.jpg" alt="Lab 4"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/6.jpg" alt="Lab 5"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/7.jpg" alt="Lab 6"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/8.jpg" alt="Lab 7"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/9.jpg" alt="Lab 8"
+                        class="dept-cse-lab-img">
+                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/10.jpg" alt="Lab 9"
+                        class="dept-cse-lab-img">
 
 
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                                <span class="close-btn">&times;</span>
-
-                                <div class="lightbox-controls">
-                                    <button id="zoom-in" title="Zoom In">+</button>
-                                    <button id="zoom-out" title="Zoom Out">-</button>
-                                </div>
-
-                                <img class="lightbox-content" id="lightbox-img" src="" alt="">
-                            </div>
-
-                            <style>
-                                /*
-        * 1. Setup the main container and animation logic (Identical to list version)
-        */
-                                .endless-scroll-container {
-                                    margin: auto;
-                                    width: 97%;
-                                    overflow: hidden;
-                                    padding: 10px 0;
-                                    border-bottom: 2px solid #EF991F;
-                                }
-
-                                .scroll-track-wrapper {
-                                    display: flex;
-                                    width: fit-content;
-                                    animation: scroll-movement 60s linear infinite;
-                                }
-
-                                .scroll-track-wrapper:hover {
-                                    animation-play-state: paused;
-                                }
-
-                                /*
-        * 2. Style the Image Frames and Images
-        */
-                                .scroll-content-images {
-                                    display: flex;
-                                }
-
-                                /* --- THIS IS THE MODIFIED RULE --- */
-                                .slider-image-frame {
-                                    width: 600px;
-                                    /* <-- CHANGED from 150px */
-                                    margin-right: 20px;
-                                    flex-shrink: 0;
-                                    overflow: hidden;
-                                    border: 1px solid #d1d1d1;
-                                    border-radius: 8px;
-                                    /* <-- CHANGED from 50px */
-                                    background-color: #fff;
-                                }
-
-                                /* --- END OF MODIFIED RULE --- */
-
-                                .scroller-image {
-                                    width: 100%;
-                                    height: 100%;
-                                    object-fit: cover;
-                                    display: block;
-                                    cursor: pointer;
-                                    transition: opacity 0.3s;
-                                }
-
-                                /* Lightbox Styles */
-                                .lightbox {
-                                    display: none;
-                                    position: fixed;
-                                    z-index: 1000;
-                                    left: 0;
-                                    top: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    background-color: rgba(222, 222, 222, 0.942);
-                                    overflow: hidden;
-                                    /* Changed from auto to hidden to prevent scrollbars */
-                                }
-
-                                .lightbox-content {
-                                    margin: auto;
-                                    display: block;
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%) scale(1);
-                                    /* Initial state */
-                                    max-width: 90%;
-                                    max-height: 90%;
-                                    width: auto;
-                                    height: auto;
-                                    object-fit: contain;
-                                    animation-name: zoom;
-                                    animation-duration: 0.6s;
-                                    cursor: grab;
-                                    /* NEW: Indicate it's grabbable */
-                                    transition: transform 0.2s ease-out;
-                                    /* NEW: Smooth transitions for zoom/pan */
-                                }
-
-                                .close-btn {
-                                    position: absolute;
-                                    top: 20px;
-                                    right: 35px;
-                                    color: #fff;
-                                    font-size: 40px;
-                                    font-weight: bold;
-                                    transition: 0.3s;
-                                    cursor: pointer;
-                                    z-index: 1002;
-                                    /* Ensure it's on top of controls */
-                                }
-
-                                .close-btn:hover,
-                                .close-btn:focus {
-                                    color: #bbb;
-                                    text-decoration: none;
-                                    cursor: pointer;
-                                }
-
-                                /* NEW: Styles for Zoom Controls */
-                                .lightbox-controls {
-                                    position: absolute;
-                                    top: 25px;
-                                    right: 90px;
-                                    /* Position next to the close button */
-                                    z-index: 1001;
-                                    display: flex;
-                                    gap: 10px;
-                                }
-
-                                .lightbox-controls button {
-                                    background-color: rgba(30, 30, 30, 0.7);
-                                    border: 1px solid #fff;
-                                    color: #fff;
-                                    font-size: 24px;
-                                    font-weight: bold;
-                                    width: 40px;
-                                    height: 40px;
-                                    cursor: pointer;
-                                    border-radius: 5px;
-                                    transition: background-color 0.3s;
-                                    line-height: 1;
-                                }
-
-                                .lightbox-controls button:hover {
-                                    background-color: rgba(0, 0, 0, 0.9);
-                                }
-
-
-                                @keyframes zoom {
-                                    from {
-                                        transform: translate(-50%, -50%) scale(0.1);
-                                    }
-
-                                    to {
-                                        transform: translate(-50%, -50%) scale(1);
-                                    }
-                                }
-
-                                /*
-        * 3. Define the Keyframes for the Movement
-        */
-                                @keyframes scroll-movement {
-                                    from {
-                                        transform: translateX(0%);
-                                    }
-
-                                    to {
-                                        transform: translateX(-50%);
-                                    }
-                                }
-                            </style>
-
-                            <script>
-                                document.addEventListener('DOMContentLoaded', () => {
-                                    const setAlpha = document.querySelector('.unique-set-alpha');
-                                    const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                                    if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                                        const setBeta = setAlpha.cloneNode(true);
-                                        setBeta.classList.remove('unique-set-alpha');
-                                        setBeta.classList.add('unique-set-beta');
-                                        trackWrapper.appendChild(setBeta);
-                                        console.log('Image slider duplicated successfully for infinite loop.');
-                                    }
-                                });
-
-                                // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
-
-                                const lightbox = document.getElementById('lightbox');
-                                const lightboxImg = document.getElementById('lightbox-img');
-                                const zoomInBtn = document.getElementById('zoom-in');
-                                const zoomOutBtn = document.getElementById('zoom-out');
-
-                                // State variables
-                                let scale = 1;
-                                let isDragging = false;
-                                let start = {
-                                    x: 0,
-                                    y: 0
-                                };
-                                let pan = {
-                                    x: 0,
-                                    y: 0
-                                };
-
-                                // Function to apply the current transform to the image
-                                function updateImageTransform() {
-                                    // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                                    lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                                }
-
-                                function openLightbox(src) {
-                                    // Reset state every time a new image is opened
-                                    scale = 1;
-                                    isDragging = false;
-                                    pan = {
-                                        x: 0,
-                                        y: 0
-                                    };
-                                    updateImageTransform(); // Apply initial transform
-
-                                    lightbox.style.display = 'block';
-                                    lightboxImg.src = src;
-                                }
-
-                                function closeLightbox(event) {
-                                    if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                                        lightbox.style.display = 'none';
-                                    }
-                                }
-
-                                // --- Event Listeners for Zoom and Pan ---
-
-                                zoomInBtn.addEventListener('click', (e) => {
-                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                    scale += 0.2;
-                                    updateImageTransform();
-                                });
-
-                                zoomOutBtn.addEventListener('click', (e) => {
-                                    e.stopPropagation(); // Prevent closing lightbox when clicking button
-                                    if (scale > 1) {
-                                        scale -= 0.2;
-                                        if (scale < 1) {
-                                            scale = 1;
-                                        }
-                                    }
-                                    // If we zoom all the way out, reset the pan to center the image
-                                    if (scale === 1) {
-                                        pan = {
-                                            x: 0,
-                                            y: 0
-                                        };
-                                    }
-                                    updateImageTransform();
-                                });
-
-                                lightboxImg.addEventListener('mousedown', (e) => {
-                                    // Panning only works if the image is zoomed in
-                                    if (scale > 1) {
-                                        e.preventDefault();
-                                        isDragging = true;
-                                        // Record starting point relative to current pan position
-                                        start = {
-                                            x: e.clientX - pan.x,
-                                            y: e.clientY - pan.y
-                                        };
-                                        lightboxImg.style.cursor = 'grabbing';
-                                    }
-                                });
-
-                                // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                                window.addEventListener('mousemove', (e) => {
-                                    if (isDragging) {
-                                        e.preventDefault();
-                                        pan = {
-                                            x: e.clientX - start.x,
-                                            y: e.clientY - start.y
-                                        };
-                                        updateImageTransform();
-                                    }
-                                });
-
-                                window.addEventListener('mouseup', (e) => {
-                                    if (isDragging) {
-                                        isDragging = false;
-                                        lightboxImg.style.cursor = 'grab';
-                                    }
-                                });
-                            </script>
-
-                        </section>
-
-                    </div>
-                    <!-- event 1  -->
-
-                <!-- <section id="academic-excellence">
-                                      <section
-                                        style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                                        <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                                          Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                                        </h2>
-
-                                        <div
-                                          style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                                        </div>
-
-                                        <div class="row">
-
-                                          <div class="col-lg-6">
-
-                                            <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                                            </h2>
-
-                                            <div
-                                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                                              <div style="padding: 30px 20px;">
-                                                <div class="carousel" mask>
-                                                  <div class="carousel-track">
-
-                                                    <article class="bg-white text-dark rounded"
-                                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para1 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Yubita Deka<br>
-                                                            <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                                          </p>
-                                                        </div>
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para1 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Susmita Paul<br>
-                                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                                          </p>
-                                                        </div>
-
-                                                      </div>
-
-                                                      <div class="rounded text-center"
-                                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                                        <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                                      </div>
-
-                                                    </article>
-
-                                                    <article class="bg-white text-dark rounded"
-                                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para1 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Bhaskar Jyoti Borah<br>
-                                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                                          </p>
-                                                        </div>
-
-                                                      </div>
-
-                                                      <div class="rounded text-center"
-                                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                                        <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                                      </div>
-
-                                                    </article>
-
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-
-                                            <style>
-                                              .carousel {
-                                                --carousel-width: min(85vw, 650px);
-                                                --carousel-item-width: 280px;
-                                                --carousel-item-height: 350px;
-                                                --carousel-item-gap: 2rem;
-                                                position: relative;
-                                                width: var(--carousel-width);
-                                                overflow: hidden;
-                                              }
-
-                                              .carousel[mask] {
-                                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                                              }
-
-                                              .carousel-track {
-                                                display: flex;
-                                                gap: var(--carousel-item-gap);
-                                                animation: marquee var(--carousel-duration) linear infinite;
-                                              }
-
-                                              .carousel article {
-                                                flex: 0 0 var(--carousel-item-width);
-                                                height: var(--carousel-item-height);
-                                                display: grid;
-                                                grid-template-rows: 200px auto 1fr auto;
-                                                border-radius: 10px;
-                                                background: white;
-                                                color: #314158;
-                                              }
-
-                                              .carousel img {
-                                                width: 100%;
-                                                height: 100%;
-                                                object-fit: cover;
-                                                border-radius: 15px !important;
-                                              }
-
-                                              .carousel article>*:not(img) {
-                                                padding: 0 1rem;
-                                              }
-
-                                              @keyframes marquee {
-                                                from {
-                                                  transform: translateX(0);
-                                                }
-
-                                                to {
-                                                  transform: translateX(var(--scroll-distance));
-                                                }
-                                              }
-                                            </style>
-
-                                            <script>
-                                                const track = document.querySelector('.carousel-track');
-                                                const cards = Array.from(track.children);
-
-                                                cards.forEach(card => {
-                                                    track.appendChild(card.cloneNode(true));
-                                                });
-
-                                                const carouselEl = document.querySelector('.carousel');
-                                                const styles = getComputedStyle(carouselEl);
-                                                const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                                                const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                                                const totalCards = track.children.length;
-                                                const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                                                track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                                                const speed = 80;
-                                                const duration = halfTrackWidth / speed;
-                                                track.style.setProperty('--carousel-duration', `${duration}s`);
-                                            </script>
-
-                                          </div>
-
-                                          <div class="col-lg-6">
-
-                                            <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                                            </h2>
-
-                                            <div
-                                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                                              <div style="padding: 30px 20px;">
-                                                <div class="carousel2" mask>
-                                                  <div class="carousel-track2">
-
-                                                    <article class="bg-white text-dark rounded"
-                                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para2 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Ritu Sharma<br>
-                                                            <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                                          </p>
-                                                        </div>
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para2 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Anil Kumar<br>
-                                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                                          </p>
-                                                        </div>
-
-                                                      </div>
-
-                                                      <div class="rounded text-center"
-                                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                                        <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                                      </div>
-
-                                                    </article>
-
-                                                    <article class="bg-white text-dark rounded"
-                                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                                        <div class="rounded"
-                                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                                          <p class="para2 fw-bold m-0 text-center"
-                                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                                            Meera Das<br>
-                                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                                          </p>
-                                                        </div>
-
-                                                      </div>
-
-                                                      <div class="rounded text-center"
-                                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                                        <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                                      </div>
-
-                                                    </article>
-
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-
-                                            <style>
-                                              .carousel2 {
-                                                --carousel-width: min(85vw, 650px);
-                                                --carousel-item-width: 280px;
-                                                --carousel-item-height: 350px;
-                                                --carousel-item-gap: 2rem;
-                                                position: relative;
-                                                width: var(--carousel-width);
-                                                overflow: hidden;
-                                              }
-
-                                              .carousel2[mask] {
-                                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                                              }
-
-                                              .carousel-track2 {
-                                                display: flex;
-                                                gap: var(--carousel-item-gap);
-                                                animation: marquee2 var(--carousel-duration) linear infinite;
-                                              }
-
-                                              .carousel2 article {
-                                                flex: 0 0 var(--carousel-item-width);
-                                                height: var(--carousel-item-height);
-                                                display: grid;
-                                                grid-template-rows: 200px auto 1fr auto;
-                                                border-radius: 10px;
-                                                background: white;
-                                                color: #314158;
-                                              }
-
-                                              .carousel2 img {
-                                                width: 100%;
-                                                height: 100%;
-                                                object-fit: cover;
-                                                border-radius: 15px !important;
-                                              }
-
-                                              .carousel2 article>*:not(img) {
-                                                padding: 0 1rem;
-                                              }
-
-                                              @keyframes marquee2 {
-                                                from {
-                                                  transform: translateX(0);
-                                                }
-
-                                                to {
-                                                  transform: translateX(var(--scroll-distance));
-                                                }
-                                              }
-                                            </style>
-
-                                            <script>
-                                                const track2 = document.querySelector('.carousel-track2');
-                                                const cards2 = Array.from(track2.children);
-
-                                                cards2.forEach(card => {
-                                                    track2.appendChild(card.cloneNode(true));
-                                                });
-
-                                                const carouselEl2 = document.querySelector('.carousel2');
-                                                const styles2 = getComputedStyle(carouselEl2);
-                                                const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                                                const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                                                const totalCards2 = track2.children.length;
-                                                const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                                                track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                                                const speed2 = 80;
-                                                const duration2 = halfTrackWidth2 / speed2;
-                                                track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                                            </script>
-
-                                          </div>
-
-                                        </div>
-
-                                      </section>
-                                    </section> -->
-
-                <div id="bos" class="container pb-5 pt-5">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                   background:linear-gradient(135deg,#24477f,#1a365d);
-                   color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td class="text-center fw-bold">1</td>
-                                                        <td class="fw-bold">Convener (Ex-Officio)<br><small
-                                                                class="text-muted fw-normal">Head of the
-                                                                Department</small></td>
-                                                        <td>
-                                                            Dr. Deepjyoti Choudhury<br>
-                                                            <small class="text-muted">Associate Professor, HoD, Dept. of
-                                                                CSE</small>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center fw-bold">2</td>
-                                                        <td class="fw-bold">All Faculty members of the Department<br><small
-                                                                class="text-muted fw-normal">Members (Ex-Officio)</small>
-                                                        </td>
-                                                        <td>
-                                                            <ul class="faculty-list">
-                                                                <li><strong>Prof. (Dr.) Diganta Munshi</strong> - Registrar
-                                                                    (Administration), Dean
-                                                                    (RSET)</li>
-                                                                <li><strong>Dr. Bhairab Sarma</strong> - Associate Professor
-                                                                </li>
-                                                                <li><strong>Dr. Dipankar Dutta</strong> - Associate
-                                                                    Professor</li>
-                                                                <li><strong>Dr. Anurag Barthwal</strong> - Associate
-                                                                    Professor</li>
-                                                                <li><strong>Ms. Vanita Agrawal</strong> - Assistant
-                                                                    Professor & Head, Laboratory
-                                                                    Services</li>
-                                                                <li><strong>Dr. Dillip Rout</strong> - Assistant Professor
-                                                                </li>
-                                                                <li><strong>Dr. Naveen R Shahi</strong> - Assistant
-                                                                    Professor</li>
-                                                                <li><strong>Dr. Bikash Baruah</strong> - Assistant Professor
-                                                                </li>
-                                                                <li><strong>Dr. H. Satyajeet Sharma</strong> - Assistant
-                                                                    Professor</li>
-                                                                <li><strong>Ms. Ankita Goyal Agarwala</strong> - Assistant
-                                                                    Professor</li>
-                                                                <li><strong>Mr. Nayan Jyoti Kalita</strong> - Assistant
-                                                                    Professor</li>
-                                                                <li><strong>Ms. Nilakshi Deka</strong> - Assistant Professor
-                                                                </li>
-                                                                <li><strong>Ms. Afsana Laskar</strong> - Assistant Professor
-                                                                </li>
-                                                                <li><strong>Mr. Spandan Barthakur</strong> - Assistant
-                                                                    Professor</li>
-                                                                <li><strong>Ms. Bidisha Goswami</strong> - Assistant
-                                                                    Professor</li>
-
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center fw-bold">3</td>
-                                                        <td class="fw-bold">External Experts (Academic)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Utpal Sarma<br>
-                                                            <small class="text-muted">Professor, Department of USIC,
-                                                                Gauhati University</small>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center fw-bold">4</td>
-                                                        <td class="fw-bold">External Experts (Industry)</td>
-                                                        <td>
-                                                            Mr. Kalyanjit Hatibaruah<br>
-                                                            <small class="text-muted">MD, CEO, Flugelsoft, Guwahati</small>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                   background:linear-gradient(135deg,#24477f,#1a365d);
-                   color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the Committee</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department/School</td>
-                                                        <td>Dr. Deepjyoti Choudhury</td>
-                                                        <td>Associate Professor</td>
-                                                        <td>Chairperson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2.</td>
-                                                        <td>Professors</td>
-                                                        <td>Prof. Diganta Munshi</td>
-                                                        <td>Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3.</td>
-                                                        <td>Associate Professor (Member Secretary)</td>
-                                                        <td>Dr. Anurag Barthwal</td>
-                                                        <td>Associate Professor</td>
-                                                        <td>Member Secretary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4.</td>
-                                                        <td>Assistant Professor (Ph.D.)</td>
-                                                        <td>Dr. Hidangmayum Satyajeet Sharma</td>
-                                                        <td>Assistant Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5.</td>
-                                                        <td>Assistant Professor (Ph.D.)</td>
-                                                        <td>Dr. Bikash Baruah</td>
-                                                        <td>Assistant Professor</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6.</td>
-                                                        <td>External Member</td>
-                                                        <td>Prof. (Dr.) Hiren Kumar Deva Sarma</td>
-                                                        <td>Professor</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7.</td>
-                                                        <td>External Member</td>
-                                                        <td>Prof. (Dr.) Shwetambara Verma</td>
-                                                        <td>Professor</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-                        const accPairs = [{
-                                btn: 'accBtn1',
-                                panel: 'accPanel1'
-                            },
-                            {
-                                btn: 'accBtn2',
-                                panel: 'accPanel2'
-                            }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function() {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function(e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
 
                 </div>
 
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function() {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function() {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
-
-            </section>
+                <!-- <button class="dept-cse-explore-btn">Explore</button> -->
+            </div>
 
         </div>
 
     </div>
+
+    <script>
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M. Tech. (CSE in Artificial Intelligence)",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MTech-CSE-in-Artifical-Intelligence"
+            },
+            {
+                title: "M.Tech. CSE in Internet of Things",
+                duration: "2 years",
+                link: "https://www.rgu.ac/programs-MTech-CSE-in-Internet-of-Things"
+            },
+            {
+                title: "B.Tech. - (Lateral Entry) - CE/CSE/ME/AI & Data Science",
+                duration: "3 years",
+                link: "https://www.rgu.ac/programs-b-tech-lateral-entry"
+            },
+            {
+                title: "B.Tech. - Working Professional (CE, CSE, ME)",
+                duration: "3 years",
+                link: "https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
+            },
+            {
+                title: "B. Tech (Artificial Intelligence & Data Science)",
+                duration: "4 years",
+                link: "https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
+            },
+            {
+                title: "B.Tech. (CSE)",
+                duration: "4 years",
+                link: "https://www.rgu.ac/programs-b-tech-cse"
+            }
+        ];
+
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
+
+        // 3. Render courses
+        if (courseContainer) {
+
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-cse-course-card">
+
+          <div class="dept-cse-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-cse-view-btn">View details</a>`
+                    : ``
+                }
+
+          </div>
+
+          <div class="dept-cse-course-body">
+            Duration: ${course.duration}
+          </div>
+
+        </div>
+      `).join('');
+            }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-cse-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-cse-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-cse-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-cse-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
+        });
+
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
+
+    <script>
+        // ================= EVENTS DATA =================
+
+        const eventsData = [
+            "26-09-2024 | Dr. John Jose (Associate Professor, Department of CSE, IIT Guwahati; Vice-chair IEEE India Council) | Speaker at IEEE-IC: Standard Workshop and Hackathon 2024.",
+
+            "26-09-2024 | Mr. Anupam Agarwal (Chair of the India Internet Foundation) | Speaker at IEEE-IC: Standard Workshop and Hackathon 2024.",
+
+            "26-09-2024 | Mr. Anand Raje (Co-founder & Director, BASIS Technologies Pvt. Ltd.; CTO, India Internet Foundation) | Speaker at IEEE-IC: Standard Workshop and Hackathon 2024.",
+
+            "24-09-2024 | Prof. Ujjwal K. Saha (Professor, Mechanical Engineering, IIT Guwahati) | Sensitization program on GATE and JAM.",
+
+            "11-09-2024 | Ms. Megha Roy Chatterjee (Education USA advisor, USIEF Kolkata) | Invited talk: Prospects of higher education in the United States.",
+
+            "09-09-2024 | Ms. Promita Mazumdar (Founder, All About You) | Workshop on personality development and soft skills.",
+
+            "07-08-2024 | Dr. Pradip Kumar Das (Professor, Computer Science & Engineering, IIT Guwahati) | Invited talk: On drones and technology.",
+
+            "06-08-2024 | Mr. Rintu Das (Scientist D, NIELIT Guwahati) | Invited talk: NIELIT and current trends of technology."
+        ];
+
+
+        const eventsTrack = document.getElementById("events-track");
+
+        if (eventsTrack) {
+
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+            } else {
+
+                const createEventHTML = (text) => `
+        <div class="dept-cse-event-item">
+          ${text}
+        </div>
+      `;
+
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
+
+                eventsTrack.innerHTML = fullContent;
+            }
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+                    ["1", "Convener (Ex-Officio) Head of the Department",
+                        "Dr. Deepjyoti Choudhury , Associate Professor, HoD, Dept. of CSE"
+                    ],
+                    ["2", "All Faculty members of the Department Members (Ex-Officio)",
+                        "Prof. (Dr.) Diganta Munshi - Registrar (Administration), Dean (RSET)"
+                    ],
+                    ["", "", "Dr. Bhairab Sarma - Associate Professor"],
+                    ["", "", "Dr. Dipankar Dutta - Associate Professor"],
+                    ["", "", "Dr. Anurag Barthwal - Associate Professor"],
+                    ["", "", "Ms. Vanita Agrawal - Assistant Professor & Head, Laboratory Services"],
+                    ["", "", "Dr. Dillip Rout - Assistant Professor"],
+                    ["", "", "Dr. Naveen R Shahi - Assistant Professor"],
+                    ["", "", "Dr. Bikash Baruah - Assistant Professor"],
+                    ["", "", "Dr. H. Satyajeet Sharma - Assistant Professor"],
+                    ["", "", "Ms. Ankita Goyal Agarwala - Assistant Professor"],
+                    ["", "", "Mr. Nayan Jyoti Kalita - Assistant Professor"],
+                    ["", "", "Ms. Nilakshi Deka - Assistant Professor"],
+                    ["", "", "Ms. Afsana Laskar - Assistant Professor"],
+                    ["", "", "Mr. Spandan Barthakur - Assistant Professor"],
+                    ["", "", "Ms. Bidisha Goswami - Assistant Professor"],
+
+                    ["3", "External Experts (Academic)",
+                        "Prof. (Dr.) Utpal Sarma Professor, Department of USIC, Gauhati University"
+                    ],
+                    ["4", "External Experts (Industry)", "Mr. Kalyanjit Hatibaruah MD, CEO, Flugelsoft, Guwahati"]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the Committee"],
+                rows: [
+                    ["1", "Head of the Department/School", "Dr. Deepjyoti Choudhury", "Associate Professor",
+                        "Chairperson"
+                    ],
+                    ["2", "Professors", "Prof. Diganta Munshi", "Professor", "Member"],
+                    ["3", "Associate Professor (Member Secretary)", "Dr. Anurag Barthwal", "Associate Professor",
+                        "Member Secretary"
+                    ],
+                    ["4", "Assistant Professor (Ph.D.)", "Dr. Hidangmayum Satyajeet Sharma", "Assistant Professor",
+                        "Member"
+                    ],
+                    ["5", "Assistant Professor (Ph.D.)", "Dr. Bikash Baruah", "Assistant Professor", "Member"],
+                    ["6", "External Member", "Prof. (Dr.) Hiren Kumar Deva Sarma", "Professor", "External Member"],
+                    ["7", "External Member", "Prof. (Dr.) Shwetambara Verma", "Professor", "External Member"],
+
+
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
+        <div class="dept-cse-table-responsive">
+          <table class="dept-cse-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+            };
+
+            container.innerHTML = tableData.map(item => {
+
+                const isEmpty = !item.rows || item.rows.length === 0;
+
+                return `
+        <div class="dept-cse-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-cse-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-cse-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
+
+        </div>
+      `;
+            }).join("");
+        }
+
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-cse-table-header");
+            if (!header) return;
+
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
+
+            const allItems = document.querySelectorAll(".dept-cse-table-acc");
+
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-cse-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-cse-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+    </script>
+
+    <script>
+        const eventGalleryData = [{
+            title: "AI for Indigenous & Mountain Communities: Dr. Deepjyoti Choudhury, Associate Professor & HoD, CSE delivered an invited talk at the Multi-Stakeholders Seminar on “AI for the Indigenous & Mountain Communities in the Eastern Himalayan Region: Our Readiness, Our Digital Future”, held at the Department of IT, Gauhati University, Assam.",
+            images: [
+
+                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/1.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/2.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/3.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/4.JPG",
+
+
+            ]
+        }];
+
+        const galleryContainer = document.getElementById("event-gallery-container");
+
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
+      <div class="dept-cse-event-card">
+
+        <div class="dept-cse-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-cse-marquee">
+          <div class="dept-cse-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+            }).join("");
+        }
+    </script>
 @endsection

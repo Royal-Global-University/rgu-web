@@ -1,1836 +1,1753 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <!-- floating mob button  -->
-            <div>
-                <a href="https://admissions.rgu.ac"
-                    style="
-                                                                                                        position: fixed;
-                                                                                                        bottom: 25px;
-                                                                                                        right: 75px;
-                                                                                                        background-color: #ef991f;
-                                                                                                        color: #fff;
-                                                                                                        padding: 12px 20px;
-                                                                                                        font-size: 16px;
-                                                                                                        font-weight: bold;
-                                                                                                        text-decoration: none;
-                                                                                                        border-radius: 20px;
-                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                        z-index: 1000;
-                                                                                                        overflow: hidden;
-                                                                                                        animation: pulse 2s infinite;
-                                                                                                        ">
-                    <span
-                        style="
-                                                                                                        position: absolute;
-                                                                                                        top: 0;
-                                                                                                        left: -75%;
-                                                                                                        width: 50%;
-                                                                                                        height: 100%;
-                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                        transform: skewX(-25deg);
-                                                                                                        animation: shine 2s infinite;
-                                                                                                        "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
+    </div>
 
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
 
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
+    </div>
 
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
+        <style>
+        /* ================= CSS VARIABLES & RESETS ================= */
+        :root {
+            --primary: #2c4a7a;
+            --accent: #f28c28;
+            --accent-hover: #e07b1f;
+            --bg-color: #FFF8F0;
+            --text-muted: #1a2739;
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color);
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        .dept-rsft-wrapper {
+            padding: 3vw 5vw;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ================= HEADINGS ================= */
+        .dept-rsft-heading {
+            text-align: center;
+            margin-bottom: 5vw;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .dept-rsft-heading h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin: 0;
+            line-height: 1.1;
+            color: var(--primary);
+        }
+
+        .dept-rsft-heading h1 span {
+            color: var(--accent);
+        }
+
+        .dept-rsft-heading h2 {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-muted);
+        }
+
+        /* ================= HERO ================= */
+        .dept-rsft-hero {
+            display: flex;
+            align-items: center;
+            animation: fadeInUp 1s ease-out 0.2s both;
+            justify-content: center;
+        }
+
+        /* LEFT IMAGE */
+        .dept-rsft-img {
+            flex: 1;
+            position: relative;
+        }
+
+        .dept-rsft-img img {
+            width: 85%;
+            margin-left: 7%;
+            height: auto;
+            border-radius: 24px;
+            /* box-shadow: 0 20px 40px rgba(44, 74, 122, 0.15); */
+            transition: var(--transition);
+            object-fit: contain;
+        }
+
+        .dept-rsft-img img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(44, 74, 122, 0.2);
+        }
+
+        /* RIGHT CONTENT */
+        .dept-rsft-content {
+            flex: 1;
+        }
+
+        .dept-rsft-content h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 3.5vw, 2.5rem);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .dept-rsft-content h3 span {
+            color: var(--accent);
+        }
+
+        .dept-rsft-content p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .dept-rsft-content ol li {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 0.8;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        /* ================= FLOATING MENU (LEFT) ================= */
+        .dept-rsft-floating {
+            position: fixed;
+            left: 30px;
+            top: 60%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .dept-rsft-float-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 56px;
+            height: 56px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .dept-rsft-float-item i {
+            min-width: 56px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 56px;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+
+        .dept-rsft-float-text {
+            white-space: nowrap;
+            padding-right: 25px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: var(--transition);
+        }
+
+        .dept-rsft-float-item:hover {
+            width: 200px;
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .dept-rsft-float-item:hover i {
+            color: #fff;
+        }
+
+        .dept-rsft-float-item:hover .dept-rsft-float-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ================= FLOATING ADMISSION BUTTON (RIGHT) ================= */
+        .dept-rsft-admission-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+            background: var(--accent);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(242, 140, 40, 0.4);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .dept-rsft-admission-btn i {
+            font-size: 1.2rem;
+        }
+
+        .dept-rsft-admission-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(242, 140, 40, 0.6);
+            animation: none;
+            /* Stops pulsing when hovered */
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(242, 140, 40, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width: 960px) {
+
+            /* 1. Add padding to the bottom so content can be scrolled past the fixed buttons */
+            .dept-rsft-wrapper {
+                padding-bottom: 160px;
+                padding-top: 110px;
+
+            }
+
+            .dept-rsft-hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .dept-rsft-img img {
+                padding-left: 0%;
+            }
+
+            .dept-rsft-floating {
+                display: none;
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.95);
+                /* Slightly less transparent */
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 50px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                z-index: 1000;
+                /* Ensure it stays on top */
+            }
+
+            .dept-rsft-float-item {
+                width: 45px;
+                height: 45px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
+            }
+
+            .dept-rsft-float-item i {
+                min-width: 45px;
+                line-height: 45px;
+            }
+
+            .dept-rsft-float-item:hover {
+                width: 45px;
+                background: transparent;
+            }
+
+            .dept-rsft-float-item:active i {
+                color: var(--primary);
+            }
+
+            .dept-rsft-float-text {
+                display: none;
+            }
+
+            /* 2. Center the Admission Button right above the nav menu */
+            .dept-rsft-admission-btn {
+                bottom: 40px;
+                /* Sits nicely above the 20px nav menu */
+                left: 50%;
+                right: auto;
+                transform: translateX(-50%);
+                width: 80%;
+                /* Wide enough to be prominent, but doesn't touch screen edges */
+                max-width: 350px;
+                justify-content: center;
+                /* Centers text and arrow */
+                padding: 14px 24px;
+                font-size: 1rem;
+                z-index: 999;
+            }
+
+            /* Fix the hover animation to account for the center transform */
+            .dept-rsft-admission-btn:hover {
+                transform: translateX(-50%) translateY(-5px) scale(1.02);
+            }
+        }
+
+        /* ================= COURSES SECTION ================= */
+        .dept-rsft-courses-section {
+            margin-top: 3vw;
+            width: 100%;
+        }
+
+        .dept-rsft-section-title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 4vw;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .dept-rsft-section-title span {
+            color: var(--accent);
+        }
+
+        .dept-rsft-course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .dept-rsft-course-card {
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        /* Updated Course Header for Button Layout */
+        .dept-rsft-course-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(44, 74, 122, 0.1);
+
+            /* Flexbox added to align title and button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Keep the orange accent triangle */
+        .dept-rsft-course-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid var(--accent);
+            border-bottom-right-radius: 6px;
+            z-index: 1;
+            /* Pushed behind the button */
+        }
+
+        /* New Button Styles */
+        .dept-rsft-view-btn {
+            background: #f28c28;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            /* Ensures it stays clickable over the triangle */
+        }
+
+        .dept-rsft-view-btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+
+        .dept-rsft-course-body {
+            background: #fdfdfd;
+            color: var(--primary);
+            padding: 18px 25px;
+            margin: 0 auto;
+            width: 95%;
+            /* Creates the slight inset look */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+        /* ================= COURSES MOBILE FIX ================= */
+        @media (max-width: 768px) {
+            .dept-rsft-course-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+
+            .dept-rsft-img img {
+                padding-left: 0%;
+            }
+
+            .dept-rsft-course-header span {
+                font-size: 1.2rem;
+                /* Make title slightly smaller on mobile */
+                z-index: 2;
+                /* Keep above the orange triangle */
+            }
+
+            .dept-rsft-view-btn {
+                width: 100%;
+                /* Make button full width for easy tapping */
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .dept-rsft-course-body {
+                width: 100%;
+                /* Remove the 95% inset on mobile so it doesn't look too narrow */
+                box-sizing: border-box;
+            }
+
+            .dept-rsft-prospects-content {
+                padding: 25px 20px;
+            }
+
+
+            .dept-rsft-subheading {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ================= CAREER PROSPECTS SECTION ================= */
+        .dept-rsft-prospects-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .dept-rsft-prospects-content {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 4px solid var(--accent);
+            /* Adds a nice touch of orange at the top */
+        }
+
+        .dept-rsft-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .dept-rsft-subheading {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .dept-rsft-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            /* Indents the numbers nicely */
+            margin: 0;
+        }
+
+        .dept-rsft-list li {
+            margin-bottom: 12px;
+        }
+
+        .dept-rsft-list li::marker {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* ================= SYLLABUS ACCORDION SECTION ================= */
+        .dept-rsft-accordion-section {
+            margin-top: 3vw;
+            width: 100%;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .dept-rsft-accordion-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dept-rsft-accordion-item {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(44, 74, 122, 0.08);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .dept-rsft-accordion-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 18px 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .dept-rsft-accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-rsft-accordion-header-left i {
+            font-size: 1.3rem;
+        }
+
+        .dept-rsft-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Accordion Content (Hidden by default) */
+        .dept-rsft-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            background: #fdfdfd;
+        }
+
+        /* Active State for Accordion */
+        .dept-rsft-accordion-item.active .dept-rsft-accordion-content {
+            /* Max-height is handled by JS for smooth animation */
+        }
+
+        .dept-rsft-accordion-item.active .dept-rsft-accordion-header {
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dept-rsft-accordion-item.active .dept-rsft-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Syllabus Links Inside Accordion */
+        .dept-rsft-syllabus-list {
+            padding: 15px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dept-rsft-syllabus-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .dept-rsft-syllabus-link:last-child {
+            border-bottom: none;
+        }
+
+        .dept-rsft-syllabus-link-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .dept-rsft-syllabus-link-left i {
+            color: var(--text-muted);
+        }
+
+        .dept-rsft-syllabus-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .dept-rsft-syllabus-link:hover .dept-rsft-syllabus-link-left i {
+            color: var(--accent);
+        }
+
+        .dept-rsft-download-icon {
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        /* ================= OUR LAB SECTION ================= */
+
+        .dept-rsft-lab-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        /* New 1300px Wrapper */
+        .dept-rsft-lab-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            /* Adds safe spacing on the sides */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .dept-rsft-lab-heading {
+            font-size: clamp(1.2rem, 2.5vw, 2rem);
+        }
+
+        /* Intro Text */
+        .dept-rsft-lab-intro {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            max-width: 1300px;
+            margin: 0 auto 4vw auto;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+        /* Gallery (Now spans 100% of the 1300px container minus padding) */
+        .dept-rsft-lab-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .dept-rsft-lab-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 4 / 3;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(44, 74, 122, 0.1);
+            transition: var(--transition);
+        }
+
+        .dept-rsft-lab-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(44, 74, 122, 0.15);
+        }
+
+        .dept-rsft-explore-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(242, 140, 40, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dept-rsft-explore-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(242, 140, 40, 0.5);
+        }
+
+        /* ================= LAB RESPONSIVE FIXES ================= */
+        @media (max-width: 960px) {
+            .dept-rsft-lab-features {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dept-rsft-lab-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dept-rsft-lab-gallery {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 10px;
+            }
+        }
+
+        /* Custom Bullet List for Vision/Mission */
+        .dept-rsft-bullet-list {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-left: 25px;
+            margin: 0;
+            list-style-type: none;
+            /* Removes default dots */
+        }
+
+        .dept-rsft-bullet-list li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        /* Uses FontAwesome checkmark for bullets */
+        .dept-rsft-bullet-list li::before {
+            content: '\f058';
+            /* Check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -28px;
+            top: 2px;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        /* ================= EVENTS SECTION ================= */
+        .dept-rsft-events-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-rsft-events-box {
+            max-width: 1300px;
+            height: 450px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+            position: relative;
+        }
+
+        /* Track */
+        .dept-rsft-events-track {
+            display: flex;
+            flex-direction: column;
+            animation: scrollEvents 80s linear infinite;
+        }
+
+        .dept-rsft-events-box:hover .dept-rsft-events-track {
+            animation-play-state: paused;
+        }
+
+        /* Event Item */
+        .dept-rsft-event-item {
+            padding: 18px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        /* Button */
+        .dept-rsft-events-btn {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .dept-rsft-events-btn:hover {
+            background: var(--accent);
+        }
+
+        /* Animation */
+        @keyframes scrollEvents {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+
+        /* ================= TABLE LIST SECTION ================= */
+        .dept-rsft-table-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* SINGLE COLUMN LAYOUT */
+        .dept-rsft-table-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* ACCORDION CARD */
+        .dept-rsft-table-acc {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            transition: 0.3s ease;
+        }
+
+        /* HEADER */
+        .dept-rsft-table-header {
+            background: #3a5786;
+            color: #fff;
+            padding: 18px 22px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ICON */
+        .dept-rsft-table-header i {
+            transition: 0.3s;
+        }
+
+        /* CONTENT */
+        .dept-rsft-table-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #fff;
+        }
+
+        /* ACTIVE */
+        .dept-rsft-table-acc.active .dept-rsft-table-content {
+            padding: 20px;
+        }
+
+        .dept-rsft-table-acc.active .dept-rsft-table-header i {
+            transform: rotate(180deg);
+        }
+
+        /* TABLE */
+        .dept-rsft-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .dept-rsft-table th {
+            background: #142a47;
+            color: #fff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .dept-rsft-table td {
+            padding: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            color: #333;
+        }
+
+        /* DISABLED */
+        .dept-rsft-table-acc.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .dept-rsft-table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dept-rsft-table {
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+
+        .dept-rsft-table td,
+        .dept-rsft-table th {
+            white-space: nowrap;
+        }
+
+        /* ================= EVENT GALLERY (INDIVIDUAL MARQUEE) ================= */
+        .dept-rsft-event-gallery-section {
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-rsft-event-card {
+            max-width: 1300px;
+            margin: 0 auto 40px;
+        }
+
+        .dept-rsft-event-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* MARQUEE BOX */
+        .dept-rsft-marquee {
+            overflow: hidden;
+            border-radius: 12px;
+            /* background: #fff; */
+            box-shadow: 0 10px 25px rgba(44, 74, 122, 0.08);
+            /* border-top: 4px solid var(--accent); */
+        }
+
+        /* TRACK */
+        .dept-rsft-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: marqueeScroll 80s linear infinite;
+        }
+
+        /* PAUSE ON HOVER */
+        .dept-rsft-marquee:hover .dept-rsft-marquee-track {
+            animation-play-state: paused;
+        }
+
+        /* IMAGE */
+        .dept-rsft-marquee img {
+            height: 300px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* ANIMATION */
+        @keyframes marqueeScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .dept-rsft-marquee img {
+                height: 160px;
+            }
+        }
+
+        .dept-rsft-prospects-content {
+            padding: 25px 20px;
+        }
+    </style>
+
+        <div class="dept-rsft-floating">
+        <a href="#dept-home" class="dept-rsft-float-item">
+            <i class="fa fa-home"></i>
+            <span class="dept-rsft-float-text">Home</span>
+        </a>
+
+        <a href="#dept-about" class="dept-rsft-float-item">
+            <i class="fa fa-book"></i>
+            <span class="dept-rsft-float-text">About</span>
+        </a>
+
+        <a href="#dept-vision" class="dept-rsft-float-item">
+            <i class="fa fa-bullseye"></i>
+            <span class="dept-rsft-float-text">Vision & Mission</span>
+        </a>
+
+        <a href="#dept-courses" class="dept-rsft-float-item">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="dept-rsft-float-text">Courses</span>
+        </a>
+
+        <a href="#dept-syllabus" class="dept-rsft-float-item">
+            <i class="fa fa-file-text"></i>
+            <span class="dept-rsft-float-text">Syllabus</span>
+        </a>
+
+        <a href="#dept-events" class="dept-rsft-float-item">
+            <i class="fa fa-calendar"></i>
+            <span class="dept-rsft-float-text">Events</span>
+        </a>
+
+        <a href="#dept-committee" class="dept-rsft-float-item">
+            <i class="fa fa-users"></i>
+            <span class="dept-rsft-float-text">Committee</span>
+        </a>
+
+        <a href="#dept-lab" class="dept-rsft-float-item">
+            <i class="fa fa-flask"></i>
+            <span class="dept-rsft-float-text">Studio</span>
+        </a>
+
+    </div>
+
+    <a href="https://admissions.rgu.ac/" class="dept-rsft-admission-btn">
+        Admission Open - Apply Now <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <div class="dept-rsft-wrapper">
+
+        <div class="dept-rsft-heading" id="dept-home">
+            <h1>Department of <span>Fashion Design</span></h1>
+            <h2>Royal School of Fashion Design & Technology (RSFT)</h2>
+        </div>
+
+        <div class="dept-rsft-hero" id="dept-about">
+
+            <div class="dept-rsft-img">
+                <img src="/five-days-conference/rsft.png" alt="Fashion Design">
             </div>
-            <!-- floating button  -->
-            <!-- till about dept  -->
-            <section style="padding-top: 130px; position: relative;">
-                <img src="mobile-assets/department-all/rsft/new/fashion-design-mob.png" alt="">
-            </section>
-            <!-- till about dept  -->
 
-            <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+            <div class="dept-rsft-content">
 
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+                <h3>About <span>Department</span></h3>
 
-                        <span style="font-size:18px; padding-right: 20px;">Bachelor of Design (Fashion Design)</span> |
-                        <span style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
+                <p>
+                    The Royal School of Fashion Design & Technology at Royal Global University stands as a beacon of
+                    innovation and excellence, nurturing creative talents and preparing graduates for dynamic careers in
+                    the fashion industry. Our program is renowned for its comprehensive curriculum that blends
+                    traditional design principles with cutting-edge technologies, ensuring that students are well-versed
+                    in both the artistry and the technical skills required in fashion. A unique highlight of our
+                    department is the "Royal Boutique," an on-campus enterprise where students gain hands-on experience
+                    by creating and selling designer garments while they study. This real-world exposure to fashion
+                    entrepreneurship enables students to apply their learning practically, fostering skills in design,
+                    production, and retail. Our thrust areas include sustainable fashion practices, digital fashion
+                    technologies, and fashion marketing, reflecting the department's commitment to contemporary industry
+                    trends and ethical design. Graduates from our program are well-equipped to excel in diverse roles
+                    such as fashion designers, brand managers, and fashion technologists, with the versatility to
+                    innovate and lead in the ever-evolving fashion landscape. With a strong foundation in both creative
+                    and business aspects of fashion, our alumni are poised to make significant contributions to the
+                    global fashion industry, driving forward the future of design with vision and purpose.
 
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- vision mission  -->
+        <div class="dept-rsft-prospects-section" id="dept-vision">
+            <h2 class="dept-rsft-section-title">Vision <span>& Mission</span></h2>
+
+            <div class="dept-rsft-prospects-content">
+
+                <h3 class="dept-rsft-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-rsft-bullet-list">
+                    <li>
+                        To offer students nationally and internationally integrated opportunities in the field
+                        of design to create global citizens, endowed with creativity and inclusive ideal of
+                        sustainability.
+                    </li>
+
+                </ul>
+
+                <h3 class="dept-rsft-subheading">Our Mission</h3>
+                <ul class="dept-rsft-bullet-list">
+                    <li>
+                        To achieve academic excellence through a creatively designed, research-
+                        intensive, and industry-oriented curriculum in fashion design.
+                    </li>
+                    <li>
+                        To incorporate community service and sustainable practices into fashion design
+                        education, instilling ethical conduct and compassion among students and
+                        stakeholders.
+                    </li>
+                    <li>
+                        To prepare students to become responsible leaders in the fashion industry,
+                        capable of enriching the future by driving positive transformation and innovation
+                        in the world.
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="dept-rsft-courses-section" id="dept-courses">
+            <h2 class="dept-rsft-section-title">Courses <span>Offered</span></h2>
+
+            <div class="dept-rsft-course-list" id="course-list-container">
+            </div>
+        </div>
+
+        <!-- <div class="dept-rsft-prospects-section" id="dept-prospects">
+      <h2 class="dept-rsft-section-title">Career <span>Prospects</span></h2>
+
+      <div class="dept-rsft-prospects-content">
+        <p class="dept-rsft-intro-text">
+          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+          strong foundation in agricultural sciences, preparing them for following careers opportunities:
+        </p>
+
+        <h3 class="dept-rsft-subheading">Higher Education Opportunities</h3>
+        <ol class="dept-rsft-list">
+          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+          </li>
+          <li>MBA in Agribusiness Management</li>
+          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+            disciplines</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Government Sector Jobs</h3>
+        <ol class="dept-rsft-list">
+          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+          <li>IBPS AFO (Agricultural Field Officer)</li>
+          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Private Sector Careers</h3>
+        <ol class="dept-rsft-list">
+          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+          <li>Food Processing Industries</li>
+          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Research & Teaching</h3>
+        <ol class="dept-rsft-list">
+          <li>Research Assistant / Scientist – in public and private research institutions</li>
+          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Entrepreneurship & Startups</h3>
+        <ol class="dept-rsft-list">
+          <li>Organic farming, dairy, poultry, aquaculture</li>
+          <li>Agri-tourism, greenhouse farming, vertical farming</li>
+          <li>Processing units for spices, cereals, or fruits</li>
+          <li>Agri-consultancy or freelance advisory services</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Jobs Abroad</h3>
+        <ol class="dept-rsft-list">
+          <li>Agricultural research, farm management, and food security projects</li>
+          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+        </ol>
+
+        <h3 class="dept-rsft-subheading">Key Skills That Boost Career</h3>
+        <ol class="dept-rsft-list">
+          <li>Practical knowledge of farming tools and technologies</li>
+          <li>Communication and management skills (especially in extension or agribusiness)</li>
+          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+          <li>Language skills and report writing</li>
+        </ol>
+
+      </div>
+    </div> -->
+
+        <div class="dept-rsft-accordion-section" id="dept-syllabus">
+            <h2 class="dept-rsft-section-title">Courses Structure <span>and Syllabus</span></h2>
+
+            <div class="dept-rsft-accordion-wrapper">
+
+                <div class="dept-rsft-accordion-item active">
+                    <div class="dept-rsft-accordion-header">
+                        <div class="dept-rsft-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Under Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsft-chevron"></i>
                     </div>
 
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-des-fd-fashion-design" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-des-fd-fashion-design">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">Master of Design (Fashion Design)</span>
-
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-
-                        </div>
-                    </a>
-                </div>
-
-
-
-
-            </div>
-            <!-- courses offered  -->
-
-            <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/rsd/fashion-design/syllabus/Course-structure-Fashion-Design.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Fashion Design
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/rsd/fashion-design/syllabus/B.DES.-Fashion-design_Detailed-Syllabus.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Fashion
-                                                        Design
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                    <div class="dept-rsft-accordion-content">
+                        <div class="dept-rsft-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsd/fashion-design/syllabus/Course-structure-Fashion-Design.pdf"
+                                class="dept-rsft-syllabus-link" download>
+                                <div class="dept-rsft-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- Fashion Design
                                 </div>
-                            </div>
+                                <i class="fa-solid fa-download dept-rsft-download-icon"></i>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/rsd/fashion-design/syllabus/B.DES.-Fashion-design_Detailed-Syllabus.pdf"
+                                class="dept-rsft-syllabus-link" download>
+                                <div class="dept-rsft-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- Fashion Design
+                                </div>
+                                <i class="fa-solid fa-download dept-rsft-download-icon"></i>
+                            </a>
                         </div>
                     </div>
-
                 </div>
-            </div>
-            <!-- syllabus  -->
 
-            <hr>
+                <!-- <div class="dept-rsft-accordion-item">
+                    <div class="dept-rsft-accordion-header">
+                        <div class="dept-rsft-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsft-chevron"></i>
+                    </div>
 
-            <!-- events and highlights  -->
-            <div class="container pb-4">
+                    <div class="dept-rsft-accordion-content">
+                        <div class="dept-rsft-syllabus-list">
+                            <a target="_blank"
+                                href="https://www.rgu.ac/mobile-assets/department-all/dept-rsft/syllabus-chemistry/detailed-syllabus-pg.pdf"
+                                class="dept-rsft-syllabus-link" download>
+                                <div class="dept-rsft-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- M.Sc. Chemistry
+                                </div>
+                                <i class="fa-solid fa-download dept-rsft-download-icon"></i>
+                            </a>
 
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col-lg-12">
-                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
-                            Events
-                        </h2>
+                        </div>
+                    </div>
+                </div> -->
 
-                        <div style="max-width: 100%; position: relative;">
-                            <div style="border: 1px solid #ccc;">
+                <div class="dept-rsft-accordion-item">
+                    <div class="dept-rsft-accordion-header">
+                        <div class="dept-rsft-accordion-header-left">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Doctoral Programme</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-rsft-chevron"></i>
+                    </div>
 
-                                <div id="mobileEventScrollContainer"
-                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
-                                        <tbody class="para1" id="mobileEventScrollContent"
-                                            style="background-color: #f9f9f9; ">
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            06-02-2018 | Ms. Anamika Chaudhury (Fashion entrepreneur) |
-                                                            Interactive session on
-                                                            fashion entrepreneurship.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            07-02-2018 | Mr. Soumar J Sharma (Fashion designer) |
-                                                            Interactive session on fashion
-                                                            and others.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            29-08-2018 | Ms. Swagata Dev (Fashion blogger) | Interactive
-                                                            session on fashion
-                                                            journalism.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            27-06-2018 | Ms. Nein Siao (Dean, School of Design & Fashion,
-                                                            IILM University &
-                                                            academic advisor at JS Institute of Design) | RGU Speaker Series
-                                                            - Be vocal about
-                                                            local: traditional textiles & crafts as future fashion
-                                                            statement.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            -- | Ms. Meghali Das (Vice chairperson, FICCI Ladies
-                                                            Organisation 2019-20 & owner of
-                                                            Needle Craft) | Guest speaker.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            -- | Mr. Sonam Tashi Gyaltsen (Industrial designer & co-founder
-                                                            of Echostream;
-                                                            designer/owner of LA & T) | Guest lecture.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            -- | Ms. Himani Thapa (Founder of sustainable fashion label ORI)
-                                                            | Talk on sustainable
-                                                            fashion.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            12-09-2018 | Ms. Dipeeka Betala Saboo (Fashion designer) |
-                                                            Interactive session on
-                                                            digital marketing as a career option.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            17-06-2019 | Ms. Mrittika Banerjee (Founder of EAST by Mrittika)
-                                                            | Webinar on fashion
-                                                            business startup and entrepreneurship.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <tr style="border-bottom: 1px solid #ddd;">
-                                                <td style="display: flex; align-items: center; padding: 12px;">
-                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
-                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                    <div>
-                                                        <div style="font-weight: bold; color: #27467A;">
-                                                            24-06-2019 | Mr. Ameet Barua (Designer & innovator at KYNKOO
-                                                            Menswear and Emily's
-                                                            Workshop for womenswear) | Webinar on merchandising as a career
-                                                            option in the fashion
-                                                            industry.
-                                                        </div>
-                                                        <a href="#"
-                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                            more
-                                                            ...</a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-
-                                        </tbody>
-
-                                    </table>
+                    <div class="dept-rsft-accordion-content">
+                        <div class="dept-rsft-syllabus-list">
+                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-rsft-syllabus-link" download>
+                                <div class="dept-rsft-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Click to View
                                 </div>
 
-                            </div>
-
-                            <div style="text-align: center; margin-top: 15px;">
-                                <a href="department-new-rshss-sociology-events"
-                                    style="display: inline-block; padding: 10px 28px;
-                background: linear-gradient(135deg, #243B95, #151B5B);
-                color: #fff; font-weight: 600; font-size: 16px;
-                border-radius: 25px; text-decoration: none;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                transition: all 0.3s ease-in-out;">
-                                    View All
-                                </a>
-                            </div>
-
-
+                            </a>
                         </div>
-
-                        <script>
-                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
-                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
-
-                            // Duplicate content for infinite scroll (mobile)
-                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
-
-                            let mobileEventScrollPos = 0;
-                            const mobileEventScrollSpeed = 0.2;
-
-                            function mobileEventScrollStep() {
-                                mobileEventScrollPos += mobileEventScrollSpeed;
-                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
-                                    mobileEventScrollPos = 0;
-                                }
-                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
-                                requestAnimationFrame(mobileEventScrollStep);
-                            }
-
-                            mobileEventScrollStep();
-                        </script>
-
                     </div>
                 </div>
-
 
             </div>
-            <!-- events and highlights  -->
+        </div>
 
-            <!-- Mobile-Friendly Board of Studies & DRC -->
-            <div id="bos-mobile" class="container pb-5">
+        <div class="dept-rsft-events-section" id="dept-events">
 
-                <!-- Board of Studies -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn1" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-users me-2"></i> The Board of Studies
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
+            <h2 class="dept-rsft-section-title">Events</h2>
 
-                    <div id="mobAccPanel1"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in S-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                        <td>Prof Hari Prasad Agarwal, Dean-RSFA/RSD/RSFT/RSA</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                        <td>Mr. Ashif Mazid, Assistant Professor, RSFT</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>
-                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian
-                                            Institute of Technology, Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>
-                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                            Founder @ Projckt, Chandigarh
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>
-                                            Two Faculty members of the School nominated by the Vice
-                                            Chancellor
-                                        </td>
-                                        <td>
-                                            Asif Iqbal Mazid, Assistant Professor, RSFT
-
-                                            <hr>
-                                            Sanjay Krishna Kutum, Assistant Professor, RSFT
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                        <td>Dr. D.N Singh, Registrar</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Departmental Research Committee (DRC) -->
-                <div style="margin-bottom:20px;">
-                    <button id="mobAccBtn2" aria-expanded="false" class="para1"
-                        style="width:100%; text-align:left; padding:14px 18px; border:0;
-          background:linear-gradient(135deg,#24477f,#1a365d);
-          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
-                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                    </button>
-
-                    <div id="mobAccPanel2"
-                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in S-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                        <td>Hari Prasad Agarwal, Dean, RSFT/RSFA/RSD/RSA</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                        <td>Mr. Ashif Mazid, Assistant Professor, RSFT</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>
-                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian
-                                            Institute of Technology, Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>
-                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                            Founder @ Projckt, Chandigarh
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>
-                                            Two Faculty members of the School nominated by the Vice
-                                            Chancellor
-                                        </td>
-                                        <td>
-                                            Asif Iqbal Mazid, Assistant Professor, RSFT
-                                            <hr>
-                                            Sanjay Krishna Kutum, Assistant Professor, RSFT
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                        <td>Dr. D.N Singh, Registrar</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-
-
+            <div class="dept-rsft-events-box">
+                <div class="dept-rsft-events-track" id="events-track"></div>
             </div>
 
-            <script>
-                const mobAccPairs = [{
-                        btn: 'mobAccBtn1',
-                        panel: 'mobAccPanel1'
-                    },
-                    {
-                        btn: 'mobAccBtn2',
-                        panel: 'mobAccPanel2'
-                    },
-                ];
+            <!-- <div style="text-align:center; margin-top:30px;">
+        <a href="#" class="dept-rsft-events-btn">View All</a>
+      </div> -->
 
-                function closeAllMob() {
-                    mobAccPairs.forEach(p => {
-                        const b = document.getElementById(p.btn);
-                        const panel = document.getElementById(p.panel);
-                        if (panel) panel.style.display = 'none';
-                        if (b) {
-                            b.setAttribute('aria-expanded', 'false');
-                            const sp = b.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        }
-                    });
+        </div>
+
+        <div class="dept-rsft-table-section" id="dept-committee">
+
+            <div class="dept-rsft-table-grid" id="table-accordion-container"></div>
+
+        </div>
+
+
+        <div class="dept-rsft-lab-section" id="dept-lab">
+
+            <div class="dept-rsft-lab-container">
+
+
+                <h2 class="dept-rsft-section-title">Royal <span>Boutique</span></h2>
+                <div class="dept-rsft-prospects-content">
+
+                    <p style="font-style: italic; font-weight: bold;">“Where creativity meets craftsmanship.”</p>
+                    <p class="dept-rsft-lab-intro">
+
+                        The Royal Boutique, inaugurated on 21st September 2023, stands as a unique initiative and the
+                        only boutique of its kind within a university across Northeast India. It serves as a vibrant
+                        platform that highlights the creative works of fashion design students, bringing their ideas to
+                        life through innovative and contemporary designs.
+                        The boutique also offers customised garment services tailored to clients’ needs, crafted by
+                        experienced professionals, seamlessly connecting academic learning with real-world practice.
+                        Additionally, it hosts departmental events and highlights, providing students with valuable
+                        opportunities to build confidence, enhance creativity, and gain practical exposure to the
+                        fashion industry.
+                    </p>
+
+
+
+                </div>
+
+
+                <!-- <h2 class="dept-rsft-section-title">Glimpse of <span>our Lab</span></h2> -->
+
+                <div class="dept-rsft-lab-gallery">
+                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%201.jpeg" alt="Lab 1" class="dept-rsft-lab-img">
+
+                    <img src="https://www.rgu.ac/mobile-assets/laboratories/rsft/photo%20for%20royal%20boutique%201.jpeg" alt="Lab 2" class="dept-rsft-lab-img">
+
+                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%203.jpeg" alt="Lab 3" class="dept-rsft-lab-img">
+
+                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%205.jpeg" alt="Lab 4" class="dept-rsft-lab-img">
+
+                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%206.jpeg" alt="Lab 5" class="dept-rsft-lab-img">
+
+
+
+                </div>
+
+                <!-- <button class="dept-rsft-explore-btn">Explore</button> -->
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <script>
+    // 1. Define the courses array
+    const coursesData = [
+        {
+            title: "M.Des - Fashion Design(FD)",
+            duration: "2 years",
+            link: "https://www.rgu.ac/programme-mdes-fashion-design"
+        },
+        {
+            title: "B.Des - Fashion Design(FD)",
+            duration: "4 years",
+            link: "https://www.rgu.ac/programs-b-des-fd-fashion-design"
+        }
+    ];
+
+    // 2. Get container
+    const courseContainer = document.getElementById('course-list-container');
+
+    // 3. Render courses
+    if (courseContainer) {
+
+        // If array is empty → show fallback
+        if (!coursesData || coursesData.length === 0) {
+            courseContainer.innerHTML = `
+        <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
+          No courses available at the moment.
+        </p>
+      `;
+        }
+        else {
+            // Generate course cards
+            courseContainer.innerHTML = coursesData.map(course => `
+        <div class="dept-rsft-course-card">
+
+          <div class="dept-rsft-course-header">
+            <span>${course.title}</span>
+
+            ${course.link && course.link.trim() !== ""
+                    ? `<a href="${course.link}" class="dept-rsft-view-btn">View details</a>`
+                    : ``
                 }
 
-                mobAccPairs.forEach(p => {
-                    const b = document.getElementById(p.btn);
-                    const panel = document.getElementById(p.panel);
-                    if (!b || !panel) return;
+          </div>
 
-                    b.addEventListener('click', function() {
-                        const isOpen = this.getAttribute('aria-expanded') === 'true';
-                        if (isOpen) {
-                            panel.style.display = 'none';
-                            this.setAttribute('aria-expanded', 'false');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '＋';
-                        } else {
-                            closeAllMob();
-                            panel.style.display = 'block';
-                            this.setAttribute('aria-expanded', 'true');
-                            const sp = this.querySelector('span');
-                            if (sp) sp.textContent = '−';
-                        }
-                    });
-                });
-
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') closeAllMob();
-                });
-            </script>
-            <!-- Mobile-Friendly Board of Studies & DRC -->
+          <div class="dept-rsft-course-body">
+            Duration: ${course.duration}
+          </div>
 
         </div>
+      `).join('');
+        }
+    }
+</script>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/"
-                    style="
-                                                                                                                    position: fixed;
-                                                                                                                    bottom: 35px;
-                                                                                                                    right: 50px;
-                                                                                                                    background-color: #ef991f;
-                                                                                                                    color: #fff;
-                                                                                                                    padding: 12px 20px;
-                                                                                                                    font-size: 18px;
-                                                                                                                    font-weight: bold;
-                                                                                                                    text-decoration: none;
-                                                                                                                    border-radius: 20px;
-                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                    z-index: 1000;
-                                                                                                                    overflow: hidden;
-                                                                                                                    animation: pulse 2s infinite;
-                                                                                                                    ">
-                    <span
-                        style="
-                                                                                                                    position: absolute;
-                                                                                                                    top: 0;
-                                                                                                                    left: -75%;
-                                                                                                                    width: 50%;
-                                                                                                                    height: 100%;
-                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                    transform: skewX(-25deg);
-                                                                                                                    animation: shine 2s infinite;
-                                                                                                                    "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            <section>
-
-                <!-- floating buttons  -->
-                <div
-                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
-
-                    <!-- About -->
-                    <a href="#about" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
-                    </a>
-
-                    <!-- Course -->
-                    <a href="#course" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                            Offered</span>
-                    </a>
-
-                    <!-- Syllabus -->
-                    <a href="#syllabus" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
-                            &
-                            Syllabus</span>
-                    </a>
-
-                    <!-- Events -->
-                    <!-- <a href="#events" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                      Highlights</span>
-                  </a> -->
-
-                    <!-- Academic Excellence -->
-                    <!-- <a href="#academic-excellence" class="special-link"
-                    style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                    <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                    <span class="para1"
-                      style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                      Excellence</span>
-                  </a> -->
-
-                    <!-- BOS -->
-                    <a href="#bos" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                            Studies</span>
-                    </a>
-
-                    <!-- DRC -->
-                    <a href="#drc" class="special-link"
-                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                        <span class="para1"
-                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-                    </a>
-
-                </div>
-                <!-- floating buttons  -->
-
-                <section id="about">
-                    <section style="background-color: #FFF8F0;">
-
-                        <img src="mobile-assets/department-all/rsft/new/fashion-design-website.png" alt="">
-
-                    </section>
-                </section>
-
-                <section id="course">
-
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px; padding-right: 20px;">Bachelor of Design (Fashion
-                                    Design)</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-des-fd-fashion-design" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-b-des-fd-fashion-design">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:22px; padding-right: 20px;">Master of Design (Fashion Design)</span>
-
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
-                                        4
-                                        years</span>
-
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-
-                </section>
-
-                <section id="syllabus">
-                    <div class="container">
-                        <div>
-                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
-                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                            </h2>
-
-                            <div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
-
-                                            <!-- UG -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                            <a href="mobile-assets/department-all/rsd/fashion-design/syllabus/Course-structure-Fashion-Design.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Fashion Design
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/rsd/fashion-design/syllabus/B.DES.-Fashion-design_Detailed-Syllabus.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Fashion Design
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- PG -->
-                                            <!-- <div class="accordion-item"
-                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                <h2 class="accordion-header" id="headingTwo">
-                                  <button class="accordion-button collapsed"
-                                    style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
-                                    <i class="fa fa-university me-2"></i> Post Graduate
-                                  </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                  data-bs-parent="#accordionExample">
-                                  <div class="accordion-body"
-                                    style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                    <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                      <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/structure-of-syllabus-msc.pdf"
-                                        target="_blank" style="color: #27467A;">
-                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- M.Sc. Nutrition and
-                                        Dietetics
-                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                      </a>
-
-                                      <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/NUTRITION-PG-2025-SYLLABUS.pdf"
-                                        target="_blank" style="color: #27467A;">
-                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Nutrition and Dietetics
-                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                      </a>
-
-                                    </div>
-                                  </div>
-                                </div>
-                              </div> -->
-
-                                            <!-- Doctoral -->
-                                            <div class="accordion-item"
-                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed"
-                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body"
-                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <a href="phd" class="para1" target="_blank"
-                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                            <i class="fa fa-external-link me-2"></i> Click to View...
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <hr>
-
-                <section id="events">
-                    <div class="container pb-4">
-                        <div class="row" style="display: flex; justify-content: center;">
-                            <div class="col-lg-12">
-                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                    Events
-                                </h2>
-
-                                <div style="max-width: 100%; position: relative;">
-                                    <div style="border: 1px solid #ccc;">
-                                        <div id="scrollContainer"
-                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
-                                            <table class="table table-borderless mb-0"
-                                                style="font-size: 16px; width: 100%;">
-                                                <tbody class="para1" id="scrollContent"
-                                                    style="background-color: #f9f9f9;">
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    06-02-2018 | Ms. Anamika Chaudhury (Fashion
-                                                                    entrepreneur) | Interactive session on
-                                                                    fashion entrepreneurship.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    07-02-2018 | Mr. Soumar J Sharma (Fashion designer) |
-                                                                    Interactive session on fashion
-                                                                    and others.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    29-08-2018 | Ms. Swagata Dev (Fashion blogger) |
-                                                                    Interactive session on fashion
-                                                                    journalism.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    27-06-2018 | Ms. Nein Siao (Dean, School of Design &
-                                                                    Fashion, IILM University &
-                                                                    academic advisor at JS Institute of Design) | RGU
-                                                                    Speaker Series - Be vocal about
-                                                                    local: traditional textiles & crafts as future fashion
-                                                                    statement.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    -- | Ms. Meghali Das (Vice chairperson, FICCI Ladies
-                                                                    Organisation 2019-20 & owner of
-                                                                    Needle Craft) | Guest speaker.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    -- | Mr. Sonam Tashi Gyaltsen (Industrial designer &
-                                                                    co-founder of Echostream;
-                                                                    designer/owner of LA & T) | Guest lecture.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    -- | Ms. Himani Thapa (Founder of sustainable fashion
-                                                                    label ORI) | Talk on sustainable
-                                                                    fashion.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    12-09-2018 | Ms. Dipeeka Betala Saboo (Fashion designer)
-                                                                    | Interactive session on
-                                                                    digital marketing as a career option.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    17-06-2019 | Ms. Mrittika Banerjee (Founder of EAST by
-                                                                    Mrittika) | Webinar on fashion
-                                                                    business startup and entrepreneurship.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr style="border-bottom: 1px solid #ddd;">
-                                                        <td style="display: flex; align-items: center; padding: 12px;">
-                                                            <img src="mobile-assets/department-all/imgg.jpg"
-                                                                alt="Event Image"
-                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
-                                                            <div>
-                                                                <div style="font-weight: bold; color: #27467A;">
-                                                                    24-06-2019 | Mr. Ameet Barua (Designer & innovator at
-                                                                    KYNKOO Menswear and Emily's
-                                                                    Workshop for womenswear) | Webinar on merchandising as a
-                                                                    career option in the fashion
-                                                                    industry.
-                                                                </div>
-                                                                <a href="#"
-                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
-                                                                    more
-                                                                    ...</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                    <div style="text-align: center; margin-top: 15px;">
-                                        <a href="department-new-rshss-sociology-events"
-                                            style="display: inline-block; padding: 10px 28px;
-                  background: linear-gradient(135deg, #243B95, #151B5B);
-                  color: #fff; font-weight: 600; font-size: 16px;
-                  border-radius: 25px; text-decoration: none;
-                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                  transition: all 0.3s ease-in-out;">
-                                            View All
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <script>
-                                    const scrollContainer = document.getElementById('scrollContainer');
-                                    const scrollContent = document.getElementById('scrollContent');
-
-                                    scrollContent.innerHTML += scrollContent.innerHTML;
-
-                                    let scrollPos = 0;
-                                    const scrollSpeed = 0.2;
-
-                                    function scrollStep() {
-                                        scrollPos += scrollSpeed;
-                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
-                                            scrollPos = 0;
-                                        }
-                                        scrollContainer.scrollTop = scrollPos;
-                                        requestAnimationFrame(scrollStep);
-                                    }
-
-                                    scrollStep();
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
-
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
-
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
-
-                    <div class="row">
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track = document.querySelector('.carousel-track');
-                            const cards = Array.from(track.children);
-
-                            cards.forEach(card => {
-                                track.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl = document.querySelector('.carousel');
-                            const styles = getComputedStyle(carouselEl);
-                            const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                            const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                            const totalCards = track.children.length;
-                            const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                            track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
-
-                            const speed = 80;
-                            const duration = halfTrackWidth / speed;
-                            track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
-
-                      </div>
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
-
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track2 = document.querySelector('.carousel-track2');
-                            const cards2 = Array.from(track2.children);
-
-                            cards2.forEach(card => {
-                                track2.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl2 = document.querySelector('.carousel2');
-                            const styles2 = getComputedStyle(carouselEl2);
-                            const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                            const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                            const totalCards2 = track2.children.length;
-                            const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                            track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                            const speed2 = 80;
-                            const duration2 = halfTrackWidth2 / speed2;
-                            track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section>
-
-                <div id="bos" class="container pb-5 pt-3">
-
-                  <!-- Container -->
-
-
-                <div id="bos" class="container pb-5 pt-3">
-
-                    <!-- Container -->
-                    <div id="drc" style="margin:0 auto;">
-
-                        <!-- Row 1 -->
-                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
-
-                            <!-- Board of Studies -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn1" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-users me-2"></i> The Board of Studies
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel1"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in S-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                                        <td>Prof Hari Prasad Agarwal, Dean-RSFA/RSD/RSFT/RSA</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                                        <td>Mr. Ashif Mazid, Assistant Professor, RSFT</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Experts for each Department (Academic)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian
-                                                            Institute of Technology, Guwahati.
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>External Experts for each Department (Industry)</td>
-                                                        <td>
-                                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                                            Founder @ Projckt, Chandigarh
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>
-                                                            Two Faculty members of the School nominated by the Vice
-                                                            Chancellor
-                                                        </td>
-                                                        <td>
-                                                            Asif Iqbal Mazid, Assistant Professor, RSFT
-
-                                                            <hr>
-                                                            Sanjay Krishna Kutum, Assistant Professor, RSFT
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                                        <td>Dr. D.N Singh, Registrar</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- DRC -->
-                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
-                                    <button id="accBtn2" aria-expanded="false" class="para1"
-                                        style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
-                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
-                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
-                                    </button>
-                                    <div id="accPanel2"
-                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
-
-                                        <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467a">
-                                                    <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in S-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                                        <td>Hari Prasad Agarwal, Dean, RSFT/RSFA/RSD/RSA</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                                        <td>Mr. Ashif Mazid, Assistant Professor, RSFT</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>External Experts for each Department (Academic)</td>
-                                                        <td>
-                                                            Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian
-                                                            Institute of Technology, Guwahati.
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>External Experts for each Department (Industry)</td>
-                                                        <td>
-                                                            Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer
-                                                            Founder @ Projckt, Chandigarh
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>
-                                                            Two Faculty members of the School nominated by the Vice
-                                                            Chancellor
-                                                        </td>
-                                                        <td>
-                                                            Asif Iqbal Mazid, Assistant Professor, RSFT
-                                                            <hr>
-                                                            Sanjay Krishna Kutum, Assistant Professor, RSFT
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                                                        <td>Dr. D.N Singh, Registrar</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- JS remains same -->
-                    <script>
-                        const accPairs = [{
-                                btn: 'accBtn1',
-                                panel: 'accPanel1'
-                            },
-                            {
-                                btn: 'accBtn2',
-                                panel: 'accPanel2'
-                            }
-                        ];
-
-                        function closeAll() {
-                            accPairs.forEach(p => {
-                                const b = document.getElementById(p.btn);
-                                const panel = document.getElementById(p.panel);
-                                if (panel) panel.style.display = 'none';
-                                if (b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    const sp = b.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                }
-                            });
-                        }
-
-                        accPairs.forEach(p => {
-                            const b = document.getElementById(p.btn);
-                            const panel = document.getElementById(p.panel);
-                            if (!b || !panel) return;
-
-                            b.addEventListener('click', function() {
-                                const isOpen = this.getAttribute('aria-expanded') === 'true';
-                                if (isOpen) {
-                                    panel.style.display = 'none';
-                                    this.setAttribute('aria-expanded', 'false');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '＋';
-                                } else {
-                                    closeAll();
-                                    panel.style.display = 'block';
-                                    this.setAttribute('aria-expanded', 'true');
-                                    const sp = this.querySelector('span');
-                                    if (sp) sp.textContent = '−';
-                                }
-                            });
-                        });
-
-                        document.addEventListener('keydown', function(e) {
-                            if (e.key === 'Escape') closeAll();
-                        });
-                    </script>
-
-                </div>
-
-                <script>
-                    document.querySelectorAll('a.special-link').forEach(anchor => {
-                        anchor.addEventListener('mouseover', function() {
-                            this.style.width = '200px';
-                            this.querySelector('span').style.opacity = '1';
-                        });
-                        anchor.addEventListener('mouseout', function() {
-                            this.style.width = '42px';
-                            this.querySelector('span').style.opacity = '0';
-                        });
-                        anchor.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
-
-            </section>
+<script>
+    // --- ACCORDION LOGIC ---
+    const accordionHeaders = document.querySelectorAll('.dept-rsft-accordion-header');
+
+    // Function to calculate and set the exact height for smooth transitions
+    function setAccordionHeights() {
+        const activeItems = document.querySelectorAll('.dept-rsft-accordion-item.active');
+        activeItems.forEach(item => {
+            const content = item.querySelector('.dept-rsft-accordion-content');
+            content.style.maxHeight = content.scrollHeight + "px";
+        });
+    }
+
+    // Initialize the open item on load
+    setAccordionHeights();
+
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', function () {
+            const currentItem = this.parentElement;
+            const currentContent = currentItem.querySelector('.dept-rsft-accordion-content');
+
+            // Toggle 'active' class
+            currentItem.classList.toggle('active');
+
+            // If it is now active, set max-height to its scrollHeight (actual content height)
+            if (currentItem.classList.contains('active')) {
+                currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+            } else {
+                // If closed, collapse it back to 0
+                currentContent.style.maxHeight = 0;
+            }
+        });
+    });
+
+    // Recalculate heights if the window resizes (prevents text clipping on mobile)
+    window.addEventListener('resize', setAccordionHeights);
+</script>
+
+<script>
+    // ================= EVENTS DATA =================
+
+    const eventsData = [
+        "06-02-2018 | Ms. Anamika Chaudhury (Fashion entrepreneur) | Interactive session on fashion entrepreneurship.",
+
+        "07-02-2018 | Mr. Soumar J Sharma (Fashion designer) | Interactive session on fashion and others.",
+
+        "29-08-2018 | Ms. Swagata Dev (Fashion blogger) | Interactive session on fashion journalism.",
+
+        "27-06-2018 | Ms. Nein Siao (Dean, School of Design & Fashion, IILM University & academic advisor at JS Institute of Design) | RGU Speaker Series - Be vocal about local: traditional textiles & crafts as future fashion statement.",
+
+        "-- | Ms. Meghali Das (Vice chairperson, FICCI Ladies Organisation 2019-20 & owner of Needle Craft) | Guest speaker.",
+
+        "-- | Mr. Sonam Tashi Gyaltsen (Industrial designer & co-founder of Echostream; designer/owner of LA & T) | Guest lecture.",
+
+        "-- | Ms. Himani Thapa (Founder of sustainable fashion label ORI) | Talk on sustainable fashion.",
+
+        "12-09-2018 | Ms. Dipeeka Betala Saboo (Fashion designer) | Interactive session on digital marketing as a career option.",
+
+        "17-06-2019 | Ms. Mrittika Banerjee (Founder of EAST by Mrittika) | Webinar on fashion business startup and entrepreneurship.",
+
+        "24-06-2019 | Mr. Ameet Barua (Designer & innovator at KYNKOO Menswear and Emily's Workshop for womenswear) | Webinar on merchandising as a career option in the fashion industry."
+    ];
+
+    const eventsTrack = document.getElementById("events-track");
+
+    if (eventsTrack) {
+
+        if (!eventsData || eventsData.length === 0) {
+            eventsTrack.innerHTML = `
+        <p style="text-align:center; padding:20px; color:#556b8d;">
+          No events available at the moment.
+        </p>
+      `;
+        } else {
+
+            const createEventHTML = (text) => `
+        <div class="dept-rsft-event-item">
+          ${text}
+        </div>
+      `;
+
+            // Duplicate for seamless infinite scroll
+            const fullContent = [...eventsData, ...eventsData]
+                .map(createEventHTML)
+                .join("");
+
+            eventsTrack.innerHTML = fullContent;
+        }
+    }
+</script>
+
+<script>
+    const tableData = [
+        {
+            title: "The Board of Studies",
+            headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+            rows: [
+
+                ["1", "Chairperson (Ex- Officio) Dean of School", "Prof. (Dr.) Hari Prasad Agarwal"],
+
+                ["2", "Registrar, Member Secretary (Ex Officio)", "Dr. Diganta Munsi, Registrar RGU"],
+
+                ["3", "Dean Of Academics, (Invited Member)", "Prof. Nandana Das"],
+                ["4", "Members (Ex- Officio) All Head of the Department", "Asif Iqbal Mazid, Assistant Professor, Co-Ordinator of RSD"],
+                ["", "", "Ar. Bhola Saha, Assistant Professor, Co-Ordinator of ID"],
+                ["5", "External Expert for each Department (Academic)", "Prof. (Dr.) Sougata Karmakar, HoD, Dept. of Design, Indian Institute of Technology, Guwahati"],
+                ["", "", "Ms Nien Siao, JS Institute of Design, New Design"],
+                ["6", "External Expert for each Department (Industry)", "Mr. Tuhin Bhuyan, Full Stack Developer + Interaction Designer"],
+                ["", "", "Mr. Ameet Baruah Fashion Designer, Kyn Koo, Guwahati"],
+
+
+
+            ]
+        },
+        {
+            title: "Departmental Research Committee (DRC)",
+            headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
+            rows: [
+
+                ["1", "Chairperson (Ex-Officio) Dean of School", "Hari Prasad Agarwal, Dean, RSFT/RSFA/RSD/RSA"],
+
+                ["2", "All Heads of the Departments - Members (Ex-Officio)", "Mr. Ashif Mazid, Assistant Professor, RSFT"],
+
+                ["3", "External Experts for each Department (Academic)", "Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian Institute of Technology, Guwahati."],
+
+                ["4", "External Experts for each Department (Industry)", "Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer Founder @ Projckt, Chandigarh"],
+
+                ["5", "Two Faculty members of the School nominated by the Vice Chancellor", "Asif Iqbal Mazid, Assistant Professor, RSFT"],
+
+                ["", "", "Sanjay Krishna Kutum, Assistant Professor, RSFT"],
+
+                ["6", "Registrar, Member Secretary (Ex-officio)", "Dr. D.N Singh, Registrar"]
+
+            ]
+        }
+    ];
+
+    const container = document.getElementById("table-accordion-container");
+
+    if (container) {
+
+        const createTable = (headers, rows) => {
+            if (!rows || rows.length === 0) {
+                return `<p style="color:#556b8d;">No data available</p>`;
+            }
+
+            return `
+        <div class="dept-rsft-table-responsive">
+          <table class="dept-rsft-table">
+            <thead>
+              <tr>
+                ${headers.map(h => `<th>${h}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+              ${rows.map(row => `
+                <tr>
+                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+        };
+
+        container.innerHTML = tableData.map(item => {
+
+            const isEmpty = !item.rows || item.rows.length === 0;
+
+            return `
+        <div class="dept-rsft-table-acc ${isEmpty ? 'disabled' : ''}">
+
+          <div class="dept-rsft-table-header">
+            <span>${item.title}</span>
+            ${isEmpty ? '' : '<i class="fa fa-plus"></i>'}
+          </div>
+
+          <div class="dept-rsft-table-content">
+            ${createTable(item.headers, item.rows)}
+          </div>
 
         </div>
-    @endsection
+      `;
+        }).join("");
+    }
+
+    /* ACCORDION (single open at a time) */
+    document.addEventListener("click", function (e) {
+        const header = e.target.closest(".dept-rsft-table-header");
+        if (!header) return;
+
+        const item = header.parentElement;
+        if (item.classList.contains("disabled")) return;
+
+        const allItems = document.querySelectorAll(".dept-rsft-table-acc");
+
+        allItems.forEach(acc => {
+            if (acc !== item) {
+                acc.classList.remove("active");
+                const content = acc.querySelector(".dept-rsft-table-content");
+                const icon = acc.querySelector("i");
+                if (content) content.style.maxHeight = 0;
+                if (icon) icon.classList.replace("fa-minus", "fa-plus");
+            }
+        });
+
+        const content = item.querySelector(".dept-rsft-table-content");
+        const icon = header.querySelector("i");
+
+        item.classList.toggle("active");
+
+        if (item.classList.contains("active")) {
+            content.style.maxHeight = content.scrollHeight + "px";
+            icon.classList.replace("fa-plus", "fa-minus");
+        } else {
+            content.style.maxHeight = 0;
+            icon.classList.replace("fa-minus", "fa-plus");
+        }
+    });
+</script>
+
+<script>
+    const eventGalleryData = [
+        {
+            title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+            images: [
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+            ]
+        },
+        {
+            title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+            images: [
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+            ]
+        }
+    ];
+
+    const galleryContainer = document.getElementById("event-gallery-container");
+
+    if (galleryContainer) {
+
+        galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+            const images = event.images || [];
+
+            if (images.length === 0) {
+                return "";
+            }
+
+            // duplicate for infinite effect
+            const marqueeImages = [...images, ...images]
+                .map(img => `<img src="${img}" alt="event">`)
+                .join("");
+
+            return `
+      <div class="dept-rsft-event-card">
+
+        <div class="dept-rsft-event-title">
+          ${event.title}
+        </div>
+
+        <div class="dept-rsft-marquee">
+          <div class="dept-rsft-marquee-track">
+            ${marqueeImages}
+          </div>
+        </div>
+
+      </div>
+    `;
+
+        }).join("");
+    }
+</script>
+@endsection
