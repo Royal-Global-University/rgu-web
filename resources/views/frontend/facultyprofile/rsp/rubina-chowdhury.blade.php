@@ -211,7 +211,7 @@
                  Dr. Rajat Subhra Dutta
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Associate Professor
+                Assistant Professor
               </h2>
             </div>
 
