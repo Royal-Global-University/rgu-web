@@ -564,6 +564,7 @@
 
         </div>
 
+
         <div class="website">
             @include('frontend/components/aheader')
             <!-- floating button  -->
@@ -810,7 +811,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsd/product-design/syllabus/B.Des.-Product-Design-Deatiled-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSD/B.Des. Product Design 2025_26.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Product Design

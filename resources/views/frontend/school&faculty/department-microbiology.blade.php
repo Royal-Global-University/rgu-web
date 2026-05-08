@@ -173,7 +173,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-microbio/updated-syllabus/detailed-syllabus-bsc-microbiology.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSBSC/Detailed Syllabus Bsc Microbiology syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc.
                                                         Microbiology
@@ -203,7 +203,7 @@
                                                 <div class="row"
                                                     style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/dept-microbio/updated-syllabus/detailed-syllabus-msc-microbiology.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSBSC/Detailed Sylalbus MSC Microbiology syllabus .pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- M.Sc.
                                                         Microbiology
@@ -936,7 +936,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-microbio/updated-syllabus/detailed-syllabus-bsc-microbiology.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSBSC/Detailed Syllabus Bsc Microbiology syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Sc. Microbiology
@@ -968,7 +968,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-microbio/updated-syllabus/detailed-syllabus-msc-microbiology.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSBSC/Detailed Sylalbus MSC Microbiology syllabus .pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Structure of Syllabus
                                                                 -- M.Sc. Microbiology

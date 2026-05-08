@@ -1318,7 +1318,7 @@
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/Detail Syllabus BSc Physics (H).pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1351,7 +1351,7 @@
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/PG FULL SYLLABUS_Physics.pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

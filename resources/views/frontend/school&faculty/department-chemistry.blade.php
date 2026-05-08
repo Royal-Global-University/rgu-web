@@ -1299,7 +1299,7 @@
                                 <i class="fa-solid fa-download dept-chemistry-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-chemistry/syllabus-chemistry/detailed-syllabus-ug.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/Chemistry PG Syllabus.pdf"
                                 class="dept-chemistry-syllabus-link" download>
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1323,7 +1323,7 @@
                     <div class="dept-chemistry-accordion-content">
                         <div class="dept-chemistry-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-chemistry/syllabus-chemistry/detailed-syllabus-pg.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/Chemistry Syllabus UG_2025_23-06-25.pdf"
                                 class="dept-chemistry-syllabus-link" download>
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

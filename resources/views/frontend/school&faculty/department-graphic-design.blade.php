@@ -2,6 +2,7 @@
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
+
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <!-- floating mob button  -->
@@ -170,7 +171,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsd/graphic-design/syllabus/B.Des.-Graphic-Design-Deatiled-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSD/B.Des. Graphic Design 2025_26.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Graphic
                                                         Design
@@ -812,7 +813,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsd/graphic-design/syllabus/B.Des.-Graphic-Design-Deatiled-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSD/B.Des. Graphic Design 2025_26.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Graphic Design

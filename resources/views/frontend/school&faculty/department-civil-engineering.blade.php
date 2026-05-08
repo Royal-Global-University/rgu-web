@@ -1297,11 +1297,21 @@ The program emphasizes experiential and outcome-based learning through laborator
                     <div class="dept-civil-accordion-content">
                         <div class="dept-civil-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/CE/SYLLABUS- M. TECH. (CE- SE)- 16-07-2025(1).pdf"
-                                class="dept-civil-syllabus-link" download>
+                                href="/mobile-assets/syllabus/RSET/MTech-SE-SYLLABUS-AS-ON-29.04.26-RGU-New NEP.pdf"
+                                class="dept-civil-syllabus-link" >
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Structure of Syllabus -- M.Tech. CE
+                                    Structure of Syllabus -- M.Tech. SE
+                                </div>
+                                <i class="fa-solid fa-download dept-civil-download-icon"></i>
+                            </a>
+
+                            <a target="_blank"
+                                href="/mobile-assets/syllabus/RSET/MTech-WRDM-SYLLABUS-AS-ON-24.11.25-RGU-New NEP.pdf"
+                                class="dept-civil-syllabus-link">
+                                <div class="dept-civil-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Structure of Syllabus -- M.Tech. WRDM
                                 </div>
                                 <i class="fa-solid fa-download dept-civil-download-icon"></i>
                             </a>

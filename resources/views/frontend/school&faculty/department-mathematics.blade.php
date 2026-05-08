@@ -1322,7 +1322,7 @@
                     <div class="dept-maths-accordion-content">
                         <div class="dept-maths-syllabus-list">
                             <a target="_blank"
-                                href="mobile-assets/rsaps-new-dept/mathematics/syllabus/B.Sc. Maths Syllabus AY 2023-24 31.12.2025.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/B.Sc. Maths Detail Syllabus .pdf"
                                 class="dept-maths-syllabus-link">
                                 <div class="dept-maths-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1347,7 +1347,7 @@
                     <div class="dept-maths-accordion-content">
                         <div class="dept-maths-syllabus-list">
                             <a target="_blank"
-                                href="mobile-assets/rsaps-new-dept/mathematics/syllabus/MSc_Maths_NEP_Syllabus AY 2025-26_27.3.2026.pdf"
+                                href="/mobile-assets/syllabus/RSAPS/MSc_Maths_Detailed_Syllabus .pdf"
                                 class="dept-maths-syllabus-link">
                                 <div class="dept-maths-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

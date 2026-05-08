@@ -1610,7 +1610,7 @@
                             </a>
 
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf"
+                                href="/mobile-assets/syllabus/RSA/B.ARCH. _Course Structure &  Detailed Syllabus _2025 Batch.pdf"
                                 class="dept-architecture-syllabus-link">
                                 <div class="dept-architecture-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

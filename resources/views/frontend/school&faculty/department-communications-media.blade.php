@@ -202,6 +202,7 @@
                                         <i class="fa fa-graduation-cap me-2"></i> Under Graduate
                                     </button>
                                 </h2>
+
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body"
@@ -217,14 +218,14 @@
                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                             </a>
 
-                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/bsc-animation-and-visualeffects-detailed-syllabus.pdf"
+                                            <a href="/mobile-assets/syllabus/RSCOM/Final BSc animation and visualeffects .pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation & Visual
                                                 Effects
                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                             </a>
 
-                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ba-jmc-detailed.pdf"
+                                            <a href="/mobile-assets/syllabus/RSCOM/Final BA JMC NEP 2025-2026.pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and
                                                 Mass
@@ -256,7 +257,7 @@
                                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                         <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ma-jmc-detailed.pdf"
+                                            <a href="/mobile-assets/syllabus/RSCOM/Final Syllabus MA NEP 2025 -2026 (1).pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and
                                                 Mass
@@ -1030,7 +1031,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/bsc-animation-and-visualeffects-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSCOM/Final BSc animation and visualeffects .pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Animation & Visual Effects
@@ -1038,7 +1039,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ba-jmc-detailed.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSCOM/Final BA JMC NEP 2025-2026.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Journalism and Mass
@@ -1073,7 +1074,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ma-jmc-detailed.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSCOM/Final Syllabus MA NEP 2025 -2026 (1).pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Journalism and Mass

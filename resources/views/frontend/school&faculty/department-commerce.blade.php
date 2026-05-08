@@ -301,26 +301,26 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-acca-detailed-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSC/B.Com ACCA.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Com
                                                         ACCA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-cma-detailed-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSC/B.Com CMA (Updated).pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Com CMA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-detailed-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSC/RSC_UG Syllabus 2025_26.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Com
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-finance-detailed-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSC/B.Com Finance Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Com
                                                         Finance
@@ -350,7 +350,7 @@
                                                 <div class="row"
                                                     style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/m-com-detailed-syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSC/RSC M.COM NEP 2025 SYLLABUS .pdf"
                                                         target="_blank"
                                                         style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Com
@@ -1904,7 +1904,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a> --}}
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-acca-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSC/B.Com ACCA.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Com ACCA
@@ -1912,7 +1912,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-cma-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSC/B.Com CMA (Updated).pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Com CMA
@@ -1920,7 +1920,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSC/RSC_UG Syllabus 2025_26.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Com
@@ -1928,7 +1928,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/b.com-finance-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSC/B.Com Finance Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Com Finance
@@ -1960,7 +1960,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-commerce/updated-syllabus/m-com-detailed-syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSC/RSC M.COM NEP 2025 SYLLABUS .pdf"
                                                                 target="_blank"
                                                                 style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --

@@ -1460,11 +1460,21 @@
                         <div class="dept-business-syllabus-list">
 
                             <a target="_blank"
-                                href="mobile-assets/new-dept-business/syllabus/MBA_Syllabus2025-26_(6.12.2024)-COMD-Final-(1).pdf"
+                                href="/mobile-assets/syllabus/RSB/MBA_Syllabus2025-26.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Course Structure and Syllabus -- MBA
+                                </div>
+                                <i class="fa-solid fa-download dept-business-download-icon"></i>
+                            </a>
+
+                            <a target="_blank"
+                                href="/mobile-assets/syllabus/RSB/EMBA Syllabus.pdf"
+                                class="dept-business-syllabus-link">
+                                <div class="dept-business-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Course Structure and Syllabus -- EMBA
                                 </div>
                                 <i class="fa-solid fa-download dept-business-download-icon"></i>
                             </a>
@@ -1486,7 +1496,7 @@
                         <div class="dept-business-syllabus-list">
 
                             <a target="_blank"
-                                href="mobile-assets/new-dept-business/syllabus/BBA-4-YEAR-SYLLABUS-STRUCTURE-FOR-25.2.25-29-07-07-20251.08.25.pdf"
+                                href="/mobile-assets/syllabus/RSB/BBA SYLLABUS FOR 24-28 - Final Copy.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

@@ -356,14 +356,14 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/UG_PSY_Detailed Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSBAS/BA PSYCHOLOGY.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                         Psychology
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/UG_APY_Detailed Syllabus.pdf Syllabus.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSBAS/BA APPLIED PSYCHOLOGY_Detailed Syllabus.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                         Applied Psychology
@@ -394,7 +394,7 @@
                                                 <div class="row"
                                                     style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/Detailed_Syllabus_M.A.Psychology.pdf"
+                                                    <a href="/mobile-assets/syllabus/RSBAS/M.A. Psychology Detailed Syllabus (1).pdf"
                                                         target="_blank"
                                                         style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MA
@@ -1933,7 +1933,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/UG_PSY_Detailed Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSBAS/BA PSYCHOLOGY.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BA Psychology
@@ -1941,7 +1941,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/UG_APY_Detailed Syllabus.pdf Syllabus.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSBAS/BA APPLIED PSYCHOLOGY_Detailed Syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BA Applied Psychology
@@ -1974,7 +1974,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-psychology/updated-syllabus/Detailed_Syllabus_M.A.Psychology.pdf"
+                                                            <a href="/mobile-assets/syllabus/RSBAS/M.A. Psychology Detailed Syllabus (1).pdf"
                                                                 target="_blank"
                                                                 style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --

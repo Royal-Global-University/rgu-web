@@ -1483,7 +1483,7 @@
                                 <i class="fa-solid fa-download dept-biotechnology-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
+                                href="/mobile-assets/syllabus/RSBSC/RGU_BSc Biotechnology_Detailled Syllabus.pdf"
                                 class="dept-biotechnology-syllabus-link">
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1508,7 +1508,7 @@
                     <div class="dept-biotechnology-accordion-content">
                         <div class="dept-biotechnology-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
+                                href="/mobile-assets/syllabus/RSBSC/RGU_MSc Biotechnology_Detail Syllabus.pdf"
                                 class="dept-biotechnology-syllabus-link">
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

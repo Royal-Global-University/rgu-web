@@ -1277,7 +1277,7 @@
                                 <i class="fa-solid fa-download dept-rsft-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsd/fashion-design/syllabus/B.DES.-Fashion-design_Detailed-Syllabus.pdf"
+                                href="/mobile-assets/syllabus/RSFT/B.DES RSFT.pdf"
                                 class="dept-rsft-syllabus-link" download>
                                 <div class="dept-rsft-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
