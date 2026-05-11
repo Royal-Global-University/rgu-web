@@ -1,18 +1,18 @@
-@extends('frontend/new-master')
+@extends('frontend/master')
 @section('content')
 
-    <style>
-        :root {
-            --rgu-jb-primary: #173b72;
-            --rgu-jb-secondary: #f15a36;
-            --rgu-jb-dark: #10284c;
-            --rgu-jb-light: #ffffff;
-            --rgu-jb-text: #d8e4f3;
-            --rgu-jb-bg: #FFF8F0;
-            --rgu-jb-glass: rgba(255, 255, 255, 0.05);
-            --rgu-jb-border: rgba(255, 255, 255, 0.08);
-        }
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
 
+    </div>
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+
+    </div>
+
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -21,30 +21,30 @@
 
         body {
             font-family: 'Times New Roman', Times, serif;
-            background: var(--rgu-jb-bg);
+            background: #FFF8F0;
             overflow-x: hidden;
         }
 
-        .rgu-jb-wrapper img {
+        img {
             max-width: 100%;
             display: block;
         }
 
-        .rgu-jb-wrapper a {
+        a {
             text-decoration: none;
         }
 
-        /* =========================
-               HERO
-            ========================= */
+        /* =====================================
+           HERO
+        ===================================== */
 
         .rgu-jb-hero {
             padding: 70px 20px 50px;
-            background-color: #FFF8F0;
+            background: #FFF8F0;
         }
 
         .rgu-jb-hero-box {
-            background: white;
+            background: #ffffff;
             border-radius: 40px;
             overflow: hidden;
             box-shadow: 0 20px 60px rgba(0, 0, 0, .08);
@@ -63,76 +63,155 @@
             font-size: clamp(2.6rem, 5vw, 3rem);
             line-height: 1.08;
             font-weight: 800;
-            color: var(--rgu-jb-secondary);
+            color: #f15a36;
             margin-bottom: 25px;
         }
 
         .rgu-jb-subtitle {
-            font-size: 1.3rem;
-            color: var(--rgu-jb-primary);
-            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.9;
+            color: #173b72;
             font-weight: 600;
             text-align: justify;
         }
 
-        .rgu-jb-right {
+        /* =====================================
+           RIGHT HERO
+        ===================================== */
+
+        .rgu-jb-right-panel {
             min-height: 100%;
+            padding: 45px;
+            background:
+                linear-gradient(rgba(23, 59, 114, .10),
+                    rgba(23, 59, 114, .10));
+            display: flex;
+            align-items: center;
+            justify-content: center;
             position: relative;
             overflow: hidden;
-            background:
-                linear-gradient(rgba(23, 59, 114, .15),
-                    rgba(23, 59, 114, .15));
         }
 
-        .rgu-jb-circle-blue {
+        .rgu-jb-right-panel::before {
+            content: "";
             position: absolute;
-            width: 650px;
-            height: 650px;
+            width: 620px;
+            height: 620px;
             border-radius: 50%;
-            background: var(--rgu-jb-primary);
-            top: -180px;
-            right: -180px;
-            opacity: .95;
+            background: #173b72;
+            top: -250px;
+            right: -250px;
+            opacity: .92;
         }
 
-        .rgu-jb-circle-orange {
+        .rgu-jb-right-panel::after {
+            content: "";
             position: absolute;
             width: 220px;
             height: 220px;
             border-radius: 50%;
-            background: var(--rgu-jb-secondary);
-            top: 30px;
-            right: 60px;
+            background: #f15a36;
+            top: 50px;
+            right: 50px;
         }
 
-        /* =========================
-               INTRO
-            ========================= */
+        .rgu-jb-vacancy-box {
+            position: relative;
+            z-index: 5;
+            width: 100%;
+            max-width: 520px;
+            background: rgba(255, 248, 240, .97);
+            border-radius: 35px;
+            padding: 45px 35px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, .14);
+            border: 2px solid rgba(255, 255, 255, .4);
+            backdrop-filter: blur(10px);
+        }
+
+        .rgu-jb-vacancy-box h2 {
+            font-size: clamp(2.3rem, 5vw, 4rem);
+            line-height: 1.1;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 25px;
+        }
+
+        .rgu-jb-vacancy-box p {
+            color: #173b72;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 22px;
+        }
+
+        .rgu-jb-vacancy-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background:
+                linear-gradient(135deg,
+                    #ff971d,
+                    #f15a36);
+            color: #ffffff;
+            font-size: 1.05rem;
+            font-weight: 700;
+            padding: 18px 24px;
+            border-radius: 18px;
+            transition: .3s ease;
+            margin-bottom: 30px;
+            box-shadow: 0 14px 35px rgba(241, 90, 54, .25);
+        }
+
+        .rgu-jb-vacancy-btn:hover {
+            color: #ffffff;
+            transform: translateY(-4px);
+            box-shadow: 0 18px 45px rgba(241, 90, 54, .35);
+        }
+
+        .rgu-jb-vacancy-box h4 {
+            font-size: 1.05rem;
+            color: #173b72;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        .rgu-jb-vacancy-box img {
+            width: 240px;
+            margin: auto;
+            border-radius: 14px;
+            border: 5px solid #173b72;
+            background: white;
+        }
+
+        /* =====================================
+           INTRO
+        ===================================== */
 
         .rgu-jb-intro {
-            text-align: center;
             margin-top: 45px;
+            text-align: center;
         }
 
         .rgu-jb-intro p {
             max-width: 1250px;
             margin: auto;
+            color: #173b72;
+            font-size: 1.1rem;
             line-height: 1.9;
-            color: var(--rgu-jb-primary);
-            font-size: 1.15rem;
             font-weight: 500;
         }
 
-        /* =========================
-               SECTION
-            ========================= */
+        /* =====================================
+           MAIN SECTION
+        ===================================== */
 
         .rgu-jb-section {
             padding: 20px;
         }
 
         .rgu-jb-panel {
-            background: var(--rgu-jb-dark);
+            background: #10284c;
             border-radius: 40px;
             padding: 55px;
             position: relative;
@@ -150,23 +229,27 @@
             right: -250px;
         }
 
-        /* =========================
-               HEAD
-            ========================= */
+        /* =====================================
+           HEAD
+        ===================================== */
 
         .rgu-jb-head {
-            text-align: center;
-            margin-bottom: 55px;
             position: relative;
             z-index: 2;
+            text-align: center;
+            margin-bottom: 55px;
         }
 
         .rgu-jb-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #ff7d3a, #f15a36);
+            background:
+                linear-gradient(135deg,
+                    #ff7d3a,
+                    #f15a36);
             color: white;
             padding: 14px 34px;
             border-radius: 100px;
+            font-size: .95rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -176,23 +259,23 @@
 
         .rgu-jb-head h2 {
             color: white;
-            font-size: clamp(2rem, 4vw, 3.6rem);
+            font-size: clamp(2rem, 4vw, 3.5rem);
             font-weight: 800;
         }
 
-        /* =========================
-               CARD
-            ========================= */
+        /* =====================================
+           CARD
+        ===================================== */
 
         .rgu-jb-card {
-            background: var(--rgu-jb-glass);
-            border: 1px solid var(--rgu-jb-border);
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, .05);
+            border: 1px solid rgba(255, 255, 255, .08);
             backdrop-filter: blur(16px);
             border-radius: 32px;
             padding: 35px;
             margin-bottom: 30px;
-            position: relative;
-            z-index: 2;
             transition: .3s ease;
         }
 
@@ -203,30 +286,33 @@
 
         .rgu-jb-card h3 {
             display: inline-block;
-            background: linear-gradient(90deg, #f15a36, #ff8449);
+            background:
+                linear-gradient(90deg,
+                    #f15a36,
+                    #ff8449);
             color: white;
             padding: 15px 24px;
             border-radius: 16px;
-            font-size: 1.55rem;
+            font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 25px;
         }
 
         .rgu-jb-card p {
-            color: var(--rgu-jb-text);
+            color: #d8e4f3;
             line-height: 1.9;
             font-size: 1rem;
-            margin-bottom: 14px;
+            margin-bottom: 15px;
         }
 
         .rgu-jb-highlight {
             color: #ffca97 !important;
-            font-weight: 600;
+            font-weight: 700;
         }
 
-        /* =========================
-               DOMAIN TAGS
-            ========================= */
+        /* =====================================
+           DOMAIN TAGS
+        ===================================== */
 
         .rgu-jb-domains {
             display: flex;
@@ -237,16 +323,16 @@
 
         .rgu-jb-domains span {
             background: rgba(255, 255, 255, .08);
+            border: 1px solid rgba(255, 255, 255, .08);
             color: white;
             padding: 12px 18px;
             border-radius: 100px;
             font-size: .95rem;
-            border: 1px solid rgba(255, 255, 255, .08);
         }
 
-        /* =========================
-               FEATURES
-            ========================= */
+        /* =====================================
+           FEATURES
+        ===================================== */
 
         .rgu-jb-feature-box {
             margin-top: 20px;
@@ -255,9 +341,9 @@
         .rgu-jb-feature-card {
             background: rgba(255, 255, 255, .05);
             border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, .06);
             padding: 30px;
             height: 100%;
-            border: 1px solid rgba(255, 255, 255, .06);
         }
 
         .rgu-jb-feature-card h4 {
@@ -268,277 +354,51 @@
         }
 
         .rgu-jb-feature-card p {
-            color: var(--rgu-jb-text);
+            color: #d8e4f3;
             line-height: 1.8;
             margin-bottom: 0;
         }
 
-        /* =========================
-               APPLICATION
-            ========================= */
+        /* =====================================
+           APPLICATION
+        ===================================== */
 
         .rgu-jb-mail {
-            color: #ffca97;
-            font-size: 1.2rem;
+            color: #ffca97 !important;
+            font-size: 1.2rem !important;
             font-weight: 700;
             word-break: break-word;
-        }
-
-        .rgu-jb-qr {
-            width: 230px;
-            border-radius: 20px;
-            border: 4px solid white;
-            margin: auto;
         }
 
         .rgu-jb-salary {
             background: #ffe14f;
             color: black;
+            font-size: 1.05rem;
             font-weight: 700;
+            text-align: center;
             padding: 18px;
             border-radius: 16px;
-            text-align: center;
             margin-top: 25px;
-            font-size: 1.05rem;
+        }
+
+        .rgu-jb-qr {
+            width: 230px;
+            margin: auto;
+            border-radius: 20px;
+            border: 4px solid white;
         }
 
         .rgu-jb-footer-note {
             text-align: center;
-            margin-top: 18px;
+            margin-top: 20px;
             color: white;
             font-weight: 600;
         }
 
-        /* =========================
-               RESPONSIVE
-            ========================= */
+        /* =====================================
+           OTHER ADS
+        ===================================== */
 
-        @media(max-width:991px) {
-
-            .rgu-jb-left {
-                padding: 45px;
-            }
-
-            .rgu-jb-right {
-                min-height: 380px;
-            }
-
-            .rgu-jb-panel {
-                padding: 35px;
-            }
-        }
-
-        @media(max-width:768px) {
-
-            .rgu-jb-hero {
-                padding: 50px 12px;
-            }
-
-            .rgu-jb-left {
-                padding: 30px 24px;
-            }
-
-            .rgu-jb-logo {
-                width: 220px;
-            }
-
-            .rgu-jb-title {
-                font-size: 2.5rem;
-            }
-
-            .rgu-jb-subtitle {
-                font-size: 1.05rem;
-            }
-
-            .rgu-jb-panel {
-                padding: 20px;
-                border-radius: 28px;
-            }
-
-            .rgu-jb-card {
-                padding: 24px;
-                border-radius: 24px;
-            }
-
-            .rgu-jb-card h3 {
-                width: 100%;
-                text-align: center;
-                font-size: 1.2rem;
-            }
-
-            .rgu-jb-domains span {
-                width: 100%;
-                text-align: center;
-            }
-
-            .rgu-jb-qr {
-                width: 200px;
-                margin-top: 20px;
-            }
-        }
-
-        /* =========================
-       RIGHT HERO PANEL
-    ========================= */
-
-        /* =========================
-       APPLY BUTTON
-    ========================= */
-
-        .rgu-jb-vacancy-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            background: linear-gradient(135deg, #ff971d, #f15a36);
-            color: white !important;
-            padding: 18px 28px;
-            border-radius: 18px;
-            font-size: 1.05rem;
-            font-weight: 700;
-            margin-bottom: 35px;
-            transition: .3s ease;
-            box-shadow: 0 15px 35px rgba(241, 90, 54, .25);
-            word-break: break-word;
-        }
-
-        .rgu-jb-vacancy-btn:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px rgba(241, 90, 54, .35);
-            color: white !important;
-        }
-
-        @media(max-width:768px) {
-
-            .rgu-jb-vacancy-btn {
-                width: 100%;
-                font-size: .95rem;
-                padding: 16px 20px;
-            }
-
-        }
-
-        .rgu-jb-right-panel {
-            position: relative;
-            min-height: 100%;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 40px;
-            overflow: hidden;
-        }
-
-
-        .rgu-jb-vacancy-box {
-            position: relative;
-            z-index: 2;
-            background: rgba(255, 245, 230, .96);
-            backdrop-filter: blur(10px);
-            border-radius: 35px;
-            padding: 45px 35px;
-            width: 100%;
-            max-width: 520px;
-            text-align: center;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, .15);
-            border: 2px solid rgba(255, 255, 255, .4);
-        }
-
-        .rgu-jb-vacancy-box h2 {
-            font-size: clamp(2.2rem, 5vw, 4rem);
-            font-weight: 800;
-            color: #1d1f27;
-            margin-bottom: 30px;
-            line-height: 1.1;
-        }
-
-        .rgu-jb-vacancy-box p {
-            font-size: 1.15rem;
-            color: #173b72;
-            font-weight: 600;
-            margin-bottom: 22px;
-        }
-
-        .rgu-jb-vacancy-box a {
-            display: block;
-            color: #ff971d;
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-bottom: 35px;
-            line-height: 1.8;
-            word-break: break-word;
-            transition: .3s ease;
-        }
-
-        .rgu-jb-vacancy-box a:hover {
-            color: #f15a36;
-        }
-
-        .rgu-jb-vacancy-box h4 {
-            font-size: 1.1rem;
-            color: #173b72;
-            font-weight: 700;
-            margin-bottom: 25px;
-        }
-
-        .rgu-jb-vacancy-box img {
-            width: 240px;
-            margin: auto;
-            border: 5px solid #173b72;
-            border-radius: 12px;
-            background: white;
-        }
-
-        /* =========================
-       RESPONSIVE
-    ========================= */
-
-        @media(max-width:991px) {
-
-            .rgu-jb-right-panel {
-                padding: 30px 20px;
-            }
-
-            .rgu-jb-vacancy-box {
-                max-width: 100%;
-            }
-        }
-
-        @media(max-width:768px) {
-
-            .rgu-jb-right-panel {
-                min-height: auto;
-            }
-
-            .rgu-jb-vacancy-box {
-                padding: 30px 20px;
-                border-radius: 24px;
-            }
-
-            .rgu-jb-vacancy-box h2 {
-                font-size: 2.3rem;
-            }
-
-            .rgu-jb-vacancy-box p,
-            .rgu-jb-vacancy-box h4 {
-                font-size: 1rem;
-            }
-
-            .rgu-jb-vacancy-box a {
-                font-size: 1rem;
-            }
-
-            .rgu-jb-vacancy-box img {
-                width: 190px;
-            }
-        }
-    </style>
-
-    <!-- =========================
-         CSS
-    ========================= -->
-
-    <style>
         .rgu-jb-other-wrap {
             background: white;
             border-radius: 40px;
@@ -546,14 +406,18 @@
             box-shadow: 0 15px 50px rgba(0, 0, 0, .06);
         }
 
+        .rgu-jb-other-wrap .rgu-jb-head h2 {
+            color: #173b72;
+        }
+
         .rgu-jb-ad-card {
-            background: white;
-            border-radius: 24px;
+            height: 100%;
             overflow: hidden;
+            border-radius: 24px;
+            cursor: pointer;
             box-shadow: 0 10px 35px rgba(0, 0, 0, .08);
             transition: .3s ease;
-            cursor: pointer;
-            height: 100%;
+            background: white;
         }
 
         .rgu-jb-ad-card:hover {
@@ -564,12 +428,11 @@
             width: 100%;
             height: 100%;
             object-fit: contain;
-            display: block;
         }
 
-        /* =========================
+        /* =====================================
            LIGHTBOX
-        ========================= */
+        ===================================== */
 
         .rgu-jb-lightbox {
             position: fixed;
@@ -601,14 +464,101 @@
             position: absolute;
             top: 20px;
             right: 30px;
-            color: white;
             font-size: 4rem;
+            color: white;
             cursor: pointer;
             line-height: 1;
             z-index: 5;
         }
 
+        /* =====================================
+           RESPONSIVE
+        ===================================== */
+
+        @media(max-width:991px) {
+
+            .rgu-jb-left {
+                padding: 45px;
+            }
+
+            .rgu-jb-right-panel {
+                padding: 30px 20px;
+            }
+
+            .rgu-jb-panel {
+                padding: 35px;
+            }
+
+            .rgu-jb-other-wrap {
+                padding: 35px;
+            }
+        }
+
         @media(max-width:768px) {
+
+            .rgu-jb-hero {
+                padding: 50px 12px;
+            }
+
+            .rgu-jb-left {
+                padding: 30px 24px;
+            }
+
+            .rgu-jb-logo {
+                width: 220px;
+            }
+
+            .rgu-jb-title {
+                font-size: 2.4rem;
+            }
+
+            .rgu-jb-subtitle {
+                font-size: 1rem;
+            }
+
+            .rgu-jb-vacancy-box {
+                padding: 30px 20px;
+                border-radius: 24px;
+            }
+
+            .rgu-jb-vacancy-box h2 {
+                font-size: 2.3rem;
+            }
+
+            .rgu-jb-vacancy-box img {
+                width: 190px;
+            }
+
+            .rgu-jb-vacancy-btn {
+                font-size: .95rem;
+                padding: 16px 20px;
+            }
+
+            .rgu-jb-panel {
+                padding: 20px;
+                border-radius: 28px;
+            }
+
+            .rgu-jb-card {
+                padding: 24px;
+                border-radius: 24px;
+            }
+
+            .rgu-jb-card h3 {
+                width: 100%;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+
+            .rgu-jb-domains span {
+                width: 100%;
+                text-align: center;
+            }
+
+            .rgu-jb-qr {
+                width: 190px;
+                margin-top: 20px;
+            }
 
             .rgu-jb-other-wrap {
                 padding: 24px;
@@ -623,11 +573,12 @@
         }
     </style>
 
+
     <div class="rgu-jb-wrapper">
 
-        <!-- =========================
-                 HERO
-            ========================= -->
+        <!-- =====================================
+           HERO
+      ====================================== -->
 
         <section class="rgu-jb-hero">
 
@@ -636,6 +587,8 @@
                 <div class="rgu-jb-hero-box">
 
                     <div class="row g-0 align-items-center">
+
+                        <!-- LEFT -->
 
                         <div class="col-lg-6">
 
@@ -649,25 +602,26 @@
                                 </h1>
 
                                 <div class="rgu-jb-subtitle">
-                                    The Assam Royal Global University, one of India’s premium private universities, has been
-                                    a leadership
-                                    platform since 2017, connecting industries, entrepreneurs, and youth. RGU fosters an
-                                    environment where
-                                    education, employment, and entrepreneurship thrive through collaboration with
-                                    corporates,
-                                    professionals, and academic institutes.
+
+                                    The Assam Royal Global University, one of India’s premium
+                                    private universities, has been a leadership platform since
+                                    2017, connecting industries, entrepreneurs, and youth.
+
+                                    RGU fosters an environment where education, employment,
+                                    and entrepreneurship thrive through collaboration with
+                                    corporates, professionals, and academic institutes.
+
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <!-- RIGHT HERO PANEL -->
+                        <!-- RIGHT -->
 
                         <div class="col-lg-6">
 
                             <div class="rgu-jb-right-panel">
-
 
                                 <div class="rgu-jb-vacancy-box">
 
@@ -685,6 +639,7 @@
                                         Apply / Register Now
 
                                     </a>
+
                                     <h4>
                                         Or scan the QR code below -
                                     </h4>
@@ -701,12 +656,16 @@
 
                 </div>
 
+                <!-- INTRO -->
+
                 <div class="rgu-jb-intro">
 
                     <p>
-                        Explore academic and professional vacancies, view detailed job descriptions, and learn how to apply
-                        through
-                        our portal:
+
+                        Explore academic and professional vacancies,
+                        view detailed job descriptions, and learn how
+                        to apply through our portal.
+
                     </p>
 
                 </div>
@@ -715,15 +674,17 @@
 
         </section>
 
-        <!-- =========================
-                 MAIN SECTION
-            ========================= -->
+        <!-- =====================================
+           MAIN SECTION
+      ====================================== -->
 
         <section class="rgu-jb-section">
 
             <div class="container">
 
                 <div class="rgu-jb-panel">
+
+                    <!-- HEAD -->
 
                     <div class="rgu-jb-head">
 
@@ -737,7 +698,7 @@
 
                     </div>
 
-                    <!-- DEAN -->
+                    <!-- CARD -->
 
                     <div class="rgu-jb-card">
 
@@ -746,8 +707,10 @@
                         </h3>
 
                         <p>
+
                             Applications are invited for experienced
                             academic leaders from the following domains.
+
                         </p>
 
                         <div class="rgu-jb-domains">
@@ -763,18 +726,22 @@
                         </div>
 
                         <p class="rgu-jb-highlight">
+
                             Deans from other domains may also apply.
+
                         </p>
 
                         <p>
+
                             Minimum 15 years of experience in teaching,
                             research and/or academic administration in
                             Universities or Institutions of Higher Education.
+
                         </p>
 
                     </div>
 
-                    <!-- R&D -->
+                    <!-- CARD -->
 
                     <div class="rgu-jb-card">
 
@@ -783,16 +750,18 @@
                         </h3>
 
                         <p>
-                            Minimum 15 years of academic experience
-                            along with at least 5 years of leadership
-                            or administrative experience in research
+
+                            Minimum 15 years of academic experience along
+                            with at least 5 years of leadership or
+                            administrative experience in research
                             management, innovation, funded projects,
                             and industry-academia collaboration.
+
                         </p>
 
                     </div>
 
-                    <!-- STUDENT AFFAIRS -->
+                    <!-- CARD -->
 
                     <div class="rgu-jb-card">
 
@@ -801,15 +770,17 @@
                         </h3>
 
                         <p>
+
                             Minimum 10 years of teaching experience
                             with 5 years of relevant administrative
                             experience in student affairs, student welfare,
                             or related leadership roles.
+
                         </p>
 
                     </div>
 
-                    <!-- INTERNATIONAL FACULTY -->
+                    <!-- CARD -->
 
                     <div class="rgu-jb-card">
 
@@ -818,25 +789,33 @@
                         </h3>
 
                         <p>
+
                             Dedicated amenities like faculty lounges,
                             gymnasium, indoor and outdoor sports facilities.
+
                         </p>
 
                         <p>
+
                             Established in Guwahati, the University serves
                             as a strategic gateway to ASEAN countries,
                             fostering high-impact collaborations.
+
                         </p>
 
                         <p>
+
                             8500+ students, 26 schools, 130+ UG, PG,
                             doctoral programmes and international students
-                            from Kenya, Zimbabwe, Tanzania, Nepal, Myanmar,
-                            Bhutan, South Sudan, Libya and others.
+                            from Kenya, Zimbabwe, Tanzania, Nepal,
+                            Myanmar, Bhutan, South Sudan, Libya and others.
+
                         </p>
 
                         <p class="rgu-jb-highlight">
+
                             Eligibility: As per UGC / other compliance bodies.
+
                         </p>
 
                     </div>
@@ -856,8 +835,10 @@
                                     </h4>
 
                                     <p>
+
                                         Dynamic ecosystem with modern
                                         infrastructure and strong academic culture.
+
                                     </p>
 
                                 </div>
@@ -873,8 +854,10 @@
                                     </h4>
 
                                     <p>
+
                                         Gateway to ASEAN collaborations
                                         and global academic opportunities.
+
                                     </p>
 
                                 </div>
@@ -890,8 +873,10 @@
                                     </h4>
 
                                     <p>
+
                                         Strong focus on innovation,
                                         funded projects and industry partnerships.
+
                                     </p>
 
                                 </div>
@@ -902,7 +887,7 @@
 
                     </div>
 
-                    <!-- APPLICATION PROCESS -->
+                    <!-- APPLICATION -->
 
                     <div class="rgu-jb-card mt-4">
 
@@ -915,8 +900,11 @@
                             <div class="col-lg-8">
 
                                 <p>
+
                                     Interested candidates may apply online
-                                    by scanning the QR code or send their CVs to:
+                                    by scanning the QR code or send
+                                    their CVs to:
+
                                 </p>
 
                                 <p class="rgu-jb-mail">
@@ -924,12 +912,17 @@
                                 </p>
 
                                 <p>
+
                                     Applications should be submitted within
                                     <strong>5 working days.</strong>
+
                                 </p>
 
                                 <div class="rgu-jb-salary">
-                                    Salary is not a constraint for deserving candidates.
+
+                                    Salary is not a constraint
+                                    for deserving candidates.
+
                                 </div>
 
                             </div>
@@ -943,7 +936,10 @@
                         </div>
 
                         <div class="rgu-jb-footer-note">
-                            For more information, please log in to www.rgu.ac
+
+                            For more information,
+                            please log in to www.rgu.ac
+
                         </div>
 
                     </div>
@@ -954,9 +950,9 @@
 
         </section>
 
-        <!-- =========================
-         OTHER RECRUITMENT ADS
-    ========================= -->
+        <!-- =====================================
+           OTHER ADS
+      ====================================== -->
 
         <section class="rgu-jb-section pb-5">
 
@@ -970,7 +966,7 @@
                             More Opportunities
                         </span>
 
-                        <h2 style="color:#173b72;">
+                        <h2>
                             Other Recruitment Advertisements
                         </h2>
 
@@ -978,92 +974,79 @@
 
                     <div class="row g-4">
 
-                        <!-- AD 1 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/jrf-2.png" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/jrf-2.png" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
                         </div>
 
-                        <!-- AD 2 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/1ads.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/1ads.jpeg" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
                         </div>
 
-                        <!-- AD 3 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-2.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-2.jpeg" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
                         </div>
 
-                        <!-- AD 4 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-3.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-3.jpeg" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
                         </div>
 
-                        <!-- AD 5 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-4.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-4.jpeg" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
                         </div>
 
-                        <!-- AD 6 -->
+                        <!-- AD -->
 
                         <div class="col-lg-6 col-md-6">
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-7.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
-
-                            </div>
-
-                        </div>
-
-                        <!-- AD 7 -->
-
-                        <div class="col-lg-6 col-md-6">
-
-                            <div class="rgu-jb-ad-card">
-
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-5.jpeg" alt="Recruitment Ad"
-                                    class="rgu-jb-ad-img" onclick="openRGUAd(this.src)">
+                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-7.jpeg" class="rgu-jb-ad-img"
+                                    alt="Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1077,9 +1060,9 @@
 
         </section>
 
-        <!-- =========================
-         LIGHTBOX
-    ========================= -->
+        <!-- =====================================
+           LIGHTBOX
+      ====================================== -->
 
         <div class="rgu-jb-lightbox" id="rguJBLightbox">
 
@@ -1094,6 +1077,7 @@
         </div>
 
     </div>
+
 
     <script>
         const rguJBLightbox =
