@@ -795,9 +795,9 @@
 
         .rgu-sf-faculty {
 
-            background: #fff2e3;
+            background: #d47f11;
 
-            color: #d47f11;
+            color: #edf3ff;
         }
 
         .rgu-sf-faculty:hover {
