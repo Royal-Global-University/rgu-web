@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir', function () {
+    return view('frontend/media-corner/2026/news16');
+})->name('health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir');
+
 Route::get('/capacity-building-session-on-internship-engagement-and-career-development', function () {
     return view('frontend/media-corner/2026/news15');
 })->name('capacity-building-session-on-internship-engagement-and-career-development');

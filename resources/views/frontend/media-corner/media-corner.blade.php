@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 8, 2026:',
+                            'link' => '/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir',
+                            'image' => '/mobile-assets/media-corner/2026/11/2.jpeg',
+                            'content' => 'A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.',
+                        ],
+                        [
                             'title' => 'RGU Student wins Silver at State Arm Wrestling Championship, Qualifies for Nationals',
                             'summary' => '',
                             'date' => 'Guwahati, May 6, 2026:',

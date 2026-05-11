@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 8, 2026",
+            title: "Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir",
+            desc: "A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.",
+            img: "/mobile-assets/media-corner/2026/11/2.jpeg",
+            link: "/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir",
+        },
+        {
             date: "Guwahati, May 5, 2026",
             title: "Capacity Building Session on Internship Engagement and Career Development",
             desc: "An interactive session on “Capacity Building for Internship Engagement and Career Development” was successfully organized on 5 May 2026 by the Royal School of Business, Royal School of Engineering & Technology, and Royal School of Medical & Allied Sciences in association with the Internal Quality Assurance Cell (IQAC) of The Assam Royal Global University (RGU).",
