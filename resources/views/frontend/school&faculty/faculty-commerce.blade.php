@@ -145,6 +145,18 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Bhabajyoti Saikia.JPG"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Bhabajyoti Saikia</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-sudip-chakraborty" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
                     <!-- Associate Professor & HOD -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
