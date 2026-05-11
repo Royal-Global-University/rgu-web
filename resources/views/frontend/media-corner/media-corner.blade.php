@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 11, 2026:',
+                            'link' => '/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops',
+                            'image' => '/mobile-assets/RGU%20joins.jpeg',
+                            'content' => 'The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram.',
+                        ],
+                        [
                             'title' => 'Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir',
                             'summary' => '',
                             'date' => 'Guwahati, May 8, 2026:',

@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops', function () {
+    return view('frontend/media-corner/2026/news17');
+})->name('rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops');
+
 Route::get('/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir', function () {
     return view('frontend/media-corner/2026/news16');
 })->name('health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir');

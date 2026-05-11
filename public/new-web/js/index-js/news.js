@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 11, 2026",
+            title: "RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops",
+            desc: "The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram. Significantly, this will be the first time that the Indian Museum is curating such an exhibition in Northeast India, making it a historic cultural occasion for the region.",
+            img: "/mobile-assets/RGU%20joins.jpeg",
+            link: "/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops",
+        },
+        {
             date: "Guwahati, May 8, 2026",
             title: "Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir",
             desc: "A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.",
