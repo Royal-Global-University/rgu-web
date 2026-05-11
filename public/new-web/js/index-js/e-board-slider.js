@@ -2,7 +2,7 @@
 
 const eboardData = [
     {
-        img: "/mobile-assets/ads/may-6.jpeg",
+        img: "/mobile-assets/ads/rabindra-jayanti.jpg",
         alt: "Event 1",
     },
     {
