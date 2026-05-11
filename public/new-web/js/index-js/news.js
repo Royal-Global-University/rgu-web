@@ -106,14 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
             desc: "In a significant step towards strengthening industry–academia collaboration in Northeast India, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with Tata Consultancy Services (TCS) to launch an industry-integrated undergraduate programme in Computer Science Engineering and Business Systems (CSEBS), aimed at creating future-ready professionals equipped with both technological expertise and business acumen.",
             img: "/mobile-assets/rgu-blog/blog2.jpeg",
             link: "/royal-global-university-partners-with-tcs-to-start-industry-integrated-programmes",
-        },
-        {
-            date: "Guwahati, March 31, 2026",
-            title: "Art Grantee award to RGU alumnus at Hyundai Art for Hope 2026 in New Delhi",
-            desc: "Prabhat Jyoti Gowala, an alumnus of The Assam Royal Global University (RGU) has earned recognition as an Art Grantee at the prestigious “Art for Hope 2026” exhibition, organized by Hyundai Motor India Foundation at Travancore Palace in New Delhi.",
-            img: "/mobile-assets/media-corner/2026/1.jpeg",
-            link: "/art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi",
-        },
+        }
     ];
 
     // ================= 2. DOM ELEMENTS =================
