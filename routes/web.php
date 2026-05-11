@@ -6013,6 +6013,10 @@ Route::get('/test/preface', function () {
     return view('frontend/test/preface');
 })->name('/test/preface');
 
+Route::get('/test/jobs', function () {
+    return view('frontend/test/jobs');
+})->name('/test/jobs');
+
 Route::get('/test/recognition', function () {
     return view('frontend/test/recognition');
 })->name('/test/recognition');
