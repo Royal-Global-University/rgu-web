@@ -1,6 +1,5 @@
 @extends('frontend/master')
 @section('content')
-
     <div class="mobile">
         @include('frontend/components/mobileheader')
 
@@ -314,50 +313,35 @@
            DOMAIN TAGS
         ===================================== */
 
-        .rgu-jb-domains {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 14px;
-            margin: 25px 0;
-        }
-
-        .rgu-jb-domains span {
-            background: rgba(255, 255, 255, .08);
-            border: 1px solid rgba(255, 255, 255, .08);
-            color: white;
-            padding: 12px 18px;
-            border-radius: 100px;
-            font-size: .95rem;
-        }
-
         /* =====================================
-           FEATURES
-        ===================================== */
+       SIMPLE LIST
+    ===================================== */
 
-        .rgu-jb-feature-box {
-            margin-top: 20px;
+        .rgu-jb-domains {
+            margin: 25px 0;
+            padding-left: 22px;
         }
 
-        .rgu-jb-feature-card {
-            background: rgba(255, 255, 255, .05);
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, .06);
-            padding: 30px;
-            height: 100%;
+        .rgu-jb-domains li {
+            color: #ffffff;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            margin-bottom: 10px;
         }
 
-        .rgu-jb-feature-card h4 {
-            color: white;
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 18px;
+        @media(max-width:768px) {
+
+            .rgu-jb-domains {
+                padding-left: 18px;
+            }
+
+            .rgu-jb-domains li {
+                font-size: 1rem;
+                line-height: 1.8;
+            }
+
         }
 
-        .rgu-jb-feature-card p {
-            color: #d8e4f3;
-            line-height: 1.8;
-            margin-bottom: 0;
-        }
 
         /* =====================================
            APPLICATION
@@ -573,7 +557,6 @@
         }
     </style>
 
-
     <div class="rgu-jb-wrapper">
 
         <!-- =====================================
@@ -703,27 +686,22 @@
                     <div class="rgu-jb-card">
 
                         <h3>
-                            Dean for the Schools
+                            Dean for the Schools of:
                         </h3>
 
-                        <p>
 
-                            Applications are invited for experienced
-                            academic leaders from the following domains.
 
-                        </p>
+                        <ul class="rgu-jb-domains">
 
-                        <div class="rgu-jb-domains">
+                            <li>Architecture</li>
+                            <li>Law</li>
+                            <li>Psychology</li>
+                            <li>Humanities & Social Sciences</li>
+                            <li>Hotel Management</li>
+                            <li>Engineering (Computer Science)</li>
+                            <li>Bioscience / Life Sciences</li>
 
-                            <span>Architecture</span>
-                            <span>Law</span>
-                            <span>Psychology</span>
-                            <span>Humanities & Social Sciences</span>
-                            <span>Hotel Management</span>
-                            <span>Engineering (Computer Science)</span>
-                            <span>Bioscience / Life Sciences</span>
-
-                        </div>
+                        </ul>
 
                         <p class="rgu-jb-highlight">
 
@@ -788,33 +766,33 @@
                             International Faculty
                         </h3>
 
-                        <p>
+                        <!-- <p>
 
-                            Dedicated amenities like faculty lounges,
-                            gymnasium, indoor and outdoor sports facilities.
+                  Dedicated amenities like faculty lounges,
+                  gymnasium, indoor and outdoor sports facilities.
 
-                        </p>
+                </p>
 
-                        <p>
+                <p>
 
-                            Established in Guwahati, the University serves
-                            as a strategic gateway to ASEAN countries,
-                            fostering high-impact collaborations.
+                  Established in Guwahati, the University serves
+                  as a strategic gateway to ASEAN countries,
+                  fostering high-impact collaborations.
 
-                        </p>
+                </p>
 
-                        <p>
+                <p>
 
-                            8500+ students, 26 schools, 130+ UG, PG,
-                            doctoral programmes and international students
-                            from Kenya, Zimbabwe, Tanzania, Nepal,
-                            Myanmar, Bhutan, South Sudan, Libya and others.
+                  8500+ students, 26 schools, 130+ UG, PG,
+                  doctoral programmes and international students
+                  from Kenya, Zimbabwe, Tanzania, Nepal,
+                  Myanmar, Bhutan, South Sudan, Libya and others.
 
-                        </p>
+                </p> -->
 
                         <p class="rgu-jb-highlight">
 
-                            Eligibility: As per UGC / other compliance bodies.
+                            Eligibility: As per University norms.
 
                         </p>
 
@@ -822,127 +800,127 @@
 
                     <!-- FEATURES -->
 
-                    <div class="rgu-jb-feature-box">
+                    <!-- <div class="rgu-jb-feature-box">
 
-                        <div class="row g-4">
+                <div class="row g-4">
 
-                            <div class="col-lg-4">
+                  <div class="col-lg-4">
 
-                                <div class="rgu-jb-feature-card">
+                    <div class="rgu-jb-feature-card">
 
-                                    <h4>
-                                        Academic Excellence
-                                    </h4>
+                      <h4>
+                        Academic Excellence
+                      </h4>
 
-                                    <p>
+                      <p>
 
-                                        Dynamic ecosystem with modern
-                                        infrastructure and strong academic culture.
+                        Dynamic ecosystem with modern
+                        infrastructure and strong academic culture.
 
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4">
-
-                                <div class="rgu-jb-feature-card">
-
-                                    <h4>
-                                        International Exposure
-                                    </h4>
-
-                                    <p>
-
-                                        Gateway to ASEAN collaborations
-                                        and global academic opportunities.
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4">
-
-                                <div class="rgu-jb-feature-card">
-
-                                    <h4>
-                                        Research & Innovation
-                                    </h4>
-
-                                    <p>
-
-                                        Strong focus on innovation,
-                                        funded projects and industry partnerships.
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                      </p>
 
                     </div>
+
+                  </div>
+
+                  <div class="col-lg-4">
+
+                    <div class="rgu-jb-feature-card">
+
+                      <h4>
+                        International Exposure
+                      </h4>
+
+                      <p>
+
+                        Gateway to ASEAN collaborations
+                        and global academic opportunities.
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4">
+
+                    <div class="rgu-jb-feature-card">
+
+                      <h4>
+                        Research & Innovation
+                      </h4>
+
+                      <p>
+
+                        Strong focus on innovation,
+                        funded projects and industry partnerships.
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div> -->
 
                     <!-- APPLICATION -->
 
-                    <div class="rgu-jb-card mt-4">
+                    <!-- <div class="rgu-jb-card mt-4">
 
-                        <h3>
-                            Application Process
-                        </h3>
+                <h3>
+                  Application Process
+                </h3>
 
-                        <div class="row align-items-center g-4">
+                <div class="row align-items-center g-4">
 
-                            <div class="col-lg-8">
+                  <div class="col-lg-8">
 
-                                <p>
+                    <p>
 
-                                    Interested candidates may apply online
-                                    by scanning the QR code or send
-                                    their CVs to:
+                      Interested candidates may apply online
+                      by scanning the QR code or send
+                      their CVs to:
 
-                                </p>
+                    </p>
 
-                                <p class="rgu-jb-mail">
-                                    careers@rgu.ac
-                                </p>
+                    <p class="rgu-jb-mail">
+                      careers@rgu.ac
+                    </p>
 
-                                <p>
+                    <p>
 
-                                    Applications should be submitted within
-                                    <strong>5 working days.</strong>
+                      Applications should be submitted within
+                      <strong>5 working days.</strong>
 
-                                </p>
+                    </p>
 
-                                <div class="rgu-jb-salary">
+                    <div class="rgu-jb-salary">
 
-                                    Salary is not a constraint
-                                    for deserving candidates.
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 text-center">
-
-                                <img class="rgu-jb-qr" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
-
-                            </div>
-
-                        </div>
-
-                        <div class="rgu-jb-footer-note">
-
-                            For more information,
-                            please log in to www.rgu.ac
-
-                        </div>
+                      Salary is not a constraint
+                      for deserving candidates.
 
                     </div>
+
+                  </div>
+
+                  <div class="col-lg-4 text-center">
+
+                    <img class="rgu-jb-qr" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
+
+                  </div>
+
+                </div>
+
+                <div class="rgu-jb-footer-note">
+
+                  For more information,
+                  please log in to www.rgu.ac
+
+                </div>
+
+              </div> -->
 
                 </div>
 
