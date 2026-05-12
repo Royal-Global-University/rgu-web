@@ -12,16 +12,29 @@
     </div>
 
     <style>
+        /* =========================================================
+       RESET
+    ========================================================= */
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: 'Times New Roman', Times, serif;
-            background: #FFF8F0;
+            font-family: "Times New Roman", Times, serif;
+            background:
+                linear-gradient(180deg,
+                    #f8f2e9 0%,
+                    #f2e7d8 100%);
+            color: #3d2d21;
             overflow-x: hidden;
+            line-height: 1.6;
         }
 
         img {
@@ -31,206 +44,271 @@
 
         a {
             text-decoration: none;
+            transition: all .3s ease;
         }
 
-        /* =====================================
-           HERO
-        ===================================== */
+        /* =========================================================
+       WRAPPER
+    ========================================================= */
+
+        .rgu-jb-wrapper {
+            position: relative;
+        }
+
+        /* =========================================================
+       HERO SECTION
+    ========================================================= */
 
         .rgu-jb-hero {
-            padding: 70px 20px 50px;
-            background: #FFF8F0;
+            position: relative;
+            padding: 80px 20px 60px;
         }
 
         .rgu-jb-hero-box {
-            background: #ffffff;
-            border-radius: 40px;
+            position: relative;
             overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, .08);
+            border-radius: 42px;
+            background: rgba(255, 253, 249, .95);
+            border: 1px solid rgba(140, 100, 70, .08);
+            box-shadow:
+                0 10px 40px rgba(70, 45, 25, .08),
+                0 30px 80px rgba(70, 45, 25, .06);
+            backdrop-filter: blur(10px);
+        }
+
+        .rgu-jb-hero-box::before {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background:
+                radial-gradient(circle,
+                    rgba(196, 128, 79, .12),
+                    transparent 70%);
+            top: -220px;
+            left: -180px;
+        }
+
+        .rgu-jb-hero-box::after {
+            content: "";
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background:
+                radial-gradient(circle,
+                    rgba(120, 82, 54, .08),
+                    transparent 70%);
+            bottom: -180px;
+            right: -120px;
         }
 
         .rgu-jb-left {
-            padding: 70px;
+            position: relative;
+            z-index: 2;
+            padding: 75px;
         }
 
         .rgu-jb-logo {
-            width: 290px;
-            margin-bottom: 35px;
+            width: 280px;
+            margin-bottom: 40px;
         }
 
         .rgu-jb-title {
-            font-size: clamp(2.6rem, 5vw, 3rem);
-            line-height: 1.08;
+            font-size: clamp(2.8rem, 5vw, 4rem);
+            line-height: 1.05;
             font-weight: 800;
-            color: #f15a36;
-            margin-bottom: 25px;
+            color: #8d3d17;
+            margin-bottom: 30px;
+            letter-spacing: -.5px;
         }
 
         .rgu-jb-subtitle {
-            font-size: 1.25rem;
-            line-height: 1.9;
-            color: #173b72;
-            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 2;
+            color: #5b4636;
+            font-weight: 500;
             text-align: justify;
         }
 
-        /* =====================================
-           RIGHT HERO
-        ===================================== */
+        /* =========================================================
+       RIGHT HERO PANEL
+    ========================================================= */
 
         .rgu-jb-right-panel {
+            position: relative;
             min-height: 100%;
-            padding: 45px;
-            background:
-                linear-gradient(rgba(23, 59, 114, .10),
-                    rgba(23, 59, 114, .10));
+            overflow: hidden;
+            padding: 55px;
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
-            overflow: hidden;
+            background:
+                linear-gradient(135deg,
+                    #6b4b37 0%,
+                    #4a3427 100%);
         }
 
         .rgu-jb-right-panel::before {
             content: "";
             position: absolute;
-            width: 620px;
-            height: 620px;
+            width: 650px;
+            height: 650px;
             border-radius: 50%;
-            background: #173b72;
-            top: -250px;
-            right: -250px;
-            opacity: .92;
+            background:
+                radial-gradient(circle,
+                    rgba(255, 255, 255, .08),
+                    transparent 70%);
+            top: -320px;
+            right: -280px;
         }
 
         .rgu-jb-right-panel::after {
             content: "";
             position: absolute;
-            width: 220px;
-            height: 220px;
+            width: 260px;
+            height: 260px;
             border-radius: 50%;
-            background: #f15a36;
-            top: 50px;
-            right: 50px;
+            background:
+                radial-gradient(circle,
+                    rgba(214, 142, 84, .35),
+                    transparent 72%);
+            bottom: -100px;
+            left: -80px;
         }
 
         .rgu-jb-vacancy-box {
             position: relative;
-            z-index: 5;
+            z-index: 2;
             width: 100%;
             max-width: 520px;
-            background: rgba(255, 248, 240, .97);
-            border-radius: 35px;
-            padding: 45px 35px;
+            padding: 50px 40px;
+            border-radius: 36px;
             text-align: center;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, .14);
-            border: 2px solid rgba(255, 255, 255, .4);
-            backdrop-filter: blur(10px);
+            background:
+                rgba(255, 250, 245, .92);
+            border: 1px solid rgba(255, 255, 255, .4);
+            box-shadow:
+                0 10px 35px rgba(0, 0, 0, .12),
+                0 25px 60px rgba(0, 0, 0, .08);
+            backdrop-filter: blur(16px);
         }
 
         .rgu-jb-vacancy-box h2 {
-            font-size: clamp(2.3rem, 5vw, 4rem);
-            line-height: 1.1;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            line-height: 1;
             font-weight: 800;
-            color: #111827;
+            color: #3f2b20;
             margin-bottom: 25px;
         }
 
         .rgu-jb-vacancy-box p {
-            color: #173b72;
-            font-size: 1.1rem;
+            color: #6a503d;
+            font-size: 1.08rem;
+            line-height: 1.8;
+            margin-bottom: 24px;
             font-weight: 600;
-            margin-bottom: 22px;
         }
 
         .rgu-jb-vacancy-btn {
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 100%;
-            background:
-                linear-gradient(135deg,
-                    #ff971d,
-                    #f15a36);
-            color: #ffffff;
-            font-size: 1.05rem;
-            font-weight: 700;
             padding: 18px 24px;
             border-radius: 18px;
-            transition: .3s ease;
-            margin-bottom: 30px;
-            box-shadow: 0 14px 35px rgba(241, 90, 54, .25);
+            background:
+                linear-gradient(135deg,
+                    #c26e42,
+                    #94411d);
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: .3px;
+            box-shadow:
+                0 12px 30px rgba(148, 65, 29, .24);
         }
 
         .rgu-jb-vacancy-btn:hover {
-            color: #ffffff;
             transform: translateY(-4px);
-            box-shadow: 0 18px 45px rgba(241, 90, 54, .35);
+            color: #ffffff;
+            box-shadow:
+                0 18px 40px rgba(148, 65, 29, .34);
         }
 
         .rgu-jb-vacancy-box h4 {
-            font-size: 1.05rem;
-            color: #173b72;
-            font-weight: 700;
             margin-bottom: 25px;
+            font-size: 1rem;
+            color: #5d4736;
+            font-weight: 700;
         }
 
         .rgu-jb-vacancy-box img {
             width: 240px;
             margin: auto;
-            border-radius: 14px;
-            border: 5px solid #173b72;
-            background: white;
+            border-radius: 18px;
+            border: 5px solid #ffffff;
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, .14);
         }
 
-        /* =====================================
-           INTRO
-        ===================================== */
+        /* =========================================================
+       INTRO
+    ========================================================= */
 
         .rgu-jb-intro {
-            margin-top: 45px;
+            margin-top: 50px;
             text-align: center;
         }
 
         .rgu-jb-intro p {
-            max-width: 1250px;
+            max-width: 1200px;
             margin: auto;
-            color: #173b72;
-            font-size: 1.1rem;
-            line-height: 1.9;
+            color: #5b4636;
+            font-size: 1.08rem;
+            line-height: 2;
             font-weight: 500;
         }
 
-        /* =====================================
-           MAIN SECTION
-        ===================================== */
+        /* =========================================================
+       MAIN SECTION
+    ========================================================= */
 
         .rgu-jb-section {
-            padding: 20px;
+            padding: 25px 20px;
         }
 
         .rgu-jb-panel {
-            background: #10284c;
-            border-radius: 40px;
-            padding: 55px;
             position: relative;
             overflow: hidden;
+            padding: 60px;
+            border-radius: 42px;
+            background:
+                linear-gradient(135deg,
+                    #5a4131 0%,
+                    #3c2a20 100%);
+            box-shadow:
+                0 20px 70px rgba(40, 25, 15, .16);
         }
 
         .rgu-jb-panel::before {
             content: "";
             position: absolute;
-            width: 550px;
-            height: 550px;
+            width: 600px;
+            height: 600px;
             border-radius: 50%;
-            background: rgba(255, 255, 255, .03);
-            top: -280px;
-            right: -250px;
+            background:
+                radial-gradient(circle,
+                    rgba(255, 255, 255, .05),
+                    transparent 72%);
+            top: -300px;
+            right: -260px;
         }
 
-        /* =====================================
-           HEAD
-        ===================================== */
+        /* =========================================================
+       SECTION HEAD
+    ========================================================= */
 
         .rgu-jb-head {
             position: relative;
@@ -241,171 +319,194 @@
 
         .rgu-jb-badge {
             display: inline-block;
-            background:
-                linear-gradient(135deg,
-                    #ff7d3a,
-                    #f15a36);
-            color: white;
             padding: 14px 34px;
             border-radius: 100px;
-            font-size: .95rem;
+            background:
+                linear-gradient(135deg,
+                    #d1814f,
+                    #a14a22);
+            color: #ffffff;
+            font-size: .9rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 28px;
-            box-shadow: 0 12px 35px rgba(241, 90, 54, .35);
+            box-shadow:
+                0 12px 30px rgba(161, 74, 34, .3);
         }
 
         .rgu-jb-head h2 {
-            color: white;
-            font-size: clamp(2rem, 4vw, 3.5rem);
+            color: #ffffff;
+            font-size: clamp(2rem, 4vw, 3.6rem);
             font-weight: 800;
+            line-height: 1.15;
         }
 
-        /* =====================================
-           CARD
-        ===================================== */
+        /* =========================================================
+       CARDS
+    ========================================================= */
 
         .rgu-jb-card {
             position: relative;
             z-index: 2;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .08);
-            backdrop-filter: blur(16px);
-            border-radius: 32px;
-            padding: 35px;
+            overflow: hidden;
+            padding: 38px;
             margin-bottom: 30px;
-            transition: .3s ease;
+            border-radius: 32px;
+            background:
+                rgba(255, 255, 255, .07);
+            border: 1px solid rgba(255, 255, 255, .08);
+            backdrop-filter: blur(14px);
+            transition: all .35s ease;
+        }
+
+        .rgu-jb-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(135deg,
+                    rgba(255, 255, 255, .03),
+                    transparent);
+            pointer-events: none;
         }
 
         .rgu-jb-card:hover {
             transform: translateY(-6px);
-            background: rgba(255, 255, 255, .08);
+            background:
+                rgba(255, 255, 255, .1);
+            box-shadow:
+                0 18px 45px rgba(0, 0, 0, .18);
         }
 
         .rgu-jb-card h3 {
             display: inline-block;
-            background:
-                linear-gradient(90deg,
-                    #f15a36,
-                    #ff8449);
-            color: white;
             padding: 15px 24px;
+            margin-bottom: 28px;
             border-radius: 16px;
-            font-size: 1.5rem;
+            background:
+                linear-gradient(135deg,
+                    #c87443,
+                    #9c431c);
+            color: #ffffff;
+            font-size: 1.45rem;
             font-weight: 700;
-            margin-bottom: 25px;
+            line-height: 1.4;
+            box-shadow:
+                0 10px 28px rgba(156, 67, 28, .22);
         }
 
         .rgu-jb-card p {
-            color: #d8e4f3;
-            line-height: 1.9;
+            color: #f7ebde;
             font-size: 1rem;
-            margin-bottom: 15px;
+            line-height: 1.95;
+            margin-bottom: 16px;
         }
 
         .rgu-jb-highlight {
-            color: #ffca97 !important;
+            color: #ffd6a8 !important;
             font-weight: 700;
         }
 
-        /* =====================================
-           DOMAIN TAGS
-        ===================================== */
-
-        /* =====================================
-       SIMPLE LIST
-    ===================================== */
+        /* =========================================================
+       DOMAIN LIST
+    ========================================================= */
 
         .rgu-jb-domains {
-            margin: 25px 0;
-            padding-left: 22px;
+            margin: 28px 0;
+            padding-left: 24px;
         }
 
         .rgu-jb-domains li {
-            color: #ffffff;
+            color: #fff5ea;
             font-size: 1.05rem;
-            line-height: 1.9;
+            line-height: 2;
             margin-bottom: 10px;
         }
 
-        @media(max-width:768px) {
-
-            .rgu-jb-domains {
-                padding-left: 18px;
-            }
-
-            .rgu-jb-domains li {
-                font-size: 1rem;
-                line-height: 1.8;
-            }
-
-        }
-
-
-        /* =====================================
-           APPLICATION
-        ===================================== */
+        /* =========================================================
+       MAIL
+    ========================================================= */
 
         .rgu-jb-mail {
-            color: #ffca97 !important;
+            color: #ffd7ae !important;
             font-size: 1.2rem !important;
             font-weight: 700;
             word-break: break-word;
         }
 
+        /* =========================================================
+       SALARY BOX
+    ========================================================= */
+
         .rgu-jb-salary {
-            background: #ffe14f;
-            color: black;
-            font-size: 1.05rem;
+            margin-top: 25px;
+            padding: 18px;
+            border-radius: 18px;
+            background:
+                linear-gradient(135deg,
+                    #f0c766,
+                    #ddb24f);
+            color: #3d2d21;
+            font-size: 1rem;
             font-weight: 700;
             text-align: center;
-            padding: 18px;
-            border-radius: 16px;
-            margin-top: 25px;
         }
+
+        /* =========================================================
+       QR
+    ========================================================= */
 
         .rgu-jb-qr {
             width: 230px;
             margin: auto;
-            border-radius: 20px;
-            border: 4px solid white;
+            border-radius: 18px;
+            border: 4px solid #ffffff;
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, .14);
         }
 
         .rgu-jb-footer-note {
             text-align: center;
-            margin-top: 20px;
-            color: white;
+            margin-top: 22px;
+            color: #ffffff;
             font-weight: 600;
         }
 
-        /* =====================================
-           OTHER ADS
-        ===================================== */
+        /* =========================================================
+       OTHER ADS
+    ========================================================= */
 
         .rgu-jb-other-wrap {
-            background: white;
-            border-radius: 40px;
-            padding: 50px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, .06);
+            padding: 55px;
+            border-radius: 42px;
+            background:
+                rgba(255, 253, 249, .94);
+            border: 1px solid rgba(120, 90, 70, .08);
+            box-shadow:
+                0 18px 55px rgba(60, 35, 20, .08);
         }
 
         .rgu-jb-other-wrap .rgu-jb-head h2 {
-            color: #173b72;
+            color: #5d4333;
         }
 
         .rgu-jb-ad-card {
             height: 100%;
             overflow: hidden;
-            border-radius: 24px;
+            border-radius: 26px;
             cursor: pointer;
-            box-shadow: 0 10px 35px rgba(0, 0, 0, .08);
-            transition: .3s ease;
-            background: white;
+            background: #ffffff;
+            border: 1px solid rgba(120, 90, 70, .08);
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, .08);
+            transition: all .35s ease;
         }
 
         .rgu-jb-ad-card:hover {
             transform: translateY(-6px);
+            box-shadow:
+                0 18px 45px rgba(0, 0, 0, .14);
         }
 
         .rgu-jb-ad-img {
@@ -414,22 +515,23 @@
             object-fit: contain;
         }
 
-        /* =====================================
-           LIGHTBOX
-        ===================================== */
+        /* =========================================================
+       LIGHTBOX
+    ========================================================= */
 
         .rgu-jb-lightbox {
             position: fixed;
             inset: 0;
-            background: rgba(0, 0, 0, .94);
             z-index: 99999;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 30px;
+            background:
+                rgba(22, 14, 10, .94);
             opacity: 0;
             visibility: hidden;
-            transition: .3s ease;
+            transition: all .3s ease;
         }
 
         .rgu-jb-lightbox.active {
@@ -440,8 +542,9 @@
         .rgu-jb-lightbox img {
             max-width: 100%;
             max-height: 95vh;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, .5);
+            border-radius: 24px;
+            box-shadow:
+                0 20px 70px rgba(0, 0, 0, .5);
         }
 
         .rgu-jb-close {
@@ -449,78 +552,92 @@
             top: 20px;
             right: 30px;
             font-size: 4rem;
-            color: white;
-            cursor: pointer;
             line-height: 1;
-            z-index: 5;
+            color: #ffffff;
+            cursor: pointer;
         }
 
-        /* =====================================
-           RESPONSIVE
-        ===================================== */
+        /* =========================================================
+       RESPONSIVE
+    ========================================================= */
 
         @media(max-width:991px) {
 
             .rgu-jb-left {
-                padding: 45px;
+                padding: 50px 40px;
             }
 
             .rgu-jb-right-panel {
-                padding: 30px 20px;
+                padding: 40px 25px;
             }
 
             .rgu-jb-panel {
-                padding: 35px;
+                padding: 40px;
             }
 
             .rgu-jb-other-wrap {
-                padding: 35px;
+                padding: 40px;
             }
+
         }
 
         @media(max-width:768px) {
 
             .rgu-jb-hero {
-                padding: 50px 12px;
+                padding: 55px 12px;
+            }
+
+            .rgu-jb-hero-box {
+                border-radius: 28px;
             }
 
             .rgu-jb-left {
-                padding: 30px 24px;
+                padding: 35px 24px;
             }
 
             .rgu-jb-logo {
                 width: 220px;
+                margin-bottom: 28px;
             }
 
             .rgu-jb-title {
-                font-size: 2.4rem;
+                font-size: 2.5rem;
             }
 
             .rgu-jb-subtitle {
                 font-size: 1rem;
+                line-height: 1.9;
+            }
+
+            .rgu-jb-right-panel {
+                padding: 24px 18px;
             }
 
             .rgu-jb-vacancy-box {
-                padding: 30px 20px;
+                padding: 32px 22px;
                 border-radius: 24px;
             }
 
             .rgu-jb-vacancy-box h2 {
-                font-size: 2.3rem;
+                font-size: 2.4rem;
+            }
+
+            .rgu-jb-vacancy-btn {
+                font-size: .95rem;
+                padding: 16px 18px;
             }
 
             .rgu-jb-vacancy-box img {
                 width: 190px;
             }
 
-            .rgu-jb-vacancy-btn {
-                font-size: .95rem;
-                padding: 16px 20px;
+            .rgu-jb-panel {
+                padding: 22px;
+                border-radius: 28px;
             }
 
-            .rgu-jb-panel {
-                padding: 20px;
-                border-radius: 28px;
+            .rgu-jb-head {
+                margin-bottom: 35px;
             }
 
             .rgu-jb-card {
@@ -531,12 +648,21 @@
             .rgu-jb-card h3 {
                 width: 100%;
                 text-align: center;
-                font-size: 1.2rem;
+                font-size: 1.15rem;
             }
 
-            .rgu-jb-domains span {
-                width: 100%;
-                text-align: center;
+            .rgu-jb-card p {
+                font-size: .98rem;
+                line-height: 1.9;
+            }
+
+            .rgu-jb-domains {
+                padding-left: 20px;
+            }
+
+            .rgu-jb-domains li {
+                font-size: 1rem;
+                line-height: 1.9;
             }
 
             .rgu-jb-qr {
@@ -554,14 +680,15 @@
                 right: 20px;
                 font-size: 3rem;
             }
+
         }
     </style>
 
     <div class="rgu-jb-wrapper">
 
         <!-- =====================================
-           HERO
-      ====================================== -->
+               HERO
+          ====================================== -->
 
         <section class="rgu-jb-hero">
 
@@ -658,8 +785,8 @@
         </section>
 
         <!-- =====================================
-           MAIN SECTION
-      ====================================== -->
+               MAIN SECTION
+          ====================================== -->
 
         <section class="rgu-jb-section">
 
@@ -768,27 +895,27 @@
 
                         <!-- <p>
 
-                  Dedicated amenities like faculty lounges,
-                  gymnasium, indoor and outdoor sports facilities.
+                      Dedicated amenities like faculty lounges,
+                      gymnasium, indoor and outdoor sports facilities.
 
-                </p>
+                    </p>
 
-                <p>
+                    <p>
 
-                  Established in Guwahati, the University serves
-                  as a strategic gateway to ASEAN countries,
-                  fostering high-impact collaborations.
+                      Established in Guwahati, the University serves
+                      as a strategic gateway to ASEAN countries,
+                      fostering high-impact collaborations.
 
-                </p>
+                    </p>
 
-                <p>
+                    <p>
 
-                  8500+ students, 26 schools, 130+ UG, PG,
-                  doctoral programmes and international students
-                  from Kenya, Zimbabwe, Tanzania, Nepal,
-                  Myanmar, Bhutan, South Sudan, Libya and others.
+                      8500+ students, 26 schools, 130+ UG, PG,
+                      doctoral programmes and international students
+                      from Kenya, Zimbabwe, Tanzania, Nepal,
+                      Myanmar, Bhutan, South Sudan, Libya and others.
 
-                </p> -->
+                    </p> -->
 
                         <p class="rgu-jb-highlight">
 
@@ -802,125 +929,125 @@
 
                     <!-- <div class="rgu-jb-feature-box">
 
-                <div class="row g-4">
+                    <div class="row g-4">
 
-                  <div class="col-lg-4">
+                      <div class="col-lg-4">
 
-                    <div class="rgu-jb-feature-card">
+                        <div class="rgu-jb-feature-card">
 
-                      <h4>
-                        Academic Excellence
-                      </h4>
+                          <h4>
+                            Academic Excellence
+                          </h4>
 
-                      <p>
+                          <p>
 
-                        Dynamic ecosystem with modern
-                        infrastructure and strong academic culture.
+                            Dynamic ecosystem with modern
+                            infrastructure and strong academic culture.
 
-                      </p>
+                          </p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-lg-4">
+
+                        <div class="rgu-jb-feature-card">
+
+                          <h4>
+                            International Exposure
+                          </h4>
+
+                          <p>
+
+                            Gateway to ASEAN collaborations
+                            and global academic opportunities.
+
+                          </p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-lg-4">
+
+                        <div class="rgu-jb-feature-card">
+
+                          <h4>
+                            Research & Innovation
+                          </h4>
+
+                          <p>
+
+                            Strong focus on innovation,
+                            funded projects and industry partnerships.
+
+                          </p>
+
+                        </div>
+
+                      </div>
 
                     </div>
 
-                  </div>
-
-                  <div class="col-lg-4">
-
-                    <div class="rgu-jb-feature-card">
-
-                      <h4>
-                        International Exposure
-                      </h4>
-
-                      <p>
-
-                        Gateway to ASEAN collaborations
-                        and global academic opportunities.
-
-                      </p>
-
-                    </div>
-
-                  </div>
-
-                  <div class="col-lg-4">
-
-                    <div class="rgu-jb-feature-card">
-
-                      <h4>
-                        Research & Innovation
-                      </h4>
-
-                      <p>
-
-                        Strong focus on innovation,
-                        funded projects and industry partnerships.
-
-                      </p>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div> -->
+                  </div> -->
 
                     <!-- APPLICATION -->
 
                     <!-- <div class="rgu-jb-card mt-4">
 
-                <h3>
-                  Application Process
-                </h3>
+                    <h3>
+                      Application Process
+                    </h3>
 
-                <div class="row align-items-center g-4">
+                    <div class="row align-items-center g-4">
 
-                  <div class="col-lg-8">
+                      <div class="col-lg-8">
 
-                    <p>
+                        <p>
 
-                      Interested candidates may apply online
-                      by scanning the QR code or send
-                      their CVs to:
+                          Interested candidates may apply online
+                          by scanning the QR code or send
+                          their CVs to:
 
-                    </p>
+                        </p>
 
-                    <p class="rgu-jb-mail">
-                      careers@rgu.ac
-                    </p>
+                        <p class="rgu-jb-mail">
+                          careers@rgu.ac
+                        </p>
 
-                    <p>
+                        <p>
 
-                      Applications should be submitted within
-                      <strong>5 working days.</strong>
+                          Applications should be submitted within
+                          <strong>5 working days.</strong>
 
-                    </p>
+                        </p>
 
-                    <div class="rgu-jb-salary">
+                        <div class="rgu-jb-salary">
 
-                      Salary is not a constraint
-                      for deserving candidates.
+                          Salary is not a constraint
+                          for deserving candidates.
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-lg-4 text-center">
+
+                        <img class="rgu-jb-qr" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
+
+                      </div>
 
                     </div>
 
-                  </div>
+                    <div class="rgu-jb-footer-note">
 
-                  <div class="col-lg-4 text-center">
+                      For more information,
+                      please log in to www.rgu.ac
 
-                    <img class="rgu-jb-qr" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
+                    </div>
 
-                  </div>
-
-                </div>
-
-                <div class="rgu-jb-footer-note">
-
-                  For more information,
-                  please log in to www.rgu.ac
-
-                </div>
-
-              </div> -->
+                  </div> -->
 
                 </div>
 
@@ -929,8 +1056,8 @@
         </section>
 
         <!-- =====================================
-           OTHER ADS
-      ====================================== -->
+               OTHER ADS
+          ====================================== -->
 
         <section class="rgu-jb-section pb-5">
 
@@ -1039,8 +1166,8 @@
         </section>
 
         <!-- =====================================
-           LIGHTBOX
-      ====================================== -->
+               LIGHTBOX
+          ====================================== -->
 
         <div class="rgu-jb-lightbox" id="rguJBLightbox">
 
