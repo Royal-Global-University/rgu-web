@@ -148,7 +148,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Bhabajyoti Saikia.JPG"
+                                <img src="/mobile-assets/updated-faculty-img/Bhabajyoti Saikia.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhabajyoti Saikia</h3>
