@@ -442,7 +442,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <a href="https://www.rgu.ac/programs-MA-Clinical-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.A. Clinical Psychology</div>
+                                            <div class="rgu-program-card-title">Masters in Clinical Psychology (M.Clin.Psy)</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>
@@ -452,7 +452,7 @@
                                     <a href="https://www.rgu.ac/programs-BSc-clinical-psychology-%28Hons%29"
                                         class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. Clinical Psychology (Hons)</div>
+                                            <div class="rgu-program-card-title">Bachelor in Clinical Psychology (B.Clin.Psy.)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>

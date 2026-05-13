@@ -196,7 +196,7 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px;">MA - Clinical Psychology</span>
+                        <span style="font-size:18px;">Masters in Clinical Psychology (M.Clin.Psy)</span>
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                     </div>
@@ -279,10 +279,7 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px; padding-right: 10px;">B.Sc. - Clinical Psychology</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
+                        <span style="font-size:18px; padding-right: 10px;">Bachelor in Clinical Psychology (B.Clin.Psy.)
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                     </div>
@@ -1766,7 +1763,7 @@
                             <div
                                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:22px;">MA - Clinical Psychology</span>
+                                <span style="font-size:22px;">Masters in Clinical Psychology (M.Clin.Psy)</span>
                                 <span
                                     style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                             </div>
@@ -1853,10 +1850,7 @@
                             <div
                                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:22px; padding-right: 20px;">B.Sc. - Clinical Psychology</span> |
-                                <span style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
+                                <span style="font-size:22px; padding-right: 20px;">Bachelor in Clinical Psychology (B.Clin.Psy.)</span>
                                 <span
                                     style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                             </div>

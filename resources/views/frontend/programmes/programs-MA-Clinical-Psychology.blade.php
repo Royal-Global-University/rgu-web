@@ -12,7 +12,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd3 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                    MA - Clinical Psychology
+                    Masters in Clinical Psychology (M.Clin.Psy)
                 </h2>
 
             </div>
@@ -33,7 +33,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                    MA - Clinical Psychology
+                    Masters in Clinical Psychology (M.Clin.Psy)
                 </h2>
 
             </div>

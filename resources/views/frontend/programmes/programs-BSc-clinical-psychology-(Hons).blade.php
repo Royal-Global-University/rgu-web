@@ -8,7 +8,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                    B.Sc. - Clinical Psychology (Hons.)
+                    Bachelor in Clinical Psychology (B.Clin.Psy.)
                 </h2>
 
             </div>
@@ -28,7 +28,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                    B.Sc. - Clinical Psychology (Hons.)
+                    Bachelor in Clinical Psychology (B.Clin.Psy.)
                 </h2>
 
             </div>
@@ -277,10 +277,10 @@
                         <p class="mobile-para1 text-dark">
                         <ol class="text-dark">
                             <li>
-                                Yearly Payment (Rs. - 100000.00)
+                                Yearly Payment (Rs. - 1,70,000.00)
                             </li>
                             <li>
-                                Semester Payment (Rs. - 51500.00)
+                                Semester Payment (Rs. - 87,000.00)
                             </li>
                         </ol>
                         </p>
