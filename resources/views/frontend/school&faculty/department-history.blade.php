@@ -1221,6 +1221,95 @@
         }
     </style>
 
+    <style>
+        /* ================= RESEARCH THRUST SECTION ================= */
+
+        .dept-history-research-thrust-section {
+            width: 100%;
+            margin-top: 3vw;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dept-history-research-thrust-box {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 45px 50px;
+            box-shadow: 0 10px 30px rgba(44, 74, 122, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        /* MAIN HEADING */
+
+        .dept-history-research-main-heading {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: clamp(1.8rem, 3vw, 2.4rem);
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 25px;
+            line-height: 1.3;
+        }
+
+        /* TEXT */
+
+        .dept-history-research-text {
+            font-size: 1.08rem;
+            line-height: 1.9;
+            color: var(--text-muted);
+            margin-bottom: 22px;
+            text-align: justify;
+        }
+
+        /* SUBTITLE */
+
+        .dept-history-research-subtitle {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        /* BULLET LIST */
+
+        .dept-history-research-list {
+            column-count: 2;
+            column-gap: 40px;
+            padding-left: 22px;
+            margin: 0;
+        }
+
+        .dept-history-research-list li {
+            break-inside: avoid;
+            margin-bottom: 14px;
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1.02rem;
+        }
+
+        /* RESPONSIVE */
+
+        @media(max-width:768px) {
+
+            .dept-history-research-thrust-box {
+                padding: 30px 22px;
+            }
+
+            .dept-history-research-list {
+                column-count: 1;
+            }
+
+            .dept-history-research-main-heading {
+                font-size: 1.7rem;
+            }
+
+            .dept-history-research-subtitle {
+                font-size: 1.3rem;
+            }
+
+        }
+    </style>
 
     <style>
         /* =========================================================
@@ -2023,6 +2112,136 @@
 
             </div>
         </div>
+
+        <section class="dept-history-research-thrust-section" id="dept-research-thrust">
+
+            <h2 class="dept-history-section-title">
+                Research <span>Thrust</span>
+            </h2>
+
+            <div class="dept-history-research-thrust-box">
+
+                <!-- MAIN HEADING -->
+                <h3 class="dept-history-research-main-heading">
+                    Research Thrust of the Department of History, The Assam Royal Global University.
+                </h3>
+
+                <!-- TEXT -->
+                <p class="dept-history-research-text">
+                    The Department of History, The Assam Royal Global University, like all global universities, believes
+                    in supreme emphasis in research. It emphasised that the curriculum and syllabus for its courses are
+                    to be based absolutely on the researches of its faculty. It framed the courses according to the
+                    guidelines provided by the Government of India as well as keeping in mind the global currents of the
+                    subject. Hence the courses were formulated on the basis of fresh and newest research on the subject.
+                    On the same principle, the research in the discipline is prioritised on the research needs of the
+                    region where the university is located but with national and global perspective. The major
+                    consideration behind courses is applicability in real historical situations, ensure employability
+                    and meet the global standards of research. It is with such consideration that the thrust area of
+                    research was formulated. Again, considering that all the universities located in north east India
+                    also conduct research on the same region, care is taken not to be repetitive, duplicated and
+                    cliched. Hence the Department has isolated spaces, themes and times that need to be researched as
+                    priority areas of historical research in the Department. Thus, the multi-dimensional history of the
+                    North Eastern region within the national framework and global perspective was decided as the primary
+                    focus of research.
+                </p>
+
+                <p class="dept-history-research-text">
+                    Research students are encouraged to work on these prioritised areas of history while not
+                    compromising their own interest and specialisation. Hence Ancient, Medieval and Modern history of
+                    Brahmaputra valley in particular and north east India in general is delineated as the priority areas
+                    of research. As far as themes are concerned, these include environment and ecology, social and
+                    military history, tribal and indigenous communities, textile and food history, society and social
+                    formation, medievalism and modernity, linguistic and anti-colonial nationalism, colonial and
+                    post-colonialist history, trade and mercantilist history, Colonial ethnography and its
+                    deconstruction, matrilineal states and patriarchies, women and gender history, vanishing cultures
+                    and demystification of colonial constructions, indigenous knowledge system and heritage studies,
+                    post-colonial history and historiography, Burmese invasions and Burmese rule, Agrarian history: tea,
+                    rubber, jute and rice, mining history: coal, petroleum, limestone, state formation, world war
+                    studies, peasant and labour movements, migration and migrant communities and politics and political
+                    processes.
+                </p>
+
+                <!-- SUBTITLE -->
+                <h4 class="dept-history-research-subtitle">
+                    Current Research Scholars and Themes of Research
+                </h4>
+
+                <!-- BULLETS -->
+                <ul class="dept-history-research-list">
+
+                    <li>Jordan Thapa- “A Critical Study on the Magar Community of Assam With Special Reference to the
+                        Tinsukia District”</li>
+
+                    <li>Pooja Bhattacharjee- “Partition, Language and Identity: A Study on The Language Movement of
+                        Assam (1947-1961)”</li>
+
+                    <li>Rashmirekha Hazarika- “Early Matriarchal Polities Of Central Assam”</li>
+
+                    <li>Puspa Deori- “Socio-Cultural History of the Deori Community of Assam (19th to 20th century)”
+                    </li>
+
+                    <li>Tanzim Masud- “Construction of 'Medieval' Assam- External Perception Of Ahom-Assam Through
+                        Persian and European Sources (17th to 18th Century)”</li>
+
+                    <li>Phowltha seltun- “The Anal Tribe of the Indo-Myanmar Frontier: An Ethno-Historical Study”</li>
+
+                    <li>Freddie Lalramdina- “Transformation of Lusei Tribe under the Colonial Rule with Special
+                        Reference to Funerary Rites (1890-1947)”</li>
+
+                    <li>Rothangliana- “The Abolition of Chieftainship in Mizoram: An Analysis of its Impact on the Mizo
+                        Society”</li>
+
+                    <li>Banti Talukdar- “Sacred Sites in Western Assam: A Study in Antiquity, Form and Structure”</li>
+
+                    <li>Bakashita Saikia- “Religious Syncretism in the State Religion of the Ahom Kingdom: A Historical
+                        Study”</li>
+
+                    <li>Judith L. Intovate- “Burmese Rule in Manipur, 1817-1826”</li>
+
+                    <li>Jini Rani Boro- “Women in Public Life: A Study of Brahmaputra Valley”</li>
+
+                    <li>Juri Deka- “Exploring the Growth of Rashtriya Swyamsevak Sangh in Assam 1946-1985”</li>
+
+                    <li>Himangshu Shekhar Bora- “Nationalist Movement in Kaliabor Sub-division (1920-1042)”</li>
+
+                    <li>Akangsha Kalita- “Space, Culture and Identity: A Study of Sualkuchi in Assam (19th-20th
+                        Century)”</li>
+
+                    <li>Chidora R Marak- “Health in Garo Hills: A Study of traditional Medicine and Healing Practices
+                        circa 1870 to 1972 AD”</li>
+
+                    <li>Phurailatpam Aarti Devi- “A Study of Vaishnavite Influenced Performing Arts in Manipur 1470 CE
+                        to 1940CE”</li>
+
+                    <li>NH Hingnamyi Blessing Newme- “Response to Colonialism: Zeme Nagas in North East India
+                        (1900-1950)”</li>
+
+                    <li>Alexander D Sangma- “History of Garo Students' Union in North East India (1940s-2005)”</li>
+
+                    <li>Rajita Kalita Barbaruah- “The Ahom-Mughal Conflict: A Politico-military History”</li>
+
+                    <li>Katikala Imsong- “Ornaments of Ao Nagas: Spiritualism, Symbolism and Memories from 1826–1947”
+                    </li>
+
+                    <li>Shilpi Mahanta- “Historical study of Neo-Vaishnavite Material Culture in Medieval Assam”</li>
+
+                    <li>Priyanka Das- “Food Habits and Social Changes in Western Assam, 1850-1950 AD”</li>
+
+                    <li>Tipchira Ch Marak- “Socio- religious and cultural History of A’chik Songsarek from 1947 to 2015”
+                    </li>
+
+                    <li>Mayanglambam Neerupama- “Agrarian History of Manipur : 1891 to 1972”</li>
+
+                    <li>Uttarika Bhattacharya- “Empire’s Forgotten Fighters: Tea Labourers and the History of Assam’s
+                        Freedom Movement from 1921 to 1947”</li>
+
+                    <li>Manbiaklun- “History of the Paite : A study of socio-cultural and political dynamics”</li>
+
+                </ul>
+
+            </div>
+
+        </section>
 
         <div class="dept-history-events-section" id="dept-events">
 
