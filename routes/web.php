@@ -5655,6 +5655,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 
 //RSB Facuilty Profile
 
+Route::get('/faculty-bhabajyoti-saikia', function () {
+    return view('frontend/facultyprofile/rsb/bhabajyoti-saikia');
+})->name('faculty-bhabajyoti-saikia');
+
 Route::get('/faculty-rishabh-goswami', function () {
     return view('frontend/facultyprofile/rsb/rishabh-goswami');
 })->name('faculty-rishabh-goswami');

@@ -153,7 +153,7 @@
                             </div>
                             <h3 class="card-name">Prof. Bhabajyoti Saikia</h3>
                             <p class="card-designation">Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-sudip-chakraborty" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-bhabajyoti-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
