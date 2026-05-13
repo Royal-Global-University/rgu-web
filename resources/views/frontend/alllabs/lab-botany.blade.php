@@ -128,6 +128,41 @@
         </ol>
     </div>
 
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/21.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/22.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/23.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/24.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/25.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/26.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/27.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/28.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/29.jpg"/>
+            </div>
+            <div class="col-lg-4 p-3">
+                <img src="/mobile-assets/botany/30.jpg"/>
+            </div>
+        </div>
+    </div>
+
     <style>
         .equipment-list {
             column-count: 2;
@@ -183,38 +218,5 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/21.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/22.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/23.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/24.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/25.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/26.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/27.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/28.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/29.jpg"/>
-            </div>
-            <div class="col-lg-4">
-                <img src="/mobile-assets/botany/30.jpg"/>
-            </div>
-        </div>
-    </div>
+
 @endsection
