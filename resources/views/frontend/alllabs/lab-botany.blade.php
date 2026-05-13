@@ -182,4 +182,21 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="/mobile-assets/botany/21.jpg"/>
+                <img src="/mobile-assets/botany/22.jpg"/>
+                <img src="/mobile-assets/botany/23.jpg"/>
+                <img src="/mobile-assets/botany/24.jpg"/>
+                <img src="/mobile-assets/botany/25.jpg"/>
+                <img src="/mobile-assets/botany/26.jpg"/>
+                <img src="/mobile-assets/botany/27.jpg"/>
+                <img src="/mobile-assets/botany/28.jpg"/>
+                <img src="/mobile-assets/botany/29.jpg"/>
+                <img src="/mobile-assets/botany/30.jpg"/>
+            </div>
+        </div>
+    </div>
 @endsection
