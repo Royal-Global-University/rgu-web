@@ -1,15 +1,5 @@
 @extends('frontend.master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-
-    </div>
-
-    <div class="website">
-        <!--head image Section-->
-        @include('frontend/components/aheader')
-
-    </div>
 
     <style>
         /* Mobile (Up to 1024px) - Controls visibility */
