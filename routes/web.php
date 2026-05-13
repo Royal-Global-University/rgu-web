@@ -3265,6 +3265,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/news18');
+})->name('indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university');
+
 Route::get('/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops', function () {
     return view('frontend/media-corner/2026/news17');
 })->name('rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops');

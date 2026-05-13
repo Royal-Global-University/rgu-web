@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 13, 2026",
+            title: "Indian Museum Kolkata Launches 7-day Exhibition at Royal Global University",
+            desc: "Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU in collaboration with the Indian Museum, Kolkata under the Ministry of Culture, Government of India.",
+            img: "/mobile-assets/media-corner/2026/12/3.jpg",
+            link: "/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university",
+        },
+        {
             date: "Guwahati, May 11, 2026",
             title: "RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops",
             desc: "The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram. Significantly, this will be the first time that the Indian Museum is curating such an exhibition in Northeast India, making it a historic cultural occasion for the region.",
@@ -106,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             desc: "In a significant step towards strengthening industry–academia collaboration in Northeast India, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with Tata Consultancy Services (TCS) to launch an industry-integrated undergraduate programme in Computer Science Engineering and Business Systems (CSEBS), aimed at creating future-ready professionals equipped with both technological expertise and business acumen.",
             img: "/mobile-assets/rgu-blog/blog2.jpeg",
             link: "/royal-global-university-partners-with-tcs-to-start-industry-integrated-programmes",
-        }
+        },
     ];
 
     // ================= 2. DOM ELEMENTS =================

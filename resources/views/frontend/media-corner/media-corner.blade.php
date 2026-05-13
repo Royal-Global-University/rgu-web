@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Indian Museum Kolkata Launches 7-day Exhibition at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 13, 2026:',
+                            'link' => '/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/12/3.jpg',
+                            'content' => 'Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU...',
+                        ],
+                        [
                             'title' => 'RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops',
                             'summary' => '',
                             'date' => 'Guwahati, May 11, 2026:',
