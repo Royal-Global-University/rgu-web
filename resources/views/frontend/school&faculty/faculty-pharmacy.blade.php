@@ -459,7 +459,7 @@
                             </div>
                             <h3 class="card-name">Ms Ritika Baidya</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-ritika-baidya" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
