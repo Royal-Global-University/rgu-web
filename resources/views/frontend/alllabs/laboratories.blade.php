@@ -345,7 +345,7 @@
                         link: "/lab-mechanical"
                     },
                     {
-                        title: "Electronic Engineering Lab",
+                        title: "Electronics Lab",
                         image: "/mobile-assets/laboratories/electronic.png",
                         link: "/lab-electronic"
                     },
@@ -353,6 +353,11 @@
                         title: "Electrical Engineering Lab",
                         image: "/mobile-assets/laboratories/electrical.png",
                         link: "/lab-electrical"
+                    },
+                    {
+                        title: "Electronics Engineering Lab",
+                        image: "/mobile-assets/Electronics/Experiment on Flip Flop.jpeg",
+                        link: "/lab-electronics"
                     }
 
                 ]
@@ -391,7 +396,7 @@
                 school: "Royal School of Life Sciences (RSLSC)",
                 labs: [{
                         title: "Botany Lab",
-                        image: "/mobile-assets/new-labs/botany/botany-img.jpeg",
+                        image: "/mobile-assets/botany-head.png",
                         link: "/lab-botany"
                     },
                     {

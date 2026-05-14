@@ -203,15 +203,23 @@
 
         <section class="rgu-mmlab-gallery">
 
-            <h2 class="rgu-mmlab-gallery-title">
+            <h2 class="rgu-mmlab-gallery-title" style="font-size: 42px;">
                 Glimpse of <span class="rgu-mmlab-highlight">Our Lab</span>
             </h2>
 
             <div class="rgu-mmlab-grid">
                 <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595877.jpg">
-                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595879.jpg">
+                <img src="/mobile-assets/3D Printers/21.jpeg">
                 <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595886.jpg">
                 <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595884.jpg">
+                <img src="/mobile-assets/3D Printers/22.jpg">
+                <img src="/mobile-assets/new-labs/lab-ar-vr-product-design/AR:VR/1000595879.jpg">
+            </div>
+            <h2 class="pt-2 pb-2 text-light bg-danger mt-4 mb-4 rounded">3D Printer</h2>
+            <div class="rgu-mmlab-grid">
+                <img style="height: 310px;" src="/mobile-assets/3D Printers/1.jpg">
+                <img src="/mobile-assets/3D Printers/2.jpg">
+                <img src="/mobile-assets/3D Printers/3.jpg">
             </div>
 
         </section>

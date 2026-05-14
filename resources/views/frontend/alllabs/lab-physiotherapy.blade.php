@@ -42,7 +42,7 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="text-dark fw-bold kd-title-ani kd-split-text" style="font-size: 32px;">
                                             Physiotherapy Lab & Clinic
                                         </h1>
 
@@ -63,8 +63,70 @@
             </section>
         </div>
 
+        <div class="container">
+            <div class="m-5 p-4 text-dark rounded shadow" style="background-color: #fff">
+                <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">
+                    The services provided in our OPD are as follows:
+                </h2>
 
+                <hr>
+                <ol>
+                    <li>
+                        Conditions related to pain, muscle stiffness/spasm, and post-fracture treatment.
+                    </li>
 
+                    <li>
+                        Exercise programs and home-based rehabilitation programs for easy understanding and implementation
+                        by
+                        patients.
+                    </li>
+
+                    <li>
+                        Electrotherapy modalities including:
+                        <ol>
+                            <li>TENS Therapy</li>
+                            <li>IFT Therapy</li>
+                            <li>Ultrasound Therapy</li>
+                            <li>Traction Therapy</li>
+                            <li>IRR Lamp Therapy</li>
+                            <li>Electrical Muscle Stimulation Therapy</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        Advice for Activities of Daily Living (ADL’s) to patients, such as posture correction and ergonomic
+                        guidance.
+                    </li>
+
+                    <li>
+                        Strengthening sessions for rehabilitation and functional recovery.
+                    </li>
+
+                    <li>
+                        The OPD is also beneficial for our students, as they can assess patients and plan treatment
+                        protocols
+                        under supervision.
+                    </li>
+
+                    <li>
+                        The currently available equipment includes:
+                        <ol>
+                            <li>TENS Machine</li>
+                            <li>IFT Machine</li>
+                            <li>Ultrasound Machine</li>
+                            <li>Traction Unit</li>
+                            <li>Electrical Muscle Stimulation Machine</li>
+                            <li>IRR Lamp</li>
+                            <li>Shoulder Wheel</li>
+                            <li>Wrist Rotator</li>
+                            <li>Finger Ladder</li>
+                            <li>Quadriceps Table</li>
+                            <li>Wobble Board</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+        </div>
 
         <div class="custom-container">
             <div class="custom-row">
@@ -111,7 +173,26 @@
             </div>
         </div>
 
-        <img src="mobile-assets/lab-physio/PhysiotherapyLab.png" alt="">
+        <div class="container">
+            <h2 style="color: #0056b3 !important;" class="headd1 fw-bold text-dark text-center pb-2 pt-2">
+                Glimpse of Our Lab:
+            </h2>
+            <div class="row text-center pt-2">
+                <div class="col-lg-6">
+                    <img class="rounded p-3" src="/mobile-assets/Physiotherapy/1.JPG"/>
+                </div>
+                <div class="col-lg-6">
+                    <img class="rounded p-3" src="/mobile-assets/Physiotherapy/2.JPG"/>
+                </div>
+                <div class="col-lg-6">
+                    <img class="rounded p-3" src="/mobile-assets/Physiotherapy/3.JPG"/>
+                </div>
+                <div class="col-lg-6">
+                    <img class="rounded p-3" src="/mobile-assets/Physiotherapy/4.JPG"/>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 @endsection

@@ -5,7 +5,7 @@
         <div style="padding-top: 90px; position: relative;">
             <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center">
                 Botany Lab</h1>
-            <img class="p-3 rounded" src="/mobile-assets/new-labs/botany/botany-img.jpeg" alt="">
+            <img class="p-3 rounded" src="/mobile-assets/botany-head.png" alt="">
             <p class="text-dark para1 p-4" style="text-align: justify;">The Botany Laboratory is a well-established facility
                 designed to support both foundational learning and advanced research in plant sciences. It provides a
                 structured and hands-on environment where students gain practical expertise in plant morphology, anatomy,
@@ -42,7 +42,7 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="/mobile-assets/new-labs/botany/botany-img.jpeg"
+                                            <img decoding="async" src="/mobile-assets/botany-head.png"
                                                 alt="">
                                         </div>
 

@@ -45,7 +45,7 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Electronics Lab
                                         </h1>
 

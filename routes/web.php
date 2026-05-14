@@ -416,6 +416,10 @@ Route::get('/rgu-magazine', function () {
 
 //All Labs
 
+Route::get('/lab-electronics', function () {
+    return view('frontend/alllabs/lab-electronics');
+})->name('lab-electronics');
+
 Route::get('/lab-architecture', function () {
     return view('frontend/alllabs/lab-architecture');
 })->name('lab-architecture');
