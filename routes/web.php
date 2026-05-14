@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu', function () {
+    return view('frontend/media-corner/2026/news19');
+})->name('meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu');
+
 Route::get('/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university', function () {
     return view('frontend/media-corner/2026/news18');
 })->name('indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university');

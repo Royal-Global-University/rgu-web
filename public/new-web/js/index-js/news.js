@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 14, 2026",
+            title: "Meghalaya Sports Minister Shylla inaugurates Zenith & Pickleball Court at RGU",
+            desc: "Shri Wailadmiki Shylla, Minister of Sports & Youth Affairs, Government of Meghalaya, visited The Assam Royal Global University (RGU) today and took part in a series of programmes aimed at promoting student engagement, sports culture, and environmental awareness on the university campus.",
+            img: "/mobile-assets/media-corner/2026/14/2.jpeg",
+            link: "/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu",
+        },
+        {
             date: "Guwahati, May 13, 2026",
             title: "Indian Museum Kolkata Launches 7-day Exhibition at Royal Global University",
             desc: "Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU in collaboration with the Indian Museum, Kolkata under the Ministry of Culture, Government of India.",

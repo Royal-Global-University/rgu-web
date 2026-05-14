@@ -95,7 +95,7 @@
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).
                         <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                            href="mobile-assets/recognition/pdf/AICTE.pdf"> <i class="fas fa-file-pdf"></i> Click Here to
+                            href="/mobile-assets/ads/AICTE EoA 26-27.PDF"> <i class="fas fa-file-pdf"></i> Click Here to
                             View Approval Letter</a>
                     </p>
                 </div>
@@ -326,7 +326,7 @@
                             B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education
                             (AICTE).
                             <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                                href="mobile-assets/recognition/pdf/AICTE.pdf"> <i class="fas fa-file-pdf"></i> Click Here
+                                href="/mobile-assets/ads/AICTE EoA 26-27.PDF"> <i class="fas fa-file-pdf"></i> Click Here
                                 to View Approval Letter</a>
                         </p>
                     </div>

@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Meghalaya Sports Minister Shylla inaugurates Zenith & Pickleball Court at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 14, 2026:',
+                            'link' => '/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu',
+                            'image' => '/mobile-assets/media-corner/2026/14/2.jpeg',
+                            'content' => 'Shri Wailadmiki Shylla, Minister of Sports & Youth Affairs, Government of Meghalaya, visited The Assam Royal Global University (RGU) today and took part in a series of programmes aimed at promoting student engagement, sports culture, and environmental awareness on the university campus.',
+                        ],
+                        [
                             'title' => 'Indian Museum Kolkata Launches 7-day Exhibition at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, May 13, 2026:',
