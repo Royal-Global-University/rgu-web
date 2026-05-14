@@ -230,6 +230,7 @@
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
                                         <a href="/achievements" class="m-sub-acc-link">Achievements</a>
+                                        <a href="/cisr" class="m-sub-acc-link">CISR</a>
                                         <a href="/academic-calendar" class="m-sub-acc-link">Academic
                                             Calendar</a>
                                     </div>
