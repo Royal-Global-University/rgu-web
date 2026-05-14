@@ -22,15 +22,15 @@
         }
 
         /* ===== BASE ===== */
-        .rgu-mech-body {
+        .rgu-arch-studio-body {
             font-family: "Times New Roman", serif;
             background: #f4f6f9;
             overflow-x: hidden;
         }
 
         /* ===== HERO ===== */
-        .rgu-mech-hero {
-            background: url('mobile-assets/new-labs/lab-architecture-new/bgg.svg') center/cover no-repeat;
+        .rgu-arch-studio-hero {
+            background: url('mobile-assets/lab-architecture-new/bgg.svg') center/cover no-repeat;
             display: flex;
             gap: 40px;
             padding: 60px 5%;
@@ -38,45 +38,46 @@
             justify-content: center;
         }
 
-        .rgu-mech-hero-img {
+        .rgu-arch-studio-hero-img {
             width: 40%;
             border-radius: 12px;
         }
 
-        .rgu-mech-content {
+        .rgu-arch-studio-content {
             width: 50%;
         }
 
-        .rgu-mech-title {
+        .rgu-arch-studio-title {
             font-size: 30px;
             color: #1f355e;
             margin-bottom: 15px;
-            font-weight: 800;
         }
 
-        .rgu-mech-text {
+        .rgu-arch-studio-text {
             line-height: 1.7;
             color: #333;
             text-align: justify;
+            font-size: 1.2rem;
         }
 
         /* ===== LAB LIST ===== */
-        .rgu-mech-lablist {
+        .rgu-arch-studio-lablist {
             margin-top: 20px;
             line-height: 1.7;
+            font-size: 1.2rem;
         }
 
-        .rgu-mech-lablist h4 {
+        .rgu-arch-studio-lablist h4 {
             margin-bottom: 10px;
             color: #1f355e;
         }
 
-        .rgu-mech-lablist ol {
+        .rgu-arch-studio-lablist ol {
             padding-left: 20px;
         }
 
         /* ===== ACTIVITIES ===== */
-        .rgu-mech-activities {
+        .rgu-arch-studio-activities {
             width: 85%;
             margin: 40px auto;
             background: transparent;
@@ -84,21 +85,21 @@
             padding: 10px;
         }
 
-        .rgu-mech-activities-title {
+        .rgu-arch-studio-activities-title {
             text-align: center;
             color: #1f355e;
             margin-bottom: 35px;
-            font-size: 2.2rem;
+            font-size: 2.3rem;
         }
 
         /* ===== NEW CARD LAYOUT ===== */
-        .rgu-mech-cards-container {
+        .rgu-arch-studio-cards-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 25px;
         }
 
-        .rgu-mech-section {
+        .rgu-arch-studio-section {
             background: #ffffff;
             border-radius: 12px;
             padding: 30px 25px;
@@ -109,13 +110,13 @@
             flex-direction: column;
         }
 
-        .rgu-mech-section:hover {
+        .rgu-arch-studio-section:hover {
             transform: translateY(-8px);
             box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
             border-top-color: orange;
         }
 
-        .rgu-mech-section-title {
+        .rgu-arch-studio-section-title {
             color: #27467a;
             margin-bottom: 15px;
             font-size: 1.4rem;
@@ -127,7 +128,7 @@
         }
 
         /* Small decorative dot before titles */
-        .rgu-mech-section-title::before {
+        .rgu-arch-studio-section-title::before {
             content: '';
             display: block;
             width: 8px;
@@ -136,112 +137,113 @@
             border-radius: 50%;
         }
 
-        .rgu-mech-section ul {
+        .rgu-arch-studio-section ul {
             padding-left: 20px;
             line-height: 1.8;
             color: #444;
         }
 
-        .rgu-mech-section ul li {
+        .rgu-arch-studio-section ul li {
             margin-bottom: 6px;
+            font-size: 1.2rem;
         }
 
         /* Custom color for bullet points */
-        .rgu-mech-section ul li::marker {
+        .rgu-arch-studio-section ul li::marker {
             color: #27467a;
         }
 
         /* ===== GALLERY ===== */
-        .rgu-mech-gallery {
+        .rgu-arch-studio-gallery {
             text-align: center;
             padding: 40px 5%;
             background-color: #FFFBF6;
         }
 
-        .rgu-mech-gallery-title {
-            font-size: 28px;
+        .rgu-arch-studio-gallery-title {
+            font-size: 32px;
             margin-bottom: 25px;
             color: #27467a;
         }
 
-        .rgu-mech-highlight {
+        .rgu-arch-studio-highlight {
             color: orange;
         }
 
-        .rgu-mech-grid {
+        .rgu-arch-studio-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
 
-        .rgu-mech-grid img {
+        .rgu-arch-studio-grid img {
             width: 100%;
             border-radius: 10px;
             display: block;
             transition: transform 0.3s ease;
         }
 
-        .rgu-mech-grid img:hover {
+        .rgu-arch-studio-grid img:hover {
             transform: scale(1.03);
         }
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 900px) {
-            .rgu-mech-hero {
+            .rgu-arch-studio-hero {
                 flex-direction: column;
                 padding: 30px 20px;
                 text-align: left;
                 background-color: #FFFBF6;
             }
 
-            .rgu-mech-hero-img,
-            .rgu-mech-content {
+            .rgu-arch-studio-hero-img,
+            .rgu-arch-studio-content {
                 width: 100%;
             }
 
-            .rgu-mech-title {
+            .rgu-arch-studio-title {
                 font-size: 24px;
             }
 
-            .rgu-mech-text {
+            .rgu-arch-studio-text {
                 text-align: justify;
                 font-size: 15px;
             }
 
-            .rgu-mech-activities {
+            .rgu-arch-studio-activities {
                 width: 100%;
                 padding: 20px;
                 margin: 20px auto;
             }
 
-            .rgu-mech-activities-title {
+            .rgu-arch-studio-activities-title {
                 font-size: 1.8rem;
             }
 
-            .rgu-mech-cards-container {
+            .rgu-arch-studio-cards-container {
                 grid-template-columns: 1fr;
             }
 
-            .rgu-mech-grid {
+            .rgu-arch-studio-grid {
                 grid-template-columns: 1fr;
             }
 
-            .rgu-mech-gallery {
+            .rgu-arch-studio-gallery {
                 background-color: #FFFBF6;
                 padding: 30px 20px;
             }
         }
     </style>
 
-    <section class="rgu-mech-body">
-        <section class="rgu-mech-hero">
+    <section class="rgu-arch-studio-body">
+        <section class="rgu-arch-studio-hero">
 
-            <img src="mobile-assets/new-labs/lab-architecture-new/headimg.jpg" class="rgu-mech-hero-img">
+            <img src="mobile-assets/lab-architecture-new/headimg.jpg" class="rgu-arch-studio-hero-img">
 
-            <div class="rgu-mech-content">
-                <h2 class="rgu-mech-title">Architecture Design Studios</h2>
+            <div class="rgu-arch-studio-content">
+                <h2 class="rgu-arch-studio-title">Architecture Design Studios</h2>
 
-                <p class="rgu-mech-text">
+                <p class="rgu-arch-studio-text">
                     The design studios of the Royal School of Architecture throw a focus on advanced digital technologies,
                     material systems and design research which strives to shape the future of the next generation of
                     designers. In
@@ -252,8 +254,8 @@
                     and third floor.
                 </p>
 
-                <div class="text-dark">
-                    <h4>Available Software Programs:</h4>
+                <div class="rgu-arch-studio-lablist text-dark">
+                    <h4>Available Labs:</h4>
                     <ol>
                         <li>AutoCAD</li>
                         <li>Revit</li>
@@ -265,111 +267,193 @@
             </div>
         </section>
 
-        <div class="text-dark pt-3 pb-3" style="padding-left: 50px; padding-right: 50px;">
-            <ol>
-                <li>Developing architectural design projects, keeping in mind the climatic condition of the site
-                </li>
+        <section class="rgu-arch-studio-activities">
 
-                <li>Studying different building technologies and services like plumbing and sanitation</li>
+            <!-- <h3 class="rgu-arch-studio-activities-title">Included In The Lab Are:</h3> -->
 
-                <li>Practically observe building materials, their typologies and specifications</li>
+            <div class="rgu-arch-studio-cards-container">
 
-                <li>Study electrical wirings, fittings and services</li>
+                <div class="rgu-arch-studio-section">
+                    <!-- <h4 class="rgu-arch-studio-section-title">Fluid Mechanics Lab</h4> -->
+                    <ul>
+                        <li><i class="fa fa-circle"></i> <span>Developing architectural design projects, keeping in mind the
+                                climatic condition of the site</span></li>
 
-                <li>Exercises related to surveying and levelling give students hands-on experience and help them
-                    understand the characteristics of the site</li>
+                        <li><i class="fa fa-circle"></i> <span>Studying different building technologies and services like
+                                plumbing
+                                and sanitation</span></li>
 
-                <li>Learning techniques of testing compressive and tensile strengths of building materials</li>
+                        <li><i class="fa fa-circle"></i> <span>Practically observe building materials, their typologies and
+                                specifications</span></li>
 
-                <li>Making small prototypes of brick joints, wooden joints etc</li>
+                        <li><i class="fa fa-circle"></i> <span>Study electrical wirings, fittings and services</span></li>
 
-                <li>Experiment with various building materials</li>
-            </ol>
-        </div>
+                        <li><i class="fa fa-circle"></i> <span>Exercises related to surveying and levelling give students
+                                hands-on
+                                experience and help them understand the characteristics of the site</span></li>
 
-        <!-- <section class="rgu-mech-activities">
+                        <li><i class="fa fa-circle"></i> <span>Learning techniques of testing compressive and tensile
+                                strengths of
+                                building materials</span></li>
 
-                      <h3 class="rgu-mech-activities-title">Included In The Lab Are:</h3>
+                        <li><i class="fa fa-circle"></i> <span>Making small prototypes of brick joints, wooden joints
+                                etc</span>
+                        </li>
 
-                      <div class="rgu-mech-cards-container">
+                        <li><i class="fa fa-circle"></i> <span>Experiment with various building materials</span></li>
+                    </ul>
+                </div>
 
-                        <div class="rgu-mech-section">
-                          <h4 class="rgu-mech-section-title">Fluid Mechanics Lab</h4>
-                          <ul>
-                            <li>Verification of Bernoulli’s theorem</li>
-                            <li>Flow measurement using Venturimeter/Orifice meter</li>
-                            <li>Study of Reynolds number</li>
-                            <li>Minor and major losses in pipes</li>
-                            <li>Kaplan Turbine</li>
-                            <li>Francis Turbine</li>
-                            <li>Impact of Jet apparatus</li>
-                            <li>Centrifugal Pump</li>
-                            <li>Hydraulic Ram</li>
-                          </ul>
-                        </div>
+            </div>
 
-                        <div class="rgu-mech-section">
-                          <h4 class="rgu-mech-section-title">Heat Transfer Lab</h4>
-                          <ul>
-                            <li>Heat transfer through composite wall</li>
-                            <li>Natural and forced convection experiments</li>
-                            <li>Stefan–Boltzmann constant determination</li>
-                            <li>Heat exchanger performance analysis</li>
-                            <li>Parallel and Counter flow Heat Exchangers</li>
-                            <li>Heat Pipe</li>
-                            <li>Condenser Heat exchanger</li>
-                            <li>Emissivity apparatus</li>
-                          </ul>
-                        </div>
+            </div>
+        </section>
 
-                        <div class="rgu-mech-section">
-                          <h4 class="rgu-mech-section-title">Strength of Materials Lab</h4>
-                          <ul>
-                            <li>Universal Testing Machine (UTM)</li>
-                            <li>Izod impact testing machine</li>
-                            <li>Charpy impact testing machine</li>
-                            <li>Rockwell Hardness Test Rig</li>
-                            <li>Fatigue Testing Machine</li>
-                          </ul>
-                        </div>
+        <section class="rgu-arch-studio-gallery">
 
-                        <div class="rgu-mech-section">
-                          <h4 class="rgu-mech-section-title">Mechanical Workshop</h4>
-                          <ul>
-                            <li>Lathe, drilling, and milling operations</li>
-                            <li>Welding processes</li>
-                            <li>Carpentry</li>
-                            <li>Fitting</li>
-                          </ul>
-                        </div>
-
-                        <div class="rgu-mech-section">
-                          <h4 class="rgu-mech-section-title">Metrology Lab</h4>
-                          <ul>
-                            <li>Measurement using vernier caliper and micrometer</li>
-                            <li>Surface roughness measurement</li>
-                            <li>Gear and thread measurement</li>
-                            <li>Comparators and gauges</li>
-                          </ul>
-                        </div>
-
-                      </div>
-                    </section> -->
-
-        <section class="rgu-mech-gallery">
-
-            <h2 class="rgu-mech-gallery-title">
-                Glimpse of <span class="rgu-mech-highlight">Our Studios</span>
+            <h2 class="rgu-arch-studio-gallery-title">
+                Our <span class="rgu-arch-studio-highlight">Classroom</span>
             </h2>
 
-            <div class="rgu-mech-grid">
-                <img src="mobile-assets/new-labs/lab-architecture-new/1.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/2.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/3.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/4.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/5.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/6.jpg">
-                <img src="mobile-assets/new-labs/lab-architecture-new/7.jpg">
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/classroom/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/classroom/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/classroom/3.jpg">
+            </div>
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Carpentry <span class="rgu-arch-studio-highlight">and Welding</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/carpentry/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/carpentry/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/carpentry/3.jpg">
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Climatology <span class="rgu-arch-studio-highlight">Lab</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/climatology/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/climatology/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/climatology/3.jpg">
+            </div>
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Computer <span class="rgu-arch-studio-highlight">Lab</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/computer/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/computer/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/computer/3.jpg">
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Departmental <span class="rgu-arch-studio-highlight">Library</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/dept-library/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/dept-library/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/dept-library/3.jpg">
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Documentation <span class="rgu-arch-studio-highlight">Room</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/documentation-room/6.jpg">
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Material <span class="rgu-arch-studio-highlight">Lab</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/material-lab/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/6.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/7.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/8.jpg">
+                <img src="mobile-assets/lab-architecture-new/material-lab/9.jpg">
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Model Making <span class="rgu-arch-studio-highlight">Room</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/model-making-room/6.jpg">
+
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Mo<span class="rgu-arch-studio-highlight">dels</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/models/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/6.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/7.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/8.jpg">
+                <img src="mobile-assets/lab-architecture-new/models/9.jpg">
+
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Stu<span class="rgu-arch-studio-highlight">dio</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/studio/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/studio/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/studio/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/studio/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/studio/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/studio/6.jpg">
+
+            </div>
+
+
+            <h2 class="rgu-arch-studio-gallery-title" style="padding-top: 40px;">
+                Surveying <span class="rgu-arch-studio-highlight">and Levelling</span>
+            </h2>
+
+            <div class="rgu-arch-studio-grid">
+                <img src="mobile-assets/lab-architecture-new/surveying/1.jpg">
+                <img src="mobile-assets/lab-architecture-new/surveying/2.jpg">
+                <img src="mobile-assets/lab-architecture-new/surveying/3.jpg">
+                <img src="mobile-assets/lab-architecture-new/surveying/4.jpg">
+                <img src="mobile-assets/lab-architecture-new/surveying/5.jpg">
+                <img src="mobile-assets/lab-architecture-new/surveying/6.jpg">
 
             </div>
 
