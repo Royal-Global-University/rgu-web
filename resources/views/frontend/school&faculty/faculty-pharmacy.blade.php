@@ -418,7 +418,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Rajana.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Rajana James Website.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Rajana james</h3>
@@ -490,7 +490,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Suparna.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Suparna Bhattacharjee Website.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Suparna Bhattacharjee</h3>
