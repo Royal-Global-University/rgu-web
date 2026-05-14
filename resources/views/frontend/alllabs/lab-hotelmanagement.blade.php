@@ -3,8 +3,6 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-
-            <img src="mobile-assets/lab-hotel/mobileHotelManagementLab.png" alt="">
         </div>
     </div>
 
@@ -12,102 +10,359 @@
         <!--Start Header-->
         @include('frontend/components/aheader')
         <!--End Header-->
+    </div>
+
+    <style>
+        /* ===== RESET ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ===== BASE ===== */
+        .hotel-management-body {
+            font-family: "Times New Roman", serif;
+            background: #f4f6f9;
+            overflow-x: hidden;
+        }
+
+        /* ===== HERO ===== */
+        .hotel-management-hero {
+            background: url('mobile-assets/lab-architecture-new/bgg.svg') center/cover no-repeat;
+            display: flex;
+            gap: 40px;
+            padding: 60px 5%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hotel-management-hero-img {
+            width: 40%;
+            border-radius: 12px;
+        }
+
+        .hotel-management-content {
+            width: 50%;
+        }
+
+        .hotel-management-title {
+            font-size: 30px;
+            color: #1f355e;
+            margin-bottom: 15px;
+        }
+
+        .hotel-management-text {
+            line-height: 1.7;
+            color: #333;
+            text-align: justify;
+            font-size: 1.2rem;
+        }
+
+        /* ===== LAB LIST ===== */
+        .hotel-management-lablist {
+            margin-top: 20px;
+            line-height: 1.7;
+            font-size: 1.2rem;
+        }
+
+        .hotel-management-lablist h4 {
+            margin-bottom: 10px;
+            color: #1f355e;
+        }
+
+        .hotel-management-lablist ol {
+            padding-left: 20px;
+        }
+
+        /* ===== ACTIVITIES ===== */
+        .hotel-management-activities {
+            width: 85%;
+            margin: 40px auto;
+            background: transparent;
+            /* Removed white bg to let cards pop */
+            padding: 10px;
+        }
+
+        .hotel-management-activities-title {
+            text-align: center;
+            color: #1f355e;
+            margin-bottom: 35px;
+            font-size: 2.3rem;
+        }
+
+        /* ===== NEW CARD LAYOUT ===== */
+        .hotel-management-cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .hotel-management-section {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid #27467a;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hotel-management-section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+            border-top-color: orange;
+        }
+
+        .hotel-management-section-title {
+            color: #27467a;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Small decorative dot before titles */
+        .hotel-management-section-title::before {
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            background-color: orange;
+            border-radius: 50%;
+        }
+
+        .hotel-management-section ul {
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .hotel-management-section ul li {
+            margin-bottom: 6px;
+            font-size: 1.2rem;
+        }
+
+        /* Custom color for bullet points */
+        .hotel-management-section ul li::marker {
+            color: #27467a;
+        }
+
+        /* ===== GALLERY ===== */
+        .hotel-management-gallery {
+            text-align: center;
+            padding: 40px 5%;
+            background-color: #FFFBF6;
+        }
+
+        .hotel-management-gallery-title {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #27467a;
+        }
+
+        .hotel-management-highlight {
+            color: orange;
+        }
+
+        .hotel-management-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .hotel-management-grid img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .hotel-management-grid img:hover {
+            transform: scale(1.03);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .hotel-management-hero {
+                flex-direction: column;
+                padding: 30px 20px;
+                text-align: left;
+                background-color: #FFFBF6;
+            }
+
+            .hotel-management-hero-img,
+            .hotel-management-content {
+                width: 100%;
+            }
+
+            .hotel-management-title {
+                font-size: 24px;
+            }
+
+            .hotel-management-text {
+                text-align: justify;
+                font-size: 15px;
+            }
+
+            .hotel-management-activities {
+                width: 100%;
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            .hotel-management-activities-title {
+                font-size: 1.8rem;
+            }
+
+            .hotel-management-cards-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hotel-management-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hotel-management-gallery {
+                background-color: #FFFBF6;
+                padding: 30px 20px;
+            }
+        }
+    </style>
+
+    <section class="hotel-management-body">
+        <section class="hotel-management-hero">
+
+            <img src="mobile-assets/new-lab-hotel/headimg.jpg" class="hotel-management-hero-img">
+
+            <div class="hotel-management-content">
+                <h2 class="hotel-management-title">Hotel Management Lab</h2>
+
+                <p class="hotel-management-text">
+                    Our Hotel Management Lab meets international standards. Students learn about different services in a
+                    hotel,
+                    from baking bread and cooking food items, to managing a bar or a restaurant. Students who opt for Hotel
+                    Management are given extensive practice in all kinds of hotel-related services.
+                    <br><br>
+                    The Hotel Management students are provided with practical training according to the curriculum through
+                    exposure to various departments of a hotel and their operations like kitchen, front desk, bar, customer
+                    service, housekeeping, and more. The lab is in block- D on the ground floor.
+                </p>
 
 
-        <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-hotel/background.svg);"
-                class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="f481aaf" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55"
-                        data-id="968af55" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx"
-                                data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                <div class="elementor-widget-container">
-                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;"
-                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="mobile-assets/lab-hotel/headimg.JPG" alt="">
-                                        </div>
+            </div>
+        </section>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section class="hotel-management-activities">
 
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111"
-                        data-id="9b49111" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading"
-                                data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                <div class="elementor-widget-container">
-                                    <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                            Hotel Management Lab
-                                        </h1>
+            <!-- <h3 class="hotel-management-activities-title">Included In The Lab Are:</h3> -->
 
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            Our Hotel Management Lab meets international standards. Students learn about
-                                            different services in a hotel, from baking bread and cooking food items, to
-                                            managing a bar or a restaurant. Students who opt for Hotel Management are given
-                                            extensive practice in all kinds of hotel-related services.
-                                        </p>
-                                        <p class="text-dark para1" style="text-align: justify;">
-                                            The Hotel Management students are provided with practical training according to
-                                            the curriculum through exposure to various departments of a hotel and their
-                                            operations like kitchen, front desk, bar, customer service, housekeeping, and
-                                            more. The lab is in block- D on the ground floor.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+            <div class="hotel-management-cards-container">
 
+                <div class="hotel-management-section">
+                    <h4 class="hotel-management-section-title">Lab Activities Includes:</h4>
+                    <ul>
+                        <li><i class="fa fa-circle"></i> <span>Students are trained on receiving information, billing and
+                                maintaining guest relations</span></li>
 
+                        <li><i class="fa fa-circle"></i> <span>House keeping training</span></li>
 
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
-                        Activities Includes:
-                    </h2>
-                    <hr>
-                    <ol>
-                        <li class="para1 text-dark">Students are trained on receiving information, billing and maintaining
-                            guest relations.</li>
-                        <li class="para1 text-dark">House keeping training</li>
-                        <li class="para1 text-dark">Operation and management of guest rooms</li>
-                        <li class="para1 text-dark">Laundry process and linen exchange process</li>
-                        <li class="para1 text-dark">Basic of food & beverages services.</li>
-                        <li class="para1 text-dark">Demonstrations on table-service, napkins folds, American service, silver
-                            service are also practiced.</li>
-                        <li class="para1 text-dark">Practical experience on the use of software programs used in hotel and
-                            airline industry so that students know about the working of reservation, front desk, guest
-                            services and other modules.</li>
-                        <li class="para1 text-dark">Soft skills training through role play and discussion.</li>
-                    </ol>
-                </div>
+                        <li><i class="fa fa-circle"></i> <span>Operation and management of guest rooms</span></li>
 
-                <div class="custom-column">
+                        <li><i class="fa fa-circle"></i> <span>Laundry process and linen exchange process</span></li>
 
-                    <iframe width="650" height="510" src="https://www.youtube.com/embed/i4O6onhjk_I?si=UMpfbjQWSZL1di8n"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <li><i class="fa fa-circle"></i> <span>Basic of food & beverages services</span></li>
 
+                        <li><i class="fa fa-circle"></i> <span>Demonstrations on table-service, napkins folds, American
+                                service,
+                                silver service are also practiced</span></li>
+
+                        <li><i class="fa fa-circle"></i> <span>Practical experience on the use of software programs used in
+                                hotel
+                                and airline industry so that students know about the working of reservation, front desk,
+                                guest services
+                                and other modules</span></li>
+
+                        <li><i class="fa fa-circle"></i> <span>Soft skills training through role play and discussion</span>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
-        </div>
 
-        <div class="container-fluid" style="padding: 20px 40px; background-color: #fff;">
-            <img src="mobile-assets/lab-hotel/HotelManagementLab.png" alt="">
-        </div>
-    </div>
+            </div>
+        </section>
+
+        <section class="hotel-management-gallery">
+
+            <h2 class="hotel-management-gallery-title">
+                Our <span class="hotel-management-highlight">Kitchen (Basic Training Kitchen)</span>
+            </h2>
+
+            <div class="hotel-management-grid">
+                <img src="mobile-assets/new-lab-hotel/kitchen/1.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/2.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/3.jpg">
+            </div>
+
+            <h2 class="hotel-management-gallery-title" style="padding-top: 40px;">
+                Our <span class="hotel-management-highlight">Kitchen (Advanced Training Kitchen)</span>
+            </h2>
+
+            <div class="hotel-management-grid">
+                <img src="mobile-assets/new-lab-hotel/kitchen/4.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/5.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/6.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/7.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/8.jpg">
+                <img src="mobile-assets/new-lab-hotel/kitchen/9.jpg">
+            </div>
+
+            <h2 class="hotel-management-gallery-title" style="padding-top: 40px;">
+                Housekeeping <span class="hotel-management-highlight">(Model Room, Guest House)</span>
+            </h2>
+
+            <div class="hotel-management-grid">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/1.jpg">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/2.jpg">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/3.jpg">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/4.jpg">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/5.jpg">
+                <img src="mobile-assets/new-lab-hotel/housekeeping/6.jpg">
+            </div>
+
+
+            <h2 class="hotel-management-gallery-title" style="padding-top: 40px;">
+                Food and <span class="hotel-management-highlight">Beverage (Training Restaurant)</span>
+            </h2>
+
+            <div class="hotel-management-grid">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/1.jpg">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/2.jpg">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/3.jpg">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/4.jpg">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/5.jpg">
+                <img src="mobile-assets/new-lab-hotel/food-beverages/6.jpg">
+            </div>
+
+
+            <h2 class="hotel-management-gallery-title" style="padding-top: 40px;">
+                Front Office <span class="hotel-management-highlight">(Front Office and Back Office)</span>
+            </h2>
+
+            <div class="hotel-management-grid">
+                <img src="mobile-assets/new-lab-hotel/desk/1.jpg">
+                <img src="mobile-assets/new-lab-hotel/desk/4.jpg">
+                <img src="mobile-assets/new-lab-hotel/desk/3.jpg">
+            </div>
+
+
+        </section>
+    </section>
 @endsection
