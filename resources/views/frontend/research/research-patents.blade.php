@@ -642,7 +642,6 @@
                                         <li>Prof. Ranjit Singh</li>
                                         <li>Dr. Suman Agarwal</li>
                                         <li>Mr. Rahul Tiwary</li>
-                                        <li>Dr. Darshana Bhagowati</li>
                                         <li>Mr. Dipak Jain</li>
                                         <li>Miss Tanisha Mukherjee</li>
                                     </ol>
@@ -1853,7 +1852,6 @@
                                         <li>Prof. Ranjit Singh</li>
                                         <li>Dr. Suman Agarwal</li>
                                         <li>Mr. Rahul Tiwary</li>
-                                        <li>Dr. Darshana Bhagowati</li>
                                         <li>Mr. Dipak Jain</li>
                                         <li>Miss Tanisha Mukherjee</li>
                                     </ol>
@@ -2105,7 +2103,7 @@
                                         <li>Ms. Priyankita Priyam Thakuria</li>
                                         <li>Dr. Annu Kumari</li>
                                         <li>Dr. P. Wankitlang Shangpliang</li>
-                                       
+
                                     </ol>
                                 </td>
                                 <td>Patent</td>
