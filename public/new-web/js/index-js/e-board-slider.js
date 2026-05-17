@@ -1,22 +1,7 @@
 /* ================= 4. E-BOARD SLIDER ================= */
 
 const eboardData = [
-    {
-        img: "/mobile-assets/ads/iqac.jpeg",
-        alt: "Event 1",
-    },
-    {
-        img: "/mobile-assets/ads/world.jpeg",
-        alt: "Event 1",
-    },
-    {
-        img: "/mobile-assets/ads/academy.jpeg",
-        alt: "Event 1",
-    },
-    {
-        img: "/mobile-assets/ads/5-16/12-5-1.jpeg",
-        alt: "Event 1",
-    },
+
     {
         img: "/mobile-assets/ads/e-board/1.jpeg",
         alt: "Event 1",
