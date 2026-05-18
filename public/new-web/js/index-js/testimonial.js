@@ -3,39 +3,39 @@
 const rguTestimonials = {
     student: [
         {
-            img: "/new-web/img/index/testimonial/1.png",
+            img: "/new-web/assets/index/testimonial/1.png",
             text: "I take immense pride in identifying Assam Royal Global University as my alma mater. I completed my MSc in Biotechnology at the Royal School of Biosciences, graduating in 2023. After this achievement, I chose to advance my education in the vibrant field of business, moving to the capital to enhance my knowledge in Biosciences. Currently, I serve as a Research Analyst at Georgian College in Ontario, Canada.",
             name: "Maibam Noonny Khuman",
             role: "Royal School Of Biosciences | Associated as Research Analyst with Georgian College Ontario, Canada",
         },
 
         {
-            img: "/new-web/img/index/testimonial/2.png",
+            img: "/new-web/assets/index/testimonial/2.png",
             text: "My experience at The Royal Global Institute was both unique and transformative, profoundly influencing my academic and personal development. The university’s diverse curriculum, with a strong focus on practical application, enabled me to immerse myself in my field while also exploring interdisciplinary topics. The faculty, who were not only experts in their respective areas but also approachable, created a nurturing environment that encouraged open dialogue and critical thinking.",
             name: "Ripunjit Borah",
             role: "Royal School of Business | Asst. Vice President at HDFC Bank, Guwahati.",
         },
 
         {
-            img: "/new-web/img/index/testimonial/3.png",
+            img: "/new-web/assets/index/testimonial/3.png",
             text: "An alumnus of the Royal Group of Institutions, now recognized as The Royal Global University in Guwahati, Assam. It is my pleasure to share my professional journey with you. Presently, I hold the position of Research Scientist in the Research and Development department at Siemens Technology and Services Private Limited. I earned my Ph.D. from IIT Kharagpur after completing my undergraduate studies at The Assam Royal Global University.",
             name: "Dr. Pallav Kumar Deb",
             role: "Royal School of Engineering & Technology | Research Scientist in R&D at Siemens Technology and Services Private Limited. Ph.D. from IIT Kharagpur.",
         },
         {
-            img: "/new-web/img/index/testimonial/4.png",
+            img: "/new-web/assets/index/testimonial/4.png",
             text: "I would like to express my heartfelt gratitude to the entire faculty and management of the institution. Your unwavering support and dedication have significantly contributed to my academic journey, and I am truly appreciative of the guidance and encouragement provided throughout my time here. The commitment to excellence and the nurturing environment you foster have made a profound impact on my personal and professional development.",
             name: "Upasana Kashyap",
             role: "Royal School of Engineering & Technology | Head of the Department of Civil Engineering and the Assistant Governor Student Welfare Department at Kaziranga University in Jorhat, Assam.",
         },
         {
-            img: "/new-web/img/index/testimonial/5.png",
+            img: "/new-web/assets/index/testimonial/5.png",
             text: "My tenure at the School of Pharmacy within the institute has been both enlightening and transformative. Throughout my time there, I have engaged in a comprehensive curriculum that has equipped me with a robust understanding of pharmaceutical sciences. The rigorous academic environment, combined with hands-on laboratory experiences, has allowed me to apply theoretical knowledge to practical situations, thereby enhancing my problem-solving skills.",
             name: "Sofiq Ahmad",
             role: "Royal School of Pharmacy | Founder of Goodlife Medicos, a startup operating under the MSME framework in Guwahati, India.",
         },
         {
-            img: "/new-web/img/index/testimonial/6.png",
+            img: "/new-web/assets/index/testimonial/6.png",
             text: "The diverse curriculum at the university, emphasizing practical application, allowed me to deeply engage with my field while also delving into interdisciplinary subjects. The faculty, recognized for their knowledge and approachability, fostered a supportive environment that promoted open dialogue and critical analysis. Additionally, the campus boasted outstanding facilities that facilitated research and teamwork. The vibrant student community enhanced my experience by providing ample opportunities for networking.",
             name: "BiproJyoti Bhattacharjee",
             role: "Royal School of Engineering & Technology | Senior Customer Service Associate Indian Bank",
@@ -44,14 +44,14 @@ const rguTestimonials = {
 
     recruiter: [
         {
-            img: "/new-web/img/index/testimonial/1t.png",
+            img: "/new-web/assets/index/testimonial/1t.png",
             text: "RGU graduates show exceptional practical knowledge and adaptability.",
             name: "Anita Mehta",
             role: "HR Manager | Tech Solutions",
         },
 
         {
-            img: "/new-web/img/index/testimonial/1t.png",
+            img: "/new-web/assets/index/testimonial/1t.png",
             text: "We consistently hire RGU students because of their strong industry readiness.",
             name: "Vikram Singh",
             role: "Director | Global Tech",
