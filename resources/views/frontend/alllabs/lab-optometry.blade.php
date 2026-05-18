@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            {{-- <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center mt-2 mb-2">
+            <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text text-center mt-2 mb-2">
                 Optometry Lab
             </h1>
             <img class="p-3 rounded" src="mobile-assets/lab-optometry/headimg.jpeg" alt="">
@@ -15,8 +15,8 @@
                     the department is staffed with trained technicians who provide the best training
                     possible.
                 </p>
-            </div> --}}
-            <img class="p-3 rounded" src="mobile-assets/lab-optometry/mobileOptometryLab.png" alt="">
+            </div>
+            {{-- <img class="p-3 rounded" src="mobile-assets/lab-optometry/mobileOptometryLab.png" alt=""> --}}
         </div>
     </div>
 
@@ -127,7 +127,7 @@
 
     </div>
 
-    {{-- <section>
+    <section>
         <div style="width:100%; overflow-x:auto; font-family:Arial, sans-serif; background:#f4f6f9; padding:20px;">
 
             <h3 style="text-align:center; color:#222; margin-bottom:20px;">
@@ -396,5 +396,5 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 @endsection
