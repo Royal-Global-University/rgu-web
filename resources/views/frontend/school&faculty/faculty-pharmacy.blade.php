@@ -478,7 +478,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/suman.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Suman-basak.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Suman Basak</h3>

@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University Launches ‘River Talks—Sabda Kalpa’: A Monthly Literary Series',
+                            'summary' => 'Inaugural Edition Celebrates “Poetry of the Soul” with Four Distinguished Poets',
+                            'date' => 'Guwahati, May 17, 2026:',
+                            'link' => '/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series',
+                            'image' => '/mobile-assets/media-corner/2026/18/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) has inaugurated ‘River Talks—Sabda Kalpa’, a new monthly literary event dedicated to fostering a vibrant culture of literature, language, and the arts.',
+                        ],
+                        [
                             'title' => 'Meghalaya Sports Minister Shylla inaugurates Zenith & Pickleball Court at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, May 14, 2026:',

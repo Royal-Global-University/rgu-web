@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series', function () {
+    return view('frontend/media-corner/2026/news20');
+})->name('royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series');
+
 Route::get('/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu', function () {
     return view('frontend/media-corner/2026/news19');
 })->name('meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu');
