@@ -2,7 +2,7 @@
 
 const eboardData = [
     {
-        img: "/mobile-assets/ads/e-sun.jpeg",
+        img: "/mobile-assets/ads/5-16/2.jpeg",
         alt: "Event 1",
     },
     {
