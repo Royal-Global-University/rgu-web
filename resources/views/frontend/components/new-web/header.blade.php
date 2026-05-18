@@ -191,6 +191,7 @@
                                         <a href="/phd" class="m-sub-acc-link">Doctoral Programme</a>
                                         <a href="/multi-disciplinary" class="m-sub-acc-link">Multidisciplinary
                                             Courses</a>
+                                        <a href="/cisr" class="m-sub-acc-link">Centre for Interdisciplinary Study and Research (CISR)</a>
                                     </div>
                                 </div>
                             </div>
@@ -217,8 +218,7 @@
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="/innovation" class="m-sub-acc-link">Innovation
-                                            Council</a>
+                                        <a href="/innovation" class="m-sub-acc-link">Institution's Innovation Council (IIC-RGU)</a>
                                         <a href="/laboratories" class="m-sub-acc-link">Laboratories</a>
                                     </div>
                                 </div>
@@ -230,7 +230,6 @@
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
                                         <a href="/achievements" class="m-sub-acc-link">Achievements</a>
-                                        <a href="/cisr" class="m-sub-acc-link">CISR</a>
                                         <a href="/academic-calendar" class="m-sub-acc-link">Academic
                                             Calendar</a>
                                     </div>
@@ -365,23 +364,22 @@
                                         <a href="/hostel-life" class="m-sub-acc-link">Hostel Life</a>
                                         <a target="_blank" href="/assets/img/pdf/Hostel%20Policy%20Rules%202024.pdf"
                                             class="m-sub-acc-link">Hostel Policy</a>
-
+                                        <a target="_blank" href="/games&sports"
+                                            class="m-sub-acc-link">Games And Sports</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="m-sub-acc-item">
-                                <div class="m-sub-acc-header">SPORTS & EXTRA-CURRICULAR <i
+                                <div class="m-sub-acc-header">NCC & NSS <i
                                         class="bi bi-chevron-down"></i>
                                 </div>
                                 <div class="m-sub-acc-content-wrapper">
                                     <div class="m-sub-acc-content">
-                                        <a href="/games&sports" class="m-sub-acc-link">Games &
-                                            Sports</a>
                                         <a href="/national-cadet-corps" class="m-sub-acc-link">National
-                                            Cadet Corps</a>
+                                            Cadet Corps (NCC)</a>
                                         <a href="/national-service-scheme" class="m-sub-acc-link">National Service
-                                            Scheme</a>
+                                            Scheme (NSS)</a>
 
                                     </div>
                                 </div>
