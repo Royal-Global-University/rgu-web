@@ -10,7 +10,7 @@
 
         <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo"
             poster="/new-web/assets/index/hero/hero-thumbnail.png">
-            <source src="http://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
+            <source src="https://mediargu.ushagirlspg.in/v-2.mp4" type="video/mp4">
         </video>
 
         <div class="overlay"></div>
