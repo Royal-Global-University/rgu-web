@@ -57,7 +57,7 @@
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
                                     <img fetchpriority="high" decoding="async" width="357" height="220"
-                                        src="https://media.rgu.ac/social-outreach/1.jpeg"
+                                        src="/new-web/assets/img/index/social-outreach/1.jpeg"
                                         class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                                 </div>
                                 <br>
@@ -77,7 +77,7 @@
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
                                     <img decoding="async" width="357" height="500"
-                                        src="https://media.rgu.ac/social-outreach/2.jpeg"
+                                        src="/new-web/assets/img/index/social-outreach/2.jpeg"
                                         class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                                 </div>
 
@@ -97,7 +97,7 @@
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                 <div class="main-img fix img-cover">
                                     <img fetchpriority="high" decoding="async" width="357" height="220"
-                                        src="https://media.rgu.ac/social-outreach/16.jpeg"
+                                        src="/new-web/assets/img/index/social-outreach/16.jpeg"
                                         class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                                 </div>
                                 <br>
@@ -130,7 +130,7 @@
                                 style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                                 <div class="main-img fix img-cover">
                                     <img decoding="async" width="357" height="500"
-                                        src="https://media.rgu.ac/social-outreach/17.jpeg"
+                                        src="/new-web/assets/img/index/social-outreach/17.jpeg"
                                         class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                                 </div>
 

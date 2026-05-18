@@ -4194,6 +4194,10 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-rajana-james', function () {
+    return view('frontend/facultyprofile/rsp/rajana-james');
+})->name('faculty-rajana-james');
+
 Route::get('/faculty-ritika-baidya', function () {
     return view('frontend/facultyprofile/rsp/ritika-baidya');
 })->name('faculty-ritika-baidya');
