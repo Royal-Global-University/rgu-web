@@ -76,7 +76,7 @@
             </section>
         </div>
 
-        <div class="custom-container">
+        {{-- <div class="custom-container">
             <div class="custom-row">
                 <div class="custom-column p-4">
 
@@ -123,7 +123,7 @@
             </div>
         </div>
 
-        <img src="mobile-assets/lab-optometry/OptometryLab.png" alt="">
+        <img src="mobile-assets/lab-optometry/OptometryLab.png" alt=""> --}}
 
     </div>
 
