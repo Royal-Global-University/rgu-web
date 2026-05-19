@@ -1260,14 +1260,14 @@
 
                                                 <a href="https://admissions.rgu.ac/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions
-                                                        2025-26
+                                                        2026-27
                                                     </p>
                                                 </a>
 
                                                 <a href="https://admissions.rgu.ac/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">
                                                         International
-                                                        Admissions 2025-26
+                                                        Admissions 2026-27
                                                     </p>
                                                 </a>
 
@@ -1412,10 +1412,10 @@
                                                     href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/vc-report.pdf">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
                                                 </a> --}}
-                                                <a href="https://heyzine.com/flip-book/fd544660d3.html">
+                                                <a href="/mobile-assets/pdf/Brochure%202026.pdf">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure
-                                                        2025 -
-                                                        2026
+                                                        2026 -
+                                                        20267
                                                     </p>
                                                 </a>
                                                 <a href="annual-report">
