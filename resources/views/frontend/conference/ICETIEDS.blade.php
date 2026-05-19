@@ -817,7 +817,7 @@
                 <div class="committee-grid committee-grid-2">
 
                     <div class="committee-card">
-                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
+                        <img src="/mobile-assets/updated-faculty-img/Shwetambara-v.jpeg"
                             alt="">
                         <h3>Prof. Shwetambara Verma</h3>
                         <div class="committee-role">Convenor</div>

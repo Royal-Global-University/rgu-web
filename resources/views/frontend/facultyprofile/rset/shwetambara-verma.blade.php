@@ -183,7 +183,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" style="height: 400px; width: 400px;" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
+              <img class="faculty-bio-img" style="height: 400px; width: 400px;" src="/mobile-assets/updated-faculty-img/Shwetambara-v.jpeg"
                 alt="">
             </div>
           </div>
