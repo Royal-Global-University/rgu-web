@@ -55,7 +55,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D. (Electrical Engineering) – Pursuing – Gauhati University
+                                            Ph.D. (Electrical Engineering) – Gauhati University (2026)
                                         </span>
                                     </li>
                                     <li
@@ -390,7 +390,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D. (Electrical Engineering) – Pursuing – Gauhati University
+                                        Ph.D. (Electrical Engineering) – Gauhati University (2026)
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
