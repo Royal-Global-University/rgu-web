@@ -10,7 +10,8 @@
 
 
                 <div class="table-responsive">
-                    <table class="overflow-hidden table text-wrap table-bordered table-striped border-top mt-3 pb-5 shadow-lg">
+                    <table
+                        class="overflow-hidden table text-wrap table-bordered table-striped border-top mt-3 pb-5 shadow-lg">
                         <thead class="text-white para1 text-center" style="background-color: #264273;">
                             <th style="font-size: 16px;" class="text-white">Sl. No.</th>
                             <th style="font-size: 16px;" class="text-white">Title of the invention</th>
@@ -41,7 +42,7 @@
                             <tr>
                                 <td>2</td>
                                 <td>PLANT LEAF DISEASE DETECTION USING COMPUTER VISION AND MACHINE LEARNING ALGORITHMS</td>
-                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Novonita Baruah
+                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Dr. Nilakshi Deka, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202431001745</td>
@@ -58,7 +59,7 @@
                                 <td>3</td>
                                 <td>NANOPARTICLES BASED CANCER MEDICATION DEVICE</td>
                                 <td>Dr RASHEL SARKAR,
-                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
+                                    Dr. Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202331085356</td>
@@ -201,7 +202,8 @@
                             <tr>
                                 <td>13</td>
                                 <td>A PROCESS FOR PRODUCING BANANA BEER AND A COMPOSITION FOR THE SAME</td>
-                                <td>Dr. Debajit Borah, Dr. Bhaskarjyoti Gogoi, Arijit Kumar, Raktim Ranjan Gogoi, Dhanmoi Barman
+                                <td>Dr. Debajit Borah, Dr. Bhaskarjyoti Gogoi, Arijit Kumar, Raktim Ranjan Gogoi, Dhanmoi
+                                    Barman
                                 </td>
                                 <td>Patent</td>
                                 <td>202431031585</td>
@@ -228,7 +230,8 @@
 
                             <tr>
                                 <td>15</td>
-                                <td>WOUND HEALING TOPICAL OINTMENT FORMULATION BASED ON ESSENTIAL OIL OBTAINED FROM KAEMPFERIA
+                                <td>WOUND HEALING TOPICAL OINTMENT FORMULATION BASED ON ESSENTIAL OIL OBTAINED FROM
+                                    KAEMPFERIA
                                     GALANGA L</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -242,7 +245,8 @@
 
                             <tr>
                                 <td>16</td>
-                                <td>A New Novel Framework to Analyze and Detect the MRI based Brain Tumors and Alzheimerâ€™s by
+                                <td>A New Novel Framework to Analyze and Detect the MRI based Brain Tumors and Alzheimerâ€™s
+                                    by
                                     using Convolution Neural Network</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -257,7 +261,8 @@
 
                             <tr>
                                 <td>17</td>
-                                <td>A HYBRID APPROACH FOR ANALYSING OF EARLY-STAGE DETECTION AND PREVENTION OF LUNG CANCER USING
+                                <td>A HYBRID APPROACH FOR ANALYSING OF EARLY-STAGE DETECTION AND PREVENTION OF LUNG CANCER
+                                    USING
                                     ADVANCED MACHINE LEARNING AND DEEP LEARNING ALGORITHMS</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -286,7 +291,8 @@
 
                             <tr>
                                 <td>19</td>
-                                <td>SYSTEM FOR ASSESSING CONSUMER PERCEPTION TOWARDS PRIVATE LABEL BRAND, AND METHOD THEREFOR
+                                <td>SYSTEM FOR ASSESSING CONSUMER PERCEPTION TOWARDS PRIVATE LABEL BRAND, AND METHOD
+                                    THEREFOR
                                 </td>
                                 <td>Aruna Dev Roy, PAPARI NAYAK, RAJAT BHATTACHARJEE, MAHUYA DEB, TAHERA HOQUE MOZUMDAR,
                                     SANTUJIT
@@ -318,7 +324,8 @@
                             <tr>
                                 <td>21</td>
                                 <td>AN INTELLIGENT SENSOR BASED BIODEGRADABLE WASTE COLLECTION UNIT</td>
-                                <td>Dr. Anupam Das, Dr Anupam Das, Dr Vaskar Deka, Dr Ishita Chakraborty, Dr Psrismita Sarma, Dr
+                                <td>Dr. Anupam Das, Dr Anupam Das, Dr Vaskar Deka, Dr Ishita Chakraborty, Dr Psrismita
+                                    Sarma, Dr
                                     Mirzanur Rahman</td>
                                 <td>Design</td>
                                 <td>388951-001</td>
@@ -357,7 +364,8 @@
 
                             <tr>
                                 <td>24</td>
-                                <td>A SYSTEM FOR EVALUATING THE MEDIATING EFFECT OF CONSUMER AWARENESS ON GREEN MARKETING MIX
+                                <td>A SYSTEM FOR EVALUATING THE MEDIATING EFFECT OF CONSUMER AWARENESS ON GREEN MARKETING
+                                    MIX
                                     AND
                                     PURCHASE INTENTION AND METHOD THEREOF</td>
                                 <td>ARUNA DEV RROY</td>
@@ -512,7 +520,8 @@
 
                             <tr>
                                 <td>35</td>
-                                <td>AN ARTIFICIAL INTELLIGENCE BASED BIOMEDICAL SENSING SYSTEM FOR HIGH THROUGHPUT BIOMOLECULE
+                                <td>AN ARTIFICIAL INTELLIGENCE BASED BIOMEDICAL SENSING SYSTEM FOR HIGH THROUGHPUT
+                                    BIOMOLECULE
                                     TESTING</td>
                                 <td>Dr. Aniruddha Deka</td>
                                 <td>Patent</td>
@@ -551,8 +560,8 @@
                                 <td>---</td>
                                 <td>11/19/2024</td>
                                 <td>1/13/2025</td>
-                                <td><a href="mobile-assets/research/patents/437831-001-Gr-13-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/437831-001-Gr-13-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -578,8 +587,8 @@
                                 <td>---</td>
                                 <td>11/23/2024</td>
                                 <td>1/13/2025</td>
-                                <td><a href="mobile-assets/research/patents/438193-001-Gr-13-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/438193-001-Gr-13-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -626,8 +635,8 @@
                                 <td>---</td>
                                 <td>11/9/2024</td>
                                 <td>1/30/2025</td>
-                                <td><a href="mobile-assets/research/patents/436856-001-Gr-30-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/436856-001-Gr-30-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -651,8 +660,8 @@
                                 <td>---</td>
                                 <td>11/22/2024</td>
                                 <td>1/9/2025</td>
-                                <td><a href="mobile-assets/research/patents/438114-001-Gr-09-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/438114-001-Gr-09-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -708,8 +717,8 @@
                                 <td>---</td>
                                 <td>1/3/2025</td>
                                 <td>3/10/2025</td>
-                                <td><a href="mobile-assets/research/patents/442954-001-Gr-10-03-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/442954-001-Gr-10-03-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -738,8 +747,8 @@
                                 <td>---</td>
                                 <td>3/14/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531014821-A-14-03-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531014821-A-14-03-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -763,8 +772,8 @@
                                 <td>---</td>
                                 <td>3/28/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531021638-A-28-03-2025-1.png" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531021638-A-28-03-2025-1.png"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -829,7 +838,8 @@
                             <tr>
                                 <td>43</td>
                                 <td>
-                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL DYE
+                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL
+                                    DYE
                                     FROM COUROUPITA GUIANENSIS FLOWERS FOR TEXTILE APPLICATIONS
                                 <td>
                                     <ol>
@@ -845,8 +855,8 @@
                                 <td>---</td>
                                 <td>4/4/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531028899-A-04-04-2025-1.jpeg" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531028899-A-04-04-2025-1.jpeg"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -883,12 +893,13 @@
                             <tr>
                                 <td>45</td>
                                 <td>
-                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal Scans
+                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal
+                                    Scans
                                     for Faster Diagnoses and Better Tracking of Eye Disease Progression.
                                 <td>
                                     <ol>
                                         <li>Prof. (Dr.) Rashel Sarkar</li>
-                                        <li>Ms. Nilakshi Deka</li>
+                                        <li>Dr. Nilakshi Deka</li>
                                         <li>Spandan Kumar Barthakur</li>
                                         <li>Ms. Priyankita Priyam Thakuria</li>
                                         <li>Dr. Annu Kumari</li>
@@ -985,7 +996,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE LEARNING
+                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE
+                                    LEARNING
                                 <td>
                                     <ol>
                                         <li>Sohong Dhar</li>
@@ -1017,7 +1029,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT IN
+                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT
+                                    IN
                                     MUSHROOM CULTIVATION
                                 <td>
                                     <ol>
@@ -1140,7 +1153,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE WELL-BEING
+                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE
+                                    WELL-BEING
                                     IN HIGHEREDUCATION DURING AND AFTER THE COVID-19 PANDEMIC
                                 <td>
                                     <ol>
@@ -1215,12 +1229,13 @@
         <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover;">
             <div class="container">
 
-                <h2 class="headd1 kd-title-ani kd-split text-center pt-4" style="color: #264273; font-weight: 700;">Pate<span
-                        style="color: #FF9A1E; font-weight: 500;">nts</span> </h2>
+                <h2 class="headd1 kd-title-ani kd-split text-center pt-4" style="color: #264273; font-weight: 700;">
+                    Pate<span style="color: #FF9A1E; font-weight: 500;">nts</span> </h2>
 
 
                 <div class="table-responsive">
-                    <table class="overflow-hidden table text-wrap table-bordered table-striped border-top mt-3 pb-5 shadow-lg">
+                    <table
+                        class="overflow-hidden table text-wrap table-bordered table-striped border-top mt-3 pb-5 shadow-lg">
                         <thead class="text-white para1 text-center" style="background-color: #264273;">
                             <th style="font-size: 16px;" class="text-white">Sl. No.</th>
                             <th style="font-size: 16px;" class="text-white">Title of the invention</th>
@@ -1251,7 +1266,7 @@
                             <tr>
                                 <td>2</td>
                                 <td>PLANT LEAF DISEASE DETECTION USING COMPUTER VISION AND MACHINE LEARNING ALGORITHMS</td>
-                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Novonita Baruah
+                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Dr. Nilakshi Deka, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202431001745</td>
@@ -1268,7 +1283,7 @@
                                 <td>3</td>
                                 <td>NANOPARTICLES BASED CANCER MEDICATION DEVICE</td>
                                 <td>Dr RASHEL SARKAR,
-                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
+                                    Dr. Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202331085356</td>
@@ -1411,7 +1426,8 @@
                             <tr>
                                 <td>13</td>
                                 <td>A PROCESS FOR PRODUCING BANANA BEER AND A COMPOSITION FOR THE SAME</td>
-                                <td>Dr. Debajit Borah, Dr. Bhaskarjyoti Gogoi, Arijit Kumar, Raktim Ranjan Gogoi, Dhanmoi Barman
+                                <td>Dr. Debajit Borah, Dr. Bhaskarjyoti Gogoi, Arijit Kumar, Raktim Ranjan Gogoi, Dhanmoi
+                                    Barman
                                 </td>
                                 <td>Patent</td>
                                 <td>202431031585</td>
@@ -1438,7 +1454,8 @@
 
                             <tr>
                                 <td>15</td>
-                                <td>WOUND HEALING TOPICAL OINTMENT FORMULATION BASED ON ESSENTIAL OIL OBTAINED FROM KAEMPFERIA
+                                <td>WOUND HEALING TOPICAL OINTMENT FORMULATION BASED ON ESSENTIAL OIL OBTAINED FROM
+                                    KAEMPFERIA
                                     GALANGA L</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -1452,7 +1469,8 @@
 
                             <tr>
                                 <td>16</td>
-                                <td>A New Novel Framework to Analyze and Detect the MRI based Brain Tumors and Alzheimerâ€™s by
+                                <td>A New Novel Framework to Analyze and Detect the MRI based Brain Tumors and Alzheimerâ€™s
+                                    by
                                     using Convolution Neural Network</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -1467,7 +1485,8 @@
 
                             <tr>
                                 <td>17</td>
-                                <td>A HYBRID APPROACH FOR ANALYSING OF EARLY-STAGE DETECTION AND PREVENTION OF LUNG CANCER USING
+                                <td>A HYBRID APPROACH FOR ANALYSING OF EARLY-STAGE DETECTION AND PREVENTION OF LUNG CANCER
+                                    USING
                                     ADVANCED MACHINE LEARNING AND DEEP LEARNING ALGORITHMS</td>
                                 <td>Dr. RASHEL SARKAR</td>
                                 <td>Patent</td>
@@ -1496,7 +1515,8 @@
 
                             <tr>
                                 <td>19</td>
-                                <td>SYSTEM FOR ASSESSING CONSUMER PERCEPTION TOWARDS PRIVATE LABEL BRAND, AND METHOD THEREFOR
+                                <td>SYSTEM FOR ASSESSING CONSUMER PERCEPTION TOWARDS PRIVATE LABEL BRAND, AND METHOD
+                                    THEREFOR
                                 </td>
                                 <td>Aruna Dev Roy, PAPARI NAYAK, RAJAT BHATTACHARJEE, MAHUYA DEB, TAHERA HOQUE MOZUMDAR,
                                     SANTUJIT
@@ -1528,7 +1548,8 @@
                             <tr>
                                 <td>21</td>
                                 <td>AN INTELLIGENT SENSOR BASED BIODEGRADABLE WASTE COLLECTION UNIT</td>
-                                <td>Dr. Anupam Das, Dr Anupam Das, Dr Vaskar Deka, Dr Ishita Chakraborty, Dr Psrismita Sarma, Dr
+                                <td>Dr. Anupam Das, Dr Anupam Das, Dr Vaskar Deka, Dr Ishita Chakraborty, Dr Psrismita
+                                    Sarma, Dr
                                     Mirzanur Rahman</td>
                                 <td>Design</td>
                                 <td>388951-001</td>
@@ -1567,7 +1588,8 @@
 
                             <tr>
                                 <td>24</td>
-                                <td>A SYSTEM FOR EVALUATING THE MEDIATING EFFECT OF CONSUMER AWARENESS ON GREEN MARKETING MIX
+                                <td>A SYSTEM FOR EVALUATING THE MEDIATING EFFECT OF CONSUMER AWARENESS ON GREEN MARKETING
+                                    MIX
                                     AND
                                     PURCHASE INTENTION AND METHOD THEREOF</td>
                                 <td>ARUNA DEV RROY</td>
@@ -1722,7 +1744,8 @@
 
                             <tr>
                                 <td>35</td>
-                                <td>AN ARTIFICIAL INTELLIGENCE BASED BIOMEDICAL SENSING SYSTEM FOR HIGH THROUGHPUT BIOMOLECULE
+                                <td>AN ARTIFICIAL INTELLIGENCE BASED BIOMEDICAL SENSING SYSTEM FOR HIGH THROUGHPUT
+                                    BIOMOLECULE
                                     TESTING</td>
                                 <td>Dr. Aniruddha Deka</td>
                                 <td>Patent</td>
@@ -1761,8 +1784,8 @@
                                 <td>---</td>
                                 <td>11/19/2024</td>
                                 <td>1/13/2025</td>
-                                <td><a href="mobile-assets/research/patents/437831-001-Gr-13-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/437831-001-Gr-13-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1788,8 +1811,8 @@
                                 <td>---</td>
                                 <td>11/23/2024</td>
                                 <td>1/13/2025</td>
-                                <td><a href="mobile-assets/research/patents/438193-001-Gr-13-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/438193-001-Gr-13-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1836,8 +1859,8 @@
                                 <td>---</td>
                                 <td>11/9/2024</td>
                                 <td>1/30/2025</td>
-                                <td><a href="mobile-assets/research/patents/436856-001-Gr-30-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/436856-001-Gr-30-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1861,8 +1884,8 @@
                                 <td>---</td>
                                 <td>11/22/2024</td>
                                 <td>1/9/2025</td>
-                                <td><a href="mobile-assets/research/patents/438114-001-Gr-09-01-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/438114-001-Gr-09-01-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1918,8 +1941,8 @@
                                 <td>---</td>
                                 <td>1/3/2025</td>
                                 <td>3/10/2025</td>
-                                <td><a href="mobile-assets/research/patents/442954-001-Gr-10-03-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/442954-001-Gr-10-03-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1948,8 +1971,8 @@
                                 <td>---</td>
                                 <td>3/14/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531014821-A-14-03-2025-1.pdf" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531014821-A-14-03-2025-1.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -1973,8 +1996,8 @@
                                 <td>---</td>
                                 <td>3/28/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531021638-A-28-03-2025-1.png" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531021638-A-28-03-2025-1.png"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -2039,7 +2062,8 @@
                             <tr>
                                 <td>43</td>
                                 <td>
-                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL DYE
+                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL
+                                    DYE
                                     FROM COUROUPITA GUIANENSIS FLOWERS FOR TEXTILE APPLICATIONS
                                 <td>
                                     <ol>
@@ -2055,8 +2079,8 @@
                                 <td>---</td>
                                 <td>4/4/2025</td>
                                 <td></td>
-                                <td><a href="mobile-assets/research/patents/202531028899-A-04-04-2025-1.jpeg" target="_blank"
-                                        class="text-primary font-weight-semibold"><i
+                                <td><a href="mobile-assets/research/patents/202531028899-A-04-04-2025-1.jpeg"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -2093,12 +2117,13 @@
                             <tr>
                                 <td>45</td>
                                 <td>
-                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal Scans
+                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal
+                                    Scans
                                     for Faster Diagnoses and Better Tracking of Eye Disease Progression.
                                 <td>
                                     <ol>
                                         <li>Prof. (Dr.) Rashel Sarkar</li>
-                                        <li>Ms. Nilakshi Deka</li>
+                                        <li>Dr. Nilakshi Deka</li>
                                         <li>Spandan Kumar Barthakur</li>
                                         <li>Ms. Priyankita Priyam Thakuria</li>
                                         <li>Dr. Annu Kumari</li>
@@ -2195,7 +2220,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE LEARNING
+                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE
+                                    LEARNING
                                 <td>
                                     <ol>
                                         <li>Sohong Dhar</li>
@@ -2227,7 +2253,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT IN
+                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT
+                                    IN
                                     MUSHROOM CULTIVATION
                                 <td>
                                     <ol>
@@ -2350,7 +2377,8 @@
                             <tr>
                                 <td>46</td>
                                 <td>
-                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE WELL-BEING
+                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE
+                                    WELL-BEING
                                     IN HIGHEREDUCATION DURING AND AFTER THE COVID-19 PANDEMIC
                                 <td>
                                     <ol>

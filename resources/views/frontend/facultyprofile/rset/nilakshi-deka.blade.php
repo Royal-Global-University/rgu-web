@@ -30,7 +30,7 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Ms. Nilakshi Deka
+                                Dr. Nilakshi Deka
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
@@ -38,8 +38,8 @@
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                          Member of Advisory Board, The Assam Royal Global University
+                        </h2> -->
 
                             <div>
 
@@ -135,7 +135,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Nilakshi Deka, Durlav Hazarika. An Approach for Improvement of Voltage Stability
+                                            Dr. Nilakshi Deka, Durlav Hazarika. An Approach for Improvement of Voltage
+                                            Stability
                                             Condition of a
                                             Power System Using Combination of Power Flow Controllers. <i>ADBU Journal of
                                                 Engineering
@@ -147,7 +148,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Smiti Dey, Nilakshi Deka, Durlav Hazarika. Power System Planning for Reduction
+                                            Smiti Dey, Dr. Nilakshi Deka, Durlav Hazarika. Power System Planning for
+                                            Reduction
                                             in System Losses
                                             Using STATCOM and PSO Technique. <i>Journal of The Institution of Engineers
                                                 (India): Series B</i>,
@@ -159,7 +161,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Harsimran Singh, Bhawesh Agarwal, Nilakshi Deka. Waste Classifier for
+                                            Harsimran Singh, Bhawesh Agarwal, Dr. Nilakshi Deka. Waste Classifier for
                                             Sustainable Development with
                                             Image Recognition Using Convolutional Neural Network, 2025.
                                         </span>
@@ -169,7 +171,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Mittem Ratan, Debojit Nath, Nilakshi Deka. Detection and Identification of
+                                            Mittem Ratan, Debojit Nath, Dr. Nilakshi Deka. Detection and Identification of
                                             Ethnic Attires Using Deep
                                             Learning and GI Tags. <i>2025 3rd International Conference on Intelligent
                                                 Systems, Advanced
@@ -192,7 +194,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Nilakshi Deka, Rashel Sarkar, Mohammad Asif Raibag, Samarjit Das, Anupam Das,
+                                            Dr. Nilakshi Deka, Rashel Sarkar, Mohammad Asif Raibag, Samarjit Das, Anupam
+                                            Das,
                                             Israfil Hussain. A
                                             Non-Classical Approach in Analyzing Student’s Performance in Academics Using
                                             Fuzzy Logic. <i>Tuijin
@@ -205,7 +208,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Israfil Hussain, Mohammad Asif Raibag, Rashel Sarkar, Nilakshi Deka. Performance
+                                            Israfil Hussain, Mohammad Asif Raibag, Rashel Sarkar, Dr. Nilakshi Deka.
+                                            Performance
                                             Analytics of
                                             Classifiers: A Case Study with Diabetic Database. <i>Tuijin Jishu / Journal of
                                                 Propulsion
@@ -217,7 +221,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Nilakshi Deka, Dr. Rashel Sarkar. Exploring the Role of Artificial Intelligence
+                                            Dr. Nilakshi Deka, Dr. Rashel Sarkar. Exploring the Role of Artificial
+                                            Intelligence
                                             in Personalized
                                             Healthcare: From Predictive Diagnostics to Tailored Treatment Plans.
                                             <i>Frontiers in Health
@@ -350,7 +355,7 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Ms. Nilakshi Deka
+                            Dr. Nilakshi Deka
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
@@ -359,8 +364,8 @@
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                          Member of Advisory Board, The Assam Royal Global University
+                        </h2> -->
 
                     </div>
 
@@ -459,7 +464,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Nilakshi Deka, Durlav Hazarika. An Approach for Improvement of Voltage Stability
+                                        Dr. Nilakshi Deka, Durlav Hazarika. An Approach for Improvement of Voltage Stability
                                         Condition of a
                                         Power System Using Combination of Power Flow Controllers. <i>ADBU Journal of
                                             Engineering
@@ -470,7 +475,8 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Smiti Dey, Nilakshi Deka, Durlav Hazarika. Power System Planning for Reduction in
+                                        Smiti Dey, Dr. Nilakshi Deka, Durlav Hazarika. Power System Planning for Reduction
+                                        in
                                         System Losses
                                         Using STATCOM and PSO Technique. <i>Journal of The Institution of Engineers (India):
                                             Series B</i>,
@@ -481,7 +487,8 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Harsimran Singh, Bhawesh Agarwal, Nilakshi Deka. Waste Classifier for Sustainable
+                                        Harsimran Singh, Bhawesh Agarwal, Dr. Nilakshi Deka. Waste Classifier for
+                                        Sustainable
                                         Development with
                                         Image Recognition Using Convolutional Neural Network, 2025.
                                     </span>
@@ -490,7 +497,8 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Mittem Ratan, Debojit Nath, Nilakshi Deka. Detection and Identification of Ethnic
+                                        Mittem Ratan, Debojit Nath, Dr. Nilakshi Deka. Detection and Identification of
+                                        Ethnic
                                         Attires Using Deep
                                         Learning and GI Tags. <i>2025 3rd International Conference on Intelligent Systems,
                                             Advanced
@@ -511,7 +519,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Nilakshi Deka, Rashel Sarkar, Mohammad Asif Raibag, Samarjit Das, Anupam Das,
+                                        Dr. Nilakshi Deka, Rashel Sarkar, Mohammad Asif Raibag, Samarjit Das, Anupam Das,
                                         Israfil Hussain. A
                                         Non-Classical Approach in Analyzing Student’s Performance in Academics Using Fuzzy
                                         Logic. <i>Tuijin
@@ -523,7 +531,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Israfil Hussain, Mohammad Asif Raibag, Rashel Sarkar, Nilakshi Deka. Performance
+                                        Israfil Hussain, Mohammad Asif Raibag, Rashel Sarkar, Dr. Nilakshi Deka. Performance
                                         Analytics of
                                         Classifiers: A Case Study with Diabetic Database. <i>Tuijin Jishu / Journal of
                                             Propulsion
@@ -534,7 +542,8 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Nilakshi Deka, Dr. Rashel Sarkar. Exploring the Role of Artificial Intelligence in
+                                        Dr. Nilakshi Deka, Dr. Rashel Sarkar. Exploring the Role of Artificial Intelligence
+                                        in
                                         Personalized
                                         Healthcare: From Predictive Diagnostics to Tailored Treatment Plans. <i>Frontiers in
                                             Health

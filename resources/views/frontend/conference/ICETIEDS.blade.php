@@ -312,8 +312,8 @@
 
     <style>
         /* =========================================
-       ORGANIZING COMMITTEE SECTION
-    ========================================= */
+               ORGANIZING COMMITTEE SECTION
+            ========================================= */
 
         .committee-block {
             margin-top: 70px;
@@ -946,7 +946,7 @@
                             </tr>
                             <tr>
                                 <td>25.</td>
-                                <td>Ms. Nilakshi Deka</td>
+                                <td>Dr. Nilakshi Deka</td>
                             </tr>
                             <tr>
                                 <td>26.</td>

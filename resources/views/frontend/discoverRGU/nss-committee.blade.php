@@ -4,12 +4,13 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text" style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
                 University Advisory <br><span style="color: #FF9A1E; font-weight: 500;"> Committee-NSS</span></h2>
         </div>
 
         <div class="website">
-              @include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 University Advisory <span style="color: #FF9A1E; font-weight: 500;"> Committee-NSS</span></h2>
 
@@ -110,7 +111,7 @@
                             </tr>
                             <tr>
                                 <td>13</td>
-                                <td><strong>Ms. Nilakshi Deka</strong></td>
+                                <td><strong>Dr. Nilakshi Deka</strong></td>
                                 <td>Assistant Professor, Department of Computer Science and Engineering</td>
                                 <td>Programme Officer</td>
                             </tr>

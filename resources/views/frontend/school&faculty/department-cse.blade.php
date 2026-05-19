@@ -1190,75 +1190,75 @@
         </div>
 
         <!-- <div class="dept-cse-prospects-section" id="dept-prospects">
-          <h2 class="dept-cse-section-title">Career <span>Prospects</span></h2>
+                  <h2 class="dept-cse-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-cse-prospects-content">
-            <p class="dept-cse-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+                  <div class="dept-cse-prospects-content">
+                    <p class="dept-cse-intro-text">
+                      The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                      sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                      strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                    </p>
 
-            <h3 class="dept-cse-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-cse-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Higher Education Opportunities</h3>
+                    <ol class="dept-cse-list">
+                      <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                      </li>
+                      <li>MBA in Agribusiness Management</li>
+                      <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                      <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                        disciplines</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Government Sector Jobs</h3>
-            <ol class="dept-cse-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Government Sector Jobs</h3>
+                    <ol class="dept-cse-list">
+                      <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                      <li>IBPS AFO (Agricultural Field Officer)</li>
+                      <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                      <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                      <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Private Sector Careers</h3>
-            <ol class="dept-cse-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Private Sector Careers</h3>
+                    <ol class="dept-cse-list">
+                      <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                      <li>Food Processing Industries</li>
+                      <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                      <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                      <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Research & Teaching</h3>
-            <ol class="dept-cse-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Research & Teaching</h3>
+                    <ol class="dept-cse-list">
+                      <li>Research Assistant / Scientist – in public and private research institutions</li>
+                      <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                      <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-cse-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Entrepreneurship & Startups</h3>
+                    <ol class="dept-cse-list">
+                      <li>Organic farming, dairy, poultry, aquaculture</li>
+                      <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                      <li>Processing units for spices, cereals, or fruits</li>
+                      <li>Agri-consultancy or freelance advisory services</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Jobs Abroad</h3>
-            <ol class="dept-cse-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Jobs Abroad</h3>
+                    <ol class="dept-cse-list">
+                      <li>Agricultural research, farm management, and food security projects</li>
+                      <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                      <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                    </ol>
 
-            <h3 class="dept-cse-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-cse-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                    <h3 class="dept-cse-subheading">Key Skills That Boost Career</h3>
+                    <ol class="dept-cse-list">
+                      <li>Practical knowledge of farming tools and technologies</li>
+                      <li>Communication and management skills (especially in extension or agribusiness)</li>
+                      <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                      <li>Language skills and report writing</li>
+                    </ol>
 
-          </div>
-        </div> -->
+                  </div>
+                </div> -->
 
         <div class="dept-cse-accordion-section" id="dept-syllabus">
             <h2 class="dept-cse-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1365,8 +1365,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-cse-events-btn">View All</a>
-          </div> -->
+                    <a href="#" class="dept-cse-events-btn">View All</a>
+                  </div> -->
 
         </div>
 
@@ -1630,7 +1630,7 @@
                     ["", "", "Dr. H. Satyajeet Sharma - Assistant Professor"],
                     ["", "", "Ms. Ankita Goyal Agarwala - Assistant Professor"],
                     ["", "", "Mr. Nayan Jyoti Kalita - Assistant Professor"],
-                    ["", "", "Ms. Nilakshi Deka - Assistant Professor"],
+                    ["", "", "Dr. Nilakshi Deka - Assistant Professor"],
                     ["", "", "Ms. Afsana Laskar - Assistant Professor"],
                     ["", "", "Mr. Spandan Barthakur - Assistant Professor"],
                     ["", "", "Ms. Bidisha Goswami - Assistant Professor"],
@@ -1684,10 +1684,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                            <tr>
+                              ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                            </tr>
+                          `).join("")}
             </tbody>
           </table>
         </div>
