@@ -1,7 +1,10 @@
 /* ================= 4. E-BOARD SLIDER ================= */
 
 const eboardData = [
-
+    {
+        img: "/mobile-assets/rgumun/rgumun.jpeg",
+        alt: "Event 1",
+    },
     {
         img: "/mobile-assets/ads/5-16/2.jpeg",
         alt: "Event 1",

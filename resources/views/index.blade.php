@@ -743,14 +743,14 @@
                 //     sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of Lower Assam.",
                 //     link: "https://rgu.ac/icssr-project-positions-at-rgu",
                 // },
-                // {
-                //     day: "22<sup>th</sup> - 24<sup>th</sup>",
-                //     month: "May 2026",
-                //     img: "/mobile-assets/rgumun/back.png",
-                //     title: "RGUMUN - Edition IV",
-                //     sub: "Brewing a Royal Experience for you",
-                //     link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26 01.pdf",
-                // },
+                {
+                    day: "22<sup>th</sup> - 24<sup>th</sup>",
+                    month: "May 2026",
+                    img: "/mobile-assets/rgumun/back.jpeg",
+                    title: "RGUMUN - Edition IV",
+                    sub: "Brewing a Royal Experience for you",
+                    link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26 01.pdf",
+                },
                 {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
                     month: "Nov 2026",
