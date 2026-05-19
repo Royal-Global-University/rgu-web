@@ -736,7 +736,7 @@
         </div>
     </section>
 
-    <section class="csifx-marquee-section">
+    {{-- <section class="csifx-marquee-section">
         <div class="csifx-marquee">
             <div class="csifx-marquee-track">
                 <img src="mobile-assets/csif-lab/machines/centrifuge.png" alt="Lab View 1">
@@ -773,7 +773,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="csifx-tabs-section">
         <div class="csifx-tabs-wrapper">
