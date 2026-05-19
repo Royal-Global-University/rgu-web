@@ -744,12 +744,12 @@
                 //     link: "https://rgu.ac/icssr-project-positions-at-rgu",
                 // },
                 // {
-                //     day: "16<sup>th</sup> - 20<sup>th</sup>",
-                //     month: "March 2026",
-                //     img: "https://rgu.ac/five-days-conference/hero-img.jpg",
-                //     title: "Five-Day International Workshop",
-                //     sub: "Developing Emotional Intelligence, Academic Research and Teaching",
-                //     link: "https://rgu.ac/developing-emotional-intelligence-academic-research-and-teaching",
+                //     day: "22<sup>th</sup> - 24<sup>th</sup>",
+                //     month: "May 2026",
+                //     img: "/mobile-assets/rgumun/back.png",
+                //     title: "RGUMUN - Edition IV",
+                //     sub: "Brewing a Royal Experience for you",
+                //     link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26 01.pdf",
                 // },
                 {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",

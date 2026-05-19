@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const events = [
-        // {
-        //     day: "10<sup>th</sup>",
-        //     month: "Mar 2026",
-        //     img: "https://rgu.ac/mobile-assets/conference/bg.jpeg",
-        //     title: "ICSSR Project Positions at The Assam Royal Global University",
-        //     sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of Lower Assam.",
-        //     link: "https://rgu.ac/icssr-project-positions-at-rgu",
-        // },
-        // {
-        //     day: "16<sup>th</sup> - 20<sup>th</sup>",
-        //     month: "March 2026",
-        //     img: "https://rgu.ac/five-days-conference/hero-img.jpg",
-        //     title: "Five-Day International Workshop",
-        //     sub: "Developing Emotional Intelligence, Academic Research and Teaching",
-        //     link: "https://rgu.ac/developing-emotional-intelligence-academic-research-and-teaching",
-        // },
+        {
+            day: "10<sup>th</sup>",
+            month: "Mar 2026",
+            img: "https://rgu.ac/mobile-assets/conference/bg.jpeg",
+            title: "ICSSR Project Positions at The Assam Royal Global University",
+            sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of Lower Assam.",
+            link: "https://rgu.ac/icssr-project-positions-at-rgu",
+        },
+        {
+            day: "16<sup>th</sup> - 20<sup>th</sup>",
+            month: "March 2026",
+            img: "https://rgu.ac/five-days-conference/hero-img.jpg",
+            title: "Five-Day International Workshop",
+            sub: "Developing Emotional Intelligence, Academic Research and Teaching",
+            link: "https://rgu.ac/developing-emotional-intelligence-academic-research-and-teaching",
+        },
         {
             day: "13<sup>th</sup> - 14<sup>th</sup>",
             month: "Nov 2026",

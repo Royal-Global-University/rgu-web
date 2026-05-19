@@ -850,7 +850,7 @@
                         <tbody>
                             <tr>
                                 <td>1.</td>
-                                <td>Ms. Vinita Agrawal</td>
+                                <td>Ms. Vanita Agrawal</td>
                             </tr>
                             <tr>
                                 <td>2.</td>
@@ -918,11 +918,11 @@
                             </tr>
                             <tr>
                                 <td>18.</td>
-                                <td>Ms. Raisa H Tasmin</td>
+                                <td>Ms. Raisa Tasmin Hussain</td>
                             </tr>
                             <tr>
                                 <td>19.</td>
-                                <td>Dr. Shehrnaz Ara Rahman</td>
+                                <td>Dr. Shehnaz Ara Rahman</td>
                             </tr>
                             <tr>
                                 <td>20.</td>
