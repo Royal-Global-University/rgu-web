@@ -725,7 +725,7 @@
 
     <section class="csifx-hero">
         <video autoplay muted loop playsinline class="csifx-hero-video">
-            <source src="https://media.rgu.ac/index/CSIF-Promotional-Video.mp4" type="video/mp4">
+            <source src="https://media.rgu.ac/CSIF-Promotional-Video.mp4" type="video/mp4">
         </video>
 
         <div class="csifx-hero-overlay"></div>
