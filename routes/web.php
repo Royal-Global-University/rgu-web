@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture', function () {
+    return view('frontend/media-corner/2026/news21');
+})->name('rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture');
+
 Route::get('/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series', function () {
     return view('frontend/media-corner/2026/news20');
 })->name('royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series');

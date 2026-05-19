@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Inaugurates Institution’s Innovation Council & Entrepreneurship Cell to Foster Innovation and Start-up Culture',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 19, 2026:',
+                            'link' => '/rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture',
+                            'image' => '/mobile-assets/media-corner/2026/15/1.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) today inaugurated its Institution’s Innovation Council (IIC) and Entrepreneurship Cell in a significant step towards promoting innovation, entrepreneurship, and industry-academia collaboration among students and young innovators. The programme was organised by the Entrepreneurship Cell of RGU.',
+                        ],
+                        [
                             'title' => 'Royal Global University Launches ‘River Talks—Sabda Kalpa’: A Monthly Literary Series',
                             'summary' => 'Inaugural Edition Celebrates “Poetry of the Soul” with Four Distinguished Poets',
                             'date' => 'Guwahati, May 17, 2026:',
