@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/placement-felicitation-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/news22');
+})->name('placement-felicitation-held-at-royal-global-university');
+
 Route::get('/rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture', function () {
     return view('frontend/media-corner/2026/news21');
 })->name('rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture');
