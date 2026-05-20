@@ -65,7 +65,7 @@
                 <div class="container-fluid">
 
                     <div class="row justify-content-center">
-                        <div class="col-12 col-lg-10">
+                        <div class="col-lg-10">
                             <p class="fw-bold text-dark" style="text-align: justify; line-height: 1.5;">
                                 The Proctorial Board / Discipline Committee of The Assam Royal Global University has been
                                 reconstituted
@@ -207,7 +207,12 @@
 
                         </div>
                     </div>
+
                 </div>
+                <div class="container" style="padding-top: 50px">
+                    <a href="/mobile-assets/pdf/Proctor Manual.pdf" target="_blank" class="rounded bg-danger text-white fw-bold" style="padding: 10px;">Download Proctorial Board Manual</a>
+                </div>
+
 
             </div>
         </div>
