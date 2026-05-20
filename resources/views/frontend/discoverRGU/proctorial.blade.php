@@ -195,14 +195,7 @@
                                         </tr>
                                         <tr>
                                             <td class="data-row">
-                                                <span class="sl-no">13.</span> <strong>Prof. Shalini Saxena</strong> -
-                                                Professor and HoD, Dept
-                                                of Political Science & Public Administration, RSHSS
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">14.</span> <strong>Prof. Abhijit Dutta</strong> - Dean,
+                                                <span class="sl-no">12.</span> <strong>Prof. Abhijit Dutta</strong> - Dean,
                                                 RSMAS
                                             </td>
                                         </tr>

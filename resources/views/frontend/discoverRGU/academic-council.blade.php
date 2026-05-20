@@ -298,18 +298,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/shalini.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Shalini Saxena</h3>
-                            <p class="card-designation">Professor & HOD, Political Science & Administrative Service</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png"
                                     alt="Profile image">
                             </div>
