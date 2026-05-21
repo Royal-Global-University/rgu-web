@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 20, 2026",
+            title: "Placement Felicitation held at Royal Global University",
+            desc: "A Placement Felicitation Program was organised by The Assam Royal Global University (RGU) at its campus yesterday to celebrate the remarkable achievements of students who have successfully secured placements and career opportunities across various reputed organizations.",
+            img: "/mobile-assets/media-corner/2026/Placed%20students%20felicitated.jpeg",
+            link: "/placement-felicitation-held-at-royal-global-university",
+        },
+        {
             date: "Guwahati, May 19, 2026",
             title: "RGU Inaugurates Institution’s Innovation Council & Entrepreneurship Cell to Foster Innovation and Start-up Culture",
             desc: "The Assam Royal Global University (RGU) today inaugurated its Institution’s Innovation Council (IIC) and Entrepreneurship Cell in a significant step towards promoting innovation, entrepreneurship, and industry-academia collaboration among students and young innovators. The programme was organised by the Entrepreneurship Cell of RGU.",
