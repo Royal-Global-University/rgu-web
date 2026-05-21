@@ -114,24 +114,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsla/Prof-Bhuban-Ch-Barooah.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) B.C. Barooah</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Law & Administration (RSLA)</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> --}}
-                        </div>
-                    </div>
-
-                </div>
-                <!-- regular faculty  -->
-
-                <!-- regular faculty  -->
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Bhavana.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhavana Sharma</h3>

@@ -260,18 +260,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Ananya-Banik.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Ananya Banik</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-ananya-banik" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/RSC-prachi-khetan.png"
                                     alt="Profile image">
                             </div>
