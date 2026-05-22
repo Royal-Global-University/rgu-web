@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi', function () {
+    return view('frontend/media-corner/2026/may/news1');
+})->name('rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi');
+
 Route::get('/placement-felicitation-held-at-royal-global-university', function () {
     return view('frontend/media-corner/2026/news22');
 })->name('placement-felicitation-held-at-royal-global-university');

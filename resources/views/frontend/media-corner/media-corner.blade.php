@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 22, 2026:',
+                            'link' => '/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi',
+                            'image' => '/mobile-assets/media-corner/2026/22/2.jpeg',
+                            'content' => 'The Sangeet Natak Akademi, Ministry of Culture, Govt of India New Delhi in association with The Department of English, Royal School of Languages has organied the 12th edition of Kala Samvad, a distinguished lecture-cum-discussion series here today at Jyoti Mancha at the university campus.',
+                        ],
+                        [
                             'title' => 'Placement Felicitation held at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, May 20, 2026:',

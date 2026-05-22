@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
-            date: "Guwahati, May 20, 2026",
-            title: "Placement Felicitation held at Royal Global University",
-            desc: "A Placement Felicitation Program was organised by The Assam Royal Global University (RGU) at its campus yesterday to celebrate the remarkable achievements of students who have successfully secured placements and career opportunities across various reputed organizations.",
-            img: "/mobile-assets/media-corner/2026/Placed%20students%20felicitated.jpeg",
-            link: "/placement-felicitation-held-at-royal-global-university",
+            date: "Guwahati, May 22, 2026",
+            title: "RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi",
+            desc: "The Sangeet Natak Akademi, Ministry of Culture, Govt of India New Delhi in association with The Department of English, Royal School of Languages has organied the 12th edition of Kala Samvad, a distinguished lecture-cum-discussion series here today at Jyoti Mancha at the university campus. The programme has been envisioned to commemorate the inclusion of the Bhagavad Gita and the Natyashastra in UNESCO’s Memory of the World Register in April 2025.",
+            img: "/mobile-assets/media-corner/2026/22/2.jpeg",
+            link: "/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi",
         },
         {
             date: "Guwahati, May 19, 2026",
