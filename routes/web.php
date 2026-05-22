@@ -5336,6 +5336,10 @@ Route::get('/faculty-suman-agarwal', function () {
 
 //RSN Facuilty Profile
 
+Route::get('/barnali-das', function () {
+    return view('frontend/facultyprofile/rsn/barnali-das');
+})->name('barnali-das');
+
 Route::get('/faculty-sandipta-ghosh', function () {
     return view('frontend/facultyprofile/rsn/sandipta-ghosh');
 })->name('faculty-sandipta-ghosh');
