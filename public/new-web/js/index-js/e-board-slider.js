@@ -6,10 +6,6 @@ const eboardData = [
         alt: "Event 1",
     },
     {
-        img: "/mobile-assets/ads/5-16/2.jpeg",
-        alt: "Event 1",
-    },
-    {
         img: "/mobile-assets/ads/e-board/1.jpeg",
         alt: "Event 1",
     },

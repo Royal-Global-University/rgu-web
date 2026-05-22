@@ -30,8 +30,7 @@
             <source media="(max-width:768px)" srcset="/new-web/assets/index/about/About-mob.png">
 
             <!-- Desktop Image -->
-            <img src="/new-web/assets/index/about/about-web.png" alt="Trailblazer"
-                style="width:100%; height:auto;">
+            <img src="/new-web/assets/index/about/about-web.png" alt="Trailblazer" style="width:100%; height:auto;">
         </picture>
     </section>
 
@@ -185,25 +184,25 @@
                     <!-- SLIDE 2 -->
                     <!-- <div class="int-slide">
 
-                            <div class="int-card">
-                                <img src="assets/img/index/international-news/news3/1.jpg">
-                                <div class="int-card-content">
-                                    <h4>UK Collaboration</h4>
-                                    <p>International research tie-up</p>
-                                    <a href="#" class="int-readmore">Read More →</a>
+                                <div class="int-card">
+                                    <img src="assets/img/index/international-news/news3/1.jpg">
+                                    <div class="int-card-content">
+                                        <h4>UK Collaboration</h4>
+                                        <p>International research tie-up</p>
+                                        <a href="#" class="int-readmore">Read More →</a>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="int-card">
-                                <img src="assets/img/index/international-news/news4/1.jpg">
-                                <div class="int-card-content">
-                                    <h4>Global Conference</h4>
-                                    <p>Student participation abroad</p>
-                                    <a href="#" class="int-readmore">Read More →</a>
+                                <div class="int-card">
+                                    <img src="assets/img/index/international-news/news4/1.jpg">
+                                    <div class="int-card-content">
+                                        <h4>Global Conference</h4>
+                                        <p>Student participation abroad</p>
+                                        <a href="#" class="int-readmore">Read More →</a>
+                                    </div>
                                 </div>
-                            </div>
 
-                        </div> -->
+                            </div> -->
 
                 </div>
             </div>
@@ -365,8 +364,7 @@
 
                     <a href="https://rgu.ac/infrastructure" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
-                                alt="RGU Campus">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg" alt="RGU Campus">
                         </div>
                         <div class="rgu-legacy-card-content">
                             <h3>The Best University in Assam</h3>
@@ -377,8 +375,7 @@
 
                     <a href="/schools-rgu" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
-                                alt="RGU Classroom">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg" alt="RGU Classroom">
                         </div>
                         <div class="rgu-legacy-card-content">
                             <h3>Discover Your Potential at RGU</h3>
@@ -389,8 +386,7 @@
 
                     <a href="https://rgu.ac/admission-programs-fees-structure" class="rgu-legacy-card">
                         <div class="rgu-legacy-card-img">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
-                                alt="RGU Students">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg" alt="RGU Students">
                         </div>
                         <div class="rgu-legacy-card-content">
                             <h3>Educating with Purpose, Inspiring with Vision</h3>
@@ -407,8 +403,7 @@
                     <div class="legacy-carousel-track" id="legacyTrack">
 
                         <div class="legacy-slide">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg"
-                                alt="RGU Campus">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy1.jpg" alt="RGU Campus">
                             <div class="legacy-slide-content">
                                 <h3>The Best University in Assam</h3>
                                 <p>Empowering future leaders with academic excellence, industry collaboration, and
@@ -417,8 +412,7 @@
                         </div>
 
                         <div class="legacy-slide">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg"
-                                alt="RGU Library">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy2.jpg" alt="RGU Library">
                             <div class="legacy-slide-content">
                                 <h3>State-of-the-Art Facilities</h3>
                                 <p>Experience world-class infrastructure designed to foster innovation, research, and
@@ -427,8 +421,7 @@
                         </div>
 
                         <div class="legacy-slide">
-                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg"
-                                alt="RGU Students">
+                            <img src="/new-web/assets/index/lagecy/mobile-lagecy/mobile-lagecy3.jpg" alt="RGU Students">
                             <div class="legacy-slide-content">
                                 <h3>Vibrant Campus Life</h3>
                                 <p>Join a diverse community of learners and engage in countless clubs, sports, and
@@ -458,8 +451,8 @@
                     </h2>
                     <ul class="rgu-acad-list">
                         <li class="rgu-acad-item active fade-in-up" style="--delay: 0.1s"
-                            data-img="/new-web/assets/index/labs/biochem.png"
-                            data-title="Doctoral Programme" data-link="https://rgu.ac/doctoral-programme">
+                            data-img="/new-web/assets/index/labs/biochem.png" data-title="Doctoral Programme"
+                            data-link="https://rgu.ac/doctoral-programme">
                             <span>Doctoral Programme</span>
                             <i class="bi bi-arrow-up-right"></i>
                         </li>
@@ -469,8 +462,8 @@
                             <span>Postgraduate Programmes</span>
                         </li>
                         <li class="rgu-acad-item fade-in-up" style="--delay: 0.3s"
-                            data-img="/new-web/assets/index/labs/biotech-lab.png"
-                            data-title="Under Graduate Programmes" data-link="https://rgu.ac/programs">
+                            data-img="/new-web/assets/index/labs/biotech-lab.png" data-title="Under Graduate Programmes"
+                            data-link="https://rgu.ac/programs">
                             <span>Under Graduate Programmes</span>
                         </li>
                     </ul>
@@ -479,8 +472,7 @@
                 <div class="rgu-acad-right fade-in-up" style="--delay: 0.4s">
                     <a href="https://rgu.ac/doctoral-programme" class="rgu-acad-card" id="acadCard">
                         <div class="rgu-acad-img-wrapper">
-                            <img id="acadImage" src="/new-web/assets/index/labs/biochem.png"
-                                alt="Academics">
+                            <img id="acadImage" src="/new-web/assets/index/labs/biochem.png" alt="Academics">
                         </div>
                         <div class="rgu-acad-overlay">
                             <h3 id="acadTitle">Doctoral Programme</h3>
@@ -615,8 +607,7 @@
                 <source media="(max-width:768px)" srcset="/new-web/assets/index/idea1-mobile.svg">
 
                 <!-- Desktop Image -->
-                <img src="/new-web/assets/index/idea1.svg" alt=""
-                    style="width:100%; height:auto;">
+                <img src="/new-web/assets/index/idea1.svg" alt="" style="width:100%; height:auto;">
             </picture>
         </a>
     </section>
@@ -672,12 +663,10 @@
     <section class="trail-blazer">
         <picture>
             <!-- Mobile Image -->
-            <source media="(max-width:768px)"
-                srcset="/new-web/assets/index/trail-blazer/mobile-trailblazer.png">
+            <source media="(max-width:768px)" srcset="/new-web/assets/index/trail-blazer/mobile-trailblazer.png">
 
             <!-- Desktop Image -->
-            <img src="/new-web/assets/index/trail-blazer/1.jpeg" alt="Trailblazer"
-                style="width:100%; height:auto;">
+            <img src="/new-web/assets/index/trail-blazer/1.jpeg" alt="Trailblazer" style="width:100%; height:auto;">
         </picture>
     </section>
 
@@ -749,7 +738,7 @@
                     img: "/mobile-assets/rgumun/back.jpeg",
                     title: "RGUMUN - Edition IV",
                     sub: "Brewing a Royal Experience for you",
-                    link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26 01.pdf",
+                    link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26.pdf",
                 },
                 {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
