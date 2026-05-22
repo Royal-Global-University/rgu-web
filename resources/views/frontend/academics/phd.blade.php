@@ -1797,7 +1797,7 @@
                                                 <td>IFTIKAR ALI AHMED</td>
                                                 <td>1200012</td>
                                                 <td>DR. BAISHALEE RAJKHOWA</td>
-                                                <td>DR. PRADEEP KUMAR JAIN</td>
+                                                <td></td>
                                                 <td>30-10-2025</td>
                                                 <td>LINGUISTIC IMPERIALISM OF ENGLISH: A STUDY OF ITS IMPACT ON THE ASSAMESE
                                                     LANGUAGE</td>
