@@ -1,584 +1,317 @@
-@extends('frontend.master')
-@push('styles')
-    <style>
-        .card {
-            position: relative;
-            background: white;
-            border-radius: 10px;
-
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .card::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 40px;
-            /* Adjust size as needed */
-            height: 40px;
-            background: #E8A015;
-            /* Yellow color */
-            clip-path: polygon(100% 0, 0 100%, 100% 100%);
-        }
-    </style>
-@endpush
+@extends('frontend/new-master')
 @section('title', 'Board of Management : The Assam Royal Global University')
 @section('meta_description',
     'Meet the powerhouse behind Royal Global University strategic vision and operational excellence - our Board of
     Management.')
 @section('meta_keywords', 'Board of Management')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section
-                style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/bg.svg');">
-                <h2 class="mobile-headd2 fw-bold text-center kd-title-ani kd-split-text pt-4"
-                    style="color: #27467A; font-weight: 900;">
-                    Board of <span style="color: #FF9A1E; font-weight: 500;">Management</span></h2>
+    <style>
+        /* ===== GOVERNING BODY SECTION ===== */
 
-                <div style="padding: 20px 30px;">
+        .board-m-cards-section {
+            padding: 60px 20px;
+            background: #eef2f8;
+        }
 
-                    <div class="row">
+        /* ===== GRID BASE ===== */
+        .board-m-grid {
+            max-width: 1300px;
+            margin: auto;
+            display: grid;
+        }
 
-                        {{-- <div class="col-lg-3 mb-4">
 
-                        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/1.jpg" class="img-fluid rounded"/>
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                              <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy</h5>
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal Global University</p>
 
-                              <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairperson</p>
-                            </div>
-                        </div>
-                </div> --}}
-                        <div class="col-lg-3 mb-4">
+        /* ===== BOTTOM GRID (4 COLUMN) ===== */
+        .board-m-grid-4 {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/3.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
-                                        Pansari</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor,
-                                        RGU & Member Governing Body<br>
-                                        The Assam Royal Global University</p>
+        /* ===================================================== */
+        /* ================== LARGE CARDS ====================== */
+        /* ===================================================== */
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        .board-m-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #fff;
+            padding: 18px;
+            border-radius: 14px;
+            transition: all 0.35s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
 
-                        <div class="col-lg-3 mb-4">
+        /* IMAGE */
+        .board-m-img {
+            width: 400px;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: #163a6b;
+            transition: transform 0.35s ease;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/akb.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                        Alak Kumar Buragohain</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor
-                                        (Interim),<br>
-                                        The Assam Royal Global University</p>
+        .board-m-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Chairman</p>
-                                </div>
-                            </div>
-                        </div>
+        /* CONTENT */
+        .board-m-content h3 {
+            font-size: 25px;
+            font-weight: 600;
+            color: #1d3557;
+            margin-bottom: 4px;
+        }
 
-                        <div class="col-lg-3 mb-4">
+        .board-m-role {
+            font-size: 16px;
+            color: #6b7a90;
+            margin-bottom: 6px;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/gautam-barua.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof.
-                                        Gautam Barua</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Former Director of Indian
-                                        Institute of Technology (IIT) Guwahati<br>
-                                    </p>
+        .board-m-tag {
+            font-size: 18px;
+            color: #27467a;
+            font-weight: 600;
+        }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        /* HOVER */
+        .board-m-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+            background: #ffffff;
+            border-color: rgba(39, 70, 122, 0.2);
+        }
 
-                        <div class="col-lg-3 mb-4">
+        .board-m-card:hover .board-m-img {
+            transform: scale(1.05);
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/2.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
-                                        Pradeep K. Jain</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                        Professor, Royal School of Business and Royal School of Commerce
-                                    </p>
+        /* ===================================================== */
+        /* ================== MINI CARDS ======================== */
+        /* ===================================================== */
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        .board-m-card-mini {
+            background: #fff;
+            padding: 18px 12px;
+            border-radius: 12px;
+            text-align: left;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
 
-                        <div class="col-lg-3 mb-4">
+        /* MINI IMAGE */
+        .board-m-mini-img {
+            width: 350px;
+            height: 350px;
+            margin: 0 auto 12px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #163a6b;
+            transition: transform 0.3s ease;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/5.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri R. S.
-                                        Joshi
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Former Chairman, FINER, CMD,
-                                        Buildworth Real Estate, Guwahati</p>
+        .board-m-mini-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        /* MINI CONTENT */
+        .board-m-card-mini h4 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1d3557;
+            margin-bottom: 4px;
+        }
 
-                        <div class="col-lg-3 mb-4">
+        .board-m-card-mini span {
+            font-size: 18px;
+            color: #27467a;
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/6.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                        George AP
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, RSB & RSC, <br> The
-                                        Assam Royal Global University</p>
+        /* MINI HOVER */
+        .board-m-card-mini:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            background: #ffffff;
+            border-color: rgba(39, 70, 122, 0.2);
+        }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        .board-m-card-mini:hover .board-m-mini-img {
+            transform: scale(1.05);
+        }
 
-                        <div class="col-lg-3 mb-4">
+        /* ===================================================== */
+        /* ================== RESPONSIVE ======================== */
+        /* ===================================================== */
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="/mobile-assets/updated-faculty-img/Amrit.jpeg" class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                        Prof. Amrit Pal Singh
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, Royal School of
-                                        Commerce</p>
+        @media (max-width: 1024px) {
+            .board-m-grid-2 {
+                grid-template-columns: 1fr;
+            }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            .board-m-grid-4 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
-                        <div class="col-lg-3 mb-4">
+        @media (max-width: 600px) {
+            .board-m-card {
+                flex-direction: column;
+                text-align: center;
+            }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms.
-                                        Angira Mimani
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;"> Associate Professor, RSB
-                                        and Associate Dean, Student Affairs, The Assam Royal Global University</p>
+            .board-m-img {
+                width: 300px;
+                height: 300px;
+            }
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+            .board-m-grid-4 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 
-                        <div class="col-lg-3 mb-4">
+    <section class="pg-hero">
+        <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg');"></div>
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Abhijit.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof.
-                                        (Dr.) Abhijit Dutta
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;"> Dean, Royal School of
-                                        Medical Health Sciences <br> The Assam Royal Global University</p>
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/10.jpeg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Jugal
-                                        Kishore Bhattacherjee
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Dept
-                                        of Economics, RSHSS <br> The Assam Royal Global University</p>
-
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/diganta-munshi.jpeg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof.
-                                        (Dr.) Diganta Munshi
-                                    </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration
-                                        <br> The Assam Royal Global University
-                                    </p>
-
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Registrar</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Board of Management</h1>
+            <div class="pg-hero-breadcrumb">
+                Discover RGU / Leadership & Governance / Board of Management
+            </div>
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+    </section>
 
-        <section
-            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/bg.svg); background-size: cover;">
+    <div class="board-m-cards-section">
+        <!-- ===== BOTTOM (4 COLUMN CARDS) ===== -->
+        <div class="board-m-grid board-m-grid-4">
 
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
-                Board of <span style="color: #FF9A1E; font-weight: 500;">Management</span></h2>
-
-            <div style="padding: 20px 80px;">
-
-                <div class="row">
-
-                    {{-- <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                                <div class="p-3">
-                                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                  <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal Global University</p>
-
-                                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairperson</p>
-                                </div>
-                            </div>
-                    </div> --}}
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/3.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur
-                                    Pansari</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Pro-Chancellor, RGU
-                                    & Member Governing Body<br>
-                                    The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/akb.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Alak Kumar Buragohain</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor (Interim),<br>
-                                    The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairman
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/gautam-barua.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Gautam
-                                    Barua</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former Director of Indian
-                                    Institute of Technology (IIT) Guwahati<br>
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/2.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr)
-                                    Pradeep K. Jain</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, Royal School of Business and Royal School of Commerce
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/5.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri R. S.
-                                    Joshi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Former Chairman, FINER, CMD,
-                                    Buildworth Real Estate, Guwahati</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/6.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    George AP
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, RSB & RSC, <br> The
-                                    Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="/mobile-assets/updated-faculty-img/Amrit.jpeg" class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Amrit Pal Singh
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, Royal School of
-                                    Commerce</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Angira
-                                    Mimani
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;"> Associate Professor, RSB and
-                                    Associate Dean, Student Affairs, The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 570px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Abhijit.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Abhijit Dutta
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;"> Dean, Royal School of Medical
-                                    Health Sciences <br> The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 570px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/10.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Jugal
-                                    Kishore Bhattacherjee
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Dept of
-                                    Economics, RSHSS <br> The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 570px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/diganta-munshi.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Diganta Munshi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration
-                                    <br> The Assam Royal Global University
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                    Registrar</p>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/3.png"
+                        alt="">
                 </div>
-
+                <h4>Sri Ankur Pansari</h4>
+                <p class="board-m-role">Pro-Chancellor, RGU & Member Governing Body</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
             </div>
 
-        </section>
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/akb.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Alak Kumar Buragohain</h4>
+                <p class="board-m-role">Vice-Chancellor (Interim), The Assam Royal Global University</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Chairman</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/gautam-barua.jpg"
+                        alt="">
+                </div>
+                <h4>Prof. Gautam Barua</h4>
+                <p class="board-m-role">Former Director of Indian Institute of Technology (IIT) Guwahati</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/2.jpg"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Pradeep K. Jain</h4>
+                <p class="board-m-role">Professor, Royal School of Business and Royal School of Commerce</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/5.png"
+                        alt="">
+                </div>
+                <h4>Sri R. S. Joshi</h4>
+                <p class="board-m-role">Former Chairman, FINER, CMD, Buildworth Real Estate, Guwahati</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/6.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) George AP</h4>
+                <p class="board-m-role">Dean, RSB & RSC, The Assam Royal Global University</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Amrit.jpeg" alt="">
+                </div>
+                <h4>Prof. Amit Pal Singh</h4>
+                <p class="board-m-role">Professor, Royal School of Commerce</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
+                        alt="">
+                </div>
+                <h4>Ms. Angira Mimani</h4>
+                <p class="board-m-role">Associate Professor, RSB and Associate Dean, Student Affairs, The Assam Royal
+                    Global University</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Abhijit.jpg"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Abhijit Dutta</h4>
+                <p class="board-m-role">Dean, Royal School of Medical Health Sciences, The Assam Royal Global University
+                </p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/10.jpeg"
+                        alt="">
+                </div>
+                <h4>Mr. Jugal Kishore Bhattacherjee</h4>
+                <p class="board-m-role">Assistant Professor, Dept of Economics, RSHSS, The Assam Royal Global University
+                </p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Member</span>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/diganta-munshi.jpeg"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Diganta Munshi</h4>
+                <p class="board-m-role">Registrar - Administration, The Assam Royal Global University</p>
+                <span style="background-color: darkorange" class="p-2 rounded text-white">Registrar</span>
+            </div>
+
+
+        </div>
     </div>
 @endsection

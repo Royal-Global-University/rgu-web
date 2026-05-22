@@ -1,176 +1,205 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Awards : The Assam Royal Global University')
-@section('meta_description', 'Discover excellence recognized at Royal Global University through our prestigious awards program.')
+@section('meta_description',
+    'Discover excellence recognized at Royal Global University through our prestigious awards
+    program.')
 @section('meta_keywords', 'Awards')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 80px; position: relative;">
-            <section style="background-image: url(mobile-assets/awards/BG-07.png); background-size: cover; padding: 20px 30px;">
-                <div class="row pt-4">
 
-                    <div class="col-lg-12 text-center mb-5">
-                        <img style="width: 200px;" src="mobile-assets/awards/Awards-19.png" alt="">
-                    </div>
+    <style>
+        /* =========================================================
+        ===================== AWARDS SECTION =====================
+        ========================================================= */
 
-                    <div class="col-lg-3 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2020-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Ranked No. 1 Private University in Assam by Centre for Forecasting & Research (C-Fore), Delhi
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2019-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Competition Success Review Ranked as No. 1 Engineering College in Assam and amongst promising
-                                Engineering Colleges in India by CSR-GHRDC Engineering College Survey 2019
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2018-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                The Knowledge Review Top 10 Most Inspiring Institutes for Commerce & Arts in 2018
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2017-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Higher Education Review Recognized as UNIVERSITY OF THE YEAR 2017 Student Engagement Business
-                                India Magazine Ranked No. 37 in best B-Schools Survey, 2017
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2015-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Education World Ranked among Top 100 Engineering & Top Non - IIT Engineering Colleges in India
-                                Business India Magazine Ranked A+++ in best B-Schools Survey, 2015
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2014-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Education World Ranked No.1 in North-East by Education World (EW-C Fore ranking 2014) National
-                                Assam Educational Awards Awarded CMAI – National Assam Education Award, 2014 for Excellent
-                                Industry Interface Business India Magazine Ranked A+ in best B-Schools Survey, 2014
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-center pb-4">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2013-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Business India Magazine Ranked A+ in best B-School’s Survey, 2013
-                            </p>
-                        </div>
-                    </div>
+        .awards-wrap {
+            background: #EBF1FC;
+            padding: 90px 20px 100px;
+            overflow: hidden;
+        }
 
-                </div>
-            </section>
+        .awards-container {
+            max-width: 1320px;
+            margin: auto;
+        }
+
+
+
+        /* ================= GRID ================= */
+
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        /* ================= CARD ================= */
+
+        .awards-card {
+            background: #fff;
+            border-radius: 26px;
+            overflow: hidden;
+            /* padding: 14px; */
+            box-shadow: 0 18px 45px rgba(17, 45, 95, 0.08);
+            transition: .45s ease;
+            animation: awardsFadeUp 1s ease;
+        }
+
+        .awards-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 28px 60px rgba(17, 45, 95, 0.14);
+        }
+
+        .awards-img {
+            position: relative;
+            border-radius: 18px;
+            overflow: hidden;
+            aspect-ratio: 2 / 3;
+        }
+
+        .awards-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .5s ease;
+        }
+
+        .awards-card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* ================= ANIMATION ================= */
+
+        @keyframes awardsFadeUp {
+
+            from {
+                opacity: 0;
+                transform: translateY(35px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media(max-width:991px) {
+
+            .awards-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media(max-width:640px) {
+
+            .awards-grid {
+                grid-template-columns: 1fr;
+                gap: 22px;
+            }
+
+            .awards-wrap {
+                padding: 70px 16px 80px;
+            }
+
+            .awards-top-text {
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/discover-rgu-awards/hero-img.png');"></div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Awards & Honours</h1>
+            <div class="pg-hero-breadcrumb">
+                Discover RGU / Excellence & Collaboration / Awards & Honours
+            </div>
         </div>
-    </div>
 
-    <div class="website">
+    </section>
 
-        <div id="page" class="site site_wrapper">
+    <section class="awards-wrap">
 
-            <!--Start Header-->
-            @include('frontend/components/aheader')
-            <!--End Header-->
+        <div class="awards-container">
+            <!-- AWARDS GRID -->
 
-            <section
-                style="padding: 20px 80px; background-image: url(mobile-assets/awards/BG-07.png); min-height: 100vh; background-size: contain;">
-                <div class="row mt-5">
+            <div class="awards-grid">
 
-                    <div class="col-lg-12 text-center mb-5">
-                        <img style="width: 180px;" src="mobile-assets/awards/Awards-19.png" alt="">
-                    </div>
-
-                    <div class="col-lg-3 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2020-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Ranked No. 1 Private University in Assam by Centre for Forecasting & Research (C-Fore),
-                                Delhi
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2019-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Competition Success Review Ranked as No. 1 Engineering College in Assam and amongst
-                                promising Engineering Colleges in India by CSR-GHRDC Engineering College Survey 2019
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2018-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                The Knowledge Review Top 10 Most Inspiring Institutes for Commerce & Arts in 2018
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2017-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Higher Education Review Recognized as UNIVERSITY OF THE YEAR 2017 Student Engagement
-                                Business India Magazine Ranked No. 37 in best B-Schools Survey, 2017
-                            </p>
-                        </div>
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/1.png" alt="">
                     </div>
                 </div>
 
-                <div class="row mt-5">
-
-                    <div class="col-lg-4 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2015-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Education World Ranked among Top 100 Engineering & Top Non - IIT Engineering Colleges in
-                                India Business India Magazine Ranked A+++ in best B-Schools Survey, 2015
-
-                            </p>
-                        </div>
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/2.png" alt="">
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2014-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Education World Ranked No.1 in North-East by Education World (EW-C Fore ranking 2014)
-                                National Assam Educational Awards Awarded CMAI – National Assam Education Award, 2014 for
-                                Excellent Industry Interface Business India Magazine Ranked A+ in best B-Schools Survey,
-                                2014
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <div class="text-center">
-                            <img style="width: 120px;" src="mobile-assets/awards/2013-18.png" alt="">
-                            <p class="para1 text-white mt-3">
-                                Business India Magazine Ranked A+ in best B-School’s Survey, 2013
-
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
-            </section>
 
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/4.png" alt="">
+                    </div>
+                </div>
+
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/5.png" alt="">
+                    </div>
+                </div>
+
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/6.png" alt="">
+                    </div>
+                </div>
+
+                <div class="awards-card">
+                    <div class="awards-img">
+                        <img src="/new-web/assets/img/discover-rgu-awards/7.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
 
         </div>
-    </div>
+
+    </section>
+
+    <script>
+        /* =========================================================
+            ===================== LOCATION SLIDER =====================
+            ========================================================= */
+
+        const rguLocThumbs = document.querySelectorAll(".rgu-loc-thumb");
+        const rguLocSlides = document.querySelectorAll(".rgu-loc-main-slide");
+
+        rguLocThumbs.forEach((thumb, index) => {
+
+            thumb.addEventListener("click", () => {
+
+                rguLocThumbs.forEach(item => item.classList.remove("active"));
+                rguLocSlides.forEach(item => item.classList.remove("active"));
+
+                thumb.classList.add("active");
+                rguLocSlides[index].classList.add("active");
+
+            });
+
+        });
+    </script>
+
 @endsection
