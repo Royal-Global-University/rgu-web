@@ -1106,6 +1106,18 @@
 
             </div>
 
+            <div class="col-lg-6 col-md-6">
+
+              <div class="rgu-jb-ad-card">
+
+                <img src="/mobile-assets/ads/ads-3.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                  onclick="openRGUAd(this.src)">
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
