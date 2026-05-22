@@ -536,7 +536,7 @@
                                     alt="Profile image of Prof. Shwetambara Verma">
                             </div>
                             <h3 class="card-name">Prof. Shwetambara Verma</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HOD, Civil Engineering</p>
                             <a href="https://www.rgu.ac/dr-shwetambara-verma" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -562,19 +562,6 @@
                             <h3 class="card-name">Dr. Nilakshi Deka</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-nilakshi-deka" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
-                                    alt="Profile image of Mr. Rishikesh Duwarah">
-                            </div>
-                            <h3 class="card-name">Mr. Rishikesh Duwarah</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Civil Engineering and Assistant
-                                Dean, Admission</p>
-                            <a href="https://www.rgu.ac/faculty-rishikesh-duarah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -782,18 +769,6 @@
                             <h3 class="card-name">Mr. Rajesh Deb</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-rajesh-deb" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Mr. Rishikesh Duarah</h3>
-                            <p class="card-designation">Assistant Professor and Assistant Dean, Admission</p>
-                            <a href="https://www.rgu.ac/faculty-rishikesh-duarah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
