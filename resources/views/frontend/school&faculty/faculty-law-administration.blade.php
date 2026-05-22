@@ -114,6 +114,24 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Nandana.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Nandana Dutta</h3>
+                            <p class="card-designation">Dean Academics, Professor of English & i/c Dean, Royal School of Law and Administration</p>
+                            <a href="/Dr-Nandana-Dutta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- regular faculty  -->
+
+                <!-- regular faculty  -->
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Bhavana.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhavana Sharma</h3>

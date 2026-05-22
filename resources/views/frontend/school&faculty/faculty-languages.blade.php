@@ -127,7 +127,7 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Prof. (Dr.) Nandana Dutta</h3>
-                                <p class="card-designation">Dean Academic and Professor of English</p>
+                                <p class="card-designation">Dean Academics, Professor of English & i/c Dean, Royal School of Law and Administration</p>
                                 <a href="https://www.rgu.ac/Dr-Nandana-Dutta" class="profile-link">View Profile</a>
                             </div>
                         </div>

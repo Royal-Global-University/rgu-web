@@ -628,7 +628,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Dhiraj.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dhiraj Kumar Borkotoky</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & HOD, Political Science & Public Administration</p>
                             <a href="/faculty-dhiraj-kumar-borkotoky" class="profile-link">View
                                 Profile</a>
                         </div>
