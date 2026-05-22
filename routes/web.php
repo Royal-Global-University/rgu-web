@@ -3954,10 +3954,6 @@ Route::get('/faculty-rajesh-deb', function () {
     return view('frontend/facultyprofile/rset/rajesh-deb');
 })->name('faculty-rajesh-deb');
 
-Route::get('/faculty-rishikesh-duarah', function () {
-    return view('frontend/facultyprofile/rset/rishikesh-duarah');
-})->name('faculty-rishikesh-duarah');
-
 Route::get('/faculty-shehnaz-ara-rahman', function () {
     return view('frontend/facultyprofile/rset/shehnaz-ara-rahman');
 })->name('faculty-shehnaz-ara-rahman');
