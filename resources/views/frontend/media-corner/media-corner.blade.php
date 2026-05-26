@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University & Tea Board of India jointly celebrates International Tea Day',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 25, 2026:',
+                            'link' => '/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day',
+                            'image' => '/mobile-assets/media-corner/2026/26/2.jpeg',
+                            'content' => 'The Assam Royal Global University, in collaboration with the Tea Board of India, has recently celebrated International Tea Day 2026 with great enthusiasm and participation from students, faculty members, and distinguished guests. The celebration was conducted in accordance with this year’s International Tea Day theme...',
+                        ],
+                        [
                             'title' => 'RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi',
                             'summary' => '',
                             'date' => 'Guwahati, May 22, 2026:',

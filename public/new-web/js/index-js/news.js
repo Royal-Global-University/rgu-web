@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, May 25, 2026",
+            title: "Royal Global University & Tea Board of India jointly celebrates International Tea Day",
+            desc: "The Assam Royal Global University, in collaboration with the Tea Board of India, has recently celebrated International Tea Day 2026 with great enthusiasm and participation from students, faculty members, and distinguished guests. The celebration was conducted in accordance with this year’s International Tea Day theme, “Sustaining Tea, Supporting Communities,”",
+            img: "/mobile-assets/media-corner/2026/26/2.jpeg",
+            link: "/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day",
+        },
+        {
             date: "Guwahati, May 22, 2026",
             title: "RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi",
             desc: "The Sangeet Natak Akademi, Ministry of Culture, Govt of India New Delhi in association with The Department of English, Royal School of Languages has organied the 12th edition of Kala Samvad, a distinguished lecture-cum-discussion series here today at Jyoti Mancha at the university campus. The programme has been envisioned to commemorate the inclusion of the Bhagavad Gita and the Natyashastra in UNESCO’s Memory of the World Register in April 2025.",
