@@ -312,8 +312,8 @@
 
     <style>
         /* =========================================
-               ORGANIZING COMMITTEE SECTION
-            ========================================= */
+                       ORGANIZING COMMITTEE SECTION
+                    ========================================= */
 
         .committee-block {
             margin-top: 70px;
@@ -817,8 +817,7 @@
                 <div class="committee-grid committee-grid-2">
 
                     <div class="committee-card">
-                        <img src="/mobile-assets/updated-faculty-img/Shwetambara-v.jpeg"
-                            alt="">
+                        <img src="/mobile-assets/updated-faculty-img/Shwetambara-v.jpeg" alt="">
                         <h3>Prof. Shwetambara Verma</h3>
                         <div class="committee-role">Convenor</div>
 
@@ -966,6 +965,37 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="container p-5">
+        <h2>Registration Details</h2>
+        <p>Participants whose abstracts are accepted will be informed through email. Upon acceptance, participants are
+            required to complete the registration process by filling out the online Google Registration Form and uploading
+            the payment receipt/details.
+            In case of papers with multiple authors, each author must register separately and pay the applicable
+            registration fee individually. The registration link will be shared via email with the corresponding authors of
+            shortlisted abstracts.
+            Certificates will be provided to all registered participants. E-certificates will be issued only to participants
+            registered in online mode.</p>
+        <h4 class="text-danger">Registration Fees</h4>
+        <table cellpadding="10" cellspacing="0"
+            style="border-collapse: collapse; width: 50%; text-align: left;">
+            <tr>
+                <th>Category</th>
+                <th>Registration Fee</th>
+            </tr>
+            <tr>
+                <td>Indian Participants</td>
+                <td>Rs. 9,000/-</td>
+            </tr>
+            <tr>
+                <td>International Participants</td>
+                <td>USD 100/-</td>
+            </tr>
+        </table>
+        <h4 class="pt-5 text-danger">For Any queries Contact:</h4>
+        <p>Email: ICETIEDS@rgu.ac</p>
+        <p>Phone: 9821556483/9508756084</p>
     </section>
 
     <!-- Footer Section -->
