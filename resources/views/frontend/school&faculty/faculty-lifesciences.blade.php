@@ -478,7 +478,7 @@
                                     alt="Profile image of Ayushman Devraj">
                             </div>
                             <h3 class="card-name">Dr. Ayushman Devraj</h3>
-                            <p class="card-designation">Assistant Professor, Assistant Dean, Student Affairs</p>
+                            <p class="card-designation">Assistant Professor & Co-ordinator</p>
                             <a href="/faculty-ayushman-devra" class="profile-link">View Profile</a>
                         </div>
                     </div>

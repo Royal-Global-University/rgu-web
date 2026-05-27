@@ -30,11 +30,11 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Mr. Ayushman Devraj
+                                Dr. Ayushman Devraj
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor, Assistant Dean, Student Affairs
+                                Assistant Professor & Co-ordinator
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
@@ -299,12 +299,12 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Mr. Ayushman Devraj
+                            Dr. Ayushman Devraj
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
                             style="color: #27467A; font-weight: 700; font-size: 22px;">
-                            Assistant Professor, Assistant Dean, Student Affairs
+                            Assistant Professor & Co-ordinator
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
