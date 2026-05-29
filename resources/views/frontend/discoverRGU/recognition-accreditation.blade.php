@@ -533,10 +533,10 @@
                 title: "Recognised By University Grants Commission (UGC)",
                 htmlContent: `
                 <p>The Assam Royal Global University is a full-fledged Private University established under section 2(f) of the UGC Act and is included in the list of universities maintained by University Grants Commission with the right to confer degrees as per Section 22 of UGC Act, 1956.</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/UGC1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/UGC1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br><br>
                 <p>The Assam Royal Global University has fulfilled/ complied with all the criteria under Section 2f of the UGC Act, in terms of programmes, faculty, infrastructural facilities, financial viability etc. and the same has been duly accepted by UGC through its letter number F.8-30/2016(CPP-I/PU) dated 21st March 2024.</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/UGC2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/UGC2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/UGC.svg"
             },
@@ -545,9 +545,9 @@
                 title: "STATE GOVERNMENT",
                 htmlContent: `
                 <p>The Assam Royal Global University is established by ‘The Assam Royal Global University Act’, which has been notified by Government of Assam vide notification no. LGL.12/2013/22, in the year 2013.</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/state-govt1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/state-govt1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br>
-                <a href="assets/img/discover-rgu-recognition/pdf/state-govt2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/state-govt2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/state-govt.svg"
             },
@@ -556,7 +556,7 @@
                 title: "APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION",
                 htmlContent: `
                 <p>B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/AICTE.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/AICTE.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/aicte.svg"
             },
@@ -565,7 +565,7 @@
                 title: "ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE",
                 htmlContent: `
                 <p>B.Arch. programme/course is approved by Council of Architecture (COA).</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/COA.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/COA.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/architecture.svg"
             },
@@ -574,7 +574,7 @@
                 title: "LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA",
                 htmlContent: `
                 <p>BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/LAW_PROGRAMMES.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/LAW_PROGRAMMES.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/bar-council.svg"
             },
@@ -583,7 +583,7 @@
                 title: "NURSING PROGRAMMES APPROVED BY ASSAM NURSES' MIDWIVES' & HEALTH VISITORS' COUNCIL",
                 htmlContent: `
                 <p>B.Sc. Nursing programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC) <br> GNM programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/ANMHVC.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/ANMHVC.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/nurse.svg"
             },
@@ -592,7 +592,7 @@
                 title: "D.PHARM, B.PHARM. AND M.PHARM. PROGRAMMES ARE APPROVED BY PHARMACY COUNCIL OF INDIA(PCI)",
                 htmlContent: `
                 <p>D.Pharm., B.Pharm and M.Pharm Programmes are Approved by Pharmacy Council of India (PCI)</p>
-                <a href="assets/img/discover-rgu-recognition/pdf/PCI.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/PCI.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/pharmacy-council.svg"
             },
@@ -603,7 +603,7 @@
                 <p>GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)</p>
                 <a href="mobile-assets/pdf-2027/INC%20for%20GNM%202026-27%20letter.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br>
-                <a href="mobile-assets/pdf-2027/INC%20for%20BSN%202026-27%20letter.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/new-web/mobile-assets/pdf-2027/INC%20for%20BSN%202026-27%20letter.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/indian-nursing-council.svg"
             }
