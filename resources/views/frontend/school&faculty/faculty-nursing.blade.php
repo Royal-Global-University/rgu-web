@@ -302,7 +302,7 @@
                             </div>
                             <h3 class="card-name">Ms. Barnali Das</h3>
                             <p class="card-designation">Lecturer/Tutor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-ankita-sarma" class="profile-link">View Profile</a> --}}
+                            <a href="/barnali-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
