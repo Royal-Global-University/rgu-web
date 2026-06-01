@@ -1,146 +1,333 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Teaching Practices : The Assam Royal Global University')
-@section('meta_description', 'The Assam Royal Global University is upgrading its undergraduate programmes in the line of NEP, 2020. ')
+@section('meta_description', 'The Assam Royal Global University is upgrading its undergraduate programmes in the line of
+    NEP, 2020. ')
 @section('meta_keywords', 'Teaching Practices')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
 
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                                style="color: #264273; font-weight: 700;">Teaching <span
-                                    style="color: #FF9A1E; font-weight: 500;">Practice</span> </h2>
-                            <div class="txaa-slide-down-1">
-                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/teaching-practice/headimg.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
+    <style>
+        /* ==========================
+       TEACHING PRACTICE SECTION
+    ========================== */
 
-                            <p class="mobile-para1 mt-4" style="color: #264273; text-align: justify;">
-                                The Assam Royal Global University is upgrading its undergraduate programmes in line with NEP
-                                2020. Higher education plays an extremely important role in promoting human and societal
-                                well-being and in developing India as envisioned in its Constitution—a democratic, just,
-                                socially conscious, cultured, and humane nation upholding liberty, equality, fraternity, and
-                                justice for all. Higher education significantly contributes towards sustainable livelihoods and
-                                the economic development of the nation.
+        .teaching-practice-section {
+            padding: 80px 0 40px;
+            background: #EBF1FC;
+        }
 
-                                <span id="moreText" class="collapse">
-                                    A holistic and multidisciplinary education aims to develop all capacities of human
-                                    beings—intellectual, aesthetic, social, physical, emotional, and moral—in an integrated
-                                    manner. As India moves towards becoming a knowledge economy and society, more young Indians
-                                    are likely to aspire for higher education. NEP aims at making higher education a
-                                    multidisciplinary learning process with a flexible curriculum that allows students to take
-                                    up creative subject combinations. The new curriculum of different programmes under The Assam
-                                    Royal Global University will align with NEP 2020, making it more flexible,
-                                    multidisciplinary, and holistic.
-                                </span>
-                            </p>
-                            <button id="toggleBtn" class="btn btn-sm" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#moreText" aria-expanded="false" aria-controls="moreText"
-                                style="background-color: #264273; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; font-weight: 500; cursor: pointer;">
-                                Read More
-                            </button>
+        .teaching-practice-top {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
 
-                        </div>
-                    </div>
-                </div>
-            </section>
+        .teaching-practice-image {
+            flex: 0 0 48%;
+        }
 
-            <div class="container">
-                <img class="mt-3 mb-3 rounded" src="mobile-assets/teaching-practice/img1.png" alt="image">
+        .teaching-practice-image img {
+            width: 100%;
+            border-radius: 14px;
+            display: block;
+            transition: 0.4s ease;
+        }
 
-                <h2 class="mobile-headd3 fw-bold" style="color: #264273;">Teaching and Learning Process involves <span
-                        style="color: #FF9A1E;">classroom lectures as well as tutorials. </span>It includes:</h2>
+        .teaching-practice-image img:hover {
+            transform: scale(1.02);
+        }
 
-                <ol class="mobile-para1" style="color: #264273;">
-                    <li>Tutorials to have a closer interaction between the students and the teacher such that each student gets
-                        individual attention.</li>
-                    <li>Written assignments and projects submission by students for project-based learning.</li>
-                    <li>Students to be motivated to discover the relevant concepts, take part in discussions, and ask questions.
-                    </li>
-                    <li>Homework/assignments to make their concept clear.</li>
-                    <li>Quizzes and class tests.</li>
-                    <li>PPT presentations, seminars, interactive sessions.</li>
-                    <li>Co-curricular activities, etc.</li>
-                    <li>Industrial tours or field visits, etc.</li>
-                </ol>
+        .teaching-practice-content {
+            flex: 1;
+        }
 
-            </div>
+        .teaching-practice-content h2 {
+            color: #29437d;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: "Georgia", serif;
+        }
 
+        .teaching-practice-content p {
+            color: #555;
+            font-size: 1.6rem;
+            text-align: justify;
+            line-height: 1.9;
+            margin-bottom: 14px;
+        }
+
+        /* ==========================
+       FULL WIDTH BLUE SECTION
+    ========================== */
+
+        .teaching-practice-learning-wrap {
+            width: 100%;
+            background: #153a78;
+            margin-top: 40px;
+            border-top-left-radius: 60px;
+            border-top-right-radius: 60px;
+            padding: 70px 0;
+            overflow: hidden;
+        }
+
+        .teaching-practice-learning {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .teaching-practice-learning-content {
+            flex: 1;
+            color: #fff;
+        }
+
+        .teaching-practice-learning-content h2 {
+            color: #fff;
+            font-size: 3rem;
+            line-height: 1.25;
+            margin-bottom: 30px;
+            font-family: "Georgia", serif;
+            font-weight: 700;
+            max-width: 650px;
+        }
+
+        .teaching-practice-learning-content h2 span {
+            color: #f07d33;
+        }
+
+        .teaching-practice-learning-content ol {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .teaching-practice-learning-content li {
+            color: rgba(255, 255, 255, 0.92);
+            font-size: 1.5rem;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .teaching-practice-learning-image {
+            flex: 0 0 42%;
+        }
+
+        .teaching-practice-learning-image img {
+            width: 100%;
+            border-radius: 14px;
+            display: block;
+            transition: 0.4s ease;
+        }
+
+        .teaching-practice-learning-image img:hover {
+            transform: scale(1.03);
+        }
+
+        /* ==========================
+       RESPONSIVE
+    ========================== */
+
+        @media (max-width: 1199px) {
+
+            .teaching-practice-content h2,
+            .teaching-practice-learning-content h2 {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 991px) {
+
+            .teaching-practice-top,
+            .teaching-practice-learning {
+                flex-direction: column;
+            }
+
+            .teaching-practice-image,
+            .teaching-practice-learning-image {
+                flex: 0 0 100%;
+                width: 100%;
+            }
+
+            .teaching-practice-content h2,
+            .teaching-practice-learning-content h2 {
+                font-size: 32px;
+            }
+
+            .teaching-practice-learning-wrap {
+                padding: 60px 0;
+                border-top-left-radius: 40px;
+                border-top-right-radius: 40px;
+            }
+        }
+
+        @media (max-width: 767px) {
+
+            .teaching-practice-section {
+                padding: 50px 0 20px;
+            }
+
+            .teaching-practice-top {
+                gap: 30px;
+            }
+
+            .teaching-practice-content h2,
+            .teaching-practice-learning-content h2 {
+                font-size: 26px;
+                line-height: 1.35;
+            }
+
+            .teaching-practice-content p,
+            .teaching-practice-learning-content li {
+                font-size: 14px;
+            }
+
+            .teaching-practice-learning-wrap {
+                margin-top: 20px;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+            }
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/Academics-Student-Support-&-Development-Teaching-Practices/coverimg.png'); filter: blur(2px);">
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-        <div
-            style="background-image: url(mobile-assets/teaching-practice/bgg.svg); background-size: cover; height: 100vh; justify-content: center; align-items: center; display: flex;">
-            <div class="row d-flex align-items-center p-5">
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Teaching Practices</h1>
+            <div class="pg-hero-breadcrumb">
+                Academics / Student Support & Development / Teaching Practices
+            </div>
+        </div>
 
-                <div class="col-lg-6">
-                    <img style="border: 1px solid #264273; border-radius: 20px; width: 650px;"
-                        src="mobile-assets/teaching-practice/headimg.png" alt="image">
+    </section>
+
+
+    <section class="teaching-practice-section">
+        <div class="container">
+
+            <!-- Top Section -->
+            <div class="teaching-practice-top">
+
+                <div class="teaching-practice-image">
+                    <img src="/new-web/assets/img/Academics-Student-Support-&-Development-Teaching-Practices/img2.jpg"
+                        alt="Teaching Practices">
                 </div>
 
-                <div class="col-lg-6" style="color: #264273; text-align: justify;">
-                    <h2 class="headd1" style="color: #264273; font-weight: 700;">Teaching <span
-                            style="color: #FF9A1E; font-weight: 500;">Practices</h2>
-                    <p class="para1">
-                        The Assam Royal Global University is upgrading its undergraduate programmes in the line of NEP,
-                        2020. Higher education plays an extremely important role in promoting human and societal well-being
-                        and in developing India as envisioned in its Constitution - a democratic, just, socially conscious,
-                        cultured, and humane nation upholding liberty, equality, fraternity, and justice for all. Higher
-                        education significantly contributes towards sustainable livelihoods and economic development of the
-                        nation. A holistic and multidisciplinary education would aim to develop all capacities of human
-                        beings - intellectual, aesthetic, social, physical, emotional, and moral in an integrated manner. As
-                        India moves towards becoming a knowledge economy and society, more and more young Indians are likely
-                        to aspire for higher education. NEP aims at making higher education a multidisciplinary learning
-                        process. In other words, the curriculum will be flexible, it will allow students to take up creative
-                        subject combinations. The new curriculum of different programmes under The Assam Royal Global
-                        University will be in line of NEP, 2020 making it more flexible, multi-disciplinary and holistic.
+                <div class="teaching-practice-content">
+                    <h2>Teaching Practices</h2>
+
+                    <p>
+                        The Assam Royal Global University is upgrading its undergraduate
+                        programmes in line with NEP 2020. Higher education plays an
+                        extremely important role in promoting human and social well-being,
+                        and sustaining national development. The National Education Policy
+                        (NEP) 2020 addresses these challenges and aims to transform the
+                        higher educational system through curricular, pedagogical,
+                        institutional and academic reforms.
+                    </p>
+
+                    <p>
+                        A holistic and multidisciplinary education would aim to develop all
+                        capacities of human beings — intellectual, aesthetic, social,
+                        physical, emotional, and moral in an integrated manner. As India
+                        moves towards becoming a knowledge economy and society, more and
+                        more young Indians are likely to develop highly specialised skills
+                        in many areas.
+                    </p>
+
+                    <p>
+                        NEP 2020 envisions undergraduate education to become more flexible,
+                        multidisciplinary and holistic.
                     </p>
                 </div>
 
             </div>
+
         </div>
+    </section>
 
-        <div style="background-image: url(mobile-assets/teaching-practice/bg.svg); background-size: cover;">
-            <div class="row d-flex justify-content-center align-items-center p-5">
-                <div class="col-lg-6" style="color: #264273; text-align: justify;">
-                    <h2 class="headd3" style="color: #264273; font-weight: 700;">Teaching and Learning Process involves
-                        classroom lectures as well as tutorials. <span style="color: #FF9A1E; font-weight: 500;">It
-                            includes:</h2>
 
-                    <ol class="para1" style="color: #264273;">
-                        <li>Tutorials to have a closer interaction between the students and the teacher such that each
-                            student gets individual attention.</li>
-                        <li>Written assignments and projects submission by students for project-based learning.</li>
-                        <li>Students to be motivated to discover the relevant concepts to take part in discussions and ask
-                            questions.</li>
-                        <li>Homework/assignments to make their concept clear.</li>
+    <!-- Full Width Blue Section -->
+    <section class="teaching-practice-learning-wrap">
+
+        <div class="container">
+
+            <div class="teaching-practice-learning">
+
+                <div class="teaching-practice-learning-content">
+
+                    <h2>
+                        Teaching And <span>Learning</span> Process
+                        Involves Classroom Lectures As Well As Tutorials.
+                        It Includes:
+                    </h2>
+
+                    <ol>
+                        <li>
+                            Tutorials to have a closer interaction between the students and
+                            the teacher such that each student gets individual attention.
+                        </li>
+
+                        <li>
+                            Written assignments and projects submitted by students for
+                            projects-based learning.
+                        </li>
+
+                        <li>
+                            Students to be motivated to discover the relevant concepts to
+                            take part in discussions and ask questions.
+                        </li>
+
+                        <li>
+                            Homework assignments to make their concepts clear.
+                        </li>
+
                         <li>Quizzes and class tests.</li>
-                        <li>PPT presentations, Seminars, interactive sessions.</li>
+
+                        <li>PPT presentations, seminars and interactive sessions.</li>
+
                         <li>Co-curricular activity etc.</li>
+
                         <li>Industrial tours or field visits etc.</li>
                     </ol>
 
                 </div>
 
-                <div class="col-lg-6 text-center">
-                    <img style="border-radius: 20px; width: 550px;" src="mobile-assets/teaching-practice/img1.png"
-                        alt="image">
+                <div class="teaching-practice-learning-image">
+                    <img src="/new-web/assets/img/Academics-Student-Support-&-Development-Teaching-Practices/headimg.jpg"
+                        alt="Learning Process">
                 </div>
+
             </div>
+
         </div>
-    </div>
+
+    </section>
+
+    <script>
+        // Teaching Practice JS
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const teachingPracticeImages = document.querySelectorAll(
+                ".teaching-practice-image img, .teaching-practice-learning-image img"
+            );
+
+            teachingPracticeImages.forEach((img) => {
+                img.addEventListener("mouseenter", () => {
+                    img.style.transform = "scale(1.03)";
+                });
+
+                img.addEventListener("mouseleave", () => {
+                    img.style.transform = "scale(1)";
+                });
+            });
+
+        });
+    </script>
+
 @endsection
