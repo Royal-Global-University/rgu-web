@@ -272,7 +272,7 @@
         <div class="pg-hero-inner">
             <h1 class="pg-hero-title"> Statutes, Ordinance And Policies</h1>
             <div class="pg-hero-breadcrumb">
-                Discover RGU / Campus & Student Life / Statutes, Ordinance And Policies
+                Discover RGU / Policies & Administration / Statutes, Ordinance And Policies
             </div>
         </div>
 
@@ -311,7 +311,7 @@
             <div class="uxt2-panel active" id="t1">
                 <div class="uxt2-card">
                     <h3>The First Statute</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/The-First-Statutes-min.pdf" class="uxt2-download">
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/The-First-Statutes-min.pdf" class="uxt2-download">
                         DOWNLOAD <i class="fa fa-file-pdf-o"></i>
                     </a>
                 </div>
@@ -320,12 +320,12 @@
             <div class="uxt2-panel" id="t2">
                 <div class="uxt2-card">
                     <h3>The Ph.D. Regulations</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/1)-Ph.D.-Regulation-2024-(06-06-2024)-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/1)-Ph.D.-Regulation-2024-(06-06-2024)-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
                 <div class="uxt2-card">
                     <h3>Regulations on Grievance Redressal and Disciplinary Issues</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/1.-Policy-on-Regulation-on-Grievance-Redressal-and-Disciplinary-Issues-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/1.-Policy-on-Regulation-on-Grievance-Redressal-and-Disciplinary-Issues-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
             </div>
@@ -333,31 +333,31 @@
             <div class="uxt2-panel" id="t3">
                 <div class="uxt2-card">
                     <h3>Scholarship Policy 2023 - 2024</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/3.%20Policy%20on%20Scholarship%202023-24-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/3.%20Policy%20on%20Scholarship%202023-24-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Dean's Listers</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/10.%20Policy%20for%20Dean%20Listers-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/10.%20Policy%20for%20Dean%20Listers-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>University Colours</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/11.%20Policy%20on%20Awarding%20University%20Colours%20to%20Sportsman%20Scholar-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/11.%20Policy%20on%20Awarding%20University%20Colours%20to%20Sportsman%20Scholar-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Financial Assistance/ Sponsorship to attend academic/ sports events</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/12.%20Policy%20for%20Poviding%20Financial%20Assistance-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/12.%20Policy%20for%20Poviding%20Financial%20Assistance-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Fee concession to students winning laurels</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/13.%20Policy%20Relating%20to%20Fee%20Concession-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/13.%20Policy%20Relating%20to%20Fee%20Concession-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
@@ -366,74 +366,74 @@
             <div class="uxt2-panel" id="t4">
                 <div class="uxt2-card">
                     <h3>Research incentive policy</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/2.%20Policy%20on%20Research-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/2.%20Policy%20on%20Research-min.pdf"
                         class="uxt2-download">DOWNLOAD
                         <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Dress code policy for RGU employees</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/4.%20Policy%20on%20Dress%20Code-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/4.%20Policy%20on%20Dress%20Code-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Policy on revised remuneration for examination AY 2019 - 2020</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/6.%20Policy%20on%20Revised%20Remuneration%20AY%202019-20-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/6.%20Policy%20on%20Revised%20Remuneration%20AY%202019-20-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Policy for Performance Assessment of Faculty</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/8.%20Policy%20for%20Performance%20Assessment%20of%20Faculty-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/8.%20Policy%20for%20Performance%20Assessment%20of%20Faculty-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>RCCR Incentive Policy</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/9.%20Policy%20for%20RCCR%20incentive%20Scheme-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/9.%20Policy%20for%20RCCR%20incentive%20Scheme-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>RGU Research Fellowship</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/14.%20Policy%20for%20RGU%20Research%20Fellowship-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/14.%20Policy%20for%20RGU%20Research%20Fellowship-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Incentive Scheme for Staff members</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/15.%20Policy%20on%20Incentive%20Scheme%20for%20Academic%20Staff%20Members-min.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/15.%20Policy%20on%20Incentive%20Scheme%20for%20Academic%20Staff%20Members-min.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Leave Policy 2023</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/Leave%20Policy.pdf" class="uxt2-download">DOWNLOAD <i
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/Leave%20Policy.pdf" class="uxt2-download">DOWNLOAD <i
                             class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Energy Policy</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/Energy%20Policy.pdf" class="uxt2-download">DOWNLOAD
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/Energy%20Policy.pdf" class="uxt2-download">DOWNLOAD
                         <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Code of Conduct for RGU Staff Members</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/Code%20of%20Conduct%20for%20Staff%20Members.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/Code%20of%20Conduct%20for%20Staff%20Members.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Ph.D. fee related policy for faculty members</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/Ph.D.%20Fee%20rebate%20policy%20for%20faculty%20members.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/Ph.D.%20Fee%20rebate%20policy%20for%20faculty%20members.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 
                 <div class="uxt2-card">
                     <h3>Green Campus Policy</h3>
-                    <a href="assets/img/discover-rgu-statute-ordinance/Green%20Campus%20Policy.pdf"
+                    <a href="/new-web/assets/img/discover-rgu-statute-ordinance/Green%20Campus%20Policy.pdf"
                         class="uxt2-download">DOWNLOAD <i class="fa fa-file-pdf-o"></i></a>
                 </div>
 

@@ -418,7 +418,7 @@
         <div class="pg-hero-inner">
             <h1 class="pg-hero-title"> Recognition And Accreditation</h1>
             <div class="pg-hero-breadcrumb">
-                Discover RGU / Campus & Student Life / Accreditation And Recognition
+                Discover RGU / Excellence & Collaborations / Accreditation And Recognition
             </div>
         </div>
 
