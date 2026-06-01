@@ -34,7 +34,7 @@
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor & Co-ordinator
+                                Assistant Professor & Co-ordinator, Value-Added Courses (VACs)
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
@@ -304,7 +304,7 @@
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
                             style="color: #27467A; font-weight: 700; font-size: 22px;">
-                            Assistant Professor & Co-ordinator
+                            Assistant Professor & Co-ordinator, Value-Added Courses (VACs)
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
