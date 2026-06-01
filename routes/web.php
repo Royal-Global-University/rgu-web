@@ -5339,7 +5339,6 @@ Route::get('/faculty-suman-agarwal', function () {
 })->name('faculty-suman-agarwal');
 
 //RSN Facuilty Profile
-
 Route::get('/barnali-das', function () {
     return view('frontend/facultyprofile/rsn/barnali-das');
 })->name('barnali-das');
