@@ -197,18 +197,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Dr. Siddharth Shahi.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Siddharth Shahi</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-siddharth-shahi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Dr-Sayeda-Anjum-Afreen-RSBAS.png"
                                     alt="Profile image ">
                             </div>

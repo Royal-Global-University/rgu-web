@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-proceeds-with-fyugp', function () {
+    return view('frontend/media-corner/2026/june/news1');
+})->name('royal-global-university-proceeds-with-fyugp');
+
 Route::get('/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day', function () {
     return view('frontend/media-corner/2026/may/news2');
 })->name('royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day');
@@ -4880,10 +4884,6 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 Route::get('/faculty-priyanka-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsbas/priyanka-bhattacharjee');
 })->name('/faculty-priyanka-bhattacharjee');
-
-Route::get('/faculty-siddharth-shahi', function () {
-    return view('frontend/facultyprofile/rsbas/siddharth-shahi');
-})->name('/faculty-siddharth-shahi');
 
 Route::get('/faculty-lalnunpuii', function () {
     return view('frontend/facultyprofile/rsbas/lalnunpuii');

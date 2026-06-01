@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University Proceeds with FYUGP',
+                            'summary' => '',
+                            'date' => 'Guwahati, May 30, 2026:',
+                            'link' => '/royal-global-university-proceeds-with-fyugp',
+                            'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU), the premiere higher education institution in the North-east India is all set for full implementation of the NEP 2020 with students joining the final year programme under the Four-Year Undergraduate Programme (FYUGP).',
+                        ],
+                        [
                             'title' => 'Royal Global University & Tea Board of India jointly celebrates International Tea Day',
                             'summary' => '',
                             'date' => 'Guwahati, May 25, 2026:',
