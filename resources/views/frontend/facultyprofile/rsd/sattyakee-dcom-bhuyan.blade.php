@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-                Mr. Sattyakee D'Com Bhuyan
+                Sattyakee D'Com Bhuyan
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor & Deputy Dean, Student Affairs
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-               Mr. Sattyakee D'Com Bhuyan
+               Sattyakee D'Com Bhuyan
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor & Deputy Dean, Student Affairs

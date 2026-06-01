@@ -574,7 +574,7 @@
                 title: "LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA",
                 htmlContent: `
                 <p>BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).</p>
-                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/LAW_PROGRAMMES.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/mobile-assets/pdf/BCI 2026-27.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/bar-council.svg"
             },
