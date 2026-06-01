@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Dr. Rajat Subhra Dutta
+               Bhaskar Jyoti Dutta
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor
@@ -217,6 +217,7 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
+                <li><i class="fa fa-circle"></i> <span>PhD from NIPER Hajipur in Pharmaceutical Sciences</span></li>
               <li><i class="fa fa-circle"></i> <span>M.Pharm in Pharmacology from ISF college of Pharmacy</span></li>
               <li><i class="fa fa-circle"></i> <span>B.Pharm from Dibrugarh University</span></li>
             </ul>
