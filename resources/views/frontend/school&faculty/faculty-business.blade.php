@@ -225,7 +225,7 @@
                             </div>
                             <h3 class="card-name">Dr. Abheeshek Dev Roye</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-rishi-chakravarty" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-abheeshek-dev-roye" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

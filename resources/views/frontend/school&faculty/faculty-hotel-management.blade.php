@@ -236,7 +236,7 @@
                             </div>
                             <h3 class="card-name">Mr. Subrata Pal</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-subrata-pal" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -4814,6 +4814,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 //RSHM-RSTTM Faculty Profile
 
+Route::get('/faculty-subrata-pal', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/subrata-pal');
+})->name('faculty-subrata-pal');
+
 Route::get('/faculty-angshumi-goswami', function () {
     return view('frontend/facultyprofile/rshm-rsttm/angshumi-goswami');
 })->name('faculty-angshumi-goswami');
@@ -5277,6 +5281,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 })->name('faculty-bhupali-saikia');
 
 //RSB Facuilty Profile
+
+Route::get('/faculty-abheeshek-dev-roye', function () {
+    return view('frontend/facultyprofile/rsb/abheeshek-dev');
+})->name('faculty-abheeshek-dev-roye');
 
 Route::get('/faculty-bhabajyoti-saikia', function () {
     return view('frontend/facultyprofile/rsb/bhabajyoti-saikia');
