@@ -312,8 +312,8 @@
 
     <style>
         /* =========================================
-                       ORGANIZING COMMITTEE SECTION
-                    ========================================= */
+                               ORGANIZING COMMITTEE SECTION
+                            ========================================= */
 
         .committee-block {
             margin-top: 70px;
@@ -967,35 +967,219 @@
         </div>
     </section>
 
-    <section class="container p-5">
-        <h2>Registration Details</h2>
-        <p>Participants whose abstracts are accepted will be informed through email. Upon acceptance, participants are
-            required to complete the registration process by filling out the online Google Registration Form and uploading
-            the payment receipt/details.
-            In case of papers with multiple authors, each author must register separately and pay the applicable
-            registration fee individually. The registration link will be shared via email with the corresponding authors of
-            shortlisted abstracts.
-            Certificates will be provided to all registered participants. E-certificates will be issued only to participants
-            registered in online mode.</p>
-        <h4 class="text-danger">Registration Fees</h4>
-        <table cellpadding="10" cellspacing="0"
-            style="border-collapse: collapse; width: 50%; text-align: left;">
-            <tr>
-                <th>Category</th>
-                <th>Registration Fee</th>
-            </tr>
-            <tr>
-                <td>Indian Participants</td>
-                <td>Rs. 9,000/-</td>
-            </tr>
-            <tr>
-                <td>International Participants</td>
-                <td>USD 100/-</td>
-            </tr>
-        </table>
-        <h4 class="pt-5 text-danger">For Any queries Contact:</h4>
-        <p>Email: ICETIEDS@rgu.ac</p>
-        <p>Phone: 9821556483/9508756084</p>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6 p-3">
+                <h2>Registration Details</h2>
+                <p>Participants whose abstracts are accepted will be informed through email. Upon acceptance, participants
+                    are
+                    required to complete the registration process by filling out the online Google Registration Form and
+                    uploading
+                    the payment receipt/details.
+                    In case of papers with multiple authors, each author must register separately and pay the applicable
+                    registration fee individually. The registration link will be shared via email with the corresponding
+                    authors of
+                    shortlisted abstracts.
+                    Certificates will be provided to all registered participants. E-certificates will be issued only to
+                    participants
+                    registered in online mode.</p>
+                <h4 class="text-danger">Registration Fees</h4>
+                <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 50%; text-align: left;">
+                    <tr>
+                        <th>Category</th>
+                        <th>Registration Fee</th>
+                    </tr>
+                    <tr>
+                        <td>Indian Participants</td>
+                        <td>Rs. 9,000/-</td>
+                    </tr>
+                    <tr>
+                        <td>International Participants</td>
+                        <td>USD 100/-</td>
+                    </tr>
+                </table>
+                <h4 class="pt-5 text-danger">For Any queries Contact:</h4>
+                <p>Email: ICETIEDS@rgu.ac</p>
+                <p>Phone: 9821556483/9508756084</p>
+            </div>
+            <div class="col-lg-6 p-3 shadow" style="background-color: #f8f8f8">
+                <h1 style="font-size:32px; font-weight:bold; margin-bottom:20px;">
+
+                    Guidelines for Submission
+
+                </h1>
+
+                <p style="font-size:18px; text-align:justify;">
+
+                    All submitted abstracts will undergo review by a panel of subject matter experts.
+
+                    Upon acceptance of the abstract, the corresponding author will be notified to
+
+                    proceed with registration and full paper submission.
+
+                </p>
+
+                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
+
+                    Submission Requirements
+
+                </h2>
+
+                <ul style="font-size:18px; line-height:1.8;">
+
+                    <li><strong>Abstract Length:</strong> 250–300 words</li>
+
+                    <li><strong>Full Paper Length:</strong> 4000–5000 words (including references)</li>
+
+                    <li><strong>Document Format:</strong> MS Word</li>
+
+                    <li><strong>Acceptable Similarity Index:</strong> Less than 15%</li>
+
+                </ul>
+
+                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
+
+                    Formatting Guidelines
+
+                </h2>
+
+                <ul style="font-size:18px; line-height:1.8;">
+
+                    <li>
+
+                        <strong>Paper Size:</strong> A4 with 1-inch margin on all sides
+
+                    </li>
+
+                    <li>
+
+                        <strong>Main Text:</strong>
+
+                        <ul style="margin-top:10px;">
+
+                            <li>Font Style: Times New Roman</li>
+
+                            <li>Font Size: 12</li>
+
+                            <li>Line Spacing: 1.5</li>
+
+                            <li>Alignment: Justified</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+
+                        <strong>Title:</strong>
+
+                        <ul style="margin-top:10px;">
+
+                            <li>Font Style: Times New Roman</li>
+
+                            <li>Font Size: 14</li>
+
+                            <li>Bold</li>
+
+                            <li>Line Spacing: 1.5</li>
+
+                            <li>Alignment: Justified</li>
+
+                            <li>
+
+                                Author details (full name, designation, and affiliation)
+
+                                must be mentioned below the title.
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+
+                        <strong>Sub-headings:</strong>
+
+                        <ul style="margin-top:10px;">
+
+                            <li>Font Style: Times New Roman</li>
+
+                            <li>Font Size: 12</li>
+
+                            <li>Bold</li>
+
+                            <li>Line Spacing: 1.5</li>
+
+                            <li>Alignment: Justified</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+
+                        <strong>Referencing Style:</strong><br>
+
+                        APA Style (7th Edition)
+
+                    </li>
+
+                </ul>
+
+                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
+
+                    Important Notes
+
+                </h2>
+
+                <p style="font-size:18px; text-align:justify;">
+
+                    <strong>Note:</strong>
+
+                    The abstract must clearly include:
+
+                    <strong>Objectives</strong>,
+
+                    <strong>Design/Methodology</strong>,
+
+                    <strong>Major Findings</strong>.
+
+                    The abstract should also contain at least
+
+                    <strong>three (03) keywords</strong>.
+
+                </p>
+
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-top:40px;">
+
+                    <div style="width:60%;">
+
+                        <h2 style="font-size:32px; font-weight:bold;">
+
+                            Call for Abstract
+
+                        </h2>
+
+                        <p style="font-size:20px;">
+
+                            To submit an abstract,<br>
+
+                            click the link given below or scan the QR.
+
+                        </p>
+
+                    </div>
+
+                    <div style="width:250px; text-align:center;">
+
+                        <img src="/mobile-assets/ads/QR.png" alt="QR Code" style="width:220px; height:220px;">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer Section -->
