@@ -5609,6 +5609,10 @@ Route::get('/test/leadership-team', function () {
     return view('frontend/test/leadership-team');
 })->name('/test/leadership-team');
 
-Route::get('/test/statutes-ordinance-and-policies', function () {
-    return view('frontend/test/statutes-ordinance-and-policies');
-})->name('/test/statutes-ordinance-and-policies');
+Route::get('/test/leadership-team', function () {
+    return view('frontend/test/leadership-team');
+})->name('/test/leadership-team');
+
+Route::get('/test/leadership-team-ak-buragohain', function () {
+    return view('frontend/test/leadership-team-ak-buragohain');
+})->name('/test/leadership-team-ak-buragohain');

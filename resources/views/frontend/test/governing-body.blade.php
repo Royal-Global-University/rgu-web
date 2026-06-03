@@ -1,7 +1,6 @@
 @extends('frontend/new-master')
 @section('content')
-
-        <style>
+    <style>
         /* ===== GOVERNING BODY SECTION ===== */
 
         .gb-cards-section {
@@ -181,7 +180,6 @@
         }
     </style>
 
-
     <section class="pg-hero">
         <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg');"></div>
 
@@ -342,5 +340,4 @@
 
         </div>
     </div>
-
 @endsection

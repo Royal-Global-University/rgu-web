@@ -1,6 +1,5 @@
 @extends('frontend/new-master')
 @section('content')
-
     <style>
         /* RESET */
         body {
@@ -49,7 +48,7 @@
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg');"></div>
 
         <div class="pg-hero-bg"></div>
@@ -68,14 +67,15 @@
 
         <!-- 1 -->
         <div class="rgu-team-leadership-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="">
 
                 <picture>
                     <source media="(max-width: 768px)"
-                        srcset="/new-web/assets/discover-rgu-leadership-team/mob/dr-ashok-kr-pansari-mob.png">
+                        srcset="/new-web/assets/img/discover-rgu-leadership-team/mob/dr-ashok-kr-pansari-mob.png">
 
                     <img class="rgu-team-leadership-img"
-                        src="/new-web/assets/discover-rgu-leadership-team/web/dr-ashok-kr-pansari.png" alt="Dr. Ashok Kr Pansari">
+                        src="/new-web/assets/img/discover-rgu-leadership-team/web/dr-ashok-kr-pansari.png"
+                        alt="Dr. Ashok Kr Pansari">
                 </picture>
 
             </a>
@@ -83,16 +83,16 @@
 
         <!-- 2 -->
         <div class="rgu-team-leadership-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="">
 
                 <picture>
                     <!-- Mobile -->
                     <source media="(max-width: 768px)"
-                        srcset="/new-web/assets/discover-rgu-leadership-team/mob/sri-anil-kr-modi-mob.png">
+                        srcset="/new-web/assets/img/discover-rgu-leadership-team/mob/sri-anil-kr-modi-mob.png">
 
                     <!-- Desktop -->
                     <img class="rgu-team-leadership-img"
-                        src="/new-web/assets/discover-rgu-leadership-team/web/sri-anil-kr-modi.png" alt="Sri Anil Kr. Modi">
+                        src="/new-web/assets/img/discover-rgu-leadership-team/web/sri-anil-kr-modi.png" alt="Sri Anil Kr. Modi">
                 </picture>
 
             </a>
@@ -105,11 +105,11 @@
                 <picture>
                     <!-- Mobile -->
                     <source media="(max-width: 768px)"
-                        srcset="/new-web/assets/discover-rgu-leadership-team/mob/dr-alak-kr-buragohain-mob.png">
+                        srcset="/new-web/assets/img/discover-rgu-leadership-team/mob/dr-alak-kr-buragohain-mob.png">
 
                     <!-- Desktop -->
                     <img class="rgu-team-leadership-img"
-                        src="/new-web/assets/discover-rgu-leadership-team/web/dr-alak-kr-buragohain.png"
+                        src="/new-web/assets/img/discover-rgu-leadership-team/web/dr-alak-kr-buragohain.png"
                         alt="Dr. Alak Kr. Buragohain">
                 </picture>
 
@@ -117,9 +117,4 @@
         </div>
 
     </section>
-
-
-
-
 @endsection
-
