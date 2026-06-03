@@ -940,7 +940,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/sattyakee.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Sattyakee D'Com Bhuyan</h3>
-                            <p class="card-designation">Assistant Professor & Deputy Dean, Student Affairs</p>
+                            <p class="card-designation">Associate Dean</p>
                             <a href="/faculty-sattyakee-dcom-bhuyan" class="profile-link">View Profile</a>
                         </div>
                     </div>
