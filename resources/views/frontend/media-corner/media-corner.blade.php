@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 4, 2026:',
+                            'link' => '/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level',
+                            'image' => '/mobile-assets/media-corner/2026/jun/pra-1.jpeg',
+                            'content' => 'Two M. Pharm (Pharmacognosy Branch) students of the Royal School of Pharmacy, The Assam Royal Global University (RGU), brought laurels to the university by securing the State-Level 2nd Winner position at Pharma Anveshan 2026, Northeast Zone, held at Assam Down Town University recently. The achiever students are Ananya Saha and Tado Puning.',
+                        ],
+                        [
                             'title' => 'Royal Global University Proceeds with FYUGP',
                             'summary' => '',
                             'date' => 'Guwahati, May 30, 2026:',
