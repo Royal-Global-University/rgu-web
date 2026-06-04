@@ -1,444 +1,453 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
     <style>
-        /* PAGE */
+        /* =====================================================
+       RGU STUDENT AFFAIRS
+    ===================================================== */
 
-        .sa-page {
-            font-family: "Times New Roman", serif;
-            background: #f5f5f5;
-            color: #333;
-        }
-
-        /* HERO */
-
-        .sa-hero {
-            width: 100%;
+        .rgu-std-affairs-section {
+            background: #dfe4ef;
+            padding: 80px 0;
             overflow: hidden;
         }
 
-        .sa-hero img {
+        /* =====================================================
+       INTRO SECTION
+    ===================================================== */
+
+        .rgu-std-affairs-intro {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .rgu-std-affairs-image {
+            width: 42%;
+            flex-shrink: 0;
+        }
+
+        .rgu-std-affairs-image img {
             width: 100%;
-            height: auto;
             display: block;
+            border-radius: 12px;
+            object-fit: cover;
         }
 
-        /* ABOUT SECTION */
-
-        .sa-about-section {
-            padding: 4rem 0;
+        .rgu-std-affairs-content {
+            flex: 1;
         }
 
-        .sa-title {
-            font-size: clamp(1.8rem, 3vw, 2.4rem);
-            font-weight: 700;
+        .rgu-std-affairs-content h2 {
             color: #27467A;
-            margin-bottom: 1rem;
-        }
-
-        .sa-title span {
-            color: #f39c12;
-        }
-
-        /* LINKS */
-
-        .sa-links-box {
-            background: #e7dfd2;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-            height: 100%;
-        }
-
-        .sa-links-title {
+            font-size: 36px;
             font-weight: 700;
-            margin-bottom: 1rem;
-            color: #27467A;
+            margin-bottom: 15px;
+            font-family: "Playfair Display", serif;
         }
 
-        .sa-links-list {
-            padding-left: 1rem;
+        .rgu-std-affairs-content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+
+        /* =====================================================
+       DOCUMENTS
+    ===================================================== */
+
+        .rgu-std-affairs-doc-heading {
+            color: #27467A;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: "Playfair Display", serif;
+        }
+
+        .rgu-std-affairs-doc-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-bottom: 55px;
+        }
+
+        .rgu-std-affairs-doc-card {
+            background: #f3f3f3;
+            border: 1px solid #d6d6d6;
+            border-radius: 6px;
+            min-height: 86px;
+            padding: 16px 18px;
+            text-decoration: none;
+            transition: .3s ease;
+        }
+
+        .rgu-std-affairs-doc-card:hover {
+            background: #fff;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+        }
+
+        .rgu-std-affairs-doc-icon {
+            color: #f15a24;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .rgu-std-affairs-doc-title {
+            color: #1f3f77;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.4;
             margin: 0;
         }
 
-        .sa-links-list li {
-            margin-bottom: 0.5rem;
+        /* =====================================================
+       FUNCTIONS SECTION
+    ===================================================== */
+
+        .rgu-std-affairs-functions {
+            background: #27467A;
+            border-radius: 32px;
+            padding: 45px 25px;
         }
 
-        .sa-links-list a {
-            text-decoration: none;
+        .rgu-std-affairs-functions-title {
+            text-align: center;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            font-family: "Playfair Display", serif;
+        }
+
+        .rgu-std-affairs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .rgu-std-affairs-card {
+            background: #fff;
+            padding: 18px;
+            min-height: 180px;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+        }
+
+        .rgu-std-affairs-card h4 {
             color: #27467A;
-            font-size: 1.0rem;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
         }
 
-        /* ABOUT TEXT */
+        .rgu-std-affairs-card ul {
+            padding-left: 16px;
+            margin: 0;
+        }
 
-        .sa-about-text {
-            font-size: 1.5rem;
-            line-height: 1.7;
+        .rgu-std-affairs-card ul li {
             color: #555;
-            text-align: justify;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 6px;
         }
 
-        /* FUNCTIONS */
-
-        .sa-functions-section {
-            padding: 3rem 0 4rem 0;
-        }
-
-        .sa-functions-title {
+        .rgu-std-affairs-note {
             text-align: center;
-            font-size: clamp(2rem, 4vw, 2.6rem);
-            font-weight: 700;
-            color: #27467A;
-            margin-bottom: 2.5rem;
+            color: #d8e2ff;
+            font-size: 18px;
+            margin-top: 20px;
         }
 
-        .sa-functions-title span {
-            color: #f39c12;
-        }
+        /* =====================================================
+       RESPONSIVE
+    ===================================================== */
 
-        /* CARDS */
+        @media(max-width:991px) {
 
-        .sa-card {
-            background: #e7dfd2;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            position: relative;
-        }
-
-        .sa-card-title {
-            font-size: 1.7rem;
-            font-weight: 700;
-            color: #27467A;
-            margin-bottom: 0.6rem;
-        }
-
-        .sa-card-title span {
-            color: #f39c12;
-        }
-
-        .sa-card p {
-            font-size: 1.0rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.6;
-        }
-
-        /* CORNER ACCENT */
-
-        .sa-card:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            border-width: 0 0 1.6rem 1.6rem;
-            border-style: solid;
-            border-color: transparent transparent #f39c12 transparent;
-            border-radius: 0 0 0.4rem 0;
-        }
-
-        /* BOTTOM TEXT */
-
-        .sa-bottom-text {
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 600;
-            color: #27467A;
-            margin-top: 2rem;
-        }
-
-        /* MOBILE IMPROVEMENTS */
-
-        @media (max-width:768px) {
-
-            .sa-about-section {
-                padding: 2.5rem 0;
+            .rgu-std-affairs-intro {
+                flex-direction: column;
             }
 
-            .sa-functions-section {
-                padding: 2.5rem 0;
+            .rgu-std-affairs-image {
+                width: 100%;
             }
 
-            .sa-links-box {
-                margin-bottom: 1rem;
+            .rgu-std-affairs-doc-grid {
+                grid-template-columns: repeat(3, 1fr);
             }
 
+            .rgu-std-affairs-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
 
+        }
+
+        @media(max-width:767px) {
+
+            .rgu-std-affairs-section {
+                padding: 60px 0;
+            }
+
+            .rgu-std-affairs-content h2 {
+                font-size: 28px;
+            }
+
+            .rgu-std-affairs-doc-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .rgu-std-affairs-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .rgu-std-affairs-functions {
+                padding: 30px 15px;
+                border-radius: 20px;
+            }
+
+            .rgu-std-affairs-functions-title {
+                font-size: 26px;
+            }
+
+        }
+
+        @media(max-width:575px) {
+
+            .rgu-std-affairs-doc-grid {
+                grid-template-columns: 1fr;
+            }
 
         }
     </style>
 
-    <!-- for mobile query  -->
-    <style>
-        /* Mobile (Up to 767px) */
-        @media only screen and (max-width: 767px) {
-            .website {
-                display: none;
-            }
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/campus-student-affairs/cover-img.png'); filter: blur(2px);">
+        </div>
 
-            .mobile {
-                display: block;
-            }
-        }
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-        /* Tablet (768px - 1024px) */
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-            /* CSS rules for tablets */
-            .website {
-                display: none;
-            }
-
-            .mobile {
-                display: block;
-            }
-        }
-
-        /* Laptop (1025px - 1280px) */
-        @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-
-            /* CSS rules for laptops */
-            .website {
-                display: block;
-            }
-
-            .mobile {
-                display: none;
-            }
-        }
-
-        /* Desktop (1281px and above) */
-        @media only screen and (min-width: 1281px) {
-
-            /* CSS rules for desktops */
-            .website {
-                display: block;
-            }
-
-            .mobile {
-                display: none;
-            }
-        }
-    </style>
-
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-        <section class="sa-hero" style="padding-top: 100px; position: relative;">
-
-            <!-- insert hero image -->
-            <img src="https://www.rgu.ac/mobile-assets/student-affairs/mobb-header.png" alt="Student Affairs">
-
-        </section>
-    </div>
-
-    <div class="website">
-        @include('frontend/components/aheader')
-        <section class="sa-hero">
-
-            <!-- insert hero image -->
-            <img src="https://www.rgu.ac/mobile-assets/student-affairs/web-header.png" alt="Student Affairs">
-
-        </section>
-
-    </div>
-
-
-    <!-- ABOUT -->
-
-    <section class="sa-about-section text-dark">
-
-        <div class="container">
-
-            <div class="row g-4">
-
-                <div class="col-lg-4">
-
-                    <div class="sa-links-box">
-
-                        <h5 class="sa-links-title">Related Links</h5>
-
-                        <ul class="sa-links-list">
-
-                            <li><a href="https://www.rgu.ac/clubs ">Clubs</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Student_Council_SOP.pdf ">Students
-                                    Council SOP</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/StudentCouncil202223.pdf ">Students
-                                    Council 2022 - 2023</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf ">Activity
-                                    Report 2022 - 2023</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf ">Activity
-                                    Report 2023 - 2024</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf ">Reports
-                                    on Cultural Festivals</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf ">Reports
-                                    on Sports Festivals</a></li>
-                            <li><a target="_blank"
-                                    href="https://www.rgu.ac/mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf ">Reports
-                                    on Technical Fest</a></li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-                <div class="col-lg-8">
-
-                    <h2 class="sa-title">
-                        About Student <span>Affairs</span>
-                    </h2>
-
-                    <p class="sa-about-text">
-
-                        Department of Student Welfare is an important department of The Assam Royal Global University
-                        catering to the student welfare activities and dedicated to enhancing the overall student
-                        experience outside the classroom.
-
-                    </p>
-
-                    <p class="sa-about-text">
-
-                        The objectives of DSW includes holistic development, community building, essential support
-                        services, skill development, and nurtures leadership qualities and teamwork through various
-                        programmes and activities.
-
-                    </p>
-
-                </div>
-
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Student Affairs</h1>
+            <div class="pg-hero-breadcrumb">
+                Campus / Student Life & Engagement / Student Affairs
             </div>
-
         </div>
 
     </section>
 
-
-
-    <!-- FUNCTIONS -->
-
-    <section class="sa-functions-section text-dark">
-
+    <section class="rgu-std-affairs-section">
         <div class="container">
 
-            <h2 class="sa-functions-title">
-                Key Functions <span>And Responsibilities</span>
-            </h2>
+            <!-- INTRO -->
 
+            <div class="rgu-std-affairs-intro">
 
-            <div class="row g-4">
+                <div class="rgu-std-affairs-content">
+                    <h2>Student Affairs</h2>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Student <span>Support</span></h6>
-                        <p><b>Counselling:</b> Providing mental health support, counselling, and therapy.</p>
-                        <p><b>Health Services:</b> Offering medical care, health education, and wellness programmes.</p>
-                    </div>
+                    <p>
+                        Student Affairs at The Assam Royal Global University is dedicated
+                        to creating a vibrant, inclusive and enriching campus environment.
+                        The department supports students through academic engagement,
+                        leadership development, extracurricular participation and
+                        holistic well-being initiatives.
+                    </p>
+
+                    <p>
+                        Through a variety of student-centric programmes, activities and
+                        support services, Student Affairs ensures that every learner has
+                        opportunities to grow personally, socially and professionally
+                        throughout their university journey.
+                    </p>
                 </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Residential <span>Life</span></h6>
-                        <p><b>Housing:</b> Managing on-campus housing and assisting with off-campus housing resources.
-                        </p>
-                        <p><b>Residential programmes:</b> Organizing activities and programs to build community among
-                            residents.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Student Activities <span>Organizations</span></h6>
-                        <p><b>Clubs:</b> Supporting various student clubs and interest groups.</p>
-                        <p><b>Leadership Development:</b> Offering leadership training and development opportunities
-                            through departments and Student Council.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Career <span>Guidance</span></h6>
-                        <p><b>Career Counselling:</b> Assisting students with career planning and job search
-                            strategiesthrough Royal Centre for Corporate Relations.</p>
-                        <p><b>Internships:</b> Connecting students with internship and employment opportunities.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Student <span>Support</span></h6>
-                        <p><b>Cultural Programmes:</b> Promoting diversity and inclusion through events, fests, and
-                            programmes.</p>
-                        <p><b>Scholarship Support:</b> Providing resources and support for underrepresented student
-                            groups through different scholarships.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Academic <span>Support</span></h6>
-                        <p><b>Tutorial and Remedial support:</b> Offering academic assistance through remedial and
-                            tutorial classes.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Student Conduct <span>and Discipline</span></h6>
-                        <p><b>Code of Conduct:</b> Enforcing the university's code of conduct and handling disciplinary
-                            matters.</p>
-                        <p><b>Conflict Resolution:</b> Mediating conflicts and providing support for dispute resolution.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Campus Safety <span>and Security</span></h6>
-                        <p><b>Safety Protocols:</b> Implementing safety protocols and emergency response plans.</p>
-                        <p><b>Security Services:</b> Ensuring the physical security of the campus with 24X7 campus
-                            security in the form of digital and manual surveillance.</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="sa-card">
-                        <h6 class="sa-card-title">Extra-curricular <span>Activity</span></h6>
-                        <p><b>Sports:</b> Offering sports facilities, fitness programs, and intramural sports.</p>
-                        <p><b>Outdoor Activities:</b> Organizing outdoor recreational activities, field trips and
-                            extension activities.</p>
-                        <p><b>Club Services:</b> The 33 Clubs of the University function under the aegis of Student
-                            Affairs cater to the different co-curricular and extra-curricular aspects of the University.
-                        </p>
-                    </div>
-                </div>
-
 
             </div>
 
+            <!-- DOCUMENTS -->
 
-            <p class="sa-bottom-text">
-                Student Affairs plays a pivotal role in shaping the university experience, contributing to student
-                well-being, academic success, and personal growth.
-            </p>
+            <h3 class="rgu-std-affairs-doc-heading">
+                Related Documents & SOPs
+            </h3>
 
+            <div class="rgu-std-affairs-doc-grid">
+
+
+                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Student_Council_SOP.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Students Council SOP</p>
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/StudentCouncil202223.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Students Council 2022 - 2023</p>
+                    </div>
+                </a>
+
+                <a target="_blank"
+                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Activity Report 2022 - 2023</p>
+                    </div>
+                </a>
+
+                <a target="_blank"
+                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Activity Report 2023 - 2024</p>
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Reports on Cultural Festivals</p>
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Reports on Sports Festivals</p>
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf"
+                    class="rgu-std-affairs-doc-card">
+                    <div class="rgu-std-affairs-doc-content">
+                        <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
+                        <p class="rgu-std-affairs-doc-title">Reports on Technical Fest</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- FUNCTIONS -->
+
+            <div class="rgu-std-affairs-functions">
+
+                <h2 class="rgu-std-affairs-functions-title">
+                    Key Functions & Responsibilities
+                </h2>
+
+                <div class="rgu-std-affairs-grid">
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Student Support</h4>
+                        <ul>
+                            <li><strong>Counselling:</strong> Providing mental health support, counselling, and therapy.
+                            </li>
+                            <li><strong>Health Services:</strong> Offering medical care, health education, and wellness
+                                programmes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Residential Life</h4>
+                        <ul>
+                            <li><strong>Housing:</strong> Managing on-campus housing and assisting with off-campus
+                                housing resources.</li>
+                            <li><strong>Residential Programmes:</strong> Organizing activities and programs to build
+                                community among residents.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Student Activities & Organizations</h4>
+                        <ul>
+                            <li><strong>Clubs:</strong> Supporting various student clubs and interest groups.</li>
+                            <li><strong>Leadership Development:</strong> Offering leadership training and development
+                                opportunities through departments and Student Council.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Career Guidance</h4>
+                        <ul>
+                            <li><strong>Career Counselling:</strong> Assisting students with career planning and job
+                                search strategies through Royal Centre for Corporate Relations.</li>
+                            <li><strong>Internships:</strong> Connecting students with internship and employment
+                                opportunities.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Student Support</h4>
+                        <ul>
+                            <li><strong>Cultural Programmes:</strong> Promoting diversity and inclusion through events,
+                                fests, and programmes.</li>
+                            <li><strong>Scholarship Support:</strong> Providing resources and support for
+                                underrepresented student groups through different scholarships.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Academic Support</h4>
+                        <ul>
+                            <li><strong>Tutorial and Remedial Support:</strong> Offering academic assistance through
+                                remedial and tutorial classes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Student Conduct & Discipline</h4>
+                        <ul>
+                            <li><strong>Code of Conduct:</strong> Enforcing the university's code of conduct and
+                                handling disciplinary matters.</li>
+                            <li><strong>Conflict Resolution:</strong> Mediating conflicts and providing support for
+                                dispute resolution.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Campus Safety & Security</h4>
+                        <ul>
+                            <li><strong>Safety Protocols:</strong> Implementing safety protocols and emergency response
+                                plans.</li>
+                            <li><strong>Security Services:</strong> Ensuring the physical security of the campus with
+                                24×7 campus security in the form of digital and manual surveillance.</li>
+                        </ul>
+                    </div>
+
+                    <div class="rgu-std-affairs-card">
+                        <h4>Extra-curricular Activity</h4>
+                        <ul>
+                            <li><strong>Sports:</strong> Offering sports facilities, fitness programs, and intramural
+                                sports.</li>
+                            <li><strong>Outdoor Activities:</strong> Organizing outdoor recreational activities, field
+                                trips and extension activities.</li>
+                            <li><strong>Club Services:</strong> The 33 Clubs of the University function under the aegis
+                                of Student Affairs and cater to different co-curricular and extra-curricular aspects of
+                                the University.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="rgu-std-affairs-note">
+                    Student Affairs plays a pivotal role in shaping the holistic educational experience by fostering
+                    leadership, personal growth, community engagement, student well-being, academic success, and campus
+                    inclusivity.
+                </div>
+
+            </div>
 
         </div>
-
     </section>
 @endsection
