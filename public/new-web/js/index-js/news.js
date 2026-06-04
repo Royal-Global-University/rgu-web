@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, June 4, 2026",
+            title: "RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level",
+            desc: "Two M. Pharm (Pharmacognosy Branch) students of the Royal School of Pharmacy, The Assam Royal Global University (RGU), brought laurels to the university by securing the State-Level 2nd Winner position at Pharma Anveshan 2026, Northeast Zone, held at Assam Down Town University recently. The achiever students are Ananya Saha and Tado Puning.",
+            img: "/mobile-assets/media-corner/2026/jun/pra-1.jpeg",
+            link: "/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level",
+        },
+        {
             date: "Guwahati, May 25, 2026",
             title: "Royal Global University & Tea Board of India jointly celebrates International Tea Day",
             desc: "The Assam Royal Global University, in collaboration with the Tea Board of India, has recently celebrated International Tea Day 2026 with great enthusiasm and participation from students, faculty members, and distinguished guests. The celebration was conducted in accordance with this year’s International Tea Day theme, “Sustaining Tea, Supporting Communities,”",
