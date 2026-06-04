@@ -716,6 +716,11 @@
                     <li>Why India?</li>
                 </a>
             </ul>
+
+            <li
+                style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/jobs-vacancies" class="mobile-headd3 text-dark">Jobs Vacancies</a>
+            </li>
     </nav>
 </section>
 
