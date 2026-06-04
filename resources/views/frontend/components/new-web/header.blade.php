@@ -440,6 +440,13 @@
                     </a>
                 </div>
 
+                <div class="m-acc-item mb-5">
+                    <a style="text-decoration: none;" href="/jobs-vacancies" class="m-acc-header">
+                        Jobs Vacancies
+                    </a>
+                </div>
+
+
                 <a href="https://rgu.renocampus.com/hr/staff" class="erp-btn m-5">ERP LOGIN</a>
 
             </div>
