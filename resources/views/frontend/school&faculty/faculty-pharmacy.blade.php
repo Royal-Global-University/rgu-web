@@ -326,7 +326,7 @@
                             </div>
                             <h3 class="card-name">Ms. Chayanika Talukdar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-hadiuz-zaman" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-chayanika-talukdar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -531,7 +531,7 @@
                             </div>
                             <h3 class="card-name">Mr. Suman Basak</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-suman-basak" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
