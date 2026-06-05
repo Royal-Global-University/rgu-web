@@ -1016,7 +1016,7 @@
                         <tr>
                             <td class="sl-no">2</td>
                             <td>Sattyakee D’Com Bhuyan</td>
-                            <td>Deputy Dean & Outreach Coordinator</td>
+                            <td>Associate Dean</td>
                             <td>Student Welfare</td>
                         </tr>
                         <tr>
@@ -1063,8 +1063,8 @@
                         </tr>
                         <tr>
                             <td class="sl-no">11</td>
-                            <td>Ms. Nikita Biswakarma</td>
-                            <td>Teaching Assistant</td>
+                            <td>Arkupal Ra Acharya</td>
+                            <td>Research Scholar</td>
                             <td>Political Science & Public Administration</td>
                         </tr>
                     </tbody>
