@@ -257,17 +257,17 @@
                         </div>
                     </div>
 
-                    {{-- <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
+                                <img src="/mobile-assets/updated-faculty-img/Manowara Begum-website.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Moidul Islam Judder</h3>
+                            <h3 class="card-name">Dr. Monawara Begum</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/moidul-islam" class="profile-link">View Profile</a>
+                            {{-- <a href="https://www.rgu.ac/moidul-islam" class="profile-link">View Profile</a> --}}
                         </div>
-                    </div> --}}
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -330,6 +330,18 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Ekbal Hussain- website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Ekbal Hussain</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-hadiuz-zaman" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -352,6 +364,30 @@
                             <h3 class="card-name">Mr. Himanta Biswa Saikia</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/himanta-saikia" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Jyoti Bikash Kalita</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/himanta-saikia" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Kritika Saikia-website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Kritika Saikia</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/himanta-saikia" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
@@ -418,24 +454,36 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajana James Website.png"
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Rajana james</h3>
+                            <h3 class="card-name">Rafikul Islam</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-rajana-james" class="profile-link">View Profile</a>
+                            {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Rekib.jpg"
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Rekib Uddin Ahmed</h3>
+                            <h3 class="card-name">Mr. Rahul Amin</h3>
                             <p class="card-designation">Assistant Professor</p>
                             {{-- <a href="https://www.rgu.ac/payal-dasgupta" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Rajana James Website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Rajana james</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-rajana-james" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -495,6 +543,102 @@
                             </div>
                             <h3 class="card-name">Ms. Suparna Bhattacharjee</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Bitupan Rajbongshi-website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Bitupan Rajbongshi</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Mustafizur Rahman- website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Mustafizur Rahman</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. N Kimneiniang</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Piya Mandal- website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Piya Mandal</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Shahin Siddik</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Sonu Kumar Thakur</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Upasna Saikia-website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Upasana Saikia</h3>
+                            <p class="card-designation">Lecturer</p>
+                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Tanu Maibam- website.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Tanu Maibam</h3>
+                            <p class="card-designation">Lecturer</p>
                             {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
