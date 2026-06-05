@@ -1,327 +1,418 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                                style="color: #264273; font-weight: 700;">Pre-Arrival <span
-                                    style="color: #FF9A1E; font-weight: 500;">Document Checklist</span> </h2>
-                            <div class="txaa-slide-down-1">
-                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/intern-arrival/headimg.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
+    <style>
+        .intl-guide-section {
+            background: #dde3ee;
+            padding: 70px 0;
+        }
 
-                            <div class="pt-4">
-                                <p class="mobile-para1" style="color: #264273; font-size: 20px;">Carry the original and
-                                    photocopies of academic transcripts <br> (Mark sheet & Certificates) listed below and at
-                                    least 10 passport-sized photographs.
-                                </p>
-                                <ol class="mobile-para1" style="color: #264273; font-size: 20px;">
-                                    <li>Original along with a photocopy of PASSPORT / NATIONAL ID and VISA.</li>
-                                    <li>At the time of reporting and registration for your academic classes, provide the
-                                        original Fee Transfer Receipt (SWIFT Advice from your Bank) for your academic as well as
-                                        hostel fee.</li>
-                                    <li>To avoid medical complications at immigration checkpoints at international airports,
-                                        ensure that you have all necessary vaccinations (Yellow Fever, HIV, COVID-19, etc.).
-                                    </li>
-                                    <li>Carry a photocopy of the admission letter issued by Royal Global University at the time
-                                        of reporting at the university.</li>
-                                </ol>
-                            </div>
+        .intl-guide-section .container {
+            max-width: 1220px;
+        }
 
-                        </div>
-                    </div>
+        .intl-guide-top {
+            display: grid;
+            grid-template-columns: 1fr 1.1fr;
+            gap: 35px;
+            margin-bottom: 45px;
+            align-items: start;
+        }
+
+        .intl-guide-image img {
+            width: 100%;
+            border-radius: 14px;
+            display: block;
+        }
+
+        .intl-guide-title {
+            font-family: "Playfair Display", serif;
+            color: #27467a;
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .intl-guide-subtitle {
+            color: #666;
+            font-size: 1.8rem;
+            line-height: 1.9;
+            margin-bottom: 25px;
+        }
+
+        .intl-guide-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .intl-guide-list li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 18px;
+            color: #555;
+            font-size: 1.6rem;
+            line-height: 1.9;
+        }
+
+        .intl-guide-list li::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            background: #e36c38;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 12px;
+        }
+
+        .intl-guide-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+            margin-bottom: 50px;
+        }
+
+        .intl-guide-info h3,
+        .intl-guide-content h3 {
+            font-family: "Playfair Display", serif;
+            color: #27467a;
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .intl-guide-card {
+            background: #f8f7f6;
+            border-radius: 16px;
+            padding: 28px;
+        }
+
+        .intl-guide-card h3 {
+            font-family: "Playfair Display", serif;
+            color: #27467a;
+            font-size: 2.6rem;
+            margin-bottom: 18px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        .intl-guide-card p {
+            font-size: 1.6rem;
+            line-height: 1.9;
+            color: #555;
+        }
+
+        .intl-guide-content p {
+            color: #555;
+            font-size: 1.6rem;
+            line-height: 1.9;
+        }
+
+        .intl-guide-bottom {
+            display: grid;
+            grid-template-columns: 1.1fr .9fr;
+            gap: 35px;
+            margin-bottom: 50px;
+        }
+
+        .intl-guide-notes h2 {
+            font-family: "Playfair Display", serif;
+            color: #27467a;
+            font-size: 3.3rem;
+            margin-bottom: 25px;
+        }
+
+        .intl-guide-contact {
+            background: #f8f7f6;
+            border-radius: 18px 18px 50px 18px;
+            padding: 35px;
+        }
+
+        .intl-guide-contact h2 {
+            font-family: "Playfair Display", serif;
+            color: #27467a;
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        .intl-guide-contact-line {
+            height: 1px;
+            background: #d7d7d7;
+            margin-bottom: 25px;
+        }
+
+        .intl-guide-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 18px;
+        }
+
+        .intl-guide-contact-item i {
+            color: #e36c38;
+            font-size: 18px;
+            width: 20px;
+        }
+
+        .intl-guide-contact-item span {
+            color: #555;
+            font-size: 1.8rem;
+        }
+
+        @media(max-width:991px) {
+
+            .intl-guide-top,
+            .intl-guide-grid,
+            .intl-guide-bottom {
+                grid-template-columns: 1fr;
+            }
+
+            .intl-guide-title {
+                font-size: 3.2rem;
+            }
+
+            .intl-guide-notes h2 {
+                font-size: 2.8rem;
+            }
+
+            .intl-guide-contact h2 {
+                font-size: 2.3rem;
+            }
+        }
+
+        @media(max-width:767px) {
+
+            .intl-guide-section {
+                padding: 50px 0;
+            }
+
+            .intl-guide-title {
+                font-size: 2.6rem;
+            }
+
+            .intl-guide-card h3,
+            .intl-guide-info h3,
+            .intl-guide-content h3 {
+                font-size: 2rem;
+            }
+
+            .intl-guide-notes h2 {
+                font-size: 2.2rem;
+            }
+
+            .intl-guide-contact h2 {
+                font-size: 1.9rem;
+            }
+        }
+    </style>
+
+        <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/pre-post-arrival/cover.png'); filter: blur(2px);">
+        </div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Pre-Arrival, Post-Arrival</h1>
+            <div class="pg-hero-breadcrumb">
+                International / Pre-Arrival, Post-Arrival
+            </div>
+        </div>
+
+    </section>
+
+    <section class="intl-guide-section">
+        <div class="container">
+
+            <!-- Row 1 -->
+            <div class="intl-guide-top">
+
+                <div class="intl-guide-image">
+                    <img src="/new-web/assets/img/pre-post-arrival/img1.png" alt="">
                 </div>
-            </section>
-            <hr>
-            <section
-                style="background-image: url(mobile-assets/intern-arrival/bg.svg); background-size: cover; padding: 30px 0px 30px 0px;">
-                <div class="container">
-                    <h2 class="mobile-headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
-                        Other important <span style="color: #FF9A1E; font-weight: 500;">information</span>
+
+                <div class="intl-guide-checklist">
+
+                    <h2 class="intl-guide-title">
+                        Document Checklist
                     </h2>
-                    <ol class="custom-ol mobile-para1 pb-3" style="color: #264273;">
-                        <li>Students are recommended to carry a sufficient amount of cash or credit cards. If carrying foreign
-                            currency, they can get it exchanged at a currency exchange counter at all international airports.
+
+                    <p class="intl-guide-subtitle">
+                        Carry the original and photocopies of academic transcripts
+                        (Mark sheet & Certificates) listed below and at least 10 passport-sized photographs.
+                    </p>
+
+                    <ul class="intl-guide-list">
+                        <li>Original along with a photocopy of PASSPORT / NATIONAL ID and VISA.</li>
+
+                        <li>
+                            At the time of reporting and registration for your academic classes, provide the original
+                            Fee Transfer Receipt (SWIFT Advice from your Bank) for your academic as well as hostel fee.
                         </li>
-                        <li>Keep all your valuables and important documents (Passport, Visa papers, Acceptance letter, Academic
-                            Certificates, etc.) in your cabin/hand baggage to avoid the possibility of misplacement at the
-                            airport.</li>
-                        <li>To avail the complimentary pick-up service from the airport, kindly mention the requirement via
-                            email to Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs.</li>
-                        <li>Email: gkanand@rgu.ac, Phone: +91 9864049818</li>
-                    </ol>
 
-                    <hr>
+                        <li>
+                            To avoid medical complications at immigration checkpoints at international airports, ensure
+                            that you have all necessary vaccinations (Yellow Fever, HIV, COVID-19, etc.).
+                        </li>
 
-                    <h2 class="mobile-headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                        Reporting to the <span style="color: #FF9A1E; font-weight: 500;">University</span>
-                    </h2>
-                    <p class="mobile-para1" style="color: #264273;">
+                        <li>
+                            Carry a photocopy of the admission letter issued by Royal Global University at the time of
+                            reporting at the university.
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Row 2 -->
+            <div class="intl-guide-grid">
+
+                <div class="intl-guide-info">
+                    <h3>Other Important Information</h3>
+
+                    <ul class="intl-guide-list">
+                        <li>
+                            Students are recommended to carry a sufficient amount of cash or credit cards. If carrying
+                            foreign currency, they can get it exchanged at a currency exchange counter at all
+                            international airports.
+                        </li>
+
+                        <li>
+                            Keep all your valuables and important documents (Passport, Visa papers, Acceptance letter,
+                            Academic Certificates, etc.) in your cabin/hand baggage to avoid the possibility of
+                            misplacement at the airport.
+                        </li>
+
+                        <li>
+                            To avail the complimentary pick-up service from the airport, kindly mention the requirement
+                            via email to Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs.
+                        </li>
+
+                        <li>
+                            Email: gkanand@rgu.ac, Phone: +91 9864049818
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="intl-guide-card">
+                    <h3>Reporting To The University</h3>
+
+                    <p>
                         Students are required to report to the university at least 3 days prior to the date of batch
-                        commencement. To avail hostel facilities students must book their preferred rooms and pay their hostel
-                        fees in advance to avoid any hassles. The students who have not applied for the hostel facilities will
-                        be allowed to opt for the facilities as per the availability of rooms. Depending upon the availability
-                        of rooms students can deposit hostel fees on the day of their reporting at the campus.
+                        commencement. To avail hostel facilities students must book their preferred rooms and pay their
+                        hostel fees in advance to avoid any hassles. The students who have not applied for the hostel
+                        facilities will be allowed to opt for the facilities as per the availability of rooms. Depending
+                        upon the availability of rooms students can deposit hostel fees on the day of their reporting at
+                        the campus.
+
+
+                    </p>
+                </div>
+
+                <div class="intl-guide-card">
+                    <h3>Medical Insurance</h3>
+
+                    <p>
+                        International students are advised to carry their Health/Medical Insurance and one copy of the
+                        same must be submitted at the University at the time of Reporting at University.
+                    </p>
+                </div>
+
+                <div class="intl-guide-content">
+                    <h3>Climate, Food And Culture</h3>
+
+                    <p>
+                        Assam has a moderate temperature which ranges between 30⁰C to 38⁰C during summer and between
+                        15⁰C to 21⁰C during winter, students are accordingly advised to pack their bags. The remaining
+                        months of the year are usually pleasant.
                     </p>
 
-                    <hr>
-
-                    <h2 class="mobile-headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                        Medical <span style="color: #FF9A1E; font-weight: 500;">Insurance</span>
-                    </h2>
-                    <p class="mobile-para1" style="color: #264273;">
-                        International students are advised to carry their Health/Medical Insurance and one copy of the same must
-                        be submitted at the University at the time of Reporting at University.
+                    <p>
+                        Students are advised to search more about the location of Royal Global University, Indian food,
+                        its culture and important tourist places in and around Guwahati city.
                     </p>
+                </div>
 
-                    <hr>
+            </div>
 
-                    <h2 class="mobile-headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                        Climate, Food and <span style="color: #FF9A1E; font-weight: 500;">Culture</span>
-                    </h2>
-                    <p class="mobile-para1" style="color: #264273;">
-                        Assam has a moderate temperature which ranges between 30⁰C to 38⁰C during summer and between 15⁰C to
-                        21⁰C during winter, students are accordingly advised to pack their bags. The remaining months of the
-                        year are usually pleasant.
-                    </p>
+            <!-- Row 3 -->
+            <div class="intl-guide-bottom">
 
-                    <p class="mobile-para1" style="color: #264273;">
-                        Students are advised to search more about the location of Royal Global University, Indian food, its
-                        culture and important tourist places in and around Guwahati city.
-                    </p>
+                <div class="intl-guide-notes">
+                    <h2>All Students Must Note The Following Points:</h2>
 
-                    <p class="mobile-para1 fw-bold" style="color: #264273;">
-                        All students must note the following points:
-                    </p>
+                    <ul class="intl-guide-list">
+                        <li>RGU is a Non-Alcoholic Campus. Any student found smoking or consuming drugs/alcoholic drinks
+                            inside university premises (Campus, Hostel, Classrooms, Restrooms, etc.) will be reported
+                            immediately to their local guardian or parents.</li>
 
-                    <ol class="mobile-para1" style="color: #264273;">
-                        <li>RGU is a Non-Alcoholic Campus. Any student found smoking or consuming drugs/alcoholic drinks inside
-                            university premises (Campus, Hostel, Classrooms, Restrooms, etc.) will be reported immediately to
-                            their local guardian or parents.</li>
                         <li>We have zero tolerance for ragging. Any student found involved in ragging will have to face
                             stringent action.</li>
-                        <li>RGU is a Wi-Fi-enabled campus, so students are suggested to carry their own laptops and smartphones.
-                        </li>
-                        <li>A standard uniform is required for all students enrolled in all courses. Students of Nursing and
-                            Hotel Management are required to wear separate uniforms during their lab work.</li>
-                        <li>Hostel rooms are equipped with modern amenities like lift facilities, air conditioning, study areas,
-                            unwinding rooms, a gymnasium, a common TV, and other basic amenities. Students can purchase all
-                            other personalized items from the University Student Gallery.</li>
-                        <li>Indian mobile SIM cards can be purchased from representatives of service providers. Students are
-                            advised to connect with the Senior Manager, Branding & Communication.</li>
-                    </ol>
 
-                    <hr>
+                        <li>RGU is a Wi-Fi-enabled campus, so students are suggested to carry their own laptops and
+                            smartphones.</li>
 
-                    <h2 class="mobile-headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                        Post Arrival <span style="color: #FF9A1E; font-weight: 500;">Information</span>
-                    </h2>
-                    <ol class="mobile-para1" style="color: #264273;">
-                        <li>Students are required to report to the Branding & Communication department in Block-A, ground floor.
-                        </li>
+                        <li>A standard uniform is required for all students enrolled in all courses. Students of Nursing
+                            and Hotel Management are required to wear separate uniforms during their lab work.</li>
+
+                        <li>Hostel rooms are equipped with modern amenities like lift facilities, air conditioning,
+                            study areas, unwinding rooms, a gymnasium, a common TV, and other basic amenities. Students
+                            can purchase all other personalized items from the University Student Gallery.</li>
+
+                        <li>Indian mobile SIM cards can be purchased from representatives of service providers. Students
+                            are advised to connect with the Senior Manager, Branding & Communication.</li>
+                    </ul>
+                </div>
+
+                <div class="intl-guide-card">
+                    <h3>Post Arrival Information</h3>
+
+                    <ul class="intl-guide-list">
+                        <li>Students are required to report to the Branding & Communication Department in Block-A,
+                            Ground Floor.</li>
+
                         <li>Students are required to complete their FRRO registration process.</li>
-                        <li>After completing the registration process and clearance of documentation and payments, students can
-                            move to the hostel.</li>
-                    </ol>
 
-                    <h2 class="mobile-headd3 fw-bold pb-3 pt-4" style="color: #264273; font-weight: 800;">
-                        For any support or guidance, international students (present or future) <span
-                            style="color: #FF9A1E; font-weight: 500;">can connect with:</span>
-                    </h2>
+                        <li>After completing the registration process and clearance of documentation and payments,
+                            students can move to the hostel.</li>
+                    </ul>
                 </div>
 
-                <div class="container">
-                    <div class="container"
-                        style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
-                        <p class="mobile-mobile-headd3" style="font-weight: bold;">Contact:</p>
-                        <p class="mobile-para1">Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel:+919864049818"
-                                style="color: white; text-decoration: none;">+91 9864049818</a></p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto:gkanand@rgu.ac"
-                                style="color: white; text-decoration: none;">gkanand@rgu.ac</a></p>
-                        <a href="tel:+919864049818" class="mobile-call-btn fw-bold"
-                            style="text-decoration: none; background: #FF9A1E; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
-                            Call Now
-                        </a>
-                    </div>
-                </div>
-            </section>
+            </div>
 
+            <!-- Contact Card -->
+            <div class="intl-guide-contact">
+
+                <h2>
+                    For Any Support Or Guidance, International Students
+                    (Present Or Future) Can Connect With:
+                </h2>
+
+                <div class="intl-guide-contact-line"></div>
+
+                <div class="intl-guide-contact-item">
+                    <i class="fa fa-user-o"></i>
+                    <span>
+                        Ms. Gurpreet Kaur Anand, Deputy Director,
+                        The Office of International Affairs
+                    </span>
+                </div>
+
+                <div class="intl-guide-contact-item">
+                    <i class="fa fa-phone"></i>
+                    <span>Ph. no: +91 9864049818</span>
+                </div>
+
+                <div class="intl-guide-contact-item">
+                    <i class="fa fa-envelope-o"></i>
+                    <span>Email: gkanand@rgu.ac</span>
+                </div>
+
+            </div>
 
         </div>
-    </div>
+    </section>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
-
-        <!--head image Section-->
-        <section
-            style="background-image: url(mobile-assets/intern-arrival/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/intern-arrival/headimg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-
-                        <h2 class="headd1" style="color: #264273; font-weight: 700;">Pre-<span
-                                style="color: #FF9A1E; font-weight: 500;">Arrival</span> <br> Document <span
-                                style="color: #FF9A1E; font-weight: 500;">Checklist</span> </h2>
-                        <p class="para1" style="color: #264273; font-size: 20px;">Carry the original and photocopies of
-                            academic transcripts <br> (Mark sheet & Certificates) listed below and at least 10
-                            passport-sized photographs.
-                        </p>
-                        <ol class="para1" style="color: #264273; font-size: 20px;">
-                            <li>Original along with a photocopy of PASSPORT / NATIONAL ID and VISA.</li>
-                            <li>At the time of reporting and registration for your academic classes, provide the original
-                                Fee Transfer Receipt (SWIFT Advice from your Bank) for your academic as well as hostel fee.
-                            </li>
-                            <li>To avoid medical complications at immigration checkpoints at international airports, ensure
-                                that you have all necessary vaccinations (Yellow Fever, HIV, COVID-19, etc.).</li>
-                            <li>Carry a photocopy of the admission letter issued by Royal Global University at the time of
-                                reporting at the university.</li>
-                        </ol>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--head image Section-->
-
-
-        <section
-            style="background-image: url(mobile-assets/intern-arrival/bg.svg); background-size: cover; padding: 30px 0px 30px 0px;">
-            <div class="container">
-                <h2 class="headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
-                    Other important <span style="color: #FF9A1E; font-weight: 500;">information</span>
-                </h2>
-                <ol class="custom-ol para1 pb-3" style="color: #264273;">
-                    <li>Students are recommended to carry a sufficient amount of cash or credit cards. If carrying foreign
-                        currency, they can get it exchanged at a currency exchange counter at all international airports.
-                    </li>
-                    <li>Keep all your valuables and important documents (Passport, Visa papers, Acceptance letter, Academic
-                        Certificates, etc.) in your cabin/hand baggage to avoid the possibility of misplacement at the
-                        airport.</li>
-                    <li>To avail the complimentary pick-up service from the airport, kindly mention the requirement via
-                        email to Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs.</li>
-                    <li>Email: gkanand@rgu.ac, Phone: +91 9864049818</li>
-                </ol>
-
-                <hr>
-
-                <h2 class="headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Reporting to the <span style="color: #FF9A1E; font-weight: 500;">University</span>
-                </h2>
-                <p class="para1" style="color: #264273;">
-                    Students are required to report to the university at least 3 days prior to the date of batch
-                    commencement. To avail hostel facilities students must book their preferred rooms and pay their hostel
-                    fees in advance to avoid any hassles. The students who have not applied for the hostel facilities will
-                    be allowed to opt for the facilities as per the availability of rooms. Depending upon the availability
-                    of rooms students can deposit hostel fees on the day of their reporting at the campus.
-                </p>
-
-                <hr>
-
-                <h2 class="headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Medical <span style="color: #FF9A1E; font-weight: 500;">Insurance</span>
-                </h2>
-                <p class="para1" style="color: #264273;">
-                    International students are advised to carry their Health/Medical Insurance and one copy of the same must
-                    be submitted at the University at the time of Reporting at University.
-                </p>
-
-                <hr>
-
-                <h2 class="headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Climate, Food and <span style="color: #FF9A1E; font-weight: 500;">Culture</span>
-                </h2>
-                <p class="para1" style="color: #264273;">
-                    Assam has a moderate temperature which ranges between 30⁰C to 38⁰C during summer and between 15⁰C to
-                    21⁰C during winter, students are accordingly advised to pack their bags. The remaining months of the
-                    year are usually pleasant.
-                </p>
-
-                <p class="para1" style="color: #264273;">
-                    Students are advised to search more about the location of Royal Global University, Indian food, its
-                    culture and important tourist places in and around Guwahati city.
-                </p>
-
-                <p class="para1 fw-bold" style="color: #264273;">
-                    All students must note the following points:
-                </p>
-
-                <ol class="para1" style="color: #264273;">
-                    <li>RGU is a Non-Alcoholic Campus. Any student found smoking or consuming drugs/alcoholic drinks inside
-                        university premises (Campus, Hostel, Classrooms, Restrooms, etc.) will be reported immediately to
-                        their local guardian or parents.</li>
-                    <li>We have zero tolerance for ragging. Any student found involved in ragging will have to face
-                        stringent action.</li>
-                    <li>RGU is a Wi-Fi-enabled campus, so students are suggested to carry their own laptops and smartphones.
-                    </li>
-                    <li>A standard uniform is required for all students enrolled in all courses. Students of Nursing and
-                        Hotel Management are required to wear separate uniforms during their lab work.</li>
-                    <li>Hostel rooms are equipped with modern amenities like lift facilities, air conditioning, study areas,
-                        unwinding rooms, a gymnasium, a common TV, and other basic amenities. Students can purchase all
-                        other personalized items from the University Student Gallery.</li>
-                    <li>Indian mobile SIM cards can be purchased from representatives of service providers. Students are
-                        advised to connect with the Senior Manager, Branding & Communication.</li>
-                </ol>
-
-                <hr>
-
-                <h2 class="headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Post Arrival <span style="color: #FF9A1E; font-weight: 500;">Information</span>
-                </h2>
-                <ol class="para1" style="color: #264273;">
-                    <li>Students are required to report to the Branding & Communication department in Block-A, ground floor.
-                    </li>
-                    <li>Students are required to complete their FRRO registration process.</li>
-                    <li>After completing the registration process and clearance of documentation and payments, students can
-                        move to the hostel.</li>
-                </ol>
-
-                <h2 class="headd3 fw-bold pb-3 pt-4" style="color: #264273; font-weight: 800;">
-                    For any support or guidance, international students (present or future) <span
-                        style="color: #FF9A1E; font-weight: 500;">can connect with:</span>
-                </h2>
-            </div>
-        </section>
-
-        <section style="border-bottom: 4px solid #1f3b6f;">
-            <div class="contact-section">
-
-                <div class="contact-icon">
-                    <img style="width: 120px; height: 100%;" src="lakshya/International/helpline/telephone-call.png"
-                        alt="Phone Icon">
-                </div>
-
-                <div class="contact-info">
-                    <div class="contact-title">Contact:</div>
-                    <div class="contact-details">
-                        Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                    </div>
-                    <div class="contact-bold">Ph. no: +91 9864049818</div>
-                    <div class="contact-bold">Email: gkanand@rgu.ac</div>
-                </div>
-
-            </div>
-        </section>
-
-    </div>
 @endsection
