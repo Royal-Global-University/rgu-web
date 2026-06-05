@@ -556,7 +556,7 @@
                 title: "APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION",
                 htmlContent: `
                 <p>B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).</p>
-                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/AICTE.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/mobile-assets/ads/AICTE EoA 26-27.PDF" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/aicte.svg"
             },
@@ -565,7 +565,7 @@
                 title: "ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE",
                 htmlContent: `
                 <p>B.Arch. programme/course is approved by Council of Architecture (COA).</p>
-                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/COA.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/mobile-assets/ads/Extension of Approval 2026-28.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/architecture.svg"
             },
