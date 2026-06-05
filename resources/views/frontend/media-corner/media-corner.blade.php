@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University observes World Environment Day',
+                            'summary' => 'Become mini ambassadors of environmental development: Brig N C Khuman at RGU',
+                            'date' => 'Guwahati, June 5, 2026:',
+                            'link' => '/royal-global-university-observes-world-environment-day',
+                            'image' => '/mobile-assets/media-corner/2026/jun/1/1.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) observed World Environment Day with great enthusiasm and commitment through a series of awareness and community engagement activities.',
+                        ],
+                        [
                             'title' => 'RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level',
                             'summary' => '',
                             'date' => 'Guwahati, June 4, 2026:',

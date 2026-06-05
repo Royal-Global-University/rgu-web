@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-observes-world-environment-day', function () {
+    return view('frontend/media-corner/2026/june/news3');
+})->name('royal-global-university-observes-world-environment-day');
+
 Route::get('/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level', function () {
     return view('frontend/media-corner/2026/june/news2');
 })->name('rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level');

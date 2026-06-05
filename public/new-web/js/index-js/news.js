@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, June 5, 2026",
+            title: "Royal Global University observes World Environment Day",
+            desc: "The Assam Royal Global University (RGU) observed World Environment Day with great enthusiasm and commitment through a series of awareness and community engagement activities. The programmes witnessed participation from more than 200 NCC cadets from different colleges of the city along with environmental experts, academicians and social activists. On the other hand, the RGU NSS Cell also observed the day with a series of meaningful activities including a tree plantation drive in neighbouring LP schools and a “Save Bharalu Dialogue” focusing on environmental awareness and social transformation.",
+            img: "/mobile-assets/media-corner/2026/jun/1/1.jpeg",
+            link: "/royal-global-university-observes-world-environment-day",
+        },
+        {
             date: "Guwahati, June 4, 2026",
             title: "RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level",
             desc: "Two M. Pharm (Pharmacognosy Branch) students of the Royal School of Pharmacy, The Assam Royal Global University (RGU), brought laurels to the university by securing the State-Level 2nd Winner position at Pharma Anveshan 2026, Northeast Zone, held at Assam Down Town University recently. The achiever students are Ananya Saha and Tado Puning.",
