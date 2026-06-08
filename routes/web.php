@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi', function () {
+    return view('frontend/media-corner/2026/june/news4');
+})->name('royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi');
+
 Route::get('/royal-global-university-observes-world-environment-day', function () {
     return view('frontend/media-corner/2026/june/news3');
 })->name('royal-global-university-observes-world-environment-day');

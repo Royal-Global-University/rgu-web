@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University Inks Pact with Sashastra Seema Bal in New Delhi',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 8, 2026:',
+                            'link' => '/royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi',
+                            'image' => '/mobile-assets/ads/5-16/MoU.jpeg',
+                            'content' => 'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University (RGU) today signed a landmark Memorandum of Understanding (MoU) with the Sashastra Seema Bal (SSB) at the Director General Headquarters, East Block-V, R.K. Puram, New Delhi.',
+                        ],
+                        [
                             'title' => 'Royal Global University observes World Environment Day',
                             'summary' => 'Become mini ambassadors of environmental development: Brig N C Khuman at RGU',
                             'date' => 'Guwahati, June 5, 2026:',
