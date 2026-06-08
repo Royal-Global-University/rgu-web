@@ -1007,7 +1007,7 @@
             {
                 title: "Royal School of Agriculture (RSAG)",
                 image: "/mobile-assets/agri.png",
-                deptMainLink: "/department-agriculture",
+                deptMainLink: "/royal-school-of-agriculture",
                 facultyLink: "/faculty-agriculture",
                 departments: [{
                     name: "Department of Agriculture",
