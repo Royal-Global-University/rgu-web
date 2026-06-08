@@ -532,6 +532,7 @@
                     <ul>
                         <li><a href="/recognition-accreditation">Recognition and Accreditation</a></li>
                         <li><a href="/association-tieup">Associations and Tie Ups</a></li>
+                        <li><a href="/bhupen-hazarika-CFC">Dr. Bhupen Hazarika Centre for Creativity</a></li>
                         <li><a href="/award">Awards and Honors</a></li>
                         <li><a href="/top-recruiters">Top Recruiters</a></li>
                     </ul>
