@@ -184,25 +184,25 @@
                     <!-- SLIDE 2 -->
                     <!-- <div class="int-slide">
 
-                                <div class="int-card">
-                                    <img src="assets/img/index/international-news/news3/1.jpg">
-                                    <div class="int-card-content">
-                                        <h4>UK Collaboration</h4>
-                                        <p>International research tie-up</p>
-                                        <a href="#" class="int-readmore">Read More →</a>
+                                    <div class="int-card">
+                                        <img src="assets/img/index/international-news/news3/1.jpg">
+                                        <div class="int-card-content">
+                                            <h4>UK Collaboration</h4>
+                                            <p>International research tie-up</p>
+                                            <a href="#" class="int-readmore">Read More →</a>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="int-card">
-                                    <img src="assets/img/index/international-news/news4/1.jpg">
-                                    <div class="int-card-content">
-                                        <h4>Global Conference</h4>
-                                        <p>Student participation abroad</p>
-                                        <a href="#" class="int-readmore">Read More →</a>
+                                    <div class="int-card">
+                                        <img src="assets/img/index/international-news/news4/1.jpg">
+                                        <div class="int-card-content">
+                                            <h4>Global Conference</h4>
+                                            <p>Student participation abroad</p>
+                                            <a href="#" class="int-readmore">Read More →</a>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </div> -->
+                                </div> -->
 
                 </div>
             </div>
@@ -732,14 +732,7 @@
                 //     sub: "Project Title: Negotiating Power and Gendered Citizenship: A Sociological Analysis of Political Participation and Grassroots Leadership among SHG Women in Panchayati Raj Institutions in Selected Districts of Lower Assam.",
                 //     link: "https://rgu.ac/icssr-project-positions-at-rgu",
                 // },
-                {
-                    day: "22<sup>th</sup> - 24<sup>th</sup>",
-                    month: "May 2026",
-                    img: "/mobile-assets/rgumun/back.jpeg",
-                    title: "RGUMUN - Edition IV",
-                    sub: "Brewing a Royal Experience for you",
-                    link: "/mobile-assets/rgumun/BROCHURE RGUMUN’26.pdf",
-                },
+                
                 {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
                     month: "Nov 2026",

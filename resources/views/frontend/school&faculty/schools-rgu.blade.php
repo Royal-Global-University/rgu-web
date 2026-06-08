@@ -995,165 +995,165 @@
 
             {
                 title: "Integrated Civil Service Programme",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/ias-banner.png",
-                deptMainLink: "https://www.rgu.ac/ias-courses",
-                facultyLink: "https://www.rgu.ac/faculty-applied-purescience",
+                image: "/mobile-assets/school-rgu/ias-banner.png",
+                deptMainLink: "/ias-courses",
+                facultyLink: "/faculty-applied-purescience",
                 departments: [{
                     name: "Integrated Civil Service Programme",
-                    link: "https://www.rgu.ac/ias-courses"
+                    link: "/ias-courses"
                 }]
             },
 
             {
                 title: "Royal School of Agriculture (RSAG)",
-                image: "https://www.rgu.ac/mobile-assets/agri.png",
-                deptMainLink: "https://www.rgu.ac/department-agriculture",
-                facultyLink: "https://www.rgu.ac/faculty-agriculture",
+                image: "/mobile-assets/agri.png",
+                deptMainLink: "/department-agriculture",
+                facultyLink: "/faculty-agriculture",
                 departments: [{
                     name: "Department of Agriculture",
-                    link: "https://www.rgu.ac/department-agriculture"
+                    link: "/department-agriculture"
                 }]
             },
 
             {
                 title: "Royal School of Architecture (RSA)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/soa-1.jpg",
-                deptMainLink: "https://www.rgu.ac/department-architecture",
-                facultyLink: "https://www.rgu.ac/faculty-architecture",
+                image: "/mobile-assets/school-rgu/soa-1.jpg",
+                deptMainLink: "/department-architecture",
+                facultyLink: "/faculty-architecture",
                 departments: [{
                     name: "Department of Architecture",
-                    link: "https://www.rgu.ac/department-architecture"
+                    link: "/department-architecture"
                 }]
             },
 
             {
                 title: "Royal School of Applied & Pure Sciences (RSAPS)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/applied.001.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-applied-pure-science",
-                facultyLink: "https://www.rgu.ac/faculty-applied-purescience",
+                image: "/mobile-assets/school-rgu/applied.001.jpeg",
+                deptMainLink: "/royal-s-school-of-applied-pure-science",
+                facultyLink: "/faculty-applied-purescience",
                 departments: [{
                         name: "Department of Physics",
-                        link: "https://www.rgu.ac/department-physics"
+                        link: "/department-physics"
                     },
                     {
                         name: "Department of Chemistry",
-                        link: "https://www.rgu.ac/department-chemistry"
+                        link: "/department-chemistry"
                     },
                     {
                         name: "Department of Mathematics",
-                        link: "https://www.rgu.ac/department-mathematics"
+                        link: "/department-mathematics"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Business (RSB)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/business.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-business",
-                facultyLink: "https://www.rgu.ac/faculty-business",
+                image: "/mobile-assets/school-rgu/business.jpeg",
+                deptMainLink: "/department-business",
+                facultyLink: "/faculty-business",
                 departments: [{
                     name: "Department of Business",
-                    link: "https://www.rgu.ac/department-business"
+                    link: "/department-business"
                 }]
             },
 
             {
                 title: "Royal School of Behavioral & Allied Sciences (RSBAS)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/behavioral.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-psychology",
-                facultyLink: "https://www.rgu.ac/faculty-allied-sciences",
+                image: "/mobile-assets/school-rgu/behavioral.jpeg",
+                deptMainLink: "/department-psychology",
+                facultyLink: "/faculty-allied-sciences",
                 departments: [{
                     name: "Department of Behavioral & Allied Sciences",
-                    link: "https://www.rgu.ac/department-psychology"
+                    link: "/department-psychology"
                 }]
             },
 
             {
                 title: "Royal School of Bio-sciences (RSBSC)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-bio-science",
-                facultyLink: "https://www.rgu.ac/faculty-bio-sciences",
+                image: "/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
+                deptMainLink: "/royal-s-school-of-bio-science",
+                facultyLink: "/faculty-bio-sciences",
                 departments: [{
                         name: "Department of Biotechnology",
-                        link: "https://www.rgu.ac/department-biotechnology"
+                        link: "/department-biotechnology"
                     },
                     {
                         name: "Department of Microbiology",
-                        link: "https://www.rgu.ac/department-microbiology"
+                        link: "/department-microbiology"
                     },
                     {
                         name: "Department of Food Technology",
-                        link: "https://www.rgu.ac/department-food-technology"
+                        link: "/department-food-technology"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Commerce (RSC)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/commerce.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-commerce",
-                facultyLink: "https://www.rgu.ac/faculty-commerce",
+                image: "/mobile-assets/school-rgu/commerce.jpeg",
+                deptMainLink: "/department-commerce",
+                facultyLink: "/faculty-commerce",
                 departments: [{
                     name: "Department of Commerce",
-                    link: "https://www.rgu.ac/department-commerce"
+                    link: "/department-commerce"
                 }]
             },
 
             {
                 title: "Royal School of Communications & Media (RSCOM)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/media.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-communications-media",
-                facultyLink: "https://www.rgu.ac/rscom-faculty",
+                image: "/mobile-assets/school-rgu/media.jpeg",
+                deptMainLink: "/department-communications-media",
+                facultyLink: "/rscom-faculty",
                 departments: [{
                     name: "Department of Communications & Media",
-                    link: "https://www.rgu.ac/department-communications-media"
+                    link: "/department-communications-media"
                 }]
             },
 
             {
                 title: "Royal School of Design (RSD)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/design.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-design",
-                facultyLink: "https://www.rgu.ac/faculty-design",
+                image: "/mobile-assets/school-rgu/design.jpeg",
+                deptMainLink: "/royal-s-school-of-design",
+                facultyLink: "/faculty-design",
                 departments: [{
                         name: "Department of Product Design",
-                        link: "https://www.rgu.ac/department-product-design"
+                        link: "/department-product-design"
                     },
                     {
                         name: "Department of Communication Design",
-                        link: "https://www.rgu.ac/department-communication-design"
+                        link: "/department-communication-design"
                     },
                     {
                         name: "Department of Interior Design",
-                        link: "https://www.rgu.ac/department-interior-design"
+                        link: "/department-interior-design"
                     },
                     {
                         name: "Department of Graphic Design",
-                        link: "https://www.rgu.ac/department-graphic-design"
+                        link: "/department-graphic-design"
                     },
                     {
                         name: "Department of Fashion Design",
-                        link: "https://www.rgu.ac/department-fashion-design"
+                        link: "/department-fashion-design"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Environmental and Earth Sciences (RSEES)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/earth.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-enviroment-science",
-                facultyLink: "https://www.rgu.ac/faculty-environmental-earth",
+                image: "/mobile-assets/school-rgu/earth.jpeg",
+                deptMainLink: "/royal-s-school-of-enviroment-science",
+                facultyLink: "/faculty-environmental-earth",
                 departments: [{
                         name: "Department of Geography and Geoinformatics",
-                        link: "https://www.rgu.ac/department-geography-geoinformatics"
+                        link: "/department-geography-geoinformatics"
                     },
                     {
                         name: "Department of Environmental Sciences",
-                        link: "https://www.rgu.ac/department-environmental-sciences"
+                        link: "/department-environmental-sciences"
                     },
                     {
                         name: "Department of Geology",
-                        link: "https://www.rgu.ac/department-geology"
+                        link: "/department-geology"
                     }
 
                 ]
@@ -1161,237 +1161,237 @@
 
             {
                 title: "Royal School of Engineering and Technology (RSET)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/soet.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-engineering-technology",
-                facultyLink: "https://www.rgu.ac/faculty-engineeringtechnology",
+                image: "/mobile-assets/school-rgu/soet.jpeg",
+                deptMainLink: "/royal-s-school-of-engineering-technology",
+                facultyLink: "/faculty-engineeringtechnology",
                 departments: [{
                         name: "Department of CSE",
-                        link: "https://www.rgu.ac/department-cse"
+                        link: "/department-cse"
                     },
                     {
                         name: "Department of ME",
-                        link: "https://www.rgu.ac/department-mechanical-engineering"
+                        link: "/department-mechanical-engineering"
                     },
                     {
                         name: "Department of CE",
-                        link: "https://www.rgu.ac/department-civil-engineering"
+                        link: "/department-civil-engineering"
                     },
                 ]
             },
 
             {
                 title: "Royal School of Fine Arts (RSFA)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/art.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-fine-arts",
-                facultyLink: "https://www.rgu.ac/faculty-finearts",
+                image: "/mobile-assets/school-rgu/art.jpeg",
+                deptMainLink: "/department-fine-arts",
+                facultyLink: "/faculty-finearts",
                 departments: [{
                     name: "Department of Fine Arts",
-                    link: "https://www.rgu.ac/department-fine-arts"
+                    link: "/department-fine-arts"
                 }]
             },
 
             {
                 title: "Royal School of Fashion Design (RSFT)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/fashion.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-fashion-design",
-                facultyLink: "https://www.rgu.ac/faculty-fashion-design",
+                image: "/mobile-assets/school-rgu/fashion.jpeg",
+                deptMainLink: "/department-fashion-design",
+                facultyLink: "/faculty-fashion-design",
                 departments: [{
                     name: "Department of Fashion Design",
-                    link: "https://www.rgu.ac/department-fashion-design"
+                    link: "/department-fashion-design"
                 }]
             },
 
             {
                 title: "Royal School of Humanities (RSHSS)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/humanities.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-humanities",
-                facultyLink: "https://www.rgu.ac/faculty-humanities-social",
+                image: "/mobile-assets/school-rgu/humanities.jpeg",
+                deptMainLink: "/royal-s-school-of-humanities",
+                facultyLink: "/faculty-humanities-social",
                 departments: [{
                         name: "Department of Economics",
-                        link: "https://www.rgu.ac/department-economics"
+                        link: "/department-economics"
                     },
                     {
                         name: "Department of History",
-                        link: "https://www.rgu.ac/department-history"
+                        link: "/department-history"
                     },
                     {
                         name: "Department of Political Science & Public Administration",
-                        link: "https://www.rgu.ac/department-public-administration"
+                        link: "/department-public-administration"
                     },
                     {
                         name: "Department of Sociology",
-                        link: "https://www.rgu.ac/department-sociology"
+                        link: "/department-sociology"
                     },
                     {
                         name: "Department of Social Work",
-                        link: "https://www.rgu.ac/department-social-work"
+                        link: "/department-social-work"
                     },
                     {
                         name: "Centre for Indian Knowledge System (IKS)",
-                        link: "https://www.rgu.ac/department-IKS"
+                        link: "/department-IKS"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Hotel Management (RSHM)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/hotel-mgn.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-hotel-management",
-                facultyLink: "https://www.rgu.ac/faculty-hotel-management",
+                image: "/mobile-assets/school-rgu/hotel-mgn.jpeg",
+                deptMainLink: "/department-hotel-management",
+                facultyLink: "/faculty-hotel-management",
                 departments: [{
                     name: "Department of Hotel Management",
-                    link: "https://www.rgu.ac/department-hotel-management"
+                    link: "/department-hotel-management"
                 }]
             },
 
             {
                 title: "Royal School of Information Technology (RSIT)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/it-school.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-information-technology",
-                facultyLink: "https://www.rgu.ac/faculty-information-technology",
+                image: "/mobile-assets/school-rgu/it-school.jpeg",
+                deptMainLink: "/department-information-technology",
+                facultyLink: "/faculty-information-technology",
                 departments: [{
                     name: "Department of Information Technology",
-                    link: "https://www.rgu.ac/department-information-technology"
+                    link: "/department-information-technology"
                 }]
             },
 
             {
                 title: "Royal School of Law & Administration (RSLA)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/law.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-law",
-                facultyLink: "https://www.rgu.ac/faculty-law-administration",
+                image: "/mobile-assets/school-rgu/law.jpeg",
+                deptMainLink: "/department-law",
+                facultyLink: "/faculty-law-administration",
                 departments: [{
                     name: "Department of Law & Administration",
-                    link: "https://www.rgu.ac/department-law"
+                    link: "/department-law"
                 }]
             },
 
             {
                 title: "Royal School of Life Sciences (RSLSC)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/rgu-schools.003.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-life-science",
-                facultyLink: "https://www.rgu.ac/faculty-lifesciences",
+                image: "/mobile-assets/school-rgu/rgu-schools.003.jpeg",
+                deptMainLink: "/royal-s-school-of-life-science",
+                facultyLink: "/faculty-lifesciences",
                 departments: [{
                         name: "Department of Botany",
-                        link: "https://www.rgu.ac/department-botany"
+                        link: "/department-botany"
                     },
                     {
                         name: "Department of Zoology",
-                        link: "https://www.rgu.ac/department-zoology"
+                        link: "/department-zoology"
                     },
                     {
                         name: "Department of Forensic Science",
-                        link: "https://www.rgu.ac/department-forensic-sciences"
+                        link: "/department-forensic-sciences"
                     },
                     {
                         name: "Department of Forestry",
-                        link: "https://www.rgu.ac/department-forestry"
+                        link: "/department-forestry"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Languages (RSL)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/rgu-campus.001.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-school-of-languages",
-                facultyLink: "https://www.rgu.ac/faculty-languages",
+                image: "/mobile-assets/school-rgu/rgu-campus.001.jpeg",
+                deptMainLink: "/royal-school-of-languages",
+                facultyLink: "/faculty-languages",
                 departments: [{
                     name: "Department of Languages",
-                    link: "https://www.rgu.ac/royal-school-of-languages"
+                    link: "/royal-school-of-languages"
                 }]
             },
 
             {
                 title: "Royal School of Library & Information Science (RSLISC)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/schools-library.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-library-information",
-                facultyLink: "https://www.rgu.ac/faculty-librarysciences",
+                image: "/mobile-assets/school-rgu/schools-library.jpeg",
+                deptMainLink: "/department-library-information",
+                facultyLink: "/faculty-librarysciences",
                 departments: [{
                     name: "Department of Library & Information Science",
-                    link: "https://www.rgu.ac/department-library-information"
+                    link: "/department-library-information"
                 }]
             },
 
             {
                 title: "Royal School of Medical & Allied Science (RSMAS)",
-                image: "https://www.rgu.ac/assets/img/school-rgu/medical.jpeg",
-                deptMainLink: "https://www.rgu.ac/royal-s-school-of-medical-allied-science",
-                facultyLink: "https://www.rgu.ac/faculty-medical&allidesciences",
+                image: "/assets/img/school-rgu/medical.jpeg",
+                deptMainLink: "/royal-s-school-of-medical-allied-science",
+                facultyLink: "/faculty-medical&allidesciences",
                 departments: [{
                         name: "Department of Physiotherapy",
-                        link: "https://www.rgu.ac/department-physiotherapy"
+                        link: "/department-physiotherapy"
                     },
                     {
                         name: "Department of Optometry",
-                        link: "https://www.rgu.ac/department-optometry"
+                        link: "/department-optometry"
                     },
                     {
                         name: "Department of Anaesthesia and Operation Theatre Technology",
-                        link: "https://www.rgu.ac/department-operationtheatre"
+                        link: "/department-operationtheatre"
                     },
                     {
                         name: "Department of Medical Laboratory Sciences",
-                        link: "https://www.rgu.ac/department-medical-lab"
+                        link: "/department-medical-lab"
                     },
                     {
                         name: "Department of Medical Radiology and Imaging Technology",
-                        link: "https://www.rgu.ac/deptment-radiography"
+                        link: "/deptment-radiography"
                     }
                 ]
             },
 
             {
                 title: "Royal School of Nursing (RSN)",
-                image: "https://www.rgu.ac/assets/img/school-rgu/nursing.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-nursing",
-                facultyLink: "https://www.rgu.ac/faculty-nursing",
+                image: "/assets/img/school-rgu/nursing.jpeg",
+                deptMainLink: "/department-nursing",
+                facultyLink: "/faculty-nursing",
                 departments: [{
                     name: "Department of Nursing",
-                    link: "https://www.rgu.ac/department-nursing"
+                    link: "/department-nursing"
                 }]
             },
 
             {
                 title: "Royal School of Pharmacy (RSP)",
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/pharmacy.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-pharmacy",
-                facultyLink: "https://www.rgu.ac/faculty-pharmacy",
+                image: "/mobile-assets/school-rgu/pharmacy.jpeg",
+                deptMainLink: "/department-pharmacy",
+                facultyLink: "/faculty-pharmacy",
                 departments: [{
                     name: "Department of Pharmacy",
-                    link: "https://www.rgu.ac/department-pharmacy"
+                    link: "/department-pharmacy"
                 }]
             },
 
             {
                 title: "Royal School of Physical Education and Sports (RSPES)",
-                image: "https://www.rgu.ac/home-banner/bpes.png",
-                deptMainLink: "https://www.rgu.ac/department-physical-education-and-sports",
-                facultyLink: "https://www.rgu.ac/faculty-physical-education-and-sports",
+                image: "/home-banner/bpes.png",
+                deptMainLink: "/department-physical-education-and-sports",
+                facultyLink: "/faculty-physical-education-and-sports",
                 departments: [{
                     name: "Department of Physical Education and Sports",
-                    link: "https://www.rgu.ac/department-physical-education-and-sports"
+                    link: "/department-physical-education-and-sports"
                 }]
             },
 
             {
                 title: "Royal School of Pharmaceutical Sciences",
-                image: "https://www.rgu.ac/mobile-assets/phar/pic.png",
-                deptMainLink: "https://www.rgu.ac/department-pharmaceutical-science",
+                image: "/mobile-assets/phar/pic.png",
+                deptMainLink: "/department-pharmaceutical-science",
                 facultyLink: "",
                 departments: [{
                     name: "Department of Pharmaceutical Sciences",
-                    link: "https://www.rgu.ac/department-pharmaceutical-science"
+                    link: "/department-pharmaceutical-science"
                 }]
             },
 
             {
                 title: "Royal School of Travel & Tourism (RSTTM)",
-                image: "https://www.rgu.ac/assets/img/school-rgu/travel.jpeg",
-                deptMainLink: "https://www.rgu.ac/department-travel",
-                facultyLink: "https://www.rgu.ac/faculty-travel-tourism",
+                image: "/assets/img/school-rgu/travel.jpeg",
+                deptMainLink: "/department-travel",
+                facultyLink: "/faculty-travel-tourism",
                 departments: [{
                     name: "Department of Travel & Tourism",
-                    link: "https://www.rgu.ac/department-travel"
+                    link: "/department-travel"
                 }]
             },
 

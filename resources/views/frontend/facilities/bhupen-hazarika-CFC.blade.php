@@ -1065,7 +1065,7 @@
                             <td class="sl-no">11</td>
                             <td>Arkupal Ra Acharya</td>
                             <td>Research Scholar</td>
-                            <td>Political Science & Public Administration</td>
+                            <td>DBHCC</td>
                         </tr>
                     </tbody>
                 </table>

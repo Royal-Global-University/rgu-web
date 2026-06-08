@@ -4198,6 +4198,10 @@ Route::get('/faculty-atanu-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsp/atanu-bhattacharjee');
 })->name('faculty-atanu-bhattacharjee');
 
+Route::get('/royal-school-of-agriculture', function () {
+    return view('frontend/school&faculty/royal-school-of-agriculture');
+})->name('royal-school-of-agriculture');
+
 Route::get('/rsp-student-list', function () {
     return view('frontend/school&faculty/rsp-student');
 })->name('rsp-student-list');
