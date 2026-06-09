@@ -312,8 +312,8 @@
 
     <style>
         /* =========================================
-                               ORGANIZING COMMITTEE SECTION
-                            ========================================= */
+       ORGANIZING COMMITTEE SECTION
+    ========================================= */
 
         .committee-block {
             margin-top: 70px;
@@ -462,16 +462,187 @@
         }
     </style>
 
+    <style>
+        /* =========================================
+    CONFERENCE TABS
+    ========================================= */
 
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
+        .conference-tabs-section {
+            padding: 20px 0;
+        }
 
+        .conference-tabs-nav {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            margin-bottom: 40px;
+
+            position: sticky;
+            top: 0;
+            z-index: 50;
+
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+
+            border-radius: 18px;
+            padding: 15px;
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, 0.08);
+
+            scrollbar-width: none;
+        }
+
+        .conference-tabs-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        /* TAB BUTTONS */
+
+        .conference-tab-btn {
+            border: none;
+            background: transparent;
+
+            color: #555;
+
+            padding: 14px 24px;
+
+            border-radius: 14px;
+
+            cursor: pointer;
+
+            font-size: 1rem;
+            font-weight: 600;
+
+            white-space: nowrap;
+
+            transition: all 0.35s ease;
+
+            position: relative;
+        }
+
+
+        /* Animated Underline */
+
+        .conference-tab-btn::after {
+            content: "";
+
+            position: absolute;
+
+            left: 50%;
+            bottom: 6px;
+
+            width: 0;
+            height: 3px;
+
+            background: var(--accent-color);
+
+            border-radius: 50px;
+
+            transform: translateX(-50%);
+
+            transition: width 0.35s ease;
+        }
+
+
+        .conference-tab-btn:hover {
+            color: var(--primary-color);
+            background: rgba(0, 168, 232, 0.08);
+        }
+
+
+        .conference-tab-btn.active {
+            color: var(--primary-color);
+            background: rgba(0, 168, 232, 0.12);
+        }
+
+
+        .conference-tab-btn.active::after {
+            width: 70%;
+        }
+
+
+        /* CONTENT AREA */
+
+        .conference-tabs-content {
+            position: relative;
+        }
+
+
+        /* TAB PANES */
+
+        .conference-tab-pane {
+            display: none;
+
+            background: rgba(255, 255, 255, 0.92);
+
+            border-radius: 20px;
+
+            padding: 40px;
+
+            box-shadow:
+                0 15px 40px rgba(0, 0, 0, 0.08);
+
+            animation:
+                tabFade 0.45s ease;
+        }
+
+
+        .conference-tab-pane.active {
+            display: block;
+        }
+
+
+        /* ANIMATION */
+
+        @keyframes tabFade {
+
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+
+        /* RESPONSIVE */
+
+        @media (max-width: 768px) {
+
+            .conference-tabs-section {
+                padding: 50px 0;
+            }
+
+            .conference-tab-pane {
+                padding: 25px;
+            }
+
+            .conference-tab-btn {
+                padding: 12px 18px;
+                font-size: 0.95rem;
+            }
+
+        }
+    </style>
+
+
+    <!-- Placeholder for former Mobile Header Include -->
+    <div class="mobile-header">
+        <!-- Add your mobile header content here -->
+        Mobile Header Placeholder
     </div>
 
-    <div class="website">
-        <!--head image Section-->
-        @include('frontend/components/aheader')
-
+    <!-- Placeholder for former Website Header Include -->
+    <div class="website-header">
+        <!-- Add your website header content here -->
+        Website Header Placeholder
     </div>
 
     <!-- Hero Section -->
@@ -483,702 +654,781 @@
         <div class="date-badge">Scheduled for 13–14 November 2026 in a hybrid mode (In-person + Online)</div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container fade-in">
-        <div class="content-box">
-            <h2>About the Conference</h2>
-            <p>The conference brings together leading minds from academia, industry, and research organizations to explore
-                the
-                rapid advancements transforming engineering and data-driven technologies.</p>
-            <p>As the world advances into the era of Industry 4.0, the convergence of traditional engineering with
-                Artificial
-                Intelligence, IoT, Big Data, and intelligent automation is reshaping design, development, and
-                decision-making
-                across all sectors.</p>
-            <p>This conference aims to bridge the widening gap between conventional engineering practices and disruptive
-                digital innovations, offering a platform for collaboration, discussion, and knowledge sharing.</p>
-            <p>Aligned with national initiatives such as Digital India, Smart Cities Mission, Viksit Bharat, and global
-                goals
-                under the UN Sustainable Development Goals (SDG 9, 11, and 13), ICETIEDS–2026 emphasizes sustainable,
-                resilient,
-                and future-ready engineering solutions.</p>
-        </div>
-    </section>
+    <!-- =========================================
+    CONFERENCE TABS LAYOUT
+    ========================================= -->
 
-    <!-- Vision & Objectives Section -->
-    <section id="vision-objectives" class="container fade-in">
-        <div class="content-box vision-objectives">
-            <h2>Conference Vision</h2>
-            <p>ICETIEDS–2026 envisions fostering a dynamic environment where researchers, engineers, scientists, industry
-                professionals, and students can share cutting-edge ideas, explore interdisciplinary applications, and build
-                long-term collaborations that drive innovation.</p>
+    <section class="conference-tabs-section">
+        <div class="container">
 
-            <br>
+            <!-- Tabs Navigation -->
+            <div class="conference-tabs-nav">
 
-            <h2>Conference Objectives</h2>
-            <ul>
-                <li>To provide a global platform for exchanging ideas on emerging technologies in engineering and data
-                    science.
-                </li>
-                <li>To foster academia–industry partnerships for sustainable technological growth.</li>
-                <li>To promote interdisciplinary research across civil, mechanical, electrical, computer science, and
-                    related
-                    domains.</li>
-            </ul>
-        </div>
-    </section>
+                <button class="conference-tab-btn active" data-tab="overview">
+                    Overview
+                </button>
 
-    <!-- Themes Section -->
-    <section id="themes" class="container fade-in">
-        <h2>Conference Themes</h2>
-        <p class="theme-intro">ICETIEDS–2026 will feature a wide range of tracks covering Core Engineering, Data Science &
-            Emerging Technologies, and Interdisciplinary Innovations, including but not limited to:</p>
+                <button class="conference-tab-btn" data-tab="theme">
+                    Conference Theme
+                </button>
 
-        <div class="themes-grid">
-            <div class="theme-card">
-                <h3>A. For Core Engineering Focus</h3>
-                <ul>
-                    <li>Sustainable Infrastructure and Smart Cities</li>
-                    <li>Advanced Materials, Smart Materials and Construction Technologies</li>
-                    <li>Renewable and Clean Energy Systems</li>
-                    <li>Automation, Robotics, Mechatronics, Green Manufacturing and Industrial Sustainability</li>
-                    <li>Advanced Transportation and Pavement Engineering</li>
-                    <li>Water Resources Management and Climate-Resilient Infrastructure</li>
-                    <li>Smart Grids and Power Systems Optimization</li>
-                    <li>Structural Health Monitoring</li>
-                    <li>Disaster-Resilient Design and Geotechnical Innovations</li>
-                    <li>3D Printing for Engineering Applications</li>
-                </ul>
+                <button class="conference-tab-btn" data-tab="abstract">
+                    Call for Abstract
+                </button>
+
+                <button class="conference-tab-btn" data-tab="registration">
+                    Registration Details
+                </button>
+
+                <button class="conference-tab-btn" data-tab="location">
+                    Location & Queries
+                </button>
+
+                <button class="conference-tab-btn" data-tab="committee">
+                    Advisory Board &
+                    Organizing Committee Members
+                </button>
+
             </div>
 
-            <div class="theme-card">
-                <h3>B. For Data Science & Emerging Technologies Focus</h3>
-                <ul>
-                    <li>Artificial Intelligence and Machine Learning Applications in Engineering</li>
-                    <li>Big Data Analytics and Cloud Computing</li>
-                    <li>Internet of Things (IoT) and Edge Computing for Smart Systems</li>
-                    <li>Cybersecurity, Blockchain, and Digital Trust</li>
-                    <li>Computer Vision and Deep Learning for Engineering Diagnostics</li>
-                    <li>Predictive Maintenance and AI in Smart Manufacturing</li>
-                    <li>Data-Driven Urban Planning and Smart Infrastructure</li>
-                    <li>Human–AI Collaboration and Ethical AI Frameworks</li>
-                    <li>Generative AI and Large Language Models in Engineering Design</li>
-                    <li>Data Science Applications for Climate and Environmental Studies</li>
-                </ul>
-            </div>
+            <!-- Tab Contents -->
+            <div class="conference-tabs-content">
 
-            <div class="theme-card">
-                <h3>C. Interdisciplinary Themes</h3>
-                <ul>
-                    <li>AI-Integrated Sustainable Engineering Solutions</li>
-                    <li>Digital Twins and Smart Infrastructure Management</li>
-                    <li>Smart Manufacturing and Industrial IoT</li>
-                    <li>Green Technology and AI for Sustainable Development Goals (SDGs)</li>
-                    <li>Deep Learning Applications in Mechanical Engineering</li>
-                    <li>Artificial Intelligence, Machine Learning Applications in Civil Engineering</li>
-                    <li>Slope Stability, Landslide Prediction</li>
-                    <li>Rock and Soil Behaviour Analysis using AI</li>
-                    <li>Sustainability</li>
-                    <li>Sustainability and Social Entrepreneurship</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                <div class="conference-tab-pane active" id="overview">
 
-    <!-- Conference Structure Section -->
-    <section id="structure" class="container fade-in">
-        <div class="structure-container">
-            <h2>Conference Structure</h2>
+                    <!-- About Section -->
+                    <section id="about" class="container fade-in">
+                        <div class="content-box">
+                            <h2>About the Conference</h2>
+                            <p>The conference brings together leading minds from academia, industry, and research
+                                organizations to
+                                explore the
+                                rapid advancements transforming engineering and data-driven technologies.</p>
+                            <p>As the world advances into the era of Industry 4.0, the convergence of traditional
+                                engineering with
+                                Artificial
+                                Intelligence, IoT, Big Data, and intelligent automation is reshaping design, development,
+                                and
+                                decision-making
+                                across all sectors.</p>
+                            <p>This conference aims to bridge the widening gap between conventional engineering practices
+                                and
+                                disruptive
+                                digital innovations, offering a platform for collaboration, discussion, and knowledge
+                                sharing.</p>
+                            <p>Aligned with national initiatives such as Digital India, Smart Cities Mission, Viksit Bharat,
+                                and
+                                global goals
+                                under the UN Sustainable Development Goals (SDG 9, 11, and 13), ICETIEDS–2026 emphasizes
+                                sustainable,
+                                resilient,
+                                and future-ready engineering solutions.</p>
+                        </div>
+                    </section>
 
-            <div class="schedule-wrapper">
-                <div class="schedule-column">
-                    <h3>Day 1:</h3>
-                    <ul>
-                        <li>Inauguration</li>
-                        <li>International Keynote Address</li>
-                        <li>Plenary Talks</li>
-                    </ul>
+                    <!-- Vision & Objectives Section -->
+                    <section id="vision-objectives" class="container fade-in">
+                        <div class="content-box vision-objectives">
+                            <h2>Conference Vision</h2>
+                            <p>ICETIEDS–2026 envisions fostering a dynamic environment where researchers, engineers,
+                                scientists,
+                                industry
+                                professionals, and students can share cutting-edge ideas, explore interdisciplinary
+                                applications, and
+                                build
+                                long-term collaborations that drive innovation.</p>
+
+                            <br>
+
+                            <h2>Conference Objectives</h2>
+                            <ul>
+                                <li>To provide a global platform for exchanging ideas on emerging technologies in
+                                    engineering and data
+                                    science.
+                                </li>
+                                <li>To foster academia–industry partnerships for sustainable technological growth.</li>
+                                <li>To promote interdisciplinary research across civil, mechanical, electrical, computer
+                                    science, and
+                                    related
+                                    domains.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Conference Structure Section -->
+                    <section id="structure" class="container fade-in">
+                        <div class="structure-container">
+                            <h2>Conference Structure</h2>
+
+                            <div class="schedule-wrapper">
+                                <div class="schedule-column">
+                                    <h3>Day 1:</h3>
+                                    <ul>
+                                        <li>Inauguration</li>
+                                        <li>International Keynote Address</li>
+                                        <li>Plenary Talks</li>
+                                    </ul>
+                                </div>
+
+                                <div class="schedule-column">
+                                    <h3>Day 2:</h3>
+                                    <ul>
+                                        <li>Parallel Technical Sessions</li>
+                                        <li>Panel Discussion: “Engineering for a Data-Driven Future”</li>
+                                        <li>Valedictory Session</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="proceedings-note">Proceedings will be submitted to reputed publishing partners
+                                including
+                                Springer &
+                                Taylor & Francis.</p>
+                        </div>
+                    </section>
+
+                    <!-- Attendees & Benefits Section -->
+                    <section id="details" class="container fade-in">
+                        <div class="attend-grid">
+                            <div class="attend-card">
+                                <h2>Who Should Attend?</h2>
+                                <ul>
+                                    <li>Academicians & Researchers</li>
+                                    <li>Industry Professionals & Engineers</li>
+                                    <li>Data Scientists & Technology Innovators</li>
+                                    <li>Postgraduate & Doctoral Students</li>
+                                    <li>Government & Policy Experts</li>
+                                    <li>Startups & Innovators in Engineering and AI</li>
+                                </ul>
+                            </div>
+                            <div class="attend-card">
+                                <h2>Why Attend?</h2>
+                                <ul>
+                                    <li>Opportunity to publish in Scopus-indexed proceedings</li>
+                                    <li>Interactions with global experts and industry leaders</li>
+                                    <li>Exposure to cutting-edge tools, technologies, and methodologies</li>
+                                    <li>Networking for collaborative research, MoUs, and funded projects</li>
+                                    <li>Insight into the future of engineering driven by AI and data science</li>
+                                    <li>Engagement with themes supporting national and global sustainability goals</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
                 </div>
 
-                <div class="schedule-column">
-                    <h3>Day 2:</h3>
-                    <ul>
-                        <li>Parallel Technical Sessions</li>
-                        <li>Panel Discussion: “Engineering for a Data-Driven Future”</li>
-                        <li>Valedictory Session</li>
-                    </ul>
-                </div>
-            </div>
+                <div class="conference-tab-pane" id="theme">
 
-            <p class="proceedings-note">Proceedings will be submitted to reputed publishing partners including Springer &
-                Taylor & Francis.</p>
-        </div>
-    </section>
+                    <!-- Themes Section -->
+                    <section id="themes" class="container fade-in">
+                        <h2>Conference Themes</h2>
+                        <p class="theme-intro">ICETIEDS–2026 will feature a wide range of tracks covering Core Engineering,
+                            Data
+                            Science &
+                            Emerging Technologies, and Interdisciplinary Innovations, including but not limited to:</p>
 
-    <!-- Attendees & Benefits Section -->
-    <section id="details" class="container fade-in">
-        <div class="attend-grid">
-            <div class="attend-card">
-                <h2>Who Should Attend?</h2>
-                <ul>
-                    <li>Academicians & Researchers</li>
-                    <li>Industry Professionals & Engineers</li>
-                    <li>Data Scientists & Technology Innovators</li>
-                    <li>Postgraduate & Doctoral Students</li>
-                    <li>Government & Policy Experts</li>
-                    <li>Startups & Innovators in Engineering and AI</li>
-                </ul>
-            </div>
-            <div class="attend-card">
-                <h2>Why Attend?</h2>
-                <ul>
-                    <li>Opportunity to publish in Scopus-indexed proceedings</li>
-                    <li>Interactions with global experts and industry leaders</li>
-                    <li>Exposure to cutting-edge tools, technologies, and methodologies</li>
-                    <li>Networking for collaborative research, MoUs, and funded projects</li>
-                    <li>Insight into the future of engineering driven by AI and data science</li>
-                    <li>Engagement with themes supporting national and global sustainability goals</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                        <div class="themes-grid">
+                            <div class="theme-card">
+                                <h3>A. For Core Engineering Focus</h3>
+                                <ul>
+                                    <li>Sustainable Infrastructure and Smart Cities</li>
+                                    <li>Advanced Materials, Smart Materials and Construction Technologies</li>
+                                    <li>Renewable and Clean Energy Systems</li>
+                                    <li>Automation, Robotics, Mechatronics, Green Manufacturing and Industrial
+                                        Sustainability</li>
+                                    <li>Advanced Transportation and Pavement Engineering</li>
+                                    <li>Water Resources Management and Climate-Resilient Infrastructure</li>
+                                    <li>Smart Grids and Power Systems Optimization</li>
+                                    <li>Structural Health Monitoring</li>
+                                    <li>Disaster-Resilient Design and Geotechnical Innovations</li>
+                                    <li>3D Printing for Engineering Applications</li>
+                                </ul>
+                            </div>
 
-    <!-- Organizing Committee Section -->
-    <section id="committee" class="container fade-in">
+                            <div class="theme-card">
+                                <h3>B. For Data Science & Emerging Technologies Focus</h3>
+                                <ul>
+                                    <li>Artificial Intelligence and Machine Learning Applications in Engineering</li>
+                                    <li>Big Data Analytics and Cloud Computing</li>
+                                    <li>Internet of Things (IoT) and Edge Computing for Smart Systems</li>
+                                    <li>Cybersecurity, Blockchain, and Digital Trust</li>
+                                    <li>Computer Vision and Deep Learning for Engineering Diagnostics</li>
+                                    <li>Predictive Maintenance and AI in Smart Manufacturing</li>
+                                    <li>Data-Driven Urban Planning and Smart Infrastructure</li>
+                                    <li>Human–AI Collaboration and Ethical AI Frameworks</li>
+                                    <li>Generative AI and Large Language Models in Engineering Design</li>
+                                    <li>Data Science Applications for Climate and Environmental Studies</li>
+                                </ul>
+                            </div>
 
-        <!-- Section Heading -->
-        <div class="content-box">
-
-
-            <!-- Top Leadership -->
-            <div class="committee-grid committee-grid-3">
-
-                <!-- Chief Patron -->
-                <div class="committee-card">
-                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ashok-kumar-pansari.png" alt="Chief Patron">
-                    <h3>Dr. A K Pansari</h3>
-                    <p>Chancellor, The Assam Royal Global University</p>
-                    <div class="committee-role">Chief Patron</div>
-                </div>
-
-                <!-- Patron -->
-                <div class="committee-card">
-                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ankur-pansari.png" alt="Patron">
-                    <h3>Mr. Ankur Pansari</h3>
-                    <p>Pro-Chancellor, The Assam Royal Global University</p>
-                    <div class="committee-role">Patron</div>
-                </div>
-
-                <!-- Chief Advisor -->
-                <div class="committee-card">
-                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png" alt="Chief Advisor">
-                    <h3>Prof. A. K. Buragohain</h3>
-                    <p>Vice-Chancellor, The Assam Royal Global University</p>
-                    <div class="committee-role">Chief Advisor</div>
-                </div>
-
-            </div>
-
-            <!-- Advisory Board -->
-            <div class="committee-block">
-                <h2>Advisory Board</h2>
-
-                <div class="committee-grid committee-grid-4">
-
-                    <div class="committee-card">
-                        <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png" alt="">
-                        <h3>Prof. A. K. Buragohain</h3>
-                        <p>Vice Chancellor, The Assam Royal Global University</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/diganta-munshi.jpeg"
-                            alt="">
-                        <h3>Prof. Diganta Munshi</h3>
-                        <p>Registrar Administration/Director IQAC, The Assam Royal Global University</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="">
-                        <h3>Prof. D N Singh</h3>
-                        <p>Registrar Academics, The Assam Royal Global University</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Prof. Sharad Gokhale.png" alt="">
-                        <h3>Prof. Sharad Gokhale</h3>
-                        <p>Department of Civil Engineering, Indian Institute of Technology Guwahati</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Prof. Hemant B. Kaushik.png" alt="">
-                        <h3>Prof. Hemant B. Kaushik </h3>
-                        <p>BIS CHAIR PROFESSOR
-                            Department of Civil Engineering
-                            &
-                            Centre for Disaster Management and Research,
-                            Indian Institute of Technology Guwahati</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
-                            alt="">
-                        <h3>Mr. Pradeep Purohit </h3>
-                        <p>Chief Operating Officer, Star Cement Ltd.</p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Mr. Pranjal Pathak.png" alt="">
-                        <h3>Mr. Pranjal Pathak</h3>
-                        <p>Joint President and Plant Head
-                            Hindalco Industries Limited
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Dr. PG Ramesh.png" alt="">
-                        <h3>Dr. PG Ramesh</h3>
-                        <p>Chief General Manager,
-                            Head Technology, PTB; Head, Defence Design Triveni Engineering & Industries Limited
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Er. Biswajit Manasingh.png" alt="">
-                        <h3>Er. Biswajit Manasingh</h3>
-                        <p>
-                            Regional Head - Sales and Operation. UltraTech Concrete RMC Division
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Prof. Debasis Samanta.png" alt="">
-                        <h3>Prof. Debasis Samanta</h3>
-                        <p>
-                            Department of Computer Science and Engineering,
-                            Indian Institute of Technology Kharagpur
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Prof. Suman Chakraborty.png" alt="">
-                        <h3>Prof. Suman Chakraborty</h3>
-                        <p>
-                            Director of the Indian Institute of Technology Kharagpur
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Dr. Sanjay Deori.png" alt="">
-                        <h3>Dr. Sanjay Deori</h3>
-                        <p>
-                            Chief Scientist & Group Leader
-                            Applied Civil Engineering Department
-                            CSIR, NEIST
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Mr Dipak Basumatari.png" alt="">
-                        <h3>Mr Dipak Basumatari</h3>
-                        <p>
-                            Principal Scientist
-                            Applied Civil Engineering Department
-                            CSIR, NEIST
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Dr. Leon Raj.png" alt="">
-                        <h3>Dr. Leon Raj</h3>
-                        <p>
-                            Senior Scientist
-                            Applied Civil Engineering Department
-                            CSIR, NEIST
-                        </p>
-                    </div>
-
-                    <div class="committee-card">
-                        <img src="mobile-assets/conference-new/Prof. Ajay Kalamdhad.png" alt="">
-                        <h3>Prof. Ajay Kalamdhad</h3>
-                        <p>
-                            Department of Civil Engineering,
-                            Indian Institute of Technology Guwahati
-                        </p>
-                    </div>
+                            <div class="theme-card">
+                                <h3>C. Interdisciplinary Themes</h3>
+                                <ul>
+                                    <li>AI-Integrated Sustainable Engineering Solutions</li>
+                                    <li>Digital Twins and Smart Infrastructure Management</li>
+                                    <li>Smart Manufacturing and Industrial IoT</li>
+                                    <li>Green Technology and AI for Sustainable Development Goals (SDGs)</li>
+                                    <li>Deep Learning Applications in Mechanical Engineering</li>
+                                    <li>Artificial Intelligence, Machine Learning Applications in Civil Engineering</li>
+                                    <li>Slope Stability, Landslide Prediction</li>
+                                    <li>Rock and Soil Behaviour Analysis using AI</li>
+                                    <li>Sustainability</li>
+                                    <li>Sustainability and Social Entrepreneurship</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
-            </div>
 
-            <!-- Convener Section -->
-            <div class="committee-block">
-                <h2>Convenor & Co-Convenor</h2>
+                <div class="conference-tab-pane" id="abstract">
 
-                <div class="committee-grid committee-grid-2">
+                    <h2>Guidelines for Submission</h2>
 
-                    <div class="committee-card">
-                        <img src="/mobile-assets/updated-faculty-img/Shwetambara-v.jpeg" alt="">
-                        <h3>Prof. Shwetambara Verma</h3>
-                        <div class="committee-role">Convenor</div>
+                    <p>
+                        All submitted abstracts will undergo review by a panel of subject matter experts.
+                        Upon acceptance of the abstract, the corresponding author will be notified to
+                        proceed with registration and full paper submission.
+                    </p>
 
-                    </div>
+                    <br>
 
-                    <div class="committee-card">
-                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
-                        <h3>Dr. Deepjyoti Choudhury</h3>
-                        <div class="committee-role">Co-Convenor</div>
+                    <h2>Submission Requirements</h2>
 
-                    </div>
+                    <p>
+                        <strong>Abstract Length:</strong> 250–300 words
+                    </p>
 
-                </div>
-            </div>
+                    <p>
+                        <strong>Full Paper Length:</strong> 4000–5000 words (including references)
+                    </p>
 
-            <!-- Committee Members -->
-            <div class="committee-block">
-                <h2>Committee Members</h2>
+                    <p>
+                        <strong>Document Format:</strong> MS Word
+                    </p>
 
-                <div class="committee-table-wrapper">
-                    <table class="committee-table">
-                        <thead>
-                            <tr>
-                                <th>Sl. No.</th>
-                                <th>Name</th>
-                            </tr>
-                        </thead>
+                    <p>
+                        <strong>Acceptable Similarity Index:</strong> Less than 15%
+                    </p>
 
-                        <tbody>
-                            <tr>
-                                <td>1.</td>
-                                <td>Ms. Vanita Agrawal</td>
-                            </tr>
-                            <tr>
-                                <td>2.</td>
-                                <td>Dr. Anurag Barthwal</td>
-                            </tr>
-                            <tr>
-                                <td>3.</td>
-                                <td>Dr. Dipankar Dutta</td>
-                            </tr>
-                            <tr>
-                                <td>4.</td>
-                                <td>Dr. Bikash Baruah</td>
-                            </tr>
-                            <tr>
-                                <td>5.</td>
-                                <td>Dr. Shinjini Paul Choudhury</td>
-                            </tr>
-                            <tr>
-                                <td>6.</td>
-                                <td>Dr. Bonisha Borah</td>
-                            </tr>
-                            <tr>
-                                <td>7.</td>
-                                <td>Dr. Manash Pratim Boruah</td>
-                            </tr>
-                            <tr>
-                                <td>8.</td>
-                                <td>Dr. Smrity Choudhury</td>
-                            </tr>
-                            <tr>
-                                <td>9.</td>
-                                <td>Dr. Ankita Goel Agarwala</td>
-                            </tr>
-                            <tr>
-                                <td>10.</td>
-                                <td>Dr. Bishal Podder</td>
-                            </tr>
-                            <tr>
-                                <td>11.</td>
-                                <td>Dr. Abhijeet Dey</td>
-                            </tr>
-                            <tr>
-                                <td>12.</td>
-                                <td>Dr. H Satyajeet Sharma</td>
-                            </tr>
-                            <tr>
-                                <td>13.</td>
-                                <td>Dr. Dillip Raut</td>
-                            </tr>
-                            <tr>
-                                <td>14.</td>
-                                <td>Mr. Rajesh Deb</td>
-                            </tr>
-                            <tr>
-                                <td>15.</td>
-                                <td>Mr. Nayan Jyoti Kalita</td>
-                            </tr>
-                            <tr>
-                                <td>16.</td>
-                                <td>Dr. Naveen R Sahi</td>
-                            </tr>
-                            <tr>
-                                <td>17.</td>
-                                <td>Ms. Antara Banerjee</td>
-                            </tr>
-                            <tr>
-                                <td>18.</td>
-                                <td>Ms. Raisa Tasmin Hussain</td>
-                            </tr>
-                            <tr>
-                                <td>19.</td>
-                                <td>Dr. Shehnaz Ara Rahman</td>
-                            </tr>
-                            <tr>
-                                <td>20.</td>
-                                <td>Ms. Bidsha Goswami</td>
-                            </tr>
-                            <tr>
-                                <td>21.</td>
-                                <td>Mr. Spandan Kumar Barthakur</td>
-                            </tr>
-                            <tr>
-                                <td>22.</td>
-                                <td>Ms. Dipika T Agrawal</td>
-                            </tr>
-                            <tr>
-                                <td>23.</td>
-                                <td>Ms. Neha Sharma</td>
-                            </tr>
-                            <tr>
-                                <td>24.</td>
-                                <td>Dr. Rani Pathak</td>
-                            </tr>
-                            <tr>
-                                <td>25.</td>
-                                <td>Dr. Nilakshi Deka</td>
-                            </tr>
-                            <tr>
-                                <td>26.</td>
-                                <td>Dr. Bhairab Sarma</td>
-                            </tr>
-                            <tr>
-                                <td>27.</td>
-                                <td>Mr. Prakash K Roy</td>
-                            </tr>
-                            <tr>
-                                <td>28.</td>
-                                <td>Mr. Vijay Sharma</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+                    <br>
 
-        </div>
-    </section>
+                    <h2>Formatting Guidelines</h2>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-lg-6 p-3">
-                <h2>Registration Details</h2>
-                <p>Participants whose abstracts are accepted will be informed through email. Upon acceptance, participants
-                    are
-                    required to complete the registration process by filling out the online Google Registration Form and
-                    uploading
-                    the payment receipt/details.
-                    In case of papers with multiple authors, each author must register separately and pay the applicable
-                    registration fee individually. The registration link will be shared via email with the corresponding
-                    authors of
-                    shortlisted abstracts.
-                    Certificates will be provided to all registered participants. E-certificates will be issued only to
-                    participants
-                    registered in online mode.</p>
-                <h4 class="text-danger">Registration Fees</h4>
-                <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 50%; text-align: left;">
-                    <tr>
-                        <th>Category</th>
-                        <th>Registration Fee</th>
-                    </tr>
-                    <tr>
-                        <td>Indian Participants</td>
-                        <td>Rs. 9,000/-</td>
-                    </tr>
-                    <tr>
-                        <td>International Participants</td>
-                        <td>USD 100/-</td>
-                    </tr>
-                </table>
-                <h4 class="pt-5 text-danger">For Any queries Contact:</h4>
-                <p>Email: ICETIEDS@rgu.ac</p>
-                <p>Phone: 9821556483/9508756084</p>
-            </div>
-            <div class="col-lg-6 p-3 shadow" style="background-color: #f8f8f8">
-                <h1 style="font-size:32px; font-weight:bold; margin-bottom:20px;">
-
-                    Guidelines for Submission
-
-                </h1>
-
-                <p style="font-size:18px; text-align:justify;">
-
-                    All submitted abstracts will undergo review by a panel of subject matter experts.
-
-                    Upon acceptance of the abstract, the corresponding author will be notified to
-
-                    proceed with registration and full paper submission.
-
-                </p>
-
-                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
-
-                    Submission Requirements
-
-                </h2>
-
-                <ul style="font-size:18px; line-height:1.8;">
-
-                    <li><strong>Abstract Length:</strong> 250–300 words</li>
-
-                    <li><strong>Full Paper Length:</strong> 4000–5000 words (including references)</li>
-
-                    <li><strong>Document Format:</strong> MS Word</li>
-
-                    <li><strong>Acceptable Similarity Index:</strong> Less than 15%</li>
-
-                </ul>
-
-                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
-
-                    Formatting Guidelines
-
-                </h2>
-
-                <ul style="font-size:18px; line-height:1.8;">
-
-                    <li>
-
+                    <p>
                         <strong>Paper Size:</strong> A4 with 1-inch margin on all sides
+                    </p>
 
-                    </li>
+                    <p>
+                        <strong>Main Text:</strong><br>
+                        Font Style: Times New Roman<br>
+                        Font Size: 12<br>
+                        Line Spacing: 1.5<br>
+                        Alignment: Justified
+                    </p>
 
-                    <li>
+                    <p>
+                        <strong>Title:</strong><br>
+                        Font Style: Times New Roman<br>
+                        Font Size: 14<br>
+                        Bold<br>
+                        Line Spacing: 1.5<br>
+                        Alignment: Justified
+                    </p>
 
-                        <strong>Main Text:</strong>
+                    <p>
+                        Author details (full name, designation, and affiliation) must be mentioned below the title.
+                    </p>
 
-                        <ul style="margin-top:10px;">
+                    <p>
+                        <strong>Sub-headings:</strong><br>
+                        Font Style: Times New Roman<br>
+                        Font Size: 12<br>
+                        Bold<br>
+                        Line Spacing: 1.5<br>
+                        Alignment: Justified
+                    </p>
 
-                            <li>Font Style: Times New Roman</li>
-
-                            <li>Font Size: 12</li>
-
-                            <li>Line Spacing: 1.5</li>
-
-                            <li>Alignment: Justified</li>
-
-                        </ul>
-
-                    </li>
-
-                    <li>
-
-                        <strong>Title:</strong>
-
-                        <ul style="margin-top:10px;">
-
-                            <li>Font Style: Times New Roman</li>
-
-                            <li>Font Size: 14</li>
-
-                            <li>Bold</li>
-
-                            <li>Line Spacing: 1.5</li>
-
-                            <li>Alignment: Justified</li>
-
-                            <li>
-
-                                Author details (full name, designation, and affiliation)
-
-                                must be mentioned below the title.
-
-                            </li>
-
-                        </ul>
-
-                    </li>
-
-                    <li>
-
-                        <strong>Sub-headings:</strong>
-
-                        <ul style="margin-top:10px;">
-
-                            <li>Font Style: Times New Roman</li>
-
-                            <li>Font Size: 12</li>
-
-                            <li>Bold</li>
-
-                            <li>Line Spacing: 1.5</li>
-
-                            <li>Alignment: Justified</li>
-
-                        </ul>
-
-                    </li>
-
-                    <li>
-
+                    <p>
                         <strong>Referencing Style:</strong><br>
-
                         APA Style (7th Edition)
+                    </p>
 
-                    </li>
+                    <br>
 
-                </ul>
+                    <h2>Important Notes</h2>
 
-                <h2 style="font-size:26px; font-weight:bold; margin-top:35px;">
+                    <p>
+                        <strong>Note:</strong>
+                        The abstract must clearly include:
+                        <strong>Objectives, Design/Methodology, Major Findings.</strong>
+                        The abstract should also contain at least
+                        <strong>three (03) keywords.</strong>
+                    </p>
 
-                    Important Notes
+                    <br>
 
-                </h2>
+                    <div
+                        style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between;">
 
-                <p style="font-size:18px; text-align:justify;">
+                        <div style="flex: 1; min-width: 280px;">
 
-                    <strong>Note:</strong>
+                            <h2>Call for Abstract</h2>
 
-                    The abstract must clearly include:
+                            <p>
+                                To submit an abstract, click the link given below
+                                or scan the QR code.
+                            </p>
 
-                    <strong>Objectives</strong>,
+                            <!-- Registration Link Here -->
 
-                    <strong>Design/Methodology</strong>,
+                            <!--
+            <p>
+                <a href="#" target="_blank">
+                    Submit Abstract
+                </a>
+            </p>
+            -->
 
-                    <strong>Major Findings</strong>.
+                        </div>
 
-                    The abstract should also contain at least
+                        <div style="width: 220px; text-align: center;">
 
-                    <strong>three (03) keywords</strong>.
+                            <!-- Replace the src below with your QR image -->
 
-                </p>
+                            <img src="https://rgu.ac/mobile-assets/ads/QR.png" alt="QR Code"
+                                style="width: 220px; max-width: 100%; border: 1px solid #ddd; padding: 10px; background: #fff;">
 
-                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-top:40px;">
-
-                    <div style="width:60%;">
-
-                        <h2 style="font-size:32px; font-weight:bold;">
-
-                            Call for Abstract
-
-                        </h2>
-
-                        <p style="font-size:20px;">
-
-                            To submit an abstract,<br>
-
-                            click the link given below or scan the QR.
-
-                        </p>
-
-                    </div>
-
-                    <div style="width:250px; text-align:center;">
-
-                        <img src="/mobile-assets/ads/QR.png" alt="QR Code" style="width:220px; height:220px;">
+                        </div>
 
                     </div>
 
                 </div>
+
+                <div class="conference-tab-pane" id="registration">
+
+                    <h2>Registration Details</h2>
+
+                    <p>
+                        Participants whose abstracts are accepted will be informed through email.
+                        Upon acceptance, participants are required to complete the registration
+                        process by filling out the online Google Registration Form and uploading
+                        the payment receipt/details. In case of papers with multiple authors,
+                        each author must register separately and pay the applicable registration
+                        fee individually. The registration link will be shared via email with
+                        the corresponding authors of shortlisted abstracts. Certificates will
+                        be provided to all registered participants. E-certificates will be issued
+                        only to participants registered in online mode.
+                    </p>
+
+                    <h3 style="color: #d63b3b; margin-top: 40px;">
+                        Registration Fees
+                    </h3>
+
+                    <div style="overflow-x: auto;">
+                        <table style="border-collapse: collapse; min-width: 400px;">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: left; padding: 8px 30px 8px 0;">
+                                        Category
+                                    </th>
+                                    <th style="text-align: left; padding: 8px 0;">
+                                        Registration Fee
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 8px 30px 8px 0;">
+                                        Indian Participants
+                                    </td>
+                                    <td style="padding: 8px 0;">
+                                        Rs. 9,000/-
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 8px 30px 8px 0;">
+                                        International Participants
+                                    </td>
+                                    <td style="padding: 8px 0;">
+                                        USD 100/-
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="conference-tab-pane" id="location">
+
+
+                    <h2 style="color: #d63b3b;">
+                        Location:
+                    </h2>
+
+                    <p>
+                        <strong>The Assam Royal Global University</strong>
+                    </p>
+
+                    <h2 style="color: #d63b3b;">
+                        For Any Queries Contact:
+                    </h2>
+
+                    <p>
+                        <strong>Email:</strong>
+                        ICETIEDS@rgu.ac
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        9821556483 / 9508756084
+                    </p>
+
+                </div>
+
+                <div class="conference-tab-pane" id="committee">
+
+
+                    <!-- Organizing Committee Section -->
+                    <section id="committee" class="container fade-in">
+
+                        <!-- Section Heading -->
+                        <div class="content-box">
+
+
+                            <!-- Top Leadership -->
+                            <div class="committee-grid committee-grid-3">
+
+                                <!-- Chief Patron -->
+                                <div class="committee-card">
+                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ashok-kumar-pansari.png"
+                                        alt="Chief Patron">
+                                    <h3>Dr. A K Pansari</h3>
+                                    <p>Chancellor, The Assam Royal Global University</p>
+                                    <div class="committee-role">Chief Patron</div>
+                                </div>
+
+                                <!-- Patron -->
+                                <div class="committee-card">
+                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ankur-pansari.png"
+                                        alt="Patron">
+                                    <h3>Mr. Ankur Pansari</h3>
+                                    <p>Pro-Chancellor, The Assam Royal Global University</p>
+                                    <div class="committee-role">Patron</div>
+                                </div>
+
+                                <!-- Chief Advisor -->
+                                <div class="committee-card">
+                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png"
+                                        alt="Chief Advisor">
+                                    <h3>Prof. A. K. Buragohain</h3>
+                                    <p>Vice-Chancellor, The Assam Royal Global University</p>
+                                    <div class="committee-role">Chief Advisor</div>
+                                </div>
+
+                            </div>
+
+                            <!-- Advisory Board -->
+                            <div class="committee-block">
+                                <h2>Advisory Board</h2>
+
+                                <div class="committee-grid committee-grid-4">
+
+                                    <div class="committee-card">
+                                        <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png"
+                                            alt="">
+                                        <h3>Prof. A. K. Buragohain</h3>
+                                        <p>Vice Chancellor, The Assam Royal Global University</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/diganta-munshi.jpeg"
+                                            alt="">
+                                        <h3>Prof. Diganta Munshi</h3>
+                                        <p>Registrar Administration/Director IQAC, The Assam Royal Global University</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="">
+                                        <h3>Prof. D N Singh</h3>
+                                        <p>Registrar Academics, The Assam Royal Global University</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Prof. Sharad Gokhale.png" alt="">
+                                        <h3>Prof. Sharad Gokhale</h3>
+                                        <p>Department of Civil Engineering, Indian Institute of Technology Guwahati</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Prof. Hemant B. Kaushik.png"
+                                            alt="">
+                                        <h3>Prof. Hemant B. Kaushik </h3>
+                                        <p>BIS CHAIR PROFESSOR
+                                            Department of Civil Engineering
+                                            &
+                                            Centre for Disaster Management and Research,
+                                            Indian Institute of Technology Guwahati</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
+                                            alt="">
+                                        <h3>Mr. Pradeep Purohit </h3>
+                                        <p>Chief Operating Officer, Star Cement Ltd.</p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Mr. Pranjal Pathak.png" alt="">
+                                        <h3>Mr. Pranjal Pathak</h3>
+                                        <p>Joint President and Plant Head
+                                            Hindalco Industries Limited
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Dr. PG Ramesh.png" alt="">
+                                        <h3>Dr. PG Ramesh</h3>
+                                        <p>Chief General Manager,
+                                            Head Technology, PTB; Head, Defence Design Triveni Engineering & Industries
+                                            Limited
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Er. Biswajit Manasingh.png" alt="">
+                                        <h3>Er. Biswajit Manasingh</h3>
+                                        <p>
+                                            Regional Head - Sales and Operation. UltraTech Concrete RMC Division
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Prof. Debasis Samanta.png" alt="">
+                                        <h3>Prof. Debasis Samanta</h3>
+                                        <p>
+                                            Department of Computer Science and Engineering,
+                                            Indian Institute of Technology Kharagpur
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Prof. Suman Chakraborty.png"
+                                            alt="">
+                                        <h3>Prof. Suman Chakraborty</h3>
+                                        <p>
+                                            Director of the Indian Institute of Technology Kharagpur
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Dr. Sanjay Deori.png" alt="">
+                                        <h3>Dr. Sanjay Deori</h3>
+                                        <p>
+                                            Chief Scientist & Group Leader
+                                            Applied Civil Engineering Department
+                                            CSIR, NEIST
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Mr Dipak Basumatari.png" alt="">
+                                        <h3>Mr Dipak Basumatari</h3>
+                                        <p>
+                                            Principal Scientist
+                                            Applied Civil Engineering Department
+                                            CSIR, NEIST
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Dr. Leon Raj.png" alt="">
+                                        <h3>Dr. Leon Raj</h3>
+                                        <p>
+                                            Senior Scientist
+                                            Applied Civil Engineering Department
+                                            CSIR, NEIST
+                                        </p>
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="mobile-assets/conference-new/Prof. Ajay Kalamdhad.png" alt="">
+                                        <h3>Prof. Ajay Kalamdhad</h3>
+                                        <p>
+                                            Department of Civil Engineering,
+                                            Indian Institute of Technology Guwahati
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Convener Section -->
+                            <div class="committee-block">
+                                <h2>Convenor & Co-Convenor</h2>
+
+                                <div class="committee-grid committee-grid-2">
+
+                                    <div class="committee-card">
+                                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
+                                            alt="">
+                                        <h3>Prof. Shwetambara Verma</h3>
+                                        <div class="committee-role">Convenor</div>
+
+                                    </div>
+
+                                    <div class="committee-card">
+                                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg"
+                                            alt="">
+                                        <h3>Dr. Deepjyoti Choudhury</h3>
+                                        <div class="committee-role">Co-Convenor</div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Committee Members -->
+                            <div class="committee-block">
+                                <h2>Committee Members</h2>
+
+                                <div class="committee-table-wrapper">
+                                    <table class="committee-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Sl. No.</th>
+                                                <th>Name</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Ms. Vinita Agrawal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Dr. Anurag Barthwal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Dr. Dipankar Dutta</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Dr. Bikash Baruah</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>Dr. Shinjini Paul Choudhury</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6.</td>
+                                                <td>Dr. Bonisha Borah</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7.</td>
+                                                <td>Dr. Manash Pratim Boruah</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8.</td>
+                                                <td>Dr. Smrity Choudhury</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9.</td>
+                                                <td>Dr. Ankita Goel Agarwala</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Dr. Bishal Podder</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11.</td>
+                                                <td>Dr. Abhijeet Dey</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12.</td>
+                                                <td>Dr. H Satyajeet Sharma</td>
+                                            </tr>
+                                            <tr>
+                                                <td>13.</td>
+                                                <td>Dr. Dillip Raut</td>
+                                            </tr>
+                                            <tr>
+                                                <td>14.</td>
+                                                <td>Mr. Rajesh Deb</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15.</td>
+                                                <td>Mr. Nayan Jyoti Kalita</td>
+                                            </tr>
+                                            <tr>
+                                                <td>16.</td>
+                                                <td>Dr. Naveen R Sahi</td>
+                                            </tr>
+                                            <tr>
+                                                <td>17.</td>
+                                                <td>Ms. Antara Banerjee</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18.</td>
+                                                <td>Ms. Raisa H Tasmin</td>
+                                            </tr>
+                                            <tr>
+                                                <td>19.</td>
+                                                <td>Dr. Shehrnaz Ara Rahman</td>
+                                            </tr>
+                                            <tr>
+                                                <td>20.</td>
+                                                <td>Ms. Bidsha Goswami</td>
+                                            </tr>
+                                            <tr>
+                                                <td>21.</td>
+                                                <td>Mr. Spandan Kumar Barthakur</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22.</td>
+                                                <td>Ms. Dipika T Agrawal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>23.</td>
+                                                <td>Ms. Neha Sharma</td>
+                                            </tr>
+                                            <tr>
+                                                <td>24.</td>
+                                                <td>Dr. Rani Pathak</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25.</td>
+                                                <td>Ms. Nilakshi Deka</td>
+                                            </tr>
+                                            <tr>
+                                                <td>26.</td>
+                                                <td>Dr. Bhairab Sarma</td>
+                                            </tr>
+                                            <tr>
+                                                <td>27.</td>
+                                                <td>Mr. Prakash K Roy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>28.</td>
+                                                <td>Mr. Vijay Sharma</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+
             </div>
+
         </div>
     </section>
 
@@ -1209,6 +1459,38 @@
 
             const fadeElements = document.querySelectorAll('.fade-in');
             fadeElements.forEach(el => observer.observe(el));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            const tabs =
+                document.querySelectorAll(".conference-tab-btn");
+
+            const panes =
+                document.querySelectorAll(".conference-tab-pane");
+
+            tabs.forEach(tab => {
+
+                tab.addEventListener("click", function() {
+
+                    tabs.forEach(btn =>
+                        btn.classList.remove("active"));
+
+                    panes.forEach(pane =>
+                        pane.classList.remove("active"));
+
+                    tab.classList.add("active");
+
+                    document
+                        .getElementById(tab.dataset.tab)
+                        .classList.add("active");
+
+                });
+
+            });
+
         });
     </script>
 @endsection
