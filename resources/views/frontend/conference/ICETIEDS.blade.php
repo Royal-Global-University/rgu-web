@@ -697,7 +697,7 @@
                 <div class="conference-tab-pane active" id="overview">
 
                     <!-- About Section -->
-                    <section id="about" class="container fade-in">
+                    <section id="about" class=" fade-in">
                         <div class="content-box">
                             <h2>About the Conference</h2>
                             <p>The conference brings together leading minds from academia, industry, and research
@@ -1093,7 +1093,7 @@
 
 
                     <!-- Organizing Committee Section -->
-                    <section id="committee" class="container fade-in">
+                    <section id="committee">
 
                         <!-- Section Heading -->
                         <div class="content-box">
