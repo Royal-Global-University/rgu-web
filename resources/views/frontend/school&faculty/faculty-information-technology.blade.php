@@ -184,19 +184,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Hidangmayum.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Hidangmayum Satyajeet Sharma</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <a href="/faculty-hidangmayum-satyajeet-sharma" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Naveen.jpeg"
                                     alt="Profile image">
                             </div>

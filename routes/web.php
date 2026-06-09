@@ -3886,10 +3886,6 @@ Route::get('/faculty-naveen-r-shahi', function () {
     return view('frontend/facultyprofile/rset/naveen');
 })->name('faculty-naveen');
 
-Route::get('/faculty-hidangmayum-satyajeet-sharma', function () {
-    return view('frontend/facultyprofile/rset/hidangmayum');
-})->name('faculty-hidangmayum');
-
 Route::get('/faculty-smrity-choudhury', function () {
     return view('frontend/facultyprofile/rset/smrity-choudhury');
 })->name('faculty-smrity-choudhury');
