@@ -657,16 +657,16 @@
                         </div>
                     </div>
 
-                    {{-- <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Krishangi-Saikia.png" alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Rinreichon-h.jpg" alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Krishangi Saikia</h3>
+                            <h3 class="card-name">Dr. Rinreichon Houshu Shimray</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-krishangi-saikia" class="profile-link">View Profile</a>
+                            {{-- <a href="/faculty-krishangi-saikia" class="profile-link">View Profile</a> --}}
                         </div>
-                    </div> --}}
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
