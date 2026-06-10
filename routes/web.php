@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/june/news5');
+})->name('nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university');
+
 Route::get('/royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi', function () {
     return view('frontend/media-corner/2026/june/news4');
 })->name('royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi');

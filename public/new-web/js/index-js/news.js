@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, June 10, 2026",
+            title: "NEC Secretary Inaugurates Agricultural Sciences Laboratories at RGU",
+            desc: "In a significant boost to agricultural education and research in the region, Sri S. K. Bhalla, Secretary, North Eastern Council (NEC), Government of India, Ministry of Development of North Eastern Region (DoNER), inaugurated the newly established Laboratories of Agricultural Sciences at The Assam Royal Global University (RGU)",
+            img: "/mobile-assets/media-corner/2026/jun/2.jpeg",
+            link: "/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university",
+        },
+        {
             date: "Guwahati, June 8, 2026",
             title: "Royal Global University Inks Pact with Sashastra Seema Bal in New Delhi",
             desc: "In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University (RGU) today signed a landmark Memorandum of Understanding (MoU) with the Sashastra Seema Bal (SSB) at the Director General Headquarters, East Block-V, R.K. Puram, New Delhi.",

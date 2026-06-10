@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'NEC Secretary Inaugurates Agricultural Sciences Laboratories at Royal Global University',
+                            'summary' => 'Agricultural Laboratories at RGU to Boost Development of NE Region: NEC Secretary',
+                            'date' => 'Guwahati, June 10, 2026:',
+                            'link' => '/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/jun/2.jpeg',
+                            'content' => 'In a significant boost to agricultural education and research in the region, Sri S. K. Bhalla, Secretary, North Eastern Council (NEC), Government of India, Ministry of Development of North Eastern Region (DoNER)...',
+                        ],
+                        [
                             'title' => 'Royal Global University Inks Pact with Sashastra Seema Bal in New Delhi',
                             'summary' => '',
                             'date' => 'Guwahati, June 8, 2026:',
