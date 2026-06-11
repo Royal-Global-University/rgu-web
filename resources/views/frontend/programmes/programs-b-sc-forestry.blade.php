@@ -21,9 +21,6 @@
                 Duration - 3/3+1 Years
             </p>
 
-            <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Life Sciences (RSLSC)
-            </p>
 
         </div>
 
@@ -41,9 +38,6 @@
                 Duration - 3/3+1 Years
             </p>
 
-            <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Life Sciences (RSLSC)
-            </p>
 
         </div>
 

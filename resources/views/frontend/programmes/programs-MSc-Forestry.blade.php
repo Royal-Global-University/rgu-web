@@ -21,10 +21,6 @@
                 Duration - 2 years
             </p>
 
-            <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Life Sciences (RSLSC)
-            </p>
-
         </div>
 
         <div class="website">
@@ -41,9 +37,6 @@
                 Duration - 2 years
             </p>
 
-            <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Life Sciences (RSLSC)
-            </p>
 
         </div>
 

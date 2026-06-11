@@ -75,7 +75,7 @@
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
-                                <th>Royal School of Agriculture (RSAG)</th>
+                                <th>Royal School of Agriculture and Forestry (RSAF)</th>
                             </div>
                             <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -120,6 +120,44 @@
                                             <td>100000.00</td>
                                             <td>51500.00</td>
                                             <td><a href="{{ route('programme-msc-agri') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
+                                                        Forestry</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-MSc-Forestry') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-MSc-Forestry') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc.
+                                                        Forestry</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-b-sc-forestry') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration:
+                                                            3/4 years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-b-sc-forestry') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
@@ -4277,7 +4315,7 @@
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
-                                <th>Royal School of Agriculture (RSAG)</th>
+                                <th>Royal School of Agriculture and Forestry (RSAF)</th>
                             </div>
                             <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -4322,6 +4360,44 @@
                                             <td>100000.00</td>
                                             <td>51500.00</td>
                                             <td><a href="{{ route('programme-msc-agri') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc.(H)
+                                                        Forestry</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-b-sc-forestry') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration:
+                                                            3/4 years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-b-sc-forestry') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">M.Sc.
+                                                        Forestry</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-MSc-Forestry') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-MSc-Forestry') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>

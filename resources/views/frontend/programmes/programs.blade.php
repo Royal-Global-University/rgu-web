@@ -1209,7 +1209,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
                             data-bs-target="#accRsag">
-                            Royal School of Agriculture (RSAG)
+                            Royal School of Agriculture and Forestry (RSAF)
                         </button>
                     </h2>
                     <div id="accRsag" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
@@ -1228,6 +1228,24 @@
                                     <a href="https://www.rgu.ac/programme-msc-agri" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Agriculture</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-b-sc-forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. - Forestry</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MSc-Forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. - Forestry</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>

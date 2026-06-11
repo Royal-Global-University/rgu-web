@@ -13,7 +13,7 @@
 
                 <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
                     <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
-                    Agriculture (RSAG)
+                    Agriculture and Forestry (RSAF)
                 </h2>
 
                 <div class="container">
@@ -423,7 +423,7 @@
 
                                 <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
                                     <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                                    Agriculture (RSAG)
+                                    Agriculture and Forestry (RSAF)
                                 </h2>
                             </div>
 

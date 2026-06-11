@@ -5,7 +5,7 @@
         <section style="padding-top: 90px; position: relative; background-image: url('mobile-assets/royal-schools-assets/bg.svg');">
             <h2 class="mobile-headd2 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
-                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Agriculture (RSAG)</span></h2>
+                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Agriculture and Forestry (RSAF)</span></h2>
 
             <div style="padding: 20px 30px;">
 
@@ -59,7 +59,7 @@
         <section style="background-image: url('mobile-assets/royal-schools-assets/bg.svg');">
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
-                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Agriculture (RSAG)</span></h2>
+                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Agriculture and Forestry (RSAF)</span></h2>
 
             <div style="padding: 20px 120px; text-center">
 

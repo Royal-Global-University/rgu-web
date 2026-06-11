@@ -1005,7 +1005,7 @@
             },
 
             {
-                title: "Royal School of Agriculture (RSAG)",
+                title: "Royal School of Agriculture and Forestry (RSAF)",
                 image: "/mobile-assets/agri.png",
                 deptMainLink: "/royal-school-of-agriculture",
                 facultyLink: "/faculty-agriculture",
