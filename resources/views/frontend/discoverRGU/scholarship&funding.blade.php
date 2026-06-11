@@ -1,248 +1,68 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'RGU Scholarships 2026-27: Royal Merit, Bhutanese & Merit-Based')
 @section('meta_description',
     'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and
     specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
-<div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 80px"></div>
-    </div>
 
-    <div class="website">
-        <!--head image Section-->
-        @include('frontend/components/aheader')
 
-    </div>
-        <style>
-
-        .section-body {
-            font-family: 'Times New Roman', Times, serif;
-            background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
-        }
-
-        /* accordion */
-
-        .scholarship-item {
-            border: none;
-            margin-bottom: .75rem;
-        }
-
-        .scholarship-btn {
-            background: #132b4b;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            gap: .9rem;
-            padding: 1.1rem 1.25rem;
-            font-weight: 500;
-        }
-
-        .scholarship-btn:not(.collapsed) {
-            background: #132b4b;
-            color: #fff;
-            box-shadow: none;
-        }
-
-        .scholarship-btn:focus {
-            box-shadow: none;
-        }
-
-        .scholarship-btn::after {
-            filter: brightness(0) invert(1);
-        }
-
-        .scholarship-label {
-            background: #f39c12;
-            color: #fff;
-            display: flex;
-            padding: 5px;
-            align-items: center;
-            justify-content: center;
-            border-radius: .35rem;
-            font-weight: 700;
-            flex-shrink: 0;
-        }
-
-        .accordion-body {
-            background: #f9f9f9;
-            padding: 1.5rem;
-        }
-
-        /* tables */
-
-        .scholarship-table thead th {
-            background: #132b4b;
-            color: #fff;
-            padding: 1rem;
-            border: 1px solid #e5e5e5;
-        }
-
-        .scholarship-table tbody td {
-            background: #f2f2f2;
-            padding: 1rem;
-        }
-
-        .scholarship-table .percent {
-            font-weight: 700;
-        }
-
-        .scholarship-table .left-head {
-            width: 35%;
-        }
-
-        .merit-table thead th {
-            background: #132b4b;
-            color: #fff;
-            padding: 1rem;
-        }
-
-        .merit-table td {
-            padding: 1rem;
-        }
-
-        /* headings */
-
-        .section-title {
-            color: #132b4b;
-            margin-top: 1.5rem;
-            margin-bottom: .6rem;
-            font-weight: 600;
-        }
-
-        @media (max-width:1024px) {
-            .website {
-                display: none;
-            }
-
-            .mobile {
-                display: block;
-            }
-        }
-
-        @media (min-width:1025px) {
-            .website {
-                display: block;
-            }
-
-            .mobile {
-                display: none;
-            }
-        }
-    </style>
-
-        <div class="section-body">
-
-        <!-- mobile banner -->
-
-        <div class="mobile">
-            <img src="https://www.rgu.ac/mobile-assets/scholarship/mobile-scholarship.png" width="100%" alt="">
+    <!-- only insert these  -->
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/Admission-Scholarship-Funding-Scholarship/cover.png'); filter: blur(2px);">
         </div>
 
-        <!-- desktop banner -->
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-        <div class="website">
-            <img src="https://www.rgu.ac/mobile-assets/scholarship/web-scholarship.png" width="100%" alt="">
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Scholarship</h1>
+            <div class="pg-hero-breadcrumb">
+                Admission / Scholarship & Funding / Scholarship
+            </div>
         </div>
 
-        <!-- floating buttons  -->
-                <div>
-                    <a href="https://rgu.renocampus.com/scholarship/scholarshipForm"
-                        style="
-                                                                                                                        position: fixed;
-                                                                                                                        bottom: 35px;
-                                                                                                                        right: 50px;
-                                                                                                                        background-color: #ef991f;
-                                                                                                                        color: #fff;
-                                                                                                                        padding: 12px 20px;
-                                                                                                                        font-size: 18px;
-                                                                                                                        font-weight: bold;
-                                                                                                                        text-decoration: none;
-                                                                                                                        border-radius: 20px;
-                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                        z-index: 1000;
-                                                                                                                        overflow: hidden;
-                                                                                                                        animation: pulse 2s infinite;
-                                                                                                                        ">
-                        <span
-                            style="
-                                                                                                                        position: absolute;
-                                                                                                                        top: 0;
-                                                                                                                        left: -75%;
-                                                                                                                        width: 50%;
-                                                                                                                        height: 100%;
-                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                        transform: skewX(-25deg);
-                                                                                                                        animation: shine 2s infinite;
-                                                                                                                        "></span>
-                        APPLY FOR SCHOLARSHIP
-                    </a>
-                    <style>
-                        @keyframes pulse {
-                            0% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-
-                            50% {
-                                transform: scale(1.05);
-                                box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                            }
-
-                            100% {
-                                transform: scale(1);
-                                box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                            }
-                        }
-
-                        @keyframes shine {
-                            0% {
-                                left: -75%;
-                            }
-
-                            100% {
-                                left: 125%;
-                            }
-                        }
-                    </style>
-                </div>
-                <!-- floating buttons  -->
-
-        <div class="container my-5">
-
-            <div class="accordion" id="scholarshipAccordion">
+    </section>
 
 
-                <!-- ===================== A ===================== -->
+    <!-- ==========================
+             SCHOLARSHIP & FUNDING
+        ========================== -->
 
-                <div class="accordion-item scholarship-item">
+    <section class="rgu-sch-section">
+        <div class="container">
 
-                    <h2 class="accordion-header">
+            <div class="rgu-sch-accordion">
 
-                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
-                            data-bs-target="#scholarshipA">
+                <!-- Item 1 -->
+                <div class="rgu-sch-item">
 
-                            <span class="scholarship-label">A</span>
+                    <button class="rgu-sch-header" type="button">
 
-                            Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnel (Military/Paramilitary/North-Eastern Police Forces)
+                        <span>
+                            Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnel
+                            (Military/Paramilitary/North-Eastern Police Forces)
+                        </span>
 
-                        </button>
+                        <i class="bi bi-chevron-down"></i>
 
-                    </h2>
+                    </button>
 
-                    <div id="scholarshipA" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
+                    <div class="rgu-sch-content">
+                        <div class="rgu-sch-inner">
 
-                        <div class="accordion-body">
+                            <!-- Table -->
 
                             <div class="table-responsive">
-                                <table class="table scholarship-table table-bordered text-center align-middle">
+
+                                <table class="rgu-sch-table">
 
                                     <thead>
 
                                         <tr>
-                                            <th rowspan="3" class="left-head">
-                                                SCHOLARSHIP OFFERED ON COURSE FEE
+                                            <th rowspan="3">
+                                                Scholarship Offered On Course Fee
                                             </th>
 
                                             <th>
@@ -266,7 +86,7 @@
                                             </th>
 
                                             <th>
-                                                10+2/ HS/ DIPLOMA (ANY BOARD)
+                                                10+2 / HS / DIPLOMA (ANY BOARD)
                                             </th>
                                         </tr>
 
@@ -275,180 +95,205 @@
                                     <tbody>
 
                                         <tr>
-                                            <td class="percent">50%</td>
+                                            <td><strong>50%</strong></td>
 
                                             <td colspan="2">
-                                                As per the required minimum eligibility criteria of the respective
-                                                programme/course
+                                                As per the required minimum eligibility criteria
+                                                of the respective programme/course
                                             </td>
                                         </tr>
 
                                     </tbody>
 
                                 </table>
+
                             </div>
 
-                            <div class="content">
 
-                                <h5><strong>ELIGIBILITY CRITERIA</strong></h5>
+                            <!-- Eligibility -->
 
-                                <ol type="i">
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Eligibility Criteria
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
 
                                     <li>
-                                        The Scholarship is applicable to the wards of serving & retired:
+                                        The scholarship is applicable to the wards of serving &
+                                        retired:
+
                                         <ol type="a">
-                                            <li>Military (Army/Navy/Air Force)</li>
-                                            <li>Paramilitary (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam Rifles/NSG/SFF/SPG)</li>
-                                            <li>Police Personnel residing in the Northeastern region</li>
+
+                                            <li>
+                                                Military (Army/Navy/Air Force)
+                                            </li>
+
+                                            <li>
+                                                Paramilitary
+                                                (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam Rifles/NSG/SFF/SPG)
+                                            </li>
+
+                                            <li>
+                                                Police Personnel residing in the Northeastern region.
+                                            </li>
+
                                         </ol>
                                     </li>
 
                                     <li>
-                                        A student availing scholarship under Royal Suraksha is required to pay the
-                                        one-time
-                                        Admission Fee, Registration Fee and Caution money (refundable) at the time of
-                                        admission.
+                                        A student availing scholarship under Royal Suraksha is
+                                        required to pay the one-time Admission Fee, Registration
+                                        Fee and Caution Money (refundable) at the time of admission.
                                     </li>
 
                                     <li>
-                                        The scholarship is awarded annually and continuation in the subsequent year is
-                                        governed
-                                        by the norms laid down for the continuation of Royal Suraksha.
+                                        The scholarship is awarded annually and continuation in the
+                                        subsequent year is governed by the norms laid down for the
+                                        continuation of Royal Suraksha.
                                     </li>
 
                                     <li>
-                                        In case a student, availing Royal Suraksha, wishes to avail
-                                        hostel/transportation
-                                        facilities, he/she will have to pay the full hostel/transportation fees as
-                                        prescribed
-                                        for other students.
+                                        In case a student availing Royal Suraksha wishes to avail
+                                        hostel/transportation facilities, he/she will have to pay
+                                        the full hostel/transportation fees as prescribed for other
+                                        students.
                                     </li>
 
                                     <li>
-                                        The Scholarship may not be applicable for Courses Governed by Regulatory Bodies
-                                        (AICTE,
-                                        COA, PCI, INC, ANMHVC, BCI, etc.).
+                                        The scholarship may not be applicable for courses governed
+                                        by Regulatory Bodies (AICTE, COA, PCI, INC, ANMHVC,
+                                        BCI, etc.).
                                     </li>
 
                                     <li>
-                                        Change of programme after the award of Scholarship for a particular programme is
-                                        not
-                                        allowed. As such the scholarship awarded stands cancelled. If the student still
-                                        wishes
-                                        to apply for the scholarship, it needs to submit a fresh application for the
-                                        same.
+                                        Change of programme after the award of scholarship for a
+                                        particular programme is not allowed. As such, the scholarship
+                                        awarded stands cancelled. If the student still wishes to
+                                        apply for the scholarship, a fresh application has to be
+                                        submitted.
                                     </li>
 
                                     <li>
-                                        The students can avail only one scholarship from any source in a particular
-                                        academic
-                                        year. If a student is found availing more than one scholarship during the same
-                                        academic
-                                        year from different sources, the scholarship awarded by the University will
-                                        stand
-                                        cancelled for that particular academic year, and the student will be liable to
-                                        pay the
-                                        full course fee for that academic year.
+                                        Students can avail only one scholarship from any source in
+                                        a particular academic year. If a student is found availing
+                                        more than one scholarship during the same academic year from
+                                        different sources, the scholarship awarded by the University
+                                        will stand cancelled for that academic year and the student
+                                        will be liable to pay the full course fee.
                                     </li>
 
                                     <li>
-                                        However, if a student wishes to retain the scholarship offered by the University
-                                        and
-                                        withdraw the scholarship received from other source(s) for the same academic
-                                        year, the
-                                        student must refund the entire scholarship amount received from the other
-                                        source(s) to
-                                        the University before availing the University’s scholarship. If a student is
-                                        applying
-                                        for any other scholarships, the student needs to submit an undertaking that the
-                                        RGU
-                                        scholarship will be returned if he/she receives any other scholarship from other
-                                        sources.
+                                        If a student wishes to retain the University's scholarship
+                                        and withdraw the scholarship received from other source(s)
+                                        for the same academic year, the student must refund the
+                                        entire scholarship amount received from the other source(s)
+                                        to the University before availing the University's scholarship.
+
+                                        If a student is applying for any other scholarship, the
+                                        student needs to submit an undertaking that the RGU
+                                        scholarship will be returned if he/she receives any other
+                                        scholarship from other sources.
                                     </li>
 
                                     <li>
-                                        Final decision of granting scholarship lies with the University Scholarship
-                                        Committee
-                                        and/or Competent Authority/s.
+                                        Final decision of granting scholarship lies with the
+                                        University Scholarship Committee and/or Competent Authority/s.
                                     </li>
 
                                 </ol>
 
+                            </div>
 
-                                <h5 class="mt-4"><strong>Continuation of Scholarship for subsequent years will be
-                                        governed as
-                                        follows –</strong></h5>
 
-                                <ol>
+                            <!-- Continuation -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Continuation of Scholarship for subsequent years will be governed as follows:
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
                                     <li>
-                                        Class attendance of the students must be 75% and above in all the subjects in
-                                        each
-                                        semester from the previous academic year.
+                                        Class attendance of the students must be 75% and above
+                                        in all the subjects in each semester from the previous
+                                        academic year.
                                     </li>
 
                                     <li>
-                                        To continue availing scholarship, a student must clear all the papers in each
-                                        semester
-                                        and should not carry any backlog in any semester from the previous academic year
-                                        and
-                                        must pass the semester/annual examination for promotion to the next year.
+                                        To continue availing scholarship, a student must clear all
+                                        the papers in each semester and should not carry any backlog
+                                        in any semester from the previous academic year and must pass
+                                        the semester/annual examination for promotion to the next year.
                                     </li>
+
                                 </ol>
 
+                            </div>
 
-                                <h5 class="mt-4"><strong>Documents Required under the above mentioned
-                                        Scholarship:</strong></h5>
 
-                                <ol>
+                            <!-- Documents -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Documents Required under the above mentioned Scholarship:
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
                                     <li>
                                         Scanned copies of the marksheets/gradesheets from Class X onwards.
                                     </li>
 
                                     <li>
-                                        Scanned copies of the serving/retired certificate from the competent authority
-                                        claiming
-                                        scholarship under the said category.
+                                        Scanned copies of the serving/retired certificate from the
+                                        competent authority claiming scholarship under the said category.
                                     </li>
+
                                 </ol>
 
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
 
+                <!-- Item 2 -->
 
-                <!-- ===================== B ===================== -->
+                <div class="rgu-sch-item">
 
-                <div class="accordion-item scholarship-item">
+                    <button class="rgu-sch-header" type="button">
 
-                    <h2 class="accordion-header">
+                        <span>
+                            Royal Shaurya : Full freeship to the wards of braveheart security personnels (Scholarship
+                            offered on course fee)
+                        </span>
 
-                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
-                            data-bs-target="#scholarshipB">
+                        <i class="bi bi-chevron-down"></i>
 
-                            <span class="scholarship-label">B</span>
+                    </button>
 
-                            Royal Shaurya : Full freeship to the wards of braveheart security personnels (Scholarship offered on course fee)
+                    <div class="rgu-sch-content">
 
-                        </button>
+                        <div class="rgu-sch-inner">
 
-                    </h2>
-
-                    <div id="scholarshipB" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
-
-                        <div class="accordion-body">
+                            <!-- Table -->
 
                             <div class="table-responsive">
-                                <table class="table scholarship-table table-bordered text-center align-middle">
+
+                                <table class="rgu-sch-table">
 
                                     <thead>
 
                                         <tr>
-                                            <th rowspan="3" class="left-head">
-                                                SCHOLARSHIP OFFERED ON COURSE FEE
+                                            <th rowspan="3">
+                                                Scholarship Offered On Course Fee
                                             </th>
 
                                             <th>
@@ -472,566 +317,8 @@
                                             </th>
 
                                             <th>
-                                                10+2/ HS/ DIPLOMA (ANY BOARD)
+                                                10+2 / HS / DIPLOMA (ANY BOARD)
                                             </th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <td class="percent">100%</td>
-
-                                            <td colspan="2">
-                                                As per the required minimum eligibility criteria of the respective
-                                                programme/course
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-                            </div>
-
-                            <div class="content">
-
-                                <h5><strong>ELIGIBILITY CRITERIA:</strong></h5>
-
-                                <p>The Scholarship is applicable to the wards of:</p>
-
-                                <ul>
-                                    <li>Military (Army/Navy/Air Force)</li>
-                                    <li>Paramilitary (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam Rifles/NSG/SFF/SPG)</li>
-                                    <li>Police Personnel residing in the Northeastern region</li>
-                                </ul>
-
-                                <p>who have:</p>
-
-                                <ul>
-                                    <li>Laid their lives while fighting against
-                                        Militants/Naxalites/Terrorists/Anti-social Elements.</li>
-                                    <li>Received Gallantry Medals/Awards.</li>
-                                    <li>Expired while performing bonafide Govt. duty service.</li>
-                                </ul>
-
-                                <ol>
-
-                                    <li>
-                                        A student availing scholarship under Royal Shaurya is required to pay the
-                                        one-time Admission Fee, Registration Fee and Caution money (refundable) at the
-                                        time of admission.
-                                    </li>
-
-                                    <li>
-                                        The scholarship is awarded annually and continuation in the subsequent year is
-                                        governed by the norms laid down for the continuation of Royal Shaurya.
-                                    </li>
-
-                                    <li>
-                                        In case a student, availing Royal Shaurya, wishes to avail hostel/transportation
-                                        facilities, he/she will have to pay the full hostel/transportation fees as
-                                        prescribed for other students.
-                                    </li>
-
-                                    <li>
-                                        The Scholarship may not be applicable for Courses Governed by Regulatory Bodies
-                                        (AICTE, COA, PCI, INC, ANMHVC, BCI, etc.).
-                                    </li>
-
-                                    <li>
-                                        Change of programme after the award of Scholarship for a particular programme is
-                                        not allowed. As such the scholarship awarded stands cancelled. If the student
-                                        still wishes to apply for the scholarship, it needs to submit a fresh
-                                        application for the same.
-                                    </li>
-
-                                    <li>
-                                        The students can avail only one scholarship from any source in a particular
-                                        academic year. If a student is found availing more than one scholarship during
-                                        the same academic year from different sources, the scholarship awarded by the
-                                        University will stand cancelled for that particular academic year, and the
-                                        student will be liable to pay the full course fee for that academic year.
-                                    </li>
-
-                                    <li>
-                                        However, if a student wishes to retain the University’s scholarship and withdraw
-                                        the scholarship received from other source(s) for the same academic year, the
-                                        student must refund the full amount received from the other source(s) to the
-                                        University before availing the University’s scholarship. The student is also
-                                        required to submit an undertaking to this effect.
-                                    </li>
-
-                                    <li>
-                                        Final decision of granting scholarship lies with the University Scholarship
-                                        Committee and/or Competent Authority/s.
-                                    </li>
-
-                                </ol>
-
-
-                                <h5 class="mt-4"><strong>Continuation of Scholarship for subsequent years will be
-                                        governed as follows –</strong></h5>
-
-                                <ol>
-                                    <li>
-                                        Class attendance of the students must be 75% and above in all the subjects in
-                                        each semester from the previous academic year.
-                                    </li>
-
-                                    <li>
-                                        To continue availing scholarship, a student must clear all the papers in each
-                                        semester and should not carry any backlog in any semester from the previous
-                                        academic year and must pass the semester/annual examination for promotion to the
-                                        next year.
-                                    </li>
-                                </ol>
-
-
-                                <h5 class="mt-4"><strong>Documents Required under the above mentioned
-                                        Scholarship:</strong></h5>
-
-                                <ul>
-                                    <li>Scanned copies of the marksheets/gradesheets from Class X onwards.</li>
-                                    <li>Scanned copies of the certificate from the competent authority claiming
-                                        scholarship under the said category.</li>
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- ===================== C ===================== -->
-
-                <div class="accordion-item scholarship-item">
-
-                    <h2 class="accordion-header">
-
-                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
-                            data-bs-target="#scholarshipC">
-
-                            <span class="scholarship-label">C</span>
-
-                            Zubeen Garg Scholarship (Policy for Promotion of Extracurricular Activities)
-
-                        </button>
-
-                    </h2>
-
-                    <div id="scholarshipC" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
-
-                        <div class="accordion-body">
-
-
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/pdf/Policy%20Promotion%20of%20Extracurricular%20Activities_Final.pdf"
-                                class="btn btn-danger mb-3">Download Brochure</a>
-
-                            <div class="table-responsive mb-5">
-                                <table class="table table-bordered scholarship-table text-center align-middle">
-
-                                    <thead>
-                                        <tr>
-                                            <th rowspan="2">CATEGORIES</th>
-                                            <th colspan="3">SCHOLARSHIP OFFERED ON COURSE FEE</th>
-                                            <th rowspan="2">For PG/UG Programme<br><small>(Percentage of marks in
-                                                    Graduation / 10+2 / Diploma)</small></th>
-                                        </tr>
-
-                                        <tr>
-                                            <th>100%</th>
-                                            <th>50%</th>
-                                            <th>25%</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <td><strong>Sports</strong><br><small>(including both individual and team
-                                                    sports)</small></td>
-
-                                            <td>International Athlete / Players</td>
-
-                                            <td>
-                                                National Participants / Award winners<br>
-                                                First four positions at All India University level (by AIU)
-                                            </td>
-
-                                            <td>
-                                                Zonal / State Participants<br>
-                                                First three positions at Zonal University level (by AIU)
-                                            </td>
-
-                                            <td rowspan="3">
-                                                As per the required minimum eligibility criteria of the respective
-                                                programme/course
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-
-                                            <td>
-                                                <strong>Cultural Activities</strong><br>
-                                                • Dance<br>
-                                                • Music<br>
-                                                • Theatre<br>
-                                                • Fine Arts
-                                            </td>
-
-                                            <td>
-                                                1. First four positions at National Level Festival conducted by Ministry
-                                                of Youth Cultural and Sports Affairs, Govt. of India<br>
-                                                2. First three positions at All India University level (AIU)<br>
-                                                3. Overall Winner of National TV Reality Show
-                                            </td>
-
-                                            <td>
-                                                1. Participated in National Youth Fest conducted by Ministry of Youth
-                                                Affairs & Sports, Govt. of India<br>
-                                                2. Graded artist of Government broadcasting media (DD/AIR)<br>
-                                                3. First three positions at Zonal Youth Festivals (AIU)
-                                            </td>
-
-                                            <td>
-                                                1. Fourth position at Zonal Youth Festivals (AIU)<br>
-                                                2. First three positions at Scheduled State Level Event conducted by
-                                                Ministry of Youth Cultural and Sports Affairs or Sangeet Natak
-                                                Academy<br>
-                                                3. First three positions at Inter Zonal Youth Festivals (AIU)<br>
-                                                4. Finalist / Semi-finalist / Quarterfinalist at National TV reality
-                                                show
-                                            </td>
-
-                                        </tr>
-
-                                        <tr>
-
-                                            <td><strong>Literary</strong></td>
-
-                                            <td>National Level Debate Recognition</td>
-
-                                            <td>University Level Debate Recognition</td>
-
-                                            <td>State / Zonal Debate Recognition</td>
-
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-
-
-                            <h5 class="section-title">Eligibility Criteria:</h5>
-
-                            <p>The scholarship is applicable under the following categories and candidates must have
-                                achieved recognition at <strong>Inter-University, State, National, or International
-                                    level</strong> in the respective field.</p>
-
-
-                            <div class="table-responsive mb-5">
-                                <table class="table table-bordered scholarship-table">
-
-                                    <thead>
-                                        <tr>
-                                            <th width="30%">CATEGORIES</th>
-                                            <th>INCLUDES</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <td><strong>Sports</strong></td>
-                                            <td>
-                                                Football, Cricket, Volleyball, Basketball, Tennis, Badminton, Table
-                                                Tennis, Taekwondo, Athletics, Judo, Karate, Boxing, Swimming and other
-                                                sports (subject to approval).
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>Dance</strong></td>
-                                            <td>Folk / Classical</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>Music</strong></td>
-                                            <td>
-                                                <strong>Vocal:</strong> Classical / Semi Classical Indian / Folk / Light
-                                                Vocal / Western<br><br>
-
-                                                <strong>Instrumental:</strong><br>
-                                                1. <strong>Percussion:</strong> Tabla, Khol, Mridangam, Pakhawaj<br>
-                                                2. <strong>Non-Percussion:</strong> Sitar, Santoor, Sarod, Flute,
-                                                Harmonium, Violin, Sarangi<br>
-                                                3. Folk Instruments<br><br>
-
-                                                <strong>Western Instruments:</strong> Keyboard, Guitar, Bass Guitar,
-                                                Drum, Piano etc.
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>Theatre</strong></td>
-                                            <td>Any Theatre form / Mime</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>Fine Arts</strong></td>
-                                            <td>Painting, Terracotta / Clay Modelling / Installation / Collage /
-                                                Photography</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>Literary</strong></td>
-                                            <td>Debate</td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-
-
-                            <h5 class="section-title">Additional Eligibility Conditions</h5>
-
-                            <ol>
-                                <li>
-                                    The Scholarship is applicable under the following categories. The applicant must
-                                    have achieved recognition at the Inter-University, State, National, or International
-                                    level in the respective field.
-                                </li>
-
-                                <li>
-                                    The scholarship applied under the Music and Dance category must hold a Visharad or
-                                    equivalent qualification from a recognized Board/University.
-                                </li>
-
-                                <li>
-                                    A student availing the Zubeen Garg Scholarship is required to pay the one-time
-                                    Admission Fee, Registration Fee, and Caution Money (refundable) at the time of
-                                    admission.
-                                </li>
-
-                                <li>
-                                    A total of 20 scholarships will be offered under each category (i.e., Sports, Music,
-                                    Dance, Theatre, Literary, Fine Arts) in selected programmes as decided by the
-                                    competent authority. Scholarship/Financial Aid under different categories may not be
-                                    offered in all the programmes of the university.
-                                </li>
-
-                                <li>
-                                    The applicant under the Zubeen Garg Scholarship shall be required to submit an
-                                    affidavit stating that once admitted to the university, they would
-                                    participate/represent only from RGU.
-                                </li>
-                            </ol>
-
-
-                            <h5 class="section-title">Other Terms and Conditions</h5>
-
-                            <ul>
-                                <li>
-                                    Flexible Examination Schedules: Sportsperson may be allowed to take examinations at
-                                    alternative times if the scheduled examinations coincide with any event/competition
-                                    (only for International/National/State level competitions).
-                                </li>
-
-                                <li>
-                                    Attendance will be considered on the basis of active participation and submission of
-                                    proof of participation.
-                                </li>
-
-                                <li>
-                                    Performance Trials/Audition will be taken before admission.
-                                </li>
-
-                                <li>
-                                    Original certificates are required for verification.
-                                </li>
-
-                                <li>
-                                    Only last two-years performance certificates will be considered.
-                                </li>
-
-                                <li>
-                                    Deficit in the required attendance for students participating in
-                                    Zonal/AIU/National/International Competitions from the date of departure to the date
-                                    of return at RGU campus shall be compensated by treating the days of absence from
-                                    academic activities on campus as engagement in extracurricular/co-curricular
-                                    activities.
-                                </li>
-
-                                <li>
-                                    Attendance of the Zubeen Garg scholars in training camps within and outside the
-                                    campus will be recorded. Zubeen Garg scholars shall be required to have 90%
-                                    attendance in such camps.
-                                </li>
-                            </ul>
-
-                            <ol>
-                                <li>
-                                    In case a student availing the Zubeen Garg Scholarship wishes to avail hostel or
-                                    transportation facilities, he/she will have to pay the full hostel/transportation
-                                    fees as prescribed for other students.
-                                </li>
-
-                                <li>
-                                    The Scholarship may not be applicable for courses governed by regulatory bodies
-                                    (AICTE, COA, PCI, INC, ANMHVC, BCI, etc.).
-                                </li>
-
-                                <li>
-                                    Change of programme after the award of scholarship for a particular programme is not
-                                    allowed. In such cases, the scholarship awarded stands cancelled. If the student
-                                    still wishes to apply for the scholarship, he/she must submit a fresh application.
-                                </li>
-
-                                <li>
-                                    Students can avail only one scholarship from any source in a particular academic
-                                    year. If a student is found availing more than one scholarship during the same
-                                    academic year from different sources, the scholarship awarded by the University will
-                                    stand cancelled for that academic year, and the student will be liable to pay the
-                                    full course fee for that academic year.
-                                </li>
-
-                                <li>
-                                    However, if a student wishes to retain the University’s scholarship and withdraw the
-                                    scholarship received from other source(s) for the same academic year, the student
-                                    must refund the full amount received from the other source(s) to the University
-                                    before availing the University’s scholarship. The student is also required to submit
-                                    an undertaking to this effect.
-                                </li>
-
-                                <li>
-                                    The final decision regarding the granting of the scholarship lies with the
-                                    University Scholarship Committee and/or the competent authority.
-                                </li>
-                            </ol>
-
-
-                            <h5 class="section-title">Discontinuation of Scholarship</h5>
-
-                            <ol>
-                                <li>
-                                    If the student indulges in any act of indiscipline.
-                                </li>
-
-                                <li>
-                                    If the student fails to participate in Zonal / All India Inter University
-                                    competitions or represent RGU due to any reason.
-                                </li>
-
-                                <li>
-                                    If attendance falls short of the required 90% in the training camps (within and
-                                    outside the campus).
-                                </li>
-
-                                <li>
-                                    If any student is found positive in doping tests during any competition or trials.
-                                </li>
-
-                                <li>
-                                    If any student indulges in criminal activities, he/she can be terminated from the
-                                    University.
-                                </li>
-                            </ol>
-
-
-                            <h5 class="section-title">Continuation of Scholarship</h5>
-
-                            <ol>
-                                <li>Minimum <strong>75% attendance</strong> in all subjects in each semester.</li>
-                                <li>No backlog and must pass examinations for promotion to next year.</li>
-                            </ol>
-
-
-                            <h5 class="section-title">Documents Required</h5>
-
-                            <ul>
-                                <li>
-                                    Scanned copies of the marksheets/gradesheets from Class X onwards.
-                                </li>
-
-                                <li>
-                                    The scholarship under the Sports category must furnish the following documents:
-                                    <ul>
-                                        <li>Certificates of participation or awards in recognized sports events at
-                                            national or state levels.</li>
-                                        <li>
-                                            Recognition in Sports:
-                                            <ul>
-                                                <li>Olympics / World / Asian / Commonwealth / SAF Games / Paralympics
-                                                    Games.</li>
-                                                <li>
-                                                    Championships under International Sports Federation (IOC/IOA and/or
-                                                    Ministry of Youth Affairs & Sports recognized/affiliated Games).
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li>
-                                    The scholarship applied under the Cultural Activities category must furnish
-                                    certificates and other forms of valid evidence showing participation or recognition
-                                    in the mentioned domain.
-                                </li>
-                            </ul>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- ===================== D ===================== -->
-
-                <div class="accordion-item scholarship-item">
-
-                    <h2 class="accordion-header">
-
-                        <button class="accordion-button collapsed scholarship-btn" data-bs-toggle="collapse"
-                            data-bs-target="#scholarshipD">
-
-                            <span class="scholarship-label">D</span>
-
-                            Royal Merit Scholarship
-
-                        </button>
-
-                    </h2>
-
-                    <div id="scholarshipD" class="accordion-collapse collapse" data-bs-parent="#scholarshipAccordion">
-
-                        <div class="accordion-body">
-
-
-                            <div class="table-responsive mb-4">
-                                <table class="table table-bordered merit-table text-center align-middle">
-
-                                    <thead>
-
-                                        <tr>
-                                            <th rowspan="3">SCHOLARSHIP OFFERED ON COURSE FEE</th>
-                                            <th>FOR PG PROGRAMMES</th>
-                                            <th colspan="2">FOR UG PROGRAMMES</th>
-                                        </tr>
-
-                                        <tr>
-                                            <th>PERCENTAGE OF MARKS REQUIRED IN</th>
-                                            <th colspan="2">PERCENTAGE OF MARKS REQUIRED IN</th>
-                                        </tr>
-
-                                        <tr>
-                                            <th>GRADUATION, IN ANY STREAM</th>
-                                            <th>10+2 (CBSE / ICSE BOARD)</th>
-                                            <th>H.S. / DIPLOMA MARKS (AHSEC / OTHER STATE BOARD / COUNCIL / NIOS)</th>
                                         </tr>
 
                                     </thead>
@@ -1040,128 +327,1401 @@
 
                                         <tr>
                                             <td><strong>100%</strong></td>
-                                            <td>90% & above in aggregate</td>
-                                            <td>96% & above in aggregate</td>
-                                            <td>93% & above in aggregate</td>
-                                        </tr>
 
-                                        <tr>
-                                            <td><strong>50%</strong></td>
-                                            <td>86% to 89.99%</td>
-                                            <td>92% to 95.99%</td>
-                                            <td>89% to 92.99%</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td><strong>25%</strong></td>
-                                            <td>82% to 85.99%</td>
-                                            <td>86% to 91.99%</td>
-                                            <td>83% to 88.99%</td>
+                                            <td colspan="2">
+                                                As per the required minimum eligibility criteria
+                                                of the respective programme/course
+                                            </td>
                                         </tr>
 
                                     </tbody>
 
                                 </table>
+
                             </div>
 
 
-                            <h5 class="section-title">Eligibility Criteria</h5>
+                            <!-- Eligibility -->
 
-                            <ol type="i">
+                            <div class="rgu-sch-block">
 
-                                <li>
-                                    A student availing scholarship under Royal Merit Scholarship is required to pay the
-                                    one-time Admission Fee, Registration Fee and Caution money (refundable) at the time
-                                    of admission.
-                                </li>
+                                <h3>
+                                    Eligibility Criteria:
+                                </h3>
 
-                                <li>
-                                    The scholarship is awarded annually and continuation in the subsequent year is
-                                    governed by the norms laid down for the continuation of Royal Merit Scholarship.
-                                </li>
+                                <p>
+                                    The Scholarship is applicable to the wards of:
+                                </p>
 
-                                <li>
-                                    In case a student availing Royal Merit Scholarship wishes to avail
-                                    hostel/transportation facilities, he/she will have to pay the full
-                                    hostel/transportation fees as prescribed for other students.
-                                </li>
+                                <ul class="rgu-sch-list">
 
-                                <li>
-                                    The Scholarship may not be applicable for Courses Governed by Regulatory Bodies
-                                    (AICTE, COA, PCI, INC, ANMHVC, BCI, etc.).
-                                </li>
+                                    <li>
+                                        Military (Army/Navy/Air Force)
+                                    </li>
 
-                                <li>
-                                    Change of programme after the award of Scholarship for a particular programme is not
-                                    allowed. As such the scholarship awarded stands cancelled. If the student still
-                                    wishes to apply for the scholarship, it needs to submit a fresh application for the
-                                    same.
-                                </li>
+                                    <li>
+                                        Paramilitary
+                                        (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam Rifles/NSG/SFF/SPG)
+                                    </li>
 
-                                <li>
-                                    The students can avail only one scholarship from any source in a particular academic
-                                    year. If a student is found availing more than one scholarship during the same
-                                    academic year from different sources, the scholarship awarded by the University will
-                                    stand cancelled for that particular academic year and the student will be liable to
-                                    pay the full course fee for that academic year.
-                                </li>
+                                    <li>
+                                        Police Personnel residing in the Northeastern region
+                                    </li>
 
-                                <li>
-                                    However, if a student wishes to retain the University's scholarship and withdraw the
-                                    scholarship received from other source(s) for the same academic year, the student
-                                    must refund the full amount received from the other source(s) to the University
-                                    before availing the University's scholarship. The student is also required to submit
-                                    an undertaking to this effect.
-                                </li>
+                                </ul>
 
-                                <li>
-                                    Final decision of granting scholarship lies with the University Scholarship
-                                    Committee and/or Competent Authority/s.
-                                </li>
+                                <p class="mt-4">
+                                    who have:
+                                </p>
 
-                            </ol>
+                                <ul class="rgu-sch-list">
+
+                                    <li>
+                                        Laid their lives while fighting against
+                                        Militants/Naxalites/Terrorists/Anti-social Elements.
+                                    </li>
+
+                                    <li>
+                                        Received Gallantry Medals/Awards.
+                                    </li>
+
+                                    <li>
+                                        Expired while performing bonafide Government duty service.
+                                    </li>
+
+                                </ul>
+
+                                <ol class="rgu-sch-ordered-list mt-4">
+
+                                    <li>
+                                        A student availing scholarship under Royal Shaurya is
+                                        required to pay the one-time Admission Fee, Registration
+                                        Fee and Caution Money (refundable) at the time of admission.
+                                    </li>
+
+                                    <li>
+                                        The scholarship is awarded annually and continuation in the
+                                        subsequent year is governed by the norms laid down for the
+                                        continuation of Royal Shaurya.
+                                    </li>
+
+                                    <li>
+                                        In case a student availing Royal Shaurya wishes to avail
+                                        hostel/transportation facilities, he/she will have to pay
+                                        the full hostel/transportation fees as prescribed for
+                                        other students.
+                                    </li>
+
+                                    <li>
+                                        The scholarship may not be applicable for Courses Governed
+                                        by Regulatory Bodies (AICTE, COA, PCI, INC, ANMHVC,
+                                        BCI, etc.).
+                                    </li>
+
+                                    <li>
+                                        Change of programme after the award of Scholarship for a
+                                        particular programme is not allowed. As such the scholarship
+                                        awarded stands cancelled. If the student still wishes to
+                                        apply for the scholarship, it needs to submit a fresh
+                                        application for the same.
+                                    </li>
+
+                                    <li>
+                                        The students can avail only one scholarship from any source
+                                        in a particular academic year. If a student is found availing
+                                        more than one scholarship during the same academic year from
+                                        different sources, the scholarship awarded by the University
+                                        will stand cancelled for that academic year, and the student
+                                        will be liable to pay the full course fee for that academic year.
+                                    </li>
+
+                                    <li>
+                                        However, if a student wishes to retain the University's
+                                        scholarship and withdraw the scholarship received from other
+                                        source(s) for the same academic year, the student must refund
+                                        the full amount received from the other source(s) to the
+                                        University before availing the University's scholarship.
+
+                                        The student is also required to submit an undertaking to
+                                        this effect.
+                                    </li>
+
+                                    <li>
+                                        Final decision of granting scholarship lies with the
+                                        University Scholarship Committee and/or Competent Authority/s.
+                                    </li>
+
+                                </ol>
+
+                            </div>
 
 
-                            <h5 class="section-title">Continuation of Scholarship for subsequent years will be governed
-                                as follows –</h5>
+                            <!-- Continuation -->
 
-                            <ol>
+                            <div class="rgu-sch-block">
 
-                                <li>
-                                    Class attendance of the students must be 75% and above in all the subjects in each
-                                    semester from the previous academic year.
-                                </li>
+                                <h3>
+                                    Continuation of Scholarship for subsequent years will be governed as follows –
+                                </h3>
 
-                                <li>
-                                    To continue availing scholarship, a student must clear all the papers in each
-                                    semester and should not carry any backlog in any semester from the previous academic
-                                    year and must pass the semester/annual examination for promotion to the next year.
-                                </li>
+                                <ol class="rgu-sch-ordered-list">
 
-                            </ol>
+                                    <li>
+                                        Class attendance of the students must be 75% and above
+                                        in all the subjects in each semester from the previous
+                                        academic year.
+                                    </li>
+
+                                    <li>
+                                        To continue availing scholarship, a student must clear all
+                                        the papers in each semester and should not carry any backlog
+                                        in any semester from the previous academic year and must
+                                        pass the semester/annual examination for promotion to the
+                                        next year.
+                                    </li>
+
+                                </ol>
+
+                            </div>
 
 
-                            <h5 class="section-title">Documents Required under the above mentioned Scholarship:</h5>
+                            <!-- Documents -->
 
-                            <ol>
+                            <div class="rgu-sch-block">
 
-                                <li>
-                                    Scanned copies of the marksheets / gradesheets from Class X onwards.
-                                </li>
+                                <h3>
+                                    Documents Required under the above mentioned Scholarship:
+                                </h3>
 
-                            </ol>
+                                <ol class="rgu-sch-ordered-list">
 
+                                    <li>
+                                        Scanned copies of the marksheets/gradesheets from
+                                        Class X onwards.
+                                    </li>
+
+                                    <li>
+                                        Scanned copies of the certificate from the competent
+                                        authority claiming scholarship under the said category.
+                                    </li>
+
+                                </ol>
+
+                            </div>
 
                         </div>
+
                     </div>
+
                 </div>
 
 
+                <!-- Item 3 -->
+
+                <div class="rgu-sch-item">
+
+                    <button class="rgu-sch-header" type="button">
+
+                        <span>
+                            Zubeen Garg Scholarship
+                        </span>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+                    <div class="rgu-sch-content">
+
+                        <div class="rgu-sch-inner">
+
+                            <!-- Download Brochure -->
+
+                            <a href="/mobile-assets/pdf/Policy%20Promotion%20of%20Extracurricular%20Activities_Final.pdf"
+                                target="_blank" style="padding: 15px 25px; font-size: 18px;" class="btn btn-danger mb-4">
+                                Download Brochure
+                            </a>
+
+
+                            <!-- Scholarship Table -->
+
+                            <div class="table-responsive">
+
+                                <table class="rgu-sch-table">
+
+                                    <thead>
+
+                                        <tr>
+
+                                            <th rowspan="2">
+                                                CATEGORIES
+                                            </th>
+
+                                            <th colspan="3">
+                                                SCHOLARSHIP OFFERED ON COURSE FEE
+                                            </th>
+
+                                            <th rowspan="2">
+                                                For PG/UG Programme
+                                                <br>
+                                                (Percentage of marks in Graduation / 10+2 / Diploma)
+                                            </th>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <th>100%</th>
+                                            <th>50%</th>
+                                            <th>25%</th>
+
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <!-- Sports -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Sports</strong>
+                                                <br>
+                                                (including both individual and team sports)
+                                            </td>
+
+                                            <td>
+                                                International Athlete / Players
+                                            </td>
+
+                                            <td>
+                                                National Participants / Award winners
+                                                <br><br>
+
+                                                First four positions at All India University level (by AIU)
+                                            </td>
+
+                                            <td>
+                                                Zonal / State Participants
+                                                <br><br>
+
+                                                First three positions at Zonal University level (by AIU)
+                                            </td>
+
+                                            <td rowspan="3">
+                                                As per the required minimum eligibility criteria of the respective
+                                                programme/course
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Cultural Activities -->
+
+                                        <tr>
+
+                                            <td>
+
+                                                <strong>Cultural Activities</strong>
+
+                                                <ul class="mt-3 mb-0">
+
+                                                    <li>Dance</li>
+                                                    <li>Music</li>
+                                                    <li>Theatre</li>
+                                                    <li>Fine Arts</li>
+
+                                                </ul>
+
+                                            </td>
+
+
+                                            <td>
+
+                                                <ol class="mb-0">
+
+                                                    <li>
+                                                        First four positions at National Level Festival conducted by
+                                                        Ministry of Youth Cultural and Sports Affairs, Govt. of India.
+                                                    </li>
+
+                                                    <li>
+                                                        First three positions at All India University level (AIU).
+                                                    </li>
+
+                                                    <li>
+                                                        Overall Winner of National TV Reality Show.
+                                                    </li>
+
+                                                </ol>
+
+                                            </td>
+
+
+                                            <td>
+
+                                                <ol class="mb-0">
+
+                                                    <li>
+                                                        Participated in National Youth Fest conducted by Ministry of
+                                                        Youth Affairs & Sports, Govt. of India.
+                                                    </li>
+
+                                                    <li>
+                                                        Graded artist of Government broadcasting media (DD/AIR).
+                                                    </li>
+
+                                                    <li>
+                                                        First three positions at Zonal Youth Festivals (AIU).
+                                                    </li>
+
+                                                </ol>
+
+                                            </td>
+
+
+                                            <td>
+
+                                                <ol class="mb-0">
+
+                                                    <li>
+                                                        Fourth position at Zonal Youth Festivals (AIU).
+                                                    </li>
+
+                                                    <li>
+                                                        First three positions at Scheduled State Level Event conducted
+                                                        by Ministry of Youth Cultural and Sports Affairs or Sangeet
+                                                        Natak Academy.
+                                                    </li>
+
+                                                    <li>
+                                                        First three positions at Inter Zonal Youth Festivals (AIU).
+                                                    </li>
+
+                                                    <li>
+                                                        Finalist / Semi-finalist / Quarterfinalist at National TV
+                                                        Reality Show.
+                                                    </li>
+
+                                                </ol>
+
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Literary -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Literary</strong>
+                                            </td>
+
+                                            <td>
+                                                National Level Debate Recognition
+                                            </td>
+
+                                            <td>
+                                                University Level Debate Recognition
+                                            </td>
+
+                                            <td>
+                                                State / Zonal Debate Recognition
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                            <!-- Eligibility Criteria -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Eligibility Criteria:
+                                </h3>
+
+                                <p>
+                                    The scholarship is applicable under the following categories and
+                                    candidates must have achieved recognition at
+                                    <strong>Inter-University, State, National, or International level</strong>
+                                    in the respective field.
+                                </p>
+
+                            </div>
+
+
+                            <!-- Categories Table -->
+
+                            <div class="table-responsive mb-5">
+
+                                <table class="rgu-sch-table">
+
+                                    <thead>
+
+                                        <tr>
+
+                                            <th>
+                                                CATEGORIES
+                                            </th>
+
+                                            <th>
+                                                INCLUDES
+                                            </th>
+
+                                        </tr>
+
+                                    </thead>
+
+
+                                    <tbody>
+
+                                        <!-- Sports -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Sports</strong>
+                                            </td>
+
+                                            <td>
+                                                Football, Cricket, Volleyball, Basketball, Tennis,
+                                                Badminton, Table Tennis, Taekwondo, Athletics,
+                                                Judo, Karate, Boxing, Swimming and other sports
+                                                (subject to approval).
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Dance -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Dance</strong>
+                                            </td>
+
+                                            <td>
+                                                Folk / Classical
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Music -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Music</strong>
+                                            </td>
+
+                                            <td>
+
+                                                <p>
+                                                    <strong>Vocal:</strong>
+                                                    Classical / Semi Classical Indian / Folk /
+                                                    Light Vocal / Western
+                                                </p>
+
+                                                <br>
+
+                                                <p>
+                                                    <strong>Instrumental:</strong>
+                                                </p>
+
+                                                <ol class="mb-4">
+
+                                                    <li>
+                                                        <strong>Percussion:</strong>
+                                                        Tabla, Khol, Mridangam, Pakhawaj
+                                                    </li>
+
+                                                    <li>
+                                                        <strong>Non-Percussion:</strong>
+                                                        Sitar, Santoor, Sarod, Flute,
+                                                        Harmonium, Violin, Sarangi
+                                                    </li>
+
+                                                    <li>
+                                                        Folk Instruments
+                                                    </li>
+
+                                                </ol>
+
+                                                <p class="mb-0">
+                                                    <strong>Western Instruments:</strong>
+                                                    Keyboard, Guitar, Bass Guitar,
+                                                    Drum, Piano etc.
+                                                </p>
+
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Theatre -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Theatre</strong>
+                                            </td>
+
+                                            <td>
+                                                Any Theatre form / Mime
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Fine Arts -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Fine Arts</strong>
+                                            </td>
+
+                                            <td>
+                                                Painting, Terracotta / Clay Modelling /
+                                                Installation / Collage / Photography
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Literary -->
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>Literary</strong>
+                                            </td>
+
+                                            <td>
+                                                Debate
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                            <!-- Additional Eligibility Conditions -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Additional Eligibility Conditions
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        The Scholarship is applicable under the following categories.
+                                        The applicant must have achieved recognition at the
+                                        Inter-University, State, National, or International level
+                                        in the respective field.
+                                    </li>
+
+                                    <li>
+                                        The scholarship applied under the Music and Dance category
+                                        must hold a Visharad or equivalent qualification from a
+                                        recognized Board/University.
+                                    </li>
+
+                                    <li>
+                                        A student availing the Zubeen Garg Scholarship is required
+                                        to pay the one-time Admission Fee, Registration Fee, and
+                                        Caution Money (refundable) at the time of admission.
+                                    </li>
+
+                                    <li>
+                                        A total of 20 scholarships will be offered under each category
+                                        (i.e., Sports, Music, Dance, Theatre, Literary, Fine Arts)
+                                        in selected programmes as decided by the competent authority.
+                                        Scholarship/Financial Aid under different categories may not
+                                        be offered in all the programmes of the university.
+                                    </li>
+
+                                    <li>
+                                        The applicant under the Zubeen Garg Scholarship shall be
+                                        required to submit an affidavit stating that once admitted
+                                        to the university, they would participate/represent only
+                                        from RGU.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+
+                            <!-- Other Terms and Conditions -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Other Terms and Conditions
+                                </h3>
+
+                                <p>
+                                    Flexible Examination Schedules: Sportsperson may be allowed
+                                    to take examinations at alternative times if the scheduled
+                                    examinations coincide with any event/competition (only for
+                                    International/National/State level competitions).
+                                </p>
+
+                                <p>
+                                    Attendance will be considered on the basis of active
+                                    participation and submission of proof of participation.
+                                </p>
+
+                                <p>
+                                    Performance Trials/Audition will be taken before admission.
+                                </p>
+
+                                <p>
+                                    Original certificates are required for verification.
+                                </p>
+
+                                <p>
+                                    Only last two-years performance certificates will be considered.
+                                </p>
+
+                                <p>
+                                    Deficit in the required attendance for students participating
+                                    in Zonal/AIU/National/International Competitions from the date
+                                    of departure to the date of return at RGU campus shall be
+                                    compensated by treating the days of absence from academic
+                                    activities on campus as engagement in extracurricular/co-curricular
+                                    activities.
+                                </p>
+
+                                <p>
+                                    Attendance of the Zubeen Garg scholars in training camps within
+                                    and outside the campus will be recorded. Zubeen Garg scholars
+                                    shall be required to have 90% attendance in such camps.
+                                </p>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        In case a student availing the Zubeen Garg Scholarship
+                                        wishes to avail hostel or transportation facilities,
+                                        he/she will have to pay the full hostel/transportation
+                                        fees as prescribed for other students.
+                                    </li>
+
+                                    <li>
+                                        The Scholarship may not be applicable for courses governed
+                                        by regulatory bodies (AICTE, COA, PCI, INC, ANMHVC,
+                                        BCI, etc.).
+                                    </li>
+
+                                    <li>
+                                        Change of programme after the award of scholarship for a
+                                        particular programme is not allowed. In such cases, the
+                                        scholarship awarded stands cancelled. If the student still
+                                        wishes to apply for the scholarship, he/she must submit
+                                        a fresh application.
+                                    </li>
+
+                                    <li>
+                                        Students can avail only one scholarship from any source
+                                        in a particular academic year. If a student is found
+                                        availing more than one scholarship during the same academic
+                                        year from different sources, the scholarship awarded by the
+                                        University will stand cancelled for that academic year,
+                                        and the student will be liable to pay the full course fee
+                                        for that academic year.
+                                    </li>
+
+                                    <li>
+                                        However, if a student wishes to retain the University's
+                                        scholarship and withdraw the scholarship received from
+                                        other source(s) for the same academic year, the student
+                                        must refund the full amount received from the other
+                                        source(s) to the University before availing the University's
+                                        scholarship. The student is also required to submit an
+                                        undertaking to this effect.
+                                    </li>
+
+                                    <li>
+                                        The final decision regarding the granting of the scholarship
+                                        lies with the University Scholarship Committee and/or the
+                                        competent authority.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+                            <!-- Discontinuation of Scholarship -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Discontinuation of Scholarship
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        If the student indulges in any act of indiscipline.
+                                    </li>
+
+                                    <li>
+                                        If the student fails to participate in Zonal / All India
+                                        Inter University competitions or represent RGU due to
+                                        any reason.
+                                    </li>
+
+                                    <li>
+                                        If attendance falls short of the required 90% in the
+                                        training camps (within and outside the campus).
+                                    </li>
+
+                                    <li>
+                                        If any student is found positive in doping tests during
+                                        any competition or trials.
+                                    </li>
+
+                                    <li>
+                                        If any student indulges in criminal activities,
+                                        he/she can be terminated from the University.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+
+                            <!-- Continuation of Scholarship -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Continuation of Scholarship
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        Minimum <strong>75% attendance</strong> in all subjects
+                                        in each semester.
+                                    </li>
+
+                                    <li>
+                                        No backlog and must pass examinations for promotion
+                                        to next year.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+
+                            <!-- Documents Required -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Documents Required
+                                </h3>
+
+                                <p>
+                                    Scanned copies of the marksheets/gradesheets from
+                                    Class X onwards.
+                                </p>
+
+                                <p>
+                                    The scholarship under the Sports category must furnish
+                                    the following documents:
+                                </p>
+
+                                <p>
+                                    Certificates of participation or awards in recognized
+                                    sports events at national or state levels.
+                                </p>
+
+                                <p>
+                                    Recognition in Sports:
+                                </p>
+
+                                <p>
+                                    Olympics / World / Asian / Commonwealth /
+                                    SAF Games / Paralympics Games.
+                                </p>
+
+                                <p>
+                                    Championships under International Sports Federation
+                                    (IOC/IOA and/or Ministry of Youth Affairs & Sports
+                                    recognized/affiliated Games).
+                                </p>
+
+                                <p class="mb-0">
+                                    The scholarship applied under the Cultural Activities
+                                    category must furnish certificates and other forms of
+                                    valid evidence showing participation or recognition in
+                                    the mentioned domain.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- Item 4 -->
+
+                <div class="rgu-sch-item">
+
+                    <button class="rgu-sch-header" type="button">
+
+                        <span>
+                            Royal Merit Scholarship
+                        </span>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+                    <div class="rgu-sch-content">
+
+                        <div class="rgu-sch-inner">
+
+                            <div class="table-responsive">
+
+                                <table class="rgu-sch-table">
+
+                                    <thead>
+
+                                        <tr>
+
+                                            <th rowspan="3">
+                                                SCHOLARSHIP OFFERED ON COURSE FEE
+                                            </th>
+
+                                            <th>
+                                                FOR PG PROGRAMMES
+                                            </th>
+
+                                            <th colspan="2">
+                                                FOR UG PROGRAMMES
+                                            </th>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <th>
+                                                PERCENTAGE OF MARKS REQUIRED IN
+                                            </th>
+
+                                            <th colspan="2">
+                                                PERCENTAGE OF MARKS REQUIRED IN
+                                            </th>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <th>
+                                                GRADUATION, IN ANY STREAM
+                                            </th>
+
+                                            <th>
+                                                10+2 (CBSE / ICSE BOARD)
+                                            </th>
+
+                                            <th>
+                                                H.S. / DIPLOMA MARKS (AHSEC / OTHER STATE BOARD / COUNCIL / NIOS)
+                                            </th>
+
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>100%</strong>
+                                            </td>
+
+                                            <td>
+                                                90% &amp; above in aggregate
+                                            </td>
+
+                                            <td>
+                                                96% &amp; above in aggregate
+                                            </td>
+
+                                            <td>
+                                                93% &amp; above in aggregate
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>50%</strong>
+                                            </td>
+
+                                            <td>
+                                                86% to 89.99%
+                                            </td>
+
+                                            <td>
+                                                92% to 95.99%
+                                            </td>
+
+                                            <td>
+                                                89% to 92.99%
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                                <strong>25%</strong>
+                                            </td>
+
+                                            <td>
+                                                82% to 85.99%
+                                            </td>
+
+                                            <td>
+                                                86% to 91.99%
+                                            </td>
+
+                                            <td>
+                                                83% to 88.99%
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+
+                            <!-- Eligibility Criteria -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Eligibility Criteria
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list" type="i">
+
+                                    <li>
+                                        A student availing scholarship under Royal Merit Scholarship
+                                        is required to pay the one-time Admission Fee, Registration
+                                        Fee and Caution money (refundable) at the time of admission.
+                                    </li>
+
+                                    <li>
+                                        The scholarship is awarded annually and continuation in the
+                                        subsequent year is governed by the norms laid down for the
+                                        continuation of Royal Merit Scholarship.
+                                    </li>
+
+                                    <li>
+                                        In case a student availing Royal Merit Scholarship wishes
+                                        to avail hostel/transportation facilities, he/she will have
+                                        to pay the full hostel/transportation fees as prescribed
+                                        for other students.
+                                    </li>
+
+                                    <li>
+                                        The Scholarship may not be applicable for Courses Governed
+                                        by Regulatory Bodies (AICTE, COA, PCI, INC, ANMHVC,
+                                        BCI, etc.).
+                                    </li>
+
+                                    <li>
+                                        Change of programme after the award of Scholarship for a
+                                        particular programme is not allowed. As such the scholarship
+                                        awarded stands cancelled. If the student still wishes to
+                                        apply for the scholarship, it needs to submit a fresh
+                                        application for the same.
+                                    </li>
+
+                                    <li>
+                                        The students can avail only one scholarship from any source
+                                        in a particular academic year. If a student is found availing
+                                        more than one scholarship during the same academic year from
+                                        different sources, the scholarship awarded by the University
+                                        will stand cancelled for that particular academic year and
+                                        the student will be liable to pay the full course fee for
+                                        that academic year.
+                                    </li>
+
+                                    <li>
+                                        However, if a student wishes to retain the University's
+                                        scholarship and withdraw the scholarship received from other
+                                        source(s) for the same academic year, the student must refund
+                                        the full amount received from the other source(s) to the
+                                        University before availing the University's scholarship.
+
+                                        The student is also required to submit an undertaking to
+                                        this effect.
+                                    </li>
+
+                                    <li>
+                                        Final decision of granting scholarship lies with the
+                                        University Scholarship Committee and/or Competent Authority/s.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+                            <!-- Continuation of Scholarship -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Continuation of Scholarship for subsequent years will be governed as follows –
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        Class attendance of the students must be 75% and above
+                                        in all the subjects in each semester from the previous
+                                        academic year.
+                                    </li>
+
+                                    <li>
+                                        To continue availing scholarship, a student must clear
+                                        all the papers in each semester and should not carry
+                                        any backlog in any semester from the previous academic
+                                        year and must pass the semester/annual examination for
+                                        promotion to the next year.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+
+                            <!-- Documents Required -->
+
+                            <div class="rgu-sch-block">
+
+                                <h3>
+                                    Documents Required under the above mentioned Scholarship:
+                                </h3>
+
+                                <ol class="rgu-sch-ordered-list">
+
+                                    <li>
+                                        Scanned copies of the marksheets / gradesheets from
+                                        Class X onwards.
+                                    </li>
+
+                                </ol>
+
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
-    </div>
+    </section>
+
+    <style>
+        /*=========================
+        SCHOLARSHIP
+        =========================*/
+
+        .rgu-sch-section {
+            padding: 80px 0;
+            background: #e9eef6;
+        }
+
+        .rgu-sch-item {
+            margin-bottom: 14px;
+        }
+
+        .rgu-sch-header {
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            background: #2f4e89;
+            color: #fff;
+
+            padding: 16px 24px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.45rem;
+
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .rgu-sch-header:hover {
+            background: #36599f;
+        }
+
+        .rgu-sch-item.active .rgu-sch-header {
+            background: #d95b28;
+        }
+
+        .rgu-sch-header i {
+            font-size: 1.8rem;
+            transition: .4s;
+        }
+
+        .rgu-sch-item.active .rgu-sch-header i {
+            transform: rotate(180deg);
+        }
+
+        .rgu-sch-content {
+            max-height: 0;
+            overflow: hidden;
+
+            opacity: 0;
+
+            transition:
+                max-height .7s ease,
+                opacity .4s ease;
+        }
+
+        .rgu-sch-item.active .rgu-sch-content {
+            max-height: 6000px;
+            opacity: 1;
+        }
+
+        .rgu-sch-inner {
+            padding: 35px 0 20px;
+        }
 
 
+        /* Table */
+
+        .rgu-sch-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+
+        .rgu-sch-table th {
+            background: #2f4e89;
+            color: #fff;
+
+            padding: 16px;
+            border: 1px solid rgba(255, 255, 255, .15);
+
+            text-align: center;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .rgu-sch-table td {
+            background: #dfe7f4;
+
+            padding: 14px;
+            border: 1px solid #c9d3e4;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 1.35rem;
+
+            color: #5f6675;
+        }
+
+
+        /* Blocks */
+
+        .rgu-sch-block {
+            margin-bottom: 45px;
+        }
+
+        .rgu-sch-block h3 {
+            font-family: 'Playfair Display', serif;
+            color: #2f4e89;
+            font-size: 3rem;
+            margin-bottom: 25px;
+        }
+
+
+        /* Lists */
+
+        .rgu-sch-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .rgu-sch-list li {
+            position: relative;
+
+            padding-left: 28px;
+            margin-bottom: 20px;
+
+            color: #5f6675;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 1.45rem;
+            line-height: 1.9;
+        }
+
+        .rgu-sch-list li:before {
+            content: '';
+
+            width: 8px;
+            height: 8px;
+
+            border-radius: 50%;
+
+            background: #d95b28;
+
+            position: absolute;
+            left: 0;
+            top: 12px;
+        }
+
+
+        /* Mobile */
+
+        @media(max-width:767px) {
+
+            .rgu-sch-section {
+                padding: 60px 0;
+            }
+
+            .rgu-sch-header {
+                font-size: 1.3rem;
+                padding: 15px 18px;
+            }
+
+            .rgu-sch-block h3 {
+                font-size: 2.4rem;
+            }
+
+            .rgu-sch-table {
+                min-width: 700px;
+            }
+        }
+    </style>
+
+    <style>
+        /* Ordered Lists */
+
+        .rgu-sch-ordered-list {
+            margin: 0;
+            padding-left: 3rem;
+
+            color: #5f6675;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 1.45rem;
+            line-height: 2;
+        }
+
+        .rgu-sch-ordered-list>li {
+            margin-bottom: 1.8rem;
+        }
+
+        .rgu-sch-ordered-list ol {
+            margin-top: 1.5rem;
+            padding-left: 2.5rem;
+        }
+
+        .rgu-sch-ordered-list ol li {
+            margin-bottom: 1rem;
+        }
+
+        .rgu-sch-ordered-list li::marker {
+            color: #2f4e89;
+            font-weight: 600;
+        }
+
+        .rgu-sch-table tbody td {
+            text-align: center;
+        }
+
+        .rgu-sch-table tbody td:nth-child(2) {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            const accordionItems = document.querySelectorAll(".rgu-sch-item");
+
+            // Ensure all accordions are closed by default
+            accordionItems.forEach(item => {
+                item.classList.remove("active");
+            });
+
+            // Accordion click functionality
+            document.querySelectorAll(".rgu-sch-header").forEach(header => {
+
+                header.addEventListener("click", function() {
+
+                    const currentItem = this.closest(".rgu-sch-item");
+
+                    // Close all other accordions
+                    accordionItems.forEach(item => {
+                        if (item !== currentItem) {
+                            item.classList.remove("active");
+                        }
+                    });
+
+                    // Toggle the clicked accordion
+                    currentItem.classList.toggle("active");
+
+                });
+
+            });
+
+        });
+    </script>
+
+    <!-- only insert these  -->
 
 @endsection
 @push('scripts')

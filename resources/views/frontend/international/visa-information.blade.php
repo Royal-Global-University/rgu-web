@@ -1,250 +1,529 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                                style="color: #264273; font-weight: 700;">Student <span
-                                    style="color: #FF9A1E; font-weight: 500;">Visa</span> </h2>
-                            <div class="txaa-slide-down-1">
-                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/intern-visa-info/headimg.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/international-visa-info/cover.png'); filter: blur(2px);">
+        </div>
 
-                            <div class="container pt-3">
-                                <h2 class="mobile-headd2 kd-title-ani kd-split-text" style="color: #264273; font-weight: 700;">
-                                    How To Apply For <span style="color: #FF9A1E; font-weight: 500;">Student Visa</span> </h2>
-                                <p class="mobile-para1" style="color: #264273;">Student Visas are provided to individuals who
-                                    wish to come to India and study at a recognized university. The entire process of student
-                                    visa application only requires three steps: -
-                                </p>
-                                <ol class="mobile-para1" style="color: #264273;">
-                                    <li>Individuals are first required to fill an online application form by visiting the
-                                        official website of the Government of India: <a style="color: #e08619;"
-                                            href="https://indianvisaonline.gov.in/"
-                                            target="_blank">https://indianvisaonline.gov.in/</a>.</li>
-                                    <li>After filling up the application form, applicants are required to submit it along with
-                                        all the required documents at the Indian Visa Application Center or at the Indian
-                                        Mission.</li>
-                                    <li>After successful document verification, the passport and student visa are generated,
-                                        which the applicant can retrieve from the Visa Application Center or the Indian Mission.
-                                    </li>
-                                </ol>
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="container pt-3">
-                <h2 class="mobile-headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
-                    Eligibility
-                </h2>
-                <p class="mobile-headd3 fw-bold" style="color: #264273;">Indian Missions/Embassies grant a student visa for a
-                    period of five years or for the duration of the course of study, whichever is less. The student visa will be
-                    provided on the following grounds:
-                </p>
-                <ol class="custom-ol mobile-para1 pb-3" style="color: #264273;">
-                    <li>To foreign students coming to India to pursue full-time and regular academic studies in India.</li>
-                    <li>To foreign students coming for industrial training, summer projects, and internships.</li>
-                    <li>The provisional student visa is valid for six months for the students who are exploring admission or
-                        taking admission tests.</li>
-                    <li>Applicants should provide proof of admission to a full-time regular academic course in a
-                        reputed/recognized educational institution in India and evidence of financial support.</li>
-                    <li>In case of admission in a medical or paramedical course, the applicant should also possess a "No
-                        Objection Certificate" from the Ministry of Health.</li>
-                    <li>Spouse and dependent family members accompanying the applicant can apply for an Entry Visa (Not Tourist
-                        Visa). The Entry Visa will automatically get terminated once the period of the principal visa holder is
-                        over.</li>
-                </ol>
-
-                <hr>
-
-                <h2 class="mobile-headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Visa <span style="color: #FF9A1E; font-weight: 500;">Extension</span>
-                </h2>
-                <p class="mobile-headd3 fw-bold" style="color: #264273;">Foreign students may apply for visa extension for a
-                    period of one year at time up to 5 years (whichever is less for students pursuing full time and regular
-                    courses in a recognised university or institution). For extension a student must be sponsored by the
-                    university and nothing adverse must be reported against him/her. The process involves the following simple
-                    steps:
-                </p>
-                <ol class="custom-ol mobile-para1 pb-3" style="color: #264273;">
-                    <li>First, students will have to visit the FRROs/District Superintendent of Police (FROs).</li>
-                    <li>The FRROs / FROs cum Superintendent of Police can grant the student and research scholar one-year visa
-                        extension on a year-to-year basis for a period of up to five years.</li>
-                    <li>As per Indian immigration rules, students must submit the following documents at the time of visa
-                        extension:
-                        <ol>
-                            <li>Visa Extension form</li>
-                            <li>Recent passport size photograph</li>
-                            <li>Original Bonafide certificate from College / University / Institute</li>
-                            <li>Copy of VISA / Passport / Registration Book</li>
-                            <li>Copy of residence proof</li>
-                        </ol>
-                    </li>
-                </ol>
-
-                <hr>
-
-                <h2 class="mobile-headd3 fw-bold pb-3 pt-4" style="color: #264273; font-weight: 800;">
-                    For any support or guidance, international students (present or future) <span
-                        style="color: #FF9A1E; font-weight: 500;">can connect with:</span>
-                </h2>
-
-
-                <div class="container pb-3">
-                    <div class="container"
-                        style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
-                        <p class="mobile-mobile-headd3" style="font-weight: bold;">Contact:</p>
-                        <p class="mobile-para1">Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel:+919864049818"
-                                style="color: white; text-decoration: none;">+91 9864049818</a></p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto:gkanand@rgu.ac"
-                                style="color: white; text-decoration: none;">gkanand@rgu.ac</a></p>
-                        <a href="tel:+919864049818" class="mobile-call-btn fw-bold"
-                            style="text-decoration: none; background: #e08619; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
-                            Call Now
-                        </a>
-                    </div>
-                </div>
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Visa Information</h1>
+            <div class="pg-hero-breadcrumb">
+                International / Visa Information
             </div>
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+    </section>
 
-        <!--head image Section-->
-        <section
-            style="background-image: url(mobile-assets/intern-visa-info/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/intern-visa-info/headimg.png"
-                                    alt="">
-                            </div>
-                        </div>
+    <!-- ==========================
+         VISA INFORMATION SECTION
+    ========================== -->
+
+    <section class="rgu-visa-section">
+
+        <div class="container">
+
+            <!-- Visa Application -->
+            <div class="row align-items-center g-5 rgu-visa-process-row">
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-visa-image-box">
+                        <img src="new-web/assets/img/international-visa-info/img1.png" alt="Visa Information">
                     </div>
-                    <div class="col-lg-6">
 
-                        <h2 class="headd1 kd-title-ani kd-split-text" style="color: #264273; font-weight: 700;">How To Apply
-                            For <span style="color: #FF9A1E; font-weight: 500;">Student Visa</span> </h2>
-                        <p class="para1" style="color: #264273;">Student Visas are provided to individuals who wish to come
-                            to India and study at a recognized university. The entire process of student visa application
-                            only requires three steps: -
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-visa-process-content">
+
+                        <h2 class="rgu-visa-title">
+                            How To Apply For Student Visa
+                        </h2>
+
+                        <p class="rgu-visa-intro">
+                            Student Visas are provided to individuals who wish to come
+                            to India and study at a recognized university. The entire
+                            process of student visa application only requires three
+                            simple steps:
                         </p>
-                        <ol class="para1" style="color: #264273;">
-                            <li>Individuals are first required to fill an online application form by visiting the official
-                                website of the Government of India: <a style="color: #e08619;"
-                                    href="https://indianvisaonline.gov.in/"
-                                    target="_blank">https://indianvisaonline.gov.in/</a>.</li>
-                            <li>After filling up the application form, applicants are required to submit it along with all
-                                the required documents at the Indian Visa Application Center or at the Indian Mission.</li>
-                            <li>After successful document verification, the passport and student visa are generated, which
-                                the applicant can retrieve from the Visa Application Center or the Indian Mission.</li>
-                        </ol>
+
+                        <div class="rgu-visa-timeline">
+
+                            <div class="rgu-visa-step">
+                                <span class="rgu-visa-dot"></span>
+
+                                <p>
+                                    Individuals are first required to fill an online
+                                    application form by visiting the official website
+                                    of the Government of India:
+
+                                    <a href="https://indianvisaonline.gov.in/" target="_blank">
+                                        https://indianvisaonline.gov.in/
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-step">
+                                <span class="rgu-visa-dot"></span>
+
+                                <p>
+                                    After filling up the application form, applicants
+                                    are required to submit it along with all the
+                                    required documents at the Indian Visa Application
+                                    Centre or at the Indian Mission.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-step">
+                                <span class="rgu-visa-dot"></span>
+
+                                <p>
+                                    After successful document verification, the passport
+                                    and student visa are generated, which the applicant
+                                    can retrieve from the Visa Application Centre or
+                                    the Indian Mission.
+                                </p>
+                            </div>
+
+                        </div>
 
                     </div>
-                </div>
-            </div>
-        </section>
-        <!--head image Section-->
 
-        <section
-            style="background-image: url(mobile-assets/intern-visa-info/bg.svg); background-size: cover; padding: 30px 0px 30px 0px;">
-            <div class="container">
-                <h2 class="headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
-                    Eligibility
-                </h2>
-                <p class="headd3 fw-bold" style="color: #264273;">Indian Missions/Embassies grant a student visa for a
-                    period of five years or for the duration of the course of study, whichever is less. The student visa
-                    will be provided on the following grounds:
-                </p>
-                <ol class="custom-ol para1 pb-3" style="color: #264273;">
-                    <li>To foreign students coming to India to pursue full-time and regular academic studies in India.</li>
-                    <li>To foreign students coming for industrial training, summer projects, and internships.</li>
-                    <li>The provisional student visa is valid for six months for the students who are exploring admission or
-                        taking admission tests.</li>
-                    <li>Applicants should provide proof of admission to a full-time regular academic course in a
-                        reputed/recognized educational institution in India and evidence of financial support.</li>
-                    <li>In case of admission in a medical or paramedical course, the applicant should also possess a "No
-                        Objection Certificate" from the Ministry of Health.</li>
-                    <li>Spouse and dependent family members accompanying the applicant can apply for an Entry Visa (Not
-                        Tourist Visa). The Entry Visa will automatically get terminated once the period of the principal
-                        visa holder is over.</li>
-                </ol>
-
-                <hr>
-
-                <h2 class="headd2 fw-bold pb-3" style="color: #264273; font-weight: 800;">
-                    Visa <span style="color: #FF9A1E; font-weight: 500;">Extension</span>
-                </h2>
-                <p class="headd3 fw-bold" style="color: #264273;">Foreign students may apply for visa extension for a period
-                    of one year at time up to 5 years (whichever is less for students pursuing full time and regular courses
-                    in a recognised university or institution). For extension a student must be sponsored by the university
-                    and nothing adverse must be reported against him/her. The process involves the following simple steps:
-                </p>
-                <ol class="custom-ol para1 pb-3" style="color: #264273;">
-                    <li>First, students will have to visit the FRROs/District Superintendent of Police (FROs).</li>
-                    <li>The FRROs / FROs cum Superintendent of Police can grant the student and research scholar one-year
-                        visa extension on a year-to-year basis for a period of up to five years.</li>
-                    <li>As per Indian immigration rules, students must submit the following documents at the time of visa
-                        extension:
-                        <ol>
-                            <li>Visa Extension form</li>
-                            <li>Recent passport size photograph</li>
-                            <li>Original Bonafide certificate from College / University / Institute</li>
-                            <li>Copy of VISA / Passport / Registration Book</li>
-                            <li>Copy of residence proof</li>
-                        </ol>
-                    </li>
-                </ol>
-
-                <hr>
-
-                <h2 class="headd3 fw-bold pb-3 pt-4" style="color: #264273; font-weight: 800;">
-                    For any support or guidance, international students (present or future) <span
-                        style="color: #FF9A1E; font-weight: 500;">can connect with:</span>
-                </h2>
-            </div>
-        </section>
-
-        <section style="border-bottom: 4px solid #1f3b6f;">
-            <div class="contact-section">
-
-                <div class="contact-icon">
-                    <img style="width: 120px; height: 100%;" src="mobile-assets/intern-visa-info/telephone-call.png"
-                        alt="Phone Icon">
                 </div>
 
-                <div class="contact-info">
-                    <div class="contact-title">Contact:</div>
-                    <div class="contact-details">
-                        Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
+            </div>
+
+
+            <!-- Eligibility + Visa Extension -->
+
+            <div class="row g-0 rgu-visa-split-row">
+
+                <!-- Eligibility -->
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-visa-panel rgu-visa-panel-orange">
+
+                        <h2>Eligibility</h2>
+
+                        <p class="rgu-visa-panel-intro">
+                            Indian Missions/Embassies grant a student visa for a period
+                            of five years or for the duration of the course of study,
+                            whichever is less. The student visa will be provided on
+                            the following grounds:
+                        </p>
+
+                        <div class="rgu-visa-panel-timeline">
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    To foreign students coming to India to pursue
+                                    full-time and regular academic studies in India.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    To foreign students coming for industrial training,
+                                    summer projects and internships.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    The provisional student visa is valid for six
+                                    months for students exploring admission options.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    Applicants should provide proof of admission to a
+                                    full-time regular academic programme in a reputed
+                                    institution in India along with evidence of
+                                    financial support.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    In case of admission in a medical or paramedical
+                                    programme, a “No Objection Certificate” from the
+                                    Ministry of Health may also be required.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    Spouse and dependent family members accompanying
+                                    the applicant may apply for an Entry Visa. The
+                                    Entry Visa will terminate once the principal visa
+                                    holder's visa period ends.
+                                </p>
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div class="contact-bold">Ph. no: +91 9864049818</div>
-                    <div class="contact-bold">Email: gkanand@rgu.ac</div>
+
+                </div>
+
+
+                <!-- Extension -->
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-visa-panel rgu-visa-panel-blue">
+
+                        <h2>Visa Extension</h2>
+
+                        <p class="rgu-visa-panel-intro">
+                            Foreign students may apply for visa extension for a period
+                            of one year at a time up to five years. Extension must be
+                            sponsored by the university and the process generally
+                            involves the following:
+                        </p>
+
+                        <div class="rgu-visa-panel-timeline">
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    Visit the FRROs/District Superintendent of Police
+                                    (FRROs).
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <p>
+                                    The FRRO/FRRO cum Superintendent of Police can
+                                    grant extension on a year-to-year basis.
+                                </p>
+                            </div>
+
+                            <div class="rgu-visa-panel-item">
+                                <span></span>
+
+                                <div>
+
+                                    <p>
+                                        Submit the following documents:
+                                    </p>
+
+                                    <ol>
+                                        <li>Visa Extension Form</li>
+                                        <li>Recent passport size photograph</li>
+                                        <li>Bonafide certificate</li>
+                                        <li>Copy of VISA/Passport</li>
+                                        <li>Copy of residence proof</li>
+                                    </ol>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
-        </section>
 
-    </div>
+
+            <!-- Support -->
+
+            <div class="rgu-visa-support">
+
+                <h2>
+                    For Any Support Or Guidance, International Students
+                    (Present Or Future) Can Connect With:
+                </h2>
+
+                <div class="rgu-visa-support-list">
+
+                    <div class="rgu-visa-support-item">
+                        <i class="bi bi-person"></i>
+
+                        <span>
+                            Ms. Gurpreet Kaur Anand,
+                            Deputy Director,
+                            The Office of International Affairs
+                        </span>
+                    </div>
+
+                    <div class="rgu-visa-support-item">
+                        <i class="bi bi-telephone"></i>
+
+                        <span>
+                            Ph. no: +91 9864049818
+                        </span>
+                    </div>
+
+                    <div class="rgu-visa-support-item">
+                        <i class="bi bi-envelope"></i>
+
+                        <span>
+                            Email: gkanand@rgu.ac
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <style>
+        /*=========================
+    VISA INFORMATION
+    =========================*/
+
+        .rgu-visa-section {
+            background: #e9eef6;
+            padding: 80px 0;
+            overflow: hidden;
+        }
+
+        .rgu-visa-title,
+        .rgu-visa-panel h2,
+        .rgu-visa-support h2 {
+            font-family: 'Playfair Display', serif;
+            color: #2f4e89;
+            font-weight: 700;
+        }
+
+        .rgu-visa-title {
+            font-size: 4.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .rgu-visa-intro,
+        .rgu-visa-step p,
+        .rgu-visa-panel-intro,
+        .rgu-visa-panel-item p,
+        .rgu-visa-support-item span {
+            font-family: 'Inter', sans-serif;
+            color: #5f6675;
+            line-height: 1.9;
+            font-size: 1.5rem;
+        }
+
+        .rgu-visa-image-box {
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        .rgu-visa-image-box img {
+            width: 100%;
+            display: block;
+        }
+
+        .rgu-visa-timeline {
+            margin-top: 30px;
+        }
+
+        .rgu-visa-step {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 28px;
+        }
+
+        .rgu-visa-step:before {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 15px;
+            bottom: -30px;
+            width: 2px;
+            background: #d95b28;
+        }
+
+        .rgu-visa-step:last-child:before {
+            display: none;
+        }
+
+        .rgu-visa-dot {
+            width: 10px;
+            height: 10px;
+            background: #d95b28;
+            border-radius: 50%;
+            position: absolute;
+            left: 2px;
+            top: 10px;
+        }
+
+        .rgu-visa-step a {
+            color: #d95b28;
+            text-decoration: none;
+            word-break: break-word;
+        }
+
+        .rgu-visa-split-row {
+            margin-top: 70px;
+        }
+
+        .rgu-visa-panel {
+            height: 100%;
+            padding: 70px 75px;
+        }
+
+        .rgu-visa-panel-orange {
+            background: #d95b28;
+            border-radius: 60px 0 0 0;
+        }
+
+        .rgu-visa-panel-blue {
+            background: #2f4e89;
+            border-radius: 0 60px 0 0;
+        }
+
+        .rgu-visa-panel h2 {
+            color: #fff;
+            font-size: 5rem;
+            margin-bottom: 30px;
+        }
+
+        .rgu-visa-panel-intro,
+        .rgu-visa-panel-item p,
+        .rgu-visa-panel-item li {
+            color: #fff;
+        }
+
+        .rgu-visa-panel-timeline {
+            margin-top: 35px;
+        }
+
+        .rgu-visa-panel-item {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 25px;
+        }
+
+        .rgu-visa-panel-item:before {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 14px;
+            bottom: -30px;
+            width: 2px;
+            background: rgba(255, 255, 255, .5);
+        }
+
+        .rgu-visa-panel-item:last-child:before {
+            display: none;
+        }
+
+        .rgu-visa-panel-item span {
+            width: 8px;
+            height: 8px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 3px;
+            top: 10px;
+        }
+
+        .rgu-visa-panel-item ol {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .rgu-visa-panel-item li {
+            margin-bottom: 6px;
+        }
+
+        .rgu-visa-support {
+            background: #fff;
+            border-radius: 30px;
+            padding: 50px;
+            margin-top: 70px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+        }
+
+        .rgu-visa-support h2 {
+            font-size: 3.6rem;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d7dce6;
+            margin-bottom: 35px;
+        }
+
+        .rgu-visa-support-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            margin-bottom: 25px;
+        }
+
+        .rgu-visa-support-item i {
+            color: #d95b28;
+            font-size: 2.4rem;
+            flex-shrink: 0;
+        }
+
+        @media(max-width:991px) {
+
+            .rgu-visa-title {
+                font-size: 3.8rem;
+            }
+
+            .rgu-visa-panel {
+                padding: 50px 40px;
+            }
+
+            .rgu-visa-panel-orange {
+                border-radius: 40px 40px 0 0;
+            }
+
+            .rgu-visa-panel-blue {
+                border-radius: 0 0 40px 40px;
+            }
+
+            .rgu-visa-panel h2 {
+                font-size: 4rem;
+            }
+        }
+
+        @media(max-width:767px) {
+
+            .rgu-visa-section {
+                padding: 60px 0;
+            }
+
+            .rgu-visa-title,
+            .rgu-visa-panel h2,
+            .rgu-visa-support h2 {
+                font-size: 3rem;
+            }
+
+            .rgu-visa-panel {
+                padding: 40px 25px;
+            }
+
+            .rgu-visa-support {
+                padding: 35px 25px;
+            }
+        }
+    </style>
 @endsection
