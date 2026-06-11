@@ -434,15 +434,19 @@
                 </div>
 
                 <!-- RESEARCH -->
-                <div class="m-acc-item mb-5">
+                <div class="m-acc-item">
                     <a style="text-decoration: none;" href="/research-devlopment" class="m-acc-header">
                         RESEARCH
                     </a>
                 </div>
-
+                <div class="m-acc-item">
+                    <a style="text-decoration: none;" href="/examinations" class="m-acc-header">
+                        EXAMINATION
+                    </a>
+                </div>
                 <div class="m-acc-item mb-5">
                     <a style="text-decoration: none;" href="/jobs-vacancies" class="m-acc-header">
-                        Jobs Vacancies
+                        JOBS VACANCIES
                     </a>
                 </div>
 
