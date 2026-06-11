@@ -15,213 +15,168 @@
 
             <div class="container">
 
-                <!-- all contact cards start  -->
-                <div class="row g-4">
-                    <!-- Agartala Card -->
-                    <div class="col-lg-4 col-md-6">
+                <div class="row g-4 mt-2">
+                    <div class="col-lg-4 col-md-6 p-3 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">AGARTALA</h5>
-                                <p class="card-text mobile-para1 text-dark">
-                                    67, Gangail Road, Opp. Ramkrishna Mission, Gandhighat, Agartala - 799001, Tripura West
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020914" class="text-decoration-none text-dark mobile-para1">
-                                    <i class="fa fa-phone me-2"></i>7099020914
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">BARPETA</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">BARPETA</h5>
+                                <p class="card-text para1 text-dark">
                                     Howly Town, Ward No. 3, Anand Bazar Howly, P.O. & P.S. Howly, Barpeta-781316
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020915" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020915" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020915
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">BONGAIGAON</h5>
-                                <p class="card-text mobile-para1 text-dark">
-                                    Noor Market, Near Mayapuri Cinema Hall, Mayapuri, Bongaigaon - 783380
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:9127070906" class="text-decoration-none text-dark mobile-para1">
-                                    <i class="fa fa-phone me-2"></i>9127070906
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Dibrugarh Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">DIBRUGARH</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">DIBRUGARH</h5>
+                                <p class="card-text para1 text-dark">
                                     Gabhorupathar Tiniali, Near Police Station, Naliapool, Dibrugarh-786001
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:6913002969" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:6913002969" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>6913002969
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">DIMAPUR</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">DIMAPUR</h5>
+                                <p class="card-text para1 text-dark">
                                     Circular Road, Near Popular Bakery, Dimapur, Nagaland-797112
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:6913002966" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:6913002966" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>6913002966
                                 </a>
-                                <a href="tel:7099020796" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020796" class="text-decoration-none text-dark para1">
                                     7099020796
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">GOALPARA</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">GOALPARA</h5>
+                                <p class="card-text para1 text-dark">
                                     Durga Mandir, Near LIC Building, P.O. Baladmari, Goalpara-783101
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099030827" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099030827" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099030827
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Kohima Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">KOHIMA</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">KOHIMA</h5>
+                                <p class="card-text para1 text-dark">
                                     R Building, Paraciezia, High School Junction, Kohima, Nagaland-797001
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020907" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020907" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020907
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- Mangaldoi Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">MANGALDOI</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MANGALDOI</h5>
+                                <p class="card-text para1 text-dark">
                                     W/No. 10, Tangla Bhebargahat Road, Opp. Foreigner's Tribunal (5th) Office,
                                     P.O. - Mangaldoi, Darrang - 784125, Assam
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020907" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020907" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020907
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- Manipur Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">MANIPUR</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MANIPUR</h5>
+                                <p class="card-text para1 text-dark">
                                     Hafiz Hatta, Minuthong Traffic Point, Near HDFC ATM, Imphal East- 795001, Manipur
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:6913002965" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:6913002965" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>6913002965
                                 </a> &nbsp;&nbsp;
-                                <a href="tel:7099020911" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020911" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020911
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Mizoram Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">MIZORAM</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MIZORAM</h5>
+                                <p class="card-text para1 text-dark">
                                     Theodora Market, Plot No.3, Treasury Square, Opp. MPC Office, Aizawl - 796001, Mizoram
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:9127070609" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:9127070609" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>9127070609
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- Nagaon Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3 mt-5">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">NAGAON</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">NAGAON</h5>
+                                <p class="card-text para1 text-dark">
                                     BM Road, Amolapatty, Opp. Ramanujan Junior College, Nagaon - 782001, Assam
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020910" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020910" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020910
                                 </a>
                             </div>
@@ -229,102 +184,79 @@
                     </div>
                 </div>
 
+
                 <div class="row g-4 mt-2">
                     <!-- Silchar Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">SILCHAR</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">SILCHAR</h5>
+                                <p class="card-text para1 text-dark">
                                     Das Complex, 3rd Floor, Above Tata AIA, Opp. Hindi School, Shyama Prasad Road,
                                     Shillongpatty - 788001
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:8811034707" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:8811034707" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>8811034707
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- Shillong Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">SHILLONG</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">SHILLONG</h5>
+                                <p class="card-text para1 text-dark">
                                     Salonsar Mansion, Next to Highland Studio, Police Bazar, Shillong, Meghalaya - 793001
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:6913002967" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:6913002967" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>6913002967
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <!-- JORHAT Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">JORHAT</h5>
-                                <p class="card-text mobile-para1 text-dark">
-                                    Tirupati Circle Project : ROYAL AAWAS JORHAT, Near Christ King English School By Pass
-                                    Road, Jorhat- 785010
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:6913002968" class="text-decoration-none text-dark mobile-para1">
-                                    <i class="fa fa-phone me-2"></i>6913002968
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-4 mt-2 pb-5">
-                    <!-- Tinsukia Card -->
-                    <div class="col-lg-4 col-md-6">
+                                        <!-- Tinsukia Card -->
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card border shadow h-100">
                             <div class="card-body border-0">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">TINSUKIA</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">TINSUKIA</h5>
+                                <p class="card-text para1 text-dark">
                                     Sashi Complex, Rongagora Road, Tinsukia - 786125, Assam
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020913" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:7099020913" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>7099020913
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- Tura Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card border shadow h-100">
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card border shadow h-100 mt-3">
                             <div class="card-body border-0">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">TURA</h5>
-                                <p class="card-text mobile-para1 text-dark">
+                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">TURA</h5>
+                                <p class="card-text para1 text-dark">
                                     1st Floor, Above Axis Bank, Hawakhana, Tura - 794001, Meghalaya
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:9127898115" class="text-decoration-none text-dark mobile-para1">
+                                <a href="tel:9127898115" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>9127898115
                                 </a>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <!-- all contact cards End  -->
 
@@ -535,27 +467,8 @@
 
             <div class="container">
 
-                <!-- all contact cards start  -->
-                <div class="row g-4">
-                    <!-- Agartala Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">AGARTALA</h5>
-                                <p class="card-text para1 text-dark">
-                                    67, Gangail Road, Opp. Ramkrishna Mission, Gandhighat, Agartala - 799001, Tripura West
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020914" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020914
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                <div class="row g-4 mt-2">
+                    <div class="col-lg-4 col-md-6 p-3 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -572,28 +485,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">BONGAIGAON</h5>
-                                <p class="card-text para1 text-dark">
-                                    Noor Market, Near Mayapuri Cinema Hall, Mayapuri, Bongaigaon - 783380
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:9127070906" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>9127070906
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Dibrugarh Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -610,7 +503,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -630,7 +523,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -647,11 +540,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Kohima Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -669,7 +559,7 @@
                         </div>
                     </div>
                     <!-- Mangaldoi Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -688,7 +578,7 @@
                         </div>
                     </div>
                     <!-- Manipur Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -708,11 +598,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row g-4 mt-2">
                     <!-- Mizoram Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -730,7 +617,7 @@
                         </div>
                     </div>
                     <!-- Nagaon Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3 mt-5">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -749,9 +636,10 @@
                     </div>
                 </div>
 
+
                 <div class="row g-4 mt-2">
                     <!-- Silchar Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -770,7 +658,7 @@
                         </div>
                     </div>
                     <!-- Shillong Card -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -787,11 +675,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row g-4 mt-2 pb-5">
-                    <!-- Tinsukia Card -->
-                    <div class="col-lg-4 col-md-6">
+                                        <!-- Tinsukia Card -->
+                    <div class="col-lg-4 col-md-6 p-3">
                         <div class="card border shadow h-100">
                             <div class="card-body border-0">
                                 <h5 style="color: #27467A;" class="card-title para1 fw-bold">TINSUKIA</h5>
@@ -808,8 +693,8 @@
                         </div>
                     </div>
                     <!-- Tura Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card border shadow h-100">
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card border shadow h-100 mt-3">
                             <div class="card-body border-0">
                                 <h5 style="color: #27467A;" class="card-title para1 fw-bold">TURA</h5>
                                 <p class="card-text para1 text-dark">
@@ -824,8 +709,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <!-- all contact cards End  -->
 
