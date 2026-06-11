@@ -216,15 +216,15 @@
 
             <div class="rgu-exam-links-list">
 
-                <a href="examination-cell.html" class="rgu-exam-link-btn">
+                <a href="/examinations" class="rgu-exam-link-btn">
                     About the Examination Cell
                 </a>
 
-                <a href="examination-cell-office-controller.html" class="rgu-exam-link-btn">
+                <a href="/examination-cell-office-controller" class="rgu-exam-link-btn">
                     Office of the Controller of Examination
                 </a>
 
-                <a href="examination-cell-committee.html" class="rgu-exam-link-btn">
+                <a href="/examination-cell-committee" class="rgu-exam-link-btn">
                     Examination Committee
                 </a>
 
