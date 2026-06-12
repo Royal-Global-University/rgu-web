@@ -5613,30 +5613,3 @@ Route::get('/botany-botanique-3.0', function () {
 
 // TEST LINK
 
-Route::get('/test/preface', function () {
-    return view('frontend/test/preface');
-})->name('/test/preface');
-
-Route::get('/test/jobs', function () {
-    return view('frontend/test/jobs');
-})->name('/test/jobs');
-
-Route::get('/test/recognition', function () {
-    return view('frontend/test/recognition');
-})->name('/test/recognition');
-
-Route::get('/test/governing-body', function () {
-    return view('frontend/test/governing-body');
-})->name('/test/governing-body');
-
-Route::get('/test/leadership-team', function () {
-    return view('frontend/test/leadership-team');
-})->name('/test/leadership-team');
-
-Route::get('/test/leadership-team', function () {
-    return view('frontend/test/leadership-team');
-})->name('/test/leadership-team');
-
-Route::get('/test/leadership-team-ak-buragohain', function () {
-    return view('frontend/test/leadership-team-ak-buragohain');
-})->name('/test/leadership-team-ak-buragohain');

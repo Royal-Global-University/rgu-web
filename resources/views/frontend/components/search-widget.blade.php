@@ -304,7 +304,12 @@ document.addEventListener("DOMContentLoaded", function () {
         '/test',
         '/test1',
         '/physics-test',
-        '/voice-assistant'
+        '/test/preface',
+        '/test/jobs',
+        '/test/recognition',
+        '/test/governing-body',
+        '/test/leadership-team',
+        '/test/leadership-team-ak-buragohain'
     ];
 
     // Add any custom items manually here
