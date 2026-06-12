@@ -13,32 +13,10 @@
                 
                 <input type="text" id="rgu-search-input" placeholder="Search page, faculty, or department..." autocomplete="off" aria-label="Search query">
                 
-                <button id="rgu-mic-btn" class="rgu-mic-btn" title="Voice Search" aria-label="Start voice search">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mic-icon"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
-                </button>
-                
                 <button id="rgu-close-search-btn" class="rgu-close-btn" title="Close" aria-label="Close search">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                 </button>
             </div>
-
-            <!-- Voice Search Listening Overlay -->
-            <div id="rgu-voice-listening-overlay" style="display: none;">
-                <div class="voice-card">
-                    <div class="pulse-ring"></div>
-                    <div class="voice-mic-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
-                    </div>
-                    <div class="sound-wave-bars">
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                    <p id="rgu-voice-status" class="voice-status">Listening...</p>
-                    <p id="rgu-voice-transcript" class="voice-transcript"></p>
-                    <button id="rgu-cancel-voice" class="rgu-cancel-voice-btn">Cancel</button>
-                </div>
-            </div>
-
-            <!-- Search Results -->
             <div id="rgu-search-results" class="rgu-search-results-list">
                 <div class="rgu-search-state-info">Type something to search for pages, faculties, or departments...</div>
             </div>
@@ -179,8 +157,8 @@
         color: #8c9ba5;
     }
 
-    /* Mic & Close Buttons */
-    .rgu-mic-btn, .rgu-close-btn {
+    /* Close Button */
+    .rgu-close-btn {
         background: transparent;
         border: none;
         cursor: pointer;
@@ -195,152 +173,9 @@
         flex-shrink: 0;
     }
 
-    .rgu-mic-btn {
-        color: #24477f;
-        background: rgba(36, 71, 127, 0.08);
-    }
-
-    .rgu-mic-btn:hover {
-        background: rgba(36, 71, 127, 0.15);
-        color: #FF9A1E;
-        transform: scale(1.05);
-    }
-
-    .rgu-mic-btn.disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-        background: rgba(0, 0, 0, 0.05);
-        color: #8c9ba5;
-    }
-
-    .rgu-mic-btn.disabled:hover {
-        transform: none;
-        background: rgba(0, 0, 0, 0.05);
-        color: #8c9ba5;
-    }
-
     .rgu-close-btn:hover {
         background: rgba(0, 0, 0, 0.05);
         color: #dc3545;
-    }
-
-    /* Voice Dialog overlay */
-    #rgu-voice-listening-overlay {
-        padding: 40px 20px;
-        text-align: center;
-        border-bottom: 1px solid rgba(19, 34, 59, 0.1);
-        background: linear-gradient(180deg, #13223b 0%, #24477f 100%);
-        color: white;
-    }
-
-    .voice-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-
-    .voice-mic-icon {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background: #FF9A1E;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-        box-shadow: 0 0 20px rgba(255, 154, 30, 0.6);
-        z-index: 2;
-        cursor: pointer;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .voice-mic-icon:hover {
-        transform: scale(1.08);
-        box-shadow: 0 0 25px rgba(255, 154, 30, 0.8);
-    }
-
-    .pulse-ring {
-        position: absolute;
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-        background-color: rgba(255, 154, 30, 0.3);
-        z-index: 1;
-        opacity: 0;
-        transform: scale(0.6);
-    }
-
-    .voice-card.is-listening .pulse-ring {
-        animation: pulseWave 1.6s infinite ease-out;
-    }
-
-    @keyframes pulseWave {
-        0% { transform: scale(0.6); opacity: 1; }
-        100% { transform: scale(1.5); opacity: 0; }
-    }
-
-    /* Sound Wave Animation */
-    .sound-wave-bars {
-        display: flex;
-        gap: 4px;
-        height: 24px;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-
-    .sound-wave-bars span {
-        display: inline-block;
-        width: 3px;
-        height: 6px;
-        background: white;
-        border-radius: 2px;
-    }
-
-    .voice-card.is-listening .sound-wave-bars span {
-        animation: wave-animation 1s ease-in-out infinite;
-    }
-
-    .sound-wave-bars span:nth-child(2) { animation-delay: 0.2s; }
-    .sound-wave-bars span:nth-child(3) { animation-delay: 0.4s; }
-    .sound-wave-bars span:nth-child(4) { animation-delay: 0.6s; }
-    .sound-wave-bars span:nth-child(5) { animation-delay: 0.8s; }
-
-    @keyframes wave-animation {
-        0%, 100% { height: 6px; }
-        50% { height: 24px; }
-    }
-
-    .voice-status {
-        font-weight: 600;
-        font-size: 16px;
-        margin-bottom: 8px;
-        color: #fff;
-    }
-
-    .voice-transcript {
-        font-style: italic;
-        font-size: 14px;
-        color: rgba(255, 255, 255, 0.85);
-        margin-bottom: 20px;
-        min-height: 20px;
-        max-width: 80%;
-    }
-
-    .rgu-cancel-voice-btn {
-        background: rgba(255, 255, 255, 0.2);
-        color: white;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        padding: 6px 18px;
-        border-radius: 20px;
-        font-size: 13px;
-        cursor: pointer;
-        transition: all 0.2s ease;
-    }
-
-    .rgu-cancel-voice-btn:hover {
-        background: rgba(255, 255, 255, 0.3);
     }
 
     /* Search Results List */
@@ -459,22 +294,39 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeBtn = document.getElementById("rgu-close-search-btn");
     const searchInput = document.getElementById("rgu-search-input");
     const resultsContainer = document.getElementById("rgu-search-results");
-    const micBtn = document.getElementById("rgu-mic-btn");
-    const voiceOverlay = document.getElementById("rgu-voice-listening-overlay");
-    const voiceStatus = document.getElementById("rgu-voice-status");
-    const voiceTranscript = document.getElementById("rgu-voice-transcript");
-    const cancelVoiceBtn = document.getElementById("rgu-cancel-voice");
 
     let searchData = [];
     let activeIndex = -1;
-    let recognition = null;
-    let voiceConfirmTimeout = null;
+
+    // --- Custom Search List Management ---
+    // Add any URLs here that you want to EXCLUDE/HIDE from search results
+    const excludedUrls = [
+        '/test',
+        '/test1',
+        '/physics-test',
+        '/voice-assistant'
+    ];
+
+    // Add any custom items manually here
+    const customSearchItems = [
+        /*
+        {
+            url: '/admission-2026',
+            title: 'Admissions 2026',
+            category: 'Admission'
+        },
+        */
+    ];
 
     // Fetch compiled active routes
     fetch("{{ asset('assets/json/search_routes.json') }}")
         .then(res => res.json())
         .then(data => {
-            searchData = data;
+            // Filter out excluded URLs
+            const filteredData = data.filter(item => !excludedUrls.includes(item.url));
+            
+            // Append manually added custom items
+            searchData = filteredData.concat(customSearchItems);
         })
         .catch(err => console.error("RGU Search Data failed to load:", err));
 
@@ -495,8 +347,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (searchModal) {
             searchModal.classList.remove("active");
         }
-        stopListening();
-        if (voiceConfirmTimeout) clearTimeout(voiceConfirmTimeout);
         setTimeout(() => {
             if (searchModal) searchModal.style.display = "none";
             if (searchInput) searchInput.value = "";
@@ -619,245 +469,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 resultsContainer.appendChild(itemElement);
             });
-        });
-    }
-
-    // --- Voice Command Search Logic ---
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const voiceCard = document.querySelector(".voice-card");
-
-    let isListening = false;
-    let commandProcessed = false;
-
-    if (!SpeechRecognition) {
-        if (micBtn) {
-            micBtn.classList.add("disabled");
-            micBtn.title = "Voice search not supported in this browser context (requires HTTPS or localhost)";
-            micBtn.addEventListener("click", function (e) {
-                e.preventDefault();
-                alert("Speech recognition is not supported in this browser or requires a secure context (HTTPS or localhost).\n\nIf you are on Brave, enable 'Web Speech API' in settings.\nIf you are on Firefox, toggle 'media.webspeech.recognition.enable' in about:config.");
-            });
-        }
-    } else {
-        recognition = new SpeechRecognition();
-        recognition.lang = "en-US";
-        recognition.interimResults = true;
-        recognition.continuous = false;
-
-        recognition.onstart = function () {
-            isListening = true;
-            commandProcessed = false;
-            if (voiceCard) voiceCard.classList.add("is-listening");
-            if (voiceOverlay) voiceOverlay.style.display = "block";
-            if (voiceStatus) voiceStatus.textContent = "Listening for command...";
-            if (voiceTranscript) voiceTranscript.textContent = 'Say something like: "Botany", "Open Preface", or "Search FAQ"';
-        };
-
-        recognition.onerror = function (e) {
-            console.error("Speech Error:", e.error);
-            isListening = false;
-            if (voiceCard) voiceCard.classList.remove("is-listening");
-            
-            if (voiceStatus && voiceTranscript) {
-                if (e.error === "not-allowed") {
-                    voiceStatus.textContent = "Microphone blocked!";
-                    voiceTranscript.textContent = "Please enable microphone permissions in your browser.";
-                } else if (e.error === "no-speech") {
-                    voiceStatus.textContent = "No speech detected.";
-                    voiceTranscript.textContent = "Tap the microphone icon to try again.";
-                } else {
-                    voiceStatus.textContent = "Voice search failed.";
-                    voiceTranscript.textContent = "Error occurred: " + e.error;
-                }
-            }
-        };
-
-        recognition.onend = function () {
-            isListening = false;
-            if (voiceCard) voiceCard.classList.remove("is-listening");
-            
-            // If the user stopped talking and we haven't matched anything yet, and speech synth isn't running
-            setTimeout(() => {
-                if (!commandProcessed && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
-                    if (voiceStatus) voiceStatus.textContent = "Microphone is off (Idle)";
-                    if (voiceTranscript) voiceTranscript.textContent = "Tap the microphone icon above to speak again.";
-                }
-            }, 100);
-        };
-
-        recognition.onresult = function (event) {
-            let interimTranscript = "";
-            let finalTranscript = "";
-
-            for (let i = event.resultIndex; i < event.results.length; ++i) {
-                if (event.results[i].isFinal) {
-                    finalTranscript += event.results[i][0].transcript;
-                } else {
-                    interimTranscript += event.results[i][0].transcript;
-                }
-            }
-
-            const currentSpeech = finalTranscript || interimTranscript;
-            if (voiceTranscript) voiceTranscript.textContent = `"${currentSpeech}"`;
-
-            if (finalTranscript) {
-                processVoiceCommand(finalTranscript);
-            }
-        };
-
-        if (micBtn) {
-            micBtn.addEventListener("click", function (e) {
-                e.preventDefault();
-                startListening();
-            });
-        }
-    }
-
-    function startListening() {
-        if (window.speechSynthesis) {
-            window.speechSynthesis.cancel(); // Don't speak while starting to listen
-        }
-        if (recognition) {
-            try {
-                recognition.start();
-            } catch (err) {
-                console.warn("Recognition already started:", err);
-            }
-        }
-    }
-
-    function stopListening() {
-        if (recognition) {
-            try {
-                recognition.abort();
-            } catch (err) {}
-        }
-        isListening = false;
-        if (voiceCard) voiceCard.classList.remove("is-listening");
-        if (voiceOverlay) voiceOverlay.style.display = "none";
-        if (window.speechSynthesis) {
-            window.speechSynthesis.cancel();
-        }
-    }
-
-    function processVoiceCommand(command) {
-        if (commandProcessed) return;
-        
-        // Clean up command
-        let cleanCommand = command.toLowerCase().trim()
-            .replace(/^(go to|open|navigate to|show me|take me to|find)\s+/i, "")
-            .replace(/&/g, "and")
-            .replace(/department/gi, "")
-            .replace(/faculty/gi, "")
-            .replace(/school/gi, "")
-            .replace(/\s+/g, " ")
-            .trim();
-
-        if (voiceStatus) voiceStatus.textContent = "Processing...";
-
-        if (!cleanCommand) {
-            if (voiceStatus) voiceStatus.textContent = "Sorry, didn't catch that.";
-            speak("Sorry, I didn't catch that. Please try again.", () => {
-                if (voiceOverlay && voiceOverlay.style.display === "block") {
-                    startListening();
-                }
-            });
-            return;
-        }
-
-        // Search for best match in searchData using basic string overlap
-        let bestMatch = null;
-        let highestScore = 0;
-
-        searchData.forEach(item => {
-            const titleTokens = item.title.toLowerCase().split(/\s+/);
-            const cmdTokens = cleanCommand.split(/\s+/);
-            
-            let matches = 0;
-            titleTokens.forEach(t => {
-                if (cmdTokens.some(c => c.includes(t) || t.includes(c))) {
-                    matches++;
-                }
-            });
-
-            // Calculate similarity score
-            let score = matches / Math.max(titleTokens.length, cmdTokens.length);
-
-            // Give exact/substring match a huge boost
-            if (item.title.toLowerCase().includes(cleanCommand) || cleanCommand.includes(item.title.toLowerCase())) {
-                score += 0.5;
-            }
-
-            if (score > highestScore && score > 0.2) {
-                highestScore = score;
-                bestMatch = item;
-            }
-        });
-
-        if (bestMatch) {
-            commandProcessed = true;
-            if (voiceStatus) voiceStatus.textContent = `Redirecting to: ${bestMatch.title}`;
-            if (voiceTranscript) voiceTranscript.innerHTML = `<span style="color:#FF9A1E;font-weight:bold;">Found match!</span> Navigating to page...`;
-            
-            // Speak confirmation
-            speak(`Opening ${bestMatch.title}`);
-
-            // Abort recognition immediately to release microphone and audio context
-            if (recognition) {
-                try {
-                    recognition.abort();
-                } catch (e) {}
-            }
-
-            // Redirect after a short delay to let speech begin
-            setTimeout(() => {
-                console.log("Navigating to page:", bestMatch.url);
-                window.location.href = bestMatch.url;
-            }, 500);
-        } else {
-            if (voiceStatus) voiceStatus.textContent = "No page found.";
-            if (voiceTranscript) voiceTranscript.textContent = `Could not match "${cleanCommand}". Try naming a department, faculty, or main page.`;
-            
-            speak("Sorry, I could not find a page matching that name.", () => {
-                if (voiceOverlay && voiceOverlay.style.display === "block") {
-                    startListening();
-                }
-            });
-        }
-    }
-
-    function speak(text, callback) {
-        if ('speechSynthesis' in window) {
-            const synth = window.speechSynthesis;
-            synth.cancel(); // Cancel active speech
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = "en-US";
-            if (callback) {
-                utterance.onend = function () {
-                    callback();
-                };
-                utterance.onerror = function () {
-                    callback();
-                };
-            }
-            synth.speak(utterance);
-        } else {
-            if (callback) callback();
-        }
-    }
-
-    const overlayMicBtn = document.querySelector(".voice-mic-icon");
-    if (overlayMicBtn) {
-        overlayMicBtn.addEventListener("click", function (e) {
-            e.preventDefault();
-            startListening();
-        });
-    }
-
-    if (cancelVoiceBtn) {
-        cancelVoiceBtn.addEventListener("click", function (e) {
-            e.preventDefault();
-            stopListening();
         });
     }
 });
