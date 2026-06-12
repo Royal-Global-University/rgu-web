@@ -303,11 +303,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const excludedUrls = [
         '/test',
         '/test1',
-        '/physics-test',
-        '/test/preface',
-        '/test/jobs',
-        '/test/recognition',
-        '/test/governing-body',
+        '/bhupen-hazarika-songs',
+        '/bhupen-hazarika-videos',
+        '/index-media',
+        '/swayam',
+        '/university-research-committee',
         '/test/leadership-team',
         '/test/leadership-team-ak-buragohain'
     ];
