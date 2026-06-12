@@ -239,6 +239,13 @@
         margin-bottom: 20px;
         box-shadow: 0 0 20px rgba(255, 154, 30, 0.6);
         z-index: 2;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .voice-mic-icon:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 25px rgba(255, 154, 30, 0.8);
     }
 
     .pulse-ring {
@@ -247,8 +254,13 @@
         height: 90px;
         border-radius: 50%;
         background-color: rgba(255, 154, 30, 0.3);
-        animation: pulseWave 1.6s infinite ease-out;
         z-index: 1;
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+    .voice-card.is-listening .pulse-ring {
+        animation: pulseWave 1.6s infinite ease-out;
     }
 
     @keyframes pulseWave {
@@ -268,9 +280,12 @@
     .sound-wave-bars span {
         display: inline-block;
         width: 3px;
-        height: 5px;
+        height: 6px;
         background: white;
         border-radius: 2px;
+    }
+
+    .voice-card.is-listening .sound-wave-bars span {
         animation: wave-animation 1s ease-in-out infinite;
     }
 
@@ -586,6 +601,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Voice Command Search Logic ---
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const voiceCard = document.querySelector(".voice-card");
+
+    let isListening = false;
+    let commandProcessed = false;
 
     if (!SpeechRecognition) {
         micBtn.style.display = "none"; // Hide if not supported
@@ -596,6 +615,9 @@ document.addEventListener("DOMContentLoaded", function () {
         recognition.continuous = false;
 
         recognition.onstart = function () {
+            isListening = true;
+            commandProcessed = false;
+            if (voiceCard) voiceCard.classList.add("is-listening");
             voiceOverlay.style.display = "block";
             voiceStatus.textContent = "Listening for command...";
             voiceTranscript.textContent = 'Say something like: "Botany", "Open Preface", or "Search FAQ"';
@@ -603,9 +625,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         recognition.onerror = function (e) {
             console.error("Speech Error:", e.error);
+            isListening = false;
+            if (voiceCard) voiceCard.classList.remove("is-listening");
+            
             if (e.error === "not-allowed") {
                 voiceStatus.textContent = "Microphone blocked!";
                 voiceTranscript.textContent = "Please enable microphone permissions in your browser.";
+            } else if (e.error === "no-speech") {
+                voiceStatus.textContent = "No speech detected.";
+                voiceTranscript.textContent = "Tap the microphone icon to try again.";
             } else {
                 voiceStatus.textContent = "Voice search failed.";
                 voiceTranscript.textContent = "Error occurred: " + e.error;
@@ -613,7 +641,16 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         recognition.onend = function () {
-            // Overlay remains open briefly unless cancelled
+            isListening = false;
+            if (voiceCard) voiceCard.classList.remove("is-listening");
+            
+            // If the user stopped talking and we haven't matched anything yet, and speech synth isn't running
+            setTimeout(() => {
+                if (!commandProcessed && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
+                    voiceStatus.textContent = "Microphone is off (Idle)";
+                    voiceTranscript.textContent = "Tap the microphone icon above to speak again.";
+                }
+            }, 100);
         };
 
         recognition.onresult = function (event) {
@@ -638,6 +675,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function startListening() {
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel(); // Don't speak while starting to listen
+        }
         if (recognition) {
             try {
                 recognition.start();
@@ -653,7 +693,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 recognition.abort();
             } catch (err) {}
         }
+        isListening = false;
+        if (voiceCard) voiceCard.classList.remove("is-listening");
         voiceOverlay.style.display = "none";
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
     }
 
     function processVoiceCommand(command) {
@@ -671,7 +716,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!cleanCommand) {
             voiceStatus.textContent = "Sorry, didn't catch that.";
-            setTimeout(startListening, 1500);
+            speak("Sorry, I didn't catch that. Please try again.", () => {
+                if (voiceOverlay.style.display === "block") {
+                    startListening();
+                }
+            });
             return;
         }
 
@@ -705,35 +754,48 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         if (bestMatch) {
+            commandProcessed = true;
             voiceStatus.textContent = `Redirecting to: ${bestMatch.title}`;
             voiceTranscript.innerHTML = `<span style="color:#FF9A1E;font-weight:bold;">Found match!</span> Navigating to page...`;
             
             // Speak confirmation
-            speak(`Opening ${bestMatch.title}`);
+            speak(`Opening ${bestMatch.title}`, () => {
+                window.location.href = bestMatch.url;
+            });
 
+            // Fallback redirect in case speech end event fails
             voiceConfirmTimeout = setTimeout(() => {
                 window.location.href = bestMatch.url;
-            }, 1200);
+            }, 1800);
         } else {
             voiceStatus.textContent = "No page found.";
             voiceTranscript.textContent = `Could not match "${cleanCommand}". Try naming a department, faculty, or main page.`;
-            speak("Sorry, I could not find a page matching that name.");
             
-            setTimeout(() => {
+            speak("Sorry, I could not find a page matching that name.", () => {
                 if (voiceOverlay.style.display === "block") {
                     startListening();
                 }
-            }, 3000);
+            });
         }
     }
 
-    function speak(text) {
+    function speak(text, callback) {
         if ('speechSynthesis' in window) {
             const synth = window.speechSynthesis;
             synth.cancel(); // Cancel active speech
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = "en-US";
+            if (callback) {
+                utterance.onend = function () {
+                    callback();
+                };
+                utterance.onerror = function () {
+                    callback();
+                };
+            }
             synth.speak(utterance);
+        } else {
+            if (callback) callback();
         }
     }
 
@@ -741,6 +803,14 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         startListening();
     });
+
+    const overlayMicBtn = document.querySelector(".voice-mic-icon");
+    if (overlayMicBtn) {
+        overlayMicBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            startListening();
+        });
+    }
 
     cancelVoiceBtn.addEventListener("click", function (e) {
         e.preventDefault();
