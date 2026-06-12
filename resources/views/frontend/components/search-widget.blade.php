@@ -811,11 +811,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Redirect after a short delay to let speech begin
             setTimeout(() => {
-                const redirectLink = document.createElement("a");
-                redirectLink.href = bestMatch.url;
-                document.body.appendChild(redirectLink);
-                redirectLink.click();
-                document.body.removeChild(redirectLink);
+                console.log("Navigating to page:", bestMatch.url);
+                window.location.href = bestMatch.url;
             }, 500);
         } else {
             if (voiceStatus) voiceStatus.textContent = "No page found.";
