@@ -758,15 +758,19 @@ document.addEventListener("DOMContentLoaded", function () {
             voiceStatus.textContent = `Redirecting to: ${bestMatch.title}`;
             voiceTranscript.innerHTML = `<span style="color:#FF9A1E;font-weight:bold;">Found match!</span> Navigating to page...`;
             
-            // Speak confirmation
-            speak(`Opening ${bestMatch.title}`, () => {
+            let redirected = false;
+            const doRedirect = () => {
+                if (redirected) return;
+                redirected = true;
+                if (voiceConfirmTimeout) clearTimeout(voiceConfirmTimeout);
                 window.location.href = bestMatch.url;
-            });
+            };
 
-            // Fallback redirect in case speech end event fails
-            voiceConfirmTimeout = setTimeout(() => {
-                window.location.href = bestMatch.url;
-            }, 1800);
+            // Speak confirmation
+            speak(`Opening ${bestMatch.title}`, doRedirect);
+
+            // Fallback redirect in case speech end event fails or gets stuck
+            voiceConfirmTimeout = setTimeout(doRedirect, 1800);
         } else {
             voiceStatus.textContent = "No page found.";
             voiceTranscript.textContent = `Could not match "${cleanCommand}". Try naming a department, faculty, or main page.`;

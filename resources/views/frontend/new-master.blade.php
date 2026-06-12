@@ -84,7 +84,7 @@
     </div>
 
 
-    <!-- @include('frontend.components.search-widget') -->
+    @include('frontend.components.search-widget')
 </body>
 
 <script type="text/javascript">
