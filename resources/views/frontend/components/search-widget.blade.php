@@ -206,6 +206,19 @@
         transform: scale(1.05);
     }
 
+    .rgu-mic-btn.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        background: rgba(0, 0, 0, 0.05);
+        color: #8c9ba5;
+    }
+
+    .rgu-mic-btn.disabled:hover {
+        transform: none;
+        background: rgba(0, 0, 0, 0.05);
+        color: #8c9ba5;
+    }
+
     .rgu-close-btn:hover {
         background: rgba(0, 0, 0, 0.05);
         color: #dc3545;
@@ -467,23 +480,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Open Search Modal
     function openModal() {
-        searchModal.style.display = "flex";
-        setTimeout(() => {
-            searchModal.classList.add("active");
-            searchInput.focus();
-        }, 10);
+        if (searchModal) {
+            searchModal.style.display = "flex";
+            setTimeout(() => {
+                searchModal.classList.add("active");
+                if (searchInput) searchInput.focus();
+            }, 10);
+        }
         document.body.style.overflow = "hidden"; // Prevent scrolling main page
     }
 
     // Close Search Modal
     function closeModal() {
-        searchModal.classList.remove("active");
+        if (searchModal) {
+            searchModal.classList.remove("active");
+        }
         stopListening();
         if (voiceConfirmTimeout) clearTimeout(voiceConfirmTimeout);
         setTimeout(() => {
-            searchModal.style.display = "none";
-            searchInput.value = "";
-            resultsContainer.innerHTML = '<div class="rgu-search-state-info">Type something to search for pages, faculties, or departments...</div>';
+            if (searchModal) searchModal.style.display = "none";
+            if (searchInput) searchInput.value = "";
+            if (resultsContainer) {
+                resultsContainer.innerHTML = '<div class="rgu-search-state-info">Type something to search for pages, faculties, or departments...</div>';
+            }
             activeIndex = -1;
         }, 300);
         document.body.style.overflow = ""; // Re-enable scroll
@@ -493,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("keydown", function (e) {
         if (e.altKey && e.key.toLowerCase() === 'k') {
             e.preventDefault();
-            if (searchModal.classList.contains("active")) {
+            if (searchModal && searchModal.classList.contains("active")) {
                 closeModal();
             } else {
                 openModal();
@@ -501,7 +520,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         
         // Handle keyboard navigation of results
-        if (searchModal.classList.contains("active")) {
+        if (searchModal && searchModal.classList.contains("active") && resultsContainer) {
             const items = resultsContainer.querySelectorAll(".rgu-search-result-item");
             if (e.key === "Escape") {
                 closeModal();
@@ -539,65 +558,69 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    searchBtn.addEventListener("click", openModal);
-    closeBtn.addEventListener("click", closeModal);
-    document.querySelector(".rgu-search-backdrop").addEventListener("click", closeModal);
+    if (searchBtn) searchBtn.addEventListener("click", openModal);
+    if (closeBtn) closeBtn.addEventListener("click", closeModal);
+    
+    const searchBackdrop = document.querySelector(".rgu-search-backdrop");
+    if (searchBackdrop) searchBackdrop.addEventListener("click", closeModal);
 
     // Text Search Logic
-    searchInput.addEventListener("input", function () {
-        const query = searchInput.value.toLowerCase().trim();
-        activeIndex = -1;
+    if (searchInput && resultsContainer) {
+        searchInput.addEventListener("input", function () {
+            const query = searchInput.value.toLowerCase().trim();
+            activeIndex = -1;
 
-        if (query === "") {
-            resultsContainer.innerHTML = '<div class="rgu-search-state-info">Type something to search for pages, faculties, or departments...</div>';
-            return;
-        }
+            if (query === "") {
+                resultsContainer.innerHTML = '<div class="rgu-search-state-info">Type something to search for pages, faculties, or departments...</div>';
+                return;
+            }
 
-        // Fuzzy filter matches in title or URL
-        const matches = searchData.filter(item => {
-            return item.title.toLowerCase().includes(query) || item.url.toLowerCase().includes(query);
-        });
-
-        // Cap at 15 results for performance
-        const displayedMatches = matches.slice(0, 15);
-
-        if (displayedMatches.length === 0) {
-            resultsContainer.innerHTML = '<div class="rgu-search-state-info">No active pages found matching your search.</div>';
-            return;
-        }
-
-        resultsContainer.innerHTML = "";
-        displayedMatches.forEach((item, idx) => {
-            const itemElement = document.createElement("a");
-            itemElement.href = item.url;
-            itemElement.className = "rgu-search-result-item";
-            
-            // Highlight matching letters
-            const highlightText = (text, q) => {
-                const regex = new RegExp(`(${q.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, "gi");
-                return text.replace(regex, "<mark style='background:#ffe082;color:#000;padding:2px 0;border-radius:2px;'>$1</mark>");
-            };
-
-            const displayTitle = highlightText(item.title, query);
-            const categoryClass = `category-${item.category.toLowerCase()}`;
-
-            itemElement.innerHTML = `
-                <div class="result-info">
-                    <span class="result-title">${displayTitle}</span>
-                    <span class="result-url">${item.url}</span>
-                </div>
-                <span class="result-category ${categoryClass}">${item.category}</span>
-            `;
-
-            // Navigation on click
-            itemElement.addEventListener("click", function (e) {
-                e.preventDefault();
-                window.location.href = item.url;
+            // Fuzzy filter matches in title or URL
+            const matches = searchData.filter(item => {
+                return item.title.toLowerCase().includes(query) || item.url.toLowerCase().includes(query);
             });
 
-            resultsContainer.appendChild(itemElement);
+            // Cap at 15 results for performance
+            const displayedMatches = matches.slice(0, 15);
+
+            if (displayedMatches.length === 0) {
+                resultsContainer.innerHTML = '<div class="rgu-search-state-info">No active pages found matching your search.</div>';
+                return;
+            }
+
+            resultsContainer.innerHTML = "";
+            displayedMatches.forEach((item, idx) => {
+                const itemElement = document.createElement("a");
+                itemElement.href = item.url;
+                itemElement.className = "rgu-search-result-item";
+                
+                // Highlight matching letters
+                const highlightText = (text, q) => {
+                    const regex = new RegExp(`(${q.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, "gi");
+                    return text.replace(regex, "<mark style='background:#ffe082;color:#000;padding:2px 0;border-radius:2px;'>$1</mark>");
+                };
+
+                const displayTitle = highlightText(item.title, query);
+                const categoryClass = `category-${item.category.toLowerCase()}`;
+
+                itemElement.innerHTML = `
+                    <div class="result-info">
+                        <span class="result-title">${displayTitle}</span>
+                        <span class="result-url">${item.url}</span>
+                    </div>
+                    <span class="result-category ${categoryClass}">${item.category}</span>
+                `;
+
+                // Navigation on click
+                itemElement.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    window.location.href = item.url;
+                });
+
+                resultsContainer.appendChild(itemElement);
+            });
         });
-    });
+    }
 
     // --- Voice Command Search Logic ---
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -607,7 +630,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let commandProcessed = false;
 
     if (!SpeechRecognition) {
-        micBtn.style.display = "none"; // Hide if not supported
+        if (micBtn) {
+            micBtn.classList.add("disabled");
+            micBtn.title = "Voice search not supported in this browser context (requires HTTPS or localhost)";
+            micBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                alert("Speech recognition is not supported in this browser or requires a secure context (HTTPS or localhost).\n\nIf you are on Brave, enable 'Web Speech API' in settings.\nIf you are on Firefox, toggle 'media.webspeech.recognition.enable' in about:config.");
+            });
+        }
     } else {
         recognition = new SpeechRecognition();
         recognition.lang = "en-US";
@@ -618,9 +648,9 @@ document.addEventListener("DOMContentLoaded", function () {
             isListening = true;
             commandProcessed = false;
             if (voiceCard) voiceCard.classList.add("is-listening");
-            voiceOverlay.style.display = "block";
-            voiceStatus.textContent = "Listening for command...";
-            voiceTranscript.textContent = 'Say something like: "Botany", "Open Preface", or "Search FAQ"';
+            if (voiceOverlay) voiceOverlay.style.display = "block";
+            if (voiceStatus) voiceStatus.textContent = "Listening for command...";
+            if (voiceTranscript) voiceTranscript.textContent = 'Say something like: "Botany", "Open Preface", or "Search FAQ"';
         };
 
         recognition.onerror = function (e) {
@@ -628,15 +658,17 @@ document.addEventListener("DOMContentLoaded", function () {
             isListening = false;
             if (voiceCard) voiceCard.classList.remove("is-listening");
             
-            if (e.error === "not-allowed") {
-                voiceStatus.textContent = "Microphone blocked!";
-                voiceTranscript.textContent = "Please enable microphone permissions in your browser.";
-            } else if (e.error === "no-speech") {
-                voiceStatus.textContent = "No speech detected.";
-                voiceTranscript.textContent = "Tap the microphone icon to try again.";
-            } else {
-                voiceStatus.textContent = "Voice search failed.";
-                voiceTranscript.textContent = "Error occurred: " + e.error;
+            if (voiceStatus && voiceTranscript) {
+                if (e.error === "not-allowed") {
+                    voiceStatus.textContent = "Microphone blocked!";
+                    voiceTranscript.textContent = "Please enable microphone permissions in your browser.";
+                } else if (e.error === "no-speech") {
+                    voiceStatus.textContent = "No speech detected.";
+                    voiceTranscript.textContent = "Tap the microphone icon to try again.";
+                } else {
+                    voiceStatus.textContent = "Voice search failed.";
+                    voiceTranscript.textContent = "Error occurred: " + e.error;
+                }
             }
         };
 
@@ -647,8 +679,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // If the user stopped talking and we haven't matched anything yet, and speech synth isn't running
             setTimeout(() => {
                 if (!commandProcessed && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
-                    voiceStatus.textContent = "Microphone is off (Idle)";
-                    voiceTranscript.textContent = "Tap the microphone icon above to speak again.";
+                    if (voiceStatus) voiceStatus.textContent = "Microphone is off (Idle)";
+                    if (voiceTranscript) voiceTranscript.textContent = "Tap the microphone icon above to speak again.";
                 }
             }, 100);
         };
@@ -666,12 +698,19 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             const currentSpeech = finalTranscript || interimTranscript;
-            voiceTranscript.textContent = `"${currentSpeech}"`;
+            if (voiceTranscript) voiceTranscript.textContent = `"${currentSpeech}"`;
 
             if (finalTranscript) {
                 processVoiceCommand(finalTranscript);
             }
         };
+
+        if (micBtn) {
+            micBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                startListening();
+            });
+        }
     }
 
     function startListening() {
@@ -695,7 +734,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         isListening = false;
         if (voiceCard) voiceCard.classList.remove("is-listening");
-        voiceOverlay.style.display = "none";
+        if (voiceOverlay) voiceOverlay.style.display = "none";
         if (window.speechSynthesis) {
             window.speechSynthesis.cancel();
         }
@@ -712,12 +751,12 @@ document.addEventListener("DOMContentLoaded", function () {
             .replace(/\s+/g, " ")
             .trim();
 
-        voiceStatus.textContent = "Processing...";
+        if (voiceStatus) voiceStatus.textContent = "Processing...";
 
         if (!cleanCommand) {
-            voiceStatus.textContent = "Sorry, didn't catch that.";
+            if (voiceStatus) voiceStatus.textContent = "Sorry, didn't catch that.";
             speak("Sorry, I didn't catch that. Please try again.", () => {
-                if (voiceOverlay.style.display === "block") {
+                if (voiceOverlay && voiceOverlay.style.display === "block") {
                     startListening();
                 }
             });
@@ -755,28 +794,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (bestMatch) {
             commandProcessed = true;
-            voiceStatus.textContent = `Redirecting to: ${bestMatch.title}`;
-            voiceTranscript.innerHTML = `<span style="color:#FF9A1E;font-weight:bold;">Found match!</span> Navigating to page...`;
+            if (voiceStatus) voiceStatus.textContent = `Redirecting to: ${bestMatch.title}`;
+            if (voiceTranscript) voiceTranscript.innerHTML = `<span style="color:#FF9A1E;font-weight:bold;">Found match!</span> Navigating to page...`;
             
-            let redirected = false;
-            const doRedirect = () => {
-                if (redirected) return;
-                redirected = true;
-                if (voiceConfirmTimeout) clearTimeout(voiceConfirmTimeout);
-                window.location.href = bestMatch.url;
-            };
-
             // Speak confirmation
-            speak(`Opening ${bestMatch.title}`, doRedirect);
+            speak(`Opening ${bestMatch.title}`);
 
-            // Fallback redirect in case speech end event fails or gets stuck
-            voiceConfirmTimeout = setTimeout(doRedirect, 1800);
+            // Abort recognition immediately to release microphone and audio context
+            if (recognition) {
+                try {
+                    recognition.abort();
+                } catch (e) {}
+            }
+
+            // Redirect after a short delay to let speech begin
+            setTimeout(() => {
+                window.location.href = bestMatch.url;
+            }, 500);
         } else {
-            voiceStatus.textContent = "No page found.";
-            voiceTranscript.textContent = `Could not match "${cleanCommand}". Try naming a department, faculty, or main page.`;
+            if (voiceStatus) voiceStatus.textContent = "No page found.";
+            if (voiceTranscript) voiceTranscript.textContent = `Could not match "${cleanCommand}". Try naming a department, faculty, or main page.`;
             
             speak("Sorry, I could not find a page matching that name.", () => {
-                if (voiceOverlay.style.display === "block") {
+                if (voiceOverlay && voiceOverlay.style.display === "block") {
                     startListening();
                 }
             });
@@ -803,11 +843,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    micBtn.addEventListener("click", function (e) {
-        e.preventDefault();
-        startListening();
-    });
-
     const overlayMicBtn = document.querySelector(".voice-mic-icon");
     if (overlayMicBtn) {
         overlayMicBtn.addEventListener("click", function (e) {
@@ -816,9 +851,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    cancelVoiceBtn.addEventListener("click", function (e) {
-        e.preventDefault();
-        stopListening();
-    });
+    if (cancelVoiceBtn) {
+        cancelVoiceBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            stopListening();
+        });
+    }
 });
 </script>
