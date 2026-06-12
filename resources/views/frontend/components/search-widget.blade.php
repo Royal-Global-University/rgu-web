@@ -471,7 +471,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let voiceConfirmTimeout = null;
 
     // Fetch compiled active routes
-    fetch("/assets/json/search_routes.json")
+    fetch("{{ asset('assets/json/search_routes.json') }}")
         .then(res => res.json())
         .then(data => {
             searchData = data;
