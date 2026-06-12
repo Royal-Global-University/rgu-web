@@ -1433,7 +1433,7 @@
                         <div class="dept-forestry-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
                             <a target="_blank"
-                                href="mobile-assets/new-rslsc/dept-forestry/syllabus/Syllabus-Structure_B.Sc.-Forestry.pdf"
+                                href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_B.Sc.-Forestry.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1467,7 +1467,7 @@
                         <div class="dept-forestry-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
                             <a target="_blank"
-                                href="mobile-assets/new-rslsc/dept-forestry/syllabus/Syllabus-Structure_M.Sc.-Forestry.pdf"
+                                href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_M.Sc.-Forestry.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
