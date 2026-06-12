@@ -809,7 +809,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Redirect after a short delay to let speech begin
             setTimeout(() => {
-                window.location.href = bestMatch.url;
+                const redirectLink = document.createElement("a");
+                redirectLink.href = bestMatch.url;
+                document.body.appendChild(redirectLink);
+                redirectLink.click();
+                document.body.removeChild(redirectLink);
             }, 500);
         } else {
             if (voiceStatus) voiceStatus.textContent = "No page found.";
