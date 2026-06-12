@@ -788,15 +788,15 @@
                                             </td>
 
                                             <td>
-                                                National Level Debate Recognition
+
                                             </td>
 
                                             <td>
-                                                University Level Debate Recognition
+
                                             </td>
 
                                             <td>
-                                                State / Zonal Debate Recognition
+                                                
                                             </td>
 
                                         </tr>
