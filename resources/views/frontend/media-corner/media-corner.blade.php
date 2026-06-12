@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Sangeet Natak Akademi awardee Bhaskar Jyoti Ojah felicitated by Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 16, 2026:',
+                            'link' => '/sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/1211.jpeg',
+                            'content' => 'Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) has felicitated noted Sattriya music composer and percussionist Bhaskar Jyoti Ojah at the University campus today on receiving the prestigious Sangeet Natak Akademi Award 2025 for his outstanding contribution to Music Composition in Sattriya Dance.',
+                        ],
+                        [
                             'title' => 'NEC Secretary Inaugurates Agricultural Sciences Laboratories at Royal Global University',
                             'summary' => 'Agricultural Laboratories at RGU to Boost Development of NE Region: NEC Secretary',
                             'date' => 'Guwahati, June 10, 2026:',
