@@ -20,11 +20,37 @@
     <link rel="stylesheet" href="{{ asset('new-web/css/global.css') }}?v={{ time() }}">
 
 
-    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
-        sizes="32x32" />
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png" sizes="32x32" />
     <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png"
         sizes="192x192" />
     <link rel="apple-touch-icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/180x180.png" />
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '836863243133733');
+        fbq('track', 'PageView');
+        fbq('track', 'Lead');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=836863243133733&ev=PageView&noscript=1" /></noscript>
+
 
 </head>
 
@@ -62,14 +88,14 @@
 </body>
 
 <script type="text/javascript">
-var npf_d='https://admissions.rgu.ac';
-var npf_c='5076';
-var npf_m='1';
-var s=document.createElement("script");
-s.type="text/javascript";
-s.async=true;
-s.src="https://track.nopaperforms.com/js/track.js";
-document.body.appendChild(s);
+    var npf_d = 'https://admissions.rgu.ac';
+    var npf_c = '5076';
+    var npf_m = '1';
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://track.nopaperforms.com/js/track.js";
+    document.body.appendChild(s);
 </script>
 <script src="{{ asset('new-web/js/script.js') }}?v={{ time() }}"></script>
 <script src="{{ asset('new-web/js/index-js/all-labs.js') }}?v={{ time() }}"></script>
@@ -81,5 +107,7 @@ document.body.appendChild(s);
 <script src="{{ asset('new-web/js/index-js/research-labs.js') }}?v={{ time() }}"></script>
 <script src="{{ asset('new-web/js/index-js/rgu-lagecy.js') }}?v={{ time() }}"></script>
 <script src="{{ asset('new-web/js/index-js/testimonial.js') }}?v={{ time() }}"></script>
+
+
 
 </html>
