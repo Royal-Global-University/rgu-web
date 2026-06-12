@@ -1,167 +1,357 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                                style="color: #264273; font-weight: 700;">On-Campus <span
-                                    style="color: #FF9A1E; font-weight: 500;">Job</span> </h2>
-                            <div class="txaa-slide-down-1">
-                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/intern-oncaampus-job/headimg.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <!-- Dont Include this  -->
 
-            <section
-                style="background-image: url(mobile-assets/intern-oncaampus-job/bg.svg); background-size: cover; padding-bottom: 50px;">
+    <!-- Include all these  -->
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/international-on-campus/cover.png'); filter: blur(2px);"></div>
 
-                <section class="container">
-                    <h2 class="mobile-headd3 fw-bold pb-3 " style="color: #264273;">
-                        Types of on-campus jobs available to Students
-                    </h2>
-                    <ol class="custom-ol mobile-para1 pb-2">
-                        <li>Students can work as student guides and assist juniors or weaker students.</li>
-                        <li>Students can work as call centre assistants and assist students in their admission.
-                        </li>
-                        <li>Students can work as library assistants and help in the day-to-day working of the library.
-                        </li>
-                        <li>Students can work as front office assistants and guide visitors.
-                        </li>
-                    </ol>
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-                    <h2 class="mobile-headd3 fw-bold pb-3 " style="color: #264273;">
-                        Eligibility
-                    </h2>
-                    <ol class="custom-ol mobile-para1 pb-2">
-                        <li>The intending student will have to approach the Department of Branding & Communication, seeking
-                            their work interest.</li>
-                        <li>Upon checking their profile and skill areas, they might have to appear for an interview with the
-                            Senior Management.</li>
-                        <li>Students may be asked to submit additional documents during the application review.</li>
-                    </ol>
-
-                    <hr>
-
-                    <h2 class="mobile-headd3 fw-bold pb-3" style="color: #264273;">
-                        For any support or guidance, international students (present or future) can connect with:
-                    </h2>
-
-                </section>
-
-                <div class="container">
-                    <div class="container"
-                        style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
-                        <p class="mobile-mobile-headd3" style="font-weight: bold;">Contact:</p>
-                        <p class="mobile-para1">Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel:+919864049818"
-                                style="color: white; text-decoration: none;">+91 9864049818</a></p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto:gkanand@rgu.ac"
-                                style="color: white; text-decoration: none;">gkanand@rgu.ac</a></p>
-                        <a href="tel:+919864049818" class="mobile-call-btn fw-bold"
-                            style="text-decoration: none; background: #FF9A1E; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
-                            Call Now
-                        </a>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-    </div>
-
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
-
-        <!--head image Section-->
-        <section
-            style="background-image: url(mobile-assets/intern-oncaampus-job/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/intern-oncaampus-job/headimg.png"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-
-                        <h2 class="headd" style="color: #264273; font-weight: 800;">ON-CAMPUS <br> <span
-                                style="color: #FF9A1E; font-weight: 500;">JOB</span></h2>
-
-                    </div>
-                </div>
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> On-Campus Job</h1>
+            <div class="pg-hero-breadcrumb">
+                International / On-Campus Job
             </div>
-        </section>
-        <!--head image Section-->
+        </div>
 
-        <section
-            style="background-image: url(mobile-assets/intern-oncaampus-job/bg.svg); background-size: cover; padding-bottom: 50px;">
+    </section>
 
-            <section class="container p-5">
-                <h2 class="headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
-                    Types of on-campus jobs available to <span style="color: #FF9A1E; font-weight: 500;">Students</span>
-                </h2>
-                <ol class="custom-ol para1 pb-3">
-                    <li>Students can work as student guides and assist juniors or weaker students.</li>
-                    <li>Students can work as call centre assistants and assist students in their admission.</li>
-                    <li>Students can work as library assistants and help in the day-to-day working of the library.</li>
-                    <li>Students can work as front office assistants and guide visitors.</li>
-                </ol>
+    <!-- ======================================
+         ON-CAMPUS JOBS SECTION
+    ======================================= -->
 
-                <h2 class="headd2 fw-bold" style="color: #264273; font-weight: 800;">
-                    Eligibility
-                </h2>
-                <ol class="custom-ol para1 pb-4">
-                    <li>The intending student will have to approach the Department of Branding & Communication, seeking
-                        their work interest.</li>
-                    <li>Upon checking their profile and skill areas, they might have to appear for an interview with the
-                        Senior Management.</li>
-                    <li>Students may be asked to submit additional documents during the application review.</li>
-                </ol>
+    <section class="rgu-ocj-section">
 
-                <hr>
+        <div class="container">
 
-                <h2 class="headd3 fw-bold" style="color: #264273;">
-                    For any support or guidance, international students (present or future) can connect with:
-                </h2>
+            <!-- Top Section -->
 
-            </section>
+            <div class="row align-items-center g-5 mb-5">
 
-            <section style="border-bottom: 4px solid #1f3b6f;">
-                <div class="contact-section">
+                <!-- Image -->
 
-                    <div class="contact-icon">
-                        <img style="width: 120px; height: 100%;" src="mobile-assets/intern-oncaampus-job/telephone-call.png"
-                            alt="Phone Icon">
-                    </div>
+                <div class="col-lg-6">
 
-                    <div class="contact-info">
-                        <div class="contact-title">Contact:</div>
-                        <div class="contact-details">
-                            Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </div>
-                        <div class="contact-bold">Ph. no: +91 9864049818</div>
-                        <div class="contact-bold">Email: gkanand@rgu.ac</div>
+                    <div class="rgu-ocj-image-wrap">
+
+                        <img src="/new-web/assets/img/international-on-campus/img1.png" alt="On Campus Jobs" class="img-fluid">
+
                     </div>
 
                 </div>
-            </section>
 
-        </section>
 
-    </div>
+                <!-- Types of Jobs -->
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-ocj-content">
+
+                        <h2 class="rgu-ocj-title">
+                            Types Of On-Campus Jobs
+                            Available To Students
+                        </h2>
+
+                        <ul class="rgu-ocj-list">
+
+                            <li>
+                                Students can work as Student Guides and assist juniors or weaker students.
+                            </li>
+
+                            <li>
+                                Students can work as Call Centre Assistants and assist students in their admission.
+                            </li>
+
+                            <li>
+                                Students can work as Library Assistants and help in the day-to-day working of the
+                                library.
+                            </li>
+
+                            <li>
+                                Students can work as Front Office Assistants and guide visitors.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bottom Section -->
+
+            <div class="row g-5 align-items-start">
+
+                <!-- Support -->
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-ocj-support">
+
+                        <h2 class="rgu-ocj-support-title">
+
+                            For Any Support Or Guidance, International Students
+                            (Present Or Future) Can Connect With:
+
+                        </h2>
+
+
+                        <div class="rgu-ocj-contact-list">
+
+                            <div class="rgu-ocj-contact-item">
+
+                                <i class="fa fa-user"></i>
+
+                                <span>
+                                    Ms. Gurpreet Kaur Anand, Deputy Director,
+                                    The Office of International Affairs
+                                </span>
+
+                            </div>
+
+
+                            <div class="rgu-ocj-contact-item">
+
+                                <i class="fa fa-phone"></i>
+
+                                <span>
+                                    Ph. no: +91 9864049818
+                                </span>
+
+                            </div>
+
+
+                            <div class="rgu-ocj-contact-item">
+
+                                <i class="fa fa-envelope"></i>
+
+                                <span>
+                                    Email: gkanand@rgu.ac
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Eligibility -->
+
+                <div class="col-lg-6">
+
+                    <div class="rgu-ocj-eligibility">
+
+                        <h2 class="rgu-ocj-eligibility-title">
+
+                            Eligibility
+
+                        </h2>
+
+
+                        <ul class="rgu-ocj-list">
+
+                            <li>
+                                The intending student will have to approach the Department of Branding & Communication,
+                                seeking their work interest.
+                            </li>
+
+                            <li>
+                                Upon checking their profile and skill areas, they might have to appear for an interview
+                                with the Senior Management.
+                            </li>
+
+                            <li>
+                                Students may be asked to submit additional documents during the application review.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <style>
+        /*======================================
+    ON-CAMPUS JOBS
+    ======================================*/
+
+        .rgu-ocj-section {
+            padding: 80px 0;
+            background: #e9eef6;
+        }
+
+        .rgu-ocj-image-wrap {
+            overflow: hidden;
+            border-radius: 40px;
+        }
+
+        .rgu-ocj-image-wrap img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .rgu-ocj-title,
+        .rgu-ocj-support-title,
+        .rgu-ocj-eligibility-title {
+            font-family: 'Playfair Display', serif;
+            color: #2f4e89;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .rgu-ocj-title {
+            font-size: 3.8rem;
+            margin-bottom: 3rem;
+        }
+
+        .rgu-ocj-support-title {
+            font-size: 3.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .rgu-ocj-eligibility-title {
+            font-size: 3.8rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #d7d7d7;
+        }
+
+        .rgu-ocj-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .rgu-ocj-list li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 2.4rem;
+
+            color: #5c6470;
+
+            font-size: 1.8rem;
+            line-height: 1.9;
+        }
+
+        .rgu-ocj-list li::before {
+            content: '';
+
+            width: 9px;
+            height: 9px;
+
+            background: #d95b28;
+            border-radius: 50%;
+
+            position: absolute;
+            left: 0;
+            top: 11px;
+        }
+
+        .rgu-ocj-support {
+            padding-right: 3rem;
+        }
+
+        .rgu-ocj-contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.8rem;
+
+            margin-bottom: 2.5rem;
+        }
+
+        .rgu-ocj-contact-item i {
+            color: #d95b28;
+            font-size: 2.6rem;
+            width: 28px;
+            margin-top: 2px;
+        }
+
+        .rgu-ocj-contact-item span {
+            color: #5c6470;
+            font-size: 1.8rem;
+            line-height: 1.8;
+        }
+
+        .rgu-ocj-eligibility {
+            background: #fff;
+            border-radius: 0 30px 30px 30px;
+            padding: 4rem;
+            border: 1px solid #dddddd;
+        }
+
+        @media(max-width:991px) {
+
+            .rgu-ocj-section {
+                padding: 60px 0;
+            }
+
+            .rgu-ocj-title {
+                font-size: 3.8rem;
+            }
+
+            .rgu-ocj-support-title {
+                font-size: 3.2rem;
+            }
+
+            .rgu-ocj-eligibility-title {
+                font-size: 3rem;
+            }
+
+            .rgu-ocj-image-wrap img {
+                height: 300px;
+            }
+
+            .rgu-ocj-support {
+                padding-right: 0;
+            }
+        }
+
+        @media(max-width:767px) {
+
+            .rgu-ocj-title {
+                font-size: 3rem;
+            }
+
+            .rgu-ocj-support-title {
+                font-size: 2.7rem;
+            }
+
+            .rgu-ocj-eligibility-title {
+                font-size: 2.6rem;
+            }
+
+            .rgu-ocj-image-wrap {
+                border-radius: 25px;
+            }
+
+            .rgu-ocj-image-wrap img {
+                height: 240px;
+            }
+
+            .rgu-ocj-eligibility {
+                padding: 3rem 2.5rem;
+            }
+
+            .rgu-ocj-list li,
+            .rgu-ocj-contact-item span {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
 @endsection

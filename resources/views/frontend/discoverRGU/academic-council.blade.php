@@ -1,536 +1,667 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Academic Council : The Assam Royal Global University')
 @section('meta_description',
     'Experience academic excellence shaped by the guidance of our esteemed Academic Council at
     Royal Global University.')
 @section('meta_keywords', 'Academic Council')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
-                Academic <br><span style="color: #FF9A1E; font-weight: 500;"> Council</span></h2>
-        </div>
+    <style>
+        /* ===== GOVERNING BODY SECTION ===== */
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Academic <span style="color: #FF9A1E; font-weight: 500;"> Council</span></h2>
+        .board-m-cards-section {
+            padding: 60px 20px;
+            background: #eef2f8;
+        }
 
-        </div>
+        /* ===== GRID BASE ===== */
 
-        <style>
-            /* Basic Page Styling */
-            .section-f {
-                padding: 2rem 0;
+        .board-m-grid {
+            max-width: 1400px;
+            margin: auto;
+            display: grid;
+        }
+
+        /* ===== 4 COLUMN GRID ===== */
+
+        .board-m-grid-4 {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        /* ===================================================== */
+        /* ================== LARGE CARDS ====================== */
+        /* ===================================================== */
+
+        .board-m-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #fff;
+            padding: 18px;
+            border-radius: 14px;
+            transition: all 0.35s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .board-m-img {
+            width: 400px;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: #163a6b;
+            transition: transform 0.35s ease;
+        }
+
+        .board-m-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* CONTENT */
+
+        .board-m-content h3 {
+            font-size: 25px;
+            font-weight: 600;
+            color: #1d3557;
+            margin-bottom: 4px;
+        }
+
+        .board-m-role {
+            font-size: 16px;
+            color: #6b7a90;
+            margin-bottom: 6px;
+        }
+
+        .board-m-tag {
+            font-size: 18px;
+            color: #27467a;
+            font-weight: 600;
+        }
+
+        /* HOVER */
+
+        .board-m-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+            background: #ffffff;
+            border-color: rgba(39, 70, 122, 0.2);
+        }
+
+        .board-m-card:hover .board-m-img {
+            transform: scale(1.05);
+        }
+
+        /* ===================================================== */
+        /* ================== MINI CARDS ======================= */
+        /* ===================================================== */
+
+        .board-m-card-mini {
+            background: #fff;
+            padding: 18px;
+            border-radius: 14px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .board-m-card-mini:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(39, 70, 122, 0.2);
+        }
+
+        /* MINI IMAGE */
+
+        .board-m-mini-img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            max-width: 260px;
+            margin: 0 auto 16px;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #163a6b;
+            transition: transform 0.3s ease;
+        }
+
+        .board-m-mini-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .board-m-card-mini:hover .board-m-mini-img {
+            transform: scale(1.03);
+        }
+
+        /* MINI CONTENT */
+
+        .board-m-card-mini h4 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1d3557;
+            margin-bottom: 10px;
+            line-height: 1.35;
+        }
+
+        .board-m-card-mini .board-m-role {
+            font-size: 16px;
+            color: #6b7a90;
+            line-height: 1.6;
+            margin-bottom: 14px;
+            flex-grow: 1;
+        }
+
+        .board-m-card-mini span {
+            font-size: 17px;
+            font-weight: 600;
+            color: #27467a;
+        }
+
+        /* ===================================================== */
+        /* ================== RESPONSIVE ======================= */
+        /* ===================================================== */
+
+        @media (max-width: 1199px) {
+            .board-m-grid-4 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 991px) {
+            .board-m-grid-4 {
+                grid-template-columns: repeat(2, 1fr);
             }
 
-            /* Individual Card Styling */
-            .card {
-                background-color: #ffffff;
-                border-radius: 5px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                padding: 0.7rem;
-                text-align: left;
-                border: none;
-                width: 100%;
-                height: 100%;
-
-                /* Flexbox for vertical alignment */
-                display: flex;
+            .board-m-card {
                 flex-direction: column;
-
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                text-align: center;
             }
 
-            /* Hover effect for the card */
-            .card:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            .board-m-img {
+                width: 320px;
+                height: 320px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .board-m-grid-4 {
+                grid-template-columns: 1fr;
             }
 
-            /* Image container */
-            .card-image {
+            .board-m-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .board-m-img {
                 width: 100%;
-                padding-top: 100%;
-                position: relative;
-                border-radius: 5%;
-                overflow: hidden;
-                margin: 0 auto 1.0rem;
-                border: 2px solid #f0f2f5;
+                max-width: 280px;
+                height: 280px;
             }
 
-            .card-image img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+            .board-m-mini-img {
+                max-width: 240px;
             }
 
-            /* Name/Heading Styling */
-            .card-name {
-                margin: 0 0 0.5rem 0;
-                font-size: 1.5rem;
-                font-weight: 600;
-                color: #333;
-                line-height: 1.2;
-                color: #24477f;
-                font-family: 'Times New Roman', Times, serif;
+            .board-m-card-mini h4 {
+                font-size: 20px;
             }
 
-            /* Designation/Paragraph Styling */
-            .card-designation {
-                margin: 0;
-                font-size: 1.2rem;
-                font-weight: 400;
-                color: #666;
-                line-height: 1.4;
-                font-family: 'Times New Roman', Times, serif;
+            .board-m-card-mini .board-m-role {
+                font-size: 15px;
             }
+        }
+    </style>
 
-            /* New Styling for the Profile Link */
-            .profile-link {
-                margin-top: auto;
-                /* This is the magic property! */
-                padding-top: 0.5rem;
-                font-size: 1.1rem;
-                font-weight: 800;
-                text-decoration: none;
-                color: #FF9A1E;
-                font-family: 'Times New Roman', Times, serif;
-            }
-        </style>
-
-        <div class="section-f">
-            <div class="container">
-
-                <!-- regular faculty  -->
-                <div class="row justify-content-center">
-
-                    <!-- Academic Council -->
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/17.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) A.K. Buragohain</h3>
-                            <p class="card-designation">Vice-Chancellor (Interim), RGU</p>
-                            <a class="profile-link">Chairman</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/2.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Diganta Munshi</h3>
-                            <p class="card-designation">Registrar – Administration, The Assam Royal Global University
-                                (Member
-                                Secretary)</p>
-                            <a class="profile-link">Member Secretary</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Kaberi Saikia</h3>
-                            <p class="card-designation">Professor (Principal), Royal School of Nursing</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/5.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) N.K. Chrungoo</h3>
-                            <p class="card-designation">Dean, Royal School of Life Sciences</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/6.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. George AP</h3>
-                            <p class="card-designation">Dean, Royal School of Business and Royal School of Commerce</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Abhijit.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Abhijit Dutta</h3>
-                            <p class="card-designation">Professor & Dean, RSMAS</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Prasanta Jyoti Baruah</h3>
-                            <p class="card-designation">Distinguished Professor & Dean, RSCOM</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/chatterjee.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Aniruddha Chatterjee</h3>
-                            <p class="card-designation">Professor & Dean, Royal School Applied & Pure Sciences</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Sumanta Dutta Chowdhury</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Aruna Dev Rroy</h3>
-                            <p class="card-designation">Associate Professor & HOD, RSC</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+    <style>
+        .board-m-profile-link {
+            display: inline-block;
+            margin-top: 1.2rem;
+            color: #f28c28;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
 
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Debajit Borah</h3>
-                            <p class="card-designation">Associate Professor & HOD, Biotechnology</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+        .board-m-profile-link:hover {
+            color: #1f3b75;
+        }
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/14.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Aneesha Borah</h3>
-                            <p class="card-designation">Assistant Professor and Coordinator, Geography and Geoinformatics,
-                                Royal
-                                School of Earth and Environmental Sciences</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+        .board-m-profile-link:hover::after {
+            width: 5rem;
+        }
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Prithvi Raj Chakraborty</h3>
-                            <p class="card-designation">Professor & Principal/ HOD, Royal School of Pharmacy</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+        .board-m-member-designation {
+            margin: 0 0 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1d3557;
+            font-family: "Times New Roman", serif;
+            line-height: 1.2;
+        }
+    </style>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
-                            <p class="card-designation">Associate Professor & HOD, Department of CSE, RSET</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/Discover-RGU-Leadership-&-Governance-Academic-Council/cover.png'); filter: blur(2px);">
+        </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Supriyo Sen</h3>
-                            <p class="card-designation">Associate Professor & HoD</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Indrajit.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Indrajit Dutta</h3>
-                            <p class="card-designation">Associate Professor & HOD, RSTTM</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Dhruba Jyoti Borah</h3>
-                            <p class="card-designation">Chief Advisor to the Chancellor and Author-in-residence.</p>
-                            <a href="/advisory-prof-dr-dhruba-jyoti-borah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Shiela Bora</h3>
-                            <p class="card-designation">Professor & Advisor, Department of History, RSHSS</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/18.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Chandralekha Rawat</h3>
-                            <p class="card-designation">Director, Delhi Public School, Guwahati</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/19.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Ghanshyam Das Dhanuka</h3>
-                            <p class="card-designation">Managing Director of G R Dhanuka Group, Guwahati</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Sri Pradeep Purohit</h3>
-                            <p class="card-designation">Chief Operating Officer, Star Cements Ltd.</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Sri Anupam Deka</h3>
-                            <p class="card-designation">Director, Repose Foods Pvt. Ltd., Guwahati</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Shri S. K. Baruah</h3>
-                            <p class="card-designation">
-                                CEO, North East Gas Distribution Company Ltd.; Former Managing Director, Numaligarh Refinery
-                                Ltd. &
-                                Former Chairman, CII – NE Council, India
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/21.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Mr. Ankur Pansari</h3>
-                            <p class="card-designation">
-                                Pro-Chancellor and Member of Governing Body, The Assam Royal Global
-                                University
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://media.rgu.ac/governing-body/Sikha.jpg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Sikha M. Pansari</h3>
-                            <p class="card-designation">
-                                Member of Governing Body, The Assam Royal Global University
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/23.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Sri R. S. Joshi</h3>
-                            <p class="card-designation">CMD, Buildworth Real Estate, Guwahati</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Angira Mimani</h3>
-                            <p class="card-designation">
-                                Associate Professor, RSB & Associate Dean, Student Affairs, RGU
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) P. J. Mahanta</h3>
-                            <p class="card-designation">Professor, RSL</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/faculty-profile/Rathindra.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rathindra Bhuyan</h3>
-                            <p class="card-designation">Senior Professor & Advisor</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Stuti Goswami</h3>
-                            <p class="card-designation">Associate Professor, Royal School of Languages</p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sthiti-Porna-Dutta.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Stithi Parna Dutta</h3>
-                            <p class="card-designation">
-                                Assistant Professor, Biochemistry, Royal School of BioSciences
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Arpee Saikia</h3>
-                            <p class="card-designation">
-                                Associate Professor, Royal School of Business & Coordinator, Behavioural Science
-                            </p>
-                            <a class="profile-link">Member</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- regular faculty  -->
-
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Academic Council</h1>
+            <div class="pg-hero-breadcrumb">
+                Discover RGU / Leadership & Governance / Academic Council
             </div>
         </div>
 
+    </section>
+
+    <div class="board-m-cards-section">
+        <!-- ===== BOTTOM (4 COLUMN CARDS) ===== -->
+        <div class="board-m-grid board-m-grid-4">
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/17.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) A.K. Buragohain</h4>
+                <p class="board-m-role">Vice-Chancellor (Interim), RGU</p>
+                <p class="board-m-member-designation">
+                    Chairman
+                </p>
+                <!--  -->
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/2.jpeg"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Diganta Munshi</h4>
+                <p class="board-m-role">Registrar – Administration, The Assam Royal Global University (Member Secretary)</p>
+                <p class="board-m-member-designation">
+                    Member Secretary
+                </p>
+
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Kaberi Saikia</h4>
+                <p class="board-m-role">Professor (Principal), Royal School of Nursing</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/5.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) N.K. Chrungoo</h4>
+                <p class="board-m-role">Dean, Royal School of Life Sciences</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/6.png"
+                        alt="">
+                </div>
+                <h4>Prof. George AP</h4>
+                <p class="board-m-role">Dean, Royal School of Business and Royal School of Commerce</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="">
+                </div>
+                <h4>Prof. (Dr.) Abhijit Dutta</h4>
+                <p class="board-m-role">Professor & Dean, RSMAS</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="">
+                </div>
+                <h4>Prof. Prasanta Jyoti Baruah</h4>
+                <p class="board-m-role">Distinguished Professor & Dean, RSCOM</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chatterjee.png" alt="">
+                </div>
+                <h4>Prof. (Dr.) Aniruddha Chatterjee</h4>
+                <p class="board-m-role">Professor & Dean, Royal School Applied & Pure Sciences</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
+                        alt="">
+                </div>
+                <h4>Dr. Sumanta Dutta Chowdhury</h4>
+                <p class="board-m-role">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="">
+                </div>
+                <h4>Dr. Aruna Dev Rroy</h4>
+                <p class="board-m-role">Associate Professor & HOD, RSC</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png" alt="">
+                </div>
+                <h4>Dr. Debajit Borah</h4>
+                <p class="board-m-role">Associate Professor & HOD, Biotechnology</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/14.jpeg"
+                        alt="">
+                </div>
+                <h4>Dr. Aneesha Borah</h4>
+                <p class="board-m-role">Assistant Professor and Coordinator, Geography and Geoinformatics, Royal School
+                    of Earth and Environmental Sciences</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) Prithvi Raj Chakraborty</h4>
+                <p class="board-m-role">Professor & Principal/ HOD, Royal School of Pharmacy</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
+                </div>
+                <h4>Dr. Deepjyoti Choudhury</h4>
+                <p class="board-m-role">Associate Professor & HOD, Department of CSE, RSET</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                        alt="">
+                </div>
+                <h4>Dr. Pronami Bhattacharyya</h4>
+                <p class="board-m-role">Associate Professor</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png" alt="">
+                </div>
+                <h4>Dr. Supriyo Sen</h4>
+                <p class="board-m-role">Associate Professor & HoD</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="">
+                </div>
+                <h4>Dr. Indrajit Dutta</h4>
+                <p class="board-m-role">Associate Professor & HOD, RSTM</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="">
+                </div>
+                <h4>Prof. (Dr.) Dhruba Jyoti Borah</h4>
+                <p class="board-m-role">Chief Advisor to the Chancellor and Author-in-residence.</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
+                </div>
+                <h4>Prof. (Dr.) Sheila Bora</h4>
+                <p class="board-m-role">Professor & Advisor, Department of History, RSHSS</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/18.jpg"
+                        alt="">
+                </div>
+                <h4>Ms. Chandralekha Rawat</h4>
+                <p class="board-m-role">Director, Delhi Public School, Guwahati</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/19.jpg"
+                        alt="">
+                </div>
+                <h4>Dr. Ghanshyam Das Dhanuka</h4>
+                <p class="board-m-role">Managing Director of G R Dhanuka Group, Guwahati</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
+                        alt="">
+                </div>
+                <h4>Sri Pradeep Purohit</h4>
+                <p class="board-m-role">Chief Operating Officer, Star Cements Ltd.</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png" alt="">
+                </div>
+                <h4>Sri Anupam Deka</h4>
+                <p class="board-m-role">Director, Repose Foods Pvt. Ltd., Guwahati</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png" alt="">
+                </div>
+                <h4>Shri S. K. Baruah</h4>
+                <p class="board-m-role">CEO, North East Gas Distribution Company Ltd.; Former Managing Director,
+                    Numaligarh Refinery Ltd. & Former Chairman, CII – NE Council, India</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/21.png"
+                        alt="">
+                </div>
+                <h4>Mr. Ankur Pansari</h4>
+                <p class="board-m-role">Pro-Chancellor and Member of Governing Body, The Assam Royal Global University
+                </p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://media.rgu.ac/governing-body/Sikha.jpg" alt="">
+                </div>
+                <h4>Ms. Sikha M. Pansari</h4>
+                <p class="board-m-role">Member of Governing Body, The Assam Royal Global University</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/23.jpeg"
+                        alt="">
+                </div>
+                <h4>Sri R. S. Joshi</h4>
+                <p class="board-m-role">CMD, Buildworth Real Estate, Guwahati</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg"
+                        alt="">
+                </div>
+                <h4>Ms. Angira Mimani</h4>
+                <p class="board-m-role">Associate Professor, RSB & Associate Dean, Student Affairs, RGU</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png"
+                        alt="">
+                </div>
+                <h4>Prof. (Dr.) P. J. Mahanta</h4>
+                <p class="board-m-role">Professor, RSL</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/faculty-profile/Rathindra.jpeg" alt="">
+                </div>
+                <h4>Dr. Rathindra Bhuyan</h4>
+                <p class="board-m-role">Senior Professor & Advisor</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png" alt="">
+                </div>
+                <h4>Dr. Stuti Goswami</h4>
+                <p class="board-m-role">Associate Professor, Royal School of Languages</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sthiti-Porna-Dutta.jpeg"
+                        alt="">
+                </div>
+                <h4>Dr. Stithi Parna Dutta</h4>
+                <p class="board-m-role">Assistant Professor, Biochemistry, Royal School of BioSciences</p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
+                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png"
+                        alt="">
+                </div>
+                <h4>Dr. Arpee Saikia</h4>
+                <p class="board-m-role">Associate Professor, Royal School of Business & Coordinator, Behavioural Science
+                </p>
+                <p class="board-m-member-designation">
+                    Member
+                </p>
+            </div>
+
+
+        </div>
     </div>
 @endsection
