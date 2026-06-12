@@ -741,6 +741,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function processVoiceCommand(command) {
+        if (commandProcessed) return;
+        
         // Clean up command
         let cleanCommand = command.toLowerCase().trim()
             .replace(/^(go to|open|navigate to|show me|take me to|find)\s+/i, "")
