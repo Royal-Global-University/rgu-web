@@ -58,6 +58,7 @@
     </div>
 
 
+    {{-- @include('frontend.components.search-widget') --}}
 </body>
 
 <script type="text/javascript">

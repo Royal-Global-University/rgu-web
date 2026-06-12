@@ -1,0 +1,6397 @@
+[
+    {
+        "url": "\/",
+        "title": "",
+        "category": "Page"
+    },
+    {
+        "url": "\/test",
+        "title": "Test",
+        "category": "Page"
+    },
+    {
+        "url": "\/test1",
+        "title": "Test1",
+        "category": "Page"
+    },
+    {
+        "url": "\/physics-test",
+        "title": "Physics Test",
+        "category": "Page"
+    },
+    {
+        "url": "\/voice-assistant",
+        "title": "Voice Assistant",
+        "category": "Page"
+    },
+    {
+        "url": "\/index-media",
+        "title": "Index Media",
+        "category": "Page"
+    },
+    {
+        "url": "\/nirf",
+        "title": "Nirf",
+        "category": "Page"
+    },
+    {
+        "url": "\/nirf-2026",
+        "title": "Nirf 2026",
+        "category": "Page"
+    },
+    {
+        "url": "\/contact",
+        "title": "Contact",
+        "category": "Page"
+    },
+    {
+        "url": "\/contact-us",
+        "title": "Contact Us",
+        "category": "Page"
+    },
+    {
+        "url": "\/notifications",
+        "title": "Notifications",
+        "category": "Page"
+    },
+    {
+        "url": "\/swayam",
+        "title": "Swayam",
+        "category": "Page"
+    },
+    {
+        "url": "\/university-research-committee",
+        "title": "University Research Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/self-disclosure",
+        "title": "Self Disclosure",
+        "category": "Page"
+    },
+    {
+        "url": "\/national-service-scheme",
+        "title": "National Service Scheme",
+        "category": "Page"
+    },
+    {
+        "url": "\/national-cadet-corps",
+        "title": "National Cadet Corps",
+        "category": "Page"
+    },
+    {
+        "url": "\/chief-vigilance-officer",
+        "title": "Chief Vigilance Officer",
+        "category": "Page"
+    },
+    {
+        "url": "\/preface",
+        "title": "Preface",
+        "category": "Page"
+    },
+    {
+        "url": "\/deans",
+        "title": "Deans",
+        "category": "Page"
+    },
+    {
+        "url": "\/officers-register-admin",
+        "title": "Officers Register Admin",
+        "category": "Page"
+    },
+    {
+        "url": "\/vision-mission",
+        "title": "Vision Mission",
+        "category": "Page"
+    },
+    {
+        "url": "\/recognition-accreditation",
+        "title": "Recognition Accreditation",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-chancellor",
+        "title": "Leadership Chancellor",
+        "category": "Page"
+    },
+    {
+        "url": "\/strategic-location",
+        "title": "Strategic Location",
+        "category": "Page"
+    },
+    {
+        "url": "\/award",
+        "title": "Award",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership",
+        "title": "Leadership",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisory-leadership",
+        "title": "Advisory Leadership",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisory-prof-dr-dhruba-jyoti-borah",
+        "title": "Advisory Prof Dr Dhruba Jyoti Borah",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisor-prof-prabuddha-ganguli",
+        "title": "Advisor Prof Prabuddha Ganguli",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisor-sri-ranjit-barthakur",
+        "title": "Advisor Sri Ranjit Barthakur",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisor-sri-ravi-kant",
+        "title": "Advisor Sri Ravi Kant",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisor-dr-amarjyoti-choudhury",
+        "title": "Advisor Dr Amarjyoti Choudhury",
+        "category": "Page"
+    },
+    {
+        "url": "\/advisor-prasanta-jyoti-baruah",
+        "title": "Advisor Prasanta Jyoti Baruah",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-anil-kumar",
+        "title": "Leadership Anil Kumar",
+        "category": "Page"
+    },
+    {
+        "url": "\/scholarship&funding",
+        "title": "Scholarship&funding",
+        "category": "Page"
+    },
+    {
+        "url": "\/alumni",
+        "title": "Alumni",
+        "category": "Page"
+    },
+    {
+        "url": "\/jobs-vacancies",
+        "title": "Jobs Vacancies",
+        "category": "Page"
+    },
+    {
+        "url": "\/social-outreach",
+        "title": "Social Outreach",
+        "category": "Page"
+    },
+    {
+        "url": "\/knowledge",
+        "title": "Knowledge",
+        "category": "Page"
+    },
+    {
+        "url": "\/officers",
+        "title": "Officers",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-chairperson-academics",
+        "title": "Leadership Chairperson Academics",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-vicechancellor",
+        "title": "Leadership Vicechancellor",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-dean-academic",
+        "title": "Leadership Dean Academic",
+        "category": "Page"
+    },
+    {
+        "url": "\/leadership-registrar",
+        "title": "Leadership Registrar",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-anthem",
+        "title": "Rgu Anthem",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-logo",
+        "title": "Rgu Logo",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-knowledge",
+        "title": "Royal Knowledge",
+        "category": "Page"
+    },
+    {
+        "url": "\/footprints",
+        "title": "Footprints",
+        "category": "Page"
+    },
+    {
+        "url": "\/privacy&security",
+        "title": "Privacy&security",
+        "category": "Page"
+    },
+    {
+        "url": "\/association-tieup",
+        "title": "Association Tieup",
+        "category": "Page"
+    },
+    {
+        "url": "\/top-recruiters",
+        "title": "Top Recruiters",
+        "category": "Page"
+    },
+    {
+        "url": "\/success",
+        "title": "Success",
+        "category": "Page"
+    },
+    {
+        "url": "\/diversechoices",
+        "title": "Diversechoices",
+        "category": "Page"
+    },
+    {
+        "url": "\/diversity-inclusion",
+        "title": "Diversity Inclusion",
+        "category": "Page"
+    },
+    {
+        "url": "\/governing-body",
+        "title": "Governing Body",
+        "category": "Page"
+    },
+    {
+        "url": "\/board-of-management",
+        "title": "Board Of Management",
+        "category": "Page"
+    },
+    {
+        "url": "\/academic-council",
+        "title": "Academic Council",
+        "category": "Page"
+    },
+    {
+        "url": "\/finance-committee",
+        "title": "Finance Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/internal-complaints-committee",
+        "title": "Internal Complaints Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/anti-ragging",
+        "title": "Anti Ragging",
+        "category": "Page"
+    },
+    {
+        "url": "\/equal-opportunities-cell",
+        "title": "Equal Opportunities Cell",
+        "category": "Page"
+    },
+    {
+        "url": "\/proctorial",
+        "title": "Proctorial",
+        "category": "Page"
+    },
+    {
+        "url": "\/statutes-ordinance-policies",
+        "title": "Statutes Ordinance Policies",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities",
+        "title": "Facilities",
+        "category": "Page"
+    },
+    {
+        "url": "\/organogram-planning",
+        "title": "Organogram Planning",
+        "category": "Page"
+    },
+    {
+        "url": "\/360-tour",
+        "title": "360 Tour",
+        "category": "Page"
+    },
+    {
+        "url": "\/honoris-causa",
+        "title": "Honoris Causa",
+        "category": "Page"
+    },
+    {
+        "url": "\/institutional-ethical-committee",
+        "title": "Institutional Ethical Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/nss-advisory-committee",
+        "title": "Nss Advisory Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-foodcourt",
+        "title": "Facilities Foodcourt",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-auditorium",
+        "title": "Facilities Auditorium",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-bank",
+        "title": "Facilities Bank",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-classroom",
+        "title": "Facilities Classroom",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-fashion-studio",
+        "title": "Facilities Fashion Studio",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-fineart",
+        "title": "Facilities Fineart",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-games-sports",
+        "title": "Facilities Games Sports",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-hangout",
+        "title": "Facilities Hangout",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-incubation",
+        "title": "Facilities Incubation",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-library",
+        "title": "Facilities Library",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-moot-court",
+        "title": "Facilities Moot Court",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-royal-boutique",
+        "title": "Facilities Royal Boutique",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhupen-hazarika-songs",
+        "title": "Bhupen Hazarika Songs",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhupen-hazarika-videos",
+        "title": "Bhupen Hazarika Videos",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-salon",
+        "title": "Facilities Salon",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-seminar-hall",
+        "title": "Facilities Seminar Hall",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-Stationary-Store",
+        "title": "Facilities Stationary Store",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-student-gallery",
+        "title": "Facilities Student Gallery",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-student-lounge",
+        "title": "Facilities Student Lounge",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-transportation",
+        "title": "Facilities Transportation",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-diagnostic",
+        "title": "Facilities Diagnostic",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-museum",
+        "title": "Facilities Museum",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-mass-com",
+        "title": "Facilities Mass Com",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-security",
+        "title": "Facilities Security",
+        "category": "Page"
+    },
+    {
+        "url": "\/facilities-legal-aid",
+        "title": "Facilities Legal Aid",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-magazine",
+        "title": "Rgu Magazine",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-electronics",
+        "title": "Lab Electronics",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-architecture",
+        "title": "Lab Architecture",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-bio-chemistry",
+        "title": "Lab Bio Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-bioscience-research",
+        "title": "Lab Bioscience Research",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-biotech",
+        "title": "Lab Biotech",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-botany",
+        "title": "Lab Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-chemistry",
+        "title": "Lab Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-civilengineering",
+        "title": "Lab Civilengineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-computer",
+        "title": "Lab Computer",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-diagnostic",
+        "title": "Lab Diagnostic",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-electrical",
+        "title": "Lab Electrical",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-electronic",
+        "title": "Lab Electronic",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-engineering_drawing",
+        "title": "Lab Engineering Drawing",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-foodteach",
+        "title": "Lab Foodteach",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-forensic-lab",
+        "title": "Lab Forensic Lab",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-hotelmanagement",
+        "title": "Lab Hotelmanagement",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-interior",
+        "title": "Lab Interior",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-language-lab",
+        "title": "Lab Language Lab",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-mechanical",
+        "title": "Lab Mechanical",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-microbiology",
+        "title": "Lab Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-nursing",
+        "title": "Lab Nursing",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-operation_theater",
+        "title": "Lab Operation Theater",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-optometry",
+        "title": "Lab Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-cartography",
+        "title": "Lab Cartography",
+        "category": "Page"
+    },
+    {
+        "url": "\/laboratories",
+        "title": "Laboratories",
+        "category": "Page"
+    },
+    {
+        "url": "\/media-studio",
+        "title": "Media Studio",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-multimedia",
+        "title": "Lab Multimedia",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-forestry-environmental-science",
+        "title": "Lab Forestry Environmental Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-ar-vr",
+        "title": "Lab Ar Vr",
+        "category": "Page"
+    },
+    {
+        "url": "\/arts-studio",
+        "title": "Arts Studio",
+        "category": "Page"
+    },
+    {
+        "url": "\/arts-drape-studio",
+        "title": "Arts Drape Studio",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-geology",
+        "title": "Lab Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-astronomy",
+        "title": "Lab Astronomy",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-ev-lab",
+        "title": "Lab Ev Lab",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-pharmacy",
+        "title": "Lab Pharmacy",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-physics",
+        "title": "Lab Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-psychology",
+        "title": "Lab Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-physiotherapy",
+        "title": "Lab Physiotherapy",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-radiography",
+        "title": "Lab Radiography",
+        "category": "Page"
+    },
+    {
+        "url": "\/lab-zoology",
+        "title": "Lab Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/net-set-gate-coaching",
+        "title": "Net Set Gate Coaching",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd",
+        "title": "Phd",
+        "category": "Page"
+    },
+    {
+        "url": "\/achievements",
+        "title": "Achievements",
+        "category": "Page"
+    },
+    {
+        "url": "\/academic-calendar",
+        "title": "Academic Calendar",
+        "category": "Page"
+    },
+    {
+        "url": "\/workshops-guest-lectures",
+        "title": "Workshops Guest Lectures",
+        "category": "Page"
+    },
+    {
+        "url": "\/innovation",
+        "title": "Innovation",
+        "category": "Page"
+    },
+    {
+        "url": "\/teaching-practice",
+        "title": "Teaching Practice",
+        "category": "Page"
+    },
+    {
+        "url": "\/human-resource-development-centre",
+        "title": "Human Resource Development Centre",
+        "category": "Page"
+    },
+    {
+        "url": "\/library-Resources",
+        "title": "Library Resources",
+        "category": "Page"
+    },
+    {
+        "url": "\/faq",
+        "title": "Faq",
+        "category": "Page"
+    },
+    {
+        "url": "\/general-elective",
+        "title": "General Elective",
+        "category": "Page"
+    },
+    {
+        "url": "\/how-to-apply",
+        "title": "How To Apply",
+        "category": "Page"
+    },
+    {
+        "url": "\/deans-listers",
+        "title": "Deans Listers",
+        "category": "Page"
+    },
+    {
+        "url": "\/schemes-differently-abled",
+        "title": "Schemes Differently Abled",
+        "category": "Page"
+    },
+    {
+        "url": "\/convocation-first",
+        "title": "Convocation First",
+        "category": "Page"
+    },
+    {
+        "url": "\/convocation-second",
+        "title": "Convocation Second",
+        "category": "Page"
+    },
+    {
+        "url": "\/convocation-third",
+        "title": "Convocation Third",
+        "category": "Page"
+    },
+    {
+        "url": "\/convocation-fifth",
+        "title": "Convocation Fifth",
+        "category": "Page"
+    },
+    {
+        "url": "\/convocation-fourth",
+        "title": "Convocation Fourth",
+        "category": "Page"
+    },
+    {
+        "url": "\/test-convocation-fifth",
+        "title": "Test Convocation Fifth",
+        "category": "Page"
+    },
+    {
+        "url": "\/banking-services",
+        "title": "Banking Services",
+        "category": "Page"
+    },
+    {
+        "url": "\/student-affairs",
+        "title": "Student Affairs",
+        "category": "Page"
+    },
+    {
+        "url": "\/department-store",
+        "title": "Department Store",
+        "category": "Department"
+    },
+    {
+        "url": "\/hangout",
+        "title": "Hangout",
+        "category": "Page"
+    },
+    {
+        "url": "\/counselling-cell",
+        "title": "Counselling Cell",
+        "category": "Page"
+    },
+    {
+        "url": "\/medical-facility",
+        "title": "Medical Facility",
+        "category": "Page"
+    },
+    {
+        "url": "\/laundry",
+        "title": "Laundry",
+        "category": "Page"
+    },
+    {
+        "url": "\/salon",
+        "title": "Salon",
+        "category": "Page"
+    },
+    {
+        "url": "\/stationary-store",
+        "title": "Stationary Store",
+        "category": "Page"
+    },
+    {
+        "url": "\/guest-house",
+        "title": "Guest House",
+        "category": "Page"
+    },
+    {
+        "url": "\/student-gallery",
+        "title": "Student Gallery",
+        "category": "Page"
+    },
+    {
+        "url": "\/happy-happening",
+        "title": "Happy Happening",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-fests",
+        "title": "Royal Fests",
+        "category": "Page"
+    },
+    {
+        "url": "\/hostel-life",
+        "title": "Hostel Life",
+        "category": "Page"
+    },
+    {
+        "url": "\/infrastructure",
+        "title": "Infrastructure",
+        "category": "Page"
+    },
+    {
+        "url": "\/clubs",
+        "title": "Clubs",
+        "category": "Page"
+    },
+    {
+        "url": "\/games&sports",
+        "title": "Games&sports",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhupen-hazarika-CFC",
+        "title": "Bhupen Hazarika Cfc",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-members",
+        "title": "Placements Members",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-introduction",
+        "title": "Placements Introduction",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-biochemistry",
+        "title": "Doctoral Biochemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-assamese",
+        "title": "Doctoral Assamese",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-events",
+        "title": "Placements Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-process",
+        "title": "Placements Process",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-activities",
+        "title": "Placements Activities",
+        "category": "Page"
+    },
+    {
+        "url": "\/placements-facilities",
+        "title": "Placements Facilities",
+        "category": "Page"
+    },
+    {
+        "url": "\/top-hiring-companies",
+        "title": "Top Hiring Companies",
+        "category": "Page"
+    },
+    {
+        "url": "\/placement-contacts",
+        "title": "Placement Contacts",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-scholars",
+        "title": "Phd Scholars",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-awarded",
+        "title": "Phd Awarded",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-awarded-2023",
+        "title": "Phd Awarded 2023",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-awarded-2024",
+        "title": "Phd Awarded 2024",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-awarded-2025",
+        "title": "Phd Awarded 2025",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-awarded-2026",
+        "title": "Phd Awarded 2026",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-mechanical-engineering",
+        "title": "Doctoral Mechanical Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-nutrition&dietetics",
+        "title": "Doctoral Nutrition&dietetics",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-physiotherapy",
+        "title": "Doctoral Physiotherapy",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-product-design",
+        "title": "Doctoral Product Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-agriculture",
+        "title": "Doctoral Agriculture",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-radiology-and-imaging-technology",
+        "title": "Doctoral Radiology And Imaging Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-graphic-design",
+        "title": "Doctoral Graphic Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-communication-design",
+        "title": "Doctoral Communication Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-medical-laboratory-technology",
+        "title": "Doctoral Medical Laboratory Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-forensic-science",
+        "title": "Doctoral Forensic Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-forestry",
+        "title": "Doctoral Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-geoinformatics",
+        "title": "Doctoral Geoinformatics",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-food-technology",
+        "title": "Doctoral Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-rsft",
+        "title": "Doctoral Rsft",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-hotel-management",
+        "title": "Doctoral Hotel Management",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-indian-knowledge-sys",
+        "title": "Doctoral Indian Knowledge Sys",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-architecture",
+        "title": "Doctoral Architecture",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-biotechnology",
+        "title": "Doctoral Biotechnology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-botany",
+        "title": "Doctoral Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-chemistry",
+        "title": "Doctoral Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-civil-engineering",
+        "title": "Doctoral Civil Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-com-sc-engg",
+        "title": "Doctoral Com Sc Engg",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-design",
+        "title": "Doctoral Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-economics",
+        "title": "Doctoral Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-physical-education-and-sports",
+        "title": "Doctoral Physical Education And Sports",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-english",
+        "title": "Doctoral English",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-environmental",
+        "title": "Doctoral Environmental",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-fine-arts",
+        "title": "Doctoral Fine Arts",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-geography",
+        "title": "Doctoral Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-geology",
+        "title": "Doctoral Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-history",
+        "title": "Doctoral History",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-law",
+        "title": "Doctoral Law",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-library-science",
+        "title": "Doctoral Library Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-management",
+        "title": "Doctoral Management",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-mass-comm-journalism",
+        "title": "Doctoral Mass Comm Journalism",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-commerce",
+        "title": "Doctoral Commerce",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-mathematics",
+        "title": "Doctoral Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-microbiology",
+        "title": "Doctoral Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-pharmacy",
+        "title": "Doctoral Pharmacy",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-physics",
+        "title": "Doctoral Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-political-science",
+        "title": "Doctoral Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-psychology",
+        "title": "Doctoral Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-programme",
+        "title": "Doctoral Programme",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-public-admin",
+        "title": "Doctoral Public Admin",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-social-work",
+        "title": "Doctoral Social Work",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-sociology",
+        "title": "Doctoral Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-tourism-travel",
+        "title": "Doctoral Tourism Travel",
+        "category": "Page"
+    },
+    {
+        "url": "\/doctoral-zoology",
+        "title": "Doctoral Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-admission-guidelines",
+        "title": "International Admission Guidelines",
+        "category": "Page"
+    },
+    {
+        "url": "\/fee-structure-international",
+        "title": "Fee Structure International",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-faq",
+        "title": "International Faq",
+        "category": "Page"
+    },
+    {
+        "url": "\/frro-process",
+        "title": "Frro Process",
+        "category": "Page"
+    },
+    {
+        "url": "\/how-to-apply-international",
+        "title": "How To Apply International",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-student-helpline",
+        "title": "International Student Helpline",
+        "category": "Page"
+    },
+    {
+        "url": "\/campus-job",
+        "title": "Campus Job",
+        "category": "Page"
+    },
+    {
+        "url": "\/pre-arrival",
+        "title": "Pre Arrival",
+        "category": "Page"
+    },
+    {
+        "url": "\/scholarships-international",
+        "title": "Scholarships International",
+        "category": "Page"
+    },
+    {
+        "url": "\/visa-information",
+        "title": "Visa Information",
+        "category": "Page"
+    },
+    {
+        "url": "\/why-india",
+        "title": "Why India",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac",
+        "title": "Iqac",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-activities",
+        "title": "Iqac Activities",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-members",
+        "title": "Iqac Members",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-mom",
+        "title": "Iqac Mom",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-annual-report",
+        "title": "Iqac Annual Report",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report",
+        "title": "Iqac Report",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c1",
+        "title": "Iqac Report Naac C1",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c2",
+        "title": "Iqac Report Naac C2",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c3",
+        "title": "Iqac Report Naac C3",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c4",
+        "title": "Iqac Report Naac C4",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c5",
+        "title": "Iqac Report Naac C5",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c6",
+        "title": "Iqac Report Naac C6",
+        "category": "Page"
+    },
+    {
+        "url": "\/iqac-report-naac-c7",
+        "title": "Iqac Report Naac C7",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs",
+        "title": "Programs",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-btech-in-computer-science-and-business-system",
+        "title": "Program Btech In Computer Science And Business System",
+        "category": "Page"
+    },
+    {
+        "url": "\/admission-programs-fees-structure",
+        "title": "Admission Programs Fees Structure",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-ma-IKS",
+        "title": "Program Ma Iks",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-bsc-agriculture",
+        "title": "Program Bsc Agriculture",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-bsc-cssd",
+        "title": "Program Bsc Cssd",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-executive-mba",
+        "title": "Program Executive Mba",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-msc-nursing-comm-mental",
+        "title": "Program Msc Nursing Comm Mental",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-ba-bba-llb-hons",
+        "title": "Program Ba Bba Llb Hons",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-ba-llb-hons",
+        "title": "Program Ba Llb Hons",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-barch",
+        "title": "Programs Barch",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-bcom-finance-with-ica",
+        "title": "Programs Bcom Finance With Ica",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-bcom",
+        "title": "Programs Bcom",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-bcom-morning-shift",
+        "title": "Programs Bcom Morning Shift",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-m-des-fashion-design",
+        "title": "Program M Des Fashion Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-des-fd-fashion-design",
+        "title": "Programs B Des Fd Fashion Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-optometry-lateral-entry",
+        "title": "Programs B Optometry Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-optometry",
+        "title": "Programs B Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-pharm",
+        "title": "Programs B Pharm",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-pharm-lateral-entry",
+        "title": "Programs B Pharm Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-bsc-in-emergency",
+        "title": "Programs Bsc In Emergency",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-animation-visual-effects",
+        "title": "Programs B Sc Animation Visual Effects",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-isitep",
+        "title": "Programs Isitep",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-chemistry",
+        "title": "Programs B Sc Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-dialysis",
+        "title": "Programs B Sc Dialysis",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BTechWorking-Professional-CE-CSE",
+        "title": "Programs Btechworking Professional Ce Cse",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-mathematics",
+        "title": "Programs B Sc Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-medicaltechnologybmlt-lateral-entry",
+        "title": "Programs B Sc Medicaltechnologybmlt Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-physics",
+        "title": "Programs B Sc Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-radiography",
+        "title": "Programs B Sc Radiography",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-nutrition&dietetics",
+        "title": "Programs B Sc Nutrition&dietetics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-bio-chemistry",
+        "title": "Programs B Sc Bio Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-bio-technology",
+        "title": "Programs B Sc Bio Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-food-technology",
+        "title": "Programs B Sc Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-forestry",
+        "title": "Programs B Sc Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-microbiology",
+        "title": "Programs B Sc Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-ba-travel",
+        "title": "Programs B Sc Ba Travel",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-botany",
+        "title": "Programs B Sc Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-forensicScience",
+        "title": "Programs B Sc Forensicscience",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-geography",
+        "title": "Programs B Sc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-geology",
+        "title": "Programs B Sc Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-sc-zoology",
+        "title": "Programs B Sc Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-bsc-Medical-technology-bmlt",
+        "title": "Programs Bsc Medical Technology Bmlt",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-mechatronics",
+        "title": "Programs B Tech Mechatronics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-artifical-intelligence-ai",
+        "title": "Programs B Tech Artifical Intelligence Ai",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-ce",
+        "title": "Programs B Tech Ce",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-cse",
+        "title": "Programs B Tech Cse",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-lateral-entry",
+        "title": "Programs B Tech Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-b-tech-me",
+        "title": "Programs B Tech Me",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-B-TechElectrical-Electronics-Engineering",
+        "title": "Programs B Techelectrical Electronics Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-B-Tech-Electronics-Communication-Engineering",
+        "title": "Programs B Tech Electronics Communication Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Administrative-Service",
+        "title": "Programs Ba Administrative Service",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Economics",
+        "title": "Programs Ba Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-History",
+        "title": "Programs Ba History",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-HotelManagement",
+        "title": "Programs Ba Hotelmanagement",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-J&MC",
+        "title": "Programs Ba J&mc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Political-Science",
+        "title": "Programs Ba Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Psychology",
+        "title": "Programs Ba Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Public-Administration",
+        "title": "Programs Ba Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Sociology",
+        "title": "Programs Ba Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Physiotherapy-BPT",
+        "title": "Programs Bachelor Of Physiotherapy Bpt",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Design-Communication-Design",
+        "title": "Programs Bachelor Of Design Communication Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Design-Fashion-Design",
+        "title": "Programs Bachelor Of Design Fashion Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry",
+        "title": "Programs Bachelor Of Design Fashion Design Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Design-Graphic-Design",
+        "title": "Programs Bachelor Of Design Graphic Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Design-Product-Design",
+        "title": "Programs Bachelor Of Design Product Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Fine-Arts-BFA",
+        "title": "Programs Bachelor Of Fine Arts Bfa",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Hotel-Management-BHM",
+        "title": "Programs Bachelor Of Hotel Management Bhm",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry",
+        "title": "Programs Bachelor Of Interior Design Bid Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Bachelor-Travel",
+        "title": "Programs Bachelor Travel",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BachelorInterior-DesignBID",
+        "title": "Programs Bachelorinterior Designbid",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BachelorofPhysiotherapy",
+        "title": "Programs Bachelorofphysiotherapy",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BBA",
+        "title": "Programs Bba",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BCA",
+        "title": "Programs Bca",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSW",
+        "title": "Programs Bsw",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSc-Geography",
+        "title": "Programs Bsc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-CDC",
+        "title": "Programs Cdc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-D-Pharm",
+        "title": "Programs D Pharm",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-General-Nursing-Midwifery",
+        "title": "Programs General Nursing Midwifery",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-LLM-Day-Shift",
+        "title": "Programs Llm Day Shift",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-LLM-Morning-Shift",
+        "title": "Programs Llm Morning Shift",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MCom",
+        "title": "Programs Mcom",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-M-Optometry",
+        "title": "Programs M Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-M-Pharm-Pharmacognosy",
+        "title": "Programs M Pharm Pharmacognosy",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-M-Pharm-Pharmaceutical",
+        "title": "Programs M Pharm Pharmaceutical",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-M-Pharm-Pharmaceutics",
+        "title": "Programs M Pharm Pharmaceutics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Animation-&-Visual-Effects",
+        "title": "Programs Msc Animation & Visual Effects",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Chemistry",
+        "title": "Programs Msc Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-in-Geoinformatics",
+        "title": "Programs Msc In Geoinformatics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Mathematics",
+        "title": "Programs Msc Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Nursing-Mental",
+        "title": "Programs Msc Nursing Mental",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Nursing-OBE-Nursing",
+        "title": "Programs Msc Nursing Obe Nursing",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Nursing-Surgical-Nursing",
+        "title": "Programs Msc Nursing Surgical Nursing",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Physics",
+        "title": "Programs Msc Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-IT",
+        "title": "Programs Msc It",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Forestry",
+        "title": "Programs Msc Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Medical-Laboratory-MMLT",
+        "title": "Programs Msc Medical Laboratory Mmlt",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Nutrition",
+        "title": "Programs Msc Nutrition",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Botany",
+        "title": "Programs Msc Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-ForensicScience",
+        "title": "Programs Msc Forensicscience",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-geography",
+        "title": "Programs Msc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Geology",
+        "title": "Programs Msc Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Hotel-Management",
+        "title": "Programs Msc Hotel Management",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Zoology",
+        "title": "Programs Msc Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-mtech-ce-cdc",
+        "title": "Programme Mtech Ce Cdc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MTech-CAD",
+        "title": "Programs Mtech Cad",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MTech-CE-in-Structural-Engineering",
+        "title": "Programs Mtech Ce In Structural Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MTech-CE-in-Water-Resources",
+        "title": "Programs Mtech Ce In Water Resources",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MTech-CSE-in-Artifical-Intelligence",
+        "title": "Programs Mtech Cse In Artifical Intelligence",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MTech-CSE-in-Internet-of-Things",
+        "title": "Programs Mtech Cse In Internet Of Things",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-English",
+        "title": "Programs Ma English",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Clinical-Psychology",
+        "title": "Programs Ma Clinical Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSc-clinical-psychology-(Hons)",
+        "title": "Programs Bsc Clinical Psychology (hons)",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Economics",
+        "title": "Programs Ma Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Geography",
+        "title": "Programs Ma Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-History",
+        "title": "Programs Ma History",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-J&MC",
+        "title": "Programs Ma J&mc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Political-Science",
+        "title": "Programs Ma Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Psychology",
+        "title": "Programs Ma Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Public-Administration",
+        "title": "Programs Ma Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MA-Sociology",
+        "title": "Programs Ma Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Master-Travel&Tourism",
+        "title": "Programs Master Travel&tourism",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MasterofPhysiotherapyMPT",
+        "title": "Programs Masterofphysiotherapympt",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MBA-Finance",
+        "title": "Programs Mba Finance",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MCA",
+        "title": "Programs Mca",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSW",
+        "title": "Programs Msw",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Technology-OTT",
+        "title": "Programs Technology Ott",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSc-IT",
+        "title": "Programs Bsc It",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-English",
+        "title": "Programs Ba English",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-Applied-Psychology",
+        "title": "Programs Ba Applied Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BA-in-Culinary-Arts",
+        "title": "Programs Ba In Culinary Arts",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Food-Technology",
+        "title": "Programs Msc Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Bio-Chemistry",
+        "title": "Programs Msc Bio Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-MSc-Bio-Technology",
+        "title": "Programs Msc Bio Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Msc-Microbiology",
+        "title": "Programs Msc Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Master-of-Library&Information-Sciences",
+        "title": "Programs Master Of Library&information Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-Master-of-Fine-Arts-MFA",
+        "title": "Programs Master Of Fine Arts Mfa",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSc-Nursing",
+        "title": "Programs Bsc Nursing",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-BSc-Post-Basic",
+        "title": "Programs Bsc Post Basic",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-sociology",
+        "title": "Ba Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-Economics",
+        "title": "Ba Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-Public-Administration",
+        "title": "Ba Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-Political-Science",
+        "title": "Ba Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-History",
+        "title": "Ba History",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Physics",
+        "title": "Bsc Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Mathematics",
+        "title": "Bsc Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Chemistry",
+        "title": "Bsc Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Geography",
+        "title": "Bsc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-Geography",
+        "title": "Ba Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Geology",
+        "title": "Bsc Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-Psychology",
+        "title": "Ba Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Botany",
+        "title": "Bsc Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/bsc-Zoology",
+        "title": "Bsc Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/ba-English",
+        "title": "Ba English",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-physical-education-and-sports",
+        "title": "Faculty Physical Education And Sports",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/royal-school-of-languages",
+        "title": "Royal School Of Languages",
+        "category": "Page"
+    },
+    {
+        "url": "\/department-physical-education-and-sports",
+        "title": "Department Physical Education And Sports",
+        "category": "Department"
+    },
+    {
+        "url": "\/schools-rgu",
+        "title": "Schools Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/department-assamese",
+        "title": "Department Assamese",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-of-political-science-public-administration",
+        "title": "Department Of Political Science Public Administration",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-IKS",
+        "title": "Department Iks",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-travel",
+        "title": "Department Travel",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-social-work",
+        "title": "Department Social Work",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-public-administration",
+        "title": "Department Public Administration",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-sociology",
+        "title": "Department Sociology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-pharmaceutical-science",
+        "title": "Department Pharmaceutical Science",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-pharmacy",
+        "title": "Department Pharmacy",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-nursing",
+        "title": "Department Nursing",
+        "category": "Department"
+    },
+    {
+        "url": "\/deptment-radiography",
+        "title": "Deptment Radiography",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-optometry",
+        "title": "Department Optometry",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-operationtheatre",
+        "title": "Department Operationtheatre",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-nutrition-dietetics",
+        "title": "Department Nutrition Dietetics",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-medical-lab",
+        "title": "Department Medical Lab",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-library-information",
+        "title": "Department Library Information",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-business",
+        "title": "Department Business",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-botany",
+        "title": "Department Botany",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-forensic-sciences",
+        "title": "Department Forensic Sciences",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-forestry",
+        "title": "Department Forestry",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-english",
+        "title": "Department English",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-zoology",
+        "title": "Department Zoology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-information-technology",
+        "title": "Department Information Technology",
+        "category": "Department"
+    },
+    {
+        "url": "\/indian-knowledge-system-cell-about",
+        "title": "Indian Knowledge System Cell About",
+        "category": "Page"
+    },
+    {
+        "url": "\/indian-knowledge-system-cell-composition",
+        "title": "Indian Knowledge System Cell Composition",
+        "category": "Page"
+    },
+    {
+        "url": "\/indian-knowledge-system-cell-events",
+        "title": "Indian Knowledge System Cell Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/indian-knowledge-system-cell-syllabus",
+        "title": "Indian Knowledge System Cell Syllabus",
+        "category": "Page"
+    },
+    {
+        "url": "\/department-chemistry",
+        "title": "Department Chemistry",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-mathematics",
+        "title": "Department Mathematics",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-physics",
+        "title": "Department Physics",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-school",
+        "title": "Department School",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-applied-purescience",
+        "title": "Faculty Applied Purescience",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-csp",
+        "title": "Faculty Csp",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-agriculture",
+        "title": "Department Agriculture",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-architecture",
+        "title": "Department Architecture",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-architecture",
+        "title": "Faculty Architecture",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-psychology",
+        "title": "Department Psychology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-biotechnology",
+        "title": "Department Biotechnology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-food-technology",
+        "title": "Department Food Technology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-microbiology",
+        "title": "Department Microbiology",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-schoolof-bsc",
+        "title": "Department Schoolof Bsc",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-bio-sciences",
+        "title": "Faculty Bio Sciences",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-business",
+        "title": "Faculty Business",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-commerce",
+        "title": "Department Commerce",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-commerce",
+        "title": "Faculty Commerce",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-communications-media",
+        "title": "Department Communications Media",
+        "category": "Department"
+    },
+    {
+        "url": "\/rscom-faculty",
+        "title": "Rscom Faculty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-communication-design",
+        "title": "Department Communication Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-graphic-design",
+        "title": "Department Graphic Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-interior-design",
+        "title": "Department Interior Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-product-design",
+        "title": "Department Product Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-school-design",
+        "title": "Department School Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-design",
+        "title": "Faculty Design",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-agriculture",
+        "title": "Faculty Agriculture",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-civil-engineering",
+        "title": "Department Civil Engineering",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-cse",
+        "title": "Department Cse",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-mechanical-engineering",
+        "title": "Department Mechanical Engineering",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-engineeringtechnology",
+        "title": "Faculty Engineeringtechnology",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-environmental-sciences",
+        "title": "Department Environmental Sciences",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-geography-geoinformatics",
+        "title": "Department Geography Geoinformatics",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-geology",
+        "title": "Department Geology",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-environmental-earth",
+        "title": "Faculty Environmental Earth",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-fashion-design",
+        "title": "Department Fashion Design",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-fashion-design",
+        "title": "Faculty Fashion Design",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-fine-arts",
+        "title": "Department Fine Arts",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-finearts",
+        "title": "Faculty Finearts",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-hotel-management",
+        "title": "Department Hotel Management",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-hotel-management",
+        "title": "Faculty Hotel Management",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-economics",
+        "title": "Department Economics",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-history",
+        "title": "Department History",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-political-science",
+        "title": "Department Political Science",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-humanities-social",
+        "title": "Faculty Humanities Social",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-information-technology",
+        "title": "Faculty Information Technology",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-languages",
+        "title": "Faculty Languages",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-law",
+        "title": "Department Law",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-law-administration",
+        "title": "Faculty Law Administration",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-librarysciences",
+        "title": "Faculty Librarysciences",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-lifesciences",
+        "title": "Faculty Lifesciences",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-physiotherapy",
+        "title": "Department Physiotherapy",
+        "category": "Department"
+    },
+    {
+        "url": "\/faculty-nursing",
+        "title": "Faculty Nursing",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pharmacy",
+        "title": "Faculty Pharmacy",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-travel-tourism",
+        "title": "Faculty Travel Tourism",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/royal-s-school-of-applied-pure-science",
+        "title": "Royal S School Of Applied Pure Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-bio-science",
+        "title": "Royal S School Of Bio Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-design",
+        "title": "Royal S School Of Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-engineering-technology",
+        "title": "Royal S School Of Engineering Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-enviroment-science",
+        "title": "Royal S School Of Enviroment Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-humanities",
+        "title": "Royal S School Of Humanities",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-life-science",
+        "title": "Royal S School Of Life Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-s-school-of-medical-allied-science",
+        "title": "Royal S School Of Medical Allied Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/departement-food-science&nutrition",
+        "title": "Departement Food Science&nutrition",
+        "category": "Page"
+    },
+    {
+        "url": "\/ias-courses",
+        "title": "Ias Courses",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-allied-sciences",
+        "title": "Faculty Allied Sciences",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-medical&allidesciences",
+        "title": "Faculty Medical&allidesciences",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/international-fee-structure",
+        "title": "International Fee Structure",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-Program-BSc-CSSD",
+        "title": "International Program Bsc Cssd",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-program-MSc-Nursing-Comm-Mental",
+        "title": "International Program Msc Nursing Comm Mental",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programBA-BBA-LLBHons",
+        "title": "International Programba Bba Llbhons",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-B-Arch",
+        "title": "International Programs B Arch",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Physics",
+        "title": "International Programs Msc Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Chemistry",
+        "title": "International Programs Msc Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Mathematics",
+        "title": "International Programs Msc Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Physics",
+        "title": "International Programs Bsc Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Chemistry",
+        "title": "International Programs Bsc Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Mathematics",
+        "title": "International Programs Bsc Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MBA-Finance",
+        "title": "International Programs Mba Finance",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BBA",
+        "title": "International Programs Bba",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Psychology",
+        "title": "International Programs Ma Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Clinical-Psychology",
+        "title": "International Programs Ma Clinical Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Psychology",
+        "title": "International Programs Ba Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Applied-Psychology",
+        "title": "International Programs Ba Applied Psychology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Bio-Technology",
+        "title": "International Programs Msc Bio Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Microbiology",
+        "title": "International Programs Msc Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Food-Technology",
+        "title": "International Programs Msc Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Bio-Technology",
+        "title": "International Programs Bsc Bio Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Microbiology",
+        "title": "International Programs Bsc Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Food-Technology",
+        "title": "International Programs Bsc Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MCom",
+        "title": "International Programs Mcom",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BCom",
+        "title": "International Programs Bcom",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BCom(Morning-shift)",
+        "title": "International Programs Bcom(morning Shift)",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BCom-Finance-with-ICA",
+        "title": "International Programs Bcom Finance With Ica",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-J&MC",
+        "title": "International Programs Ma J&mc",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-J&MC",
+        "title": "International Programs Ba J&mc",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Design-Product-Design",
+        "title": "International Programs Bachelor Of Design Product Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Animation-Visual-Effects",
+        "title": "International Programs Msc Animation Visual Effects",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Animation-Visual-Effects",
+        "title": "International Programs Bsc Animation Visual Effects",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BachelorInterior-DesignBID",
+        "title": "International Programs Bachelorinterior Designbid",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Interior-Design-BID-Lateral-Entry",
+        "title": "International Programs Bachelor Of Interior Design Bid Lateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Design-Fashion-DesignLateral-Entry",
+        "title": "International Programs Bachelor Of Design Fashion Designlateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Design-Communication-Design",
+        "title": "International Programs Bachelor Of Design Communication Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Design-Graphic-Design",
+        "title": "International Programs Bachelor Of Design Graphic Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Geography",
+        "title": "International Programs Msc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Geography",
+        "title": "International Programs Ma Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Geology",
+        "title": "International Programs Msc Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-in-Geoinformatics",
+        "title": "International Programs Msc In Geoinformatics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Geography",
+        "title": "International Programs Bsc Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Geology",
+        "title": "International Programs Bsc Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MTech-CSE-in-Artifical-Intelligence",
+        "title": "International Programs Mtech Cse In Artifical Intelligence",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MTech-CSE-in-Internet-of-Things",
+        "title": "International Programs Mtech Cse In Internet Of Things",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MTech-CE-in-Water-Resources",
+        "title": "International Programs Mtech Ce In Water Resources",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MTech-CE-in-Structural-Engineering",
+        "title": "International Programs Mtech Ce In Structural Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MTech-CAD",
+        "title": "International Programs Mtech Cad",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechCE",
+        "title": "International Programs Btechce",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechCSE",
+        "title": "International Programs Btechcse",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechME",
+        "title": "International Programs Btechme",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTech-Artifical-Intelligence-AI",
+        "title": "International Programs Btech Artifical Intelligence Ai",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTech-Mechatronics",
+        "title": "International Programs Btech Mechatronics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechLateral-Entry",
+        "title": "International Programs Btechlateral Entry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechElectrical-Electronics-Engineering",
+        "title": "International Programs Btechelectrical Electronics Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechElectronics-Communication-Engineering",
+        "title": "International Programs Btechelectronics Communication Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BTechCE-CSE-working",
+        "title": "International Programs Btechce Cse Working",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Master-of-Fine-ArtsMFA",
+        "title": "International Programs Master Of Fine Artsmfa",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Fine-ArtsBFA",
+        "title": "International Programs Bachelor Of Fine Artsbfa",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BDes-FDFashion-Design",
+        "title": "International Programs Bdes Fdfashion Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Economics",
+        "title": "International Programs Ma Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Sociology",
+        "title": "International Programs Ma Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Public-Administration",
+        "title": "International Programs Ma Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-Political-Science",
+        "title": "International Programs Ma Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-History",
+        "title": "International Programs Ma History",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSW",
+        "title": "International Programs Msw",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSW",
+        "title": "International Programs Bsw",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Sociology",
+        "title": "International Programs Ba Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Economics",
+        "title": "International Programs Ba Economics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Public-Administration",
+        "title": "International Programs Ba Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-Political-Science",
+        "title": "International Programs Ba Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-History",
+        "title": "International Programs Ba History",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-HotelManagement",
+        "title": "International Programs Ba Hotelmanagement",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-in-Culinary-Arts",
+        "title": "International Programs Ba In Culinary Arts",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Hotel-Management",
+        "title": "International Programs Msc Hotel Management",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Hotel-Management-BHM",
+        "title": "International Programs Bachelor Of Hotel Management Bhm",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BCA",
+        "title": "International Programs Bca",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MCA",
+        "title": "International Programs Mca",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-IT",
+        "title": "International Programs Bsc It",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-IT",
+        "title": "International Programs Msc It",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MA-English",
+        "title": "International Programs Ma English",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BA-English",
+        "title": "International Programs Ba English",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-LLM-Day-Shift",
+        "title": "International Programs Llm Day Shift",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-LLM-Morning-Shift",
+        "title": "International Programs Llm Morning Shift",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programBA-LLB-Hons",
+        "title": "International Programba Llb Hons",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Master-of-Library-&-Information-Sciences",
+        "title": "International Programs Master Of Library & Information Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Botany",
+        "title": "International Programs Msc Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Zoology",
+        "title": "International Programs Msc Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-ForensicScience",
+        "title": "International Programs Msc Forensicscience",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Forestry",
+        "title": "International Programs Msc Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Botany",
+        "title": "International Programs Bsc Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Zoology",
+        "title": "International Programs Bsc Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-ForensicScience",
+        "title": "International Programs Bsc Forensicscience",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Forestry",
+        "title": "International Programs Bsc Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-of-Physiotherapy-BPT",
+        "title": "International Programs Bachelor Of Physiotherapy Bpt",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MasterofPhysiotherapyMPT",
+        "title": "International Programs Masterofphysiotherapympt",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Nutrition-and-Dietetics",
+        "title": "International Programs Bsc Nutrition And Dietetics",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-Nutrition",
+        "title": "International Programs Msc Nutrition",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-M-Optometry",
+        "title": "International Programs M Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-B-Optometry",
+        "title": "International Programs B Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-B-ScMedical-Technology-BMLT",
+        "title": "International Programs B Scmedical Technology Bmlt",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-MSc-MedicalLaboratoryMMLT",
+        "title": "International Programs Msc Medicallaboratorymmlt",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Dialysis",
+        "title": "International Programs Bsc Dialysis",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-TechnologyOTT",
+        "title": "International Programs Technologyott",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-Radiography",
+        "title": "International Programs Bsc Radiography",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-in-Emergency",
+        "title": "International Programs Bsc In Emergency",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-BSc-BA-Travel",
+        "title": "International Programs Bsc Ba Travel",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Master-Travel&Tourism",
+        "title": "International Programs Master Travel&tourism",
+        "category": "Page"
+    },
+    {
+        "url": "\/international-programs-Bachelor-Travel",
+        "title": "International Programs Bachelor Travel",
+        "category": "Page"
+    },
+    {
+        "url": "\/examinations",
+        "title": "Examinations",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-cell-committee",
+        "title": "Examination Cell Committee",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-cell-office-controller",
+        "title": "Examination Cell Office Controller",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-members",
+        "title": "Examination Members",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-diploma",
+        "title": "Examination Diploma",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-post-graduate",
+        "title": "Examination Post Graduate",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-under-graduate",
+        "title": "Examination Under Graduate",
+        "category": "Page"
+    },
+    {
+        "url": "\/examination-phd",
+        "title": "Examination Phd",
+        "category": "Page"
+    },
+    {
+        "url": "\/timetable-of-odd-sem-2025",
+        "title": "Timetable Of Odd Sem 2025",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-devlopment",
+        "title": "Research Devlopment",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-preamble",
+        "title": "Research Preamble",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-r&d-team",
+        "title": "Research R&d Team",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-publication",
+        "title": "Research Publication",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-extramural",
+        "title": "Research Extramural",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-seed-grants-projects",
+        "title": "Research Seed Grants Projects",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-consultancy-projects",
+        "title": "Research Consultancy Projects",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-csif",
+        "title": "Research Csif",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-patents",
+        "title": "Research Patents",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-policies&ethics",
+        "title": "Research Policies&ethics",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-department",
+        "title": "Research Department",
+        "category": "Department"
+    },
+    {
+        "url": "\/Research_Department_Pure_Sciences",
+        "title": "Research Department Pure Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Architecture",
+        "title": "Research Department Architecture",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Bio_sciences",
+        "title": "Research Department Bio Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Business",
+        "title": "Research Department Business",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Commerce",
+        "title": "Research Department Commerce",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Communications_Media",
+        "title": "Research Department Communications Media",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Design",
+        "title": "Research Department Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Engineering_Technology",
+        "title": "Research Department Engineering Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Environmental_Earth_Sciences",
+        "title": "Research Department Environmental Earth Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Fashion_Design_Technology",
+        "title": "Research Department Fashion Design Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Fine_Arts",
+        "title": "Research Department Fine Arts",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Humanities_Social_Sciences",
+        "title": "Research Department Humanities Social Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Information_Technology",
+        "title": "Research Department Information Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Languages",
+        "title": "Research Department Languages",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Library_Information_Sciences",
+        "title": "Research Department Library Information Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Law_Administration",
+        "title": "Research Department Law Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Life_Sciences",
+        "title": "Research Department Life Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Medical_Allied_Sciences",
+        "title": "Research Department Medical Allied Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Nursing",
+        "title": "Research Department Nursing",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Travel_Tourism",
+        "title": "Research Department Travel Tourism",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Pharmacy",
+        "title": "Research Department Pharmacy",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Botany",
+        "title": "Research Department Botany",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_History",
+        "title": "Research Department History",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Medical_Lab",
+        "title": "Research Department Medical Lab",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Microbiology",
+        "title": "Research Department Microbiology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_OperationTheatre",
+        "title": "Research Department Operationtheatre",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Optometry",
+        "title": "Research Department Optometry",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Political_Science",
+        "title": "Research Department Political Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Public_Administration",
+        "title": "Research Department Public Administration",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Social_Work",
+        "title": "Research Department Social Work",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Sociology",
+        "title": "Research Department Sociology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Zoology",
+        "title": "Research Department Zoology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Deptment_Radiography",
+        "title": "Research Deptment Radiography",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Physics",
+        "title": "Research Department Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Chemistry",
+        "title": "Research Department Chemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Mathematics",
+        "title": "Research Department Mathematics",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Biochemistry",
+        "title": "Research Department Biochemistry",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Biotechnology",
+        "title": "Research Department Biotechnology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Food_Technology",
+        "title": "Research Department Food Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_CSE",
+        "title": "Research Department Cse",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Mechanical_Engineering",
+        "title": "Research Department Mechanical Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Civil_Engineering",
+        "title": "Research Department Civil Engineering",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Geography",
+        "title": "Research Department Geography",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Environmental_Sciences",
+        "title": "Research Department Environmental Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Geology",
+        "title": "Research Department Geology",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Forensic_Sciences",
+        "title": "Research Department Forensic Sciences",
+        "category": "Page"
+    },
+    {
+        "url": "\/Research_Department_Forestry",
+        "title": "Research Department Forestry",
+        "category": "Page"
+    },
+    {
+        "url": "\/research-publication-overview",
+        "title": "Research Publication Overview",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2017-18",
+        "title": "Publications 2017 18",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2018-19",
+        "title": "Publications 2018 19",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2019-20",
+        "title": "Publications 2019 20",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2020-21",
+        "title": "Publications 2020 21",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2021-22",
+        "title": "Publications 2021 22",
+        "category": "Page"
+    },
+    {
+        "url": "\/Publications-2022-23",
+        "title": "Publications 2022 23",
+        "category": "Page"
+    },
+    {
+        "url": "\/lp",
+        "title": "Lp",
+        "category": "Page"
+    },
+    {
+        "url": "\/developing-emotional-intelligence-academic-research-and-teaching",
+        "title": "Developing Emotional Intelligence Academic Research And Teaching",
+        "category": "Page"
+    },
+    {
+        "url": "\/icssr-project-positions-at-rgu",
+        "title": "Icssr Project Positions At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/icssr-conference",
+        "title": "Icssr Conference",
+        "category": "Page"
+    },
+    {
+        "url": "\/ncmpac-2026",
+        "title": "Ncmpac 2026",
+        "category": "Page"
+    },
+    {
+        "url": "\/bioe3-conference",
+        "title": "Bioe3 Conference",
+        "category": "Page"
+    },
+    {
+        "url": "\/climate-change-and-livelihood-in-northeast-india",
+        "title": "Climate Change And Livelihood In Northeast India",
+        "category": "Page"
+    },
+    {
+        "url": "\/synergy-for-energy-challenges-and-opportunities-in-north-east-india",
+        "title": "Synergy For Energy Challenges And Opportunities In North East India",
+        "category": "Page"
+    },
+    {
+        "url": "\/satatya-a-national-student-conference-on-business-sustainability-and-responsible-business-practices",
+        "title": "Satatya A National Student Conference On Business Sustainability And Responsible Business Practices",
+        "category": "Page"
+    },
+    {
+        "url": "\/blog",
+        "title": "Blog",
+        "category": "Page"
+    },
+    {
+        "url": "\/private-university-in-assam",
+        "title": "Private University In Assam",
+        "category": "Page"
+    },
+    {
+        "url": "\/best-university-in-north-east-india",
+        "title": "Best University In North East India",
+        "category": "Page"
+    },
+    {
+        "url": "\/a-complete-guide-to-studying-btech-in-guwahati",
+        "title": "A Complete Guide To Studying Btech In Guwahati",
+        "category": "Page"
+    },
+    {
+        "url": "\/why-royal-global-university-is-considered-the-best-university-in-guwahati",
+        "title": "Why Royal Global University Is Considered The Best University In Guwahati",
+        "category": "Page"
+    },
+    {
+        "url": "\/institutional-development-plan",
+        "title": "Institutional Development Plan",
+        "category": "Page"
+    },
+    {
+        "url": "\/grievance",
+        "title": "Grievance",
+        "category": "Page"
+    },
+    {
+        "url": "\/annual-report",
+        "title": "Annual Report",
+        "category": "Page"
+    },
+    {
+        "url": "\/multi-disciplinary",
+        "title": "Multi Disciplinary",
+        "category": "Page"
+    },
+    {
+        "url": "\/phd-cell",
+        "title": "Phd Cell",
+        "category": "Page"
+    },
+    {
+        "url": "\/cisr",
+        "title": "Cisr",
+        "category": "Page"
+    },
+    {
+        "url": "\/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university",
+        "title": "Nec Secretary Inaugurates Agricultural Sciences Laboratories At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi",
+        "title": "Royal Global University Inks Pact With Sashastra Seema Bal In New Delhi",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-observes-world-environment-day",
+        "title": "Royal Global University Observes World Environment Day",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level",
+        "title": "Rgu Pharmacy Students Shine At Pharma Anveshan 2026 To Represent Assam At National Level",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-proceeds-with-fyugp",
+        "title": "Royal Global University Proceeds With Fyugp",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day",
+        "title": "Royal Global University Tea Board Of India Jointly Celebrates International Tea Day",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi",
+        "title": "Rgu Hosts 12th Edition Of Kala Samvad In Collaboration With Sangeet Natak Akademi",
+        "category": "Page"
+    },
+    {
+        "url": "\/placement-felicitation-held-at-royal-global-university",
+        "title": "Placement Felicitation Held At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-inaugurates-institutions-innovation-council-entrepreneurship-cell-to-foster-innovation-and-start-up-culture",
+        "title": "Rgu Inaugurates Institutions Innovation Council Entrepreneurship Cell To Foster Innovation And Start Up Culture",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series",
+        "title": "Royal Global University Launches River Talks Sabda Kalpa A Monthly Literary Series",
+        "category": "Page"
+    },
+    {
+        "url": "\/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu",
+        "title": "Meghalaya Sports Minister Shylla Inaugurates Zenith Pickleball Court At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university",
+        "title": "Indian Museum Kolkata Launches 7 Day Exhibition At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops",
+        "title": "Rgu Joins Hands With Indian Museum Kolkata To Hold 7 Day Long Exhibition Workshops",
+        "category": "Page"
+    },
+    {
+        "url": "\/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir",
+        "title": "Health Screening Camp Conducted At Chakardo Ayushman Arogya Mandir",
+        "category": "Page"
+    },
+    {
+        "url": "\/capacity-building-session-on-internship-engagement-and-career-development",
+        "title": "Capacity Building Session On Internship Engagement And Career Development",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals",
+        "title": "Rgu Student Wins Silver At State Arm Wrestling Championship Qualifies For Nationals",
+        "category": "Page"
+    },
+    {
+        "url": "\/training-on-forest-ecosystem-services-held-at-rgu",
+        "title": "Training On Forest Ecosystem Services Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-faculty-honoured-with-best-scientist-award",
+        "title": "Royal Global University Faculty Honoured With Best Scientist Award",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff",
+        "title": "May Day Celebrated At Rgu With Cultural Fervour And Gratitude To Support Staff",
+        "category": "Page"
+    },
+    {
+        "url": "\/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu",
+        "title": "Create International Brotherhood Through Dance Padma Bhushan Nrityacharya Jatin Goswami At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam",
+        "title": "Sahitya Akademi And Rgu Organise Symposium On Charita Puthi Tradition Of Assam",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-observes-national-public-relations-day",
+        "title": "Rgu Observes National Public Relations Day",
+        "category": "Page"
+    },
+    {
+        "url": "\/mou-with-rgu-will-benefit-wards-of-meghalaya-police-dgp-meghalaya",
+        "title": "Mou With Rgu Will Benefit Wards Of Meghalaya Police Dgp Meghalaya",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-signs-landmark-mou-with-indian-navy-to-support-wards-of-defence-personnel",
+        "title": "Royal Global University Signs Landmark Mou With Indian Navy To Support Wards Of Defence Personnel",
+        "category": "Page"
+    },
+    {
+        "url": "\/icmr-awards-90-lakhs-in-research-grants-to-rgu-faculty-for-medical-studies",
+        "title": "Icmr Awards 90 Lakhs In Research Grants To Rgu Faculty For Medical Studies",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/northeast-must-become-indias-next-pharma-hub-pci-president-speaks-at-royal-global-university",
+        "title": "Northeast Must Become Indias Next Pharma Hub Pci President Speaks At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-partners-with-tcs-to-start-industry-integrated-programmes",
+        "title": "Royal Global University Partners With Tcs To Start Industry Integrated Programmes",
+        "category": "Page"
+    },
+    {
+        "url": "\/art-grantee-award-to-rgu-alumnus-at-hyundai-art-for-hope-2026-in-new-delhi",
+        "title": "Art Grantee Award To Rgu Alumnus At Hyundai Art For Hope 2026 In New Delhi",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-organizes-workshop-on-putala-nach-the-puppetry-of-assam",
+        "title": "Rgu Organizes Workshop On Putala Nach The Puppetry Of Assam",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-to-introduce-ug-and-pg-programmes-in-assamese",
+        "title": "Royal Global University To Introduce Ug And Pg Programmes In Assamese",
+        "category": "Page"
+    },
+    {
+        "url": "\/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year",
+        "title": "Discourse On Concept Of Time At Rgu Marks Hindu Lunar New Year",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-connects-talent-with-industry-at-mega-placement-day-2026",
+        "title": "Royal Global University Connects Talent With Industry At Mega Placement Day 2026",
+        "category": "Page"
+    },
+    {
+        "url": "\/156-students-of-rgu-awarded-scholarship-for-academic-excellence",
+        "title": "156 Students Of Rgu Awarded Scholarship For Academic Excellence",
+        "category": "Page"
+    },
+    {
+        "url": "\/padma-bhushan-and-creator-of-mohan-veena-mesmerises-audience-at-rgu-smva",
+        "title": "Padma Bhushan And Creator Of Mohan Veena Mesmerises Audience At Rgu Smva",
+        "category": "Page"
+    },
+    {
+        "url": "\/guwahati-emerging-as-a-key-centre-linking-cities-across-southeast-asia-secretary-act-east-policy-affairs-department",
+        "title": "Guwahati Emerging As A Key Centre Linking Cities Across Southeast Asia Secretary Act East Policy Affairs Department",
+        "category": "Department"
+    },
+    {
+        "url": "\/rhythm-of-the-looms-rgu-hosts-mega-fashion-handloom-textiles-conclave-celebrating-women-artisans-and-designers-of-ne",
+        "title": "Rhythm Of The Looms Rgu Hosts Mega Fashion Handloom Textiles Conclave Celebrating Women Artisans And Designers Of Ne",
+        "category": "Page"
+    },
+    {
+        "url": "\/nature-index-2025-ranking-royal-global-university-placed-among-the-top-100-institutions-in-india",
+        "title": "Nature Index 2025 Ranking Royal Global University Placed Among The Top 100 Institutions In India",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-gave-me-confidence-apsc-topper-nihar-deka-tells-students-during-interaction",
+        "title": "Rgu Gave Me Confidence Apsc Topper Nihar Deka Tells Students During Interaction",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhupen-hazarika-twenty-songs-and-seven-portraits-released-at-royal-global-university",
+        "title": "Bhupen Hazarika Twenty Songs And Seven Portraits Released At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/former-isro-chief-as-kiran-kumar-addresses-public-talk-at-royal-global-university",
+        "title": "Former Isro Chief As Kiran Kumar Addresses Public Talk At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/creative-talk-series-launched-at-rgu-prof-choudhury-addresses-college-students-on-the-wonders-of-the-quantum-world",
+        "title": "Creative Talk Series Launched At Rgu Prof Choudhury Addresses College Students On The Wonders Of The Quantum World",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-alumnus-secures-rank-1-in-apsc-cce-2024-thanks-alma-mater",
+        "title": "Rgu Alumnus Secures Rank 1 In Apsc Cce 2024 Thanks Alma Mater",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-joins-hands-with-indian-army-to-empower-wards-of-heroes",
+        "title": "Royal Global University Joins Hands With Indian Army To Empower Wards Of Heroes",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-launches-uni-news-agency-service-first-time-in-the-north-east-done-by-a-university",
+        "title": "Rgu Launches Uni News Agency Service First Time In The North East Done By A University",
+        "category": "Page"
+    },
+    {
+        "url": "\/chancellors-appreciation-felicitation-ceremony-celebrates-excellence-at-rgu",
+        "title": "Chancellors Appreciation Felicitation Ceremony Celebrates Excellence At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/delhi-university-team-wins-38th-bci-national-all-india-inter-university-moot-court-competition-hosted-by-rgu",
+        "title": "Delhi University Team Wins 38th Bci National All India Inter University Moot Court Competition Hosted By Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/38th-bci-national-all-india-inter-university-moot-court-competition-begins-at-rgu",
+        "title": "38th Bci National All India Inter University Moot Court Competition Begins At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/40-northeast-janjati-communities-congregate-at-rgu-for-janjati-sammelan",
+        "title": "40 Northeast Janjati Communities Congregate At Rgu For Janjati Sammelan",
+        "category": "Page"
+    },
+    {
+        "url": "\/biodiversity-of-the-north-east-carries-future-for-bioeconomy-dr-srinivas-director-inserm-paris-speaks-at-royal-global-university",
+        "title": "Biodiversity Of The North East Carries Future For Bioeconomy Dr Srinivas Director Inserm Paris Speaks At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition",
+        "title": "Rgu To Host 38th Bci National All India Inter University Moot Court Competition",
+        "category": "Page"
+    },
+    {
+        "url": "\/77th-republic-day-celebrated-by-royal-global-university",
+        "title": "77th Republic Day Celebrated By Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/silpi-diwas-celebrated-by-dr-bhupen-hazarika-centre-for-creativity-at-rgu",
+        "title": "Silpi Diwas Celebrated By Dr Bhupen Hazarika Centre For Creativity At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/pre-magh-bihu-and-uruka-celebrated-at-royal-global-university",
+        "title": "Pre Magh Bihu And Uruka Celebrated At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/north-east-zone-inter-university-football-men-tournament-2025-26-concludes-at-rgu",
+        "title": "North East Zone Inter University Football Men Tournament 2025 26 Concludes At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-faculty-lieutenant-dr-sudha-becomes-1st-from-ne-to-clinch-gold-at-ota-gwalior",
+        "title": "Rgu Faculty Lieutenant Dr Sudha Becomes 1st From Ne To Clinch Gold At Ota Gwalior",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/icssr-sponsored-national-conference-samunnati-2026-held-at-rgu",
+        "title": "Icssr Sponsored National Conference Samunnati 2026 Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/national-conference-on-frontiers-in-modern-physics-begins-at-rgu",
+        "title": "National Conference On Frontiers In Modern Physics Begins At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/aiu-ne-zone-inter-university-football-tournament-kicked-off-at-royal-global-university",
+        "title": "Aiu Ne Zone Inter University Football Tournament Kicked Off At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/38th-bci-inter-university-moot-court-competition-from-29th-jan-at-rgu",
+        "title": "38th Bci Inter University Moot Court Competition From 29th Jan At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26",
+        "title": "Royal Global University To Host Aiu Ne Zone Inter University Football Tournament 2025 26",
+        "category": "Page"
+    },
+    {
+        "url": "\/life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university",
+        "title": "Life Size Statue Of Zubeen Garg Unveiled At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu",
+        "title": "Prof Mihir Kanti Chaudhuri Memorial Oration Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university",
+        "title": "Ehnf 2025 Global Sustainability Leaders Corporates And Youth Converge At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/national-conference-on-frontiers-in-modern-physics",
+        "title": "National Conference On Frontiers In Modern Physics",
+        "category": "Page"
+    },
+    {
+        "url": "\/prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu",
+        "title": "Prof Dhrubajyoti Borah Appointed Advisor To The Chancellor And Author In Residence At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu",
+        "title": "Lachit Divas Observed By Mahabahu Club Under The Aegis Of Iks Cell At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/cyber-security-awareness-workshop-held-at-rgu",
+        "title": "Cyber Security Awareness Workshop Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/chief-justice-ashutosh-kumar-unveils-dr-ambedkar-bust-at-royal-global-university",
+        "title": "Chief Justice Ashutosh Kumar Unveils Dr Ambedkar Bust At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu",
+        "title": "Central Tibetan Administration President Delivers Tibet Awareness Talk At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu",
+        "title": "Mbsi Senior Scientist Award 2025 Goes To Prof Amlan Das Of Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions",
+        "title": "Sangeet Natak Akademi And Royal Global University Jointly Commemorate Sudhakantha His Contributions",
+        "category": "Page"
+    },
+    {
+        "url": "\/country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan",
+        "title": "Country Needs Independent Judiciary Insulated From External Pressures Sc Judge Ujjal Bhuyan",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies",
+        "title": "Rgu Faculty Attempts National Record With Solo Baking Marathon Of 2041 Assorted Cookies",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota",
+        "title": "Royal Anna Seva Completes Five Years Of Service New Phase Inaugurated By Chief Secretary Dr Ravi Kota",
+        "category": "Page"
+    },
+    {
+        "url": "\/create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest",
+        "title": "Create A Forest In Every District In Memory Of Zubeen Garg Forest Man Of India Payeng Tells At Rgu Botany Fest",
+        "category": "Page"
+    },
+    {
+        "url": "\/1st-international-conference-on-smart-systems-social-management-held-at-rgu",
+        "title": "1st International Conference On Smart Systems Social Management Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university",
+        "title": "Curtain Raiser Workshops Of Assam Physiocon 2025 Held At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series",
+        "title": "Rgu Remembers Xudhakantha With A Musical Tribute And Oration Series",
+        "category": "Page"
+    },
+    {
+        "url": "\/fifth-convocation-of-royal-global-university-concludes",
+        "title": "Fifth Convocation Of Royal Global University Concludes",
+        "category": "Page"
+    },
+    {
+        "url": "\/fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university",
+        "title": "Fourth India Bhutan Youth Summit 2025 Concludes At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-to-host-5th-convocation-ceremony-on-october-31",
+        "title": "Royal Global University To Host 5th Convocation Ceremony On October 31",
+        "category": "Page"
+    },
+    {
+        "url": "\/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors",
+        "title": "Isro Awards Grant To Rgu Faculty To Design High Sensitivity Optical Sensors",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee",
+        "title": "Application Of Ai Will Finally Determine The Future Of Life Dr Harsha Bhattacharjee",
+        "category": "Page"
+    },
+    {
+        "url": "\/the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer",
+        "title": "The Invisible Threat Rgu Scientists Decode How Microplastics May Trigger Cancer",
+        "category": "Page"
+    },
+    {
+        "url": "\/dr-a-k-pansari-conferred-with-ew-extraordinary-achievement-in-education-leadership-award",
+        "title": "Dr A K Pansari Conferred With Ew Extraordinary Achievement In Education Leadership Award",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-observes-green-day-with-a-mission-of-service-and-sustainability",
+        "title": "Royal Global University Observes Green Day With A Mission Of Service And Sustainability",
+        "category": "Page"
+    },
+    {
+        "url": "\/innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno",
+        "title": "Innovators And Changemakers Inspire At Tedx Royal Global University Musical Tribute To Zubeen Garg By Pianist Nise Meruno",
+        "category": "Page"
+    },
+    {
+        "url": "\/atal-aicte-sponsored-faculty-development-programme-on-seismic-vulnerability-assessment-held-at-royal-global-university",
+        "title": "Atal Aicte Sponsored Faculty Development Programme On Seismic Vulnerability Assessment Held At Royal Global University",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/rgu-to-honour-cultural-legend-zubeen-garg-with-statue-scholarships-and-book-on-his-works",
+        "title": "Rgu To Honour Cultural Legend Zubeen Garg With Statue Scholarships And Book On His Works",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhutan-delegation-attends-9-day-training-on-academic-administrative-governance-at-royal-global-university",
+        "title": "Bhutan Delegation Attends 9 Day Training On Academic Administrative Governance At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-ncc-cadets-shine-at-yams-catc-85-camp",
+        "title": "Rgu Ncc Cadets Shine At Yams Catc 85 Camp",
+        "category": "Page"
+    },
+    {
+        "url": "\/media-corner",
+        "title": "Media Corner",
+        "category": "Page"
+    },
+    {
+        "url": "\/press-coverage",
+        "title": "Press Coverage",
+        "category": "Page"
+    },
+    {
+        "url": "\/chinese-diplomats-visit-royal-global-university-for-educational-collaboration",
+        "title": "Chinese Diplomats Visit Royal Global University For Educational Collaboration",
+        "category": "Page"
+    },
+    {
+        "url": "\/RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy",
+        "title": "Rgu Launches Integrated Ba And Bsc Programs With Civil Services Coaching By Spm Ias Academy",
+        "category": "Page"
+    },
+    {
+        "url": "\/RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students",
+        "title": "Rgu Celebrates Commendation Day For Placed Graduating Students",
+        "category": "Page"
+    },
+    {
+        "url": "\/129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance",
+        "title": "129 Rgu Students Awarded Scholarships For Outstanding Academic Performance",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-awarded-most-eminent-private-university-of-north-east-2025",
+        "title": "Rgu Awarded Most Eminent Private University Of North East 2025",
+        "category": "Page"
+    },
+    {
+        "url": "\/ai-dependence-is-making-slaves-mind-is-far-superior-to-technology-jnu-vc-prof-santishree-pandit-at-rgu",
+        "title": "Ai Dependence Is Making Slaves Mind Is Far Superior To Technology Jnu Vc Prof Santishree Pandit At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/dr-bhupen-hazarika-centre-for-creativity-at-royal-global-university",
+        "title": "Dr Bhupen Hazarika Centre For Creativity At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/veteran-journalist-pj-baruah-joins-royal-global-university",
+        "title": "Veteran Journalist Pj Baruah Joins Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/lookbook-launched-by-royal-school-of-fashion-design-&-technology",
+        "title": "Lookbook Launched By Royal School Of Fashion Design & Technology",
+        "category": "Page"
+    },
+    {
+        "url": "\/world-environment-day-observed-at-rgu",
+        "title": "World Environment Day Observed At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu",
+        "title": "Bhutan To Strengthen Relations With Institutions In Assam Bhutanese Delegation At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board",
+        "title": "Industry Titan & Former Tata Motors Chief Ravi Kant Joins Rgu Advisory Board",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces",
+        "title": "Rgu Signs Mou With Crpf Offers New Scholarships For Wards Of Security Forces",
+        "category": "Page"
+    },
+    {
+        "url": "\/electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu",
+        "title": "Electric Vehicle Laboratory Skill Development Centre Inaugurated At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru",
+        "title": "Memories And Melodies Echo As Doyens Recall Personal Moments With Kalaguru",
+        "category": "Page"
+    },
+    {
+        "url": "\/ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu",
+        "title": "Ahir Bhairav Musical Gathering For Cultural Enrichment At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/academic-exchange-of-rgu-students-at-krirk-university-bangkok",
+        "title": "Academic Exchange Of Rgu Students At Krirk University Bangkok",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-faculty-awarded-at-icpps-south-korea",
+        "title": "Rgu Faculty Awarded At Icpps South Korea",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu",
+        "title": "Week Long Fdp On Indigenous Knowledge Systems Held At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu",
+        "title": "Sugandhi Pokhilar Kobi Hiren Bhattacharyya Remembered At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/zimbabwe-education-delegation-explores-collaboration-with-royal-global-university",
+        "title": "Zimbabwe Education Delegation Explores Collaboration With Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states",
+        "title": "Rgu Offers Scholarship Opportunities For Wards Of Police Personnel Of 8 Ne States",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-outreach-awareness-on-conservation-of-salamander-habitat",
+        "title": "Rgu Outreach Awareness On Conservation Of Salamander Habitat",
+        "category": "Page"
+    },
+    {
+        "url": "\/a-living-call-to-memory-the-bhupen-hazarika-museum-beckons",
+        "title": "A Living Call To Memory The Bhupen Hazarika Museum Beckons",
+        "category": "Page"
+    },
+    {
+        "url": "\/icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty",
+        "title": "Icmr Awards 3 Start Up Grants Worth Over 1 Crore To Rgu Faculty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/rgu-signs-mou-with-indira-gandhi-national-centre-for-the-arts-ignca-an-autonomous-trust-of-ministry-of-culture-govt-of-india",
+        "title": "Rgu Signs Mou With Indira Gandhi National Centre For The Arts Ignca An Autonomous Trust Of Ministry Of Culture Govt Of India",
+        "category": "Page"
+    },
+    {
+        "url": "\/union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation",
+        "title": "Union Education Minister Dharmendra Pradhan To Grace Rgus 5th Convocation",
+        "category": "Page"
+    },
+    {
+        "url": "\/indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university",
+        "title": "Indian Rupee Symbol Creator Interacts With Design And Architecture Students At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-universitys-21-day-deeksharambh-induction-programme-inaugurated",
+        "title": "Royal Global Universitys 21 Day Deeksharambh Induction Programme Inaugurated",
+        "category": "Page"
+    },
+    {
+        "url": "\/renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university",
+        "title": "Renowned Actor Ravi Sharma Interacts With Freshers At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-student-awarded-funding-grant-by-cern-geneva",
+        "title": "Rgu Student Awarded Funding Grant By Cern Geneva",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-students-gain-learning-exposure-at-inti-international-university",
+        "title": "Rgu Students Gain Learning Exposure At Inti International University",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan",
+        "title": "Royal Global University To Confer Honorary Dsc Degree Upon Dr Trehan",
+        "category": "Page"
+    },
+    {
+        "url": "\/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates",
+        "title": "Synthesis 2025 Innovative Creations Showcased By Rgu Fashion Design And Technology Graduates",
+        "category": "Page"
+    },
+    {
+        "url": "\/apply-critical-thinking-and-creativity-for-a-successful-living-iitg-director-prof-jalihal-to-students-of-rgu",
+        "title": "Apply Critical Thinking And Creativity For A Successful Living Iitg Director Prof Jalihal To Students Of Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/royal-global-university-celebrates-79th-independence-day",
+        "title": "Royal Global University Celebrates 79th Independence Day",
+        "category": "Page"
+    },
+    {
+        "url": "\/500-newly-admitted-students-awarded-scholarships-by-royal-global-university",
+        "title": "500 Newly Admitted Students Awarded Scholarships By Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference",
+        "title": "Aicte Vaani Grant Sanctioned To Rgu For Indian Knowledge Systems Conference",
+        "category": "Page"
+    },
+    {
+        "url": "\/national-leadership-conclave-2025-from-11th-september-at-royal-global-university",
+        "title": "National Leadership Conclave 2025 From 11th September At Royal Global University",
+        "category": "Page"
+    },
+    {
+        "url": "\/former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu",
+        "title": "Former Tata Motors Ceo To Talk On Leading From The Back To Achieve The Impossible At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/regenerate-public-enthusiasm-for-bhupen-hazarika-for-another-century-prof-amarjyoti-choudhury",
+        "title": "Regenerate Public Enthusiasm For Bhupen Hazarika For Another Century Prof Amarjyoti Choudhury",
+        "category": "Page"
+    },
+    {
+        "url": "\/prof-amarjyoti-choudhury-calls-to-reignite-public-enthusiasm-for-bhupen-hazarika-for-another-century",
+        "title": "Prof Amarjyoti Choudhury Calls To Reignite Public Enthusiasm For Bhupen Hazarika For Another Century",
+        "category": "Page"
+    },
+    {
+        "url": "\/industry-stalwarts-ravi-kant-rajesh-srivastava-address-session-at-rgu",
+        "title": "Industry Stalwarts Ravi Kant Rajesh Srivastava Address Session At Rgu",
+        "category": "Page"
+    },
+    {
+        "url": "\/rgu-holds-aicte-vaani-national-conference-in-assamese-language",
+        "title": "Rgu Holds Aicte Vaani National Conference In Assamese Language",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-monalisha-medhi",
+        "title": "Faculty Monalisha Medhi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pranab-sarma",
+        "title": "Faculty Pranab Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-saswati-bordoloi",
+        "title": "Faculty Saswati Bordoloi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tinku",
+        "title": "Faculty Tinku",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abhijit-rajbongshi",
+        "title": "Faculty Abhijit Rajbongshi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hrishikesh-pathak",
+        "title": "Faculty Hrishikesh Pathak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bharati-lap",
+        "title": "Faculty Bharati Lap",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-supriyo-sen",
+        "title": "Faculty Supriyo Sen",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhairab-sarma",
+        "title": "Faculty Bhairab Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-naveen-r-shahi",
+        "title": "Faculty Naveen R Shahi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-smrity-choudhury",
+        "title": "Faculty Smrity Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dillip-rout",
+        "title": "Faculty Dillip Rout",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bidisha-goswami",
+        "title": "Faculty Bidisha Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anurag-barthwal",
+        "title": "Faculty Anurag Barthwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-afsana-laskar",
+        "title": "Faculty Afsana Laskar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-raj",
+        "title": "Faculty Raj",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-vanita-agarwal",
+        "title": "Faculty Vanita Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bishal-podder",
+        "title": "Faculty Bishal Podder",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-diganta-munshi",
+        "title": "Faculty Diganta Munshi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-zunaid-ahmed",
+        "title": "Faculty Zunaid Ahmed",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ankita-goyal-agarwala",
+        "title": "Faculty Ankita Goyal Agarwala",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nayan-jyoti-kalita",
+        "title": "Faculty Nayan Jyoti Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nilakshi-deka",
+        "title": "Faculty Nilakshi Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-spandan-barthakur",
+        "title": "Faculty Spandan Barthakur",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/dr-shwetambara-verma",
+        "title": "Dr Shwetambara Verma",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-deepjyoti-choudhury",
+        "title": "Faculty Deepjyoti Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dipankar-dutta",
+        "title": "Faculty Dipankar Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abhijeet-dey",
+        "title": "Faculty Abhijeet Dey",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-antara-banerjee",
+        "title": "Faculty Antara Banerjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bonisha-borah",
+        "title": "Faculty Bonisha Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-raisa-tamsin-hussain",
+        "title": "Faculty Raisa Tamsin Hussain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rajesh-deb",
+        "title": "Faculty Rajesh Deb",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shehnaz-ara-rahman",
+        "title": "Faculty Shehnaz Ara Rahman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shinjini-paul-choudhury",
+        "title": "Faculty Shinjini Paul Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-krishna-barua",
+        "title": "Faculty Krishna Barua",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dileep-chandan-sarma",
+        "title": "Faculty Dileep Chandan Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pompi-basumatary",
+        "title": "Faculty Pompi Basumatary",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-banani-das-hazarika",
+        "title": "Faculty Banani Das Hazarika",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bornali-bhuyan",
+        "title": "Faculty Bornali Bhuyan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-chandni-khaund",
+        "title": "Faculty Chandni Khaund",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-indrani-singh-rai",
+        "title": "Faculty Indrani Singh Rai",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pankaj-gogoi",
+        "title": "Faculty Pankaj Gogoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pradip-jyoti-mahanta",
+        "title": "Faculty Pradip Jyoti Mahanta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prasant-mali",
+        "title": "Faculty Prasant Mali",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-stuti-goswami",
+        "title": "Faculty Stuti Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pronami-bhattacharyya",
+        "title": "Faculty Pronami Bhattacharyya",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prabuddha-ghosh",
+        "title": "Faculty Prabuddha Ghosh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jasmine-a-choudhury",
+        "title": "Faculty Jasmine A Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bisalakshi-sawarni",
+        "title": "Faculty Bisalakshi Sawarni",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-baishalee-rajkhowa",
+        "title": "Faculty Baishalee Rajkhowa",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-uday-shankar",
+        "title": "Faculty Uday Shankar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-gitarthi-goswami",
+        "title": "Faculty Gitarthi Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-deepa-choudhury",
+        "title": "Faculty Deepa Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhumika-nath",
+        "title": "Faculty Bhumika Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-radhika-sharma",
+        "title": "Faculty Radhika Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dileep-chandan",
+        "title": "Faculty Dileep Chandan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-amlandeep-das",
+        "title": "Faculty Amlandeep Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ayushman-devra",
+        "title": "Faculty Ayushman Devra",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anjali-kumar",
+        "title": "Faculty Anjali Kumar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/Dr-Nandana-Dutta",
+        "title": "Dr Nandana Dutta",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-krutika-madkaiker",
+        "title": "Faculty Krutika Madkaiker",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shweta-das",
+        "title": "Faculty Shweta Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-madhu-vottery",
+        "title": "Faculty Madhu Vottery",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hari-prasad-agarwal",
+        "title": "Faculty Hari Prasad Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jagriti-pathak",
+        "title": "Faculty Jagriti Pathak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-barsha-kunda",
+        "title": "Faculty Barsha Kunda",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-Bhola-Saha",
+        "title": "Faculty Bhola Saha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kasturi-borah",
+        "title": "Faculty Kasturi Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pratyasha-das",
+        "title": "Faculty Pratyasha Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ritu-rani",
+        "title": "Faculty Ritu Rani",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sanchari-kar",
+        "title": "Faculty Sanchari Kar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-mukta-agarwal",
+        "title": "Faculty Dr Mukta Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-Diksha-Dutta",
+        "title": "Faculty Diksha Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-suman-basak",
+        "title": "Faculty Suman Basak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-chayanika-talukdar",
+        "title": "Faculty Chayanika Talukdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rajana-james",
+        "title": "Faculty Rajana James",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ritika-baidya",
+        "title": "Faculty Ritika Baidya",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhaskar-jyoti-dutta",
+        "title": "Faculty Bhaskar Jyoti Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rubina-chowdhury",
+        "title": "Faculty Rubina Chowdhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rajat-subhra-dutta",
+        "title": "Faculty Rajat Subhra Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nayanika-neog",
+        "title": "Faculty Nayanika Neog",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pallab-kumar-nath",
+        "title": "Faculty Pallab Kumar Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bipul-nath",
+        "title": "Faculty Bipul Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pranabesh-sikdar",
+        "title": "Faculty Pranabesh Sikdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kamal-deka",
+        "title": "Faculty Kamal Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-atanu-bhattacharjee",
+        "title": "Faculty Atanu Bhattacharjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/royal-school-of-agriculture",
+        "title": "Royal School Of Agriculture",
+        "category": "Page"
+    },
+    {
+        "url": "\/rsp-student-list",
+        "title": "Rsp Student List",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-anju-das",
+        "title": "Faculty Anju Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ayesha-aktar-khanam",
+        "title": "Faculty Ayesha Aktar Khanam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhaskar-jyoti-pathak",
+        "title": "Faculty Bhaskar Jyoti Pathak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hadiuz-zaman",
+        "title": "Faculty Hadiuz Zaman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mukta-agrawal",
+        "title": "Faculty Mukta Agrawal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-neelakshi-sharma",
+        "title": "Faculty Neelakshi Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nilutpal-hazarika",
+        "title": "Faculty Nilutpal Hazarika",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sudarshana",
+        "title": "Faculty Sudarshana",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prithviraj-chakraborty",
+        "title": "Faculty Prithviraj Chakraborty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-aitilaris",
+        "title": "Faculty Aitilaris",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/himanta-saikia",
+        "title": "Himanta Saikia",
+        "category": "Page"
+    },
+    {
+        "url": "\/moidul-islam",
+        "title": "Moidul Islam",
+        "category": "Page"
+    },
+    {
+        "url": "\/payal-dasgupta",
+        "title": "Payal Dasgupta",
+        "category": "Page"
+    },
+    {
+        "url": "\/sabnam-nargis",
+        "title": "Sabnam Nargis",
+        "category": "Page"
+    },
+    {
+        "url": "\/sumi-barman",
+        "title": "Sumi Barman",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-mandira-basumatary",
+        "title": "Faculty Mandira Basumatary",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bandana-nabis-das",
+        "title": "Faculty Bandana Nabis Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pushkal-baghchie",
+        "title": "Faculty Pushkal Baghchie",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-paul-lalremsang",
+        "title": "Faculty Paul Lalremsang",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-diksha-dutta",
+        "title": "Faculty Diksha Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-parimal-chandra-ray",
+        "title": "Faculty Parimal Chandra Ray",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pratikshya-borah",
+        "title": "Faculty Pratikshya Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dharmeswar-barhoi",
+        "title": "Faculty Dharmeswar Barhoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-demsai-reang",
+        "title": "Faculty Demsai Reang",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abesh-chakraborty",
+        "title": "Faculty Abesh Chakraborty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-benex-k-babu",
+        "title": "Faculty Benex K Babu",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-upashna-chettri",
+        "title": "Faculty Upashna Chettri",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anushree-baruah",
+        "title": "Faculty Anushree Baruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-romeet-saha",
+        "title": "Faculty Romeet Saha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-anirban-banik",
+        "title": "Faculty Dr Anirban Banik",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-pallabi-borah",
+        "title": "Faculty Dr Pallabi Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-pundarikaksha-das",
+        "title": "Faculty Dr Pundarikaksha Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-arvind-dwivedi",
+        "title": "Faculty Arvind Dwivedi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sthiti-dutta",
+        "title": "Faculty Sthiti Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-dominic-j",
+        "title": "Faculty Dr Dominic J",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hirak-jyoti-hazarika",
+        "title": "Faculty Hirak Jyoti Hazarika",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mukutor-rahman",
+        "title": "Faculty Mukutor Rahman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nilanjana-purkayastha",
+        "title": "Faculty Nilanjana Purkayastha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ankita-kalita",
+        "title": "Faculty Ankita Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-manna-debnath",
+        "title": "Faculty Manna Debnath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anindita-dutta",
+        "title": "Faculty Anindita Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jayanta-kumar",
+        "title": "Faculty Jayanta Kumar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tridip-puzari",
+        "title": "Faculty Tridip Puzari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-smita-das",
+        "title": "Faculty Smita Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-lpika-kalita",
+        "title": "Faculty Lpika Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-krishanjit-parasar",
+        "title": "Faculty Krishanjit Parasar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-joyshree-das",
+        "title": "Faculty Joyshree Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhayolina-sarma",
+        "title": "Faculty Bhayolina Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-zomuanpuii",
+        "title": "Faculty Zomuanpuii",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-meghna-guha",
+        "title": "Faculty Meghna Guha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anudeep-kaur",
+        "title": "Faculty Anudeep Kaur",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shagufta-rizwana",
+        "title": "Faculty Shagufta Rizwana",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-robbarts-nongmaithem",
+        "title": "Faculty Robbarts Nongmaithem",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pranati-das",
+        "title": "Faculty Pranati Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jon-jyoti-kalita",
+        "title": "Faculty Jon Jyoti Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jebin-sultana",
+        "title": "Faculty Jebin Sultana",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dipanjali-das",
+        "title": "Faculty Dipanjali Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shyam-sekhar-choudhury",
+        "title": "Faculty Shyam Sekhar Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-haziel-rynjah",
+        "title": "Faculty Haziel Rynjah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-monika-vedraj-jadhav",
+        "title": "Faculty Monika Vedraj Jadhav",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-farnaz-ahmed",
+        "title": "Faculty Farnaz Ahmed",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-vilhoubeinuo-veronica-khruomo",
+        "title": "Faculty Vilhoubeinuo Veronica Khruomo",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-priyanka-bhattacharyya",
+        "title": "Faculty Priyanka Bhattacharyya",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-debjani-das",
+        "title": "Faculty Debjani Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dikshita-rabha",
+        "title": "Faculty Dikshita Rabha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-phurailatpam-jeny-sharma",
+        "title": "Faculty Phurailatpam Jeny Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kangkana-goswami",
+        "title": "Faculty Kangkana Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-madhumita-das",
+        "title": "Faculty Madhumita Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-madhusmita-koch",
+        "title": "Faculty Dr Madhusmita Koch",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pallabi-sarmah",
+        "title": "Faculty Pallabi Sarmah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rohit-sarma",
+        "title": "Faculty Rohit Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-somyata-c-satpathy-sarma",
+        "title": "Faculty Somyata C Satpathy Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-trishna-kakati",
+        "title": "Faculty Trishna Kakati",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-zubin-islam",
+        "title": "Faculty Zubin Islam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-varsha-jain",
+        "title": "Faculty Varsha Jain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sukriti",
+        "title": "Faculty Sukriti",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ameet",
+        "title": "Faculty Ameet",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-thangjam-roshini",
+        "title": "Faculty Thangjam Roshini",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-akriti-mazumdar",
+        "title": "Faculty Akriti Mazumdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-aruniva-bhagawati",
+        "title": "Faculty Aruniva Bhagawati",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-asif-iqbal-mazid",
+        "title": "Faculty Asif Iqbal Mazid",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-gazala-anjum-goney",
+        "title": "Faculty Gazala Anjum Goney",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pubika-michong",
+        "title": "Faculty Pubika Michong",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-suvani-subhadarshini",
+        "title": "Faculty Suvani Subhadarshini",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-aniruddha-chatterjee",
+        "title": "Faculty Aniruddha Chatterjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rupak-kumar-dalai",
+        "title": "Faculty Rupak Kumar Dalai",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mullah-muhaiminul-islam",
+        "title": "Faculty Mullah Muhaiminul Islam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nongthombam-geetmani-singh",
+        "title": "Faculty Nongthombam Geetmani Singh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sachidulal-biswas",
+        "title": "Faculty Sachidulal Biswas",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-binoyargha-dam",
+        "title": "Faculty Binoyargha Dam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-biplob-borah",
+        "title": "Faculty Biplob Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pubalee-sarmah",
+        "title": "Faculty Pubalee Sarmah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sachidulal",
+        "title": "Faculty Sachidulal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anuradha-devi",
+        "title": "Faculty Anuradha Devi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-bapan-kalita",
+        "title": "Faculty Dr Bapan Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-bikram-bir",
+        "title": "Faculty Dr Bikram Bir",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-bimalendu-kalita",
+        "title": "Faculty Dr Bimalendu Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-bornali-chetia",
+        "title": "Faculty Dr Bornali Chetia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-devika-phukan",
+        "title": "Faculty Dr Devika Phukan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dilip-nath",
+        "title": "Faculty Dilip Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-faizuddin-ahmed",
+        "title": "Faculty Faizuddin Ahmed",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-imo-mani-singha",
+        "title": "Faculty Imo Mani Singha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-koushik-saikia",
+        "title": "Faculty Dr Koushik Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-kshetrimayum-renubebeta-devi",
+        "title": "Faculty Dr Kshetrimayum Renubebeta Devi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-laishram-ladu-singh",
+        "title": "Faculty Laishram Ladu Singh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-maidul-islam",
+        "title": "Faculty Dr Maidul Islam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-marbarisha-Kharkongor",
+        "title": "Faculty Marbarisha Kharkongor",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-neelav-sarma",
+        "title": "Faculty Neelav Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-nitu-borgohain",
+        "title": "Faculty Dr Nitu Borgohain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-parismita-phukan",
+        "title": "Faculty Dr Parismita Phukan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-sankar-barman",
+        "title": "Faculty Dr Sankar Barman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/amrit-pal-singh",
+        "title": "Amrit Pal Singh",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-amar-jyoti-borah",
+        "title": "Faculty Amar Jyoti Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bittu-sonowal",
+        "title": "Faculty Bittu Sonowal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kamal-mour",
+        "title": "Faculty Kamal Mour",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/prof-dr-Pradeep",
+        "title": "Prof Dr Pradeep",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-upal-jyoti-baruah",
+        "title": "Faculty Upal Jyoti Baruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hrishikesh",
+        "title": "Faculty Hrishikesh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prachi-khetan",
+        "title": "Faculty Prachi Khetan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-ananya-banik",
+        "title": "Faculty Dr Ananya Banik",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-aruna-dev-roy",
+        "title": "Faculty Dr Aruna Dev Roy",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-baishali-pathak",
+        "title": "Faculty Dr Baishali Pathak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-niva-kalita",
+        "title": "Faculty Dr Niva Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-padum-chetry",
+        "title": "Faculty Dr Padum Chetry",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dr-rajdeep-nag",
+        "title": "Faculty Dr Rajdeep Nag",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-richika-kedia",
+        "title": "Faculty Richika Kedia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rikh-roy",
+        "title": "Faculty Rikh Roy",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-roshni-agarwal",
+        "title": "Faculty Roshni Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sudip-chakraborty",
+        "title": "Faculty Sudip Chakraborty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-susmita-nath",
+        "title": "Faculty Susmita Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dipankar-gogoi",
+        "title": "Faculty Dipankar Gogoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sattyakee-dcom-bhuyan",
+        "title": "Faculty Sattyakee Dcom Bhuyan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-manash-pratim-borah",
+        "title": "Faculty Manash Pratim Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ankit-bordoloi",
+        "title": "Faculty Ankit Bordoloi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/facultyarghadeep-bose",
+        "title": "Facultyarghadeep Bose",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-trishna-changkakati",
+        "title": "Faculty Trishna Changkakati",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pritha-roychowdhury",
+        "title": "Faculty Pritha Roychowdhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-parimita-saikia",
+        "title": "Faculty Parimita Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-debendra-kumar-nayak",
+        "title": "Faculty Debendra Kumar Nayak",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-annesha-borah",
+        "title": "Faculty Annesha Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hibjur-rahaman",
+        "title": "Faculty Hibjur Rahaman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shobhit-pipil",
+        "title": "Faculty Shobhit Pipil",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abhijit-gogoi",
+        "title": "Faculty Abhijit Gogoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-amarjyoti-borah",
+        "title": "Faculty Amarjyoti Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hemangi-deka",
+        "title": "Faculty Hemangi Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-neeta-moni-sharma",
+        "title": "Faculty Neeta Moni Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nishanta-sahariah",
+        "title": "Faculty Nishanta Sahariah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pritom-borah",
+        "title": "Faculty Pritom Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rajdeep-deb",
+        "title": "Faculty Rajdeep Deb",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-roshmi-boruah",
+        "title": "Faculty Roshmi Boruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-palme-borthakur",
+        "title": "Faculty Palme Borthakur",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-subrata-pal",
+        "title": "Faculty Subrata Pal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-angshumi-goswami",
+        "title": "Faculty Angshumi Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-supriya-sikari",
+        "title": "Faculty Supriya Sikari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ajeet-kr-singh",
+        "title": "Faculty Ajeet Kr Singh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dikhyant",
+        "title": "Faculty Dikhyant",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-indrajit-dutta",
+        "title": "Faculty Indrajit Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-piyush-gupta",
+        "title": "Faculty Piyush Gupta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bishnu-gurung",
+        "title": "Faculty Bishnu Gurung",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mukesh-kalita",
+        "title": "Faculty Mukesh Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prabahan-puzari",
+        "title": "Faculty Prabahan Puzari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sajal-nag",
+        "title": "Faculty Sajal Nag",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shiela-bora",
+        "title": "Faculty Shiela Bora",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-soumitra-sen",
+        "title": "Faculty Soumitra Sen",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-susmita-banerjee",
+        "title": "Faculty Susmita Banerjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-syed-sajidul-islam",
+        "title": "Faculty Syed Sajidul Islam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-priyanka-bhattacharjee",
+        "title": "Faculty Priyanka Bhattacharjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-lalnunpuii",
+        "title": "Faculty Lalnunpuii",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ravina-khumanlambam",
+        "title": "Faculty Ravina Khumanlambam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tejoswita-gogoi",
+        "title": "Faculty Tejoswita Gogoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/olivia-kakati",
+        "title": "Olivia Kakati",
+        "category": "Page"
+    },
+    {
+        "url": "\/Prof-dn-singh",
+        "title": "Prof Dn Singh",
+        "category": "Page"
+    },
+    {
+        "url": "\/bachaspatimayum-deeparani-devi",
+        "title": "Bachaspatimayum Deeparani Devi",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-mahuya-deb",
+        "title": "Faculty Mahuya Deb",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prince-cp",
+        "title": "Faculty Prince Cp",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-syeda-anjum-afreen",
+        "title": "Faculty Syeda Anjum Afreen",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-shraddha-basu",
+        "title": "Faculty Shraddha Basu",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tahera-mozumdar",
+        "title": "Faculty Tahera Mozumdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-meghna-bordoloi",
+        "title": "Faculty Meghna Bordoloi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-manisha-choudhury",
+        "title": "Faculty Manisha Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dipayan-das",
+        "title": "Faculty Dipayan Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-taranga-jyoti-baruah",
+        "title": "Faculty Taranga Jyoti Baruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anuj-kumar-borah",
+        "title": "Faculty Anuj Kumar Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhaskarjyoti-gogoi",
+        "title": "Faculty Bhaskarjyoti Gogoi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rupesh-kumar",
+        "title": "Faculty Rupesh Kumar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-birson-ingti",
+        "title": "Faculty Birson Ingti",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rupshikha",
+        "title": "Faculty Rupshikha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-chongtham-singh",
+        "title": "Faculty Chongtham Singh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-anupam-chatterjee",
+        "title": "Faculty Anupam Chatterjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-debajit-borah",
+        "title": "Faculty Debajit Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mousumi-das-goswami",
+        "title": "Faculty Mousumi Das Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-niraj-singh",
+        "title": "Faculty Niraj Singh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pankaj-losan-sharma",
+        "title": "Faculty Pankaj Losan Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-amlan-das",
+        "title": "Faculty Amlan Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-siddhartha-narayan",
+        "title": "Faculty Siddhartha Narayan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prasanta-jyoti-baruah",
+        "title": "Faculty Prasanta Jyoti Baruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bijayata-dutta",
+        "title": "Faculty Bijayata Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dijendra",
+        "title": "Faculty Dijendra",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sharmista-pradhan",
+        "title": "Faculty Sharmista Pradhan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jintu-mahanta",
+        "title": "Faculty Jintu Mahanta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-esha-chakraborty",
+        "title": "Faculty Esha Chakraborty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-suresh-goduka",
+        "title": "Faculty Suresh Goduka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ankita-agarwal",
+        "title": "Faculty Ankita Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-champa-devi",
+        "title": "Faculty Champa Devi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sailendra",
+        "title": "Faculty Sailendra",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kishan-bagdi",
+        "title": "Faculty Kishan Bagdi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mousumi-deka",
+        "title": "Faculty Mousumi Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-suman-saha",
+        "title": "Faculty Suman Saha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sumanta-dutta-chowdhury",
+        "title": "Faculty Sumanta Dutta Chowdhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-syamkumar",
+        "title": "Faculty Syamkumar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-chayasmita-deka",
+        "title": "Faculty Chayasmita Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-karnikaa-bhattacharyya",
+        "title": "Faculty Karnikaa Bhattacharyya",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-victor-narzary",
+        "title": "Faculty Victor Narzary",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-akash-singh-thakur",
+        "title": "Faculty Akash Singh Thakur",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-debangana-baruah",
+        "title": "Faculty Debangana Baruah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-baiarbha-massar",
+        "title": "Faculty Baiarbha Massar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bitopi-dutta",
+        "title": "Faculty Bitopi Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-trishna-mani-thakuria",
+        "title": "Faculty Trishna Mani Thakuria",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-amit-kumar",
+        "title": "Faculty Amit Kumar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pragya-tamang",
+        "title": "Faculty Pragya Tamang",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-dhiraj-kumar-borkotoky",
+        "title": "Faculty Dhiraj Kumar Borkotoky",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-gautam-mazumdar",
+        "title": "Faculty Gautam Mazumdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jugal-kishore-bhattacharyya",
+        "title": "Faculty Jugal Kishore Bhattacharyya",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sanghamitra-hazarika",
+        "title": "Faculty Sanghamitra Hazarika",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-swabera-islam",
+        "title": "Faculty Swabera Islam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-adishree-borgohain",
+        "title": "Faculty Adishree Borgohain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kadiguang-panmei",
+        "title": "Faculty Kadiguang Panmei",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-lalzikpuii-rajkhowa",
+        "title": "Faculty Lalzikpuii Rajkhowa",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tripti-das",
+        "title": "Faculty Tripti Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-susmita-hazarika",
+        "title": "Faculty Susmita Hazarika",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-denim-deka",
+        "title": "Faculty Denim Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-prajna-borah",
+        "title": "Faculty Prajna Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-km-sudha",
+        "title": "Faculty Km Sudha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mir-kamruzzaman",
+        "title": "Faculty Mir Kamruzzaman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-premmi",
+        "title": "Faculty Premmi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tania-begum",
+        "title": "Faculty Tania Begum",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-amlan-das-rshss",
+        "title": "Faculty Amlan Das Rshss",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bikash-chetry",
+        "title": "Faculty Bikash Chetry",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-joyeeta-bhattacharjee",
+        "title": "Faculty Joyeeta Bhattacharjee",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kristi-saikia",
+        "title": "Faculty Kristi Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-priyanka-patowari",
+        "title": "Faculty Priyanka Patowari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abhinav-chaliha",
+        "title": "Faculty Abhinav Chaliha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-monojit-singha",
+        "title": "Faculty Monojit Singha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nikita-biswakarma",
+        "title": "Faculty Nikita Biswakarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sushmita-hoshi-nongmeikapam",
+        "title": "Faculty Sushmita Hoshi Nongmeikapam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tanjeela-mehboob",
+        "title": "Faculty Tanjeela Mehboob",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-momina-zahan",
+        "title": "Faculty Momina Zahan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-jahnavi-bhandari",
+        "title": "Faculty Jahnavi Bhandari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhavana-sharma",
+        "title": "Faculty Bhavana Sharma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-meghna-borah",
+        "title": "Faculty Meghna Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-tikendra-Kumar-sahu",
+        "title": "Faculty Tikendra Kumar Sahu",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-priyanka-diphusha",
+        "title": "Faculty Priyanka Diphusha",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-saranga-ranjan-patgiri",
+        "title": "Faculty Saranga Ranjan Patgiri",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hiya-das",
+        "title": "Faculty Hiya Das",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kuntala-roychoudhury",
+        "title": "Faculty Kuntala Roychoudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pranita-choudhury",
+        "title": "Faculty Pranita Choudhury",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sumit-agarwala",
+        "title": "Faculty Sumit Agarwala",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-saif-rasul-khan",
+        "title": "Faculty Saif Rasul Khan",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-hiren-nath",
+        "title": "Faculty Hiren Nath",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhupali-saikia",
+        "title": "Faculty Bhupali Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-abheeshek-dev-roye",
+        "title": "Faculty Abheeshek Dev Roye",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhabajyoti-saikia",
+        "title": "Faculty Bhabajyoti Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rishabh-goswami",
+        "title": "Faculty Rishabh Goswami",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-roshni-saikia",
+        "title": "Faculty Roshni Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-sampada",
+        "title": "Faculty Sampada",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-manas-pratim",
+        "title": "Faculty Manas Pratim",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-Dipak-jain",
+        "title": "Faculty Dipak Jain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-Nibir-Pratim",
+        "title": "Faculty Nibir Pratim",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-santosh-kumar-anand",
+        "title": "Faculty Santosh Kumar Anand",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-arpee-saikia",
+        "title": "Faculty Arpee Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-george-ap",
+        "title": "Faculty George Ap",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kalyani-gohain",
+        "title": "Faculty Kalyani Gohain",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-neha-tiwari",
+        "title": "Faculty Neha Tiwari",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-priyanka-mahanta",
+        "title": "Faculty Priyanka Mahanta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rishi-chakravarty",
+        "title": "Faculty Rishi Chakravarty",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-suman-agarwal",
+        "title": "Faculty Suman Agarwal",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/barnali-das",
+        "title": "Barnali Das",
+        "category": "Page"
+    },
+    {
+        "url": "\/faculty-sandipta-ghosh",
+        "title": "Faculty Sandipta Ghosh",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-momi-dehingia",
+        "title": "Faculty Momi Dehingia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kaberi-saikia",
+        "title": "Faculty Kaberi Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-doli-deori",
+        "title": "Faculty Doli Deori",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-ankita-sarma",
+        "title": "Faculty Ankita Sarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-aziza-begum",
+        "title": "Faculty Aziza Begum",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-bhanita-barman",
+        "title": "Faculty Bhanita Barman",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-juri-saikia",
+        "title": "Faculty Juri Saikia",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-kangkana-talukdar",
+        "title": "Faculty Kangkana Talukdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-manisha-kalita",
+        "title": "Faculty Manisha Kalita",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-nabajani-dutta",
+        "title": "Faculty Nabajani Dutta",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-noksanglila",
+        "title": "Faculty Noksanglila",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-pankhi-lahkar",
+        "title": "Faculty Pankhi Lahkar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-punam-debbarma",
+        "title": "Faculty Punam Debbarma",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rashmi-rekha-borah",
+        "title": "Faculty Rashmi Rekha Borah",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-rumi-talukdar",
+        "title": "Faculty Rumi Talukdar",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-yumkhaibam",
+        "title": "Faculty Yumkhaibam",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-linda-mawi",
+        "title": "Faculty Linda Mawi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-meghali-deka",
+        "title": "Faculty Meghali Deka",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/faculty-mini-medhi",
+        "title": "Faculty Mini Medhi",
+        "category": "Faculty"
+    },
+    {
+        "url": "\/department-test",
+        "title": "Department Test",
+        "category": "Department"
+    },
+    {
+        "url": "\/department-mathematics-events",
+        "title": "Department Mathematics Events",
+        "category": "Department"
+    },
+    {
+        "url": "\/public-administration-events",
+        "title": "Public Administration Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/social-work-events",
+        "title": "Social Work Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/architecture-events",
+        "title": "Architecture Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/sociology-events",
+        "title": "Sociology Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/history-events",
+        "title": "History Events",
+        "category": "Page"
+    },
+    {
+        "url": "\/program-msc-emergency-critical-care",
+        "title": "Program Msc Emergency Critical Care",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-msc-dialysis",
+        "title": "Programs Msc Dialysis",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-msc-radiography-advance-imaging-tech",
+        "title": "Programs Msc Radiography Advance Imaging Tech",
+        "category": "Page"
+    },
+    {
+        "url": "\/programs-ma-iks",
+        "title": "Programs Ma Iks",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-ba-assamese",
+        "title": "Programme Ba Assamese",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-bsc-agri",
+        "title": "Programme Bsc Agri",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-bsc-food-science",
+        "title": "Programme Bsc Food Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-certi-sanskrit",
+        "title": "Programme Certi Sanskrit",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-ma-assamese",
+        "title": "Programme Ma Assamese",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-mdes-communication-design",
+        "title": "Programme Mdes Communication Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-mdes-fashion-design",
+        "title": "Programme Mdes Fashion Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-mdes-graphic-design",
+        "title": "Programme Mdes Graphic Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-mdes-product-design",
+        "title": "Programme Mdes Product Design",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-msc-agri",
+        "title": "Programme Msc Agri",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-msc-food-science",
+        "title": "Programme Msc Food Science",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-rspes-bpes",
+        "title": "Programme Rspes Bpes",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-b-anaesthesia-ott",
+        "title": "Programme B Anaesthesia Ott",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-b-dialysis-therapy",
+        "title": "Programme B Dialysis Therapy",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-b-emergency-care",
+        "title": "Programme B Emergency Care",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-b-medical-lab-sc",
+        "title": "Programme B Medical Lab Sc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-b-radio-imaging",
+        "title": "Programme B Radio Imaging",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-m-anaesthesia-ott",
+        "title": "Programme M Anaesthesia Ott",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-m-dialysis-therapy",
+        "title": "Programme M Dialysis Therapy",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-m-emergency-care",
+        "title": "Programme M Emergency Care",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-m-medical-lab-sc",
+        "title": "Programme M Medical Lab Sc",
+        "category": "Page"
+    },
+    {
+        "url": "\/programme-m-radio-imaging",
+        "title": "Programme M Radio Imaging",
+        "category": "Page"
+    },
+    {
+        "url": "\/rsp-events-npw-2025",
+        "title": "Rsp Events Npw 2025",
+        "category": "Page"
+    },
+    {
+        "url": "\/botany-botanique-3.0",
+        "title": "Botany Botanique 3.0",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/preface",
+        "title": "Test\/preface",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/jobs",
+        "title": "Test\/jobs",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/recognition",
+        "title": "Test\/recognition",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/governing-body",
+        "title": "Test\/governing Body",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/leadership-team",
+        "title": "Test\/leadership Team",
+        "category": "Page"
+    },
+    {
+        "url": "\/test\/leadership-team-ak-buragohain",
+        "title": "Test\/leadership Team Ak Buragohain",
+        "category": "Page"
+    }
+]

@@ -6,6 +6,75 @@
 @section('meta_keywords', 'Scholarship')
 @section('content')
 
+<!-- Floating Scholarship Button -->
+    <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" class="rgu-floating-scholarship-btn" target="_blank">
+        Apply for Scholarship
+    </a>
+
+    <style>
+        /* Floating Scholarship Button */
+        .rgu-floating-scholarship-btn {
+            position: fixed;
+            right: 25px;
+            bottom: 30px;
+            z-index: 9999;
+
+            background: linear-gradient(135deg, #d95b28, #f27c2b);
+            color: #fff;
+            text-decoration: none;
+
+            padding: 15px 24px;
+            border-radius: 50px;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+
+            box-shadow: 0 8px 25px rgba(217, 91, 40, 0.35);
+
+            transition: all 0.3s ease;
+
+            animation: rguScholarPulse 2s infinite;
+        }
+
+        .rgu-floating-scholarship-btn:hover {
+            color: #fff;
+            text-decoration: none;
+
+            transform: translateY(-3px);
+
+            box-shadow: 0 12px 30px rgba(217, 91, 40, 0.45);
+        }
+
+        @keyframes rguScholarPulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(217, 91, 40, 0.6);
+            }
+
+            70% {
+                transform: scale(1.03);
+                box-shadow: 0 0 0 18px rgba(217, 91, 40, 0);
+            }
+
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(217, 91, 40, 0);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .rgu-floating-scholarship-btn {
+                right: 15px;
+                bottom: 20px;
+
+                padding: 13px 18px;
+                font-size: 14px;
+            }
+        }
+    </style>
+
 
     <!-- only insert these  -->
     <section class="pg-hero">
