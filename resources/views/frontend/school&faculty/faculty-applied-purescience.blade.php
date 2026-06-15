@@ -1092,7 +1092,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Koushik-Saikia-RSAPS.png"
+                                <img src="/mobile-assets/updated-faculty-img/koushik-s.jpg"
                                     alt="Profile image of Dr. Koushik Saikia">
                             </div>
                             <h3 class="card-name">Dr. Koushik Saikia</h3>

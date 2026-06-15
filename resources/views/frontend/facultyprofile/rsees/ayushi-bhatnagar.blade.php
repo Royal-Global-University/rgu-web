@@ -178,14 +178,15 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/koushik-s.jpg" alt="">
+                            <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/Ayushi.png"
+                                alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
                         <div class="faculty-bio-name-pad">
                             <h2 class="faculty-bio-main-name mb-3 pt-5">
-                                Dr. Koushik Saikia
+                                Dr. Ayushi Bhatnagar
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                                 Assistant Professor
@@ -207,7 +208,7 @@
 
                         <div class="faculty-bio-mobile-display">
                             <h2 class="faculty-bio-main-name fw-bold pt-4">
-                                Dr. Koushik Saikia
+                                Dr. Ayushi Bhatnagar
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                                 Assistant Professor
@@ -216,73 +217,41 @@
 
                         <h2 class="faculty-bio-sub-heading">Qualifications</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>PhD: Tezpur University</span></li>
-                            <li><i class="fa fa-circle"></i> <span>PG: Tezpur University</span></li>
-                            <li><i class="fa fa-circle"></i> <span>UG: Dibrugarh University</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Ph.D. (Earth Science) - Banasthali Vidyapith in collaboration with Physical Research Laboratory, Ahmedabad</span></li>
+                            <li><i class="fa fa-circle"></i> <span>M.Sc. Geology (GOLD MEDALIST) - Banasthali Vidyapith, Banasthali, Rajasthan</span></li>
+                            <li><i class="fa fa-circle"></i> <span>B.Sc. Geology - Banasthali Vidyapith, Banasthali, Rajasthan</span></li>
                         </ul>
 
-                        <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
-                        <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>10 Year</span></li>
-                        </ul>
 
                         <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>2 Year</span></li>
+                            <li><i class="fa fa-circle"></i> <span>1 Year</span></li>
                         </ul>
 
                         <h2 class="faculty-bio-sub-heading">Research (outside teaching): </h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>8 Years</span>
+                            <li><i class="fa fa-circle"></i> <span>7 Years</span>
                             </li>
                         </ul>
 
                         <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i><span>Self-assembly of magnetic nanoparticles, Quantum dots for
-                                    bio sensing applications and 2-D nanomaterials.</span></li>
+                            <li><i class="fa fa-circle"></i><span>Sediment Geochemistry, Isotope Geochemistry, Sediment Provenance Studies, Quaternary Geology, Paleoclimate Reconstruction, Paleoenvironmental Change, Fluvial and Coastal Sedimentary Processes</span></li>
                         </ul>
 
 
                         <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
                         <ul class="faculty-bio-info-list">
                             <li><i class="fa fa-circle"></i> <span>National: 1</span></li>
-                            <li><i class="fa fa-circle"></i> <span>International: 14</span></li>
-                        </ul>
+                            <li><i class="fa fa-circle"></i> <span>International: 2 (Q1)</span></li>
 
-                        <h2 class="faculty-bio-sub-heading">Patents Granted:</h2>
-                        <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>1</span></li>
-                        </ul>
 
-                        <h2 class="faculty-bio-sub-heading">Books Published:</h2>
-                        <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>1</span></li>
-                        </ul>
-
-                        <h2 class="faculty-bio-sub-heading">Book Chapter Published:</h2>
-                        <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>2</span></li>
-                        </ul>
-
-                        <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
-                        <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>PI of the NPDF project entitled “Development of novel
-                                    hierarchical magnetic ferrite– semiconductor heterostructures for efficient
-                                    photocatalytic application’ from DST-SERB, Govt. of India
-                                    Amount: Rs. 19,20,000/
-                                    Host institute: Department of Physics, IIT Guwahati.</span></li>
-                            <li><i class="fa fa-circle"></i> <span>Seed Money grant from the Assam Royal Global University for the Academic year 2025-2026.</span></li>
                         </ul>
 
                         <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>Journal Reviewer: Next Nanotechnology, Elsevier</span></li>
-                            <li><i class="fa fa-circle"></i> <span>Memberships</span></li>
-                            <li><span>(a) Life member of Indian Association of Physics Teacher (IAPT)</span></li>
-                            <li><span>(b) Life member of Neutron Scattering Society of India (NSSI)</span></li>
-                            <li><i class="fa fa-circle"></i> <span>Received grants from the Department of Science and Technology (DST) to Photon Factory, Institute of Materials Structure Science, KEK, Tsukuba, Japan during 13th to 20th   December, 2015 and PETRA III research laboratory, DESY, Hamburg, Germany in the period from 29th November to 4th December, 2016 for conducting experiments at synchrotron X-ray beamlines.</span></li>
-                            <li><i class="fa fa-circle"></i> <span>Received the Best poster presentation award from Neutron Society of India at 5th Conference on Neutron scattering (CNS-2016) held at Homi Bhabha Centre for Science Education, Mumbai, India during 2-5th February 2015.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Best Paper awards in various national and international scientific forums.</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Gold Medalist in M.Sc. (Geology)</span></li>
                         </ul>
 
                     </div>

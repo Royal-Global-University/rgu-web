@@ -4775,6 +4775,10 @@ Route::get('/faculty-ankit-bordoloi', function () {
 
 //RSEES Faculty Profile
 
+Route::get('/faculty-ayushi-bhatnagar', function () {
+    return view('frontend/facultyprofile/rsees/ayushi-bhatnagar');
+})->name('faculty-ayushi-bhatnagar');
+
 Route::get('/facultyarghadeep-bose', function () {
     return view('frontend/facultyprofile/rsees/arghadeep-bose');
 })->name('faculty-arghadeep-bose');

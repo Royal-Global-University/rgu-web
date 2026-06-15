@@ -293,7 +293,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Ayushi Bhatnagar</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                {{-- <a href="https://www.rgu.ac/faculty-abhijit-gogoi" class="profile-link">View Profile</a> --}}
+                                <a href="/faculty-ayushi-bhatnagar" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -546,7 +546,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/Koushik-Saikia-RSAPS.png" alt="">
+                                    <img src="/mobile-assets/updated-faculty-img/koushik-s.jpg" alt="">
                                 </div>
                                 <h3 class="card-name">Dr. Koushik Saikia</h3>
                                 <p class="card-designation">Assistant Professor</p>
