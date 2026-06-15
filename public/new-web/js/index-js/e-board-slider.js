@@ -33,7 +33,6 @@ const eboardSlider = document.getElementById("eboardSlider");
 let eboardCards = [];
 let eboardDots = [];
 
-
 /* ===== CREATE CARDS ===== */
 
 eboardData.forEach((item, index) => {
