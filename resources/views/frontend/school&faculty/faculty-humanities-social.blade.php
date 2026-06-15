@@ -1,8 +1,5 @@
 @extends('frontend.master')
 @section('title', 'Best University in Assam, India')
-@section('meta_description',
-    'Meet RGU Department of Sociology faculty, including Prof. S.C. Mukhopadhyay and Dr. Denim
-    Deka. View full profiles, publications, and research interests in Sociology and Culture Studies.')
 @section('meta_keywords', 'RGU Department of Sociology faculty')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
@@ -115,20 +112,6 @@
 
 
                 <div class="row justify-content-center">
-
-                    {{-- <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Prof-Surajit-Mukhopadhyay..png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
-                                Director, Centre for Inter-Disciplinary Research</p>
-                            <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div> --}}
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -774,23 +757,6 @@
                         Department of Sociology</h2>
                 </div>
                 <!-- Sociology  -->
-
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Prof-Surajit-Mukhopadhyay..png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
-                            <p class="card-designation">Professor & Director, Centre for Inter-Disciplinary Research</p>
-                            <a href="/faculty-surajit-c-mukhopadhyay" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                </div>
 
                 <div class="row justify-content-center">
 
