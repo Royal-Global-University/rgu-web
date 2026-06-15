@@ -370,7 +370,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/Jyoti Bikash Kalita.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Jyoti Bikash Kalita</h3>
@@ -454,7 +454,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/Rafikul Islam.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Rafikul Islam</h3>
@@ -466,7 +466,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/Rahul Amin.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Rahul Amin</h3>
@@ -574,7 +574,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/N Kimneiniang.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. N Kimneiniang</h3>
@@ -598,7 +598,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/Shahin Diddik.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Shahin Siddik</h3>
@@ -610,7 +610,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/Sonu Kumar Thakur.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Sonu Kumar Thakur</h3>
