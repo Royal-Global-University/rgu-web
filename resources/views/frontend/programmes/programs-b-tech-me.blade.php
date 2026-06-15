@@ -74,7 +74,7 @@
                             </ol>
 
                             <p class="mobile-headd3 fw-bold text-dark">B.) Programmes fee to be paid Yearly / semester
-                                payment for New Students 2025-26
+                                payment for New Students 2026-27
                             </p>
 
                             <ol class="mobile-para1 text-dark">
@@ -276,7 +276,7 @@
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
-                            Students 2025-26</p>
+                            Students 2026-27</p>
                         <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 180000.00)</p>
                         <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 91500.00)</p>
                     </div>

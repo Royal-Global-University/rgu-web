@@ -268,7 +268,7 @@
                         </p>
 
                         <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-                            B.) Programmes fee to be paid Yearly / semester payment for New Students 2025-26
+                            B.) Programmes fee to be paid Yearly / semester payment for New Students 2026-27
                         </h2>
 
                         <p class="mobile-para1 text-dark">

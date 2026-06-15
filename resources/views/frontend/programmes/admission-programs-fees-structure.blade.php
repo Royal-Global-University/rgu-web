@@ -1,7 +1,7 @@
 @extends('frontend.master')
-@section('title', 'RGU Fees Structure 2025-26: Course Cost, Admission & Semester Fees')
+@section('title', 'RGU Fees Structure 2026-27: Course Cost, Admission & Semester Fees')
 @section('meta_description',
-    'RGU Fees 2025-26: Check Registration & Admission Fees (Paid Once) and Yearly/Semester
+    'RGU Fees 2026-27: Check Registration & Admission Fees (Paid Once) and Yearly/Semester
     Payment for B.Tech, MBA, BBA, B.Pharm. View Full Cost & Apply Now')
 @section('meta_keywords', 'Course fee')
 @section('content')

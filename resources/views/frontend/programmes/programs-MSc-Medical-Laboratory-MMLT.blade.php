@@ -77,7 +77,7 @@
                             </ol>
 
                             <p class="mobile-headd3 fw-bold text-dark">B.) Programmes fee to be paid Yearly / semester
-                                payment for New Students 2025-26
+                                payment for New Students 2026-27
                             </p>
 
                             <ol class="mobile-para1 text-dark">
@@ -277,7 +277,7 @@
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
-                            Students 2025-26</p>
+                            Students 2026-27</p>
                         <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 85000.00)</p>
                         <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 43500.00)</p>
                     </div>
@@ -296,7 +296,7 @@
                     <div class="card-body text-center">
                         <img class="rounded shadow" src="assets/img/File/brochurethumb.png">
                         <p class="text-dark pt-2 fw-bold m-0"><a
-                                href="mobile-assets/Domestic/brochure for web_compressed-min.pdf">Brochure 2025-26<i
+                                href="mobile-assets/Domestic/brochure for web_compressed-min.pdf">Brochure 2026-27<i
                                     class="fas fa-download ms-2"></i></a>
                         </p>
                     </div>
