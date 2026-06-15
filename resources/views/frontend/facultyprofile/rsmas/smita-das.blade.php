@@ -217,7 +217,9 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Optometry</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D (Pursuing) - Assam Downtown University</span></li>
+              <li><i class="fa fa-circle"></i> <span>M. Optm. - NSHM, WBUT</span></li>
+              <li><i class="fa fa-circle"></i> <span>B. Optm. - NIMS, NIMS University</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Total Experience:</h2>

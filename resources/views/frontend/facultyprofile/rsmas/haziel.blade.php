@@ -55,6 +55,15 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
+                                            Ph.D (Pursuing) - The Assam Royal Global University
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
                                             Master of Optometry, Sushant university, Gurgaon, Haryana
                                         </span>
                                     </li>
@@ -241,6 +250,14 @@
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Ph.D (Pursuing) - The Assam Royal Global University
+                                    </span>
+                                </li>
 
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
