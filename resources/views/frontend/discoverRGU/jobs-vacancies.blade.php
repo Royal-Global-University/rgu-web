@@ -1110,16 +1110,12 @@
 
               <div class="rgu-jb-ad-card">
 
-                <img src="/mobile-assets/ads/ads-3.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                <img src="/mobile-assets/ads/16-ads.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
                   onclick="openRGUAd(this.src)">
 
               </div>
 
             </div>
-
-
-
-
           </div>
 
         </div>
