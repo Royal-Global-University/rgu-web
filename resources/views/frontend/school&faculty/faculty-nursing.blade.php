@@ -155,6 +155,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Geeta.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Geeta Dutta</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-punam-debbarma" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsn/aziza.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Aziza Begum</h3>
