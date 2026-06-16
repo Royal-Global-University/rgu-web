@@ -46,9 +46,17 @@
                 @php
                     $newsItems = [
                         [
-                            'title' => 'Sangeet Natak Akademi awardee Bhaskar Jyoti Ojah felicitated by Royal Global University',
+                            'title' => 'Nagaland Police Signs MoU with Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, June 16, 2026:',
+                            'link' => '/nagaland-police-signs-mou-with-royal-global-university',
+                            'image' => '/mobile-assets/ads/5-16/16-1.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Nagaland Police today in a significant step towards expanding educational opportunities for the families of police personnel. The agreement was formalised at the Office of the Director General of Police in Kohima in the presence of senior officials from Nagaland Police and RGU.',
+                        ],
+                        [
+                            'title' => 'Sangeet Natak Akademi awardee Bhaskar Jyoti Ojah felicitated by Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 12, 2026:',
                             'link' => '/sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/1211.jpeg',
                             'content' => 'Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) has felicitated noted Sattriya music composer and percussionist Bhaskar Jyoti Ojah at the University campus today on receiving the prestigious Sangeet Natak Akademi Award 2025 for his outstanding contribution to Music Composition in Sattriya Dance.',

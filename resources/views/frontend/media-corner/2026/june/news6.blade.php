@@ -29,7 +29,7 @@
             </div>
 
             <p class="para1 text-dark pt-2">
-                <span class="fw-bold"> GUWAHATI, June 16, 2026: </span>
+                <span class="fw-bold"> GUWAHATI, June 12, 2026: </span>
                 Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) has felicitated noted
                 Sattriya music composer and percussionist Bhaskar Jyoti Ojah at the University campus today on receiving the
                 prestigious Sangeet Natak Akademi Award 2025 for his outstanding contribution to Music Composition in

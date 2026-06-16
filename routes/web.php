@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/nagaland-police-signs-mou-with-royal-global-university', function () {
+    return view('frontend/media-corner/2026/june/news7');
+})->name('nagaland-police-signs-mou-with-royal-global-university');
+
 Route::get('/sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university', function () {
     return view('frontend/media-corner/2026/june/news6');
 })->name('sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university');
