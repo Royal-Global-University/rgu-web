@@ -4154,6 +4154,10 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
+Route::get('/faculty-monawara-begum', function () {
+    return view('frontend/facultyprofile/rsp/monawara-begum');
+})->name('faculty-monawara-begum');
+
 Route::get('/faculty-suman-basak', function () {
     return view('frontend/facultyprofile/rsp/suman-basak');
 })->name('faculty-suman-basak');
