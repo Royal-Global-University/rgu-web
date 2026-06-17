@@ -5101,6 +5101,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-rinreichon', function () {
+    return view('frontend/facultyprofile/rshss/rinreichon');
+})->name('faculty-rinreichon');
+
 Route::get('/faculty-rugmini-devi-m', function () {
     return view('frontend/facultyprofile/rshss/rugmini-devi-m');
 })->name('faculty-rugmini-devi-m');

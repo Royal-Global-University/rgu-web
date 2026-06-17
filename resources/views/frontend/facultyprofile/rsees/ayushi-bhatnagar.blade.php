@@ -178,7 +178,7 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/Ayushi.png"
+                            <img class="faculty-bio-img" style="height: 450px; width: 400px;" src="/mobile-assets/updated-faculty-img/Ayushi.png"
                                 alt="">
                         </div>
                     </div>
