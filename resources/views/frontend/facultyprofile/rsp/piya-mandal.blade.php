@@ -189,7 +189,7 @@
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
                             <img class="faculty-bio-img" style="height: 300px; width: 300px;"
-                                src="https://rgu.ac/mobile-assets/updated-faculty-img/Piya%20Mandal-%20website.png"
+                                src="/mobile-assets/updated-faculty-img/Piya Mandal- website.png"
                                 alt="">
                         </div>
                     </div>
