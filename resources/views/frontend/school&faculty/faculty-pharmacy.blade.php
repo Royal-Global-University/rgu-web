@@ -591,7 +591,7 @@
                             </div>
                             <h3 class="card-name">Ms. Piya Mandal</h3>
                             <p class="card-designation">Lecturer</p>
-                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-piya-mandal" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
