@@ -5272,6 +5272,10 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 //RSLA Facuilty Profile
 
+Route::get('/faculty-kavita-k-jain', function () {
+    return view('frontend/facultyprofile/rsla/kavita-k-jain');
+})->name('faculty-kavita-k-jain');
+
 Route::get('/faculty-momina-zahan', function () {
     return view('frontend/facultyprofile/rsla/momina-zahan');
 })->name('faculty-momina-zahan');

@@ -172,7 +172,7 @@
                             </div>
                             <h3 class="card-name">Dr. Kavita Kumari Jain</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="/faculty-momina-zahan" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-kavita-k-jain" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
