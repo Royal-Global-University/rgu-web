@@ -281,8 +281,8 @@
                                 </div>
                                 <h3 class="card-name">Mr. Subarna Sankar Das</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                {{-- <a href="https://www.rgu.ac/faculty-phurailatpam-jeny-sharma" class="profile-link">View
-                                    Profile</a> --}}
+                                <a href="/faculty-subarna-sankar-das" class="profile-link">View
+                                    Profile</a>
                             </div>
                         </div>
 

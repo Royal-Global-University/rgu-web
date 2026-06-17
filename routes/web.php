@@ -4386,6 +4386,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-subarna-sankar-das', function () {
+    return view('frontend/facultyprofile/rsmas/subarna-sankar-das');
+})->name('faculty-subarna-sankar-das');
+
 Route::get('/faculty-ankita-kalita', function () {
     return view('frontend/facultyprofile/rsmas/ankita-kalita');
 })->name('faculty-ankita-kalita');
