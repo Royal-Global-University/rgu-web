@@ -4262,10 +4262,6 @@ Route::get('/faculty-dr-mukta-agarwal', function () {
     return view('frontend/facultyprofile/rsp/mukta');
 })->name('faculty-dr-mukta-agarwal');
 
-Route::get('/faculty-prithviraj-chakraborty', function () {
-    return view('frontend/facultyprofile/rsp/prithviraj-chakraborty');
-})->name('faculty-dprithviraj-chakraborty');
-
 Route::get('/faculty-aitilaris', function () {
     return view('frontend/facultyprofile/rsp/aitilaris');
 })->name('faculty-aitilaris');
@@ -4660,10 +4656,6 @@ Route::get('/faculty-imo-mani-singha', function () {
 Route::get('/faculty-dr-koushik-saikia', function () {
     return view('frontend/facultyprofile/rsaps/koushik-saikia');
 })->name('faculty-dr-koushik-saikia');
-
-Route::get('/faculty-dr-kshetrimayum-renubebeta-devi', function () {
-    return view('frontend/facultyprofile/rsaps/kshetrimayum');
-})->name('faculty-dr-kshetrimayum-renubebeta-devi');
 
 Route::get('/faculty-laishram-ladu-singh', function () {
     return view('frontend/facultyprofile/rsaps/ladu-singh');

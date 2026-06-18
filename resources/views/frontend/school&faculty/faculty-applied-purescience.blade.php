@@ -276,19 +276,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Kshetrimayum-Renubebeta-Devi.jpeg"
-                                    alt="Profile image of Dr. Kshetrimayum Devi">
-                            </div>
-                            <h3 class="card-name">Dr. Kshetrimayum Renubebeta Devi</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-kshetrimayum-renubebeta-devi" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Marbarisha%20M%20Kharkongor-RSAPS.png"
                                     alt="Profile image of Dr. Marbarisha Kharkongor">
                             </div>

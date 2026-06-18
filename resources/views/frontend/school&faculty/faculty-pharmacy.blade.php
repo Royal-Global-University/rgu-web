@@ -121,19 +121,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Prithviraj Chakraborty</h3>
-                            <p class="card-designation">Professor & Principal/HOD</p>
-                            <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
                     <!-- Professor & Joint CoE -->
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -157,18 +144,6 @@
                             <h3 class="card-name">Prof. Bipul Nath</h3>
                             <p class="card-designation">Professor</p>
                             <a href="/faculty-bipul-nath" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debarupa-Dutta-Chakraborty-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Debarupa Dutta Chakraborty</h3>
-                            <p class="card-designation">Professor & Associate Dean, Academic Affairs</p>
-                            <a href="https://www.rgu.ac/faculty-debapurba" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
