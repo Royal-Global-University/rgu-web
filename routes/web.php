@@ -3269,6 +3269,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes', function () {
+    return view('frontend/media-corner/2026/june/news8');
+})->name('rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes');
+
 Route::get('/nagaland-police-signs-mou-with-royal-global-university', function () {
     return view('frontend/media-corner/2026/june/news7');
 })->name('nagaland-police-signs-mou-with-royal-global-university');

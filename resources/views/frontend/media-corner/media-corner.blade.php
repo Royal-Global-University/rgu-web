@@ -46,6 +46,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes',
+                            'summary' => 'The voices of Assam’s cultural trinity gave society self-consciousness and dignity: Prof. Bijoy H. Boruah at RGU',
+                            'date' => 'Guwahati, June 18, 2026:',
+                            'link' => '/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes',
+                            'image' => '/mobile-assets/media-corner/2026/jun/181.jpeg',
+                            'content' => 'The Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) today organized a
+                special literary and cultural programme at Jyoti Mancha to mark the publication and launch of two
+                commemorative volumes...',
+                        ],
+                        [
                             'title' => 'Nagaland Police Signs MoU with Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, June 16, 2026:',

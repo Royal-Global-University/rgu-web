@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, June 18, 2026",
+            title: "RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes",
+            desc: "The voices of Assam’s cultural trinity gave society self-consciousness and dignity: Prof. Bijoy H. Boruah at RGU",
+            img: "/mobile-assets/media-corner/2026/jun/181.jpeg",
+            link: "/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes",
+        },
+        {
             date: "Guwahati, June 16, 2026",
             title: "Nagaland Police Signs MoU with Royal Global University",
             desc: "The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Nagaland Police today in a significant step towards expanding educational opportunities for the families of police personnel. The agreement was formalised at the Office of the Director General of Police in Kohima in the presence of senior officials from Nagaland Police and RGU.",
