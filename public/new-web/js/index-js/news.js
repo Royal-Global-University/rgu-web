@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             date: "Guwahati, June 18, 2026",
             title: "RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes",
-            desc: "The voices of Assam’s cultural trinity gave society self-consciousness and dignity: Prof. Bijoy H. Boruah at RGU",
+            desc: "The Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) today organized a special literary and cultural programme at Jyoti Mancha to mark the publication and launch of two commemorative volumes titled “Jyoti Prasad Agarwala: Twenty Songs and Seven Portraits” and “Bishnu Prasad Rava: Twenty Songs and Seven Portraits.",
             img: "/mobile-assets/media-corner/2026/jun/181.jpeg",
             link: "/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes",
         },
