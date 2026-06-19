@@ -166,17 +166,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rsaps/3.jpg" alt="Profile image of Prof. Ladu Laishram">
-                            </div>
-                            <h3 class="card-name">Prof. Ladu Laishram</h3>
-                            <p class="card-designation">Professor Emeritus</p>
-                            <a href="https://www.rgu.ac/faculty-laishram-ladu-singh" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsaps/4.jpg"
                                     alt="Profile image of Prof. Amarendra Rajput">
                             </div>
@@ -224,18 +213,6 @@
                             <a href="https://www.rgu.ac/faculty-dilip-nath" class="profile-link">View Profile</a>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rsaps/3.jpg" alt="Profile image of Prof. Ladu Laishram">
-                            </div>
-                            <h3 class="card-name">Prof. Ladu Laishram</h3>
-                            <p class="card-designation">Professor Emeritus</p>
-                            <a href="https://www.rgu.ac/faculty-laishram-ladu-singh" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
