@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, June 21, 2026",
+            title: "Guwahati Royals unveiled at Assam Premier League launch",
+            desc: "Guwahati Royals, a Royal Group initiative, was officially unveiled today as one of the eight participating franchises of the inaugural Assam Premier League during a launch ceremony organised by the Assam Cricket Association at the ACA Stadium in Barsapara.",
+            img: "/mobile-assets/media-corner/2026/jun/news10-1.jpeg",
+            link: "/guwahati-royals-unveiled-at-assam-premier-league-launch",
+        },
+        {
             date: "Guwahati, June 18, 2026",
             title: "RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes",
             desc: "The Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) today organized a special literary and cultural programme at Jyoti Mancha to mark the publication and launch of two commemorative volumes titled “Jyoti Prasad Agarwala: Twenty Songs and Seven Portraits” and “Bishnu Prasad Rava: Twenty Songs and Seven Portraits.",

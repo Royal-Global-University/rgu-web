@@ -3269,6 +3269,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/guwahati-royals-unveiled-at-assam-premier-league-launch', function () {
+    return view('frontend/media-corner/2026/june/news10');
+})->name('guwahati-royals-unveiled-at-assam-premier-league-launch');
+
+Route::get('/royal-global-university-honoured-as-most-eminent-university-of-north-east-india-at-education-eminence-awards-2026', function () {
+    return view('frontend/media-corner/2026/june/news9');
+})->name('royal-global-university-honoured-as-most-eminent-university-of-north-east-india-at-education-eminence-awards-2026');
+
 Route::get('/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes', function () {
     return view('frontend/media-corner/2026/june/news8');
 })->name('rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes');

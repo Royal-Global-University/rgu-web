@@ -46,10 +46,33 @@
                 @php
                     $newsItems = [
                         [
-                            'title' => 'RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes',
-                            'summary' => 'The voices of Assam’s cultural trinity gave society self-consciousness and dignity: Prof. Bijoy H. Boruah at RGU',
+                            'title' =>
+                                'Royal Global University Honoured as “Most Eminent University of North East India” at Education Eminence Awards 2026',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, June 21, 2026:',
+                            'link' => '/guwahati-royals-unveiled-at-assam-premier-league-launch',
+                            'image' => '/mobile-assets/media-corner/2026/jun/news10-1.jpeg',
+                            'content' => 'In a significant recognition of its outstanding contribution to higher education, The Assam Royal Global University (RGU) has been conferred the prestigious “Most Eminent University of North East India”...',
+                        ],
+                        [
+                            'title' =>
+                                'Royal Global University Honoured as “Most Eminent University of North East India” at Education Eminence Awards 2026',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, June 21, 2026:',
+                            'link' => '/royal-global-university-honoured-as-most-eminent-university-of-north-east-india-at-education-eminence-awards-2026',
+                            'image' => '/mobile-assets/media-corner/2026/jun/news-9.jpeg',
+                            'content' => 'In a significant recognition of its outstanding contribution to higher education, The Assam Royal Global University (RGU) has been conferred the prestigious “Most Eminent University of North East India”...',
+                        ],
+                        [
+                            'title' =>
+                                'RGU celebrates the spirit of Jyoti Prasad Agarwala and Bishnu Prasad Rava by launching commemorative volumes',
+                            'summary' =>
+                                'The voices of Assam’s cultural trinity gave society self-consciousness and dignity: Prof. Bijoy H. Boruah at RGU',
                             'date' => 'Guwahati, June 18, 2026:',
-                            'link' => '/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes',
+                            'link' =>
+                                '/rgu-celebrates-the-spirit-of-jyoti-prasad-agarwala-and-bishnu-prasad-rava-by-launching-commemorative-volumes',
                             'image' => '/mobile-assets/media-corner/2026/jun/181.jpeg',
                             'content' => 'The Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) today organized a
                 special literary and cultural programme at Jyoti Mancha to mark the publication and launch of two
@@ -61,23 +84,31 @@
                             'date' => 'Guwahati, June 16, 2026:',
                             'link' => '/nagaland-police-signs-mou-with-royal-global-university',
                             'image' => '/mobile-assets/ads/5-16/16-1.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Nagaland Police today in a significant step towards expanding educational opportunities for the families of police personnel. The agreement was formalised at the Office of the Director General of Police in Kohima in the presence of senior officials from Nagaland Police and RGU.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Nagaland Police today in a significant step towards expanding educational opportunities for the families of police personnel. The agreement was formalised at the Office of the Director General of Police in Kohima in the presence of senior officials from Nagaland Police and RGU.',
                         ],
                         [
-                            'title' => 'Sangeet Natak Akademi awardee Bhaskar Jyoti Ojah felicitated by Royal Global University',
+                            'title' =>
+                                'Sangeet Natak Akademi awardee Bhaskar Jyoti Ojah felicitated by Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, June 12, 2026:',
-                            'link' => '/sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university',
+                            'link' =>
+                                '/sangeet-natak-akademi-awardee-bhaskar-jyoti-ojah-felicitated-by-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/1211.jpeg',
-                            'content' => 'Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) has felicitated noted Sattriya music composer and percussionist Bhaskar Jyoti Ojah at the University campus today on receiving the prestigious Sangeet Natak Akademi Award 2025 for his outstanding contribution to Music Composition in Sattriya Dance.',
+                            'content' =>
+                                'Dr. Bhupen Hazarika Centre for Creativity of The Assam Royal Global University (RGU) has felicitated noted Sattriya music composer and percussionist Bhaskar Jyoti Ojah at the University campus today on receiving the prestigious Sangeet Natak Akademi Award 2025 for his outstanding contribution to Music Composition in Sattriya Dance.',
                         ],
                         [
-                            'title' => 'NEC Secretary Inaugurates Agricultural Sciences Laboratories at Royal Global University',
-                            'summary' => 'Agricultural Laboratories at RGU to Boost Development of NE Region: NEC Secretary',
+                            'title' =>
+                                'NEC Secretary Inaugurates Agricultural Sciences Laboratories at Royal Global University',
+                            'summary' =>
+                                'Agricultural Laboratories at RGU to Boost Development of NE Region: NEC Secretary',
                             'date' => 'Guwahati, June 10, 2026:',
-                            'link' => '/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university',
+                            'link' =>
+                                '/nec-secretary-inaugurates-agricultural-sciences-laboratories-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/jun/2.jpeg',
-                            'content' => 'In a significant boost to agricultural education and research in the region, Sri S. K. Bhalla, Secretary, North Eastern Council (NEC), Government of India, Ministry of Development of North Eastern Region (DoNER)...',
+                            'content' =>
+                                'In a significant boost to agricultural education and research in the region, Sri S. K. Bhalla, Secretary, North Eastern Council (NEC), Government of India, Ministry of Development of North Eastern Region (DoNER)...',
                         ],
                         [
                             'title' => 'Royal Global University Inks Pact with Sashastra Seema Bal in New Delhi',
@@ -85,7 +116,8 @@
                             'date' => 'Guwahati, June 8, 2026:',
                             'link' => '/royal-global-university-inks-pact-with-sashastra-seema-bal-in-new-delhi',
                             'image' => '/mobile-assets/ads/5-16/MoU.jpeg',
-                            'content' => 'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University (RGU) today signed a landmark Memorandum of Understanding (MoU) with the Sashastra Seema Bal (SSB) at the Director General Headquarters, East Block-V, R.K. Puram, New Delhi.',
+                            'content' =>
+                                'In a significant step towards strengthening its commitment to nation-building through education, The Assam Royal Global University (RGU) today signed a landmark Memorandum of Understanding (MoU) with the Sashastra Seema Bal (SSB) at the Director General Headquarters, East Block-V, R.K. Puram, New Delhi.',
                         ],
                         [
                             'title' => 'Royal Global University observes World Environment Day',
@@ -93,15 +125,19 @@
                             'date' => 'Guwahati, June 5, 2026:',
                             'link' => '/royal-global-university-observes-world-environment-day',
                             'image' => '/mobile-assets/media-corner/2026/jun/1/1.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) observed World Environment Day with great enthusiasm and commitment through a series of awareness and community engagement activities.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) observed World Environment Day with great enthusiasm and commitment through a series of awareness and community engagement activities.',
                         ],
                         [
-                            'title' => 'RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level',
+                            'title' =>
+                                'RGU Pharmacy Students Shine at Pharma Anveshan 2026, to Represent Assam at National Level',
                             'summary' => '',
                             'date' => 'Guwahati, June 4, 2026:',
-                            'link' => '/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level',
+                            'link' =>
+                                '/rgu-pharmacy-students-shine-at-pharma-anveshan-2026-to-represent-assam-at-national-level',
                             'image' => '/mobile-assets/media-corner/2026/jun/pra-1.jpeg',
-                            'content' => 'Two M. Pharm (Pharmacognosy Branch) students of the Royal School of Pharmacy, The Assam Royal Global University (RGU), brought laurels to the university by securing the State-Level 2nd Winner position at Pharma Anveshan 2026, Northeast Zone, held at Assam Down Town University recently. The achiever students are Ananya Saha and Tado Puning.',
+                            'content' =>
+                                'Two M. Pharm (Pharmacognosy Branch) students of the Royal School of Pharmacy, The Assam Royal Global University (RGU), brought laurels to the university by securing the State-Level 2nd Winner position at Pharma Anveshan 2026, Northeast Zone, held at Assam Down Town University recently. The achiever students are Ananya Saha and Tado Puning.',
                         ],
                         [
                             'title' => 'Royal Global University Proceeds with FYUGP',
@@ -109,23 +145,30 @@
                             'date' => 'Guwahati, May 30, 2026:',
                             'link' => '/royal-global-university-proceeds-with-fyugp',
                             'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU), the premiere higher education institution in the North-east India is all set for full implementation of the NEP 2020 with students joining the final year programme under the Four-Year Undergraduate Programme (FYUGP).',
+                            'content' =>
+                                'The Assam Royal Global University (RGU), the premiere higher education institution in the North-east India is all set for full implementation of the NEP 2020 with students joining the final year programme under the Four-Year Undergraduate Programme (FYUGP).',
                         ],
                         [
-                            'title' => 'Royal Global University & Tea Board of India jointly celebrates International Tea Day',
+                            'title' =>
+                                'Royal Global University & Tea Board of India jointly celebrates International Tea Day',
                             'summary' => '',
                             'date' => 'Guwahati, May 25, 2026:',
-                            'link' => '/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day',
+                            'link' =>
+                                '/royal-global-university-tea-board-of-india-jointly-celebrates-international-tea-day',
                             'image' => '/mobile-assets/media-corner/2026/26/2.jpeg',
-                            'content' => 'The Assam Royal Global University, in collaboration with the Tea Board of India, has recently celebrated International Tea Day 2026 with great enthusiasm and participation from students, faculty members, and distinguished guests. The celebration was conducted in accordance with this year’s International Tea Day theme...',
+                            'content' =>
+                                'The Assam Royal Global University, in collaboration with the Tea Board of India, has recently celebrated International Tea Day 2026 with great enthusiasm and participation from students, faculty members, and distinguished guests. The celebration was conducted in accordance with this year’s International Tea Day theme...',
                         ],
                         [
-                            'title' => 'RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi',
+                            'title' =>
+                                'RGU hosts 12th Edition of Kala Samvad in collaboration with Sangeet Natak Akademi',
                             'summary' => '',
                             'date' => 'Guwahati, May 22, 2026:',
-                            'link' => '/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi',
+                            'link' =>
+                                '/rgu-hosts-12th-edition-of-kala-samvad-in-collaboration-with-sangeet-natak-akademi',
                             'image' => '/mobile-assets/media-corner/2026/22/2.jpeg',
-                            'content' => 'The Sangeet Natak Akademi, Ministry of Culture, Govt of India New Delhi in association with The Department of English, Royal School of Languages has organied the 12th edition of Kala Samvad, a distinguished lecture-cum-discussion series here today at Jyoti Mancha at the university campus.',
+                            'content' =>
+                                'The Sangeet Natak Akademi, Ministry of Culture, Govt of India New Delhi in association with The Department of English, Royal School of Languages has organied the 12th edition of Kala Samvad, a distinguished lecture-cum-discussion series here today at Jyoti Mancha at the university campus.',
                         ],
                         [
                             'title' => 'Placement Felicitation held at Royal Global University',
@@ -133,15 +176,20 @@
                             'date' => 'Guwahati, May 20, 2026:',
                             'link' => '/placement-felicitation-held-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/Placed%20students%20felicitated.jpeg',
-                            'content' => 'A Placement Felicitation Program was organised by The Assam Royal Global University (RGU) at its campus yesterday to celebrate the remarkable achievements of students who have successfully secured placements and career opportunities across various reputed organizations.',
+                            'content' =>
+                                'A Placement Felicitation Program was organised by The Assam Royal Global University (RGU) at its campus yesterday to celebrate the remarkable achievements of students who have successfully secured placements and career opportunities across various reputed organizations.',
                         ],
                         [
-                            'title' => 'Royal Global University Launches ‘River Talks—Sabda Kalpa’: A Monthly Literary Series',
-                            'summary' => 'Inaugural Edition Celebrates “Poetry of the Soul” with Four Distinguished Poets',
+                            'title' =>
+                                'Royal Global University Launches ‘River Talks—Sabda Kalpa’: A Monthly Literary Series',
+                            'summary' =>
+                                'Inaugural Edition Celebrates “Poetry of the Soul” with Four Distinguished Poets',
                             'date' => 'Guwahati, May 17, 2026:',
-                            'link' => '/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series',
+                            'link' =>
+                                '/royal-global-university-launches-river-talks-sabda-kalpa-a-monthly-literary-series',
                             'image' => '/mobile-assets/media-corner/2026/18/2.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) has inaugurated ‘River Talks—Sabda Kalpa’, a new monthly literary event dedicated to fostering a vibrant culture of literature, language, and the arts.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has inaugurated ‘River Talks—Sabda Kalpa’, a new monthly literary event dedicated to fostering a vibrant culture of literature, language, and the arts.',
                         ],
                         [
                             'title' => 'Meghalaya Sports Minister Shylla inaugurates Zenith & Pickleball Court at RGU',
@@ -149,7 +197,8 @@
                             'date' => 'Guwahati, May 14, 2026:',
                             'link' => '/meghalaya-sports-minister-shylla-inaugurates-zenith-pickleball-court-at-rgu',
                             'image' => '/mobile-assets/media-corner/2026/14/2.jpeg',
-                            'content' => 'Shri Wailadmiki Shylla, Minister of Sports & Youth Affairs, Government of Meghalaya, visited The Assam Royal Global University (RGU) today and took part in a series of programmes aimed at promoting student engagement, sports culture, and environmental awareness on the university campus.',
+                            'content' =>
+                                'Shri Wailadmiki Shylla, Minister of Sports & Youth Affairs, Government of Meghalaya, visited The Assam Royal Global University (RGU) today and took part in a series of programmes aimed at promoting student engagement, sports culture, and environmental awareness on the university campus.',
                         ],
                         [
                             'title' => 'Indian Museum Kolkata Launches 7-day Exhibition at Royal Global University',
@@ -157,15 +206,19 @@
                             'date' => 'Guwahati, May 13, 2026:',
                             'link' => '/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/12/3.jpg',
-                            'content' => 'Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU...',
+                            'content' =>
+                                'Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU...',
                         ],
                         [
-                            'title' => 'RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops',
+                            'title' =>
+                                'RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops',
                             'summary' => '',
                             'date' => 'Guwahati, May 11, 2026:',
-                            'link' => '/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops',
+                            'link' =>
+                                '/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops',
                             'image' => '/mobile-assets/RGU%20joins.jpeg',
-                            'content' => 'The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram.',
+                            'content' =>
+                                'The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram.',
                         ],
                         [
                             'title' => 'Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir',
@@ -173,15 +226,19 @@
                             'date' => 'Guwahati, May 8, 2026:',
                             'link' => '/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir',
                             'image' => '/mobile-assets/media-corner/2026/11/2.jpeg',
-                            'content' => 'A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.',
+                            'content' =>
+                                'A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.',
                         ],
                         [
-                            'title' => 'RGU Student wins Silver at State Arm Wrestling Championship, Qualifies for Nationals',
+                            'title' =>
+                                'RGU Student wins Silver at State Arm Wrestling Championship, Qualifies for Nationals',
                             'summary' => '',
                             'date' => 'Guwahati, May 6, 2026:',
-                            'link' => '/rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals',
+                            'link' =>
+                                '/rgu-student-wins-silver-at-state-arm-wrestling-championship-qualifies-for-nationals',
                             'image' => '/mobile-assets/media-corner/2026/may/new/Abhay%20Chaudhary.jpg',
-                            'content' => 'Abhay Chaudhary, a B.Tech. Computer Science & Engineering (CSE) 2nd semester student, at The Assam Royal Global University (RGU) has brought laurels to the university through his outstanding performance in arm wrestling.',
+                            'content' =>
+                                'Abhay Chaudhary, a B.Tech. Computer Science & Engineering (CSE) 2nd semester student, at The Assam Royal Global University (RGU) has brought laurels to the university through his outstanding performance in arm wrestling.',
                         ],
                         [
                             'title' => 'Training on Forest Ecosystem Services held at RGU',
@@ -189,7 +246,8 @@
                             'date' => 'Guwahati, May 5, 2026:',
                             'link' => '/capacity-building-session-on-internship-engagement-and-career-development',
                             'image' => '/mobile-assets/media-corner/2026/may/5-may.jpg',
-                            'content' => 'The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.',
+                            'content' =>
+                                'The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.',
                         ],
                         [
                             'title' => 'Royal Global University Faculty Honoured with Best Scientist Award',
@@ -197,7 +255,8 @@
                             'date' => 'Guwahati, May 4, 2026:',
                             'link' => '/royal-global-university-faculty-honoured-with-best-scientist-award',
                             'image' => '/mobile-assets/media-corner/2026/may/1.jpeg',
-                            'content' => 'Jebin Sultana, Assistant Professor and Coordinator in the Department of Food Science and Nutrition (Nutrition & Dietetics) at The Assam Royal Global University (RGU), has been conferred the prestigious Best Scientist Award in Food and Nutrition – 2026 at the 13th International Conference on Frontiers in Science and Technology for Sustainable Agricultural and Environmental Development (FSTSAED-2026).',
+                            'content' =>
+                                'Jebin Sultana, Assistant Professor and Coordinator in the Department of Food Science and Nutrition (Nutrition & Dietetics) at The Assam Royal Global University (RGU), has been conferred the prestigious Best Scientist Award in Food and Nutrition – 2026 at the 13th International Conference on Frontiers in Science and Technology for Sustainable Agricultural and Environmental Development (FSTSAED-2026).',
                         ],
                         [
                             'title' => 'May Day celebrated at RGU with Cultural Fervour and Gratitude to Support Staff',
@@ -205,15 +264,19 @@
                             'date' => 'Guwahati, May 1, 2026:',
                             'link' => '/may-day-celebrated-at-rgu-with-cultural-fervour-and-gratitude-to-support-staff',
                             'image' => '/mobile-assets/media-corner/2026/may-1/3.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) celebrated International Workers’ Day with great enthusiasm, respect, and cultural vibrancy at the university campus today. The celebration was organised to honour the invaluable contribution, dedication, and tireless service of the support staff members of Royal Global University and Royal Global School, whose relentless efforts ensure the smooth...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) celebrated International Workers’ Day with great enthusiasm, respect, and cultural vibrancy at the university campus today. The celebration was organised to honour the invaluable contribution, dedication, and tireless service of the support staff members of Royal Global University and Royal Global School, whose relentless efforts ensure the smooth...',
                         ],
                         [
-                            'title' => 'Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU',
+                            'title' =>
+                                'Create International Brotherhood Through Dance: Padma Bhushan Nrityacharya Jatin Goswami at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, April 30, 2026:',
-                            'link' => '/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu',
+                            'link' =>
+                                '/create-international-brotherhood-through-dance-padma-bhushan-nrityacharya-jatin-goswami-at-rgu',
                             'image' => '/mobile-assets/media-corner/2026/aprl/4.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) celebrated World Dance Day 2026 with “Nritya Arpanam”, a graceful tribute to the spirit of rhythm, expression, and cultural heritage. The vibrant cultural programme was held yesterday at Jyoti Manch, bringing together students, artists, academicians, and dance enthusiasts...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) celebrated World Dance Day 2026 with “Nritya Arpanam”, a graceful tribute to the spirit of rhythm, expression, and cultural heritage. The vibrant cultural programme was held yesterday at Jyoti Manch, bringing together students, artists, academicians, and dance enthusiasts...',
                         ],
                         [
                             'title' => 'Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam',
@@ -221,7 +284,8 @@
                             'date' => 'Guwahati, April 29, 2026:',
                             'link' => '/sahitya-akademi-and-rgu-organise-symposium-on-charita-puthi-tradition-of-assam',
                             'image' => '/mobile-assets/media-corner/2026/apr/1.jpeg',
-                            'content' => 'A significant symposium on the rich tradition of Charita literature in Assam was held today at The Assam Royal Global University (RGU), bringing together eminent scholars, academicians, and students for a day of insightful discussions. ',
+                            'content' =>
+                                'A significant symposium on the rich tradition of Charita literature in Assam was held today at The Assam Royal Global University (RGU), bringing together eminent scholars, academicians, and students for a day of insightful discussions. ',
                         ],
                         [
                             'title' => 'RGU observes National Public Relations Day',
