@@ -592,7 +592,7 @@
                 title: "D.PHARM, B.PHARM. AND M.PHARM. PROGRAMMES ARE APPROVED BY PHARMACY COUNCIL OF INDIA(PCI)",
                 htmlContent: `
                 <p>D.Pharm., B.Pharm and M.Pharm Programmes are Approved by Pharmacy Council of India (PCI)</p>
-                <a href="/new-web/assets/img/discover-rgu-recognition/pdf/PCI.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
+                <a href="/mobile-assets/pdf/PCI-26-27.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
                 img: "/new-web/assets/img/discover-rgu-recognition/pharmacy-council.svg"
             },
