@@ -286,7 +286,7 @@
                                 <img src="mobile-assets/updated-faculty-img/B-J-Dutta.jpg"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Bhaskar Jyoti Dutta</h3>
+                            <h3 class="card-name">Dr. Bhaskar Jyoti Dutta</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-bhaskar-jyoti-dutta" class="profile-link">View Profile</a>
                         </div>

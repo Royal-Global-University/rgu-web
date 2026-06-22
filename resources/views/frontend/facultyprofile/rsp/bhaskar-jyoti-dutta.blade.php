@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-               Bhaskar Jyoti Dutta
+               Dr. Bhaskar Jyoti Dutta
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                 Bhaskar Jyoti Dutta
+                Dr. Bhaskar Jyoti Dutta
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,9 +217,14 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-                <li><i class="fa fa-circle"></i> <span>Pursuing PhD from NIPER Hajipur in Pharmaceutical Sciences</span></li>
+                <li><i class="fa fa-circle"></i> <span>PhD  (Pharmacology) from National Institute of Pharmaceutical Education & Research, Hajipur</span></li>
               <li><i class="fa fa-circle"></i> <span>M.Pharm in Pharmacology from ISF college of Pharmacy</span></li>
               <li><i class="fa fa-circle"></i> <span>B.Pharm from Dibrugarh University</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i><span>5 years of research experience</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
@@ -230,7 +235,7 @@
 
             <h2 class="faculty-bio-sub-heading">Paper Publications in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>International: 22</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 23</span></li>
 
             </ul>
 
@@ -248,6 +253,8 @@
             <ul class="faculty-bio-info-list">
               <li><i class="fa fa-circle"></i> <span>Young Pharmacologist given by AIIMS Delhi.</span></li>
               <li><i class="fa fa-circle"></i> <span>Travel Grant from ANRF for attending conference to Tokyo Japan.</span></li>
+              <li><i class="fa fa-circle"></i> <span>NIPER-JEE qualified.</span></li>
+              <li><i class="fa fa-circle"></i> <span>GPAT qualified.</span></li>
             </ul>
           </div>
         </div>
