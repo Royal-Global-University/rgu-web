@@ -4394,6 +4394,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-pankaj-jha', function () {
+    return view('frontend/facultyprofile/rsmas/pankaj-jha');
+})->name('faculty-pankaj-jha');
+
 Route::get('/faculty-subarna-sankar-das', function () {
     return view('frontend/facultyprofile/rsmas/subarna-sankar-das');
 })->name('faculty-subarna-sankar-das');
@@ -5267,6 +5271,10 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-shruti-borpujari', function () {
+    return view('frontend/facultyprofile/rsla/shruti-borpujari');
+})->name('faculty-shruti-borpujari');
 
 Route::get('/faculty-kavita-k-jain', function () {
     return view('frontend/facultyprofile/rsla/kavita-k-jain');
