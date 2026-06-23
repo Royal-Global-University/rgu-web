@@ -734,6 +734,15 @@
                 },
 
                 {
+                    day: "28<sup>th</sup>",
+                    month: "October 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "45th NEIHA Session of the North East India History Association (NEIHA)",
+                    sub: "will be held at the Assam Royal Global University, Guwahati",
+                    link: "/mobile-assets/pdf/1st_Circular_45NEIHA_Session_ARoyalGlobal_2026 FINAL.pdf",
+                },
+
+                {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
                     month: "Nov 2026",
                     img: "https://rgu.ac/mobile-assets/conference/bg2.png",
