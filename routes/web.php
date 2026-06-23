@@ -4527,10 +4527,6 @@ Route::get('/faculty-pallabi-sarmah', function () {
     return view('frontend/facultyprofile/rsmas/pallabi-sarmah');
 })->name('faculty-pallabi-sarmah');
 
-Route::get('/faculty-rohit-sarma', function () {
-    return view('frontend/facultyprofile/rsmas/rohit-sarma');
-})->name('faculty-rohit-sarma');
-
 Route::get('/faculty-somyata-c-satpathy-sarma', function () {
     return view('frontend/facultyprofile/rsmas/somyata-sarma');
 })->name('faculty-somyata-c-satpathy-sarma');
