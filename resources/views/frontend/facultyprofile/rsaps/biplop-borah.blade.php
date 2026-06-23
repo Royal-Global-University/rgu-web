@@ -304,10 +304,12 @@
                             Dr. Biplob Borah
                         </h2>
 
-                        <h2 class="headd3 mb-5 fw-bold half-underline"
+                        <h2 class="headd3 mb-3 fw-bold half-underline"
                             style="color: #27467A; font-weight: 700; font-size: 26px;">
                             Assistant Professor & Coordinator
-                        </h2>
+                        </h2><br/>
+
+                        <a href="https://sites.google.com/view/drbiplobborah/home" class="mb-3 bg-danger text-white rounded p-1">Visit Profile</a>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
                   Member of Advisory Board, The Assam Royal Global University
