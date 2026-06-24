@@ -315,9 +315,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
+                                    alt="Profile image of Dr. Muhammed Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammed Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
@@ -1190,9 +1190,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
+                                    alt="Profile image of Dr. Muhammed Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammed Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>

@@ -306,7 +306,7 @@
                             </div>
                             <h3 class="card-name">Ar. Bhola Saha</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, Royal School of Architecture</p>
-                            <a href="" class="profile-link">View Profile</a>
+                            <a href="/faculty-Bhola-Saha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

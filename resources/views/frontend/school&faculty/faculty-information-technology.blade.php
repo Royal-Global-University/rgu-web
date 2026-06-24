@@ -367,7 +367,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Hrishikesh Pathak</h3>

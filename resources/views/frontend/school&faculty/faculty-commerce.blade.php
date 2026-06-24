@@ -646,7 +646,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Visiting%20Faculty/RSC/Hrishikesh%20Pathak.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Hrishikesh Pathak</h3>

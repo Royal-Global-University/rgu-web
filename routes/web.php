@@ -3902,6 +3902,10 @@ Route::get('/faculty-supriyo-sen', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-bikash-baruah', function () {
+    return view('frontend/facultyprofile/rset/bikash-baruah');
+})->name('faculty-bikash-baruah');
+
 Route::get('/faculty-bhairab-sarma', function () {
     return view('frontend/facultyprofile/rset/bhairab-sarma');
 })->name('faculty-bhairab-sarma');
@@ -4585,6 +4589,14 @@ Route::get('/faculty-pubika-michong', function () {
 
 // RSAPS Faculty Profile
 
+Route::get('/faculty-debojeet-sahu', function () {
+    return view('frontend/facultyprofile/rsaps/debojeet-sahu');
+})->name('faculty-debojeet-sahu');
+
+Route::get('/faculty-amdrendra-rajput', function () {
+    return view('frontend/facultyprofile/rsaps/amdrendra-rajput');
+})->name('faculty-amdrendra-rajput');
+
 Route::get('/faculty-suvani-subhadarshini', function () {
     return view('frontend/facultyprofile/rsaps/suvani-subhadarshini');
 })->name('faculty-suvani-subhadarshini');
@@ -4862,6 +4874,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 //RSHM-RSTTM Faculty Profile
 
+Route::get('/faculty-m-p-verma', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/m-p-verma');
+})->name('faculty-m-p-verma');
+
 Route::get('/faculty-subrata-pal', function () {
     return view('frontend/facultyprofile/rshm-rsttm/subrata-pal');
 })->name('faculty-subrata-pal');
@@ -4924,6 +4940,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 
 //RSBAS Faculty Profile
+
+Route::get('/faculty-dr-charulata-mahanta', function () {
+    return view('frontend/facultyprofile/rsbsc/charulata-mahanta');
+})->name('/faculty-dr-charulata-mahanta');
 
 Route::get('/faculty-priyanka-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsbas/priyanka-bhattacharjee');
@@ -5045,6 +5065,10 @@ Route::get('/faculty-siddhartha-narayan', function () {
 
 //RSCOM Faculty Profile
 
+Route::get('/faculty-florance-rabha', function () {
+    return view('frontend/facultyprofile/rscom/florance-rabha');
+})->name('faculty-florance-rabha');
+
 Route::get('/faculty-prasanta-jyoti-baruah', function () {
     return view('frontend/facultyprofile/rscom/prasanta-jyoti-baruah');
 })->name('faculty-prasanta-jyoti-baruah');
@@ -5104,6 +5128,18 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-rugmini-devi', function () {
+    return view('frontend/facultyprofile/rshss/rugmini-devi');
+})->name('faculty-rugmini-devi');
+
+Route::get('/faculty-babachandra-singha', function () {
+    return view('frontend/facultyprofile/rshss/babachandra-singha');
+})->name('faculty-babachandra-singha');
+
+Route::get('/faculty-mohammed-deluwar-hoque', function () {
+    return view('frontend/facultyprofile/rshss/mohammed-deluwar-hoque');
+})->name('faculty-mohammed-deluwar-hoque');
 
 Route::get('/faculty-rinreichon', function () {
     return view('frontend/facultyprofile/rshss/rinreichon');
@@ -5271,6 +5307,14 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-thaneshwar-kalita', function () {
+    return view('frontend/facultyprofile/rsla/thaneshwar-kalita');
+})->name('faculty-thaneshwar-kalita');
+
+Route::get('/faculty-shruti-borpujari', function () {
+    return view('frontend/facultyprofile/rsla/shruti-borpujari');
+})->name('faculty-shruti-borpujari');
 
 Route::get('/faculty-shruti-borpujari', function () {
     return view('frontend/facultyprofile/rsla/shruti-borpujari');

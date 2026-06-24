@@ -201,9 +201,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
+                                    alt="Profile image of Dr. Muhammed Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammed Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
@@ -588,7 +588,7 @@
                             </div>
                             <h3 class="card-name">Mr. Debapratim Bharali</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="" class="profile-link">View Profile</a>
+                            {{-- <a href="" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
@@ -611,7 +611,8 @@
                                 <img src="/mobile-assets/updated-faculty-img/Dhiraj.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dhiraj Kumar Borkotoky</h3>
-                            <p class="card-designation">Associate Professor & HOD, Political Science & Public Administration</p>
+                            <p class="card-designation">Associate Professor & HOD, Political Science & Public
+                                Administration</p>
                             <a href="/faculty-dhiraj-kumar-borkotoky" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -658,7 +659,7 @@
                             </div>
                             <h3 class="card-name">Dr. Rugmini Devi M</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-rugmini-devi-m" class="profile-link">View Profile</a>
+                            <a href="/faculty-rugmini-devi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1101,7 +1102,7 @@
                     "position": 7,
                     "item": {
                         "@type": "Person",
-                        "name": "Dr. Muhammad Deluwar Hoque",
+                        "name": "Dr. Muhammed Deluwar Hoque",
                         "jobTitle": "Associate Professor & HOD, Economics",
                         "url": "/faculty-mohammed-deluwar-hoque",
                         "worksFor": {
