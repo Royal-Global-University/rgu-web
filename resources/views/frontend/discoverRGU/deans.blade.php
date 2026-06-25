@@ -302,6 +302,16 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
+                    <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
+                </div>
+                <h4>Prof. Shiela Bora</h4>
+                <p class="board-m-role">Professor & Adviser and Dean in-charge, Royal School of Humanities and Social Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
+                <a href="/faculty-shiela-bora" class="board-m-profile-link">View Profile</a>
+
+            </div>
+
+            <div class="board-m-card-mini">
+                <div class="board-m-mini-img">
                     <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="">
                 </div>
                 <h4>Prof. Prasanta Jyoti Baruah</h4>
