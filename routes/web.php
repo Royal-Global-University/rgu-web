@@ -4006,10 +4006,6 @@ Route::get('/faculty-shehnaz-ara-rahman', function () {
     return view('frontend/facultyprofile/rset/shehnaz-ara-rahman');
 })->name('faculty-shehnaz-ara-rahman');
 
-Route::get('/faculty-shinjini-paul-choudhury', function () {
-    return view('frontend/facultyprofile/rset/shinjini-paul-choudhury');
-})->name('faculty-shinjini-paul-choudhury');
-
 //RSL Faculty Profile
 
 Route::get('/faculty-krishna-barua', function () {
@@ -4810,10 +4806,6 @@ Route::get('/facultyarghadeep-bose', function () {
 Route::get('/faculty-trishna-changkakati', function () {
     return view('frontend/facultyprofile/rsees/trishna-changkakati');
 })->name('faculty-trishna-changkakati');
-
-Route::get('/faculty-pritha-roychowdhury', function () {
-    return view('frontend/facultyprofile/rsees/pritha-roychowdhury');
-})->name('faculty-pritha-roychowdhury');
 
 Route::get('/faculty-parimita-saikia', function () {
     return view('frontend/facultyprofile/rsees/parimita-saikia');

@@ -169,36 +169,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Parimita-Saikia.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Parimita Saikia</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-parimita-saikia" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Palme-Borthakur.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Palme Borthakur</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-palme-borthakur" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Pritha-Roychowdhury.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Pritha Roychowdhury</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <a href="https://www.rgu.ac/faculty-pritha-roychowdhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -430,19 +406,6 @@
                         <!-- ========================= -->
                         <!-- Assistant Professor & Assistant Dean -->
                         <!-- ========================= -->
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shinjini-Paul-RSET.png"
-                                        alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Dr. Shinjini Paul Choudhury</h3>
-                                <p class="card-designation">Assistant Professor and Assistant Dean, Student Affairs</p>
-                                <a href="https://www.rgu.ac/faculty-shinjini-paul-choudhury" class="profile-link">View
-                                    Profile</a>
-                            </div>
-                        </div>
 
                         <!-- ========================= -->
                         <!-- Assistant Professors (A–Z) -->

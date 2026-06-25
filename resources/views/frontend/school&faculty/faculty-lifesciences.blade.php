@@ -904,19 +904,6 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Shinjini-Paul-RSET.png"
-                                        alt="Profile image ">
-                                </div>
-                                <h3 class="card-name">Dr. Shinjini Paul Choudhury</h3>
-                                <p class="card-designation">Assistant Professor and Assistant Dean, Student Affairs</p>
-                                <a href="/faculty-shinjini-paul-choudhury" class="profile-link">View
-                                    Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
                                     <img src="/mobile-assets/updated-faculty-img/Dr-Siddhartha-Narayan-Borah-RSBSC.png"
                                         alt="Profile image of Dr. Siddhartha Narayan Borah">
                                 </div>
