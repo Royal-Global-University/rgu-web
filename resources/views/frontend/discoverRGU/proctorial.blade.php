@@ -1,5 +1,5 @@
 @extends('frontend/new-master')
-@section('title', 'Pictorial Board : The Assam Royal Global University')
+@section('title', 'Proctorial Board : The Assam Royal Global University')
 @section('meta_description',
     'Explore the innovative insights and visual perspectives curated by the Pictorial Board of
     Royal Global University.')
