@@ -312,18 +312,6 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsbas/surajit.jpeg" alt="">
-                </div>
-                <h4>Prof. Surajit Mukhopadhyay</h4>
-                <p class="board-m-role">Professor & Dean, Royal School of Humanities & Social Sciences; Professor &
-                    Dean, Royal School of Behavioural & Allied Sciences; Director, Centre for Inter-Disciplinary
-                    Research</p>
-                <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="board-m-profile-link">View Profile</a>
-
-            </div>
-
-            <div class="board-m-card-mini">
-                <div class="board-m-mini-img">
                     <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsbsc/2.jpeg" alt="">
                 </div>
                 <h4>Prof. Anupam Chatterjee</h4>
