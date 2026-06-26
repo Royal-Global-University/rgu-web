@@ -997,7 +997,7 @@
                 title: "Integrated Civil Service Programme",
                 image: "/mobile-assets/school-rgu/ias-banner.png",
                 deptMainLink: "/ias-courses",
-                facultyLink: "/faculty-applied-purescience",
+                facultyLink: "/faculty-csp",
                 departments: [{
                     name: "Integrated Civil Service Programme",
                     link: "/ias-courses"
