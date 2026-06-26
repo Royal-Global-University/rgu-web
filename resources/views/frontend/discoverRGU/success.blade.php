@@ -168,11 +168,6 @@
         <div class="container">
 
             <!-- Tabs -->
-            <div class="success-story-tabs">
-                <button class="success-story-tab active" data-filter="all">ALL</button>
-                <button class="success-story-tab" data-filter="student">STUDENT</button>
-                <!-- <button class="success-story-tab" data-filter="recruiter">RECRUITERS</button> -->
-            </div>
 
             <!-- Cards Grid -->
             <div class="success-story-grid">
