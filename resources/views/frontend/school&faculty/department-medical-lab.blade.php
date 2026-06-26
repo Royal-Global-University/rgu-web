@@ -1260,24 +1260,23 @@
                 <h3>About <span>Department</span></h3>
 
                 <p>
-                    The Department of Medical Laboratory Technology is under The Royal School of Medical and Allied Sciences
-                    is
-                    providing top-level education and training in clinical laboratory sciences in the Northeast India. The
-                    Department provides highly skilled graduates and postgraduates with comprehensive knowledge and
-                    practical
-                    expertise in clinical laboratory science. With a strong emphasis on advanced diagnostic techniques,
-                    molecular
-                    pathology, and clinical biochemistry, the department promotes a strong learning environment through
-                    laboratory
-                    and experienced instructors. Students are trained in cutting-edge technologies such as cytology,
-                    biochemistry
-                    and histopathology, ensuring they are prepared for the the evolving healthcare environment.
-                    Post-graduates and
-                    Graduates from the department are highly recommended in various sectors, including hospitals, research
-                    institutions, and the diagnostic industry. The future prospects for alumni are promising, with
-                    opportunities
-                    for advanced research, specialized diagnostic roles, and leadership positions in laboratory management,
-                    contributing significantly to advancements in medical science and patient care.
+                    The Department of Medical Laboratory Sciences is committed to producing skilled and competent laboratory
+                    professionals who form the backbone of modern healthcare by providing accurate and timely diagnostic
+                    services. The department combines quality education with practical laboratory training to equip students
+                    with the knowledge and technical expertise required for excellence in clinical diagnostics and
+                    biomedical sciences.<br /><br />
+
+                    Designed in accordance with the National Commission for Allied and Healthcare Professions (NCAHP)
+                    standards, the curriculum encompasses clinical biochemistry, microbiology, haematology, histopathology,
+                    immunology, cytology, molecular diagnostics, transfusion medicine, laboratory management, and quality
+                    control. Through extensive clinical postings and hands-on training in advanced diagnostic laboratories
+                    and healthcare institutions, students develop the competencies necessary to support patient diagnosis,
+                    disease surveillance, treatment monitoring, and medical research.<br /><br />
+
+                    The department fosters a culture of scientific inquiry, innovation, professionalism, and ethical
+                    practice, preparing graduates to become proficient Medical Laboratory Scientists who contribute
+                    significantly to patient care, public health, research, and the continuous advancement of laboratory
+                    medicine at national and international levels.
                 </p>
 
             </div>
@@ -1286,25 +1285,25 @@
 
         <!-- <div class="dept-mls-prospects-section" id="dept-prospects">
 
-          <div class="dept-mls-prospects-content">
+                  <div class="dept-mls-prospects-content">
 
-            <p class="dept-mls-intro-text" style="text-align: justify;">
-              Our programme integrates theoretical knowledge with hands-on training in state-of-the-art facilities; ensuring
-              graduates are well-prepared for careers as skilled operation theatre technologists. With a strong emphasis on
-              practical skills and industry relevance, our graduates cover a wide range of subjects including surgical
-              procedures, sterile techniques, medical equipment management, and Here is the extracted text:
-              patient care within operating rooms. Through classroom lectures, laboratory sessions, and clinical rotations,
-              students develop the necessary skills and expertise to excel in healthcare settings, contributing effectively
-              to ensuring safe and efficient surgical outcomes in hospitals, surgical centers, and other medical facilities.
-              Our OTT department boasts state-of-the-art clinical labs, research facilities, and extensive libraries,
-              creating an immersive environment for learning and exploration. In addition to academic pursuits, students can
-              engage in various extracurricular activities, including clubs, societies, and sports teams, ensuring a
-              holistic university experience. Come join us at RGU and embark on a rewarding journey dedicated to innovation
-              and impacting lives positively.
-            </p>
+                    <p class="dept-mls-intro-text" style="text-align: justify;">
+                      Our programme integrates theoretical knowledge with hands-on training in state-of-the-art facilities; ensuring
+                      graduates are well-prepared for careers as skilled operation theatre technologists. With a strong emphasis on
+                      practical skills and industry relevance, our graduates cover a wide range of subjects including surgical
+                      procedures, sterile techniques, medical equipment management, and Here is the extracted text:
+                      patient care within operating rooms. Through classroom lectures, laboratory sessions, and clinical rotations,
+                      students develop the necessary skills and expertise to excel in healthcare settings, contributing effectively
+                      to ensuring safe and efficient surgical outcomes in hospitals, surgical centers, and other medical facilities.
+                      Our OTT department boasts state-of-the-art clinical labs, research facilities, and extensive libraries,
+                      creating an immersive environment for learning and exploration. In addition to academic pursuits, students can
+                      engage in various extracurricular activities, including clubs, societies, and sports teams, ensuring a
+                      holistic university experience. Come join us at RGU and embark on a rewarding journey dedicated to innovation
+                      and impacting lives positively.
+                    </p>
 
-          </div>
-        </div> -->
+                  </div>
+                </div> -->
 
         <!-- vision mission  -->
         <div class="dept-mls-prospects-section" id="dept-vision">
@@ -1355,75 +1354,75 @@
         </div>
 
         <!-- <div class="dept-mls-prospects-section" id="dept-prospects">
-          <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
+                  <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-mls-prospects-content">
-            <p class="dept-mls-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+                  <div class="dept-mls-prospects-content">
+                    <p class="dept-mls-intro-text">
+                      The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                      sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                      strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                    </p>
 
-            <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-mls-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
+                    <ol class="dept-mls-list">
+                      <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                      </li>
+                      <li>MBA in Agribusiness Management</li>
+                      <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                      <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                        disciplines</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
-            <ol class="dept-mls-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
+                    <ol class="dept-mls-list">
+                      <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                      <li>IBPS AFO (Agricultural Field Officer)</li>
+                      <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                      <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                      <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Private Sector Careers</h3>
-            <ol class="dept-mls-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Private Sector Careers</h3>
+                    <ol class="dept-mls-list">
+                      <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                      <li>Food Processing Industries</li>
+                      <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                      <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                      <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Research & Teaching</h3>
-            <ol class="dept-mls-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Research & Teaching</h3>
+                    <ol class="dept-mls-list">
+                      <li>Research Assistant / Scientist – in public and private research institutions</li>
+                      <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                      <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-mls-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
+                    <ol class="dept-mls-list">
+                      <li>Organic farming, dairy, poultry, aquaculture</li>
+                      <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                      <li>Processing units for spices, cereals, or fruits</li>
+                      <li>Agri-consultancy or freelance advisory services</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Jobs Abroad</h3>
-            <ol class="dept-mls-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Jobs Abroad</h3>
+                    <ol class="dept-mls-list">
+                      <li>Agricultural research, farm management, and food security projects</li>
+                      <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                      <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                    </ol>
 
-            <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-mls-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                    <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
+                    <ol class="dept-mls-list">
+                      <li>Practical knowledge of farming tools and technologies</li>
+                      <li>Communication and management skills (especially in extension or agribusiness)</li>
+                      <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                      <li>Language skills and report writing</li>
+                    </ol>
 
-          </div>
-        </div> -->
+                  </div>
+                </div> -->
 
         <div class="dept-mls-accordion-section" id="dept-syllabus">
             <h2 class="dept-mls-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1534,8 +1533,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-mls-events-btn">View All</a>
-          </div> -->
+                    <a href="#" class="dept-mls-events-btn">View All</a>
+                  </div> -->
 
         </div>
 
@@ -1562,8 +1561,8 @@
                 </p>
 
                 <!-- <p class="dept-mls-lab-intro">
-              The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
-            </p> -->
+                      The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+                    </p> -->
 
 
                 <!-- <h3 class="dept-mls-lab-heading">Our Lab Equipments</h3> -->
@@ -1810,10 +1809,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                            <tr>
+                              ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                            </tr>
+                          `).join("")}
             </tbody>
           </table>
         </div>

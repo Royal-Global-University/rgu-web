@@ -1251,9 +1251,11 @@
         <h3>About <span>Department</span></h3>
 
         <p>
-          The Optometry programme at Royal Global University is a comprehensive course of study aimed at preparing
-          students for a rewarding career in eye care. Optometry focuses on the health of the eyes and the visual system
-          for enhancing quality of life through the preservation and improvement of vision.
+          The Department of Optometry is dedicated to educating competent and compassionate eye care professionals who are equipped to provide comprehensive vision care and promote ocular health across all age groups. The department offers a balanced blend of academic learning, clinical excellence, and community engagement, preparing students to meet the evolving needs of modern eye care.<br/><br/>
+
+The curriculum, designed in accordance with the National Commission for Allied and Healthcare Professions (NCAHP) standards, emphasizes evidence-based practice, clinical decision-making, and hands-on training in refraction, binocular vision, contact lenses, low vision rehabilitation, paediatric optometry, ocular disease screening, and advanced diagnostic techniques. Through extensive clinical postings in eye hospitals, vision centres, and multidisciplinary healthcare institutions, students acquire the knowledge and practical skills required for independent professional practice.<br/><br/>
+
+With a strong focus on patient-centred care, innovation, research, ethics, and lifelong professional development, the department prepares graduates to become proficient Optometrists capable of contributing to preventive eye care, early detection of ocular diseases, vision rehabilitation, and the advancement of eye health services at both national and global levels.
         </p>
 
       </div>

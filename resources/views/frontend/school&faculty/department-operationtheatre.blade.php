@@ -1260,7 +1260,18 @@
                 <h3>About <span>Department</span></h3>
 
                 <p>
-                    The Anesthesia & Operation Theatre Technology Programme at Royal Global University (RGU) offers a four-year (3+1) journey designed to transform passionate learners into indispensable members of surgical teams. This comprehensive curriculum blends technical mastery with clinical expertise, preparing students to manage sophisticated surgical equipment, uphold the highest standards of sterile practice, and provide seamless support during critical procedures.
+                    The Department of Anaesthesia and Operation Theatre Technology is dedicated to nurturing competent and
+                    skilled allied healthcare professionals who play a vital role in the delivery of safe, efficient, and
+                    high-quality surgical and perioperative care. The department combines academic excellence with
+                    simulation-based learning and extensive clinical exposure to prepare students for the dynamic
+                    environment of modern operation theatres.<br /><br />
+
+                    The curriculum, aligned with the National Commission for Allied and Healthcare Professions (NCAHP)
+                    standards, provides comprehensive training in anaesthesia technology, operation theatre procedures,
+                    surgical instrumentation, infection prevention and control, patient monitoring, airway management,
+                    critical care support, and biomedical equipment handling. Students gain practical experience through
+                    clinical postings in operation theatres, intensive care units, emergency departments, and
+                    post-anaesthesia care units under the guidance of experienced clinicians.       
                 </p>
 
             </div>
@@ -1272,7 +1283,10 @@
             <div class="dept-operationtheatre-prospects-content">
 
                 <p class="dept-operationtheatre-intro-text" style="text-align: justify;">
-                    Our programme offers a transformative learning experience that blends rigorous academic knowledge with immersive practical training in cutting-edge facilities. Over four years, students gain expertise in anesthesia techniques, surgical procedures, sterile techniques, medical equipment management, and patient care, preparing them to excel in hospitals, surgical centers, and other healthcare environments. With classroom lectures, laboratory sessions, and clinical rotations, the programme ensures graduates are confident, skilled, and industry-ready. Beyond academics, RGU provides a vibrant campus life with clubs, societies, and sports, fostering a holistic university experience. Join us and embark on a rewarding journey where innovation meets compassion, and every step brings you closer to making a positive impact in healthcare.
+                    With a strong emphasis on patient safety, teamwork, professional ethics, research, and technological
+                    advancements, the department prepares graduates to become proficient Anaesthesia and Operation Theatre
+                    Technologists capable of contributing effectively to multidisciplinary surgical teams in hospitals and
+                    advanced healthcare institutions across India and globally.
                 </p>
 
             </div>
@@ -1408,8 +1422,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-operationtheatre-events-btn">View All</a>
-          </div> -->
+                    <a href="#" class="dept-operationtheatre-events-btn">View All</a>
+                  </div> -->
 
         </div>
 
@@ -1442,8 +1456,8 @@
                 </p>
 
                 <!-- <p class="dept-operationtheatre-lab-intro">
-              The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
-            </p> -->
+                      The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+                    </p> -->
 
 
                 <!-- <h3 class="dept-operationtheatre-lab-heading">Our Lab Equipments</h3> -->
@@ -1545,7 +1559,7 @@
             header.addEventListener('click', function() {
                 const currentItem = this.parentElement;
                 const currentContent = currentItem.querySelector(
-                '.dept-operationtheatre-accordion-content');
+                    '.dept-operationtheatre-accordion-content');
 
                 // Toggle 'active' class
                 currentItem.classList.toggle('active');
@@ -1648,10 +1662,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                            <tr>
+                              ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                            </tr>
+                          `).join("")}
             </tbody>
           </table>
         </div>

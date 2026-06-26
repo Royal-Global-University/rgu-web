@@ -1270,14 +1270,11 @@
         <h3>About <span>Department</span></h3>
 
         <p>
-          The Department of Physiotherapy, Royal School of Medical and Allied Sciences was established under The Assam
-          Royal Global University in the year 2019. From time of its inception the department has focused on well versed
-          teaching learning methods which will aid to ensure that students are exposed to standardised methods of
-          theoretical learning and practical training. The well equipped laboratory in the university and attached
-          Physiotherapy Out patient department ensures a good learning experience along with diverse clinical training
-          in some of the reputed healthcare institutes of the state and the country. The faculty members of the
-          Department are well qualified and highly experienced in their specialties and also certified with advanced
-          treatment techniques.
+          The Department of Physiotherapy is dedicated to developing competent, compassionate, and evidence-based physiotherapy professionals committed to promoting health, restoring function, preventing disability, and enhancing quality of life. The department offers comprehensive education with extensive clinical training across musculoskeletal, neurological, cardiopulmonary, sports, pediatric, geriatric, and community-based rehabilitation.<br/><br/>
+
+Aligned with the National Commission for Allied and Healthcare Professions (NCAHP) standards, the curriculum integrates foundational medical sciences, advanced physiotherapy practices, clinical reasoning, research, digital health, and interdisciplinary patient care. Through hands-on training in teaching hospitals, rehabilitation centres, sports medicine facilities, and community health settings, students acquire the knowledge and skills required for independent professional practice.<br/><br/>
+
+The department fosters excellence in clinical care, research, innovation, ethical practice, and lifelong learning, preparing graduates to become competent Physiotherapists, educators, researchers, and rehabilitation specialists capable of addressing the evolving healthcare needs of India and the global community.
         </p>
 
 
