@@ -1993,7 +1993,7 @@
             link: "https://www.rgu.ac/programs-BA-Political-Science"
         },
         {
-            title: "Master of Master of Public Administration",
+            title: "Master of Public Administration",
             duration: "4 Years",
             link: "https://www.rgu.ac/programs-MA-Public-Administration"
         },
