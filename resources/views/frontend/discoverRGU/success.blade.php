@@ -196,8 +196,8 @@
 
 
                         <div class="success-story-author">
-                            <h4>Malabika Neog Hazarika</h4>
-                            <span>Royal School of Biological Sciences</span>
+                            <h4>Maibam Noonny Khuman</h4>
+                            <span>Royal School of Biosciences</span>
                         </div>
 
                     </div>
@@ -223,8 +223,8 @@
 
 
                         <div class="success-story-author">
-                            <h4>Malabika Neog Hazarika</h4>
-                            <span>Royal School of Business</span>
+                            <h4>Upasana Kashyap</h4>
+                            <span>RSET</span>
                         </div>
 
                     </div>
@@ -250,7 +250,7 @@
 
                         <div class="success-story-author">
                             <h4>Dr. Pallab Kumar Das</h4>
-                            <span>Recruiter & Industry Expert</span>
+                            <span>RSET</span>
                         </div>
 
                     </div>
@@ -275,7 +275,7 @@
 
                         <div class="success-story-author">
                             <h4>Vishal More</h4>
-                            <span>Senior Professional</span>
+                            <span>Founder & CEO of Arsaviva Technology Private Limited</span>
                         </div>
 
                     </div>
@@ -300,7 +300,7 @@
 
 
                         <div class="success-story-author">
-                            <h4>Rupam Borah</h4>
+                            <h4>Ripunjit Borah</h4>
                             <span>Royal School of Business</span>
                         </div>
 
@@ -326,8 +326,8 @@
 
 
                         <div class="success-story-author">
-                            <h4>Dr. Pallab Kumar Das</h4>
-                            <span>Industry Recruiter</span>
+                            <h4>Shivangi Agarwal</h4>
+                            <span>Royal School of Fashion Design & Technology</span>
                         </div>
 
                     </div>
