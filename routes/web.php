@@ -2271,6 +2271,14 @@ Route::get('/royal-s-school-of-medical-allied-science', function () {
     return view('frontend/school&faculty/royal-s-school-of-medical-allied-science');
 })->name('royal-s-school-of-medical-allied-science');
 
+Route::get('/department-dialysis', function () {
+    return view('frontend/school&faculty/department-dialysis');
+})->name('department-dialysis');
+
+Route::get('/department-emergency-medical-technology', function () {
+    return view('frontend/school&faculty/department-emergency-medical-technology');
+})->name('department-emergency-medical-technology');
+
 Route::get('/department-physiotherapy', function () {
     return view('frontend/school&faculty/department-physiotherapy');
 })->name('department-physiotherapy');
