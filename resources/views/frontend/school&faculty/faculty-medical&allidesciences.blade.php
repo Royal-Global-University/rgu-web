@@ -1084,6 +1084,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Gaurav-Verma.png"
+                                    alt="Profile image of Dr. Rupesh Kumar">
+                            </div>
+                            <h3 class="card-name">Dr. Gaurav Verma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Anindita.jpeg"
                                     alt="Profile image of Ms. Anindita Dutta">
                             </div>
