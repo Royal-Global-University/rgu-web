@@ -418,18 +418,6 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
-                        alt="">
-                </div>
-                <h4>Prof. (Dr.) Prithvi Raj Chakraborty</h4>
-                <p class="board-m-role">Professor & Principal/ HOD, Royal School of Pharmacy</p>
-                <p class="board-m-member-designation">
-                    Member
-                </p>
-            </div>
-
-            <div class="board-m-card-mini">
-                <div class="board-m-mini-img">
                     <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
                 </div>
                 <h4>Dr. Deepjyoti Choudhury</h4>
