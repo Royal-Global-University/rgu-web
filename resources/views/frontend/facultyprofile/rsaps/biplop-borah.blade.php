@@ -37,9 +37,7 @@
                                 Assistant Professor & Coordinator
                             </h2>
 
-                            <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                            <a href="https://sites.google.com/view/drbiplobborah/home" class="mb-3 bg-danger text-white rounded p-1">Visit Profile</a>
 
                             <div>
 
