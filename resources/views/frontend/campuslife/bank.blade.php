@@ -1,283 +1,482 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Banking service : The Assam Royal Global University')
-@section('meta_description', 'Explore comprehensive banking services at Royal Global University designed to support students and staff with convenient, secure, and seamless financial solutions on campus.')
+@section('meta_description', 'Explore comprehensive banking services at Royal Global University designed to support
+    students and staff with convenient, secure, and seamless financial solutions on campus.')
 @section('meta_keywords', 'Banking service')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative; background-image: url(mobile-assets/bank/bg.svg);">
 
-            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-3 pb-3"
-                style="color: #27467A; font-weight: 900;">
-                Banks</h2>
+    <style>
+        /*=========================================================
+    BANKING SECTION
+    =========================================================*/
 
-            <div class="container elementor-element elementor-element-cbc3c3f elementor-widget elementor-widget-go-course-item"
-                data-id="cbc3c3f" data-element_type="widget" data-widget_type="go-course-item.default">
-                <div class="elementor-widget-container">
+        .banking-section {
 
+            padding: 80px 0;
 
-                    <div class="row txaa-slide-down-1">
+            background: #EBF1FC;
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/icici.jpg"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
+        }
 
-                                <br>
+        .banking-heading {
 
-                                <div>
-                                    <h2 class="mobile-para1 fw-bold text-dark">ICICI Bank ATM</h2>
-                                    <p class="mobile-para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        The ICICI Bank ATM on campus provides convenient access to students and staff for
-                                        easy banking services. It is located on the ground floor of the GHI Block. </p>
-                                </div>
+            text-align: center;
 
-                            </div>
+            max-width: 850px;
 
-                        </div>
+            margin: 0 auto 60px;
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/axis.jpg"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
+        }
 
-                                <br>
+        .banking-heading h2 {
 
-                                <div>
-                                    <h2 class="mobile-para1 fw-bold text-dark">Axis Bank ATM</h2>
-                                    <p class="mobile-para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Axis Bank-Royal Global University Branch: Axis Bank-Royal Global University Branch
-                                        is located on the Ground Floor of B Block. This modern and equipped branch offers
-                                        banking services for students, staff, and the community at large, at their doorstep.
-                                    </p>
-                                </div>
+            font-family: "Playfair Display", serif;
 
-                            </div>
-                        </div>
+            font-size: 46px;
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 560px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/r8-3.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
+            font-weight: 700;
 
-                                <br>
-                                <div>
-                                    <h2 class="mobile-para1 fw-bold text-dark">HDFC Bank ATM</h2>
-                                    <p class="mobile-para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Both students and staff can access HDFC banking facilities in Block-D on the ground
-                                        floor. Services include cheque deposits, net banking, ATM access, and more. The HDFC
-                                        Smart Banking Lobby offers digital account opening, address updates, cheque book
-                                        requests, and passbook printing. An HDFC ATM is also available.
-                                    </p>
-                                </div>
+            color: #17366d;
 
-                            </div>
-                        </div>
+            margin-bottom: 18px;
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 550px;">
-                                <div class="main-img fix img-cover">
-                                    <img fetchpriority="high" decoding="async" width="357" height="220"
-                                        src="mobile-assets/bank/r8.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-                                <br>
+        }
 
-                                <div>
-                                    <h2 class="mobile-para1 fw-bold text-dark">PNB Bank ATM</h2>
-                                    <p class="mobile-para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        This 24x7 facility ensures students and staff can smoothly conduct safe financial
-                                        transactions round the clock.
-                                    </p>
-                                </div>
+        .banking-heading h2::after {
 
-                            </div>
-                        </div>
+            content: "";
 
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 550px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/r8-2.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
+            display: block;
 
-                                <br>
+            width: 80px;
 
-                                <div>
-                                    <h2 class="mobile-para1 fw-bold text-dark">SBI Bank ATM</h2>
-                                    <p class="mobile-para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Installed on the ground floor of D Block, this ATM can be used for withdrawing
-                                        money, checking bank balance, changing Personal Identification Number etc. The SBI
-                                        ATM provides 24*7 access. Due to the proximity of the ATM students and staff can
-                                        easily access banking facilities any time.
-                                    </p>
-                                </div>
+            height: 3px;
 
-                            </div>
-                        </div>
+            background: #e56a3b;
+
+            margin: 18px auto 0;
+
+            border-radius: 20px;
+
+        }
+
+        .banking-heading p {
+
+            color: #666;
+
+            font-size: 16px;
+
+            line-height: 1.9;
+
+            margin: 0;
+
+        }
+
+        /*=========================================================
+    GRID
+    =========================================================*/
+
+        .banking-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 30px;
+
+        }
+
+        /*=========================================================
+    CARD
+    =========================================================*/
+
+        .banking-card {
+
+            background: #fff;
+
+            border: 1px solid #e7e7e7;
+
+            border-radius: 12px;
+
+            overflow: hidden;
+
+            transition: .35s;
+
+            height: 100%;
+
+            display: flex;
+
+            flex-direction: column;
+
+        }
+
+        .banking-card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow: 0 18px 35px rgba(0, 0, 0, .08);
+
+            border-color: #d9d9d9;
+
+        }
+
+        /*=========================================================
+    IMAGE
+    =========================================================*/
+
+        .banking-image {
+
+            overflow: hidden;
+
+        }
+
+        .banking-image img {
+
+            width: 100%;
+
+            display: block;
+
+            transition: .5s;
+
+        }
+
+        .banking-card:hover .banking-image img {
+
+            transform: scale(1.05);
+
+        }
+
+        /*=========================================================
+    CONTENT
+    =========================================================*/
+
+        .banking-content {
+
+            padding: 24px;
+
+            flex: 1;
+
+            display: flex;
+
+            flex-direction: column;
+
+        }
+
+        .banking-content h3 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 27px;
+
+            color: #17366d;
+
+            margin: 0 0 15px;
+
+            line-height: 1.4;
+
+        }
+
+        .banking-content p {
+
+            margin: 0;
+
+            color: #666;
+
+            font-size: 15px;
+
+            line-height: 1.9;
+
+        }
+
+        /*=========================================================
+    RESPONSIVE
+    =========================================================*/
+
+        @media(max-width:991px) {
+
+            .banking-grid {
+
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+            .banking-heading h2 {
+
+                font-size: 38px;
+
+            }
+
+        }
+
+        @media(max-width:767px) {
+
+            .banking-section {
+
+                padding: 60px 0;
+
+            }
+
+            .banking-grid {
+
+                grid-template-columns: 1fr;
+
+                gap: 24px;
+
+            }
+
+            .banking-heading {
+
+                margin-bottom: 40px;
+
+            }
+
+            .banking-heading h2 {
+
+                font-size: 30px;
+
+            }
+
+            .banking-heading p {
+
+                font-size: 15px;
+
+            }
+
+            .banking-content {
+
+                padding: 20px;
+
+            }
+
+            .banking-content h3 {
+
+                font-size: 24px;
+
+            }
+
+        }
+
+        .banking-image {
+
+            height: 240px;
+
+        }
+
+        .banking-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/campus-banking/cover.png'); filter: blur(2px);">
+        </div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Banking Services</h1>
+            <div class="pg-hero-breadcrumb">
+                Campus / Campus Facilities / Banking Services
+            </div>
+        </div>
+
+    </section>
+
+    <!--=========================================================
+    BANKING FACILITIES
+    ==========================================================-->
+
+    <section class="banking-section">
+
+        <div class="container">
+
+            <div class="banking-heading">
+
+                <h2>
+
+                    Banking Facilities
+
+                </h2>
+
+                <p>
+
+                    The Assam Royal Global University provides students and staff with convenient banking and ATM
+                    facilities from leading national and private banks across the campus, ensuring secure and
+                    hassle-free financial services at all times.
+
+                </p>
+
+            </div>
+
+            <div class="banking-grid">
+
+                <!-- ICICI -->
+
+                <div class="banking-card">
+
+                    <div class="banking-image">
+
+                        <img src="new-web/assets/img/campus-banking/icici.jpg" alt="ICICI Bank ATM">
 
                     </div>
+
+                    <div class="banking-content">
+
+                        <h3>
+
+                            ICICI Bank ATM
+
+                        </h3>
+
+                        <div class="banking-divider"></div>
+
+                        <p>
+
+                            The ICICI Bank ATM on campus provides convenient access to students and staff for easy
+                            banking services. It is located on the ground floor of the GHI Block.
+
+                        </p>
+
+                    </div>
+
                 </div>
+
+                <!-- Axis -->
+
+                <div class="banking-card">
+
+                    <div class="banking-image">
+
+                        <img src="new-web/assets/img/campus-banking/axis.jpg" alt="Axis Bank ATM">
+
+                    </div>
+
+                    <div class="banking-content">
+
+                        <h3>
+
+                            Axis Bank ATM
+
+                        </h3>
+
+                        <div class="banking-divider"></div>
+
+                        <p>
+
+                            Axis Bank–Royal Global University Branch is located on the Ground Floor of B Block. This
+                            modern and equipped branch offers banking services for students, staff and the community at
+                            large.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- HDFC -->
+
+                <div class="banking-card">
+
+                    <div class="banking-image">
+
+                        <img src="new-web/assets/img/campus-banking/hdfc.png" alt="HDFC Bank ATM">
+
+                    </div>
+
+                    <div class="banking-content">
+
+                        <h3>
+
+                            HDFC Bank ATM
+
+                        </h3>
+
+                        <div class="banking-divider"></div>
+
+                        <p>
+
+                            Students and staff can access HDFC banking facilities in Block D including ATM services,
+                            cheque deposits, account services, passbook printing and much more.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- PNB -->
+
+                <div class="banking-card">
+
+                    <div class="banking-image">
+
+                        <img src="new-web/assets/img/campus-banking/pnb.png" alt="PNB Bank ATM">
+
+                    </div>
+
+                    <div class="banking-content">
+
+                        <h3>
+
+                            PNB Bank ATM
+
+                        </h3>
+
+                        <div class="banking-divider"></div>
+
+                        <p>
+
+                            This 24×7 ATM facility enables students and staff to carry out safe and secure banking
+                            transactions conveniently at any time of the day.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- SBI -->
+
+                <div class="banking-card">
+
+                    <div class="banking-image">
+
+                        <img src="new-web/assets/img/campus-banking/sbi.png" alt="SBI Bank ATM">
+
+                    </div>
+
+                    <div class="banking-content">
+
+                        <h3>
+
+                            SBI Bank ATM
+
+                        </h3>
+
+                        <div class="banking-divider"></div>
+
+                        <p>
+
+                            Located on the Ground Floor of D Block, the SBI ATM provides cash withdrawal, balance
+                            enquiry and other banking facilities with convenient 24×7 access.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+    </section>
 
-        <!--End Header-->
-
-        <div style="background-image: url(mobile-assets/bank/bg.svg);">
-
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-5"
-                style="color: #27467A; font-weight: 900;">
-                Banks</h2>
-
-            <div class="container elementor-element elementor-element-cbc3c3f elementor-widget elementor-widget-go-course-item"
-                data-id="cbc3c3f" data-element_type="widget" data-widget_type="go-course-item.default">
-                <div class="elementor-widget-container">
-
-
-                    <div class="row txaa-slide-down-1">
-
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 560px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/icici.jpg"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-
-                                <br>
-
-                                <div>
-                                    <h2 class="para1 fw-bold text-dark">ICICI Bank ATM</h2>
-                                    <p class="para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        The ICICI Bank ATM on campus provides convenient access to students and staff for
-                                        easy banking services. It is located on the ground floor of the GHI Block.
-                                    </p>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 560px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/axis.jpg"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-
-                                <br>
-
-                                <div>
-                                    <h2 class="para1 fw-bold text-dark">Axis Bank ATM</h2>
-                                    <p class="para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Axis Bank-Royal Global University Branch: Axis Bank-Royal Global University Branch
-                                        is located on the Ground Floor of B Block. This modern and equipped branch offers
-                                        banking services for students, staff, and the community at large, at their doorstep.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 560px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/r8-3.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-
-                                <br>
-                                <div>
-                                    <h2 class="para1 fw-bold text-dark">HDFC Bank ATM</h2>
-                                    <p class="para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Both students and staff can access HDFC banking facilities in Block-D on the ground
-                                        floor. Services include cheque deposits, net banking, ATM access, and more. The HDFC
-                                        Smart Banking Lobby offers digital account opening, address updates, cheque book
-                                        requests, and passbook printing. An HDFC ATM is also available.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 550px;">
-                                <div class="main-img fix img-cover">
-                                    <img fetchpriority="high" decoding="async" width="357" height="220"
-                                        src="mobile-assets/bank/r8.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-                                <br>
-
-                                <div>
-                                    <h2 class="para1 fw-bold text-dark">PNB Bank ATM</h2>
-                                    <p class="para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        This 24x7 facility ensures students and staff can smoothly conduct safe financial
-                                        transactions round the clock.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                            <div class="kd-course-2-card bg-white"
-                                style="border: solid 2px rgb(225, 225, 225); min-height: 550px;">
-                                <div class="main-img fix img-cover">
-                                    <img decoding="async" width="357" height="500" src="mobile-assets/bank/r8-2.png"
-                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                                </div>
-
-                                <br>
-
-                                <div>
-                                    <h2 class="para1 fw-bold text-dark">SBI Bank ATM</h2>
-                                    <p class="para1"
-                                        style="font-size: 16px; color: #333; line-height: 1.8; text-align: justify;">
-                                        Installed on the ground floor of D Block, this ATM can be used for withdrawing
-                                        money, checking bank balance, changing Personal Identification Number etc. The SBI
-                                        ATM provides 24*7 access. Due to the proximity of the ATM students and staff can
-                                        easily access banking facilities any time.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 @endsection

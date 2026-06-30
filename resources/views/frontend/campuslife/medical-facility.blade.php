@@ -1,532 +1,907 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Medical Facility : The Assam Royal Global University')
-@section('meta_description', 'Royal Global University provides on-campus medical facilities with qualified professionals to ensure prompt healthcare support for students and staff.')
+@section('meta_description', 'Royal Global University provides on-campus medical facilities with qualified professionals
+    to ensure prompt healthcare support for students and staff.')
 @section('meta_keywords', 'Medical Facility')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <h2 style="padding-top: 90px; position: relative; padding-top: 120px;" class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text"
-            style="color: #27467A; font-weight: 900;">
-            Medical <span style="color: #FF9A1E; font-weight: 500;">Facility</span></h2>
+    <style>
+        /*====================================
+    MEDICAL FACILITY TOP
+    ====================================*/
 
+        .medical-top-section {
 
-        <section style="padding: 30px 10px;">
-            <div class="row">
+            background: #eef3fc;
+            padding: 80px 0;
 
-                <div class="col-lg-8" style="padding: 0px 30px;">
+        }
 
-                    <section>
+        .medical-top-wrapper {
 
-                        <div class="row">
-                            <div class="col-lg-6"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/1b.jpeg" alt=""></div>
-                            <div class="col-lg-6 pt-3"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/1a.jpeg" alt=""></div>
-                        </div>
-                        <h2 class="headd3 fw-bold text-dark pt-3">Infirmary & Ambulance Services</h2>
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            At Royal Global University, our prime focus is the good health of our students. Infirmaries are
-                            manned by nurses available twenty-four hours a day under the guidance of a qualified doctor.
-                            Besides attending to medical needs of students in the campus, the doctors also carry out
-                            periodic medical checkup of the students. A well-equipped ambulance is also available 24*7 for
-                            students in case of emergencies. The institution also has tie ups with an exclusive city based
-                            multispecialty hospital.
-                        </p>
-                    </section>
+            display: flex;
+            align-items: center;
+            gap: 65px;
 
-                    <hr>
+        }
 
-                    <section>
-                        <div class="row">
-                            <div class="col-lg-12"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/seva.jpeg" alt=""></div>
-                        </div>
+        .medical-top-image {
 
-                        <h2 class="headd3 fw-bold text-dark pt-3">Royal Swasthya Seva</h2>
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            Royal Swasthya Seva, a philanthropic initiative by Royal Knowledge Park was inaugurated on 12th
-                            November 2020, by the Hon’ble Chief Minister of Assam, Sri Sarbananda Sonowal. It offers
-                            healthcare services free of cost by qualified and experienced doctors to all in and around Royal
-                            Knowledge Park, from its medical centre situated adjacent to the main entrance of the university
-                            through its Allopathic, Homeopathic and Ayurvedic Clinics. It houses experienced Senior Doctors,
-                            assisted by trained nurses catering to medical needs on all weekdays, and aims to provide free
-                            consultation along with free medicines to its patients.
-                        </p>
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            Established as a component of the University’s Social Outreach initiative, Dr. A.K. Pansari,
-                            Hon’ble Chancellor, The Assam Royal Global University, conceptualised it to cater to the medical
-                            needs of underprivileged people, who may avail its services prior to being referred to
-                            government hospitals for secondary care, if required, thereby providing free consultation with
-                            basic medicines and amenities. This initiative further has a well-equipped ambulance at its
-                            disposal for emergencies.
-                        </p>
+            flex: 0 0 46%;
 
-                    </section>
+        }
 
-                    <hr>
+        .medical-top-image img {
 
-                </div>
+            width: 100%;
+            display: block;
+            border-radius: 22px;
+            transition: .45s;
 
-                <div class="col-lg-4 details-card p-3">
+        }
 
-                    <div class="p-4 shadow-sm border" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Emergency Contact Details</p>
-                        <hr>
-                        <ol class="para1 text-dark">
-                            <li><span class="fw-bold mt-2">Ambulance: </span> <a class="text-primary"
-                                    href="tel: +91 70990-18436"> +91 70990-18436</a></li>
-                            <li><span class="fw-bold mt-2">Infirmary: </span> <a class="text-primary"
-                                    href="tel: +91 70990-38510">+91 70990-38510</a></li>
-                            <li><span class="fw-bold mt-2">Transport In-charge: </span> <a class="text-primary"
-                                    href="tel: +91 88110-55509">+91 88110-55509</a></li>
-                            <li><span class="fw-bold mt-2">Emergency Helpline No: </span> <a class="text-primary"
-                                    href="tel: +91 88110-03111">+91 88110-03111</a></li>
-                        </ol>
-                    </div>
+        .medical-top-image img:hover {
 
-                    <div class="p-4 shadow-sm border mt-2" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Emergency Care</p>
-                        <hr>
-                        <p class="text-danger para1 fw-bold">Ambulance Services</p>
-                        <ol class="para1 text-dark">
-                            <li><span class="fw-bold mt-4">Ayursundra Super Specialty Hospital: <br> </span> <a
-                                    class="text-primary">+91 8811030033/ +91 8811030055</a></li>
-                            <li><span class="fw-bold mt-4">Apollo Excelcare Hospital: <br> </span> <a class="text-primary"
-                                    href="tel: 03617140101">03617140101</a></li>
-                            <li><span class="fw-bold mt-4">Narayana Superspeciality Hospital: <br> </span> <a
-                                    class="text-primary" href="tel: +91 8067506875">+91 8067506875</a></li>
-                            <li><span class="fw-bold mt-4">Critical Care Hospital & Research Institute: <br> </span> <a
-                                    class="text-primary" href="tel: +91 7637013667">+91 7637013667</a></li>
-                            <li><span class="fw-bold mt-4">Guwahati Metro Hospital: <br> </span> <a
-                                    class="text-primary">0361-296 2335/ 36/ 37</a></li>
-                            <li><span class="fw-bold mt-4">Health City Hospital: <br> </span> <a class="text-primary">+91
-                                    8638995504/ 0361-7105000</a></li>
-                            <li><span class="fw-bold mt-4">Government of Assam: <br> </span> <a class="text-primary"
-                                    href="tel: 108">108</a></li>
-                        </ol>
-                    </div>
+            transform: scale(1.03);
 
-                    <div class="p-4 shadow-sm border mt-2" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Royal Swasthya Sewa</p>
-                        <hr>
-                        <p class="text-success para1 fw-bold">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                            </svg> Near the RGU main gate beside PNB ATM
-                        </p>
+        }
 
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Allopathic Clinic</p>
-                            <p class="text-dark para1">Dr Lohit Baishya, MBBS</p>
-                            <p class="text-primary para1">Days: Monday to Friday | Clinic Time: 9.00 am to 1.00 pm</p>
-                        </div>
+        .medical-top-content {
 
-                        <hr>
+            flex: 1;
 
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Ayurvedic Clinic</p>
-                            <p class="text-dark para1">Dr Bhabesh Das, BAMS, MD (AYU)</p>
-                            <p class="text-primary para1">Days: Wednesday & Thursday | Clinic Time: 3.00 pm to 4.00 pm</p>
-                        </div>
+        }
 
-                        <hr>
+        .medical-top-content h2 {
 
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Homeopathic Clinic</p>
-                            <p class="text-dark para1">Dr Shraddha Basu, BHMS</p>
-                            <p class="text-primary para1">Days: Monday, Tuesday & Friday | Clinic Time 3.00 pm to 5.00 pm
-                            </p>
-                        </div>
+            font-size: 4rem;
+            color: #274781;
+            font-family: Georgia, serif;
+            font-weight: 700;
+            margin-bottom: 28px;
 
-                    </div>
-                </div>
-            </div>
-        </section>
+        }
 
-        <div style="max-width: 100%; padding: 15px; box-sizing: border-box;">
-            <div style="display: flex; justify-content: center;">
-                <div style="width: 100%; max-width: 1200px; padding: 15px; box-sizing: border-box;">
-                    <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text"
-                        style="color: #27467A; font-weight: 900;">
-                        Nearby <span style="color: #FF9A1E; font-weight: 500;">Hospitals</span></h2>
+        .medical-top-content p {
 
-                    <div style="overflow-x: auto;">
-                        <table
-                            style="width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: 1px solid #dee2e6; border-collapse: collapse; min-width: 600px;">
-                            <thead style="background-color: #f8f9fa;">
-                                <tr class="text-dark">
-                                    <th
-                                        style="border: 1px solid #dee2e6; text-align: center; font-weight: bold; padding: 10px; white-space: nowrap;">
-                                        Hospital Name & Address</th>
-                                    <th
-                                        style="border: 1px solid #dee2e6; text-align: center; font-weight: bold; padding: 10px; white-space: nowrap;">
-                                        Distance from RGU</th>
-                                    <th
-                                        style="border: 1px solid #dee2e6; text-align: center; font-weight: bold; padding: 10px; white-space: nowrap;">
-                                        Contact</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-dark mobile-para1">
-                                <tr style="background-color: #f8f9fa;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Ayursundra Super Specialty
-                                        Hospital, Bhabanand Boro Path, Opposite DPS School, Ahom Gaon, GARCHUK, Guwahati,
-                                        Assam 781035</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">1.6 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph:
-                                        03617111080</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Apollo Excel Care Hospital, NH-37,
-                                        near Ganesh Mandir, Paschim Boragaon, Guwahati, Assam 781033</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">5 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 0361 714
-                                        0101</td>
-                                </tr>
-                                <tr style="background-color: #f8f9fa;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Govt Ayurvedic College & Hospital,
-                                        AEC Rd, Sundarbari, Jalukbari, Guwahati, Assam 781014</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">9 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 0361 257
-                                        0455</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Narayana Super Specialty Hospital,
-                                        Civil Hospital Complex, Tularam Bafna, Amingaon, Guwahati, Assam 781031</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">17 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 080675
-                                        06875</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Gauhati Medical College and
-                                        Hospital, GMC Hospital Rd, Bhangagarh, Guwahati, Assam 781032</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">12 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 0361 252
-                                        9457</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Critical Care Hospital & Research
-                                        Institute, Lokhra, Guwahati, Assam 781029 </td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">3.2 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 076370
-                                        13667</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Guwahati Metro Hospital, Uday
-                                        Nagar, Khanapara, Opp. Bodoland Guest House, Guwahati, Assam 781022 </td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">10 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 0361 296
-                                        2335</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Health City Hospital, Uday Nagar,
-                                        Khanapara, Opp. Bodoland Guest House, Guwahati, Assam 781022 </td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">10 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 0361 710
-                                        5000</td>
-                                </tr>
-                                <tr style="background-color: #e3f2fd;">
-                                    <td style="border: 1px solid #dee2e6; padding: 10px;">Northeast Cancer Hospital, 11th
-                                        Mile, GS Rd, Amerigog, Jorabat, Assam 781023 </td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">12 kms</td>
-                                    <td style="border: 1px solid #dee2e6; padding: 10px; text-align: center;">Ph: 094357
-                                        07661</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            color: #555;
+            font-size: 1.55rem;
+            line-height: 1.9;
+            text-align: justify;
+            margin-bottom: 18px;
 
-                    <div style="text-align: center; margin-top: 20px;">
-                        <a href="mobile-assets/medical-facility/doctor_compendium.pdf" target="_blank">
-                            <button
-                                style="background-color: #007bff; color: white; font-weight: bold; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
-                                Doctor's Compendium &nbsp; <i class="fa fa-download"></i>
-                            </button>
-                        </a>
-                    </div>
-                </div>
+        }
+
+        @media(max-width:991px) {
+
+            .medical-top-wrapper {
+
+                flex-direction: column;
+
+            }
+
+        }
+
+        @media(max-width:576px) {
+
+            .medical-top-section {
+
+                padding: 50px 0;
+
+            }
+
+            .medical-top-content h2 {
+
+                font-size: 2.6rem;
+
+            }
+
+            .medical-top-content p {
+
+                font-size: 14px;
+
+            }
+
+        }
+    </style>
+
+    <style>
+        /*===================================
+    ROYAL SWASTHYA SEVA
+    ===================================*/
+
+        .royal-swasthya-section {
+
+            background: #eef3fc;
+            padding: 30px 0 80px;
+
+        }
+
+        .royal-swasthya-wrapper {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 70px;
+
+        }
+
+        .royal-swasthya-content {
+
+            flex: 1;
+
+        }
+
+        .royal-swasthya-content h2 {
+
+            font-size: 4rem;
+            color: #284882;
+            font-family: Georgia, serif;
+            font-weight: 700;
+            margin-bottom: 28px;
+
+        }
+
+        .royal-swasthya-content p {
+
+            font-size: 1.55rem;
+            line-height: 1.9;
+            color: #555;
+            text-align: justify;
+            margin-bottom: 20px;
+
+        }
+
+        .royal-swasthya-image {
+
+            flex: 0 0 48%;
+
+        }
+
+        .royal-swasthya-image img {
+
+            width: 100%;
+            display: block;
+            border-radius: 24px;
+            transition: .4s;
+
+        }
+
+        .royal-swasthya-image img:hover {
+
+            transform: scale(1.03);
+
+        }
+
+        @media(max-width:991px) {
+
+            .royal-swasthya-wrapper {
+
+                flex-direction: column-reverse;
+
+            }
+
+        }
+
+        @media(max-width:576px) {
+
+            .royal-swasthya-section {
+
+                padding: 10px 0 50px;
+
+            }
+
+            .royal-swasthya-content h2 {
+
+                font-size: 2.7rem;
+
+            }
+
+            .royal-swasthya-content p {
+
+                font-size: 14px;
+
+            }
+
+        }
+    </style>
+
+    <style>
+        /*====================================
+    NEARBY HOSPITALS
+    ====================================*/
+
+        .nearby-hospital-section {
+
+            background: #eef3fc;
+            padding: 20px 0 90px;
+
+        }
+
+        .nearby-hospital-section h2 {
+
+            text-align: center;
+            font-size: 4rem;
+            color: #29457d;
+            font-family: Georgia, serif;
+            font-weight: 700;
+            margin-bottom: 45px;
+
+        }
+
+        .nearby-hospital-table {
+
+            overflow-x: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, .08);
+
+        }
+
+        .nearby-hospital-table table {
+
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+
+        }
+
+        .nearby-hospital-table thead {
+
+            background: #2d4f89;
+
+        }
+
+        .nearby-hospital-table th {
+
+            color: #fff;
+            padding: 20px;
+            font-size: 1.55rem;
+            text-align: left;
+            font-weight: 600;
+
+        }
+
+        .nearby-hospital-table td {
+
+            padding: 18px 20px;
+            font-size: 1.45rem;
+            color: #555;
+            border-bottom: 1px solid #d8e0ef;
+
+        }
+
+        .nearby-hospital-table tbody tr:nth-child(even) {
+
+            background: #f7f9fd;
+
+        }
+
+        .nearby-hospital-table tbody tr:hover {
+
+            background: #edf4ff;
+
+        }
+
+        .hospital-download-btn {
+
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px;
+            background: #e36b2c;
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: .3s;
+
+        }
+
+        .hospital-download-btn:hover {
+
+            background: #29457d;
+            color: #fff;
+
+        }
+
+        @media(max-width:576px) {
+
+            .nearby-hospital-section {
+
+                padding: 10px 0 50px;
+
+            }
+
+            .nearby-hospital-section h2 {
+
+                font-size: 2.6rem;
+
+            }
+
+            .nearby-hospital-table th,
+            .nearby-hospital-table td {
+
+                font-size: 13px;
+                padding: 14px;
+
+            }
+
+            .hospital-download-btn {
+
+                width: 100%;
+                justify-content: center;
+
+            }
+
+        }
+    </style>
+
+    <style>
+        /*==================================
+    MEDICAL EMERGENCY
+    ==================================*/
+
+        .medical-emergency-section {
+
+            background: #23467d;
+            padding: 90px 0;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+
+        }
+
+        .medical-emergency-grid {
+
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .medical-card {
+
+            background: #fff;
+            border-radius: 10px;
+            padding: 35px;
+
+        }
+
+        .medical-card h2 {
+
+            color: #23467d;
+            font-family: Georgia, serif;
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid #ddd;
+
+        }
+
+        .medical-contact-list {
+
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .medical-contact-list li {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 24px;
+            font-size: 1.55rem;
+            line-height: 1.7;
+            color: #555;
+
+        }
+
+        .medical-contact-list i {
+
+            color: #e36b2c;
+            font-size: 26px;
+            width: 28px;
+
+        }
+
+        .medical-location {
+
+            font-size: 2.2rem;
+            color: #e36b2c;
+            margin: 35px 0;
+            font-weight: 700;
+
+        }
+
+        .medical-location i {
+
+            margin-right: 10px;
+
+        }
+
+        .medical-clinic-grid {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 50px;
+
+        }
+
+        .medical-clinic-grid h3 {
+
+            color: #444;
+            font-family: Georgia, serif;
+            font-size: 2.4rem;
+            margin-bottom: 20px;
+
+        }
+
+        .medical-clinic-grid p {
+
+            color: #555;
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            line-height: 1.8;
+
+        }
+
+        .medical-medanta {
+
+            text-align: center;
+
+        }
+
+        .medical-medanta img {
+
+            max-width: 150px;
+            margin-bottom: 25px;
+
+        }
+
+        .medical-medanta p {
+
+            font-size: 1.5rem;
+            color: #555;
+            line-height: 1.9;
+            max-width: 900px;
+            margin: auto;
+
+        }
+
+        .medical-medanta h4 {
+
+            margin-top: 25px;
+            color: #e36b2c;
+            font-size: 2.2rem;
+            font-weight: 700;
+
+        }
+
+        @media(max-width:991px) {
+
+            .medical-emergency-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .medical-clinic-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+        }
+
+        @media(max-width:576px) {
+
+            .medical-emergency-section {
+
+                border-radius: 35px 35px 0 0;
+                padding: 50px 0;
+
+            }
+
+            .medical-card {
+
+                padding: 25px;
+
+            }
+
+            .medical-card h2 {
+
+                font-size: 2.2rem;
+
+            }
+
+            .medical-contact-list li,
+            .medical-clinic-grid p {
+
+                font-size: 14px;
+
+            }
+
+            .medical-location {
+
+                font-size: 18px;
+
+            }
+
+            .medical-clinic-grid h3 {
+
+                font-size: 2rem;
+
+            }
+
+            .medical-medanta h4 {
+
+                font-size: 18px;
+
+            }
+
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/campus-medical-facility/cover.png'); filter: blur(2px);">
+        </div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Medical Facilities</h1>
+            <div class="pg-hero-breadcrumb">
+                Campus / Campus Facilities / Medical Facilities
             </div>
         </div>
+
+    </section>
+
+    <section class="medical-top-section">
 
         <div class="container">
-            <div class="container pt-4">
-                <div class="row">
-                    <div class="custom-column p-2 text-center">
 
-                        <img class="m-4 p-2 border shadow-sm rounded" src="mobile-assets/medical-facility/medantalogo.png"
-                            alt="">
+            <div class="medical-top-wrapper">
 
-                        <p class="text-dark para1 text-center">The Assam Royal Global University has corporate tie- ups with
-                            MEDANTA- The Medicity, Gurgaon. Students can avail 10% discount for all Out Patient Department
-                            (OPD) consultation, investigations (only laboratory and radiology), In- Patient (IPD) room rent
-                            and investigations (only laboratory and radiology)
-                        </p>
-                        <p class="text-success para1 fw-bold text-center">10% discount for MEDANTA- Standard Executive
-                            Health check-up.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
-
-        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-3" style="color: #27467A; font-weight: 900;">
-            Medical <span style="color: #FF9A1E; font-weight: 500;">Facility</span></h2>
-
-
-        <section style="padding: 30px 40px;">
-            <div class="row">
-
-                <div class="col-lg-8" style="padding: 0px 30px;">
-
-                    <section>
-
-                        <div class="row">
-                            <div class="col-lg-6"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/1b.jpeg" alt=""></div>
-                            <div class="col-lg-6"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/1a.jpeg" alt=""></div>
-                        </div>
-                        <h2 class="headd3 fw-bold text-dark pt-3">Infirmary & Ambulance Services</h2>
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            At Royal Global University, our prime focus is the good health of our students. Infirmaries are
-                            manned by nurses available twenty-four hours a day under the guidance of a qualified doctor.
-                            Besides attending to medical needs of students in the campus, the doctors also carry out
-                            periodic medical checkup of the students. A well-equipped ambulance is also available 24*7 for
-                            students in case of emergencies. The institution also has tie ups with an exclusive city based
-                            multispecialty hospital.
-                        </p>
-                    </section>
-
-                    <hr>
-
-                    <section>
-                        <div class="row">
-                            <div class="col-lg-12"><img class="rounded shadow-sm border"
-                                    src="mobile-assets/medical-facility/seva.jpeg" alt=""></div>
-                        </div>
-
-                        <h2 class="headd3 fw-bold text-dark pt-3">Royal Swasthya Seva</h2>
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            Royal Swasthya Seva, a philanthropic initiative by Royal Knowledge Park was inaugurated on 12th
-                            November 2020, by the Hon’ble Chief Minister of Assam, Sri Sarbananda Sonowal. It offers
-                            healthcare services free of cost by qualified and experienced doctors to all in and around Royal
-                            Knowledge Park, from its medical centre situated adjacent to the main entrance of the university
-                            through its Allopathic, Homeopathic and Ayurvedic Clinics. It houses experienced Senior Doctors,
-                            assisted by trained nurses catering to medical needs on all weekdays, and aims to provide free
-                            consultation along with free medicines to its patients.
-                        </p>
-
-                        <p class="para1 text-dark" style="text-align: justify;">
-                            Established as a component of the University’s Social Outreach initiative, Dr. A.K. Pansari,
-                            Hon’ble Chancellor, The Assam Royal Global University, conceptualised it to cater to the medical
-                            needs of underprivileged people, who may avail its services prior to being referred to
-                            government hospitals for secondary care, if required, thereby providing free consultation with
-                            basic medicines and amenities. This initiative further has a well-equipped ambulance at its
-                            disposal for emergencies.
-                        </p>
-                    </section>
-
-                    <hr>
-
+                <div class="medical-top-image">
+                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/1a.jpeg" alt="">
                 </div>
 
-                <div class="col-lg-4 details-card p-3">
+                <div class="medical-top-content">
 
-                    <div class="p-4 shadow-sm border" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Emergency Contact Details</p>
-                        <hr>
-                        <ol class="para1 text-dark">
-                            <li><span class="fw-bold mt-2">Ambulance: </span> <a class="text-primary"
-                                    href="tel: +91 70990-18436"> +91 70990-18436</a></li>
-                            <li><span class="fw-bold mt-2">Infirmary: </span> <a class="text-primary"
-                                    href="tel: +91 70990-38510">+91 70990-38510</a></li>
-                            <li><span class="fw-bold mt-2">Transport In-charge: </span> <a class="text-primary"
-                                    href="tel: +91 88110-55509">+91 88110-55509</a></li>
-                            <li><span class="fw-bold mt-2">Emergency Helpline No: </span> <a class="text-primary"
-                                    href="tel: +91 88110-03111">+91 88110-03111</a></li>
-                        </ol>
-                    </div>
+                    <h2>Infirmary & Ambulance Services</h2>
 
-                    <div class="p-4 shadow-sm border mt-2" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Emergency Care</p>
-                        <hr>
-                        <p class="text-danger para1 fw-bold">Ambulance Services</p>
-                        <ol class="para1 text-dark">
-                            <li><span class="fw-bold mt-4">Ayursundra Super Specialty Hospital: <br> </span> <a
-                                    class="text-primary">+91 8811030033/ +91 8811030055</a></li>
-                            <li><span class="fw-bold mt-4">Apollo Excelcare Hospital: <br> </span> <a class="text-primary"
-                                    href="tel: 03617140101">03617140101</a></li>
-                            <li><span class="fw-bold mt-4">Narayana Superspeciality Hospital: <br> </span> <a
-                                    class="text-primary" href="tel: +91 8067506875">+91 8067506875</a></li>
-                            <li><span class="fw-bold mt-4">Critical Care Hospital & Research Institute: <br> </span> <a
-                                    class="text-primary" href="tel: +91 7637013667">+91 7637013667</a></li>
-                            <li><span class="fw-bold mt-4">Guwahati Metro Hospital: <br> </span> <a
-                                    class="text-primary">0361-296 2335/ 36/ 37</a></li>
-                            <li><span class="fw-bold mt-4">Health City Hospital: <br> </span> <a class="text-primary">+91
-                                    8638995504/ 0361-7105000</a></li>
-                            <li><span class="fw-bold mt-4">Government of Assam: <br> </span> <a class="text-primary"
-                                    href="tel: 108">108</a></li>
-                        </ol>
-                    </div>
-
-                    <div class="p-4 shadow-sm border mt-2" style="background-color: #daeeff;">
-                        <p class="headd3 fw-bold text-danger text-center">Royal Swasthya Sewa</p>
-                        <hr>
-                        <p class="text-success para1 fw-bold">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                            </svg> Near the RGU main gate beside PNB ATM
-                        </p>
-
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Allopathic Clinic</p>
-                            <p class="text-dark para1">Dr Lohit Baishya, MBBS</p>
-                            <p class="text-primary para1">Days: Monday to Friday | Clinic Time: 9.00 am to 1.00 pm</p>
-                        </div>
-
-                        <hr>
-
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Ayurvedic Clinic</p>
-                            <p class="text-dark para1">Dr Bhabesh Das, BAMS, MD (AYU)</p>
-                            <p class="text-primary para1">Days: Wednesday & Thursday | Clinic Time: 3.00 pm to 4.00 pm</p>
-                        </div>
-
-                        <hr>
-
-                        <div>
-                            <p class="text-dark headd3 fw-bold">Homeopathic Clinic</p>
-                            <p class="text-dark para1">Dr Shraddha Basu, BHMS</p>
-                            <p class="text-primary para1">Days: Monday, Tuesday & Friday | Clinic Time 3.00 pm to 5.00 pm
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="custom-container">
-            <div class="custom-row">
-                <div class="custom-column p-4">
-
-                    <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text"
-                        style="color: #27467A; font-weight: 900;">
-                        Nearby <span style="color: #FF9A1E; font-weight: 500;">Hospitals</span></h2>
-
-                    <table class="table"
-                        style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: 1px solid #dee2e6; border-collapse: collapse;">
-                        <thead class="table-light">
-                            <tr>
-                                <th class="fw-bold text-dark para1 text-center" style="border: 1px solid #dee2e6;">Hospital
-                                    Name & Address</th>
-                                <th class="fw-bold text-dark para1 text-center" style="border: 1px solid #dee2e6;">Distance
-                                    from RGU</th>
-                                <th class="fw-bold text-dark para1 text-center" style="border: 1px solid #dee2e6;">Contact
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr style="background-color: #f8f9fa;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ayursundra Super Specialty
-                                    Hospital, Bhabanand Boro Path, Opposite DPS School, Ahom Gaon, GARCHUK, <br> Guwahati,
-                                    Assam 781035</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">1.6 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 03617111080</td>
-                            </tr>
-                            <tr style="background-color: #e3f2fd;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Apollo Excel Care Hospital,
-                                    NH-37, near Ganesh Mandir, Paschim Boragaon, Guwahati, Assam 781033</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">5 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 0361 714 0101</td>
-                            </tr>
-                            <tr style="background-color: #f8f9fa;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Govt Ayurvedic College &
-                                    Hospital, AEC Rd, Sundarbari, Jalukbari, Guwahati, Assam 781014</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">9 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 0361 257 0455</td>
-                            </tr>
-                            <tr style="background-color: #e3f2fd;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Narayana Super Specialty
-                                    Hospital, Civil Hospital Complex, Tularam Bafna, Amingaon, Guwahati, Assam 781031</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">17 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 080675 06875</td>
-                            </tr>
-                            <tr style="background-color: #f8f9fa;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Gauhati Medical College and
-                                    Hospital, GMC Hospital Rd, Bhangagarh, Guwahati, Assam 781032</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">12 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 0361 252 9457</td>
-                            </tr>
-                            <tr style="background-color: #e3f2fd;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Critical Care Hospital &
-                                    Research Institute, Lokhra, Guwahati, Assam 781029</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">3.2 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 076370 13667</td>
-                            </tr>
-                            <tr style="background-color: #f8f9fa;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Guwahati Metro Hospital, Uday
-                                    Nagar, Khanapara, Opp. Bodoland Guest House, Guwahati, Assam 781022</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">10 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 0361 296 2335</td>
-                            </tr>
-                            <tr style="background-color: #e3f2fd;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Health City Hospital, Uday
-                                    Nagar, Khanapara, Opp. Bodoland Guest House, Guwahati, Assam 781022</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">10 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 0361 710 5000</td>
-                            </tr>
-                            <tr style="background-color: #f8f9fa;">
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Northeast Cancer Hospital,
-                                    11th Mile, GS Rd, Amerigog, Jorabat, Assam 781023</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">16.5 kms</td>
-                                <td class="para1 text-dark" style="border: 1px solid #dee2e6;">Ph: 094357 07661</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-                    <a href="mobile-assets/medical-facility/doctor_compendium.pdf" target="_blank">
-                        <button class="btn btn-primary download-btn fw-bold headd3">
-                            Doctor's Compendium &nbsp <i class="fa fa-download"></i>
-                        </button>
-                    </a>
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="custom-container pt-4">
-            <div class="custom-row">
-                <div class="custom-column p-2 text-center">
-
-                    <img class="m-4 p-2 border shadow-sm rounded" src="mobile-assets/medical-facility/medantalogo.png"
-                        alt="">
-
-                    <p class="text-dark para1 text-center">The Assam Royal Global University has corporate tie- ups with
-                        MEDANTA- The Medicity, Gurgaon. Students can avail 10% discount for all Out Patient Department (OPD)
-                        consultation, investigations (only laboratory and radiology), In- Patient (IPD) room rent and
-                        investigations (only laboratory and radiology)
+                    <p>
+                        At The Assam Royal Global University, the health and well-being of students, faculty and staff
+                        remain a top priority. The University has a fully equipped Infirmary that provides immediate
+                        medical assistance under the supervision of qualified medical professionals. Nursing staff are
+                        available round the clock to attend medical emergencies and provide primary healthcare services
+                        within the campus.
                     </p>
-                    <p class="text-success para1 fw-bold text-center">10% discount for MEDANTA- Standard Executive Health
-                        check-up.
+
+                    <p>
+                        A well-equipped ambulance service is also available 24×7 for emergencies and medical referrals.
+                        The University maintains tie-ups with reputed hospitals to ensure prompt specialized treatment
+                        whenever required, providing students with a safe and secure healthcare support system.
                     </p>
 
                 </div>
+
             </div>
+
         </div>
 
-    </div>
+    </section>
+
+    <!-- Royal Swasthya Seva -->
+
+    <section class="royal-swasthya-section">
+
+        <div class="container">
+
+            <div class="royal-swasthya-wrapper">
+
+                <div class="royal-swasthya-content">
+
+                    <h2>Royal Swasthya Seva</h2>
+
+                    <p>
+                        Royal Swasthya Seva is a philanthropic healthcare initiative of The Assam Royal Global
+                        University,
+                        established with the vision of providing quality healthcare services to the university community
+                        and
+                        the surrounding society. The centre offers consultation by experienced medical professionals
+                        along
+                        with affordable healthcare support in a patient-friendly environment.
+                    </p>
+
+                    <p>
+                        The medical centre houses qualified doctors from different disciplines and aims to provide
+                        primary
+                        healthcare, consultation, medicines and emergency support. It serves students, faculty, staff
+                        and
+                        nearby residents while also promoting preventive healthcare and wellness awareness.
+                    </p>
+
+                </div>
+
+                <div class="royal-swasthya-image">
+
+                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/seva.jpeg" alt="Royal Swasthya Seva">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Nearby Hospitals -->
+
+    <section class="nearby-hospital-section">
+
+        <div class="container">
+
+            <h2>Nearby Hospitals</h2>
+
+            <div class="nearby-hospital-table">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Hospital Name & Address</th>
+                            <th>Distance from RGU</th>
+                            <th>Contact</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Ayursundra Super Speciality Hospital, Garchuk, Guwahati, Assam 781035</td>
+                            <td>1.6 kms</td>
+                            <td>0361 7111080</td>
+                        </tr>
+
+                        <tr>
+                            <td>Apollo Excelcare Hospital, NH-37, Paschim Boragaon, Guwahati</td>
+                            <td>5 kms</td>
+                            <td>0361 7140101</td>
+                        </tr>
+
+                        <tr>
+                            <td>Government Ayurvedic College & Hospital, Jalukbari, Guwahati</td>
+                            <td>9 kms</td>
+                            <td>0361 2570455</td>
+                        </tr>
+
+                        <tr>
+                            <td>Narayana Super Speciality Hospital, Amingaon, Guwahati</td>
+                            <td>17 kms</td>
+                            <td>08067506875</td>
+                        </tr>
+
+                        <tr>
+                            <td>Gauhati Medical College & Hospital, Bhangagarh, Guwahati</td>
+                            <td>12 kms</td>
+                            <td>0361 2529457</td>
+                        </tr>
+
+                        <tr>
+                            <td>Critical Care Hospital & Research Institute, Lokhra, Guwahati</td>
+                            <td>3.2 kms</td>
+                            <td>07637013667</td>
+                        </tr>
+
+                        <tr>
+                            <td>Guwahati Metro Hospital, Khanapara, Guwahati</td>
+                            <td>10 kms</td>
+                            <td>0361 2962335</td>
+                        </tr>
+
+                        <tr>
+                            <td>Health City Hospital, Khanapara, Guwahati</td>
+                            <td>10 kms</td>
+                            <td>0361 7105000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Northeast Cancer Hospital, Jorabat, Guwahati</td>
+                            <td>16.5 kms</td>
+                            <td>09435070661</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <a href="https://www.rgu.ac/mobile-assets/medical-facility/doctor_compendium.pdf" class="hospital-download-btn">
+                <i class="fa fa-download"></i>
+                Doctor's Compendium
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="medical-emergency-section">
+
+        <div class="container">
+
+            <div class="medical-emergency-grid">
+
+                <!-- Left Card -->
+
+                <div class="medical-card">
+
+                    <h2>Emergency Contact Details</h2>
+
+                    <ul class="medical-contact-list">
+
+                        <li>
+                            <i class="fa fa-ambulance"></i>
+                            <strong>Ambulance :</strong> +91 70990 18436
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Infirmary :</strong> +91 70990 38510
+                        </li>
+
+                        <li>
+                            <i class="fa fa-bus"></i>
+                            <strong>Transport In-charge :</strong> +91 88110 55509
+                        </li>
+
+                        <li>
+                            <i class="fa fa-warning"></i>
+                            <strong>Emergency Helpline :</strong> +91 88110 03111
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Right Card -->
+
+                <div class="medical-card">
+
+                    <h2>Emergency Care - Ambulance Services</h2>
+
+                    <ul class="medical-contact-list">
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Ayursundra Super Speciality Hospital :</strong>
+                            +91 8811030033 / +91 8811030055
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Apollo Excelcare Hospital :</strong>
+                            0361 7140101
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Narayana Superspeciality Hospital :</strong>
+                            +91 8067506875
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Critical Care Hospital :</strong>
+                            +91 7637013667
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Guwahati Metro Hospital :</strong>
+                            0361 2962335
+                        </li>
+
+                        <li>
+                            <i class="fa fa-hospital-o"></i>
+                            <strong>Health City Hospital :</strong>
+                            0361 7105000
+                        </li>
+
+                        <li>
+                            <i class="fa fa-users"></i>
+                            <strong>Government Emergency :</strong>
+                            108
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Card -->
+
+            <div class="medical-card medical-swasthya-card">
+
+                <h2>Royal Swasthya Seva</h2>
+
+                <div class="medical-location">
+
+                    <i class="fa fa-map-marker"></i>
+
+                    Near The RGU Main Gate Beside PNB ATM
+
+                </div>
+
+                <div class="medical-clinic-grid">
+
+                    <div>
+
+                        <h3>Allopathic Clinic</h3>
+
+                        <p><strong>Dr. Lohit Baishya, MBBS</strong></p>
+
+                        <p>Monday - Friday</p>
+
+                        <p>9:00 AM - 1:00 PM</p>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Ayurvedic Clinic</h3>
+
+                        <p><strong>Dr. Bhabesh Das, BAMS</strong></p>
+
+                        <p>Wednesday & Thursday</p>
+
+                        <p>3:00 PM - 4:00 PM</p>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Homeopathic Clinic</h3>
+
+                        <p><strong>Dr. Shraddha Basu, BHMS</strong></p>
+
+                        <p>Monday, Tuesday & Friday</p>
+
+                        <p>3:00 PM - 5:00 PM</p>
+
+                    </div>
+
+                </div>
+
+                <div class="medical-medanta">
+
+                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/medantalogo.png" alt="">
+
+                    <p>
+                        The Assam Royal Global University has corporate tie-ups with MEDANTA - The Medicity.
+                        Students can avail special discounts on OPD consultation and investigations.
+                    </p>
+
+                    <h4>10% Discount for MEDANTA Standard Executive Health Check-up.</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 @endsection
