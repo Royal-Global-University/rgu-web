@@ -4124,10 +4124,6 @@ Route::get('/Dr-Nandana-Dutta', function () {
 
 //RSA Faculty Profile
 
-Route::get('/faculty-krutika-madkaiker', function () {
-    return view('frontend/facultyprofile/rsa/krutika-madkaiker');
-})->name('faculty-krutika-madkaiker');
-
 Route::get('/faculty-shweta-das', function () {
     return view('frontend/facultyprofile/rsa/shweta-das');
 })->name('faculty-shweta-das');
