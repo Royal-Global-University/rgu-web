@@ -4402,6 +4402,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-gaurav-verma', function () {
+    return view('frontend/facultyprofile/rsmas/gaurav-verma');
+})->name('faculty-gaurav-verma');
+
 Route::get('/faculty-pankaj-jha', function () {
     return view('frontend/facultyprofile/rsmas/pankaj-jha');
 })->name('faculty-pankaj-jha');
