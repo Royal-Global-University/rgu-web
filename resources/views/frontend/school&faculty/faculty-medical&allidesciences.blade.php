@@ -874,6 +874,31 @@
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Zomuanpuii.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Zomuanpuii</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, OTT</p>
+                            <a href="/faculty-zomuanpuii" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/rsms.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Lucky Fausta Madur</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-monika-vedraj-jadhav" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -887,20 +912,6 @@
                                 Profile</a>
                         </div>
                     </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Zomuanpuii.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Zomuanpuii</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, OTT</p>
-                            <a href="/faculty-zomuanpuii" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
