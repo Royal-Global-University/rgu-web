@@ -12,7 +12,7 @@
         <div class="website">
             @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Agriculture (RSAG)</span></h2>
+                Royal School of<span style="color: #FF9A1E; font-weight: 500;"> Agriculture and Forestry (RSAF)</span></h2>
 
         </div>
 
@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Binay Singh</h3>
                             <p class="card-designation">
-                                Professor
+                                Professor & HoD, Department of Forestry
                             </p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
@@ -142,7 +142,7 @@
                                     alt="Profile image of Anushree Das Baruah">
                             </div>
                             <h3 class="card-name">Dr. Supriyo Sen</h3>
-                            <p class="card-designation">Associate Professor & HoD</p>
+                            <p class="card-designation">Associate Professor & HoD, Department of Agriculture</p>
                             <a href="https://www.rgu.ac/faculty-supriyo-sen" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -176,24 +176,395 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rslsc/AbeshChakraborty.jpeg"
-                                    alt="Profile image of Dr. Abesh Chakraborty">
-                            </div>
-                            <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs </p>
-                            <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Anushree-Baruah-RSLSC.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Anushree Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-anushree-baruah" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- regular faculty  -->
+
+            </div>
+
+            <div class="container">
+
+                <!-- regular faculty  -->
+                <div class="row justify-content-center">
+
+                    <!-- Advisor / Visiting Professor -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/all-faculty/rslsc/arvind-madhav.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Arvind Madhab Singh</h3>
+                            <p class="card-designation">Advisor & Visiting Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <!-- Assistant Professor & Coordinator -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Pallabi-Borah-RSLSC.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Pallabi Borah</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Forestry</p>
+                            <a href="/faculty-dr-pallabi-borah" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <!-- Assistant Professors (A–Z) -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Demsai-Reang-RSLSC.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Demsai Reang</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-demsai-reang" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Paul-Lalremsang-RSLSC.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Paul Lalremsang</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-paul-lalremsang" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Romeet.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Romeet Saha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-romeet-saha" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Mr-Pushkal-Bagchie.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Pushkal Baghchie</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-pushkal-baghchie" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- regular faculty  -->
+
+                <!-- adjunct faculty  -->
+                <div class="row justify-content-center">
+                    <!-- Associate Professor -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Indrajit-Dutta.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Indrajit Dutta</h3>
+                            <p class="card-designation">Associate Professor & HOD, RSTTM</p>
+                            <a href="/faculty-indrajit-dutta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <!-- Assistant Professors (A–Z) -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/all-faculty/rslsc/AbeshChakraborty.jpeg"
+                                    alt="Profile image of Dr. Abesh Chakraborty">
+                            </div>
+                            <h3 class="card-name">Dr. Abesh Chakraborty</h3>
+                            <p class="card-designation">Assistant Professor
+                                <a href="/faculty-abesh-chakraborty" class="profile-link">View Profile</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/all-faculty/rshss/Amlandas.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Amlan Das</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-amlan-das-rshss" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Ankita-Agarwal-RSCOM.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Ankita Agarwal</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-ankita-agarwal" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Arghadeep.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Arghadeep Bose</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/facultyarghadeep-bose" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Arvind-Kumar.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Arvind Kumar Dwivedi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-arvind-dwivedi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Baba Chandra Singha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-babachandra-singha" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Bisalakshi Sawarni
+                            </h3>
+                            <p class="card-designation">Assistant Professor
+
+                            </p>
+                            <a href="/faculty-bisalakshi-sawarni" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/chandni-khaund.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Chandni Khaund
+                            </h3>
+                            <p class="card-designation">Assistant Professor
+                            </p>
+                            <a href="/faculty-chandni-khaund" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dipanjali-Das.png"
+                                    alt="Profile image of Ms. Dipanjali Das">
+                            </div>
+                            <h3 class="card-name">Ms. Dipanjali Das</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-dipanjali-das" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Florence-Handique-Rabha.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Florence Handique Rabha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-florance-rabha" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Hibjur-Rahaman.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Md. Hibjur Rahaman</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-hibjur-rahaman" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image of Jitumoni Das">
+                            </div>
+                            <h3 class="card-name">Jitumoni Das</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Mahuya-Deb-RSBAS.png"
+                                    alt="Profile image of Dr. Mahuya Deb">
+                            </div>
+                            <h3 class="card-name">Dr. Mahuya Deb</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-mahuya-deb" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Mousumi-Das-Goswami-RSBSC.png"
+                                    alt="Profile image of Mousomi Das Goswami">
+                            </div>
+                            <h3 class="card-name">Dr. Mousumi Das Goswami</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-mousumi-das-goswami" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Nikita Biswakarma</h3>
+                            <p class="card-designation">Teaching Assistant</p>
+                            <a href="/faculty-nikita-biswakarma" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image"><img src=" /mobile-assets/all-faculty/rsl/Pankaj.jpeg"
+                                    alt="Profile image "></div>
+                            <h3 class="card-name">Mr. Pankaj Gogoi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-pankaj-gogoi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
+                                    alt="Profile image of Prabahan Pujari">
+                            </div>
+                            <h3 class="card-name">Dr. Prabahan Puzari</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-prabahan-puzari" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Prasant-Mali-RSL.png"
+                                    alt="Profile image of Prasant Mali">
+                            </div>
+                            <h3 class="card-name">Mr. Prasant Mali</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-prasant-mali" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/all-faculty/rsmas/Phurailatpam.jpg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Ms. Phurailatpam Jeny Sharma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-phurailatpam-jeny-sharma" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Rupshikha-Patowary-RSBSC.png"
+                                    alt="Profile image of Rupshika Patowary">
+                            </div>
+                            <h3 class="card-name">Dr. Rupshikha Patowary</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-rupshikha" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/53.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Sandipta Dey</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-sandipta-ghosh" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Siddhartha-Narayan-Borah-RSBSC.png"
+                                    alt="Profile image of Dr. Siddhartha Narayan Borah">
+                            </div>
+                            <h3 class="card-name">Dr. Siddhartha Narayan Borah</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-siddhartha-narayan" class="profile-link">View
+                                Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Tripti-Das.png"
+                                    alt="Profile image of Tripti Das">
+                            </div>
+                            <h3 class="card-name">Dr. Tripti Das</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -208,8 +579,37 @@
                             <a href="/faculty-upashna-chettri" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
                 </div>
-                <!-- regular faculty  -->
+                <!-- adjunct faculty  -->
+
+                <!-- Visiting Faculty  -->
+                <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
+                    <h2 class="text-center justify-content-center fw-bold"
+                        style="color: #fff; padding: 10px; font-size: 30px;">
+                        Visiting Faculty</h2>
+                </div>
+                <!-- Visiting Faculty  -->
+
+                <!-- Visting faculty  -->
+                <div class="row justify-content-center">
+
+                    <!-- Advisor / Visiting Professor -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
+                            <p class="card-designation">Visiting Faculty</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Visting faculty  -->
+
 
             </div>
         </div>

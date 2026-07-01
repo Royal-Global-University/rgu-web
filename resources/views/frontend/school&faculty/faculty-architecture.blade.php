@@ -141,25 +141,27 @@
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
               <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsa/3.jpeg"
-                  alt="Profile image">
+                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ar-Kasturi-Borah-RSA.png" alt="Profile image">
               </div>
-              <h3 class="card-name">Ar. Bhola Saha</h3>
-              <p class="card-designation">Assistant Professor & Coordinator, Royal School of Architecture</p>
-              <a href="https://www.rgu.ac/faculty-Bhola-Saha" class="profile-link">View Profile</a>
+              <h3 class="card-name">Ar. Kasturi Borah</h3>
+              <p class="card-designation">Associate Professor & HOD</p>
+              <a href="https://www.rgu.ac/faculty-kasturi-borah" class="profile-link">View Profile</a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
               <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ar-Kasturi-Borah-RSA.png" alt="Profile image">
+                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsa/3.jpeg"
+                  alt="Profile image">
               </div>
-              <h3 class="card-name">Ar. Kasturi Borah</h3>
-              <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
-              <a href="https://www.rgu.ac/faculty-kasturi-borah" class="profile-link">View Profile</a>
+              <h3 class="card-name">Ar. Bhola Saha</h3>
+              <p class="card-designation">Assistant Professor</p>
+              <a href="https://www.rgu.ac/faculty-Bhola-Saha" class="profile-link">View Profile</a>
             </div>
           </div>
+
+          
 
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
@@ -249,78 +251,6 @@
 
         </div>
         <!-- regular faculty  -->
-
-         <!-- adjunct faculty  -->
-        <div class="row justify-content-center">
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ayushman-Devraj-RSL.png"
-                  alt="Profile image">
-              </div>
-              <h3 class="card-name">
-                Dr. Ayushman Devraj
-              </h3>
-              <p class="card-designation">
-                Assistant Professor & Co-ordinator, Value-Added Courses (VACs)
-              </p>
-              <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/olivia.JPG"
-                  alt="Profile image">
-              </div>
-              <h3 class="card-name">
-                Dr. Olivia Kakati
-              </h3>
-              <p class="card-designation">
-                Assistant Professor
-              </p>
-              <a href="https://www.rgu.ac/olivia-kakati" class="profile-link">View Profile</a>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Radhika.jpeg"
-                  alt="Profile image">
-              </div>
-              <h3 class="card-name">
-                Dr. Radhika Sharma
-              </h3>
-              <p class="card-designation">
-                Assistant Professor
-              </p>
-              <a href="/faculty-radhika-sharma" class="profile-link">View Profile</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Vanita-Agrawal-RSET.png"
-                  alt="Profile image">
-              </div>
-              <h3 class="card-name">
-                Vanita Agrawal
-              </h3>
-              <p class="card-designation">
-                Assistant Professor & Head, Laboratory Services
-              </p>
-              <a href="https://www.rgu.ac/faculty-vanita-agarwal" class="profile-link">View Profile</a>
-            </div>
-          </div>
-
-
-        </div>
-        <!-- adjunct faculty  -->
 
       </div>
     </div>

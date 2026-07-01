@@ -157,7 +157,7 @@
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsaps/2.jpg" alt="Profile image of Prof. Dilip Nath">
                             </div>
-                            <h3 class="card-name">Prof. Dilip Nath</h3>
+                            <h3 class="card-name">Prof. Dilip Chandra Nath</h3>
                             <p class="card-designation">Professor Emeritus & Honorary Advisor, RSAPS</p>
                             <a href="https://www.rgu.ac/faculty-dilip-nath" class="profile-link">View Profile</a>
                         </div>
@@ -208,7 +208,7 @@
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsaps/2.jpg" alt="Profile image of Prof. Dilip Nath">
                             </div>
-                            <h3 class="card-name">Prof. Dilip Nath</h3>
+                            <h3 class="card-name">Prof. Dilip Chandra Nath</h3>
                             <p class="card-designation">Professor Emeritus & Honorary Advisor, RSAPS</p>
                             <a href="https://www.rgu.ac/faculty-dilip-nath" class="profile-link">View Profile</a>
                         </div>
