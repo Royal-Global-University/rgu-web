@@ -1,273 +1,594 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <section style="padding: 130px 10px 0px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
-                            style="color: #264273; font-weight: 700;">
-                            Activities Undertaken <br><span style="color: #FF9A1E; font-weight: 500;">
-                                By RCCR</span> </h2>
-                        <div class="txaa-slide-down-1">
-                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
-                                class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async"
-                                    src="mobile-assets/placement-all/placements-activity/headimg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+    <style>
+        /* ===================================
+       INTERNATIONAL HIGHLIGHTS
+    =================================== */
 
-                    <div class="col-lg-12 pt-3">
+        .intl-highlights-section {
+            background: #eef1f7;
+            padding: 80px 0 40px;
+        }
 
-                        <p class="mobile-para1" style="color: #264273; text-align: justify;">
-                            Royal Centre for Corporate Relations (RCCR) envisages enhancing placement prospects of RGU
-                            students through various activities during the academic session.
-                        </p>
-                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
-                            Our University Placement <span style="color: #FF9A1E; font-weight: 500;">
-                                Services Include:</span> </h2>
+        .intl-img-card img,
+        .intl-small-img img,
+        .intl-blue-img img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            border-radius: 28px;
+        }
 
-                        <ol class="mobile-para1" style="color: #264273; text-align: left;">
-                            <li>Members of the RCCR.</li>
-                            <li>One faculty placement coordinator from each Department.</li>
-                            <li>Student coordinators from every department.</li>
-                            <li>Senior officers of the University (As Advisors/Mentors to the Centre).</li>
-                        </ol>
-                        <p class="mobile-para1 mt-3" style="color: #264273; text-align: justify;">
-                            The centre continuously endeavours to help students in pursuing their career goals by
-                            imparting employment-seeking skills and thereby to attain desired employment. This is
-                            accomplished through a strong bond created amongst students, alumni, faculty members and the
-                            industry. Royal Centre for Corporate Relations mentors students to the effect that they are
-                            industry-ready at the end of their final academic session. The centre is unique in nature as
-                            it aims at grooming students ethically as well as in terms of attitude and aptitude, through
-                            regular training and interactive sessions. The main objective of this Centre is to make the
-                            students ready to face the challenges of the corporate world and to help them in getting
-                            placed after completing respective courses.
-                        </p>
+        .intl-img-card img {
+            height: 320px;
+        }
 
-                    </div>
-                </div>
+        .intl-small-img img {
+            height: 140px;
+        }
 
-                <div class="row mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g1.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g2.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g3.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g4.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g5.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g6.jpg" alt="">
-                    </div>
-                </div>
+        .intl-blue-img img {
+            height: 300px;
+        }
 
-                <h2 class="headd3 fw-bold mt-2" style="color: #264273; font-weight: 700; font-size: 26px;">
-                    Leadership <span style="color: #FF9A1E; font-weight: 500;">
-                        Conclave 2025</span> </h2>
+        .intl-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #1f3f7f;
+            margin-bottom: 20px;
+        }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    <strong>Guwahati, September 11, 2025:</strong> Royal Global University successfully hosted its flagship
-                    Leadership
-                    Conclave 2025, organized by the Royal Centre for Corporate Relations (RCCR) under the leadership of
-                    Ms. Bristy Srivastava, Head of RCCR. The conclave brought together close to 100 senior
-                    professionals, industry leaders, and distinguished speakers for a day of high-impact discussions on
-                    the theme “Ethics and the Evolving Workforce.”
-                </p>
+        .intl-content h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 30px;
+            font-weight: 700;
+            color: #1f3f7f;
+            margin-bottom: 20px;
+        }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The conclave addressed some of the most urgent questions facing today’s workplace, explored across
-                    four thought-provoking panels: “Minimal Input, Maximum Outcome: Has Hustle Culture Rebranded
-                    Laziness?”, “5% of Leadership, 50% of the Workforce: What’s Broken in the Climb for Women?”, “Beyond
-                    the Algorithm: Reclaiming the Human in Human Resources,” and “Funding Over Fundamentals: Has Startup
-                    Culture Outgrown Accountability?”
-                </p>
+        .intl-content p {
+            font-family: 'Inter', sans-serif;
+            color: #5d6678;
+            font-size: 15px;
+            line-height: 1.9;
+            margin-bottom: 16px;
+        }
 
-                <div class="row mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <div class="col-lg-6 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/l-img.png" alt="">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="mobile-assets/placement-all/placements-activity/r-img.png" alt="">
-                    </div>
-                </div>
-
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    Notable speakers included Abhay Kapoor, HR Transformation Leader at UIL; Govindprasad Gaonkar,
-                    Senior Executive Vice President & Head-HR at Kotak Mahindra Asset Management; Sailaja M, HR Leader
-                    at Sephora with 18+ years of experience in retail and e-commerce; Nitin Jagdale, Head of Talent
-                    Acquisition at NTT Data India; and Dr. Alaka Sarma, Co-founder of Akshar Foundation and Oxford
-                    alumna, who has been instrumental in pioneering sustainable and socially impactful education models.
-                    Their insights were complemented by other eminent leaders from organizations such as Amazon,
-                    Reliance Jio, ICICI Bank, Kotak Mahindra Bank, Sephora, and many more.
-                </p>
-
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The discussions examined how ethics can be positioned at the heart of leadership, ensuring that
-                    technological innovation, diversity, and productivity are aligned with integrity and inclusivity.
-                    Speakers reflected on reshaping leadership values, empowering women in the workforce, rehumanizing
-                    HR in the age of algorithms, and steering startups towards accountability.
-                </p>
-
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The conclave reinforced Royal Global University’s commitment to creating a platform that bridges
-                    academia and industry, inspiring students and professionals alike to pursue leadership rooted in
-                    ethics, responsibility, and innovation.
-                </p>
-
-            </div>
+        .intl-content ol li {
+            font-family: 'Inter', sans-serif;
+            color: #5d6678;
+            font-size: 15px;
+            line-height: 1.9;
+            margin-bottom: 16px;
+        }
 
 
-        </section>
-
-    </div>
-
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
-        <section
-            style="background-image: url(mobile-assets/placement-all/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async"
-                                    src="mobile-assets/placement-all/placements-activity/headimg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mt-3" style="color: #264273; font-weight: 700;">
-                            Activities Undertaken <br> <span style="color: #FF9A1E; font-weight: 500;">
-                                by RCCR</span> </h2>
-
-                        <p class="para1" style="color: #264273; text-align: justify;">
-                            Royal Centre for Corporate Relations (RCCR) envisages enhancing placement prospects of RGU
-                            students through various activities during the academic session.
-                        </p>
 
 
-                    </div>
-                </div>
-            </div>
+        /* ===================================
+       RESPONSIVE
+    =================================== */
 
-        </section>
+        @media (max-width:991px) {
 
-        <div style="background-image: url(mobile-assets/placement-all/bg.svg); background-size: cover; padding: 30px 0px ;">
-            <div class="container">
-                <h2 class="headd3 fw-bold mt-3" style="color: #264273; font-weight: 700; font-size: 35px;">
-                    Our University Placement <span style="color: #FF9A1E; font-weight: 500;">
-                        Services Include:</span> </h2>
+            .intl-highlights-section {
+                padding: 60px 0 20px;
+            }
 
-                <ol class="para1" style="color: #264273; text-align: left;">
-                    <li>Strong industry interface whereby potential employers in industry are contacted at regular
-                        intervals and recruitment processes are conducted on or off campus as per recruiter’s
-                        requirements.</li>
-                    <li>Internship opportunities in Government, Semi-Government and Private sector Industry/Undertakings
-                        as per student’s preference.</li>
-                    <li>Industrial Visits, field trips and interactive sessions with corporates at regular intervals, as
-                        well as training on soft skills, Personality Development and Grooming sessions which cover a
-                        wide arena including leadership, teamwork, empathy, time management etc. are also designed for
-                        the aspirants.</li>
-                    <li>RCCR conducts regular mock Group Discussions (GD), Personal Interviews (PI), online test
-                        practices, and Career Counselling sessions for students.</li>
-                    <li>RCCR arranges interactive sessions of students with RGU alumni so that the current students are
-                        inspired by the experiences of their seniors and also receive all necessary support from them in
-                        their professional journey ahead.</li>
-                    <li>To ensure satisfactory induction, members from RCCR visit the worksites of the students to know
-                        how the students are performing in their job and thus gather corporate feedback on the students’
-                        performance.</li>
-                </ol>
+            .intl-content h2,
+            .intl-blue-writeup h2 {
+                font-size: 34px;
+            }
 
-                <div class="row mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g1.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g2.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g3.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g4.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g5.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <img src="mobile-assets/placement-all/placements-activity/g6.jpg" alt="">
-                    </div>
-                </div>
+            .intl-blue-section {
+                border-radius: 40px 40px 0 0;
+                padding: 60px 0;
+            }
 
+            .intl-blue-writeup {
+                padding: 0;
+            }
 
-                <h2 class="headd3 fw-bold mt-3" style="color: #264273; font-weight: 700; font-size: 35px;">
-                    Leadership <span style="color: #FF9A1E; font-weight: 500;">
-                        Conclave 2025</span> </h2>
+            .intl-img-card img,
+            .intl-blue-img img {
+                height: 250px;
+            }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    <strong>Guwahati, September 11, 2025:</strong> Royal Global University successfully hosted its flagship
-                    Leadership
-                    Conclave 2025, organized by the Royal Centre for Corporate Relations (RCCR) under the leadership of
-                    Ms. Bristy Srivastava, Head of RCCR. The conclave brought together close to 100 senior
-                    professionals, industry leaders, and distinguished speakers for a day of high-impact discussions on
-                    the theme “Ethics and the Evolving Workforce.”
-                </p>
+            .intl-small-img img {
+                height: 180px;
+            }
+        }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The conclave addressed some of the most urgent questions facing today’s workplace, explored across
-                    four thought-provoking panels: “Minimal Input, Maximum Outcome: Has Hustle Culture Rebranded
-                    Laziness?”, “5% of Leadership, 50% of the Workforce: What’s Broken in the Climb for Women?”, “Beyond
-                    the Algorithm: Reclaiming the Human in Human Resources,” and “Funding Over Fundamentals: Has Startup
-                    Culture Outgrown Accountability?”
-                </p>
+        @media (max-width:767px) {
 
-                <div class="row mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <div class="col-lg-6">
-                        <img src="mobile-assets/placement-all/placements-activity/l-img.png" alt="">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="mobile-assets/placement-all/placements-activity/r-img.png" alt="">
-                    </div>
-                </div>
+            .intl-content h2,
+            .intl-blue-writeup h2 {
+                font-size: 28px;
+            }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    Notable speakers included Abhay Kapoor, HR Transformation Leader at UIL; Govindprasad Gaonkar,
-                    Senior Executive Vice President & Head-HR at Kotak Mahindra Asset Management; Sailaja M, HR Leader
-                    at Sephora with 18+ years of experience in retail and e-commerce; Nitin Jagdale, Head of Talent
-                    Acquisition at NTT Data India; and Dr. Alaka Sarma, Co-founder of Akshar Foundation and Oxford
-                    alumna, who has been instrumental in pioneering sustainable and socially impactful education models.
-                    Their insights were complemented by other eminent leaders from organizations such as Amazon,
-                    Reliance Jio, ICICI Bank, Kotak Mahindra Bank, Sephora, and many more.
-                </p>
+            .intl-contact-box {
+                padding: 25px;
+            }
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The discussions examined how ethics can be positioned at the heart of leadership, ensuring that
-                    technological innovation, diversity, and productivity are aligned with integrity and inclusivity.
-                    Speakers reflected on reshaping leadership values, empowering women in the workforce, rehumanizing
-                    HR in the age of algorithms, and steering startups towards accountability.
-                </p>
+            .intl-contact-box h3 {
+                font-size: 28px;
+            }
+        }
+    </style>
 
-                <p class="para1" style="color: #264273; text-align: justify;">
-                    The conclave reinforced Royal Global University’s commitment to creating a platform that bridges
-                    academia and industry, inspiring students and professionals alike to pursue leadership rooted in
-                    ethics, responsibility, and innovation.
-                </p>
+    <style>
+        /*===================================
+    PLACEMENT SERVICES
+    ===================================*/
 
+        .placement-services-section {
+
+            background: #eef1f7;
+            padding: 10px 0 80px;
+
+        }
+
+        .placement-services-content {
+
+            margin-bottom: 55px;
+
+        }
+
+        .placement-services-content h2 {
+
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #1f3f7f;
+            margin-bottom: 30px;
+
+        }
+
+        .placement-services-content h2 span {
+
+            color: #e67d29;
+
+        }
+
+        .placement-services-content ol {
+
+            padding-left: 28px;
+            margin: 0;
+
+        }
+
+        .placement-services-content li {
+
+            font-family: 'Inter', sans-serif;
+            color: #5d6678;
+            font-size: 15px;
+            line-height: 2;
+            margin-bottom: 14px;
+            text-align: justify;
+
+        }
+
+        .placement-gallery-item {
+
+            display: block;
+            overflow: hidden;
+            border-radius: 20px;
+
+        }
+
+        .placement-gallery-item img {
+
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            display: block;
+            transition: .45s;
+
+        }
+
+        .placement-gallery-item:hover img {
+
+            transform: scale(1.08);
+
+        }
+
+        @media(max-width:991px) {
+
+            .placement-services-content h2 {
+
+                font-size: 34px;
+
+            }
+
+            .placement-gallery-item img {
+
+                height: 220px;
+
+            }
+
+        }
+
+        @media(max-width:767px) {
+
+            .placement-services-content h2 {
+
+                font-size: 28px;
+
+            }
+
+            .placement-services-content li {
+
+                font-size: 14px;
+                line-height: 1.8;
+
+            }
+
+        }
+    </style>
+
+    <style>
+        /*===================================
+    LEADERSHIP CONCLAVE
+    ===================================*/
+
+        .leadership-conclave-section {
+
+            padding: 20px 0 90px;
+            background: #eef1f7;
+
+        }
+
+        .leadership-content {
+
+            margin-bottom: 40px;
+
+        }
+
+        .leadership-content h2 {
+
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #1f3f7f;
+            margin-bottom: 25px;
+
+        }
+
+        .leadership-content h2 span {
+
+            color: #e67d29;
+
+        }
+
+        .leadership-content p {
+
+            font-family: 'Inter', sans-serif;
+            color: #5d6678;
+            font-size: 15px;
+            line-height: 2;
+            text-align: justify;
+            margin-bottom: 20px;
+
+        }
+
+        .leadership-gallery {
+
+            display: block;
+            overflow: hidden;
+            border-radius: 18px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+        }
+
+        .leadership-gallery img {
+
+            width: 100%;
+            display: block;
+            transition: .45s;
+
+        }
+
+        .leadership-gallery:hover img {
+
+            transform: scale(1.05);
+
+        }
+
+        @media(max-width:991px) {
+
+            .leadership-content h2 {
+
+                font-size: 34px;
+
+            }
+
+        }
+
+        @media(max-width:767px) {
+
+            .leadership-conclave-section {
+
+                padding: 10px 0 60px;
+
+            }
+
+            .leadership-content h2 {
+
+                font-size: 28px;
+
+            }
+
+            .leadership-content p {
+
+                font-size: 14px;
+                line-height: 1.9;
+
+            }
+
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/introduction/cover.png'); filter: blur(2px);"></div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title">Activities Undertaken by RCCR</h1>
+            <div class="pg-hero-breadcrumb">
+                Placement / Activities Undertaken by RCCR
             </div>
         </div>
 
-    </div>
+    </section>
+
+
+    <!-- =========================
+         INTERNATIONAL HIGHLIGHTS SECTION
+         Place this after the Hero Section
+    ========================= -->
+
+    <section class="intl-highlights-section">
+        <div class="container">
+
+            <!-- Top Grid -->
+            <div class="row g-5 align-items-center">
+
+                <!-- Left Image -->
+                <div class="col-lg-6">
+                    <div class="intl-img-card">
+                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/headimg.png"
+                            alt="Education in India">
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6">
+                    <div class="intl-content">
+                        <h2>Activities Undertaken by RCCR</h2>
+
+                        <p>
+                            Royal Centre for Corporate Relations (RCCR) envisages enhancing placement prospects of RGU
+                            students through various activities during the academic session.
+                        </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+    PLACEMENT SERVICES
+    ========================================== -->
+
+    <section class="placement-services-section">
+        <div class="container">
+
+            <div class="placement-services-content">
+
+                <h2>
+                    Our University Placement <span>Services Include:</span>
+                </h2>
+
+                <ol>
+
+                    <li>
+                        Strong industry interface whereby potential employers in industry are contacted at regular
+                        intervals and recruitment processes are conducted on or off campus as per recruiter’s
+                        requirements.
+                    </li>
+
+                    <li>
+                        Internship opportunities in Government, Semi-Government and Private Sector
+                        Industry/Undertakings as per student's preference.
+                    </li>
+
+                    <li>
+                        Industrial visits, field trips and interactive sessions with corporates at regular
+                        intervals, along with training on soft skills, personality development, grooming,
+                        leadership, teamwork, empathy and time management for aspiring professionals.
+                    </li>
+
+                    <li>
+                        RCCR conducts regular Mock Group Discussions (GD), Personal Interviews (PI),
+                        aptitude assessments, online test practices and Career Counselling sessions to
+                        prepare students for campus recruitment.
+                    </li>
+
+                    <li>
+                        RCCR arranges interactive sessions of students with RGU alumni so that the current students are
+                        inspired by the experiences of their seniors and also receive all necessary support from them in
+                        their professional journey ahead.
+                    </li>
+
+                    <li>
+                        To ensure satisfactory induction, members from RCCR visit the worksites of the students to know
+                        how the students are performing in their job and thus gather corporate feedback on the students’
+                        performance.
+                    </li>
+
+                </ol>
+
+            </div>
+
+            <!-- Gallery -->
+
+            <div class="placement-gallery">
+
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g1.jpg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g1.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g2.jpg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g2.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g3.jpeg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g3.jpeg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g4.jpg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g4.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g5.jpg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g5.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g6.jpg"
+                            class="placement-gallery-item">
+                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g6.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--=========================================
+    LEADERSHIP CONCLAVE
+    ==========================================-->
+
+    <section class="leadership-conclave-section">
+
+        <div class="container">
+
+            <div class="leadership-content">
+
+                <h2>
+                    Leadership <span>Conclave 2025</span>
+                </h2>
+
+                <p>
+                    <strong>Guwahati, September 11, 2025:</strong>
+                    Royal Global University successfully hosted its flagship Leadership Conclave 2025, organized by the
+                    Royal Centre for Corporate Relations (RCCR) under the leadership of Ms. Bristy Srivastava, Head of
+                    RCCR. The conclave brought together close to 100 senior professionals, industry leaders, and
+                    distinguished speakers for a day of high-impact discussions on the theme “Ethics and the Evolving
+                    Workforce.”
+                </p>
+
+                <p>
+                    The conclave addressed some of the most urgent questions facing today’s workplace, explored across
+                    four thought-provoking panels: “Minimal Input, Maximum Outcome: Has Hustle Culture Rebranded
+                    Laziness?”, “5% of Leadership, 50% of the Workforce: What’s Broken in the Climb for Women?”, “Beyond
+                    the Algorithm: Reclaiming the Human in Human Resources,” and “Funding Over Fundamentals: Has Startup
+                    Culture Outgrown Accountability?”
+                </p>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 mb-4">
+
+                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
+                        class="leadership-gallery">
+
+                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
+                            alt="Leadership Conclave">
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6 mb-4">
+
+                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
+                        class="leadership-gallery">
+
+                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
+                            alt="Leadership Conclave">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="leadership-content mt-4">
+
+                <p>
+                    Notable speakers included Abhay Kapoor, HR Transformation Leader at UIL; Govindprasad Gaonkar,
+                    Senior Executive Vice President & Head-HR at Kotak Mahindra Asset Management; Sailaja M, HR Leader
+                    at Sephora with 18+ years of experience in retail and e-commerce; Nitin Jagdale, Head of Talent
+                    Acquisition at NTT Data India; and Dr. Alaka Sarma, Co-founder of Akshar Foundation and Oxford
+                    alumna, who has been instrumental in pioneering sustainable and socially impactful education models.
+                    Their insights were complemented by other eminent leaders from organizations such as Amazon,
+                    Reliance Jio, ICICI Bank, Kotak Mahindra Bank, Sephora, and many more.
+                </p>
+
+                <p>
+                    The discussions examined how ethics can be positioned at the heart of leadership, ensuring that
+                    technological innovation, diversity, and productivity are aligned with integrity and inclusivity.
+                    Speakers reflected on reshaping leadership values, empowering women in the workforce, rehumanizing
+                    HR in the age of algorithms, and steering startups towards accountability.
+                </p>
+
+                <p>
+                    The conclave reinforced Royal Global University’s commitment to creating a platform that bridges
+                    academia and industry, inspiring students and professionals alike to pursue leadership rooted in
+                    ethics, responsibility, and innovation.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
 @endsection
