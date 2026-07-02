@@ -4174,10 +4174,6 @@ Route::get('/faculty-Diksha-Dutta', function () {
 
 //RSP Faculty Profile
 
-Route::get('/faculty-piya-mandal', function () {
-    return view('frontend/facultyprofile/rsp/piya-mandal');
-})->name('faculty-piya-mandal');
-
 Route::get('/faculty-monawara-begum', function () {
     return view('frontend/facultyprofile/rsp/monawara-begum');
 })->name('faculty-monawara-begum');
@@ -5684,6 +5680,17 @@ Route::get('/rsp-events-npw-2025', function () {
 Route::get('/botany-botanique-3.0', function () {
     return view('frontend/dept-events/botany/botanique');
 })->name('botany-botanique-3.0');
+
+
+//MOU's
+
+Route::get('/botany-botanique-3.0222', function () {
+    return view('rontend/mou/file1');
+})->name('botany-botanique-3.0');
+
+Route::get('/botany-botanique-3.0222', function () {
+    return view('rontend/mou/file2');
+})->name('botany-botanique-3.0222');
 
 
 
