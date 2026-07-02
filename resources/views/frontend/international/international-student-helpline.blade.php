@@ -1,147 +1,457 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
-                                style="color: #264273; font-weight: 700;">International <span
-                                    style="color: #FF9A1E; font-weight: 500;">Student Helpline</span> </h2>
-                            <div class="txaa-slide-down-1">
-                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
-                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/intern-helpline/headimg.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <style>
+        /*=========================================================
+    STUDENT HELPLINE
+    =========================================================*/
 
-            <section
-                style="background-image: url(mobile-assets/intern-helpline/helpline-bg.svg); background-size: cover; padding-bottom: 50px;">
+        .student-help-section {
 
-                <section class="container">
-                    <h2 class="mobile-headd3 fw-bold pb-3 " style="color: #264273;">
-                        The University provides several support services to international students so that their study and stay
-                        in India is hassle free.
-                    </h2>
-                    <ol class="custom-ol mobile-para1 pb-2">
-                        <li>Guidance throughout your chosen program of study regarding any financial issues, counselling and
-                            documentation support.</li>
-                        <li>Specialised advisory services for international students.</li>
-                        <li>Referrals to relevant contacts inside and outside the University.</li>
-                        <li>Social programs and promotion of activities for international students.</li>
-                    </ol>
+            padding: 90px 0;
 
-                    <hr>
+            background: #eef3fb;
 
-                    <h2 class="mobile-headd3 fw-bold pb-3" style="color: #264273;">
-                        For any support or guidance, international students (present or future) can connect with:
-                    </h2>
+        }
 
-                </section>
+        /*=========================================================
+    IMAGE
+    =========================================================*/
 
-                <div class="container">
-                    <div class="container"
-                        style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
-                        <p class="mobile-mobile-headd3" style="font-weight: bold;">Contact:</p>
-                        <p class="mobile-para1">Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel:+919864049818"
-                                style="color: white; text-decoration: none;">+91 9864049818</a></p>
-                        <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto:gkanand@rgu.ac"
-                                style="color: white; text-decoration: none;">gkanand@rgu.ac</a></p>
-                        <a href="tel:+919864049818" class="mobile-call-btn fw-bold"
-                            style="text-decoration: none; background: #FF9A1E; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
-                            Call Now
-                        </a>
-                    </div>
-                </div>
+        .student-help-image {
 
+            position: relative;
 
-            </section>
-        </div>
-    </div>
+        }
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+        .student-help-image img {
 
-        <!--head image Section-->
-        <section
-            style="background-image: url(mobile-assets/intern-helpline/bgg.svg); background-size: cover; padding: 50px 0px;">
-            <div class="container">
-                <div class="row align-items-center gx-5">
-                    <div class="col-lg-6">
-                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="mobile-assets/intern-helpline/headimg.png"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+            width: 100%;
 
-                        <h2 class="headd" style="color: #264273; font-weight: 900;">INTERNATIONAL <br> STUDENT <span
-                                style="color: #FF9A1E; font-weight: 500;">HELPLINE</span></h2>
+            display: block;
 
-                    </div>
-                </div>
+            border-radius: 22px;
+
+            animation: studentFloat 6s ease-in-out infinite;
+
+            transition: .45s;
+
+        }
+
+        .student-help-image img:hover {
+
+            transform: scale(1.02);
+
+        }
+
+        @keyframes studentFloat {
+
+            0% {
+
+                transform: translateY(0);
+
+            }
+
+            50% {
+
+                transform: translateY(-10px);
+
+            }
+
+            100% {
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+        /*=========================================================
+    CONTENT
+    =========================================================*/
+
+        .student-help-content {
+
+            padding-left: 35px;
+
+        }
+
+        .student-help-content h2 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 30px;
+
+            line-height: 1.35;
+
+            color: #1d3c73;
+
+            margin-bottom: 35px;
+
+        }
+
+        .student-help-list {
+
+            margin: 0;
+
+            padding: 0;
+
+            list-style: none;
+
+        }
+
+        .student-help-list li {
+
+            position: relative;
+
+            padding-left: 28px;
+
+            margin-bottom: 24px;
+
+            color: #666;
+
+            line-height: 1.9;
+
+        }
+
+        .student-help-list li::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+
+            top: 11px;
+
+            width: 8px;
+
+            height: 8px;
+
+            background: #e56a3b;
+
+            border-radius: 50%;
+
+        }
+
+        /*=========================================================
+    CONTACT CARD
+    =========================================================*/
+
+        .student-help-card {
+
+            background: #fff;
+
+            margin-top: 70px;
+
+            border-radius: 18px;
+
+            padding: 35px 40px;
+
+            box-shadow: 0 18px 45px rgba(0, 0, 0, .06);
+
+        }
+
+        .student-help-card h3 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 34px;
+
+            color: #1d3c73;
+
+            margin-bottom: 18px;
+
+            line-height: 1.4;
+
+        }
+
+        .student-help-divider {
+
+            width: 100%;
+
+            height: 1px;
+
+            background: #d8e1ef;
+
+            margin-bottom: 30px;
+
+        }
+
+        .student-help-item {
+
+            display: flex;
+
+            align-items: flex-start;
+
+            margin-bottom: 22px;
+
+        }
+
+        .student-help-item:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+        .student-help-item i {
+
+            color: #e56a3b;
+
+            font-size: 24px;
+
+            margin-right: 18px;
+
+            min-width: 24px;
+
+        }
+
+        .student-help-item span,
+
+        .student-help-item a {
+
+            color: #35537e;
+
+            text-decoration: none;
+
+            line-height: 1.8;
+
+            transition: .3s;
+
+        }
+
+        .student-help-item a:hover {
+
+            color: #e56a3b;
+
+        }
+
+        /*=========================================================
+    TABLET
+    =========================================================*/
+
+        @media(max-width:991px) {
+
+            .student-help-content {
+
+                padding-left: 0;
+
+                margin-top: 40px;
+
+            }
+
+            .student-help-content h2 {
+
+                font-size: 38px;
+
+            }
+
+            .student-help-card {
+
+                margin-top: 50px;
+
+            }
+
+        }
+
+        /*=========================================================
+    MOBILE
+    =========================================================*/
+
+        @media(max-width:767px) {
+
+            .student-help-section {
+
+                padding: 60px 0;
+
+            }
+
+            .student-help-content h2 {
+
+                font-size: 30px;
+
+            }
+
+            .student-help-card {
+
+                padding: 25px;
+
+            }
+
+            .student-help-card h3 {
+
+                font-size: 26px;
+
+            }
+
+            .student-help-item {
+
+                align-items: flex-start;
+
+            }
+
+            .student-help-item i {
+
+                font-size: 20px;
+
+                margin-right: 14px;
+
+            }
+
+            .student-help-item span,
+
+            .student-help-item a {
+
+                font-size: 15px;
+
+            }
+
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/helpline/cover.png'); filter: blur(2px);"></div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Student Helpline</h1>
+            <div class="pg-hero-breadcrumb">
+                International / Student Helpline
             </div>
-        </section>
-        <!--head image Section-->
+        </div>
 
-        <section
-            style="background-image: url(mobile-assets/intern-helpline/helpline-bg.svg); background-size: cover; padding-bottom: 50px;">
+    </section>
 
-            <section class="container p-5">
-                <h2 class="headd3 fw-bold pb-3 " style="color: #264273;">
-                    The University provides several support services to international students so that their study and stay
-                    in India is hassle free.
-                </h2>
-                <ol class="custom-ol para1 pb-5">
-                    <li>Guidance throughout your chosen program of study regarding any financial issues, counselling and
-                        documentation support.</li>
-                    <li>Specialised advisory services for international students.</li>
-                    <li>Referrals to relevant contacts inside and outside the University.</li>
-                    <li>Social programs and promotion of activities for international students.</li>
-                </ol>
 
-                <hr>
+    <section class="student-help-section">
 
-                <h2 class="headd3 fw-bold" style="color: #264273;">
-                    For any support or guidance, international students (present or future) can connect with:
-                </h2>
+        <div class="container">
 
-            </section>
+            <div class="row align-items-center">
 
-            <section style="border-bottom: 4px solid #1f3b6f;">
-                <div class="contact-section">
+                <!--=====================================
+                IMAGE
+                ======================================-->
 
-                    <div class="contact-icon">
-                        <img style="width: 120px; height: 100%;" src="mobile-assets/intern-helpline/telephone-call.png"
-                            alt="Phone Icon">
-                    </div>
+                <div class="col-lg-6">
 
-                    <div class="contact-info">
-                        <div class="contact-title">Contact:</div>
-                        <div class="contact-details">
-                            Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
-                        </div>
-                        <div class="contact-bold">Ph. no: +91 9864049818</div>
-                        <div class="contact-bold">Email: gkanand@rgu.ac</div>
+                    <div class="student-help-image">
+
+                        <img src="new-web/assets/img/helpline/headimg.png" alt="International Student Support">
+
                     </div>
 
                 </div>
-            </section>
 
-        </section>
+                <!--=====================================
+                CONTENT
+                ======================================-->
 
-    </div>
+                <div class="col-lg-6">
+
+                    <div class="student-help-content">
+
+                        <h2>
+
+                            The University Provides Several Support Services To International Students So That Their
+                            Study And Stay In India Is Hassle Free
+
+                        </h2>
+
+                        <ul class="student-help-list">
+
+                            <li>
+
+                                Guidance throughout your chosen program of study regarding any financial issues,
+                                counselling and documentation support.
+
+                            </li>
+
+                            <li>
+
+                                Specialised advisory services for international students.
+
+                            </li>
+
+                            <li>
+
+                                Referrals to relevant contacts inside and outside the University.
+
+                            </li>
+
+                            <li>
+
+                                Social programs and promotion of activities for international students.
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!--=====================================
+            CONTACT CARD
+            ======================================-->
+
+            <div class="student-help-card">
+
+                <h3>
+
+                    For Any Support Or Guidance, International Students (Present Or Future) Can Connect With:
+
+                </h3>
+
+                <div class="student-help-divider"></div>
+
+                <div class="student-help-item">
+
+                    <i class="bi bi-person"></i>
+
+                    <span>
+
+                        Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
+
+                    </span>
+
+                </div>
+
+                <div class="student-help-item">
+
+                    <i class="bi bi-telephone"></i>
+
+                    <a href="tel:+919864049818">
+
+                        Ph. No: +91 9864049818
+
+                    </a>
+
+                </div>
+
+                <div class="student-help-item">
+
+                    <i class="bi bi-envelope"></i>
+
+                    <a href="mailto:gkanand@rgu.ac">
+
+                        Email: gkanand@rgu.ac
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 @endsection
