@@ -5684,15 +5684,21 @@ Route::get('/botany-botanique-3.0', function () {
 
 //MOU's
 
-Route::get('/botany-botanique-3.0222', function () {
-    return view('rontend/mou/file1');
-})->name('botany-botanique-3.0');
+Route::get('/royal-mous', function () {
+    return view('frontend/mou/file-all');
+})->name('royal-mous');
 
-Route::get('/botany-botanique-3.0222', function () {
-    return view('rontend/mou/file2');
-})->name('botany-botanique-3.0222');
+Route::get('/nagaland-police-signs-moU', function () {
+    return view('frontend/mou/file1');
+})->name('nagaland-police-signs-moU');
 
+Route::get('/indian-navy-signs-moU', function () {
+    return view('frontend/mou/file2');
+})->name('indian-navy-signs-moU');
 
+Route::get('/rgu-signs-mou-with-crpf', function () {
+    return view('frontend/mou/file3');
+})->name('rgu-signs-mou-with-crpf');
 
 // TEST LINK
 
