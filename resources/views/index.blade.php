@@ -209,7 +209,7 @@
 
             <!-- ================= MARQUEE ================= -->
 
-            <h3 class="int-news-title" style="margin-top:60px;">
+            {{-- <h3 class="int-news-title" style="margin-top:60px;">
                 International Associations
             </h3>
 
@@ -245,7 +245,7 @@
                     <img src="/new-web/assets/img/index/international-news/association-logos/12.jpg">
 
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </section>
