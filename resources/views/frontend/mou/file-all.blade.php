@@ -321,6 +321,15 @@
             },
             {
 
+                title: "Assam Police",
+
+                image: "/mobile-assets/media-corner/2026/assam.png",
+
+                url: "/rgu-signs-moU-with-assam-police"
+
+            },
+            {
+
                 title: "Meghalaya Police",
 
                 image: "/new-web/assets/img/mou/mou-meghalaya-police/img2.jpg",

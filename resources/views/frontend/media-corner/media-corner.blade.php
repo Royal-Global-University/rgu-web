@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police Families',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, July 3, 2026:',
+                            'link' => '/rgu-signs-moU-with-assam-police',
+                            'image' => '/mobile-assets/media-corner/2026/assam.png',
+                            'content' => 'In a significant initiative aimed at supporting the families of police personnel through quality higher education, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Assam Police...',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Honoured as “Most Eminent University of North East India” at Education Eminence Awards 2026',
                             'summary' =>
                                 '',

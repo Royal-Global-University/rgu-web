@@ -5708,5 +5708,9 @@ Route::get('/rgu-signs-moU-with-ssb', function () {
     return view('frontend/mou/file6');
 })->name('rgu-signs-moU-with-ssb');
 
+Route::get('/rgu-signs-moU-with-assam-police', function () {
+    return view('frontend/mou/file7');
+})->name('rgu-signs-moU-with-assam-police');
+
 // TEST LINK
 

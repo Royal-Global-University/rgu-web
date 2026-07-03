@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, July 3, 2026",
+            title: "Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police Families",
+            desc: "In a significant initiative aimed at supporting the families of police personnel through quality higher education, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Assam Police.",
+            img: "/mobile-assets/media-corner/2026/assam.png",
+            link: "/rgu-signs-moU-with-assam-police",
+        },
+        {
             date: "Guwahati, June 21, 2026",
             title: "Guwahati Royals unveiled at Assam Premier League launch",
             desc: "Guwahati Royals, a Royal Group initiative, was officially unveiled today as one of the eight participating franchises of the inaugural Assam Premier League during a launch ceremony organised by the Assam Cricket Association at the ACA Stadium in Barsapara.",
@@ -98,42 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
             desc: "Bharat – Contours of Continuity —a 7-day-long special museum exhibition has been inaugurated today at the Assam Royal Global University (RGU) celebrating the International Museum Day 2026 and commemorating 150 years of Vande Mataram. This significant programme has been hosted by RGU in collaboration with the Indian Museum, Kolkata under the Ministry of Culture, Government of India.",
             img: "/mobile-assets/media-corner/2026/12/3.jpg",
             link: "/indian-museum-kolkata-launches-7-day-exhibition-at-royal-global-university",
-        },
-        {
-            date: "Guwahati, May 11, 2026",
-            title: "RGU joins hands with Indian Museum Kolkata to hold 7-day-long Exhibition& Workshops",
-            desc: "The Assam Royal Global University is set to host a landmark cultural and academic initiative in collaboration with the Indian Museum, Kolkata, under the Ministry of Culture, Government of India. The programme is being organised in celebration of International Museum Day 2026 and the commemoration of 150 Years of Vande Mataram. Significantly, this will be the first time that the Indian Museum is curating such an exhibition in Northeast India, making it a historic cultural occasion for the region.",
-            img: "/mobile-assets/RGU%20joins.jpeg",
-            link: "/rgu-joins-hands-with-indian-museum-kolkata-to-hold-7-day-long-exhibition-workshops",
-        },
-        {
-            date: "Guwahati, May 8, 2026",
-            title: "Health Screening Camp conducted at Chakardo Ayushman Arogya Mandir",
-            desc: "A Comprehensive Health Screening Camp has been successfully organized today at Chakardo Ayushman Arogya Mandir near Deepor Beel in Pamohi here by the Royal School of Medical and Allied Sciences (RSMAS) and NSS Unit of The Assam Royal Global University (RGU) in collaboration with the Office of the Joint Director of Health Services, Kamrup (Amingaon) and Ayurvedic Medical Organisation, Assam.",
-            img: "/mobile-assets/media-corner/2026/11/2.jpeg",
-            link: "/health-screening-camp-conducted-at-chakardo-ayushman-arogya-mandir",
-        },
-        {
-            date: "Guwahati, May 5, 2026",
-            title: "Capacity Building Session on Internship Engagement and Career Development",
-            desc: "An interactive session on “Capacity Building for Internship Engagement and Career Development” was successfully organized on 5 May 2026 by the Royal School of Business, Royal School of Engineering & Technology, and Royal School of Medical & Allied Sciences in association with the Internal Quality Assurance Cell (IQAC) of The Assam Royal Global University (RGU).",
-            img: "/mobile-assets/media-corner/2026/may/new/1.jpg",
-            link: "/capacity-building-session-on-internship-engagement-and-career-development",
-        },
-        {
-            date: "Guwahati, May 4, 2026",
-            title: "Royal Global University Faculty Honoured with Best Scientist Award",
-            desc: "Jebin Sultana, Assistant Professor and Coordinator in the Department of Food Science and Nutrition (Nutrition & Dietetics) at The Assam Royal Global University (RGU), has been conferred the prestigious Best Scientist Award in Food and Nutrition – 2026 at the 13th International Conference on Frontiers in Science and Technology for Sustainable Agricultural and Environmental Development (FSTSAED-2026).",
-            img: "/mobile-assets/media-corner/2026/may/1.jpeg",
-            link: "/royal-global-university-faculty-honoured-with-best-scientist-award",
-        },
-
-        {
-            date: "Guwahati, May 5, 2026",
-            title: "Training on Forest Ecosystem Services held at RGU",
-            desc: "The Department of Forestry at The Assam Royal Global University has recently organized a Training Program on Quantification of Forest Ecosystem Services (FES), integrating field-based learning with hands-on exposure for students.",
-            img: "/mobile-assets/media-corner/2026/may/5-may.jpg",
-            link: "/training-on-forest-ecosystem-services-held-at-rgu",
         },
     ];
 
