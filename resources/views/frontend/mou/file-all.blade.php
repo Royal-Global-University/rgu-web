@@ -288,7 +288,7 @@
 
                 image: "/new-web/assets/img/mou/indian-army/1.jpg",
 
-                url: "/indian-navy-signs-moU"
+                url: "/rgu-signs-moU-with-indian-army"
 
             },
             {
@@ -297,7 +297,7 @@
 
                 image: "https://www.rgu.ac/mobile-assets/media-corner/2026/mou/mou-1.jpeg",
 
-                url: "/indian-navy-signs-moU"
+                url: "/rgu-signs-moU-with-indian-navy"
 
             },
 
