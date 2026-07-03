@@ -107,7 +107,7 @@
 
         <div class="rguapsh-inner">
             <h1 class="rguapsh-title">
-                MoU Signed with <br> The Assam Royal Global University
+                MoUs & Tie-up
             </h1>
 
             <div class="rguapsh-breadcrumb">
@@ -282,8 +282,15 @@
     <script>
         const bridgeDepartments = [
 
-            
+            {
 
+                title: "Indian Army",
+
+                image: "/new-web/assets/img/mou/indian-army/1.jpg",
+
+                url: "/indian-navy-signs-moU"
+
+            },
             {
 
                 title: "Indian Navy",
@@ -305,11 +312,29 @@
             },
             {
 
+                title: "Sashastra Seema Bal",
+
+                image: "/new-web/assets/img/mou/ssb/2.jfif",
+
+                url: "/rgu-signs-moU-with-ssb"
+
+            },
+            {
+
+                title: "Meghalaya Police",
+
+                image: "/new-web/assets/img/mou/mou-meghalaya-police/img2.jpg",
+
+                url: "/rgu-signs-moU-with-indian-meghalaya"
+
+            },
+            {
+
                 title: "Nagaland Police",
 
                 image: "https://www.rgu.ac/mobile-assets/ads/5-16/16-1.jpeg",
 
-                url: "/nagaland-police-signs-moU"
+                url: "/rgu-sign-mou-with-nagaland-police"
 
             },
 

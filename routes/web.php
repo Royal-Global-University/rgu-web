@@ -5688,17 +5688,29 @@ Route::get('/royal-mous', function () {
     return view('frontend/mou/file-all');
 })->name('royal-mous');
 
-Route::get('/nagaland-police-signs-moU', function () {
+Route::get('/rgu-sign-mou-with-nagaland-police', function () {
     return view('frontend/mou/file1');
-})->name('nagaland-police-signs-moU');
+})->name('rgu-sign-mou-with-nagaland-police');
 
-Route::get('/indian-navy-signs-moU', function () {
+Route::get('/rgu-signs-moU-with-indian-navy', function () {
     return view('frontend/mou/file2');
-})->name('indian-navy-signs-moU');
+})->name('rgu-signs-moU-with-indian-navy');
 
 Route::get('/rgu-signs-mou-with-crpf', function () {
     return view('frontend/mou/file3');
 })->name('rgu-signs-mou-with-crpf');
+
+Route::get('/rgu-signs-moU-with-indian-meghalaya', function () {
+    return view('frontend/mou/file4');
+})->name('rgu-signs-moU-with-indian-meghalaya');
+
+Route::get('/rgu-signs-moU-with-indian-army', function () {
+    return view('frontend/mou/file5');
+})->name('rgu-signs-moU-with-indian-army');
+
+Route::get('/rgu-signs-moU-with-ssb', function () {
+    return view('frontend/mou/file6');
+})->name('rgu-signs-moU-with-ssb');
 
 // TEST LINK
 
