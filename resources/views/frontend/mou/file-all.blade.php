@@ -107,7 +107,7 @@
 
         <div class="rguapsh-inner">
             <h1 class="rguapsh-title">
-                MoUs & Tie-up
+                Memorandum of Understanding (MOU) and Tie up
             </h1>
 
             <div class="rguapsh-breadcrumb">
@@ -115,280 +115,83 @@
         </div>
     </section>
 
-    <section class="bridge-dept-page">
 
+    <style>
+        /* ======= RGU Image Navigation ======= */
+
+        .rgumou-gallery {
+            padding: 5rem 0;
+            background: #fff;
+        }
+
+        .rgumou-gallery .container {
+            max-width: 1320px;
+        }
+
+        .rgumou-gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .rgumou-gallery-item {
+            display: block;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+        }
+
+        .rgumou-gallery-item img {
+            width: 100%;
+
+            object-fit: cover;
+            display: block;
+        }
+
+        @media (max-width:768px) {
+            .rgumou-gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <section class="rgumou-gallery">
         <div class="container">
 
-            <div class="bridge-dept-page-grid" id="bridgeDeptGrid">
+            <div class="rgumou-gallery-grid">
+
+                <a href="/rgu-signs-moU-with-indian-army" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/indian-army.png" alt="">
+                </a>
+
+                <a href="/rgu-signs-moU-with-indian-navy" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/indian-navy.png" alt="">
+                </a>
+
+                <a href="/rgu-signs-mou-with-crpf" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/crpf.png" alt="">
+                </a>
+
+                <a href="https://rgu.ac/rgu-signs-moU-with-ssb" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/SSB.png" alt="">
+                </a>
+
+                <a href="https://rgu.ac/rgu-signs-moU-with-assam-police" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/assam-police.png" alt="">
+                </a>
+
+                <a href="https://rgu.ac/rgu-signs-moU-with-indian-meghalaya" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/meghalaya-police.png" alt="">
+                </a>
+
+                <a href="https://rgu.ac/rgu-sign-mou-with-nagaland-police" class="rgumou-gallery-item">
+                    <img src="new-web/assets/img/mou/new-all-mous/nagaland-police.png" alt="">
+                </a>
+
+                
 
             </div>
 
         </div>
-
     </section>
-
-    <style>
-        .bridge-dept-page {
-
-            background: linear-gradient(180deg, #294b84, #081d4f);
-
-            padding: 80px 0;
-
-        }
-
-        .bridge-dept-page-heading {
-
-            text-align: center;
-
-            margin-bottom: 60px;
-
-        }
-
-        .bridge-dept-page-heading h2 {
-
-            font-family: 'Playfair Display', serif;
-
-            font-size: 44px;
-
-            font-weight: 700;
-
-            color: #fff;
-
-        }
-
-        .bridge-dept-page-heading span {
-
-            color: #ea6c3d;
-
-        }
-
-        .bridge-dept-page-grid {
-
-            display: grid;
-
-            grid-template-columns: repeat(2, 1fr);
-
-            gap: 35px;
-
-        }
-
-        .bridge-dept-card {
-
-            display: block;
-
-            text-decoration: none;
-
-            background: rgba(255, 255, 255, .14);
-
-            padding: 12px;
-
-            border-radius: 10px;
-
-            transition: .35s;
-
-        }
-
-        .bridge-dept-card:hover {
-
-            transform: translateY(-10px);
-
-            background: rgba(255, 255, 255, .20);
-
-            box-shadow: 0 25px 45px rgba(0, 0, 0, .22);
-
-        }
-
-        .bridge-dept-image {
-
-            width: 100%;
-
-            aspect-ratio: 16/10;
-
-            object-fit: cover;
-
-            border-radius: 6px;
-
-            background: #d8dce7;
-
-        }
-
-        .bridge-dept-title {
-
-            margin-top: 15px;
-
-            text-align: center;
-
-            font-family: 'Playfair Display', serif;
-
-            font-size: 22px;
-
-            color: #fff;
-
-            transition: .3s;
-
-        }
-
-        .bridge-dept-card:hover .bridge-dept-title {
-
-            color: #ff8455;
-
-        }
-
-        @media(max-width:991px) {
-
-            .bridge-dept-page {
-
-                padding: 60px 0;
-
-            }
-
-            .bridge-dept-page-heading h2 {
-
-                font-size: 34px;
-
-            }
-
-            .bridge-dept-page-grid {
-
-                grid-template-columns: repeat(2, 1fr);
-
-            }
-
-        }
-
-        @media(max-width:576px) {
-
-            .bridge-dept-page-grid {
-
-                grid-template-columns: 1fr;
-
-            }
-
-            .bridge-dept-page-heading h2 {
-
-                font-size: 28px;
-
-            }
-
-            .bridge-dept-title {
-
-                font-size: 20px;
-
-            }
-
-        }
-    </style>
-
-    <script>
-        const bridgeDepartments = [
-
-            {
-
-                title: "Indian Army",
-
-                image: "/new-web/assets/img/mou/indian-army/1.jpg",
-
-                url: "/rgu-signs-moU-with-indian-army"
-
-            },
-            {
-
-                title: "Indian Navy",
-
-                image: "https://www.rgu.ac/mobile-assets/media-corner/2026/mou/mou-1.jpeg",
-
-                url: "/rgu-signs-moU-with-indian-navy"
-
-            },
-
-            {
-
-                title: "Central Reserve Police Force (CRPF)",
-
-                image: "https://www.rgu.ac/mobile-assets/media-corner/news10/2.JPG",
-
-                url: "/rgu-signs-mou-with-crpf"
-
-            },
-            {
-
-                title: "Sashastra Seema Bal",
-
-                image: "/new-web/assets/img/mou/ssb/2.jfif",
-
-                url: "/rgu-signs-moU-with-ssb"
-
-            },
-            {
-
-                title: "Assam Police",
-
-                image: "/mobile-assets/media-corner/2026/assam.png",
-
-                url: "/rgu-signs-moU-with-assam-police"
-
-            },
-            {
-
-                title: "Meghalaya Police",
-
-                image: "/new-web/assets/img/mou/mou-meghalaya-police/img2.jpg",
-
-                url: "/rgu-signs-moU-with-indian-meghalaya"
-
-            },
-            {
-
-                title: "Nagaland Police",
-
-                image: "https://www.rgu.ac/mobile-assets/ads/5-16/16-1.jpeg",
-
-                url: "/rgu-sign-mou-with-nagaland-police"
-
-            },
-
-        ];
-    </script>
-
-    <script>
-        function generateDepartmentCards() {
-
-            const grid = document.getElementById("bridgeDeptGrid");
-
-            grid.innerHTML = "";
-
-            bridgeDepartments.forEach(department => {
-
-                grid.innerHTML += `
-
-        <a
-            href="${department.url}"
-            class="bridge-dept-card">
-
-            <img
-
-                src="${department.image}"
-
-                class="bridge-dept-image"
-
-                alt="${department.title}"
-
-                loading="lazy">
-
-            <div class="bridge-dept-title">
-
-                ${department.title}
-
-            </div>
-
-        </a>
-
-        `;
-
-            });
-
-        }
-
-        generateDepartmentCards();
-    </script>
 @endsection
