@@ -844,19 +844,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Prajna-Borah-RSHSS.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Prajna Borah</h3>
-                            <p class="card-designation">
-                                Assistant Professor
-                            </p>
-                            <a href="/faculty-prajna-borah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
                             </div>

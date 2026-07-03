@@ -5237,10 +5237,6 @@ Route::get('/faculty-denim-deka', function () {
     return view('frontend/facultyprofile/rshss/denim-deka');
 })->name('faculty-denim-deka');
 
-Route::get('/faculty-prajna-borah', function () {
-    return view('frontend/facultyprofile/rshss/prajna-borah');
-})->name('faculty-prajna-borah');
-
 Route::get('/faculty-km-sudha', function () {
     return view('frontend/facultyprofile/rshss/km-sudha');
 })->name('faculty-km-sudha');
