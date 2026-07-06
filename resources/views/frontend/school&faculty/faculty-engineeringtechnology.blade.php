@@ -473,7 +473,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Bishal Podder</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Mechanical Engineering</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-bishal-podder" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -485,7 +485,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Smrity Choudhury</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
+                            <p class="card-designation">Assistant Professor & Coordinator, Mechanical Engineering</p>
                             <a href="https://www.rgu.ac/faculty-smrity-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>

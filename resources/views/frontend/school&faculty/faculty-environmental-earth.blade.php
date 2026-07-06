@@ -138,7 +138,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Annesha Borah</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Geography & Geoinformatics</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-annesha-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Trishna Changkakati</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Coordinator, Geography & Geoinformatics</p>
                             <a href="https://www.rgu.ac/faculty-trishna-changkakati" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -242,7 +242,7 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Roshmi Boruah</h3>
-                                <p class="card-designation">Assistant Professor & Coordinator, Geology</p>
+                                <p class="card-designation">Assistant Professor</p>
                                 <a href="https://www.rgu.ac/faculty-roshmi-boruah" class="profile-link">View Profile</a>
                             </div>
                         </div>
@@ -280,7 +280,7 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Neeta Moni Sharma</h3>
-                                <p class="card-designation">Assistant Professor</p>
+                                <p class="card-designation">Assistant Professor & Coordinator, Geology</p>
                                 <a href="https://www.rgu.ac/faculty-neeta-moni-sharma" class="profile-link">View
                                     Profile</a>
                             </div>

@@ -231,7 +231,7 @@
                                     alt="Profile image of ">
                             </div>
                             <h3 class="card-name">Dr. Manisha Choudhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Coordinator,Biotechnology</p>
                             <a href="https://www.rgu.ac/faculty-manisha-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -484,7 +484,7 @@
                                     <img src="https://rgu.ac/mobile-assets/all-faculty/rsbsc/17.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Niraj Singh</h3>
-                                <p class="card-designation">Assistant Professor</p>
+                                <p class="card-designation">Assistant Professor & Coordinator, Microbiology</p>
                                 <a href="https://www.rgu.ac/faculty-niraj-singh" class="profile-link">View Profile</a>
                             </div>
                         </div>

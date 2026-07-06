@@ -245,7 +245,7 @@
                                     alt="Profile image of Dr. Bikram Bir">
                             </div>
                             <h3 class="card-name">Dr. Bikram Bir</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Coordinator,Mathematics</p>
                             <a href="https://www.rgu.ac/faculty-dr-bikram-bir" class="profile-link">View Profile</a>
                         </div>
                     </div>

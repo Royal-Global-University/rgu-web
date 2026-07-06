@@ -217,7 +217,7 @@
                                     alt="Profile image of Dr. Amit Kumar">
                             </div>
                             <h3 class="card-name">Dr. Amit Kumar</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Coordinator, Economics</p>
                             <a href="/faculty-amit-kumar" class="profile-link">View
                                 Profile</a>
                         </div>

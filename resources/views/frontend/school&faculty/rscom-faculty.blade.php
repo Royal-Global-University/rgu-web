@@ -216,7 +216,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Sailendra Das</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Coordinator,RSCOM</p>
                             <a href="https://www.rgu.ac/faculty-sailendra" class="profile-link">View Profile</a>
                         </div>
                     </div>

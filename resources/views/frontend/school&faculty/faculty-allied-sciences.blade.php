@@ -141,7 +141,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Shraddha Basu</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, RSBAS and Assistant Dean, Academic Affairs</p>
+                            <p class="card-designation">Assistant Professor & Coordinator, RSBAS</p>
                             <a href="/faculty-shraddha-basu" class="profile-link">View Profile</a>
                         </div>
                     </div>

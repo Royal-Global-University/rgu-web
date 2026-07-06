@@ -188,7 +188,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhabajyoti Saikia</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HOD, RSB</p>
                             <a href="/faculty-bhabajyoti-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Arpee Saikia</h3>
-                            <p class="card-designation">Associate Professor & HOD, RSB</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-arpee-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
