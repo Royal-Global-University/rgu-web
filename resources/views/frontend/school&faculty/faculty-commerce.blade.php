@@ -152,7 +152,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhabajyoti Saikia</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor and HoD, RSB</p>
                             <a href="/faculty-bhabajyoti-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>

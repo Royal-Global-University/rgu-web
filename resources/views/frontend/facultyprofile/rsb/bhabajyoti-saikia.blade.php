@@ -191,7 +191,7 @@
                                 Prof. Bhabajyoti Saikia
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                                Professor
+                                Professor and HoD, RSB
                             </h2>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                                 Prof. Bhabajyoti Saikia
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                                Professor
+                                Professor and HoD, RSB
                             </h2>
                         </div>
 
