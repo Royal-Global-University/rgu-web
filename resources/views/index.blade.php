@@ -724,14 +724,6 @@
         document.addEventListener("DOMContentLoaded", () => {
 
             const events = [
-                {
-                    day: "29<sup>th</sup>",
-                    month: "June 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "Summer School cum Boot Camp 2.0, 2026",
-                    sub: "BASIC TOOLS & TECHNIQUES IN BIOLOGICAL SCIENCES",
-                    link: "/mobile-assets/ads/summer/Summer School Brochure pdf.pdf",
-                },
 
                 {
                     day: "28<sup>th</sup>",
