@@ -1,377 +1,935 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('title', 'Best University in Assam, India')
-@section('meta_description', 'Need RGU contact info? Get the General Helpline, Admission (78799-98811), and
+@section('meta_description',
+    'Need RGU contact info? Get the General Helpline, Admission (78799-98811), and
     International Helplines, plus dedicated emails for all university departments.')
 @section('meta_keywords', 'RGU contact')
 @section('content')
-    <div class="mobile bg-light">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px;"></div>
-    </div>
+    <style>
+        /*=========================================================
+                    RGU CONTACT PAGE
+                    LOCATION + INFORMATION CENTRE
+            =========================================================*/
 
-    <div class="website bg-light">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
+        .rgucnt-map-section {
+            padding: 90px 0 70px;
+            background: #eef3fb;
+            position: relative;
+            overflow: hidden;
+        }
 
-    </div>
+        .rgucnt-centre-section {
+            padding: 90px 0;
+            background: linear-gradient(180deg, #2d4d86 0%, #17315f 100%);
+            position: relative;
+            overflow: hidden;
+        }
 
-            <!--End Header-->
+        /* Decorative Glow */
 
-        <!--Section About us-->
-        <section
-            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/preface/bg3.png); background-size: cover;">
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pb-5 pt-5"
-                style="color: #27467A; font-weight: 900;">
-                Royal Information <span style="color: #FF9A1E; font-weight: 500;">Centre</span></h2>
+        .rgucnt-map-section::before,
+        .rgucnt-centre-section::before {
+            content: "";
+            position: absolute;
+            width: 520px;
+            height: 520px;
+            border-radius: 50%;
+            background: radial-gradient(rgba(255, 255, 255, .08), transparent 70%);
+            top: -220px;
+            right: -180px;
+            pointer-events: none;
+        }
 
-            <div class="container">
+        .rgucnt-heading {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .rgucnt-subtitle {
+            display: inline-block;
+            font-size: 13px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #9a7b38;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .rgucnt-heading h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 54px;
+            font-weight: 700;
+            color: #1f3f72;
+            margin: 0;
+        }
+
+        .rgucnt-heading-light h2 {
+            color: #fff;
+        }
+
+        .rgucnt-heading-light .rgucnt-subtitle {
+            color: #d8c18d;
+        }
+
+        /*=========================================================
+            MAP
+            =========================================================*/
+
+        .rgucnt-map-wrapper {
+            background: #fff;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow:
+                0 20px 60px rgba(18, 40, 84, .12);
+            transition: .35s ease;
+        }
+
+        .rgucnt-map-wrapper:hover {
+            transform: translateY(-6px);
+            box-shadow:
+                0 30px 70px rgba(18, 40, 84, .16);
+        }
+
+        .rgucnt-map-wrapper iframe {
+            width: 100%;
+            height: 560px;
+            border: 0;
+            display: block;
+        }
+
+        /*=========================================================
+            CARDS
+            =========================================================*/
+
+        .rgucnt-card {
+
+            background: rgba(255, 255, 255, .06);
+
+            border: 1px solid rgba(255, 255, 255, .12);
+
+            border-radius: 18px;
+
+            padding: 28px;
+
+            height: 100%;
+
+            backdrop-filter: blur(12px);
+
+            transition: .35s ease;
+
+        }
+
+        .rgucnt-card:hover {
+
+            transform: translateY(-8px);
+
+            border-color: rgba(255, 255, 255, .25);
+
+            box-shadow:
+                0 20px 40px rgba(0, 0, 0, .18);
+
+        }
+
+        .rgucnt-card h3 {
+
+            color: #fff;
+
+            font-size: 32px;
+
+            font-weight: 700;
+
+            margin-bottom: 18px;
+
+            letter-spacing: .5px;
+
+        }
+
+        .rgucnt-divider {
+
+            width: 100%;
+
+            height: 1px;
+
+            background: rgba(255, 255, 255, .15);
+
+            margin-bottom: 22px;
+
+        }
+
+        .rgucnt-item {
+
+            display: flex;
+
+            align-items: flex-start;
+
+            gap: 14px;
+
+            margin-bottom: 20px;
+
+        }
+
+        .rgucnt-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .rgucnt-icon {
+
+            width: 38px;
+
+            height: 38px;
+
+            min-width: 38px;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: rgba(255, 255, 255, .08);
+
+            color: #d7b56d;
+
+            font-size: 18px;
+
+        }
+
+        .rgucnt-item p {
+
+            margin: 0;
+
+            color: rgba(255, 255, 255, .88);
+
+            line-height: 1.85;
+
+            font-size: 15px;
+
+        }
+
+        .rgucnt-item a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+            font-size: 15px;
+
+            transition: .3s;
+
+        }
+
+        .rgucnt-item a:hover {
+
+            color: #d7b56d;
+
+            padding-left: 4px;
+
+        }
+
+        /*=========================================================
+            TABLET
+            =========================================================*/
+
+        @media(max-width:991px) {
+
+            .rgucnt-map-section,
+            .rgucnt-centre-section {
+
+                padding: 70px 0;
+
+            }
+
+            .rgucnt-heading {
+
+                margin-bottom: 40px;
+
+            }
+
+            .rgucnt-heading h2 {
+
+                font-size: 42px;
+
+            }
+
+            .rgucnt-map-wrapper iframe {
+
+                height: 450px;
+
+            }
+
+        }
+
+        /*=========================================================
+            MOBILE
+            =========================================================*/
+
+        @media(max-width:767px) {
+
+            .rgucnt-map-section,
+            .rgucnt-centre-section {
+
+                padding: 55px 0;
+
+            }
+
+            .rgucnt-heading {
+
+                margin-bottom: 32px;
+
+            }
+
+            .rgucnt-subtitle {
+
+                font-size: 11px;
+
+                letter-spacing: 2px;
+
+            }
+
+            .rgucnt-heading h2 {
+
+                font-size: 34px;
+
+            }
+
+            .rgucnt-map-wrapper {
+
+                border-radius: 18px;
+
+            }
+
+            .rgucnt-map-wrapper iframe {
+
+                height: 300px;
+
+            }
+
+            .rgucnt-card {
+
+                padding: 22px;
+
+                border-radius: 14px;
+
+            }
+
+            .rgucnt-card h3 {
+
+                font-size: 26px;
+
+            }
+
+            .rgucnt-item {
+
+                gap: 12px;
+
+            }
+
+            .rgucnt-icon {
+
+                width: 34px;
+                height: 34px;
+                min-width: 34px;
+                font-size: 16px;
+
+            }
+
+            .rgucnt-item p,
+            .rgucnt-item a {
+
+                font-size: 14px;
+                line-height: 1.8;
+
+            }
+
+        }
+    </style>
+
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
+        </div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Royal Information Centre</h1>
+            <div class="pg-hero-breadcrumb">
+                Contacts
+            </div>
+        </div>
+
+    </section>
 
 
-                <div class="row g-4 mt-2">
-                    <div class="col-lg-4 col-md-6 p-3 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">BARPETA</h5>
-                                <p class="card-text para1 text-dark">
-                                    Howly Town, Ward No. 3, Anand Bazar Howly, P.O. & P.S. Howly, Barpeta-781316
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020915" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020915
-                                </a>
-                            </div>
+
+    <section class="rgucnt-centre-section">
+
+        <div class="container">
+
+            <div class="mb-5">
+                <h2 class="text-light">THE ASSAM ROYAL GLOBAL UNIVERSITY (Sponsored by Gyan Sagar Foundation alias Royal,
+                    Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-27, Guwahati-35, Dist- Kamrup (Metro),
+                    Assam, India.</h2>
+                <div class="row pt-5">
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:vice-chancellor@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>vice-chancellor@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:registraroffice@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>registraroffice@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:admissions@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>admissions@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:careers@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>careers@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="pt-4 pb-4 mt-5"
+                    style="width:100%; max-width:1400px; margin:0 auto; background:#fff; border:1px solid #e5e5e5; border-radius:12px; padding:40px 30px; display:flex; justify-content:space-between; align-items:flex-start; gap:40px; font-family:Georgia, 'Times New Roman', serif; box-sizing:border-box;">
+
+                    <!-- General Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            General Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center; margin-bottom:12px;">
+                            <span style="font-size:22px; color:#333;">+91 70860-93458</span>
+                        </div>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 70860-93459</span>
                         </div>
                     </div>
-                    <!-- Dibrugarh Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">DIBRUGARH</h5>
-                                <p class="card-text para1 text-dark">
-                                    Gabhorupathar Tiniali, Near Police Station, Naliapool, Dibrugarh-786001
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:6913002969" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>6913002969
-                                </a>
-                            </div>
+
+                    <!-- Admission Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            Admission Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 78799-98811</span>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">DIMAPUR</h5>
-                                <p class="card-text para1 text-dark">
-                                    Circular Road, Near Popular Bakery, Dimapur, Nagaland-797112
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:6913002966" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>6913002966
-                                </a>
-                                <a href="tel:7099020796" class="text-decoration-none text-dark para1">
-                                    7099020796
-                                </a>
-                            </div>
+
+                    <!-- International Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            International Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 69130-02970</span>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">GOALPARA</h5>
-                                <p class="card-text para1 text-dark">
-                                    Durga Mandir, Near LIC Building, P.O. Baladmari, Goalpara-783101
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099030827" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099030827
-                                </a>
-                            </div>
+
+                    <!-- Accounts Department -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            Accounts Department
+                        </h3>
+
+                        <div style="display:flex; align-items:center; margin-bottom:12px;">
+                            <span style="font-size:22px; color:#333;">+91 70990-88711</span>
+                        </div>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:32px; margin-right:12px; color:#0056d6;">✉</span>
+                            <a href="mailto:vijay.sharma@rgi.edu.in"
+                                style="font-size:22px; color:#0056d6; text-decoration:none; font-weight:600;">
+                                vijay.sharma@rgi.edu.in
+                            </a>
                         </div>
                     </div>
-                    <!-- Kohima Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">KOHIMA</h5>
-                                <p class="card-text para1 text-dark">
-                                    R Building, Paraciezia, High School Junction, Kohima, Nagaland-797001
-                                </p>
+
+                </div>
+            </div>
+
+            <div class="row g-4 mt-4">
+
+                <!-- Barpeta -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="rgucnt-card">
+
+                        <h3>BARPETA</h3>
+
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-geo-alt"></i>
                             </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020907" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020907
-                                </a>
-                            </div>
+
+                            <p>
+                                Howly Town, Ward No. 3,
+                                Anand Bazar Howly,
+                                P.O & P.S. Howly,
+                                Barpeta – 781316
+                            </p>
+
                         </div>
-                    </div>
-                    <!-- Mangaldoi Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MANGALDOI</h5>
-                                <p class="card-text para1 text-dark">
-                                    W/No. 10, Tangla Bhebargahat Road, Opp. Foreigner's Tribunal (5th) Office,
-                                    P.O. - Mangaldoi, Darrang - 784125, Assam
-                                </p>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-telephone"></i>
                             </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020907" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020907
-                                </a>
-                            </div>
+
+                            <a href="tel:7099020915">
+                                7099020915
+                            </a>
+
                         </div>
+
                     </div>
-                    <!-- Manipur Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MANIPUR</h5>
-                                <p class="card-text para1 text-dark">
-                                    Hafiz Hatta, Minuthong Traffic Point, Near HDFC ATM, Imphal East- 795001, Manipur
-                                </p>
+
+                </div>
+
+
+
+                <!-- Dibrugarh -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="rgucnt-card">
+
+                        <h3>DIBRUGARH</h3>
+
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-geo-alt"></i>
                             </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:6913002965" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>6913002965
-                                </a> &nbsp;&nbsp;
-                                <a href="tel:7099020911" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020911
-                                </a>
-                            </div>
+
+                            <p>
+                                Gabhorupathar Tiniali,
+                                Near Police Station,
+                                Naliapool,
+                                Dibrugarh – 786001
+                            </p>
+
                         </div>
-                    </div>
-                    <!-- Mizoram Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">MIZORAM</h5>
-                                <p class="card-text para1 text-dark">
-                                    Theodora Market, Plot No.3, Treasury Square, Opp. MPC Office, Aizawl - 796001, Mizoram
-                                </p>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-telephone"></i>
                             </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:9127070609" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>9127070609
-                                </a>
-                            </div>
+
+                            <a href="tel:6913002969">
+                                6913002969
+                            </a>
+
                         </div>
+
                     </div>
-                    <!-- Nagaon Card -->
-                    <div class="col-lg-4 col-md-6 p-3 mt-5">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">NAGAON</h5>
-                                <p class="card-text para1 text-dark">
-                                    BM Road, Amolapatty, Opp. Ramanujan Junior College, Nagaon - 782001, Assam
-                                </p>
+
+                </div>
+
+
+
+                <!-- Dimapur -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="rgucnt-card">
+
+                        <h3>DIMAPUR</h3>
+
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-geo-alt"></i>
                             </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020910" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020910
-                                </a>
+
+                            <p>
+                                Circular Road,
+                                Near Popular Bakery,
+                                Dimapur,
+                                Nagaland – 797112
+                            </p>
+
+                        </div>
+
+                        <div class="rgucnt-item">
+
+                            <div class="rgucnt-icon">
+                                <i class="bi bi-telephone"></i>
                             </div>
+
+                            <a href="tel:6913002966">
+                                6913002966 / 7099020796
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Goalpara -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>GOALPARA</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Durga Mandir, Near LIC Building,
+                                P.O. Baladmari,
+                                Goalpara - 783101
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:7099030827">7099030827</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Kohima -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>KOHIMA</h3>
+                        <div class="rgucnt-divider"></div>
 
-                <div class="row g-4 mt-2">
-                    <!-- Silchar Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">SILCHAR</h5>
-                                <p class="card-text para1 text-dark">
-                                    Das Complex, 3rd Floor, Above Tata AIA, Opp. Hindi School, Shyama Prasad Road,
-                                    Shillongpatty - 788001
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:8811034707" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>8811034707
-                                </a>
-                            </div>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                R Building, Paracezie,
+                                High School Junction,
+                                Kohima, Nagaland - 797001
+                            </p>
                         </div>
-                    </div>
-                    <!-- Shillong Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">SHILLONG</h5>
-                                <p class="card-text para1 text-dark">
-                                    Salonsar Mansion, Next to Highland Studio, Police Bazar, Shillong, Meghalaya - 793001
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:6913002967" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>6913002967
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                                        <!-- Tinsukia Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card border shadow h-100">
-                            <div class="card-body border-0">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">TINSUKIA</h5>
-                                <p class="card-text para1 text-dark">
-                                    Sashi Complex, Rongagora Road, Tinsukia - 786125, Assam
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020913" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020913
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Tura Card -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <div class="card border shadow h-100 mt-3">
-                            <div class="card-body border-0">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">TURA</h5>
-                                <p class="card-text para1 text-dark">
-                                    1st Floor, Above Axis Bank, Hawakhana, Tura - 794001, Meghalaya
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:9127898115" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>9127898115
-                                </a>
-                            </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:7099020907">7099020907</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Mangaldoi -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>MANGALDOI</h3>
+                        <div class="rgucnt-divider"></div>
 
-                <!-- Helpline card  -->
-                <div class="pb-4 mt-5">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); padding: 15px;">
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <div class="row ">
-                                <div class="col-lg-3 col-md-12">
-                                    <p class="mb-0 fs-16 headd3 text-dark pb-3"><span style="color: #27467A;"
-                                            class=" font-weight-bold">General Helpline</span></p>
-                                    <p class="mb-0 fs-16 para1 text-dark pb-1">
-                                        <a href="tel:7086093458"><i class="fa fa-phone me-2"></i>+91 70860-93458</a><br>
-                                        <a href="tel:7086093459"><i class="fa fa-phone me-2"></i>+91 70860-93459</a>
-                                    </p>
-                                </div>
-                                <div class="col-lg-3 col-md-12">
-                                    <p class="mb-0 fs-16 headd3 text-dark pb-3"><span style="color: #27467A;"
-                                            class=" font-weight-bold">Admission Helpline</span></p>
-                                    <p class="mb-0 fs-16 para1 text-dark pb-1">
-                                        <a href="tel:7879998811"><i class="fa fa-phone me-2"></i>+91 78799-98811</a>
-                                    </p>
-                                </div>
-                                <div class="col-lg-3 col-md-12">
-                                    <p class="mb-0 fs-16 headd3 text-dark pb-3"><span style="color: #27467A;"
-                                            class=" font-weight-bold">International Helpline</span></p>
-                                    <p class="mb-0 fs-16 para1 text-dark pb-1">
-                                        <a href="tel:6913002970"><i class="fa fa-phone me-2"></i>+91 69130-02970</a><br>
-                                        <!-- <a href="tel:8811031821"><i class="fa fa-phone me-2"></i>+91 88110-31821</a> -->
-                                    </p>
-                                </div>
-                                <div class="col-lg-3 col-md-12">
-                                    <p class="mb-0 fs-16 headd3 text-dark pb-3"><span style="color: #27467A;"
-                                            class=" font-weight-bold">Accounts Department</span></p>
-                                    <p class="mb-0 fs-16 para1 text-dark pb-1">
-                                        <a href="tel:7099088711"><i class="fa fa-phone me-2"></i>+91 70990-88711</a><br>
-                                        <a href="mailto:vijay.sharma@rgi.edu.in"><i
-                                                class="fa fa-envelope text-primary me-2"></i><strong
-                                                class="text-primary para1">vijay.sharma@rgi.edu.in</strong></a>
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                W/No.10, Tangla Bhebargahat Road,
+                                Opp. Foreigner's Tribunal (5th) Office,
+                                Mangaldoi - 784125
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:7099020907">7099020907</a>
                         </div>
                     </div>
                 </div>
-                <!-- Helpline card  -->
 
-                <hr>
+                <!-- Manipur -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>MANIPUR</h3>
+                        <div class="rgucnt-divider"></div>
 
-                <!-- contact info part  -->
-                <div class="pb-4">
-                    <h2 class="headd1 fw-bold text-center  pb-4 pt-2" style="color: #27467A; font-weight: 900;">
-                        Contact <span style="color: #FF9A1E; font-weight: 500;">Information</span></h2>
-
-                    <p style="color: #27467A;" class="headd3">
-                        <span class="fw-bold">THE ASSAM ROYAL GLOBAL UNIVERSITY</span> (Sponsored by Gyan Sagar Foundation
-                        alias Royal, Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-27, Guwahati-35, Dist-
-                        Kamrup (Metro), Assam, India.
-                    </p>
-
-                    <div class="row pt-3">
-                        <div class="col-lg-3" pb-3>
-                            <a href="mailto:vice-chancellor@rgu.ac">
-                                <i class="fa fa-envelope text-primary"></i><strong class="text-primary para1">
-                                    vice-chancellor@rgu.ac</strong></a>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Hafiz Hatta, Minuthong Traffic Point,
+                                Near HDFC ATM,
+                                Imphal East - 795001
+                            </p>
                         </div>
 
-                        <div class="col-lg-3 pb-3">
-                            <a href="mailto:registraroffice@rgu.ac">
-                                <i class="fa fa-envelope text-primary"></i><strong class="text-primary para1">
-                                    registraroffice@rgu.ac</strong></a>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:6913002965">6913002965 / 7099020911</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mizoram -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>MIZORAM</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Theodora Market,
+                                Plot No.3,
+                                Treasury Square,
+                                Opp. MPC Office,
+                                Aizawl - 796001
+                            </p>
                         </div>
 
-                        <div class="col-lg-3 pb-3">
-                            <a href="mailto:admissions@rgu.ac">
-                                <i class="fa fa-envelope text-primary"></i><strong class="text-primary para1">
-                                    admissions@rgu.ac</strong></a>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:9127070609">9127070609</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nagaon -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>NAGAON</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                BM Road,
+                                Amolapatty,
+                                Opp. Ramanujan Junior College,
+                                Nagaon - 782001
+                            </p>
                         </div>
 
-                        <div class="col-lg-3 pb-3">
-                            <a href="mailto:careers@rgu.ac">
-                                <i class="fa fa-envelope text-primary"></i><strong class="text-primary para1">
-                                    careers@rgu.ac</strong></a>
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:7099020910">7099020910</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Silchar -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>SILCHAR</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Das Complex,
+                                3rd Floor,
+                                Above Tata AIA,
+                                Opp. Hindi School,
+                                Shillongpatty - 788001
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:8811034707">8811034707</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shillong -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>SHILLONG</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Salonsar Mansion,
+                                Next To Highland Studio,
+                                Police Bazar,
+                                Shillong - 793001
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:6913002967">6913002967</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tinsukia -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>TINSUKIA</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                Sashi Complex,
+                                Rongagora Road,
+                                Tinsukia - 786125
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:7099020913">7099020913</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tura -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+                        <h3>TURA</h3>
+                        <div class="rgucnt-divider"></div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-geo-alt"></i></div>
+                            <p>
+                                1st Floor,
+                                Above Axis Bank,
+                                Hawakhana,
+                                Tura - 794001
+                            </p>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:9127898115">9127898115</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Helpline -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+
+                        <h3 style="font-size:28px;">General Helpline</h3>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:+917086093458">
+                                +91 70860 93458 / +91 70860 93459
+                            </a>
+                        </div>
+
+                        <div class="rgucnt-divider"></div>
+
+                        <h3 style="font-size:28px;margin-top:10px;">
+                            Admission Helpline
+                        </h3>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:+917879998811">
+                                +91 78799 98811
+                            </a>
                         </div>
 
                     </div>
-
                 </div>
-                <!-- contact info part  -->
 
-                <!--map-->
-                <h2 class="headd1 fw-bold text-center  pb-4 pt-2" style="color: #27467A; font-weight: 900;">
-                    Location <span style="color: #FF9A1E; font-weight: 500;">Map</span></h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.58413536414!2d91.72203897563631!3d26.112490577133137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5c6504d45881%3A0x1029dcdedc3e79db!2sRoyal%20Global%20University!5e0!3m2!1sen!2sin!4v1759902585816!5m2!1sen!2sin"
-                    width="1200" height="450" style="border: 3px solid black; border-radius: 10px;" class="mb-5"
+                <!-- International -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="rgucnt-card">
+
+                        <h3 style="font-size:28px;">
+                            International Helpline
+                        </h3>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:+916913002970">
+                                +91 69130 02970
+                            </a>
+                        </div>
+
+                        <div class="rgucnt-divider"></div>
+
+                        <h3 style="font-size:28px;margin-top:10px;">
+                            Accounts Department
+                        </h3>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-telephone"></i></div>
+                            <a href="tel:+917099088711">
+                                +91 70990 88711
+                            </a>
+                        </div>
+
+                        <div class="rgucnt-item">
+                            <div class="rgucnt-icon"><i class="bi bi-envelope"></i></div>
+                            <a href="mailto:Vijay.Sharma@rgi.edu.in">
+                                Vijay.Sharma@rgi.edu.in
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="rgucnt-map-section">
+
+        <div class="container">
+
+            <div class="rgucnt-heading">
+                <span class="rgucnt-subtitle">Visit Us</span>
+                <h2>Location Map</h2>
+            </div>
+
+            <div class="rgucnt-map-wrapper">
+
+                <iframe src="https://www.google.com/maps?q=Royal%20Global%20University%20Guwahati&output=embed"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
 
             </div>
-        </section>
 
+        </div>
+
+    </section>
 @endsection
 
 @push('scripts')
