@@ -1003,10 +1003,7 @@
         <div class="pg-hero-inner">
             <h1 class="pg-hero-title"> Royal Global University Signs MoU with Assam Police to Expand Educational
                 Opportunities for Police Families</h1>
-            <div class="pg-hero-breadcrumb">
-                MOU / Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police
-                Families
-            </div>
+
         </div>
 
     </section>
