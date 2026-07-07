@@ -7,9 +7,9 @@
 @section('content')
     <style>
         /*=========================================================
-        RGU CONTACT PAGE
-        LOCATION + INFORMATION CENTRE
-=========================================================*/
+                    RGU CONTACT PAGE
+                    LOCATION + INFORMATION CENTRE
+            =========================================================*/
 
         .rgucnt-map-section {
             padding: 90px 0 70px;
@@ -72,8 +72,8 @@
         }
 
         /*=========================================================
-MAP
-=========================================================*/
+            MAP
+            =========================================================*/
 
         .rgucnt-map-wrapper {
             background: #fff;
@@ -98,8 +98,8 @@ MAP
         }
 
         /*=========================================================
-CARDS
-=========================================================*/
+            CARDS
+            =========================================================*/
 
         .rgucnt-card {
 
@@ -229,8 +229,8 @@ CARDS
         }
 
         /*=========================================================
-TABLET
-=========================================================*/
+            TABLET
+            =========================================================*/
 
         @media(max-width:991px) {
 
@@ -262,8 +262,8 @@ TABLET
         }
 
         /*=========================================================
-MOBILE
-=========================================================*/
+            MOBILE
+            =========================================================*/
 
         @media(max-width:767px) {
 
@@ -346,15 +346,16 @@ MOBILE
         }
     </style>
 
-        <section class="pg-hero">
-        <div class="pg-hero-bg" style="background-image:url('assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
+    <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
         </div>
 
         <div class="pg-hero-bg"></div>
         <div class="pg-hero-overlay"></div>
 
         <div class="pg-hero-inner">
-            <h1 class="pg-hero-title"> Contacts</h1>
+            <h1 class="pg-hero-title"> Royal Information Centre</h1>
             <div class="pg-hero-breadcrumb">
                 Contacts
             </div>
@@ -362,37 +363,126 @@ MOBILE
 
     </section>
 
-    <section class="rgucnt-map-section">
 
-        <div class="container">
-
-            <div class="rgucnt-heading">
-                <span class="rgucnt-subtitle">Visit Us</span>
-                <h2>Location Map</h2>
-            </div>
-
-            <div class="rgucnt-map-wrapper">
-
-                <iframe src="https://www.google.com/maps?q=Royal%20Global%20University%20Guwahati&output=embed"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
-            </div>
-
-        </div>
-
-    </section>
 
     <section class="rgucnt-centre-section">
 
         <div class="container">
 
-            <div class="rgucnt-heading rgucnt-heading-light">
-                <span class="rgucnt-subtitle">Across North East</span>
-                <h2>Royal Information Centre</h2>
+            <div class="mb-5">
+                <h2 class="text-light">THE ASSAM ROYAL GLOBAL UNIVERSITY (Sponsored by Gyan Sagar Foundation alias Royal,
+                    Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-27, Guwahati-35, Dist- Kamrup (Metro),
+                    Assam, India.</h2>
+                <div class="row pt-5">
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:vice-chancellor@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>vice-chancellor@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:registraroffice@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>registraroffice@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:admissions@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>admissions@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <a href="mailto:careers@rgu.ac" class="text-light fw-bold text-decoration-none"
+                            style="font-size:26px;">
+
+                            <i class="bi bi-envelope-fill me-2"></i>careers@rgu.ac
+
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="pt-4 pb-4 mt-5"
+                    style="width:100%; max-width:1400px; margin:0 auto; background:#fff; border:1px solid #e5e5e5; border-radius:12px; padding:40px 30px; display:flex; justify-content:space-between; align-items:flex-start; gap:40px; font-family:Georgia, 'Times New Roman', serif; box-sizing:border-box;">
+
+                    <!-- General Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            General Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center; margin-bottom:12px;">
+                            <span style="font-size:22px; color:#333;">+91 70860-93458</span>
+                        </div>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 70860-93459</span>
+                        </div>
+                    </div>
+
+                    <!-- Admission Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            Admission Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 78799-98811</span>
+                        </div>
+                    </div>
+
+                    <!-- International Helpline -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            International Helpline
+                        </h3>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:22px; color:#333;">+91 69130-02970</span>
+                        </div>
+                    </div>
+
+                    <!-- Accounts Department -->
+                    <div style="flex:1;">
+                        <h3 style="margin:0 0 30px; color:#284b8f; font-size:24px; font-weight:500;">
+                            Accounts Department
+                        </h3>
+
+                        <div style="display:flex; align-items:center; margin-bottom:12px;">
+                            <span style="font-size:22px; color:#333;">+91 70990-88711</span>
+                        </div>
+
+                        <div style="display:flex; align-items:center;">
+                            <span style="font-size:32px; margin-right:12px; color:#0056d6;">✉</span>
+                            <a href="mailto:vijay.sharma@rgi.edu.in"
+                                style="font-size:22px; color:#0056d6; text-decoration:none; font-weight:600;">
+                                vijay.sharma@rgi.edu.in
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 mt-4">
 
                 <!-- Barpeta -->
                 <div class="col-lg-4 col-md-6">
@@ -813,6 +903,27 @@ MOBILE
 
                     </div>
                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="rgucnt-map-section">
+
+        <div class="container">
+
+            <div class="rgucnt-heading">
+                <span class="rgucnt-subtitle">Visit Us</span>
+                <h2>Location Map</h2>
+            </div>
+
+            <div class="rgucnt-map-wrapper">
+
+                <iframe src="https://www.google.com/maps?q=Royal%20Global%20University%20Guwahati&output=embed"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </div>
 
