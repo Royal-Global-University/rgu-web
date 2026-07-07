@@ -1,6 +1,6 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
+    <style>
         /* ================= RGU APS HERO (UNIQUE) ================= */
 
         .rguapsh-hero {
@@ -93,6 +93,208 @@
             .rguapsh-title {
                 font-size: 2.6rem;
             }
+        }
+    </style>
+
+    <style>
+        /*====================================================
+                    MOBILE VIEW
+    ====================================================*/
+
+        @media (max-width:767px) {
+
+            /* SECTION */
+
+            .mou-showcase {
+                padding: 40px 0;
+            }
+
+            .mou-showcase .container {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            .mou-showcase .row {
+                margin-left: -8px;
+                margin-right: -8px;
+            }
+
+            .mou-showcase .col-lg-6,
+            .mou-showcase .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                width: 100%;
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-bottom: 18px;
+            }
+
+
+            /* CARD */
+
+            .mou-card-frame {
+                padding: 6px;
+                border-radius: 20px;
+            }
+
+            .mou-card-inner {
+                border-radius: 16px;
+                padding: 20px 18px 18px;
+            }
+
+
+            /* TITLE */
+
+            .mou-card-title {
+
+                margin: 0 0 18px;
+
+                min-height: auto;
+
+                font-size: 20px;
+
+                line-height: 1.45;
+
+                text-align: center;
+
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+            }
+
+
+            /* LOGO STACK */
+
+            .mou-logo-row {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                gap: 8px;
+
+                margin-top: auto;
+            }
+
+
+            /* LOGO BOX */
+
+            .mou-logo-box {
+
+                width: 92px;
+                height: 92px;
+
+                padding: 12px;
+
+                border-radius: 12px;
+            }
+
+            .mou-logo-box img {
+
+                width: 100%;
+                height: 100%;
+
+                max-width: 64px;
+                max-height: 64px;
+
+                object-fit: contain;
+            }
+
+
+            /* CONNECTOR */
+
+            .mou-connect {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                gap: 5px;
+            }
+
+            .mou-connect span {
+
+                width: 2px;
+                height: 16px;
+
+                background: linear-gradient(to bottom,
+                        transparent,
+                        #d9af4a 20%,
+                        #fff0ad 50%,
+                        #d9af4a 80%,
+                        transparent);
+            }
+
+            .mou-connect span::before {
+                display: none;
+            }
+
+
+            /* CENTER MEDAL */
+
+            .mou-connect-icon {
+
+                width: 42px;
+                height: 42px;
+
+                border-width: 1px;
+
+                box-shadow:
+                    0 4px 10px rgba(0, 0, 0, .18),
+                    inset 0 1px 2px rgba(255, 255, 255, .45);
+            }
+
+            .mou-connect-icon:before {
+
+                inset: -3px;
+
+                border: 2px solid rgba(255, 223, 140, .18);
+            }
+
+            .mou-connect-icon:after {
+
+                width: 24px;
+                height: 24px;
+            }
+
+            .mou-connect-icon i {
+
+                font-size: 13px;
+            }
+
+
+            /* FOOTER */
+
+            .mou-footer {
+
+                height: 46px;
+
+                font-size: 17px;
+
+                letter-spacing: 2px;
+
+                font-weight: 700;
+
+                border-radius: 16px;
+            }
+
+            .mou-footer::after {
+                display: none;
+            }
+
+
+            /* REMOVE MOBILE HOVER */
+
+            .mou-card-frame:hover,
+            .mou-card:hover .mou-card-frame,
+            .mou-card:hover .mou-logo-box,
+            .mou-card:hover .mou-connect-icon {
+                transform: none;
+            }
+
         }
     </style>
 
@@ -221,7 +423,7 @@
 
                 </div>
 
-                                <!-- Card -->
+                <!-- Card -->
 
                 <div class="col-lg-6 col-md-6 mb-4">
 
@@ -272,7 +474,7 @@
 
                 </div>
 
-                                <!-- Card -->
+                <!-- Card -->
 
                 <div class="col-lg-6 col-md-6 mb-4">
 
@@ -323,7 +525,7 @@
 
                 </div>
 
-                                <!-- Card -->
+                <!-- Card -->
 
                 <div class="col-lg-6 col-md-6 mb-4">
 
@@ -374,7 +576,7 @@
 
                 </div>
 
-                                <!-- Card -->
+                <!-- Card -->
 
                 <div class="col-lg-6 col-md-6 mb-4">
 
@@ -483,8 +685,8 @@
 
     <style>
         /*====================================================
-                MOU SHOWCASE
-====================================================*/
+                    MOU SHOWCASE
+    ====================================================*/
 
         .mou-showcase {
             padding: 90px 0;
@@ -505,8 +707,8 @@
 
 
         /*====================================================
-                    CARD
-====================================================*/
+                        CARD
+    ====================================================*/
 
         .mou-card-frame {
 
@@ -549,8 +751,8 @@
 
 
         /*====================================================
-            PREMIUM GOLD SHINE
-====================================================*/
+                PREMIUM GOLD SHINE
+    ====================================================*/
 
         .mou-card-frame:before {
 
@@ -591,8 +793,8 @@
 
 
         /*====================================================
-            GOLD INNER BORDER
-====================================================*/
+                GOLD INNER BORDER
+    ====================================================*/
 
         .mou-card-frame:after {
 
@@ -617,8 +819,8 @@
 
 
         /*====================================================
-                BLACK PANEL
-====================================================*/
+                    BLACK PANEL
+    ====================================================*/
 
         .mou-card-inner {
 
@@ -651,8 +853,8 @@
 
 
         /*====================================================
-                PANEL TEXTURE
-====================================================*/
+                    PANEL TEXTURE
+    ====================================================*/
 
         .mou-card-inner:before {
 
@@ -681,8 +883,8 @@
 
 
         /*====================================================
-            DECORATIVE SHAPES
-====================================================*/
+                DECORATIVE SHAPES
+    ====================================================*/
 
         .mou-card-inner:after {
 
@@ -709,8 +911,8 @@
 
 
         /*====================================================
-                PANEL GLOW
-====================================================*/
+                    PANEL GLOW
+    ====================================================*/
 
         .mou-card:hover .mou-card-inner {
 
@@ -723,8 +925,8 @@
 
 
         /*====================================================
-                HOVER
-====================================================*/
+                    HOVER
+    ====================================================*/
 
         .mou-card-frame:hover {
 
@@ -743,8 +945,8 @@
 
 
         /*====================================================
-            SMOOTH TRANSITIONS
-====================================================*/
+                SMOOTH TRANSITIONS
+    ====================================================*/
 
         .mou-card,
         .mou-card * {
@@ -756,8 +958,8 @@
         }
 
         /*====================================================
-                    TITLE
-====================================================*/
+                        TITLE
+    ====================================================*/
 
         .mou-card-title {
 
@@ -802,8 +1004,8 @@
 
 
         /*====================================================
-                    LOGO ROW
-====================================================*/
+                        LOGO ROW
+    ====================================================*/
 
         .mou-logo-row {
 
@@ -826,8 +1028,8 @@
 
 
         /*====================================================
-                    LOGO CARD
-====================================================*/
+                        LOGO CARD
+    ====================================================*/
 
         .mou-logo-box {
 
@@ -914,8 +1116,8 @@
 
 
         /*====================================================
-                    CONNECTOR
-====================================================*/
+                        CONNECTOR
+    ====================================================*/
 
         .mou-connect {
 
@@ -986,8 +1188,8 @@
 
 
         /*====================================================
-                    MEDAL
-====================================================*/
+                        MEDAL
+    ====================================================*/
 
         .mou-connect-icon {
 
@@ -1084,8 +1286,8 @@
         }
 
         /*====================================================
-                    FOOTER
-====================================================*/
+                        FOOTER
+    ====================================================*/
 
         .mou-footer {
 
