@@ -189,7 +189,7 @@
                Ms. Meghna Bordoloi
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-               Teaching Assistant
+               Assistant Professor
               </h2>
             </div>
           </div>
@@ -211,7 +211,7 @@
                Ms. Meghna Bordoloi
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                Teaching Assistant
+                Assistant Professor
               </h2>
             </div>
 
