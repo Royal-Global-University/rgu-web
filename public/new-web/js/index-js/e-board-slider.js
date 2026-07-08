@@ -2,15 +2,15 @@
 
 const eboardData = [
     {
-        img: "/mobile-assets/ads/8-july/8-1.jpeg",
+        img: "/mobile-assets/ads/8-july/Frame 4.png",
         alt: "Event 1",
     },
     {
-        img: "/mobile-assets/ads/8-july/8-july-1.jpeg",
+        img: "/mobile-assets/ads/8-july/Frame 5.png",
         alt: "Event 1",
     },
     {
-        img: "/mobile-assets/ads/8-july/8-july-2.jpeg",
+        img: "/mobile-assets/ads/8-july/Frame 6.png",
         alt: "Event 1",
     },
 
