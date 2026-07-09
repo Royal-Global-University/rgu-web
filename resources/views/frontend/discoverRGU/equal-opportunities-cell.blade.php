@@ -1,304 +1,601 @@
-@extends('frontend.master')
-@push('styles')
-    <style>
-        .card {
-            position: relative;
-            background: white;
-            border-radius: 10px;
-
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .card::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 40px;
-            /* Adjust size as needed */
-            height: 40px;
-            background: #E8A015;
-            /* Yellow color */
-            clip-path: polygon(100% 0, 0 100%, 100% 100%);
-        }
-    </style>
-@endpush
+@extends('frontend/new-master')
 @section('title', 'Equal oppurtunity Cell : The Assam Royal Global University')
 @section('meta_description', 'Empowering diversity and fostering inclusivity, the Equal Opportunity Cell at Royal Global University is dedicated to ensuring fair treatment and access for all.')
 @section('meta_keywords', 'Equal oppurtunity Cell')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-image: url('mobile-assets/equal-opportunity/bg.svg');">
-                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
-                    style="color: #27467A; font-weight: 900;">
-                    Equal opportunity <br><span style="color: #FF9A1E; font-weight: 500;">Cell</span></h2>
+        <style>
 
-                <div style="padding: 20px 30px;">
-                    <div class="row">
 
-                        <div class="col-lg-3 mb-4">
+        .rgeoc-section {
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/1.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Prof.
-                                        (Dr.) Y.S.R. Murthy</h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Hon'ble Vice Chancellor,
-                                        <br> The Assam Royal Global University
-                                    </p>
+            padding: 90px 0;
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Chairperson</p>
-                                </div>
-                            </div>
-                        </div>
+            background: #eef3fb;
 
-                        <div class="col-lg-3 mb-4">
+            position: relative;
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/2.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Prof.
-                                        (Dr.) Krishna Barua</h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, RSL</p>
+            overflow: hidden;
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+        }
 
-                        <div class="col-lg-3 mb-4">
+        .rgeoc-section::before {
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/3.jpeg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Dr.
-                                        Susmita Hazarika</h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Assistant Professor,
-                                        Department. of History, RSHSS</p>
+            content: "";
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+            position: absolute;
 
-                        <div class="col-lg-3 mb-4">
+            width: 550px;
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/4.jpeg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Prof.
-                                        (Dr.) Bhuban Ch. Barooah</h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Dean,
-                                        RSLA</p>
+            height: 550px;
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+            border-radius: 50%;
 
-                        <div class="col-lg-3 mb-4">
+            right: -180px;
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/5.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Mr.
-                                        Rajdeep Deb
-                                    </h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Assistant Professor,
-                                        Department of Geology, RSEES</p>
+            top: -220px;
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+            background: radial-gradient(rgba(35, 69, 123, .06), transparent 70%);
 
-                        <div class="col-lg-3 mb-4">
+        }
 
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/equal-opportunity/6.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Dr.
-                                        Kamal Debnath
-                                    </h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD,
-                                        Dept of Mathematics, RSAPS</p>
+        .rgeoc-heading {
 
-                                    <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                        Member</p>
-                                </div>
-                            </div>
-                        </div>
+            text-align: center;
 
-                    </div>
-                </div>
-            </section>
+            margin-bottom: 65px;
+
+            position: relative;
+
+            z-index: 2;
+
+        }
+
+        .rgeoc-heading span {
+
+            display: inline-block;
+
+            text-transform: uppercase;
+
+            letter-spacing: 3px;
+
+            color: #b88938;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+            margin-bottom: 14px;
+
+        }
+
+        .rgeoc-heading h2 {
+
+            margin: 0;
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 40px;
+
+            color: #23457b;
+
+            font-weight: 700;
+
+        }
+
+        /*====================================
+Cards
+====================================*/
+
+        .rgeoc-card {
+
+            background: #fff;
+
+            border-radius: 24px;
+
+            padding: 28px;
+
+            height: 100%;
+
+            box-shadow:
+                0 15px 45px rgba(18, 40, 84, .08);
+
+            transition: .35s;
+
+            position: relative;
+
+            overflow: hidden;
+
+        }
+
+        .rgeoc-card::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+
+            top: 0;
+
+            width: 100%;
+
+            height: 5px;
+
+            background: #d5af58;
+
+            transform: scaleX(0);
+
+            transform-origin: left;
+
+            transition: .35s;
+
+        }
+
+        .rgeoc-card:hover {
+
+            transform: translateY(-10px);
+
+            box-shadow:
+                0 28px 60px rgba(18, 40, 84, .12);
+
+        }
+
+        .rgeoc-card:hover::before {
+
+            transform: scaleX(1);
+
+        }
+
+        /*====================================
+Image
+====================================*/
+
+        .rgeoc-image {
+
+            border-radius: 18px;
+
+            overflow: hidden;
+
+            background: #edf3ff;
+
+            margin-bottom: 24px;
+
+        }
+
+        .rgeoc-image img {
+
+            width: 100%;
+
+            display: block;
+
+            transition: .45s;
+
+        }
+
+        .rgeoc-card:hover .rgeoc-image img {
+
+            transform: scale(1.05);
+
+        }
+
+        /*====================================
+Content
+====================================*/
+
+        .rgeoc-content h3 {
+
+            font-size: 29px;
+
+            color: #3a3a3a;
+
+            font-weight: 700;
+
+            margin-bottom: 14px;
+
+            line-height: 1.35;
+
+        }
+
+        .rgeoc-content p {
+
+            color: #616161;
+
+            line-height: 1.8;
+
+            margin-bottom: 32px;
+
+            min-height: 72px;
+
+            font-size: 15px;
+
+        }
+
+        .rgeoc-content span {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 8px 18px;
+
+            border-radius: 40px;
+
+            background: #fff4ee;
+
+            color: #de6427;
+
+            font-size: 14px;
+
+            font-weight: 600;
+
+            transition: .3s;
+
+        }
+
+        .rgeoc-card:hover .rgeoc-content span {
+
+            background: #de6427;
+
+            color: #fff;
+
+        }
+
+        /*====================================
+Responsive
+====================================*/
+
+        @media(max-width:991px) {
+
+            .rgeoc-section {
+
+                padding: 70px 0;
+
+            }
+
+            .rgeoc-heading {
+
+                margin-bottom: 50px;
+
+            }
+
+            .rgeoc-heading h2 {
+
+                font-size: 44px;
+
+            }
+
+            .rgeoc-content h3 {
+
+                font-size: 24px;
+
+            }
+
+        }
+
+        @media(max-width:767px) {
+
+            .rgeoc-section {
+
+                padding: 55px 0;
+
+            }
+
+            .rgeoc-heading {
+
+                margin-bottom: 40px;
+
+            }
+
+            .rgeoc-heading span {
+
+                font-size: 11px;
+
+                letter-spacing: 2px;
+
+            }
+
+            .rgeoc-heading h2 {
+
+                font-size: 34px;
+
+                line-height: 1.25;
+
+            }
+
+            .rgeoc-card {
+
+                padding: 20px;
+
+                border-radius: 18px;
+
+            }
+
+            .rgeoc-image {
+
+                margin-bottom: 18px;
+
+                border-radius: 14px;
+
+            }
+
+            .rgeoc-content h3 {
+
+                font-size: 21px;
+
+                margin-bottom: 10px;
+
+            }
+
+            .rgeoc-content p {
+
+                font-size: 14px;
+
+                min-height: auto;
+
+                margin-bottom: 20px;
+
+                line-height: 1.7;
+
+            }
+
+            .rgeoc-content span {
+
+                font-size: 13px;
+
+                padding: 7px 14px;
+
+            }
+
+        }
+    </style>
+
+        <section class="pg-hero">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-        <section style="background-image: url(mobile-assets/equal-opportunity/bg.svg); background-size: cover;">
+        <div class="pg-hero-inner">
+            <h1 class="pg-hero-title"> Equal Opportunities Cell</h1>
+            <div class="pg-hero-breadcrumb">
+                Equal Opportunities Cell
+            </div>
+        </div>
 
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
-                Equal Opportunities <span style="color: #FF9A1E; font-weight: 500;">Cell</span></h2>
+    </section>
 
-            <div style="padding: 20px 80px;">
 
-                <div class="row">
+    <section class="rgeoc-section">
 
-                    <div class="col-lg-3 mb-4">
+        <div class="container">
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/1.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Y.S.R. Murthy</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Hon'ble Vice Chancellor, <br> The
-                                    Assam Royal Global University</p>
+            <div class="rgeoc-heading">
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">
-                                    Chairperson</p>
-                            </div>
+                <span>Student Welfare</span>
+
+                <h2>
+                    Equal Opportunities Cell
+                </h2>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/1.png" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Prof. (Dr.) Y.S.R. Murthy
+                            </h3>
+
+                            <p>
+                                Hon'ble Vice Chancellor,<br>
+                                The Assam Royal Global University
+                            </p>
+
+                            <span>
+                                Chairperson
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                </div>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/2.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Krishna Barua</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, RSL</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/2.png" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Prof. (Dr.) Krishna Barua
+                            </h3>
+
+                            <p>
+                                Professor & Dean,
+                                RSL
+                            </p>
+
+                            <span>
+                                Member
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                </div>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/3.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Susmita
-                                    Hazarika</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Department.
-                                    of History, RSHSS</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/3.jpeg" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Dr. Susmita Hazarika
+                            </h3>
+
+                            <p>
+                                Assistant Professor,
+                                Department of History,
+                                RSHSS
+                            </p>
+
+                            <span>
+                                Member
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                </div>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/4.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A; font-size: 20px;"
-                                    class="card-title headd2 pb-2">Prof. (Dr.) Bhuban Ch. Barooah</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Dean, RSLA</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/4.jpeg" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Prof. (Dr.) Bhuban Ch. Barooah
+                            </h3>
+
+                            <p>
+                                Dean,
+                                RSLA
+                            </p>
+
+                            <span>
+                                Member
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                </div>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/5.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Rajdeep Deb
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Department
-                                    of Geology, RSEES</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/5.png" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Mr. Rajdeep Deb
+                            </h3>
+
+                            <p>
+                                Assistant Professor,
+                                Department of Geology,
+                                RSEES
+                            </p>
+
+                            <span>
+                                Member
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                </div>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/equal-opportunity/6.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Kamal
-                                    Debnath
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Dept
-                                    of Mathematics, RSAPS</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+
+                <!-- Card -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="rgeoc-card">
+
+                        <div class="rgeoc-image">
+
+                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/6.png" alt="">
+
                         </div>
+
+                        <div class="rgeoc-content">
+
+                            <h3>
+                                Dr. Kamal Debnath
+                            </h3>
+
+                            <p>
+                                Associate Professor & HoD,
+                                Department of Mathematics,
+                                RSAPS
+                            </p>
+
+                            <span>
+                                Member
+                            </span>
+
+                        </div>
+
                     </div>
+
                 </div>
 
             </div>
 
-        </section>
-    </div>
+        </div>
+
+    </section>
 @endsection
