@@ -190,7 +190,7 @@
                 Prof. (Dr.) Krishna Barua
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                Senior Professor
+                Professor and Advisor in RSL
               </h2>
             </div>
           </div>

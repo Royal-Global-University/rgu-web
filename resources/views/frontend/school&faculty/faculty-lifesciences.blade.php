@@ -414,25 +414,25 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Pundarikaksha.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Mr-Benex-K-Babu.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Pundarikaksha Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Forensic Sciences</p>
-                            <a href="/faculty-dr-pundarikaksha-das" class="profile-link">View
-                                Profile</a>
+                            <h3 class="card-name">Mr. Benex K Babu</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="/faculty-benex-k-babu" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Mr-Benex-K-Babu.png"
+                                <img src="/mobile-assets/updated-faculty-img/Pundarikaksha.jpeg"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Benex K Babu</h3>
+                            <h3 class="card-name">Dr. Pundarikaksha Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-benex-k-babu" class="profile-link">View Profile</a>
+                            <a href="/faculty-dr-pundarikaksha-das" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -577,18 +577,6 @@
                                 <h3 class="card-name">Dr. Demsai Reang</h3>
                                 <p class="card-designation">Assistant Professor</p>
                                 <a href="/faculty-demsai-reang" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Dr-Paul-Lalremsang-RSLSC.png"
-                                        alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Dr. Paul Lalremsang</h3>
-                                <p class="card-designation">Assistant Professor</p>
-                                <a href="/faculty-paul-lalremsang" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

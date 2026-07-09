@@ -4308,10 +4308,6 @@ Route::get('/faculty-pushkal-baghchie', function () {
     return view('frontend/facultyprofile/rslsc/pushkal-baghchie');
 })->name('faculty-pushkal-baghchie');
 
-Route::get('/faculty-paul-lalremsang', function () {
-    return view('frontend/facultyprofile/rslsc/paul-lalremsang');
-})->name('faculty-paul-lalremsang');
-
 Route::get('/faculty-diksha-dutta', function () {
     return view('frontend/facultyprofile/rslsc/diksha-dutta');
 })->name('faculty-diksha-dutta');
