@@ -134,6 +134,30 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Trishna-Changkakati.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Trishna Changkakati</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Geography & Geoinformatics</p>
+                            <a href="https://www.rgu.ac/faculty-trishna-changkakati" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/amit-k.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Amit Kumar Tiwari</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-annesha-borah" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Annesha-Borah-RSEES.png"
                                     alt="Profile image ">
                             </div>
@@ -190,17 +214,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Trishna-Changkakati.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Trishna Changkakati</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Geography & Geoinformatics</p>
-                            <a href="https://www.rgu.ac/faculty-trishna-changkakati" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
+                    
 
                 </div>
                 <!-- regular faculty  -->

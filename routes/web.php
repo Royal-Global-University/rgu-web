@@ -5352,10 +5352,6 @@ Route::get('/faculty-pranita-choudhury', function () {
     return view('frontend/facultyprofile/rsla/pranita-choudhury');
 })->name('faculty-pranita-choudhury');
 
-Route::get('/faculty-sumit-agarwala', function () {
-    return view('frontend/facultyprofile/rsla/sumit-agarwala');
-})->name('faculty-sumit-agarwala');
-
 Route::get('/faculty-saif-rasul-khan', function () {
     return view('frontend/facultyprofile/rsla/saif-rasul-khan');
 })->name('faculty-saif-rasul-khan');
