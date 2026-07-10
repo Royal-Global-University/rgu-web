@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU Felicitates VC and Faculty Members for Recognition Among World’s Top 5% Scientists',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, July 10, 2026:',
+                            'link' => '/rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists',
+                            'image' => '/mobile-assets/media-corner/2026/scientice.png',
+                            'content' => 'The Assam Royal Global University (RGU) has felicitated its Vice Chancellor and three more faculty members for their remarkable achievement of being recognised among the Top 5% Scientists globally by SciRank Global Registry...',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police Families',
                             'summary' =>
                                 '',

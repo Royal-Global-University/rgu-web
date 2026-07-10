@@ -3277,6 +3277,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists', function () {
+    return view('frontend/media-corner/2026/july/news1');
+})->name('rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists');
+
 Route::get('/guwahati-royals-unveiled-at-assam-premier-league-launch', function () {
     return view('frontend/media-corner/2026/june/news10');
 })->name('guwahati-royals-unveiled-at-assam-premier-league-launch');
