@@ -235,18 +235,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kamal-Deka-RSP.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Kamal Deka</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-kamal-deka" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Manowara Begum-website.png"
                                     alt="Profile image">
                             </div>
@@ -445,18 +433,6 @@
                             <h3 class="card-name">Mr. Suman Basak</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-suman-basak" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Suparna Bhattacharjee Website.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Suparna Bhattacharjee</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/sabnam-nargis" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 

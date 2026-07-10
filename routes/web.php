@@ -4222,10 +4222,6 @@ Route::get('/faculty-pranabesh-sikdar', function () {
     return view('frontend/facultyprofile/rsp/pranabesh-sikdar');
 })->name('faculty-pranabesh-sikdar');
 
-Route::get('/faculty-kamal-deka', function () {
-    return view('frontend/facultyprofile/rsp/kamal-deka');
-})->name('faculty-kamal-deka');
-
 Route::get('/faculty-atanu-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsp/atanu-bhattacharjee');
 })->name('faculty-atanu-bhattacharjee');
