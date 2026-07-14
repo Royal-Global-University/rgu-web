@@ -2523,7 +2523,6 @@
     <script>
         new DataTable('#example2');
     </script>
-    {{-- @include('frontend.components.search-widget') --}}
     @stack('scripts')
     <!-- <script>
         $(function() {

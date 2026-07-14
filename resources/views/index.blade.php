@@ -184,25 +184,25 @@
                     <!-- SLIDE 2 -->
                     <!-- <div class="int-slide">
 
-                                            <div class="int-card">
-                                                <img src="assets/img/index/international-news/news3/1.jpg">
-                                                <div class="int-card-content">
-                                                    <h4>UK Collaboration</h4>
-                                                    <p>International research tie-up</p>
-                                                    <a href="#" class="int-readmore">Read More →</a>
+                                                <div class="int-card">
+                                                    <img src="assets/img/index/international-news/news3/1.jpg">
+                                                    <div class="int-card-content">
+                                                        <h4>UK Collaboration</h4>
+                                                        <p>International research tie-up</p>
+                                                        <a href="#" class="int-readmore">Read More →</a>
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="int-card">
-                                                <img src="assets/img/index/international-news/news4/1.jpg">
-                                                <div class="int-card-content">
-                                                    <h4>Global Conference</h4>
-                                                    <p>Student participation abroad</p>
-                                                    <a href="#" class="int-readmore">Read More →</a>
+                                                <div class="int-card">
+                                                    <img src="assets/img/index/international-news/news4/1.jpg">
+                                                    <div class="int-card-content">
+                                                        <h4>Global Conference</h4>
+                                                        <p>Student participation abroad</p>
+                                                        <a href="#" class="int-readmore">Read More →</a>
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                        </div> -->
+                                            </div> -->
 
                 </div>
             </div>
@@ -724,6 +724,15 @@
         document.addEventListener("DOMContentLoaded", () => {
 
             const events = [
+
+                {
+                    day: "27<sup>th</sup>",
+                    month: "August 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "Biofrontiers 2026",
+                    sub: "2 Days International Conference",
+                    link: "/mobile-assets/ads/ads-new/Biofrontiers 2026 Flyer.jpeg",
+                },
 
                 {
                     day: "28<sup>th</sup>",

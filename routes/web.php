@@ -3277,6 +3277,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university', function () {
+    return view('frontend/media-corner/2026/july/news2');
+})->name('internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university');
+
 Route::get('/rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists', function () {
     return view('frontend/media-corner/2026/july/news1');
 })->name('rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists');

@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Internationally Acclaimed Prof. Thinley from Bhutan joins Royal Global University',
+                            'summary' =>
+                                'Mindfulness Skill to be Introduced among RGU Students for Greater Focus: Prof Thinley',
+                            'date' => 'Guwahati, July 14, 2026:',
+                            'link' => '/internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/july/2.png',
+                            'content' => 'The Assam Royal Global University (RGU) has welcomed internationally renowned academician, education leader, researcher, and advocate of holistic education, Dr. Dorji Thinley as Professor in the Department of English...',
+                        ],
+                        [
+                            'title' =>
                                 'RGU Felicitates VC and Faculty Members for Recognition Among World’s Top 5% Scientists',
                             'summary' =>
                                 '',

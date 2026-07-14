@@ -133,8 +133,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -144,6 +142,18 @@
                             <h3 class="card-name">Prof. Krishna Barua</h3>
                             <p class="card-designation">Professor and Advisor</p>
                             <a href="/faculty-krishna-barua" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/dorji.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Dorji Thinley</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="/faculty-krishna-barua" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
