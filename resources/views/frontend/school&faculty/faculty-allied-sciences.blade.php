@@ -125,6 +125,19 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Prataprudra Parida</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="/faculty-shiela-bora" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Dr-Prince-CP-RSBAS.png"
                                     alt="Profile image ">
                             </div>
