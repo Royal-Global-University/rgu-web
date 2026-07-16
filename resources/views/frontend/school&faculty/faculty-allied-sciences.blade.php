@@ -125,7 +125,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Prataprudra.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Prataprudra Parida</h3>
