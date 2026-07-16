@@ -709,7 +709,6 @@
                             </tr>
 
                             <tr>
-
                                 <td>18</td>
 
                                 <td>Group Personal Accident policy</td>
