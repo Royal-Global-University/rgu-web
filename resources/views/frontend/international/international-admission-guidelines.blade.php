@@ -708,6 +708,25 @@
 
                             </tr>
 
+                            <tr>
+
+                                <td>18</td>
+
+                                <td>Group Personal Accident policy</td>
+
+                                <td>
+
+                                    <a href="/mobile-assets/pdf-2027/W570825943_9080_20260715.pdf"
+                                        class="international-guidelines-btn">
+
+                                        Download
+
+                                    </a>
+
+                                </td>
+
+                            </tr>
+
                         </tbody>
 
                     </table>
