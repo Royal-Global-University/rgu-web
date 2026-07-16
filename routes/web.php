@@ -4394,6 +4394,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-sandeep-das', function () {
+    return view('frontend/facultyprofile/rsmas/sandeep-das');
+})->name('faculty-sandeep-das');
+
 Route::get('/faculty-gaurav-verma', function () {
     return view('frontend/facultyprofile/rsmas/gaurav-verma');
 })->name('faculty-gaurav-verma');
