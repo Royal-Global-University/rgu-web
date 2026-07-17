@@ -193,19 +193,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
-                                    alt="Profile image of Prof. Anuradha Devi">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
-                            <p class="card-designation">Professor
-                            </p>
-                            <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsaps/2.jpg" alt="Profile image of Prof. Dilip Nath">
                             </div>
                             <h3 class="card-name">Prof. Dilip Chandra Nath</h3>
@@ -217,11 +204,25 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
+                                    alt="Profile image of Prof. Anuradha Devi">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
+                            <p class="card-designation">Professor
+                            </p>
+                            <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Bimalendu-Kalita-RSAPS.png"
                                     alt="Profile image of Dr. Bimalendu Kalita">
                             </div>
                             <h3 class="card-name">Dr. Bimalendu Kalita</h3>
-                            <p class="card-designation">Associate Professor & HOD, Mathematics</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-bimalendu-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -272,6 +273,18 @@
                             <h3 class="card-name">Dr. Neelav Sarma</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Nirmal.jpeg"
+                                    alt="Profile image of Nirmal">
+                            </div>
+                            <h3 class="card-name">Dr. Nirmal Kumar Singha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 

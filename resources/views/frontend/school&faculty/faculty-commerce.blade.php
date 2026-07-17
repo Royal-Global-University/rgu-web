@@ -234,6 +234,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Puja.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Puja Agarwal</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-dr-padum-chetry" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://rgu.ac/mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
                                     alt="Profile image">
                             </div>
