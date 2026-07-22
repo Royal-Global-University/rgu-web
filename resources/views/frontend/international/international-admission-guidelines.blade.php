@@ -715,7 +715,25 @@
 
                                 <td>
 
-                                    <a href="/mobile-assets/pdf-2027/W570825943_9080_20260715.pdf"
+                                    <a href="/mobile-assets/pdf-2027/GPA.pdf"
+                                        class="international-guidelines-btn">
+
+                                        Download
+
+                                    </a>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>19</td>
+
+                                <td>Group Health Insurance Policy</td>
+
+                                <td>
+
+                                    <a href="/mobile-assets/pdf-2027/ghi.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
