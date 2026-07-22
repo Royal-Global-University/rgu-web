@@ -829,6 +829,20 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr. Maitrayee Patar.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Maitrayee Patar</h3>
+                            <p class="card-designation">
+                                Assistant Professor
+                            </p>
+                            {{-- <a href="/faculty-lalzikpuii-rajkhowa" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/nutrition/Trishna.jpeg"
                                     alt="Profile image of Tripti Das">
                             </div>
