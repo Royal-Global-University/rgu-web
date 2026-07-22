@@ -181,6 +181,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Salainganba.jpeg" alt="r. Arghadeep Bose">
+                            </div>
+                            <h3 class="card-name">Dr. Kh Salainganba Meitei</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="/facultyarghadeep-bose" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Hibjur-Rahaman.png"
                                     alt="Profile image ">
                             </div>
