@@ -114,12 +114,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Nandana.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Souvik Chatterji.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Prof. (Dr.) Nandana Dutta</h3>
-                            <p class="card-designation">Dean Academics, Professor of English & i/c Dean, Royal School of Law and Administration</p>
-                            <a href="/Dr-Nandana-Dutta" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Prof. (Dr.) Souvik Chatterji</h3>
+                            <p class="card-designation">Professor & Dean, Royal School of Law and Administration</p>
                         </div>
                     </div>
 
