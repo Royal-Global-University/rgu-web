@@ -744,11 +744,20 @@
                 },
 
                 {
+                    day: "2<sup>nd</sup>",
+                    month: "Nov 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "14th ISWC 2026",
+                    sub: "Indian Social Work Conference",
+                    link: "/mobile-assets/pdf/14th Indian Social Work Conference_2026.pdf",
+                },
+
+                {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
                     month: "Nov 2026",
                     img: "https://rgu.ac/mobile-assets/conference/bg2.png",
-                    title: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science (ICETIEDS–2026)",
-                    sub: "Flagship global event hosted by the Royal School of Engineering and Technology, The Assam Royal Global University",
+                    title: "ICETIEDS–2026",
+                    sub: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science",
                     link: "https://rgu.ac/ICETIEDS%E2%80%932026",
                 }
             ];
