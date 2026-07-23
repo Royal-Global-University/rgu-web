@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, July 21, 2026",
+            title: "RGU Prof. Appointed Chair Prof. of Srimanta Sankardev Chair at Panjab University",
+            desc: "Dr. Pradip Jyoti Mahanta, distinguished academic and senior Professor of English at The Assam Royal Global University (RGU), has been appointed Chair Professor of the prestigious Srimanta Sankardev Chair at Panjab University, Chandigarh.",
+            img: "/mobile-assets/media-corner/2026/10/Dr. Pradip Jyoti Mahanta.jpeg",
+            link: "/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university",
+        },
+        {
             date: "Guwahati, July 3, 2026",
             title: "Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police Families",
             desc: "In a significant initiative aimed at supporting the families of police personnel through quality higher education, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Assam Police.",

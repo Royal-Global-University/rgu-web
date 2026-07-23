@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU Prof. Appointed Chair Prof. of Srimanta Sankardev Chair at Panjab University',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, July 21, 2026:',
+                            'link' => '/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university',
+                            'image' => '/mobile-assets/media-corner/2026/10/Dr. Pradip Jyoti Mahanta.jpeg',
+                            'content' => 'Dr. Pradip Jyoti Mahanta, distinguished academic and senior Professor of English at The Assam Royal Global University (RGU), has been appointed Chair Professor of the prestigious Srimanta Sankardev Chair at Panjab University, Chandigarh...',
+                        ],
+                        [
+                            'title' =>
                                 'Internationally Acclaimed Prof. Thinley from Bhutan joins Royal Global University',
                             'summary' =>
                                 'Mindfulness Skill to be Introduced among RGU Students for Greater Focus: Prof Thinley',

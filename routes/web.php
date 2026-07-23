@@ -3277,6 +3277,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university', function () {
+    return view('frontend/media-corner/2026/july/news3');
+})->name('rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university');
+
 Route::get('/internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university', function () {
     return view('frontend/media-corner/2026/july/news2');
 })->name('internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university');
