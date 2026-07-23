@@ -644,6 +644,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr. Hirok Jyoti Ray.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Hirok Jyoti Ray</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Rinreichon-h.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Rinreichon Houshu Shimray</h3>
