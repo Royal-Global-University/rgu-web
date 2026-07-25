@@ -114,7 +114,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Souvik Chatterji.png"
+                                <img src="/mobile-assets/updated-faculty-img/Souvik-Chatterji.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Souvik Chatterji</h3>
