@@ -500,19 +500,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Mullah-Islam.png"
-                                    alt="Profile image of Dr. Mullah Muhaiminul Islam">
-                            </div>
-                            <h3 class="card-name">Dr. Mullah Muhaiminul Islam</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-mullah-muhaiminul-islam" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Nongthombam-Singh.png"
                                     alt="Profile image of Dr. Nongthombam Geetmani Singh">
                             </div>
@@ -1159,19 +1146,6 @@
                             <h3 class="card-name">Dr. Tahera Hoque Mozumdar</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-tahera-mozumdar" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Mullah-Islam.png"
-                                    alt="Profile image of Muhaiminul">
-                            </div>
-                            <h3 class="card-name">Dr. Mullah Muhaiminul Islam</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-mullah-muhaiminul-islam" class="profile-link">View
-                                Profile</a>
                         </div>
                     </div>
 

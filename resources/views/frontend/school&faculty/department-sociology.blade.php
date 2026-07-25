@@ -2038,15 +2038,6 @@
         ["8", "Internal Member (Faculty expert- Sociology) ", "Ms. Prajna Borah , Assistant Professor of Sociology"],
         ["9", "Internal Member (Faculty expert- Sociology) ", "Dr. Trishna Mani Thakuria, Assistant Professor of Sociology"],
         ["10", "Internal member (Assistant Professor)  ", "Ms. Lalzikpuii Rajkhowa, Assistant Professor of Sociology"]
-
-
-
-
-
-
-
-
-
       ]
     },
     {

@@ -4617,10 +4617,6 @@ Route::get('/faculty-rupak-kumar-dalai', function () {
     return view('frontend/facultyprofile/rsaps/rupak-kumar');
 })->name('faculty-rupak-kumar-dalai');
 
-Route::get('/faculty-mullah-muhaiminul-islam', function () {
-    return view('frontend/facultyprofile/rsaps/mullah-muhaiminul-islam');
-})->name('faculty-mullah-muhaiminul-islam');
-
 Route::get('/faculty-nongthombam-geetmani-singh', function () {
     return view('frontend/facultyprofile/rsaps/nongthombam-geetmani-singh');
 })->name('faculty-nongthombam-geetmani-singh');
@@ -4842,10 +4838,6 @@ Route::get('/faculty-shobhit-pipil', function () {
 Route::get('/faculty-abhijit-gogoi', function () {
     return view('frontend/facultyprofile/rsees/abhijit-gogoi');
 })->name('faculty-abhijit-gogoi');
-
-Route::get('/faculty-amarjyoti-borah', function () {
-    return view('frontend/facultyprofile/rsees/amarjyoti-borah');
-})->name('faculty-amarjyoti-borah');
 
 Route::get('/faculty-hemangi-deka', function () {
     return view('frontend/facultyprofile/rsees/hemangi-deka');
@@ -5257,10 +5249,6 @@ Route::get('/faculty-premmi', function () {
     return view('frontend/facultyprofile/rshss/premmi');
 })->name('faculty-premmi');
 
-Route::get('/faculty-tania-begum', function () {
-    return view('frontend/facultyprofile/rshss/tania-begum');
-})->name('faculty-tania-begum');
-
 Route::get('/faculty-amlan-das-rshss', function () {
     return view('frontend/facultyprofile/rshss/amlan-das-rshss');
 })->name('faculty-amlan-das-rshss');
@@ -5268,10 +5256,6 @@ Route::get('/faculty-amlan-das-rshss', function () {
 Route::get('/faculty-bikash-chetry', function () {
     return view('frontend/facultyprofile/rshss/bikash-chetry');
 })->name('faculty-bikash-chetry');
-
-Route::get('/faculty-joyeeta-bhattacharjee', function () {
-    return view('frontend/facultyprofile/rshss/joyeeta-bhattacharjee');
-})->name('faculty-joyeeta-bhattacharjee');
 
 Route::get('/faculty-kristi-saikia', function () {
     return view('frontend/facultyprofile/rshss/kristi-saikia');
