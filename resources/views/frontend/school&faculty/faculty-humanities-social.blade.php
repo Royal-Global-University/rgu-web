@@ -204,7 +204,7 @@
                                     alt="Profile image of Dr. Muhammed Deluwar Hoque">
                             </div>
                             <h3 class="card-name">Dr. Muhammed Deluwar Hoque</h3>
-                            <p class="card-designation">Associate Professor & HOD, Economics</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -362,14 +362,25 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Susmita Banerjee</h3>
+                                <p class="card-designation">Assistant Professor & Coordinator, History</p>
+                                <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
                                     alt="Profile image Mr. Mukesh Kalita">
                             </div>
                             <h3 class="card-name">Mr. Mukesh Kalita</h3>
-                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs &
-                                Coordinator, History</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs</p>
                             <a href="/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -380,7 +391,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Bishnu-Gurung.png"
                                     alt="Profile image of Dr. Bishnu Gurung">
                             </div>
-                            <h3 class="card-name">Dr. Bishnu Gurung</h3>
+                            <h3 class="card-name">Dr. Bishnu Kumari Gurung</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-bishnu-gurung" class="profile-link">View Profile</a>
                         </div>
@@ -419,18 +430,6 @@
                             <h3 class="card-name">Dr. Premmi Wahengbam</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-premmi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                                    alt="Profile image of Susmita Banerjee">
-                            </div>
-                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -626,6 +625,16 @@
                             <h3 class="card-name">Dr. Baba Chandra Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-babachandra-singha" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr. Diyuk Bora.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Diyuk Bora</h3>
+                            <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
 

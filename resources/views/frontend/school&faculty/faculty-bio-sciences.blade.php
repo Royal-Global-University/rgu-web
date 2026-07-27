@@ -183,8 +183,20 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Debajit Borah</h3>
-                            <p class="card-designation">Associate Professor & HoD, Biotechnology </p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-debajit-borah" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/dr-manisha-chowdhury.png"
+                                    alt="Profile image of ">
+                            </div>
+                            <h3 class="card-name">Dr. Manisha Choudhury</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator,Biotechnology</p>
+                            <a href="https://www.rgu.ac/faculty-manisha-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -221,18 +233,6 @@
                             <h3 class="card-name">Dr. Chongtham Sovachandra Singh</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-chongtham-singh" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/dr-manisha-chowdhury.png"
-                                    alt="Profile image of ">
-                            </div>
-                            <h3 class="card-name">Dr. Manisha Choudhury</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator,Biotechnology</p>
-                            <a href="https://www.rgu.ac/faculty-manisha-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -445,8 +445,32 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Prof. Amlan Das</h3>
-                                <p class="card-designation">Professor & Co-cordinator, IKS</p>
+                                <p class="card-designation">Professor</p>
                                 <a href="https://www.rgu.ac/faculty-amlan-das" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="mobile-assets/updated-faculty-img/Saranga-Ranjan%20Patgiri-RSBSC.png"
+                                        alt="Profile image ">
+                                </div>
+                                <h3 class="card-name">Prof. Saranga Ranjan Patgiri</h3>
+                                <p class="card-designation">Professor</p>
+                                <a href="https://www.rgu.ac/faculty-saranga-ranjan-patgiri" class="profile-link">View
+                                    Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://rgu.ac/mobile-assets/all-faculty/rsbsc/17.jpeg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Niraj Singh</h3>
+                                <p class="card-designation">Assistant Professor & Coordinator, Microbiology</p>
+                                <a href="https://www.rgu.ac/faculty-niraj-singh" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -459,7 +483,7 @@
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Birson Ingti</h3>
-                                <p class="card-designation">Assistant Professor & Coordinator</p>
+                                <p class="card-designation">Assistant Professor</p>
                                 <a href="https://www.rgu.ac/faculty-birson-ingti" class="profile-link">View Profile</a>
                             </div>
                         </div>
@@ -475,17 +499,6 @@
                                 <h3 class="card-name">Dr. Dipayan Das</h3>
                                 <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                                 <a href="https://www.rgu.ac/faculty-dipayan-das" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://rgu.ac/mobile-assets/all-faculty/rsbsc/17.jpeg" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Dr. Niraj Singh</h3>
-                                <p class="card-designation">Assistant Professor & Coordinator, Microbiology</p>
-                                <a href="https://www.rgu.ac/faculty-niraj-singh" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -515,6 +528,17 @@
                             </div>
                         </div>
 
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="/mobile-assets/updated-faculty-img/Dr. Tejosmita Sen.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Tejosmita Sen</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                            </div>
+                        </div>
+
 
                     </div>
                     <!-- regular faculty  -->
@@ -522,19 +546,6 @@
                     <!-- adjunct faculty  -->
                     <div class="row justify-content-center">
                         <!-- Assistant Professors (A–Z) -->
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/updated-faculty-img/Saranga-Ranjan%20Patgiri-RSBSC.png"
-                                        alt="Profile image ">
-                                </div>
-                                <h3 class="card-name">Prof. Saranga Ranjan Patgiri</h3>
-                                <p class="card-designation">Professor</p>
-                                <a href="https://www.rgu.ac/faculty-saranga-ranjan-patgiri" class="profile-link">View
-                                    Profile</a>
-                            </div>
-                        </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">

@@ -182,11 +182,23 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Subrata.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Subrata Pal</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="/faculty-subrata-pal" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Piyush-Gupta-RSHM.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Piyush Gupta</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, RSHM</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-piyush-gupta" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -227,19 +239,6 @@
                             <a href="https://www.rgu.ac/faculty-dikhyant" class="profile-link">View Profile</a>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Subrata.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Mr. Subrata Pal</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-subrata-pal" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

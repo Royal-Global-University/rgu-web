@@ -116,7 +116,7 @@
                                     alt="Profile image of Dr. Hirak Jyoti Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Dominic J</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HoD</p>
                             <a href="/faculty-dr-dominic-j" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                                     alt="Profile image of Dr. Hirak Jyoti Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Hirak Jyoti Hazarika</h3>
-                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & HoD, Library Science</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="/faculty-hirak-jyoti-hazarika" class="profile-link">View Profile</a>
                         </div>
                     </div>

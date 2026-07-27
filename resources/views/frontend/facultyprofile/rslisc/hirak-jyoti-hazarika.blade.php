@@ -190,7 +190,7 @@
                                 Dr. Hirak Jyoti Hazarika
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
-                                Assistant Professor, Assistant Dean, Academic Affairs & HoD, Library Science
+                                Assistant Professor & Assistant Dean, Academic Affairs
                             </h2>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                 Dr. Hirak Jyoti Hazarika
                             </h2>
                             <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
-                                Assistant Professor, Assistant Dean, Academic Affairs & HoD, Library Science
+                                Assistant Professor & Assistant Dean, Academic Affairs
                             </h2>
                         </div>
 

@@ -214,7 +214,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsla/DrPranita.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Dr. Pranita Choudhury.jpeg"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Pranita Choudhury</h3>

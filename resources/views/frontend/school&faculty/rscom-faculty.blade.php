@@ -147,19 +147,20 @@
                         </div>
                     </div>
 
-                    <!-- Assistant Professor & Coordinator -->
-
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Sharmista-Pradhan-RSCOM.png"
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sailendra-Das.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Sharmista Pradhan</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, RSCOM</p>
-                            <a href="https://www.rgu.ac/faculty-sharmista-pradhan" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Dr. Sailendra Das</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator,RSCOM</p>
+                            <a href="https://www.rgu.ac/faculty-sailendra" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
+                    <!-- Assistant Professor & Coordinator -->
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -212,18 +213,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sailendra-Das.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Sailendra Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator,RSCOM</p>
-                            <a href="https://www.rgu.ac/faculty-sailendra" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/suresh.jpg"
                                     alt="Profile image">
                             </div>
@@ -254,6 +243,18 @@
                             <h3 class="card-name">Mr. Jintu Mahanta</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-jintu-mahanta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Sharmista-Pradhan-RSCOM.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Sharmista Pradhan</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-sharmista-pradhan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

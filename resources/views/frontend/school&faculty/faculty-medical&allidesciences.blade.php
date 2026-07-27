@@ -1862,6 +1862,34 @@
                 </div>
                 <!-- regular faculty  -->
 
+                <!-- Physiotherapy  -->
+                <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
+                    <h2 class="text-center justify-content-center fw-bold"
+                        style="color: #fff; padding: 10px; font-size: 30px;">
+                        Department of Dialysis Therapy Technology</h2>
+                </div>
+                <div class="container">
+
+                    <!-- regular faculty  -->
+                    <div class="row justify-content-center">
+
+                        <!-- Professor / Dean -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="/mobile-assets/updated-faculty-img/Ms. Kynjailin.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Ms. Kynjailin Syiemlieh</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- regular faculty  -->
+
+                </div>
+
 
 
             </div>
