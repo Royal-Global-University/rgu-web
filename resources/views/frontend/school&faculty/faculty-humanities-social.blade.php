@@ -376,18 +376,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
-                                    alt="Profile image Mr. Mukesh Kalita">
-                            </div>
-                            <h3 class="card-name">Mr. Mukesh Kalita</h3>
-                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs</p>
-                            <a href="/faculty-mukesh-kalita" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Bishnu-Gurung.png"
                                     alt="Profile image of Dr. Bishnu Gurung">
                             </div>
@@ -430,6 +418,18 @@
                             <h3 class="card-name">Dr. Premmi Wahengbam</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-premmi" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
+                                    alt="Profile image Mr. Mukesh Kalita">
+                            </div>
+                            <h3 class="card-name">Mr. Mukesh Kalita</h3>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs</p>
+                            <a href="/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

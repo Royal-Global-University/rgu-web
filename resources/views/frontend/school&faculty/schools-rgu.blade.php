@@ -1202,7 +1202,7 @@
             },
 
             {
-                title: "Royal School of Humanities (RSHSS)",
+                title: "Royal School of Humanities & Social Sciences (RSHSS)",
                 image: "/mobile-assets/school-rgu/humanities.jpeg",
                 deptMainLink: "/royal-s-school-of-humanities",
                 facultyLink: "/faculty-humanities-social",
