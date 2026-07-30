@@ -117,10 +117,10 @@
                         <div class="int-card">
 
                             <div class="int-card-slider">
-                                <img src="/new-web/assets/img/index/international-news/news1/pic1.jpg" class="active">
-                                <img src="/new-web/assets/img/index/international-news/news1/pic2.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news1/pic3.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news1/pic4.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic1.jpg" class="active">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic2.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic3.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic4.jpg">
                             </div>
 
                             <div class="int-card-content">
@@ -140,24 +140,24 @@
                         <div class="int-card">
 
                             <div class="int-card-slider">
-                                <img src="/new-web/assets/img/index/international-news/news2/1.jpg" class="active">
-                                <img src="/new-web/assets/img/index/international-news/news2/2.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/3.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/4.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/5.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/6.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/7.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/8.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/9.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/10.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/11.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/12.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/13.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/14.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/15.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/16.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/17.jpg">
-                                <img src="/new-web/assets/img/index/international-news/news2/18.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/1.jpg" class="active">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/2.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/3.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/4.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/5.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/6.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/7.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/8.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/9.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/10.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/11.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/12.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/13.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/14.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/15.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/16.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/17.jpg">
+                                <img src="/new-web/new-web/assets/img/index/international-news/news2/18.jpg">
                             </div>
 
                             <div class="int-card-content">
@@ -185,7 +185,7 @@
                     <!-- <div class="int-slide">
 
                                                 <div class="int-card">
-                                                    <img src="assets/img/index/international-news/news3/1.jpg">
+                                                    <img src="new-web/assets/img/index/international-news/news3/1.jpg">
                                                     <div class="int-card-content">
                                                         <h4>UK Collaboration</h4>
                                                         <p>International research tie-up</p>
@@ -194,7 +194,7 @@
                                                 </div>
 
                                                 <div class="int-card">
-                                                    <img src="assets/img/index/international-news/news4/1.jpg">
+                                                    <img src="new-web/assets/img/index/international-news/news4/1.jpg">
                                                     <div class="int-card-content">
                                                         <h4>Global Conference</h4>
                                                         <p>Student participation abroad</p>
@@ -216,33 +216,33 @@
             <div class="int-marquee">
                 <div class="int-marquee-track">
 
-                    <img src="/new-web/assets/img/index/international-news/association-logos/1.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/2.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/3.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/4.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/5.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/6.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/7.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/8.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/9.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/10.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/11.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/12.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/1.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/2.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/3.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/4.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/5.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/6.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/7.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/8.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/9.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/10.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/11.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/12.jpg">
 
 
                     <!-- duplicate -->
-                    <img src="/new-web/assets/img/index/international-news/association-logos/1.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/2.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/3.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/4.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/5.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/6.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/7.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/8.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/9.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/10.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/11.jpg">
-                    <img src="/new-web/assets/img/index/international-news/association-logos/12.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/1.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/2.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/3.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/4.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/5.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/6.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/7.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/8.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/9.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/10.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/11.jpg">
+                    <img src="/new-web/new-web/assets/img/index/international-news/association-logos/12.jpg">
 
                 </div>
             </div> --}}
@@ -305,6 +305,359 @@
             <div class="rgu-eboard-dots" id="eboardDots"></div>
         </div>
     </section>
+
+    <section class="dksh-section">
+
+    <!-- IMAGE TITLE -->
+    <div class="dksh-title-wrap">
+        <img src="new-web/assets/img/diksharambh/heading2.png" alt="Diksharambh" class="dksh-title-image">
+    </div>
+
+
+    <!-- MARQUEE -->
+    <div class="dksh-marquee">
+
+        <div class="dksh-track">
+
+            <!-- =========================
+                 ORIGINAL IMAGE SET
+            ========================== -->
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/1.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/2.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/3.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/4.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/5.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/6.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/7.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/8.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/9.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/10.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/11.jpg" alt="Diksharambh">
+            </div>
+
+
+            <!-- =========================
+                 DUPLICATE SET
+                 Required for seamless loop
+            ========================== -->
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/1.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/2.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/3.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/4.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/5.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/6.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/7.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/8.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/9.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/10.jpg" alt="Diksharambh">
+            </div>
+
+            <div class="dksh-card">
+                <img src="new-web/assets/img/diksharambh/guests/11.jpg" alt="Diksharambh">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<style>
+    /* =========================================
+   MAIN SECTION
+========================================= */
+
+    .dksh-section {
+        width: 100%;
+        background: url(new-web/assets/img/diksharambh/bg.png);
+        background-size: cover;
+        padding: 65px 0 80px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+
+    /* =========================================
+   TITLE IMAGE
+========================================= */
+
+    .dksh-title-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 20px;
+        margin-bottom: 45px;
+
+        box-sizing: border-box;
+    }
+
+    .dksh-title-image {
+        display: block;
+
+        /* Change this to control title size */
+        width: min(500px, 75vw);
+
+        height: auto;
+        max-width: 100%;
+
+        object-fit: contain;
+    }
+
+
+    /* =========================================
+   MARQUEE
+========================================= */
+
+    .dksh-marquee {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    /* Moving Track */
+
+    .dksh-track {
+        display: flex;
+        align-items: stretch;
+
+        gap: 24px;
+
+        width: max-content;
+
+        animation: dksh-marquee-animation 35s linear infinite;
+
+        will-change: transform;
+    }
+
+
+    /* =========================================
+   9:16 IMAGE CARDS
+========================================= */
+
+    .dksh-card {
+        position: relative;
+
+        width: clamp(220px, 17vw, 310px);
+
+        /* 9:16 Portrait Ratio */
+        aspect-ratio: 9 / 16;
+
+        flex: 0 0 auto;
+
+        overflow: hidden;
+
+        border-radius: 24px;
+
+        background: #eeeeee;
+    }
+
+
+    /* Image */
+
+    .dksh-card img {
+        width: 100%;
+        height: 100%;
+
+        display: block;
+
+        object-fit: cover;
+
+        transition: transform 0.6s ease;
+    }
+
+
+    /* =========================================
+   SUBTLE BOTTOM GRADIENT
+========================================= */
+
+    .dksh-card::after {
+        content: "";
+
+        position: absolute;
+        inset: 0;
+
+        background: linear-gradient(to bottom,
+                transparent 55%,
+                rgba(7, 22, 48, 0.08) 72%,
+                rgba(7, 22, 48, 0.32) 100%);
+
+        pointer-events: none;
+    }
+
+
+    /* =========================================
+   IMAGE HOVER
+========================================= */
+
+    .dksh-card:hover img {
+        transform: scale(1.04);
+    }
+
+
+    /* Pause animation when mouse is over marquee */
+
+    .dksh-marquee:hover .dksh-track {
+        animation-play-state: paused;
+    }
+
+
+    /* =========================================
+   INFINITE MARQUEE ANIMATION
+========================================= */
+
+    @keyframes dksh-marquee-animation {
+
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(calc(-50% - 12px));
+        }
+
+    }
+
+
+    /* =========================================
+   TABLET
+========================================= */
+
+    @media (max-width: 991px) {
+
+        .dksh-section {
+            padding: 55px 0 65px;
+        }
+
+        .dksh-title-wrap {
+            margin-bottom: 35px;
+        }
+
+        .dksh-title-image {
+            width: min(420px, 70vw);
+        }
+
+        .dksh-track {
+            gap: 18px;
+            animation-duration: 30s;
+        }
+
+        .dksh-card {
+            width: 230px;
+            border-radius: 20px;
+        }
+
+    }
+
+
+    /* =========================================
+   MOBILE
+========================================= */
+
+    @media (max-width: 576px) {
+
+        .dksh-section {
+            padding: 40px 0 50px;
+        }
+
+        .dksh-title-wrap {
+            padding: 0 20px;
+            margin-bottom: 30px;
+        }
+
+        .dksh-title-image {
+            width: min(320px, 75vw);
+        }
+
+        .dksh-track {
+            gap: 14px;
+            animation-duration: 25s;
+        }
+
+        .dksh-card {
+            width: 180px;
+            border-radius: 17px;
+        }
+
+    }
+
+
+    /* =========================================
+   ACCESSIBILITY
+========================================= */
+
+    @media (prefers-reduced-motion: reduce) {
+
+        .dksh-track {
+            animation-play-state: paused;
+        }
+
+    }
+</style>
 
     <section class="rgu-next-events">
 
@@ -556,7 +909,7 @@
             <!-- TOP 2 IMAGES -->
             <div class="rgu-research-top">
                 <div class="rgu-research-img">
-                    <img src="/new-web/assets/img/index/research/new-research-facts.svg" alt="">
+                    <img src="/new-web/new-web/assets/img/index/research/new-research-facts.svg" alt="">
                 </div>
                 <div class="rgu-research-img">
                     <img src="mobile-assets/research-development-new/ecosystem/center.png" alt="">

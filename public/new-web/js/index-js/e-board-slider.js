@@ -3,24 +3,11 @@
 const eboardData = [
 
     {
-        img: "/mobile-assets/ads/july/deeksha.jpeg",
-        alt: "Event 1",
-    },
-    {
-        img: "/mobile-assets/ads/july/deeksha-1.jpeg",
-        alt: "Event 1",
-    },
-    {
         img: "/mobile-assets/ads/8-july/Frame 5.png",
         alt: "Event 1",
     },
     {
         img: "/mobile-assets/ads/8-july/Frame 6.png",
-        alt: "Event 1",
-    },
-
-    {
-        img: "/mobile-assets/ads/summer/Summer School Program Brochure_01.jpeg",
         alt: "Event 1",
     },
     {
