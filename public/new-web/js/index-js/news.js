@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, July 29, 2026",
+            title: "Royal Global University Welcomes New Students with Deeksharambh 2026",
+            desc: "The Assam Royal Global University (RGU) today commenced Deeksharambh 2026, its annual Student Induction Programme for newly admitted undergraduate students. The comprehensive 19-day induction programme, designed to familiarise students with the University's academic environment, values, and opportunities, will continue from July 29 to August 16, 2026.",
+            img: "/mobile-assets/media-corner/2026/july/d/2.JPG",
+            link: "/royal-global-university-welcomes-new-students-with-deeksharambh-2026",
+        },
+        {
             date: "Guwahati, July 21, 2026",
             title: "RGU Prof. Appointed Chair Prof. of Srimanta Sankardev Chair at Panjab University",
             desc: "Dr. Pradip Jyoti Mahanta, distinguished academic and senior Professor of English at The Assam Royal Global University (RGU), has been appointed Chair Professor of the prestigious Srimanta Sankardev Chair at Panjab University, Chandigarh.",

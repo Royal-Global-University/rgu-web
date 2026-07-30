@@ -3277,6 +3277,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-welcomes-new-students-with-deeksharambh-2026', function () {
+    return view('frontend/media-corner/2026/july/news4');
+})->name('royal-global-university-welcomes-new-students-with-deeksharambh-2026');
+
+Route::get('/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university', function () {
+    return view('frontend/media-corner/2026/july/news3');
+})->name('rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university');
+
 Route::get('/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university', function () {
     return view('frontend/media-corner/2026/july/news3');
 })->name('rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university');

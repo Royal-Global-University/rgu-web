@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Royal Global University Welcomes New Students with Deeksharambh 2026',
+                            'summary' =>
+                                'RGU Commences 19-Day Student Induction Programme, Deeksharambh 2026',
+                            'date' => 'Guwahati, July 29, 2026:',
+                            'link' => '/royal-global-university-welcomes-new-students-with-deeksharambh-2026',
+                            'image' => '/mobile-assets/media-corner/2026/july/d/2.JPG',
+                            'content' => 'The Assam Royal Global University (RGU) today commenced Deeksharambh 2026, its annual Student Induction Programme for newly admitted undergraduate students...',
+                        ],
+                        [
+                            'title' =>
                                 'RGU Prof. Appointed Chair Prof. of Srimanta Sankardev Chair at Panjab University',
                             'summary' =>
                                 '',
