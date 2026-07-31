@@ -5133,6 +5133,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-maitrayee-patar', function () {
+    return view('frontend/facultyprofile/rshss/maitrayee-patar');
+})->name('faculty-maitrayee-patar');
+
 Route::get('/faculty-rugmini-devi', function () {
     return view('frontend/facultyprofile/rshss/rugmini-devi');
 })->name('faculty-rugmini-devi');

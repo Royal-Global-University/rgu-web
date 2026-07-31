@@ -844,7 +844,7 @@
                             <p class="card-designation">
                                 Assistant Professor
                             </p>
-                            {{-- <a href="/faculty-lalzikpuii-rajkhowa" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-maitrayee-patar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
