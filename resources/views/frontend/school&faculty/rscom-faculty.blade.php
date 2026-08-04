@@ -249,6 +249,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Progyan.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Progyan Sarma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Sharmista-Pradhan-RSCOM.png"
                                     alt="Profile image">
                             </div>
