@@ -4617,6 +4617,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 // RSAPS Faculty Profile
 
+Route::get('/faculty-nirmal-kumar-singha', function () {
+    return view('frontend/facultyprofile/rsaps/nirmal-kumar-singha');
+})->name('faculty-nirmal-kumar-singha');
+
 Route::get('/faculty-debojeet-sahu', function () {
     return view('frontend/facultyprofile/rsaps/debojeet-sahu');
 })->name('faculty-debojeet-sahu');
@@ -4822,6 +4826,14 @@ Route::get('/faculty-ankit-bordoloi', function () {
 })->name('faculty-ankit-bordoloi');
 
 //RSEES Faculty Profile
+
+Route::get('/faculty-syed-salimuddin', function () {
+    return view('frontend/facultyprofile/rsees/syed-salimuddin');
+})->name('faculty-syed-salimuddin');
+
+Route::get('/faculty-kh-salainganba-meitei', function () {
+    return view('frontend/facultyprofile/rsees/kh-salainganba-meitei');
+})->name('faculty-kh-salainganba-meitei');
 
 Route::get('/faculty-ayushi-bhatnagar', function () {
     return view('frontend/facultyprofile/rsees/ayushi-bhatnagar');

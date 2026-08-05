@@ -185,7 +185,7 @@
                             </div>
                             <h3 class="card-name">Dr. Kh Salainganba Meitei</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/facultyarghadeep-bose" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-kh-salainganba-meitei" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -209,7 +209,7 @@
                             </div>
                             <h3 class="card-name">Dr. Md Syed Salimuddin</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-hibjur-rahaman" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-syed-salimuddin" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

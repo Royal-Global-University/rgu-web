@@ -284,7 +284,7 @@
                             </div>
                             <h3 class="card-name">Dr. Nirmal Kumar Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-nirmal-kumar-singha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
