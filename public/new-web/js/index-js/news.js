@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 4, 2026",
+            title: "Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’",
+            desc: "The Royal School of Fashion Design and Technology (RSFT) at The Assam Royal Global University (RGU) on Tuesday launched the second edition of its annual lookbook, Threads of Tomorrow–2026, showcasing the creative work of its graduating batch. The University also inaugurated a new fashion studio, The Design Atelier, during the programme.",
+            img: "/mobile-assets/media-corner/2026/aug/f3.jpeg",
+            link: "/royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026",
+        },
+        {
             date: "Guwahati, July 29, 2026",
             title: "Royal Global University Welcomes New Students with Deeksharambh 2026",
             desc: "The Assam Royal Global University (RGU) today commenced Deeksharambh 2026, its annual Student Induction Programme for newly admitted undergraduate students. The comprehensive 19-day induction programme, designed to familiarise students with the University's academic environment, values, and opportunities, will continue from July 29 to August 16, 2026.",

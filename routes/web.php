@@ -3277,6 +3277,18 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026', function () {
+    return view('frontend/media-corner/2026/aug/news2');
+})->name('royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026');
+
+Route::get('/robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims', function () {
+    return view('frontend/media-corner/2026/aug/news1');
+})->name('robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims');
+
+Route::get('/robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims', function () {
+    return view('frontend/media-corner/2026/aug/news1');
+})->name('robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims');
+
 Route::get('/royal-global-university-welcomes-new-students-with-deeksharambh-2026', function () {
     return view('frontend/media-corner/2026/july/news4');
 })->name('royal-global-university-welcomes-new-students-with-deeksharambh-2026');

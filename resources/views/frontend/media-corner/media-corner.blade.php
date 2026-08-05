@@ -47,6 +47,26 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 4, 2026:',
+                            'link' => '/royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026',
+                            'image' => '/mobile-assets/media-corner/2026/aug/f3.jpeg',
+                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) at The Assam Royal Global University (RGU) on Tuesday launched the second edition of its annual lookbook, Threads of Tomorrow–2026, showcasing the creative work of its graduating batch. The University also inaugurated a new fashion studio, The Design Atelier, during the programme...',
+                        ],
+                        [
+                            'title' =>
+                                'Robo Dog draws Nation-wide Attention with ‘Assam Needs You’ for Flood Victims',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 3, 2026:',
+                            'link' => '/robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims',
+                            'image' => '/mobile-assets/media-corner/2026/aug-1.jpeg',
+                            'content' => 'Spectators at the ACA Stadium, Barsapara, witnessed a meaningful moment during yesterday’s Imperial Blue Packaged Drinking Water Assam Premier League match between Guwahati Royals and Jorhat Stallions...',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Welcomes New Students with Deeksharambh 2026',
                             'summary' =>
                                 'RGU Commences 19-Day Student Induction Programme, Deeksharambh 2026',
