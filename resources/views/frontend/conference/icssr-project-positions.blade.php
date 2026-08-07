@@ -1,4 +1,4 @@
-@extends('frontend.master')
+{{-- @extends('frontend.master')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
@@ -367,4 +367,4 @@
 
         document.addEventListener("DOMContentLoaded", rguRpCardEffect);
     </script>
-@endsection
+@endsection --}}
