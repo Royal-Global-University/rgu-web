@@ -3277,6 +3277,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice', function () {
+    return view('frontend/media-corner/2026/aug/news3');
+})->name('singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice');
+
 Route::get('/royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026', function () {
     return view('frontend/media-corner/2026/aug/news2');
 })->name('royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026');

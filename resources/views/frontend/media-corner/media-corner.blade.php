@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Singer & Media Professional Mayukh Hazarika Joins Royal Global University as Professor of Practice’',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 10, 2026:',
+                            'link' => '/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice',
+                            'image' => '/mobile-assets/media-corner/Mayukh.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) has appointed veteran media professional and acclaimed Assamese musician Shri Mayukh Hazarika as Professor of Practice at the Royal School of Communication and Media. Shri Hazarika brings nearly three decades of distinguished experience in national media, television, creative communications and event management...',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’',
                             'summary' =>
                                 '',
