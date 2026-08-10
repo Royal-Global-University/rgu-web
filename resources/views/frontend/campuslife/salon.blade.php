@@ -1,13 +1,14 @@
 @extends('frontend/new-master')
 @section('title', 'Salon : The Assam Royal Global University')
-@section('meta_description', 'Look and feel your best with the salon services at Royal Global University — from haircuts
+@section('meta_description',
+    'Look and feel your best with the salon services at Royal Global University — from haircuts
     to skincare, all available right on campus.')
 @section('meta_keywords', 'Salon')
 @section('content')
     <style>
         /* ===========================
-    SALON PAGE
-    =========================== */
+        SALON PAGE
+        =========================== */
 
         .salon-section {
             background: #eef3fc;
@@ -195,7 +196,7 @@
                         attention using premium products and the latest techniques.
                     </p>
 
-                    <a href="https://www.rgu.ac/mobile-assets/salon/salon.pdf" class="salon-btn">
+                    <a href="/mobile-assets/salon/salon.pdf" class="salon-btn">
                         <i class="fa fa-question"></i>
                         Know More
                     </a>

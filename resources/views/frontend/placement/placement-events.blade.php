@@ -1,10 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-
-        <style>
+    <style>
         /*==================================
-RCCR EVENTS
-==================================*/
+    RCCR EVENTS
+    ==================================*/
 
         .rccr-events-section {
 
@@ -132,8 +131,8 @@ RCCR EVENTS
 
     <style>
         /*==================================
-JOB FAIR
-==================================*/
+    JOB FAIR
+    ==================================*/
 
         .job-fair-section {
 
@@ -244,8 +243,8 @@ JOB FAIR
 
     <style>
         /*==================================
-HR CONCLAVE
-==================================*/
+    HR CONCLAVE
+    ==================================*/
 
         .hr-conclave-section {
 
@@ -363,8 +362,8 @@ HR CONCLAVE
 
     <style>
         /*==================================
-RECRUITMENT EVENTS
-==================================*/
+    RECRUITMENT EVENTS
+    ==================================*/
 
         .recruitment-events-section {
 
@@ -481,8 +480,8 @@ RECRUITMENT EVENTS
     </style>
 
     <section class="pg-hero">
-        <div class="pg-hero-bg"
-            style="background-image:url('new-web/assets/img/introduction/cover.png'); filter: blur(2px);"></div>
+        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/introduction/cover.png'); filter: blur(2px);">
+        </div>
 
         <div class="pg-hero-bg"></div>
         <div class="pg-hero-overlay"></div>
@@ -498,8 +497,8 @@ RECRUITMENT EVENTS
 
 
     <!--====================================
-        RCCR EVENTS
-        =====================================-->
+            RCCR EVENTS
+            =====================================-->
 
     <section class="rccr-events-section">
 
@@ -544,11 +543,9 @@ RECRUITMENT EVENTS
 
                 <div class="col-lg-6 mb-4">
 
-                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
-                        class="rccr-gallery-item">
+                    <a href="/mobile-assets/placement-all/placements-activity/l-img.png" class="rccr-gallery-item">
 
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
-                            alt="">
+                        <img src="/mobile-assets/placement-all/placements-activity/l-img.png" alt="">
 
                     </a>
 
@@ -556,11 +553,9 @@ RECRUITMENT EVENTS
 
                 <div class="col-lg-6 mb-4">
 
-                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
-                        class="rccr-gallery-item">
+                    <a href="/mobile-assets/placement-all/placements-activity/r-img.png" class="rccr-gallery-item">
 
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
-                            alt="">
+                        <img src="/mobile-assets/placement-all/placements-activity/r-img.png" alt="">
 
                     </a>
 
@@ -600,8 +595,8 @@ RECRUITMENT EVENTS
     </section>
 
     <!--====================================
-        JOB FAIR
-        =====================================-->
+            JOB FAIR
+            =====================================-->
 
     <section class="job-fair-section">
 
@@ -671,8 +666,8 @@ RECRUITMENT EVENTS
     </section>
 
     <!--====================================
-        HR CONCLAVE
-        =====================================-->
+            HR CONCLAVE
+            =====================================-->
 
     <section class="hr-conclave-section">
 
@@ -748,8 +743,8 @@ RECRUITMENT EVENTS
     </section>
 
     <!--====================================
-        RECRUITMENT EVENTS
-        =====================================-->
+            RECRUITMENT EVENTS
+            =====================================-->
 
     <section class="recruitment-events-section">
 

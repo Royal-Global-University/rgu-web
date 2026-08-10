@@ -1360,75 +1360,75 @@
         </div>
 
         <!-- <div class="dept-geology-prospects-section" id="dept-prospects">
-          <h2 class="dept-geology-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-geology-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-geology-prospects-content">
-            <p class="dept-geology-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-geology-prospects-content">
+                <p class="dept-geology-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-geology-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-geology-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-geology-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Government Sector Jobs</h3>
-            <ol class="dept-geology-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Government Sector Jobs</h3>
+                <ol class="dept-geology-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Private Sector Careers</h3>
-            <ol class="dept-geology-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Private Sector Careers</h3>
+                <ol class="dept-geology-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Research & Teaching</h3>
-            <ol class="dept-geology-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Research & Teaching</h3>
+                <ol class="dept-geology-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-geology-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-geology-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Jobs Abroad</h3>
-            <ol class="dept-geology-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Jobs Abroad</h3>
+                <ol class="dept-geology-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-geology-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-geology-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-geology-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-geology-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-geology-accordion-section" id="dept-syllabus">
             <h2 class="dept-geology-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1447,7 +1447,7 @@
                     <div class="dept-geology-accordion-content">
                         <div class="dept-geology-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_UG_Geology.pdf"
+                                href="/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_UG_Geology.pdf"
                                 class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1456,7 +1456,7 @@
                                 <i class="fa-solid fa-download dept-geology-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/B.Sc_Geology_Syllabus.pdf"
+                                href="/mobile-assets/department-all/rsses/geology/updated-syllabus/B.Sc_Geology_Syllabus.pdf"
                                 class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1481,7 +1481,7 @@
                     <div class="dept-geology-accordion-content">
                         <div class="dept-geology-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_PG_Geology.pdf"
+                                href="/mobile-assets/department-all/rsses/geology/updated-syllabus/Course_structure_PG_Geology.pdf"
                                 class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1489,8 +1489,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-geology-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSEES/M.Sc%20Geology%20Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSEES/M.Sc%20Geology%20Syllabus.pdf"
                                 class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1516,7 +1515,7 @@
 
                     <div class="dept-geology-accordion-content">
                         <div class="dept-geology-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-geology-syllabus-link" download>
+                            <a href="/phd" class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1541,8 +1540,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-geology-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-geology-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1550,11 +1549,11 @@
 
         <!-- <div class="dept-geology-event-gallery-section">
 
-          <h2 class="dept-geology-section-title">Event <span>Highlights</span></h2>
+              <h2 class="dept-geology-section-title">Event <span>Highlights</span></h2>
 
-          <div id="event-gallery-container"></div>
+              <div id="event-gallery-container"></div>
 
-        </div> -->
+            </div> -->
 
         <div class="dept-geology-table-section" id="dept-committee">
 
@@ -1639,17 +1638,17 @@
                 <h2 class="dept-geology-section-title">Our Lab Equipments</h2>
 
                 <div class="dept-geology-lab-gallery">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/1.jpg" alt="Lab 1"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/1.jpg" alt="Lab 1"
                         class="dept-geology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/2.jpg" alt="Lab 2"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/2.jpg" alt="Lab 2"
                         class="dept-geology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/3.jpg" alt="Lab 3"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/3.jpg" alt="Lab 3"
                         class="dept-geology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/4.jpg" alt="Lab 4"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/4.jpg" alt="Lab 4"
                         class="dept-geology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/5.jpg" alt="Lab 5"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/5.jpg" alt="Lab 5"
                         class="dept-geology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/new-lab-geology/6.jpg" alt="Lab 6"
+                    <img src="/mobile-assets/laboratories/new-lab-geology/6.jpg" alt="Lab 6"
                         class="dept-geology-lab-img">
                 </div>
 
@@ -1668,12 +1667,12 @@
         const coursesData = [{
                 title: "M.Sc. - Geology",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Geology"
+                link: "/programs-MSc-Geology"
             },
             {
                 title: "B.sc. - Geology | Honours / Honours with Research",
                 duration: "4 Years",
-                link: "https://www.rgu.ac/programs-b-sc-geology"
+                link: "/programs-b-sc-geology"
             }
         ];
 
@@ -1877,10 +1876,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1947,21 +1946,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

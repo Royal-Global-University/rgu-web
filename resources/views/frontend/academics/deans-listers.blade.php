@@ -1,14 +1,15 @@
 @extends('frontend/new-master')
 @section('title', ' Deans Lister : The Assam Royal Global University')
-@section('meta_description', 'Dean List is a List of Honour, which will comprise of only final year students who have
+@section('meta_description',
+    'Dean List is a List of Honour, which will comprise of only final year students who have
     shown academic excellence and discipline.')
 @section('meta_keywords', ' Deans Lister')
 @section('content')
 
     <style>
         /* ==========================
-       TEACHING PRACTICE SECTION
-    ========================== */
+           TEACHING PRACTICE SECTION
+        ========================== */
 
         .teaching-practice-section {
             padding: 80px 0 40px;
@@ -57,8 +58,8 @@
         }
 
         /* ==========================
-       FULL WIDTH BLUE SECTION
-    ========================== */
+           FULL WIDTH BLUE SECTION
+        ========================== */
 
         .teaching-practice-learning-wrap {
             width: 100%;
@@ -134,8 +135,8 @@
         }
 
         /* ==========================
-       RESPONSIVE
-    ========================== */
+           RESPONSIVE
+        ========================== */
 
         @media (max-width: 1199px) {
 
@@ -201,8 +202,8 @@
 
     <style>
         /* ===============================
-    DEAN'S LISTER GALLERY
-    =================================*/
+        DEAN'S LISTER GALLERY
+        =================================*/
 
         .dl-gallery-section {
             padding: 90px 0;
@@ -501,24 +502,20 @@
 
             <div class="dl-gallery-grid">
 
-                <a href="https://www.rgu.ac/mobile-assets/admission-dean-lister/1dean-list2022-23.jpg"
-                    class="dl-gallery-item">
-                    <img src="https://www.rgu.ac/mobile-assets/admission-dean-lister/1dean-list2022-23.jpg" alt="">
+                <a href="/mobile-assets/admission-dean-lister/1dean-list2022-23.jpg" class="dl-gallery-item">
+                    <img src="/mobile-assets/admission-dean-lister/1dean-list2022-23.jpg" alt="">
                 </a>
 
-                <a href="https://www.rgu.ac/mobile-assets/admission-dean-lister/3dean-list2020-21.jpg"
-                    class="dl-gallery-item">
-                    <img src="https://www.rgu.ac/mobile-assets/admission-dean-lister/3dean-list2020-21.jpg" alt="">
+                <a href="/mobile-assets/admission-dean-lister/3dean-list2020-21.jpg" class="dl-gallery-item">
+                    <img src="/mobile-assets/admission-dean-lister/3dean-list2020-21.jpg" alt="">
                 </a>
 
-                <a href="https://www.rgu.ac/mobile-assets/admission-dean-lister/3dean-list2021-22.jpg"
-                    class="dl-gallery-item">
-                    <img src="https://www.rgu.ac/mobile-assets/admission-dean-lister/3dean-list2021-22.jpg" alt="">
+                <a href="/mobile-assets/admission-dean-lister/3dean-list2021-22.jpg" class="dl-gallery-item">
+                    <img src="/mobile-assets/admission-dean-lister/3dean-list2021-22.jpg" alt="">
                 </a>
 
-                <a href="https://www.rgu.ac/mobile-assets/admission-dean-lister/4dean-list2019-20.jpg"
-                    class="dl-gallery-item">
-                    <img src="https://www.rgu.ac/mobile-assets/admission-dean-lister/4dean-list2019-20.jpg" alt="">
+                <a href="/mobile-assets/admission-dean-lister/4dean-list2019-20.jpg" class="dl-gallery-item">
+                    <img src="/mobile-assets/admission-dean-lister/4dean-list2019-20.jpg" alt="">
                 </a>
 
             </div>
@@ -533,7 +530,7 @@
     </div>
 
     <!-- Floating Download Button -->
-    <a href="https://www.rgu.ac/mobile-assets/admission-dean-lister/dean-list-policy.pdf" class="dl-download-btn" download>
+    <a href="/mobile-assets/admission-dean-lister/dean-list-policy.pdf" class="dl-download-btn" download>
         <i class="fa fa-download"></i>
         Download Dean's List Policy
     </a>

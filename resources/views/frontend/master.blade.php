@@ -1525,7 +1525,7 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Shodh
                                                         Chakra</p>
                                                 </a>
-                                                <a target="_blank" href="https://www.rgu.ac/jobs-vacancies">
+                                                <a target="_blank" href="/jobs-vacancies">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs
                                                         Vacancies</p>
                                                 </a>

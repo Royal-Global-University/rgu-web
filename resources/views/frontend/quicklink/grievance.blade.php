@@ -1,9 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
+    <style>
         /*==========================================================
-        SGRC INTRO
-==========================================================*/
+            SGRC INTRO
+    ==========================================================*/
 
         .rgsgrc-intro {
 
@@ -149,8 +149,8 @@
 
     <style>
         /*==========================================================
-        SGRC BLUE SECTION
-==========================================================*/
+            SGRC BLUE SECTION
+    ==========================================================*/
 
         .rgsgrc-info {
 
@@ -243,8 +243,8 @@
         }
 
         /*=====================
-Timeline
-======================*/
+    Timeline
+    ======================*/
 
         .rgsgrc-timeline {
 
@@ -323,8 +323,8 @@ Timeline
         }
 
         /*=====================
-Button
-======================*/
+    Button
+    ======================*/
 
         .rgsgrc-btn {
 
@@ -367,8 +367,8 @@ Button
         }
 
         /*=====================
-Responsive
-======================*/
+    Responsive
+    ======================*/
 
         @media(max-width:991px) {
 
@@ -453,8 +453,8 @@ Responsive
 
     <style>
         /*==========================================================
-        ICC TABLE
-==========================================================*/
+            ICC TABLE
+    ==========================================================*/
 
         .rgsgrc-table-section {
 
@@ -668,8 +668,8 @@ Responsive
 
     <style>
         /*==========================================================
-        CONTACT CTA
-==========================================================*/
+            CONTACT CTA
+    ==========================================================*/
 
         .rgsgrc-contact {
 
@@ -887,7 +887,7 @@ Responsive
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
         </div>
@@ -914,7 +914,8 @@ Responsive
 
                     <div class="rgsgrc-image">
 
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/stu-head.png" alt="SGRC">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/stu-head.png"
+                            alt="SGRC">
 
                     </div>
 
@@ -1061,7 +1062,7 @@ Responsive
 
                 <h2>To File A Grievance</h2>
 
-                <a href="https://www.rgu.ac/grievance#" class="rgsgrc-btn">
+                <a href="/grievance#" class="rgsgrc-btn">
                     Register Complaints
                 </a>
 
@@ -1265,7 +1266,7 @@ Responsive
 
                     </div>
 
-                    
+
 
                 </div>
 

@@ -1,11 +1,10 @@
 @extends('frontend/new-master')
 @section('title', 'Equal oppurtunity Cell : The Assam Royal Global University')
-@section('meta_description', 'Empowering diversity and fostering inclusivity, the Equal Opportunity Cell at Royal Global University is dedicated to ensuring fair treatment and access for all.')
+@section('meta_description', 'Empowering diversity and fostering inclusivity, the Equal Opportunity Cell at Royal Global
+    University is dedicated to ensuring fair treatment and access for all.')
 @section('meta_keywords', 'Equal oppurtunity Cell')
 @section('content')
-        <style>
-
-
+    <style>
         .rgeoc-section {
 
             padding: 90px 0;
@@ -83,8 +82,8 @@
         }
 
         /*====================================
-Cards
-====================================*/
+    Cards
+    ====================================*/
 
         .rgeoc-card {
 
@@ -147,8 +146,8 @@ Cards
         }
 
         /*====================================
-Image
-====================================*/
+    Image
+    ====================================*/
 
         .rgeoc-image {
 
@@ -179,8 +178,8 @@ Image
         }
 
         /*====================================
-Content
-====================================*/
+    Content
+    ====================================*/
 
         .rgeoc-content h3 {
 
@@ -241,8 +240,8 @@ Content
         }
 
         /*====================================
-Responsive
-====================================*/
+    Responsive
+    ====================================*/
 
         @media(max-width:991px) {
 
@@ -349,7 +348,7 @@ Responsive
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
         </div>
@@ -391,7 +390,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/1.png" alt="">
+                            <img src="/mobile-assets/equal-opportunity/1.png" alt="">
 
                         </div>
 
@@ -425,7 +424,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/2.png" alt="">
+                            <img src="/mobile-assets/equal-opportunity/2.png" alt="">
 
                         </div>
 
@@ -460,7 +459,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/3.jpeg" alt="">
+                            <img src="/mobile-assets/equal-opportunity/3.jpeg" alt="">
 
                         </div>
 
@@ -496,7 +495,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/4.jpeg" alt="">
+                            <img src="/mobile-assets/equal-opportunity/4.jpeg" alt="">
 
                         </div>
 
@@ -531,7 +530,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/5.png" alt="">
+                            <img src="/mobile-assets/equal-opportunity/5.png" alt="">
 
                         </div>
 
@@ -567,7 +566,7 @@ Responsive
 
                         <div class="rgeoc-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/equal-opportunity/6.png" alt="">
+                            <img src="/mobile-assets/equal-opportunity/6.png" alt="">
 
                         </div>
 

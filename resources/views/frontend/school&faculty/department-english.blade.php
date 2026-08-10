@@ -1164,9 +1164,9 @@
         </a>
 
         <!-- <a href="#dept-vision" class="dept-english-float-item">
-          <i class="fa fa-bullseye"></i>
-          <span class="dept-english-float-text">Vision & Mission</span>
-        </a> -->
+              <i class="fa fa-bullseye"></i>
+              <span class="dept-english-float-text">Vision & Mission</span>
+            </a> -->
 
         <a href="#dept-courses" class="dept-english-float-item">
             <i class="fa fa-graduation-cap"></i>
@@ -1174,9 +1174,9 @@
         </a>
 
         <!-- <a href="#dept-prospects" class="dept-english-float-item">
-          <i class="fa fa-file-text"></i>
-          <span class="dept-english-float-text">Prospects</span>
-        </a> -->
+              <i class="fa fa-file-text"></i>
+              <span class="dept-english-float-text">Prospects</span>
+            </a> -->
 
         <a href="#dept-syllabus" class="dept-english-float-item">
             <i class="fa fa-file-text"></i>
@@ -1189,9 +1189,9 @@
         </a>
 
         <!-- <a href="#dept-lab" class="dept-english-float-item">
-                <i class="fa fa-flask"></i>
-                <span class="dept-english-float-text">Lab</span>
-            </a> -->
+                    <i class="fa fa-flask"></i>
+                    <span class="dept-english-float-text">Lab</span>
+                </a> -->
 
     </div>
 
@@ -1209,8 +1209,7 @@
         <div class="dept-english-hero" id="dept-about">
 
             <div class="dept-english-img">
-                <img src="/mobile-assets/rsl.png"
-                    alt="Political Science and Public Administration">
+                <img src="/mobile-assets/rsl.png" alt="Political Science and Public Administration">
             </div>
 
             <div class="dept-english-content">
@@ -1299,75 +1298,75 @@
         </div>
 
         <!-- <div class="dept-english-prospects-section" id="dept-prospects">
-          <h2 class="dept-english-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-english-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-english-prospects-content">
-            <p class="dept-english-intro-text">
-              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-english-prospects-content">
+                <p class="dept-english-intro-text">
+                  The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-english-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-english-list">
-              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-english-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-english-list">
+                  <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Government Sector Jobs</h3>
-            <ol class="dept-english-list">
-              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-english-subheading">Government Sector Jobs</h3>
+                <ol class="dept-english-list">
+                  <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Private Sector Careers</h3>
-            <ol class="dept-english-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-english-subheading">Private Sector Careers</h3>
+                <ol class="dept-english-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Research & Teaching</h3>
-            <ol class="dept-english-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-english-subheading">Research & Teaching</h3>
+                <ol class="dept-english-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-english-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-english-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-english-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Jobs Abroad</h3>
-            <ol class="dept-english-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-english-subheading">Jobs Abroad</h3>
+                <ol class="dept-english-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-english-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-english-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-english-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-english-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-english-accordion-section" id="dept-syllabus">
             <h2 class="dept-english-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1388,7 +1387,7 @@
                         <div class="dept-english-syllabus-list">
 
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
+                                href="/mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1396,8 +1395,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-english-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1425,7 +1423,7 @@
                         <div class="dept-english-syllabus-list">
 
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
+                                href="/mobile-assets/department-all/rsl/updated-syllabus/PG-Course-structure.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1433,8 +1431,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-english-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSL/PG_%20English_Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSL/PG_%20English_Syllabus.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1459,7 +1456,7 @@
 
                     <div class="dept-english-accordion-content">
                         <div class="dept-english-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-english-syllabus-link" download>
+                            <a href="/phd" class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1482,8 +1479,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-                    <a href="#" class="dept-english-events-btn">View All</a>
-                </div> -->
+                        <a href="#" class="dept-english-events-btn">View All</a>
+                    </div> -->
 
         </div>
 
@@ -1715,12 +1712,12 @@
         const coursesData = [{
                 title: "MA English",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MA-English"
+                link: "/programs-MA-English"
             },
             {
                 title: "BA English | Honours / Honours with Research",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-MA-English"
+                link: "/programs-MA-English"
             }
         ];
 
@@ -1961,10 +1958,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -2031,21 +2028,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

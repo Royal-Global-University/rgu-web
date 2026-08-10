@@ -1,4 +1,3 @@
-
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
@@ -12,7 +11,7 @@
 
     </div>
 
-        <style>
+    <style>
         /* ================= CSS VARIABLES & RESETS ================= */
         :root {
             --primary: #2c4a7a;
@@ -1097,7 +1096,7 @@
         }
     </style>
 
-        <div class="dept-maths-floating">
+    <div class="dept-maths-floating">
         <a href="#dept-home" class="dept-maths-float-item">
             <i class="fa fa-home"></i>
             <span class="dept-maths-float-text">Home</span>
@@ -1109,9 +1108,9 @@
         </a>
 
         <!-- <a href="#dept-vision" class="dept-maths-float-item">
-      <i class="fa fa-bullseye"></i>
-      <span class="dept-maths-float-text">Vision & Mission</span>
-    </a> -->
+          <i class="fa fa-bullseye"></i>
+          <span class="dept-maths-float-text">Vision & Mission</span>
+        </a> -->
 
         <a href="#dept-courses" class="dept-maths-float-item">
             <i class="fa fa-graduation-cap"></i>
@@ -1119,9 +1118,9 @@
         </a>
 
         <!-- <a href="#dept-prospects" class="dept-maths-float-item">
-      <i class="fa fa-file-text"></i>
-      <span class="dept-maths-float-text">Prospects</span>
-    </a> -->
+          <i class="fa fa-file-text"></i>
+          <span class="dept-maths-float-text">Prospects</span>
+        </a> -->
 
         <a href="#dept-syllabus" class="dept-maths-float-item">
             <i class="fa fa-file-text"></i>
@@ -1235,75 +1234,75 @@
         </div>
 
         <!-- <div class="dept-maths-prospects-section" id="dept-prospects">
-      <h2 class="dept-maths-section-title">Career <span>Prospects</span></h2>
+          <h2 class="dept-maths-section-title">Career <span>Prospects</span></h2>
 
-      <div class="dept-maths-prospects-content">
-        <p class="dept-maths-intro-text">
-          The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
-          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-          strong foundation in agricultural sciences, preparing them for following careers opportunities:
-        </p>
+          <div class="dept-maths-prospects-content">
+            <p class="dept-maths-intro-text">
+              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-        <h3 class="dept-maths-subheading">Higher Education Opportunities</h3>
-        <ol class="dept-maths-list">
-          <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-          </li>
-          <li>MBA in Agribusiness Management</li>
-          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-            disciplines</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-maths-list">
+              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Government Sector Jobs</h3>
-        <ol class="dept-maths-list">
-          <li>Agricultural Officer / Physics Development Officer (ADO)</li>
-          <li>IBPS AFO (Agricultural Field Officer)</li>
-          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Government Sector Jobs</h3>
+            <ol class="dept-maths-list">
+              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Private Sector Careers</h3>
-        <ol class="dept-maths-list">
-          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-          <li>Food Processing Industries</li>
-          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-          <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
-          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Private Sector Careers</h3>
+            <ol class="dept-maths-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Research & Teaching</h3>
-        <ol class="dept-maths-list">
-          <li>Research Assistant / Scientist – in public and private research institutions</li>
-          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Research & Teaching</h3>
+            <ol class="dept-maths-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Entrepreneurship & Startups</h3>
-        <ol class="dept-maths-list">
-          <li>Organic farming, dairy, poultry, aquaculture</li>
-          <li>Agri-tourism, greenhouse farming, vertical farming</li>
-          <li>Processing units for spices, cereals, or fruits</li>
-          <li>Agri-consultancy or freelance advisory services</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-maths-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Jobs Abroad</h3>
-        <ol class="dept-maths-list">
-          <li>Agricultural research, farm management, and food security projects</li>
-          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Jobs Abroad</h3>
+            <ol class="dept-maths-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
 
-        <h3 class="dept-maths-subheading">Key Skills That Boost Career</h3>
-        <ol class="dept-maths-list">
-          <li>Practical knowledge of farming tools and technologies</li>
-          <li>Communication and management skills (especially in extension or agribusiness)</li>
-          <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
-          <li>Language skills and report writing</li>
-        </ol>
+            <h3 class="dept-maths-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-maths-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+              <li>Language skills and report writing</li>
+            </ol>
 
-      </div>
-    </div> -->
+          </div>
+        </div> -->
 
         <div class="dept-maths-accordion-section" id="dept-syllabus">
             <h2 class="dept-maths-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1321,8 +1320,7 @@
 
                     <div class="dept-maths-accordion-content">
                         <div class="dept-maths-syllabus-list">
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/B.Sc. Maths Detail Syllabus .pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/B.Sc. Maths Detail Syllabus .pdf"
                                 class="dept-maths-syllabus-link">
                                 <div class="dept-maths-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1346,8 +1344,7 @@
 
                     <div class="dept-maths-accordion-content">
                         <div class="dept-maths-syllabus-list">
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/MSc_Maths_Detailed_Syllabus .pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/MSc_Maths_Detailed_Syllabus .pdf"
                                 class="dept-maths-syllabus-link">
                                 <div class="dept-maths-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1371,7 +1368,7 @@
 
                     <div class="dept-maths-accordion-content">
                         <div class="dept-maths-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-maths-syllabus-link" download>
+                            <a href="/phd" class="dept-maths-syllabus-link" download>
                                 <div class="dept-maths-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1410,8 +1407,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-        <a href="#" class="dept-maths-events-btn">View All</a>
-      </div> -->
+            <a href="#" class="dept-maths-events-btn">View All</a>
+          </div> -->
 
         </div>
 
@@ -1426,37 +1423,35 @@
     </div>
 
     <script>
-    // 1. Define the courses array
-    const coursesData = [
-        {
-            title: "M.Sc. - Mathematics",
-            duration: "2 years",
-            link: "https://www.rgu.ac/programs-MSc-Mathematics"
-        },
-        {
-            title: "B.Sc. - Mathematics | Honours / Honours with Research",
-            duration: "4 years as per NEP",
-            link: "https://www.rgu.ac/programs-b-sc-mathematics"
-        }
-    ];
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M.Sc. - Mathematics",
+                duration: "2 years",
+                link: "/programs-MSc-Mathematics"
+            },
+            {
+                title: "B.Sc. - Mathematics | Honours / Honours with Research",
+                duration: "4 years as per NEP",
+                link: "/programs-b-sc-mathematics"
+            }
+        ];
 
-    // 2. Get container
-    const courseContainer = document.getElementById('course-list-container');
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
 
-    // 3. Render courses
-    if (courseContainer) {
+        // 3. Render courses
+        if (courseContainer) {
 
-        // If array is empty → show fallback
-        if (!coursesData || coursesData.length === 0) {
-            courseContainer.innerHTML = `
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
         <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
           No courses available at the moment.
         </p>
       `;
-        }
-        else {
-            // Generate course cards
-            courseContainer.innerHTML = coursesData.map(course => `
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
         <div class="dept-maths-course-card">
 
           <div class="dept-maths-course-header">
@@ -1475,189 +1470,203 @@
 
         </div>
       `).join('');
-        }
-    }
-</script>
-
-<script>
-    // --- ACCORDION LOGIC ---
-    const accordionHeaders = document.querySelectorAll('.dept-maths-accordion-header');
-
-    // Function to calculate and set the exact height for smooth transitions
-    function setAccordionHeights() {
-        const activeItems = document.querySelectorAll('.dept-maths-accordion-item.active');
-        activeItems.forEach(item => {
-            const content = item.querySelector('.dept-maths-accordion-content');
-            content.style.maxHeight = content.scrollHeight + "px";
-        });
-    }
-
-    // Initialize the open item on load
-    setAccordionHeights();
-
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function () {
-            const currentItem = this.parentElement;
-            const currentContent = currentItem.querySelector('.dept-maths-accordion-content');
-
-            // Toggle 'active' class
-            currentItem.classList.toggle('active');
-
-            // If it is now active, set max-height to its scrollHeight (actual content height)
-            if (currentItem.classList.contains('active')) {
-                currentContent.style.maxHeight = currentContent.scrollHeight + "px";
-            } else {
-                // If closed, collapse it back to 0
-                currentContent.style.maxHeight = 0;
             }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-maths-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-maths-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-maths-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-maths-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
         });
-    });
 
-    // Recalculate heights if the window resizes (prevents text clipping on mobile)
-    window.addEventListener('resize', setAccordionHeights);
-</script>
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
 
-<script>
-    // ================= EVENTS DATA =================
-    const eventsData = [
-        "16-03-2026 | Beauty in Mathematics: With Specific Reference... | Prof. (Dr.) Amarjyoti Choudhury",
-        "22-12-2025 | AI as a Research Partner: Tools, Trends, and... | Prof. (Dr.) Manoj Kumar Deka",
-        "23-10-2025 | Differential Transform Methods and its Application... | Dr. Ashish Paul",
-        "18-08-2025 | Cantor Set: A Mysterious Subset of Real Numbers | Dr. Anuradha Jha",
-        "28-03-2025 | Indigenous Development of Strategic Materials... | Prof. (Dr.) Bipin Kumar Gupta",
-        "17-03-2025 | Fault-tolerant Mutual Visibility of Mobile Robots | Prof. (Dr.) Partha Sarathi Mandal",
-        "04-03-2025 | Number Theory and the Science of Secure Communication | Prof. (Dr.) Shanta Laishram",
-        "28-02-2025 | National Science Day 2025 | Prof. (Dr.) Gagan Kumar",
-        "19-02-2025 | Career Opportunities | Mr. Akash Saxena",
-        "23-12-2024 | The Importance of Mathematics in Daily Life | Dr. Azizur Rahman Sheikh",
-        "25-10-2024 | The World of Fractals | Prof. (Dr.) Jiten Chandra Kalita",
-        "29-08-2024 | Birth of Fourier Series | Prof. (Dr.) Bhupen Deka",
-        "25-08-2024 | Fractional Order Derivative | Prof. (Dr.) Mridula Kanoria",
-        "16-08-2024 | Recent Results on Dynamic Contact, Friction... | Prof. (Dr.) Meir Shillor",
-        "02-05-2024 | Multilevel Analysis and its Application... | Prof. (Dr.) Laishram Ladu Singh"
-    ];
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "16-03-2026 | Beauty in Mathematics: With Specific Reference... | Prof. (Dr.) Amarjyoti Choudhury",
+            "22-12-2025 | AI as a Research Partner: Tools, Trends, and... | Prof. (Dr.) Manoj Kumar Deka",
+            "23-10-2025 | Differential Transform Methods and its Application... | Dr. Ashish Paul",
+            "18-08-2025 | Cantor Set: A Mysterious Subset of Real Numbers | Dr. Anuradha Jha",
+            "28-03-2025 | Indigenous Development of Strategic Materials... | Prof. (Dr.) Bipin Kumar Gupta",
+            "17-03-2025 | Fault-tolerant Mutual Visibility of Mobile Robots | Prof. (Dr.) Partha Sarathi Mandal",
+            "04-03-2025 | Number Theory and the Science of Secure Communication | Prof. (Dr.) Shanta Laishram",
+            "28-02-2025 | National Science Day 2025 | Prof. (Dr.) Gagan Kumar",
+            "19-02-2025 | Career Opportunities | Mr. Akash Saxena",
+            "23-12-2024 | The Importance of Mathematics in Daily Life | Dr. Azizur Rahman Sheikh",
+            "25-10-2024 | The World of Fractals | Prof. (Dr.) Jiten Chandra Kalita",
+            "29-08-2024 | Birth of Fourier Series | Prof. (Dr.) Bhupen Deka",
+            "25-08-2024 | Fractional Order Derivative | Prof. (Dr.) Mridula Kanoria",
+            "16-08-2024 | Recent Results on Dynamic Contact, Friction... | Prof. (Dr.) Meir Shillor",
+            "02-05-2024 | Multilevel Analysis and its Application... | Prof. (Dr.) Laishram Ladu Singh"
+        ];
 
-    const eventsTrack = document.getElementById("events-track");
+        const eventsTrack = document.getElementById("events-track");
 
-    if (eventsTrack) {
+        if (eventsTrack) {
 
-        if (!eventsData || eventsData.length === 0) {
-            eventsTrack.innerHTML = `
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
         <p style="text-align:center; padding:20px; color:#556b8d;">
           No events available at the moment.
         </p>
       `;
-        } else {
+            } else {
 
-            const createEventHTML = (text) => `
+                const createEventHTML = (text) => `
         <div class="dept-maths-event-item">
           ${text}
         </div>
       `;
 
-            // Duplicate for seamless infinite scroll
-            const fullContent = [...eventsData, ...eventsData]
-                .map(createEventHTML)
-                .join("");
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
 
-            eventsTrack.innerHTML = fullContent;
-        }
-    }
-</script>
-
-<script>
-    const track = document.getElementById("dpTrack");
-    const slides = document.querySelectorAll(".dp-slide");
-    const prevBtn = document.getElementById("dpPrev");
-    const nextBtn = document.getElementById("dpNext");
-
-    let index = 0;
-    let autoSlide;
-
-    function updateSlide() {
-        track.style.transform = `translateX(-${index * 100}%)`;
-    }
-
-    function nextSlide() {
-        index = (index + 1) % slides.length;
-        updateSlide();
-    }
-
-    function prevSlide() {
-        index = (index - 1 + slides.length) % slides.length;
-        updateSlide();
-    }
-
-    // CLICK EVENTS
-    nextBtn.addEventListener("click", nextSlide);
-    prevBtn.addEventListener("click", prevSlide);
-
-    // CONDITION: SINGLE IMAGE
-    if (slides.length <= 1) {
-        prevBtn.classList.add("hidden");
-        nextBtn.classList.add("hidden");
-    } else {
-        autoSlide = setInterval(nextSlide, 3000);
-    }
-</script>
-
-<script>
-    const tableData = [
-        {
-            title: "The Board of Studies",
-            headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
-            rows: [
-                ["1", "Convener (Ex-Officio) - Head of the Department", "Dr. Bimalendu Kalita, Associate Professor & HOD"],
-
-                ["2", "Member (Ex-officio) - All Faculty Members", "Prof. (Dr.) Aniruddha Chatterjee, Professor & Dean, Royal School Applied & Pure Sciences"],
-                ["", "", "Prof. (Dr.) Anuradha Devi, Professor"],
-                ["", "", "Prof. (Dr.) Dilip Chandra Nath, Professor Emeritus"],
-                ["", "", "Prof. (Dr.) Laishram Ladusingh, Professor Emeritus"],
-                ["", "", "Dr. Bapan Kalita, Associate Professor"],
-                ["", "", "Mr. H. Imo Mani Singha, Assistant Professor"],
-                ["", "", "Dr. Parismita Phukan, Assistant Professor"],
-                ["", "", "Dr. Marbarisha M. Kharkongar, Assistant Professor"],
-                ["", "", "Dr. Bikram Bir, Assistant Professor"],
-                ["", "", "Dr. Kshetrimayum Renubebeta Devi, Assistant Professor"],
-                ["", "", "Dr. Rupak Kumar Dalai, Assistant Professor"],
-                ["", "", "Dr. Neelav Sarma, Assistant Professor"],
-
-                ["3", "External Expert (Academic)", "Prof. (Dr.) Nayandeep Deka Baruah, Professor, Department of Mathematical Sciences, Tezpur University"],
-
-                ["4", "External Expert (Industry)", "Mr. Hamendra Ch. Das, Retd. Group General Manager, Oil India"]
-            ]
-        },
-        {
-            title: "The Departmental Research Committee (DRC)",
-            headers: ["S.No.", "Position", "Name And Designation"],
-            rows: [
-                ["1", "Chairperson (Head of the Department)", "Dr. Bimalendu Kalita, Associate Professor & HoD"],
-
-                ["2", "Departmental Member (Professor)", "Prof. (Dr.) Aniruddha Chatterjee, Professor & Dean, Royal School Applied & Pure Sciences"],
-                ["3", "Departmental Member (Professor)", "Prof. (Dr.) Anuradha Devi, Professor"],
-
-                ["4", "Departmental Member (Associate Professor)", "Dr. Bapan Kalita, Associate Professor"],
-
-                ["5", "Departmental Member (Assistant Professor)", "Dr. Bikram Bir, Assistant Professor"],
-                ["6", "Departmental Member (Assistant Professor)", "Dr. Marbarisha M. Kharkongor, Assistant Professor"],
-
-                ["7", "External Member", "Prof. (Dr.) Bipan Hazarika, Professor, Department of Mathematics, Gauhati University"]
-            ]
-        },
-
-
-    ];
-
-    const container = document.getElementById("table-accordion-container");
-
-    if (container) {
-
-        const createTable = (headers, rows) => {
-            if (!rows || rows.length === 0) {
-                return `<p style="color:#556b8d;">No data available</p>`;
+                eventsTrack.innerHTML = fullContent;
             }
+        }
+    </script>
 
-            return `
+    <script>
+        const track = document.getElementById("dpTrack");
+        const slides = document.querySelectorAll(".dp-slide");
+        const prevBtn = document.getElementById("dpPrev");
+        const nextBtn = document.getElementById("dpNext");
+
+        let index = 0;
+        let autoSlide;
+
+        function updateSlide() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        // CLICK EVENTS
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // CONDITION: SINGLE IMAGE
+        if (slides.length <= 1) {
+            prevBtn.classList.add("hidden");
+            nextBtn.classList.add("hidden");
+        } else {
+            autoSlide = setInterval(nextSlide, 3000);
+        }
+    </script>
+
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+                    ["1", "Convener (Ex-Officio) - Head of the Department",
+                        "Dr. Bimalendu Kalita, Associate Professor & HOD"
+                    ],
+
+                    ["2", "Member (Ex-officio) - All Faculty Members",
+                        "Prof. (Dr.) Aniruddha Chatterjee, Professor & Dean, Royal School Applied & Pure Sciences"
+                    ],
+                    ["", "", "Prof. (Dr.) Anuradha Devi, Professor"],
+                    ["", "", "Prof. (Dr.) Dilip Chandra Nath, Professor Emeritus"],
+                    ["", "", "Prof. (Dr.) Laishram Ladusingh, Professor Emeritus"],
+                    ["", "", "Dr. Bapan Kalita, Associate Professor"],
+                    ["", "", "Mr. H. Imo Mani Singha, Assistant Professor"],
+                    ["", "", "Dr. Parismita Phukan, Assistant Professor"],
+                    ["", "", "Dr. Marbarisha M. Kharkongar, Assistant Professor"],
+                    ["", "", "Dr. Bikram Bir, Assistant Professor"],
+                    ["", "", "Dr. Kshetrimayum Renubebeta Devi, Assistant Professor"],
+                    ["", "", "Dr. Rupak Kumar Dalai, Assistant Professor"],
+                    ["", "", "Dr. Neelav Sarma, Assistant Professor"],
+
+                    ["3", "External Expert (Academic)",
+                        "Prof. (Dr.) Nayandeep Deka Baruah, Professor, Department of Mathematical Sciences, Tezpur University"
+                    ],
+
+                    ["4", "External Expert (Industry)",
+                        "Mr. Hamendra Ch. Das, Retd. Group General Manager, Oil India"
+                    ]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Position", "Name And Designation"],
+                rows: [
+                    ["1", "Chairperson (Head of the Department)",
+                    "Dr. Bimalendu Kalita, Associate Professor & HoD"],
+
+                    ["2", "Departmental Member (Professor)",
+                        "Prof. (Dr.) Aniruddha Chatterjee, Professor & Dean, Royal School Applied & Pure Sciences"
+                    ],
+                    ["3", "Departmental Member (Professor)", "Prof. (Dr.) Anuradha Devi, Professor"],
+
+                    ["4", "Departmental Member (Associate Professor)", "Dr. Bapan Kalita, Associate Professor"],
+
+                    ["5", "Departmental Member (Assistant Professor)", "Dr. Bikram Bir, Assistant Professor"],
+                    ["6", "Departmental Member (Assistant Professor)",
+                        "Dr. Marbarisha M. Kharkongor, Assistant Professor"
+                    ],
+
+                    ["7", "External Member",
+                        "Prof. (Dr.) Bipan Hazarika, Professor, Department of Mathematics, Gauhati University"
+                    ]
+                ]
+            },
+
+
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
         <div class="dept-maths-table-responsive">
           <table class="dept-maths-table">
             <thead>
@@ -1667,21 +1676,21 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                <tr>
-                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                </tr>
-              `).join("")}
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
             </tbody>
           </table>
         </div>
       `;
-        };
+            };
 
-        container.innerHTML = tableData.map(item => {
+            container.innerHTML = tableData.map(item => {
 
-            const isEmpty = !item.rows || item.rows.length === 0;
+                const isEmpty = !item.rows || item.rows.length === 0;
 
-            return `
+                return `
         <div class="dept-maths-table-acc ${isEmpty ? 'disabled' : ''}">
 
           <div class="dept-maths-table-header">
@@ -1695,202 +1704,372 @@
 
         </div>
       `;
-        }).join("");
-    }
+            }).join("");
+        }
 
-    /* ACCORDION (single open at a time) */
-    document.addEventListener("click", function (e) {
-        const header = e.target.closest(".dept-maths-table-header");
-        if (!header) return;
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-maths-table-header");
+            if (!header) return;
 
-        const item = header.parentElement;
-        if (item.classList.contains("disabled")) return;
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
 
-        const allItems = document.querySelectorAll(".dept-maths-table-acc");
+            const allItems = document.querySelectorAll(".dept-maths-table-acc");
 
-        allItems.forEach(acc => {
-            if (acc !== item) {
-                acc.classList.remove("active");
-                const content = acc.querySelector(".dept-maths-table-content");
-                const icon = acc.querySelector("i");
-                if (content) content.style.maxHeight = 0;
-                if (icon) icon.classList.replace("fa-minus", "fa-plus");
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-maths-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-maths-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
             }
         });
+    </script>
 
-        const content = item.querySelector(".dept-maths-table-content");
-        const icon = header.querySelector("i");
+    <script>
+        const journalDataSet = [
 
-        item.classList.toggle("active");
+            /* ===== 2026 ===== */
+            {
+                year: "2026",
+                rows: [
+                    ["1",
+                        "Kshetrimayum R. Devi, Pranab J. Dowari and Yaingambam N. Meitei, “Relative almost uniform convergent sequence of functions and its topological properties”, Boletim da Sociodade Paranaense de Matematica 44(2026), 1-8, https://doi.org/10.5269/bspm.77965."
+                    ],
+                    ["2",
+                        "Munindra Regon, Pranab J. Dowari and Kshetrimayum R. Devi, “Geometric Properties of Relative Uniform Lacunary Convergence of Sequences of Functions”, Boletim da Sociedade Paranaense de Matemática, 44 (2026),1-11.  https://doi.org/10.5269/bspm.7807."
+                    ],
+                    ["3",
+                        "Rupak K. Dalai and Divyang G. Bhimani, Pointwise convergence to initial data of heat and Hermite-heat equations in modulation spaces, Canadian Mathematical Bulletin (Accepted)."
+                    ],
+                    ["4",
+                        "H. Imo Mani Singha, Anuradha Devi, “On Approximate solutions of fractional order smoking epidemic model using Sumudu decomposition method”, South East Asian Journal of Mathematics and Mathematical Sciences (Accepted)."
+                    ],
+                    ["5",
+                        "Dharmendra Kumar Dubey, Pramod Kumar Mishra, Nath,| Dilip C (2026): Trends and Prevalence of Low Birth Weight in India: What Does data suggest?  Journal of Biostatistics and Epidemiology DOI: https://doi.org/10.18502/jbe.v10i2.17638."
+                    ]
+                ]
+            },
 
-        if (item.classList.contains("active")) {
-            content.style.maxHeight = content.scrollHeight + "px";
-            icon.classList.replace("fa-plus", "fa-minus");
-        } else {
-            content.style.maxHeight = 0;
-            icon.classList.replace("fa-minus", "fa-plus");
-        }
-    });
-</script>
+            /* ===== 2025 ===== */
+            {
+                year: "2025",
+                rows: [
+                    ["1",
+                        "Bikram Bir and Deepjyoti Goswami, “Numerical analysis of a grad-div stabilization for the Oldroyd model of order one”, Journal of Applied Analysis & Computation, 15(3), 1330–1373, ISSN: 2156-907X, 2025."
+                    ],
+                    ["2",
+                        "Bikram Bir, Harsha Hutridurga and Amiya K.  Pani, “On a completely discrete discontinuous Galerkin method for incompressible chemotaxis-Navier-Stokes Equations”, Journal of Scientific Computing, 105:34, 2025."
+                    ],
+                    ["3",
+                        "Tusar Kanti Das, Ashish Paul, Jintu Mani Nath, and Neelav Sarma, “The Yamada-Ota model-based Casson quadra hybrid nanofluid stagnation flow configured by ohmic heating, heat source, and Newtonian boundary heating across an exponentially stretched cylinder”, Partial Differential Equations in Applied Mathematics (Elsevier), 14, 101159, ISSN: 2666-8181, 2025."
+                    ],
+                    ["4",
+                        "Bhagyashri Patgiri, Ashis Paul and Neelav Sarma, “Computational simulation of Casson tetrahybrid nanofluid flow across a stretched spinning disk with nonlinear chemical interactions and varying fluid properties”, International Journal of Computational Materials Science and Engineering, (2025), DOI:10.1142/S2047684125500241."
+                    ],
+                    ["5",
+                        "Neelav Sarma and Rimjhim Parasar, Comparative numerical study of graphene-copper Boger hybrid nanofluid flow and without aggregation under robin type thermal constraints”, Journal of Taibah University for Science, 19(1)(2025), https://doi.org/10.1080/16583655.2025.2569762."
+                    ],
+                    ["6",
+                        "Neelav Sarma, Ashish Paul and Bhagyashri Patgiri, “Numerical analysis of Maxwell hybrid nanofluid flow implementing modified Fourier-Fick’s model through an unsteady vertical cylinder with Brwonian motion and thermophoresis”, Journal of the Brazilian Society of Mechanical Sciences and Engineering, 47(491)(2025), https://doi.org/10.1007/s40430-025-05722-"
+                    ],
+                    ["7",
+                        "Kshetrimayum R. Devi and Binod C. Tripathy, “Cesàro summable relative uniform difference double sequence of positive linear functions”, Palestine Journal of Mathematics, 14(2), 12–20, 2025."
+                    ],
+                    ["8",
+                        "Rishi Raj, Sachin Pathak, Marbarisha M. Kharkongor, and Dipendu Maity, “A study of Galois LCD codes over a family of non-chain rings”, National Academy Science Letters. https://doi.org/10.1007/s40009-025-01641-2, 2025."
+                    ],
+                    ["9",
+                        "Marbarisha M. Kharkongor, Debashis Bhowmik and Dipendu Maity, “Dihedral and cyclic covers of a class of maps on surfaces”, Proceedings of the National Academy of Sciences, India, Section A: Physical Sciences. https://doi.org/10.1007/s40010-025-00923-0, 2025."
+                    ],
+                    ["10",
+                        "Balajied M. Syrti and Anuradha Devi, “Optimising plant epidemic control: A mathematical model integrating susceptible and infectives plants, and hervibores with pesticides intervention”, Commun. Math. Biol. Neurosci., 109(2025),  https://doi.org/10.28919/cmbn/9476."
+                    ],
+                    ["11",
+                        "Mustak Euchuf, Ankur J. Kashyap and Anuradha Devi, “A Leslie-Gower model for prey harvesting with predator cooperation and fear responses”, Bol. Soc. Paran. Mat., 43(2)(2025), 1-17, https://doi.org/10.5269/bspm.78991"
+                    ]
+                ]
+            },
 
-<script>
-    const journalDataSet = [
+            /* ===== 2024 ===== */
+            {
+                year: "2024",
+                rows: [
+                    ["1",
+                        "Bimalendu Kalita and Sinam Rajkishore Singha, “Fuzzy weak n-inner product space”, South East Asian Journal of Mathematics and Mathematical Sciences, ISSN: 0972-7752, 2024."
+                    ],
+                    ["2",
+                        "Sinam Rajkishore Singha and Bimalendu Kalita, “Fuzzy n-inner product spaces”, Bulletin of Calcutta Mathematical Society, 116(6), 703–718, 2024. ISSN: 0008-0659."
+                    ],
+                    ["3",
+                        "Neelav Sarma, Bhagyashri Patgiri, and Ashish Paul, “Insights using Hamilton-Crosser model in Williamson hybrid nanofluids with homogeneous-heterogeneous reactions and diagonal electromagnetic effects”, Proceedings of the Institution of Mechanical Engineers, Part N: Journal of Nanomaterials, Nanoengineering and Nanosystems, 23977914241304066, ISSN: 2397-7914, 2024."
+                    ],
+                    ["4",
+                        "Sinam Rajkishore Singha and Bimalendu Kalita, “Some inequalities in fuzzy 2-inner product space”, Global Journal of Pure and Applied Mathematics, 20(3), 401–414, 2024. ISSN: 0973-1768."
+                    ],
+                    ["5",
+                        "B. Kalita and A. Devi, “Impact of stagnant water in the transmission of Japanese encephalitis: A mathematical model”, Journal of Innovation Sciences and Sustainable Technologies, 4(4), 267–281, 2024. https://doie.org/10.0205/JIIST.2025395730"
+                    ],
+                    ["6",
+                        "Bipanchy Buzarbarua, Parismita Phukan, Mridusmita Das, and Bikash Barman, “An encryption algorithm employing graphs”, Journal of Mechanics of Continua and Mathematical Sciences, 19(9), 11–17, September 2024. ISSN: 0973-8975."
+                    ],
+                    ["7",
+                        "Hiren Deka and Parismita Phukan, “Numerical study of convective flow of Casson fluid through an infinite vertical plate with induced magnetic field”, East European Journal of Physics, 3, 188–194, 2024. https://doi.org/10.26565/2312-4334-2024-3-18"
+                    ],
+                    ["8",
+                        "R.K. Ahmed and K. Debnath, “Mathematical study of pseudoplastic nature of flow and heat transport for pummelo juice over a stretching surface by power-law fluid model”, Mathematical Forum, 32, 17–30, 2024. ISSN: 0972-9852."
+                    ],
+                    ["9",
+                        "Balajied Me Syrti, Anuradha Devi, Stability and control of a plant epidemic model with pesticide intervention, International Journal of Advanced and Applied Sciences, 11(2) 2024, Pages: 82-93. https://doi.org/10.21833/ijaas.2024.02.011"
+                    ],
+                    ["10",
+                        "Balajied Me Syrti, Anuradha Devi, Aditya Ghhosh, A Mathematical Analysis of Plant-Pesticide Interaction: Existence, Uniqueness, and Optimal Control, Global Journal of Pure and Applied Mathematics.ISSN 0973-1768 Volume 20, Number 2 (2024), pp. 291-303."
+                    ],
+                    ["11",
+                        "Kamal Debnath,”Analyzing slip factor impact on flow, heat transfer and mass transport for Newtonian fluid along a vertical plate”, Fundamental Frontiers: Exploring Core Sciences, (2024), ISBN: 978-93-91883-59-1."
+                    ]
+                ]
+            },
 
-        /* ===== 2026 ===== */
-        {
-            year: "2026",
-            rows: [
-                ["1", "Kshetrimayum R. Devi, Pranab J. Dowari and Yaingambam N. Meitei, “Relative almost uniform convergent sequence of functions and its topological properties”, Boletim da Sociodade Paranaense de Matematica 44(2026), 1-8, https://doi.org/10.5269/bspm.77965."],
-                ["2", "Munindra Regon, Pranab J. Dowari and Kshetrimayum R. Devi, “Geometric Properties of Relative Uniform Lacunary Convergence of Sequences of Functions”, Boletim da Sociedade Paranaense de Matemática, 44 (2026),1-11.  https://doi.org/10.5269/bspm.7807."],
-                ["3", "Rupak K. Dalai and Divyang G. Bhimani, Pointwise convergence to initial data of heat and Hermite-heat equations in modulation spaces, Canadian Mathematical Bulletin (Accepted)."],
-                ["4", "H. Imo Mani Singha, Anuradha Devi, “On Approximate solutions of fractional order smoking epidemic model using Sumudu decomposition method”, South East Asian Journal of Mathematics and Mathematical Sciences (Accepted)."],
-                ["5", "Dharmendra Kumar Dubey, Pramod Kumar Mishra, Nath,| Dilip C (2026): Trends and Prevalence of Low Birth Weight in India: What Does data suggest?  Journal of Biostatistics and Epidemiology DOI: https://doi.org/10.18502/jbe.v10i2.17638."]
-            ]
-        },
+            /* ===== 2023 ===== */
+            {
+                year: "2023",
+                rows: [
+                    ["1",
+                        "Bimalendu Kalita, “Pertubation of semi-weakly hyponormal weighted shifts”, The Mathematics Student, 92(1-2)(2023), 41-52."
+                    ],
+                    ["2",
+                        "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastico-viscous fluid with partial slip boundary over a flat permeable plate”, Latin American Applied Research, 53(2), ISSN: 1851-8796, 2023."
+                    ],
+                    ["3",
+                        "Ankur Jyoti Kashyap, Arnab Jyoti Bordoloi, Fanitsha Mohan, and Anuradha Devi, “Dynamical analysis of an anthrax disease model in animals with nonlinear transmission rate”, Mathematical Modelling and Control, 3(4), 370–386, December 2023."
+                    ],
+                    ["4",
+                        "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Intuitionistic fuzzy aspects of multiplication N-groups”, South East Asian Journal of Mathematics and Mathematical Sciences, 19(2), 273–284, 2023."
+                    ],
+                    ["5",
+                        "Balajied Me Syrti, Anuradha Devi, and Ankur Jyoti Kashyap, “Analysis of stability, sensitivity index and Hopf bifurcation of eco-epidemiological SIR model under pesticide application”, [Journal Name Missing], 6(2), 136–144, 2023."
+                    ],
+                    ["6",
+                        "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Distributive character of multiplication N-groups”, International Journal of Mathematics Trends and Technology, 69(6), 59–66, June 2023."
+                    ],
+                    ["7",
+                        "Bikash Koli Saha and Kamal Debnath, “Reactive solute diffusion in elastico-viscous fluid past a flat permeable plate”, High Technology Letters, 29(7), 2023."
+                    ],
+                    ["8",
+                        "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastic-viscous fluid with partial slip boundary over a flat permeable plate”, Latin American Applied Research, 53(2), 89–94, 2023."
+                    ],
+                    ["9",
+                        "Nimai Sarkar, Mausumi Sen, Dipankar Saha, and Bipan Hazarika, “A qualitative study on fractional logistic integrodifferential equations in an arbitrary time scale”, Kragujevac Journal of Mathematics, 50(3), 403–414, 2023."
+                    ],
+                    ["10",
+                        "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Uniserial and bezout character of distributive groups”, Bull. Cal. Math. Soc., 115(6)(2023), 717-730."
+                    ],
+                    ["11",
+                        "Ankur J. Kashyap, Fengde Chen, Fanitsha Mohan, Anuradha Devi and Hemanta K. Sarmah, “Combined effects of antipredator behaviors and cooperative hunting in a stage-structured predator-prey control”, Mathematical Modelling and Control, 5(4)(2024)."
+                    ],
+                    ["12",
+                        "Verma B K, Verma M, Mondal M,  Duby Darmendra K, Nath, Dilip C. Verma, Vivek: (2023) Alarming Trend in Under-Five Indian Children’s Exposure to Indoor Tobacco Smoke. Cureus 15(4): e37571. DOI 10.7759/cureus.37571 (14 April, 2023)."
+                    ],
+                    ["13",
+                        "Verma V., Nath Dilip C., Dwivedi S. N. (2023): Bayesian estimation of fertility rates under imperfect age reporting. Statistics in Transition new series, March 2023 Vol. 24, No. 2, pp. 39–57, DOI 10.59170."
+                    ],
+                    ["14",
+                        "Vivek Verma, Dilip C. Nath and Hafiz T. A. Khan. (2023). Evaluation of concordance in estimation of excess mortality due to COVID‐19 pandemic. Journal of Evaluation in Clinical Practice 29(1). DOI: 10.1111/jep.1386."
+                    ]
+                ]
+            },
 
-        /* ===== 2025 ===== */
-        {
-            year: "2025",
-            rows: [
-                ["1", "Bikram Bir and Deepjyoti Goswami, “Numerical analysis of a grad-div stabilization for the Oldroyd model of order one”, Journal of Applied Analysis & Computation, 15(3), 1330–1373, ISSN: 2156-907X, 2025."],
-                ["2", "Bikram Bir, Harsha Hutridurga and Amiya K.  Pani, “On a completely discrete discontinuous Galerkin method for incompressible chemotaxis-Navier-Stokes Equations”, Journal of Scientific Computing, 105:34, 2025."],
-                ["3", "Tusar Kanti Das, Ashish Paul, Jintu Mani Nath, and Neelav Sarma, “The Yamada-Ota model-based Casson quadra hybrid nanofluid stagnation flow configured by ohmic heating, heat source, and Newtonian boundary heating across an exponentially stretched cylinder”, Partial Differential Equations in Applied Mathematics (Elsevier), 14, 101159, ISSN: 2666-8181, 2025."],
-                ["4", "Bhagyashri Patgiri, Ashis Paul and Neelav Sarma, “Computational simulation of Casson tetrahybrid nanofluid flow across a stretched spinning disk with nonlinear chemical interactions and varying fluid properties”, International Journal of Computational Materials Science and Engineering, (2025), DOI:10.1142/S2047684125500241."],
-                ["5", "Neelav Sarma and Rimjhim Parasar, Comparative numerical study of graphene-copper Boger hybrid nanofluid flow and without aggregation under robin type thermal constraints”, Journal of Taibah University for Science, 19(1)(2025), https://doi.org/10.1080/16583655.2025.2569762."],
-                ["6", "Neelav Sarma, Ashish Paul and Bhagyashri Patgiri, “Numerical analysis of Maxwell hybrid nanofluid flow implementing modified Fourier-Fick’s model through an unsteady vertical cylinder with Brwonian motion and thermophoresis”, Journal of the Brazilian Society of Mechanical Sciences and Engineering, 47(491)(2025), https://doi.org/10.1007/s40430-025-05722-"],
-                ["7", "Kshetrimayum R. Devi and Binod C. Tripathy, “Cesàro summable relative uniform difference double sequence of positive linear functions”, Palestine Journal of Mathematics, 14(2), 12–20, 2025."],
-                ["8", "Rishi Raj, Sachin Pathak, Marbarisha M. Kharkongor, and Dipendu Maity, “A study of Galois LCD codes over a family of non-chain rings”, National Academy Science Letters. https://doi.org/10.1007/s40009-025-01641-2, 2025."],
-                ["9", "Marbarisha M. Kharkongor, Debashis Bhowmik and Dipendu Maity, “Dihedral and cyclic covers of a class of maps on surfaces”, Proceedings of the National Academy of Sciences, India, Section A: Physical Sciences. https://doi.org/10.1007/s40010-025-00923-0, 2025."],
-                ["10", "Balajied M. Syrti and Anuradha Devi, “Optimising plant epidemic control: A mathematical model integrating susceptible and infectives plants, and hervibores with pesticides intervention”, Commun. Math. Biol. Neurosci., 109(2025),  https://doi.org/10.28919/cmbn/9476."],
-                ["11", "Mustak Euchuf, Ankur J. Kashyap and Anuradha Devi, “A Leslie-Gower model for prey harvesting with predator cooperation and fear responses”, Bol. Soc. Paran. Mat., 43(2)(2025), 1-17, https://doi.org/10.5269/bspm.78991"]
-            ]
-        },
+            /* ===== 2022 ===== */
+            {
+                year: "2022",
+                rows: [
+                    ["1",
+                        "Bimalendu Kalita, “On semi m-hyponormal weighted shift operators”, Bulletin of Calcutta Mathematical Society, accepted for publication, 2022."
+                    ],
+                    ["2",
+                        "Bipul Ch. Kalita and Bapan Kalita, “Comprehensive analysis on effectiveness of inventory management practices on the performance of wholesale drug dealers”, Journal of Positive School Psychology, 6(6), ISSN: 2717-7564, 2022."
+                    ],
+                    ["3",
+                        "Bimalendu Kalita, “Perturbation of semi weakly m-hyponormal weighted shifts”, The Mathematics Student, accepted for publication, 2022 (published 2023), Scopus indexed, Impact Factor: 0.10."
+                    ],
+                    ["4",
+                        "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastico-viscous fluid with partial slip boundary over a flat permeable plate”, Latin America Applied Research, ISSN: 0327-0793 (Print); 1851-8796 (Online)."
+                    ],
+                    ["5",
+                        "Ankur Jyoti Kashyap, Willy Govaerts, Debashish Bhattacharjee, and Hemanta Kumar Sarmah, “Bifurcation analysis of a predator prey system with density dependent disease recovery”, Filomat, 36(20), ISSN: 2406-0933, 2022."
+                    ],
+                    ["6",
+                        "Ankur Jyoti Kashyap, Quanxin Zhu, Debashish Bhattacharjee, and Hemanta Kumar Sarmah, “Dynamical study of a predator prey system incorporating hunting cooperation and Michaelis-Menten type predator-harvesting”, International Journal of Biomathematics, World Scientific, ISSN: 1793-715, 2022."
+                    ],
+                    ["7",
+                        "Bapan Kalita, Abdul Barik Sarker, and Sankar Barman, “Decision making with simplex model: A case study”, Journal of Applied and Fundamental Sciences, 8(2), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."
+                    ],
+                    ["8",
+                        "Bapan Kalita, “Public revolution: A mathematical modelling”, Journal of Applied and Fundamental Sciences, 8(1), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."
+                    ],
+                    ["9",
+                        "Mitali Das Roy, Sankar Barman, and Bapan Kalita, “Effectiveness of surface texturing and optical width in minimizing the optical loss of a solar cell: A simulated study”, Journal of Applied and Fundamental Sciences, 8(1), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."
+                    ],
+                    ["10",
+                        "Sankar Barman and Bapan Kalita, “Energy, environment and cost benefit analysis of semi-transparent PV window – A review”, Journal of Applied and Fundamental Sciences, 8(2), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."
+                    ],
+                    ["11",
+                        "Balajied Me Syrti and Anuradha Devi, “An eco-epidemic model with disease in plant populations and pesticides as control measure”, IOSR Journal of Mathematics, 18(3), ISSN: 2319-765X (Print); 2278-5728 (Online), 2022."
+                    ],
+                    ["12",
+                        "Prataykshi Sarma and Bapan Kalita, “Prediction of housing prices of real estate business through machine learning”, IJTMSS, 1(1), 58–76, 2022."
+                    ],
+                    ["13",
+                        "Smitakhee Handique and Bapan Kalita, “A case study on application of transportation problem”, IJTMSS, 1(1), 77–95, 2022."
+                    ],
+                    ["14",
+                        "Karismita Medhi and Bapan Kalita, “Category detection of cancer patients and role of machine learning as an astrologer”, IJTMSS, 1(1), 96–113, 2022."
+                    ],
+                    ["15",
+                        "Mwchahary,  Dimacha and  Nath, Dilip C. 2022. Determining the Association between Climatic Variables and Malaria Incidence in Kokrajhar District of Assam, India. In book: Research Developments in Arts and Social Studies Vol. 5. Pp: 90-106 June (2022) DOI:10.9734/bpi/rdass/v5/2216F."
+                    ]
+                ]
+            },
 
-        /* ===== 2024 ===== */
-        {
-            year: "2024",
-            rows: [
-                ["1", "Bimalendu Kalita and Sinam Rajkishore Singha, “Fuzzy weak n-inner product space”, South East Asian Journal of Mathematics and Mathematical Sciences, ISSN: 0972-7752, 2024."],
-                ["2", "Sinam Rajkishore Singha and Bimalendu Kalita, “Fuzzy n-inner product spaces”, Bulletin of Calcutta Mathematical Society, 116(6), 703–718, 2024. ISSN: 0008-0659."],
-                ["3", "Neelav Sarma, Bhagyashri Patgiri, and Ashish Paul, “Insights using Hamilton-Crosser model in Williamson hybrid nanofluids with homogeneous-heterogeneous reactions and diagonal electromagnetic effects”, Proceedings of the Institution of Mechanical Engineers, Part N: Journal of Nanomaterials, Nanoengineering and Nanosystems, 23977914241304066, ISSN: 2397-7914, 2024."],
-                ["4", "Sinam Rajkishore Singha and Bimalendu Kalita, “Some inequalities in fuzzy 2-inner product space”, Global Journal of Pure and Applied Mathematics, 20(3), 401–414, 2024. ISSN: 0973-1768."],
-                ["5", "B. Kalita and A. Devi, “Impact of stagnant water in the transmission of Japanese encephalitis: A mathematical model”, Journal of Innovation Sciences and Sustainable Technologies, 4(4), 267–281, 2024. https://doie.org/10.0205/JIIST.2025395730"],
-                ["6", "Bipanchy Buzarbarua, Parismita Phukan, Mridusmita Das, and Bikash Barman, “An encryption algorithm employing graphs”, Journal of Mechanics of Continua and Mathematical Sciences, 19(9), 11–17, September 2024. ISSN: 0973-8975."],
-                ["7", "Hiren Deka and Parismita Phukan, “Numerical study of convective flow of Casson fluid through an infinite vertical plate with induced magnetic field”, East European Journal of Physics, 3, 188–194, 2024. https://doi.org/10.26565/2312-4334-2024-3-18"],
-                ["8", "R.K. Ahmed and K. Debnath, “Mathematical study of pseudoplastic nature of flow and heat transport for pummelo juice over a stretching surface by power-law fluid model”, Mathematical Forum, 32, 17–30, 2024. ISSN: 0972-9852."],
-                ["9", "Balajied Me Syrti, Anuradha Devi, Stability and control of a plant epidemic model with pesticide intervention, International Journal of Advanced and Applied Sciences, 11(2) 2024, Pages: 82-93. https://doi.org/10.21833/ijaas.2024.02.011"],
-                ["10", "Balajied Me Syrti, Anuradha Devi, Aditya Ghhosh, A Mathematical Analysis of Plant-Pesticide Interaction: Existence, Uniqueness, and Optimal Control, Global Journal of Pure and Applied Mathematics.ISSN 0973-1768 Volume 20, Number 2 (2024), pp. 291-303."],
-                ["11", "Kamal Debnath,”Analyzing slip factor impact on flow, heat transfer and mass transport for Newtonian fluid along a vertical plate”, Fundamental Frontiers: Exploring Core Sciences, (2024), ISBN: 978-93-91883-59-1."]
-            ]
-        },
+            /* ===== 2021 ===== */
+            {
+                year: "2021",
+                rows: [
+                    ["1",
+                        "Biplab Singha, Mausumi Sen, Nidul Singha, and Dhiman Dutta, “A new Hesitant Fuzzy Rule Base system for ranking hydro power plant site selection”, New Mathematics and Natural Computation, 2021. https://doi.org/10.1142/S1793005722500223"
+                    ],
+                    ["2",
+                        "Aditya Ghosh and Anuradha Devi, “Stability of Glucose-Insulin-Glucagon model using ingested glucose and somatostatin”, Journal of Huazhong University of Science and Technology, 50(3), 1–14, 2021."
+                    ],
+                    ["3",
+                        "Anuja Sinha, “Effect of thermal radiation on MHD three-dimensional natural convective Couette flow in presence of thermo diffusion and chemical reaction”, Journal of Mathematical and Computational Science, 6, 7337–7359, ISSN: 1927-5307."
+                    ],
+                    ["4",
+                        "Kamal Debnath, Sankar Singha, and Bimalendu Kalita, “Impact of suction or blowing on elastico-viscous hydromagnetic fluid flow past a stretching permeable sheet”, Advances in Mathematics: Scientific Journal, 10(1), 211–221, ISSN: 1857-8365 (printed); 1857-8438 (electronic)."
+                    ],
+                    ["5",
+                        "Kamal Debnath and Bikash Koli Saha, “Heat and partial slip impact on elastico-viscous fluid flow past a flat permeable plate”, Mathematical Forum, 29, 2021, ISSN: 0972-9852."
+                    ],
+                    ["6",
+                        "Bipul Ch. Kalita, Runumoni L. Das, and Bapan Kalita, “Impact of working capital management on financial health: Evidence from silk industries in Assam, India”, Journal of Education: Rabindra Bharati University, XXIV(12-II), 114–124, 2021–2022, ISSN: 0972-7175."
+                    ]
+                ]
+            },
 
-        /* ===== 2023 ===== */
-        {
-            year: "2023",
-            rows: [
-                ["1", "Bimalendu Kalita, “Pertubation of semi-weakly hyponormal weighted shifts”, The Mathematics Student, 92(1-2)(2023), 41-52."],
-                ["2", "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastico-viscous fluid with partial slip boundary over a flat permeable plate”, Latin American Applied Research, 53(2), ISSN: 1851-8796, 2023."],
-                ["3", "Ankur Jyoti Kashyap, Arnab Jyoti Bordoloi, Fanitsha Mohan, and Anuradha Devi, “Dynamical analysis of an anthrax disease model in animals with nonlinear transmission rate”, Mathematical Modelling and Control, 3(4), 370–386, December 2023."],
-                ["4", "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Intuitionistic fuzzy aspects of multiplication N-groups”, South East Asian Journal of Mathematics and Mathematical Sciences, 19(2), 273–284, 2023."],
-                ["5", "Balajied Me Syrti, Anuradha Devi, and Ankur Jyoti Kashyap, “Analysis of stability, sensitivity index and Hopf bifurcation of eco-epidemiological SIR model under pesticide application”, [Journal Name Missing], 6(2), 136–144, 2023."],
-                ["6", "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Distributive character of multiplication N-groups”, International Journal of Mathematics Trends and Technology, 69(6), 59–66, June 2023."],
-                ["7", "Bikash Koli Saha and Kamal Debnath, “Reactive solute diffusion in elastico-viscous fluid past a flat permeable plate”, High Technology Letters, 29(7), 2023."],
-                ["8", "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastic-viscous fluid with partial slip boundary over a flat permeable plate”, Latin American Applied Research, 53(2), 89–94, 2023."],
-                ["9", "Nimai Sarkar, Mausumi Sen, Dipankar Saha, and Bipan Hazarika, “A qualitative study on fractional logistic integrodifferential equations in an arbitrary time scale”, Kragujevac Journal of Mathematics, 50(3), 403–414, 2023."],
-                ["10", "Md Nazir Hussain, Navalakhi Hazarika, and Anuradha Devi, “Uniserial and bezout character of distributive groups”, Bull. Cal. Math. Soc., 115(6)(2023), 717-730."],
-                ["11", "Ankur J. Kashyap, Fengde Chen, Fanitsha Mohan, Anuradha Devi and Hemanta K. Sarmah, “Combined effects of antipredator behaviors and cooperative hunting in a stage-structured predator-prey control”, Mathematical Modelling and Control, 5(4)(2024)."],
-                ["12", "Verma B K, Verma M, Mondal M,  Duby Darmendra K, Nath, Dilip C. Verma, Vivek: (2023) Alarming Trend in Under-Five Indian Children’s Exposure to Indoor Tobacco Smoke. Cureus 15(4): e37571. DOI 10.7759/cureus.37571 (14 April, 2023)."],
-                ["13", "Verma V., Nath Dilip C., Dwivedi S. N. (2023): Bayesian estimation of fertility rates under imperfect age reporting. Statistics in Transition new series, March 2023 Vol. 24, No. 2, pp. 39–57, DOI 10.59170."],
-                ["14", "Vivek Verma, Dilip C. Nath and Hafiz T. A. Khan. (2023). Evaluation of concordance in estimation of excess mortality due to COVID‐19 pandemic. Journal of Evaluation in Clinical Practice 29(1). DOI: 10.1111/jep.1386."]
-            ]
-        },
+            /* ===== 2020 ===== */
+            {
+                year: "2020",
+                rows: [
+                    ["1",
+                        "Hemanta K. Baruah, \"Real Numbers with Fractional Presence\", Journal of Mathematics and Informatics, 18, 65–69, February 2020. ISSN: 2349-0632."
+                    ],
+                    ["2",
+                        "Hemanta K. Baruah, \"An Alternate Formula for Addition of Discrete Fuzzy Numbers\", International Journal of Fuzzy Mathematical Archive, 18(1), 7–11, March 2020. ISSN: 2320–3242."
+                    ],
+                    ["3",
+                        "Hemanta K. Baruah, \"Theory of Fuzzy Sets: An Introduction of the Concept of Negative Partial Presence\", Annals of Pure and Applied Mathematics, 22, 119–124, May 2020. ISSN: 2279-087X (Print), 2279-0888 (Online)."
+                    ],
+                    ["4",
+                        "Hemanta K. Baruah, \"The COVID-19 Spread Pattern in Italy and India: A Comparison of the Current Situations\", Journal of Mathematics and Informatics, 19, 7–12, July 2020. ISSN: 2349-0632. doi: 10.1101/2020.05.24.20112292."
+                    ],
+                    ["5",
+                        "Hemanta K. Baruah, \"A Simple Method of Finding an Approximate Pattern of the Covid-19 Spread\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, May 2020, 1–8."
+                    ],
+                    ["6",
+                        "Hemanta K. Baruah, \"On Reliability of the COVID-19 Forecasts\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–8. doi: 10.1101/2020.06.01.20118844."
+                    ],
+                    ["7",
+                        "Hemanta K. Baruah, \"The Current COVID-19 Spread Pattern in India\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–5. doi: 10.1101/2020.06.03.20121210."
+                    ],
+                    ["8",
+                        "Hemanta K. Baruah, \"Nearly Perfect Forecasting of the Total COVID-19 Cases in India: A Numerical Approach\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–7. doi: 10.1101/2020.06.13.20130096."
+                    ],
+                    ["9",
+                        "Hemanta K. Baruah, \"The COVID-19 Spread Pattern in Italy and India: A Comparison of the Current Situations\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–6. doi: 10.1101/2020.06.21.20136630."
+                    ],
+                    ["10",
+                        "Munmi Saikia, Atasi Patra Maiti and Anuradha Devi, \"Effect of habitat complexity on rhinoceros and tiger population model with additional food and poaching in Kaziranga National Park, Assam\", Mathematics and Computers in Simulation, 177, 169–190, 2020."
+                    ],
+                    ["11",
+                        "Kamal Debnath, Debasish Dey and Rupjyoti Borah, \"Thermophoresis and diffusion thermo effects on shear thickening and shear thinning cases of fluid motion past a permeable surface\", Journal of Mechanics of Continua and Mathematical Sciences, 15(5), 68–81, May 2020."
+                    ],
+                    ["12",
+                        "Bapan Kalita and Anuradha Devi, \"Japanese Encephalitis from Two Outsources: A Mathematical Modeling\", Journal of Critical Reviews, 7(12), 309–315, 2020."
+                    ],
+                    ["13",
+                        "Bapan Kalita and Anuradha Devi, \"Control Model of Transmission of Japanese Encephalitis through Media Awareness\", International Journal of Advanced Science and Technology, 29(5), 7645–7656, 2020."
+                    ],
+                    ["14",
+                        "Bapan Kalita and Anuradha Devi, \"Mathematical Modelling of Impact of Vaccination in Controlling Japanese Encephalitis\", International Journal on Emerging Technologies, 11(3), 792–796, 2020."
+                    ],
+                    ["15",
+                        "Bimalendu Kalita, \"On Semi Weakly (l,m)-Hyponormal Weighted Shifts\", Advances in Mathematics: Scientific Journal, 9(12), 10797–10805, 2020."
+                    ],
+                    ["16",
+                        "Kamal Debnath and Bikash Koli Saha, \"Solution of Non-Newtonian Boundary Layer Flow in a Convergent Channel using Homotopy Perturbation Method\", Transient: A Journal of Natural Sciences and Allied Subjects, 8, 28, 2020."
+                    ],
+                    ["17",
+                        "Kamal Debnath and Sankar Singha, \"Mixed Convective Slip Flow and Heat Transport for Visco-elastic Fluid Past a Vertical Plate\", Mathematical Forum, 28, 2020."
+                    ]
+                ]
+            },
 
-        /* ===== 2022 ===== */
-        {
-            year: "2022",
-            rows: [
-                ["1", "Bimalendu Kalita, “On semi m-hyponormal weighted shift operators”, Bulletin of Calcutta Mathematical Society, accepted for publication, 2022."],
-                ["2", "Bipul Ch. Kalita and Bapan Kalita, “Comprehensive analysis on effectiveness of inventory management practices on the performance of wholesale drug dealers”, Journal of Positive School Psychology, 6(6), ISSN: 2717-7564, 2022."],
-                ["3", "Bimalendu Kalita, “Perturbation of semi weakly m-hyponormal weighted shifts”, The Mathematics Student, accepted for publication, 2022 (published 2023), Scopus indexed, Impact Factor: 0.10."],
-                ["4", "Kamal Debnath and Sankar Singha, “Heat and mass transport for elastico-viscous fluid with partial slip boundary over a flat permeable plate”, Latin America Applied Research, ISSN: 0327-0793 (Print); 1851-8796 (Online)."],
-                ["5", "Ankur Jyoti Kashyap, Willy Govaerts, Debashish Bhattacharjee, and Hemanta Kumar Sarmah, “Bifurcation analysis of a predator prey system with density dependent disease recovery”, Filomat, 36(20), ISSN: 2406-0933, 2022."],
-                ["6", "Ankur Jyoti Kashyap, Quanxin Zhu, Debashish Bhattacharjee, and Hemanta Kumar Sarmah, “Dynamical study of a predator prey system incorporating hunting cooperation and Michaelis-Menten type predator-harvesting”, International Journal of Biomathematics, World Scientific, ISSN: 1793-715, 2022."],
-                ["7", "Bapan Kalita, Abdul Barik Sarker, and Sankar Barman, “Decision making with simplex model: A case study”, Journal of Applied and Fundamental Sciences, 8(2), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."],
-                ["8", "Bapan Kalita, “Public revolution: A mathematical modelling”, Journal of Applied and Fundamental Sciences, 8(1), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."],
-                ["9", "Mitali Das Roy, Sankar Barman, and Bapan Kalita, “Effectiveness of surface texturing and optical width in minimizing the optical loss of a solar cell: A simulated study”, Journal of Applied and Fundamental Sciences, 8(1), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."],
-                ["10", "Sankar Barman and Bapan Kalita, “Energy, environment and cost benefit analysis of semi-transparent PV window – A review”, Journal of Applied and Fundamental Sciences, 8(2), ISSN: 2395-5554 (Print); 2395-5562 (Online), 2022."],
-                ["11", "Balajied Me Syrti and Anuradha Devi, “An eco-epidemic model with disease in plant populations and pesticides as control measure”, IOSR Journal of Mathematics, 18(3), ISSN: 2319-765X (Print); 2278-5728 (Online), 2022."],
-                ["12", "Prataykshi Sarma and Bapan Kalita, “Prediction of housing prices of real estate business through machine learning”, IJTMSS, 1(1), 58–76, 2022."],
-                ["13", "Smitakhee Handique and Bapan Kalita, “A case study on application of transportation problem”, IJTMSS, 1(1), 77–95, 2022."],
-                ["14", "Karismita Medhi and Bapan Kalita, “Category detection of cancer patients and role of machine learning as an astrologer”, IJTMSS, 1(1), 96–113, 2022."],
-                ["15", "Mwchahary,  Dimacha and  Nath, Dilip C. 2022. Determining the Association between Climatic Variables and Malaria Incidence in Kokrajhar District of Assam, India. In book: Research Developments in Arts and Social Studies Vol. 5. Pp: 90-106 June (2022) DOI:10.9734/bpi/rdass/v5/2216F."]
-            ]
-        },
+            /* ===== 2019 ===== */
+            {
+                year: "2019",
+                rows: [
+                    ["1",
+                        "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Effect of Nonthermal Ions on Dust Acoustic Waves in Magnetized Plasma\", Mathematical Journal of Interdisciplinary Science, 8(1), 69–76, September 2019."
+                    ],
+                    ["2",
+                        "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Sagdeev Potential Approach to Study the Dust Acoustic Waves in Dusty Plasma with Nonthermal Ions\", Infokara Research, 8(7), September 2019."
+                    ],
+                    ["3",
+                        "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Nonperturbative Technique for Dust-ion-acoustic Waves in Dusty Plasma with Nonthermal Electrons\", International Journal of Research and Review, 6(11), 153–161, November 2019."
+                    ]
+                ]
+            },
 
-        /* ===== 2021 ===== */
-        {
-            year: "2021",
-            rows: [
-                ["1", "Biplab Singha, Mausumi Sen, Nidul Singha, and Dhiman Dutta, “A new Hesitant Fuzzy Rule Base system for ranking hydro power plant site selection”, New Mathematics and Natural Computation, 2021. https://doi.org/10.1142/S1793005722500223"],
-                ["2", "Aditya Ghosh and Anuradha Devi, “Stability of Glucose-Insulin-Glucagon model using ingested glucose and somatostatin”, Journal of Huazhong University of Science and Technology, 50(3), 1–14, 2021."],
-                ["3", "Anuja Sinha, “Effect of thermal radiation on MHD three-dimensional natural convective Couette flow in presence of thermo diffusion and chemical reaction”, Journal of Mathematical and Computational Science, 6, 7337–7359, ISSN: 1927-5307."],
-                ["4", "Kamal Debnath, Sankar Singha, and Bimalendu Kalita, “Impact of suction or blowing on elastico-viscous hydromagnetic fluid flow past a stretching permeable sheet”, Advances in Mathematics: Scientific Journal, 10(1), 211–221, ISSN: 1857-8365 (printed); 1857-8438 (electronic)."],
-                ["5", "Kamal Debnath and Bikash Koli Saha, “Heat and partial slip impact on elastico-viscous fluid flow past a flat permeable plate”, Mathematical Forum, 29, 2021, ISSN: 0972-9852."],
-                ["6", "Bipul Ch. Kalita, Runumoni L. Das, and Bapan Kalita, “Impact of working capital management on financial health: Evidence from silk industries in Assam, India”, Journal of Education: Rabindra Bharati University, XXIV(12-II), 114–124, 2021–2022, ISSN: 0972-7175."]
-            ]
-        },
+            /* ===== 2018 ===== */
+            {
+                year: "2018",
+                rows: [
+                    ["1",
+                        "Navalakhi Hazarika and Helen K. Saikia, \"Singular and semi-simple character in E-injective N-groups with weakly descending chain conditions\", Africa Mathematica (Springer), 29(7–8), 1065–1072, 2018."
+                    ],
+                    ["2",
+                        "Anuradha Devi and Ranjan Kalita, \"A Mathematical Model of Glucose–Insulin regulation where glucose and insulin both are influenced by externally ingested glucose\", International Journal of Engineering Science and Technology, 10(02S), 154–157, 2018."
+                    ],
+                    ["3",
+                        "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Non Perturbative Approach for Dust Acoustic Waves in Plasma with Non Thermal Ions and Trapped Electrons\", International Journal of Mathematics Trends and Technology, 61(1), September 2018."
+                    ]
+                ]
+            }
 
-        /* ===== 2020 ===== */
-        {
-            year: "2020",
-            rows: [
-                ["1", "Hemanta K. Baruah, \"Real Numbers with Fractional Presence\", Journal of Mathematics and Informatics, 18, 65–69, February 2020. ISSN: 2349-0632."],
-                ["2", "Hemanta K. Baruah, \"An Alternate Formula for Addition of Discrete Fuzzy Numbers\", International Journal of Fuzzy Mathematical Archive, 18(1), 7–11, March 2020. ISSN: 2320–3242."],
-                ["3", "Hemanta K. Baruah, \"Theory of Fuzzy Sets: An Introduction of the Concept of Negative Partial Presence\", Annals of Pure and Applied Mathematics, 22, 119–124, May 2020. ISSN: 2279-087X (Print), 2279-0888 (Online)."],
-                ["4", "Hemanta K. Baruah, \"The COVID-19 Spread Pattern in Italy and India: A Comparison of the Current Situations\", Journal of Mathematics and Informatics, 19, 7–12, July 2020. ISSN: 2349-0632. doi: 10.1101/2020.05.24.20112292."],
-                ["5", "Hemanta K. Baruah, \"A Simple Method of Finding an Approximate Pattern of the Covid-19 Spread\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, May 2020, 1–8."],
-                ["6", "Hemanta K. Baruah, \"On Reliability of the COVID-19 Forecasts\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–8. doi: 10.1101/2020.06.01.20118844."],
-                ["7", "Hemanta K. Baruah, \"The Current COVID-19 Spread Pattern in India\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–5. doi: 10.1101/2020.06.03.20121210."],
-                ["8", "Hemanta K. Baruah, \"Nearly Perfect Forecasting of the Total COVID-19 Cases in India: A Numerical Approach\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–7. doi: 10.1101/2020.06.13.20130096."],
-                ["9", "Hemanta K. Baruah, \"The COVID-19 Spread Pattern in Italy and India: A Comparison of the Current Situations\", medRxiv Preprint Server for Health Sciences, Cold Spring Harbor Laboratory, New York, June 2020, 1–6. doi: 10.1101/2020.06.21.20136630."],
-                ["10", "Munmi Saikia, Atasi Patra Maiti and Anuradha Devi, \"Effect of habitat complexity on rhinoceros and tiger population model with additional food and poaching in Kaziranga National Park, Assam\", Mathematics and Computers in Simulation, 177, 169–190, 2020."],
-                ["11", "Kamal Debnath, Debasish Dey and Rupjyoti Borah, \"Thermophoresis and diffusion thermo effects on shear thickening and shear thinning cases of fluid motion past a permeable surface\", Journal of Mechanics of Continua and Mathematical Sciences, 15(5), 68–81, May 2020."],
-                ["12", "Bapan Kalita and Anuradha Devi, \"Japanese Encephalitis from Two Outsources: A Mathematical Modeling\", Journal of Critical Reviews, 7(12), 309–315, 2020."],
-                ["13", "Bapan Kalita and Anuradha Devi, \"Control Model of Transmission of Japanese Encephalitis through Media Awareness\", International Journal of Advanced Science and Technology, 29(5), 7645–7656, 2020."],
-                ["14", "Bapan Kalita and Anuradha Devi, \"Mathematical Modelling of Impact of Vaccination in Controlling Japanese Encephalitis\", International Journal on Emerging Technologies, 11(3), 792–796, 2020."],
-                ["15", "Bimalendu Kalita, \"On Semi Weakly (l,m)-Hyponormal Weighted Shifts\", Advances in Mathematics: Scientific Journal, 9(12), 10797–10805, 2020."],
-                ["16", "Kamal Debnath and Bikash Koli Saha, \"Solution of Non-Newtonian Boundary Layer Flow in a Convergent Channel using Homotopy Perturbation Method\", Transient: A Journal of Natural Sciences and Allied Subjects, 8, 28, 2020."],
-                ["17", "Kamal Debnath and Sankar Singha, \"Mixed Convective Slip Flow and Heat Transport for Visco-elastic Fluid Past a Vertical Plate\", Mathematical Forum, 28, 2020."]
-            ]
-        },
+        ];
 
-        /* ===== 2019 ===== */
-        {
-            year: "2019",
-            rows: [
-                ["1", "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Effect of Nonthermal Ions on Dust Acoustic Waves in Magnetized Plasma\", Mathematical Journal of Interdisciplinary Science, 8(1), 69–76, September 2019."],
-                ["2", "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Sagdeev Potential Approach to Study the Dust Acoustic Waves in Dusty Plasma with Nonthermal Ions\", Infokara Research, 8(7), September 2019."],
-                ["3", "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Nonperturbative Technique for Dust-ion-acoustic Waves in Dusty Plasma with Nonthermal Electrons\", International Journal of Research and Review, 6(11), 153–161, November 2019."]
-            ]
-        },
+        const journalContainerEl = document.getElementById("publication-table-container");
 
-        /* ===== 2018 ===== */
-        {
-            year: "2018",
-            rows: [
-                ["1", "Navalakhi Hazarika and Helen K. Saikia, \"Singular and semi-simple character in E-injective N-groups with weakly descending chain conditions\", Africa Mathematica (Springer), 29(7–8), 1065–1072, 2018."],
-                ["2", "Anuradha Devi and Ranjan Kalita, \"A Mathematical Model of Glucose–Insulin regulation where glucose and insulin both are influenced by externally ingested glucose\", International Journal of Engineering Science and Technology, 10(02S), 154–157, 2018."],
-                ["3", "Banajit Sarmah, Anuradha Devi and Jnanjyoti Sarma, \"Non Perturbative Approach for Dust Acoustic Waves in Plasma with Non Thermal Ions and Trapped Electrons\", International Journal of Mathematics Trends and Technology, 61(1), September 2018."]
-            ]
-        }
+        if (journalContainerEl) {
 
-    ];
-
-    const journalContainerEl = document.getElementById("publication-table-container");
-
-    if (journalContainerEl) {
-
-        const createJournalTable = (rows) => `
+            const createJournalTable = (rows) => `
         <div class="dept-maths-table-responsive">
             <table class="dept-maths-table">
                 <thead>
@@ -1901,126 +2080,198 @@
                 </thead>
                 <tbody>
                     ${rows.map(row => `
-                        <tr>
-                            <td>${row[0]}</td>
-                            <td>${row[1]}</td>
-                        </tr>
-                    `).join("")}
+                            <tr>
+                                <td>${row[0]}</td>
+                                <td>${row[1]}</td>
+                            </tr>
+                        `).join("")}
                 </tbody>
             </table>
         </div>`;
 
-        journalContainerEl.innerHTML = journalDataSet.map(item => `
+            journalContainerEl.innerHTML = journalDataSet.map(item => `
         <div style="margin-bottom:40px;">
             <h3 style="margin-bottom:15px; color:#2c4a7a;">${item.year}</h3>
             ${createJournalTable(item.rows)}
         </div>
     `).join("");
-    }
-</script>
-
-<script>
-    const booksDataSet = [
-
-        /* ===== EDITED BOOK ===== */
-        {
-            year: "Edited Book",
-            rows: [
-                ["1", "Verma, V., Khan, H. T., Nath, D. C., & Land, K. C. (Eds.). (2026). Biostatistical Methods and Applications in Health Research: A Case Study Approach. Taylor & Francis. Routledge."]
-            ]
-        },
-
-        /* ===== 2026 ===== */
-        {
-            year: "2026",
-            rows: [
-                ["1", "Bhagyashri Patgiri and Neelav sharma, Computational Modelling of Blood-Based Tetrahybrid Nanofluid, Nanofluid Heat Transfer, Schrivener Publishing (WILEY)."],
-                ["2", "Nath, D. C., & Bhattacharjee, D. (2026). Statistical Hypothesis Testing for Health Sciences: Parametric and Non-Parametric. In Biostatistical Methods and Applications in Health Research (pp. 83-116). Taylor & Francis. Routledge"],
-                ["3", "Verma, V., Goel, P., Nath, D. C., & Khan, H. T. (2026). Applying Bayesian Methods in Diagnostics Tests for Clinical Decision-Making. Biostatistical Methods and Applications in Research: A Case Study Approach. (pp. 291-300). Taylor & Francis. Routledge"]
-            ]
-        },
-
-        /* ===== 2025 ===== */
-        {
-            year: "2025",
-            rows: [
-                ["1", "Laishram Ladu Singh, Statistics for Health Science with R, Himalaya Publishing House, ISBN-10-9365576784, ISBN-13-978-9365576788, 1st -July, 2025"],
-                ["2", "Kshetrimayum Renubebeta Devi, Tusonulu Lohe, Antidong Jamir, Rakhal Das and Surapati Pramanik,  A Study on Neutrosophic Refined Topology and Its Applications,  New Trends in Neutrosophic Theory and Applications, Zenodo, ISBN: 978-1-59973-789-8 (Accepted for publication)"]
-            ]
-        },
-
-        /* ===== 2024 ===== */
-        {
-            year: "2024",
-            rows: [
-                ["1", "Dhriti Raj Talukdar and H Imo Mani Singha, A comparative analysis of standard Knapsack and Legendre-Knapsack cryptosystem, Advances in Mathematical and Computational Sciences: Proceedings of The ICRTMPCS International Conference 2023, Publisher: Walter de Gruyter GmbH & Co KG, Chapter: 12, Page: 169-177, Publication Date: Nov 2024, ISBN: 978-3-11-130437-3."],
-                ["2", "H Imo Mani Singha and Anuradha Devi, Analysis of Fractional Order Smoking Model using Laplace Decomposition Method, Bridging Disciplines: Navigating Multidisciplinary Perspectives, Publisher: Data Point Consultancy for Multidisciplinary Research, Chapter: 9, Page: 117-134, Publication Date: June 2024, ISBN: 978-81-974418-2-0."],
-                ["3", "Kamal Debnath, Analyzing Slip Factor Impact on Flow, Heat Transfer, and Mass Transport for Newtonian Fluid along a Vertical Plate, Fundamental Frontiers: Exploring Core Sciences, Publisher: Unika Prakashan, Jorhat, Assam, Editors: Dr. P. Saikia, Dr. D. J. Mahanta, Dr. J. Gogoi, First Edition: October, 2024, ISBN: 978-93-91883-59-1, Page No. 325-332."],
-                ["4", "Bimalendu Kalita, Khrunielu Lohe and, Florence Daimari, “Felbin’s Type Fuzzy Norm and Fuzzy Inner Product”, Fundamental Frontiers: Exploring Core Sciences, First Edition: October, 2024 ISBN: 978-93-91883-59-1."],
-                ["5", "Saswati Bordoloi, Susmita Banerjee, Tinku Moni Das, Bikram Bir and Jyoti Kumar Sharma, Bridging Ancient Wisdom and Modern Knowledge: Indian Knowledge Systems, Publisher: The Assam Royal Global University, Assam, 2024, ISBN: 978-81-980420-5-7."],
-                ["6", "Vivek Verma, Sachin Kumar and Dilip C Nath (2024) A comparative study regarding prevalence of caesarean section in Indian female In book: Statistical Modeling and Applications on Real-Time Problems.  CRC Press. April 2024 DOI:10.1201/9781003481263-5."],
-                ["7", "Nath, Dilip Chandra, Aditi Baruah (2024): A Probability Model for Closed Birth Interval and Its Application to Adivasi Married Females. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education Edited by Ajay Pandey. Pp 4-9."],
-                ["8", "Ajay Pandey, Dilip Chandra Nath, Richa Sharma (2024): Inter-birth Interval Length and Neonatal Survival: A Study on Demographically Poor Performing EAG States. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 10-16."],
-                ["9", "Nath, Dilip Chandra, H. Brojeshwor Singh, Atanu Bhattacharjee(2024): Estimating the Duration of Postpartum Amenorrhea through Bayesian Approach. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey pp 28-35."],
-                ["10", "Padum Narayan, Dilip Chandra Nath, Kishore Kumar Das, Arvind Pandey (2024): Changing Impact of Son-Preference on the Family Building Process in India: A Parity Progression Ratio Analysis. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey pp36-45."],
-                ["11", "Jagriti Das, Dilip Chandra Nath (2024):Probability of Ultimate Ruin for the Log Normal Distribution and the Computation of Some of its Related Actuarial Quantities with Real Data Applications. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 46-55"],
-                ["12", "Lipi B Mahanta, Dilip Chandra Nath (2024):A Note on the Discrete Analogue of the Pearsonian System of Curves. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 56-60"],
-                ["13", "Nath, Dilip Chandra, M Nazrul Islam (2024):Measuring Speed of Aging Process: An Illustration With the Population of Bangladesh. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey . pp61-70"],
-                ["14", "Jaishree Prabha Karna, Dilip Chandra Nath(2024): Handling Non-Response in Presence of p(p≥2) Auxiliary Variables in Two Occasion Rotation Patterns. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 71-82"],
-                ["15", "Tandrima Chakraborty, Dilip Chandra Nath, Kishore Kumar Das(2024): A Weighted Epidemic Chain Binomial Model (WECBM) with One-Introductory Case & Its Application. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 83-93"],
-                ["16", "Vivek Verma & Dilip Chandra Nath(2024): Ranked Set Sampling: An Estimation of Infant Mortality Using Bayesian Method. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 94-102"],
-                ["17", "Nath, Dilip Chandra, Ramesh K Vishwakarma, Atanu Bhattacharjee (2024): Bayesian Computation for the Concordance Correlation Coefficient: An Illustration Through Liver Cirrhosis Patients. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 103-109"],
-                ["18", "Dharmendra Dubey, Dilip Chandra Nath (2024): Prevalence and Risk Factors of Low Birth Weight Among Adolescent Mothers in Assam. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 110-120."]
-            ]
-        },
-
-        /* ===== 2023 ===== */
-        {
-            year: "2023",
-            rows: [
-                ["1", "Bapan Kalita, Basics of R and Data Analysis in Research (Book), ISBN: 978-93-5693-912-7, Himalaya Publishing House, Mumbai, India."],
-                ["2", "Bapan Kalita, Methods of Research and Exploratory Data Analysis: A Brief Introduction, FOCUS, ISBN: 978-81-948218-3-0, Dept. of Education, Gyanpeeth Degree College, Nikashi, Assam, India, March 2023,  pp 9-22."]
-            ]
-        },
-
-        /* ===== 2022 ===== */
-        {
-            year: "2022",
-            rows: [
-                ["1", "Bapan Kalita, Methods of research and exploratory data analysis : A brief introduction”, Gyanpeeth Degree College, ISBN:978-81-948218-3-0, 2023, pp. 9-22"],
-                ["2", "Suman Bhuyan, Kamal Debnath, “Mathematical study of shear –thinning Nature of Peach Puree Flow Through a circular pipe by Herschel –BulkleyFuid Model” e-proceedings of 16th international conference of MSAST 2022, 2022, Kolkata, India, VOL:11, 161, ISBN:978-81-925832-8-0."],
-                ["3", "Pompi Das and Kamal Debnath, “Behavioral Study of carrot juice exhibiting shear thickening nature of flow past a cylindrical pipe by power law fluid model”, e-proceedings of 16th international conference of MSAST 2022, 2022, Kolkata, India, VOL:11, 241, ISBN:978-81-925832-8-0."],
-                ["4", "Bikas Koli Saha and Kamal Debnath, Slip Flow and Heat Transition for Hydromagnetic Elastico-viscous Fluid past a Flat Moving Plate Emerging Technologies in Data Mining and Information Security, Springer Nature, 131, ISBN 978-981-19-4193-1, September 2022, Springer edited book Series."],
-                ["5", "Verma V., Verma A., Mishra A.K., Khan H. T.A., Nath D.C. and Narang R. (2022).  Bayesian Estimation of Gender Differences in Lipid Profile, among Patients with Coronary Artery Disease. Handbook of Intelligent Computing and Optimization for Sustainable Development. Wiley-Scrivener Publishing, 753-769."],
-                ["6", "Verma, Vivek, Ashwani Kumar Mishra, Anita Verma, Hafiz T. A. Khan, Dilip C. Nath, and Rajiv Narang. 2022: Impact of Gender on the Lipid Profile of Patients with Coronary Artery Disease A Bayesian Analytical Approach. In book: Smart Computational Intelligence in Biomedical and Health Informatics. Edited by:Amit Kumar Manocha, Mandeep Singh, Shruti Jain, and Vishal Jain. Publisher: CRC Press. pp:1-12."]
-            ]
-        },
-
-        /* ===== 2021 ===== */
-        {
-            year: "2021",
-            rows: [
-                ["1", "Kamal Debnath, Bikash Koli Saha, “Hydromagnetic Visco-elastic Boundary Layer Flow Past an Exponentially Stretching Sheet with Suction or Blowing”, Emerging Technologies in Data Mining and Information Security, Vol. 1, ISBN 978-981-15-9927-9, 533-541, June 2021, Springer edited book Series."],
-                ["2", "Kamal Debnath, Sankar Singha, “Hydromagnetic Visco-elastic Boundary Layer Slip Flow and Heat transfer over a Flat Plate ”, Emerging Technologies in Data Mining and Information Security, Vol. 1, ISBN 978-981-15-9927-9, 533-541, June 2021, Springer edited book Series."],
-                ["3", "Kamal Debnath and Sankar Singha, “Reactive Mass Diffusion in Viscoelastic Fluid Past a Stretchable Exponential Sheet Due to Variation in Wall Concentration”, Emerging Technologies in Data Mining and Information Security, Springer Nature, 107, ISBN 978-981-19-4193-1, September 2022, Springer edited book Series."]
-            ]
-        },
-
-        /* ===== 2018 ===== */
-        {
-            year: "2018",
-            rows: [
-                ["1", "Bapan Kalita, “Developmental Scenario in South-Asian Nations in Recent Years”, Progression, Uttar Kampith Mahavidyalaya (Sr.),ISBN: 978-81-929748-2-8, Dec. 2018, 20-36."]
-            ]
         }
+    </script>
 
-    ];
+    <script>
+        const booksDataSet = [
 
-    const booksContainerEl = document.getElementById("books-table-container");
+            /* ===== EDITED BOOK ===== */
+            {
+                year: "Edited Book",
+                rows: [
+                    ["1",
+                        "Verma, V., Khan, H. T., Nath, D. C., & Land, K. C. (Eds.). (2026). Biostatistical Methods and Applications in Health Research: A Case Study Approach. Taylor & Francis. Routledge."
+                    ]
+                ]
+            },
 
-    if (booksContainerEl) {
+            /* ===== 2026 ===== */
+            {
+                year: "2026",
+                rows: [
+                    ["1",
+                        "Bhagyashri Patgiri and Neelav sharma, Computational Modelling of Blood-Based Tetrahybrid Nanofluid, Nanofluid Heat Transfer, Schrivener Publishing (WILEY)."
+                    ],
+                    ["2",
+                        "Nath, D. C., & Bhattacharjee, D. (2026). Statistical Hypothesis Testing for Health Sciences: Parametric and Non-Parametric. In Biostatistical Methods and Applications in Health Research (pp. 83-116). Taylor & Francis. Routledge"
+                    ],
+                    ["3",
+                        "Verma, V., Goel, P., Nath, D. C., & Khan, H. T. (2026). Applying Bayesian Methods in Diagnostics Tests for Clinical Decision-Making. Biostatistical Methods and Applications in Research: A Case Study Approach. (pp. 291-300). Taylor & Francis. Routledge"
+                    ]
+                ]
+            },
 
-        const createBooksTable = (rows) => `
+            /* ===== 2025 ===== */
+            {
+                year: "2025",
+                rows: [
+                    ["1",
+                        "Laishram Ladu Singh, Statistics for Health Science with R, Himalaya Publishing House, ISBN-10-9365576784, ISBN-13-978-9365576788, 1st -July, 2025"
+                    ],
+                    ["2",
+                        "Kshetrimayum Renubebeta Devi, Tusonulu Lohe, Antidong Jamir, Rakhal Das and Surapati Pramanik,  A Study on Neutrosophic Refined Topology and Its Applications,  New Trends in Neutrosophic Theory and Applications, Zenodo, ISBN: 978-1-59973-789-8 (Accepted for publication)"
+                    ]
+                ]
+            },
+
+            /* ===== 2024 ===== */
+            {
+                year: "2024",
+                rows: [
+                    ["1",
+                        "Dhriti Raj Talukdar and H Imo Mani Singha, A comparative analysis of standard Knapsack and Legendre-Knapsack cryptosystem, Advances in Mathematical and Computational Sciences: Proceedings of The ICRTMPCS International Conference 2023, Publisher: Walter de Gruyter GmbH & Co KG, Chapter: 12, Page: 169-177, Publication Date: Nov 2024, ISBN: 978-3-11-130437-3."
+                    ],
+                    ["2",
+                        "H Imo Mani Singha and Anuradha Devi, Analysis of Fractional Order Smoking Model using Laplace Decomposition Method, Bridging Disciplines: Navigating Multidisciplinary Perspectives, Publisher: Data Point Consultancy for Multidisciplinary Research, Chapter: 9, Page: 117-134, Publication Date: June 2024, ISBN: 978-81-974418-2-0."
+                    ],
+                    ["3",
+                        "Kamal Debnath, Analyzing Slip Factor Impact on Flow, Heat Transfer, and Mass Transport for Newtonian Fluid along a Vertical Plate, Fundamental Frontiers: Exploring Core Sciences, Publisher: Unika Prakashan, Jorhat, Assam, Editors: Dr. P. Saikia, Dr. D. J. Mahanta, Dr. J. Gogoi, First Edition: October, 2024, ISBN: 978-93-91883-59-1, Page No. 325-332."
+                    ],
+                    ["4",
+                        "Bimalendu Kalita, Khrunielu Lohe and, Florence Daimari, “Felbin’s Type Fuzzy Norm and Fuzzy Inner Product”, Fundamental Frontiers: Exploring Core Sciences, First Edition: October, 2024 ISBN: 978-93-91883-59-1."
+                    ],
+                    ["5",
+                        "Saswati Bordoloi, Susmita Banerjee, Tinku Moni Das, Bikram Bir and Jyoti Kumar Sharma, Bridging Ancient Wisdom and Modern Knowledge: Indian Knowledge Systems, Publisher: The Assam Royal Global University, Assam, 2024, ISBN: 978-81-980420-5-7."
+                    ],
+                    ["6",
+                        "Vivek Verma, Sachin Kumar and Dilip C Nath (2024) A comparative study regarding prevalence of caesarean section in Indian female In book: Statistical Modeling and Applications on Real-Time Problems.  CRC Press. April 2024 DOI:10.1201/9781003481263-5."
+                    ],
+                    ["7",
+                        "Nath, Dilip Chandra, Aditi Baruah (2024): A Probability Model for Closed Birth Interval and Its Application to Adivasi Married Females. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education Edited by Ajay Pandey. Pp 4-9."
+                    ],
+                    ["8",
+                        "Ajay Pandey, Dilip Chandra Nath, Richa Sharma (2024): Inter-birth Interval Length and Neonatal Survival: A Study on Demographically Poor Performing EAG States. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 10-16."
+                    ],
+                    ["9",
+                        "Nath, Dilip Chandra, H. Brojeshwor Singh, Atanu Bhattacharjee(2024): Estimating the Duration of Postpartum Amenorrhea through Bayesian Approach. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey pp 28-35."
+                    ],
+                    ["10",
+                        "Padum Narayan, Dilip Chandra Nath, Kishore Kumar Das, Arvind Pandey (2024): Changing Impact of Son-Preference on the Family Building Process in India: A Parity Progression Ratio Analysis. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey pp36-45."
+                    ],
+                    ["11",
+                        "Jagriti Das, Dilip Chandra Nath (2024):Probability of Ultimate Ruin for the Log Normal Distribution and the Computation of Some of its Related Actuarial Quantities with Real Data Applications. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 46-55"
+                    ],
+                    ["12",
+                        "Lipi B Mahanta, Dilip Chandra Nath (2024):A Note on the Discrete Analogue of the Pearsonian System of Curves. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey. pp 56-60"
+                    ],
+                    ["13",
+                        "Nath, Dilip Chandra, M Nazrul Islam (2024):Measuring Speed of Aging Process: An Illustration With the Population of Bangladesh. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey . pp61-70"
+                    ],
+                    ["14",
+                        "Jaishree Prabha Karna, Dilip Chandra Nath(2024): Handling Non-Response in Presence of p(p≥2) Auxiliary Variables in Two Occasion Rotation Patterns. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 71-82"
+                    ],
+                    ["15",
+                        "Tandrima Chakraborty, Dilip Chandra Nath, Kishore Kumar Das(2024): A Weighted Epidemic Chain Binomial Model (WECBM) with One-Introductory Case & Its Application. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 83-93"
+                    ],
+                    ["16",
+                        "Vivek Verma & Dilip Chandra Nath(2024): Ranked Set Sampling: An Estimation of Infant Mortality Using Bayesian Method. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 94-102"
+                    ],
+                    ["17",
+                        "Nath, Dilip Chandra, Ramesh K Vishwakarma, Atanu Bhattacharjee (2024): Bayesian Computation for the Concordance Correlation Coefficient: An Illustration Through Liver Cirrhosis Patients. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 103-109"
+                    ],
+                    ["18",
+                        "Dharmendra Dubey, Dilip Chandra Nath (2024): Prevalence and Risk Factors of Low Birth Weight Among Adolescent Mothers in Assam. In OA Books: Biostatistical Aspects of Population Health, The Canadian Center of Science and Education. Edited by Ajay Pandey.pp 110-120."
+                    ]
+                ]
+            },
+
+            /* ===== 2023 ===== */
+            {
+                year: "2023",
+                rows: [
+                    ["1",
+                        "Bapan Kalita, Basics of R and Data Analysis in Research (Book), ISBN: 978-93-5693-912-7, Himalaya Publishing House, Mumbai, India."
+                    ],
+                    ["2",
+                        "Bapan Kalita, Methods of Research and Exploratory Data Analysis: A Brief Introduction, FOCUS, ISBN: 978-81-948218-3-0, Dept. of Education, Gyanpeeth Degree College, Nikashi, Assam, India, March 2023,  pp 9-22."
+                    ]
+                ]
+            },
+
+            /* ===== 2022 ===== */
+            {
+                year: "2022",
+                rows: [
+                    ["1",
+                        "Bapan Kalita, Methods of research and exploratory data analysis : A brief introduction”, Gyanpeeth Degree College, ISBN:978-81-948218-3-0, 2023, pp. 9-22"
+                    ],
+                    ["2",
+                        "Suman Bhuyan, Kamal Debnath, “Mathematical study of shear –thinning Nature of Peach Puree Flow Through a circular pipe by Herschel –BulkleyFuid Model” e-proceedings of 16th international conference of MSAST 2022, 2022, Kolkata, India, VOL:11, 161, ISBN:978-81-925832-8-0."
+                    ],
+                    ["3",
+                        "Pompi Das and Kamal Debnath, “Behavioral Study of carrot juice exhibiting shear thickening nature of flow past a cylindrical pipe by power law fluid model”, e-proceedings of 16th international conference of MSAST 2022, 2022, Kolkata, India, VOL:11, 241, ISBN:978-81-925832-8-0."
+                    ],
+                    ["4",
+                        "Bikas Koli Saha and Kamal Debnath, Slip Flow and Heat Transition for Hydromagnetic Elastico-viscous Fluid past a Flat Moving Plate Emerging Technologies in Data Mining and Information Security, Springer Nature, 131, ISBN 978-981-19-4193-1, September 2022, Springer edited book Series."
+                    ],
+                    ["5",
+                        "Verma V., Verma A., Mishra A.K., Khan H. T.A., Nath D.C. and Narang R. (2022).  Bayesian Estimation of Gender Differences in Lipid Profile, among Patients with Coronary Artery Disease. Handbook of Intelligent Computing and Optimization for Sustainable Development. Wiley-Scrivener Publishing, 753-769."
+                    ],
+                    ["6",
+                        "Verma, Vivek, Ashwani Kumar Mishra, Anita Verma, Hafiz T. A. Khan, Dilip C. Nath, and Rajiv Narang. 2022: Impact of Gender on the Lipid Profile of Patients with Coronary Artery Disease A Bayesian Analytical Approach. In book: Smart Computational Intelligence in Biomedical and Health Informatics. Edited by:Amit Kumar Manocha, Mandeep Singh, Shruti Jain, and Vishal Jain. Publisher: CRC Press. pp:1-12."
+                    ]
+                ]
+            },
+
+            /* ===== 2021 ===== */
+            {
+                year: "2021",
+                rows: [
+                    ["1",
+                        "Kamal Debnath, Bikash Koli Saha, “Hydromagnetic Visco-elastic Boundary Layer Flow Past an Exponentially Stretching Sheet with Suction or Blowing”, Emerging Technologies in Data Mining and Information Security, Vol. 1, ISBN 978-981-15-9927-9, 533-541, June 2021, Springer edited book Series."
+                    ],
+                    ["2",
+                        "Kamal Debnath, Sankar Singha, “Hydromagnetic Visco-elastic Boundary Layer Slip Flow and Heat transfer over a Flat Plate ”, Emerging Technologies in Data Mining and Information Security, Vol. 1, ISBN 978-981-15-9927-9, 533-541, June 2021, Springer edited book Series."
+                    ],
+                    ["3",
+                        "Kamal Debnath and Sankar Singha, “Reactive Mass Diffusion in Viscoelastic Fluid Past a Stretchable Exponential Sheet Due to Variation in Wall Concentration”, Emerging Technologies in Data Mining and Information Security, Springer Nature, 107, ISBN 978-981-19-4193-1, September 2022, Springer edited book Series."
+                    ]
+                ]
+            },
+
+            /* ===== 2018 ===== */
+            {
+                year: "2018",
+                rows: [
+                    ["1",
+                        "Bapan Kalita, “Developmental Scenario in South-Asian Nations in Recent Years”, Progression, Uttar Kampith Mahavidyalaya (Sr.),ISBN: 978-81-929748-2-8, Dec. 2018, 20-36."
+                    ]
+                ]
+            }
+
+        ];
+
+        const booksContainerEl = document.getElementById("books-table-container");
+
+        if (booksContainerEl) {
+
+            const createBooksTable = (rows) => `
         <div class="dept-maths-table-responsive">
             <table class="dept-maths-table">
                 <thead>
@@ -2031,21 +2282,21 @@
                 </thead>
                 <tbody>
                     ${rows.map(row => `
-                        <tr>
-                            <td>${row[0]}</td>
-                            <td>${row[1]}</td>
-                        </tr>
-                    `).join("")}
+                            <tr>
+                                <td>${row[0]}</td>
+                                <td>${row[1]}</td>
+                            </tr>
+                        `).join("")}
                 </tbody>
             </table>
         </div>`;
 
-        booksContainerEl.innerHTML = booksDataSet.map(item => `
+            booksContainerEl.innerHTML = booksDataSet.map(item => `
         <div style="margin-bottom:40px;">
             <h3 style="margin-bottom:15px; color:#2c4a7a;">${item.year}</h3>
             ${createBooksTable(item.rows)}
         </div>
     `).join("");
-    }
-</script>
+        }
+    </script>
 @endsection

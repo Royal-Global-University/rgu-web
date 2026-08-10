@@ -1,7 +1,8 @@
 @extends('frontend/new-master')
 @section('content')
     <section class="pg-hero">
-        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/happy-happening/cover.png'); filter: blur(2px);">
+        <div class="pg-hero-bg"
+            style="background-image:url('new-web/assets/img/happy-happening/cover.png'); filter: blur(2px);">
         </div>
 
         <div class="pg-hero-bg"></div>
@@ -19,9 +20,9 @@
 
     <style>
         /* =====================================================
-       HAPPY HAPPENING CAMPUS PAGE
-       PART 1 + PART 2 + PART 3
-    ===================================================== */
+           HAPPY HAPPENING CAMPUS PAGE
+           PART 1 + PART 2 + PART 3
+        ===================================================== */
 
         :root {
             --rgu-blue: #29467B;
@@ -32,8 +33,8 @@
         }
 
         /* =====================================================
-       COMMON
-    ===================================================== */
+           COMMON
+        ===================================================== */
 
         .happy-campus-sec,
         .campus-events-sec,
@@ -55,9 +56,9 @@
         }
 
         /* =====================================================
-       PART 1
-       LITTLE THINGS THAT MAKE LIFE AT CAMPUS
-    ===================================================== */
+           PART 1
+           LITTLE THINGS THAT MAKE LIFE AT CAMPUS
+        ===================================================== */
 
         .happy-campus-sec {
             padding: 100px 0;
@@ -119,9 +120,9 @@
         }
 
         /* =====================================================
-       PART 2
-       CAMPUS EVENTS
-    ===================================================== */
+           PART 2
+           CAMPUS EVENTS
+        ===================================================== */
 
         .campus-events-sec {
             padding: 20px 0 100px;
@@ -230,9 +231,9 @@
         }
 
         /* =====================================================
-       PART 3
-       COMMUNITY
-    ===================================================== */
+           PART 3
+           COMMUNITY
+        ===================================================== */
 
         .community-sec {
             padding: 20px 0 90px;
@@ -281,8 +282,8 @@
         }
 
         /* =====================================================
-       LIFE BEYOND CLASSROOM
-    ===================================================== */
+           LIFE BEYOND CLASSROOM
+        ===================================================== */
 
         .life-beyond-sec {
             padding: 30px 0 120px;
@@ -412,8 +413,8 @@
         }
 
         /* =====================================================
-       RESPONSIVE
-    ===================================================== */
+           RESPONSIVE
+        ===================================================== */
 
         @media(max-width:1200px) {
 
@@ -956,7 +957,7 @@
                     <article class="life-card">
 
                         <div class="life-card-image">
-                            <img src="https://www.rgu.ac/mobile-assets/hostel-life/heyansh.png" alt="">
+                            <img src="/mobile-assets/hostel-life/heyansh.png" alt="">
                         </div>
 
                         <div class="life-card-content">
@@ -1002,7 +1003,7 @@
                     <article class="life-card">
 
                         <div class="life-card-image">
-                            <img src="https://www.rgu.ac/mobile-assets/medical-facility/1a.jpeg" alt="">
+                            <img src="/mobile-assets/medical-facility/1a.jpeg" alt="">
                         </div>
 
                         <div class="life-card-content">
@@ -1113,9 +1114,9 @@
 
     <script>
         /* =====================================================
-               PART 2
-               EVENT FILTERS
-            ===================================================== */
+                   PART 2
+                   EVENT FILTERS
+                ===================================================== */
 
         document.addEventListener("DOMContentLoaded", function() {
 

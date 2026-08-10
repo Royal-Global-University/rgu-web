@@ -23,8 +23,8 @@
             <div class="container pt-5 pb-5 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
                 <div class="col-lg-10">
-                    <img class=" rounded" src="https://www.rgu.ac/mobile-assets/ads/1.png"
-                        style=" border: 3px solid black; height: 420px;" alt="">
+                    <img class=" rounded" src="/mobile-assets/ads/1.png" style=" border: 3px solid black; height: 420px;"
+                        alt="">
                 </div>
             </div>
 

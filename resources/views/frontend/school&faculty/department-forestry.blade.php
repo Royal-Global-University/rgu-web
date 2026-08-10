@@ -1256,9 +1256,9 @@
         </a>
 
         <!-- <a href="#dept-lab" class="dept-forestry-float-item">
-                <i class="fa fa-flask"></i>
-                <span class="dept-forestry-float-text">Lab</span>
-            </a> -->
+                    <i class="fa fa-flask"></i>
+                    <span class="dept-forestry-float-text">Lab</span>
+                </a> -->
 
     </div>
 
@@ -1276,8 +1276,7 @@
         <div class="dept-forestry-hero" id="dept-about">
 
             <div class="dept-forestry-img">
-                <img src="/home-banner/foresty.png"
-                    alt="Political Science and Public Administration">
+                <img src="/home-banner/foresty.png" alt="Political Science and Public Administration">
             </div>
 
             <div class="dept-forestry-content">
@@ -1345,75 +1344,75 @@
         </div>
 
         <!-- <div class="dept-forestry-prospects-section" id="dept-prospects">
-          <h2 class="dept-forestry-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-forestry-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-forestry-prospects-content">
-            <p class="dept-forestry-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-forestry-prospects-content">
+                <p class="dept-forestry-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-forestry-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-forestry-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-forestry-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Government Sector Jobs</h3>
-            <ol class="dept-forestry-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Government Sector Jobs</h3>
+                <ol class="dept-forestry-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Private Sector Careers</h3>
-            <ol class="dept-forestry-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Private Sector Careers</h3>
+                <ol class="dept-forestry-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Research & Teaching</h3>
-            <ol class="dept-forestry-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Research & Teaching</h3>
+                <ol class="dept-forestry-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-forestry-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-forestry-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Jobs Abroad</h3>
-            <ol class="dept-forestry-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Jobs Abroad</h3>
+                <ol class="dept-forestry-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-forestry-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-forestry-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-forestry-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-forestry-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-forestry-accordion-section" id="dept-syllabus">
             <h2 class="dept-forestry-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1432,8 +1431,7 @@
                     <div class="dept-forestry-accordion-content">
                         <div class="dept-forestry-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_B.Sc.-Forestry.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_B.Sc.-Forestry.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1442,7 +1440,7 @@
                                 <i class="fa-solid fa-download dept-forestry-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSLSC/B.Sc%20Forestry%20Detailed%20Syllabus.pdf"
+                                href="/mobile-assets/syllabus/RSLSC/B.Sc%20Forestry%20Detailed%20Syllabus.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1466,8 +1464,7 @@
                     <div class="dept-forestry-accordion-content">
                         <div class="dept-forestry-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_M.Sc.-Forestry.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSLSC/Syllabus-Structure_M.Sc.-Forestry.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1476,7 +1473,7 @@
                                 <i class="fa-solid fa-download dept-forestry-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSLSC/M.Sc%20Forestry%20Detailed%20Syllabus.pdf"
+                                href="/mobile-assets/syllabus/RSLSC/M.Sc%20Forestry%20Detailed%20Syllabus.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1500,7 +1497,7 @@
 
                     <div class="dept-forestry-accordion-content">
                         <div class="dept-forestry-syllabus-list">
-                            <a target="_blank" href="https://www.rgu.ac/phd" class="dept-forestry-syllabus-link">
+                            <a target="_blank" href="/phd" class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1532,89 +1529,89 @@
 
         <!-- <div class="dept-forestry-lab-section" id="dept-lab">
 
-                <div class="dept-forestry-lab-container">
+                    <div class="dept-forestry-lab-container">
 
-                    <h2 class="dept-forestry-section-title">Physiotherapy <span> OPD</span></h2>
+                        <h2 class="dept-forestry-section-title">Physiotherapy <span> OPD</span></h2>
 
-                    <p class="dept-forestry-lab-intro">
-                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
-                        patient. The
-                        students through OPD practicals would learn how to treat patients with physical disabilities and
-                        injuries in a
-                        range of settings including hospitals, health centres, private practices and sports clubs under the
-                        proper
-                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
-                    </p>
+                        <p class="dept-forestry-lab-intro">
+                            The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                            patient. The
+                            students through OPD practicals would learn how to treat patients with physical disabilities and
+                            injuries in a
+                            range of settings including hospitals, health centres, private practices and sports clubs under the
+                            proper
+                            guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                        </p>
 
-                    <ol class="dept-forestry-lab-list">
-                        <li>
-                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
-                            pain, reduce
-                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
-                            acts as a
-                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
-                            tissue
-                            repair.
-                        </li>
+                        <ol class="dept-forestry-lab-list">
+                            <li>
+                                IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                                pain, reduce
+                                inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                                acts as a
+                                superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                                tissue
+                                repair.
+                            </li>
 
-                        <li>
-                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
-                            include reducing
-                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
-                            scar
-                            tissue, and treating muscle spasms.
-                        </li>
+                            <li>
+                                Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                                include reducing
+                                joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                                scar
+                                tissue, and treating muscle spasms.
+                            </li>
 
-                        <li>
-                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
-                            upper trap
-                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
-                            stiffness, and
-                            improve upper body posture.
-                        </li>
+                            <li>
+                                Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                                upper trap
+                                stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                                stiffness, and
+                                improve upper body posture.
+                            </li>
 
-                        <li>
-                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
-                            inflammation, and improves blood circulation.
-                        </li>
+                            <li>
+                                Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                                inflammation, and improves blood circulation.
+                            </li>
 
-                        <li>
-                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
-                            assess range
-                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
-                        </li>
+                            <li>
+                                Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                                assess range
+                                of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                            </li>
 
-                        <li>
-                            Exterior image of the Physiotherapy OPD.
-                        </li>
-                    </ol>
+                            <li>
+                                Exterior image of the Physiotherapy OPD.
+                            </li>
+                        </ol>
 
 
-                     <h3 class="dept-forestry-lab-heading">Our Lab Equipments</h3>
+                         <h3 class="dept-forestry-lab-heading">Our Lab Equipments</h3>
 
-                    <h2 class="dept-forestry-section-title">Glimpse of <span>our Lab</span></h2>
+                        <h2 class="dept-forestry-section-title">Glimpse of <span>our Lab</span></h2>
 
-                    <div class="dept-forestry-lab-gallery">
+                        <div class="dept-forestry-lab-gallery">
 
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
-                            class="dept-forestry-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
-                            class="dept-forestry-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
-                            class="dept-forestry-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
-                            class="dept-forestry-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
-                            class="dept-forestry-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
-                            class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                                class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                                class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                                class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                                class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                                class="dept-forestry-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                                class="dept-forestry-lab-img">
 
+                        </div>
+
+                        <button class="dept-forestry-explore-btn">Explore</button>
                     </div>
 
-                    <button class="dept-forestry-explore-btn">Explore</button>
-                </div>
-
-            </div> -->
+                </div> -->
 
     </div>
 
@@ -1623,12 +1620,12 @@
         const coursesData = [{
                 title: "M.Sc. - Forestry",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Forestry"
+                link: "/programs-MSc-Forestry"
             },
             {
                 title: "B.Sc. - Forestry",
                 duration: "4 Years",
-                link: "https://www.rgu.ac/programs-b-sc-forestry"
+                link: "/programs-b-sc-forestry"
             }
 
         ];
@@ -1774,7 +1771,8 @@
                     ],
                     ["6", "Member (Ex-Officio)", "Dr. Demsai Reang, Assistant Professor, Department of Forestry"],
                     ["7", "Member (Ex-Officio)",
-                    "Dr. Paul Lalremsang, Assistant Professor, Department of Forestry"],
+                        "Dr. Paul Lalremsang, Assistant Professor, Department of Forestry"
+                    ],
                     ["8", "Member (Ex-Officio)", "Mr. Puskal Bagchie, Assistant Professor, Department of Forestry"]
                 ]
             },
@@ -1797,7 +1795,8 @@
                     ],
 
                     ["5", "Member",
-                    "Dr. Paul Lalremsang, Assistant Professor, Department of Forestry (RSLSC), RGU"],
+                        "Dr. Paul Lalremsang, Assistant Professor, Department of Forestry (RSLSC), RGU"
+                    ],
 
                     ["6", "External Expert",
                         "Dr. K.K. Sarma, Sci./Engr. ‘G’ & Group Head, Remote Sensing Applications Group (GHRSAG), NESAC"
@@ -1825,10 +1824,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>

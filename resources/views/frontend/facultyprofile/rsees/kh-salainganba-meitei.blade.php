@@ -2,8 +2,8 @@
 @section('content')
     <style>
         /*=========================================================
-      FACULTY PROFILE PAGE
-    =========================================================*/
+          FACULTY PROFILE PAGE
+        =========================================================*/
 
         .rgu-fp-page {
             padding: 80px 0;
@@ -20,8 +20,8 @@
 
 
         /*=========================================================
-      STICKY SIDEBAR
-    =========================================================*/
+          STICKY SIDEBAR
+        =========================================================*/
 
         .rgu-fp-sidebar {
             position: sticky;
@@ -31,8 +31,8 @@
 
 
         /*=========================================================
-      PROFILE CARD
-    =========================================================*/
+          PROFILE CARD
+        =========================================================*/
 
         .rgu-fp-profile-card {
 
@@ -49,8 +49,8 @@
 
 
         /*=========================================================
-      IMAGE
-    =========================================================*/
+          IMAGE
+        =========================================================*/
 
         .rgu-fp-image {
 
@@ -71,8 +71,8 @@
 
 
         /*=========================================================
-      PROFILE INFO
-    =========================================================*/
+          PROFILE INFO
+        =========================================================*/
 
         .rgu-fp-info {
 
@@ -137,8 +137,8 @@
 
 
         /*=========================================================
-      DOWNLOAD CV BUTTON
-    =========================================================*/
+          DOWNLOAD CV BUTTON
+        =========================================================*/
 
         .rgu-fp-cv-btn {
 
@@ -175,8 +175,8 @@
 
 
         /*=========================================================
-      RIGHT CONTENT
-    =========================================================*/
+          RIGHT CONTENT
+        =========================================================*/
 
         .rgu-fp-content {
 
@@ -190,8 +190,8 @@
 
 
         /*=========================================================
-      SECTION
-    =========================================================*/
+          SECTION
+        =========================================================*/
 
         .rgu-fp-section {
 
@@ -208,8 +208,8 @@
 
 
         /*=========================================================
-      SECTION TITLE
-    =========================================================*/
+          SECTION TITLE
+        =========================================================*/
 
         .rgu-fp-section-title {
 
@@ -248,8 +248,8 @@
         }
 
         /*=========================================================
-      QUALIFICATION LIST
-    =========================================================*/
+          QUALIFICATION LIST
+        =========================================================*/
 
         .rgu-fp-list {
 
@@ -303,8 +303,8 @@
 
 
         /*=========================================================
-      EXPERIENCE GRID
-    =========================================================*/
+          EXPERIENCE GRID
+        =========================================================*/
 
         .rgu-fp-stats-grid {
 
@@ -320,8 +320,8 @@
 
 
         /*=========================================================
-      STAT CARD
-    =========================================================*/
+          STAT CARD
+        =========================================================*/
 
         .rgu-fp-stat-card {
 
@@ -354,8 +354,8 @@
 
 
         /*=========================================================
-      TOP ACCENT
-    =========================================================*/
+          TOP ACCENT
+        =========================================================*/
 
         .rgu-fp-stat-card::before {
 
@@ -379,8 +379,8 @@
 
 
         /*=========================================================
-      TITLE
-    =========================================================*/
+          TITLE
+        =========================================================*/
 
         .rgu-fp-stat-card h3 {
 
@@ -399,8 +399,8 @@
 
 
         /*=========================================================
-      VALUE
-    =========================================================*/
+          VALUE
+        =========================================================*/
 
         .rgu-fp-stat-card p {
 
@@ -429,8 +429,8 @@
 
 
         /*=========================================================
-      NUMBER STYLE
-    =========================================================*/
+          NUMBER STYLE
+        =========================================================*/
 
         .rgu-fp-stat-card strong {
 
@@ -445,8 +445,8 @@
 
 
         /*=========================================================
-      TABLET
-    =========================================================*/
+          TABLET
+        =========================================================*/
 
         @media(max-width:991px) {
 
@@ -462,8 +462,8 @@
 
 
         /*=========================================================
-      MOBILE
-    =========================================================*/
+          MOBILE
+        =========================================================*/
 
         @media(max-width:767px) {
 
@@ -496,8 +496,8 @@
         }
 
         /*=========================================================
-      RESEARCH INTEREST
-    =========================================================*/
+          RESEARCH INTEREST
+        =========================================================*/
 
         .rgu-fp-section p {
 
@@ -514,8 +514,8 @@
 
 
         /*=========================================================
-      AWARDS GRID
-    =========================================================*/
+          AWARDS GRID
+        =========================================================*/
 
         .rgu-fp-awards-grid {
 
@@ -531,8 +531,8 @@
 
 
         /*=========================================================
-      AWARD CARD
-    =========================================================*/
+          AWARD CARD
+        =========================================================*/
 
         .rgu-fp-award-card {
 
@@ -568,8 +568,8 @@
 
 
         /*=========================================================
-      ICON
-    =========================================================*/
+          ICON
+        =========================================================*/
 
         .rgu-fp-award-icon {
 
@@ -602,8 +602,8 @@
 
 
         /*=========================================================
-      AWARD CONTENT
-    =========================================================*/
+          AWARD CONTENT
+        =========================================================*/
 
         .rgu-fp-award-content {
 
@@ -640,8 +640,8 @@
 
 
         /*=========================================================
-      PROJECT / INFO CARDS
-    =========================================================*/
+          PROJECT / INFO CARDS
+        =========================================================*/
 
         .rgu-fp-card-list {
 
@@ -696,8 +696,8 @@
 
 
         /*=========================================================
-      PUBLICATION LIST
-    =========================================================*/
+          PUBLICATION LIST
+        =========================================================*/
 
         .rgu-fp-publication-list {
 
@@ -726,8 +726,8 @@
 
 
         /*=========================================================
-      COURSE TAGS
-    =========================================================*/
+          COURSE TAGS
+        =========================================================*/
 
         .rgu-fp-tags {
 
@@ -768,8 +768,8 @@
 
 
         /*=========================================================
-      DOWNLOADS
-    =========================================================*/
+          DOWNLOADS
+        =========================================================*/
 
         .rgu-fp-downloads {
 
@@ -818,8 +818,8 @@
 
 
         /*=========================================================
-      TABLET
-    =========================================================*/
+          TABLET
+        =========================================================*/
 
         @media(max-width:991px) {
 
@@ -862,8 +862,8 @@
 
 
         /*=========================================================
-      MOBILE
-    =========================================================*/
+          MOBILE
+        =========================================================*/
 
         @media(max-width:767px) {
 
@@ -942,8 +942,8 @@
 
 
         /*=========================================================
-      SMALL MOBILE
-    =========================================================*/
+          SMALL MOBILE
+        =========================================================*/
 
         @media(max-width:480px) {
 
@@ -1017,8 +1017,8 @@
             <div class="rgu-fp-wrapper">
 
                 <!-- =======================================================
-                     LEFT SIDEBAR (STICKY)
-                ======================================================== -->
+                         LEFT SIDEBAR (STICKY)
+                    ======================================================== -->
 
                 <aside class="rgu-fp-sidebar">
 
@@ -1026,8 +1026,7 @@
 
                         <div class="rgu-fp-image">
 
-                            <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Salainganba.jpeg"
-                                alt="Dr. Kh Salainganba Meitei">
+                            <img src="/mobile-assets/updated-faculty-img/Salainganba.jpeg" alt="Dr. Kh Salainganba Meitei">
 
                         </div>
 
@@ -1044,28 +1043,28 @@
                             <!-- Optional -->
 
                             <!--
-                            <div class="rgu-fp-department">
-                                Department of Agriculture
-                            </div>
-                            -->
+                                <div class="rgu-fp-department">
+                                    Department of Agriculture
+                                </div>
+                                -->
 
                             <!--
-                            <div class="rgu-fp-email">
-                                supriyo.sen@rgu.ac
-                            </div>
-                            -->
+                                <div class="rgu-fp-email">
+                                    supriyo.sen@rgu.ac
+                                </div>
+                                -->
 
                             <!--
-                            <div class="rgu-fp-phone">
-                                +91 XXXXX XXXXX
-                            </div>
-                            -->
+                                <div class="rgu-fp-phone">
+                                    +91 XXXXX XXXXX
+                                </div>
+                                -->
 
                             <!--
-                            <a href="#" class="rgu-fp-cv-btn">
-                                Download CV
-                            </a>
-                            -->
+                                <a href="#" class="rgu-fp-cv-btn">
+                                    Download CV
+                                </a>
+                                -->
 
                         </div>
 
@@ -1075,15 +1074,15 @@
 
 
                 <!-- =======================================================
-                     RIGHT CONTENT
-                ======================================================== -->
+                         RIGHT CONTENT
+                    ======================================================== -->
 
                 <div class="rgu-fp-content">
 
                     <!-- HTML PART 2 STARTS HERE -->
                     <!-- =======================================================
-                         QUALIFICATIONS
-                    ======================================================== -->
+                             QUALIFICATIONS
+                        ======================================================== -->
 
                     <section class="rgu-fp-section">
 
@@ -1105,8 +1104,8 @@
 
 
                     <!-- =======================================================
-                         EXPERIENCE / HIGHLIGHTS
-                    ======================================================== -->
+                             EXPERIENCE / HIGHLIGHTS
+                        ======================================================== -->
 
                     <section class="rgu-fp-section">
 
@@ -1115,11 +1114,11 @@
 
                             <!-- <div class="rgu-fp-stat-card">
 
-                                    <h3>Total Experience</h3>
+                                        <h3>Total Experience</h3>
 
-                                    <p>16 Years</p>
+                                        <p>16 Years</p>
 
-                                </div> -->
+                                    </div> -->
 
 
                             <div class="rgu-fp-stat-card">
@@ -1131,13 +1130,13 @@
                             </div>
 
                             <!--
-                                <div class="rgu-fp-stat-card">
+                                    <div class="rgu-fp-stat-card">
 
-                                    <h3>Industry Experience</h3>
+                                        <h3>Industry Experience</h3>
 
-                                    <p>7 Years</p>
+                                        <p>7 Years</p>
 
-                                </div> -->
+                                    </div> -->
 
 
                             <div class="rgu-fp-stat-card">
@@ -1155,7 +1154,7 @@
 
                                 <p>
                                     <!-- National: 3
-                                        <span>|</span> -->
+                                            <span>|</span> -->
                                     International: 1
                                 </p>
 
@@ -1164,47 +1163,47 @@
 
                             <!-- <div class="rgu-fp-stat-card">
 
-                                    <h3>Patents Published</h3>
+                                        <h3>Patents Published</h3>
 
-                                    <p>1</p>
+                                        <p>1</p>
 
-                                </div>
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Patents Granted</h3>
-
-                                    <p>2</p>
-
-                                </div>
+                                    </div>
 
 
-                                <div class="rgu-fp-stat-card">
+                                    <div class="rgu-fp-stat-card">
 
-                                    <h3>Books Published</h3>
+                                        <h3>Patents Granted</h3>
 
-                                    <p>1</p>
+                                        <p>2</p>
 
-                                </div>
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Book Chapters Published</h3>
-
-                                    <p>7</p>
-
-                                </div>
+                                    </div>
 
 
-                                <div class="rgu-fp-stat-card">
+                                    <div class="rgu-fp-stat-card">
 
-                                    <h3>Projects Undertaken</h3>
+                                        <h3>Books Published</h3>
 
-                                    <p>10</p>
+                                        <p>1</p>
 
-                                </div> -->
+                                    </div>
+
+
+                                    <div class="rgu-fp-stat-card">
+
+                                        <h3>Book Chapters Published</h3>
+
+                                        <p>7</p>
+
+                                    </div>
+
+
+                                    <div class="rgu-fp-stat-card">
+
+                                        <h3>Projects Undertaken</h3>
+
+                                        <p>10</p>
+
+                                    </div> -->
 
 
                         </div>
@@ -1212,8 +1211,8 @@
                     </section>
 
                     <!-- =======================================================
-                         RESEARCH INTEREST
-                    ======================================================== -->
+                             RESEARCH INTEREST
+                        ======================================================== -->
 
                     <section class="rgu-fp-section">
 
@@ -1235,8 +1234,8 @@
 
 
                     <!-- =======================================================
-                         ACHIEVEMENTS & AWARDS
-                    ======================================================== -->
+                             ACHIEVEMENTS & AWARDS
+                        ======================================================== -->
                     <section class="rgu-fp-section">
 
                         <h2 class="rgu-fp-section-title">
@@ -1255,271 +1254,271 @@
 
 
                     <!-- =======================================================
-                         RESEARCH PROJECTS (OPTIONAL)
-                    ======================================================== -->
+                             RESEARCH PROJECTS (OPTIONAL)
+                        ======================================================== -->
                     <!--
-                        <section class="rgu-fp-section">
+                            <section class="rgu-fp-section">
 
-                            <h2 class="rgu-fp-section-title">
-                                Research Projects
-                            </h2>
+                                <h2 class="rgu-fp-section-title">
+                                    Research Projects
+                                </h2>
 
-                            <div class="rgu-fp-card-list">
+                                <div class="rgu-fp-card-list">
 
-                                <div class="rgu-fp-info-card">
+                                    <div class="rgu-fp-info-card">
 
-                                    <h3>
-                                        Project Title
-                                    </h3>
+                                        <h3>
+                                            Project Title
+                                        </h3>
 
-                                    <p>
-                                        Funding Agency :
-                                        DBT
-                                    </p>
+                                        <p>
+                                            Funding Agency :
+                                            DBT
+                                        </p>
 
-                                    <p>
-                                        Role :
-                                        Principal Investigator
-                                    </p>
+                                        <p>
+                                            Role :
+                                            Principal Investigator
+                                        </p>
 
-                                    <p>
-                                        Duration :
-                                        2022 – 2025
-                                    </p>
+                                        <p>
+                                            Duration :
+                                            2022 – 2025
+                                        </p>
+
+                                    </div>
+
+                                    <div class="rgu-fp-info-card">
+
+                                        <h3>
+                                            Project Title
+                                        </h3>
+
+                                        <p>
+                                            Funding Agency :
+                                            ICAR
+                                        </p>
+
+                                        <p>
+                                            Role :
+                                            Co-Principal Investigator
+                                        </p>
+
+                                        <p>
+                                            Duration :
+                                            2020 – 2023
+                                        </p>
+
+                                    </div>
 
                                 </div>
 
-                                <div class="rgu-fp-info-card">
+                            </section> -->
 
-                                    <h3>
-                                        Project Title
-                                    </h3>
 
-                                    <p>
-                                        Funding Agency :
-                                        ICAR
-                                    </p>
 
-                                    <p>
-                                        Role :
-                                        Co-Principal Investigator
-                                    </p>
+                    <!-- =======================================================
+                             PATENTS (OPTIONAL)
+                        ======================================================== -->
 
-                                    <p>
-                                        Duration :
-                                        2020 – 2023
-                                    </p>
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Patents
+                                </h2>
+
+                                <ul class="rgu-fp-list">
+
+                                    <li>
+                                        Patent Title One
+                                    </li>
+
+                                    <li>
+                                        Patent Title Two
+                                    </li>
+
+                                </ul>
+
+                            </section> -->
+
+
+
+                    <!-- =======================================================
+                             BOOKS (OPTIONAL)
+                        ======================================================== -->
+
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Books
+                                </h2>
+
+                                <ul class="rgu-fp-list">
+
+                                    <li>
+                                        Book Name (2023)
+                                    </li>
+
+                                    <li>
+                                        Book Name (2024)
+                                    </li>
+
+                                </ul>
+
+                            </section> -->
+
+
+
+                    <!-- =======================================================
+                             BOOK CHAPTERS (OPTIONAL)
+                        ======================================================== -->
+
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Book Chapters
+                                </h2>
+
+                                <ul class="rgu-fp-list">
+
+                                    <li>
+                                        Chapter Name One
+                                    </li>
+
+                                    <li>
+                                        Chapter Name Two
+                                    </li>
+
+                                </ul>
+
+                            </section> -->
+
+
+
+                    <!-- =======================================================
+                             PUBLICATIONS (OPTIONAL)
+                        ======================================================== -->
+
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Selected Publications
+                                </h2>
+
+                                <ol class="rgu-fp-publication-list">
+
+                                    <li>
+
+                                        Complete publication
+                                        citation goes here...
+
+                                    </li>
+
+                                    <li>
+
+                                        Complete publication
+                                        citation goes here...
+
+                                    </li>
+
+                                    <li>
+
+                                        Complete publication
+                                        citation goes here...
+
+                                    </li>
+
+                                </ol>
+
+                            </section> -->
+
+
+
+                    <!-- =======================================================
+                             PROFESSIONAL MEMBERSHIPS (OPTIONAL)
+                        ======================================================== -->
+
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Professional Memberships
+                                </h2>
+
+                                <ul class="rgu-fp-list">
+
+                                    <li>
+                                        Life Member – Society Name
+                                    </li>
+
+                                    <li>
+                                        Member – Professional Body
+                                    </li>
+
+                                </ul>
+
+                            </section> -->
+
+
+
+                    <!-- =======================================================
+                             COURSES TAUGHT (OPTIONAL)
+                        ======================================================== -->
+
+                    <!-- <section class="rgu-fp-section">
+
+                                <h2 class="rgu-fp-section-title">
+                                    Courses Taught
+                                </h2>
+
+                                <div class="rgu-fp-tags">
+
+                                    <span>Plant Biotechnology</span>
+
+                                    <span>Genetics</span>
+
+                                    <span>Plant Breeding</span>
+
+                                    <span>Biotechnology</span>
+
+                                    <span>Molecular Biology</span>
 
                                 </div>
 
-                            </div>
-
-                        </section> -->
+                            </section> -->
 
 
 
                     <!-- =======================================================
-                         PATENTS (OPTIONAL)
-                    ======================================================== -->
+                             DOWNLOADS (OPTIONAL)
+                        ======================================================== -->
 
                     <!-- <section class="rgu-fp-section">
 
-                            <h2 class="rgu-fp-section-title">
-                                Patents
-                            </h2>
+                                <h2 class="rgu-fp-section-title">
+                                    Downloads
+                                </h2>
 
-                            <ul class="rgu-fp-list">
+                                <div class="rgu-fp-downloads">
 
-                                <li>
-                                    Patent Title One
-                                </li>
+                                    <a href="#">
 
-                                <li>
-                                    Patent Title Two
-                                </li>
+                                        <i class="fas fa-file-pdf"></i>
 
-                            </ul>
+                                        Curriculum Vitae
 
-                        </section> -->
+                                    </a>
 
+                                    <a href="#">
 
+                                        <i class="fas fa-file-pdf"></i>
 
-                    <!-- =======================================================
-                         BOOKS (OPTIONAL)
-                    ======================================================== -->
+                                        Publications List
 
-                    <!-- <section class="rgu-fp-section">
+                                    </a>
 
-                            <h2 class="rgu-fp-section-title">
-                                Books
-                            </h2>
+                                </div>
 
-                            <ul class="rgu-fp-list">
-
-                                <li>
-                                    Book Name (2023)
-                                </li>
-
-                                <li>
-                                    Book Name (2024)
-                                </li>
-
-                            </ul>
-
-                        </section> -->
-
-
-
-                    <!-- =======================================================
-                         BOOK CHAPTERS (OPTIONAL)
-                    ======================================================== -->
-
-                    <!-- <section class="rgu-fp-section">
-
-                            <h2 class="rgu-fp-section-title">
-                                Book Chapters
-                            </h2>
-
-                            <ul class="rgu-fp-list">
-
-                                <li>
-                                    Chapter Name One
-                                </li>
-
-                                <li>
-                                    Chapter Name Two
-                                </li>
-
-                            </ul>
-
-                        </section> -->
-
-
-
-                    <!-- =======================================================
-                         PUBLICATIONS (OPTIONAL)
-                    ======================================================== -->
-
-                    <!-- <section class="rgu-fp-section">
-
-                            <h2 class="rgu-fp-section-title">
-                                Selected Publications
-                            </h2>
-
-                            <ol class="rgu-fp-publication-list">
-
-                                <li>
-
-                                    Complete publication
-                                    citation goes here...
-
-                                </li>
-
-                                <li>
-
-                                    Complete publication
-                                    citation goes here...
-
-                                </li>
-
-                                <li>
-
-                                    Complete publication
-                                    citation goes here...
-
-                                </li>
-
-                            </ol>
-
-                        </section> -->
-
-
-
-                    <!-- =======================================================
-                         PROFESSIONAL MEMBERSHIPS (OPTIONAL)
-                    ======================================================== -->
-
-                    <!-- <section class="rgu-fp-section">
-
-                            <h2 class="rgu-fp-section-title">
-                                Professional Memberships
-                            </h2>
-
-                            <ul class="rgu-fp-list">
-
-                                <li>
-                                    Life Member – Society Name
-                                </li>
-
-                                <li>
-                                    Member – Professional Body
-                                </li>
-
-                            </ul>
-
-                        </section> -->
-
-
-
-                    <!-- =======================================================
-                         COURSES TAUGHT (OPTIONAL)
-                    ======================================================== -->
-
-                    <!-- <section class="rgu-fp-section">
-
-                            <h2 class="rgu-fp-section-title">
-                                Courses Taught
-                            </h2>
-
-                            <div class="rgu-fp-tags">
-
-                                <span>Plant Biotechnology</span>
-
-                                <span>Genetics</span>
-
-                                <span>Plant Breeding</span>
-
-                                <span>Biotechnology</span>
-
-                                <span>Molecular Biology</span>
-
-                            </div>
-
-                        </section> -->
-
-
-
-                    <!-- =======================================================
-                         DOWNLOADS (OPTIONAL)
-                    ======================================================== -->
-
-                    <!-- <section class="rgu-fp-section">
-
-                            <h2 class="rgu-fp-section-title">
-                                Downloads
-                            </h2>
-
-                            <div class="rgu-fp-downloads">
-
-                                <a href="#">
-
-                                    <i class="fas fa-file-pdf"></i>
-
-                                    Curriculum Vitae
-
-                                </a>
-
-                                <a href="#">
-
-                                    <i class="fas fa-file-pdf"></i>
-
-                                    Publications List
-
-                                </a>
-
-                            </div>
-
-                        </section> -->
+                            </section> -->
 
 
 

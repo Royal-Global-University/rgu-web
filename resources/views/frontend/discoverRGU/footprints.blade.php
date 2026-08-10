@@ -21,8 +21,8 @@
     </section>
 
     <!-- ======================================
-         ROYAL FOOTPRINTS
-    ====================================== -->
+             ROYAL FOOTPRINTS
+        ====================================== -->
 
     <section class="rgu-rf-section">
 
@@ -117,8 +117,8 @@
 
     <style>
         /*======================================
-    ROYAL FOOTPRINTS
-    ======================================*/
+        ROYAL FOOTPRINTS
+        ======================================*/
 
         .rgu-rf-section {
             background: #eef3f8;
@@ -126,8 +126,8 @@
 
 
         /*======================================
-    QUOTE SECTION
-    ======================================*/
+        QUOTE SECTION
+        ======================================*/
 
         .rgu-rf-quote-wrap {
             max-width: 1000px;
@@ -167,8 +167,8 @@
 
 
         /*======================================
-    BLUE SHOWCASE SECTION
-    ======================================*/
+        BLUE SHOWCASE SECTION
+        ======================================*/
 
         .rgu-rf-showcase {
             background:
@@ -185,8 +185,8 @@
 
 
         /*======================================
-    LEFT TABS
-    ======================================*/
+        LEFT TABS
+        ======================================*/
 
         .rgu-rf-tabs {
             display: flex;
@@ -249,8 +249,8 @@
 
 
         /*======================================
-    RIGHT CONTENT
-    ======================================*/
+        RIGHT CONTENT
+        ======================================*/
 
         .rgu-rf-content {
             padding-left: 2rem;
@@ -258,8 +258,8 @@
 
 
         /*======================================
-    CARDS
-    ======================================*/
+        CARDS
+        ======================================*/
 
         .rgu-rf-card {
             text-align: center;
@@ -304,8 +304,8 @@
 
 
         /*======================================
-    PAGINATION
-    ======================================*/
+        PAGINATION
+        ======================================*/
 
         .rgu-rf-pagination-wrap {
             margin-top: 5rem;
@@ -351,8 +351,8 @@
 
 
         /*======================================
-    TABLET
-    ======================================*/
+        TABLET
+        ======================================*/
 
         @media(max-width:991px) {
 
@@ -406,8 +406,8 @@
 
 
         /*======================================
-    MOBILE
-    ======================================*/
+        MOBILE
+        ======================================*/
 
         @media(max-width:767px) {
 
@@ -460,8 +460,8 @@
 
     <script>
         /*======================================
-            ROYAL FOOTPRINTS DATA
-            ======================================*/
+                ROYAL FOOTPRINTS DATA
+                ======================================*/
 
         const rguRfData = {
 
@@ -469,7 +469,7 @@
 
                 {
                     name: "Dr. A.P.J. Abdul Kalam",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/apjabdulkalam.jpeg"
+                    image: "/home-banner/footprint-list/apjabdulkalam.jpeg"
                 }
 
             ],
@@ -479,12 +479,12 @@
 
                 {
                     name: "Sri Sri Ravi Shankar",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
+                    image: "/home-banner/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
                 },
 
                 {
                     name: "Dr. Sonal Mansingh",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Dr.%20Sonal%20Mansingh.jpg"
+                    image: "/home-banner/footprint-list/Dr.%20Sonal%20Mansingh.jpg"
                 }
 
             ],
@@ -494,19 +494,19 @@
 
                 {
                     name: "Ruskin Bond",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.010.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.010.jpeg"
                 },
                 {
                     name: "Shyama Chona",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.006.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.006.jpeg"
                 },
                 {
                     name: "Meghnad Desai",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.008.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.008.jpeg"
                 },
                 {
                     name: "Kapil Dev",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.007.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.007.jpeg"
                 }
 
             ],
@@ -516,55 +516,55 @@
 
                 {
                     name: "Patricia Mukhim",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.020.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.020.jpeg"
                 },
                 {
                     name: "Jadav Payeng",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.016.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.016.jpeg"
                 },
                 {
                     name: "Geeta Dharmarajan",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.014.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.014.jpeg"
                 },
                 {
                     name: "Ileana Citaristi",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.015.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.015.jpeg"
                 },
                 {
                     name: "Mamang Dai",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.018.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.018.jpeg"
                 },
                 {
                     name: "Shekhar Sen",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.023.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.023.jpeg"
                 },
                 {
                     name: "Shovana Narayan",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.024.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.024.jpeg"
                 },
                 {
                     name: "Nirupam Bajpai",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.011.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.011.jpeg"
                 },
                 {
                     name: "Soma Ghosh",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.013.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.013.jpeg"
                 },
                 {
                     name: "Ravi Kannan R",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.017.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.017.jpeg"
                 },
                 {
                     name: "Uddhab Bharali",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.027.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.027.jpeg"
                 },
                 {
                     name: "Dr. Kiran Seth",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint-seth.jpg"
+                    image: "/home-banner/footprint-list/footprint-seth.jpg"
                 },
                 {
                     name: "Prof. Anil Kumar Boro",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/prof-anil-boro.jpg"
+                    image: "/home-banner/footprint-list/prof-anil-boro.jpg"
                 }
 
             ],
@@ -574,15 +574,15 @@
 
                 {
                     name: "Hima Das",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.001.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.001.jpeg"
                 },
                 {
                     name: "Suresh Kumar Mishra",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors2.003.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors2.003.jpeg"
                 },
                 {
                     name: "Lovlina Borgohain",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.026.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.026.jpeg"
                 },
 
 
@@ -593,342 +593,342 @@
 
                 {
                     name: "Jagdeep Dhankhar Ji",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Jagdeep-Dhankhar.jpg"
+                    image: "/home-banner/footprint-list/Jagdeep-Dhankhar.jpg"
                 },
                 {
                     name: "Justice Ranjan Gogoi",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Ranjan-Gogoi.png"
+                    image: "/home-banner/footprint-list/Ranjan-Gogoi.png"
                 },
                 {
                     name: "Zubeen Garg",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.049.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.049.jpeg"
                 },
                 {
                     name: "Sri Sri Ravi Shankar",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/ashoksinghal-footprints.jpg"
+                    image: "/home-banner/footprint-list/ashoksinghal-footprints.jpg"
                 },
                 {
                     name: "Subhash Ghai",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.045.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.045.jpeg"
                 },
                 {
                     name: "Subhash Chandra",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.044.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.044.jpeg"
                 },
                 {
                     name: "Siddharth Mohan",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.029.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.029.jpeg"
                 },
                 {
                     name: "Adil Hussain",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.002.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.002.jpeg"
                 },
                 {
                     name: "Prof. Jagdish Mukhi",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.026.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.026.jpeg"
                 },
                 {
                     name: "Bickram Ghosh",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.005.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.005.jpeg"
                 },
                 {
                     name: "Rima Das",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.028.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.028.jpeg"
                 },
                 {
                     name: "Navin Chawla",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.024.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.024.jpeg"
                 },
                 {
                     name: "Maxwell Pereira",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.021.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.021.jpeg"
                 },
                 {
                     name: "Lou Majaw",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.020.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.020.jpeg"
                 },
                 {
                     name: "Sarbananda Sonowal",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.050.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.050.jpeg"
                 },
                 {
                     name: "Shiv Khera",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.043.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.043.jpeg"
                 },
                 {
                     name: "Subramanian Swamy",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.046.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.046.jpeg"
                 },
                 {
                     name: "Tarun Gogoi",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.019.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.019.jpeg"
                 },
                 {
                     name: "Jerry Pinto",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.018.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.018.jpeg"
                 },
                 {
                     name: "Shashi Tharoor",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.013.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.013.jpeg"
                 },
                 {
                     name: "Jatin Bora",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.017.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.017.jpeg"
                 },
                 {
                     name: "Arnab Goswami",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.030.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.030.jpeg"
                 },
                 {
                     name: "Mani Shankar Aiyar",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.037.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.037.jpeg"
                 },
                 {
                     name: "Deepak Vohra",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.007.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.007.jpeg"
                 },
 
                 {
                     name: "Prafulla Kumar Mahanta",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.039.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.039.jpeg"
                 },
                 {
                     name: "Chetan Bhagat",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.033.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.033.jpeg"
                 },
                 {
                     name: "Dipak C. Jain",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.034.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.034.jpeg"
                 },
                 {
                     name: "Himanshu Rai",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.015.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.015.jpeg"
                 },
                 {
                     name: "Baba Ramdev",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.003.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.003.jpeg"
                 },
                 {
                     name: "Dr. Himanta Biswa Sarma",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.010.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.010.jpeg"
                 },
                 {
                     name: "Binita Jain",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.006.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.006.jpeg"
                 },
                 {
                     name: "Chungsik Yong",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.008.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.008.jpeg"
                 },
                 {
                     name: "Dr. Easterine Kire",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.009.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.009.jpeg"
                 },
                 {
                     name: "Dr. N C Talukdar",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.011.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.011.jpeg"
                 },
                 {
                     name: "Pawan Agarwal",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.012.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.012.jpeg"
                 },
                 {
                     name: "Haseeb A Drabu",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.014.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.014.jpeg"
                 },
                 {
                     name: "Kazi M Murshed",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.022.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.022.jpeg"
                 },
                 {
                     name: "Sunita Menon",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.023.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.023.jpeg"
                 },
                 {
                     name: "Anil Sahasrabudhe",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.025.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.025.jpeg"
                 },
                 {
                     name: "Dr. Ved Prakash",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.027.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.027.jpeg"
                 },
                 {
                     name: "Badruddin Ajmal",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.031.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.031.jpeg"
                 },
                 {
                     name: "Bhubaneswar Kalita",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.032.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.032.jpeg"
                 },
                 {
                     name: "Mahesh Bhatt",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.036.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.036.jpeg"
                 },
                 {
                     name: "Pijush Hazarika",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.038.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.038.jpeg"
                 },
                 {
                     name: "Ram Madhav",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.040.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.040.jpeg"
                 },
                 {
                     name: "Ranjit S. Mooshahary",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitors.041.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitors.041.jpeg"
                 },
                 {
                     name: "Shiv Charan Mathur",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.002.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.002.jpeg"
                 },
                 {
                     name: "Gulab Chand Kataria",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.017.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.017.jpeg"
                 },
 
                 {
                     name: "Vikram Doraiswami",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.005.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.005.jpeg"
                 },
                 {
                     name: "Janaki Ballabh Patnaik",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.016.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.016.jpeg"
                 },
                 {
                     name: "Bhushan Patwardhan",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.022.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.022.jpeg"
                 },
                 {
                     name: "Prof. C. Raj Kumar",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.011.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.011.jpeg"
                 },
                 {
                     name: "Sheel Vardhan Singh",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.007.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.007.jpeg"
                 },
                 {
                     name: "Ashneer Grover",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.023.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.023.jpeg"
                 },
                 {
                     name: "Aman Gupta",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.025.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.025.jpeg"
                 },
                 {
                     name: "Justice Ujjal Bhuyan",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.006.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.006.jpeg"
                 },
                 {
                     name: "Prof. D.P. Agrawal",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.021.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.021.jpeg"
                 },
                 {
                     name: "Justice V. Ramasubramanian",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.015.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.015.jpeg"
                 },
                 {
                     name: "Digvijaya Singh",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.019.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.019.jpeg"
                 },
                 {
                     name: "Sanjeev Sanyal",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.003.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.003.jpeg"
                 },
                 {
                     name: "Devdutt Pattnaik",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.020.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.020.jpeg"
                 },
                 {
                     name: "Barry O’Brien",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.004.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.004.jpeg"
                 },
                 {
                     name: "Nitin Gadkari",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.013.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.013.jpeg"
                 },
                 {
                     name: "Sonu Sharma",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.001.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.001.jpeg"
                 },
                 {
                     name: "Ranoj Pegu",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.009.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.009.jpeg"
                 },
                 {
                     name: "Om Birla",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.012.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.012.jpeg"
                 },
                 {
                     name: "Nandita Garlosa",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.014.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.014.jpeg"
                 },
                 {
                     name: "Dr. Malabika Mitra",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.018.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.018.jpeg"
                 },
                 {
                     name: "Pt. Rakesh Chaurasia",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.010.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.010.jpeg"
                 },
                 {
                     name: "Riyan Parag",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/footprint072024.008.jpeg"
+                    image: "/home-banner/footprint-list/footprint072024.008.jpeg"
                 },
                 {
                     name: "Armaan Malik",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Armaan-Malik.jpg"
+                    image: "/home-banner/footprint-list/Armaan-Malik.jpg"
                 },
                 {
                     name: "Prof. Prabuddha Ganguli",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Prof-Prabuddha-Ganguli.jpg"
+                    image: "/home-banner/footprint-list/Prof-Prabuddha-Ganguli.jpg"
                 },
 
                 {
                     name: "Temjen Imna Along",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Temjen-Imna-Along.jpg"
+                    image: "/home-banner/footprint-list/Temjen-Imna-Along.jpg"
                 },
                 {
                     name: "Pradeep Purohit",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Pradeep-Purohit.jpg"
+                    image: "/home-banner/footprint-list/Pradeep-Purohit.jpg"
                 },
                 {
                     name: "Prof. Amarjyoti Choudhury",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
+                    image: "/home-banner/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
                 },
                 {
                     name: "Maj. Gen. Rajesh Kumar Jha",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
+                    image: "/home-banner/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
                 },
                 {
                     name: "Mushtaq Ahmed Anfar Ali",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
+                    image: "/home-banner/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
                 },
                 {
                     name: "Conrad K Sangma",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Conrad-K-Sangma.jpg"
+                    image: "/home-banner/footprint-list/Conrad-K-Sangma.jpg"
                 },
                 {
                     name: "Dr. Arup Kumar Misra",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Dr-Arup-Kumar-Misra.jpg"
+                    image: "/home-banner/footprint-list/Dr-Arup-Kumar-Misra.jpg"
                 },
                 {
                     name: "Lt. Gen. Rana Pratap Kalita",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
+                    image: "/home-banner/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
                 },
                 {
                     name: "Bubagra Pradyot Bikram Manikya",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
+                    image: "/home-banner/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
                 },
                 {
                     name: "Chaitali Panmei",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Chaitali-Panmei.jpg"
+                    image: "/home-banner/footprint-list/Chaitali-Panmei.jpg"
                 },
                 {
                     name: "Barsha Rani Bishaya",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/Barsha-Rani-Bishaya.jpg"
+                    image: "/home-banner/footprint-list/Barsha-Rani-Bishaya.jpg"
                 },
                 {
                     name: "Shillong Chamber Choir",
-                    image: "https://www.rgu.ac/home-banner/footprint-list/rgu-visitor-group.001.jpeg"
+                    image: "/home-banner/footprint-list/rgu-visitor-group.001.jpeg"
                 },
 
 
@@ -968,8 +968,8 @@
 
     <script>
         /*======================================
-            ROYAL FOOTPRINTS LOGIC
-            ======================================*/
+                ROYAL FOOTPRINTS LOGIC
+                ======================================*/
 
         const rguRfTabsContainer =
             document.getElementById("rguRfTabs");

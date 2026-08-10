@@ -178,8 +178,7 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img"
-                                src="https://www.rgu.ac/mobile-assets/department-all/dept-assamese/bhumika-nath.png"
+                            <img class="faculty-bio-img" src="/mobile-assets/department-all/dept-assamese/bhumika-nath.png"
                                 alt="">
                         </div>
                     </div>

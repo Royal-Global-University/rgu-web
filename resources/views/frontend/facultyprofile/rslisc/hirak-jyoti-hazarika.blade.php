@@ -179,8 +179,7 @@
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
                             <img class="faculty-bio-img"
-                                src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Hirak-Jyoti-Hazarika-RSLIC.png"
-                                alt="">
+                                src="/mobile-assets/updated-faculty-img/Hirak-Jyoti-Hazarika-RSLIC.png" alt="">
                         </div>
                     </div>
 

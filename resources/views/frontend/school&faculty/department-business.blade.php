@@ -1459,8 +1459,7 @@
                     <div class="dept-business-accordion-content">
                         <div class="dept-business-syllabus-list">
 
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSB/MBA_Syllabus2025-26.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSB/MBA_Syllabus2025-26.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1469,8 +1468,7 @@
                                 <i class="fa-solid fa-download dept-business-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSB/EMBA Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSB/EMBA Syllabus.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1495,8 +1493,7 @@
                     <div class="dept-business-accordion-content">
                         <div class="dept-business-syllabus-list">
 
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSB/BBA SYLLABUS FOR 24-28 - Final Copy.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSB/BBA SYLLABUS FOR 24-28 - Final Copy.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1521,7 +1518,7 @@
 
                     <div class="dept-business-accordion-content">
                         <div class="dept-business-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-business-syllabus-link" download>
+                            <a href="/phd" class="dept-business-syllabus-link" download>
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1553,36 +1550,36 @@
 
         <!-- <div class="dept-business-lab-section" id="dept-lab">
 
-          <div class="dept-business-lab-container">
+              <div class="dept-business-lab-container">
 
-            <h2 class="dept-business-section-title">Our <span>Lab</span></h2>
+                <h2 class="dept-business-section-title">Our <span>Lab</span></h2>
 
-            <p class="dept-business-intro-lab" style="padding-bottom: 30px;">
-              The University has established an action learning laboratory for Anesthesia & Operation Theatre (AOT)
-              techniques. This facility is equipped with a modern operating theatre that includes an anesthesia machine,
-              surgical table, OT lighting, patient monitoring systems, electrosurgical cautery, suction apparatus, etc.
-              along with advanced mannequins. These resources provide students with immersive, hands-on training and
-              practice-oriented learning, enabling them to confidently operate essential tools used in surgical
-              environments. <br> <br>
-              The primary objective of the laboratory is to help students develop a comprehensive and in-depth understanding
-              of surgical procedures. By mastering both the theoretical and practical aspects of anesthesia and OT
-              technology, students will be prepared to enhance the quality of patient care during surgical interventions.
-            </p>
+                <p class="dept-business-intro-lab" style="padding-bottom: 30px;">
+                  The University has established an action learning laboratory for Anesthesia & Operation Theatre (AOT)
+                  techniques. This facility is equipped with a modern operating theatre that includes an anesthesia machine,
+                  surgical table, OT lighting, patient monitoring systems, electrosurgical cautery, suction apparatus, etc.
+                  along with advanced mannequins. These resources provide students with immersive, hands-on training and
+                  practice-oriented learning, enabling them to confidently operate essential tools used in surgical
+                  environments. <br> <br>
+                  The primary objective of the laboratory is to help students develop a comprehensive and in-depth understanding
+                  of surgical procedures. By mastering both the theoretical and practical aspects of anesthesia and OT
+                  technology, students will be prepared to enhance the quality of patient care during surgical interventions.
+                </p>
 
 
 
-            <div class="dept-business-lab-gallery">
-              <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/1.jpg" alt="Lab 1" class="dept-business-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/2.jpg" alt="Lab 2" class="dept-business-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/3.jpg" alt="Lab 3" class="dept-business-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/4.jpg" alt="Lab 4" class="dept-business-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/5.jpg" alt="Lab 5" class="dept-business-lab-img">
+                <div class="dept-business-lab-gallery">
+                  <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/1.jpg" alt="Lab 1" class="dept-business-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/2.jpg" alt="Lab 2" class="dept-business-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/3.jpg" alt="Lab 3" class="dept-business-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/4.jpg" alt="Lab 4" class="dept-business-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/anasthesia-ott/5.jpg" alt="Lab 5" class="dept-business-lab-img">
 
-            </div>
+                </div>
 
-          </div>
+              </div>
 
-        </div> -->
+            </div> -->
 
     </div>
 
@@ -1591,49 +1588,49 @@
         const coursesData = [{
                 title: "MBA - Finance",
                 duration: "2 Years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "MBA Marketing",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "MBA – HRM",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "MBA – Operations Management",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "MBA – Entrepreneurship & Small Business Management",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "MBA – Business Analytics",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MBA-Finance"
+                link: "/programs-MBA-Finance"
             },
 
             {
                 title: "Executive MBA",
                 duration: "2 years",
-                link: "https://www.rgu.ac/program-executive-mba"
+                link: "/program-executive-mba"
             },
 
             {
                 title: "BBA",
                 duration: "4 years as per NEP",
-                link: "https://www.rgu.ac/programs-BBA"
+                link: "/programs-BBA"
             }
 
         ];
@@ -1799,10 +1796,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -2115,8 +2112,8 @@
 
             <div class="dept-business-event-img-grid">
               ${(event.images || []).slice(0, 4).map(img => `
-                    <img src="${img}" alt="event image">
-                  `).join("")}
+                        <img src="${img}" alt="event image">
+                      `).join("")}
             </div>
 
           </div>

@@ -1274,75 +1274,75 @@
         </div>
 
         <!-- <div class="dept-nursing-prospects-section" id="dept-prospects">
-          <h2 class="dept-nursing-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-nursing-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-nursing-prospects-content">
-            <p class="dept-nursing-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-nursing-prospects-content">
+                <p class="dept-nursing-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-nursing-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-nursing-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-nursing-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Government Sector Jobs</h3>
-            <ol class="dept-nursing-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Government Sector Jobs</h3>
+                <ol class="dept-nursing-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Private Sector Careers</h3>
-            <ol class="dept-nursing-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Private Sector Careers</h3>
+                <ol class="dept-nursing-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Research & Teaching</h3>
-            <ol class="dept-nursing-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Research & Teaching</h3>
+                <ol class="dept-nursing-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-nursing-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-nursing-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Jobs Abroad</h3>
-            <ol class="dept-nursing-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Jobs Abroad</h3>
+                <ol class="dept-nursing-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-nursing-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-nursing-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-nursing-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-nursing-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-nursing-accordion-section" id="dept-syllabus">
             <h2 class="dept-nursing-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1350,30 +1350,30 @@
             <div class="dept-nursing-accordion-wrapper">
 
                 <!-- <div class="dept-nursing-accordion-item active">
-                        <div class="dept-nursing-accordion-header">
-                            <div class="dept-nursing-accordion-header-left">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <span>Diploma</span>
+                            <div class="dept-nursing-accordion-header">
+                                <div class="dept-nursing-accordion-header-left">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <span>Diploma</span>
+                                </div>
+                                <i class="fa-solid fa-chevron-down dept-nursing-chevron"></i>
                             </div>
-                            <i class="fa-solid fa-chevron-down dept-nursing-chevron"></i>
-                        </div>
 
-                        <div class="dept-nursing-accordion-content">
-                            <div class="dept-nursing-syllabus-list">
+                            <div class="dept-nursing-accordion-content">
+                                <div class="dept-nursing-syllabus-list">
 
-                                <a target="_blank"
-                                    href="https://www.rgu.ac/programs-General-Nursing-Midwifery"
-                                    class="dept-nursing-syllabus-link">
-                                    <div class="dept-nursing-syllabus-link-left">
-                                        <i class="fa-solid fa-file-lines"></i>
-                                        General Nursing & Midwifery (GNM)
-                                    </div>
-                                    <i class="fa-solid fa-download dept-nursing-download-icon"></i>
-                                </a>
+                                    <a target="_blank"
+                                        href="/programs-General-Nursing-Midwifery"
+                                        class="dept-nursing-syllabus-link">
+                                        <div class="dept-nursing-syllabus-link-left">
+                                            <i class="fa-solid fa-file-lines"></i>
+                                            General Nursing & Midwifery (GNM)
+                                        </div>
+                                        <i class="fa-solid fa-download dept-nursing-download-icon"></i>
+                                    </a>
 
+                                </div>
                             </div>
-                        </div>
-                    </div> -->
+                        </div> -->
 
                 <div class="dept-nursing-accordion-item active">
                     <div class="dept-nursing-accordion-header">
@@ -1386,8 +1386,7 @@
 
                     <div class="dept-nursing-accordion-content">
                         <div class="dept-nursing-syllabus-list">
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsn/syllabus-pdf/structure-nursing.pdf"
+                            <a target="_blank" href="/mobile-assets/department-all/rsn/syllabus-pdf/structure-nursing.pdf"
                                 class="dept-nursing-syllabus-link">
                                 <div class="dept-nursing-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1396,8 +1395,7 @@
                                 <i class="fa-solid fa-download dept-nursing-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsn/syllabus-pdf/syllabus-nursing.pdf"
+                            <a target="_blank" href="/mobile-assets/department-all/rsn/syllabus-pdf/syllabus-nursing.pdf"
                                 class="dept-nursing-syllabus-link">
                                 <div class="dept-nursing-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1421,7 +1419,7 @@
 
                     <div class="dept-nursing-accordion-content">
                         <div class="dept-nursing-syllabus-list">
-                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-nursing-syllabus-link" download>
+                            <a href="/doctoral-programme" class="dept-nursing-syllabus-link" download>
                                 <div class="dept-nursing-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1498,12 +1496,12 @@
         const coursesData = [{
                 title: "General Nursing & Midwifery",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-General-Nursing-Midwifery"
+                link: "/programs-General-Nursing-Midwifery"
             },
             {
                 title: "B.Sc. - Nursing",
                 duration: "3 years",
-                link: "https://www.rgu.ac/programs-BSc-Nursing"
+                link: "/programs-BSc-Nursing"
             }
         ];
 
@@ -1766,10 +1764,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>

@@ -1106,9 +1106,9 @@
         </a>
 
         <!-- <a href="#dept-vision" class="dept-physics-float-item">
-          <i class="fa fa-bullseye"></i>
-          <span class="dept-physics-float-text">Vision & Mission</span>
-        </a> -->
+              <i class="fa fa-bullseye"></i>
+              <span class="dept-physics-float-text">Vision & Mission</span>
+            </a> -->
 
         <a href="#dept-courses" class="dept-physics-float-item">
             <i class="fa fa-graduation-cap"></i>
@@ -1116,9 +1116,9 @@
         </a>
 
         <!-- <a href="#dept-prospects" class="dept-physics-float-item">
-          <i class="fa fa-file-text"></i>
-          <span class="dept-physics-float-text">Prospects</span>
-        </a> -->
+              <i class="fa fa-file-text"></i>
+              <span class="dept-physics-float-text">Prospects</span>
+            </a> -->
 
         <a href="#dept-syllabus" class="dept-physics-float-item">
             <i class="fa fa-file-text"></i>
@@ -1222,75 +1222,75 @@
         </div>
 
         <!-- <div class="dept-physics-prospects-section" id="dept-prospects">
-          <h2 class="dept-physics-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-physics-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-physics-prospects-content">
-            <p class="dept-physics-intro-text">
-              The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-physics-prospects-content">
+                <p class="dept-physics-intro-text">
+                  The prospects after a B.Sc. in Physics are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-physics-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-physics-list">
-              <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-physics-list">
+                  <li>M.Sc. in Physics (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Government Sector Jobs</h3>
-            <ol class="dept-physics-list">
-              <li>Agricultural Officer / Physics Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Government Sector Jobs</h3>
+                <ol class="dept-physics-list">
+                  <li>Agricultural Officer / Physics Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Private Sector Careers</h3>
-            <ol class="dept-physics-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Private Sector Careers</h3>
+                <ol class="dept-physics-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Physics officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Research & Teaching</h3>
-            <ol class="dept-physics-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Research & Teaching</h3>
+                <ol class="dept-physics-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-physics-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-physics-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Jobs Abroad</h3>
-            <ol class="dept-physics-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Jobs Abroad</h3>
+                <ol class="dept-physics-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-physics-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-physics-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-physics-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-physics-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Physics</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-physics-accordion-section" id="dept-syllabus">
             <h2 class="dept-physics-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1309,7 +1309,7 @@
                     <div class="dept-physics-accordion-content">
                         <div class="dept-physics-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
+                                href="/mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1317,8 +1317,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/Detail Syllabus BSc Physics (H).pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/Detail Syllabus BSc Physics (H).pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1342,7 +1341,7 @@
                     <div class="dept-physics-accordion-content">
                         <div class="dept-physics-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
+                                href="/mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1350,8 +1349,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/PG FULL SYLLABUS_Physics.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/PG FULL SYLLABUS_Physics.pdf"
                                 class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1374,7 +1372,7 @@
 
                     <div class="dept-physics-accordion-content">
                         <div class="dept-physics-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-physics-syllabus-link" download>
+                            <a href="/phd" class="dept-physics-syllabus-link" download>
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1410,8 +1408,7 @@
 
                         <!-- ADD IMAGES HERE -->
                         <div class="dp-slide">
-                            <img
-                                src="https://www.rgu.ac/mobile-assets/department-all/dept-physics/highlights/achievement1.png" />
+                            <img src="/mobile-assets/department-all/dept-physics/highlights/achievement1.png" />
                         </div>
 
 
@@ -1525,12 +1522,12 @@
         const coursesData = [{
                 title: "M.Sc. - Physics",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Physics"
+                link: "/programs-MSc-Physics"
             },
             {
                 title: "B.Sc. - Physics | Honours / Honours with Research",
                 duration: "4 years as per NEP",
-                link: "https://www.rgu.ac/programs-b-sc-physics"
+                link: "/programs-b-sc-physics"
             }
         ];
 
@@ -1808,10 +1805,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>

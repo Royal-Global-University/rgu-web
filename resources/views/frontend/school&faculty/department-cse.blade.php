@@ -1097,7 +1097,7 @@
         <div class="dept-cse-hero" id="dept-about">
 
             <div class="dept-cse-img">
-                <img src="https://www.rgu.ac/mobile-assets/department-all/rset/cse/headimg.png" alt="Architecture">
+                <img src="/mobile-assets/department-all/rset/cse/headimg.png" alt="Architecture">
             </div>
 
             <div class="dept-cse-content">
@@ -1190,75 +1190,75 @@
         </div>
 
         <!-- <div class="dept-cse-prospects-section" id="dept-prospects">
-          <h2 class="dept-cse-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-cse-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-cse-prospects-content">
-            <p class="dept-cse-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-cse-prospects-content">
+                <p class="dept-cse-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-cse-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-cse-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-cse-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Government Sector Jobs</h3>
-            <ol class="dept-cse-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Government Sector Jobs</h3>
+                <ol class="dept-cse-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Private Sector Careers</h3>
-            <ol class="dept-cse-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Private Sector Careers</h3>
+                <ol class="dept-cse-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Research & Teaching</h3>
-            <ol class="dept-cse-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Research & Teaching</h3>
+                <ol class="dept-cse-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-cse-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-cse-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Jobs Abroad</h3>
-            <ol class="dept-cse-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Jobs Abroad</h3>
+                <ol class="dept-cse-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-cse-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-cse-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-cse-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-cse-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-cse-accordion-section" id="dept-syllabus">
             <h2 class="dept-cse-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1277,7 +1277,7 @@
                     <div class="dept-cse-accordion-content">
                         <div class="dept-cse-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rset/cse/updated-syllabus/Course_structure_CSE.pdf"
+                                href="/mobile-assets/department-all/rset/cse/updated-syllabus/Course_structure_CSE.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1285,7 +1285,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-cse-download-icon"></i>
                             </a>
-                            <a target="_blank" href="https://www.rgu.ac/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1293,8 +1293,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-cse-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/AI/BTech_AI%20&%20DS%20Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/AI/BTech_AI%20&%20DS%20Syllabus.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1318,7 +1317,7 @@
                     <div class="dept-cse-accordion-content">
                         <div class="dept-cse-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/CSE/M.%20Tech%20(CSE)_Detailed%20Syllabus.pdf"
+                                href="/mobile-assets/syllabus/CSE/M.%20Tech%20(CSE)_Detailed%20Syllabus.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1342,7 +1341,7 @@
 
                     <div class="dept-cse-accordion-content">
                         <div class="dept-cse-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-cse-syllabus-link" download>
+                            <a href="/phd" class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1365,8 +1364,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-cse-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-cse-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1419,24 +1418,15 @@
                 <!-- <h2 class="dept-cse-section-title">Glimpse of <span>our Lab</span></h2> -->
 
                 <div class="dept-cse-lab-gallery">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/1.jpeg" alt="Lab 1"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/3.jpg" alt="Lab 2"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/4.jpg" alt="Lab 3"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/5.jpg" alt="Lab 4"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/6.jpg" alt="Lab 5"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/7.jpg" alt="Lab 6"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/8.jpg" alt="Lab 7"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/9.jpg" alt="Lab 8"
-                        class="dept-cse-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-cse-lab-new/10.jpg" alt="Lab 9"
-                        class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/1.jpeg" alt="Lab 1" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/3.jpg" alt="Lab 2" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/4.jpg" alt="Lab 3" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/5.jpg" alt="Lab 4" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/6.jpg" alt="Lab 5" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/7.jpg" alt="Lab 6" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/8.jpg" alt="Lab 7" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/9.jpg" alt="Lab 8" class="dept-cse-lab-img">
+                    <img src="/mobile-assets/new-labs/lab-cse-lab-new/10.jpg" alt="Lab 9" class="dept-cse-lab-img">
 
 
 
@@ -1454,32 +1444,32 @@
         const coursesData = [{
                 title: "M. Tech. (CSE in Artificial Intelligence)",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MTech-CSE-in-Artifical-Intelligence"
+                link: "/programs-MTech-CSE-in-Artifical-Intelligence"
             },
             {
                 title: "M.Tech. CSE in Internet of Things",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MTech-CSE-in-Internet-of-Things"
+                link: "/programs-MTech-CSE-in-Internet-of-Things"
             },
             {
                 title: "B.Tech. - (Lateral Entry) - CE/CSE/ME/AI & Data Science",
                 duration: "3 years",
-                link: "https://www.rgu.ac/programs-b-tech-lateral-entry"
+                link: "/programs-b-tech-lateral-entry"
             },
             {
                 title: "B.Tech. - Working Professional (CE, CSE, ME)",
                 duration: "3 years",
-                link: "https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
+                link: "/programs-BTechWorking-Professional-CE-CSE"
             },
             {
                 title: "B. Tech (Artificial Intelligence & Data Science)",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
+                link: "/programs-b-tech-artifical-intelligence-ai"
             },
             {
                 title: "B.Tech. (CSE)",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-b-tech-cse"
+                link: "/programs-b-tech-cse"
             }
         ];
 
@@ -1684,10 +1674,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1755,10 +1745,10 @@
             title: "AI for Indigenous & Mountain Communities: Dr. Deepjyoti Choudhury, Associate Professor & HoD, CSE delivered an invited talk at the Multi-Stakeholders Seminar on “AI for the Indigenous & Mountain Communities in the Eastern Himalayan Region: Our Readiness, Our Digital Future”, held at the Department of IT, Gauhati University, Assam.",
             images: [
 
-                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/1.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/2.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/3.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/cse/events/4.JPG",
+                "/mobile-assets/department-all/rset/cse/events/1.JPG",
+                "/mobile-assets/department-all/rset/cse/events/2.JPG",
+                "/mobile-assets/department-all/rset/cse/events/3.JPG",
+                "/mobile-assets/department-all/rset/cse/events/4.JPG",
 
 
             ]

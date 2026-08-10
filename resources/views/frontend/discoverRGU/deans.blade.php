@@ -239,7 +239,8 @@
 
     <section class="pg-hero">
         <div class="pg-hero-bg"
-            style="background-image:url('/new-web/assets/img/discover-rgu-deans-corner/cover.png'); filter: blur(2px);"></div>
+            style="background-image:url('/new-web/assets/img/discover-rgu-deans-corner/cover.png'); filter: blur(2px);">
+        </div>
 
         <div class="pg-hero-bg"></div>
         <div class="pg-hero-overlay"></div>
@@ -259,44 +260,44 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nandana.jpeg" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Nandana.jpeg" alt="">
                 </div>
                 <h4>Prof. (Dr.) Nandana Dutta</h4>
                 <p class="board-m-role">Dean Academics, Professor of English & I/c Dean, Royal School of Law and
                     Administration</p>
-                <a href="https://www.rgu.ac/Dr-Nandana-Dutta" class="board-m-profile-link">View Profile</a>
+                <a href="/Dr-Nandana-Dutta" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsa/1.jpeg" alt="">
+                    <img src="/mobile-assets/all-faculty/rsa/1.jpeg" alt="">
                 </div>
                 <h4>Prof. (Dr.) Hari Prasad Agarwal</h4>
                 <p class="board-m-role">Dean, Royal School of Architecture; Dean, Royal School of Design; Dean, Royal
                     School of Fashion Design & Technology; Dean, Royal School of Fine Arts</p>
-                <a href="https://www.rgu.ac/faculty-hari-prasad-agarwal" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-hari-prasad-agarwal" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chatterjee.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/chatterjee.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) Aniruddha Chatterjee</h4>
                 <p class="board-m-role">Professor & Dean, RSAPS, The Assam Royal Global University</p>
-                <a href="https://www.rgu.ac/faculty-aniruddha-chatterjee" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-aniruddha-chatterjee" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-George-AP-RSB.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Prof-George-AP-RSB.png" alt="">
                 </div>
                 <h4>Prof. George AP</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Commerce; Professor & Dean, Royal School of
                     Business</p>
-                <a href="https://www.rgu.ac/faculty-george-ap" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-george-ap" class="board-m-profile-link">View Profile</a>
 
             </div>
 
@@ -305,7 +306,8 @@
                     <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
                 </div>
                 <h4>Prof. Shiela Bora</h4>
-                <p class="board-m-role">Professor & Adviser and Dean in-charge, Royal School of Humanities and Social Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
+                <p class="board-m-role">Professor & Adviser and Dean in-charge, Royal School of Humanities and Social
+                    Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
                 <a href="/faculty-shiela-bora" class="board-m-profile-link">View Profile</a>
 
             </div>
@@ -316,44 +318,44 @@
                 </div>
                 <h4>Prof. Prasanta Jyoti Baruah</h4>
                 <p class="board-m-role">Distinguished Professor & Dean, RSCOM</p>
-                <a href="https://www.rgu.ac/faculty-prasanta-jyoti-baruah" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-prasanta-jyoti-baruah" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsbsc/2.jpeg" alt="">
+                    <img src="/mobile-assets/all-faculty/rsbsc/2.jpeg" alt="">
                 </div>
                 <h4>Prof. Anupam Chatterjee</h4>
                 <p class="board-m-role">Dean & Professor, Royal School of Bio-Sciences</p>
-                <a href="https://www.rgu.ac/faculty-anupam-chatterjee" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-anupam-chatterjee" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debendra-Kumar-Nayak.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Debendra-Kumar-Nayak.png" alt="">
                 </div>
                 <h4>Prof. Debendra Kumar Nayak</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Environmental & Earth Sciences</p>
-                <a href="https://www.rgu.ac/faculty-debendra-kumar-nayak" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-debendra-kumar-nayak" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rset/diganta-munshi.jpeg" alt="">
+                    <img src="/mobile-assets/all-faculty/rset/diganta-munshi.jpeg" alt="">
                 </div>
                 <h4>Prof. Diganta Munshi</h4>
                 <p class="board-m-role">Professor & Registrar (Administration); Director, IQAC; Dean, Royal School of
                     Engineering & Technology; Dean, Royal School of Information Technology</p>
-                <a href="https://www.rgu.ac/faculty-diganta-munshi" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-diganta-munshi" class="board-m-profile-link">View Profile</a>
 
             </div>
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rslsc/nikhilkumar.jpeg" alt="">
+                    <img src="/mobile-assets/all-faculty/rslsc/nikhilkumar.jpeg" alt="">
                 </div>
                 <h4>Prof. Nikhil Kumar Chrungo</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Life Sciences; I/c Dean, Royal School of
@@ -364,7 +366,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg" alt="">
+                    <img src="/mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg" alt="">
                 </div>
                 <h4>Dr. Indrani Singh Rai</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Languages</p>
@@ -374,7 +376,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsmas/Abhijit.jpg" alt="">
+                    <img src="/mobile-assets/all-faculty/rsmas/Abhijit.jpg" alt="">
                 </div>
                 <h4>Prof. Abhijit Dutta</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Medical & Allied Science</p>
@@ -384,7 +386,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Verma.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Verma.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) M P Verma</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Hotel Management; Royal School of Travel and
@@ -395,7 +397,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/dean-rsp.jpeg" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/dean-rsp.jpeg" alt="">
                 </div>
                 <h4>Prof. Yeduru Krishna Reddy</h4>
                 <p class="board-m-role">Professor & Dean, RSP</p>
@@ -405,12 +407,11 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Kaberi-Saikia-RSN.png"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Dr-Kaberi-Saikia-RSN.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) Kaberi Saikia</h4>
                 <p class="board-m-role">Professor & Dean, RSN</p>
-                <a href="https://www.rgu.ac/faculty-kaberi-saikia" class="board-m-profile-link">View Profile</a>
+                <a href="/faculty-kaberi-saikia" class="board-m-profile-link">View Profile</a>
 
             </div>
 

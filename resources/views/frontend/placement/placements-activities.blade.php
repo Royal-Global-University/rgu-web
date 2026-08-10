@@ -2,8 +2,8 @@
 @section('content')
     <style>
         /* ===================================
-       INTERNATIONAL HIGHLIGHTS
-    =================================== */
+           INTERNATIONAL HIGHLIGHTS
+        =================================== */
 
         .intl-highlights-section {
             background: #eef1f7;
@@ -67,8 +67,8 @@
 
 
         /* ===================================
-       RESPONSIVE
-    =================================== */
+           RESPONSIVE
+        =================================== */
 
         @media (max-width:991px) {
 
@@ -119,8 +119,8 @@
 
     <style>
         /*===================================
-    PLACEMENT SERVICES
-    ===================================*/
+        PLACEMENT SERVICES
+        ===================================*/
 
         .placement-services-section {
 
@@ -229,8 +229,8 @@
 
     <style>
         /*===================================
-    LEADERSHIP CONCLAVE
-    ===================================*/
+        LEADERSHIP CONCLAVE
+        ===================================*/
 
         .leadership-conclave-section {
 
@@ -347,9 +347,9 @@
 
 
     <!-- =========================
-         INTERNATIONAL HIGHLIGHTS SECTION
-         Place this after the Hero Section
-    ========================= -->
+             INTERNATIONAL HIGHLIGHTS SECTION
+             Place this after the Hero Section
+        ========================= -->
 
     <section class="intl-highlights-section">
         <div class="container">
@@ -360,8 +360,7 @@
                 <!-- Left Image -->
                 <div class="col-lg-6">
                     <div class="intl-img-card">
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/headimg.png"
-                            alt="Education in India">
+                        <img src="/mobile-assets/placement-all/placements-activity/headimg.png" alt="Education in India">
                     </div>
                 </div>
 
@@ -386,8 +385,8 @@
     </section>
 
     <!-- ==========================================
-    PLACEMENT SERVICES
-    ========================================== -->
+        PLACEMENT SERVICES
+        ========================================== -->
 
     <section class="placement-services-section">
         <div class="container">
@@ -446,50 +445,38 @@
                 <div class="row g-4">
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g1.jpg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g1.jpg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g1.jpg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g1.jpg" alt="">
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g2.jpg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g2.jpg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g2.jpg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g2.jpg" alt="">
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g3.jpeg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g3.jpeg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g3.jpeg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g3.jpeg" alt="">
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g4.jpg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g4.jpg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g4.jpg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g4.jpg" alt="">
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g5.jpg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g5.jpg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g5.jpg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g5.jpg" alt="">
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g6.jpg"
-                            class="placement-gallery-item">
-                            <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/g6.jpg"
-                                alt="">
+                        <a href="/mobile-assets/placement-all/placements-activity/g6.jpg" class="placement-gallery-item">
+                            <img src="/mobile-assets/placement-all/placements-activity/g6.jpg" alt="">
                         </a>
                     </div>
 
@@ -501,8 +488,8 @@
     </section>
 
     <!--=========================================
-    LEADERSHIP CONCLAVE
-    ==========================================-->
+        LEADERSHIP CONCLAVE
+        ==========================================-->
 
     <section class="leadership-conclave-section">
 
@@ -537,11 +524,9 @@
 
                 <div class="col-lg-6 mb-4">
 
-                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
-                        class="leadership-gallery">
+                    <a href="/mobile-assets/placement-all/placements-activity/l-img.png" class="leadership-gallery">
 
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/l-img.png"
-                            alt="Leadership Conclave">
+                        <img src="/mobile-assets/placement-all/placements-activity/l-img.png" alt="Leadership Conclave">
 
                     </a>
 
@@ -549,11 +534,9 @@
 
                 <div class="col-lg-6 mb-4">
 
-                    <a href="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
-                        class="leadership-gallery">
+                    <a href="/mobile-assets/placement-all/placements-activity/r-img.png" class="leadership-gallery">
 
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placements-activity/r-img.png"
-                            alt="Leadership Conclave">
+                        <img src="/mobile-assets/placement-all/placements-activity/r-img.png" alt="Leadership Conclave">
 
                     </a>
 

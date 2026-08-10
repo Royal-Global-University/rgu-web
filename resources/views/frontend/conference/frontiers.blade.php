@@ -174,8 +174,7 @@
                     The author(s) must prepare a one page abstract as per the given template.
                     Selected papers may be published as a conference proceeding after peer review.
                     Templates for Abstract and Full Paper are available on the university website:
-                    <a class="fw-bold" href="https://www.rgu.ac/" target="_blank"
-                        style="color: #27467A; text-decoration: none;">https://www.rgu.ac/</a>
+                    <a class="fw-bold" href="/" target="_blank" style="color: #27467A; text-decoration: none;">/</a>
                 </p>
 
                 <h2 class="headd3 text-dark mt-3 fw-bold">Payment Details</h2>
@@ -191,7 +190,8 @@
                                 </th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
                                     <i>5<sup>th</sup>
-                                        January</i></th>
+                                        January</i>
+                                </th>
                             </tr>
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 8px;">Indian</th>
@@ -1009,8 +1009,8 @@
                     The author(s) must prepare a one page abstract as per the given template.
                     Selected papers may be published as a conference proceeding after peer review.
                     Templates for Abstract and Full Paper are available on the university website:
-                    <a class="fw-bold" href="https://www.rgu.ac/" target="_blank"
-                        style="color: #27467A; text-decoration: none;">https://www.rgu.ac/</a>
+                    <a class="fw-bold" href="/" target="_blank"
+                        style="color: #27467A; text-decoration: none;">/</a>
                 </p>
 
                 <h2 class="headd3 text-dark mt-3 fw-bold">Payment Details</h2>
@@ -1026,7 +1026,8 @@
                                 </th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
                                     <i>5<sup>th</sup>
-                                        January</i></th>
+                                        January</i>
+                                </th>
                             </tr>
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 8px;">Indian</th>

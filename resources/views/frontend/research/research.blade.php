@@ -512,8 +512,8 @@
             }
 
             /* THE FIX: The Invisible Bridge
-                   This creates a transparent block that fills the empty space (margin)
-                   so the mouse doesn't "fall" into the gap. */
+                       This creates a transparent block that fills the empty space (margin)
+                       so the mouse doesn't "fall" into the gap. */
             .urd_ql_dropdown_list::after {
                 content: "";
                 position: absolute;
@@ -679,10 +679,10 @@
                     </div>
 
                     <div class="urd_ql_grid_container">
-                        <a href="https://www.rgu.ac/research-preamble" class="urd_qlink_button">Preamble of Research</a>
-                        <a href="https://www.rgu.ac/research-r&d-team" class="urd_qlink_button">R&D Team</a>
-                        <a href="https://www.rgu.ac/research-department" class="urd_qlink_button">Research at RGU</a>
-                        <a href="https://www.rgu.ac/research-publication" class="urd_qlink_button">Publications</a>
+                        <a href="/research-preamble" class="urd_qlink_button">Preamble of Research</a>
+                        <a href="/research-r&d-team" class="urd_qlink_button">R&D Team</a>
+                        <a href="/research-department" class="urd_qlink_button">Research at RGU</a>
+                        <a href="/research-publication" class="urd_qlink_button">Publications</a>
 
                         <div class="urd_ql_dropdown_wrapper">
                             <div class="urd_qlink_button">
@@ -690,15 +690,15 @@
                             </div>
 
                             <div class="urd_ql_dropdown_list">
-                                <a href="https://www.rgu.ac/research-extramural">Extramurel Projects</a>
-                                <a href="https://www.rgu.ac/research-seed-grants-projects">RGU Seed Grant</a>
-                                <a href="https://www.rgu.ac/research-consultancy-projects">Consultancy Projects</a>
+                                <a href="/research-extramural">Extramurel Projects</a>
+                                <a href="/research-seed-grants-projects">RGU Seed Grant</a>
+                                <a href="/research-consultancy-projects">Consultancy Projects</a>
                             </div>
                         </div>
 
-                        <a href="https://www.rgu.ac/research-patents" class="urd_qlink_button">Patents</a>
-                        <a href="https://www.rgu.ac/research-csif" class="urd_qlink_button">CSIF</a>
-                        <a href="https://www.rgu.ac/research-policies&ethics" class="urd_qlink_button">Policies and
+                        <a href="/research-patents" class="urd_qlink_button">Patents</a>
+                        <a href="/research-csif" class="urd_qlink_button">CSIF</a>
+                        <a href="/research-policies&ethics" class="urd_qlink_button">Policies and
                             Ethics</a>
                     </div>
                 </section>
@@ -790,10 +790,10 @@
                     </div>
 
                     <div class="urd_ql_grid_container">
-                        <a href="https://www.rgu.ac/research-preamble" class="urd_qlink_button">Preamble of Research</a>
-                        <a href="https://www.rgu.ac/research-r&d-team" class="urd_qlink_button">R&D Team</a>
-                        <a href="https://www.rgu.ac/research-department" class="urd_qlink_button">Research at RGU</a>
-                        <a href="https://www.rgu.ac/research-publication" class="urd_qlink_button">Publications</a>
+                        <a href="/research-preamble" class="urd_qlink_button">Preamble of Research</a>
+                        <a href="/research-r&d-team" class="urd_qlink_button">R&D Team</a>
+                        <a href="/research-department" class="urd_qlink_button">Research at RGU</a>
+                        <a href="/research-publication" class="urd_qlink_button">Publications</a>
 
                         <div class="urd_ql_dropdown_wrapper">
                             <div class="urd_qlink_button">
@@ -801,15 +801,15 @@
                             </div>
 
                             <div class="urd_ql_dropdown_list">
-                                <a href="https://www.rgu.ac/research-extramural">Extramurel Projects</a>
-                                <a href="https://www.rgu.ac/research-seed-grants-projects">RGU Seed Grant</a>
-                                <a href="https://www.rgu.ac/research-consultancy-projects">Consultancy Projects</a>
+                                <a href="/research-extramural">Extramurel Projects</a>
+                                <a href="/research-seed-grants-projects">RGU Seed Grant</a>
+                                <a href="/research-consultancy-projects">Consultancy Projects</a>
                             </div>
                         </div>
 
-                        <a href="https://www.rgu.ac/research-patents" class="urd_qlink_button">Patents</a>
-                        <a href="https://www.rgu.ac/research-csif" class="urd_qlink_button">CSIF</a>
-                        <a href="https://www.rgu.ac/research-policies&ethics" class="urd_qlink_button">Policies and
+                        <a href="/research-patents" class="urd_qlink_button">Patents</a>
+                        <a href="/research-csif" class="urd_qlink_button">CSIF</a>
+                        <a href="/research-policies&ethics" class="urd_qlink_button">Policies and
                             Ethics</a>
                     </div>
                 </section>

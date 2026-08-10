@@ -312,8 +312,8 @@
 
     <style>
         /* =========================================
-       ORGANIZING COMMITTEE SECTION
-    ========================================= */
+           ORGANIZING COMMITTEE SECTION
+        ========================================= */
 
         .committee-block {
             margin-top: 70px;
@@ -464,8 +464,8 @@
 
     <style>
         /* =========================================
-    CONFERENCE TABS
-    ========================================= */
+        CONFERENCE TABS
+        ========================================= */
 
         .conference-tabs-section {
             padding: 20px 0;
@@ -655,8 +655,8 @@
     </header>
 
     <!-- =========================================
-    CONFERENCE TABS LAYOUT
-    ========================================= -->
+        CONFERENCE TABS LAYOUT
+        ========================================= -->
 
     <section class="conference-tabs-section">
         <div class="container">
@@ -983,12 +983,12 @@
                             <!-- Registration Link Here -->
 
                             <!--
-            <p>
-                <a href="#" target="_blank">
-                    Submit Abstract
-                </a>
-            </p>
-            -->
+                <p>
+                    <a href="#" target="_blank">
+                        Submit Abstract
+                    </a>
+                </p>
+                -->
 
                         </div>
 
@@ -1104,8 +1104,7 @@
 
                                 <!-- Chief Patron -->
                                 <div class="committee-card">
-                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ashok-kumar-pansari.png"
-                                        alt="Chief Patron">
+                                    <img src="/mobile-assets/governing-body/ashok-kumar-pansari.png" alt="Chief Patron">
                                     <h3>Dr. A K Pansari</h3>
                                     <p>Chancellor, The Assam Royal Global University</p>
                                     <div class="committee-role">Chief Patron</div>
@@ -1113,8 +1112,7 @@
 
                                 <!-- Patron -->
                                 <div class="committee-card">
-                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ankur-pansari.png"
-                                        alt="Patron">
+                                    <img src="/mobile-assets/governing-body/ankur-pansari.png" alt="Patron">
                                     <h3>Mr. Ankur Pansari</h3>
                                     <p>Pro-Chancellor, The Assam Royal Global University</p>
                                     <div class="committee-role">Patron</div>
@@ -1122,8 +1120,7 @@
 
                                 <!-- Chief Advisor -->
                                 <div class="committee-card">
-                                    <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png"
-                                        alt="Chief Advisor">
+                                    <img src="/mobile-assets/governing-body/ak-buragohain.png" alt="Chief Advisor">
                                     <h3>Prof. A. K. Buragohain</h3>
                                     <p>Vice-Chancellor, The Assam Royal Global University</p>
                                     <div class="committee-role">Chief Advisor</div>
@@ -1138,8 +1135,7 @@
                                 <div class="committee-grid committee-grid-4">
 
                                     <div class="committee-card">
-                                        <img src="https://www.rgu.ac/mobile-assets/governing-body/ak-buragohain.png"
-                                            alt="">
+                                        <img src="/mobile-assets/governing-body/ak-buragohain.png" alt="">
                                         <h3>Prof. A. K. Buragohain</h3>
                                         <p>Vice Chancellor, The Assam Royal Global University</p>
                                     </div>
@@ -1152,7 +1148,7 @@
                                     </div>
 
                                     <div class="committee-card">
-                                        <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="">
+                                        <img src="/mobile-assets/all-faculty/rsb/2.jpg" alt="">
                                         <h3>Prof. D N Singh</h3>
                                         <p>Registrar Academics, The Assam Royal Global University</p>
                                     </div>
@@ -1273,7 +1269,7 @@
                                 <div class="committee-grid committee-grid-2">
 
                                     <div class="committee-card">
-                                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
+                                        <img src="/mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
                                             alt="">
                                         <h3>Prof. Shwetambara Verma</h3>
                                         <div class="committee-role">Convenor</div>
@@ -1281,8 +1277,7 @@
                                     </div>
 
                                     <div class="committee-card">
-                                        <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg"
-                                            alt="">
+                                        <img src="/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
                                         <h3>Dr. Deepjyoti Choudhury</h3>
                                         <div class="committee-role">Co-Convenor</div>
 

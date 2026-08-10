@@ -11,7 +11,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Science
                     (RSLISC)</span></h2>
@@ -112,11 +112,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
+                                <img src="/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. D.N. Singh</h3>
                             <p class="card-designation">Professor, Registrar, Academics & i/c Dean, RSLISC & RSPES</p>
-                            <a href="https://www.rgu.ac/Prof-dn-singh" class="profile-link">View Profile</a>
+                            <a href="/Prof-dn-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -135,7 +135,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Hirak-Jyoti-Hazarika-RSLIC.png"
+                                <img src="/mobile-assets/updated-faculty-img/Hirak-Jyoti-Hazarika-RSLIC.png"
                                     alt="Profile image of Dr. Hirak Jyoti Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Hirak Jyoti Hazarika</h3>
@@ -147,7 +147,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rslisc/MukutorRahman.jpg"
+                                <img src="/mobile-assets/all-faculty/rslisc/MukutorRahman.jpg"
                                     alt="Profile image of Dr. Md. Mukutor Rahman">
                             </div>
                             <h3 class="card-name">Dr. Md. Mukutor Rahman</h3>
@@ -159,7 +159,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nilanjana-Purkayastha-RSLIC.png"
+                                <img src="/mobile-assets/updated-faculty-img/Nilanjana-Purkayastha-RSLIC.png"
                                     alt="Profile image of Dr. Nilanjana Purkayastha">
                             </div>
                             <h3 class="card-name">Dr. Nilanjana Purkayastha</h3>
@@ -171,7 +171,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png"
+                                <img src="/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png"
                                     alt="Profile image of Dr. Stuti Goswami">
                             </div>
                             <h3 class="card-name">Dr. Stuti Goswami</h3>
@@ -183,12 +183,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/jugal.jpeg"
+                                <img src="/mobile-assets/all-faculty/rshss/jugal.jpeg"
                                     alt="Profile image of Mr. Jugal Kishore Bhattacharyya">
                             </div>
                             <h3 class="card-name">Mr. Jugal Kishore Bhattacharyya</h3>
                             <p class="card-designation">Assistant Professor & Coordinator GE/AEEC</p>
-                            <a href="https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
+                            <a href="/faculty-jugal-kishore-bhattacharyya" class="profile-link">View
                                 Profile</a>
                         </div>
                     </div>

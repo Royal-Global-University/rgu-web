@@ -17,8 +17,8 @@
                                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                             <div style="border: 2px solid #fff;"
                                                 class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/privacy&dataprotection/aboutpic.svg"
-                                                    alt="">
+                                                <img decoding="async"
+                                                    src="mobile-assets/privacy&dataprotection/aboutpic.svg" alt="">
                                             </div>
 
                                         </div>
@@ -39,12 +39,18 @@
                                                 Policy Statement</h1>
                                             <div style="text-align: justify;" class="para1 text-dark kd-para-1 disc"
                                                 data-splitting style="text-align: justify;">
-                                                <p>The Assam Royal Global University, Guwahati is committed to protecting the
-                                                    privacy, confidentiality and accuracy of personally identifiable information
-                                                    in accordance with Indian law and international human rights norms. Other
-                                                    than as required by laws that authorize public access to certain types of
-                                                    information, or in response to court orders legal instruments that authorize
-                                                    disclosure, the university shall not part with any personally identifiable
+                                                <p>The Assam Royal Global University, Guwahati is committed to protecting
+                                                    the
+                                                    privacy, confidentiality and accuracy of personally identifiable
+                                                    information
+                                                    in accordance with Indian law and international human rights norms.
+                                                    Other
+                                                    than as required by laws that authorize public access to certain types
+                                                    of
+                                                    information, or in response to court orders legal instruments that
+                                                    authorize
+                                                    disclosure, the university shall not part with any personally
+                                                    identifiable
                                                     information.</p>
                                             </div>
                                         </div>
@@ -59,13 +65,16 @@
             <div class="container pt-4">
                 <p class="para1 text-dark">
                     This policy applies to any information collected through visits to
-                    <a href="https://www.rgu.ac" class="text-primary">https://www.rgu.ac</a>,
-                    information gathered through university logins by students, faculties, and other staff of the university,
-                    CCTV feeds, and other related activities, which the university pledges to protect. The University’s website
+                    <a href="" class="text-primary"></a>,
+                    information gathered through university logins by students, faculties, and other staff of the
+                    university,
+                    CCTV feeds, and other related activities, which the university pledges to protect. The University’s
+                    website
                     provides links to other websites. When you leave The Assam Royal Global University’s website
-                    (<a href="https://www.rgu.ac" class="text-primary">www.rgu.ac</a>), you will be visiting sites that are
+                    (<a href="" class="text-primary">www.rgu.ac</a>), you will be visiting sites that are
                     beyond our control.
-                    These other sites may send their own cookies to users, collect data, or solicit personal information. The
+                    These other sites may send their own cookies to users, collect data, or solicit personal information.
+                    The
                     privacy
                     policies and procedures described for this University do not extend to any external links.
                 </p>
@@ -87,9 +96,11 @@
                     Scope of the Policy
                 </h4>
                 <p class="para1 text-dark">
-                    This policy is applicable to all members of The Assam Royal Global University community and visitors to the
+                    This policy is applicable to all members of The Assam Royal Global University community and visitors to
+                    the
                     University.
-                    It includes the students, faculty, lecturers/instructors, researchers, staff, third-party contractors, and
+                    It includes the students, faculty, lecturers/instructors, researchers, staff, third-party contractors,
+                    and
                     others with
                     access to the University’s restricted information.
                 </p>
@@ -98,16 +109,21 @@
                     Information Privacy
                 </h1>
 
-                <h4 class="text-dark headd3 fw-bold mt-2" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">General Policy
+                <h4 class="text-dark headd3 fw-bold mt-2" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">General
+                    Policy
                 </h4>
 
                 <p class="para1 text-dark">
-                    The Assam Royal Global University limits the collection, use, disclosure, or storage of information to that
-                    which reasonably serves the University’s academic, research, or administrative functions, or other legally
+                    The Assam Royal Global University limits the collection, use, disclosure, or storage of information to
+                    that
+                    which reasonably serves the University’s academic, research, or administrative functions, or other
+                    legally
                     required purposes. Email correspondences with the university divulge details of email addresses of
-                    individuals. The university shall not sell or trade contact details of this nature to any other university
+                    individuals. The university shall not sell or trade contact details of this nature to any other
+                    university
                     or organization. The university shall only use personal information for the purpose for which it was
-                    collected. The university shall retain personal information only as long as required for its lawful use or
+                    collected. The university shall retain personal information only as long as required for its lawful use
+                    or
                     as mandated by applicable laws.
                     Individuals have the right to review the information provided and request corrections for inaccuracies.
                     Sensitive personal information shall not be disclosed except in compliance with existing laws.
@@ -118,7 +134,8 @@
                 </h4>
                 <p class="para1 text-dark">
                     Such collection, use, disclosure, and storage should comply with applicable laws, regulations, and
-                    University policies. The University may disclose information during investigations, lawsuits, in response to
+                    University policies. The University may disclose information during investigations, lawsuits, in
+                    response to
                     court orders, for the proper functioning of the University, to ensure the safety and wellbeing of
                     individuals or the community, and as required by law.
                 </p>
@@ -146,8 +163,8 @@
                                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                             <div style="border: 2px solid #fff;"
                                                 class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/privacy&dataprotection/aboutpic.svg"
-                                                    alt="">
+                                                <img decoding="async"
+                                                    src="mobile-assets/privacy&dataprotection/aboutpic.svg" alt="">
                                             </div>
 
                                         </div>
@@ -168,12 +185,18 @@
                                                 Policy Statement</h1>
                                             <div style="text-align: justify;" class="para1 text-dark kd-para-1 disc"
                                                 data-splitting style="text-align: justify;">
-                                                <p>The Assam Royal Global University, Guwahati is committed to protecting the
-                                                    privacy, confidentiality and accuracy of personally identifiable information
-                                                    in accordance with Indian law and international human rights norms. Other
-                                                    than as required by laws that authorize public access to certain types of
-                                                    information, or in response to court orders legal instruments that authorize
-                                                    disclosure, the university shall not part with any personally identifiable
+                                                <p>The Assam Royal Global University, Guwahati is committed to protecting
+                                                    the
+                                                    privacy, confidentiality and accuracy of personally identifiable
+                                                    information
+                                                    in accordance with Indian law and international human rights norms.
+                                                    Other
+                                                    than as required by laws that authorize public access to certain types
+                                                    of
+                                                    information, or in response to court orders legal instruments that
+                                                    authorize
+                                                    disclosure, the university shall not part with any personally
+                                                    identifiable
                                                     information.</p>
                                             </div>
                                         </div>
@@ -188,13 +211,16 @@
             <div class="container pt-4">
                 <p class="para1 text-dark" style="text-align: justify">
                     This policy applies to any information collected through visits to
-                    <a href="https://www.rgu.ac" class="text-primary">https://www.rgu.ac</a>,
-                    information gathered through university logins by students, faculties, and other staff of the university,
-                    CCTV feeds, and other related activities, which the university pledges to protect. The University’s website
+                    <a href="" class="text-primary"></a>,
+                    information gathered through university logins by students, faculties, and other staff of the
+                    university,
+                    CCTV feeds, and other related activities, which the university pledges to protect. The University’s
+                    website
                     provides links to other websites. When you leave The Assam Royal Global University’s website
-                    (<a href="https://www.rgu.ac" class="text-primary">www.rgu.ac</a>), you will be visiting sites that are
+                    (<a href="" class="text-primary">www.rgu.ac</a>), you will be visiting sites that are
                     beyond our control.
-                    These other sites may send their own cookies to users, collect data, or solicit personal information. The
+                    These other sites may send their own cookies to users, collect data, or solicit personal information.
+                    The
                     privacy
                     policies and procedures described for this University do not extend to any external links.
                 </p>
@@ -216,9 +242,11 @@
                     Scope of the Policy
                 </h4>
                 <p class="para1 text-dark">
-                    This policy is applicable to all members of The Assam Royal Global University community and visitors to the
+                    This policy is applicable to all members of The Assam Royal Global University community and visitors to
+                    the
                     University.
-                    It includes the students, faculty, lecturers/instructors, researchers, staff, third-party contractors, and
+                    It includes the students, faculty, lecturers/instructors, researchers, staff, third-party contractors,
+                    and
                     others with
                     access to the University’s restricted information.
                 </p>
@@ -227,16 +255,21 @@
                     Information Privacy
                 </h1>
 
-                <h4 class="text-dark headd3 fw-bold mt-2" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">General Policy
+                <h4 class="text-dark headd3 fw-bold mt-2" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">General
+                    Policy
                 </h4>
 
                 <p class="para1 text-dark" style="text-align: justify">
-                    The Assam Royal Global University limits the collection, use, disclosure, or storage of information to that
-                    which reasonably serves the University’s academic, research, or administrative functions, or other legally
+                    The Assam Royal Global University limits the collection, use, disclosure, or storage of information to
+                    that
+                    which reasonably serves the University’s academic, research, or administrative functions, or other
+                    legally
                     required purposes. Email correspondences with the university divulge details of email addresses of
-                    individuals. The university shall not sell or trade contact details of this nature to any other university
+                    individuals. The university shall not sell or trade contact details of this nature to any other
+                    university
                     or organization. The university shall only use personal information for the purpose for which it was
-                    collected. The university shall retain personal information only as long as required for its lawful use or
+                    collected. The university shall retain personal information only as long as required for its lawful use
+                    or
                     as mandated by applicable laws.
                     Individuals have the right to review the information provided and request corrections for inaccuracies.
                     Sensitive personal information shall not be disclosed except in compliance with existing laws.
@@ -247,7 +280,8 @@
                 </h4>
                 <p class="para1 text-dark" style="text-align: justify">
                     Such collection, use, disclosure, and storage should comply with applicable laws, regulations, and
-                    University policies. The University may disclose information during investigations, lawsuits, in response to
+                    University policies. The University may disclose information during investigations, lawsuits, in
+                    response to
                     court orders, for the proper functioning of the University, to ensure the safety and wellbeing of
                     individuals or the community, and as required by law.
                 </p>

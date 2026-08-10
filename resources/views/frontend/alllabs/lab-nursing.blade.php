@@ -237,7 +237,7 @@
     <section class="rgu-rsn-body">
         <section class="rgu-rsn-hero">
 
-            <img src="https://www.rgu.ac/mobile-assets/new-dept-nursing/headimg.png" class="rgu-rsn-hero-img">
+            <img src="/mobile-assets/new-dept-nursing/headimg.png" class="rgu-rsn-hero-img">
 
             <div class="rgu-rsn-content">
                 <h2 class="rgu-rsn-title">Nursing Lab</h2>
@@ -251,17 +251,17 @@
                 </p>
 
                 <!-- <div class="rgu-rsn-lablist">
-              <h4>Lab Activities Includes:</h4>
-              <ol>
-                <li>Preliminary training in patient care</li>
-                <li>Training on maternal and child health</li>
-                <li>Advanced nursing skills training to provide care for adult patients suffering from a variety of diseases
-                </li>
-                <li>Training in nutrition and diet</li>
-                <li>Computer education</li>
-                <li>Dummy trials</li>
-              </ol>
-            </div> -->
+                  <h4>Lab Activities Includes:</h4>
+                  <ol>
+                    <li>Preliminary training in patient care</li>
+                    <li>Training on maternal and child health</li>
+                    <li>Advanced nursing skills training to provide care for adult patients suffering from a variety of diseases
+                    </li>
+                    <li>Training in nutrition and diet</li>
+                    <li>Computer education</li>
+                    <li>Dummy trials</li>
+                  </ol>
+                </div> -->
 
             </div>
         </section>

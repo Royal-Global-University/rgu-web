@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'RGU Scholarships 2026-27: Royal Merit, Bhutanese & Merit-Based')
-@section('meta_description', 'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and specific schemes for Bhutanese students. Financial aid and national schemes available.')
+@section('meta_description', 'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and
+    specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
     <div class="mobile">
@@ -18,7 +19,8 @@
                         <h3 class="mobile-headd3 text-dark fw-bold kd-split-text pt-2">
                             Eligibility Criteria</h3>
                         <div class="table-responsive">
-                            <table class=" overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 mobile-para1"
+                            <table
+                                class=" overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 mobile-para1"
                                 style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
                                 <thead class="text-white" style="background-color: #000000;">
                                     <th class="bg-blue text-white">SCHOLARSHIP OFFERED</th>
@@ -73,7 +75,8 @@
                                 Fee, Registration Fee and Caution money (refundable) of Rs. 10000/- only.at
                                 the time of
                                 admission. </p>
-                            <p style="text-align: justify;" class="mobile-para1 text-dark">• In case a student, availing Royal
+                            <p style="text-align: justify;" class="mobile-para1 text-dark">• In case a student, availing
+                                Royal
                                 Merit - On
                                 Admission
                                 Scholarship,
@@ -98,13 +101,15 @@
                                 will be
                                 governed as follows –
                             </h3>
-                            <p style="text-align: justify;" class="mobile-para1 text-dark">• Class attendance of the students
+                            <p style="text-align: justify;" class="mobile-para1 text-dark">• Class attendance of the
+                                students
                                 must be 75% and
                                 above in all
                                 the
                                 subjects in each semester from
                                 the previous academic year.</p>
-                            <p style="text-align: justify;" class="mobile-para1 text-dark">• To continue availing scholarship, a
+                            <p style="text-align: justify;" class="mobile-para1 text-dark">• To continue availing
+                                scholarship, a
                                 student must
                                 clear all the
                                 papers in
@@ -114,7 +119,8 @@
                                 semester/annual examination
                                 for promotion to the next year.</p>
 
-                            <h3 style="text-align: justify;" class="mobile-headd3 text-dark fw-bold">Document Required under the
+                            <h3 style="text-align: justify;" class="mobile-headd3 text-dark fw-bold">Document Required under
+                                the
                                 above
                                 mentioned of
                                 Scholarship:
@@ -397,11 +403,13 @@
                                         </table>
                                     </div>
                                     <div class="text-dark">
-                                        <p class="mobile-para1">i. The Head of the Institution will nominate two students for
+                                        <p class="mobile-para1">i. The Head of the Institution will nominate two students
+                                            for
                                             scholarship under
                                             the said category.
                                         </p>
-                                        <p class="mobile-para1">ii. Awardee of 100% Royal Scholarship to the student belonging
+                                        <p class="mobile-para1">ii. Awardee of 100% Royal Scholarship to the student
+                                            belonging
                                             to
                                             the
                                             Economically Weaker Section
@@ -409,14 +417,16 @@
                                             caution money
                                             (refundable) at the
                                             time of admission.</p>
-                                        <p class="mobile-para1">iii. In case a student, availing 100% Scholarship, wishes to
+                                        <p class="mobile-para1">iii. In case a student, availing 100% Scholarship, wishes
+                                            to
                                             avail
                                             hostel/
                                             transportation
                                             facilities, he/she will have to pay the full hostel/ transportation fees as
                                             prescribed for
                                             other students.</p>
-                                        <p class="mobile-para1">iv. The Scholarship may not be applicable for Courses Governed
+                                        <p class="mobile-para1">iv. The Scholarship may not be applicable for Courses
+                                            Governed
                                             by
                                             Regulatory
                                             Bodies (AICTE, COA,
@@ -427,16 +437,19 @@
                                             Committee and or
                                             Competent Authority's.</p>
 
-                                        <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for subsequent
+                                        <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for
+                                            subsequent
                                             years
                                             will be
                                             governed as follows –
                                         </h3>
-                                        <p class="mobile-para1">i. Class attendance of the students must be 75% and above in all
+                                        <p class="mobile-para1">i. Class attendance of the students must be 75% and above
+                                            in all
                                             the subjects
                                             in each semester from
                                             the previous academic year.</p>
-                                        <p class="mobile-para1">ii. To continue availing scholarship, a student must clear all
+                                        <p class="mobile-para1">ii. To continue availing scholarship, a student must clear
+                                            all
                                             the
                                             papers in
                                             each semester and
@@ -445,11 +458,13 @@
                                             semester/annual
                                             examination for promotion to the next year.</p>
 
-                                        <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above mentioned
+                                        <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above
+                                            mentioned
                                             of
                                             Scholarship:
                                         </h3>
-                                        <p class="mobile-para1">1. Scanned copies of the marksheets from Class X onwards.</p>
+                                        <p class="mobile-para1">1. Scanned copies of the marksheets from Class X onwards.
+                                        </p>
                                         <p class="mobile-para1">2. Scanned copies of the EWS certificate from the competent
                                             authority claiming
                                             scholarship under
@@ -505,18 +520,21 @@
                                 </div>
 
                                 <div class="text-dark mobile-para1" style="text-align: justify;">
-                                    <p class="mobile-para1">i. A student availing 100% scholarship will have to pay Rs. 10000/-
+                                    <p class="mobile-para1">i. A student availing 100% scholarship will have to pay Rs.
+                                        10000/-
                                         (Rupees Five Thousand only) as caution money (Refundable) at the time of
                                         admission.</p>
                                     <p class="mobile-para1">ii. In case a student, availing Royal Merit - On Admission 100%
                                         Scholarship to International Students, wishes to avail hostel/ transportation
                                         facilities, he/she will have to
                                         pay the full hostel/ transportation fees as prescribed for other students.</p>
-                                    <p class="mobile-para1">iii. The Scholarship may not be applicable for Courses Governed by
+                                    <p class="mobile-para1">iii. The Scholarship may not be applicable for Courses Governed
+                                        by
                                         Regulatory
                                         Bodies (AICTE, COA,
                                         PCI, INC, ANMHVC, BCI, etc.).</p>
-                                    <p class="mobile-para1">iv. Final decision of granting scholarship lies with the University
+                                    <p class="mobile-para1">iv. Final decision of granting scholarship lies with the
+                                        University
                                         Scholarship
                                         Committee and or
                                         Competent Authority's.</p>
@@ -588,7 +606,8 @@
                                                         applicable fee, if
                                                         any, to be paid for
                                                         entire course</td>
-                                                    <td colspan="2">As per the required minimum eligibility criteria of the
+                                                    <td colspan="2">As per the required minimum eligibility criteria of
+                                                        the
                                                         respective
                                                         programme/course</td>
                                                 </tr>
@@ -622,7 +641,8 @@
                                         Regulatory
                                         Bodies (AICTE, COA,
                                         PCI, INC, ANMHVC, BCI, etc.).</p>
-                                    <p style="text-align: justify;" class="mobile-para1">D. A student availing Royal Shaurya:
+                                    <p style="text-align: justify;" class="mobile-para1">D. A student availing Royal
+                                        Shaurya:
                                         Full Freeship for Wards of
                                         Braveheart
                                         Security Personnels
@@ -636,16 +656,19 @@
                                         Committee and or
                                         Competent Authority's. </p>
 
-                                    <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for subsequent years
+                                    <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for subsequent
+                                        years
                                         will be
                                         governed as follows –
                                     </h3>
-                                    <p style="text-align: justify;" class="mobile-para1">i. Class attendance of the students
+                                    <p style="text-align: justify;" class="mobile-para1">i. Class attendance of the
+                                        students
                                         must be 75% and above in all
                                         the subjects
                                         in each semester from
                                         the previous academic year.</p>
-                                    <p style="text-align: justify;" class="mobile-para1">ii. To continue availing scholarship, a
+                                    <p style="text-align: justify;" class="mobile-para1">ii. To continue availing
+                                        scholarship, a
                                         student must clear all the
                                         papers in
                                         each semester and
@@ -654,12 +677,14 @@
                                         semester/annual
                                         examination for promotion to the next year.</p>
 
-                                    <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above mentioned of
+                                    <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above mentioned
+                                        of
                                         Scholarship:
                                     </h3>
                                     <p class="mobile-para1">1. Scanned copies of the marksheets from Class X or equivalent
                                         onwards.</p>
-                                    <p style="text-align: justify;" class="mobile-para1">2. Scanned copies of the certificate
+                                    <p style="text-align: justify;" class="mobile-para1">2. Scanned copies of the
+                                        certificate
                                         from the competent authority
                                         claiming
                                         scholarship under the
@@ -708,7 +733,8 @@
                                                     <td>50% on annual fee. Other applicable fee, if any, to be paid for
                                                         entire course
                                                     </td>
-                                                    <td colspan="2">As per the required minimum eligibility criteria of the
+                                                    <td colspan="2">As per the required minimum eligibility criteria of
+                                                        the
                                                         respective
                                                         programme/course</td>
                                                 </tr>
@@ -721,7 +747,8 @@
                                             Personnel.
                                         </p>
                                         <p class="mobile-para1">b) Ward of a Police Personnel- NE only.</p>
-                                        <p class="mobile-para1">c) In case a student, availing Royal Suraksha: 50% Scholarship
+                                        <p class="mobile-para1">c) In case a student, availing Royal Suraksha: 50%
+                                            Scholarship
                                             for
                                             Wards of
                                             Serving & Retired
@@ -732,11 +759,13 @@
                                             transportation fees as
                                             prescribed for
                                             otherstudents.</p>
-                                        <p class="mobile-para1">d) The Scholarship may not be applicable for Courses Governed by
+                                        <p class="mobile-para1">d) The Scholarship may not be applicable for Courses
+                                            Governed by
                                             Regulatory
                                             Bodies (AICTE, COA,
                                             PCI, INC, ANMHVC, BCI, etc.)</p>
-                                        <p class="mobile-para1">e) A student availing RoyalSuraksha: 50% Scholarship for Wards
+                                        <p class="mobile-para1">e) A student availing RoyalSuraksha: 50% Scholarship for
+                                            Wards
                                             of
                                             Serving &
                                             Retired Security
@@ -753,16 +782,19 @@
                                             Committee and or
                                             Competent Authority's. </p>
 
-                                        <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for subsequent
+                                        <h3 class="mobile-headd3 text-dark fw-bold">Continuation of Scholarship for
+                                            subsequent
                                             years
                                             will be
                                             governed as follows –
                                         </h3>
-                                        <p class="mobile-para1">i. Class attendance of the students must be 75% and above in all
+                                        <p class="mobile-para1">i. Class attendance of the students must be 75% and above
+                                            in all
                                             the subjects
                                             in each semester from
                                             the previous academic year.</p>
-                                        <p class="mobile-para1">ii. To continue availing scholarship, a student must clear all
+                                        <p class="mobile-para1">ii. To continue availing scholarship, a student must clear
+                                            all
                                             the
                                             papers in
                                             each semester and
@@ -771,11 +803,13 @@
                                             semester/annual
                                             examination for promotion to the next year.</p>
 
-                                        <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above mentioned
+                                        <h3 class="mobile-headd3 text-dark fw-bold">Document Required under the above
+                                            mentioned
                                             of
                                             Scholarship:
                                         </h3>
-                                        <p class="mobile-para1">1. Scanned copies of the marksheets from Class X onwards.</p>
+                                        <p class="mobile-para1">1. Scanned copies of the marksheets from Class X onwards.
+                                        </p>
                                         <p class="mobile-para1">2. Scanned copies of the certificate from the competent
                                             authority
                                             claiming
@@ -926,7 +960,8 @@
                             Fee, Registration Fee and Caution money (refundable) of Rs. 10000/- only.at
                             the time of
                             admission. </p>
-                        <p style="text-align: justify;" class="para1 text-dark">• In case a student, availing Royal Merit -
+                        <p style="text-align: justify;" class="para1 text-dark">• In case a student, availing Royal Merit
+                            -
                             On
                             Admission
                             Scholarship,
@@ -935,7 +970,8 @@
                             transportation fees
                             as prescribed for other
                             students.</p>
-                        <p style="text-align: justify;" class="para1 text-dark">• The Scholarship may not be applicable for
+                        <p style="text-align: justify;" class="para1 text-dark">• The Scholarship may not be applicable
+                            for
                             Courses
                             Governed by
                             Regulatory
@@ -967,7 +1003,8 @@
                             semester/annual examination
                             for promotion to the next year.</p>
 
-                        <h3 style="text-align: justify;" class="headd3 text-dark fw-bold">Document Required under the above
+                        <h3 style="text-align: justify;" class="headd3 text-dark fw-bold">Document Required under the
+                            above
                             mentioned of
                             Scholarship:
                         </h3>
@@ -1421,7 +1458,8 @@
                                     </tbody>
                                 </table>
 
-                                <p class="para1" style="text-align: justify;">A. Wards of Military/Paramilitary (CRPF/BSF,
+                                <p class="para1" style="text-align: justify;">A. Wards of Military/Paramilitary
+                                    (CRPF/BSF,
                                     etc.) & Police (N.E.
                                     India) who
                                     have:
@@ -1442,7 +1480,8 @@
                                     transportation facilities, he/she
                                     will have to pay the full hostel/ transportation fees as prescribed for other
                                     students.</p>
-                                <p style="text-align: justify;" class="para1">C. The Scholarship may not be applicable for
+                                <p style="text-align: justify;" class="para1">C. The Scholarship may not be applicable
+                                    for
                                     Courses Governed by
                                     Regulatory
                                     Bodies (AICTE, COA,
@@ -1455,7 +1494,8 @@
                                     Caution money of
                                     Rs. 10000/-
                                     (refundable) only.</p>
-                                <p style="text-align: justify;" class="para1">E. Final decision of granting scholarship lies
+                                <p style="text-align: justify;" class="para1">E. Final decision of granting scholarship
+                                    lies
                                     with the University
                                     Scholarship
                                     Committee and or
@@ -1484,7 +1524,8 @@
                                 </h3>
                                 <p class="para1">1. Scanned copies of the marksheets from Class X or equivalent
                                     onwards.</p>
-                                <p style="text-align: justify;" class="para1">2. Scanned copies of the certificate from the
+                                <p style="text-align: justify;" class="para1">2. Scanned copies of the certificate from
+                                    the
                                     competent authority
                                     claiming
                                     scholarship under the
@@ -1671,19 +1712,17 @@
 
 @endsection
 @push('scripts')
-
-
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
   "name": "Royal Global University Comprehensive Scholarship List",
   "description": "Details on the Royal Merit, Royal Endowment, Royal Suraksha (Security Personnel), and Hope for Manipur (Violence Affected Families) scholarships.",
-  "url": "https://www.rgu.ac/scholarships",
+  "url": "/scholarships",
   "provider": {
     "@type": "EducationalOrganization",
     "name": "Royal Global University (RGU)",
-    "sameAs": "https://www.rgu.ac/"
+    "sameAs": "/"
   },
   "itemListElement": [
     // --- 1. ROYAL MERIT - ON ADMISSION SCHOLARSHIP (Merit-Based) ---
@@ -1750,5 +1789,3 @@
 }
 </script>
 @endpush
-
-

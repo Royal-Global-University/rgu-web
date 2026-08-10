@@ -1,12 +1,13 @@
 @extends('frontend/new-master')
 @section('title', 'RGU Hostel Fees 2025-26: View All Rooms, Cost, and Amenities')
-@section('meta_description', 'Hostel Fees for 2025-26 session start from ₹70,000 Annual. View AC/Non-AC room cost, Mess charges, and premium amenities like the gym and 24x7 security.')
+@section('meta_description', 'Hostel Fees for 2025-26 session start from ₹70,000 Annual. View AC/Non-AC room cost, Mess
+    charges, and premium amenities like the gym and 24x7 security.')
 @section('meta_keywords', 'Academic calender')
 @section('content')
     <style>
         /*==================================================
-        HOSTEL INTRO
-==================================================*/
+            HOSTEL INTRO
+    ==================================================*/
 
         .rghs-intro {
 
@@ -151,8 +152,8 @@
 
     <style>
         /*==================================================
-        OUR HOSTELS
-==================================================*/
+            OUR HOSTELS
+    ==================================================*/
 
         .rghs-hostels {
 
@@ -503,8 +504,8 @@
 
     <style>
         /*==================================================
-        HOSTEL GALLERY
-==================================================*/
+            HOSTEL GALLERY
+    ==================================================*/
 
         .rghg-section {
 
@@ -723,8 +724,8 @@
 
     <style>
         /*==================================================
-        HOSTEL FACILITIES
-==================================================*/
+            HOSTEL FACILITIES
+    ==================================================*/
 
         .rghf-section {
 
@@ -1035,7 +1036,7 @@
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('new-web/assets/img/campus-hostel-life/cover.png'); filter: blur(3px);">
         </div>
@@ -1093,8 +1094,8 @@
             </div>
 
             <!--==========================
-                HOSTEL 01
-        ===========================-->
+                    HOSTEL 01
+            ===========================-->
 
             <div class="row align-items-center rghs-item">
 
@@ -1135,7 +1136,7 @@
 
                         </p>
 
-                        <a href="https://www.rgu.ac/admission-programs-fees-structure" class="rghs-btn">
+                        <a href="/admission-programs-fees-structure" class="rghs-btn">
 
                             Hostel Fees 2026-27
                             (For Old & New Students)
@@ -1149,8 +1150,8 @@
             </div>
 
             <!--==========================
-                HOSTEL 02
-        ===========================-->
+                    HOSTEL 02
+            ===========================-->
 
             <div class="row align-items-center rghs-item flex-lg-row-reverse">
 
@@ -1190,7 +1191,7 @@
 
                         </p>
 
-                        <a href="https://www.rgu.ac/admission-programs-fees-structure" class="rghs-btn">
+                        <a href="/admission-programs-fees-structure" class="rghs-btn">
 
                             Hostel Fees 2026-27
                             (For Old & New Students)
@@ -1204,8 +1205,8 @@
             </div>
 
             <!--==========================
-                HOSTEL 03
-        ===========================-->
+                    HOSTEL 03
+            ===========================-->
 
             <div class="row align-items-center rghs-item">
 
@@ -1245,7 +1246,7 @@
 
                         </p>
 
-                        <a href="https://www.rgu.ac/admission-programs-fees-structure" class="rghs-btn">
+                        <a href="/admission-programs-fees-structure" class="rghs-btn">
 
                             Hostel Fees 2026-27
                             (For Old & New Students)
@@ -1259,8 +1260,8 @@
             </div>
 
             <!--==========================
-                HOSTEL 04
-        ===========================-->
+                    HOSTEL 04
+            ===========================-->
 
             <div class="row align-items-center rghs-item flex-lg-row-reverse">
 
@@ -1301,7 +1302,7 @@
 
                         </p>
 
-                        <a href="https://www.rgu.ac/admission-programs-fees-structure" class="rghs-btn">
+                        <a href="/admission-programs-fees-structure" class="rghs-btn">
 
                             Hostel Fees 2026-27
                             (For Old & New Students)
@@ -1334,8 +1335,8 @@
             <div class="row">
 
                 <!--======================
-                    CARD 01
-            =======================-->
+                        CARD 01
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1362,8 +1363,8 @@
                 </div>
 
                 <!--======================
-                    CARD 02
-            =======================-->
+                        CARD 02
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1390,8 +1391,8 @@
                 </div>
 
                 <!--======================
-                    CARD 03
-            =======================-->
+                        CARD 03
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1418,8 +1419,8 @@
                 </div>
 
                 <!--======================
-                    CARD 04
-            =======================-->
+                        CARD 04
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1446,8 +1447,8 @@
                 </div>
 
                 <!--======================
-                    CARD 05
-            =======================-->
+                        CARD 05
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1474,8 +1475,8 @@
                 </div>
 
                 <!--======================
-                    CARD 06
-            =======================-->
+                        CARD 06
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1502,8 +1503,8 @@
                 </div>
 
                 <!--======================
-                    CARD 07
-            =======================-->
+                        CARD 07
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1530,8 +1531,8 @@
                 </div>
 
                 <!--======================
-                    CARD 08
-            =======================-->
+                        CARD 08
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1558,8 +1559,8 @@
                 </div>
 
                 <!--======================
-                    CARD 09
-            =======================-->
+                        CARD 09
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1586,8 +1587,8 @@
                 </div>
 
                 <!--======================
-                    CARD 10
-            =======================-->
+                        CARD 10
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1614,8 +1615,8 @@
                 </div>
 
                 <!--======================
-                    CARD 11
-            =======================-->
+                        CARD 11
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1642,8 +1643,8 @@
                 </div>
 
                 <!--======================
-                    CARD 12
-            =======================-->
+                        CARD 12
+                =======================-->
 
                 <div class="col-lg-4 col-md-6 p-3">
 
@@ -1691,8 +1692,8 @@
             <div class="rghg-grid">
 
                 <!--==========================
-                    LARGE IMAGE
-            ===========================-->
+                        LARGE IMAGE
+                ===========================-->
 
                 <a class="rghg-item rghg-large">
 
@@ -1701,8 +1702,8 @@
                 </a>
 
                 <!--==========================
-                    TOP RIGHT
-            ===========================-->
+                        TOP RIGHT
+                ===========================-->
 
                 <a class="rghg-item">
 
@@ -1711,8 +1712,8 @@
                 </a>
 
                 <!--==========================
-                    MIDDLE RIGHT
-            ===========================-->
+                        MIDDLE RIGHT
+                ===========================-->
 
                 <a class="rghg-item">
 
@@ -1721,8 +1722,8 @@
                 </a>
 
                 <!--==========================
-                    BOTTOM LEFT
-            ===========================-->
+                        BOTTOM LEFT
+                ===========================-->
 
                 <a class="rghg-item">
 
@@ -1731,8 +1732,8 @@
                 </a>
 
                 <!--==========================
-                    BOTTOM MIDDLE
-            ===========================-->
+                        BOTTOM MIDDLE
+                ===========================-->
 
                 <a class="rghg-item">
 
@@ -1741,8 +1742,8 @@
                 </a>
 
                 <!--==========================
-                    BOTTOM RIGHT
-            ===========================-->
+                        BOTTOM RIGHT
+                ===========================-->
 
                 <a class="rghg-item">
 

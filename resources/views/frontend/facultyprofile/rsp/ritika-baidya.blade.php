@@ -179,7 +179,7 @@
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
                             <img class="faculty-bio-img" style="height: 400px; width: 400px;"
-                                src="https://www.rgu.ac/home-banner/Ritika%20baidya.png" alt="">
+                                src="/home-banner/Ritika%20baidya.png" alt="">
                         </div>
                     </div>
 

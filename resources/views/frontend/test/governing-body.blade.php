@@ -248,7 +248,7 @@
 
             <div class="gb-card">
                 <div class="gb-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="">
                 </div>
                 <div class="gb-content">
                     <h3>Prof. (Dr.) Dhruba Jyoti Borah</h3>

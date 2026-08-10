@@ -1203,75 +1203,75 @@
         </div>
 
         <!-- <div class="dept-chemistry-prospects-section" id="dept-prospects">
-          <h2 class="dept-chemistry-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-chemistry-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-chemistry-prospects-content">
-            <p class="dept-chemistry-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-chemistry-prospects-content">
+                <p class="dept-chemistry-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-chemistry-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-chemistry-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-chemistry-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Government Sector Jobs</h3>
-            <ol class="dept-chemistry-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Government Sector Jobs</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Private Sector Careers</h3>
-            <ol class="dept-chemistry-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Private Sector Careers</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Research & Teaching</h3>
-            <ol class="dept-chemistry-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Research & Teaching</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-chemistry-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Jobs Abroad</h3>
-            <ol class="dept-chemistry-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Jobs Abroad</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-chemistry-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-chemistry-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-chemistry-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-chemistry-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-chemistry-accordion-section" id="dept-syllabus">
             <h2 class="dept-chemistry-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1290,7 +1290,7 @@
                     <div class="dept-chemistry-accordion-content">
                         <div class="dept-chemistry-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-chemistry/syllabus-chemistry/structure-of-syllabus.pdf"
+                                href="/mobile-assets/department-all/dept-chemistry/syllabus-chemistry/structure-of-syllabus.pdf"
                                 class="dept-chemistry-syllabus-link" download>
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1298,8 +1298,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-chemistry-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/Chemistry PG Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/Chemistry PG Syllabus.pdf"
                                 class="dept-chemistry-syllabus-link" download>
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1347,7 +1346,7 @@
 
                     <div class="dept-chemistry-accordion-content">
                         <div class="dept-chemistry-syllabus-list">
-                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-chemistry-syllabus-link" download>
+                            <a href="/doctoral-programme" class="dept-chemistry-syllabus-link" download>
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1370,8 +1369,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-chemistry-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-chemistry-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1464,12 +1463,12 @@
         const coursesData = [{
                 title: "M.Sc. - Chemistry",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Chemistry"
+                link: "/programs-MSc-Chemistry"
             },
             {
                 title: "B.Sc. - Chemistry | Honours / Honours with Research",
                 duration: "4 years as per NEP",
-                link: "https://www.rgu.ac/programs-b-sc-chemistry"
+                link: "/programs-b-sc-chemistry"
             }
         ];
 
@@ -1721,10 +1720,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1791,21 +1790,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

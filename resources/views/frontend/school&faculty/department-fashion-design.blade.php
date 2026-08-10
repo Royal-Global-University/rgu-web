@@ -11,7 +11,7 @@
 
     </div>
 
-        <style>
+    <style>
         /* ================= CSS VARIABLES & RESETS ================= */
         :root {
             --primary: #2c4a7a;
@@ -1044,7 +1044,7 @@
         }
     </style>
 
-        <div class="dept-rsft-floating">
+    <div class="dept-rsft-floating">
         <a href="#dept-home" class="dept-rsft-float-item">
             <i class="fa fa-home"></i>
             <span class="dept-rsft-float-text">Home</span>
@@ -1181,75 +1181,75 @@
         </div>
 
         <!-- <div class="dept-rsft-prospects-section" id="dept-prospects">
-      <h2 class="dept-rsft-section-title">Career <span>Prospects</span></h2>
+          <h2 class="dept-rsft-section-title">Career <span>Prospects</span></h2>
 
-      <div class="dept-rsft-prospects-content">
-        <p class="dept-rsft-intro-text">
-          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-          strong foundation in agricultural sciences, preparing them for following careers opportunities:
-        </p>
+          <div class="dept-rsft-prospects-content">
+            <p class="dept-rsft-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-        <h3 class="dept-rsft-subheading">Higher Education Opportunities</h3>
-        <ol class="dept-rsft-list">
-          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-          </li>
-          <li>MBA in Agribusiness Management</li>
-          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-            disciplines</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-rsft-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Government Sector Jobs</h3>
-        <ol class="dept-rsft-list">
-          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-          <li>IBPS AFO (Agricultural Field Officer)</li>
-          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Government Sector Jobs</h3>
+            <ol class="dept-rsft-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Private Sector Careers</h3>
-        <ol class="dept-rsft-list">
-          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-          <li>Food Processing Industries</li>
-          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Private Sector Careers</h3>
+            <ol class="dept-rsft-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Research & Teaching</h3>
-        <ol class="dept-rsft-list">
-          <li>Research Assistant / Scientist – in public and private research institutions</li>
-          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Research & Teaching</h3>
+            <ol class="dept-rsft-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Entrepreneurship & Startups</h3>
-        <ol class="dept-rsft-list">
-          <li>Organic farming, dairy, poultry, aquaculture</li>
-          <li>Agri-tourism, greenhouse farming, vertical farming</li>
-          <li>Processing units for spices, cereals, or fruits</li>
-          <li>Agri-consultancy or freelance advisory services</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-rsft-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Jobs Abroad</h3>
-        <ol class="dept-rsft-list">
-          <li>Agricultural research, farm management, and food security projects</li>
-          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Jobs Abroad</h3>
+            <ol class="dept-rsft-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
 
-        <h3 class="dept-rsft-subheading">Key Skills That Boost Career</h3>
-        <ol class="dept-rsft-list">
-          <li>Practical knowledge of farming tools and technologies</li>
-          <li>Communication and management skills (especially in extension or agribusiness)</li>
-          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-          <li>Language skills and report writing</li>
-        </ol>
+            <h3 class="dept-rsft-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-rsft-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
 
-      </div>
-    </div> -->
+          </div>
+        </div> -->
 
         <div class="dept-rsft-accordion-section" id="dept-syllabus">
             <h2 class="dept-rsft-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1268,7 +1268,7 @@
                     <div class="dept-rsft-accordion-content">
                         <div class="dept-rsft-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsd/fashion-design/syllabus/Course-structure-Fashion-Design.pdf"
+                                href="/mobile-assets/department-all/rsd/fashion-design/syllabus/Course-structure-Fashion-Design.pdf"
                                 class="dept-rsft-syllabus-link" download>
                                 <div class="dept-rsft-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1276,8 +1276,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-rsft-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/RSFT/B.DES RSFT.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSFT/B.DES RSFT.pdf"
                                 class="dept-rsft-syllabus-link" download>
                                 <div class="dept-rsft-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1290,29 +1289,29 @@
                 </div>
 
                 <!-- <div class="dept-rsft-accordion-item">
-                    <div class="dept-rsft-accordion-header">
-                        <div class="dept-rsft-accordion-header-left">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                            <span>Post Graduate</span>
+                        <div class="dept-rsft-accordion-header">
+                            <div class="dept-rsft-accordion-header-left">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Post Graduate</span>
+                            </div>
+                            <i class="fa-solid fa-chevron-down dept-rsft-chevron"></i>
                         </div>
-                        <i class="fa-solid fa-chevron-down dept-rsft-chevron"></i>
-                    </div>
 
-                    <div class="dept-rsft-accordion-content">
-                        <div class="dept-rsft-syllabus-list">
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-rsft/syllabus-chemistry/detailed-syllabus-pg.pdf"
-                                class="dept-rsft-syllabus-link" download>
-                                <div class="dept-rsft-syllabus-link-left">
-                                    <i class="fa-solid fa-file-lines"></i>
-                                    Structure of Syllabus -- M.Sc. Chemistry
-                                </div>
-                                <i class="fa-solid fa-download dept-rsft-download-icon"></i>
-                            </a>
+                        <div class="dept-rsft-accordion-content">
+                            <div class="dept-rsft-syllabus-list">
+                                <a target="_blank"
+                                    href="/mobile-assets/department-all/dept-rsft/syllabus-chemistry/detailed-syllabus-pg.pdf"
+                                    class="dept-rsft-syllabus-link" download>
+                                    <div class="dept-rsft-syllabus-link-left">
+                                        <i class="fa-solid fa-file-lines"></i>
+                                        Structure of Syllabus -- M.Sc. Chemistry
+                                    </div>
+                                    <i class="fa-solid fa-download dept-rsft-download-icon"></i>
+                                </a>
 
+                            </div>
                         </div>
-                    </div>
-                </div> -->
+                    </div> -->
 
                 <div class="dept-rsft-accordion-item">
                     <div class="dept-rsft-accordion-header">
@@ -1325,7 +1324,7 @@
 
                     <div class="dept-rsft-accordion-content">
                         <div class="dept-rsft-syllabus-list">
-                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-rsft-syllabus-link" download>
+                            <a href="/doctoral-programme" class="dept-rsft-syllabus-link" download>
                                 <div class="dept-rsft-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1348,8 +1347,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-        <a href="#" class="dept-rsft-events-btn">View All</a>
-      </div> -->
+            <a href="#" class="dept-rsft-events-btn">View All</a>
+          </div> -->
 
         </div>
 
@@ -1390,15 +1389,20 @@
                 <!-- <h2 class="dept-rsft-section-title">Glimpse of <span>our Lab</span></h2> -->
 
                 <div class="dept-rsft-lab-gallery">
-                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%201.jpeg" alt="Lab 1" class="dept-rsft-lab-img">
+                    <img src="/mobile-assets/studio/boutique/royal%20boutique%201.jpeg" alt="Lab 1"
+                        class="dept-rsft-lab-img">
 
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/rsft/photo%20for%20royal%20boutique%201.jpeg" alt="Lab 2" class="dept-rsft-lab-img">
+                    <img src="/mobile-assets/laboratories/rsft/photo%20for%20royal%20boutique%201.jpeg" alt="Lab 2"
+                        class="dept-rsft-lab-img">
 
-                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%203.jpeg" alt="Lab 3" class="dept-rsft-lab-img">
+                    <img src="/mobile-assets/studio/boutique/royal%20boutique%203.jpeg" alt="Lab 3"
+                        class="dept-rsft-lab-img">
 
-                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%205.jpeg" alt="Lab 4" class="dept-rsft-lab-img">
+                    <img src="/mobile-assets/studio/boutique/royal%20boutique%205.jpeg" alt="Lab 4"
+                        class="dept-rsft-lab-img">
 
-                    <img src="https://www.rgu.ac/mobile-assets/studio/boutique/royal%20boutique%206.jpeg" alt="Lab 5" class="dept-rsft-lab-img">
+                    <img src="/mobile-assets/studio/boutique/royal%20boutique%206.jpeg" alt="Lab 5"
+                        class="dept-rsft-lab-img">
 
 
 
@@ -1415,37 +1419,35 @@
     </div>
 
     <script>
-    // 1. Define the courses array
-    const coursesData = [
-        {
-            title: "M.Des - Fashion Design(FD)",
-            duration: "2 years",
-            link: "https://www.rgu.ac/programme-mdes-fashion-design"
-        },
-        {
-            title: "B.Des - Fashion Design(FD)",
-            duration: "4 years",
-            link: "https://www.rgu.ac/programs-b-des-fd-fashion-design"
-        }
-    ];
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "M.Des - Fashion Design(FD)",
+                duration: "2 years",
+                link: "/programme-mdes-fashion-design"
+            },
+            {
+                title: "B.Des - Fashion Design(FD)",
+                duration: "4 years",
+                link: "/programs-b-des-fd-fashion-design"
+            }
+        ];
 
-    // 2. Get container
-    const courseContainer = document.getElementById('course-list-container');
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
 
-    // 3. Render courses
-    if (courseContainer) {
+        // 3. Render courses
+        if (courseContainer) {
 
-        // If array is empty → show fallback
-        if (!coursesData || coursesData.length === 0) {
-            courseContainer.innerHTML = `
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
         <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
           No courses available at the moment.
         </p>
       `;
-        }
-        else {
-            // Generate course cards
-            courseContainer.innerHTML = coursesData.map(course => `
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
         <div class="dept-rsft-course-card">
 
           <div class="dept-rsft-course-header">
@@ -1464,157 +1466,171 @@
 
         </div>
       `).join('');
-        }
-    }
-</script>
-
-<script>
-    // --- ACCORDION LOGIC ---
-    const accordionHeaders = document.querySelectorAll('.dept-rsft-accordion-header');
-
-    // Function to calculate and set the exact height for smooth transitions
-    function setAccordionHeights() {
-        const activeItems = document.querySelectorAll('.dept-rsft-accordion-item.active');
-        activeItems.forEach(item => {
-            const content = item.querySelector('.dept-rsft-accordion-content');
-            content.style.maxHeight = content.scrollHeight + "px";
-        });
-    }
-
-    // Initialize the open item on load
-    setAccordionHeights();
-
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function () {
-            const currentItem = this.parentElement;
-            const currentContent = currentItem.querySelector('.dept-rsft-accordion-content');
-
-            // Toggle 'active' class
-            currentItem.classList.toggle('active');
-
-            // If it is now active, set max-height to its scrollHeight (actual content height)
-            if (currentItem.classList.contains('active')) {
-                currentContent.style.maxHeight = currentContent.scrollHeight + "px";
-            } else {
-                // If closed, collapse it back to 0
-                currentContent.style.maxHeight = 0;
             }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-rsft-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-rsft-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-rsft-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-rsft-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
         });
-    });
 
-    // Recalculate heights if the window resizes (prevents text clipping on mobile)
-    window.addEventListener('resize', setAccordionHeights);
-</script>
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
 
-<script>
-    // ================= EVENTS DATA =================
+    <script>
+        // ================= EVENTS DATA =================
 
-    const eventsData = [
-        "06-02-2018 | Ms. Anamika Chaudhury (Fashion entrepreneur) | Interactive session on fashion entrepreneurship.",
+        const eventsData = [
+            "06-02-2018 | Ms. Anamika Chaudhury (Fashion entrepreneur) | Interactive session on fashion entrepreneurship.",
 
-        "07-02-2018 | Mr. Soumar J Sharma (Fashion designer) | Interactive session on fashion and others.",
+            "07-02-2018 | Mr. Soumar J Sharma (Fashion designer) | Interactive session on fashion and others.",
 
-        "29-08-2018 | Ms. Swagata Dev (Fashion blogger) | Interactive session on fashion journalism.",
+            "29-08-2018 | Ms. Swagata Dev (Fashion blogger) | Interactive session on fashion journalism.",
 
-        "27-06-2018 | Ms. Nein Siao (Dean, School of Design & Fashion, IILM University & academic advisor at JS Institute of Design) | RGU Speaker Series - Be vocal about local: traditional textiles & crafts as future fashion statement.",
+            "27-06-2018 | Ms. Nein Siao (Dean, School of Design & Fashion, IILM University & academic advisor at JS Institute of Design) | RGU Speaker Series - Be vocal about local: traditional textiles & crafts as future fashion statement.",
 
-        "-- | Ms. Meghali Das (Vice chairperson, FICCI Ladies Organisation 2019-20 & owner of Needle Craft) | Guest speaker.",
+            "-- | Ms. Meghali Das (Vice chairperson, FICCI Ladies Organisation 2019-20 & owner of Needle Craft) | Guest speaker.",
 
-        "-- | Mr. Sonam Tashi Gyaltsen (Industrial designer & co-founder of Echostream; designer/owner of LA & T) | Guest lecture.",
+            "-- | Mr. Sonam Tashi Gyaltsen (Industrial designer & co-founder of Echostream; designer/owner of LA & T) | Guest lecture.",
 
-        "-- | Ms. Himani Thapa (Founder of sustainable fashion label ORI) | Talk on sustainable fashion.",
+            "-- | Ms. Himani Thapa (Founder of sustainable fashion label ORI) | Talk on sustainable fashion.",
 
-        "12-09-2018 | Ms. Dipeeka Betala Saboo (Fashion designer) | Interactive session on digital marketing as a career option.",
+            "12-09-2018 | Ms. Dipeeka Betala Saboo (Fashion designer) | Interactive session on digital marketing as a career option.",
 
-        "17-06-2019 | Ms. Mrittika Banerjee (Founder of EAST by Mrittika) | Webinar on fashion business startup and entrepreneurship.",
+            "17-06-2019 | Ms. Mrittika Banerjee (Founder of EAST by Mrittika) | Webinar on fashion business startup and entrepreneurship.",
 
-        "24-06-2019 | Mr. Ameet Barua (Designer & innovator at KYNKOO Menswear and Emily's Workshop for womenswear) | Webinar on merchandising as a career option in the fashion industry."
-    ];
+            "24-06-2019 | Mr. Ameet Barua (Designer & innovator at KYNKOO Menswear and Emily's Workshop for womenswear) | Webinar on merchandising as a career option in the fashion industry."
+        ];
 
-    const eventsTrack = document.getElementById("events-track");
+        const eventsTrack = document.getElementById("events-track");
 
-    if (eventsTrack) {
+        if (eventsTrack) {
 
-        if (!eventsData || eventsData.length === 0) {
-            eventsTrack.innerHTML = `
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
         <p style="text-align:center; padding:20px; color:#556b8d;">
           No events available at the moment.
         </p>
       `;
-        } else {
+            } else {
 
-            const createEventHTML = (text) => `
+                const createEventHTML = (text) => `
         <div class="dept-rsft-event-item">
           ${text}
         </div>
       `;
 
-            // Duplicate for seamless infinite scroll
-            const fullContent = [...eventsData, ...eventsData]
-                .map(createEventHTML)
-                .join("");
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
 
-            eventsTrack.innerHTML = fullContent;
-        }
-    }
-</script>
-
-<script>
-    const tableData = [
-        {
-            title: "The Board of Studies",
-            headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
-            rows: [
-
-                ["1", "Chairperson (Ex- Officio) Dean of School", "Prof. (Dr.) Hari Prasad Agarwal"],
-
-                ["2", "Registrar, Member Secretary (Ex Officio)", "Dr. Diganta Munsi, Registrar RGU"],
-
-                ["3", "Dean Of Academics, (Invited Member)", "Prof. Nandana Das"],
-                ["4", "Members (Ex- Officio) All Head of the Department", "Asif Iqbal Mazid, Assistant Professor, Co-Ordinator of RSD"],
-                ["", "", "Ar. Bhola Saha, Assistant Professor, Co-Ordinator of ID"],
-                ["5", "External Expert for each Department (Academic)", "Prof. (Dr.) Sougata Karmakar, HoD, Dept. of Design, Indian Institute of Technology, Guwahati"],
-                ["", "", "Ms Nien Siao, JS Institute of Design, New Design"],
-                ["6", "External Expert for each Department (Industry)", "Mr. Tuhin Bhuyan, Full Stack Developer + Interaction Designer"],
-                ["", "", "Mr. Ameet Baruah Fashion Designer, Kyn Koo, Guwahati"],
-
-
-
-            ]
-        },
-        {
-            title: "Departmental Research Committee (DRC)",
-            headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
-            rows: [
-
-                ["1", "Chairperson (Ex-Officio) Dean of School", "Hari Prasad Agarwal, Dean, RSFT/RSFA/RSD/RSA"],
-
-                ["2", "All Heads of the Departments - Members (Ex-Officio)", "Mr. Ashif Mazid, Assistant Professor, RSFT"],
-
-                ["3", "External Experts for each Department (Academic)", "Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian Institute of Technology, Guwahati."],
-
-                ["4", "External Experts for each Department (Industry)", "Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer Founder @ Projckt, Chandigarh"],
-
-                ["5", "Two Faculty members of the School nominated by the Vice Chancellor", "Asif Iqbal Mazid, Assistant Professor, RSFT"],
-
-                ["", "", "Sanjay Krishna Kutum, Assistant Professor, RSFT"],
-
-                ["6", "Registrar, Member Secretary (Ex-officio)", "Dr. D.N Singh, Registrar"]
-
-            ]
-        }
-    ];
-
-    const container = document.getElementById("table-accordion-container");
-
-    if (container) {
-
-        const createTable = (headers, rows) => {
-            if (!rows || rows.length === 0) {
-                return `<p style="color:#556b8d;">No data available</p>`;
+                eventsTrack.innerHTML = fullContent;
             }
+        }
+    </script>
 
-            return `
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+
+                    ["1", "Chairperson (Ex- Officio) Dean of School", "Prof. (Dr.) Hari Prasad Agarwal"],
+
+                    ["2", "Registrar, Member Secretary (Ex Officio)", "Dr. Diganta Munsi, Registrar RGU"],
+
+                    ["3", "Dean Of Academics, (Invited Member)", "Prof. Nandana Das"],
+                    ["4", "Members (Ex- Officio) All Head of the Department",
+                        "Asif Iqbal Mazid, Assistant Professor, Co-Ordinator of RSD"
+                    ],
+                    ["", "", "Ar. Bhola Saha, Assistant Professor, Co-Ordinator of ID"],
+                    ["5", "External Expert for each Department (Academic)",
+                        "Prof. (Dr.) Sougata Karmakar, HoD, Dept. of Design, Indian Institute of Technology, Guwahati"
+                    ],
+                    ["", "", "Ms Nien Siao, JS Institute of Design, New Design"],
+                    ["6", "External Expert for each Department (Industry)",
+                        "Mr. Tuhin Bhuyan, Full Stack Developer + Interaction Designer"
+                    ],
+                    ["", "", "Mr. Ameet Baruah Fashion Designer, Kyn Koo, Guwahati"],
+
+
+
+                ]
+            },
+            {
+                title: "Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Position in S-BoS", "Name and Designation"],
+                rows: [
+
+                    ["1", "Chairperson (Ex-Officio) Dean of School",
+                    "Hari Prasad Agarwal, Dean, RSFT/RSFA/RSD/RSA"],
+
+                    ["2", "All Heads of the Departments - Members (Ex-Officio)",
+                        "Mr. Ashif Mazid, Assistant Professor, RSFT"
+                    ],
+
+                    ["3", "External Experts for each Department (Academic)",
+                        "Prof. (Dr.) Sougata Karmakar, HOD, Dept: of Design, Indian Institute of Technology, Guwahati."
+                    ],
+
+                    ["4", "External Experts for each Department (Industry)",
+                        "Mr. Tuhin Bhuyan, Full stack developer + Interaction Designer Founder @ Projckt, Chandigarh"
+                    ],
+
+                    ["5", "Two Faculty members of the School nominated by the Vice Chancellor",
+                        "Asif Iqbal Mazid, Assistant Professor, RSFT"
+                    ],
+
+                    ["", "", "Sanjay Krishna Kutum, Assistant Professor, RSFT"],
+
+                    ["6", "Registrar, Member Secretary (Ex-officio)", "Dr. D.N Singh, Registrar"]
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
         <div class="dept-rsft-table-responsive">
           <table class="dept-rsft-table">
             <thead>
@@ -1624,21 +1640,21 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                <tr>
-                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                </tr>
-              `).join("")}
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
             </tbody>
           </table>
         </div>
       `;
-        };
+            };
 
-        container.innerHTML = tableData.map(item => {
+            container.innerHTML = tableData.map(item => {
 
-            const isEmpty = !item.rows || item.rows.length === 0;
+                const isEmpty = !item.rows || item.rows.length === 0;
 
-            return `
+                return `
         <div class="dept-rsft-table-acc ${isEmpty ? 'disabled' : ''}">
 
           <div class="dept-rsft-table-header">
@@ -1652,86 +1668,85 @@
 
         </div>
       `;
-        }).join("");
-    }
+            }).join("");
+        }
 
-    /* ACCORDION (single open at a time) */
-    document.addEventListener("click", function (e) {
-        const header = e.target.closest(".dept-rsft-table-header");
-        if (!header) return;
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-rsft-table-header");
+            if (!header) return;
 
-        const item = header.parentElement;
-        if (item.classList.contains("disabled")) return;
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
 
-        const allItems = document.querySelectorAll(".dept-rsft-table-acc");
+            const allItems = document.querySelectorAll(".dept-rsft-table-acc");
 
-        allItems.forEach(acc => {
-            if (acc !== item) {
-                acc.classList.remove("active");
-                const content = acc.querySelector(".dept-rsft-table-content");
-                const icon = acc.querySelector("i");
-                if (content) content.style.maxHeight = 0;
-                if (icon) icon.classList.replace("fa-minus", "fa-plus");
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-rsft-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-rsft-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
             }
         });
+    </script>
 
-        const content = item.querySelector(".dept-rsft-table-content");
-        const icon = header.querySelector("i");
-
-        item.classList.toggle("active");
-
-        if (item.classList.contains("active")) {
-            content.style.maxHeight = content.scrollHeight + "px";
-            icon.classList.replace("fa-plus", "fa-minus");
-        } else {
-            content.style.maxHeight = 0;
-            icon.classList.replace("fa-minus", "fa-plus");
-        }
-    });
-</script>
-
-<script>
-    const eventGalleryData = [
-        {
-            title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
-            images: [
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
-            ]
-        },
-        {
-            title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
-            images: [
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
-            ]
-        }
-    ];
-
-    const galleryContainer = document.getElementById("event-gallery-container");
-
-    if (galleryContainer) {
-
-        galleryContainer.innerHTML = eventGalleryData.map(event => {
-
-            const images = event.images || [];
-
-            if (images.length === 0) {
-                return "";
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
             }
+        ];
 
-            // duplicate for infinite effect
-            const marqueeImages = [...images, ...images]
-                .map(img => `<img src="${img}" alt="event">`)
-                .join("");
+        const galleryContainer = document.getElementById("event-gallery-container");
 
-            return `
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
       <div class="dept-rsft-event-card">
 
         <div class="dept-rsft-event-title">
@@ -1747,7 +1762,7 @@
       </div>
     `;
 
-        }).join("");
-    }
-</script>
+            }).join("");
+        }
+    </script>
 @endsection

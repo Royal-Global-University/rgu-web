@@ -1,13 +1,14 @@
 @extends('frontend/new-master')
 @section('title', 'Medical Facility : The Assam Royal Global University')
-@section('meta_description', 'Royal Global University provides on-campus medical facilities with qualified professionals
+@section('meta_description',
+    'Royal Global University provides on-campus medical facilities with qualified professionals
     to ensure prompt healthcare support for students and staff.')
 @section('meta_keywords', 'Medical Facility')
 @section('content')
     <style>
         /*====================================
-    MEDICAL FACILITY TOP
-    ====================================*/
+        MEDICAL FACILITY TOP
+        ====================================*/
 
         .medical-top-section {
 
@@ -106,8 +107,8 @@
 
     <style>
         /*===================================
-    ROYAL SWASTHYA SEVA
-    ===================================*/
+        ROYAL SWASTHYA SEVA
+        ===================================*/
 
         .royal-swasthya-section {
 
@@ -207,8 +208,8 @@
 
     <style>
         /*====================================
-    NEARBY HOSPITALS
-    ====================================*/
+        NEARBY HOSPITALS
+        ====================================*/
 
         .nearby-hospital-section {
 
@@ -338,8 +339,8 @@
 
     <style>
         /*==================================
-    MEDICAL EMERGENCY
-    ==================================*/
+        MEDICAL EMERGENCY
+        ==================================*/
 
         .medical-emergency-section {
 
@@ -569,7 +570,7 @@
             <div class="medical-top-wrapper">
 
                 <div class="medical-top-image">
-                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/1a.jpeg" alt="">
+                    <img src="/mobile-assets/medical-facility/1a.jpeg" alt="">
                 </div>
 
                 <div class="medical-top-content">
@@ -632,7 +633,7 @@
 
                 <div class="royal-swasthya-image">
 
-                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/seva.jpeg" alt="Royal Swasthya Seva">
+                    <img src="/mobile-assets/medical-facility/seva.jpeg" alt="Royal Swasthya Seva">
 
                 </div>
 
@@ -728,7 +729,7 @@
 
             </div>
 
-            <a href="https://www.rgu.ac/mobile-assets/medical-facility/doctor_compendium.pdf" class="hospital-download-btn">
+            <a href="/mobile-assets/medical-facility/doctor_compendium.pdf" class="hospital-download-btn">
                 <i class="fa fa-download"></i>
                 Doctor's Compendium
             </a>
@@ -887,7 +888,7 @@
 
                 <div class="medical-medanta">
 
-                    <img src="https://www.rgu.ac/mobile-assets/medical-facility/medantalogo.png" alt="">
+                    <img src="/mobile-assets/medical-facility/medantalogo.png" alt="">
 
                     <p>
                         The Assam Royal Global University has corporate tie-ups with MEDANTA - The Medicity.

@@ -38,19 +38,19 @@
 
                         <div class="rgu-ac-btn-group">
 
-                            <a href="https://www.rgu.ac/mobile-assets/pdf/ACADEMIC-CALENDER-25-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/ACADEMIC-CALENDER-25-26.pdf" class="rgu-ac-btn" download>
                                 Download Academic Calendar
                             </a>
 
-                            <a href="https://www.rgu.ac/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(D.%20Pharm,%20B.%20Pharm,%20M.%20Pharm)%202025-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(D.%20Pharm,%20B.%20Pharm,%20M.%20Pharm)%202025-26.pdf" class="rgu-ac-btn" download>
                                 Academic Calendar for RSP
                             </a>
 
-                            <a href="https://www.rgu.ac/mobile-assets/pdf/calendar/Revised%20Academic%20Calender%20(RSN)%202025-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/Revised%20Academic%20Calender%20(RSN)%202025-26.pdf" class="rgu-ac-btn" download>
                                 Academic Calendar for RSN
                             </a>
 
-                            <a href="https://www.rgu.ac/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(RSB)%202025-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(RSB)%202025-26.pdf" class="rgu-ac-btn" download>
                                 Academic Calendar for RSB
                             </a>
 

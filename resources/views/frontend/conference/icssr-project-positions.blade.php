@@ -321,7 +321,7 @@
 
                                 or <br>
 
-                                Visit: <a target="_blank" href="https://www.rgu.ac/">www.rgu.ac</a>
+                                Visit: <a target="_blank" href="/">www.rgu.ac</a>
 
                             </p>
                         </div>

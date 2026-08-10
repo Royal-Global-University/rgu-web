@@ -1,6 +1,6 @@
 @extends('frontend/new-master')
 @section('content')
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('new-web/assets/img/inter-multi-disc/cover.png'); filter: blur(2px);">
         </div>
@@ -19,8 +19,8 @@
 
 
     <!-- =========================
-     MULTIDISCIPLINARY COURSES
-========================= -->
+         MULTIDISCIPLINARY COURSES
+    ========================= -->
 
     <section class="multi-course-sec">
 
@@ -114,8 +114,8 @@
 
     <style>
         /* ==========================================
-   MULTIDISCIPLINARY / INTERDISCIPLINARY PAGE
-========================================== */
+       MULTIDISCIPLINARY / INTERDISCIPLINARY PAGE
+    ========================================== */
 
         .multi-course-sec {
             background: #eef3fb;
@@ -129,8 +129,8 @@
         }
 
         /* ==========================
-   TOP SECTION
-========================== */
+       TOP SECTION
+    ========================== */
 
         .multi-course-top {
             display: grid;
@@ -181,8 +181,8 @@
         }
 
         /* ==========================
-   OVERVIEW
-========================== */
+       OVERVIEW
+    ========================== */
 
         .multi-course-overview {
             background: linear-gradient(180deg,
@@ -216,8 +216,8 @@
         }
 
         /* ==========================
-   ANIMATION CLASSES
-========================== */
+       ANIMATION CLASSES
+    ========================== */
 
         .fade-up {
             opacity: 0;
@@ -231,8 +231,8 @@
         }
 
         /* ==========================
-   RESPONSIVE
-========================== */
+       RESPONSIVE
+    ========================== */
 
         @media(max-width:1200px) {
 
@@ -663,7 +663,7 @@
 
                         <div class="benefits-image-section">
 
-                            <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/creative3.png"
+                            <img src="/mobile-assets/multi-disciplinary/creative3.png"
                                 alt="Multidisciplinary Interdisciplinary Transdisciplinary">
 
                         </div>
@@ -1460,15 +1460,14 @@
     </style>
 
     <script>
-
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
 
             const tabs = document.querySelectorAll('.nep-tab');
             const contents = document.querySelectorAll('.nep-content');
 
             tabs.forEach(tab => {
 
-                tab.addEventListener('click', function () {
+                tab.addEventListener('click', function() {
 
                     const target = this.getAttribute('data-tab');
 
@@ -1491,7 +1490,6 @@
             });
 
         });
-
     </script>
 
     <section class="curriculum-design-sec">
@@ -1725,8 +1723,8 @@
 
     <style>
         /* ==========================================
-   CURRICULUM DESIGN SECTION
-========================================== */
+       CURRICULUM DESIGN SECTION
+    ========================================== */
 
         .curriculum-design-sec {
             background: #eef3fb;
@@ -1825,8 +1823,8 @@
         }
 
         /* ==========================================
-   RESPONSIVE
-========================================== */
+       RESPONSIVE
+    ========================================== */
 
         @media(max-width:1200px) {
 
@@ -1873,8 +1871,7 @@
     </style>
 
     <script>
-
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
 
             const curriculumBlocks =
                 document.querySelectorAll('.curriculum-block');
@@ -1908,7 +1905,6 @@
             });
 
         });
-
     </script>
 
 
@@ -2208,8 +2204,7 @@
 
                                 <div class="iks-banner">
 
-                                    <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/img2.png"
-                                        alt="Indian Knowledge System">
+                                    <img src="/mobile-assets/multi-disciplinary/img2.png" alt="Indian Knowledge System">
 
                                 </div>
 
@@ -2265,8 +2260,7 @@
                                 <div class="iks-gallery">
 
                                     <div class="iks-gallery-item">
-                                        <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/img3.png"
-                                            alt="Ancient Manuscript">
+                                        <img src="/mobile-assets/multi-disciplinary/img3.png" alt="Ancient Manuscript">
                                     </div>
 
                                 </div>
@@ -2275,8 +2269,8 @@
 
                             <style>
                                 /* ===========================
-   IKS ACCORDION
-=========================== */
+       IKS ACCORDION
+    =========================== */
 
                                 .iks-banner {
                                     margin-bottom: 50px;
@@ -2596,8 +2590,8 @@
 
                         <style>
                             /* ===========================
-   ELECTIVE COURSES
-=========================== */
+       ELECTIVE COURSES
+    =========================== */
 
                             .elective-content h2 {
                                 font-family: 'Playfair Display', serif;
@@ -2787,8 +2781,7 @@
 
                                     <div class="vac-image-block">
 
-                                        <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/img4.png"
-                                            alt="Technology Education">
+                                        <img src="/mobile-assets/multi-disciplinary/img4.png" alt="Technology Education">
 
                                     </div>
 
@@ -2802,8 +2795,7 @@
 
                                     <div class="vac-image-block">
 
-                                        <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/img5a.png"
-                                            alt="Health Wellness">
+                                        <img src="/mobile-assets/multi-disciplinary/img5a.png" alt="Health Wellness">
 
                                     </div>
 
@@ -2849,8 +2841,8 @@
 
                         <style>
                             /* ===========================
-   VALUE ADDED COURSES
-=========================== */
+       VALUE ADDED COURSES
+    =========================== */
 
                             .vac-content h2 {
                                 font-family: 'Playfair Display', serif;
@@ -3032,7 +3024,7 @@
 
                                 <div class="mid-banner-image">
 
-                                    <img src="https://www.rgu.ac/mobile-assets/multi-disciplinary/creative4.png"
+                                    <img src="/mobile-assets/multi-disciplinary/creative4.png"
                                         alt="Areas of Interdisciplinary Multidisciplinary Courses">
 
                                 </div>
@@ -3043,8 +3035,8 @@
 
                         <style>
                             /* ===========================
-   MULTIDISCIPLINARY COURSES
-=========================== */
+       MULTIDISCIPLINARY COURSES
+    =========================== */
 
                             .mid-content p {
                                 color: #29467B;
@@ -3237,8 +3229,8 @@
 
                             <style>
                                 /* ===========================
-   CIVIL SERVICE COACHING
-=========================== */
+       CIVIL SERVICE COACHING
+    =========================== */
 
                                 .cse-content p {
                                     color: #29467B;
@@ -3448,8 +3440,8 @@
 
                             <style>
                                 /* ===========================
-   NET SET GATE
-=========================== */
+       NET SET GATE
+    =========================== */
 
                                 .netgate-content p {
                                     color: #29467B;
@@ -3650,8 +3642,7 @@
     </style>
 
     <script>
-
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
 
             const accordionItems =
                 document.querySelectorAll('.course-accordion-item');
@@ -3664,7 +3655,7 @@
                 const body =
                     item.querySelector('.course-accordion-body');
 
-                header.addEventListener('click', function () {
+                header.addEventListener('click', function() {
 
                     const isActive =
                         item.classList.contains('active');
@@ -3694,7 +3685,6 @@
             });
 
         });
-
     </script>
 
 
@@ -3917,5 +3907,4 @@
 
         }
     </style>
-
 @endsection

@@ -178,8 +178,7 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img"
-                                src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pompi-Basumatary-RSl.png"
+                            <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/Pompi-Basumatary-RSl.png"
                                 alt="">
                         </div>
                     </div>

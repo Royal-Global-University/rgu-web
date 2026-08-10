@@ -1278,8 +1278,7 @@
         <div class="dept-biotechnology-hero" id="dept-about">
 
             <div class="dept-biotechnology-img">
-                <img src="/home-banner/bio-tech.png"
-                    alt="Architecture">
+                <img src="/home-banner/bio-tech.png" alt="Architecture">
             </div>
 
             <div class="dept-biotechnology-content">
@@ -1387,75 +1386,75 @@
         </div>
 
         <!-- <div class="dept-biotechnology-prospects-section" id="dept-prospects">
-          <h2 class="dept-biotechnology-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-biotechnology-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-biotechnology-prospects-content">
-            <p class="dept-biotechnology-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-biotechnology-prospects-content">
+                <p class="dept-biotechnology-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-biotechnology-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-biotechnology-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Government Sector Jobs</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Government Sector Jobs</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Private Sector Careers</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Private Sector Careers</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Research & Teaching</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Research & Teaching</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Jobs Abroad</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Jobs Abroad</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-biotechnology-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-biotechnology-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-biotechnology-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-biotechnology-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-biotechnology-accordion-section" id="dept-syllabus">
             <h2 class="dept-biotechnology-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1474,7 +1473,7 @@
                     <div class="dept-biotechnology-accordion-content">
                         <div class="dept-biotechnology-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
+                                href="/mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
                                 class="dept-biotechnology-syllabus-link">
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1532,7 +1531,7 @@
 
                     <div class="dept-biotechnology-accordion-content">
                         <div class="dept-biotechnology-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-biotechnology-syllabus-link" download>
+                            <a href="/phd" class="dept-biotechnology-syllabus-link" download>
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1555,8 +1554,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-biotechnology-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-biotechnology-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1639,25 +1638,25 @@
                 <!-- <h2 class="dept-biotechnology-section-title">Glimpse of <span>our Lab</span></h2> -->
 
                 <div class="dept-biotechnology-lab-gallery">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/3.jpg" alt="Lab 1"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/3.jpg" alt="Lab 1"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/4.jpg" alt="Lab 2"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/4.jpg" alt="Lab 2"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/5.jpg" alt="Lab 3"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/5.jpg" alt="Lab 3"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/1.jpg" alt="Lab 4"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/1.jpg" alt="Lab 4"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/2.jpg" alt="Lab 5"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/2.jpg" alt="Lab 5"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/6.jpg" alt="Lab 6"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/6.jpg" alt="Lab 6"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/7.jpg" alt="Lab 7"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/7.jpg" alt="Lab 7"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/8.jpg" alt="Lab 8"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/8.jpg" alt="Lab 8"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/9.jpg" alt="Lab 9"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/9.jpg" alt="Lab 9"
                         class="dept-biotechnology-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/new-labs/lab-biotech-new/10.jpg" alt="Lab 10"
+                    <img src="/mobile-assets/new-labs/lab-biotech-new/10.jpg" alt="Lab 10"
                         class="dept-biotechnology-lab-img">
 
                 </div>
@@ -1674,12 +1673,12 @@
         const coursesData = [{
                 title: "M.Sc. - Biotechnology",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Bio-Technology"
+                link: "/programs-MSc-Bio-Technology"
             },
             {
                 title: "B.Sc. - Biotechnology | Honours / Honours with Research",
                 duration: "4 years as per NEP",
-                link: "https://www.rgu.ac/programs-b-sc-bio-technology"
+                link: "/programs-b-sc-bio-technology"
             }
         ];
 
@@ -1820,7 +1819,8 @@
                     ["9", "Member", "Dr. Mousumi Das Goswami, Asst. Professor, Dept. of Biotechnology, RGU"],
                     ["10", "Member", "Dr. Anuj Kumar Borah, Asst. Professor, Dept. of Biotechnology, RGU"],
                     ["11", "Member",
-                    "Dr. Chongtham Sovachandra Singh, Asst. Professor, Dept. of Biotechnology,RGU"],
+                        "Dr. Chongtham Sovachandra Singh, Asst. Professor, Dept. of Biotechnology,RGU"
+                    ],
                     ["12", "Member", "Dr. Manisha Choudhury, Asst. Professor, Dept. of Biotechnology, RGU"],
 
 
@@ -1867,10 +1867,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1937,21 +1937,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

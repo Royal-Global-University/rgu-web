@@ -1443,9 +1443,9 @@
         </a>
 
         <!-- <a href="#dept-lab" class="dept-rshm-float-item">
-                <i class="fa fa-flask"></i>
-                <span class="dept-rshm-float-text">Lab</span>
-            </a> -->
+                    <i class="fa fa-flask"></i>
+                    <span class="dept-rshm-float-text">Lab</span>
+                </a> -->
 
     </div>
 
@@ -1536,75 +1536,75 @@
         </div>
 
         <!-- <div class="dept-rshm-prospects-section" id="dept-prospects">
-          <h2 class="dept-rshm-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-rshm-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-rshm-prospects-content">
-            <p class="dept-rshm-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-rshm-prospects-content">
+                <p class="dept-rshm-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-rshm-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-rshm-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-rshm-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Government Sector Jobs</h3>
-            <ol class="dept-rshm-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Government Sector Jobs</h3>
+                <ol class="dept-rshm-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Private Sector Careers</h3>
-            <ol class="dept-rshm-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Private Sector Careers</h3>
+                <ol class="dept-rshm-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Research & Teaching</h3>
-            <ol class="dept-rshm-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Research & Teaching</h3>
+                <ol class="dept-rshm-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-rshm-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-rshm-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Jobs Abroad</h3>
-            <ol class="dept-rshm-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Jobs Abroad</h3>
+                <ol class="dept-rshm-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-rshm-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-rshm-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-rshm-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-rshm-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-rshm-accordion-section" id="dept-syllabus">
             <h2 class="dept-rshm-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1624,7 +1624,7 @@
                         <div class="dept-rshm-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshm/syllabus-pdf/Course-structure_Culinary%20Arts.pdf"
+                                href="/mobile-assets/department-all/rshm/syllabus-pdf/Course-structure_Culinary%20Arts.pdf"
                                 class="dept-rshm-syllabus-link">
                                 <div class="dept-rshm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1633,8 +1633,7 @@
                                 <i class="fa-solid fa-download dept-rshm-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSHM/BA%20Culinary%20Arts.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSHM/BA%20Culinary%20Arts.pdf"
                                 class="dept-rshm-syllabus-link">
                                 <div class="dept-rshm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1646,7 +1645,7 @@
                             <div style="border: 1px solid #888;"></div>
 
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshm/syllabus-pdf/Course-structure_RSHM.pdf"
+                                href="/mobile-assets/department-all/rshm/syllabus-pdf/Course-structure_RSHM.pdf"
                                 class="dept-rshm-syllabus-link">
                                 <div class="dept-rshm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1655,8 +1654,7 @@
                                 <i class="fa-solid fa-download dept-rshm-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSHM/BA-BSC%20Hotel%20Management.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSHM/BA-BSC%20Hotel%20Management.pdf"
                                 class="dept-rshm-syllabus-link">
                                 <div class="dept-rshm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1681,7 +1679,7 @@
 
                     <div class="dept-rshm-accordion-content">
                         <div class="dept-rshm-syllabus-list">
-                            <a target="_blank" href="https://www.rgu.ac/phd" class="dept-rshm-syllabus-link">
+                            <a target="_blank" href="/phd" class="dept-rshm-syllabus-link">
                                 <div class="dept-rshm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1704,8 +1702,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-rshm-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-rshm-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1737,89 +1735,89 @@
 
         <!-- <div class="dept-rshm-lab-section" id="dept-lab">
 
-                <div class="dept-rshm-lab-container">
+                    <div class="dept-rshm-lab-container">
 
-                    <h2 class="dept-rshm-section-title">Physiotherapy <span> OPD</span></h2>
+                        <h2 class="dept-rshm-section-title">Physiotherapy <span> OPD</span></h2>
 
-                    <p class="dept-rshm-lab-intro">
-                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
-                        patient. The
-                        students through OPD practicals would learn how to treat patients with physical disabilities and
-                        injuries in a
-                        range of settings including hospitals, health centres, private practices and sports clubs under the
-                        proper
-                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
-                    </p>
+                        <p class="dept-rshm-lab-intro">
+                            The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                            patient. The
+                            students through OPD practicals would learn how to treat patients with physical disabilities and
+                            injuries in a
+                            range of settings including hospitals, health centres, private practices and sports clubs under the
+                            proper
+                            guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                        </p>
 
-                    <ol class="dept-rshm-lab-list">
-                        <li>
-                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
-                            pain, reduce
-                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
-                            acts as a
-                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
-                            tissue
-                            repair.
-                        </li>
+                        <ol class="dept-rshm-lab-list">
+                            <li>
+                                IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                                pain, reduce
+                                inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                                acts as a
+                                superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                                tissue
+                                repair.
+                            </li>
 
-                        <li>
-                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
-                            include reducing
-                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
-                            scar
-                            tissue, and treating muscle spasms.
-                        </li>
+                            <li>
+                                Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                                include reducing
+                                joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                                scar
+                                tissue, and treating muscle spasms.
+                            </li>
 
-                        <li>
-                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
-                            upper trap
-                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
-                            stiffness, and
-                            improve upper body posture.
-                        </li>
+                            <li>
+                                Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                                upper trap
+                                stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                                stiffness, and
+                                improve upper body posture.
+                            </li>
 
-                        <li>
-                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
-                            inflammation, and improves blood circulation.
-                        </li>
+                            <li>
+                                Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                                inflammation, and improves blood circulation.
+                            </li>
 
-                        <li>
-                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
-                            assess range
-                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
-                        </li>
+                            <li>
+                                Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                                assess range
+                                of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                            </li>
 
-                        <li>
-                            Exterior image of the Physiotherapy OPD.
-                        </li>
-                    </ol>
+                            <li>
+                                Exterior image of the Physiotherapy OPD.
+                            </li>
+                        </ol>
 
 
-                     <h3 class="dept-rshm-lab-heading">Our Lab Equipments</h3>
+                         <h3 class="dept-rshm-lab-heading">Our Lab Equipments</h3>
 
-                    <h2 class="dept-rshm-section-title">Glimpse of <span>our Lab</span></h2>
+                        <h2 class="dept-rshm-section-title">Glimpse of <span>our Lab</span></h2>
 
-                    <div class="dept-rshm-lab-gallery">
+                        <div class="dept-rshm-lab-gallery">
 
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
-                            class="dept-rshm-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
-                            class="dept-rshm-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
-                            class="dept-rshm-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
-                            class="dept-rshm-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
-                            class="dept-rshm-lab-img">
-                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
-                            class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                                class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                                class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                                class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                                class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                                class="dept-rshm-lab-img">
+                            <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                                class="dept-rshm-lab-img">
 
+                        </div>
+
+                        <button class="dept-rshm-explore-btn">Explore</button>
                     </div>
 
-                    <button class="dept-rshm-explore-btn">Explore</button>
-                </div>
-
-            </div> -->
+                </div> -->
 
     </div>
 
@@ -1828,22 +1826,22 @@
         const coursesData = [{
                 title: "M.Sc. Hotel Management / MHM",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MSc-Hotel-Management"
+                link: "/programs-MSc-Hotel-Management"
             },
             {
                 title: "Bachelor of Hotel Management (BHM)",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-Bachelor-of-Hotel-Management-BHM"
+                link: "/programs-Bachelor-of-Hotel-Management-BHM"
             },
             {
                 title: "B.Sc.(H)/B.A.(H) – Hotel Management",
                 duration: "3/ 3+1 years",
-                link: "https://www.rgu.ac/programs-BA-HotelManagement"
+                link: "/programs-BA-HotelManagement"
             },
             {
                 title: "B.A.(H) – Culinary Arts",
                 duration: "3/ 3+1 years",
-                link: "https://www.rgu.ac/programs-BA-in-Culinary-Arts"
+                link: "/programs-BA-in-Culinary-Arts"
             }
 
         ];
@@ -2023,10 +2021,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -2206,17 +2204,17 @@
 
                     <!-- BULLET LIST -->
                     ${event.points && event.points.length > 0 ? `
-                            <ul class="dept-rshm-event-list">
-                                ${event.points.map(point => `<li>${point}</li>`).join("")}
-                            </ul>
-                        ` : ""}
+                                <ul class="dept-rshm-event-list">
+                                    ${event.points.map(point => `<li>${point}</li>`).join("")}
+                                </ul>
+                            ` : ""}
 
                     <!-- IMAGE -->
                     ${event.image ? `
-                            <div class="dept-rshm-event-img">
-                                <img src="${event.image}" alt="event image">
-                            </div>
-                        ` : ""}
+                                <div class="dept-rshm-event-img">
+                                    <img src="${event.image}" alt="event image">
+                                </div>
+                            ` : ""}
 
                 </div>
 
@@ -2371,16 +2369,16 @@
                 <div class="dept-rshm-event-acc-content-copy">
 
                     ${event.points && event.points.length > 0 ? `
-                            <ul class="dept-rshm-event-list-copy">
-                                ${event.points.map(point => `<li>${point}</li>`).join("")}
-                            </ul>
-                        ` : ""}
+                                <ul class="dept-rshm-event-list-copy">
+                                    ${event.points.map(point => `<li>${point}</li>`).join("")}
+                                </ul>
+                            ` : ""}
 
                     ${event.image ? `
-                            <div class="dept-rshm-event-img-copy">
-                                <img src="${event.image}" alt="event image">
-                            </div>
-                        ` : ""}
+                                <div class="dept-rshm-event-img-copy">
+                                    <img src="${event.image}" alt="event image">
+                                </div>
+                            ` : ""}
 
                 </div>
 

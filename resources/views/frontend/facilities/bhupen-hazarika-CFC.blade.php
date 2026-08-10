@@ -719,8 +719,8 @@
 
     <style>
         /*************************
-    Heading
-    *************************/
+        Heading
+        *************************/
         .bhupen-first-title p {
             color: #5d6777;
             line-height: 1.9;
@@ -766,7 +766,8 @@
     <section class="bhupen-avm-image-section">
         <img src="new-web/assets/img/bhupen-hazarika-CFC/avm.svg" alt="Aim Vision Mission" class="avm-img avm-desktop">
 
-        <img src="new-web/assets/img/bhupen-hazarika-CFC/avm-mobile.svg" alt="Aim Vision Mission" class="avm-img avm-mobile">
+        <img src="new-web/assets/img/bhupen-hazarika-CFC/avm-mobile.svg" alt="Aim Vision Mission"
+            class="avm-img avm-mobile">
     </section>
 
     <!-- ================= XUDHAKANTHA MUSEUM ================= -->
@@ -781,33 +782,33 @@
                 <div class="scroll-content-images unique-set-alpha">
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/1.png" alt="Image 1" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/1.png" alt="Image 1"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/2.png" alt="Image 2" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/2.png" alt="Image 2"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/3.png" alt="Image 3" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/3.png" alt="Image 3"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/4.png" alt="Image 4" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/4.png" alt="Image 4"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/5.png" alt="Image 5" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/5.png" alt="Image 5"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                     <div class="slider-image-frame">
-                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/6.png" alt="Image 6" class="scroller-image"
-                            onclick="openLightbox(this.src)">
+                        <img src="new-web/assets/img/bhupen-hazarika-CFC/gallery/6.png" alt="Image 6"
+                            class="scroller-image" onclick="openLightbox(this.src)">
                     </div>
 
                 </div>
@@ -857,7 +858,7 @@
 
                                 <div class="bhupen-event-card">
 
-                                    <img src="https://www.rgu.ac/mobile-assets/media-corner/news4/Prof.%20Amarjyoti%20Choudhury%20recites%20%20%E2%80%9CEta%20Gaan%20Xex%20Hol,%E2%80%9D%20before%20joining%20as%20Chair%20of%20%E2%80%98Dr%20Bhupen%20Hazarika%20Centre%20for%20Creativity%E2%80%99%20at%20RGU.jpg"
+                                    <img src="/mobile-assets/media-corner/news4/Prof.%20Amarjyoti%20Choudhury%20recites%20%20%E2%80%9CEta%20Gaan%20Xex%20Hol,%E2%80%9D%20before%20joining%20as%20Chair%20of%20%E2%80%98Dr%20Bhupen%20Hazarika%20Centre%20for%20Creativity%E2%80%99%20at%20RGU.jpg"
                                         alt="">
 
                                     <div class="bhupen-event-card-body">
@@ -1111,8 +1112,7 @@
 
                                 <div class="bhupen-event-card">
 
-                                    <img src="https://www.rgu.ac/mobile-assets/media-corner/news78/11.jpeg"
-                                        alt="">
+                                    <img src="/mobile-assets/media-corner/news78/11.jpeg" alt="">
 
                                     <div class="bhupen-event-card-body">
 
@@ -1144,7 +1144,7 @@
 
                                 <div class="bhupen-event-card">
 
-                                    <img src="https://www.rgu.ac/mobile-assets/media-corner/news82/1.jpeg" alt="">
+                                    <img src="/mobile-assets/media-corner/news82/1.jpeg" alt="">
 
                                     <div class="bhupen-event-card-body">
 
@@ -1252,7 +1252,8 @@
 
             <div class="ebook-item">
 
-                <img src="new-web/assets/img/bhupen-hazarika-CFC/book-cover/zg-cover.jpg" alt="E-Book 1" class="ebook-cover">
+                <img src="new-web/assets/img/bhupen-hazarika-CFC/book-cover/zg-cover.jpg" alt="E-Book 1"
+                    class="ebook-cover">
 
                 <a target="_blank" href="new-web/assets/img/bhupen-hazarika-CFC/book-cover/Zubeen - Inside.pdf"
                     class="ebook-download-btn">
@@ -1267,7 +1268,8 @@
 
             <div class="ebook-item">
 
-                <img src="new-web/assets/img/bhupen-hazarika-CFC/book-cover/bh-cover.jpg" alt="E-Book 2" class="ebook-cover">
+                <img src="new-web/assets/img/bhupen-hazarika-CFC/book-cover/bh-cover.jpg" alt="E-Book 2"
+                    class="ebook-cover">
 
                 <a target="_blank"
                     href="new-web/assets/img/bhupen-hazarika-CFC/book-cover/Bhupen Hazarika Twenty Songs Seven Portrait - inside.pdf"

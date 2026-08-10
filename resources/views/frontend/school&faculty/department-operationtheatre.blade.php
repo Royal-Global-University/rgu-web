@@ -1271,7 +1271,7 @@
                     surgical instrumentation, infection prevention and control, patient monitoring, airway management,
                     critical care support, and biomedical equipment handling. Students gain practical experience through
                     clinical postings in operation theatres, intensive care units, emergency departments, and
-                    post-anaesthesia care units under the guidance of experienced clinicians.       
+                    post-anaesthesia care units under the guidance of experienced clinicians.
                 </p>
 
             </div>
@@ -1399,7 +1399,7 @@
 
                     <div class="dept-operationtheatre-accordion-content">
                         <div class="dept-operationtheatre-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-operationtheatre-syllabus-link" target="_blank">
+                            <a href="/phd" class="dept-operationtheatre-syllabus-link" target="_blank">
                                 <div class="dept-operationtheatre-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1422,8 +1422,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-                    <a href="#" class="dept-operationtheatre-events-btn">View All</a>
-                  </div> -->
+                        <a href="#" class="dept-operationtheatre-events-btn">View All</a>
+                      </div> -->
 
         </div>
 
@@ -1456,8 +1456,8 @@
                 </p>
 
                 <!-- <p class="dept-operationtheatre-lab-intro">
-                      The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
-                    </p> -->
+                          The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+                        </p> -->
 
 
                 <!-- <h3 class="dept-operationtheatre-lab-heading">Our Lab Equipments</h3> -->
@@ -1490,13 +1490,13 @@
         const coursesData = [{
                 title: "Master – Anaesthesia and Operation Theatre Technology",
                 duration: "2 Years",
-                link: "https://www.rgu.ac/programme-m-anaesthesia-ott"
+                link: "/programme-m-anaesthesia-ott"
             },
 
             {
                 title: "Bachelor – Anaesthesia and Operation Theatre Technology",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programme-b-anaesthesia-ott"
+                link: "/programme-b-anaesthesia-ott"
             },
 
         ];
@@ -1662,10 +1662,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                            <tr>
-                              ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                            </tr>
-                          `).join("")}
+                                <tr>
+                                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                                </tr>
+                              `).join("")}
             </tbody>
           </table>
         </div>
@@ -1732,21 +1732,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

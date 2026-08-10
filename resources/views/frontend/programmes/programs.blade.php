@@ -8,24 +8,22 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <section>
-            <img style="width: 100%;"
-                src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/mob-admission-fee.png" alt="">
+            <img style="width: 100%;" src="/mobile-assets/admission-fee-and-programmee/mob-admission-fee.png" alt="">
         </section>
     </div>
 
     <div class="website">
         @include('frontend/components/aheader')
         <section>
-            <img style="width: 100%;"
-                src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-fee.png" alt="">
+            <img style="width: 100%;" src="/mobile-assets/admission-fee-and-programmee/web-admission-fee.png" alt="">
         </section>
     </div>
 
     <style>
         /* ================================
-               UNIQUE NAMESPACE STYLES
-               Prefix: rgu-program-
-            ================================= */
+                   UNIQUE NAMESPACE STYLES
+                   Prefix: rgu-program-
+                ================================= */
 
         .body-part {
             padding: 20px 0px;
@@ -55,8 +53,8 @@
         }
 
         /* ================================
-               CARD DESIGN (POP EFFECT)
-            ================================= */
+                   CARD DESIGN (POP EFFECT)
+                ================================= */
 
         .rgu-program-card {
             background: linear-gradient(135deg, #ffffff, #bdd1ff);
@@ -333,7 +331,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Physics" class="rgu-program-link">
+                                    <a href="/programs-MSc-Physics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. – Physics</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -342,7 +340,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Chemistry" class="rgu-program-link">
+                                    <a href="/programs-MSc-Chemistry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. – Chemistry</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -351,7 +349,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Mathematics" class="rgu-program-link">
+                                    <a href="/programs-MSc-Mathematics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. – Mathematics</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -360,7 +358,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-physics" class="rgu-program-link">
+                                    <a href="/programs-b-sc-physics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) – Physics</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -369,7 +367,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-chemistry" class="rgu-program-link">
+                                    <a href="/programs-b-sc-chemistry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) – Chemistry</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -378,7 +376,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-mathematics" class="rgu-program-link">
+                                    <a href="/programs-b-sc-mathematics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) – Mathematics</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -405,7 +403,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-barch" class="rgu-program-link">
+                                    <a href="/programs-barch" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Arch</div>
                                             <div class="rgu-program-card-duration">Duration: 5 Years</div>
@@ -431,7 +429,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Psychology" class="rgu-program-link">
+                                    <a href="/programs-MA-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. Psychology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -440,26 +438,27 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Clinical-Psychology" class="rgu-program-link">
+                                    <a href="/programs-MA-Clinical-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">Masters in Clinical Psychology (M.Clin.Psy)</div>
+                                            <div class="rgu-program-card-title">Masters in Clinical Psychology (M.Clin.Psy)
+                                            </div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BSc-clinical-psychology-%28Hons%29"
-                                        class="rgu-program-link">
+                                    <a href="/programs-BSc-clinical-psychology-%28Hons%29" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">Bachelor in Clinical Psychology (B.Clin.Psy.)</div>
+                                            <div class="rgu-program-card-title">Bachelor in Clinical Psychology
+                                                (B.Clin.Psy.)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Psychology" class="rgu-program-link">
+                                    <a href="/programs-BA-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A.(H) Psychology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -468,7 +467,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Applied-Psychology" class="rgu-program-link">
+                                    <a href="/programs-BA-Applied-Psychology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A.(H) Applied Psychology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -477,7 +476,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-isitep" class="rgu-program-link">
+                                    <a href="/programs-isitep" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Integrated Special and Inclusive Teacher
                                                 Education Programme (ISITEP)</div>
@@ -504,7 +503,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Bio-Technology" class="rgu-program-link">
+                                    <a href="/programs-MSc-Bio-Technology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Biotechnology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -513,7 +512,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Msc-Microbiology" class="rgu-program-link">
+                                    <a href="/programs-Msc-Microbiology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Microbiology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -522,7 +521,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-msc-food-science" class="rgu-program-link">
+                                    <a href="/programme-msc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Food Science and Technology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -531,7 +530,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-bsc-food-science" class="rgu-program-link">
+                                    <a href="/programme-bsc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. (H) Food Science and Technology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -540,7 +539,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-bio-technology" class="rgu-program-link">
+                                    <a href="/programs-b-sc-bio-technology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Biotechnology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -549,7 +548,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-microbiology" class="rgu-program-link">
+                                    <a href="/programs-b-sc-microbiology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Microbiology</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -584,7 +583,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MBA Marketing</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -593,7 +592,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MBA – HRM</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -602,7 +601,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MBA – Operations Management</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -611,7 +610,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 MBA – Entrepreneurship & Small Business Management
@@ -622,7 +621,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MBA-Finance" class="rgu-program-link">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MBA – Business Analytics</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -631,7 +630,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BBA" class="rgu-program-link">
+                                    <a href="/programs-BBA" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BBA</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yr as per NEP</div>
@@ -640,7 +639,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/program-executive-mba" class="rgu-program-link">
+                                    <a href="/program-executive-mba" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Executive MBA</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Yr as per NEP</div>
@@ -664,7 +663,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MCom" class="rgu-program-link">
+                                    <a href="/programs-MCom" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Com</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -673,7 +672,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-bcom-morning-shift" class="rgu-program-link">
+                                    <a href="/programs-bcom-morning-shift" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Com – Morning Shift</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -682,7 +681,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-bcom" class="rgu-program-link">
+                                    <a href="/programs-bcom" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Com – Day Shift</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -691,7 +690,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-bcom-finance-with-ica" class="rgu-program-link">
+                                    <a href="/programs-bcom-finance-with-ica" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Com – Finance with ICA</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -717,7 +716,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-J&MC" class="rgu-program-link">
+                                    <a href="/programs-MA-J&MC" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. J&amp;MC</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -726,8 +725,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Animation-&-Visual-Effects"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MSc-Animation-&-Visual-Effects" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Sc. Animation and Visual Effects
@@ -738,7 +736,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-J&MC" class="rgu-program-link">
+                                    <a href="/programs-BA-J&MC" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A. J&amp;MC</div>
                                             <div class="rgu-program-card-duration">Duration: 3/4 Yrs as per NEP</div>
@@ -747,8 +745,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-animation-visual-effects"
-                                        class="rgu-program-link">
+                                    <a href="/programs-b-sc-animation-visual-effects" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Sc. Animation and Visual Effects
@@ -774,8 +771,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BachelorInterior-DesignBID"
-                                        class="rgu-program-link">
+                                    <a href="/programs-BachelorInterior-DesignBID" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Interior Design (BID)
@@ -786,7 +782,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry"
+                                    <a href="/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry"
                                         class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
@@ -798,8 +794,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Design-Communication-Design"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Design-Communication-Design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Design (Communication Design) (B.Des. CD)
@@ -810,8 +805,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Design-Graphic-Design"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Design-Graphic-Design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Design (Graphic Design) (B.Des. GD)
@@ -822,8 +816,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Design-Product-Design"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Design-Product-Design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Design (Product Design) (B.Des. PD)
@@ -834,8 +827,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-des-fd-fashion-design"
-                                        class="rgu-program-link">
+                                    <a href="/programs-b-des-fd-fashion-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Design (Fashion Design) (B.Des. FD)
@@ -858,7 +850,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                    <a href="/programs#" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Communication Design (CD)
@@ -869,7 +861,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                    <a href="/programs#" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Graphic Design (GD)
@@ -880,7 +872,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs#" class="rgu-program-link">
+                                    <a href="/programs#" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Product Design (PD)
@@ -908,8 +900,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MTech-CSE-in-Artifical-Intelligence"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MTech-CSE-in-Artifical-Intelligence" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Tech. CSE – Artificial Intelligence
@@ -920,8 +911,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MTech-CSE-in-Internet-of-Things"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MTech-CSE-in-Internet-of-Things" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Tech. CSE – IOT</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -930,8 +920,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MTech-CE-in-Water-Resources"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MTech-CE-in-Water-Resources" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Tech. CE in Water Resources Development &amp; Management
@@ -942,7 +931,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MTech-CAD" class="rgu-program-link">
+                                    <a href="/programs-MTech-CAD" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Tech CE – CAD</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -960,8 +949,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MTech-CE-in-Structural-Engineering"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MTech-CE-in-Structural-Engineering" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Tech. CE in Structural Engineering
@@ -973,7 +961,7 @@
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-tech-cse" class="rgu-program-link">
+                                    <a href="/programs-b-tech-cse" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Tech. (CSE)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -982,7 +970,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-tech-ce" class="rgu-program-link">
+                                    <a href="/programs-b-tech-ce" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Tech. (CE)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -991,7 +979,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-tech-me" class="rgu-program-link">
+                                    <a href="/programs-b-tech-me" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Tech. (ME)</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -1011,8 +999,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-tech-artifical-intelligence-ai"
-                                        class="rgu-program-link">
+                                    <a href="/programs-b-tech-artifical-intelligence-ai" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Tech. – Artificial Intelligence (AI)
@@ -1023,7 +1010,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-tech-lateral-entry" class="rgu-program-link">
+                                    <a href="/programs-b-tech-lateral-entry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Tech – (Lateral Entry) – CE/CSE/ME/AI/Data Science
@@ -1034,8 +1021,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BTechWorking-Professional-CE-CSE"
-                                        class="rgu-program-link">
+                                    <a href="/programs-BTechWorking-Professional-CE-CSE" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Tech for Working Professional (CE, CSE, ME)
@@ -1139,8 +1125,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-des-fd-fashion-design"
-                                        class="rgu-program-link">
+                                    <a href="/programs-b-des-fd-fashion-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Design (Fashion Design) (B.Des. FD)
@@ -1151,7 +1136,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-mdes-fashion-design" class="rgu-program-link">
+                                    <a href="/programme-mdes-fashion-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master of Design (Fashion Design) (M.Des. FD)
@@ -1177,8 +1162,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Master-of-Fine-Arts-MFA"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Master-of-Fine-Arts-MFA" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master of Fine Arts (MFA)
@@ -1189,8 +1173,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Fine-Arts-BFA"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Fine-Arts-BFA" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Fine Arts (BFA)
@@ -1216,7 +1199,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-bsc-agri" class="rgu-program-link">
+                                    <a href="/programme-bsc-agri" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Agriculture</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -1225,7 +1208,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-msc-agri" class="rgu-program-link">
+                                    <a href="/programme-msc-agri" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Agriculture</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1267,7 +1250,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-HotelManagement" class="rgu-program-link">
+                                    <a href="/programs-BA-HotelManagement" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Sc.(H)/B.A.(H) – Hotel Management
@@ -1280,7 +1263,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-in-Culinary-Arts" class="rgu-program-link">
+                                    <a href="/programs-BA-in-Culinary-Arts" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A.(H) – Culinary Arts</div>
                                             <div class="rgu-program-card-duration">
@@ -1291,7 +1274,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Hotel-Management" class="rgu-program-link">
+                                    <a href="/programs-MSc-Hotel-Management" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Sc. Hotel Management / MIHM
@@ -1330,7 +1313,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-ma-iks" class="rgu-program-link">
+                                    <a href="/programs-ma-iks" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.A. – Indian Knowledge System (IKS)
@@ -1341,7 +1324,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Economics" class="rgu-program-link">
+                                    <a href="/programs-MA-Economics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. – Economics</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1350,7 +1333,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Sociology" class="rgu-program-link">
+                                    <a href="/programs-MA-Sociology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. – Sociology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1359,7 +1342,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSW" class="rgu-program-link">
+                                    <a href="/programs-MSW" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MSW</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1368,8 +1351,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Public-Administration"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MA-Public-Administration" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.A. – Public Administration
@@ -1380,7 +1362,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-Political-Science" class="rgu-program-link">
+                                    <a href="/programs-MA-Political-Science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.A. – Political Science
@@ -1391,7 +1373,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-History" class="rgu-program-link">
+                                    <a href="/programs-MA-History" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.A. – History</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1400,7 +1382,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Economics" class="rgu-program-link">
+                                    <a href="/programs-BA-Economics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A. – Economics</div>
                                             <div class="rgu-program-card-duration">
@@ -1411,7 +1393,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Sociology" class="rgu-program-link">
+                                    <a href="/programs-BA-Sociology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A. – Sociology</div>
                                             <div class="rgu-program-card-duration">
@@ -1422,7 +1404,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BSW" class="rgu-program-link">
+                                    <a href="/programs-BSW" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BSW</div>
                                             <div class="rgu-program-card-duration">
@@ -1433,8 +1415,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Public-Administration"
-                                        class="rgu-program-link">
+                                    <a href="/programs-BA-Public-Administration" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.A. – Public Administration
@@ -1447,7 +1428,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-Political-Science" class="rgu-program-link">
+                                    <a href="/programs-BA-Political-Science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.A. – Political Science
@@ -1460,7 +1441,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-History" class="rgu-program-link">
+                                    <a href="/programs-BA-History" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.A. – History</div>
                                             <div class="rgu-program-card-duration">
@@ -1489,7 +1470,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MCA" class="rgu-program-link">
+                                    <a href="/programs-MCA" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MCA</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1498,7 +1479,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-IT" class="rgu-program-link">
+                                    <a href="/programs-MSc-IT" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. (IT)</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1507,7 +1488,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BCA" class="rgu-program-link">
+                                    <a href="/programs-BCA" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BCA</div>
                                             <div class="rgu-program-card-duration">
@@ -1518,7 +1499,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BSc-IT" class="rgu-program-link">
+                                    <a href="/programs-BSc-IT" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. IT</div>
                                             <div class="rgu-program-card-duration">
@@ -1546,7 +1527,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MA-English" class="rgu-program-link">
+                                    <a href="/programs-MA-English" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MA - English</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1555,7 +1536,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-ma-assamese" class="rgu-program-link">
+                                    <a href="/programme-ma-assamese" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">MA - Assamese</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1564,7 +1545,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BA-English" class="rgu-program-link">
+                                    <a href="/programs-BA-English" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BA(H) - English</div>
                                             <div class="rgu-program-card-duration">
@@ -1575,7 +1556,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-ba-assamese" class="rgu-program-link">
+                                    <a href="/programme-ba-assamese" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BA(H) - Assmese</div>
                                             <div class="rgu-program-card-duration">
@@ -1586,7 +1567,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-certi-sanskrit" class="rgu-program-link">
+                                    <a href="/programme-certi-sanskrit" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Certificate Course in Sanskrit</div>
                                             <div class="rgu-program-card-duration">
@@ -1615,8 +1596,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Master-of-Library&Information-Sciences"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Master-of-Library&Information-Sciences" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Master of Library & Information Science
                                                 (ML.I.Sc.)</div>
@@ -1643,7 +1623,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-LLM-Morning-Shift" class="rgu-program-link">
+                                    <a href="/programs-LLM-Morning-Shift" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">LLM Morning Shift</div>
                                             <div class="rgu-program-card-duration">Duration: 1 Year</div>
@@ -1652,7 +1632,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-LLM-Day-Shift" class="rgu-program-link">
+                                    <a href="/programs-LLM-Day-Shift" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">LLM Day Shift</div>
                                             <div class="rgu-program-card-duration">Duration: 1 Year</div>
@@ -1663,7 +1643,7 @@
                                 <!-- INTEGRATED / UG PROGRAMMES -->
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/program-ba-bba-llb-hons" class="rgu-program-link">
+                                    <a href="/program-ba-bba-llb-hons" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">BA/BBA – LLB (Hons.)</div>
                                             <div class="rgu-program-card-duration">Duration: 5 Years</div>
@@ -1672,7 +1652,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/program-ba-llb-hons" class="rgu-program-link">
+                                    <a href="/program-ba-llb-hons" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">LLB – (Hons.)</div>
                                             <div class="rgu-program-card-duration">Duration: 3 Years</div>
@@ -1698,7 +1678,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Botany" class="rgu-program-link">
+                                    <a href="/programs-MSc-Botany" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Botany</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1707,7 +1687,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Zoology" class="rgu-program-link">
+                                    <a href="/programs-MSc-Zoology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. Zoology</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1716,7 +1696,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Forestry" class="rgu-program-link">
+                                    <a href="/programs-MSc-Forestry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M.Sc. – Forestry</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1725,7 +1705,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-ForensicScience" class="rgu-program-link">
+                                    <a href="/programs-MSc-ForensicScience" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Sc. Forensic Science
@@ -1736,7 +1716,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-botany" class="rgu-program-link">
+                                    <a href="/programs-b-sc-botany" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) Botany</div>
                                             <div class="rgu-program-card-duration">
@@ -1747,7 +1727,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-zoology" class="rgu-program-link">
+                                    <a href="/programs-b-sc-zoology" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) Zoology</div>
                                             <div class="rgu-program-card-duration">
@@ -1758,7 +1738,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-forensicScience" class="rgu-program-link">
+                                    <a href="/programs-b-sc-forensicScience" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Sc. Forensic Science
@@ -1771,7 +1751,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-forestry" class="rgu-program-link">
+                                    <a href="/programs-b-sc-forestry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc.(H) – Forestry</div>
                                             <div class="rgu-program-card-duration">
@@ -1802,8 +1782,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MasterofPhysiotherapyMPT"
-                                        class="rgu-program-link">
+                                    <a href="/programs-MasterofPhysiotherapyMPT" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">Master of Physiotherapy (MPT)</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1814,7 +1793,7 @@
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-MSc-Nutrition" class="rgu-program-link">
+                                    <a href="/programs-MSc-Nutrition" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Sc. – Nutrition and Dietetics
@@ -1825,7 +1804,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-M-Optometry" class="rgu-program-link">
+                                    <a href="/programs-M-Optometry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">M. Optometry</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -1834,8 +1813,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Bachelor-of-Physiotherapy-BPT"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Physiotherapy-BPT" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Physiotherapy (BPT)
@@ -1846,8 +1824,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-nutrition&dietetics"
-                                        class="rgu-program-link">
+                                    <a href="/programs-b-sc-nutrition&dietetics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Sc. – Nutrition and Dietetics
@@ -1858,7 +1835,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-optometry" class="rgu-program-link">
+                                    <a href="/programs-b-optometry" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B. Optometry
@@ -1869,7 +1846,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-b-radio-imaging" class="rgu-program-link">
+                                    <a href="/programme-b-radio-imaging" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Medical Radiology and Imaging Technology
@@ -1880,7 +1857,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-b-anaesthesia-ott" class="rgu-program-link">
+                                    <a href="/programme-b-anaesthesia-ott" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Anaesthesia and Operation Theatre Technology
@@ -1891,7 +1868,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-b-medical-lab-sc" class="rgu-program-link">
+                                    <a href="/programme-b-medical-lab-sc" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Medical Laboratory Sciences (BMLS)
@@ -1902,7 +1879,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-b-dialysis-therapy" class="rgu-program-link">
+                                    <a href="/programme-b-dialysis-therapy" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Dialysis Therapy Technology
@@ -1913,7 +1890,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-b-emergency-care" class="rgu-program-link">
+                                    <a href="/programme-b-emergency-care" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor of Emergency Medical Technologist
@@ -1924,7 +1901,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-bsc-food-science" class="rgu-program-link">
+                                    <a href="/programme-bsc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Bachelor – Food Technology
@@ -1935,7 +1912,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-m-radio-imaging" class="rgu-program-link">
+                                    <a href="/programme-m-radio-imaging" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master – Medical Radiology and Imaging Technology
@@ -1946,7 +1923,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-m-anaesthesia-ott" class="rgu-program-link">
+                                    <a href="/programme-m-anaesthesia-ott" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master – Anaesthesia & Operation Theatre Technology
@@ -1957,7 +1934,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-m-dialysis-therapy" class="rgu-program-link">
+                                    <a href="/programme-m-dialysis-therapy" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master – Dialysis Therapy Technology
@@ -1968,7 +1945,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-m-emergency-care" class="rgu-program-link">
+                                    <a href="/programme-m-emergency-care" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Masters of Advanced Care Paramedic
@@ -1979,7 +1956,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-msc-food-science" class="rgu-program-link">
+                                    <a href="/programme-msc-food-science" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master – Food Technology
@@ -1990,7 +1967,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programme-m-medical-lab-sc" class="rgu-program-link">
+                                    <a href="/programme-m-medical-lab-sc" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master – Medical Laboratory Sciences (MMLS)
@@ -2017,7 +1994,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-BSc-Nursing" class="rgu-program-link">
+                                    <a href="/programs-BSc-Nursing" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. Nursing</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -2026,8 +2003,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-General-Nursing-Midwifery"
-                                        class="rgu-program-link">
+                                    <a href="/programs-General-Nursing-Midwifery" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 General Nursing &amp; Midwifery
@@ -2054,7 +2030,7 @@
                             <div class="row g-3">
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-pharm" class="rgu-program-link">
+                                    <a href="/programs-b-pharm" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Pharm.</div>
                                             <div class="rgu-program-card-duration">Duration: 4 Years</div>
@@ -2063,7 +2039,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-D-Pharm" class="rgu-program-link">
+                                    <a href="/programs-D-Pharm" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">D.Pharm.</div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
@@ -2072,8 +2048,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmaceutical"
-                                        class="rgu-program-link">
+                                    <a href="/programs-M-Pharm-Pharmaceutical" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Pharm. – Pharmaceutical Chemistry
@@ -2084,8 +2059,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmaceutics"
-                                        class="rgu-program-link">
+                                    <a href="/programs-M-Pharm-Pharmaceutics" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Pharm. – Pharmaceutics
@@ -2096,8 +2070,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-M-Pharm-Pharmacognosy"
-                                        class="rgu-program-link">
+                                    <a href="/programs-M-Pharm-Pharmacognosy" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Pharm. – Pharmacognosy
@@ -2125,7 +2098,7 @@
                         <div class="accordion-body">
                             <div class="row g-3">
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-b-sc-ba-travel" class="rgu-program-link">
+                                    <a href="/programs-b-sc-ba-travel" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 B.Sc./B.A. Travel &amp; Tourism Management
@@ -2138,8 +2111,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="https://www.rgu.ac/programs-Master-Travel&Tourism"
-                                        class="rgu-program-link">
+                                    <a href="/programs-Master-Travel&Tourism" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 Master of Travel &amp; Tourism Management – MTTM
@@ -2186,8 +2158,8 @@
             });
 
             /* ===============================
-            COURSE SEARCH FUNCTION
-         =============================== */
+                COURSE SEARCH FUNCTION
+             =============================== */
 
             searchInput.addEventListener("input", function() {
                 const keyword = normalize(this.value);

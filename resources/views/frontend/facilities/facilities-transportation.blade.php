@@ -1,6 +1,5 @@
 @extends('frontend.master')
 @section('content')
-
     <style>
         .section-body {
             background: url('mobile-assets/department-all/bg.svg') center/cover no-repeat;
@@ -321,7 +320,7 @@
         }
     </style>
 
-        <div class="mobile" style="padding-top: 80px; position: relative;">
+    <div class="mobile" style="padding-top: 80px; position: relative;">
         @include('frontend/components/mobileheader')
     </div>
 
@@ -341,8 +340,7 @@
                     <div class="col-lg-6 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
 
                         <div class="ab-hero-image-box">
-                            <img src="https://www.rgu.ac/mobile-assets/facilities-transportation/headimg.png"
-                                alt="Transportation">
+                            <img src="/mobile-assets/facilities-transportation/headimg.png" alt="Transportation">
                         </div>
 
                     </div>
@@ -393,57 +391,49 @@
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route1.png"
-                                        alt="Route 1">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route1.png" alt="Route 1">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route2.png"
-                                        alt="Route 2">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route2.png" alt="Route 2">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route3.png"
-                                        alt="Route 3">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route3.png" alt="Route 3">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route4.png"
-                                        alt="Route 4">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route4.png" alt="Route 4">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route5.png"
-                                        alt="Route 4">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route5.png" alt="Route 4">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route6.png"
-                                        alt="Route 4">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route6.png" alt="Route 4">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route7.png"
-                                        alt="Route 4">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route7.png" alt="Route 4">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="ab-route-card">
-                                    <img src="mobile-assets/facilities-new/transportation/routes/route8.png"
-                                        alt="Route 4">
+                                    <img src="mobile-assets/facilities-new/transportation/routes/route8.png" alt="Route 4">
                                 </div>
                             </div>
 
@@ -512,8 +502,8 @@
                             </div>
 
                             <div class="col-lg-4">
-                                <img src="https://www.rgu.ac/mobile-assets/facilities-transportation/taxi.png"
-                                    class="ab-transport-img" alt="Taxi">
+                                <img src="/mobile-assets/facilities-transportation/taxi.png" class="ab-transport-img"
+                                    alt="Taxi">
                             </div>
 
                         </div>
@@ -526,8 +516,8 @@
                         <div class="row align-items-center gy-4">
 
                             <div class="col-lg-4">
-                                <img src="https://www.rgu.ac/mobile-assets/facilities-transportation/4.png"
-                                    class="ab-transport-img" alt="Airport">
+                                <img src="/mobile-assets/facilities-transportation/4.png" class="ab-transport-img"
+                                    alt="Airport">
                             </div>
 
                             <div class="col-lg-8">
@@ -664,136 +654,134 @@
     </div>
 
     <script>
+        const abRouteCards = document.querySelectorAll(".ab-route-card");
+        const abRouteLightbox = document.getElementById("abRouteLightbox");
+        const abRouteLightboxImg = document.getElementById("abRouteLightboxImg");
+        const abRouteLightboxClose = document.querySelector(".ab-route-lightbox-close");
 
-    const abRouteCards = document.querySelectorAll(".ab-route-card");
-    const abRouteLightbox = document.getElementById("abRouteLightbox");
-    const abRouteLightboxImg = document.getElementById("abRouteLightboxImg");
-    const abRouteLightboxClose = document.querySelector(".ab-route-lightbox-close");
+        const abZoomInBtn = document.getElementById("abZoomInBtn");
+        const abZoomOutBtn = document.getElementById("abZoomOutBtn");
+        const abZoomResetBtn = document.getElementById("abZoomResetBtn");
 
-    const abZoomInBtn = document.getElementById("abZoomInBtn");
-    const abZoomOutBtn = document.getElementById("abZoomOutBtn");
-    const abZoomResetBtn = document.getElementById("abZoomResetBtn");
-
-    let abZoomLevel = 1;
-    let abIsDragging = false;
-    let abStartX = 0;
-    let abStartY = 0;
-    let abTranslateX = 0;
-    let abTranslateY = 0;
+        let abZoomLevel = 1;
+        let abIsDragging = false;
+        let abStartX = 0;
+        let abStartY = 0;
+        let abTranslateX = 0;
+        let abTranslateY = 0;
 
 
-    /* OPEN LIGHTBOX */
+        /* OPEN LIGHTBOX */
 
-    abRouteCards.forEach(card => {
+        abRouteCards.forEach(card => {
 
-        card.addEventListener("click", function () {
+            card.addEventListener("click", function() {
 
-            const imgSrc = this.querySelector("img").src;
+                const imgSrc = this.querySelector("img").src;
 
-            abRouteLightbox.style.display = "flex";
-            abRouteLightboxImg.src = imgSrc;
+                abRouteLightbox.style.display = "flex";
+                abRouteLightboxImg.src = imgSrc;
 
-            abZoomLevel = 1;
-            abTranslateX = 0;
-            abTranslateY = 0;
+                abZoomLevel = 1;
+                abTranslateX = 0;
+                abTranslateY = 0;
 
-            abRouteLightboxImg.style.transform = "scale(1) translate(0px,0px)";
+                abRouteLightboxImg.style.transform = "scale(1) translate(0px,0px)";
+
+            });
 
         });
 
-    });
 
+        /* CLOSE */
 
-    /* CLOSE */
-
-    abRouteLightboxClose.onclick = () => {
-        abRouteLightbox.style.display = "none";
-    };
-
-    abRouteLightbox.onclick = function (e) {
-        if (e.target === this) {
+        abRouteLightboxClose.onclick = () => {
             abRouteLightbox.style.display = "none";
+        };
+
+        abRouteLightbox.onclick = function(e) {
+            if (e.target === this) {
+                abRouteLightbox.style.display = "none";
+            }
+        };
+
+
+        /* ZOOM BUTTONS */
+
+        function abApplyTransform() {
+            abRouteLightboxImg.style.transform =
+                `translate(${abTranslateX}px, ${abTranslateY}px) scale(${abZoomLevel})`;
         }
-    };
 
+        abZoomInBtn.onclick = function() {
+            abZoomLevel += 0.2;
+            abApplyTransform();
+        };
 
-    /* ZOOM BUTTONS */
-
-    function abApplyTransform() {
-        abRouteLightboxImg.style.transform =
-            `translate(${abTranslateX}px, ${abTranslateY}px) scale(${abZoomLevel})`;
-    }
-
-    abZoomInBtn.onclick = function () {
-        abZoomLevel += 0.2;
-        abApplyTransform();
-    };
-
-    abZoomOutBtn.onclick = function () {
-        abZoomLevel -= 0.2;
-        if (abZoomLevel < 1) abZoomLevel = 1;
-        abApplyTransform();
-    };
-
-    abZoomResetBtn.onclick = function () {
-        abZoomLevel = 1;
-        abTranslateX = 0;
-        abTranslateY = 0;
-        abApplyTransform();
-    };
-
-
-    /* MOUSE WHEEL ZOOM */
-
-    abRouteLightboxImg.addEventListener("wheel", function (e) {
-
-        e.preventDefault();
-
-        if (e.deltaY < 0) {
-            abZoomLevel += 0.1;
-        } else {
-            abZoomLevel -= 0.1;
+        abZoomOutBtn.onclick = function() {
+            abZoomLevel -= 0.2;
             if (abZoomLevel < 1) abZoomLevel = 1;
-        }
+            abApplyTransform();
+        };
 
-        abApplyTransform();
-
-    });
-
-
-    /* DRAG / PAN */
-
-    abRouteLightboxImg.addEventListener("mousedown", function (e) {
-
-        if (abZoomLevel <= 1) return;
-
-        abIsDragging = true;
-        abStartX = e.clientX - abTranslateX;
-        abStartY = e.clientY - abTranslateY;
-
-        abRouteLightboxImg.style.cursor = "grabbing";
-
-    });
+        abZoomResetBtn.onclick = function() {
+            abZoomLevel = 1;
+            abTranslateX = 0;
+            abTranslateY = 0;
+            abApplyTransform();
+        };
 
 
-    window.addEventListener("mousemove", function (e) {
+        /* MOUSE WHEEL ZOOM */
 
-        if (!abIsDragging) return;
+        abRouteLightboxImg.addEventListener("wheel", function(e) {
 
-        abTranslateX = e.clientX - abStartX;
-        abTranslateY = e.clientY - abStartY;
+            e.preventDefault();
 
-        abApplyTransform();
+            if (e.deltaY < 0) {
+                abZoomLevel += 0.1;
+            } else {
+                abZoomLevel -= 0.1;
+                if (abZoomLevel < 1) abZoomLevel = 1;
+            }
 
-    });
+            abApplyTransform();
+
+        });
 
 
-    window.addEventListener("mouseup", function () {
+        /* DRAG / PAN */
 
-        abIsDragging = false;
-        abRouteLightboxImg.style.cursor = "grab";
+        abRouteLightboxImg.addEventListener("mousedown", function(e) {
 
-    });
+            if (abZoomLevel <= 1) return;
 
-</script>
+            abIsDragging = true;
+            abStartX = e.clientX - abTranslateX;
+            abStartY = e.clientY - abTranslateY;
+
+            abRouteLightboxImg.style.cursor = "grabbing";
+
+        });
+
+
+        window.addEventListener("mousemove", function(e) {
+
+            if (!abIsDragging) return;
+
+            abTranslateX = e.clientX - abStartX;
+            abTranslateY = e.clientY - abStartY;
+
+            abApplyTransform();
+
+        });
+
+
+        window.addEventListener("mouseup", function() {
+
+            abIsDragging = false;
+            abRouteLightboxImg.style.cursor = "grab";
+
+        });
+    </script>
 @endsection

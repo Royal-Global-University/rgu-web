@@ -1120,9 +1120,9 @@
 
     <style>
         /* =========================================================
-       ACADEMIC EXCELLENCE SECTION
-       PREFIX: academic-exce-
-    ========================================================= */
+           ACADEMIC EXCELLENCE SECTION
+           PREFIX: academic-exce-
+        ========================================================= */
 
         .academic-exce-section {
             width: 100%;
@@ -1131,28 +1131,28 @@
         }
 
         /* =========================================================
-       GRID CONTROL
-    ========================================================= */
+           GRID CONTROL
+        ========================================================= */
 
         .academic-exce-grid {
 
             display: grid;
 
             /* =========================================
-           MANUAL CONTROL
-        ========================================= */
+               MANUAL CONTROL
+            ========================================= */
 
             grid-template-columns: 1fr;
 
             /*
-            EXAMPLES:
+                EXAMPLES:
 
-            grid-template-columns: 60% 40%;
+                grid-template-columns: 60% 40%;
 
-            grid-template-columns: 2fr 1fr;
+                grid-template-columns: 2fr 1fr;
 
-            grid-template-columns: 1.4fr 0.6fr;
-        */
+                grid-template-columns: 1.4fr 0.6fr;
+            */
 
             gap: 30px;
 
@@ -1162,8 +1162,8 @@
         }
 
         /* =========================================================
-       COLUMN
-    ========================================================= */
+           COLUMN
+        ========================================================= */
 
         .academic-exce-column {
 
@@ -1187,8 +1187,8 @@
         }
 
         /* =========================================================
-       SUBTITLE
-    ========================================================= */
+           SUBTITLE
+        ========================================================= */
 
         .academic-exce-subtitle {
 
@@ -1210,8 +1210,8 @@
         }
 
         /* =========================================================
-       HORIZONTAL MARQUEE
-    ========================================================= */
+           HORIZONTAL MARQUEE
+        ========================================================= */
 
         .academic-exce-marquee {
 
@@ -1225,8 +1225,8 @@
         }
 
         /* =========================================================
-       TRACK
-    ========================================================= */
+           TRACK
+        ========================================================= */
 
         .academic-exce-track {
 
@@ -1259,9 +1259,9 @@
         }
 
         /* =========================================================
-       IMAGE
-       VERTICAL IMAGE
-    ========================================================= */
+           IMAGE
+           VERTICAL IMAGE
+        ========================================================= */
 
         .academic-exce-track img {
 
@@ -1288,8 +1288,8 @@
         }
 
         /* =========================================================
-       ANIMATION
-    ========================================================= */
+           ANIMATION
+        ========================================================= */
 
         @keyframes academicExceHorizontal {
 
@@ -1303,8 +1303,8 @@
         }
 
         /* =========================================================
-       RESPONSIVE
-    ========================================================= */
+           RESPONSIVE
+        ========================================================= */
 
         @media (max-width: 1100px) {
 
@@ -1487,75 +1487,75 @@
         </div>
 
         <!-- <div class="dept-architecture-prospects-section" id="dept-prospects">
-          <h2 class="dept-architecture-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-architecture-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-architecture-prospects-content">
-            <p class="dept-architecture-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-architecture-prospects-content">
+                <p class="dept-architecture-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-architecture-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-architecture-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-architecture-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Government Sector Jobs</h3>
-            <ol class="dept-architecture-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Government Sector Jobs</h3>
+                <ol class="dept-architecture-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Private Sector Careers</h3>
-            <ol class="dept-architecture-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Private Sector Careers</h3>
+                <ol class="dept-architecture-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Research & Teaching</h3>
-            <ol class="dept-architecture-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Research & Teaching</h3>
+                <ol class="dept-architecture-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-architecture-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-architecture-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Jobs Abroad</h3>
-            <ol class="dept-architecture-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Jobs Abroad</h3>
+                <ol class="dept-architecture-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-architecture-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-architecture-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-architecture-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-architecture-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-architecture-accordion-section" id="dept-syllabus">
             <h2 class="dept-architecture-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1563,30 +1563,30 @@
             <div class="dept-architecture-accordion-wrapper">
 
                 <!-- <div class="dept-architecture-accordion-item active">
-                        <div class="dept-architecture-accordion-header">
-                            <div class="dept-architecture-accordion-header-left">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <span>Diploma</span>
+                            <div class="dept-architecture-accordion-header">
+                                <div class="dept-architecture-accordion-header-left">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <span>Diploma</span>
+                                </div>
+                                <i class="fa-solid fa-chevron-down dept-architecture-chevron"></i>
                             </div>
-                            <i class="fa-solid fa-chevron-down dept-architecture-chevron"></i>
-                        </div>
 
-                        <div class="dept-architecture-accordion-content">
-                            <div class="dept-architecture-syllabus-list">
+                            <div class="dept-architecture-accordion-content">
+                                <div class="dept-architecture-syllabus-list">
 
-                                <a target="_blank"
-                                    href="https://www.rgu.ac/programs-General-Nursing-Midwifery"
-                                    class="dept-architecture-syllabus-link">
-                                    <div class="dept-architecture-syllabus-link-left">
-                                        <i class="fa-solid fa-file-lines"></i>
-                                        General Nursing & Midwifery (GNM)
-                                    </div>
-                                    <i class="fa-solid fa-download dept-architecture-download-icon"></i>
-                                </a>
+                                    <a target="_blank"
+                                        href="/programs-General-Nursing-Midwifery"
+                                        class="dept-architecture-syllabus-link">
+                                        <div class="dept-architecture-syllabus-link-left">
+                                            <i class="fa-solid fa-file-lines"></i>
+                                            General Nursing & Midwifery (GNM)
+                                        </div>
+                                        <i class="fa-solid fa-download dept-architecture-download-icon"></i>
+                                    </a>
 
+                                </div>
                             </div>
-                        </div>
-                    </div> -->
+                        </div> -->
 
                 <div class="dept-architecture-accordion-item active">
                     <div class="dept-architecture-accordion-header">
@@ -1600,7 +1600,7 @@
                     <div class="dept-architecture-accordion-content">
                         <div class="dept-architecture-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf"
+                                href="/mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf"
                                 class="dept-architecture-syllabus-link">
                                 <div class="dept-architecture-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1634,8 +1634,7 @@
 
                     <div class="dept-architecture-accordion-content">
                         <div class="dept-architecture-syllabus-list">
-                            <a href="https://www.rgu.ac/doctoral-programme" class="dept-architecture-syllabus-link"
-                                download>
+                            <a href="/doctoral-programme" class="dept-architecture-syllabus-link" download>
                                 <div class="dept-architecture-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1658,8 +1657,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-architecture-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-architecture-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1747,7 +1746,7 @@
         const coursesData = [{
             title: "B.Arch",
             duration: "5 years",
-            link: "https://www.rgu.ac/programs-barch"
+            link: "/programs-barch"
         }];
 
         // 2. Get container
@@ -1957,10 +1956,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -2155,8 +2154,8 @@
 
     <script>
         /* =====================================================
-           ACADEMIC EXCELLENCE DATA
-        ===================================================== */
+               ACADEMIC EXCELLENCE DATA
+            ===================================================== */
 
         const academicExceData = [
 
@@ -2186,8 +2185,7 @@
                    DUPLICATE ONLY IF MORE THAN 1 IMAGE
                 ============================================= */
 
-                const finalImages = imageCount > 1 ?
-                    [...item.images, ...item.images] :
+                const finalImages = imageCount > 1 ? [...item.images, ...item.images] :
                     item.images;
 
                 return `
@@ -2204,9 +2202,9 @@
 
                             ${finalImages.map(img => `
 
-                                    <img src="${img}" alt="${item.subtitle}">
+                                        <img src="${img}" alt="${item.subtitle}">
 
-                                `).join("")}
+                                    `).join("")}
 
                         </div>
 

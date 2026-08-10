@@ -324,7 +324,7 @@
                             <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
                             <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
-                                href="https://www.rgu.ac/mobile-assets/Domestic/Bachelor_Design(Fashion_Design)(B.Des.FD).pdf">Download
+                                href="/mobile-assets/Domestic/Bachelor_Design(Fashion_Design)(B.Des.FD).pdf">Download
                                 Brochure
                                 <i class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
                         </div>
@@ -388,7 +388,7 @@
 
                         <a class="mobile-para1 fw-bold"
                             style="padding: 10px 15px; background-color: #FF9A1E; color: #fff; border-radius: 10px;"
-                            href="https://www.rgu.ac/scholarship&funding">
+                            href="/scholarship&funding">
                             Click to View
                         </a>
 
@@ -410,8 +410,8 @@
                             lifelong friends.
                         </p>
 
-                        <a target="_blank" class="mobile-headd3 fw-bold" style="color: #FF9A1E;"
-                            href="https://www.rgu.ac/how-to-apply">For more details, click to view</a>
+                        <a target="_blank" class="mobile-headd3 fw-bold" style="color: #FF9A1E;" href="/how-to-apply">For
+                            more details, click to view</a>
 
 
                         <div
@@ -424,8 +424,8 @@
 
                             <style>
                                 /* 1. Define the keyframes for our unique animation.
-          This animation pulses the button's scale and its box-shadow.
-        */
+              This animation pulses the button's scale and its box-shadow.
+            */
                                 @keyframes uniquePulseAnimation {
                                     0% {
                                         transform: scale(1);
@@ -446,7 +446,7 @@
                                 }
 
                                 /* 2. Create our unique button class.
-        */
+            */
                                 .animated-pulse-button {
                                     /* We moved your inline styles here for cleaner HTML */
                                     padding: 15px 40px;
@@ -463,10 +463,10 @@
                                     text-decoration: none;
 
                                     /* 3. Apply the animation!
-             - 'uniquePulseAnimation' is the animation name
-             - '2s' is the duration (2 seconds)
-             - 'infinite' makes it loop forever
-          */
+                 - 'uniquePulseAnimation' is the animation name
+                 - '2s' is the duration (2 seconds)
+                 - 'infinite' makes it loop forever
+              */
                                     animation: uniquePulseAnimation 2s infinite;
 
                                     /* Add a smooth transition for the hover effect */
@@ -474,8 +474,8 @@
                                 }
 
                                 /* 4. (Optional) Add a nice hover effect.
-          This will pause the animation and just show the "up" state.
-        */
+              This will pause the animation and just show the "up" state.
+            */
                                 .animated-pulse-button:hover {
                                     animation-play-state: paused;
                                     /* Pause the pulse on hover */
@@ -493,11 +493,11 @@
                                 <div class="mt-4 text-center">
 
                                     <!--
-            This is your modified <a> tag.
-            - The inline 'style' attribute has been removed.
-            - The new 'animated-pulse-button' class has been added.
-            - Your original classes 'mobile-para1' and 'fw-bold' are kept.
-          -->
+                This is your modified <a> tag.
+                - The inline 'style' attribute has been removed.
+                - The new 'animated-pulse-button' class has been added.
+                - Your original classes 'mobile-para1' and 'fw-bold' are kept.
+              -->
                                     <a class="mobile-para1 fw-bold animated-pulse-button" href="https://admissions.rgu.ac/">
                                         Apply Now
                                     </a>

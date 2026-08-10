@@ -1216,7 +1216,7 @@
             <span class="dept-mls-float-text">Courses</span>
         </a>
 
-    
+
 
     </div>
 
@@ -1287,40 +1287,40 @@
 
         <!-- vision mission  -->
         <!-- <div class="dept-mls-prospects-section" id="dept-vision">
-          <h2 class="dept-mls-section-title">Vision <span>& Mission</span></h2>
+              <h2 class="dept-mls-section-title">Vision <span>& Mission</span></h2>
 
-          <div class="dept-mls-prospects-content">
+              <div class="dept-mls-prospects-content">
 
-            <h3 class="dept-mls-subheading" style="margin-top: 0;">Our Vision</h3>
-            <ul class="dept-mls-bullet-list">
-              <li>
-                The vision for students in Medical Lab Technology is to train the new generation with pioneering knowledge
-                and practical skills and promote innovation and excellence in healthcare diagnostics and research.
-              </li>
+                <h3 class="dept-mls-subheading" style="margin-top: 0;">Our Vision</h3>
+                <ul class="dept-mls-bullet-list">
+                  <li>
+                    The vision for students in Medical Lab Technology is to train the new generation with pioneering knowledge
+                    and practical skills and promote innovation and excellence in healthcare diagnostics and research.
+                  </li>
 
-            </ul>
+                </ul>
 
-            <h3 class="dept-mls-subheading">Our Mission</h3>
-            <ul class="dept-mls-bullet-list">
-              <li>
-                To provide severe academic training in medical lab technology and offer hands-on laboratory experience to
-                develop practical skills.
-              </li>
+                <h3 class="dept-mls-subheading">Our Mission</h3>
+                <ul class="dept-mls-bullet-list">
+                  <li>
+                    To provide severe academic training in medical lab technology and offer hands-on laboratory experience to
+                    develop practical skills.
+                  </li>
 
-              <li>
-                To provide mentorship and guidance to students by cultivating a dedication to advancing healthcare through
-                accurate diagnosis and research.
-              </li>
+                  <li>
+                    To provide mentorship and guidance to students by cultivating a dedication to advancing healthcare through
+                    accurate diagnosis and research.
+                  </li>
 
-              <li>
-                To introduce a commitment to patient care and safety by conducting community health camps prioritizing
-                health and wellness within the society.
-              </li>
+                  <li>
+                    To introduce a commitment to patient care and safety by conducting community health camps prioritizing
+                    health and wellness within the society.
+                  </li>
 
-            </ul>
+                </ul>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <div class="dept-mls-courses-section" id="dept-courses">
             <h2 class="dept-mls-section-title">Courses <span>Offered</span></h2>
@@ -1330,230 +1330,230 @@
         </div>
 
         <!-- <div class="dept-mls-prospects-section" id="dept-prospects">
-          <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
+              <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
 
-          <div class="dept-mls-prospects-content">
-            <p class="dept-mls-intro-text">
-              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-              strong foundation in agricultural sciences, preparing them for following careers opportunities:
-            </p>
+              <div class="dept-mls-prospects-content">
+                <p class="dept-mls-intro-text">
+                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                </p>
 
-            <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
-            <ol class="dept-mls-list">
-              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-              </li>
-              <li>MBA in Agribusiness Management</li>
-              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                disciplines</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
+                <ol class="dept-mls-list">
+                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                  </li>
+                  <li>MBA in Agribusiness Management</li>
+                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                    disciplines</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
-            <ol class="dept-mls-list">
-              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-              <li>IBPS AFO (Agricultural Field Officer)</li>
-              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
+                <ol class="dept-mls-list">
+                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                  <li>IBPS AFO (Agricultural Field Officer)</li>
+                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Private Sector Careers</h3>
-            <ol class="dept-mls-list">
-              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-              <li>Food Processing Industries</li>
-              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Private Sector Careers</h3>
+                <ol class="dept-mls-list">
+                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                  <li>Food Processing Industries</li>
+                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Research & Teaching</h3>
-            <ol class="dept-mls-list">
-              <li>Research Assistant / Scientist – in public and private research institutions</li>
-              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Research & Teaching</h3>
+                <ol class="dept-mls-list">
+                  <li>Research Assistant / Scientist – in public and private research institutions</li>
+                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
-            <ol class="dept-mls-list">
-              <li>Organic farming, dairy, poultry, aquaculture</li>
-              <li>Agri-tourism, greenhouse farming, vertical farming</li>
-              <li>Processing units for spices, cereals, or fruits</li>
-              <li>Agri-consultancy or freelance advisory services</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
+                <ol class="dept-mls-list">
+                  <li>Organic farming, dairy, poultry, aquaculture</li>
+                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                  <li>Processing units for spices, cereals, or fruits</li>
+                  <li>Agri-consultancy or freelance advisory services</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Jobs Abroad</h3>
-            <ol class="dept-mls-list">
-              <li>Agricultural research, farm management, and food security projects</li>
-              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Jobs Abroad</h3>
+                <ol class="dept-mls-list">
+                  <li>Agricultural research, farm management, and food security projects</li>
+                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                </ol>
 
-            <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
-            <ol class="dept-mls-list">
-              <li>Practical knowledge of farming tools and technologies</li>
-              <li>Communication and management skills (especially in extension or agribusiness)</li>
-              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-              <li>Language skills and report writing</li>
-            </ol>
+                <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
+                <ol class="dept-mls-list">
+                  <li>Practical knowledge of farming tools and technologies</li>
+                  <li>Communication and management skills (especially in extension or agribusiness)</li>
+                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                  <li>Language skills and report writing</li>
+                </ol>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <!-- <div class="dept-mls-accordion-section" id="dept-syllabus">
-          <h2 class="dept-mls-section-title">Courses Structure <span>and Syllabus</span></h2>
+              <h2 class="dept-mls-section-title">Courses Structure <span>and Syllabus</span></h2>
 
-          <div class="dept-mls-accordion-wrapper">
+              <div class="dept-mls-accordion-wrapper">
 
-            <div class="dept-mls-accordion-item active">
-              <div class="dept-mls-accordion-header">
-                <div class="dept-mls-accordion-header-left">
-                  <i class="fa-solid fa-graduation-cap"></i>
-                  <span>Under Graduate</span>
-                </div>
-                <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
-              </div>
-
-              <div class="dept-mls-accordion-content">
-                <div class="dept-mls-syllabus-list">
-                  <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2025-26.pdf"
-                    class="dept-mls-syllabus-link" download>
-                    <div class="dept-mls-syllabus-link-left">
-                      <i class="fa-solid fa-file-lines"></i>
-                      Course Structure and Syllabus -- BMLT 2025 - 2026
+                <div class="dept-mls-accordion-item active">
+                  <div class="dept-mls-accordion-header">
+                    <div class="dept-mls-accordion-header-left">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                      <span>Under Graduate</span>
                     </div>
-                    <i class="fa-solid fa-download dept-mls-download-icon"></i>
-                  </a>
+                    <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
+                  </div>
 
-                  <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2024-batch.pdf"
-                    class="dept-mls-syllabus-link" download>
-                    <div class="dept-mls-syllabus-link-left">
-                      <i class="fa-solid fa-file-lines"></i>
-                      Course Structure and Syllabus -- BMLT 2024
+                  <div class="dept-mls-accordion-content">
+                    <div class="dept-mls-syllabus-list">
+                      <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2025-26.pdf"
+                        class="dept-mls-syllabus-link" download>
+                        <div class="dept-mls-syllabus-link-left">
+                          <i class="fa-solid fa-file-lines"></i>
+                          Course Structure and Syllabus -- BMLT 2025 - 2026
+                        </div>
+                        <i class="fa-solid fa-download dept-mls-download-icon"></i>
+                      </a>
+
+                      <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2024-batch.pdf"
+                        class="dept-mls-syllabus-link" download>
+                        <div class="dept-mls-syllabus-link-left">
+                          <i class="fa-solid fa-file-lines"></i>
+                          Course Structure and Syllabus -- BMLT 2024
+                        </div>
+                        <i class="fa-solid fa-download dept-mls-download-icon"></i>
+                      </a>
+
+                      <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2023-batch.pdf"
+                        class="dept-mls-syllabus-link" download>
+                        <div class="dept-mls-syllabus-link-left">
+                          <i class="fa-solid fa-file-lines"></i>
+                          Course Structure and Syllabus -- BMLT 2023
+                        </div>
+                        <i class="fa-solid fa-download dept-mls-download-icon"></i>
+                      </a>
+
                     </div>
-                    <i class="fa-solid fa-download dept-mls-download-icon"></i>
-                  </a>
+                  </div>
+                </div>
 
-                  <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2023-batch.pdf"
-                    class="dept-mls-syllabus-link" download>
-                    <div class="dept-mls-syllabus-link-left">
-                      <i class="fa-solid fa-file-lines"></i>
-                      Course Structure and Syllabus -- BMLT 2023
+                <div class="dept-mls-accordion-item">
+                  <div class="dept-mls-accordion-header">
+                    <div class="dept-mls-accordion-header-left">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                      <span>Post Graduate</span>
                     </div>
-                    <i class="fa-solid fa-download dept-mls-download-icon"></i>
-                  </a>
+                    <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
+                  </div>
 
-                </div>
-              </div>
-            </div>
+                  <div class="dept-mls-accordion-content">
+                    <div class="dept-mls-syllabus-list">
+                      <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/MMLT-NEP-SYLLABUS-2025-26.pdf"
+                        class="dept-mls-syllabus-link" download>
+                        <div class="dept-mls-syllabus-link-left">
+                          <i class="fa-solid fa-file-lines"></i>
+                          Course Structure and Syllabus -- MMLT 2025 - 2026
+                        </div>
+                        <i class="fa-solid fa-download dept-mls-download-icon"></i>
+                      </a>
 
-            <div class="dept-mls-accordion-item">
-              <div class="dept-mls-accordion-header">
-                <div class="dept-mls-accordion-header-left">
-                  <i class="fa-solid fa-graduation-cap"></i>
-                  <span>Post Graduate</span>
-                </div>
-                <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
-              </div>
 
-              <div class="dept-mls-accordion-content">
-                <div class="dept-mls-syllabus-list">
-                  <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/MMLT-NEP-SYLLABUS-2025-26.pdf"
-                    class="dept-mls-syllabus-link" download>
-                    <div class="dept-mls-syllabus-link-left">
-                      <i class="fa-solid fa-file-lines"></i>
-                      Course Structure and Syllabus -- MMLT 2025 - 2026
                     </div>
-                    <i class="fa-solid fa-download dept-mls-download-icon"></i>
-                  </a>
-
-
+                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="dept-mls-accordion-item">
-              <div class="dept-mls-accordion-header">
-                <div class="dept-mls-accordion-header-left">
-                  <i class="fa-solid fa-book"></i>
-                  <span>Doctoral Programme</span>
-                </div>
-                <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
-              </div>
-
-              <div class="dept-mls-accordion-content">
-                <div class="dept-mls-syllabus-list">
-                  <a href="https://www.rgu.ac/phd" class="dept-mls-syllabus-link" download>
-                    <div class="dept-mls-syllabus-link-left">
-                      <i class="fa-solid fa-file-lines"></i>
-                      Click to View
+                <div class="dept-mls-accordion-item">
+                  <div class="dept-mls-accordion-header">
+                    <div class="dept-mls-accordion-header-left">
+                      <i class="fa-solid fa-book"></i>
+                      <span>Doctoral Programme</span>
                     </div>
+                    <i class="fa-solid fa-chevron-down dept-mls-chevron"></i>
+                  </div>
 
-                  </a>
+                  <div class="dept-mls-accordion-content">
+                    <div class="dept-mls-syllabus-list">
+                      <a href="/phd" class="dept-mls-syllabus-link" download>
+                        <div class="dept-mls-syllabus-link-left">
+                          <i class="fa-solid fa-file-lines"></i>
+                          Click to View
+                        </div>
+
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
 
-          </div>
-        </div> -->
+              </div>
+            </div> -->
 
         <!-- <div class="dept-mls-events-section" id="dept-events">
 
-          <h2 class="dept-mls-section-title">Events</h2>
+              <h2 class="dept-mls-section-title">Events</h2>
 
-          <div class="dept-mls-events-box">
-            <div class="dept-mls-events-track" id="events-track"></div>
-          </div>
+              <div class="dept-mls-events-box">
+                <div class="dept-mls-events-track" id="events-track"></div>
+              </div>
 
-          <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-mls-events-btn">View All</a>
-          </div>
+              <div style="text-align:center; margin-top:30px;">
+                <a href="#" class="dept-mls-events-btn">View All</a>
+              </div>
 
-        </div> -->
+            </div> -->
 
         <!-- <div class="dept-mls-table-section" id="dept-committee">
 
-          <div class="dept-mls-table-grid" id="table-accordion-container"></div>
+              <div class="dept-mls-table-grid" id="table-accordion-container"></div>
 
-        </div> -->
+            </div> -->
 
         <!-- <div class="dept-mls-lab-section" id="dept-lab">
 
-          <div class="dept-mls-lab-container">
+              <div class="dept-mls-lab-container">
 
-            <h2 class="dept-mls-section-title">Our <span>Lab</span></h2>
+                <h2 class="dept-mls-section-title">Our <span>Lab</span></h2>
 
-            <p class="dept-mls-intro-lab" style="padding-bottom: 30px;">
-              A state-of-art diagnostic laboratory under the aegis of the Royal School of Medical and Allied Sciences. The
-              diagnostic laboratory caters to the requirements of the students pursuing a diploma and B.Sc. program in
-              Medical Laboratory Science (MLS). In addition, the laboratory also extends support services to the
-              community at large through the Royal Swasthya Seva which offers free medical services. The reports generated
-              by the lab are used to check the primary health status of the individuals.
-            </p>
+                <p class="dept-mls-intro-lab" style="padding-bottom: 30px;">
+                  A state-of-art diagnostic laboratory under the aegis of the Royal School of Medical and Allied Sciences. The
+                  diagnostic laboratory caters to the requirements of the students pursuing a diploma and B.Sc. program in
+                  Medical Laboratory Science (MLS). In addition, the laboratory also extends support services to the
+                  community at large through the Royal Swasthya Seva which offers free medical services. The reports generated
+                  by the lab are used to check the primary health status of the individuals.
+                </p>
 
-            <p class="dept-mls-lab-intro">
-              The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
-            </p>
+                <p class="dept-mls-lab-intro">
+                  The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+                </p>
 
 
-            <h3 class="dept-mls-lab-heading">Our Lab Equipments</h3>
+                <h3 class="dept-mls-lab-heading">Our Lab Equipments</h3>
 
-            <h2 class="dept-mls-section-title">Glimpse of <span>our Lab</span></h2>
+                <h2 class="dept-mls-section-title">Glimpse of <span>our Lab</span></h2>
 
-            <div class="dept-mls-lab-gallery">
-              <img src="mobile-assets/rsmas-new-dept/mls/1.jpg" alt="Lab 1" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/2.jpg" alt="Lab 2" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/3.jpg" alt="Lab 3" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/4.jpg" alt="Lab 4" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/5.jpg" alt="Lab 5" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/6.jpg" alt="Lab 6" class="dept-mls-lab-img">
-              <img src="mobile-assets/rsmas-new-dept/mls/7.jpg" alt="Lab 7" class="dept-mls-lab-img">
-            </div>
+                <div class="dept-mls-lab-gallery">
+                  <img src="mobile-assets/rsmas-new-dept/mls/1.jpg" alt="Lab 1" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/2.jpg" alt="Lab 2" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/3.jpg" alt="Lab 3" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/4.jpg" alt="Lab 4" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/5.jpg" alt="Lab 5" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/6.jpg" alt="Lab 6" class="dept-mls-lab-img">
+                  <img src="mobile-assets/rsmas-new-dept/mls/7.jpg" alt="Lab 7" class="dept-mls-lab-img">
+                </div>
 
-            <button class="dept-mls-explore-btn">Explore</button>
-          </div>
+                <button class="dept-mls-explore-btn">Explore</button>
+              </div>
 
-        </div> -->
+            </div> -->
 
         <style>
             /* ================= DISCOVERY SECTION ================= */
@@ -1659,13 +1659,13 @@
             {
                 title: "Masters of Advanced Care Paramedic",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programme-m-emergency-care"
+                link: "/programme-m-emergency-care"
             },
 
             {
                 title: "Bachelor of Emergency Medical Technologist",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programme-b-emergency-care"
+                link: "/programme-b-emergency-care"
             },
 
         ];
@@ -1877,10 +1877,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1947,21 +1947,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

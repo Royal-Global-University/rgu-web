@@ -1024,7 +1024,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                        <img src="https://www.rgu.ac/mobile-assets/conference/bioe3/qr.png" alt="">
+                        <img src="/mobile-assets/conference/bioe3/qr.png" alt="">
 
                         <p style="text-align: center; color: #24477f; font-weight: 800;">
                             <a href="mailto:someone@example.com?subject=Hello&body=Hi%20there!" class="email-link">

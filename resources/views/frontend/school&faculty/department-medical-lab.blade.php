@@ -1285,25 +1285,25 @@
 
         <!-- <div class="dept-mls-prospects-section" id="dept-prospects">
 
-                  <div class="dept-mls-prospects-content">
+                      <div class="dept-mls-prospects-content">
 
-                    <p class="dept-mls-intro-text" style="text-align: justify;">
-                      Our programme integrates theoretical knowledge with hands-on training in state-of-the-art facilities; ensuring
-                      graduates are well-prepared for careers as skilled operation theatre technologists. With a strong emphasis on
-                      practical skills and industry relevance, our graduates cover a wide range of subjects including surgical
-                      procedures, sterile techniques, medical equipment management, and Here is the extracted text:
-                      patient care within operating rooms. Through classroom lectures, laboratory sessions, and clinical rotations,
-                      students develop the necessary skills and expertise to excel in healthcare settings, contributing effectively
-                      to ensuring safe and efficient surgical outcomes in hospitals, surgical centers, and other medical facilities.
-                      Our OTT department boasts state-of-the-art clinical labs, research facilities, and extensive libraries,
-                      creating an immersive environment for learning and exploration. In addition to academic pursuits, students can
-                      engage in various extracurricular activities, including clubs, societies, and sports teams, ensuring a
-                      holistic university experience. Come join us at RGU and embark on a rewarding journey dedicated to innovation
-                      and impacting lives positively.
-                    </p>
+                        <p class="dept-mls-intro-text" style="text-align: justify;">
+                          Our programme integrates theoretical knowledge with hands-on training in state-of-the-art facilities; ensuring
+                          graduates are well-prepared for careers as skilled operation theatre technologists. With a strong emphasis on
+                          practical skills and industry relevance, our graduates cover a wide range of subjects including surgical
+                          procedures, sterile techniques, medical equipment management, and Here is the extracted text:
+                          patient care within operating rooms. Through classroom lectures, laboratory sessions, and clinical rotations,
+                          students develop the necessary skills and expertise to excel in healthcare settings, contributing effectively
+                          to ensuring safe and efficient surgical outcomes in hospitals, surgical centers, and other medical facilities.
+                          Our OTT department boasts state-of-the-art clinical labs, research facilities, and extensive libraries,
+                          creating an immersive environment for learning and exploration. In addition to academic pursuits, students can
+                          engage in various extracurricular activities, including clubs, societies, and sports teams, ensuring a
+                          holistic university experience. Come join us at RGU and embark on a rewarding journey dedicated to innovation
+                          and impacting lives positively.
+                        </p>
 
-                  </div>
-                </div> -->
+                      </div>
+                    </div> -->
 
         <!-- vision mission  -->
         <div class="dept-mls-prospects-section" id="dept-vision">
@@ -1354,75 +1354,75 @@
         </div>
 
         <!-- <div class="dept-mls-prospects-section" id="dept-prospects">
-                  <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
+                      <h2 class="dept-mls-section-title">Career <span>Prospects</span></h2>
 
-                  <div class="dept-mls-prospects-content">
-                    <p class="dept-mls-intro-text">
-                      The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-                      sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-                      strong foundation in agricultural sciences, preparing them for following careers opportunities:
-                    </p>
+                      <div class="dept-mls-prospects-content">
+                        <p class="dept-mls-intro-text">
+                          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                          strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                        </p>
 
-                    <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
-                    <ol class="dept-mls-list">
-                      <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-                      </li>
-                      <li>MBA in Agribusiness Management</li>
-                      <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-                      <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                        disciplines</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Higher Education Opportunities</h3>
+                        <ol class="dept-mls-list">
+                          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                          </li>
+                          <li>MBA in Agribusiness Management</li>
+                          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                            disciplines</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
-                    <ol class="dept-mls-list">
-                      <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-                      <li>IBPS AFO (Agricultural Field Officer)</li>
-                      <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-                      <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-                      <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Government Sector Jobs</h3>
+                        <ol class="dept-mls-list">
+                          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                          <li>IBPS AFO (Agricultural Field Officer)</li>
+                          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Private Sector Careers</h3>
-                    <ol class="dept-mls-list">
-                      <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-                      <li>Food Processing Industries</li>
-                      <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-                      <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-                      <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Private Sector Careers</h3>
+                        <ol class="dept-mls-list">
+                          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                          <li>Food Processing Industries</li>
+                          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Research & Teaching</h3>
-                    <ol class="dept-mls-list">
-                      <li>Research Assistant / Scientist – in public and private research institutions</li>
-                      <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-                      <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Research & Teaching</h3>
+                        <ol class="dept-mls-list">
+                          <li>Research Assistant / Scientist – in public and private research institutions</li>
+                          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
-                    <ol class="dept-mls-list">
-                      <li>Organic farming, dairy, poultry, aquaculture</li>
-                      <li>Agri-tourism, greenhouse farming, vertical farming</li>
-                      <li>Processing units for spices, cereals, or fruits</li>
-                      <li>Agri-consultancy or freelance advisory services</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Entrepreneurship & Startups</h3>
+                        <ol class="dept-mls-list">
+                          <li>Organic farming, dairy, poultry, aquaculture</li>
+                          <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                          <li>Processing units for spices, cereals, or fruits</li>
+                          <li>Agri-consultancy or freelance advisory services</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Jobs Abroad</h3>
-                    <ol class="dept-mls-list">
-                      <li>Agricultural research, farm management, and food security projects</li>
-                      <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-                      <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Jobs Abroad</h3>
+                        <ol class="dept-mls-list">
+                          <li>Agricultural research, farm management, and food security projects</li>
+                          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                        </ol>
 
-                    <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
-                    <ol class="dept-mls-list">
-                      <li>Practical knowledge of farming tools and technologies</li>
-                      <li>Communication and management skills (especially in extension or agribusiness)</li>
-                      <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-                      <li>Language skills and report writing</li>
-                    </ol>
+                        <h3 class="dept-mls-subheading">Key Skills That Boost Career</h3>
+                        <ol class="dept-mls-list">
+                          <li>Practical knowledge of farming tools and technologies</li>
+                          <li>Communication and management skills (especially in extension or agribusiness)</li>
+                          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                          <li>Language skills and report writing</li>
+                        </ol>
 
-                  </div>
-                </div> -->
+                      </div>
+                    </div> -->
 
         <div class="dept-mls-accordion-section" id="dept-syllabus">
             <h2 class="dept-mls-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1510,7 +1510,7 @@
 
                     <div class="dept-mls-accordion-content">
                         <div class="dept-mls-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-mls-syllabus-link" target="_blank">
+                            <a href="/phd" class="dept-mls-syllabus-link" target="_blank">
                                 <div class="dept-mls-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1533,8 +1533,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-                    <a href="#" class="dept-mls-events-btn">View All</a>
-                  </div> -->
+                        <a href="#" class="dept-mls-events-btn">View All</a>
+                      </div> -->
 
         </div>
 
@@ -1561,8 +1561,8 @@
                 </p>
 
                 <!-- <p class="dept-mls-lab-intro">
-                      The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
-                    </p> -->
+                          The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses,
+                        </p> -->
 
 
                 <!-- <h3 class="dept-mls-lab-heading">Our Lab Equipments</h3> -->
@@ -1591,13 +1591,13 @@
         const coursesData = [{
                 title: "Master – Medical Laboratory Sciences (MMLS)",
                 duration: "2 Years",
-                link: "https://www.rgu.ac/programme-m-medical-lab-sc"
+                link: "/programme-m-medical-lab-sc"
             },
 
             {
                 title: "Bachelor – Medical Laboratory Sciences (BMLS)",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programme-b-medical-lab-sc"
+                link: "/programme-b-medical-lab-sc"
             },
 
         ];
@@ -1809,10 +1809,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                            <tr>
-                              ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                            </tr>
-                          `).join("")}
+                                <tr>
+                                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                                </tr>
+                              `).join("")}
             </tbody>
           </table>
         </div>
@@ -1879,21 +1879,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

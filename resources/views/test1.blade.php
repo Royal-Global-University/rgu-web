@@ -726,7 +726,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                                                   though the design relies on the black box */
+                                                       though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -928,18 +928,18 @@
 
                 <div class="row p-3 text-center">
 
-                        <div class="col-lg-4">
-                            <a href="/developing-emotional-intelligence-academic-research-and-teaching"><img style="border: 1px solid black"
-                                    src="five-days-conference/r&t.jpeg" /></a>
-                        </div>
-                        <div class="col-lg-4">
-                            <a href="/icssr-project-positions-at-rgu"><img style="border: 1px solid black"
-                                    src="mobile-assets/ads/icssr.jpeg" /></a>
-                        </div>
-                        <div class="col-lg-4">
-                            <a href="ICETIEDS–2026"><img style="border: 1px solid black"
-                                    src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
-                        </div>
+                    <div class="col-lg-4">
+                        <a href="/developing-emotional-intelligence-academic-research-and-teaching"><img
+                                style="border: 1px solid black" src="five-days-conference/r&t.jpeg" /></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="/icssr-project-positions-at-rgu"><img style="border: 1px solid black"
+                                src="mobile-assets/ads/icssr.jpeg" /></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="ICETIEDS–2026"><img style="border: 1px solid black"
+                                src="/mobile-assets/confrence/ICETIEDS.jpeg" /></a>
+                    </div>
                 </div>
 
                 <!--New Events-->
@@ -1086,7 +1086,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 18px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Royal Global University to Introduce UG and PG Programmes in Assamese</p>
+                                                    Royal Global University to Introduce UG and PG Programmes in Assamese
+                                                </p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">March 23,
                                                     2026
@@ -1114,8 +1115,7 @@
                                                     style="font-size: 16px; color: black; line-height: 1.4;">March 19,
                                                     2026
                                                 </p>
-                                                <a
-                                                    href="/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year">
+                                                <a href="/discourse-on-concept-of-time-at-rgu-marks-hindu-lunar-new-year">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1130,7 +1130,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">Royal Global University Connects Talent with Industry at Mega Placement Day 2026</p>
+                                                    class="pt-2 m-0 fw-bold">Royal Global University Connects Talent with
+                                                    Industry at Mega Placement Day 2026</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">March 17,
                                                     2026
@@ -1394,7 +1395,7 @@
                                                                     <div class="main-img fix img-cover">
 
                                                                         <img decoding="async"
-                                                                            src="https://www.rgu.ac/mobile-assets/laboratories/ev.jpeg"
+                                                                            src="/mobile-assets/laboratories/ev.jpeg"
                                                                             alt="List">
 
                                                                     </div>
@@ -1424,7 +1425,7 @@
                                                                     <div class="main-img fix img-cover">
 
                                                                         <img decoding="async"
-                                                                            src="https://www.rgu.ac/mobile-assets/laboratories/observe.jpeg"
+                                                                            src="/mobile-assets/laboratories/observe.jpeg"
                                                                             alt="List">
 
                                                                     </div>
@@ -1488,8 +1489,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                            students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                                students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1521,8 +1522,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                                            students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                                                students</span> -->
 
                                                                     </div>
 

@@ -17,8 +17,8 @@
 
     <style>
         /* =========================================================
-           RESET
-        ========================================================= */
+               RESET
+            ========================================================= */
 
         * {
             margin: 0;
@@ -52,16 +52,16 @@
         }
 
         /* =========================================================
-           WRAPPER
-        ========================================================= */
+               WRAPPER
+            ========================================================= */
 
         .rgu-jb-wrapper {
             position: relative;
         }
 
         /* =========================================================
-           HERO SECTION
-        ========================================================= */
+               HERO SECTION
+            ========================================================= */
 
         .rgu-jb-hero {
             position: relative;
@@ -137,8 +137,8 @@
         }
 
         /* =========================================================
-           RIGHT HERO PANEL
-        ========================================================= */
+               RIGHT HERO PANEL
+            ========================================================= */
 
         .rgu-jb-right-panel {
             position: relative;
@@ -258,8 +258,8 @@
         }
 
         /* =========================================================
-           INTRO
-        ========================================================= */
+               INTRO
+            ========================================================= */
 
         .rgu-jb-intro {
             margin-top: 50px;
@@ -276,8 +276,8 @@
         }
 
         /* =========================================================
-           MAIN SECTION
-        ========================================================= */
+               MAIN SECTION
+            ========================================================= */
 
         .rgu-jb-section {
             padding: 25px 20px;
@@ -311,8 +311,8 @@
         }
 
         /* =========================================================
-           SECTION HEAD
-        ========================================================= */
+               SECTION HEAD
+            ========================================================= */
 
         .rgu-jb-head {
             position: relative;
@@ -347,8 +347,8 @@
         }
 
         /* =========================================================
-           CARDS
-        ========================================================= */
+               CARDS
+            ========================================================= */
 
         .rgu-jb-card {
             position: relative;
@@ -413,8 +413,8 @@
         }
 
         /* =========================================================
-           DOMAIN LIST
-        ========================================================= */
+               DOMAIN LIST
+            ========================================================= */
 
         .rgu-jb-domains {
             margin: 28px 0;
@@ -429,8 +429,8 @@
         }
 
         /* =========================================================
-           MAIL
-        ========================================================= */
+               MAIL
+            ========================================================= */
 
         .rgu-jb-mail {
             color: #ffd7ae !important;
@@ -440,8 +440,8 @@
         }
 
         /* =========================================================
-           SALARY BOX
-        ========================================================= */
+               SALARY BOX
+            ========================================================= */
 
         .rgu-jb-salary {
             margin-top: 25px;
@@ -458,8 +458,8 @@
         }
 
         /* =========================================================
-           QR
-        ========================================================= */
+               QR
+            ========================================================= */
 
         .rgu-jb-qr {
             width: 230px;
@@ -478,8 +478,8 @@
         }
 
         /* =========================================================
-           OTHER ADS
-        ========================================================= */
+               OTHER ADS
+            ========================================================= */
 
         .rgu-jb-other-wrap {
             padding: 55px;
@@ -520,8 +520,8 @@
         }
 
         /* =========================================================
-           LIGHTBOX
-        ========================================================= */
+               LIGHTBOX
+            ========================================================= */
 
         .rgu-jb-lightbox {
             position: fixed;
@@ -562,8 +562,8 @@
         }
 
         /* =========================================================
-           RESPONSIVE
-        ========================================================= */
+               RESPONSIVE
+            ========================================================= */
 
         @media(max-width:991px) {
 
@@ -691,8 +691,8 @@
     <div class="rgu-jb-wrapper">
 
         <!-- =====================================
-                   HERO
-              ====================================== -->
+                       HERO
+                  ====================================== -->
 
         <section class="rgu-jb-hero">
 
@@ -708,8 +708,7 @@
 
                             <div class="rgu-jb-left">
 
-                                <img class="rgu-jb-logo" src="https://www.rgu.ac/mobile-assets/index/logo-dark.png"
-                                    alt="RGU Logo">
+                                <img class="rgu-jb-logo" src="/mobile-assets/index/logo-dark.png" alt="RGU Logo">
 
                                 <h1 class="rgu-jb-title">
                                     Join The Assam Royal Global University
@@ -758,7 +757,7 @@
                                         Or scan the QR code below -
                                     </h4>
 
-                                    <img src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
+                                    <img src="/assets/img/jobs.jpeg" alt="QR Code">
 
                                 </div>
 
@@ -789,8 +788,8 @@
         </section>
 
         <!-- =====================================
-                   MAIN SECTION
-              ====================================== -->
+                       MAIN SECTION
+                  ====================================== -->
 
         <section class="rgu-jb-section">
 
@@ -899,27 +898,27 @@
 
                         <!-- <p>
 
-                          Dedicated amenities like faculty lounges,
-                          gymnasium, indoor and outdoor sports facilities.
+                              Dedicated amenities like faculty lounges,
+                              gymnasium, indoor and outdoor sports facilities.
 
-                        </p>
+                            </p>
 
-                        <p>
+                            <p>
 
-                          Established in Guwahati, the University serves
-                          as a strategic gateway to ASEAN countries,
-                          fostering high-impact collaborations.
+                              Established in Guwahati, the University serves
+                              as a strategic gateway to ASEAN countries,
+                              fostering high-impact collaborations.
 
-                        </p>
+                            </p>
 
-                        <p>
+                            <p>
 
-                          8500+ students, 26 schools, 130+ UG, PG,
-                          doctoral programmes and international students
-                          from Kenya, Zimbabwe, Tanzania, Nepal,
-                          Myanmar, Bhutan, South Sudan, Libya and others.
+                              8500+ students, 26 schools, 130+ UG, PG,
+                              doctoral programmes and international students
+                              from Kenya, Zimbabwe, Tanzania, Nepal,
+                              Myanmar, Bhutan, South Sudan, Libya and others.
 
-                        </p> -->
+                            </p> -->
 
                         <p class="rgu-jb-highlight">
 
@@ -933,125 +932,125 @@
 
                     <!-- <div class="rgu-jb-feature-box">
 
-                        <div class="row g-4">
+                            <div class="row g-4">
 
-                          <div class="col-lg-4">
+                              <div class="col-lg-4">
 
-                            <div class="rgu-jb-feature-card">
+                                <div class="rgu-jb-feature-card">
 
-                              <h4>
-                                Academic Excellence
-                              </h4>
+                                  <h4>
+                                    Academic Excellence
+                                  </h4>
 
-                              <p>
+                                  <p>
 
-                                Dynamic ecosystem with modern
-                                infrastructure and strong academic culture.
+                                    Dynamic ecosystem with modern
+                                    infrastructure and strong academic culture.
 
-                              </p>
+                                  </p>
+
+                                </div>
+
+                              </div>
+
+                              <div class="col-lg-4">
+
+                                <div class="rgu-jb-feature-card">
+
+                                  <h4>
+                                    International Exposure
+                                  </h4>
+
+                                  <p>
+
+                                    Gateway to ASEAN collaborations
+                                    and global academic opportunities.
+
+                                  </p>
+
+                                </div>
+
+                              </div>
+
+                              <div class="col-lg-4">
+
+                                <div class="rgu-jb-feature-card">
+
+                                  <h4>
+                                    Research & Innovation
+                                  </h4>
+
+                                  <p>
+
+                                    Strong focus on innovation,
+                                    funded projects and industry partnerships.
+
+                                  </p>
+
+                                </div>
+
+                              </div>
 
                             </div>
 
-                          </div>
-
-                          <div class="col-lg-4">
-
-                            <div class="rgu-jb-feature-card">
-
-                              <h4>
-                                International Exposure
-                              </h4>
-
-                              <p>
-
-                                Gateway to ASEAN collaborations
-                                and global academic opportunities.
-
-                              </p>
-
-                            </div>
-
-                          </div>
-
-                          <div class="col-lg-4">
-
-                            <div class="rgu-jb-feature-card">
-
-                              <h4>
-                                Research & Innovation
-                              </h4>
-
-                              <p>
-
-                                Strong focus on innovation,
-                                funded projects and industry partnerships.
-
-                              </p>
-
-                            </div>
-
-                          </div>
-
-                        </div>
-
-                      </div> -->
+                          </div> -->
 
                     <!-- APPLICATION -->
 
                     <!-- <div class="rgu-jb-card mt-4">
 
-                        <h3>
-                          Application Process
-                        </h3>
+                            <h3>
+                              Application Process
+                            </h3>
 
-                        <div class="row align-items-center g-4">
+                            <div class="row align-items-center g-4">
 
-                          <div class="col-lg-8">
+                              <div class="col-lg-8">
 
-                            <p>
+                                <p>
 
-                              Interested candidates may apply online
-                              by scanning the QR code or send
-                              their CVs to:
+                                  Interested candidates may apply online
+                                  by scanning the QR code or send
+                                  their CVs to:
 
-                            </p>
+                                </p>
 
-                            <p class="rgu-jb-mail">
-                              careers@rgu.ac
-                            </p>
+                                <p class="rgu-jb-mail">
+                                  careers@rgu.ac
+                                </p>
 
-                            <p>
+                                <p>
 
-                              Applications should be submitted within
-                              <strong>5 working days.</strong>
+                                  Applications should be submitted within
+                                  <strong>5 working days.</strong>
 
-                            </p>
+                                </p>
 
-                            <div class="rgu-jb-salary">
+                                <div class="rgu-jb-salary">
 
-                              Salary is not a constraint
-                              for deserving candidates.
+                                  Salary is not a constraint
+                                  for deserving candidates.
+
+                                </div>
+
+                              </div>
+
+                              <div class="col-lg-4 text-center">
+
+                                <img class="rgu-jb-qr" src="/assets/img/jobs.jpeg" alt="QR Code">
+
+                              </div>
 
                             </div>
 
-                          </div>
+                            <div class="rgu-jb-footer-note">
 
-                          <div class="col-lg-4 text-center">
+                              For more information,
+                              please log in to www.rgu.ac
 
-                            <img class="rgu-jb-qr" src="https://www.rgu.ac/assets/img/jobs.jpeg" alt="QR Code">
+                            </div>
 
-                          </div>
-
-                        </div>
-
-                        <div class="rgu-jb-footer-note">
-
-                          For more information,
-                          please log in to www.rgu.ac
-
-                        </div>
-
-                      </div> -->
+                          </div> -->
 
                 </div>
 
@@ -1060,8 +1059,8 @@
         </section>
 
         <!-- =====================================
-                   OTHER ADS
-              ====================================== -->
+                       OTHER ADS
+                  ====================================== -->
 
         <section class="rgu-jb-section pb-5">
 
@@ -1089,8 +1088,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/jrf-2.png" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/jrf-2.png" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1102,8 +1101,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/1ads.jpeg" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/1ads.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1115,8 +1114,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-2.jpeg" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/ads-2.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1128,8 +1127,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-3.jpeg" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/ads-3.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1141,8 +1140,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-4.jpeg" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/ads-4.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1154,8 +1153,8 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/carrer/ads-7.jpeg" class="rgu-jb-ad-img"
-                                    alt="Advertisement" onclick="openRGUAd(this.src)">
+                                <img src="/mobile-assets/carrer/ads-7.jpeg" class="rgu-jb-ad-img" alt="Advertisement"
+                                    onclick="openRGUAd(this.src)">
 
                             </div>
 
@@ -1170,8 +1169,8 @@
         </section>
 
         <!-- =====================================
-                   LIGHTBOX
-              ====================================== -->
+                       LIGHTBOX
+                  ====================================== -->
 
         <div class="rgu-jb-lightbox" id="rguJBLightbox">
 

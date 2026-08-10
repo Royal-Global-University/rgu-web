@@ -1,8 +1,8 @@
 @extends('frontend/new-master')
 @section('content')
     <section class="pg-hero">
-        <div class="pg-hero-bg"
-            style="background-image:url('new-web/assets/img/introduction/cover.png'); filter: blur(2px);"></div>
+        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/introduction/cover.png'); filter: blur(2px);">
+        </div>
 
         <div class="pg-hero-bg"></div>
         <div class="pg-hero-overlay"></div>
@@ -18,9 +18,9 @@
 
 
     <!-- =========================
-         INTERNATIONAL HIGHLIGHTS SECTION
-         Place this after the Hero Section
-    ========================= -->
+             INTERNATIONAL HIGHLIGHTS SECTION
+             Place this after the Hero Section
+        ========================= -->
 
     <section class="intl-highlights-section">
         <div class="container">
@@ -31,8 +31,7 @@
                 <!-- Left Image -->
                 <div class="col-lg-6">
                     <div class="intl-img-card">
-                        <img src="https://www.rgu.ac/mobile-assets/placement-all/placement-intro/headimg.png"
-                            alt="Education in India">
+                        <img src="/mobile-assets/placement-all/placement-intro/headimg.png" alt="Education in India">
                     </div>
                 </div>
 
@@ -78,8 +77,8 @@
 
 
     <!-- =========================
-         BLUE SECTION
-    ========================= -->
+             BLUE SECTION
+        ========================= -->
 
     <section class="intl-blue-section">
 
@@ -119,8 +118,8 @@
 
     <style>
         /* ===================================
-       INTERNATIONAL HIGHLIGHTS
-    =================================== */
+           INTERNATIONAL HIGHLIGHTS
+        =================================== */
 
         .intl-highlights-section {
             background: #eef1f7;
@@ -182,8 +181,8 @@
 
 
         /* ===================================
-       BLUE SECTION
-    =================================== */
+           BLUE SECTION
+        =================================== */
 
         .intl-blue-section {
             background: linear-gradient(180deg, #2f4d89 0%, #0b2456 100%);
@@ -220,8 +219,8 @@
 
 
         /* ===================================
-       CONTACT BOX
-    =================================== */
+           CONTACT BOX
+        =================================== */
 
         .intl-contact-box {
             background: #eef1f7;
@@ -263,8 +262,8 @@
 
 
         /* ===================================
-       RESPONSIVE
-    =================================== */
+           RESPONSIVE
+        =================================== */
 
         @media (max-width:991px) {
 

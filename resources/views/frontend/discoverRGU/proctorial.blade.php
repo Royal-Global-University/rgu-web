@@ -47,8 +47,7 @@
             <!-- Download Button -->
             <div class="proctorial-board-download">
 
-                <a href="https://www.rgu.ac/mobile-assets/pdf/Proctor%20Manual.pdf" target="_blank"
-                    class="proctorial-board-download-btn">
+                <a href="/mobile-assets/pdf/Proctor%20Manual.pdf" target="_blank" class="proctorial-board-download-btn">
 
                     <i class="fa fa-download"></i>
                     Download Proctorial Board Manual

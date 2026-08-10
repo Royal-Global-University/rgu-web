@@ -338,7 +338,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="">
                 </div>
                 <h4>Prof. (Dr.) Abhijit Dutta</h4>
                 <p class="board-m-role">Professor & Dean, RSMAS</p>
@@ -360,7 +360,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chatterjee.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/chatterjee.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) Aniruddha Chatterjee</h4>
                 <p class="board-m-role">Professor & Dean, Royal School Applied & Pure Sciences</p>
@@ -371,8 +371,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png" alt="">
                 </div>
                 <h4>Dr. Sumanta Dutta Chowdhury</h4>
                 <p class="board-m-role">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
@@ -383,7 +382,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="">
+                    <img src="/mobile-assets/all-faculty/rsc/3.jpg" alt="">
                 </div>
                 <h4>Dr. Aruna Dev Rroy</h4>
                 <p class="board-m-role">Associate Professor & HOD, RSC</p>
@@ -394,7 +393,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png" alt="">
                 </div>
                 <h4>Dr. Debajit Borah</h4>
                 <p class="board-m-role">Associate Professor & HOD, Biotechnology</p>
@@ -418,7 +417,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="">
                 </div>
                 <h4>Dr. Deepjyoti Choudhury</h4>
                 <p class="board-m-role">Associate Professor & HOD, Department of CSE, RSET</p>
@@ -429,8 +428,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png" alt="">
                 </div>
                 <h4>Dr. Pronami Bhattacharyya</h4>
                 <p class="board-m-role">Associate Professor</p>
@@ -441,7 +439,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/supriyo.png" alt="">
                 </div>
                 <h4>Dr. Supriyo Sen</h4>
                 <p class="board-m-role">Associate Professor & HoD</p>
@@ -452,7 +450,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="">
                 </div>
                 <h4>Dr. Indrajit Dutta</h4>
                 <p class="board-m-role">Associate Professor & HOD, RSTM</p>
@@ -463,7 +461,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) Dhruba Jyoti Borah</h4>
                 <p class="board-m-role">Chief Advisor to the Chancellor and Author-in-residence.</p>
@@ -474,7 +472,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) Sheila Bora</h4>
                 <p class="board-m-role">Professor & Advisor, Department of History, RSHSS</p>
@@ -521,7 +519,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/no-pic.png" alt="">
                 </div>
                 <h4>Sri Anupam Deka</h4>
                 <p class="board-m-role">Director, Repose Foods Pvt. Ltd., Guwahati</p>
@@ -532,7 +530,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/no-pic.png" alt="">
                 </div>
                 <h4>Shri S. K. Baruah</h4>
                 <p class="board-m-role">CEO, North East Gas Distribution Company Ltd.; Former Managing Director,
@@ -592,8 +590,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png" alt="">
                 </div>
                 <h4>Prof. (Dr.) P. J. Mahanta</h4>
                 <p class="board-m-role">Professor, RSL</p>
@@ -604,7 +601,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/faculty-profile/Rathindra.jpeg" alt="">
+                    <img src="/mobile-assets/faculty-profile/Rathindra.jpeg" alt="">
                 </div>
                 <h4>Dr. Rathindra Bhuyan</h4>
                 <p class="board-m-role">Senior Professor & Advisor</p>
@@ -615,7 +612,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png" alt="">
                 </div>
                 <h4>Dr. Stuti Goswami</h4>
                 <p class="board-m-role">Associate Professor, Royal School of Languages</p>
@@ -626,8 +623,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sthiti-Porna-Dutta.jpeg"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Dr-Sthiti-Porna-Dutta.jpeg" alt="">
                 </div>
                 <h4>Dr. Stithi Parna Dutta</h4>
                 <p class="board-m-role">Assistant Professor, Biochemistry, Royal School of BioSciences</p>
@@ -638,8 +634,7 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png"
-                        alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png" alt="">
                 </div>
                 <h4>Dr. Arpee Saikia</h4>
                 <p class="board-m-role">Associate Professor, Royal School of Business & Coordinator, Behavioural Science

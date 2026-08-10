@@ -41,7 +41,7 @@
                                 Founding Trustee, Balipara Foundation, and Chairperson | Advisor, Governing Body.
                             </p>
 
-                            <a href="https://www.rgu.ac/advisor-sri-ranjit-barthakur" class="rgu-al-link">
+                            <a href="/advisor-sri-ranjit-barthakur" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -53,7 +53,7 @@
                 <div class="col-lg-6">
                     <div class="rgu-al-card rgu-al-card-horizontal">
                         <div class="rgu-al-img-wrap" style="height: 300px; width: 300px;">
-                            <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
+                            <img src="/mobile-assets/updated-faculty-img/chief-advisor-pic.png"
                                 alt="Prof. (Dr.) Dhruba Jyoti Borah">
                         </div>
 
@@ -66,7 +66,7 @@
                                 Chief Advisor to the Chancellor and Author-in-residence.
                             </p>
 
-                            <a href="https://www.rgu.ac/advisory-prof-dr-dhruba-jyoti-borah" class="rgu-al-link">
+                            <a href="/advisory-prof-dr-dhruba-jyoti-borah" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -98,7 +98,7 @@
                                 Royal School of Law and Administration
                             </p>
 
-                            <a href="https://www.rgu.ac/advisor-prof-prabuddha-ganguli" class="rgu-al-link">
+                            <a href="/advisor-prof-prabuddha-ganguli" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -126,7 +126,7 @@
                                 Builder | Member of Advisory Board, The Assam Royal Global University
                             </p>
 
-                            <a href="https://www.rgu.ac/advisor-sri-ravi-kant" class="rgu-al-link">
+                            <a href="/advisor-sri-ravi-kant" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -156,9 +156,9 @@
                             </p>
 
                             <!-- <a href="advisory-subramanian-ramadorai.html" class="rgu-al-link">
-                                    VIEW DETAILS
-                                    <span>+</span>
-                                </a> -->
+                                        VIEW DETAILS
+                                        <span>+</span>
+                                    </a> -->
                         </div>
 
                     </div>
@@ -188,7 +188,7 @@
                                 Assam Royal Global University
                             </p>
 
-                            <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="rgu-al-link">
+                            <a href="/advisor-dr-amarjyoti-choudhury" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -216,7 +216,7 @@
                                 Distinguished Professor, Royal School of Communication and Media (RSCOM)
                             </p>
 
-                            <a href="https://www.rgu.ac/faculty-prasanta-jyoti-baruah" class="rgu-al-link">
+                            <a href="/faculty-prasanta-jyoti-baruah" class="rgu-al-link">
                                 VIEW DETAILS
                                 <span>+</span>
                             </a>
@@ -232,8 +232,8 @@
 
     <style>
         /* ==========================
-       Advisory Leadership
-    ========================== */
+           Advisory Leadership
+        ========================== */
 
         .rgu-al-section {
             padding: 7rem 0 8rem;
@@ -339,8 +339,8 @@
 
 
         /* ==========================
-       Responsive
-    ========================== */
+           Responsive
+        ========================== */
 
         @media (max-width:991.98px) {
 

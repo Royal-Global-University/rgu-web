@@ -1,9 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
+    <style>
         /*=========================================================
-                MoU Introduction Section
-=========================================================*/
+                    MoU Introduction Section
+    =========================================================*/
 
         .mou-intro-section {
             padding: 90px 0 70px;
@@ -92,8 +92,8 @@
 
 
         /*=========================================================
-                MoU Content
-=========================================================*/
+                    MoU Content
+    =========================================================*/
 
         .mou-content-section {
             padding: 20px 0 70px;
@@ -154,8 +154,8 @@
 
 
         /*=========================================================
-                    Quote
-=========================================================*/
+                        Quote
+    =========================================================*/
 
         .mou-highlight-quote {
 
@@ -213,8 +213,8 @@
 
 
         /*=========================================================
-                Officials Section
-=========================================================*/
+                    Officials Section
+    =========================================================*/
 
         .mou-officials-section {
 
@@ -296,8 +296,8 @@
 
 
         /*=========================================================
-                    Hover
-=========================================================*/
+                        Hover
+    =========================================================*/
 
         .mou-content-card,
         .mou-officials-card {
@@ -319,8 +319,8 @@
 
 
         /*=========================================================
-                Tablet
-=========================================================*/
+                    Tablet
+    =========================================================*/
 
         @media (max-width:991px) {
 
@@ -402,8 +402,8 @@
 
 
         /*=========================================================
-                Mobile
-=========================================================*/
+                    Mobile
+    =========================================================*/
 
         @media (max-width:767px) {
 
@@ -517,43 +517,61 @@
         }
     </style>
 
-   <style>
-    /*=========================================================
-                Partnership Section (Ultra-Premium Sealed Plaque)
-        =========================================================*/
+    <style>
+        /*=========================================================
+                    Partnership Section (Ultra-Premium Sealed Plaque)
+            =========================================================*/
         /* Keyframes for Premium Animations */
         @keyframes goldShine {
-            0% { background-position: 200% center; }
-            100% { background-position: -200% center; }
+            0% {
+                background-position: 200% center;
+            }
+
+            100% {
+                background-position: -200% center;
+            }
         }
 
         @keyframes premiumPulse {
-            0% { box-shadow: 0 0 0 0 rgba(223, 186, 107, 0.6), 0 8px 22px rgba(0, 0, 0, 0.5); }
-            70% { box-shadow: 0 0 0 25px rgba(223, 186, 107, 0), 0 8px 22px rgba(0, 0, 0, 0.5); }
-            100% { box-shadow: 0 0 0 0 rgba(223, 186, 107, 0), 0 8px 22px rgba(0, 0, 0, 0.5); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(223, 186, 107, 0.6), 0 8px 22px rgba(0, 0, 0, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 25px rgba(223, 186, 107, 0), 0 8px 22px rgba(0, 0, 0, 0.5);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(223, 186, 107, 0), 0 8px 22px rgba(0, 0, 0, 0.5);
+            }
         }
 
         @keyframes subtleFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-4px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-4px);
+            }
         }
 
         /* Outer Frame */
         .mou-partnership-frame {
             padding: 18px;
             /* Moving metallic gradient */
-            background: linear-gradient(
-                115deg, 
-                #9a7422 0%, 
-                #dfba6b 25%, 
-                #fbf5b7 45%, 
-                #dfba6b 65%, 
-                #9a7422 100%
-            );
+            background: linear-gradient(115deg,
+                    #9a7422 0%,
+                    #dfba6b 25%,
+                    #fbf5b7 45%,
+                    #dfba6b 65%,
+                    #9a7422 100%);
             background-size: 200% auto;
             animation: goldShine 6s linear infinite;
             border-radius: 24px;
-            box-shadow: 
+            box-shadow:
                 0 35px 65px rgba(0, 0, 0, 0.18),
                 inset 0 3px 5px rgba(255, 255, 255, 0.7),
                 inset 0 -3px 8px rgba(0, 0, 0, 0.3);
@@ -570,7 +588,7 @@
             padding: 65px 60px;
             background: radial-gradient(circle at 50% 0%, #151e32 0%, #04070d 100%);
             border-radius: 12px;
-            box-shadow: 
+            box-shadow:
                 inset 0 25px 50px rgba(0, 0, 0, 0.95),
                 0 2px 4px rgba(255, 255, 255, 0.3);
             position: relative;
@@ -582,28 +600,28 @@
             content: "";
             position: absolute;
             inset: 0;
-            background: linear-gradient(
-                135deg, 
-                rgba(255, 255, 255, 0.12) 0%, 
-                rgba(255, 255, 255, 0.02) 30%, 
-                rgba(255, 255, 255, 0) 50%
-            );
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.12) 0%,
+                    rgba(255, 255, 255, 0.02) 30%,
+                    rgba(255, 255, 255, 0) 50%);
             border-radius: 12px;
-            pointer-events: none; /* Allows hovering elements underneath */
+            pointer-events: none;
+            /* Allows hovering elements underneath */
             z-index: 1;
         }
-        
+
         /* Removing old layout lines */
         .mou-partnership::after {
             display: none;
         }
 
         /*=========================================================
-                Logo Cards (Mounted Engravings)
-        =========================================================*/
+                    Logo Cards (Mounted Engravings)
+            =========================================================*/
         .mou-brand-card {
             position: relative;
-            z-index: 2; /* Sits above the glass reflection */
+            z-index: 2;
+            /* Sits above the glass reflection */
             width: 100%;
             height: 220px;
             background: #ffffff;
@@ -613,7 +631,7 @@
             justify-content: center;
             padding: 40px;
             border: 1px solid rgba(223, 186, 107, 0.5);
-            box-shadow: 
+            box-shadow:
                 0 20px 40px rgba(0, 0, 0, 0.6),
                 inset 0 0 20px rgba(223, 186, 107, 0.15),
                 inset 0 1px 0 rgba(255, 255, 255, 1);
@@ -629,7 +647,7 @@
         .mou-brand-card:hover {
             transform: translateY(-8px) scale(1.02);
             border-color: #dfba6b;
-            box-shadow: 
+            box-shadow:
                 0 25px 45px rgba(0, 0, 0, 0.7),
                 0 0 30px rgba(223, 186, 107, 0.3);
             animation-play-state: paused;
@@ -641,12 +659,12 @@
             width: auto;
             height: auto;
             object-fit: contain;
-            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05));
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.05));
         }
 
         /*=========================================================
-                Connector
-        =========================================================*/
+                    Connector
+            =========================================================*/
         .mou-connector {
             position: relative;
             z-index: 2;
@@ -659,7 +677,7 @@
         .mou-connector span {
             width: 70px;
             height: 2px;
-            background: linear-gradient(90deg, rgba(223,186,107,0), #dfba6b, rgba(223,186,107,0));
+            background: linear-gradient(90deg, rgba(223, 186, 107, 0), #dfba6b, rgba(223, 186, 107, 0));
             box-shadow: 0 0 10px rgba(223, 186, 107, 0.4);
         }
 
@@ -683,20 +701,23 @@
         }
 
         /*=========================================================
-                Tablet Breakpoint
-        =========================================================*/
+                    Tablet Breakpoint
+            =========================================================*/
         @media(max-width:991px) {
             .mou-partnership {
                 gap: 30px;
                 padding: 50px 40px;
             }
+
             .mou-brand-card {
                 height: 160px;
                 padding: 25px;
             }
+
             .mou-connector span {
                 width: 40px;
             }
+
             .mou-connector-icon {
                 width: 52px;
                 height: 52px;
@@ -705,36 +726,40 @@
         }
 
         /*=========================================================
-                Mobile Breakpoint
-        =========================================================*/
+                    Mobile Breakpoint
+            =========================================================*/
         @media(max-width:767px) {
             .mou-partnership-frame {
                 padding: 12px;
                 border-radius: 20px;
                 margin-bottom: 50px;
             }
+
             .mou-partnership {
                 grid-template-columns: 1fr;
                 gap: 35px;
                 padding: 45px 25px;
             }
+
             .mou-brand-card {
                 height: 150px;
                 padding: 25px;
             }
+
             .mou-connector {
                 flex-direction: column;
                 gap: 15px;
             }
+
             .mou-connector span {
                 width: 2px;
                 height: 45px;
-                background: linear-gradient(180deg, rgba(223,186,107,0), #dfba6b, rgba(223,186,107,0));
+                background: linear-gradient(180deg, rgba(223, 186, 107, 0), #dfba6b, rgba(223, 186, 107, 0));
             }
         }
-   </style>
+    </style>
 
-       <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/mou/cover.png'); filter: blur(10px);">
         </div>
 
@@ -751,8 +776,8 @@
     </section>
 
     <!-- =========================================
-        MoU Introduction Section
-========================================== -->
+            MoU Introduction Section
+    ========================================== -->
 
     <section class="mou-intro-section">
 
@@ -786,8 +811,7 @@
 
                             <div class="mou-brand-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/index/logo-dark.png"
-                                    alt="Royal Global University">
+                                <img src="/mobile-assets/index/logo-dark.png" alt="Royal Global University">
                             </div>
 
                         </div>
@@ -808,11 +832,11 @@
                     <div class="mou-image-layout">
 
                         <div class="mou-image-main">
-                            <img src="https://www.rgu.ac/mobile-assets/ads/5-16/16-2.jpeg" alt="">
+                            <img src="/mobile-assets/ads/5-16/16-2.jpeg" alt="">
                         </div>
 
                         <div class="mou-image-secondary">
-                            <img src="https://www.rgu.ac/mobile-assets/ads/5-16/16-1.jpeg" alt="">
+                            <img src="/mobile-assets/ads/5-16/16-1.jpeg" alt="">
                         </div>
 
                     </div>
@@ -848,8 +872,8 @@
     </section>
 
     <!-- =========================================
-        MoU Content Section
-========================================== -->
+            MoU Content Section
+    ========================================== -->
 
     <section class="mou-content-section">
         <div class="container">
@@ -906,8 +930,8 @@
     </section>
 
     <!-- =========================================
-        MoU Officials Section
-========================================== -->
+            MoU Officials Section
+    ========================================== -->
 
     <section class="mou-officials-section">
         <div class="container">

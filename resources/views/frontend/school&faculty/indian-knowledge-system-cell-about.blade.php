@@ -11,7 +11,7 @@
 
     </div>
 
-        <style>
+    <style>
         /* ================= CSS VARIABLES & RESETS ================= */
         :root {
             --primary: #2c4a7a;
@@ -1219,7 +1219,7 @@
         }
     </style>
 
-        <div class="dept-iks-floating">
+    <div class="dept-iks-floating">
         <a href="#dept-home" class="dept-iks-float-item">
             <i class="fa fa-home"></i>
             <span class="dept-iks-float-text">Home</span>
@@ -1231,9 +1231,9 @@
         </a>
 
         <!-- <a href="#dept-vision" class="dept-iks-float-item">
-            <i class="fa fa-bullseye"></i>
-            <span class="dept-iks-float-text">Vision & Mission</span>
-        </a> -->
+                <i class="fa fa-bullseye"></i>
+                <span class="dept-iks-float-text">Vision & Mission</span>
+            </a> -->
 
         <a href="#dept-courses" class="dept-iks-float-item">
             <i class="fa fa-graduation-cap"></i>
@@ -1256,9 +1256,9 @@
         </a>
 
         <!-- <a href="#dept-lab" class="dept-iks-float-item">
-            <i class="fa fa-flask"></i>
-            <span class="dept-iks-float-text">Lab</span>
-        </a> -->
+                <i class="fa fa-flask"></i>
+                <span class="dept-iks-float-text">Lab</span>
+            </a> -->
 
     </div>
 
@@ -1437,75 +1437,75 @@
         </div>
 
         <!-- <div class="dept-iks-prospects-section" id="dept-prospects">
-      <h2 class="dept-iks-section-title">Career <span>Prospects</span></h2>
+          <h2 class="dept-iks-section-title">Career <span>Prospects</span></h2>
 
-      <div class="dept-iks-prospects-content">
-        <p class="dept-iks-intro-text">
-          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-          strong foundation in agricultural sciences, preparing them for following careers opportunities:
-        </p>
+          <div class="dept-iks-prospects-content">
+            <p class="dept-iks-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-        <h3 class="dept-iks-subheading">Higher Education Opportunities</h3>
-        <ol class="dept-iks-list">
-          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-          </li>
-          <li>MBA in Agribusiness Management</li>
-          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-            disciplines</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-iks-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Government Sector Jobs</h3>
-        <ol class="dept-iks-list">
-          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-          <li>IBPS AFO (Agricultural Field Officer)</li>
-          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Government Sector Jobs</h3>
+            <ol class="dept-iks-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Private Sector Careers</h3>
-        <ol class="dept-iks-list">
-          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-          <li>Food Processing Industries</li>
-          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Private Sector Careers</h3>
+            <ol class="dept-iks-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Research & Teaching</h3>
-        <ol class="dept-iks-list">
-          <li>Research Assistant / Scientist – in public and private research institutions</li>
-          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Research & Teaching</h3>
+            <ol class="dept-iks-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Entrepreneurship & Startups</h3>
-        <ol class="dept-iks-list">
-          <li>Organic farming, dairy, poultry, aquaculture</li>
-          <li>Agri-tourism, greenhouse farming, vertical farming</li>
-          <li>Processing units for spices, cereals, or fruits</li>
-          <li>Agri-consultancy or freelance advisory services</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-iks-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Jobs Abroad</h3>
-        <ol class="dept-iks-list">
-          <li>Agricultural research, farm management, and food security projects</li>
-          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Jobs Abroad</h3>
+            <ol class="dept-iks-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
 
-        <h3 class="dept-iks-subheading">Key Skills That Boost Career</h3>
-        <ol class="dept-iks-list">
-          <li>Practical knowledge of farming tools and technologies</li>
-          <li>Communication and management skills (especially in extension or agribusiness)</li>
-          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-          <li>Language skills and report writing</li>
-        </ol>
+            <h3 class="dept-iks-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-iks-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
 
-      </div>
-    </div> -->
+          </div>
+        </div> -->
 
         <div class="dept-iks-accordion-section" id="dept-syllabus">
             <h2 class="dept-iks-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1557,7 +1557,7 @@
 
                     <div class="dept-iks-accordion-content">
                         <div class="dept-iks-syllabus-list">
-                            <a target="_blank" href="https://www.rgu.ac/phd" class="dept-iks-syllabus-link">
+                            <a target="_blank" href="/phd" class="dept-iks-syllabus-link">
                                 <div class="dept-iks-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1589,119 +1589,116 @@
 
         <!-- <div class="dept-iks-lab-section" id="dept-lab">
 
-            <div class="dept-iks-lab-container">
+                <div class="dept-iks-lab-container">
 
-                <h2 class="dept-iks-section-title">Physiotherapy <span> OPD</span></h2>
+                    <h2 class="dept-iks-section-title">Physiotherapy <span> OPD</span></h2>
 
-                <p class="dept-iks-lab-intro">
-                    The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
-                    patient. The
-                    students through OPD practicals would learn how to treat patients with physical disabilities and
-                    injuries in a
-                    range of settings including hospitals, health centres, private practices and sports clubs under the
-                    proper
-                    guidance of a specialist. The OPD is located in Block-D on the ground floor. 
-                </p>
+                    <p class="dept-iks-lab-intro">
+                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                        patient. The
+                        students through OPD practicals would learn how to treat patients with physical disabilities and
+                        injuries in a
+                        range of settings including hospitals, health centres, private practices and sports clubs under the
+                        proper
+                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                    </p>
 
-                <ol class="dept-iks-lab-list">
-                    <li>
-                        IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
-                        pain, reduce
-                        inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
-                        acts as a
-                        superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
-                        tissue
-                        repair.
-                    </li>
+                    <ol class="dept-iks-lab-list">
+                        <li>
+                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                            pain, reduce
+                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                            acts as a
+                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                            tissue
+                            repair.
+                        </li>
 
-                    <li>
-                        Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
-                        include reducing
-                        joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
-                        scar
-                        tissue, and treating muscle spasms.
-                    </li>
+                        <li>
+                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                            include reducing
+                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                            scar
+                            tissue, and treating muscle spasms.
+                        </li>
 
-                    <li>
-                        Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
-                        upper trap
-                        stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
-                        stiffness, and
-                        improve upper body posture.
-                    </li>
+                        <li>
+                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                            upper trap
+                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                            stiffness, and
+                            improve upper body posture.
+                        </li>
 
-                    <li>
-                        Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
-                        inflammation, and improves blood circulation.
-                    </li>
+                        <li>
+                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                            inflammation, and improves blood circulation.
+                        </li>
 
-                    <li>
-                        Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
-                        assess range
-                        of motion (ROM), identifying limitations caused by injuries or fracture cases.
-                    </li>
+                        <li>
+                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                            assess range
+                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                        </li>
 
-                    <li>
-                        Exterior image of the Physiotherapy OPD.
-                    </li>
-                </ol>
+                        <li>
+                            Exterior image of the Physiotherapy OPD.
+                        </li>
+                    </ol>
 
 
-                 <h3 class="dept-iks-lab-heading">Our Lab Equipments</h3>
+                     <h3 class="dept-iks-lab-heading">Our Lab Equipments</h3>
 
-                <h2 class="dept-iks-section-title">Glimpse of <span>our Lab</span></h2>
+                    <h2 class="dept-iks-section-title">Glimpse of <span>our Lab</span></h2>
 
-                <div class="dept-iks-lab-gallery">
+                    <div class="dept-iks-lab-gallery">
 
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
-                        class="dept-iks-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
-                        class="dept-iks-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
-                        class="dept-iks-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
-                        class="dept-iks-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
-                        class="dept-iks-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
-                        class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                            class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                            class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                            class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                            class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                            class="dept-iks-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                            class="dept-iks-lab-img">
 
+                    </div>
+
+                    <button class="dept-iks-explore-btn">Explore</button>
                 </div>
 
-                <button class="dept-iks-explore-btn">Explore</button>
-            </div>
-
-        </div> -->
+            </div> -->
 
     </div>
 
     <script>
-    // 1. Define the courses array
-    const coursesData = [
-        {
+        // 1. Define the courses array
+        const coursesData = [{
             title: "M.A. - Indian Knowledge System (IKS)",
             duration: "2 years",
             link: "https://rgu.ac/program-ma-IKS"
-        }
-    ];
+        }];
 
-    // 2. Get container
-    const courseContainer = document.getElementById('course-list-container');
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
 
-    // 3. Render courses
-    if (courseContainer) {
+        // 3. Render courses
+        if (courseContainer) {
 
-        // If array is empty → show fallback
-        if (!coursesData || coursesData.length === 0) {
-            courseContainer.innerHTML = `
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
         <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
           No courses available at the moment.
         </p>
       `;
-        }
-        else {
-            // Generate course cards
-            courseContainer.innerHTML = coursesData.map(course => `
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
         <div class="dept-iks-course-card">
 
           <div class="dept-iks-course-header">
@@ -1720,140 +1717,153 @@
 
         </div>
       `).join('');
-        }
-    }
-</script>
-
-<script>
-    // --- ACCORDION LOGIC ---
-    const accordionHeaders = document.querySelectorAll('.dept-iks-accordion-header');
-
-    // Function to calculate and set the exact height for smooth transitions
-    function setAccordionHeights() {
-        const activeItems = document.querySelectorAll('.dept-iks-accordion-item.active');
-        activeItems.forEach(item => {
-            const content = item.querySelector('.dept-iks-accordion-content');
-            content.style.maxHeight = content.scrollHeight + "px";
-        });
-    }
-
-    // Initialize the open item on load
-    setAccordionHeights();
-
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function () {
-            const currentItem = this.parentElement;
-            const currentContent = currentItem.querySelector('.dept-iks-accordion-content');
-
-            // Toggle 'active' class
-            currentItem.classList.toggle('active');
-
-            // If it is now active, set max-height to its scrollHeight (actual content height)
-            if (currentItem.classList.contains('active')) {
-                currentContent.style.maxHeight = currentContent.scrollHeight + "px";
-            } else {
-                // If closed, collapse it back to 0
-                currentContent.style.maxHeight = 0;
             }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-iks-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-iks-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-iks-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-iks-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
         });
-    });
 
-    // Recalculate heights if the window resizes (prevents text clipping on mobile)
-    window.addEventListener('resize', setAccordionHeights);
-</script>
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
 
-<script>
-    // ================= EVENTS DATA =================
-    const eventsData = [
-        "12-01-2026 | Interactive session with faculty from Srinakharinwirot University, Bangkok, Thailand.",
-        "10-11-2025 | Student seminar on Tariff War: Economic, Political and Global Implication.",
-        "15-09-2025 | Guest lecture to commemorate the UN International Day of Democracy.",
-        "29-07-2025 | 10 years of Act East Policy: What next?",
-        "25-03-2025 | Visit to the Assam Legislative Assembly.",
-        "17-02-2025 to 19-02-2025 | Three Days Capacity Building Workshop on Research Writing & Methodology in Social Sciences.",
-        "05-02-2025 | Visit to Manali to explore various aspects of Eco-Tourism.",
-        "26-11-2024 | Inauguration of Student Magazine of Dept. of Pol. Sc & Commemorating 75th Constitution Day.",
-        "20-09-2024 | Youth Parliament.",
-        "28-08-2024 | Visit to the Assam Legislative Assembly.",
-        "20-06-2024 | The Youth Parliament 2024.",
-        "05-06-2024 | Career Counselling.",
-        "14-05-2024 | Yuvamanthan Model G20."
-    ];
-    const eventsTrack = document.getElementById("events-track");
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "12-01-2026 | Interactive session with faculty from Srinakharinwirot University, Bangkok, Thailand.",
+            "10-11-2025 | Student seminar on Tariff War: Economic, Political and Global Implication.",
+            "15-09-2025 | Guest lecture to commemorate the UN International Day of Democracy.",
+            "29-07-2025 | 10 years of Act East Policy: What next?",
+            "25-03-2025 | Visit to the Assam Legislative Assembly.",
+            "17-02-2025 to 19-02-2025 | Three Days Capacity Building Workshop on Research Writing & Methodology in Social Sciences.",
+            "05-02-2025 | Visit to Manali to explore various aspects of Eco-Tourism.",
+            "26-11-2024 | Inauguration of Student Magazine of Dept. of Pol. Sc & Commemorating 75th Constitution Day.",
+            "20-09-2024 | Youth Parliament.",
+            "28-08-2024 | Visit to the Assam Legislative Assembly.",
+            "20-06-2024 | The Youth Parliament 2024.",
+            "05-06-2024 | Career Counselling.",
+            "14-05-2024 | Yuvamanthan Model G20."
+        ];
+        const eventsTrack = document.getElementById("events-track");
 
-    if (eventsTrack) {
+        if (eventsTrack) {
 
-        if (!eventsData || eventsData.length === 0) {
-            eventsTrack.innerHTML = `
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
         <p style="text-align:center; padding:20px; color:#556b8d;">
           No events available at the moment.
         </p>
       `;
-        } else {
+            } else {
 
-            const createEventHTML = (text) => `
+                const createEventHTML = (text) => `
         <div class="dept-iks-event-item">
           ${text}
         </div>
       `;
 
-            // Duplicate for seamless infinite scroll
-            const fullContent = [...eventsData, ...eventsData]
-                .map(createEventHTML)
-                .join("");
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
 
-            eventsTrack.innerHTML = fullContent;
-        }
-    }
-</script>
-
-<script>
-    const tableData = [
-        {
-            title: "The Board of Studies",
-            headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
-            rows: [
-                ["1", "Convenor (Ex-Officio)", "Dr. Pallabi Borah, Coordinator, Department of iks"],
-
-                ["2", "External Academic Expert (Subject Expert – iks)", "Prof. Kalidas Upadhyaya, Professor, Department of iks, Mizoram University"],
-                ["3", "External Academic Expert (Subject Expert – iks)", "Dr. A. Arunachalam, FNAAS, Director, Central Agroiks Research Institute, ICAR, Jhansi"],
-
-                ["4", "Member (Ex-Officio)", "Prof. Nikhil Kumar Chrungoo, Professor and Dean, RSLSC"],
-                ["5", "Member (Ex-Officio)", "Mr. Arvind Madhav Singh, Retired IFS, Advisor & Visiting Professor (Adjunct), Department of iks"],
-                ["6", "Member (Ex-Officio)", "Dr. Demsai Reang, Assistant Professor, Department of iks"],
-                ["7", "Member (Ex-Officio)", "Dr. Paul Lalremsang, Assistant Professor, Department of iks"],
-                ["8", "Member (Ex-Officio)", "Mr. Puskal Bagchie, Assistant Professor, Department of iks"]
-            ]
-        },
-        {
-            title: "The Departmental Research Committee (DRC)",
-            headers: ["S.No.", "Designated Members", "Nomination"],
-            rows: [
-                ["1", "Member", "Dr. Pallabi Borah, Assistant Professor & Coordinator, Department of iks (RSLSC), RGU"],
-
-                ["2", "Member", "Prof. Nikhil Kumar Chrungoo, Dean, RSLSC, RGU"],
-
-                ["3", "Member", "Mr. Arvind Kumar Madhav Singh, Professor (Adjunct), Department of iks (RSLSC), RGU"],
-
-                ["4", "Member Secretary", "Dr. Demsai Reang, Assistant Professor, Department of iks (RSLSC), RGU"],
-
-                ["5", "Member", "Dr. Paul Lalremsang, Assistant Professor, Department of iks (RSLSC), RGU"],
-
-                ["6", "External Expert", "Dr. K.K. Sarma, Sci./Engr. ‘G’ & Group Head, Remote Sensing Applications Group (GHRSAG), NESAC"]
-            ]
-        }
-    ];
-
-    const container = document.getElementById("table-accordion-container");
-
-    if (container) {
-
-        const createTable = (headers, rows) => {
-            if (!rows || rows.length === 0) {
-                return `<p style="color:#556b8d;">No data available</p>`;
+                eventsTrack.innerHTML = fullContent;
             }
+        }
+    </script>
 
-            return `
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+                    ["1", "Convenor (Ex-Officio)", "Dr. Pallabi Borah, Coordinator, Department of iks"],
+
+                    ["2", "External Academic Expert (Subject Expert – iks)",
+                        "Prof. Kalidas Upadhyaya, Professor, Department of iks, Mizoram University"
+                    ],
+                    ["3", "External Academic Expert (Subject Expert – iks)",
+                        "Dr. A. Arunachalam, FNAAS, Director, Central Agroiks Research Institute, ICAR, Jhansi"
+                    ],
+
+                    ["4", "Member (Ex-Officio)", "Prof. Nikhil Kumar Chrungoo, Professor and Dean, RSLSC"],
+                    ["5", "Member (Ex-Officio)",
+                        "Mr. Arvind Madhav Singh, Retired IFS, Advisor & Visiting Professor (Adjunct), Department of iks"
+                    ],
+                    ["6", "Member (Ex-Officio)", "Dr. Demsai Reang, Assistant Professor, Department of iks"],
+                    ["7", "Member (Ex-Officio)", "Dr. Paul Lalremsang, Assistant Professor, Department of iks"],
+                    ["8", "Member (Ex-Officio)", "Mr. Puskal Bagchie, Assistant Professor, Department of iks"]
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Designated Members", "Nomination"],
+                rows: [
+                    ["1", "Member",
+                        "Dr. Pallabi Borah, Assistant Professor & Coordinator, Department of iks (RSLSC), RGU"
+                    ],
+
+                    ["2", "Member", "Prof. Nikhil Kumar Chrungoo, Dean, RSLSC, RGU"],
+
+                    ["3", "Member",
+                        "Mr. Arvind Kumar Madhav Singh, Professor (Adjunct), Department of iks (RSLSC), RGU"
+                    ],
+
+                    ["4", "Member Secretary",
+                        "Dr. Demsai Reang, Assistant Professor, Department of iks (RSLSC), RGU"
+                    ],
+
+                    ["5", "Member", "Dr. Paul Lalremsang, Assistant Professor, Department of iks (RSLSC), RGU"],
+
+                    ["6", "External Expert",
+                        "Dr. K.K. Sarma, Sci./Engr. ‘G’ & Group Head, Remote Sensing Applications Group (GHRSAG), NESAC"
+                    ]
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
         <div class="dept-iks-table-responsive">
           <table class="dept-iks-table">
             <thead>
@@ -1863,21 +1873,21 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                <tr>
-                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                </tr>
-              `).join("")}
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
             </tbody>
           </table>
         </div>
       `;
-        };
+            };
 
-        container.innerHTML = tableData.map(item => {
+            container.innerHTML = tableData.map(item => {
 
-            const isEmpty = !item.rows || item.rows.length === 0;
+                const isEmpty = !item.rows || item.rows.length === 0;
 
-            return `
+                return `
         <div class="dept-iks-table-acc ${isEmpty ? 'disabled' : ''}">
 
           <div class="dept-iks-table-header">
@@ -1891,102 +1901,101 @@
 
         </div>
       `;
-        }).join("");
-    }
+            }).join("");
+        }
 
-    /* ACCORDION (single open at a time) */
-    document.addEventListener("click", function (e) {
-        const header = e.target.closest(".dept-iks-table-header");
-        if (!header) return;
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-iks-table-header");
+            if (!header) return;
 
-        const item = header.parentElement;
-        if (item.classList.contains("disabled")) return;
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
 
-        const allItems = document.querySelectorAll(".dept-iks-table-acc");
+            const allItems = document.querySelectorAll(".dept-iks-table-acc");
 
-        allItems.forEach(acc => {
-            if (acc !== item) {
-                acc.classList.remove("active");
-                const content = acc.querySelector(".dept-iks-table-content");
-                const icon = acc.querySelector("i");
-                if (content) content.style.maxHeight = 0;
-                if (icon) icon.classList.replace("fa-minus", "fa-plus");
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-iks-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-iks-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
             }
         });
+    </script>
 
-        const content = item.querySelector(".dept-iks-table-content");
-        const icon = header.querySelector("i");
+    <script>
+        (function() {
 
-        item.classList.toggle("active");
+            /* ================= EVENT DATA ================= */
+            const eventGalleryData = [{
+                    title: "Events Organized by IKS Cell in the academic year 2024 1. Poster Launch Ceremony & Lecture on Indian Knowledge Systems: Collaboration: Bharatiya Shikshan Mandal Date: April 25, 2024 a) Poster Launch Ceremony: This ceremony serves as the inauguration of the State-Level Research Paper Writing Competition and will feature the unveiling of posters announcing the competition. b) Lecture on Indian Knowledge Systems: Invited guests: 1. Prof. Kameshwar Shukla, Department of Sanskrit, Gauhati University 2. Prof. Uday Dixit, Director, Centre for Indian Knowledge Systems (CIKS), IIT, Guwahati.",
+                    image: "mobile-assets/new-dept-iks/events/e1/1.jpg"
+                },
+                {
+                    title: "Exhibition and Lecture on Culture and Heritage Collaboration with: INTACH (Indian National Trust for Art and Cultural Heritage) Dates: May 20-22, 2024 Invited Guest Speaker (on 20th May): Ms. Vandana Manchanda, Director of the Architectural Heritage Division and Head-Heritage, Crafts, & Community Division at INTACH",
+                    image: "mobile-assets/new-dept-iks/events/e2/1.jpg"
+                },
+                {
+                    title: "Lecture Session on Abhinaya. Topic: Abhinaya - Folk Elements in Indian Cinema and Theatre Collaboration with DSW at RGU May 24, 2024 Invited Guest Speaker- Shri Pranjal Saikia - veteran actor and Sangeet Natak Akademi awardee",
+                    image: "mobile-assets/new-dept-iks/events/e3/1.jpg"
+                },
+                {
+                    title: "Invited Talk: Decoding India’s Temples and the Challenges of Reconstructing Them Speaker: Dr. Nachiket Chanchani, Associate Professor of South Asian Art and Visual Culture at the University of Michigan, Ann Arbor, USA Date: May 27, 2024",
+                    image: "mobile-assets/new-dept-iks/events/e4/1.jpg"
+                },
+                {
+                    title: "Workshop on Mask Making for World Folklore Day Date: 21st August, 2024 Invited Guests (Experts): Shri Haren Goswami, Samaguri Satra, Majuli, Assam Shri Bhaskar Jyoti Goswami, Samaguri Satra, Majuli, Assam Shri Pranab Borah, Samaguri Satra, Majuli, Assam",
+                    image: "mobile-assets/new-dept-iks/events/e5/1.jpg"
+                },
+                {
+                    title: "Lecture on World Folklore Day Date: 22nd August, 2024 Topic: Folk Elements: The Treasure Troves of Indian Knowledge Systems Invited Guest (Speaker): Prof. (Dr.) Sudeshna Bhattacharjya, Head Department of Sanskrit, Gauhati University & Director, ABILAC (Anundoram Borooah Institute of Language Art and Culture)",
+                    image: "mobile-assets/new-dept-iks/events/e6/1.jpg"
+                },
+                {
+                    title: "Lecture on Date: 22nd October, 2024 Topic: The Relevance of Indian Knowledge Systems (IKS) in Modern Times. Invited speaker: Dr. Raj Vedam, Director of Arsha Vidya Satsang, Indic Education, Houston, USA",
+                    image: "mobile-assets/new-dept-iks/events/e7/1.jpg"
+                },
+                {
+                    title: "Talk/event/FDP/Conference organised by IKS in 2025",
+                    image: "mobile-assets/new-dept-iks/events/e8/1.jpg"
+                }
 
-        if (item.classList.contains("active")) {
-            content.style.maxHeight = content.scrollHeight + "px";
-            icon.classList.replace("fa-plus", "fa-minus");
-        } else {
-            content.style.maxHeight = 0;
-            icon.classList.replace("fa-minus", "fa-plus");
-        }
-    });
-</script>
+            ];
 
-<script>
-    (function () {
+            /* ================= GET CONTAINER ================= */
+            const eventGalleryContainer = document.getElementById("event-gallery-container");
 
-        /* ================= EVENT DATA ================= */
-        const eventGalleryData = [
-            {
-                title: "Events Organized by IKS Cell in the academic year 2024 1. Poster Launch Ceremony & Lecture on Indian Knowledge Systems: Collaboration: Bharatiya Shikshan Mandal Date: April 25, 2024 a) Poster Launch Ceremony: This ceremony serves as the inauguration of the State-Level Research Paper Writing Competition and will feature the unveiling of posters announcing the competition. b) Lecture on Indian Knowledge Systems: Invited guests: 1. Prof. Kameshwar Shukla, Department of Sanskrit, Gauhati University 2. Prof. Uday Dixit, Director, Centre for Indian Knowledge Systems (CIKS), IIT, Guwahati.",
-                image: "mobile-assets/new-dept-iks/events/e1/1.jpg"
-            },
-            {
-                title: "Exhibition and Lecture on Culture and Heritage Collaboration with: INTACH (Indian National Trust for Art and Cultural Heritage) Dates: May 20-22, 2024 Invited Guest Speaker (on 20th May): Ms. Vandana Manchanda, Director of the Architectural Heritage Division and Head-Heritage, Crafts, & Community Division at INTACH",
-                image: "mobile-assets/new-dept-iks/events/e2/1.jpg"
-            },
-            {
-                title: "Lecture Session on Abhinaya. Topic: Abhinaya - Folk Elements in Indian Cinema and Theatre Collaboration with DSW at RGU May 24, 2024 Invited Guest Speaker- Shri Pranjal Saikia - veteran actor and Sangeet Natak Akademi awardee",
-                image: "mobile-assets/new-dept-iks/events/e3/1.jpg"
-            },
-            {
-                title: "Invited Talk: Decoding India’s Temples and the Challenges of Reconstructing Them Speaker: Dr. Nachiket Chanchani, Associate Professor of South Asian Art and Visual Culture at the University of Michigan, Ann Arbor, USA Date: May 27, 2024",
-                image: "mobile-assets/new-dept-iks/events/e4/1.jpg"
-            },
-            {
-                title: "Workshop on Mask Making for World Folklore Day Date: 21st August, 2024 Invited Guests (Experts): Shri Haren Goswami, Samaguri Satra, Majuli, Assam Shri Bhaskar Jyoti Goswami, Samaguri Satra, Majuli, Assam Shri Pranab Borah, Samaguri Satra, Majuli, Assam",
-                image: "mobile-assets/new-dept-iks/events/e5/1.jpg"
-            },
-            {
-                title: "Lecture on World Folklore Day Date: 22nd August, 2024 Topic: Folk Elements: The Treasure Troves of Indian Knowledge Systems Invited Guest (Speaker): Prof. (Dr.) Sudeshna Bhattacharjya, Head Department of Sanskrit, Gauhati University & Director, ABILAC (Anundoram Borooah Institute of Language Art and Culture)",
-                image: "mobile-assets/new-dept-iks/events/e6/1.jpg"
-            },
-            {
-                title: "Lecture on Date: 22nd October, 2024 Topic: The Relevance of Indian Knowledge Systems (IKS) in Modern Times. Invited speaker: Dr. Raj Vedam, Director of Arsha Vidya Satsang, Indic Education, Houston, USA",
-                image: "mobile-assets/new-dept-iks/events/e7/1.jpg"
-            },
-            {
-                title: "Talk/event/FDP/Conference organised by IKS in 2025",
-                image: "mobile-assets/new-dept-iks/events/e8/1.jpg"
-            }
+            if (!eventGalleryContainer) return;
 
-        ];
+            /* ================= RENDER FUNCTION ================= */
+            function renderEventGallery() {
 
-        /* ================= GET CONTAINER ================= */
-        const eventGalleryContainer = document.getElementById("event-gallery-container");
-
-        if (!eventGalleryContainer) return;
-
-        /* ================= RENDER FUNCTION ================= */
-        function renderEventGallery() {
-
-            if (!eventGalleryData || eventGalleryData.length === 0) {
-                eventGalleryContainer.innerHTML = `
+                if (!eventGalleryData || eventGalleryData.length === 0) {
+                    eventGalleryContainer.innerHTML = `
                 <p style="text-align:center; color:#556b8d;">
                     No events available at the moment.
                 </p>
             `;
-                return;
-            }
+                    return;
+                }
 
-            const html = eventGalleryData.map(event => `
+                const html = eventGalleryData.map(event => `
             <div class="dept-iks-event-acc-item">
 
                 <div class="dept-iks-event-acc-header">
@@ -2003,62 +2012,62 @@
             </div>
         `).join("");
 
-            eventGalleryContainer.innerHTML = html;
-        }
+                eventGalleryContainer.innerHTML = html;
+            }
 
-        /* ================= ACCORDION LOGIC ================= */
-        function initAccordion() {
+            /* ================= ACCORDION LOGIC ================= */
+            function initAccordion() {
 
-            const items = eventGalleryContainer.querySelectorAll(".dept-iks-event-acc-item");
+                const items = eventGalleryContainer.querySelectorAll(".dept-iks-event-acc-item");
 
-            items.forEach(item => {
+                items.forEach(item => {
 
-                const header = item.querySelector(".dept-iks-event-acc-header");
-                const content = item.querySelector(".dept-iks-event-acc-content");
+                    const header = item.querySelector(".dept-iks-event-acc-header");
+                    const content = item.querySelector(".dept-iks-event-acc-content");
 
-                header.addEventListener("click", () => {
+                    header.addEventListener("click", () => {
 
-                    const isActive = item.classList.contains("active");
+                        const isActive = item.classList.contains("active");
 
-                    // Close all
-                    items.forEach(i => {
-                        i.classList.remove("active");
-                        const c = i.querySelector(".dept-iks-event-acc-content");
-                        if (c) c.style.maxHeight = 0;
+                        // Close all
+                        items.forEach(i => {
+                            i.classList.remove("active");
+                            const c = i.querySelector(".dept-iks-event-acc-content");
+                            if (c) c.style.maxHeight = 0;
+                        });
+
+                        // Open clicked (if it was closed)
+                        if (!isActive) {
+                            item.classList.add("active");
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
                     });
 
-                    // Open clicked (if it was closed)
-                    if (!isActive) {
-                        item.classList.add("active");
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }
                 });
+            }
 
+            /* ================= INIT ================= */
+            renderEventGallery();
+            initAccordion();
+
+        })();
+    </script>
+
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
+
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
             });
-        }
-
-        /* ================= INIT ================= */
-        renderEventGallery();
-        initAccordion();
-
-    })();
-</script>
-
-<script>
-    const tabs = document.querySelectorAll(".dept-achievement-tab");
-    const panes = document.querySelectorAll(".dept-achievement-pane");
-
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-
-            // remove active
-            tabs.forEach(t => t.classList.remove("active"));
-            panes.forEach(p => p.classList.remove("active"));
-
-            // add active
-            tab.classList.add("active");
-            document.getElementById(tab.dataset.tab).classList.add("active");
         });
-    });
-</script>
+    </script>
 @endsection

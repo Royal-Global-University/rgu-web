@@ -238,7 +238,7 @@
     <section class="rgu-phy-lab-body">
         <section class="rgu-phy-lab-hero">
 
-            <img src="https://www.rgu.ac/mobile-assets/rsaps-new-dept/physics/head-img.png" class="rgu-phy-lab-hero-img">
+            <img src="/mobile-assets/rsaps-new-dept/physics/head-img.png" class="rgu-phy-lab-hero-img">
 
             <div class="rgu-phy-lab-content">
                 <h2 class="rgu-phy-lab-title">Physics Lab</h2>
@@ -256,14 +256,14 @@
                 </p>
 
                 <!-- <div class="rgu-phy-lab-lablist">
-                  <h4>Lab Instruments Includes (but not limited to):</h4>
-                  <ol>
-                    <li>AutoCAD</li>
-                    <li>Revit</li>
-                    <li>Adobe Photoshop</li>
-                    <li>ArchiCAD</li>
-                  </ol>
-                </div> -->
+                      <h4>Lab Instruments Includes (but not limited to):</h4>
+                      <ol>
+                        <li>AutoCAD</li>
+                        <li>Revit</li>
+                        <li>Adobe Photoshop</li>
+                        <li>ArchiCAD</li>
+                      </ol>
+                    </div> -->
 
             </div>
         </section>

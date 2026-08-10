@@ -2,8 +2,8 @@
 @section('content')
     <style>
         /* =====================================================
-       RGU STUDENT AFFAIRS
-    ===================================================== */
+           RGU STUDENT AFFAIRS
+        ===================================================== */
 
         .rgu-std-affairs-section {
             background: #dfe4ef;
@@ -12,8 +12,8 @@
         }
 
         /* =====================================================
-       INTRO SECTION
-    ===================================================== */
+           INTRO SECTION
+        ===================================================== */
 
         .rgu-std-affairs-intro {
             display: flex;
@@ -54,8 +54,8 @@
         }
 
         /* =====================================================
-       DOCUMENTS
-    ===================================================== */
+           DOCUMENTS
+        ===================================================== */
 
         .rgu-std-affairs-doc-heading {
             color: #27467A;
@@ -104,8 +104,8 @@
         }
 
         /* =====================================================
-       FUNCTIONS SECTION
-    ===================================================== */
+           FUNCTIONS SECTION
+        ===================================================== */
 
         .rgu-std-affairs-functions {
             background: #27467A;
@@ -163,8 +163,8 @@
         }
 
         /* =====================================================
-       RESPONSIVE
-    ===================================================== */
+           RESPONSIVE
+        ===================================================== */
 
         @media(max-width:991px) {
 
@@ -278,7 +278,7 @@
             <div class="rgu-std-affairs-doc-grid">
 
 
-                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Student_Council_SOP.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Student_Council_SOP.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -286,7 +286,7 @@
                     </div>
                 </a>
 
-                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/StudentCouncil202223.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/StudentCouncil202223.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -294,8 +294,7 @@
                     </div>
                 </a>
 
-                <a target="_blank"
-                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Club-Activities-Report-2022-2023.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -303,8 +302,7 @@
                     </div>
                 </a>
 
-                <a target="_blank"
-                    href="https://www.rgu.ac/mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Club-Activities-Report-2023-2024.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -312,7 +310,7 @@
                     </div>
                 </a>
 
-                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Report-of-Cultural-Activities.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -320,7 +318,7 @@
                     </div>
                 </a>
 
-                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Report-of-Sports-Competitions.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>
@@ -328,7 +326,7 @@
                     </div>
                 </a>
 
-                <a target="_blank" href="https://www.rgu.ac/mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf"
+                <a target="_blank" href="/mobile-assets/student-affairs/Reports-of-Technical-Fests.pdf"
                     class="rgu-std-affairs-doc-card">
                     <div class="rgu-std-affairs-doc-content">
                         <i class="fa fa-file-pdf-o rgu-std-affairs-doc-icon"></i>

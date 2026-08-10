@@ -1,9 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
+    <style>
         /*=========================================================
-                MoU Introduction Section
-=========================================================*/
+                    MoU Introduction Section
+    =========================================================*/
 
         .mou-intro-section {
             padding: 90px 0 70px;
@@ -92,8 +92,8 @@
 
 
         /*=========================================================
-                MoU Content
-=========================================================*/
+                    MoU Content
+    =========================================================*/
 
         .mou-content-section {
             padding: 20px 0 70px;
@@ -168,8 +168,8 @@
 
 
         /*=========================================================
-                    Quote
-=========================================================*/
+                        Quote
+    =========================================================*/
 
         .mou-highlight-quote {
 
@@ -257,8 +257,8 @@
 
 
         /*=========================================================
-                Officials Section
-=========================================================*/
+                    Officials Section
+    =========================================================*/
 
         .mou-officials-section {
 
@@ -340,8 +340,8 @@
 
 
         /*=========================================================
-                    Hover
-=========================================================*/
+                        Hover
+    =========================================================*/
 
         .mou-content-card,
         .mou-officials-card {
@@ -363,8 +363,8 @@
 
 
         /*=========================================================
-                Tablet
-=========================================================*/
+                    Tablet
+    =========================================================*/
 
         @media (max-width:991px) {
 
@@ -446,8 +446,8 @@
 
 
         /*=========================================================
-                Mobile
-=========================================================*/
+                    Mobile
+    =========================================================*/
 
         @media (max-width:767px) {
 
@@ -563,8 +563,8 @@
 
     <style>
         /*=========================================================
-                Partnership Section (Ultra-Premium Sealed Plaque)
-        =========================================================*/
+                    Partnership Section (Ultra-Premium Sealed Plaque)
+            =========================================================*/
         /* Keyframes for Premium Animations */
         @keyframes goldShine {
             0% {
@@ -660,8 +660,8 @@
         }
 
         /*=========================================================
-                Logo Cards (Mounted Engravings)
-        =========================================================*/
+                    Logo Cards (Mounted Engravings)
+            =========================================================*/
         .mou-brand-card {
             position: relative;
             z-index: 2;
@@ -707,8 +707,8 @@
         }
 
         /*=========================================================
-                Connector
-        =========================================================*/
+                    Connector
+            =========================================================*/
         .mou-connector {
             position: relative;
             z-index: 2;
@@ -745,8 +745,8 @@
         }
 
         /*=========================================================
-                Tablet Breakpoint
-        =========================================================*/
+                    Tablet Breakpoint
+            =========================================================*/
         @media(max-width:991px) {
             .mou-partnership {
                 gap: 30px;
@@ -770,8 +770,8 @@
         }
 
         /*=========================================================
-                Mobile Breakpoint
-        =========================================================*/
+                    Mobile Breakpoint
+            =========================================================*/
         @media(max-width:767px) {
             .mou-partnership-frame {
                 padding: 12px;
@@ -803,7 +803,7 @@
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/mou/cover.png'); filter: blur(10px);">
         </div>
 
@@ -854,8 +854,7 @@
 
                             <div class="mou-brand-card">
 
-                                <img src="https://www.rgu.ac/mobile-assets/index/logo-dark.png"
-                                    alt="Royal Global University">
+                                <img src="/mobile-assets/index/logo-dark.png" alt="Royal Global University">
                             </div>
 
                         </div>
@@ -954,13 +953,13 @@
                             </p>
 
                             <!-- <ol>
-                                <li>Police personnel</li>
-                                <li>Ex-servicemen</li>
-                                <li>Defence personnel</li>
-                                <li>Families of serving uniformed personnel</li>
-                                <li>Families of martyrs and bravehearts who have made the ultimate sacrifice in service
-                                    to the nation</li>
-                            </ol> -->
+                                    <li>Police personnel</li>
+                                    <li>Ex-servicemen</li>
+                                    <li>Defence personnel</li>
+                                    <li>Families of serving uniformed personnel</li>
+                                    <li>Families of martyrs and bravehearts who have made the ultimate sacrifice in service
+                                        to the nation</li>
+                                </ol> -->
 
                             <h2 style="padding-top: 20px;">
                                 Royal Shaurya Scholarship

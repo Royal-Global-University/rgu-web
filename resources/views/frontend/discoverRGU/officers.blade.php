@@ -361,16 +361,16 @@
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "name": "The Assam Royal Global University (RGU) Officers",
-  "url": "https://www.rgu.ac/officers",
+  "url": "/officers",
   "description": "Official list of the Vice Chancellor, Chairperson Academic, Registrars, and other key administrative officers leading Royal Global University.",
-  "sameAs": "https://www.rgu.ac/",
+  "sameAs": "/",
 
   // --- Define the Vice Chancellor (Highest Executive Officer) ---
   "alumni": {
     "@type": "Person",
     "name": "Prof. (Dr.) Y.S.R. Murthy",
     "jobTitle": "Vice Chancellor",
-    "url": "https://www.rgu.ac/leadership-vicechancellor"
+    "url": "/leadership-vicechancellor"
   },
 
   // --- List all key administrative members/officers ---
@@ -379,25 +379,25 @@
       "@type": "Person",
       "name": "Prof. (Dr.) A.K. Buragohain",
       "jobTitle": "Chairperson Academic",
-      "url": "https://www.rgu.ac/leadership-chairperson-academics"
+      "url": "/leadership-chairperson-academics"
     },
     {
       "@type": "Person",
       "name": "Prof. (Dr.) Diganta Munshi",
       "jobTitle": "Registrar - Administration",
-      "url": "https://www.rgu.ac/officers-register-admin"
+      "url": "/officers-register-admin"
     },
     {
       "@type": "Person",
       "name": "Prof. Dilip Narayan Singh",
       "jobTitle": "Registrar - Academics",
-      "url": "https://www.rgu.ac/leadership-registrar"
+      "url": "/leadership-registrar"
     },
     {
       "@type": "Person",
       "name": "Mr. Shamim A. Goney",
       "jobTitle": "Registrar Office",
-      "url": "https://www.rgu.ac/officers-registrar-office" // Assuming this is the profile link for Registrar Office
+      "url": "/officers-registrar-office" // Assuming this is the profile link for Registrar Office
     },
     {
       "@type": "Person",

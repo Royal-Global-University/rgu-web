@@ -6,13 +6,15 @@
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
                 style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
-                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Physical Education and Sports (RSPES)</span></h2>
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Physical Education and Sports
+                    (RSPES)</span></h2>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Physical Education and Sports (RSPES)</span></h2>
+                Royal School of <span style="color: #FF9A1E; font-weight: 500;">Physical Education and Sports (RSPES)</span>
+            </h2>
 
         </div>
 
@@ -111,19 +113,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
+                                <img src="/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. D.N. Singh</h3>
                             <p class="card-designation">Professor, Registrar, Academics & i/c Dean, RSLISC & RSPES</p>
-                            <a href="https://www.rgu.ac/Prof-dn-singh" class="profile-link">View Profile</a>
+                            <a href="/Prof-dn-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Madhurjya Baruah.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Madhurjya Baruah.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Madhurjya Baruah</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
@@ -133,8 +134,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/abhijit-sports.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/abhijit-sports.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Abhijit Rajbongshi</h3>
                             <p class="card-designation">Sports Officer and Assistant Professor, RSPES</p>
@@ -146,12 +146,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/bijit.jpeg"
-                                    alt="Profile image">
+                                <img src="mobile-assets/updated-faculty-img/bijit.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Bijit Chakroborty</h3>
                             {{-- <p class="card-designation">Professor & Dean</p> --}}
-                            {{-- <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
+                            {{-- <a href="/faculty-prithviraj-chakraborty" class="profile-link">View
                                 Profile</a> --}}
                         </div>
                     </div>
@@ -159,8 +158,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr Hrishikesh Pathak</h3>
                             <p class="card-designation">Sports Officer</p>
@@ -172,12 +170,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/ravi.jpeg"
-                                    alt="Profile image">
+                                <img src="mobile-assets/updated-faculty-img/ravi.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ravi Verma</h3>
                             {{-- <p class="card-designation">Professor & Principal/HOD</p>
-                            <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
+                            <a href="/faculty-prithviraj-chakraborty" class="profile-link">View
                                 Profile</a> --}}
                         </div>
                     </div>

@@ -178,8 +178,8 @@
 
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
-                            <img class="faculty-bio-img"
-                                src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Benex-K-Babu.png" alt="">
+                            <img class="faculty-bio-img" src="/mobile-assets/updated-faculty-img/Mr-Benex-K-Babu.png"
+                                alt="">
                         </div>
                     </div>
 

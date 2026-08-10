@@ -6,7 +6,7 @@
 @section('meta_keywords', 'Scholarship')
 @section('content')
 
-<!-- Floating Scholarship Button -->
+    <!-- Floating Scholarship Button -->
     <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" class="rgu-floating-scholarship-btn" target="_blank">
         Apply for Scholarship
     </a>
@@ -96,8 +96,8 @@
 
 
     <!-- ==========================
-             SCHOLARSHIP & FUNDING
-        ========================== -->
+                 SCHOLARSHIP & FUNDING
+            ========================== -->
 
     <section class="rgu-sch-section">
         <div class="container">
@@ -796,7 +796,7 @@
                                             </td>
 
                                             <td>
-                                                
+
                                             </td>
 
                                         </tr>
@@ -1535,8 +1535,8 @@
 
     <style>
         /*=========================
-        SCHOLARSHIP
-        =========================*/
+            SCHOLARSHIP
+            =========================*/
 
         .rgu-sch-section {
             padding: 80px 0;
@@ -1800,11 +1800,11 @@
   "@type": "OfferCatalog",
   "name": "Royal Global University Comprehensive Scholarship List",
   "description": "Details on the Royal Merit, Royal Endowment, Royal Suraksha (Security Personnel), and Hope for Manipur (Violence Affected Families) scholarships.",
-  "url": "https://www.rgu.ac/scholarships",
+  "url": "/scholarships",
   "provider": {
     "@type": "EducationalOrganization",
     "name": "Royal Global University (RGU)",
-    "sameAs": "https://www.rgu.ac/"
+    "sameAs": "/"
   },
   "itemListElement": [
     // --- 1. ROYAL MERIT - ON ADMISSION SCHOLARSHIP (Merit-Based) ---

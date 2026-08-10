@@ -1,9 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
+    <style>
         /*=========================================================
-                Indian Navy MoU Page
-=========================================================*/
+                    Indian Navy MoU Page
+    =========================================================*/
 
         .navy-mou-section {
             position: relative;
@@ -37,8 +37,8 @@
 
 
         /*=========================================================
-                    Partnership
-=========================================================*/
+                        Partnership
+    =========================================================*/
 
         .mou-partnership {
 
@@ -61,8 +61,8 @@
 
 
         /*=========================================================
-                    Logo Cards
-=========================================================*/
+                        Logo Cards
+    =========================================================*/
 
         .mou-brand-card {
 
@@ -109,8 +109,8 @@
 
 
         /*=========================================================
-                    Connector
-=========================================================*/
+                        Connector
+    =========================================================*/
 
         .mou-connector {
 
@@ -168,8 +168,8 @@
         }
 
         /*=========================================================
-                    Header
-=========================================================*/
+                        Header
+    =========================================================*/
 
         .navy-mou-header {
 
@@ -236,8 +236,8 @@
 
 
         /*=========================================================
-                    Hero Image
-=========================================================*/
+                        Hero Image
+    =========================================================*/
 
         .navy-mou-image-card {
 
@@ -342,8 +342,8 @@
 
 
         /*=========================================================
-                Image Caption (Optional)
-=========================================================*/
+                    Image Caption (Optional)
+    =========================================================*/
 
         .navy-image-caption {
 
@@ -360,8 +360,8 @@
         }
 
         /*=========================================================
-                    Content Section
-=========================================================*/
+                        Content Section
+    =========================================================*/
 
         .navy-content-card {
 
@@ -436,8 +436,8 @@
 
 
         /*=========================================================
-                    Typography
-=========================================================*/
+                        Typography
+    =========================================================*/
 
         .navy-content-card p {
 
@@ -472,8 +472,8 @@
 
 
         /*=========================================================
-                    Quote
-=========================================================*/
+                        Quote
+    =========================================================*/
 
         .navy-highlight-quote {
 
@@ -550,8 +550,8 @@
 
 
         /*=========================================================
-                    Spacing
-=========================================================*/
+                        Spacing
+    =========================================================*/
 
         .navy-mou-section .row+.row {
 
@@ -568,8 +568,8 @@
 
 
         /*=========================================================
-                    Selection
-=========================================================*/
+                        Selection
+    =========================================================*/
 
         .navy-content-card p::selection,
         .navy-highlight-quote p::selection {
@@ -581,10 +581,10 @@
         }
     </style>
 
-     <style>
+    <style>
         /*=========================================================
-                Partnership Section (Ultra-Premium Sealed Plaque)
-        =========================================================*/
+                    Partnership Section (Ultra-Premium Sealed Plaque)
+            =========================================================*/
         /* Keyframes for Premium Animations */
         @keyframes goldShine {
             0% {
@@ -680,8 +680,8 @@
         }
 
         /*=========================================================
-                Logo Cards (Mounted Engravings)
-        =========================================================*/
+                    Logo Cards (Mounted Engravings)
+            =========================================================*/
         .mou-brand-card {
             position: relative;
             z-index: 2;
@@ -727,8 +727,8 @@
         }
 
         /*=========================================================
-                Connector
-        =========================================================*/
+                    Connector
+            =========================================================*/
         .mou-connector {
             position: relative;
             z-index: 2;
@@ -765,8 +765,8 @@
         }
 
         /*=========================================================
-                Tablet Breakpoint
-        =========================================================*/
+                    Tablet Breakpoint
+            =========================================================*/
         @media(max-width:991px) {
             .mou-partnership {
                 gap: 30px;
@@ -790,8 +790,8 @@
         }
 
         /*=========================================================
-                Mobile Breakpoint
-        =========================================================*/
+                    Mobile Breakpoint
+            =========================================================*/
         @media(max-width:767px) {
             .mou-partnership-frame {
                 padding: 12px;
@@ -823,7 +823,7 @@
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/mou/cover.png'); filter: blur(10px);">
         </div>
 
@@ -831,11 +831,12 @@
         <div class="pg-hero-overlay"></div>
 
         <div class="pg-hero-inner">
-            <h1 class="pg-hero-title"> Royal Global University Signs Landmark MoU with <br> Indian Navy to Support Wards of Defence
-                            Personnel</h1>
+            <h1 class="pg-hero-title"> Royal Global University Signs Landmark MoU with <br> Indian Navy to Support Wards of
+                Defence
+                Personnel</h1>
             <div class="pg-hero-breadcrumb">
                 MOU / Royal Global University Signs Landmark MoU with Indian Navy to Support Wards of Defence
-                            Personnel
+                Personnel
             </div>
         </div>
 
@@ -843,8 +844,8 @@
 
 
     <!-- =========================================
-        Indian Navy MoU Section
-========================================== -->
+            Indian Navy MoU Section
+    ========================================== -->
 
     <section class="navy-mou-section">
         <div class="container">
@@ -855,34 +856,33 @@
 
                     <div class="navy-mou-header">
 
-                          <div class="mou-partnership-frame">
-                        <div class="mou-partnership">
+                        <div class="mou-partnership-frame">
+                            <div class="mou-partnership">
 
-                            <div class="mou-brand-card">
-                                <img src="new-web/assets/img/mou/mou2/logo.jfif" alt="Nagaland Police">
+                                <div class="mou-brand-card">
+                                    <img src="new-web/assets/img/mou/mou2/logo.jfif" alt="Nagaland Police">
 
-                            </div>
-
-                            <div class="mou-connector">
-
-                                <span></span>
-
-                                <div class="mou-connector-icon">
-                                    <i class="fa fa-link"></i>
                                 </div>
 
-                                <span></span>
+                                <div class="mou-connector">
+
+                                    <span></span>
+
+                                    <div class="mou-connector-icon">
+                                        <i class="fa fa-link"></i>
+                                    </div>
+
+                                    <span></span>
+
+                                </div>
+
+                                <div class="mou-brand-card">
+
+                                    <img src="/mobile-assets/index/logo-dark.png" alt="Royal Global University">
+                                </div>
 
                             </div>
-
-                            <div class="mou-brand-card">
-
-                                <img src="https://www.rgu.ac/mobile-assets/index/logo-dark.png"
-                                    alt="Royal Global University">
-                            </div>
-
                         </div>
-                    </div>
 
                         <h2>
                             Royal Global University Signs Landmark MoU with Indian Navy to Support Wards of Defence
@@ -906,8 +906,7 @@
 
                     <div class="navy-mou-image-card">
 
-                        <img src="https://www.rgu.ac/mobile-assets/media-corner/2026/mou/mou-1.jpeg"
-                            alt="Indian Navy MoU">
+                        <img src="/mobile-assets/media-corner/2026/mou/mou-1.jpeg" alt="Indian Navy MoU">
 
                     </div>
 

@@ -455,7 +455,7 @@
 
                 <div class="rgu-mem-card">
                     <div class="rgu-mem-logo">
-                        <img src="https://www.rgu.ac/mobile-assets/recognition/AIU%20250px-22.svg" alt="AIU Logo">
+                        <img src="/mobile-assets/recognition/AIU%20250px-22.svg" alt="AIU Logo">
                     </div>
 
                     <div class="rgu-mem-divider"></div>
@@ -470,7 +470,7 @@
                     </div>
 
                     <div class="rgu-mem-action">
-                        <a href="https://www.rgu.ac/mobile-assets/recognition/pdf/4.pdf" class="rgu-mem-btn">APPROVAL
+                        <a href="/mobile-assets/recognition/pdf/4.pdf" class="rgu-mem-btn">APPROVAL
                             LETTER
                             <span>+</span></a>
                     </div>
@@ -478,7 +478,7 @@
 
                 <div class="rgu-mem-card">
                     <div class="rgu-mem-logo">
-                        <img src="https://www.rgu.ac/mobile-assets/ads/aip-logo.png" alt="ACU Logo">
+                        <img src="/mobile-assets/ads/aip-logo.png" alt="ACU Logo">
                     </div>
 
                     <div class="rgu-mem-divider"></div>
@@ -515,7 +515,7 @@
                     </div>
 
                     <div class="rgu-mem-action">
-                        <a href="https://www.rgu.ac/mobile-assets/recognition/pdf/5.pdf" class="rgu-mem-btn">APPROVAL LETTER
+                        <a href="/mobile-assets/recognition/pdf/5.pdf" class="rgu-mem-btn">APPROVAL LETTER
                             <span>+</span></a>
                     </div>
                 </div>
@@ -525,150 +525,150 @@
     </section>
 
     <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        // 1. Data array representing the 8 different recognitions
-        const recognitionsData = [
-            {
-                id: 0,
-                title: "Recognised By University Grants Commission (UGC)",
-                htmlContent: `
+        document.addEventListener("DOMContentLoaded", () => {
+            // 1. Data array representing the 8 different recognitions
+            const recognitionsData = [{
+                    id: 0,
+                    title: "Recognised By University Grants Commission (UGC)",
+                    htmlContent: `
                 <p>The Assam Royal Global University is a full-fledged Private University established under section 2(f) of the UGC Act and is included in the list of universities maintained by University Grants Commission with the right to confer degrees as per Section 22 of UGC Act, 1956.</p>
                 <a href="/new-web/assets/img/discover-rgu-recognition/pdf/UGC1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br><br>
                 <p>The Assam Royal Global University has fulfilled/ complied with all the criteria under Section 2f of the UGC Act, in terms of programmes, faculty, infrastructural facilities, financial viability etc. and the same has been duly accepted by UGC through its letter number F.8-30/2016(CPP-I/PU) dated 21st March 2024.</p>
                 <a href="/new-web/assets/img/discover-rgu-recognition/pdf/UGC2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/UGC.svg"
-            },
-            {
-                id: 1,
-                title: "STATE GOVERNMENT",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/UGC.svg"
+                },
+                {
+                    id: 1,
+                    title: "STATE GOVERNMENT",
+                    htmlContent: `
                 <p>The Assam Royal Global University is established by ‘The Assam Royal Global University Act’, which has been notified by Government of Assam vide notification no. LGL.12/2013/22, in the year 2013.</p>
                 <a href="/new-web/assets/img/discover-rgu-recognition/pdf/state-govt1.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br>
                 <a href="/new-web/assets/img/discover-rgu-recognition/pdf/state-govt2.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/state-govt.svg"
-            },
-            {
-                id: 2,
-                title: "APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/state-govt.svg"
+                },
+                {
+                    id: 2,
+                    title: "APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION",
+                    htmlContent: `
                 <p>B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).</p>
                 <a href="/mobile-assets/ads/AICTE EoA 26-27.PDF" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/aicte.svg"
-            },
-            {
-                id: 3,
-                title: "ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/aicte.svg"
+                },
+                {
+                    id: 3,
+                    title: "ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE",
+                    htmlContent: `
                 <p>B.Arch. programme/course is approved by Council of Architecture (COA).</p>
                 <a href="/mobile-assets/ads/Extension of Approval 2026-28.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/architecture.svg"
-            },
-            {
-                id: 4,
-                title: "LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/architecture.svg"
+                },
+                {
+                    id: 4,
+                    title: "LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA",
+                    htmlContent: `
                 <p>BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).</p>
                 <a href="/mobile-assets/pdf/BCI 2026-27.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/bar-council.svg"
-            },
-            {
-                id: 5,
-                title: "NURSING PROGRAMMES APPROVED BY ASSAM NURSES' MIDWIVES' & HEALTH VISITORS' COUNCIL",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/bar-council.svg"
+                },
+                {
+                    id: 5,
+                    title: "NURSING PROGRAMMES APPROVED BY ASSAM NURSES' MIDWIVES' & HEALTH VISITORS' COUNCIL",
+                    htmlContent: `
                 <p>B.Sc. Nursing programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC) <br> GNM programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)</p>
                 <a href="/new-web/assets/img/discover-rgu-recognition/pdf/ANMHVC.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/nurse.svg"
-            },
-            {
-                id: 6,
-                title: "D.PHARM, B.PHARM. AND M.PHARM. PROGRAMMES ARE APPROVED BY PHARMACY COUNCIL OF INDIA(PCI)",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/nurse.svg"
+                },
+                {
+                    id: 6,
+                    title: "D.PHARM, B.PHARM. AND M.PHARM. PROGRAMMES ARE APPROVED BY PHARMACY COUNCIL OF INDIA(PCI)",
+                    htmlContent: `
                 <p>D.Pharm., B.Pharm and M.Pharm Programmes are Approved by Pharmacy Council of India (PCI)</p>
                 <a href="/mobile-assets/pdf/PCI-26-27.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/pharmacy-council.svg"
-            },
-            {
-                id: 7,
-                title: "NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)",
-                htmlContent: `
+                    img: "/new-web/assets/img/discover-rgu-recognition/pharmacy-council.svg"
+                },
+                {
+                    id: 7,
+                    title: "NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)",
+                    htmlContent: `
                 <p>GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)</p>
                 <a href="mobile-assets/pdf-2027/INC%20for%20GNM%202026-27%20letter.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
                 <br>
                 <a href="/new-web/mobile-assets/pdf-2027/INC%20for%20BSN%202026-27%20letter.pdf" class="rgu-recog-btn">APPROVAL LETTER <span>+</span></a>
             `,
-                img: "/new-web/assets/img/discover-rgu-recognition/indian-nursing-council.svg"
-            }
-        ];
+                    img: "/new-web/assets/img/discover-rgu-recognition/indian-nursing-council.svg"
+                }
+            ];
 
-        const mainImg = document.getElementById("rguRecogMainImg");
-        const contentPane = document.getElementById("rguRecogContent");
-        const thumbnailsWrapper = document.getElementById("rguRecogThumbnails");
+            const mainImg = document.getElementById("rguRecogMainImg");
+            const contentPane = document.getElementById("rguRecogContent");
+            const thumbnailsWrapper = document.getElementById("rguRecogThumbnails");
 
-        // 2. Initialize Thumbnails
-        function initThumbnails() {
-            thumbnailsWrapper.innerHTML = ""; // Clear existing
+            // 2. Initialize Thumbnails
+            function initThumbnails() {
+                thumbnailsWrapper.innerHTML = ""; // Clear existing
 
-            recognitionsData.forEach((item, index) => {
-                const thumb = document.createElement("div");
-                thumb.className = `rgu-recog-thumb ${index === 0 ? "active" : ""}`;
-                thumb.dataset.index = index;
+                recognitionsData.forEach((item, index) => {
+                    const thumb = document.createElement("div");
+                    thumb.className = `rgu-recog-thumb ${index === 0 ? "active" : ""}`;
+                    thumb.dataset.index = index;
 
-                const img = document.createElement("img");
-                img.src = item.img;
-                img.alt = item.title;
+                    const img = document.createElement("img");
+                    img.src = item.img;
+                    img.alt = item.title;
 
-                thumb.appendChild(img);
+                    thumb.appendChild(img);
 
-                // Click Event for Thumbnails
-                thumb.addEventListener("click", () => {
-                    // If it's already active, do nothing
-                    if (thumb.classList.contains("active")) return;
+                    // Click Event for Thumbnails
+                    thumb.addEventListener("click", () => {
+                        // If it's already active, do nothing
+                        if (thumb.classList.contains("active")) return;
 
-                    updateDisplay(index);
+                        updateDisplay(index);
 
-                    // Update active class
-                    document.querySelectorAll(".rgu-recog-thumb").forEach(t => t.classList.remove("active"));
-                    thumb.classList.add("active");
+                        // Update active class
+                        document.querySelectorAll(".rgu-recog-thumb").forEach(t => t.classList
+                            .remove("active"));
+                        thumb.classList.add("active");
+                    });
+
+                    thumbnailsWrapper.appendChild(thumb);
                 });
+            }
 
-                thumbnailsWrapper.appendChild(thumb);
-            });
-        }
+            // 3. Update the Top Display Area with Animations
+            function updateDisplay(index) {
+                const data = recognitionsData[index];
 
-        // 3. Update the Top Display Area with Animations
-        function updateDisplay(index) {
-            const data = recognitionsData[index];
+                // Add fade-out classes
+                mainImg.classList.add("rgu-recog-fade-out");
+                contentPane.classList.add("rgu-recog-fade-out");
 
-            // Add fade-out classes
-            mainImg.classList.add("rgu-recog-fade-out");
-            contentPane.classList.add("rgu-recog-fade-out");
-
-            // Wait for fade-out to finish, then swap content and fade in
-            setTimeout(() => {
-                mainImg.src = data.img;
-                contentPane.innerHTML = `
+                // Wait for fade-out to finish, then swap content and fade in
+                setTimeout(() => {
+                    mainImg.src = data.img;
+                    contentPane.innerHTML = `
                 <h3>${data.title}</h3>
                 ${data.htmlContent}
             `;
 
-                // Remove fade-out, add fade-in
-                mainImg.classList.remove("rgu-recog-fade-out");
-                contentPane.classList.remove("rgu-recog-fade-out");
-            }, 300); // 300ms matches the CSS transition time
-        }
+                    // Remove fade-out, add fade-in
+                    mainImg.classList.remove("rgu-recog-fade-out");
+                    contentPane.classList.remove("rgu-recog-fade-out");
+                }, 300); // 300ms matches the CSS transition time
+            }
 
-        // Run initialization
-        initThumbnails();
-        updateDisplay(0); // Set initial state
-    });
-</script>
+            // Run initialization
+            initThumbnails();
+            updateDisplay(0); // Set initial state
+        });
+    </script>
 @endsection

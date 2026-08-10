@@ -30,8 +30,8 @@
         }
 
         /*=========================================================
-    TABLE WRAPPER
-    =========================================================*/
+        TABLE WRAPPER
+        =========================================================*/
 
         .international-guidelines-table-wrapper {
 
@@ -58,8 +58,8 @@
         }
 
         /*=========================================================
-    TABLE HEADER
-    =========================================================*/
+        TABLE HEADER
+        =========================================================*/
 
         .international-guidelines-table thead {
 
@@ -102,8 +102,8 @@
         }
 
         /*=========================================================
-    TABLE BODY
-    =========================================================*/
+        TABLE BODY
+        =========================================================*/
 
         .international-guidelines-table tbody td {
 
@@ -158,8 +158,8 @@
         }
 
         /*=========================================================
-    DOWNLOAD BUTTON
-    =========================================================*/
+        DOWNLOAD BUTTON
+        =========================================================*/
 
         .international-guidelines-btn {
 
@@ -210,8 +210,8 @@
         }
 
         /*=========================================================
-    SCROLLBAR
-    =========================================================*/
+        SCROLLBAR
+        =========================================================*/
 
         .table-responsive::-webkit-scrollbar {
 
@@ -234,8 +234,8 @@
         }
 
         /*=========================================================
-    TABLET
-    =========================================================*/
+        TABLET
+        =========================================================*/
 
         @media (max-width: 991px) {
 
@@ -262,8 +262,8 @@
         }
 
         /*=========================================================
-    MOBILE
-    =========================================================*/
+        MOBILE
+        =========================================================*/
 
         @media (max-width: 767px) {
 
@@ -399,8 +399,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/1.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/1.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -418,8 +417,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/2.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/2.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -437,8 +435,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/3.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/3.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -456,8 +453,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/4.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/4.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -475,8 +471,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/5.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/5.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -494,8 +489,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/6.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/6.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -513,8 +507,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/7.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/7.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -551,8 +544,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/9.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/9.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -570,8 +562,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/10.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/10.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -602,8 +593,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/international-pdf/12.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/international-pdf/12.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -621,7 +611,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/pdf/eligibility-criteria.pdf"
+                                    <a href="/mobile-assets/pdf/eligibility-criteria.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
@@ -640,7 +630,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/pdf/Medical%20&%20Allied%20Sciences.pdf"
+                                    <a href="/mobile-assets/pdf/Medical%20&%20Allied%20Sciences.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
@@ -659,7 +649,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/pdf/Science,%20Engineering%20&%20Technology.pdf"
+                                    <a href="/mobile-assets/pdf/Science,%20Engineering%20&%20Technology.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
@@ -678,7 +668,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/pdf/School%20of%20Arts,%20Design,%20Tourism%20&%20Hotel%20Mgmt.,%20Law%20Brochure%202026.pdf"
+                                    <a href="/mobile-assets/pdf/School%20of%20Arts,%20Design,%20Tourism%20&%20Hotel%20Mgmt.,%20Law%20Brochure%202026.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
@@ -697,7 +687,7 @@
 
                                 <td>
 
-                                    <a href="https://www.rgu.ac/mobile-assets/pdf/International%20Prospectus.pdf"
+                                    <a href="/mobile-assets/pdf/International%20Prospectus.pdf"
                                         class="international-guidelines-btn">
 
                                         Download
@@ -715,8 +705,7 @@
 
                                 <td>
 
-                                    <a href="/mobile-assets/pdf-2027/GPA.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/pdf-2027/GPA.pdf" class="international-guidelines-btn">
 
                                         Download
 
@@ -733,8 +722,7 @@
 
                                 <td>
 
-                                    <a href="/mobile-assets/pdf-2027/ghi.pdf"
-                                        class="international-guidelines-btn">
+                                    <a href="/mobile-assets/pdf-2027/ghi.pdf" class="international-guidelines-btn">
 
                                         Download
 

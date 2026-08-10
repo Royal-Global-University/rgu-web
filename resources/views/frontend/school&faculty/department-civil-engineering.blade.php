@@ -1103,7 +1103,12 @@
                 <h3>About <span>Department</span></h3>
 
                 <p>
-                    Civil engineering forms the backbone of modern society by enabling the planning, design, construction, and maintenance of critical infrastructure, including transportation systems, buildings, water resources, and environmental facilities. Recognizing its pivotal role in sustainable development and nation building, the Department of Civil Engineering at The Assam Royal Global University is committed to producing competent, ethical, and industry-ready professionals capable of addressing contemporary societal and infrastructural challenges.
+                    Civil engineering forms the backbone of modern society by enabling the planning, design, construction,
+                    and maintenance of critical infrastructure, including transportation systems, buildings, water
+                    resources, and environmental facilities. Recognizing its pivotal role in sustainable development and
+                    nation building, the Department of Civil Engineering at The Assam Royal Global University is committed
+                    to producing competent, ethical, and industry-ready professionals capable of addressing contemporary
+                    societal and infrastructural challenges.
                 </p>
 
 
@@ -1112,18 +1117,35 @@
 
         </div>
         <p>
-            Established in 2009, the department has evolved into a dynamic and forward-looking academic unit emphasizing theoretical rigor, practical competence, and industry relevance. The Department offers a four-year B.Tech program in Civil Engineering, two-year M.Tech programs in Structural Engineering and Water Resource Development and Management, and a doctoral program in Civil Engineering.
+            Established in 2009, the department has evolved into a dynamic and forward-looking academic unit emphasizing
+            theoretical rigor, practical competence, and industry relevance. The Department offers a four-year B.Tech
+            program in Civil Engineering, two-year M.Tech programs in Structural Engineering and Water Resource Development
+            and Management, and a doctoral program in Civil Engineering.
         </p>
         <p>
 
-The curriculum is periodically updated in line with Outcome-Based Education (OBE) principles and aligned with contemporary industry and societal needs. It integrates emerging and interdisciplinary areas such as sustainable and green construction, smart and resilient infrastructure, environmental engineering, geospatial technologies, and modern surveying practices.
+            The curriculum is periodically updated in line with Outcome-Based Education (OBE) principles and aligned with
+            contemporary industry and societal needs. It integrates emerging and interdisciplinary areas such as sustainable
+            and green construction, smart and resilient infrastructure, environmental engineering, geospatial technologies,
+            and modern surveying practices.
         </p>
         <p>
-                                Supported by a dedicated faculty of 10 experienced members with strong academic, research, and industry backgrounds, the department ensures effective teaching–learning processes, personalized mentoring, and comprehensive academic and career guidance.
-The program emphasizes experiential and outcome-based learning through laboratory experiments, field visits, design and analysis projects, internships, expert lectures, and sustained industry interactions. Students engage in projects across diverse domains, including sustainable and low-carbon concrete materials, water quality assessment of rivers in Assam, bamboo-based construction materials in collaboration with CSIR–NEIST, and geotechnical investigations including soil characterization and pile foundation design for high-rise structures in seismic-prone areas.
+            Supported by a dedicated faculty of 10 experienced members with strong academic, research, and industry
+            backgrounds, the department ensures effective teaching–learning processes, personalized mentoring, and
+            comprehensive academic and career guidance.
+            The program emphasizes experiential and outcome-based learning through laboratory experiments, field visits,
+            design and analysis projects, internships, expert lectures, and sustained industry interactions. Students engage
+            in projects across diverse domains, including sustainable and low-carbon concrete materials, water quality
+            assessment of rivers in Assam, bamboo-based construction materials in collaboration with CSIR–NEIST, and
+            geotechnical investigations including soil characterization and pile foundation design for high-rise structures
+            in seismic-prone areas.
         </p>
         <p>
-            Students also gain industrial exposure through internships at reputed organizations such as Star Cement, Public Works Department (Government of Assam), IIT Guwahati, UltraTech Cement, and Ready-Mix Concrete (RMC) plants. These initiatives equip graduates with strong technical competence, problem-solving skills, ethical awareness, teamwork abilities, and a professional outlook, preparing them for successful careers in industry, public sector organizations, consultancy, entrepreneurship, or higher studies and research.
+            Students also gain industrial exposure through internships at reputed organizations such as Star Cement, Public
+            Works Department (Government of Assam), IIT Guwahati, UltraTech Cement, and Ready-Mix Concrete (RMC) plants.
+            These initiatives equip graduates with strong technical competence, problem-solving skills, ethical awareness,
+            teamwork abilities, and a professional outlook, preparing them for successful careers in industry, public sector
+            organizations, consultancy, entrepreneurship, or higher studies and research.
         </p>
 
         <!-- vision mission  -->
@@ -1177,75 +1199,75 @@ The program emphasizes experiential and outcome-based learning through laborator
         </div>
 
         <!-- <div class="dept-civil-prospects-section" id="dept-prospects">
-              <h2 class="dept-civil-section-title">Career <span>Prospects</span></h2>
+                  <h2 class="dept-civil-section-title">Career <span>Prospects</span></h2>
 
-              <div class="dept-civil-prospects-content">
-                <p class="dept-civil-intro-text">
-                  The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-                  sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-                  strong foundation in agricultural sciences, preparing them for following careers opportunities:
-                </p>
+                  <div class="dept-civil-prospects-content">
+                    <p class="dept-civil-intro-text">
+                      The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+                      sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+                      strong foundation in agricultural sciences, preparing them for following careers opportunities:
+                    </p>
 
-                <h3 class="dept-civil-subheading">Higher Education Opportunities</h3>
-                <ol class="dept-civil-list">
-                  <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-                  </li>
-                  <li>MBA in Agribusiness Management</li>
-                  <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-                  <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-                    disciplines</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Higher Education Opportunities</h3>
+                    <ol class="dept-civil-list">
+                      <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+                      </li>
+                      <li>MBA in Agribusiness Management</li>
+                      <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+                      <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                        disciplines</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Government Sector Jobs</h3>
-                <ol class="dept-civil-list">
-                  <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-                  <li>IBPS AFO (Agricultural Field Officer)</li>
-                  <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-                  <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-                  <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Government Sector Jobs</h3>
+                    <ol class="dept-civil-list">
+                      <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+                      <li>IBPS AFO (Agricultural Field Officer)</li>
+                      <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+                      <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+                      <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Private Sector Careers</h3>
-                <ol class="dept-civil-list">
-                  <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-                  <li>Food Processing Industries</li>
-                  <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-                  <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-                  <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Private Sector Careers</h3>
+                    <ol class="dept-civil-list">
+                      <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+                      <li>Food Processing Industries</li>
+                      <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+                      <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+                      <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Research & Teaching</h3>
-                <ol class="dept-civil-list">
-                  <li>Research Assistant / Scientist – in public and private research institutions</li>
-                  <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-                  <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Research & Teaching</h3>
+                    <ol class="dept-civil-list">
+                      <li>Research Assistant / Scientist – in public and private research institutions</li>
+                      <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+                      <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Entrepreneurship & Startups</h3>
-                <ol class="dept-civil-list">
-                  <li>Organic farming, dairy, poultry, aquaculture</li>
-                  <li>Agri-tourism, greenhouse farming, vertical farming</li>
-                  <li>Processing units for spices, cereals, or fruits</li>
-                  <li>Agri-consultancy or freelance advisory services</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Entrepreneurship & Startups</h3>
+                    <ol class="dept-civil-list">
+                      <li>Organic farming, dairy, poultry, aquaculture</li>
+                      <li>Agri-tourism, greenhouse farming, vertical farming</li>
+                      <li>Processing units for spices, cereals, or fruits</li>
+                      <li>Agri-consultancy or freelance advisory services</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Jobs Abroad</h3>
-                <ol class="dept-civil-list">
-                  <li>Agricultural research, farm management, and food security projects</li>
-                  <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-                  <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Jobs Abroad</h3>
+                    <ol class="dept-civil-list">
+                      <li>Agricultural research, farm management, and food security projects</li>
+                      <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+                      <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+                    </ol>
 
-                <h3 class="dept-civil-subheading">Key Skills That Boost Career</h3>
-                <ol class="dept-civil-list">
-                  <li>Practical knowledge of farming tools and technologies</li>
-                  <li>Communication and management skills (especially in extension or agribusiness)</li>
-                  <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-                  <li>Language skills and report writing</li>
-                </ol>
+                    <h3 class="dept-civil-subheading">Key Skills That Boost Career</h3>
+                    <ol class="dept-civil-list">
+                      <li>Practical knowledge of farming tools and technologies</li>
+                      <li>Communication and management skills (especially in extension or agribusiness)</li>
+                      <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+                      <li>Language skills and report writing</li>
+                    </ol>
 
-              </div>
-            </div> -->
+                  </div>
+                </div> -->
 
         <div class="dept-civil-accordion-section" id="dept-syllabus">
             <h2 class="dept-civil-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1264,7 +1286,7 @@ The program emphasizes experiential and outcome-based learning through laborator
                     <div class="dept-civil-accordion-content">
                         <div class="dept-civil-syllabus-list">
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rset/ce/updated-syllabus/Course-structure_CE.pdf"
+                                href="/mobile-assets/department-all/rset/ce/updated-syllabus/Course-structure_CE.pdf"
                                 class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1272,8 +1294,7 @@ The program emphasizes experiential and outcome-based learning through laborator
                                 </div>
                                 <i class="fa-solid fa-download dept-civil-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="/mobile-assets/syllabus/CE/Syllabus_Civil_Engineering_2025-26.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/CE/Syllabus_Civil_Engineering_2025-26.pdf"
                                 class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1298,7 +1319,7 @@ The program emphasizes experiential and outcome-based learning through laborator
                         <div class="dept-civil-syllabus-list">
                             <a target="_blank"
                                 href="/mobile-assets/syllabus/RSET/MTech-SE-SYLLABUS-AS-ON-29.04.26-RGU-New NEP.pdf"
-                                class="dept-civil-syllabus-link" >
+                                class="dept-civil-syllabus-link">
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Structure of Syllabus -- M.Tech. SE
@@ -1331,7 +1352,7 @@ The program emphasizes experiential and outcome-based learning through laborator
 
                     <div class="dept-civil-accordion-content">
                         <div class="dept-civil-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-civil-syllabus-link" download>
+                            <a href="/phd" class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1354,8 +1375,8 @@ The program emphasizes experiential and outcome-based learning through laborator
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-                <a href="#" class="dept-civil-events-btn">View All</a>
-              </div> -->
+                    <a href="#" class="dept-civil-events-btn">View All</a>
+                  </div> -->
 
         </div>
 
@@ -1380,15 +1401,31 @@ The program emphasizes experiential and outcome-based learning through laborator
                 <h2 class="dept-civil-section-title">Our <span>Lab</span></h2>
 
                 <p class="dept-civil-lab-intro">
-                    The Department of Civil Engineering is equipped with adequate, wellmaintained laboratory that support effective teaching–learning processes, research activities, and skill development in alignment with programme outcomes and university objectives.
+                    The Department of Civil Engineering is equipped with adequate, wellmaintained laboratory that support
+                    effective teaching–learning processes, research activities, and skill development in alignment with
+                    programme outcomes and university objectives.
                     <br> <br>
-                    The Civil Engineering laboratories cater to a wide spectrum of experimental work related to cement, concrete, rocks, soils, aggregates, asphalt and other construction materials. The facilities are furnished with modern, functional, and calibrated equipment to conduct experiments as per relevant Indian and international standards, ensuring accuracy, reliability, and quality compliance.
+                    The Civil Engineering laboratories cater to a wide spectrum of experimental work related to cement,
+                    concrete, rocks, soils, aggregates, asphalt and other construction materials. The facilities are
+                    furnished with modern, functional, and calibrated equipment to conduct experiments as per relevant
+                    Indian and international standards, ensuring accuracy, reliability, and quality compliance.
                     <br> <br>
-                    The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory courses, mini projects, major projects, researchoriented activities. These facilities enable students to design, analyse, test, and simulate structural, material, geotechnical, fluid mechanics and environmental systems, thereby strengthening practical competence, analytical ability, and problemsolving skills.
+                    The laboratories are extensively utilised by undergraduate and postgraduate students for laboratory
+                    courses, mini projects, major projects, researchoriented activities. These facilities enable students to
+                    design, analyse, test, and simulate structural, material, geotechnical, fluid mechanics and
+                    environmental systems, thereby strengthening practical competence, analytical ability, and
+                    problemsolving skills.
                     <br><br>
-                    The laboratories are supported by qualified and experienced faculty and  technical staff who assist in the conduct of experiments, preparation of laboratory setups, equipment handling, and implementation of safety procedures. The department follows a systematic approach for equipment inventory management, calibration, preventive maintenance, and periodic upgradation, ensuring continuous availability and effective utilisation of resources.
+                    The laboratories are supported by qualified and experienced faculty and technical staff who assist in
+                    the conduct of experiments, preparation of laboratory setups, equipment handling, and implementation of
+                    safety procedures. The department follows a systematic approach for equipment inventory management,
+                    calibration, preventive maintenance, and periodic upgradation, ensuring continuous availability and
+                    effective utilisation of resources.
                     <br><br>
-                    Appropriate safety measures, housekeeping practices, and waste management procedures are implemented to provide a safe, clean, and conducive learning environment. Overall, the laboratory and infrastructure facilities of the Department of Civil Engineering effectively support academic delivery, research, skill development, and continuous improvement.
+                    Appropriate safety measures, housekeeping practices, and waste management procedures are implemented to
+                    provide a safe, clean, and conducive learning environment. Overall, the laboratory and infrastructure
+                    facilities of the Department of Civil Engineering effectively support academic delivery, research, skill
+                    development, and continuous improvement.
                     <br>
                 </p>
 
@@ -1398,58 +1435,58 @@ The program emphasizes experiential and outcome-based learning through laborator
                 <!-- <h2 class="dept-civil-section-title">Glimpse of <span>our Lab</span></h2> -->
 
                 <div class="dept-civil-lab-gallery">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/18.jpg"
-                        alt="Lab 18" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/19.jpg"
-                        alt="Lab 19" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/20.jpg"
-                        alt="Lab 20" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/21.jpg"
-                        alt="Lab 21" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/22.jpg"
-                        alt="Lab 22" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/23.jpg"
-                        alt="Lab 23" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/24.jpg"
-                        alt="Lab 24" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/25.jpg"
-                        alt="Lab 25" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/26.jpg"
-                        alt="Lab 26" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/27.jpg"
-                        alt="Lab 27" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/28.jpg"
-                        alt="Lab 28" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/29.jpg"
-                        alt="Lab 29" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/30.jpg"
-                        alt="Lab 30" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/31.jpg"
-                        alt="Lab 31" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/32.jpg"
-                        alt="Lab 32" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/33.jpg"
-                        alt="Lab 33" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/34.jpg"
-                        alt="Lab 34" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/35.jpg"
-                        alt="Lab 35" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/36.jpg"
-                        alt="Lab 36" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/37.jpg"
-                        alt="Lab 37" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/38.jpg"
-                        alt="Lab 38" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/39.jpg"
-                        alt="Lab 39" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/40.jpg"
-                        alt="Lab 40" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/41.jpg"
-                        alt="Lab 41" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/42.jpg"
-                        alt="Lab 42" class="dept-civil-lab-img">
-                    <img src="https://www.rgu.ac/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/43.jpg"
-                        alt="Lab 43" class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/18.jpg" alt="Lab 18"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/19.jpg" alt="Lab 19"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/20.jpg" alt="Lab 20"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/21.jpg" alt="Lab 21"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/22.jpg" alt="Lab 22"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/23.jpg" alt="Lab 23"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/24.jpg" alt="Lab 24"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/25.jpg" alt="Lab 25"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/26.jpg" alt="Lab 26"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/27.jpg" alt="Lab 27"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/28.jpg" alt="Lab 28"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/29.jpg" alt="Lab 29"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/30.jpg" alt="Lab 30"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/31.jpg" alt="Lab 31"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/32.jpg" alt="Lab 32"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/33.jpg" alt="Lab 33"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/34.jpg" alt="Lab 34"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/35.jpg" alt="Lab 35"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/36.jpg" alt="Lab 36"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/37.jpg" alt="Lab 37"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/38.jpg" alt="Lab 38"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/39.jpg" alt="Lab 39"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/40.jpg" alt="Lab 40"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/41.jpg" alt="Lab 41"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/42.jpg" alt="Lab 42"
+                        class="dept-civil-lab-img">
+                    <img src="/mobile-assets/laboratories/Civil%20Engg%20Lab%20Machines/43.jpg" alt="Lab 43"
+                        class="dept-civil-lab-img">
                 </div>
 
                 <!-- <button class="dept-civil-explore-btn">Explore</button> -->
@@ -1464,27 +1501,27 @@ The program emphasizes experiential and outcome-based learning through laborator
         const coursesData = [{
                 title: "M.Tech. CE in Water Resources Development & Management",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MTech-CE-in-Water-Resources"
+                link: "/programs-MTech-CE-in-Water-Resources"
             },
             {
                 title: "M.Tech. CAD/CDC",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MTech-CAD"
+                link: "/programs-MTech-CAD"
             },
             {
                 title: "M.Tech. CE in Structural Engineering",
                 duration: "2 years",
-                link: "https://www.rgu.ac/programs-MTech-CE-in-Structural-Engineering"
+                link: "/programs-MTech-CE-in-Structural-Engineering"
             },
             {
                 title: "B.Tech CE - Lateral Entry",
                 duration: "3 years",
-                link: "https://www.rgu.ac/programs-b-tech-lateral-entry"
+                link: "/programs-b-tech-lateral-entry"
             },
             {
                 title: "B.Tech CE",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-b-tech-ce"
+                link: "/programs-b-tech-ce"
             }
         ];
 
@@ -1643,7 +1680,8 @@ The program emphasizes experiential and outcome-based learning through laborator
                 headers: ["S.No.", "Designated Members", "Nomination"],
                 rows: [
                     ["1", "Chairperson",
-                    "Prof. Shwetambara Verma, Head of the Department, Civil Engineering, RSET"],
+                        "Prof. Shwetambara Verma, Head of the Department, Civil Engineering, RSET"
+                    ],
 
                     ["2", "Member",
                         "Prof. Diganta Munshi, Dean RSET & RSIT, Registrar (Administration), Director (IQAC)"
@@ -1678,10 +1716,10 @@ The program emphasizes experiential and outcome-based learning through laborator
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1748,21 +1786,21 @@ The program emphasizes experiential and outcome-based learning through laborator
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

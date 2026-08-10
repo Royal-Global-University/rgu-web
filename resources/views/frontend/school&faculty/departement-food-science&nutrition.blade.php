@@ -1206,9 +1206,9 @@
         </a>
 
         <!-- <a href="#dept-vision" class="dept-food-sc-float-item">
-          <i class="fa fa-bullseye"></i>
-          <span class="dept-food-sc-float-text">Vision & Mission</span>
-        </a> -->
+              <i class="fa fa-bullseye"></i>
+              <span class="dept-food-sc-float-text">Vision & Mission</span>
+            </a> -->
 
         <a href="#dept-courses" class="dept-food-sc-float-item">
             <i class="fa fa-graduation-cap"></i>
@@ -1221,9 +1221,9 @@
         </a>
 
         <!-- <a href="#dept-events" class="dept-food-sc-float-item">
-          <i class="fa fa-calendar"></i>
-          <span class="dept-food-sc-float-text">Exper lae</span>
-        </a> -->
+              <i class="fa fa-calendar"></i>
+              <span class="dept-food-sc-float-text">Exper lae</span>
+            </a> -->
 
         <a href="#dept-achievement" class="dept-food-sc-float-item">
             <i class="fa fa-trophy"></i>
@@ -1384,7 +1384,7 @@
 
                     <div class="dept-food-sc-accordion-content">
                         <div class="dept-food-sc-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-food-sc-syllabus-link" download>
+                            <a href="/phd" class="dept-food-sc-syllabus-link" download>
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1407,8 +1407,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-            <a href="#" class="dept-food-sc-events-btn">View All</a>
-          </div> -->
+                <a href="#" class="dept-food-sc-events-btn">View All</a>
+              </div> -->
 
         </div>
 
@@ -1626,25 +1626,25 @@
         const coursesData = [{
                 title: "M.Sc. – Nutrition and Dietetics",
                 duration: "2 Years",
-                link: "https://www.rgu.ac/programs-MSc-Nutrition"
+                link: "/programs-MSc-Nutrition"
             },
 
             {
                 title: "Master – Food Technology",
                 duration: "2 Years",
-                link: "https://www.rgu.ac/programme-msc-food-science"
+                link: "/programme-msc-food-science"
             },
 
             {
                 title: "B.Sc. – Nutrition and Dietetics",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programs-b-sc-nutrition&dietetics"
+                link: "/programs-b-sc-nutrition&dietetics"
             },
 
             {
                 title: "Bachelor – Food Technology",
                 duration: "4 years",
-                link: "https://www.rgu.ac/programme-bsc-food-science"
+                link: "/programme-bsc-food-science"
             }
 
         ];
@@ -1824,10 +1824,10 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                    <tr>
-                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                    </tr>
-                  `).join("")}
+                        <tr>
+                          ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                        </tr>
+                      `).join("")}
             </tbody>
           </table>
         </div>
@@ -1894,21 +1894,21 @@
         const eventGalleryData = [{
                 title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
                 ]
             },
             {
                 title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
                 images: [
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                    "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
                 ]
             }
         ];

@@ -1,13 +1,14 @@
 @extends('frontend/new-master')
 @section('title', 'Counselling cell : The Assam Royal Global University')
-@section('meta_description', 'Royal Global University empowers students through its Counselling Cell, promoting
+@section('meta_description',
+    'Royal Global University empowers students through its Counselling Cell, promoting
     emotional resilience, self-awareness, and balanced personal growth.')
 @section('meta_keywords', 'Counselling cell')
 @section('content')
     <style>
         /*==================================================
-        COUNSELLING INTRO
-==================================================*/
+            COUNSELLING INTRO
+    ==================================================*/
 
         .rgcc-intro {
 
@@ -236,8 +237,8 @@
 
     <style>
         /*==================================================
-        COUNSELLING CONTENT
-==================================================*/
+            COUNSELLING CONTENT
+    ==================================================*/
 
         .rgcc-info {
 
@@ -374,7 +375,7 @@
         }
     </style>
 
-        <section class="pg-hero">
+    <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('/new-web/assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);">
         </div>
@@ -402,7 +403,7 @@
 
                     <div class="rgcc-image">
 
-                        <img src="https://www.rgu.ac/mobile-assets/new-counselling-cell/headimg.png" alt="Counselling Cell">
+                        <img src="/mobile-assets/new-counselling-cell/headimg.png" alt="Counselling Cell">
 
                     </div>
 

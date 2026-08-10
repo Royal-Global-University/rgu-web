@@ -10,7 +10,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rishabh.jpg" alt="">
+                                    src="/mobile-assets/updated-faculty-img/Rishabh.jpg" alt="">
                             </div>
                         </div>
 
@@ -238,7 +238,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rishabh.jpg" alt="">
+                                src="/mobile-assets/updated-faculty-img/Rishabh.jpg" alt="">
                         </div>
 
                     </div>
@@ -255,8 +255,8 @@
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                      Member of Advisory Board, The Assam Royal Global University
+                    </h2> -->
 
                     </div>
 

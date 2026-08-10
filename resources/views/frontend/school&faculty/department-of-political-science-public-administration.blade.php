@@ -11,7 +11,7 @@
 
     </div>
 
-        <style>
+    <style>
         /* ================= CSS VARIABLES & RESETS ================= */
         :root {
             --primary: #2c4a7a;
@@ -1205,7 +1205,7 @@
         }
     </style>
 
-        <div class="dept-paps-floating">
+    <div class="dept-paps-floating">
         <a href="#dept-home" class="dept-paps-float-item">
             <i class="fa fa-home"></i>
             <span class="dept-paps-float-text">Home</span>
@@ -1242,9 +1242,9 @@
         </a>
 
         <!-- <a href="#dept-lab" class="dept-paps-float-item">
-            <i class="fa fa-flask"></i>
-            <span class="dept-paps-float-text">Lab</span>
-        </a> -->
+                <i class="fa fa-flask"></i>
+                <span class="dept-paps-float-text">Lab</span>
+            </a> -->
 
     </div>
 
@@ -1262,8 +1262,7 @@
         <div class="dept-paps-hero" id="dept-about">
 
             <div class="dept-paps-img">
-                <img src="/mobile-assets/pol-sc.jpeg"
-                    alt="Political Science and Public Administration">
+                <img src="/mobile-assets/pol-sc.jpeg" alt="Political Science and Public Administration">
             </div>
 
             <div class="dept-paps-content">
@@ -1339,38 +1338,38 @@
 
         <!-- vision mission  -->
         <!-- <div class="dept-paps-prospects-section" id="dept-vision">
-            <h2 class="dept-paps-section-title">Vision <span>& Mission</span></h2>
+                <h2 class="dept-paps-section-title">Vision <span>& Mission</span></h2>
 
-            <div class="dept-paps-prospects-content">
+                <div class="dept-paps-prospects-content">
 
-                <h3 class="dept-paps-subheading" style="margin-top: 0;">Our Vision</h3>
-                <ul class="dept-paps-bullet-list">
-                    <li>
-                        To cultivate outstanding fine arts education to generate well-rounded individuals whose
-                        uniqueartistic perspectives could be advantageous to global society.
-                    </li>
+                    <h3 class="dept-paps-subheading" style="margin-top: 0;">Our Vision</h3>
+                    <ul class="dept-paps-bullet-list">
+                        <li>
+                            To cultivate outstanding fine arts education to generate well-rounded individuals whose
+                            uniqueartistic perspectives could be advantageous to global society.
+                        </li>
 
-                </ul>
+                    </ul>
 
-                <h3 class="dept-paps-subheading">Our Mission</h3>
-                <ul class="dept-paps-bullet-list">
-                    <li>
-                        To empower creativity, cultivate expression, inspire innovation, fostering a dynamic community
-                        where artistic exploration thrives.
-                    </li>
-                    <li>
-                        To ignite imaginations, challenge boundaries and celebrate the diversity of human expression by
-                        cultivating visionary artists and scholars.
-                    </li>
-                    <li>
-                        To inculcate interdisciplinary collaboration and a commitment to cultural enrichment and give
-                        back leaders who will enrich the world with their creativity and critical perspectives.
-                    </li>
+                    <h3 class="dept-paps-subheading">Our Mission</h3>
+                    <ul class="dept-paps-bullet-list">
+                        <li>
+                            To empower creativity, cultivate expression, inspire innovation, fostering a dynamic community
+                            where artistic exploration thrives.
+                        </li>
+                        <li>
+                            To ignite imaginations, challenge boundaries and celebrate the diversity of human expression by
+                            cultivating visionary artists and scholars.
+                        </li>
+                        <li>
+                            To inculcate interdisciplinary collaboration and a commitment to cultural enrichment and give
+                            back leaders who will enrich the world with their creativity and critical perspectives.
+                        </li>
 
-                </ul>
+                    </ul>
 
-            </div>
-        </div> -->
+                </div>
+            </div> -->
 
         <div class="dept-paps-courses-section" id="dept-courses">
             <h2 class="dept-paps-section-title">Courses <span>Offered</span></h2>
@@ -1380,75 +1379,75 @@
         </div>
 
         <!-- <div class="dept-paps-prospects-section" id="dept-prospects">
-      <h2 class="dept-paps-section-title">Career <span>Prospects</span></h2>
+          <h2 class="dept-paps-section-title">Career <span>Prospects</span></h2>
 
-      <div class="dept-paps-prospects-content">
-        <p class="dept-paps-intro-text">
-          The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
-          sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
-          strong foundation in agricultural sciences, preparing them for following careers opportunities:
-        </p>
+          <div class="dept-paps-prospects-content">
+            <p class="dept-paps-intro-text">
+              The prospects after a B.Sc. in Civil are diverse and promising, in regard to the growing importance of
+              sustainable farming, food security, agribusiness, and research. The programme aims to equip students with a
+              strong foundation in agricultural sciences, preparing them for following careers opportunities:
+            </p>
 
-        <h3 class="dept-paps-subheading">Higher Education Opportunities</h3>
-        <ol class="dept-paps-list">
-          <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
-          </li>
-          <li>MBA in Agribusiness Management</li>
-          <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
-          <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
-            disciplines</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Higher Education Opportunities</h3>
+            <ol class="dept-paps-list">
+              <li>M.Sc. in Civil (specializations like Agronomy, Horticulture, Plant Breeding, Soil Science, etc.)
+              </li>
+              <li>MBA in Agribusiness Management</li>
+              <li>Postgraduate diplomas in fields like Agri-Extension, Food Technology, or Rural Development</li>
+              <li>International degrees: MS/M.Sc. abroad in Agricultural Sciences, Environmental Science, or related
+                disciplines</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Government Sector Jobs</h3>
-        <ol class="dept-paps-list">
-          <li>Agricultural Officer / Civil Development Officer (ADO)</li>
-          <li>IBPS AFO (Agricultural Field Officer)</li>
-          <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
-          <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
-          <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Government Sector Jobs</h3>
+            <ol class="dept-paps-list">
+              <li>Agricultural Officer / Civil Development Officer (ADO)</li>
+              <li>IBPS AFO (Agricultural Field Officer)</li>
+              <li>UPSC/State PSC exams – roles in Indian Forest Services, Rural Development, etc.</li>
+              <li>Research roles – through ICAR institutes, CSIR, or state agricultural departments</li>
+              <li>Krishi Vigyan Kendras (KVK) – extension and research-based roles</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Private Sector Careers</h3>
-        <ol class="dept-paps-list">
-          <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
-          <li>Food Processing Industries</li>
-          <li>Agri-Tech Startups – technology-based agricultural solutions</li>
-          <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
-          <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Private Sector Careers</h3>
+            <ol class="dept-paps-list">
+              <li>Agri-Input Companies – seeds, fertilizers, pesticides (roles in sales, R&amp;D, quality control)</li>
+              <li>Food Processing Industries</li>
+              <li>Agri-Tech Startups – technology-based agricultural solutions</li>
+              <li>Banking &amp; Insurance – Civil officers in banks or crop insurance companies</li>
+              <li>Export &amp; Supply Chain Management – agri-exports and logistics</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Research & Teaching</h3>
-        <ol class="dept-paps-list">
-          <li>Research Assistant / Scientist – in public and private research institutions</li>
-          <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
-          <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Research & Teaching</h3>
+            <ol class="dept-paps-list">
+              <li>Research Assistant / Scientist – in public and private research institutions</li>
+              <li>Lecturer / Professor – after completing postgraduation + NET/Ph.D.</li>
+              <li>ICAR / CSIR / DST fellowships – for research positions and Ph.D. programs</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Entrepreneurship & Startups</h3>
-        <ol class="dept-paps-list">
-          <li>Organic farming, dairy, poultry, aquaculture</li>
-          <li>Agri-tourism, greenhouse farming, vertical farming</li>
-          <li>Processing units for spices, cereals, or fruits</li>
-          <li>Agri-consultancy or freelance advisory services</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Entrepreneurship & Startups</h3>
+            <ol class="dept-paps-list">
+              <li>Organic farming, dairy, poultry, aquaculture</li>
+              <li>Agri-tourism, greenhouse farming, vertical farming</li>
+              <li>Processing units for spices, cereals, or fruits</li>
+              <li>Agri-consultancy or freelance advisory services</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Jobs Abroad</h3>
-        <ol class="dept-paps-list">
-          <li>Agricultural research, farm management, and food security projects</li>
-          <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
-          <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Jobs Abroad</h3>
+            <ol class="dept-paps-list">
+              <li>Agricultural research, farm management, and food security projects</li>
+              <li>Opportunities in countries like Canada, Australia, the USA, and Gulf countries</li>
+              <li>Roles in international organizations (FAO, CGIAR, World Bank, etc.)</li>
+            </ol>
 
-        <h3 class="dept-paps-subheading">Key Skills That Boost Career</h3>
-        <ol class="dept-paps-list">
-          <li>Practical knowledge of farming tools and technologies</li>
-          <li>Communication and management skills (especially in extension or agribusiness)</li>
-          <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
-          <li>Language skills and report writing</li>
-        </ol>
+            <h3 class="dept-paps-subheading">Key Skills That Boost Career</h3>
+            <ol class="dept-paps-list">
+              <li>Practical knowledge of farming tools and technologies</li>
+              <li>Communication and management skills (especially in extension or agribusiness)</li>
+              <li>Computer literacy – GIS, remote sensing, and data analytics in Civil</li>
+              <li>Language skills and report writing</li>
+            </ol>
 
-      </div>
-    </div> -->
+          </div>
+        </div> -->
 
         <div class="dept-paps-accordion-section" id="dept-syllabus">
             <h2 class="dept-paps-section-title">Courses Structure <span>and Syllabus</span></h2>
@@ -1469,7 +1468,7 @@
                         <div class="dept-paps-syllabus-list">
                             <h3>Political Science</h3>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/Course-structure_Pol-Sc.pdf"
+                                href="/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/Course-structure_Pol-Sc.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1478,7 +1477,7 @@
                                 <i class="fa-solid fa-download dept-paps-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-PSc-Syllabus.pdf"
+                                href="/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-PSc-Syllabus.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1487,7 +1486,7 @@
                                 <i class="fa-solid fa-download dept-paps-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-Admin-Syllabus.pdf"
+                                href="/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-Admin-Syllabus.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1497,7 +1496,7 @@
                             </a>
                             <h3>Public Administration</h3>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-public-admin/syllabus-pdf/course-structure.pdf"
+                                href="/mobile-assets/department-all/dept-public-admin/syllabus-pdf/course-structure.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1505,8 +1504,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-paps-download-icon"></i>
                             </a>
-                            <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/syllabus/RSHSS/BA%20Pub%20Admin%20Syllabus.pdf"
+                            <a target="_blank" href="/mobile-assets/syllabus/RSHSS/BA%20Pub%20Admin%20Syllabus.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1534,7 +1532,7 @@
                         <div class="dept-paps-syllabus-list">
                             <h3>Political Science</h3>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/PG-Syllabus-ma-pol.pdf"
+                                href="/mobile-assets/department-all/rshss/pol-sc/updated-syllabus/PG-Syllabus-ma-pol.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1544,7 +1542,7 @@
                             </a>
                             <h3>Public Administration</h3>
                             <a target="_blank"
-                                href="https://www.rgu.ac/mobile-assets/department-all/dept-public-admin/syllabus-pdf/ma-public-admin.pdf"
+                                href="/mobile-assets/department-all/dept-public-admin/syllabus-pdf/ma-public-admin.pdf"
                                 class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1568,7 +1566,7 @@
 
                     <div class="dept-paps-accordion-content">
                         <div class="dept-paps-syllabus-list">
-                            <a href="https://www.rgu.ac/phd" class="dept-paps-syllabus-link" download>
+                            <a href="/phd" class="dept-paps-syllabus-link" download>
                                 <div class="dept-paps-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Click to View
@@ -1593,8 +1591,8 @@
             </div>
 
             <!-- <div style="text-align:center; margin-top:30px;">
-        <a href="#" class="dept-paps-events-btn">View All</a>
-      </div> -->
+            <a href="#" class="dept-paps-events-btn">View All</a>
+          </div> -->
 
         </div>
 
@@ -1879,11 +1877,11 @@
 
         <!-- <div class="dept-paps-event-gallery-section">
 
-      <h2 class="dept-paps-section-title">Event <span>Highlights</span></h2>
+          <h2 class="dept-paps-section-title">Event <span>Highlights</span></h2>
 
-      <div id="event-gallery-container"></div>
+          <div id="event-gallery-container"></div>
 
-    </div> -->
+        </div> -->
 
         <div class="dept-paps-table-section" id="dept-committee">
 
@@ -1893,134 +1891,132 @@
 
         <!-- <div class="dept-paps-lab-section" id="dept-lab">
 
-            <div class="dept-paps-lab-container">
+                <div class="dept-paps-lab-container">
 
-                <h2 class="dept-paps-section-title">Physiotherapy <span> OPD</span></h2>
+                    <h2 class="dept-paps-section-title">Physiotherapy <span> OPD</span></h2>
 
-                <p class="dept-paps-lab-intro">
-                    The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
-                    patient. The
-                    students through OPD practicals would learn how to treat patients with physical disabilities and
-                    injuries in a
-                    range of settings including hospitals, health centres, private practices and sports clubs under the
-                    proper
-                    guidance of a specialist. The OPD is located in Block-D on the ground floor. 
-                </p>
+                    <p class="dept-paps-lab-intro">
+                        The Physiotherapy OPD is equipped with the latest equipments which are used to rehabilitate a
+                        patient. The
+                        students through OPD practicals would learn how to treat patients with physical disabilities and
+                        injuries in a
+                        range of settings including hospitals, health centres, private practices and sports clubs under the
+                        proper
+                        guidance of a specialist. The OPD is located in Block-D on the ground floor.
+                    </p>
 
-                <ol class="dept-paps-lab-list">
-                    <li>
-                        IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
-                        pain, reduce
-                        inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
-                        acts as a
-                        superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
-                        tissue
-                        repair.
-                    </li>
+                    <ol class="dept-paps-lab-list">
+                        <li>
+                            IFT and IRR lamp therapy: The IFT therapy is used for patients with chronic pain, e.g. low back
+                            pain, reduce
+                            inflammation, and accelerate tissue healing. The Infrared (IRR) radiation in physical therapy
+                            acts as a
+                            superficial heating modality (thermotherapy) to reduce pain, increase blood flow, and accelerate
+                            tissue
+                            repair.
+                        </li>
 
-                    <li>
-                        Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
-                        include reducing
-                        joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
-                        scar
-                        tissue, and treating muscle spasms.
-                    </li>
+                        <li>
+                            Ultrasound therapy: It delivers deep heat and micro-vibrations to soft tissues. Common uses
+                            include reducing
+                            joint stiffness, alleviating chronic pain, increasing localized blood circulation, breaking down
+                            scar
+                            tissue, and treating muscle spasms.
+                        </li>
 
-                    <li>
-                        Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
-                        upper trap
-                        stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
-                        stiffness, and
-                        improve upper body posture.
-                    </li>
+                        <li>
+                            Trapezius muscle stretching exercise: Trapezius muscle stretches, such as ear-to-shoulder tilts,
+                            upper trap
+                            stretches, and shoulder blade squeezes, are used to relieve tension headaches, reduce neck
+                            stiffness, and
+                            improve upper body posture.
+                        </li>
 
-                    <li>
-                        Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
-                        inflammation, and improves blood circulation.
-                    </li>
+                        <li>
+                            Cupping therapy: It relieves muscle tension, alleviates chronic pain (back, neck, knee), reduces
+                            inflammation, and improves blood circulation.
+                        </li>
 
-                    <li>
-                        Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
-                        assess range
-                        of motion (ROM), identifying limitations caused by injuries or fracture cases.
-                    </li>
+                        <li>
+                            Goniometer: A goniometer is a portable tool used in rehabilitation to measure joint angles and
+                            assess range
+                            of motion (ROM), identifying limitations caused by injuries or fracture cases.
+                        </li>
 
-                    <li>
-                        Exterior image of the Physiotherapy OPD.
-                    </li>
-                </ol>
+                        <li>
+                            Exterior image of the Physiotherapy OPD.
+                        </li>
+                    </ol>
 
 
-                 <h3 class="dept-paps-lab-heading">Our Lab Equipments</h3>
+                     <h3 class="dept-paps-lab-heading">Our Lab Equipments</h3>
 
-                <h2 class="dept-paps-section-title">Glimpse of <span>our Lab</span></h2>
+                    <h2 class="dept-paps-section-title">Glimpse of <span>our Lab</span></h2>
 
-                <div class="dept-paps-lab-gallery">
+                    <div class="dept-paps-lab-gallery">
 
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
-                        class="dept-paps-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
-                        class="dept-paps-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
-                        class="dept-paps-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
-                        class="dept-paps-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
-                        class="dept-paps-lab-img">
-                    <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
-                        class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/f.jpg" alt="Lab f"
+                            class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/a.jpg" alt="Lab a"
+                            class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/b.jpg" alt="Lab b"
+                            class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/c.jpg" alt="Lab c"
+                            class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/d.jpg" alt="Lab d"
+                            class="dept-paps-lab-img">
+                        <img src="mobile-assets/rsmas-new-dept/physiotherapy/e.jpg" alt="Lab e"
+                            class="dept-paps-lab-img">
 
+                    </div>
+
+                    <button class="dept-paps-explore-btn">Explore</button>
                 </div>
 
-                <button class="dept-paps-explore-btn">Explore</button>
-            </div>
-
-        </div> -->
+            </div> -->
 
     </div>
 
     <script>
-    // 1. Define the courses array
-    const coursesData = [
-        {
-            title: "MA Political Science",
-            duration: "2 years",
-            link: "https://www.rgu.ac/programs-MA-Political-Science"
-        },
-        {
-            title: "BA Political Science | Honours/ Honours with Research",
-            duration: "4 Years",
-            link: "https://www.rgu.ac/programs-BA-Political-Science"
-        },
-        {
-            title: "Master of Public Administration",
-            duration: "4 Years",
-            link: "https://www.rgu.ac/programs-MA-Public-Administration"
-        },
-        {
-            title: "Bachelor of Public Administration | Honours/ Honours with Research",
-            duration: "4 Years as per NEP",
-            link: "https://www.rgu.ac/programs-BA-Public-Administration"
-        }
-    ];
+        // 1. Define the courses array
+        const coursesData = [{
+                title: "MA Political Science",
+                duration: "2 years",
+                link: "/programs-MA-Political-Science"
+            },
+            {
+                title: "BA Political Science | Honours/ Honours with Research",
+                duration: "4 Years",
+                link: "/programs-BA-Political-Science"
+            },
+            {
+                title: "Master of Public Administration",
+                duration: "4 Years",
+                link: "/programs-MA-Public-Administration"
+            },
+            {
+                title: "Bachelor of Public Administration | Honours/ Honours with Research",
+                duration: "4 Years as per NEP",
+                link: "/programs-BA-Public-Administration"
+            }
+        ];
 
-    // 2. Get container
-    const courseContainer = document.getElementById('course-list-container');
+        // 2. Get container
+        const courseContainer = document.getElementById('course-list-container');
 
-    // 3. Render courses
-    if (courseContainer) {
+        // 3. Render courses
+        if (courseContainer) {
 
-        // If array is empty → show fallback
-        if (!coursesData || coursesData.length === 0) {
-            courseContainer.innerHTML = `
+            // If array is empty → show fallback
+            if (!coursesData || coursesData.length === 0) {
+                courseContainer.innerHTML = `
         <p style="text-align:center; color:#556b8d; font-size:1.1rem;">
           No courses available at the moment.
         </p>
       `;
-        }
-        else {
-            // Generate course cards
-            courseContainer.innerHTML = coursesData.map(course => `
+            } else {
+                // Generate course cards
+                courseContainer.innerHTML = coursesData.map(course => `
         <div class="dept-paps-course-card">
 
           <div class="dept-paps-course-header">
@@ -2039,149 +2035,159 @@
 
         </div>
       `).join('');
-        }
-    }
-</script>
-
-<script>
-    // --- ACCORDION LOGIC ---
-    const accordionHeaders = document.querySelectorAll('.dept-paps-accordion-header');
-
-    // Function to calculate and set the exact height for smooth transitions
-    function setAccordionHeights() {
-        const activeItems = document.querySelectorAll('.dept-paps-accordion-item.active');
-        activeItems.forEach(item => {
-            const content = item.querySelector('.dept-paps-accordion-content');
-            content.style.maxHeight = content.scrollHeight + "px";
-        });
-    }
-
-    // Initialize the open item on load
-    setAccordionHeights();
-
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function () {
-            const currentItem = this.parentElement;
-            const currentContent = currentItem.querySelector('.dept-paps-accordion-content');
-
-            // Toggle 'active' class
-            currentItem.classList.toggle('active');
-
-            // If it is now active, set max-height to its scrollHeight (actual content height)
-            if (currentItem.classList.contains('active')) {
-                currentContent.style.maxHeight = currentContent.scrollHeight + "px";
-            } else {
-                // If closed, collapse it back to 0
-                currentContent.style.maxHeight = 0;
             }
+        }
+    </script>
+
+    <script>
+        // --- ACCORDION LOGIC ---
+        const accordionHeaders = document.querySelectorAll('.dept-paps-accordion-header');
+
+        // Function to calculate and set the exact height for smooth transitions
+        function setAccordionHeights() {
+            const activeItems = document.querySelectorAll('.dept-paps-accordion-item.active');
+            activeItems.forEach(item => {
+                const content = item.querySelector('.dept-paps-accordion-content');
+                content.style.maxHeight = content.scrollHeight + "px";
+            });
+        }
+
+        // Initialize the open item on load
+        setAccordionHeights();
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const currentItem = this.parentElement;
+                const currentContent = currentItem.querySelector('.dept-paps-accordion-content');
+
+                // Toggle 'active' class
+                currentItem.classList.toggle('active');
+
+                // If it is now active, set max-height to its scrollHeight (actual content height)
+                if (currentItem.classList.contains('active')) {
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                } else {
+                    // If closed, collapse it back to 0
+                    currentContent.style.maxHeight = 0;
+                }
+            });
         });
-    });
 
-    // Recalculate heights if the window resizes (prevents text clipping on mobile)
-    window.addEventListener('resize', setAccordionHeights);
-</script>
+        // Recalculate heights if the window resizes (prevents text clipping on mobile)
+        window.addEventListener('resize', setAccordionHeights);
+    </script>
 
-<script>
-    // ================= EVENTS DATA =================
-    const eventsData = [
-        "12-01-2026 | Interactive session with faculty from Srinakharinwirot University, Bangkok, Thailand.",
-        "10-11-2025 | Student seminar on Tariff War: Economic, Political and Global Implication.",
-        "15-09-2025 | Guest lecture to commemorate the UN International Day of Democracy.",
-        "29-07-2025 | 10 years of Act East Policy: What next?",
-        "25-03-2025 | Visit to the Assam Legislative Assembly.",
-        "17-02-2025 to 19-02-2025 | Three Days Capacity Building Workshop on Research Writing & Methodology in Social Sciences.",
-        "05-02-2025 | Visit to Manali to explore various aspects of Eco-Tourism.",
-        "26-11-2024 | Inauguration of Student Magazine of Dept. of Pol. Sc & Commemorating 75th Constitution Day.",
-        "20-09-2024 | Youth Parliament.",
-        "28-08-2024 | Visit to the Assam Legislative Assembly.",
-        "20-06-2024 | The Youth Parliament 2024.",
-        "05-06-2024 | Career Counselling.",
-        "14-05-2024 | Yuvamanthan Model G20."
-    ];
-    const eventsTrack = document.getElementById("events-track");
+    <script>
+        // ================= EVENTS DATA =================
+        const eventsData = [
+            "12-01-2026 | Interactive session with faculty from Srinakharinwirot University, Bangkok, Thailand.",
+            "10-11-2025 | Student seminar on Tariff War: Economic, Political and Global Implication.",
+            "15-09-2025 | Guest lecture to commemorate the UN International Day of Democracy.",
+            "29-07-2025 | 10 years of Act East Policy: What next?",
+            "25-03-2025 | Visit to the Assam Legislative Assembly.",
+            "17-02-2025 to 19-02-2025 | Three Days Capacity Building Workshop on Research Writing & Methodology in Social Sciences.",
+            "05-02-2025 | Visit to Manali to explore various aspects of Eco-Tourism.",
+            "26-11-2024 | Inauguration of Student Magazine of Dept. of Pol. Sc & Commemorating 75th Constitution Day.",
+            "20-09-2024 | Youth Parliament.",
+            "28-08-2024 | Visit to the Assam Legislative Assembly.",
+            "20-06-2024 | The Youth Parliament 2024.",
+            "05-06-2024 | Career Counselling.",
+            "14-05-2024 | Yuvamanthan Model G20."
+        ];
+        const eventsTrack = document.getElementById("events-track");
 
-    if (eventsTrack) {
+        if (eventsTrack) {
 
-        if (!eventsData || eventsData.length === 0) {
-            eventsTrack.innerHTML = `
+            if (!eventsData || eventsData.length === 0) {
+                eventsTrack.innerHTML = `
         <p style="text-align:center; padding:20px; color:#556b8d;">
           No events available at the moment.
         </p>
       `;
-        } else {
+            } else {
 
-            const createEventHTML = (text) => `
+                const createEventHTML = (text) => `
         <div class="dept-paps-event-item">
           ${text}
         </div>
       `;
 
-            // Duplicate for seamless infinite scroll
-            const fullContent = [...eventsData, ...eventsData]
-                .map(createEventHTML)
-                .join("");
+                // Duplicate for seamless infinite scroll
+                const fullContent = [...eventsData, ...eventsData]
+                    .map(createEventHTML)
+                    .join("");
 
-            eventsTrack.innerHTML = fullContent;
-        }
-    }
-</script>
-
-<script>
-    const tableData = [
-        {
-            title: "The Board of Studies",
-            headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
-            rows: [
-                ["1", "Convener (Ex-Officio)", "Head of the Department Prof. (Dr.) Shalini Saxena,  Professor and Co-ordinator "],
-
-                ["2", "All Faculty members of the Department", "Dr. Dhiraj Borkotoky, Associate Professor "],
-                ["", "", "Dr. Y Monojit Singha, Assistant Professor"],
-                ["", "", "Dr. Krishangi Saikia, Assistant Professor"],
-                ["", "", "Dr. Baba Chandra Singha, Assistant Professor"],
-                ["", "", "Dr. Sushmita Nongmeikapam, Assistant Professor"],
-                ["", "", "Dr. Akash Singh Thakur, Assistant Professor"],
-                ["", "", "Dr. Syamkumar V, Assistant Professor"],
-                ["", "", "Dr. Rugmini Devi M, Assistant Professor"],
-                ["", "", "Ms. Tanjeela Meghboob, Assistant Professor"],
-                ["", "", "Mr. Abhinav Chaliha, Assistant Professor"],
-                ["", "", "Ms. Nikita Biswakarma, Teaching Assistant"],
-                ["3", "External Expert (Academic)- ", "Dr. Subhrajeet Konwer, Professor, GU"],
-                ["", "", "Dr. Dilip Gogoi, Associate Professor, Cotton University "],
-
-
-            ]
-        },
-        {
-            title: "The Departmental Research Committee (DRC)",
-            headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the committee"],
-            rows: [
-                ["1", "Head of the Department", "Prof (Dr) Shalini Saxena", "Professor", "Chairperson"],
-                ["2", "Two Professors, including the Dean of the School", "Prof (Dr) Surajit Chandra Mukhopadhyay", "Professor ", "Dean of RSHSS"],
-                ["", "", "Prof (Dr) Shalini Saxena", "Professor", "Member (Political Science)"],
-                ["3", "Two Associate Professors – one of them will be the member secretary", "Dr. Dhiraj K Borkotoky", "Associate Professor", "Member secretary"],
-                ["", "", "", "", ""],
-                ["4", "Two Assistant Professors holding Ph.D. degree", "Dr. Baba Chandra Singha", "Assistant Professor", "Member"],
-                ["", "", "Dr. Krishangi Saikia", "Assistant Professor", "Member"],
-                ["5", "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC", "Prof (Dr) Subhrajit Konwar", "Professor, Guwahati University", "External member"],
-                ["", "", "Prof. Pahi Saikia", "Professor", "External member"],
-                ["", "", "", "", ""],
-
-
-
-            ]
-        }
-    ];
-
-    const container = document.getElementById("table-accordion-container");
-
-    if (container) {
-
-        const createTable = (headers, rows) => {
-            if (!rows || rows.length === 0) {
-                return `<p style="color:#556b8d;">No data available</p>`;
+                eventsTrack.innerHTML = fullContent;
             }
+        }
+    </script>
 
-            return `
+    <script>
+        const tableData = [{
+                title: "The Board of Studies",
+                headers: ["S.No.", "Position In S-BOS", "Name And Designation"],
+                rows: [
+                    ["1", "Convener (Ex-Officio)",
+                        "Head of the Department Prof. (Dr.) Shalini Saxena,  Professor and Co-ordinator "
+                    ],
+
+                    ["2", "All Faculty members of the Department", "Dr. Dhiraj Borkotoky, Associate Professor "],
+                    ["", "", "Dr. Y Monojit Singha, Assistant Professor"],
+                    ["", "", "Dr. Krishangi Saikia, Assistant Professor"],
+                    ["", "", "Dr. Baba Chandra Singha, Assistant Professor"],
+                    ["", "", "Dr. Sushmita Nongmeikapam, Assistant Professor"],
+                    ["", "", "Dr. Akash Singh Thakur, Assistant Professor"],
+                    ["", "", "Dr. Syamkumar V, Assistant Professor"],
+                    ["", "", "Dr. Rugmini Devi M, Assistant Professor"],
+                    ["", "", "Ms. Tanjeela Meghboob, Assistant Professor"],
+                    ["", "", "Mr. Abhinav Chaliha, Assistant Professor"],
+                    ["", "", "Ms. Nikita Biswakarma, Teaching Assistant"],
+                    ["3", "External Expert (Academic)- ", "Dr. Subhrajeet Konwer, Professor, GU"],
+                    ["", "", "Dr. Dilip Gogoi, Associate Professor, Cotton University "],
+
+
+                ]
+            },
+            {
+                title: "The Departmental Research Committee (DRC)",
+                headers: ["S.No.", "Content", "Name of the Member", "Designation", "Designation in the committee"],
+                rows: [
+                    ["1", "Head of the Department", "Prof (Dr) Shalini Saxena", "Professor", "Chairperson"],
+                    ["2", "Two Professors, including the Dean of the School",
+                        "Prof (Dr) Surajit Chandra Mukhopadhyay", "Professor ", "Dean of RSHSS"
+                    ],
+                    ["", "", "Prof (Dr) Shalini Saxena", "Professor", "Member (Political Science)"],
+                    ["3", "Two Associate Professors – one of them will be the member secretary",
+                        "Dr. Dhiraj K Borkotoky", "Associate Professor", "Member secretary"
+                    ],
+                    ["", "", "", "", ""],
+                    ["4", "Two Assistant Professors holding Ph.D. degree", "Dr. Baba Chandra Singha",
+                        "Assistant Professor", "Member"
+                    ],
+                    ["", "", "Dr. Krishangi Saikia", "Assistant Professor", "Member"],
+                    ["5",
+                        "Three external members not below the rank of Professors, including members from an allied department, who will be nominated by the URC",
+                        "Prof (Dr) Subhrajit Konwar", "Professor, Guwahati University", "External member"
+                    ],
+                    ["", "", "Prof. Pahi Saikia", "Professor", "External member"],
+                    ["", "", "", "", ""],
+
+
+
+                ]
+            }
+        ];
+
+        const container = document.getElementById("table-accordion-container");
+
+        if (container) {
+
+            const createTable = (headers, rows) => {
+                if (!rows || rows.length === 0) {
+                    return `<p style="color:#556b8d;">No data available</p>`;
+                }
+
+                return `
         <div class="dept-paps-table-responsive">
           <table class="dept-paps-table">
             <thead>
@@ -2191,21 +2197,21 @@
             </thead>
             <tbody>
               ${rows.map(row => `
-                <tr>
-                  ${row.map(col => `<td>${col || ""}</td>`).join("")}
-                </tr>
-              `).join("")}
+                    <tr>
+                      ${row.map(col => `<td>${col || ""}</td>`).join("")}
+                    </tr>
+                  `).join("")}
             </tbody>
           </table>
         </div>
       `;
-        };
+            };
 
-        container.innerHTML = tableData.map(item => {
+            container.innerHTML = tableData.map(item => {
 
-            const isEmpty = !item.rows || item.rows.length === 0;
+                const isEmpty = !item.rows || item.rows.length === 0;
 
-            return `
+                return `
         <div class="dept-paps-table-acc ${isEmpty ? 'disabled' : ''}">
 
           <div class="dept-paps-table-header">
@@ -2219,86 +2225,85 @@
 
         </div>
       `;
-        }).join("");
-    }
+            }).join("");
+        }
 
-    /* ACCORDION (single open at a time) */
-    document.addEventListener("click", function (e) {
-        const header = e.target.closest(".dept-paps-table-header");
-        if (!header) return;
+        /* ACCORDION (single open at a time) */
+        document.addEventListener("click", function(e) {
+            const header = e.target.closest(".dept-paps-table-header");
+            if (!header) return;
 
-        const item = header.parentElement;
-        if (item.classList.contains("disabled")) return;
+            const item = header.parentElement;
+            if (item.classList.contains("disabled")) return;
 
-        const allItems = document.querySelectorAll(".dept-paps-table-acc");
+            const allItems = document.querySelectorAll(".dept-paps-table-acc");
 
-        allItems.forEach(acc => {
-            if (acc !== item) {
-                acc.classList.remove("active");
-                const content = acc.querySelector(".dept-paps-table-content");
-                const icon = acc.querySelector("i");
-                if (content) content.style.maxHeight = 0;
-                if (icon) icon.classList.replace("fa-minus", "fa-plus");
+            allItems.forEach(acc => {
+                if (acc !== item) {
+                    acc.classList.remove("active");
+                    const content = acc.querySelector(".dept-paps-table-content");
+                    const icon = acc.querySelector("i");
+                    if (content) content.style.maxHeight = 0;
+                    if (icon) icon.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+
+            const content = item.querySelector(".dept-paps-table-content");
+            const icon = header.querySelector("i");
+
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.classList.replace("fa-plus", "fa-minus");
+            } else {
+                content.style.maxHeight = 0;
+                icon.classList.replace("fa-minus", "fa-plus");
             }
         });
+    </script>
 
-        const content = item.querySelector(".dept-paps-table-content");
-        const icon = header.querySelector("i");
-
-        item.classList.toggle("active");
-
-        if (item.classList.contains("active")) {
-            content.style.maxHeight = content.scrollHeight + "px";
-            icon.classList.replace("fa-plus", "fa-minus");
-        } else {
-            content.style.maxHeight = 0;
-            icon.classList.replace("fa-minus", "fa-plus");
-        }
-    });
-</script>
-
-<script>
-    const eventGalleryData = [
-        {
-            title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
-            images: [
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/1.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/2.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/3.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/4.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/5.jpeg"
-            ]
-        },
-        {
-            title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
-            images: [
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
-                "https://www.rgu.ac/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
-            ]
-        }
-    ];
-
-    const galleryContainer = document.getElementById("event-gallery-container");
-
-    if (galleryContainer) {
-
-        galleryContainer.innerHTML = eventGalleryData.map(event => {
-
-            const images = event.images || [];
-
-            if (images.length === 0) {
-                return "";
+    <script>
+        const eventGalleryData = [{
+                title: "The Department of Civil Engineering organized an industrial site visit to the RMC plant, providing students with valuable exposure to real-time concrete production and modern construction practices.",
+                images: [
+                    "/mobile-assets/department-all/rset/ce/events/1.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/2.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/3.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/4.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/5.jpeg"
+                ]
+            },
+            {
+                title: "The Department of Civil Engineering, The Assam Royal Global University, successfully hosted an inspiring Technical Talk on “Earthquake-Induced Liquefaction: Mechanisms, Impacts, and Countermeasures for Disaster-Resilient Infrastructure” along with insights on job opportunities in Japan.",
+                images: [
+                    "/mobile-assets/department-all/rset/ce/events/e2/e21.jpeg",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e22.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e23.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e24.JPG",
+                    "/mobile-assets/department-all/rset/ce/events/e2/e25.JPG"
+                ]
             }
+        ];
 
-            // duplicate for infinite effect
-            const marqueeImages = [...images, ...images]
-                .map(img => `<img src="${img}" alt="event">`)
-                .join("");
+        const galleryContainer = document.getElementById("event-gallery-container");
 
-            return `
+        if (galleryContainer) {
+
+            galleryContainer.innerHTML = eventGalleryData.map(event => {
+
+                const images = event.images || [];
+
+                if (images.length === 0) {
+                    return "";
+                }
+
+                // duplicate for infinite effect
+                const marqueeImages = [...images, ...images]
+                    .map(img => `<img src="${img}" alt="event">`)
+                    .join("");
+
+                return `
       <div class="dept-paps-event-card">
 
         <div class="dept-paps-event-title">
@@ -2314,25 +2319,25 @@
       </div>
     `;
 
-        }).join("");
-    }
-</script>
+            }).join("");
+        }
+    </script>
 
-<script>
-    const tabs = document.querySelectorAll(".dept-achievement-tab");
-    const panes = document.querySelectorAll(".dept-achievement-pane");
+    <script>
+        const tabs = document.querySelectorAll(".dept-achievement-tab");
+        const panes = document.querySelectorAll(".dept-achievement-pane");
 
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
 
-            // remove active
-            tabs.forEach(t => t.classList.remove("active"));
-            panes.forEach(p => p.classList.remove("active"));
+                // remove active
+                tabs.forEach(t => t.classList.remove("active"));
+                panes.forEach(p => p.classList.remove("active"));
 
-            // add active
-            tab.classList.add("active");
-            document.getElementById(tab.dataset.tab).classList.add("active");
+                // add active
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
         });
-    });
-</script>
+    </script>
 @endsection

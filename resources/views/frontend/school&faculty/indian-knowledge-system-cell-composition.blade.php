@@ -131,7 +131,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Saswati Bordoloi</h3>
                                 <p class="card-designation">Co-Coordinator, IKS Cell</p>
-                                <a href="https://www.rgu.ac/faculty-saswati-bordoloi" class="profile-link">View Profile</a>
+                                <a href="/faculty-saswati-bordoloi" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -142,7 +142,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Monalisha Medhi</h3>
                                 <p class="card-designation">Faculty Member, IKS Cell</p>
-                                <a href="https://www.rgu.ac/faculty-monalisha-medhi" class="profile-link">View Profile</a>
+                                <a href="/faculty-monalisha-medhi" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -153,19 +153,19 @@
                                 </div>
                                 <h3 class="card-name">Mr. Tinku Moni Das</h3>
                                 <p class="card-designation">Faculty Member, IKS Cell</p>
-                                <a href="https://www.rgu.ac/faculty-tinku" class="profile-link">View Profile</a>
+                                <a href="/faculty-tinku" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
+                                    <img src="/mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Susmita Banerjee</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
+                                <a href="/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -177,7 +177,7 @@
                                 <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
                                 <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
                                 </p>
-                                <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
+                                <a href="/faculty-pranab-sarma" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -191,24 +191,23 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
+                                    <img src="/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
                                         alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Mr. Kadiguang Panmei</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <a href="https://www.rgu.ac/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
+                                <a href="/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Palme-Borthakur.png"
-                                        alt="Profile image">
+                                    <img src="/mobile-assets/updated-faculty-img/Palme-Borthakur.png" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Palme Borthakur</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <a href="https://www.rgu.ac/faculty-palme-borthakur" class="profile-link">View Profile</a>
+                                <a href="/faculty-palme-borthakur" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

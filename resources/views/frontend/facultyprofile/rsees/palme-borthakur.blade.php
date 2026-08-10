@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Best University in Assam, India')
-@section('meta_description', 'Dr. Palme Borthakur: Ph.D. in Geography & Assistant Professor at Royal Global University (RGU). View her qualifications, 11+ years of experience, research interests, and publications.')
+@section('meta_description', 'Dr. Palme Borthakur: Ph.D. in Geography & Assistant Professor at Royal Global University
+    (RGU). View her qualifications, 11+ years of experience, research interests, and publications.')
 @section('meta_keywords', 'RGU Job portal')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
@@ -41,8 +42,8 @@
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                      Member of Advisory Board, The Assam Royal Global University
+                    </h2> -->
 
                             <div>
 
@@ -343,8 +344,8 @@
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
+                      Member of Advisory Board, The Assam Royal Global University
+                    </h2> -->
 
                     </div>
 
@@ -621,7 +622,7 @@
   "@type": "Person",
   "name": "Dr. Palme Borthakur",
   "image": "https://www.instagram.com/palmeborthakur/?hl=en",
-  "url": "https://www.rgu.ac/faculty-palme-borthakur",
+  "url": "/faculty-palme-borthakur",
   "jobTitle": "Assistant Professor",
   "alumniOf": {
     "@type": "EducationalOrganization",
@@ -642,7 +643,7 @@
   "worksFor": {
     "@type": "EducationalOrganization",
     "name": "Royal Global University (RGU)",
-    "url": "https://www.rgu.ac/",
+    "url": "/",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Guwahati",
