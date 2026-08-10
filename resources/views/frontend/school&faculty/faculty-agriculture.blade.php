@@ -150,6 +150,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Abreeta.jpeg"
+                                    alt="Profile image of Dr. Abesh Chakraborty">
+                            </div>
+                            <h3 class="card-name">Dr. Abreeta Kalita</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/bharati-lap.jpeg"
                                     alt="Profile image of Dr. Abesh Chakraborty">
                             </div>
@@ -158,6 +170,16 @@
                             <a href="/faculty-bharati-lap" class="profile-link">View Profile</a>
 
                             </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Anthony.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. N Anthony Baite</h3>
+                            <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
 
@@ -203,16 +225,6 @@
                             <h3 class="card-name">Dr. Demsai Reang</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-demsai-reang" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Anthony.jpeg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. N Anthony Baite</h3>
-                            <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
 
