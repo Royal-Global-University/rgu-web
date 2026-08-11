@@ -467,23 +467,24 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Smrity.PNG" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Smrity Choudhury</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Mechanical Engineering</p>
+                            <a href="/faculty-smrity-choudhury" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Dr-Bishal-Podder-RSET.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Bishal Podder</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-bishal-podder" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Smrity.PNG" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Smrity Choudhury</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Mechanical Engineering</p>
-                            <a href="/faculty-smrity-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -650,6 +651,16 @@
                             <h3 class="card-name">Dr. Abhijeet Dey</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="/faculty-abhijeet-dey" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Anmol.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Anmol Basnett</h3>
+                            <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
 

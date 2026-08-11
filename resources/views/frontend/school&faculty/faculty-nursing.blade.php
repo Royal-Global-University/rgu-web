@@ -384,6 +384,16 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Praveena.png" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Praveena Singha</h3>
+                            <p class="card-designation">Lecturer/Tutor</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Prity.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Prity Rekha Talukdar</h3>
