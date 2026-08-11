@@ -335,7 +335,7 @@
                             <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
                             <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
-                                href="https://www.rgu.ac/mobile-assets/Domestic/BA-Sociology.pdf">Download
+                                href="/mobile-assets/Domestic/BA-Sociology.pdf">Download
                                 Brochure
                                 <i class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
                         </div>
@@ -399,7 +399,7 @@
 
                         <a class="mobile-para1 fw-bold"
                             style="padding: 10px 15px; background-color: #FF9A1E; color: #fff; border-radius: 10px;"
-                            href="https://www.rgu.ac/scholarship&funding">
+                            href="/scholarship&funding">
                             Click to View
                         </a>
 
@@ -422,7 +422,7 @@
                         </p>
 
                         <a target="_blank" class="mobile-headd3 fw-bold" style="color: #FF9A1E;"
-                            href="https://www.rgu.ac/how-to-apply">For more details, click to view</a>
+                            href="/how-to-apply">For more details, click to view</a>
 
 
                         <div

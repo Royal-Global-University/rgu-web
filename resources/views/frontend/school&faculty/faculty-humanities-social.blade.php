@@ -635,6 +635,7 @@
                             </div>
                             <h3 class="card-name">Dr. Diyuk Bora</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-diyuk-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -667,7 +668,7 @@
                             </div>
                             <h3 class="card-name">Dr. Rituja Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-rinreichon" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-rituja-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
