@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 11, 2026",
+            title: "RGU Celebrates International Day of the World’s Indigenous Peoples’",
+            desc: "The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme. The event was organised by the Centre for Indian Knowledge Systems in association with the Internal Quality Assurance Cell of RGU to honour and celebrate the rich indigenous knowledge systems, cultural traditions, artistic expressions and living heritage of the indigenous communities of Assam and Northeast India.",
+            img: "/mobile-assets/media-corner/2026/aug/2.jpeg",
+            link: "/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples",
+        },
+        {
             date: "Guwahati, August 4, 2026",
             title: "Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’",
             desc: "The Royal School of Fashion Design and Technology (RSFT) at The Assam Royal Global University (RGU) on Tuesday launched the second edition of its annual lookbook, Threads of Tomorrow–2026, showcasing the creative work of its graduating batch. The University also inaugurated a new fashion studio, The Design Atelier, during the programme.",

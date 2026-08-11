@@ -3276,6 +3276,9 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+Route::get('/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples', function () {
+    return view('frontend/media-corner/2026/aug/news4');
+})->name('rgu-celebrates-international-day-of-the-worlds-indigenous-peoples');
 
 Route::get('/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice', function () {
     return view('frontend/media-corner/2026/aug/news3');
