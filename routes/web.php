@@ -5168,6 +5168,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-hirok-jyoti', function () {
+    return view('frontend/facultyprofile/rshss/hirok-jyoti');
+})->name('faculty-hirok-jyoti');
+
 Route::get('/faculty-rituja-baruah', function () {
     return view('frontend/facultyprofile/rshss/rituja-baruah');
 })->name('faculty-rituja-baruah');

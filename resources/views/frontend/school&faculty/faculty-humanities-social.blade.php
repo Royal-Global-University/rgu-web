@@ -646,7 +646,7 @@
                             </div>
                             <h3 class="card-name">Dr. Hirok Jyoti Ray</h3>
                             <p class="card-designation">Assistant Professor</p>
-
+                            <a href="/faculty-hirok-jyoti" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
