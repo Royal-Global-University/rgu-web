@@ -1006,6 +1006,7 @@
                             </div>
                             <h3 class="card-name">Dr. Rituparna Dey</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-rituparna-dey" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

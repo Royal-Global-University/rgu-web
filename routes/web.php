@@ -5168,6 +5168,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-rituparna-dey', function () {
+    return view('frontend/facultyprofile/rshss/rituparna-dey');
+})->name('faculty-rituparna-dey');
+
 Route::get('/faculty-hirok-jyoti', function () {
     return view('frontend/facultyprofile/rshss/hirok-jyoti');
 })->name('faculty-hirok-jyoti');
@@ -5605,6 +5609,10 @@ Route::get('/history-events', function () {
 })->name('history-events');
 
 
+
+Route::get('/faculty-tanushree-paul', function () {
+    return view('frontend/facultyprofile/rsmas/tanushree-paul');
+})->name('faculty-tanushree-paul');
 
 Route::get('/program-msc-emergency-critical-care', function () {
     return view('frontend/programmes/rsmas/program-msc-emergency-critical');
