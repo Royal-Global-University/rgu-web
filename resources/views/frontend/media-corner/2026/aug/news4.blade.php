@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Robo Dog draws Nation-wide Attention with ‘Assam Needs You’ for Flood Victims')
+@section('title', 'RGU Celebrates International Day of the World’s Indigenous Peoples')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

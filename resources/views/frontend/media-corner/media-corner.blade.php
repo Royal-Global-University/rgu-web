@@ -47,6 +47,36 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 12, 2026:',
+                            'link' => '/rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading',
+                            'image' => '/mobile-assets/media-corner/2026/aug/1file/1.jpeg',
+                            'content' => 'On the occasion of Librarian’s Day, The Assam Royal University (RGU) organised a special programme titled “Walk to the Library” on Wednesday, August 12, with the objective of inspiring and enthusing the university fraternity to embrace reading as an integral part of academic and personal life.',
+                        ],
+                        [
+                            'title' =>
+                                'RGU Celebrates International Day of the World’s Indigenous Peoples’',
+                            'summary' =>
+                                'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',
+                            'date' => 'Guwahati, August 11, 2026:',
+                            'link' => '/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples',
+                            'image' => '/mobile-assets/media-corner/2026/aug/2.jpeg',
+                            'content' => 'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme...',
+                        ],
+                        [
+                            'title' =>
+                                'RGU Celebrates International Day of the World’s Indigenous Peoples’',
+                            'summary' =>
+                                'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',
+                            'date' => 'Guwahati, August 11, 2026:',
+                            'link' => '/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples',
+                            'image' => '/mobile-assets/media-corner/2026/aug/2.jpeg',
+                            'content' => 'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme...',
+                        ],
+                        [
+                            'title' =>
                                 'RGU Celebrates International Day of the World’s Indigenous Peoples’',
                             'summary' =>
                                 'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',

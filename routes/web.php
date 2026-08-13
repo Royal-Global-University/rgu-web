@@ -3276,6 +3276,10 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+Route::get('/rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading', function () {
+    return view('frontend/media-corner/2026/aug/news5');
+})->name('rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading');
+
 Route::get('/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples', function () {
     return view('frontend/media-corner/2026/aug/news4');
 })->name('rgu-celebrates-international-day-of-the-worlds-indigenous-peoples');
@@ -5607,8 +5611,6 @@ Route::get('/sociology-events', function () {
 Route::get('/history-events', function () {
     return view('frontend/school&faculty/history-events');
 })->name('history-events');
-
-
 
 Route::get('/faculty-tanushree-paul', function () {
     return view('frontend/facultyprofile/rsmas/tanushree-paul');

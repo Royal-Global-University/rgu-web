@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 12, 2026",
+            title: "RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading",
+            desc: "On the occasion of Librarian’s Day, The Assam Royal University (RGU) organised a special programme titled “Walk to the Library” on Wednesday, August 12, with the objective of inspiring and enthusing the university fraternity to embrace reading as an integral part of academic and personal life.",
+            img: "/mobile-assets/media-corner/2026/aug/1file/1.jpeg",
+            link: "/rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading",
+        },
+        {
             date: "Guwahati, August 11, 2026",
             title: "RGU Celebrates International Day of the World’s Indigenous Peoples’",
             desc: "The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme. The event was organised by the Centre for Indian Knowledge Systems in association with the Internal Quality Assurance Cell of RGU to honour and celebrate the rich indigenous knowledge systems, cultural traditions, artistic expressions and living heritage of the indigenous communities of Assam and Northeast India.",
