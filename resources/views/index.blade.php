@@ -24,7 +24,7 @@
         </div>
     </section>
 
-    {{-- <section>
+    <section>
         <section class="rgu-custom-slider-section pt-3 pb-3">
 
             <div class="rgu-custom-slider-wrapper">
@@ -33,10 +33,10 @@
                 <div class="rgu-custom-slide rgu-custom-slide-active">
                     <picture>
                         <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/m-1.jpeg">
+                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/con-mob1.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/1.jpeg" alt="Slider Image 1">
+                        <img src="/new-web/assets/convo-six-desktop/new/con-dek1.jpeg" alt="Slider Image 1">
                     </picture>
                 </div>
 
@@ -47,7 +47,7 @@
                         <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/m-2.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/2.jpeg" alt="Slider Image 2">
+                        <img src="/new-web/assets/convo-six-desktop/new/1.jpeg" alt="Slider Image 2">
                     </picture>
                 </div>
 
@@ -173,7 +173,7 @@
 
             })();
         </script>
-    </section> --}}
+    </section>
 
     <section class="about-rgu">
         <picture>
