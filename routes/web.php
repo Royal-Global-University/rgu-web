@@ -770,6 +770,10 @@ Route::get('/bhupen-hazarika-CFC', function () {
 
 //placements Life
 
+Route::get('/placements-job-fairs', function () {
+    return view('frontend/placement/placement-jobfairs');
+})->name('placements-job-fairs');
+
 Route::get('/placements-members', function () {
     return view('frontend/placement/placements-members');
 })->name('placements-members');

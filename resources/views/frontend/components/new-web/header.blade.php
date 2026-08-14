@@ -403,6 +403,7 @@
                                     Available</a>
                                 <a href="/placements-process" class="m-sub-acc-link">Placement
                                     Process</a>
+                                <a href="/placements-job-fairs" class="m-sub-acc-link">Job Fairs</a>
                                 <a href="/placements-events" class="m-sub-acc-link">RCCR Events</a>
                                 <a href="/top-recruiters" class="m-sub-acc-link">Recruiters</a>
                                 <a href="/success" class="m-sub-acc-link">Testimonial</a>
@@ -838,6 +839,7 @@
                     <li><a href="/placements-activities">Activities Undertaken</a></li>
                     <li><a href="/placements-facilities">Facilities Available</a></li>
                     <li><a href="/placements-process">Placement Process</a></li>
+                    <li><a href="/placements-job-fairs">Job Fairs</a></li>
                     <li><a href="/placements-events">RCCR Events</a></li>
                     <li><a href="/top-recruiters">Recruiters</a></li>
                     <li><a href="/success">Testimonial</a></li>
