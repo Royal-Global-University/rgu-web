@@ -169,7 +169,7 @@
                 }
 
                 /* Change image every 2 seconds */
-                setInterval(rguCustomChangeSlide, 5000);
+                setInterval(rguCustomChangeSlide, 6000);
 
             })();
         </script>
