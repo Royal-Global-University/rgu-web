@@ -24,6 +24,157 @@
         </div>
     </section>
 
+    <section>
+        <section class="rgu-custom-slider-section pt-3 pb-3">
+
+            <div class="rgu-custom-slider-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="rgu-custom-slide rgu-custom-slide-active">
+                    <picture>
+                        <!-- Mobile Image -->
+                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/m-1.jpeg">
+
+                        <!-- Desktop Image -->
+                        <img src="/new-web/assets/convo-six-desktop/new/1.jpeg" alt="Slider Image 1">
+                    </picture>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="rgu-custom-slide">
+                    <picture>
+                        <!-- Mobile Image -->
+                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/m-2.jpeg">
+
+                        <!-- Desktop Image -->
+                        <img src="/new-web/assets/convo-six-desktop/new/2.jpeg" alt="Slider Image 2">
+                    </picture>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <style>
+            /* =========================================
+       RGU CUSTOM IMAGE SLIDER - CSS
+    ========================================= */
+
+            .rgu-custom-slider-section {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .rgu-custom-slider-wrapper {
+                position: relative;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+
+            .rgu-custom-slide {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                width: 100%;
+                height: 100%;
+
+                opacity: 0;
+                visibility: hidden;
+
+                transition: opacity 0.7s ease-in-out;
+
+                z-index: 1;
+            }
+
+            .rgu-custom-slide-active {
+                position: relative;
+
+                opacity: 1;
+                visibility: visible;
+
+                z-index: 2;
+            }
+
+            .rgu-custom-slide picture {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            .rgu-custom-slide img {
+                display: block;
+
+                width: 100%;
+                height: auto;
+
+                object-fit: cover;
+            }
+
+
+            /* =========================================
+       MOBILE
+    ========================================= */
+
+            @media (max-width: 767px) {
+
+                .rgu-custom-slider-wrapper {
+                    width: 100%;
+                }
+
+                .rgu-custom-slide img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+
+            }
+        </style>
+
+
+        <script>
+            /* =========================================
+               RGU CUSTOM IMAGE SLIDER - JAVASCRIPT
+            ========================================= */
+
+            (function() {
+
+                const rguCustomSlides = document.querySelectorAll(
+                    '.rgu-custom-slide'
+                );
+
+                let rguCustomCurrentSlide = 0;
+
+                function rguCustomChangeSlide() {
+
+                    /* Remove active class from current slide */
+                    rguCustomSlides[rguCustomCurrentSlide]
+                        .classList.remove('rgu-custom-slide-active');
+
+                    /* Move to next slide */
+                    rguCustomCurrentSlide++;
+
+                    /* Restart from first slide */
+                    if (rguCustomCurrentSlide >= rguCustomSlides.length) {
+                        rguCustomCurrentSlide = 0;
+                    }
+
+                    /* Activate next slide */
+                    rguCustomSlides[rguCustomCurrentSlide]
+                        .classList.add('rgu-custom-slide-active');
+                }
+
+                /* Change image every 2 seconds */
+                setInterval(rguCustomChangeSlide, 5000);
+
+            })();
+        </script>
+    </section>
+
     <section class="about-rgu">
         <picture>
             <!-- Mobile Image -->
@@ -117,10 +268,10 @@
                         <div class="int-card">
 
                             <div class="int-card-slider">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic1.jpg" class="active">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic2.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic3.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news1/pic4.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic1.jpg" class="active">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic2.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic3.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news1/pic4.jpg">
                             </div>
 
                             <div class="int-card-content">
@@ -140,24 +291,24 @@
                         <div class="int-card">
 
                             <div class="int-card-slider">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/1.jpg" class="active">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/2.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/3.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/4.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/5.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/6.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/7.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/8.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/9.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/10.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/11.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/12.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/13.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/14.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/15.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/16.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/17.jpg">
-                                <img src="/new-web/new-web/assets/img/index/international-news/news2/18.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/1.jpg" class="active">
+                                <img src="/new-web/assets/img/index/international-news/news2/2.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/3.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/4.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/5.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/6.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/7.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/8.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/9.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/10.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/11.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/12.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/13.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/14.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/15.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/16.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/17.jpg">
+                                <img src="/new-web/assets/img/index/international-news/news2/18.jpg">
                             </div>
 
                             <div class="int-card-content">
@@ -184,25 +335,25 @@
                     <!-- SLIDE 2 -->
                     <!-- <div class="int-slide">
 
-                                                <div class="int-card">
-                                                    <img src="new-web/assets/img/index/international-news/news3/1.jpg">
-                                                    <div class="int-card-content">
-                                                        <h4>UK Collaboration</h4>
-                                                        <p>International research tie-up</p>
-                                                        <a href="#" class="int-readmore">Read More →</a>
+                                                    <div class="int-card">
+                                                        <img src="new-web/assets/img/index/international-news/news3/1.jpg">
+                                                        <div class="int-card-content">
+                                                            <h4>UK Collaboration</h4>
+                                                            <p>International research tie-up</p>
+                                                            <a href="#" class="int-readmore">Read More →</a>
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div class="int-card">
-                                                    <img src="new-web/assets/img/index/international-news/news4/1.jpg">
-                                                    <div class="int-card-content">
-                                                        <h4>Global Conference</h4>
-                                                        <p>Student participation abroad</p>
-                                                        <a href="#" class="int-readmore">Read More →</a>
+                                                    <div class="int-card">
+                                                        <img src="new-web/assets/img/index/international-news/news4/1.jpg">
+                                                        <div class="int-card-content">
+                                                            <h4>Global Conference</h4>
+                                                            <p>Student participation abroad</p>
+                                                            <a href="#" class="int-readmore">Read More →</a>
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                            </div> -->
+                                                </div> -->
 
                 </div>
             </div>
@@ -306,15 +457,12 @@
         </div>
     </section>
 
-    <section class="dksh-section">
+    {{-- <section class="dksh-section">
 
-    <!-- IMAGE TITLE -->
     <div class="dksh-title-wrap">
         <img src="new-web/assets/img/diksharambh/heading2.png" alt="Diksharambh" class="dksh-title-image">
     </div>
 
-
-    <!-- MARQUEE -->
     <div class="dksh-marquee">
 
         <div class="dksh-track">
@@ -419,245 +567,245 @@
 
         </div>
 
-    </div>
+    </div> --}}
 
-</section>
-
-
-<style>
-    /* =========================================
-   MAIN SECTION
-========================================= */
-
-    .dksh-section {
-        width: 100%;
-        background: url(new-web/assets/img/diksharambh/bg.png);
-        background-size: cover;
-        padding: 65px 0 80px;
-        overflow: hidden;
-        box-sizing: border-box;
-    }
+    </section>
 
 
-    /* =========================================
-   TITLE IMAGE
-========================================= */
-
-    .dksh-title-wrap {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        padding: 0 20px;
-        margin-bottom: 45px;
-
-        box-sizing: border-box;
-    }
-
-    .dksh-title-image {
-        display: block;
-
-        /* Change this to control title size */
-        width: min(500px, 75vw);
-
-        height: auto;
-        max-width: 100%;
-
-        object-fit: contain;
-    }
-
-
-    /* =========================================
-   MARQUEE
-========================================= */
-
-    .dksh-marquee {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-
-    /* Moving Track */
-
-    .dksh-track {
-        display: flex;
-        align-items: stretch;
-
-        gap: 24px;
-
-        width: max-content;
-
-        animation: dksh-marquee-animation 35s linear infinite;
-
-        will-change: transform;
-    }
-
-
-    /* =========================================
-   9:16 IMAGE CARDS
-========================================= */
-
-    .dksh-card {
-        position: relative;
-
-        width: clamp(220px, 17vw, 310px);
-
-        /* 9:16 Portrait Ratio */
-        aspect-ratio: 9 / 16;
-
-        flex: 0 0 auto;
-
-        overflow: hidden;
-
-        border-radius: 24px;
-
-        background: #eeeeee;
-    }
-
-
-    /* Image */
-
-    .dksh-card img {
-        width: 100%;
-        height: 100%;
-
-        display: block;
-
-        object-fit: cover;
-
-        transition: transform 0.6s ease;
-    }
-
-
-    /* =========================================
-   SUBTLE BOTTOM GRADIENT
-========================================= */
-
-    .dksh-card::after {
-        content: "";
-
-        position: absolute;
-        inset: 0;
-
-        background: linear-gradient(to bottom,
-                transparent 55%,
-                rgba(7, 22, 48, 0.08) 72%,
-                rgba(7, 22, 48, 0.32) 100%);
-
-        pointer-events: none;
-    }
-
-
-    /* =========================================
-   IMAGE HOVER
-========================================= */
-
-    .dksh-card:hover img {
-        transform: scale(1.04);
-    }
-
-
-    /* Pause animation when mouse is over marquee */
-
-    .dksh-marquee:hover .dksh-track {
-        animation-play-state: paused;
-    }
-
-
-    /* =========================================
-   INFINITE MARQUEE ANIMATION
-========================================= */
-
-    @keyframes dksh-marquee-animation {
-
-        from {
-            transform: translateX(0);
-        }
-
-        to {
-            transform: translateX(calc(-50% - 12px));
-        }
-
-    }
-
-
-    /* =========================================
-   TABLET
-========================================= */
-
-    @media (max-width: 991px) {
+    <style>
+        /* =========================================
+       MAIN SECTION
+    ========================================= */
 
         .dksh-section {
-            padding: 55px 0 65px;
+            width: 100%;
+            background: url(new-web/assets/img/diksharambh/bg.png);
+            background-size: cover;
+            padding: 65px 0 80px;
+            overflow: hidden;
+            box-sizing: border-box;
         }
+
+
+        /* =========================================
+       TITLE IMAGE
+    ========================================= */
 
         .dksh-title-wrap {
-            margin-bottom: 35px;
-        }
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        .dksh-title-image {
-            width: min(420px, 70vw);
-        }
-
-        .dksh-track {
-            gap: 18px;
-            animation-duration: 30s;
-        }
-
-        .dksh-card {
-            width: 230px;
-            border-radius: 20px;
-        }
-
-    }
-
-
-    /* =========================================
-   MOBILE
-========================================= */
-
-    @media (max-width: 576px) {
-
-        .dksh-section {
-            padding: 40px 0 50px;
-        }
-
-        .dksh-title-wrap {
             padding: 0 20px;
-            margin-bottom: 30px;
+            margin-bottom: 45px;
+
+            box-sizing: border-box;
         }
 
         .dksh-title-image {
-            width: min(320px, 75vw);
+            display: block;
+
+            /* Change this to control title size */
+            width: min(500px, 75vw);
+
+            height: auto;
+            max-width: 100%;
+
+            object-fit: contain;
         }
 
-        .dksh-track {
-            gap: 14px;
-            animation-duration: 25s;
+
+        /* =========================================
+       MARQUEE
+    ========================================= */
+
+        .dksh-marquee {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
         }
+
+
+        /* Moving Track */
+
+        .dksh-track {
+            display: flex;
+            align-items: stretch;
+
+            gap: 24px;
+
+            width: max-content;
+
+            animation: dksh-marquee-animation 35s linear infinite;
+
+            will-change: transform;
+        }
+
+
+        /* =========================================
+       9:16 IMAGE CARDS
+    ========================================= */
 
         .dksh-card {
-            width: 180px;
-            border-radius: 17px;
+            position: relative;
+
+            width: clamp(220px, 17vw, 310px);
+
+            /* 9:16 Portrait Ratio */
+            aspect-ratio: 9 / 16;
+
+            flex: 0 0 auto;
+
+            overflow: hidden;
+
+            border-radius: 24px;
+
+            background: #eeeeee;
         }
 
-    }
+
+        /* Image */
+
+        .dksh-card img {
+            width: 100%;
+            height: 100%;
+
+            display: block;
+
+            object-fit: cover;
+
+            transition: transform 0.6s ease;
+        }
 
 
-    /* =========================================
-   ACCESSIBILITY
-========================================= */
+        /* =========================================
+       SUBTLE BOTTOM GRADIENT
+    ========================================= */
 
-    @media (prefers-reduced-motion: reduce) {
+        .dksh-card::after {
+            content: "";
 
-        .dksh-track {
+            position: absolute;
+            inset: 0;
+
+            background: linear-gradient(to bottom,
+                    transparent 55%,
+                    rgba(7, 22, 48, 0.08) 72%,
+                    rgba(7, 22, 48, 0.32) 100%);
+
+            pointer-events: none;
+        }
+
+
+        /* =========================================
+       IMAGE HOVER
+    ========================================= */
+
+        .dksh-card:hover img {
+            transform: scale(1.04);
+        }
+
+
+        /* Pause animation when mouse is over marquee */
+
+        .dksh-marquee:hover .dksh-track {
             animation-play-state: paused;
         }
 
-    }
-</style>
+
+        /* =========================================
+       INFINITE MARQUEE ANIMATION
+    ========================================= */
+
+        @keyframes dksh-marquee-animation {
+
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(calc(-50% - 12px));
+            }
+
+        }
+
+
+        /* =========================================
+       TABLET
+    ========================================= */
+
+        @media (max-width: 991px) {
+
+            .dksh-section {
+                padding: 55px 0 65px;
+            }
+
+            .dksh-title-wrap {
+                margin-bottom: 35px;
+            }
+
+            .dksh-title-image {
+                width: min(420px, 70vw);
+            }
+
+            .dksh-track {
+                gap: 18px;
+                animation-duration: 30s;
+            }
+
+            .dksh-card {
+                width: 230px;
+                border-radius: 20px;
+            }
+
+        }
+
+
+        /* =========================================
+       MOBILE
+    ========================================= */
+
+        @media (max-width: 576px) {
+
+            .dksh-section {
+                padding: 40px 0 50px;
+            }
+
+            .dksh-title-wrap {
+                padding: 0 20px;
+                margin-bottom: 30px;
+            }
+
+            .dksh-title-image {
+                width: min(320px, 75vw);
+            }
+
+            .dksh-track {
+                gap: 14px;
+                animation-duration: 25s;
+            }
+
+            .dksh-card {
+                width: 180px;
+                border-radius: 17px;
+            }
+
+        }
+
+
+        /* =========================================
+       ACCESSIBILITY
+    ========================================= */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .dksh-track {
+                animation-play-state: paused;
+            }
+
+        }
+    </style>
 
     <section class="rgu-next-events">
 
@@ -909,7 +1057,7 @@
             <!-- TOP 2 IMAGES -->
             <div class="rgu-research-top">
                 <div class="rgu-research-img">
-                    <img src="/new-web/new-web/assets/img/index/research/new-research-facts.svg" alt="">
+                    <img src="/new-web/assets/img/index/research/new-research-facts.svg" alt="">
                 </div>
                 <div class="rgu-research-img">
                     <img src="mobile-assets/research-development-new/ecosystem/center.png" alt="">
