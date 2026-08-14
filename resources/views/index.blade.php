@@ -25,30 +25,73 @@
     </section>
 
     <section>
-        <section class="rgu-custom-slider-section pt-3 pb-3">
+        <section class="rgu-custom-slider-section">
 
             <div class="rgu-custom-slider-wrapper">
 
-                <!-- Slide 1 -->
+                <!-- ==============================
+             SLIDE 1
+        =============================== -->
                 <div class="rgu-custom-slide rgu-custom-slide-active">
-                    <picture>
-                        <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/con-mob1.jpeg">
 
-                        <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/con-dek1.jpeg" alt="Slider Image 1">
-                    </picture>
+                    <a href="YOUR-LINK-HERE" class="rgu-custom-slide-link" aria-label="Convocation">
+
+                        <picture>
+                            <!-- Mobile Image -->
+                            <source media="(max-width: 767px)"
+                                srcset="/new-web/assets/convo-six-desktop/new/connmob-1.jpeg">
+
+                            <!-- Desktop Image -->
+                            <img src="/new-web/assets/convo-six-desktop/new/connweb-1.jpeg" alt="6th Convocation">
+                        </picture>
+
+                    </a>
+
                 </div>
 
-                <!-- Slide 2 -->
+
+                <!-- ==============================
+             SLIDE 2
+        =============================== -->
                 <div class="rgu-custom-slide">
+
                     <picture>
+
                         <!-- Mobile Image -->
                         <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/mob-2.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/dek-2.jpeg" alt="Slider Image 2">
+                        <img src="/new-web/assets/convo-six-desktop/new/dek-2.jpeg" alt="H Causa">
+
                     </picture>
+
+                </div>
+
+
+                <!-- ==============================
+             MANUAL CONTROLS
+        =============================== -->
+
+                <button type="button" class="rgu-custom-slider-btn rgu-custom-slider-prev" aria-label="Previous slide">
+                    &#10094;
+                </button>
+
+                <button type="button" class="rgu-custom-slider-btn rgu-custom-slider-next" aria-label="Next slide">
+                    &#10095;
+                </button>
+
+
+                <!-- ==============================
+             DOT INDICATORS
+        =============================== -->
+
+                <div class="rgu-custom-slider-dots">
+
+                    <button type="button" class="rgu-custom-slider-dot rgu-custom-slider-dot-active"
+                        aria-label="Go to slide 1" data-slide="0"></button>
+
+                    <button type="button" class="rgu-custom-slider-dot" aria-label="Go to slide 2" data-slide="1"></button>
+
                 </div>
 
             </div>
@@ -57,9 +100,9 @@
 
 
         <style>
-            /* =========================================
-       RGU CUSTOM IMAGE SLIDER - CSS
-    ========================================= */
+            /* =========================================================
+       RGU CUSTOM IMAGE SLIDER
+       ========================================================= */
 
             .rgu-custom-slider-section {
                 width: 100%;
@@ -71,14 +114,17 @@
             .rgu-custom-slider-wrapper {
                 position: relative;
                 width: 100%;
-                height: auto;
                 overflow: hidden;
             }
 
+
+            /* =========================================================
+       SLIDES
+       ========================================================= */
+
             .rgu-custom-slide {
                 position: absolute;
-                top: 0;
-                left: 0;
+                inset: 0;
 
                 width: 100%;
                 height: 100%;
@@ -86,7 +132,9 @@
                 opacity: 0;
                 visibility: hidden;
 
-                transition: opacity 0.7s ease-in-out;
+                transition:
+                    opacity 0.7s ease-in-out,
+                    visibility 0.7s ease-in-out;
 
                 z-index: 1;
             }
@@ -100,10 +148,14 @@
                 z-index: 2;
             }
 
+
+            /* =========================================================
+       SLIDE IMAGE
+       ========================================================= */
+
             .rgu-custom-slide picture {
                 display: block;
                 width: 100%;
-                height: 100%;
             }
 
             .rgu-custom-slide img {
@@ -112,13 +164,139 @@
                 width: 100%;
                 height: auto;
 
+                margin: 0;
+                padding: 0;
+
                 object-fit: cover;
             }
 
 
-            /* =========================================
+            /* =========================================================
+       FIRST SLIDE LINK
+       ========================================================= */
+
+            .rgu-custom-slide-link {
+                display: block;
+
+                width: 100%;
+                height: auto;
+
+                margin: 0;
+                padding: 0;
+
+                text-decoration: none;
+            }
+
+
+            /* =========================================================
+       PREVIOUS / NEXT BUTTONS
+       ========================================================= */
+
+            .rgu-custom-slider-btn {
+                position: absolute;
+
+                top: 50%;
+                transform: translateY(-50%);
+
+                width: 46px;
+                height: 46px;
+
+                border: none;
+                border-radius: 50%;
+
+                background: rgba(0, 0, 0, 0.45);
+                color: #ffffff;
+
+                font-size: 25px;
+                line-height: 1;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                cursor: pointer;
+
+                z-index: 10;
+
+                transition:
+                    background 0.3s ease,
+                    transform 0.3s ease,
+                    opacity 0.3s ease;
+            }
+
+            .rgu-custom-slider-btn:hover {
+                background: rgba(0, 0, 0, 0.75);
+
+                transform:
+                    translateY(-50%) scale(1.08);
+            }
+
+            .rgu-custom-slider-prev {
+                left: 20px;
+            }
+
+            .rgu-custom-slider-next {
+                right: 20px;
+            }
+
+
+            /* =========================================================
+       DOT INDICATORS
+       ========================================================= */
+
+            .rgu-custom-slider-dots {
+                position: absolute;
+
+                left: 50%;
+                bottom: 18px;
+
+                transform: translateX(-50%);
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                gap: 8px;
+
+                z-index: 10;
+            }
+
+            .rgu-custom-slider-dot {
+                width: 10px;
+                height: 10px;
+
+                padding: 0;
+                margin: 0;
+
+                border: none;
+                border-radius: 50%;
+
+                background: rgba(255, 255, 255, 0.55);
+
+                cursor: pointer;
+
+                transition:
+                    width 0.3s ease,
+                    background 0.3s ease,
+                    transform 0.3s ease;
+            }
+
+            .rgu-custom-slider-dot:hover {
+                transform: scale(1.15);
+            }
+
+            .rgu-custom-slider-dot-active {
+                width: 28px;
+
+                border-radius: 10px;
+
+                background: #ffffff;
+            }
+
+
+            /* =========================================================
        MOBILE
-    ========================================= */
+       ========================================================= */
 
             @media (max-width: 767px) {
 
@@ -129,7 +307,68 @@
                 .rgu-custom-slide img {
                     width: 100%;
                     height: auto;
+
                     object-fit: cover;
+                }
+
+
+                /* Mobile navigation buttons */
+
+                .rgu-custom-slider-btn {
+                    width: 36px;
+                    height: 36px;
+
+                    font-size: 19px;
+                }
+
+                .rgu-custom-slider-prev {
+                    left: 10px;
+                }
+
+                .rgu-custom-slider-next {
+                    right: 10px;
+                }
+
+
+                /* Mobile dots */
+
+                .rgu-custom-slider-dots {
+                    bottom: 10px;
+
+                    gap: 6px;
+                }
+
+                .rgu-custom-slider-dot {
+                    width: 8px;
+                    height: 8px;
+                }
+
+                .rgu-custom-slider-dot-active {
+                    width: 22px;
+                }
+
+            }
+
+
+            /* =========================================================
+       VERY SMALL MOBILE
+       ========================================================= */
+
+            @media (max-width: 480px) {
+
+                .rgu-custom-slider-btn {
+                    width: 32px;
+                    height: 32px;
+
+                    font-size: 17px;
+                }
+
+                .rgu-custom-slider-prev {
+                    left: 7px;
+                }
+
+                .rgu-custom-slider-next {
+                    right: 7px;
                 }
 
             }
@@ -137,39 +376,325 @@
 
 
         <script>
-            /* =========================================
-               RGU CUSTOM IMAGE SLIDER - JAVASCRIPT
-            ========================================= */
-
             (function() {
 
-                const rguCustomSlides = document.querySelectorAll(
-                    '.rgu-custom-slide'
-                );
+                /* =======================================================
+                   RGU CUSTOM IMAGE SLIDER
+                   ======================================================= */
+
+                const rguCustomSliderWrapper =
+                    document.querySelector('.rgu-custom-slider-wrapper');
+
+                if (!rguCustomSliderWrapper) {
+                    return;
+                }
+
+
+                /* =======================================================
+                   GET SLIDES
+                   ======================================================= */
+
+                const rguCustomSlides =
+                    rguCustomSliderWrapper.querySelectorAll(
+                        '.rgu-custom-slide'
+                    );
+
+
+                /* =======================================================
+                   GET CONTROLS
+                   ======================================================= */
+
+                const rguCustomPrevButton =
+                    rguCustomSliderWrapper.querySelector(
+                        '.rgu-custom-slider-prev'
+                    );
+
+                const rguCustomNextButton =
+                    rguCustomSliderWrapper.querySelector(
+                        '.rgu-custom-slider-next'
+                    );
+
+
+                /* =======================================================
+                   GET DOTS
+                   ======================================================= */
+
+                const rguCustomDots =
+                    rguCustomSliderWrapper.querySelectorAll(
+                        '.rgu-custom-slider-dot'
+                    );
+
+
+                /* =======================================================
+                   SLIDER VARIABLES
+                   ======================================================= */
 
                 let rguCustomCurrentSlide = 0;
 
-                function rguCustomChangeSlide() {
+                let rguCustomAutoSlide;
 
-                    /* Remove active class from current slide */
-                    rguCustomSlides[rguCustomCurrentSlide]
-                        .classList.remove('rgu-custom-slide-active');
 
-                    /* Move to next slide */
-                    rguCustomCurrentSlide++;
+                /* =======================================================
+                   SLIDE CHANGE FUNCTION
+                   ======================================================= */
 
-                    /* Restart from first slide */
-                    if (rguCustomCurrentSlide >= rguCustomSlides.length) {
-                        rguCustomCurrentSlide = 0;
+                function rguCustomShowSlide(slideIndex) {
+
+                    /* -----------------------------------------------
+                       Handle slide index
+                    ------------------------------------------------ */
+
+                    if (slideIndex >= rguCustomSlides.length) {
+                        slideIndex = 0;
                     }
 
-                    /* Activate next slide */
-                    rguCustomSlides[rguCustomCurrentSlide]
-                        .classList.add('rgu-custom-slide-active');
+                    if (slideIndex < 0) {
+                        slideIndex = rguCustomSlides.length - 1;
+                    }
+
+
+                    /* -----------------------------------------------
+                       Remove active class
+                    ------------------------------------------------ */
+
+                    rguCustomSlides.forEach(function(slide) {
+
+                        slide.classList.remove(
+                            'rgu-custom-slide-active'
+                        );
+
+                    });
+
+
+                    /* -----------------------------------------------
+                       Remove active dot
+                    ------------------------------------------------ */
+
+                    rguCustomDots.forEach(function(dot) {
+
+                        dot.classList.remove(
+                            'rgu-custom-slider-dot-active'
+                        );
+
+                    });
+
+
+                    /* -----------------------------------------------
+                       Set current slide
+                    ------------------------------------------------ */
+
+                    rguCustomCurrentSlide = slideIndex;
+
+
+                    /* -----------------------------------------------
+                       Activate slide
+                    ------------------------------------------------ */
+
+                    rguCustomSlides[
+                        rguCustomCurrentSlide
+                    ].classList.add(
+                        'rgu-custom-slide-active'
+                    );
+
+
+                    /* -----------------------------------------------
+                       Activate dot
+                    ------------------------------------------------ */
+
+                    if (rguCustomDots[rguCustomCurrentSlide]) {
+
+                        rguCustomDots[
+                            rguCustomCurrentSlide
+                        ].classList.add(
+                            'rgu-custom-slider-dot-active'
+                        );
+
+                    }
+
                 }
 
-                /* Change image every 2 seconds */
-                setInterval(rguCustomChangeSlide, 6000);
+
+                /* =======================================================
+                   NEXT SLIDE
+                   ======================================================= */
+
+                function rguCustomNextSlide() {
+
+                    rguCustomShowSlide(
+                        rguCustomCurrentSlide + 1
+                    );
+
+                }
+
+
+                /* =======================================================
+                   PREVIOUS SLIDE
+                   ======================================================= */
+
+                function rguCustomPreviousSlide() {
+
+                    rguCustomShowSlide(
+                        rguCustomCurrentSlide - 1
+                    );
+
+                }
+
+
+                /* =======================================================
+                   AUTO SLIDE
+                   ======================================================= */
+
+                function rguCustomStartAutoSlide() {
+
+                    rguCustomStopAutoSlide();
+
+                    rguCustomAutoSlide = setInterval(
+                        function() {
+
+                            rguCustomNextSlide();
+
+                        },
+                        5000
+                    );
+
+                }
+
+
+                /* =======================================================
+                   STOP AUTO SLIDE
+                   ======================================================= */
+
+                function rguCustomStopAutoSlide() {
+
+                    if (rguCustomAutoSlide) {
+
+                        clearInterval(
+                            rguCustomAutoSlide
+                        );
+
+                        rguCustomAutoSlide = null;
+
+                    }
+
+                }
+
+
+                /* =======================================================
+                   NEXT BUTTON CLICK
+                   ======================================================= */
+
+                if (rguCustomNextButton) {
+
+                    rguCustomNextButton.addEventListener(
+                        'click',
+                        function() {
+
+                            rguCustomNextSlide();
+
+                            /* Reset automatic timer */
+
+                            rguCustomStartAutoSlide();
+
+                        }
+                    );
+
+                }
+
+
+                /* =======================================================
+                   PREVIOUS BUTTON CLICK
+                   ======================================================= */
+
+                if (rguCustomPrevButton) {
+
+                    rguCustomPrevButton.addEventListener(
+                        'click',
+                        function() {
+
+                            rguCustomPreviousSlide();
+
+                            /* Reset automatic timer */
+
+                            rguCustomStartAutoSlide();
+
+                        }
+                    );
+
+                }
+
+
+                /* =======================================================
+                   DOT CLICK
+                   ======================================================= */
+
+                rguCustomDots.forEach(
+                    function(dot) {
+
+                        dot.addEventListener(
+                            'click',
+                            function() {
+
+                                const slideNumber =
+                                    parseInt(
+                                        dot.getAttribute(
+                                            'data-slide'
+                                        ),
+                                        10
+                                    );
+
+
+                                rguCustomShowSlide(
+                                    slideNumber
+                                );
+
+
+                                /* Reset automatic timer */
+
+                                rguCustomStartAutoSlide();
+
+                            }
+                        );
+
+                    }
+                );
+
+
+                /* =======================================================
+                   PAUSE ON HOVER
+                   ======================================================= */
+
+                rguCustomSliderWrapper.addEventListener(
+                    'mouseenter',
+                    function() {
+
+                        rguCustomStopAutoSlide();
+
+                    }
+                );
+
+
+                /* =======================================================
+                   RESUME AFTER MOUSE LEAVES
+                   ======================================================= */
+
+                rguCustomSliderWrapper.addEventListener(
+                    'mouseleave',
+                    function() {
+
+                        rguCustomStartAutoSlide();
+
+                    }
+                );
+
+
+                /* =======================================================
+                   INITIALIZE SLIDER
+                   ======================================================= */
+
+                rguCustomShowSlide(0);
+
+                rguCustomStartAutoSlide();
+
 
             })();
         </script>
@@ -335,25 +860,25 @@
                     <!-- SLIDE 2 -->
                     <!-- <div class="int-slide">
 
-                                                    <div class="int-card">
-                                                        <img src="new-web/assets/img/index/international-news/news3/1.jpg">
-                                                        <div class="int-card-content">
-                                                            <h4>UK Collaboration</h4>
-                                                            <p>International research tie-up</p>
-                                                            <a href="#" class="int-readmore">Read More →</a>
+                                                        <div class="int-card">
+                                                            <img src="new-web/assets/img/index/international-news/news3/1.jpg">
+                                                            <div class="int-card-content">
+                                                                <h4>UK Collaboration</h4>
+                                                                <p>International research tie-up</p>
+                                                                <a href="#" class="int-readmore">Read More →</a>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
-                                                    <div class="int-card">
-                                                        <img src="new-web/assets/img/index/international-news/news4/1.jpg">
-                                                        <div class="int-card-content">
-                                                            <h4>Global Conference</h4>
-                                                            <p>Student participation abroad</p>
-                                                            <a href="#" class="int-readmore">Read More →</a>
+                                                        <div class="int-card">
+                                                            <img src="new-web/assets/img/index/international-news/news4/1.jpg">
+                                                            <div class="int-card-content">
+                                                                <h4>Global Conference</h4>
+                                                                <p>Student participation abroad</p>
+                                                                <a href="#" class="int-readmore">Read More →</a>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
-                                                </div> -->
+                                                    </div> -->
 
                 </div>
             </div>
@@ -574,8 +1099,8 @@
 
     <style>
         /* =========================================
-       MAIN SECTION
-    ========================================= */
+           MAIN SECTION
+        ========================================= */
 
         .dksh-section {
             width: 100%;
@@ -588,8 +1113,8 @@
 
 
         /* =========================================
-       TITLE IMAGE
-    ========================================= */
+           TITLE IMAGE
+        ========================================= */
 
         .dksh-title-wrap {
             width: 100%;
@@ -617,8 +1142,8 @@
 
 
         /* =========================================
-       MARQUEE
-    ========================================= */
+           MARQUEE
+        ========================================= */
 
         .dksh-marquee {
             width: 100%;
@@ -644,8 +1169,8 @@
 
 
         /* =========================================
-       9:16 IMAGE CARDS
-    ========================================= */
+           9:16 IMAGE CARDS
+        ========================================= */
 
         .dksh-card {
             position: relative;
@@ -680,8 +1205,8 @@
 
 
         /* =========================================
-       SUBTLE BOTTOM GRADIENT
-    ========================================= */
+           SUBTLE BOTTOM GRADIENT
+        ========================================= */
 
         .dksh-card::after {
             content: "";
@@ -699,8 +1224,8 @@
 
 
         /* =========================================
-       IMAGE HOVER
-    ========================================= */
+           IMAGE HOVER
+        ========================================= */
 
         .dksh-card:hover img {
             transform: scale(1.04);
@@ -715,8 +1240,8 @@
 
 
         /* =========================================
-       INFINITE MARQUEE ANIMATION
-    ========================================= */
+           INFINITE MARQUEE ANIMATION
+        ========================================= */
 
         @keyframes dksh-marquee-animation {
 
@@ -732,8 +1257,8 @@
 
 
         /* =========================================
-       TABLET
-    ========================================= */
+           TABLET
+        ========================================= */
 
         @media (max-width: 991px) {
 
@@ -763,8 +1288,8 @@
 
 
         /* =========================================
-       MOBILE
-    ========================================= */
+           MOBILE
+        ========================================= */
 
         @media (max-width: 576px) {
 
@@ -795,8 +1320,8 @@
 
 
         /* =========================================
-       ACCESSIBILITY
-    ========================================= */
+           ACCESSIBILITY
+        ========================================= */
 
         @media (prefers-reduced-motion: reduce) {
 
