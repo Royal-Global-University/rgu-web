@@ -34,7 +34,7 @@
         =============================== -->
                 <div class="rgu-custom-slide rgu-custom-slide-active">
 
-                    <a href="YOUR-LINK-HERE" class="rgu-custom-slide-link" aria-label="Convocation">
+                    <a href="http://convocation.rgu.ac/" class="rgu-custom-slide-link" aria-label="Convocation">
 
                         <picture>
                             <!-- Mobile Image -->
@@ -183,7 +183,6 @@
 
                 margin: 0;
                 padding: 0;
-
                 text-decoration: none;
             }
 
