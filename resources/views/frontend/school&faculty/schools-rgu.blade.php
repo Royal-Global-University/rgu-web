@@ -1,17 +1,5 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;"></div>
-
-    </div>
-
-    <div class="website">
-        <!--head image Section-->
-        @include('frontend/components/aheader')
-
-    </div>
 
     <style>
         /* =========================================
@@ -923,6 +911,8 @@
 
         }
     </style>
+    <div style="background-color: #20315e; padding-top: 125px;">
+    </div>
 
     <div class="rgu-sf-wrapper">
 
