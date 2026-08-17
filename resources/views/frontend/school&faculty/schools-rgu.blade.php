@@ -708,11 +708,11 @@
             padding:
                 22px 22px 14px;
 
-            font-size: 1.18rem;
+            font-size: 1.8rem;
 
-            font-weight: 700;
+            font-weight: 800;
 
-            line-height: 1.45;
+            line-height: 1.3;
 
             color: var(--primary);
 
@@ -861,6 +861,11 @@
             .rgu-unique-search-input {
 
                 font-size: 12px;
+            }
+
+            .rgu-sf-card-title {
+
+                font-size: 1.45rem;
             }
 
         }
