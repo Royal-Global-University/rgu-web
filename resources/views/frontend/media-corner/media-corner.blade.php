@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                '757 Students Awarded Scholarships by Royal Global University for AY 2026-27',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 14, 2026:',
+                            'link' => '/757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27',
+                            'image' => '/mobile-assets/media-corner/2026/aug/new-file/3.jpeg',
+                            'content' => 'Reinforcing its commitment to promoting higher education and encouraging meritorious students from the Northeast, The Assam Royal Global University (RGU) today organised the Felicitation Ceremony for Scholarship Awardees, honouring more than 700 newly admitted students across various programmes for the Academic Year 2026–27.',
+                        ],
+                        [
+                            'title' =>
                                 'RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading',
                             'summary' =>
                                 '',

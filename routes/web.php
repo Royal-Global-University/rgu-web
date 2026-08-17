@@ -3280,6 +3280,11 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27', function () {
+    return view('frontend/media-corner/2026/aug/news6');
+})->name('757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27');
+
 Route::get('/rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading', function () {
     return view('frontend/media-corner/2026/aug/news5');
 })->name('rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading');

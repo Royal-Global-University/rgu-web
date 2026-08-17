@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 14, 2026",
+            title: "757 Students Awarded Scholarships by Royal Global University for AY 2026-27",
+            desc: "Reinforcing its commitment to promoting higher education and encouraging meritorious students from the Northeast, The Assam Royal Global University (RGU) today organised the Felicitation Ceremony for Scholarship Awardees, honouring more than 700 newly admitted students across various programmes for the Academic Year 2026–27.",
+            img: "/mobile-assets/media-corner/2026/aug/new-file/2.jpeg",
+            link: "/757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27",
+        },
+        {
             date: "Guwahati, August 12, 2026",
             title: "RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading",
             desc: "On the occasion of Librarian’s Day, The Assam Royal University (RGU) organised a special programme titled “Walk to the Library” on Wednesday, August 12, with the objective of inspiring and enthusing the university fraternity to embrace reading as an integral part of academic and personal life.",
