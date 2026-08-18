@@ -966,7 +966,7 @@
                                     alt="Profile image of Dr. Devika Phukan">
                             </div>
                             <h3 class="card-name">Prof. Dip Saikia</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HoD (Physics, RSAPS)</p>
                             {{-- <a href="/faculty-dr-devika-phukan" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
@@ -992,18 +992,6 @@
                             <h3 class="card-name">Dr. Sankar Barman</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="/faculty-dr-sankar-barman" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Maidul-Islam-RSAPS.png"
-                                    alt="Profile image of Dr. Maidul Islam">
-                            </div>
-                            <h3 class="card-name">Dr. Maidul Islam</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Physics</p>
-                            <a href="/faculty-dr-maidul-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
