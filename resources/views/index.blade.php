@@ -39,10 +39,10 @@
                         <picture>
                             <!-- Mobile Image -->
                             <source media="(max-width: 767px)"
-                                srcset="/new-web/assets/convo-six-desktop/new/connmob-1.jpeg">
+                                srcset="/new-web/assets/convo-six-desktop/new/mob-1.jpeg">
 
                             <!-- Desktop Image -->
-                            <img src="/new-web/assets/convo-six-desktop/new/connweb-1.jpeg" alt="6th Convocation">
+                            <img src="/new-web/assets/convo-six-desktop/new/dest-1.jpeg" alt="6th Convocation">
                         </picture>
 
                     </a>
@@ -58,10 +58,10 @@
                     <picture>
 
                         <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/mob-2.jpeg">
+                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/mob-22.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/dek-2.jpeg" alt="H Causa">
+                        <img src="/new-web/assets/convo-six-desktop/new/dest-2.jpeg" alt="H Causa">
 
                     </picture>
 
