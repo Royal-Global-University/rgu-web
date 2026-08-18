@@ -118,6 +118,7 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Souvik Chatterji</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Law and Administration</p>
+                            <a href="/faculty-souvik-chatterji" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

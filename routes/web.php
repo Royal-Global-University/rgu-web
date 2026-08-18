@@ -3947,6 +3947,10 @@ Route::get('/faculty-hrishikesh-pathak', function () {
     return view('frontend/facultyprofile/rspes/hrishikesh-pathak');
 })->name('faculty-hrishikesh-pathak');
 
+Route::get('/faculty-madhurjya-baruah', function () {
+    return view('frontend/facultyprofile/rspes/madhurjya-baruah');
+})->name('faculty-madhurjya-baruah');
+
 
 
 //RSAG Faculty Profile
@@ -5371,6 +5375,10 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-souvik-chatterji', function () {
+    return view('frontend/facultyprofile/rsla/souvik-chatterji');
+})->name('faculty-souvik-chatterji');
 
 Route::get('/faculty-thaneshwar-kalita', function () {
     return view('frontend/facultyprofile/rsla/thaneshwar-kalita');

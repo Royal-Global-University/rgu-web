@@ -128,6 +128,7 @@
                             </div>
                             <h3 class="card-name">Dr. Madhurjya Baruah</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="/faculty-madhurjya-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
