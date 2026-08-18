@@ -38,7 +38,7 @@
 
                         <div class="rgu-ac-btn-group">
 
-                            <a href="/mobile-assets/pdf/ACADEMIC-CALENDER-25-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/Academic Calendar_AY 2026-27.pdf" class="rgu-ac-btn" download>
                                 Download Academic Calendar
                             </a>
 
