@@ -87,46 +87,6 @@
                         ],
                         [
                             'title' =>
-                                'RGU Celebrates International Day of the World’s Indigenous Peoples’',
-                            'summary' =>
-                                'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',
-                            'date' => 'Guwahati, August 11, 2026:',
-                            'link' => '/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples',
-                            'image' => '/mobile-assets/media-corner/2026/aug/2.jpeg',
-                            'content' => 'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme...',
-                        ],
-                        [
-                            'title' =>
-                                'RGU Celebrates International Day of the World’s Indigenous Peoples’',
-                            'summary' =>
-                                'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',
-                            'date' => 'Guwahati, August 11, 2026:',
-                            'link' => '/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples',
-                            'image' => '/mobile-assets/media-corner/2026/aug/2.jpeg',
-                            'content' => 'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme. The event was organised by the Centre for Indian Knowledge Systems in association with the Internal Quality Assurance Cell of RGU to honour and celebrate the rich indigenous knowledge systems, cultural traditions, artistic expressions and living heritage of the indigenous communities of Assam and Northeast India...',
-                        ],
-                        [
-                            'title' =>
-                                'Singer & Media Professional Mayukh Hazarika Joins Royal Global University as Professor of Practice’',
-                            'summary' =>
-                                '',
-                            'date' => 'Guwahati, August 10, 2026:',
-                            'link' => '/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice',
-                            'image' => '/mobile-assets/media-corner/Mayukh.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) has appointed veteran media professional and acclaimed Assamese musician Shri Mayukh Hazarika as Professor of Practice at the Royal School of Communication and Media. Shri Hazarika brings nearly three decades of distinguished experience in national media, television, creative communications and event management...',
-                        ],
-                        [
-                            'title' =>
-                                'Singer & Media Professional Mayukh Hazarika Joins Royal Global University as Professor of Practice’',
-                            'summary' =>
-                                '',
-                            'date' => 'Guwahati, August 10, 2026:',
-                            'link' => '/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice',
-                            'image' => '/mobile-assets/media-corner/Mayukh.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) has appointed veteran media professional and acclaimed Assamese musician Shri Mayukh Hazarika as Professor of Practice at the Royal School of Communication and Media. Shri Hazarika brings nearly three decades of distinguished experience in national media, television, creative communications and event management...',
-                        ],
-                        [
-                            'title' =>
                                 'Singer & Media Professional Mayukh Hazarika Joins Royal Global University as Professor of Practice’',
                             'summary' =>
                                 '',
@@ -207,13 +167,13 @@
                         ],
                         [
                             'title' =>
-                                'Royal Global University Honoured as “Most Eminent University of North East India” at Education Eminence Awards 2026',
+                                'Guwahati Royals unveiled at Assam Premier League launch',
                             'summary' =>
                                 '',
                             'date' => 'Guwahati, June 21, 2026:',
                             'link' => '/guwahati-royals-unveiled-at-assam-premier-league-launch',
                             'image' => '/mobile-assets/media-corner/2026/jun/news10-1.jpeg',
-                            'content' => 'In a significant recognition of its outstanding contribution to higher education, The Assam Royal Global University (RGU) has been conferred the prestigious “Most Eminent University of North East India”...',
+                            'content' => 'Guwahati Royals, a Royal Group initiative, was officially unveiled today as one of the eight participating franchises of the inaugural Assam Premier League during a launch ceremony organised by the Assam Cricket Association at the ACA Stadium in Barsapara.',
                         ],
                         [
                             'title' =>
