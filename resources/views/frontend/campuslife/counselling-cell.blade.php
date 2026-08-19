@@ -7,8 +7,8 @@
 @section('content')
     <style>
         /*==================================================
-            COUNSELLING INTRO
-    ==================================================*/
+                    COUNSELLING INTRO
+            ==================================================*/
 
         .rgcc-intro {
 
@@ -237,8 +237,8 @@
 
     <style>
         /*==================================================
-            COUNSELLING CONTENT
-    ==================================================*/
+                    COUNSELLING CONTENT
+            ==================================================*/
 
         .rgcc-info {
 
@@ -392,11 +392,24 @@
 
     </section>
 
+    <div class="container my-4">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="/mobile-assets/counciling-cell/new/1.jpg" class="img-fluid w-100 rounded" alt="Counselling Cell Image 1" />
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="/mobile-assets/counciling-cell/new/2.png" class="img-fluid w-100 rounded" alt="Counselling Cell Image 2" />
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="/mobile-assets/counciling-cell/new/3.jpg" class="img-fluid w-100 rounded" alt="Counselling Cell Image 3" />
+            </div>
+        </div>
+    </div>
+
 
     <section class="rgcc-intro">
 
         <div class="container">
-
             <div class="row align-items-center g-5">
 
                 <div class="col-lg-6">
