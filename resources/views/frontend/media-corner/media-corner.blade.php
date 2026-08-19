@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU Celebrates 80th Independence Day with Patriotic and Cultural Grandeur',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 15, 2026:',
+                            'link' => '/rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur',
+                            'image' => '/mobile-assets/media-corner/2026/aug/15/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) celebrated the 80th Independence Day of India with patriotic fervour and cultural splendour, as the entire campus came alive in the vibrant colours of the Tricolour. The celebrations featured inspiring speeches, soulful music, traditional dance and a colourful cultural presentation, reflecting the spirit of unity in diversity that defines the nation.',
+                        ],
+                        [
+                            'title' =>
                                 '757 Students Awarded Scholarships by Royal Global University for AY 2026-27',
                             'summary' =>
                                 '',

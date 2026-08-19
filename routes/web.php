@@ -3281,6 +3281,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur', function () {
+    return view('frontend/media-corner/2026/aug/news7');
+})->name('rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur');
+
 Route::get('/757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27', function () {
     return view('frontend/media-corner/2026/aug/news6');
 })->name('757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27');

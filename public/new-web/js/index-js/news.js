@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 15, 2026",
+            title: "RGU Celebrates 80th Independence Day with Patriotic and Cultural Grandeur",
+            desc: "The Assam Royal Global University (RGU) celebrated the 80th Independence Day of India with patriotic fervour and cultural splendour, as the entire campus came alive in the vibrant colours of the Tricolour. The celebrations featured inspiring speeches, soulful music, traditional dance and a colourful cultural presentation, reflecting the spirit of unity in diversity that defines the nation.",
+            img: "/mobile-assets/media-corner/2026/aug/15/2.jpeg",
+            link: "/rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur",
+        },
+        {
             date: "Guwahati, August 14, 2026",
             title: "757 Students Awarded Scholarships by Royal Global University for AY 2026-27",
             desc: "Reinforcing its commitment to promoting higher education and encouraging meritorious students from the Northeast, The Assam Royal Global University (RGU) today organised the Felicitation Ceremony for Scholarship Awardees, honouring more than 700 newly admitted students across various programmes for the Academic Year 2026–27.",
