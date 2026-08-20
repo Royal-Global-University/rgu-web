@@ -3281,6 +3281,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/ignca-royal-global-university-organise-exhibition-on-partition-horrors', function () {
+    return view('frontend/media-corner/2026/aug/news8');
+})->name('ignca-royal-global-university-organise-exhibition-on-partition-horrors');
+
 Route::get('/rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur', function () {
     return view('frontend/media-corner/2026/aug/news7');
 })->name('rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur');

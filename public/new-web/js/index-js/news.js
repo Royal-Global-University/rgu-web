@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, August 19, 2026",
+            title: "IGNCA & Royal Global University Organise Exhibition on Partition Horrors",
+            desc: "An exhibition titled “Memory, Loss & Resilience: 14 August 1947”, has been organised by the Indira Gandhi National Centre for the Arts (IGNCA), Regional Centre, Guwahati, in collaboration with the Royal School of Languages, The Assam Royal Global University (RGU). The exhibition is currently underway at the GHI Block of the University, and will continue till 20 August 2026.",
+            img: "/mobile-assets/media-corner/2026/aug/20/3.jpeg",
+            link: "/ignca-royal-global-university-organise-exhibition-on-partition-horrors",
+        },
+        {
             date: "Guwahati, August 15, 2026",
             title: "RGU Celebrates 80th Independence Day with Patriotic and Cultural Grandeur",
             desc: "The Assam Royal Global University (RGU) celebrated the 80th Independence Day of India with patriotic fervour and cultural splendour, as the entire campus came alive in the vibrant colours of the Tricolour. The celebrations featured inspiring speeches, soulful music, traditional dance and a colourful cultural presentation, reflecting the spirit of unity in diversity that defines the nation.",
