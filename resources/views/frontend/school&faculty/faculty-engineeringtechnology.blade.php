@@ -283,6 +283,16 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
+                                    <img src="/mobile-assets/updated-faculty-img/Nibedita.jpeg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Ms. Nibedita Kalita</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
                                     <img src="/mobile-assets/updated-faculty-img/Spandan-Kumar-Barthakur-RSET.png"
                                         alt="Profile image">
                                 </div>
@@ -549,15 +559,15 @@
                     </div>
 
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
-                                            <div class="card">
-                                              <div class="card-image">
-                                                <img src="" alt="Profile image of Mrs. Ankita Banerjee">
-                                              </div>
-                                              <h3 class="card-name">Mrs. Ankita Banerjee</h3>
-                                              <p class="card-designation">Assistant Professor</p>
-                                              <a href="" class="profile-link">View Profile</a>
-                                            </div>
-                                          </div> -->
+                                                <div class="card">
+                                                  <div class="card-image">
+                                                    <img src="" alt="Profile image of Mrs. Ankita Banerjee">
+                                                  </div>
+                                                  <h3 class="card-name">Mrs. Ankita Banerjee</h3>
+                                                  <p class="card-designation">Assistant Professor</p>
+                                                  <a href="" class="profile-link">View Profile</a>
+                                                </div>
+                                              </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

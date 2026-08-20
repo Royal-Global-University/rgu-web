@@ -111,8 +111,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/deepjyoti.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/deepjyoti.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
                             <p class="card-designation">Associate Professor & HOD, CSE and Royal School of Information
@@ -124,8 +123,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Anurag.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Anurag.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Anurag Barthwal</h3>
                             <p class="card-designation">Associate Professor</p>
@@ -136,8 +134,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Bhairab.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Bhairab.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Bhairab Sarma</h3>
                             <p class="card-designation">Associate Professor</p>
@@ -148,8 +145,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Dipankar.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Dipankar.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dipankar Dutta</h3>
                             <p class="card-designation">Associate Professor</p>
@@ -160,8 +156,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Bikash.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Bikash.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Bikash Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -170,23 +165,21 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Daisy-Das.png"
-                                        alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Dr. Daisy Das</h3>
-                                <p class="card-designation">Assistant Professor</p>
-                                <a href="/faculty-daisy-das" class="profile-link">View Profile</a>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Daisy-Das.png" alt="Profile image">
                             </div>
+                            <h3 class="card-name">Dr. Daisy Das</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-daisy-das" class="profile-link">View Profile</a>
                         </div>
+                    </div>
 
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Naveen.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Naveen.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Naveen Shahi</h3>
                             <p class="card-designation">Assistant Professor II</p>
@@ -197,8 +190,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Ms-Nilakshi-Deka-RSIT.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Nilakshi-Deka-RSIT.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Nilakshi Deka</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -210,8 +202,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Afsana-Laskar-RSET.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Afsana-Laskar-RSET.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mrs. Afsana Laskar</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -222,8 +213,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/ankiya.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/ankiya.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Ankita Goyal Agarwala</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -236,8 +226,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Bidisha Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -248,12 +237,21 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Nayan-J-Kalita-RSET.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Nayan-J-Kalita-RSET.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Nayan Jyoti Kalita</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-nayan-jyoti-kalita" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Nibedita.jpeg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Nibedita Kalita</h3>
+                            <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
 
@@ -343,8 +341,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Palme-Borthakur.png"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Palme-Borthakur.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Palme Borthakur</h3>
                             <p class="card-designation">Assistant Professor, Department of Geography and Geoinformatics,
@@ -356,8 +353,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/all-faculty/rsl/Pankaj.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/all-faculty/rsl/Pankaj.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Pankaj Gogoi</h3>
                             <p class="card-designation">Assistant Professor, Department of English, RSL</p>
@@ -368,8 +364,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/hrishikesh-sports1.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Hrishikesh Pathak</h3>
                             <p class="card-designation">Sports Coordinator, RGU</p>
@@ -393,8 +388,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/RSIT/Raj.jpg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/RSIT/Raj.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Mr. Raj Paul</h3>
                             <p class="card-designation">Visiting Faculty, Department of CSE & RSIT</p>
