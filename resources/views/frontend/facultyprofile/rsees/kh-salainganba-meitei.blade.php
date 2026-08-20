@@ -1143,7 +1143,7 @@
 
                                 <h3>Research (Outside Teaching)</h3>
 
-                                <p>9 Year</p>
+                                <p>9 Months</p>
 
                             </div>
 
