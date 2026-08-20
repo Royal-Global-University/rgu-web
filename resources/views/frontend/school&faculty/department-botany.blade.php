@@ -1232,17 +1232,17 @@
                                         </div>
 
                                         <div class="slider-image-frame">
-                                            <img src="/mobile-assets/events/botany/Outreach 2.jpeg" style="height: 400px;"
+                                            <img src="/mobile-assets/events/botany/Bioquest 5.JPG" style="height: 400px;"
                                                 alt="Image 2" class="scroller-image" onclick="openLightbox(this.src)">
                                         </div>
 
                                         <div class="slider-image-frame">
-                                            <img src="/mobile-assets/events/botany/Outreach activity 4.jpeg"
+                                            <img src="/mobile-assets/events/botany/Bioquest 6.jpeg"
                                                 style="height: 400px;" alt="Image 2" class="scroller-image"
                                                 onclick="openLightbox(this.src)">
                                         </div>
                                         <div class="slider-image-frame">
-                                            <img src="/mobile-assets/events/botany/Outreach activity 6.jpeg"
+                                            <img src="/mobile-assets/events/botany/Bioquest 7.jpeg"
                                                 style="height: 400px;" alt="Image 2" class="scroller-image"
                                                 onclick="openLightbox(this.src)">
                                         </div>
