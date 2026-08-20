@@ -3281,6 +3281,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27', function () {
+    return view('frontend/media-corner/2026/aug/news9');
+})->name('rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27');
+
 Route::get('/ignca-royal-global-university-organise-exhibition-on-partition-horrors', function () {
     return view('frontend/media-corner/2026/aug/news8');
 })->name('ignca-royal-global-university-organise-exhibition-on-partition-horrors');

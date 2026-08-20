@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'RGU only private university from NE to get Centre start-up grant for biomedical research for 2026-27',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 20, 2026:',
+                            'link' => '/rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27',
+                            'image' => '/mobile-assets/media-corner/2026/aug/20/4.png',
+                            'content' => 'The Assam Royal Global University (RGU) has received a three-year Start-Up Grant for Induction into Biomedical and Health Research under the Human Resource Development (HRD) Scheme of the Department of Health Research, Government of India, for 2026-27, officials said.',
+                        ],
+                        [
+                            'title' =>
                                 'IGNCA & Royal Global University Organise Exhibition on Partition Horrors',
                             'summary' =>
                                 '',
