@@ -1482,7 +1482,7 @@
                                 <i class="fa-solid fa-download dept-biotechnology-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSBSC/RGU_BSc Biotechnology_Detailled Syllabus.pdf"
+                                href="/new-web/assets/syllabus/RSBSC-Biotechology_Syllabus AY 2026-27 for Website Upload/BSc Biotechnology_Syllabus AY 2026-27.pdf"
                                 class="dept-biotechnology-syllabus-link">
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1507,7 +1507,7 @@
                     <div class="dept-biotechnology-accordion-content">
                         <div class="dept-biotechnology-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSBSC/RGU_MSc Biotechnology_Detail Syllabus.pdf"
+                                href="/new-web/assets/syllabus/RSBSC-Biotechology_Syllabus AY 2026-27 for Website Upload/MSc Biotechnology_Syllabus AY 2026-27.pdf"
                                 class="dept-biotechnology-syllabus-link">
                                 <div class="dept-biotechnology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

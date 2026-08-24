@@ -1920,7 +1920,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSC/RSC_UG Syllabus 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSC_Syllabus AY 2026-27 for Website Upload/BCOM_Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Com
@@ -1928,13 +1928,16 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSC/B.Com Finance Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSC_Syllabus AY 2026-27 for Website Upload/B.Com F&A_Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                B.Com Finance
+                                                                B.Com Finance & Accounts
                                                                 <i class="fa fa-download ms-2"
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
+
+
+                                                            
 
                                                         </div>
                                                     </div>
@@ -1960,7 +1963,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="/mobile-assets/syllabus/RSC/RSC M.COM NEP 2025 SYLLABUS .pdf"
+                                                            <a href="/new-web/assets/syllabus/RSC_Syllabus AY 2026-27 for Website Upload/MCOM_Syllabus AY 2026-27.pdf"
                                                                 target="_blank"
                                                                 style="color: #27467A; font-weight: 500; text-decoration: none;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --

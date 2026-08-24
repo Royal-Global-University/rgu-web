@@ -1459,7 +1459,7 @@
                     <div class="dept-business-accordion-content">
                         <div class="dept-business-syllabus-list">
 
-                            <a target="_blank" href="/mobile-assets/syllabus/RSB/MBA_Syllabus2025-26.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus/RSB_Syllabus AY 2026-27 for Website Upload/MBA_Syllabus AY 2026-27.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1493,7 +1493,7 @@
                     <div class="dept-business-accordion-content">
                         <div class="dept-business-syllabus-list">
 
-                            <a target="_blank" href="/mobile-assets/syllabus/RSB/BBA SYLLABUS FOR 24-28 - Final Copy.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus/RSB_Syllabus AY 2026-27 for Website Upload/BBA_Syllabus AY 2026-27.pdf"
                                 class="dept-business-syllabus-link">
                                 <div class="dept-business-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

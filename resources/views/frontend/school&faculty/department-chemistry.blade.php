@@ -1298,8 +1298,8 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-chemistry-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/Chemistry PG Syllabus.pdf"
-                                class="dept-chemistry-syllabus-link" download>
+                            <a target="_blank" href="/new-web/assets/syllabus/RSAPS_Syllabus AY 2026-27 for Website Upload/BSc Chemistry_ syllabus_AY_2026_27.pdf"
+                                class="dept-chemistry-syllabus-link">
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Detailed Syllabus -- B.Sc. Chemistry
@@ -1322,8 +1322,8 @@
                     <div class="dept-chemistry-accordion-content">
                         <div class="dept-chemistry-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSAPS/Chemistry Syllabus UG_2025_23-06-25.pdf"
-                                class="dept-chemistry-syllabus-link" download>
+                                href="/new-web/assets/syllabus/RSAPS_Syllabus AY 2026-27 for Website Upload/MSc Chemistry_ syllabus_AY_2026_27.pdf"
+                                class="dept-chemistry-syllabus-link" >
                                 <div class="dept-chemistry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Structure of Syllabus -- M.Sc. Chemistry

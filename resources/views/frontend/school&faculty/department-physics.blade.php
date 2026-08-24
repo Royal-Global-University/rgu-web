@@ -1310,15 +1310,15 @@
                         <div class="dept-physics-syllabus-list">
                             <a target="_blank"
                                 href="/mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
-                                class="dept-physics-syllabus-link" download>
+                                class="dept-physics-syllabus-link">
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Structure of Syllabus -- Physics
                                 </div>
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/Detail Syllabus BSc Physics (H).pdf"
-                                class="dept-physics-syllabus-link" download>
+                            <a target="_blank" href="/new-web/assets/syllabus/RSAPS_Syllabus AY 2026-27 for Website Upload/B.Sc. Physics_Syllabus AY 2026-27.pdf"
+                                class="dept-physics-syllabus-link">
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Detailed Syllabus -- Physics
@@ -1342,15 +1342,15 @@
                         <div class="dept-physics-syllabus-list">
                             <a target="_blank"
                                 href="/mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
-                                class="dept-physics-syllabus-link" download>
+                                class="dept-physics-syllabus-link">
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Structure of Syllabus -- Physics
                                 </div>
                                 <i class="fa-solid fa-download dept-physics-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSAPS/PG FULL SYLLABUS_Physics.pdf"
-                                class="dept-physics-syllabus-link" download>
+                            <a target="_blank" href="/new-web/assets/syllabus/RSAPS_Syllabus AY 2026-27 for Website Upload/M.Sc. Physics_Syllabus AY 2026-27.pdf"
+                                class="dept-physics-syllabus-link">
                                 <div class="dept-physics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
                                     Detailed Syllabus -- Physics
