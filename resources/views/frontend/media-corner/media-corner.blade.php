@@ -47,6 +47,20 @@
                     $newsItems = [
                         [
                             'title' =>
+                                '5-day-long FDP on Entrepreneurship & Start-up held at Royal Global University',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, August 22, 2026:',
+                            'link' => '/5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/aug/25/121.jpeg',
+                            'content' => 'The Entrepreneurship Cell of The Assam Royal Global
+                University (RGU) has successfully organised a five-day Faculty Development Programme (FDP) from 17th-21st
+                Aug, 2026 on “Entrepreneurship, Innovation and Start-up Development” bringing together faculty members,
+                academic leaders and aspiring innovators to strengthen their understanding of entrepreneurship and the
+                evolving start-up ecosystem.',
+                        ],
+                        [
+                            'title' =>
                                 'RGU only private university from NE to get Centre start-up grant for biomedical research for 2026-27',
                             'summary' =>
                                 '',

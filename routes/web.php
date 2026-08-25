@@ -3281,6 +3281,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/aug/news10');
+})->name('5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university');
+
 Route::get('/rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27', function () {
     return view('frontend/media-corner/2026/aug/news9');
 })->name('rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27');
