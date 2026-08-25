@@ -1810,7 +1810,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rsp/updated-syllabus/RGU-SYLLABUS-AY-2021-22-D.Pharmacy.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSP_Syllabus AY 2026-27 for Website Upload/D.Pharm Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 D.Pharm
@@ -1842,7 +1842,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rsp/updated-syllabus/Rgu-B.pharm-syllabus-2024-25.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSP_Syllabus AY 2026-27 for Website Upload/B.Pharm Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Pharmacy
@@ -1874,7 +1874,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rsp/updated-syllabus/M.Pharm-Chemistry-Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSP_Syllabus AY 2026-27 for Website Upload/M.Pharm Pharmaceutical Chemistry_Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 M.Pharm Chemistry
@@ -1882,7 +1882,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsp/updated-syllabus/M.Pharm-Pharmaceutics-RGU.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSP_Syllabus AY 2026-27 for Website Upload/M.Pharm Pharmaceutics_Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 M.Pharm Pharmaceutical
@@ -1890,7 +1890,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/rsp/updated-syllabus/M.Pharm-Pharmacognosy-Syllabus-RGU.pdf"
+                                                            <a href="/new-web/assets/syllabus/RSP_Syllabus AY 2026-27 for Website Upload/M.Pharm Pharmacognosy_Syllabus AY 2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 M.Pharm Pharmacognosy
