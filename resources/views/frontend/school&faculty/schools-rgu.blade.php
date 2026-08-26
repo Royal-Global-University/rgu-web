@@ -1208,7 +1208,7 @@ Responsive
 
                 name: "Royal School of Hotel Management (RSHM)",
 
-                image: "assets/img/academics-schools-faculty/hotel.png",
+                image: "/new-web/assets/academics-schools-faculty/hotel.png",
 
                 departmentPage: "https://www.rgu.ac/department-hotel-management",
 
@@ -1228,7 +1228,7 @@ Responsive
 
                 name: "Royal School of Information Technology (RSIT)",
 
-                image: "assets/img/academics-schools-faculty/rsit.png",
+                image: "/new-web/assets/academics-schools-faculty/rsit.png",
 
                 departmentPage: "https://www.rgu.ac/department-information-technology",
 
@@ -1268,7 +1268,7 @@ Responsive
 
                 name: "Royal School of Life Sciences (RSLSC)",
 
-                image: "assets/img/academics-schools-faculty/rslsc.png",
+                image: "/new-web/assets/academics-schools-faculty/rslsc.png",
 
                 departmentPage: "https://www.rgu.ac/royal-s-school-of-life-science",
 
@@ -1303,7 +1303,7 @@ Responsive
 
                 name: "Royal School of Languages (RSL)",
 
-                image: "assets/img/academics-schools-faculty/languages.png",
+                image: "/new-web/assets/academics-schools-faculty/languages.png",
 
                 departmentPage: "https://www.rgu.ac/royal-school-of-languages",
 
@@ -1328,7 +1328,7 @@ Responsive
 
                 name: "Royal School of Library & Information Science (RSLISC)",
 
-                image: "assets/img/academics-schools-faculty/library.png",
+                image: "/new-web/assets/academics-schools-faculty/library.png",
 
                 departmentPage: "https://www.rgu.ac/department-library-information",
 
@@ -1347,7 +1347,7 @@ Responsive
 
                 name: "Royal School of Medical & Allied Science (RSMAS)",
 
-                image: "assets/img/academics-schools-faculty/rsmas.png",
+                image: "/new-web/assets/academics-schools-faculty/rsmas.png",
 
                 departmentPage: "https://www.rgu.ac/royal-s-school-of-medical-allied-science",
 
@@ -1391,7 +1391,7 @@ Responsive
 
                 name: "Royal School of Nursing (RSN)",
 
-                image: "assets/img/academics-schools-faculty/nursing.png",
+                image: "/new-web/assets/academics-schools-faculty/nursing.png",
 
                 departmentPage: "https://www.rgu.ac/department-nursing",
 
@@ -1430,7 +1430,7 @@ Responsive
 
                 name: "Royal School of Physical Education and Sports (RSPES)",
 
-                image: "assets/img/academics-schools-faculty/sports.png",
+                image: "/new-web/assets/academics-schools-faculty/sports.png",
 
                 departmentPage: "https://www.rgu.ac/department-physical-education-and-sports",
 
