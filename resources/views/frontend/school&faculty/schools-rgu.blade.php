@@ -835,7 +835,7 @@ Responsive
 
                     {
                         name: "Integrated Civil Service Programme",
-                        url: "https://www.rgu.ac/ias-courses"
+                        url: "/ias-courses"
                     }
 
                 ]
@@ -845,7 +845,7 @@ Responsive
 
                 name: "Royal School of Agriculture and Forestry (RSAF)",
 
-                image: "https://www.rgu.ac/mobile-assets/agri.png",
+                image: "/mobile-assets/agri.png",
 
                 departmentPage: "https://www.rgu.ac/royal-school-of-agriculture",
 
