@@ -46,10 +46,19 @@
                 @php
                     $newsItems = [
                         [
-                            'title' =>
-                                '5-day-long FDP on Entrepreneurship & Start-up held at Royal Global University',
-                            'summary' =>
-                                '',
+                            'title' => 'Royal Global University Signs MoU with Star Cement to Develop Carbon Footprint Reduction Framework for Schools',
+                            'summary' => '',
+                            'date' => 'Guwahati, August 26, 2026:',
+                            'link' => '/royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools',
+                            'image' => '/mobile-assets/media-corner/2026/aug/26-aug/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) has signed a
+                Memorandum of Understanding (MoU) with the Star Cement Charitable Trust, the voluntary humanitarian trust of
+                Star Cement Limited, marking an important industry–academia collaboration aimed at developing a structured
+                framework and action plan for reducing the carbon footprint of schools.',
+                        ],
+                        [
+                            'title' => '5-day-long FDP on Entrepreneurship & Start-up held at Royal Global University',
+                            'summary' => '',
                             'date' => 'Guwahati, August 22, 2026:',
                             'link' => '/5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/aug/25/121.jpeg',
@@ -62,112 +71,107 @@
                         [
                             'title' =>
                                 'RGU only private university from NE to get Centre start-up grant for biomedical research for 2026-27',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, August 20, 2026:',
-                            'link' => '/rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27',
+                            'link' =>
+                                '/rgu-only-private-university-from-ne-to-get-centres-start-up-grant-for-biomedical-research-for-2026-27',
                             'image' => '/mobile-assets/media-corner/2026/aug/20/4.png',
-                            'content' => 'The Assam Royal Global University (RGU) has received a three-year Start-Up Grant for Induction into Biomedical and Health Research under the Human Resource Development (HRD) Scheme of the Department of Health Research, Government of India, for 2026-27, officials said.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has received a three-year Start-Up Grant for Induction into Biomedical and Health Research under the Human Resource Development (HRD) Scheme of the Department of Health Research, Government of India, for 2026-27, officials said.',
                         ],
                         [
-                            'title' =>
-                                'IGNCA & Royal Global University Organise Exhibition on Partition Horrors',
-                            'summary' =>
-                                '',
+                            'title' => 'IGNCA & Royal Global University Organise Exhibition on Partition Horrors',
+                            'summary' => '',
                             'date' => 'Guwahati, August 19, 2026:',
                             'link' => '/ignca-royal-global-university-organise-exhibition-on-partition-horrors',
                             'image' => '/mobile-assets/media-corner/2026/aug/20/3.jpeg',
-                            'content' => 'An exhibition titled “Memory, Loss & Resilience: 14 August 1947”, has been organised by the Indira Gandhi National Centre for the Arts (IGNCA), Regional Centre, Guwahati, in collaboration with the Royal School of Languages, The Assam Royal Global University (RGU). The exhibition is currently underway at the GHI Block of the University, and will continue till 20 August 2026.',
+                            'content' =>
+                                'An exhibition titled “Memory, Loss & Resilience: 14 August 1947”, has been organised by the Indira Gandhi National Centre for the Arts (IGNCA), Regional Centre, Guwahati, in collaboration with the Royal School of Languages, The Assam Royal Global University (RGU). The exhibition is currently underway at the GHI Block of the University, and will continue till 20 August 2026.',
                         ],
                         [
-                            'title' =>
-                                'RGU Celebrates 80th Independence Day with Patriotic and Cultural Grandeur',
-                            'summary' =>
-                                '',
+                            'title' => 'RGU Celebrates 80th Independence Day with Patriotic and Cultural Grandeur',
+                            'summary' => '',
                             'date' => 'Guwahati, August 15, 2026:',
                             'link' => '/rgu-celebrates-80th-independence-day-with-patriotic-and-cultural-grandeur',
                             'image' => '/mobile-assets/media-corner/2026/aug/15/2.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) celebrated the 80th Independence Day of India with patriotic fervour and cultural splendour, as the entire campus came alive in the vibrant colours of the Tricolour. The celebrations featured inspiring speeches, soulful music, traditional dance and a colourful cultural presentation, reflecting the spirit of unity in diversity that defines the nation.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) celebrated the 80th Independence Day of India with patriotic fervour and cultural splendour, as the entire campus came alive in the vibrant colours of the Tricolour. The celebrations featured inspiring speeches, soulful music, traditional dance and a colourful cultural presentation, reflecting the spirit of unity in diversity that defines the nation.',
                         ],
                         [
-                            'title' =>
-                                '757 Students Awarded Scholarships by Royal Global University for AY 2026-27',
-                            'summary' =>
-                                '',
+                            'title' => '757 Students Awarded Scholarships by Royal Global University for AY 2026-27',
+                            'summary' => '',
                             'date' => 'Guwahati, August 14, 2026:',
                             'link' => '/757-students-awarded-scholarships-by-royal-global-university-for-ay-2026-27',
                             'image' => '/mobile-assets/media-corner/2026/aug/new-file/3.jpeg',
-                            'content' => 'Reinforcing its commitment to promoting higher education and encouraging meritorious students from the Northeast, The Assam Royal Global University (RGU) today organised the Felicitation Ceremony for Scholarship Awardees, honouring more than 700 newly admitted students across various programmes for the Academic Year 2026–27.',
+                            'content' =>
+                                'Reinforcing its commitment to promoting higher education and encouraging meritorious students from the Northeast, The Assam Royal Global University (RGU) today organised the Felicitation Ceremony for Scholarship Awardees, honouring more than 700 newly admitted students across various programmes for the Academic Year 2026–27.',
                         ],
                         [
-                            'title' =>
-                                'RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading',
-                            'summary' =>
-                                '',
+                            'title' => 'RGU Organises ‘Walk to the Library’ to Promote a Culture of Reading',
+                            'summary' => '',
                             'date' => 'Guwahati, August 12, 2026:',
                             'link' => '/rgu-organises-walk-to-the-library-to-promote-a-culture-of-reading',
                             'image' => '/mobile-assets/media-corner/2026/aug/1file/1.jpeg',
-                            'content' => 'On the occasion of Librarian’s Day, The Assam Royal University (RGU) organised a special programme titled “Walk to the Library” on Wednesday, August 12, with the objective of inspiring and enthusing the university fraternity to embrace reading as an integral part of academic and personal life.',
+                            'content' =>
+                                'On the occasion of Librarian’s Day, The Assam Royal University (RGU) organised a special programme titled “Walk to the Library” on Wednesday, August 12, with the objective of inspiring and enthusing the university fraternity to embrace reading as an integral part of academic and personal life.',
                         ],
                         [
-                            'title' =>
-                                'RGU Celebrates International Day of the World’s Indigenous Peoples’',
+                            'title' => 'RGU Celebrates International Day of the World’s Indigenous Peoples’',
                             'summary' =>
                                 'Traditional knowledge shows how to live in greater harmony with nature: Minister Biswajit Daimary at Royal Global University',
                             'date' => 'Guwahati, August 11, 2026:',
                             'link' => '/rgu-celebrates-international-day-of-the-worlds-indigenous-peoples',
                             'image' => '/mobile-assets/media-corner/2026/aug/2.jpeg',
-                            'content' => 'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme...',
+                            'content' =>
+                                'The International Day of the World’s Indigenous Peoples was celebrated by The Assam Royal Global University (RGU) on Tuesday with a vibrant cultural and scholarly programme...',
                         ],
                         [
                             'title' =>
                                 'Singer & Media Professional Mayukh Hazarika Joins Royal Global University as Professor of Practice’',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, August 10, 2026:',
-                            'link' => '/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice',
+                            'link' =>
+                                '/singer-media-professional-mayukh-hazarika-joins-royal-global-university-as-professor-of-practice',
                             'image' => '/mobile-assets/media-corner/Mayukh.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) has appointed veteran media professional and acclaimed Assamese musician Shri Mayukh Hazarika as Professor of Practice at the Royal School of Communication and Media. Shri Hazarika brings nearly three decades of distinguished experience in national media, television, creative communications and event management...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has appointed veteran media professional and acclaimed Assamese musician Shri Mayukh Hazarika as Professor of Practice at the Royal School of Communication and Media. Shri Hazarika brings nearly three decades of distinguished experience in national media, television, creative communications and event management...',
                         ],
                         [
-                            'title' =>
-                                'Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’',
-                            'summary' =>
-                                '',
+                            'title' => 'Royal Global University Launches Annual Lookbook ‘Threads of Tomorrow–2026’',
+                            'summary' => '',
                             'date' => 'Guwahati, August 4, 2026:',
                             'link' => '/royal-global-university-launches-annual-lookbook-threads-of-tomorrow-2026',
                             'image' => '/mobile-assets/media-corner/2026/aug/f3.jpeg',
-                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) at The Assam Royal Global University (RGU) on Tuesday launched the second edition of its annual lookbook, Threads of Tomorrow–2026, showcasing the creative work of its graduating batch. The University also inaugurated a new fashion studio, The Design Atelier, during the programme...',
+                            'content' =>
+                                'The Royal School of Fashion Design and Technology (RSFT) at The Assam Royal Global University (RGU) on Tuesday launched the second edition of its annual lookbook, Threads of Tomorrow–2026, showcasing the creative work of its graduating batch. The University also inaugurated a new fashion studio, The Design Atelier, during the programme...',
                         ],
                         [
-                            'title' =>
-                                'Robo Dog draws Nation-wide Attention with ‘Assam Needs You’ for Flood Victims',
-                            'summary' =>
-                                '',
+                            'title' => 'Robo Dog draws Nation-wide Attention with ‘Assam Needs You’ for Flood Victims',
+                            'summary' => '',
                             'date' => 'Guwahati, August 3, 2026:',
                             'link' => '/robo-dog-draws-nation-wide-attention-with-assam-needs-you-for-flood-victims',
                             'image' => '/mobile-assets/media-corner/2026/aug-1.jpeg',
-                            'content' => 'Spectators at the ACA Stadium, Barsapara, witnessed a meaningful moment during yesterday’s Imperial Blue Packaged Drinking Water Assam Premier League match between Guwahati Royals and Jorhat Stallions...',
+                            'content' =>
+                                'Spectators at the ACA Stadium, Barsapara, witnessed a meaningful moment during yesterday’s Imperial Blue Packaged Drinking Water Assam Premier League match between Guwahati Royals and Jorhat Stallions...',
                         ],
                         [
-                            'title' =>
-                                'Royal Global University Welcomes New Students with Deeksharambh 2026',
-                            'summary' =>
-                                'RGU Commences 19-Day Student Induction Programme, Deeksharambh 2026',
+                            'title' => 'Royal Global University Welcomes New Students with Deeksharambh 2026',
+                            'summary' => 'RGU Commences 19-Day Student Induction Programme, Deeksharambh 2026',
                             'date' => 'Guwahati, July 29, 2026:',
                             'link' => '/royal-global-university-welcomes-new-students-with-deeksharambh-2026',
                             'image' => '/mobile-assets/media-corner/2026/july/d/2.JPG',
-                            'content' => 'The Assam Royal Global University (RGU) today commenced Deeksharambh 2026, its annual Student Induction Programme for newly admitted undergraduate students...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) today commenced Deeksharambh 2026, its annual Student Induction Programme for newly admitted undergraduate students...',
                         ],
                         [
                             'title' =>
                                 'RGU Prof. Appointed Chair Prof. of Srimanta Sankardev Chair at Panjab University',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, July 21, 2026:',
                             'link' => '/rgu-prof-appointed-chair-prof-of-srimanta-sankardev-chair-at-panjab-university',
                             'image' => '/mobile-assets/media-corner/2026/10/Dr. Pradip Jyoti Mahanta.jpeg',
-                            'content' => 'Dr. Pradip Jyoti Mahanta, distinguished academic and senior Professor of English at The Assam Royal Global University (RGU), has been appointed Chair Professor of the prestigious Srimanta Sankardev Chair at Panjab University, Chandigarh...',
+                            'content' =>
+                                'Dr. Pradip Jyoti Mahanta, distinguished academic and senior Professor of English at The Assam Royal Global University (RGU), has been appointed Chair Professor of the prestigious Srimanta Sankardev Chair at Panjab University, Chandigarh...',
                         ],
                         [
                             'title' =>
@@ -175,49 +179,52 @@
                             'summary' =>
                                 'Mindfulness Skill to be Introduced among RGU Students for Greater Focus: Prof Thinley',
                             'date' => 'Guwahati, July 14, 2026:',
-                            'link' => '/internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university',
+                            'link' =>
+                                '/internationally-acclaimed-prof-thinley-from-bhutan-joins-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/july/2.png',
-                            'content' => 'The Assam Royal Global University (RGU) has welcomed internationally renowned academician, education leader, researcher, and advocate of holistic education, Dr. Dorji Thinley as Professor in the Department of English...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has welcomed internationally renowned academician, education leader, researcher, and advocate of holistic education, Dr. Dorji Thinley as Professor in the Department of English...',
                         ],
                         [
                             'title' =>
                                 'RGU Felicitates VC and Faculty Members for Recognition Among World’s Top 5% Scientists',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, July 10, 2026:',
-                            'link' => '/rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists',
+                            'link' =>
+                                '/rgu-felicitates-vc-and-faculty-members-for-recognition-among-worlds-top-5-scientists',
                             'image' => '/mobile-assets/media-corner/2026/scientice.png',
-                            'content' => 'The Assam Royal Global University (RGU) has felicitated its Vice Chancellor and three more faculty members for their remarkable achievement of being recognised among the Top 5% Scientists globally by SciRank Global Registry...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has felicitated its Vice Chancellor and three more faculty members for their remarkable achievement of being recognised among the Top 5% Scientists globally by SciRank Global Registry...',
                         ],
                         [
                             'title' =>
                                 'Royal Global University Signs MoU with Assam Police to Expand Educational Opportunities for Police Families',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, July 3, 2026:',
                             'link' => '/rgu-signs-moU-with-assam-police',
                             'image' => '/mobile-assets/media-corner/2026/assam.png',
-                            'content' => 'In a significant initiative aimed at supporting the families of police personnel through quality higher education, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Assam Police...',
+                            'content' =>
+                                'In a significant initiative aimed at supporting the families of police personnel through quality higher education, The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Assam Police...',
                         ],
                         [
-                            'title' =>
-                                'Guwahati Royals unveiled at Assam Premier League launch',
-                            'summary' =>
-                                '',
+                            'title' => 'Guwahati Royals unveiled at Assam Premier League launch',
+                            'summary' => '',
                             'date' => 'Guwahati, June 21, 2026:',
                             'link' => '/guwahati-royals-unveiled-at-assam-premier-league-launch',
                             'image' => '/mobile-assets/media-corner/2026/jun/news10-1.jpeg',
-                            'content' => 'Guwahati Royals, a Royal Group initiative, was officially unveiled today as one of the eight participating franchises of the inaugural Assam Premier League during a launch ceremony organised by the Assam Cricket Association at the ACA Stadium in Barsapara.',
+                            'content' =>
+                                'Guwahati Royals, a Royal Group initiative, was officially unveiled today as one of the eight participating franchises of the inaugural Assam Premier League during a launch ceremony organised by the Assam Cricket Association at the ACA Stadium in Barsapara.',
                         ],
                         [
                             'title' =>
                                 'Royal Global University Honoured as “Most Eminent University of North East India” at Education Eminence Awards 2026',
-                            'summary' =>
-                                '',
+                            'summary' => '',
                             'date' => 'Guwahati, June 21, 2026:',
-                            'link' => '/royal-global-university-honoured-as-most-eminent-university-of-north-east-india-at-education-eminence-awards-2026',
+                            'link' =>
+                                '/royal-global-university-honoured-as-most-eminent-university-of-north-east-india-at-education-eminence-awards-2026',
                             'image' => '/mobile-assets/media-corner/2026/jun/news-9.jpeg',
-                            'content' => 'In a significant recognition of its outstanding contribution to higher education, The Assam Royal Global University (RGU) has been conferred the prestigious “Most Eminent University of North East India”...',
+                            'content' =>
+                                'In a significant recognition of its outstanding contribution to higher education, The Assam Royal Global University (RGU) has been conferred the prestigious “Most Eminent University of North East India”...',
                         ],
                         [
                             'title' =>

@@ -3281,6 +3281,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools', function () {
+    return view('frontend/media-corner/2026/aug/news11');
+})->name('royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools');
+
 Route::get('/5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university', function () {
     return view('frontend/media-corner/2026/aug/news10');
 })->name('5-day-long-fdp-on-entrepreneurship-start-up-held-at-royal-global-university');
