@@ -865,7 +865,7 @@ Responsive
 
                 name: "Royal School of Architecture (RSA)",
 
-                image: "assets/img/academics-schools-faculty/architecture.png",
+                image: "/new-web/assets/academics-schools-faculty/architecture.png",
 
                 departmentPage: "https://www.rgu.ac/department-architecture",
 
@@ -915,7 +915,7 @@ Responsive
 
                 name: "Royal School of Business (RSB)",
 
-                image: "assets/img/academics-schools-faculty/rsb.png",
+                image: "/new-web/assets/academics-schools-faculty/rsb.png",
 
                 departmentPage: "https://www.rgu.ac/department-business",
 
@@ -1004,7 +1004,7 @@ Responsive
 
                 name: "Royal School of Communications & Media (RSCOM)",
 
-                image: "assets/img/academics-schools-faculty/rscom.png",
+                image: "/new-web/assets/academics-schools-faculty/rscom.png",
 
                 departmentPage: "https://www.rgu.ac/department-communications-media",
 
