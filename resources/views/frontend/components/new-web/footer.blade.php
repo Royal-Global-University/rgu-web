@@ -49,7 +49,7 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        <li><a href="/mobile-assets/pdf/CGPA CONVERSION CERTIFICATE.pdf">CGPA CONVERSION CERTIFICATE</a></li>
+                        
                         <li><a href="/mobile-assets/pdf/Brochure 2026.pdf">Brochure 2026–2027</a></li>
                         <li><a href="/annual-report">Annual Report</a></li>
                         <li><a href="/institutional-development-plan">Institutional Development Plan</a></li>
@@ -87,6 +87,7 @@
                         <li><a href="/mobile-assets/pdf/WITHDRAWAL.pdf">Students Withdrawal Form</a></li>
                         <li><a href="/equal-opportunities-cell">Equal Opportunity Cell</a></li>
                         <li><a href="/counselling-cell">Counselling Cell</a></li>
+                        <li><a href="/mobile-assets/pdf/CGPA CONVERSION CERTIFICATE.pdf">CGPA CONVERSION CERTIFICATE</a></li>
                         {{-- <li><a href="/institutional-development-plan">Institutional Development Plan</a></li>
                         <li><a href="https://rgujournal.in/">RGU Journal</a></li>
                         <li><a href="/nirf">NIRF</a></li>
