@@ -49,7 +49,7 @@
                     </h4>
 
                     <ul class="unq-rgu-ftr-list">
-                        {{-- <li><a href="/examinations">Examination</a></li> --}}
+                        <li><a href="/mobile-assets/pdf/CGPA CONVERSION CERTIFICATE.pdf">CGPA CONVERSION CERTIFICATE</a></li>
                         <li><a href="/mobile-assets/pdf/Brochure 2026.pdf">Brochure 2026–2027</a></li>
                         <li><a href="/annual-report">Annual Report</a></li>
                         <li><a href="/institutional-development-plan">Institutional Development Plan</a></li>
