@@ -2,7 +2,7 @@
 @section('content')
     <section class="pg-hero">
         <div class="pg-hero-bg"
-            style="background-image:url('/new-web/assets/academics-schools-faculty/cover.png'); filter: blur(2px);">
+            style="background-image:url('assets/img/academics-schools-faculty/cover.png'); filter: blur(2px);">
         </div>
 
         <div class="pg-hero-bg"></div>
@@ -302,6 +302,110 @@
 
         }
 
+        /*=========================================================
+             FACULTY SEARCH RESULTS
+            =========================================================*/
+
+        .faculty-search {
+            position: relative;
+        }
+
+        .faculty-search-results {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            right: 0;
+            display: none;
+            max-height: 420px;
+            overflow-y: auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 14px 35px rgba(0, 0, 0, .18);
+            z-index: 9999;
+            text-align: left;
+        }
+
+        .faculty-search-results.show {
+            display: block;
+        }
+
+        .faculty-search-result {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 13px 15px;
+            border-bottom: 1px solid #edf0f5;
+            transition: .2s ease;
+        }
+
+        .faculty-search-result:last-child {
+            border-bottom: 0;
+        }
+
+        .faculty-search-result:hover {
+            background: #f6f8fc;
+        }
+
+        .faculty-result-icon {
+            width: 38px;
+            height: 38px;
+            min-width: 38px;
+            border-radius: 50%;
+            background: #20315f;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .faculty-result-content {
+            min-width: 0;
+            flex: 1;
+        }
+
+        .faculty-result-name {
+            display: block;
+            color: #20315f;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.35;
+            margin-bottom: 5px;
+        }
+
+        .faculty-result-school {
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+            color: #68748a;
+            font-size: 12px;
+            line-height: 1.45;
+            text-decoration: none;
+            padding: 2px 0;
+        }
+
+        .faculty-result-school:hover {
+            color: #e76638;
+        }
+
+        .faculty-result-school i {
+            color: #e76638;
+            margin-top: 2px;
+        }
+
+        .faculty-search-state {
+            padding: 18px;
+            color: #68748a;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        @media (max-width: 575px) {
+            .faculty-search-results {
+                max-height: 360px;
+            }
+        }
+
 
         /*************************
     Cards
@@ -382,10 +486,10 @@
 
             background: #e6673a;
             color: #fff;
-            padding: 10px 18px;
-            font-size: 19px;
+            padding: 15px 20px;
+            font-size: 16px;
             font-weight: 600;
-            border-radius: 8px;
+            border-radius: 4px;
             text-decoration: none;
             transition: .3s;
 
@@ -403,10 +507,10 @@
             background: #fff;
             border: 1px solid #bccce6;
             color: #294b84;
-            padding: 10px 18px;
-            font-size: 19px;
+            padding: 15px 20px;
+            font-size: 16px;
             font-weight: 600;
-            border-radius: 8px;
+            border-radius: 4px;
             text-decoration: none;
             transition: .3s;
 
@@ -612,6 +716,19 @@
 
     <section class="school-directory">
 
+        <div class="container">
+            <!-- Heading -->
+            <div class="school-title">
+                <h2>Schools At RGU</h2>
+
+                <p>
+                    Explore the diverse schools at RGU, each offering industry-focused programmes designed to build
+                    practical skills and strong career foundations. With expert faculty, modern facilities,
+                    and real-world learning, our schools prepare you to succeed in a dynamic global environment.
+                </p>
+            </div>
+
+        </div>
 
         <!-- Blue Section -->
 
@@ -655,11 +772,15 @@
 
                 <div class="faculty-search">
 
-                    <input type="text" placeholder="Search By Faculty" id="facultySearch">
+                    <input type="text" placeholder="Search By Faculty" id="facultySearch" autocomplete="off"
+                        aria-label="Search By Faculty">
 
-                    <button>
+                    <button type="button" id="facultySearchBtn" aria-label="Search faculty">
                         <i class="bi bi-search"></i>
                     </button>
+
+                    <div class="faculty-search-results" id="facultySearchResults" role="listbox"
+                        aria-label="Faculty search results"></div>
 
                 </div>
 
@@ -679,19 +800,19 @@
             <div class="quick-access-box">
 
 
-                <a href="/admission-programs-fees-structure">
+                <a href="https://www.rgu.ac/admission-programs-fees-structure">
                     Fee Structure
                 </a>
 
-                <a href="/programs">
+                <a href="https://www.rgu.ac/programs">
                     Eligibility Criteria
                 </a>
 
-                <a href="/phd">
+                <a href="https://www.rgu.ac/phd">
                     Doctoral Programme
                 </a>
 
-                <a href="/scholarship&funding">
+                <a href="https://www.rgu.ac/scholarship&funding">
                     Scholarships
                 </a>
 
@@ -717,9 +838,9 @@
 
                 name: "Integrated Civil Service Programme",
 
-                image: "/mobile-assets/school-rgu/ias-banner.png",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/ias-banner.png",
 
-                departmentPage: "/ias-courses",
+                departmentPage: "https://www.rgu.ac/ias-courses",
 
                 facultyPage: "",
 
@@ -727,7 +848,7 @@
 
                     {
                         name: "Integrated Civil Service Programme",
-                        url: "/ias-courses"
+                        url: "https://www.rgu.ac/ias-courses"
                     }
 
                 ]
@@ -737,17 +858,17 @@
 
                 name: "Royal School of Agriculture and Forestry (RSAF)",
 
-                image: "/mobile-assets/agri.png",
+                image: "https://www.rgu.ac/mobile-assets/agri.png",
 
-                departmentPage: "/royal-school-of-agriculture",
+                departmentPage: "https://www.rgu.ac/royal-school-of-agriculture",
 
-                facultyPage: "/faculty-agriculture",
+                facultyPage: "https://www.rgu.ac/faculty-agriculture",
 
                 departments: [
 
                     {
                         name: "Royal School of Agriculture and Forestry (RSAF)",
-                        url: "/royal-school-of-agriculture"
+                        url: "https://www.rgu.ac/royal-school-of-agriculture"
                     }
 
                 ]
@@ -757,17 +878,17 @@
 
                 name: "Royal School of Architecture (RSA)",
 
-                image: "/new-web/assets/academics-schools-faculty/architecture.png",
+                image: "assets/img/academics-schools-faculty/architecture.png",
 
-                departmentPage: "/department-architecture",
+                departmentPage: "https://www.rgu.ac/department-architecture",
 
-                facultyPage: "/faculty-architecture",
+                facultyPage: "https://www.rgu.ac/faculty-architecture",
 
                 departments: [
 
                     {
                         name: "Royal School of Architecture (RSA)",
-                        url: "/department-architecture"
+                        url: "https://www.rgu.ac/department-architecture"
                     }
 
                 ]
@@ -777,27 +898,27 @@
 
                 name: "Royal School of Applied & Pure Sciences (RSAPS)",
 
-                image: "/mobile-assets/school-rgu/applied.001.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/applied.001.jpeg",
 
-                departmentPage: "/royal-s-school-of-applied-pure-science",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-applied-pure-science",
 
-                facultyPage: "/faculty-applied-purescience",
+                facultyPage: "https://www.rgu.ac/faculty-applied-purescience",
 
                 departments: [
 
                     {
                         name: "Department of Physics",
-                        url: "/department-physics"
+                        url: "https://www.rgu.ac/department-physics"
                     },
 
                     {
                         name: "Department of Chemistry",
-                        url: "/department-chemistry"
+                        url: "https://www.rgu.ac/department-chemistry"
                     },
 
                     {
                         name: "Department of Mathematics",
-                        url: "/department-mathematics"
+                        url: "https://www.rgu.ac/department-mathematics"
                     }
 
                 ]
@@ -807,17 +928,17 @@
 
                 name: "Royal School of Business (RSB)",
 
-                image: "/new-web/assets/academics-schools-faculty/rsb.png",
+                image: "assets/img/academics-schools-faculty/rsb.png",
 
-                departmentPage: "/department-business",
+                departmentPage: "https://www.rgu.ac/department-business",
 
-                facultyPage: "/faculty-business",
+                facultyPage: "https://www.rgu.ac/faculty-business",
 
                 departments: [
 
                     {
                         name: "Royal School of Business (RSB)",
-                        url: "/department-business"
+                        url: "https://www.rgu.ac/department-business"
                     }
 
                 ]
@@ -827,17 +948,17 @@
 
                 name: "Royal School of Behavioral & Allied Sciences (RSBAS)",
 
-                image: "/mobile-assets/school-rgu/behavioral.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/behavioral.jpeg",
 
-                departmentPage: "/department-psychology",
+                departmentPage: "https://www.rgu.ac/department-psychology",
 
-                facultyPage: "/faculty-allied-sciences",
+                facultyPage: "https://www.rgu.ac/faculty-allied-sciences",
 
                 departments: [
 
                     {
                         name: "Royal School of Behavioral & Allied Sciences (RSBAS)",
-                        url: "/department-psychology"
+                        url: "https://www.rgu.ac/department-psychology"
                     }
 
                 ]
@@ -847,27 +968,27 @@
 
                 name: "Royal School of Bio-sciences (RSBSC)",
 
-                image: "/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/rsbsc-school-header.jpeg",
 
-                departmentPage: "/royal-s-school-of-bio-science",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-bio-science",
 
-                facultyPage: "/faculty-bio-sciences",
+                facultyPage: "https://www.rgu.ac/faculty-bio-sciences",
 
                 departments: [
 
                     {
                         name: "Department of Biotechnology",
-                        url: "/department-biotechnology"
+                        url: "https://www.rgu.ac/department-biotechnology"
                     },
 
                     {
                         name: "Department of Microbiology",
-                        url: "/department-microbiology"
+                        url: "https://www.rgu.ac/department-microbiology"
                     },
 
                     {
                         name: "Department of Food Technology",
-                        url: "/department-food-technology"
+                        url: "https://www.rgu.ac/department-food-technology"
                     }
 
                 ]
@@ -877,17 +998,17 @@
 
                 name: "Royal School of Commerce (RSC)",
 
-                image: "/mobile-assets/school-rgu/commerce.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/commerce.jpeg",
 
-                departmentPage: "/department-commerce",
+                departmentPage: "https://www.rgu.ac/department-commerce",
 
-                facultyPage: "/faculty-commerce",
+                facultyPage: "https://www.rgu.ac/faculty-commerce",
 
                 departments: [
 
                     {
                         name: "Royal School of Commerce (RSC)",
-                        url: "/department-commerce"
+                        url: "https://www.rgu.ac/department-commerce"
                     }
                 ]
             },
@@ -896,17 +1017,17 @@
 
                 name: "Royal School of Communications & Media (RSCOM)",
 
-                image: "/new-web/assets/academics-schools-faculty/rscom.png",
+                image: "assets/img/academics-schools-faculty/rscom.png",
 
-                departmentPage: "/department-communications-media",
+                departmentPage: "https://www.rgu.ac/department-communications-media",
 
-                facultyPage: "/rscom-faculty",
+                facultyPage: "https://www.rgu.ac/rscom-faculty",
 
                 departments: [
 
                     {
                         name: "Royal School of Communications & Media (RSCOM)",
-                        url: "/department-communications-media"
+                        url: "https://www.rgu.ac/department-communications-media"
                     }
 
                 ]
@@ -916,37 +1037,37 @@
 
                 name: "Royal School of Design (RSD)",
 
-                image: "/mobile-assets/school-rgu/design.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/design.jpeg",
 
-                departmentPage: "/royal-s-school-of-design",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-design",
 
-                facultyPage: "/faculty-design",
+                facultyPage: "https://www.rgu.ac/faculty-design",
 
                 departments: [
 
                     {
                         name: "Department of Product Design",
-                        url: "/department-product-design"
+                        url: "https://www.rgu.ac/department-product-design"
                     },
 
                     {
                         name: "Department of Communication Design",
-                        url: "/department-communication-design"
+                        url: "https://www.rgu.ac/department-communication-design"
                     },
 
                     {
                         name: "Department of Interior Design",
-                        url: "/department-interior-design"
+                        url: "https://www.rgu.ac/department-interior-design"
                     },
 
                     {
                         name: "Department of Graphic Design",
-                        url: "/department-graphic-design"
+                        url: "https://www.rgu.ac/department-graphic-design"
                     },
 
                     {
                         name: "Department of Fashion Design",
-                        url: "/department-fashion-design"
+                        url: "https://www.rgu.ac/department-fashion-design"
                     }
                 ]
             },
@@ -955,27 +1076,27 @@
 
                 name: "Royal School of Environmental and Earth Sciences (RSEES)",
 
-                image: "/mobile-assets/school-rgu/earth.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/earth.jpeg",
 
-                departmentPage: "/royal-s-school-of-enviroment-science",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-enviroment-science",
 
-                facultyPage: "/faculty-environmental-earth",
+                facultyPage: "https://www.rgu.ac/faculty-environmental-earth",
 
                 departments: [
 
                     {
                         name: "Department of Geography and Geoinformatics",
-                        url: "/department-geography-geoinformatics"
+                        url: "https://www.rgu.ac/department-geography-geoinformatics"
                     },
 
                     {
                         name: "Department of Environmental Science",
-                        url: "/department-environmental-sciences"
+                        url: "https://www.rgu.ac/department-environmental-sciences"
                     },
 
                     {
                         name: "Department of Geology",
-                        url: "/department-geology"
+                        url: "https://www.rgu.ac/department-geology"
                     }
 
                 ]
@@ -985,27 +1106,27 @@
 
                 name: "Royal School of Engineering and Technology (RSET)",
 
-                image: "/mobile-assets/school-rgu/soet.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/soet.jpeg",
 
-                departmentPage: "/royal-s-school-of-engineering-technology",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-engineering-technology",
 
-                facultyPage: "/faculty-engineeringtechnology",
+                facultyPage: "https://www.rgu.ac/faculty-engineeringtechnology",
 
                 departments: [
 
                     {
                         name: "Department of Computer Science",
-                        url: "/department-cse"
+                        url: "https://www.rgu.ac/department-cse"
                     },
 
                     {
                         name: "Department of Mechanical Engineering",
-                        url: "/department-mechanical-engineering"
+                        url: "https://www.rgu.ac/department-mechanical-engineering"
                     },
 
                     {
                         name: "Department of Civil Engineering",
-                        url: "/department-civil-engineering"
+                        url: "https://www.rgu.ac/department-civil-engineering"
                     }
 
                 ]
@@ -1015,17 +1136,17 @@
 
                 name: "Royal School of Fine Arts (RSFA)",
 
-                image: "/mobile-assets/school-rgu/art.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/art.jpeg",
 
-                departmentPage: "/department-fine-arts",
+                departmentPage: "https://www.rgu.ac/department-fine-arts",
 
-                facultyPage: "/faculty-finearts",
+                facultyPage: "https://www.rgu.ac/faculty-finearts",
 
                 departments: [
 
                     {
                         name: "Royal School of Fine Arts (RSFA)",
-                        url: "/department-fine-arts"
+                        url: "https://www.rgu.ac/department-fine-arts"
                     }
 
                 ]
@@ -1035,17 +1156,17 @@
 
                 name: "Royal School of Fashion Design (RSFD)",
 
-                image: "/mobile-assets/school-rgu/fashion.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/fashion.jpeg",
 
-                departmentPage: "/department-fashion-design",
+                departmentPage: "https://www.rgu.ac/department-fashion-design",
 
-                facultyPage: "/faculty-fashion-design",
+                facultyPage: "https://www.rgu.ac/faculty-fashion-design",
 
                 departments: [
 
                     {
                         name: "Royal School of Fashion Design (RSFD)",
-                        url: "/department-fashion-design"
+                        url: "https://www.rgu.ac/department-fashion-design"
                     }
 
                 ]
@@ -1055,42 +1176,42 @@
 
                 name: "Royal School of Humanities (RSHSS)",
 
-                image: "/mobile-assets/school-rgu/humanities.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/humanities.jpeg",
 
-                departmentPage: "/royal-s-school-of-humanities",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-humanities",
 
-                facultyPage: "/faculty-humanities-social",
+                facultyPage: "https://www.rgu.ac/faculty-humanities-social",
 
                 departments: [
 
                     {
                         name: "Department of Economics",
-                        url: "/department-economics"
+                        url: "https://www.rgu.ac/department-economics"
                     },
 
                     {
                         name: "Department of History",
-                        url: "/department-history"
+                        url: "https://www.rgu.ac/department-history"
                     },
 
                     {
                         name: "Department of Public Administration",
-                        url: "/department-of-political-science-public-administration"
+                        url: "https://www.rgu.ac/department-of-political-science-public-administration"
                     },
 
                     {
                         name: "Department of Sociology",
-                        url: "/department-sociology"
+                        url: "https://www.rgu.ac/department-sociology"
                     },
 
                     {
                         name: "Department of Social Work",
-                        url: "/department-social-work"
+                        url: "https://www.rgu.ac/department-social-work"
                     },
 
                     {
                         name: "Department of IKS",
-                        url: "/department-IKS"
+                        url: "https://www.rgu.ac/department-IKS"
                     }
 
                 ]
@@ -1100,17 +1221,17 @@
 
                 name: "Royal School of Hotel Management (RSHM)",
 
-                image: "/new-web/assets/academics-schools-faculty/hotel.png",
+                image: "assets/img/academics-schools-faculty/hotel.png",
 
-                departmentPage: "/department-hotel-management",
+                departmentPage: "https://www.rgu.ac/department-hotel-management",
 
-                facultyPage: "/faculty-hotel-management",
+                facultyPage: "https://www.rgu.ac/faculty-hotel-management",
 
                 departments: [
 
                     {
                         name: "Royal School of Hotel Management (RSHM)",
-                        url: "/department-hotel-management"
+                        url: "https://www.rgu.ac/department-hotel-management"
                     }
 
                 ]
@@ -1120,17 +1241,17 @@
 
                 name: "Royal School of Information Technology (RSIT)",
 
-                image: "/new-web/assets/academics-schools-faculty/rsit.png",
+                image: "assets/img/academics-schools-faculty/rsit.png",
 
-                departmentPage: "/department-information-technology",
+                departmentPage: "https://www.rgu.ac/department-information-technology",
 
-                facultyPage: "/faculty-information-technology",
+                facultyPage: "https://www.rgu.ac/faculty-information-technology",
 
                 departments: [
 
                     {
                         name: "Royal School of Information Technology (RSIT)",
-                        url: "/department-information-technology"
+                        url: "https://www.rgu.ac/department-information-technology"
                     }
 
                 ]
@@ -1140,17 +1261,17 @@
 
                 name: "Royal School of Law & Administration (RSLA)",
 
-                image: "/mobile-assets/school-rgu/law.jpeg",
+                image: "https://www.rgu.ac/mobile-assets/school-rgu/law.jpeg",
 
-                departmentPage: "/department-law",
+                departmentPage: "https://www.rgu.ac/department-law",
 
-                facultyPage: "/faculty-law-administration",
+                facultyPage: "https://www.rgu.ac/faculty-law-administration",
 
                 departments: [
 
                     {
                         name: "Royal School of Law & Administration (RSLA)",
-                        url: "/department-law"
+                        url: "https://www.rgu.ac/department-law"
                     }
 
                 ]
@@ -1160,32 +1281,32 @@
 
                 name: "Royal School of Life Sciences (RSLSC)",
 
-                image: "/new-web/assets/academics-schools-faculty/rslsc.png",
+                image: "assets/img/academics-schools-faculty/rslsc.png",
 
-                departmentPage: "/royal-s-school-of-life-science",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-life-science",
 
-                facultyPage: "/faculty-lifesciences",
+                facultyPage: "https://www.rgu.ac/faculty-lifesciences",
 
                 departments: [
 
                     {
                         name: "Department of Botany",
-                        url: "/department-botany"
+                        url: "https://www.rgu.ac/department-botany"
                     },
 
                     {
                         name: "Department of Zoology",
-                        url: "/department-zoology"
+                        url: "https://www.rgu.ac/department-zoology"
                     },
 
                     {
                         name: "Department of Forensic Science",
-                        url: "/department-forensic-sciences"
+                        url: "https://www.rgu.ac/department-forensic-sciences"
                     },
 
                     {
                         name: "Department of Forestry",
-                        url: "/department-forestry"
+                        url: "https://www.rgu.ac/department-forestry"
                     }
 
                 ]
@@ -1195,22 +1316,22 @@
 
                 name: "Royal School of Languages (RSL)",
 
-                image: "/new-web/assets/academics-schools-faculty/languages.png",
+                image: "assets/img/academics-schools-faculty/languages.png",
 
-                departmentPage: "/royal-school-of-languages",
+                departmentPage: "https://www.rgu.ac/royal-school-of-languages",
 
-                facultyPage: "/faculty-languages",
+                facultyPage: "https://www.rgu.ac/faculty-languages",
 
                 departments: [
 
                     {
                         name: "Department of English",
-                        url: "/department-english"
+                        url: "https://www.rgu.ac/department-english"
                     },
 
                     {
                         name: "Department of Assamese",
-                        url: "/department-assamese"
+                        url: "https://www.rgu.ac/department-assamese"
                     }
 
                 ]
@@ -1220,17 +1341,17 @@
 
                 name: "Royal School of Library & Information Science (RSLISC)",
 
-                image: "/new-web/assets/academics-schools-faculty/library.png",
+                image: "assets/img/academics-schools-faculty/library.png",
 
-                departmentPage: "/department-library-information",
+                departmentPage: "https://www.rgu.ac/department-library-information",
 
-                facultyPage: "/faculty-librarysciences",
+                facultyPage: "https://www.rgu.ac/faculty-librarysciences",
 
                 departments: [
 
                     {
                         name: "Royal School of Library & Information Science (RSLISC)",
-                        url: "/department-library-information"
+                        url: "https://www.rgu.ac/department-library-information"
                     }
                 ]
             },
@@ -1239,42 +1360,42 @@
 
                 name: "Royal School of Medical & Allied Science (RSMAS)",
 
-                image: "/new-web/assets/academics-schools-faculty/rsmas.png",
+                image: "assets/img/academics-schools-faculty/rsmas.png",
 
-                departmentPage: "/royal-s-school-of-medical-allied-science",
+                departmentPage: "https://www.rgu.ac/royal-s-school-of-medical-allied-science",
 
-                facultyPage: "/faculty-medical&allidesciences",
+                facultyPage: "https://www.rgu.ac/faculty-medical&allidesciences",
 
                 departments: [
 
                     {
                         name: "Department of Physiotherapy",
-                        url: "/department-physiotherapy"
+                        url: "https://www.rgu.ac/department-physiotherapy"
                     },
 
                     {
                         name: "Department of Optometry",
-                        url: "/department-optometry"
+                        url: "https://www.rgu.ac/department-optometry"
                     },
 
                     {
                         name: "Department of Anaesthesia and Operation Theatre Technology",
-                        url: "/department-operationtheatre"
+                        url: "https://www.rgu.ac/department-operationtheatre"
                     },
 
                     {
                         name: "Department of Medical Laboratory Sciences",
-                        url: "/department-medical-lab"
+                        url: "https://www.rgu.ac/department-medical-lab"
                     },
 
                     {
                         name: "Department of Medical Radiology and Imaging Technology",
-                        url: "/deptment-radiography"
+                        url: "https://www.rgu.ac/deptment-radiography"
                     },
 
                     {
                         name: "Department of Food Science & Nutrition",
-                        url: "/departement-food-science&nutrition"
+                        url: "https://www.rgu.ac/departement-food-science&nutrition"
                     }
                 ]
             },
@@ -1283,17 +1404,17 @@
 
                 name: "Royal School of Nursing (RSN)",
 
-                image: "/new-web/assets/academics-schools-faculty/nursing.png",
+                image: "assets/img/academics-schools-faculty/nursing.png",
 
-                departmentPage: "/department-nursing",
+                departmentPage: "https://www.rgu.ac/department-nursing",
 
-                facultyPage: "/faculty-nursing",
+                facultyPage: "https://www.rgu.ac/faculty-nursing",
 
                 departments: [
 
                     {
                         name: "Royal School of Nursing (RSN)",
-                        url: "/department-nursing"
+                        url: "https://www.rgu.ac/department-nursing"
                     }
                 ]
             },
@@ -1302,17 +1423,17 @@
 
                 name: "Royal School of Pharmacy (RSP)",
 
-                image: "/new-web/assets/academics-schools-faculty/pharmacy.png",
+                image: "assets/img/academics-schools-faculty/pharmacy.png",
 
-                departmentPage: "/department-pharmacy",
+                departmentPage: "https://www.rgu.ac/department-pharmacy",
 
-                facultyPage: "/faculty-pharmacy",
+                facultyPage: "https://www.rgu.ac/faculty-pharmacy",
 
                 departments: [
 
                     {
                         name: "Royal School of Pharmacy (RSP)",
-                        url: "/department-pharmacy"
+                        url: "https://www.rgu.ac/department-pharmacy"
                     }
 
                 ]
@@ -1322,17 +1443,17 @@
 
                 name: "Royal School of Physical Education and Sports (RSPES)",
 
-                image: "/new-web/assets/academics-schools-faculty/sports.png",
+                image: "assets/img/academics-schools-faculty/sports.png",
 
-                departmentPage: "/department-physical-education-and-sports",
+                departmentPage: "https://www.rgu.ac/department-physical-education-and-sports",
 
-                facultyPage: "/faculty-physical-education-and-sports",
+                facultyPage: "https://www.rgu.ac/faculty-physical-education-and-sports",
 
                 departments: [
 
                     {
                         name: "Royal School of Physical Education and Sports (RSPES)",
-                        url: "/department-physical-education-and-sports"
+                        url: "https://www.rgu.ac/department-physical-education-and-sports"
                     }
 
                 ]
@@ -1342,9 +1463,9 @@
 
                 name: "Royal School of Pharmaceutical Sciences",
 
-                image: "/mobile-assets/phar/pic.png",
+                image: "https://www.rgu.ac/mobile-assets/phar/pic.png",
 
-                departmentPage: "/department-pharmaceutical-science",
+                departmentPage: "https://www.rgu.ac/department-pharmaceutical-science",
 
                 facultyPage: "",
 
@@ -1352,7 +1473,7 @@
 
                     {
                         name: "Royal School of Pharmaceutical Sciences",
-                        url: "/department-pharmaceutical-science"
+                        url: "https://www.rgu.ac/department-pharmaceutical-science"
                     }
                 ]
             },
@@ -1361,17 +1482,17 @@
 
                 name: "Royal School of Travel & Tourism (RSTTM)",
 
-                image: "//new-web/assets/school-rgu/travel.jpeg",
+                image: "https://www.rgu.ac/assets/img/school-rgu/travel.jpeg",
 
-                departmentPage: "/department-travel",
+                departmentPage: "https://www.rgu.ac/department-travel",
 
-                facultyPage: "/faculty-travel-tourism",
+                facultyPage: "https://www.rgu.ac/faculty-travel-tourism",
 
                 departments: [
 
                     {
                         name: "Royal School of Travel & Tourism (RSTTM)",
-                        url: "/department-travel"
+                        url: "https://www.rgu.ac/department-travel"
                     }
 
                 ]
@@ -1746,23 +1867,368 @@
 
     <script>
         /*=========================================================
-         FACULTY SEARCH
-        =========================================================*/
+             FACULTY SEARCH - AUTO LOAD FROM FACULTY PAGES
+
+             Faculty names are NOT maintained manually here.
+             The existing `schools` array supplies every facultyPage URL.
+
+             This uses same-origin fetch, so the directory page should be
+             hosted on rgu.ac along with the faculty pages.
+            =========================================================*/
+
+        let facultyDatabase = [];
+        let facultyDatabasePromise = null;
+
+        function normaliseFacultyName(name) {
+            return String(name || "")
+                .toLowerCase()
+                .replace(/[\u2018\u2019']/g, "")
+                .replace(/[.(),]/g, " ")
+                .replace(/\b(professor|prof|doctor|dr|mr|mrs|ms|miss|ar|adv)\b/g, " ")
+                .replace(/\s+/g, " ")
+                .trim();
+        }
+
+        function escapeFacultyHTML(value) {
+            return String(value || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        async function fetchFacultyPage(school) {
+            try {
+                const response = await fetch(school.facultyPage, {
+                    method: "GET",
+                    credentials: "same-origin",
+                    cache: "no-store"
+                });
+
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                return {
+                    school,
+                    html: await response.text()
+                };
+
+            } catch (error) {
+                console.warn(
+                    `Faculty page could not be loaded for ${school.name}:`,
+                    school.facultyPage,
+                    error
+                );
+                return null;
+            }
+        }
+
+        function extractFacultyFromPage(html, school) {
+
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
+
+            /* RGU faculty pages currently use H3 for faculty names. */
+            let headings = Array.from(doc.querySelectorAll("h3"));
+
+            /* Fallback if a future faculty page uses H4. */
+            if (!headings.length) {
+                headings = Array.from(doc.querySelectorAll("h4"));
+            }
+
+            const faculty = [];
+
+            headings.forEach((heading) => {
+
+                const name = heading.textContent.replace(/\s+/g, " ").trim();
+                if (!name) return;
+
+                const searchName = normaliseFacultyName(name);
+
+                /* Prevent footer/utility headings from becoming faculty. */
+                if (!searchName || searchName.split(" ").length < 2) return;
+
+                let profileURL = "";
+                let node = heading.parentElement;
+                let depth = 0;
+
+                while (node && depth < 5) {
+
+                    const profileLink = Array.from(node.querySelectorAll("a"))
+                        .find(link =>
+                            link.textContent.trim().toLowerCase() === "view profile"
+                        );
+
+                    if (profileLink) {
+                        const href = profileLink.getAttribute("href");
+                        if (href) {
+                            try {
+                                profileURL = new URL(href, school.facultyPage).href;
+                            } catch (e) {
+                                profileURL = "";
+                            }
+                        }
+                        break;
+                    }
+
+                    node = node.parentElement;
+                    depth++;
+                }
+
+                faculty.push({
+                    name,
+                    searchName,
+                    schoolName: school.name,
+                    schoolURL: school.facultyPage,
+                    profileURL
+                });
+            });
+
+            return faculty;
+        }
+
+        async function loadAllFaculty() {
+
+            if (facultyDatabasePromise) return facultyDatabasePromise;
+
+            facultyDatabasePromise = (async () => {
+
+                const facultySchools = schools.filter(school =>
+                    school.facultyPage && school.facultyPage.trim() !== ""
+                );
+
+                const pages = await Promise.all(
+                    facultySchools.map(fetchFacultyPage)
+                );
+
+                const allFaculty = [];
+
+                pages.filter(Boolean).forEach(({
+                    html,
+                    school
+                }) => {
+                    allFaculty.push(...extractFacultyFromPage(html, school));
+                });
+
+                /*
+                 * Same person may appear under several departments on one
+                 * faculty page. Remove only same-name/same-school duplicates.
+                 * The same person in different schools remains searchable.
+                 */
+                const unique = new Map();
+
+                allFaculty.forEach(faculty => {
+                    const key = `${faculty.searchName}|||${faculty.schoolName}`;
+                    if (!unique.has(key)) unique.set(key, faculty);
+                });
+
+                facultyDatabase = Array.from(unique.values())
+                    .sort((a, b) => a.name.localeCompare(b.name));
+
+                console.log(`Faculty directory loaded: ${facultyDatabase.length} entries.`);
+
+                return facultyDatabase;
+
+            })().catch(error => {
+                console.error("Faculty directory loading failed:", error);
+                facultyDatabasePromise = null;
+                facultyDatabase = [];
+                return [];
+            });
+
+            return facultyDatabasePromise;
+        }
+
+        /* Search NAME ONLY. All query words must occur in the name. */
+        function searchFacultyByName(query) {
+
+            const normalisedQuery = normaliseFacultyName(query);
+            if (!normalisedQuery) return [];
+
+            const queryWords = normalisedQuery.split(" ");
+
+            return facultyDatabase.filter(faculty =>
+                queryWords.every(word => faculty.searchName.includes(word))
+            );
+        }
+
+        /* Group a person who appears on more than one school's page. */
+        function groupFacultyResults(results) {
+
+            const groups = new Map();
+
+            results.forEach(faculty => {
+
+                if (!groups.has(faculty.searchName)) {
+                    groups.set(faculty.searchName, {
+                        name: faculty.name,
+                        schools: []
+                    });
+                }
+
+                const group = groups.get(faculty.searchName);
+
+                if (!group.schools.some(school =>
+                        school.name === faculty.schoolName
+                    )) {
+                    group.schools.push({
+                        name: faculty.schoolName,
+                        url: faculty.schoolURL
+                    });
+                }
+            });
+
+            return Array.from(groups.values());
+        }
+
+        function renderFacultyResults(query) {
+
+            const resultsBox = document.getElementById("facultySearchResults");
+            if (!resultsBox) return;
+
+            const results = searchFacultyByName(query);
+            resultsBox.innerHTML = "";
+
+            if (!query.trim()) {
+                resultsBox.classList.remove("show");
+                return;
+            }
+
+            if (!results.length) {
+                resultsBox.innerHTML = `
+                    <div class="faculty-search-state">
+                        No faculty found for <strong>${escapeFacultyHTML(query)}</strong>
+                    </div>
+                `;
+                resultsBox.classList.add("show");
+                return;
+            }
+
+            const grouped = groupFacultyResults(results);
+
+            grouped.slice(0, 20).forEach(faculty => {
+
+                const result = document.createElement("div");
+                result.className = "faculty-search-result";
+
+                const schoolsHTML = faculty.schools.map(school => `
+                    <a href="${escapeFacultyHTML(school.url)}"
+                       class="faculty-result-school"
+                       title="Open faculty page">
+                        <i class="bi bi-building"></i>
+                        <span>${escapeFacultyHTML(school.name)}</span>
+                    </a>
+                `).join("");
+
+                result.innerHTML = `
+                    <div class="faculty-result-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+                    <div class="faculty-result-content">
+                        <span class="faculty-result-name">
+                            ${escapeFacultyHTML(faculty.name)}
+                        </span>
+                        ${schoolsHTML}
+                    </div>
+                `;
+
+                resultsBox.appendChild(result);
+            });
+
+            if (grouped.length > 20) {
+                const more = document.createElement("div");
+                more.className = "faculty-search-state";
+                more.textContent =
+                    "Showing first 20 matching faculty. Refine your search for more specific results.";
+                resultsBox.appendChild(more);
+            }
+
+            resultsBox.classList.add("show");
+        }
 
         function initialiseFacultySearch() {
 
             if (!facultySearch) return;
 
-            facultySearch.addEventListener("keypress", function(e) {
+            const resultsBox = document.getElementById("facultySearchResults");
+            const searchButton = document.getElementById("facultySearchBtn");
+            if (!resultsBox) return;
 
-                if (e.key === "Enter") {
+            /* Fetch all faculty pages only when search is first used. */
+            facultySearch.addEventListener("focus", async function() {
 
-                    console.log("Faculty Search:", this.value);
+                if (facultyDatabase.length || facultyDatabasePromise) return;
 
+                resultsBox.innerHTML = `
+                    <div class="faculty-search-state">Loading faculty directory...</div>
+                `;
+                resultsBox.classList.add("show");
+
+                await loadAllFaculty();
+
+                if (facultySearch.value.trim()) {
+                    renderFacultyResults(facultySearch.value);
+                } else {
+                    resultsBox.classList.remove("show");
                 }
-
             });
 
+            /* Live name search. */
+            facultySearch.addEventListener("input", async function() {
+
+                const query = this.value.trim();
+
+                if (!query) {
+                    resultsBox.classList.remove("show");
+                    resultsBox.innerHTML = "";
+                    return;
+                }
+
+                if (!facultyDatabase.length) {
+                    resultsBox.innerHTML = `
+                        <div class="faculty-search-state">Loading faculty directory...</div>
+                    `;
+                    resultsBox.classList.add("show");
+                    await loadAllFaculty();
+                }
+
+                renderFacultyResults(query);
+            });
+
+            if (searchButton) {
+                searchButton.addEventListener("click", async function() {
+
+                    const query = facultySearch.value.trim();
+
+                    if (!query) {
+                        facultySearch.focus();
+                        return;
+                    }
+
+                    if (!facultyDatabase.length) {
+                        resultsBox.innerHTML = `
+                            <div class="faculty-search-state">Loading faculty directory...</div>
+                        `;
+                        resultsBox.classList.add("show");
+                        await loadAllFaculty();
+                    }
+
+                    renderFacultyResults(query);
+                });
+            }
+
+            facultySearch.addEventListener("keydown", function(e) {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    if (searchButton) searchButton.click();
+                }
+            });
+
+            document.addEventListener("click", function(e) {
+                if (!e.target.closest(".faculty-search")) {
+                    resultsBox.classList.remove("show");
+                }
+            });
         }
     </script>
 
