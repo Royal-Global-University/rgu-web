@@ -1,6 +1,6 @@
 @extends('frontend/new-master')
 @section('content')
-    <section class="pg-hero">
+        <section class="pg-hero">
         <div class="pg-hero-bg"
             style="background-image:url('assets/img/academics-schools-faculty/cover.png'); filter: blur(2px);">
         </div>
@@ -24,8 +24,8 @@
         }
 
         /*************************
-    Heading
-    *************************/
+Heading
+*************************/
 
         .school-title {
             text-align: center;
@@ -50,8 +50,8 @@
 
 
         /*************************
-    Blue Box
-    *************************/
+Blue Box
+*************************/
 
         .school-panel {
             background: linear-gradient(180deg, #294b84, #081d4f);
@@ -68,8 +68,8 @@
         }
 
         /*************************
-    Search
-    *************************/
+Search
+*************************/
 
         .department-search {
             display: flex;
@@ -303,12 +303,10 @@
         }
 
         /*=========================================================
-             FACULTY SEARCH RESULTS
-            =========================================================*/
+         FACULTY SEARCH RESULTS
+        =========================================================*/
 
-        .faculty-search {
-            position: relative;
-        }
+        .faculty-search { position: relative; }
 
         .faculty-search-results {
             position: absolute;
@@ -325,9 +323,7 @@
             text-align: left;
         }
 
-        .faculty-search-results.show {
-            display: block;
-        }
+        .faculty-search-results.show { display: block; }
 
         .faculty-search-result {
             display: flex;
@@ -338,13 +334,8 @@
             transition: .2s ease;
         }
 
-        .faculty-search-result:last-child {
-            border-bottom: 0;
-        }
-
-        .faculty-search-result:hover {
-            background: #f6f8fc;
-        }
+        .faculty-search-result:last-child { border-bottom: 0; }
+        .faculty-search-result:hover { background: #f6f8fc; }
 
         .faculty-result-icon {
             width: 38px;
@@ -359,10 +350,7 @@
             font-size: 16px;
         }
 
-        .faculty-result-content {
-            min-width: 0;
-            flex: 1;
-        }
+        .faculty-result-content { min-width: 0; flex: 1; }
 
         .faculty-result-name {
             display: block;
@@ -384,14 +372,8 @@
             padding: 2px 0;
         }
 
-        .faculty-result-school:hover {
-            color: #e76638;
-        }
-
-        .faculty-result-school i {
-            color: #e76638;
-            margin-top: 2px;
-        }
+        .faculty-result-school:hover { color: #e76638; }
+        .faculty-result-school i { color: #e76638; margin-top: 2px; }
 
         .faculty-search-state {
             padding: 18px;
@@ -401,15 +383,13 @@
         }
 
         @media (max-width: 575px) {
-            .faculty-search-results {
-                max-height: 360px;
-            }
+            .faculty-search-results { max-height: 360px; }
         }
 
 
         /*************************
-    Cards
-    *************************/
+Cards
+*************************/
 
         .school-grid {
 
@@ -525,8 +505,8 @@
 
 
         /*************************
-    Quick Links
-    *************************/
+Quick Links
+*************************/
 
         .quick-access-box {
 
@@ -563,8 +543,8 @@
         }
 
         /*************************
-    Apply Button
-    *************************/
+Apply Button
+*************************/
 
         .apply-btn-rgu {
 
@@ -604,8 +584,8 @@
 
 
         /*************************
-    Responsive
-    *************************/
+Responsive
+*************************/
 
         @media(max-width:1199px) {
 
@@ -772,14 +752,21 @@
 
                 <div class="faculty-search">
 
-                    <input type="text" placeholder="Search By Faculty" id="facultySearch" autocomplete="off"
+                    <input
+                        type="text"
+                        placeholder="Search By Faculty"
+                        id="facultySearch"
+                        autocomplete="off"
                         aria-label="Search By Faculty">
 
                     <button type="button" id="facultySearchBtn" aria-label="Search faculty">
                         <i class="bi bi-search"></i>
                     </button>
 
-                    <div class="faculty-search-results" id="facultySearchResults" role="listbox"
+                    <div
+                        class="faculty-search-results"
+                        id="facultySearchResults"
+                        role="listbox"
                         aria-label="Faculty search results"></div>
 
                 </div>
@@ -827,8 +814,8 @@
 
     <script>
         /*=========================================================
-         SCHOOL DIRECTORY DATA
-        =========================================================*/
+     SCHOOL DIRECTORY DATA
+    =========================================================*/
 
         const schools = [
 
@@ -1524,8 +1511,8 @@
 
     <script>
         /*=========================================================
-         GLOBAL VARIABLES
-        =========================================================*/
+     GLOBAL VARIABLES
+    =========================================================*/
 
         const schoolGrid = document.getElementById("schoolGrid");
 
@@ -1546,8 +1533,8 @@
 
     <script>
         /*=========================================================
-        GENERATE SCHOOL CARDS
-        =========================================================*/
+    GENERATE SCHOOL CARDS
+    =========================================================*/
 
         function generateSchoolCards() {
 
@@ -1639,8 +1626,8 @@
 
     <script>
         /*=========================================================
-        GENERATE DEPARTMENT DROPDOWN
-        =========================================================*/
+    GENERATE DEPARTMENT DROPDOWN
+    =========================================================*/
 
         function generateDepartmentDropdown() {
 
@@ -1715,8 +1702,8 @@
 
     <script>
         /*=========================================================
-     DROPDOWN LOGIC
-    =========================================================*/
+ DROPDOWN LOGIC
+=========================================================*/
 
         function openDepartmentDropdown() {
 
@@ -1745,12 +1732,12 @@
 
     <script>
         /*=========================================================
-         INITIALISE DROPDOWN
-        =========================================================*/
+     INITIALISE DROPDOWN
+    =========================================================*/
 
         function initialiseDropdown() {
 
-            departmentSelected.addEventListener("click", function(e) {
+            departmentSelected.addEventListener("click", function (e) {
 
                 e.stopPropagation();
 
@@ -1758,7 +1745,7 @@
 
             });
 
-            document.addEventListener("click", function(e) {
+            document.addEventListener("click", function (e) {
 
                 if (!e.target.closest(".department-dropdown")) {
 
@@ -1773,8 +1760,8 @@
 
     <script>
         /*=========================================================
-         INITIALISE ACCORDION
-        =========================================================*/
+     INITIALISE ACCORDION
+    =========================================================*/
 
         function initialiseAccordion() {
 
@@ -1782,7 +1769,7 @@
 
             headers.forEach((header) => {
 
-                header.addEventListener("click", function() {
+                header.addEventListener("click", function () {
 
                     const currentGroup = this.parentElement;
 
@@ -1807,8 +1794,8 @@
 
     <script>
         /*=========================================================
-         INITIALISE DEPARTMENT SELECTION
-        =========================================================*/
+     INITIALISE DEPARTMENT SELECTION
+    =========================================================*/
 
         function initialiseDepartmentSelection() {
 
@@ -1816,7 +1803,7 @@
 
             items.forEach((item) => {
 
-                item.addEventListener("click", function() {
+                item.addEventListener("click", function () {
 
                     document.querySelectorAll(".department-item").forEach((i) => {
 
@@ -1843,12 +1830,12 @@
 
     <script>
         /*=========================================================
-         SEARCH
-        =========================================================*/
+     SEARCH
+    =========================================================*/
 
         function initialiseSearch() {
 
-            departmentSearchBtn.addEventListener("click", function() {
+            departmentSearchBtn.addEventListener("click", function () {
 
                 if (!selectedDepartmentURL) {
 
@@ -1867,14 +1854,14 @@
 
     <script>
         /*=========================================================
-             FACULTY SEARCH - AUTO LOAD FROM FACULTY PAGES
+         FACULTY SEARCH - AUTO LOAD FROM FACULTY PAGES
 
-             Faculty names are NOT maintained manually here.
-             The existing `schools` array supplies every facultyPage URL.
+         Faculty names are NOT maintained manually here.
+         The existing `schools` array supplies every facultyPage URL.
 
-             This uses same-origin fetch, so the directory page should be
-             hosted on rgu.ac along with the faculty pages.
-            =========================================================*/
+         This uses same-origin fetch, so the directory page should be
+         hosted on rgu.ac along with the faculty pages.
+        =========================================================*/
 
         let facultyDatabase = [];
         let facultyDatabasePromise = null;
@@ -1900,18 +1887,37 @@
 
         async function fetchFacultyPage(school) {
             try {
-                const response = await fetch(school.facultyPage, {
+                /*
+                 * IMPORTANT:
+                 * The schools array contains absolute URLs such as
+                 * https://www.rgu.ac/faculty-agriculture.
+                 * If this page is opened on rgu.ac (without www), that is
+                 * technically a different origin and fetch can be blocked.
+                 *
+                 * Use only the pathname/query from the stored URL and fetch
+                 * it from the CURRENT origin. This keeps the request
+                 * same-origin on both rgu.ac and www.rgu.ac.
+                 */
+                const sourceURL = new URL(school.facultyPage, window.location.href);
+                const localFacultyURL =
+                    sourceURL.pathname +
+                    sourceURL.search +
+                    sourceURL.hash;
+
+                const response = await fetch(localFacultyURL, {
                     method: "GET",
                     credentials: "same-origin",
-                    cache: "no-store"
+                    cache: "no-store",
+                    headers: {
+                        "Accept": "text/html"
+                    }
                 });
 
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
 
-                return {
-                    school,
-                    html: await response.text()
-                };
+                return { school, html: await response.text() };
 
             } catch (error) {
                 console.warn(
@@ -2003,10 +2009,7 @@
 
                 const allFaculty = [];
 
-                pages.filter(Boolean).forEach(({
-                    html,
-                    school
-                }) => {
+                pages.filter(Boolean).forEach(({ html, school }) => {
                     allFaculty.push(...extractFacultyFromPage(html, school));
                 });
 
@@ -2069,8 +2072,8 @@
                 const group = groups.get(faculty.searchName);
 
                 if (!group.schools.some(school =>
-                        school.name === faculty.schoolName
-                    )) {
+                    school.name === faculty.schoolName
+                )) {
                     group.schools.push({
                         name: faculty.schoolName,
                         url: faculty.schoolURL
@@ -2155,7 +2158,7 @@
             if (!resultsBox) return;
 
             /* Fetch all faculty pages only when search is first used. */
-            facultySearch.addEventListener("focus", async function() {
+            facultySearch.addEventListener("focus", async function () {
 
                 if (facultyDatabase.length || facultyDatabasePromise) return;
 
@@ -2174,7 +2177,7 @@
             });
 
             /* Live name search. */
-            facultySearch.addEventListener("input", async function() {
+            facultySearch.addEventListener("input", async function () {
 
                 const query = this.value.trim();
 
@@ -2196,7 +2199,7 @@
             });
 
             if (searchButton) {
-                searchButton.addEventListener("click", async function() {
+                searchButton.addEventListener("click", async function () {
 
                     const query = facultySearch.value.trim();
 
@@ -2217,25 +2220,24 @@
                 });
             }
 
-            facultySearch.addEventListener("keydown", function(e) {
+            facultySearch.addEventListener("keydown", function (e) {
                 if (e.key === "Enter") {
                     e.preventDefault();
                     if (searchButton) searchButton.click();
                 }
             });
 
-            document.addEventListener("click", function(e) {
+            document.addEventListener("click", function (e) {
                 if (!e.target.closest(".faculty-search")) {
                     resultsBox.classList.remove("show");
                 }
             });
-        }
-    </script>
+        }    </script>
 
     <script>
         /*=========================================================
-         INITIALISE PAGE
-        =========================================================*/
+     INITIALISE PAGE
+    =========================================================*/
 
         function initialiseSchoolDirectory() {
 
@@ -2255,7 +2257,7 @@
 
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
 
             initialiseSchoolDirectory();
 
