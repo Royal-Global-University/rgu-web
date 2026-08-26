@@ -467,9 +467,9 @@ Cards
             background: #e6673a;
             color: #fff;
             padding: 15px 20px;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
-            border-radius: 4px;
+            border-radius: 10px;
             text-decoration: none;
             transition: .3s;
 
@@ -488,9 +488,9 @@ Cards
             border: 1px solid #bccce6;
             color: #294b84;
             padding: 15px 20px;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
-            border-radius: 4px;
+            border-radius: 10px;
             text-decoration: none;
             transition: .3s;
 
@@ -1410,7 +1410,7 @@ Responsive
 
                 name: "Royal School of Pharmacy (RSP)",
 
-                image: "assets/img/academics-schools-faculty/pharmacy.png",
+                image: "/new-web/assets/academics-schools-faculty/pharmacy.png",
 
                 departmentPage: "https://www.rgu.ac/department-pharmacy",
 
