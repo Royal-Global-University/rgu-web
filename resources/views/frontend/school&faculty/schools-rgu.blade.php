@@ -825,9 +825,9 @@ Responsive
 
                 name: "Integrated Civil Service Programme",
 
-                image: "https://www.rgu.ac/mobile-assets/school-rgu/ias-banner.png",
+                image: "/mobile-assets/school-rgu/ias-banner.png",
 
-                departmentPage: "https://www.rgu.ac/ias-courses",
+                departmentPage: "/ias-courses",
 
                 facultyPage: "",
 
