@@ -971,7 +971,7 @@
 
     <section class="rgu-eboard-section">
         <div class="rgu-eboard-container">
-            <h2 class="rgu-eboard-title">RGU E-Board</h2>
+            <h2 class="rgu-eboard-title">RGU E-Board.</h2>
 
             <div class="rgu-eboard-slider" id="eboardSlider">
                 <div class="rgu-eboard-track" id="eboardTrack"></div>
