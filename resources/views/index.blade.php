@@ -1353,7 +1353,7 @@
                rel="noopener">
 
                 <div class="rgu-bulletin-image-wrap">
-                    <img src="/new-web/assets/news-letter/Newsletter-3.png"
+                    <img src="/new-web/assets/news-letter/newsletter-3.png"
                          alt="RGU Bulletin 01"
                          class="rgu-bulletin-image">
 
@@ -1375,7 +1375,7 @@
                rel="noopener">
 
                 <div class="rgu-bulletin-image-wrap">
-                    <img src="/new-web/assets/news-letter/Newsletter-2.jpg"
+                    <img src="/new-web/assets/news-letter/newsletter-2.jpg"
                          alt="RGU Newsletter 02"
                          class="rgu-bulletin-image">
 
