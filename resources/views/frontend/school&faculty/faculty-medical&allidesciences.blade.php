@@ -1511,9 +1511,21 @@
                                     alt="Profile image of Ms. Jebin Sultana">
                             </div>
                             <h3 class="card-name">Ms. Jebin Sultana</h3>
-                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator
+                            <p class="card-designation">Assistant Professor
                             </p>
                             <a href="/faculty-jebin-sultana" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Somali.png"
+                                    alt="Profile image of Ms. Somali Ghosh">
+                            </div>
+                            <h3 class="card-name">Ms. Somali Ghosh</h3>
+                            <p class="card-designation">Assistant Professor
+                            </p>
                         </div>
                     </div>
 
