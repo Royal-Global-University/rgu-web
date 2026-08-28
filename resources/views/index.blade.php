@@ -1331,6 +1331,469 @@
         }
     </style>
 
+    <!-- ========================= RGU BULLETIN SECTION ========================= -->
+<section class="rgu-bulletin-section">
+
+    <div class="rgu-bulletin-container">
+
+        <!-- Section Heading -->
+        <div class="rgu-bulletin-heading">
+            <span class="rgu-bulletin-heading-line"></span>
+            <h2>RGU Newsletter</h2>
+            <span class="rgu-bulletin-heading-line"></span>
+        </div>
+
+        <!-- Bulletin Cards -->
+        <div class="rgu-bulletin-cards">
+
+            <!-- Bulletin 01 -->
+            <a href="/new-web/assets/news-letter/Jan-Jun 2026, 27 July-FINAL.pdf"
+               class="rgu-bulletin-card"
+               target="_blank"
+               rel="noopener">
+
+                <div class="rgu-bulletin-image-wrap">
+                    <img src="/new-web/assets/news-letter/Newsletter-3.png"
+                         alt="RGU Bulletin 01"
+                         class="rgu-bulletin-image">
+
+                    <div class="rgu-bulletin-overlay">
+                        <div class="rgu-bulletin-view">
+                            <span class="rgu-bulletin-view-icon">↗</span>
+                            <span>View Bulletin</span>
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+
+
+            <!-- Bulletin 02 -->
+            <a href="/new-web/assets/news-letter/July - Dec 2025.pdf"
+               class="rgu-bulletin-card"
+               target="_blank"
+               rel="noopener">
+
+                <div class="rgu-bulletin-image-wrap">
+                    <img src="/new-web/assets/news-letter/Newsletter-2.jpg"
+                         alt="RGU Newsletter 02"
+                         class="rgu-bulletin-image">
+
+                    <div class="rgu-bulletin-overlay">
+                        <div class="rgu-bulletin-view">
+                            <span class="rgu-bulletin-view-icon">↗</span>
+                            <span>View Bulletin</span>
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+
+
+            <!-- Bulletin 03 -->
+            <a href="/new-web/assets/news-letter/MAY-JULY 2025.pdf"
+               class="rgu-bulletin-card"
+               target="_blank"
+               rel="noopener">
+
+                <div class="rgu-bulletin-image-wrap">
+                    <img src="/new-web/assets/news-letter/Newsletter-1.png"
+                         alt="RGU Bulletin 03"
+                         class="rgu-bulletin-image">
+
+                    <div class="rgu-bulletin-overlay">
+                        <div class="rgu-bulletin-view">
+                            <span class="rgu-bulletin-view-icon">↗</span>
+                            <span>View Bulletin</span>
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<style>
+
+/* ========================================================================
+   RGU BULLETIN SECTION
+   ======================================================================== */
+
+.rgu-bulletin-section {
+    width: 100%;
+    padding: 85px 25px;
+    background: #F8FAFF;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+/* ========================================================================
+   CONTAINER
+   ======================================================================== */
+
+.rgu-bulletin-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+/* ========================================================================
+   HEADING
+   ======================================================================== */
+
+.rgu-bulletin-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.rgu-bulletin-heading h2 {
+    margin: 0;
+    padding: 0;
+    color: #20315F;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+/* Decorative lines */
+
+.rgu-bulletin-heading-line {
+    display: block;
+    width: 70px;
+    height: 1px;
+    background: #20315F;
+    opacity: 0.45;
+}
+
+
+/* ========================================================================
+   BULLETIN CARDS
+   ======================================================================== */
+
+.rgu-bulletin-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+}
+
+
+/* Individual clickable card */
+
+.rgu-bulletin-card {
+    display: block;
+    width: calc((100% - 64px) / 3);
+    max-width: 360px;
+    text-decoration: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+
+    /* Smooth hover */
+    transform: translateY(0);
+    box-shadow: 0 8px 25px rgba(32, 49, 95, 0.10);
+
+    transition:
+        transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.45s ease;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/* Card hover */
+
+.rgu-bulletin-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 22px 45px rgba(32, 49, 95, 0.20);
+}
+
+
+/* ========================================================================
+   IMAGE WRAPPER
+   ======================================================================== */
+
+.rgu-bulletin-image-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #e9edf5;
+}
+
+
+/* ========================================================================
+   IMAGE
+   ======================================================================== */
+
+.rgu-bulletin-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transform: scale(1);
+    
+    transition:
+        transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+/* Image zoom */
+
+.rgu-bulletin-card:hover .rgu-bulletin-image {
+    transform: scale(1.06);
+}
+
+
+/* ========================================================================
+   HOVER OVERLAY
+   ======================================================================== */
+
+.rgu-bulletin-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(20, 32, 61, 0);
+
+    opacity: 0;
+
+    transition:
+        background 0.4s ease,
+        opacity 0.4s ease;
+}
+
+
+/* Overlay on hover */
+
+.rgu-bulletin-card:hover .rgu-bulletin-overlay {
+    background: rgba(20, 32, 61, 0.48);
+    opacity: 1;
+}
+
+
+/* ========================================================================
+   VIEW BULLETIN BUTTON
+   ======================================================================== */
+
+.rgu-bulletin-view {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 13px 21px;
+
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.16);
+
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 50px;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    transform: translateY(12px);
+    transition:
+        transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        background 0.3s ease;
+}
+
+
+/* Button animation */
+
+.rgu-bulletin-card:hover .rgu-bulletin-view {
+    transform: translateY(0);
+}
+
+
+/* Button hover */
+
+.rgu-bulletin-card:hover .rgu-bulletin-view:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+
+/* Arrow icon */
+
+.rgu-bulletin-view-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+
+    font-size: 17px;
+    line-height: 1;
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+
+/* ========================================================================
+   RESPONSIVE — TABLET
+   ======================================================================== */
+
+@media (max-width: 900px) {
+
+    .rgu-bulletin-section {
+        padding: 70px 20px;
+    }
+
+    .rgu-bulletin-heading {
+        margin-bottom: 40px;
+    }
+
+    .rgu-bulletin-heading h2 {
+        font-size: 40px;
+    }
+
+    .rgu-bulletin-heading-line {
+        width: 50px;
+    }
+
+    .rgu-bulletin-cards {
+        gap: 22px;
+    }
+
+    .rgu-bulletin-card {
+        width: calc((100% - 44px) / 3);
+        border-radius: 10px;
+    }
+
+}
+
+
+/* ========================================================================
+   RESPONSIVE — MOBILE
+   ======================================================================== */
+
+@media (max-width: 650px) {
+
+    .rgu-bulletin-section {
+        padding: 55px 18px;
+    }
+
+    .rgu-bulletin-heading {
+        gap: 14px;
+        margin-bottom: 32px;
+    }
+
+    .rgu-bulletin-heading h2 {
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    .rgu-bulletin-heading-line {
+        width: 28px;
+    }
+
+    .rgu-bulletin-cards {
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rgu-bulletin-card {
+        width: 100%;
+        max-width: 360px;
+    }
+
+}
+
+
+/* ========================================================================
+   SMALL MOBILE
+   ======================================================================== */
+
+@media (max-width: 400px) {
+
+    .rgu-bulletin-section {
+        padding: 45px 15px;
+    }
+
+    .rgu-bulletin-heading {
+        gap: 10px;
+    }
+
+    .rgu-bulletin-heading h2 {
+        font-size: 28px;
+    }
+
+    .rgu-bulletin-heading-line {
+        width: 20px;
+    }
+
+}
+
+</style>
+
+
+<script>
+
+(function () {
+
+    "use strict";
+
+    /*
+     * RGU BULLETIN
+     * No global variables or functions are created.
+     */
+
+    const rguBulletinCards =
+        document.querySelectorAll(".rgu-bulletin-card");
+
+    if (!rguBulletinCards.length) return;
+
+
+    /* Add keyboard accessibility */
+
+    rguBulletinCards.forEach(function (card) {
+
+        card.addEventListener("keydown", function (event) {
+
+            if (event.key === "Enter" || event.key === " ") {
+
+                event.preventDefault();
+                card.click();
+
+            }
+
+        });
+
+    });
+
+})();
+
+</script>
+<!-- ======================= END RGU BULLETIN ======================= -->
+
     <section class="rgu-next-events">
 
         <div class="rgu-next-container">
