@@ -2214,15 +2214,6 @@
             const events = [
 
                 {
-                    day: "27<sup>th</sup>",
-                    month: "August 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "Biofrontiers 2026",
-                    sub: "2 Days International Conference",
-                    link: "/mobile-assets/ads/ads-new/Biofrontiers 2026 Flyer.jpeg",
-                },
-
-                {
                     day: "9<sup>th</sup>",
                     month: "September 2026",
                     img: "/mobile-assets/ads/summer/bg.png",
