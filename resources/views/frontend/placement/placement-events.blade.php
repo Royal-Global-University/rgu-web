@@ -513,11 +513,13 @@
             </div>
 
             <div class="rccr-event-block">
-
+                <div class="m-4">
+                    <h1 class="text-danger">9910044299 / 8472048425</h1> <h1 class="text-danger">email id: rccr.placement@rgu.ac</h1>
+                </div>
                 <h3>
                     Leadership <span>Conclave 2025</span>
                 </h3>
-
+                
                 <p>
                     <strong>Guwahati, September 11, 2025:</strong>
                     Royal Global University successfully hosted its flagship

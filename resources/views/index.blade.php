@@ -2223,6 +2223,15 @@
                 },
 
                 {
+                    day: "9<sup>th</sup>",
+                    month: "September 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "Placement Drive",
+                    sub: "On Campus Placement Drive",
+                    link: "/mobile-assets/ads/job-fair.png",
+                },
+
+                {
                     day: "28<sup>th</sup>",
                     month: "October 2026",
                     img: "/mobile-assets/ads/summer/bg.png",

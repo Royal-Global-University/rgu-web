@@ -1,10 +1,9 @@
 @extends('frontend/new-master')
 @section('content')
-
-        <style>
+    <style>
         /*==================================
-RCCR EVENTS
-==================================*/
+        RCCR EVENTS
+        ==================================*/
 
         .rccr-events-section {
 
@@ -132,8 +131,8 @@ RCCR EVENTS
 
     <style>
         /*==================================
-JOB FAIR
-==================================*/
+        JOB FAIR
+        ==================================*/
 
         .job-fair-section {
 
@@ -243,7 +242,8 @@ JOB FAIR
     </style>
 
     <section class="pg-hero">
-        <div class="pg-hero-bg" style="background-image:url('/new-web/assets/placement-job-fair/cover.png'); filter: blur(2px);">
+        <div class="pg-hero-bg"
+            style="background-image:url('/new-web/assets/placement-job-fair/cover.png'); filter: blur(2px);">
         </div>
 
         <div class="pg-hero-bg"></div>
@@ -260,8 +260,8 @@ JOB FAIR
 
 
     <!--====================================
-        RCCR EVENTS
-        =====================================-->
+                RCCR EVENTS
+                =====================================-->
 
     <section class="rccr-events-section">
 
@@ -274,63 +274,77 @@ JOB FAIR
                     Mega Placement <span>Day 2026</span>
                 </h3>
 
-                <p>
-                    <strong>Guwahati, March 17, 2026:</strong>
-                    The Assam Royal Global University successfully organized a Mega Placement Day 2026 at its campus on
-                    17th March 2026, witnessing the participation of 64 leading companies and more than 132 industry
-                    professionals from diverse sectors. The event provided a major recruitment platform for over 850
-                    registered final-year students from various schools of the University.
-                </p>
+                <div class="row item-center">
+                    <div class="col-lg-6 mb-4 item-center">
+                        <a href="/new-web/assets/placement-job-fair/2026/events.png" class="rccr-gallery-item">
+                            <img src="/mobile-assets/ads/job-fair.png" height="800px" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 mb-4 item-center">
+                        <div class="m-4">
+                            <h1 class="mb-5">For More Details</h1>
+                            <h1 class="text-danger mb-3">Phone Number: 9910044299 / 8472048425</h1>
+                            <h1 class="text-danger">Email id: rccr.placement@rgu.ac</h1>
+                        </div>
+                    </div>
 
-                <p>
-                    Among the prominent recruiters participating in the drive were TOPCEM Cement, Star Cement, Artson
-                    Limited (A Tata Enterprise), Gargya Toyota, Mahindra Industrial & Farm Equipment, Motilal Oswal,
-                    Sapient Finserv, Marico Ltd., Emami Ltd., Sun Pharma, Eicher Motors, Mayfair Spring Valley Resort,
-                    Marriott Shillong, Radisson Blu, Centre Point Hotel/Ri-Kynjai Resort, Apollo International Hospital,
-                    Marwari Hospital, Lenskart, Prag News, Pratidin Times, DY365, and JK Services (Canon), along with
-                    several other reputed organizations.
-                </p>
+                    <p>
+                        <strong>Guwahati, March 17, 2026:</strong>
+                        The Assam Royal Global University successfully organized a Mega Placement Day 2026 at its campus on
+                        17th March 2026, witnessing the participation of 64 leading companies and more than 132 industry
+                        professionals from diverse sectors. The event provided a major recruitment platform for over 850
+                        registered final-year students from various schools of the University.
+                    </p>
 
-                <p>
-                    Students from multiple undergraduate and postgraduate programs including B.Tech, MBA, BBA, B.Com,
-                    M.Com, B.Pharm, M.Pharm, Nursing, Allied Health Sciences, Hospitality and Tourism Management,
-                    Architecture, and Mass Communication actively participated in the recruitment process.
-                </p>
+                    <p>
+                        Among the prominent recruiters participating in the drive were TOPCEM Cement, Star Cement, Artson
+                        Limited (A Tata Enterprise), Gargya Toyota, Mahindra Industrial & Farm Equipment, Motilal Oswal,
+                        Sapient Finserv, Marico Ltd., Emami Ltd., Sun Pharma, Eicher Motors, Mayfair Spring Valley Resort,
+                        Marriott Shillong, Radisson Blu, Centre Point Hotel/Ri-Kynjai Resort, Apollo International Hospital,
+                        Marwari Hospital, Lenskart, Prag News, Pratidin Times, DY365, and JK Services (Canon), along with
+                        several other reputed organizations.
+                    </p>
 
-                <p>
-                    The event served as a significant platform for students to engage directly with industry leaders,
-                    showcase their professional skills, and explore diverse career pathways. The strong industry
-                    participation highlights Royal Global University’s commitment to fostering industry-academia
-                    collaboration and enhancing career opportunities for its graduates.
-                </p>
+                    <p>
+                        Students from multiple undergraduate and postgraduate programs including B.Tech, MBA, BBA, B.Com,
+                        M.Com, B.Pharm, M.Pharm, Nursing, Allied Health Sciences, Hospitality and Tourism Management,
+                        Architecture, and Mass Communication actively participated in the recruitment process.
+                    </p>
 
-            </div>
+                    <p>
+                        The event served as a significant platform for students to engage directly with industry leaders,
+                        showcase their professional skills, and explore diverse career pathways. The strong industry
+                        participation highlights Royal Global University’s commitment to fostering industry-academia
+                        collaboration and enhancing career opportunities for its graduates.
+                    </p>
 
-            <div class="row">
+                </div>
 
-                <div class="col-lg-12 mb-4">
+                <div class="row">
 
-                    <a href="/new-web/assets/placement-job-fair/2026/events.png" class="rccr-gallery-item">
+                    <div class="col-lg-12 mb-4">
 
-                        <img src="/new-web/assets/placement-job-fair/2026/events.png" alt="">
+                        <a href="/new-web/assets/placement-job-fair/2026/events.png" class="rccr-gallery-item">
 
-                    </a>
+                            <img src="/new-web/assets/placement-job-fair/2026/events.png" alt="">
+
+                        </a>
+
+                    </div>
+
 
                 </div>
 
 
+
+
             </div>
-
-
-
-
-        </div>
 
     </section>
 
     <!--====================================
-        JOB FAIR
-        =====================================-->
+                JOB FAIR
+                =====================================-->
 
     <section class="job-fair-section">
 
