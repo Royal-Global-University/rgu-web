@@ -212,14 +212,14 @@
                             <div class="placement-contact-icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <span>+91 70867 51583</span>
+                            <span>+91 9910044299</span>
                         </div>
 
                         <div class="placement-contact-item">
                             <div class="placement-contact-icon">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <span>+91 70867 51573</span>
+                            <span>+91 8472048425</span>
                         </div>
 
                         <div class="placement-contact-item placement-contact-full">
