@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research', function () {
+    return view('frontend/media-corner/2026/aug/news12');
+})->name('rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research');
+
 Route::get('/royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools', function () {
     return view('frontend/media-corner/2026/aug/news11');
 })->name('royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools');

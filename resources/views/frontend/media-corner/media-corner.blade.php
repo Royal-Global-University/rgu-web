@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Hosts International Scholar-in-Residence Dr. Licia Proserpio for Academic Sessions on Social Science Research',
+                            'summary' => '',
+                            'date' => 'Guwahati, August 28, 2026:',
+                            'link' => '/rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research',
+                            'image' => '/mobile-assets/media-corner/2026/aug/32/n2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) is hosting a series of academic training sessions under its Scholar-in-Residence initiative, featuring Dr. Licia Proserpio, Social Anthropologist and Assistant Professor at the University of Bologna, Italy, who has joined the University as a Visiting Faculty from August 25 to September 2, 2026.',
+                        ],
+                        [
                             'title' => 'Royal Global University Signs MoU with Star Cement to Develop Carbon Footprint Reduction Framework for Schools',
                             'summary' => '',
                             'date' => 'Guwahati, August 26, 2026:',

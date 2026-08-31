@@ -1762,18 +1762,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/RSIT/Raj.jpg"
-                                    alt="Profile image of Raj Paul">
-                            </div>
-                            <h3 class="card-name">Mr. Raj Paul</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
 
                 </div>
                 <!-- regular faculty  -->
