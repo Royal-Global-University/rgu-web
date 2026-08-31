@@ -98,10 +98,6 @@ Route::get('/deans', function () {
     return view('frontend/discoverRGU/deans');
 })->name('deans');
 
-Route::get('/officers-register-admin', function () {
-    return view('frontend/discoverRGU/officers-register-admin');
-})->name('officers-register-admin');
-
 Route::get('/vision-mission', function () {
     return view('frontend/discoverRGU/vision-mission');
 })->name('vision-mission');
@@ -180,10 +176,6 @@ Route::get('/social-outreach', function () {
 Route::get('/knowledge', function () {
     return view('frontend/discoverRGU/knowledge');
 })->name('knowledge');
-
-Route::get('/officers', function () {
-    return view('frontend/discoverRGU/officers');
-})->name('officers');
 
 Route::get('/leadership-chairperson-academics', function () {
     return view('frontend/discoverRGU/leadership_alak-kumar-buragohain');
