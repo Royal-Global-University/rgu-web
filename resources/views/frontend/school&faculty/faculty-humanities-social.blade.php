@@ -653,6 +653,31 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Karan-Kumar.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Karan Kumar</h3>
+                            <p class="card-designation">Assistant Professor </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Nikita Biswakarma</h3>
+                            <p class="card-designation">Assistant Professor and Departmental Representative, Academic
+                                Affairs
+                            </p>
+                            <a href="/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Rinreichon-h.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Rinreichon Houshu Shimray</h3>
@@ -687,6 +712,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
+                            <a href="/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
                                     alt="Profile image">
                             </div>
@@ -706,31 +743,6 @@
                             <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
-                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <a href="/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Nikita Biswakarma</h3>
-                            <p class="card-designation">Teaching Assistant & Departmental Representative, Academic Affairs
-                            </p>
-                            <a href="/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
