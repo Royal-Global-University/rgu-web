@@ -667,7 +667,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Nikita Biswakarma</h3>
+                            <h3 class="card-name">Dr. Nikita Biswakarma</h3>
                             <p class="card-designation">Assistant Professor and Departmental Representative, Academic
                                 Affairs
                             </p>
@@ -715,7 +715,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
+                            <h3 class="card-name">Dr. Tanjeela Mehboob</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
                         </div>
