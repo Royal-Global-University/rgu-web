@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 3, 2026",
+            title: "RGU Concludes Year-Long Birth Centenary Celebrations of Dr. Bhupen Hazarika",
+            desc: "The Assam Royal Global University (RGU) brought the year-long celebrations marking the birth centenary of legendary cultural icon Dr. Bhupen Hazarika to a befitting close today with reflection, conversation, poetry and music, celebrating the life, works and enduring legacy of the Bard of the Brahmaputra.",
+            img: "/mobile-assets/media-corner/2026/aug/sep/1/front.jpeg",
+            link: "/rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika",
+        },
+        {
             date: "Guwahati, August 26, 2026",
             title: "Royal Global University Signs MoU with Star Cement to Develop Carbon Footprint Reduction Framework for Schools",
             desc: "The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Star Cement Charitable Trust, the voluntary humanitarian trust of Star Cement Limited, marking an important industry–academia collaboration aimed at developing a structured framework and action plan for reducing the carbon footprint of schools.",

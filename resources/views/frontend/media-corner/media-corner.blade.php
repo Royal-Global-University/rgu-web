@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Concludes Year-Long Birth Centenary Celebrations of Dr. Bhupen Hazarika',
+                            'summary' => '',
+                            'date' => 'Guwahati, September 3, 2026:',
+                            'link' => '/rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika',
+                            'image' => '/mobile-assets/media-corner/2026/aug/sep/1/Book Cover.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) brought the year-long celebrations marking the birth centenary of legendary cultural icon Dr. Bhupen Hazarika to a befitting close today with reflection, conversation, poetry and music, celebrating the life, works and enduring legacy of the Bard of the Brahmaputra.',
+                        ],
+                        [
                             'title' => 'RGU Hosts International Scholar-in-Residence Dr. Licia Proserpio for Academic Sessions on Social Science Research',
                             'summary' => '',
                             'date' => 'Guwahati, August 28, 2026:',

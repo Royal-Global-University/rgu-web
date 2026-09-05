@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika', function () {
+    return view('frontend/media-corner/2026/sep/news1');
+})->name('rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika');
+
 Route::get('/rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research', function () {
     return view('frontend/media-corner/2026/aug/news12');
 })->name('rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research');
