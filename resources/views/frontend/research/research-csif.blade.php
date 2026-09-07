@@ -980,14 +980,16 @@
             <div class="csifx-ql-grid">
                 <a target="_blank" href="mobile-assets/csif-lab/Access Policy_CSIF-RGU.pdf" class="csifx-ql-btn">Access
                     Policy -
-                    CSIF ⬇</a>
+                    CSIF ⬇
+                </a>
                 <a target="_blank" href="mobile-assets/csif-lab/CSIF Indent Form 2026.pdf" class="csifx-ql-btn">CSIF Indent
                     Form
-                    ⬇</a>
-                <a target="_blank" href="mobile-assets/csif-lab/CSIF SERVICE CHARGES.pdf" class="csifx-ql-btn">CSIF
+                    ⬇
+                </a>
+                <a target="_blank" href="/mobile-assets/pdf/csif-service.pdf" class="csifx-ql-btn">CSIF
                     Service
-                    Charges ⬇</a>
-
+                    Charges ⬇
+                </a>
             </div>
 
         </div>
