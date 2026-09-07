@@ -225,7 +225,6 @@
                             </div>
                             <h3 class="card-name">Dr. Aruno Raj Singh</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-bhupali-saikia" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
