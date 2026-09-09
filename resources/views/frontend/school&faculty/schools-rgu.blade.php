@@ -1183,7 +1183,7 @@
             {
                 id: "rshss",
 
-                name: "Royal School of Humanities (RSHSS)",
+                name: "Royal School of Humanities and Social Sciences (RSHSS)",
 
                 image: "https://www.rgu.ac/mobile-assets/school-rgu/humanities.jpeg",
 
