@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 9, 2026",
+            title: "‘Ideas Must Be Countered with Ideas to Build a Naxal-Free India’: Aradhita Singh",
+            desc: "Ideas often travel faster than arms, and countering Naxalism therefore requires addressing not only its militant dimensions but also the ideology and narratives that sustain it, said Aradhita Singh, Research Fellow at India Foundation, New Delhi, at an interactive session held at The Assam Royal Global University (RGU) today.",
+            img: "/mobile-assets/media-corner/2026/sep/1/13.jpeg",
+            link: "/ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh",
+        },
+        {
             date: "Guwahati, September 3, 2026",
             title: "RGU Concludes Year-Long Birth Centenary Celebrations of Dr. Bhupen Hazarika",
             desc: "The Assam Royal Global University (RGU) brought the year-long celebrations marking the birth centenary of legendary cultural icon Dr. Bhupen Hazarika to a befitting close today with reflection, conversation, poetry and music, celebrating the life, works and enduring legacy of the Bard of the Brahmaputra.",
