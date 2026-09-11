@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh', function () {
+    return view('frontend/media-corner/2026/sep/news2');
+})->name('ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh');
+
 Route::get('/rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika', function () {
     return view('frontend/media-corner/2026/sep/news1');
 })->name('rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika');

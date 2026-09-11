@@ -46,26 +46,44 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>
+                                '‘Ideas Must Be Countered with Ideas to Build a Naxal-Free India’: Aradhita Singh',
+                            'summary' => '',
+                            'date' => 'Guwahati, September 9, 2026:',
+                            'link' => '/ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh',
+                            'image' => '/mobile-assets/media-corner/2026/sep/1/13.jpeg',
+                            'content' => 'Ideas often travel faster than arms, and
+                countering Naxalism therefore requires addressing not only its militant dimensions but also the ideology and
+                narratives that sustain it, said Aradhita Singh, Research Fellow at India Foundation, New Delhi, at an
+                interactive session held at The Assam Royal Global University (RGU) today.',
+                        ],
+                        [
                             'title' => 'RGU Concludes Year-Long Birth Centenary Celebrations of Dr. Bhupen Hazarika',
                             'summary' => '',
                             'date' => 'Guwahati, September 3, 2026:',
                             'link' => '/rgu-concludes-year-long-birth-centenary-celebrations-of-dr-bhupen-hazarika',
                             'image' => '/mobile-assets/media-corner/2026/aug/sep/1/Book Cover.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) brought the year-long celebrations marking the birth centenary of legendary cultural icon Dr. Bhupen Hazarika to a befitting close today with reflection, conversation, poetry and music, celebrating the life, works and enduring legacy of the Bard of the Brahmaputra.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) brought the year-long celebrations marking the birth centenary of legendary cultural icon Dr. Bhupen Hazarika to a befitting close today with reflection, conversation, poetry and music, celebrating the life, works and enduring legacy of the Bard of the Brahmaputra.',
                         ],
                         [
-                            'title' => 'RGU Hosts International Scholar-in-Residence Dr. Licia Proserpio for Academic Sessions on Social Science Research',
+                            'title' =>
+                                'RGU Hosts International Scholar-in-Residence Dr. Licia Proserpio for Academic Sessions on Social Science Research',
                             'summary' => '',
                             'date' => 'Guwahati, August 28, 2026:',
-                            'link' => '/rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research',
+                            'link' =>
+                                '/rgu-hosts-international-scholar-in-residence-dr-licia-proserpio-for-academic-sessions-on-social-science-research',
                             'image' => '/mobile-assets/media-corner/2026/aug/32/n2.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) is hosting a series of academic training sessions under its Scholar-in-Residence initiative, featuring Dr. Licia Proserpio, Social Anthropologist and Assistant Professor at the University of Bologna, Italy, who has joined the University as a Visiting Faculty from August 25 to September 2, 2026.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) is hosting a series of academic training sessions under its Scholar-in-Residence initiative, featuring Dr. Licia Proserpio, Social Anthropologist and Assistant Professor at the University of Bologna, Italy, who has joined the University as a Visiting Faculty from August 25 to September 2, 2026.',
                         ],
                         [
-                            'title' => 'Royal Global University Signs MoU with Star Cement to Develop Carbon Footprint Reduction Framework for Schools',
+                            'title' =>
+                                'Royal Global University Signs MoU with Star Cement to Develop Carbon Footprint Reduction Framework for Schools',
                             'summary' => '',
                             'date' => 'Guwahati, August 26, 2026:',
-                            'link' => '/royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools',
+                            'link' =>
+                                '/royal-global-university-signs-mou-with-star-cement-to-develop-carbon-footprint-reduction-framework-for-schools',
                             'image' => '/mobile-assets/media-corner/2026/aug/26-aug/2.jpeg',
                             'content' => 'The Assam Royal Global University (RGU) has signed a
                 Memorandum of Understanding (MoU) with the Star Cement Charitable Trust, the voluntary humanitarian trust of
