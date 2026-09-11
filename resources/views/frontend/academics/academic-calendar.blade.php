@@ -33,26 +33,26 @@
                         <h2 class="rgu-ac-title">
                             Tentative Academic
                             Calendar for the Year
-                            2025–2026
+                            2026–2027
                         </h2>
 
                         <div class="rgu-ac-btn-group">
 
                             <a href="/mobile-assets/pdf/calendar/new/ACADEMIC CALENDAR OF RGU (2026-27).pdf" class="rgu-ac-btn" download>
-                                Download Academic Calendar
+                                RGU Academic Calendar
                             </a>
 
                             <a href="/mobile-assets/pdf/calendar/new/ACADEMIC CALENDAR OF RSP (2026-27).pdf" class="rgu-ac-btn" download>
-                                Academic Calendar for RSP
+                                RSP Academic Calendar
                             </a>
 
-                            <a href="/mobile-assets/pdf/calendar/Revised%20Academic%20Calender%20(RSN)%202025-26.pdf" class="rgu-ac-btn" download>
-                                Academic Calendar for RSN
+                            <a href="/mobile-assets/academic-calendar/new/ACADEMIC CALENDAR OF RSN (2026-27).pdf" class="rgu-ac-btn" download>
+                                RSN Academic Calendar
                             </a>
 
-                            <a href="/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(RSB)%202025-26.pdf" class="rgu-ac-btn" download>
+                            {{-- <a href="/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(RSB)%202025-26.pdf" class="rgu-ac-btn" download>
                                 Academic Calendar for RSB
-                            </a>
+                            </a> --}}
 
                         </div>
 
