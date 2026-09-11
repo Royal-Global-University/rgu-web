@@ -38,11 +38,11 @@
 
                         <div class="rgu-ac-btn-group">
 
-                            <a href="/mobile-assets/pdf/calendar/Academic Calendar_AY 2026-27.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/new/ACADEMIC CALENDAR OF RGU (2026-27).pdf" class="rgu-ac-btn" download>
                                 Download Academic Calendar
                             </a>
 
-                            <a href="/mobile-assets/pdf/calendar/Tentative%20Academic%20Calender%20(D.%20Pharm,%20B.%20Pharm,%20M.%20Pharm)%202025-26.pdf" class="rgu-ac-btn" download>
+                            <a href="/mobile-assets/pdf/calendar/new/ACADEMIC CALENDAR OF RSP (2026-27).pdf" class="rgu-ac-btn" download>
                                 Academic Calendar for RSP
                             </a>
 
