@@ -5213,6 +5213,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-khalid-mohammad-tabish', function () {
+    return view('frontend/facultyprofile/rshss/khalid-mohammad-tabish');
+})->name('faculty-khalid-mohammad-tabish');
+
 Route::get('/faculty-rituparna-dey', function () {
     return view('frontend/facultyprofile/rshss/rituparna-dey');
 })->name('faculty-rituparna-dey');
