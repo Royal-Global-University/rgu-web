@@ -47,6 +47,15 @@
                     $newsItems = [
                         [
                             'title' =>
+                                '‘Ignite the Observer Within’: Author Kartikeya Vajpai Tells RGU Students',
+                            'summary' => '',
+                            'date' => 'Guwahati, September 11, 2026:',
+                            'link' => '/ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students',
+                            'image' => '/mobile-assets/media-corner/2026/sep/2/1.jpeg',
+                            'content' => 'Author, advocate, philosopher, and modern spiritual seeker Kartikeya Vajpai interacted with students and faculty members of The Assam Royal Global University (RGU) at a ‘Meet-the-Author’ programme organised by the Office of Student Affairs on Friday.',
+                        ],
+                        [
+                            'title' =>
                                 '‘Ideas Must Be Countered with Ideas to Build a Naxal-Free India’: Aradhita Singh',
                             'summary' => '',
                             'date' => 'Guwahati, September 9, 2026:',

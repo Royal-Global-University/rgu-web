@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students', function () {
+    return view('frontend/media-corner/2026/sep/news3');
+})->name('ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students');
+
 Route::get('/ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh', function () {
     return view('frontend/media-corner/2026/sep/news2');
 })->name('ideas-must-be-countered-with-ideas-to-build-a-naxal-free-india-aradhita-singh');

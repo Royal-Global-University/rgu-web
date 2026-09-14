@@ -1,10 +1,7 @@
 /* ================= 4. E-BOARD SLIDER ================= */
 
 const eboardData = [
-    {
-        img: "/new-web/assets/ads/royal.jpeg",
-        alt: "Event 1",
-    },
+
     {
         img: "/mobile-assets/ads/8-july/Frame 5.png",
         alt: "Event 1",
@@ -14,20 +11,12 @@ const eboardData = [
         alt: "Event 1",
     },
     {
-        img: "/mobile-assets/ads/e-board/1.jpeg",
-        alt: "Event 1",
-    },
-    {
         img: "/mobile-assets/ads/e-board/2.jpeg",
         alt: "Event 2",
     },
     {
         img: "/mobile-assets/ads/e-board/3.jpeg",
         alt: "Event 3",
-    },
-    {
-        img: "/mobile-assets/ads/e-board/13-4.jpeg",
-        alt: "Event 4",
     },
     { img: "/mobile-assets/ads/e-board/13-4-2.jpeg", alt: "Event 5" },
     { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },

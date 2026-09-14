@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 11, 2026",
+            title: "‘Ignite the Observer Within’: Author Kartikeya Vajpai Tells RGU Students",
+            desc: "Author, advocate, philosopher, and modern spiritual seeker Kartikeya Vajpai interacted with students and faculty members of The Assam Royal Global University (RGU) at a ‘Meet-the-Author’ programme organised by the Office of Student Affairs on Friday.",
+            img: "/mobile-assets/media-corner/2026/sep/2/1.jpeg",
+            link: "/ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students",
+        },
+        {
             date: "Guwahati, September 9, 2026",
             title: "‘Ideas Must Be Countered with Ideas to Build a Naxal-Free India’: Aradhita Singh",
             desc: "Ideas often travel faster than arms, and countering Naxalism therefore requires addressing not only its militant dimensions but also the ideology and narratives that sustain it, said Aradhita Singh, Research Fellow at India Foundation, New Delhi, at an interactive session held at The Assam Royal Global University (RGU) today.",
