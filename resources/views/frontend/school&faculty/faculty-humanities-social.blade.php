@@ -388,18 +388,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Ms-KM-Sudha-RSHSS.png"
-                                    alt="Profile image of Ms. KM Sudha">
-                            </div>
-                            <h3 class="card-name">Dr. KM Sudha</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-km-sudha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Mir-Kamruzzaman-Chowdhary.png"
                                     alt="Profile image of Dr. Mir Kamruzzaman Chowdhary">
                             </div>
