@@ -129,7 +129,7 @@
                         <li><a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">Our Video</a></li>
                         <li><a href="/media-corner">Media Corner</a></li>
                         <li><a href="/blog">RGU Blog</a></li>
-                        <li><a href="/360-tour">360° View</a></li>
+                        <li><a href="/360-tour">360° View RGU</a></li>
 
                     </ul>
 
