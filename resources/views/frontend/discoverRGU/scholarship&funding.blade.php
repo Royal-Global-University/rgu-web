@@ -7,9 +7,9 @@
 @section('content')
 
     <!-- Floating Scholarship Button -->
-    <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" class="rgu-floating-scholarship-btn" target="_blank">
+    {{-- <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" class="rgu-floating-scholarship-btn" target="_blank">
         Apply for Scholarship
-    </a>
+    </a> --}}
 
     <style>
         /* Floating Scholarship Button */
