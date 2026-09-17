@@ -2238,7 +2238,6 @@
                     sub: "",
                     link: "/mobile-assets/pdf/new/up-docx.pdf",
                 },
-
                 {
                     day: "28<sup>th</sup>",
                     month: "October 2026",

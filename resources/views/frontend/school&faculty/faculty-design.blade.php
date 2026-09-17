@@ -272,17 +272,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Siddhartha-Deb-RSA.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. Siddhartha Deb</h3>
-                            <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/all-faculty/rsa/3.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ar. Bhola Saha</h3>
@@ -623,17 +612,6 @@
                             <h3 class="card-name">Mr. Ameet Baruah</h3>
                             <p class="card-designation">Visiting Faculty</p>
                             <a href="/faculty-ameet" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 

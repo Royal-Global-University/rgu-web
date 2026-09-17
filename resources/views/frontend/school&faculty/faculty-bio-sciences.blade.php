@@ -396,19 +396,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Marbarisha%20M%20Kharkongor-RSAPS.png"
-                                    alt="Profile image of Marbarisha M Kharkongon">
-                            </div>
-                            <h3 class="card-name">Dr. Marbarisha Kharkongon</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-marbarisha-Kharkongor" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Sachidulal-Biswas.png"
                                     alt="Profile image of Dr. Sachidulal Biswas">
                             </div>

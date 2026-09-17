@@ -129,17 +129,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Siddhartha-Deb-RSA.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Prof. Siddhartha Deb</h3>
-                            <p class="card-designation">Professor</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Ar-Kasturi-Borah-RSA.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ar. Kasturi Borah</h3>

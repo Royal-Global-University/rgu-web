@@ -951,34 +951,6 @@
                     </div>
                     <!-- adjunct faculty  -->
 
-                    <!-- Visiting Faculty  -->
-                    <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
-                        <h2 class="text-center justify-content-center fw-bold"
-                            style="color: #fff; padding: 10px; font-size: 30px;">
-                            Visiting Faculty</h2>
-                    </div>
-                    <!-- Visiting Faculty  -->
-
-                    <!-- Visting faculty  -->
-                    <div class="row justify-content-center">
-
-                        <!-- Advisor / Visiting Professor -->
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                        alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                                <p class="card-designation">Visiting Faculty</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Visting faculty  -->
-
 
                 </div>
 

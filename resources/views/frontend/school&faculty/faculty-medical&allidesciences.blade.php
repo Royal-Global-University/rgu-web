@@ -526,19 +526,6 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                                <p class="card-designation">
-                                    Visiting Faculty
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
                                     <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name">Dr. Shyam Shekhar Choudhary</h3>
@@ -965,17 +952,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/all-faculty/rsmas/Phurailatpam.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Purailatpam Jeny Sharma</h3>
@@ -1089,18 +1065,6 @@
                                     alt="Profile image of Ms. Susmita Sinha">
                             </div>
                             <h3 class="card-name">Dr. Atul Agarwal</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                    alt="Profile image of Ms. Susmita Sinha">
-                            </div>
-                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
                             <p class="card-designation">Visiting Faculty</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
@@ -1464,6 +1428,17 @@
                             <h3 class="card-name">Dr. Jon Jyoti Kalita</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-jon-jyoti-kalita" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Navaf.png"
+                                    alt="Profile image of Dr. Muhammed Navaf M">
+                            </div>
+                            <h3 class="card-name">Dr. Muhammed Navaf M</h3>
+                            <p class="card-designation">Assistant Professor (Research)</p>
                         </div>
                     </div>
 

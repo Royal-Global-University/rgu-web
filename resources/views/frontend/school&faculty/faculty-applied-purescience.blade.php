@@ -251,18 +251,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Marbarisha%20M%20Kharkongor-RSAPS.png"
-                                    alt="Profile image of Dr. Marbarisha Kharkongor">
-                            </div>
-                            <h3 class="card-name">Dr. Marbarisha Kharkongor</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-marbarisha-Kharkongor" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -406,18 +394,6 @@
                             <h3 class="card-name">Dr. Upashna Chettri</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-upashna-chettri" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                    alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
-                            </div>
-                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -586,18 +562,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Marbarisha%20M%20Kharkongor-RSAPS.png"
-                                    alt="Profile image of Dr. Marbarisha Kharkongor">
-                            </div>
-                            <h3 class="card-name">Dr. Marbarisha Kharkongor</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-marbarisha-Kharkongor" class="profile-link">View
-                                Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -1197,19 +1161,6 @@
                             <h3 class="card-name">Ms. Bidisha Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-bidisha-goswami" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Marbarisha%20M%20Kharkongor-RSAPS.png"
-                                    alt="Profile image of Dr. Marbarisha M. Kharkongar">
-                            </div>
-                            <h3 class="card-name">Dr. Marbarisha M. Kharkongar</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-marbarisha-Kharkongor" class="profile-link">View
-                                Profile</a>
                         </div>
                     </div>
 

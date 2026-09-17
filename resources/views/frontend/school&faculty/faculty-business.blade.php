@@ -260,17 +260,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rishabh.jpg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Rishabh Goswami</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-rishabh-goswami" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/roshni.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Roshni Saikia</h3>

@@ -539,17 +539,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                    alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
-                            </div>
-                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Ankit.jpg"
                                     alt="Profile image of Ankit Bordoloi">
                             </div>
