@@ -634,6 +634,7 @@
                             </div>
                             <h3 class="card-name">Dr. Karan Kumar</h3>
                             <p class="card-designation">Assistant Professor </p>
+                            <a href="/faculty-karan-kumar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

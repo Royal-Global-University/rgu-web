@@ -3994,6 +3994,14 @@ Route::get('/faculty-supriyo-sen', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-joydeep', function () {
+    return view('frontend/facultyprofile/rset/joydeep');
+})->name('faculty-joydeep');
+
+Route::get('/faculty-nibedita-kalita', function () {
+    return view('frontend/facultyprofile/rset/nibedita-kalita');
+})->name('faculty-nibedita-kalita');
+
 Route::get('/faculty-daisy-das', function () {
     return view('frontend/facultyprofile/rset/daisy-das');
 })->name('faculty-daisy-das');
@@ -5212,6 +5220,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-karan-kumar', function () {
+    return view('frontend/facultyprofile/rshss/karan-kumar');
+})->name('faculty-karan-kumar');
 
 Route::get('/faculty-khalid-mohammad-tabish', function () {
     return view('frontend/facultyprofile/rshss/khalid-mohammad-tabish');
