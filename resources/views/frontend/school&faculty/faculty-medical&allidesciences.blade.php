@@ -939,17 +939,7 @@
                         </div>
                     </div>
 
-                </div>
-                <!-- adjunct faculty  -->
-                <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
-                    <h2 class="text-center justify-content-center fw-bold"
-                        style="color: #fff; padding: 10px; font-size: 30px;">
-                        Visiting faculty</h2>
-                </div>
-                <!-- Visiting faculty  -->
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="/mobile-assets/all-faculty/rsmas/Phurailatpam.jpg" alt="Profile image">
@@ -962,7 +952,7 @@
                     </div>
 
                 </div>
-                <!-- Visiting faculty  -->
+
                 <!-- regular faculty  -->
 
                 <!-- Medical Lab Technology  -->
