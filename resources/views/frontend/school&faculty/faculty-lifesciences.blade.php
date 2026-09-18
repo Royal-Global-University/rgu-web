@@ -450,10 +450,10 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Disha.png"
+                                <img src="/mobile-assets/updated-faculty-img/abhinaal.PNG"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Ms. Disha Biswas</h3>
+                            <h3 class="card-name">Mr. Abhraneel Dev Choudhury</h3>
                             <p class="card-designation">Assistant Professor</p>
                         </div>
                     </div>
@@ -461,12 +461,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/shivam.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Disha.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Mr. Shivam Arya</h3>
+                            <h3 class="card-name">Ms. Disha Biswas</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-benex-k-babu" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
