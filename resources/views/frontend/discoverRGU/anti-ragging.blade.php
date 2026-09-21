@@ -7,8 +7,8 @@
 @section('content')
     <style>
         /*==================================================
-                ANTI RAGGING
-        ==================================================*/
+            ANTI RAGGING
+    ==================================================*/
 
         .rgarc-section {
 
@@ -47,8 +47,8 @@
         }
 
         /*==================================================
-                BLUE SECTION
-        ==================================================*/
+            BLUE SECTION
+    ==================================================*/
 
         .rgarc-committee {
 
@@ -79,8 +79,8 @@
         }
 
         /*==================================================
-                WHITE SECTION
-        ==================================================*/
+            WHITE SECTION
+    ==================================================*/
 
         .rgarc-squad {
 
@@ -103,8 +103,8 @@
         }
 
         /*==================================================
-                CARD
-        ==================================================*/
+            CARD
+    ==================================================*/
 
         .rgarc-card {
 
@@ -186,9 +186,21 @@
 
         }
 
+        .rgarc-card a {
+
+            color: #23457b;
+
+            font-size: 18px;
+
+            font-weight: 600;
+
+            font-style: italic;
+
+        }
+
         /*==================================================
-                RESPONSIVE
-        ==================================================*/
+            RESPONSIVE
+    ==================================================*/
 
         @media(max-width:991px) {
 
@@ -278,7 +290,7 @@
     </style>
 
     <section class="pg-hero">
-        <div class="pg-hero-bg" style="background-image:url('new-web/assets/img/anti-ragging/cover.png'); filter: blur(5px);">
+        <div class="pg-hero-bg" style="background-image:url('assets/img/anti-ragging/cover.png'); filter: blur(5px);">
         </div>
 
         <div class="pg-hero-bg"></div>
@@ -293,6 +305,10 @@
 
     </section>
 
+    <!--==========================================================
+        ANTI RAGGING COMMITTEE
+        ===========================================================-->
+
     <section class="rgarc-section">
 
         <div class="container">
@@ -300,22 +316,22 @@
             <div class="row align-items-center">
 
                 <!--==========================
-                        IMAGE
-                    ===========================-->
+                    IMAGE
+                ===========================-->
 
                 <div class="col-lg-6">
 
                     <div class="rgarc-image">
 
-                        <img src="/mobile-assets/anti-ragging/headimg.png" alt="Anti Ragging Committee">
+                        <img src="https://www.rgu.ac/mobile-assets/anti-ragging/headimg.png" alt="Anti Ragging Committee">
 
                     </div>
 
                 </div>
 
                 <!--==========================
-                        CONTENT
-                    ===========================-->
+                    CONTENT
+                ===========================-->
 
                 <div class="col-lg-6">
 
@@ -356,6 +372,10 @@
 
     </section>
 
+    <!--==========================================================
+        ANTI RAGGING COMMITTEE
+        ===========================================================-->
+
     <section class="rgarc-committee">
 
         <div class="container">
@@ -380,6 +400,9 @@
 
     </section>
 
+    <!--==========================================================
+        ANTI RAGGING SQUAD
+        ===========================================================-->
 
     <section class="rgarc-squad">
 
@@ -521,12 +544,11 @@
 
             {
                 name: "Prof. (Dr.) George AP",
-                designation: "Professor, Dean",
+                designation: "Professor & Dean, Royal School of Business and I/C Dean, Royal School of Commerce",
                 mobile: "9496375685",
                 email: "georgep@rgu.ac",
                 position: "Chairperson"
             },
-
             {
                 name: "Dr. Kuntala Roy Choudhury",
                 designation: "Assistant Professor, RSLA",
@@ -534,134 +556,125 @@
                 email: "kroychoudhury@rgu.ac",
                 position: "Member Secretary & Nodal Officer"
             },
-
             {
-                name: "Sri Bubul Baishya, ACS",
+                name: "Mr. Jaideep Rajak, ALRS",
                 designation: "Circle Officer, Dispur Revenue Circle",
-                mobile: "8638691168",
-                email: "dc-kamrupm@nic.in",
+                mobile: "7086442900",
+                email: "dmdispurcrc@gmail.com",
                 position: "Member from Civil Administration"
             },
-
             {
-                name: "Mr. Vikram Basumatary",
-                designation: "Officer In-Charge, Garchuk Police Station",
-                mobile: "9394090044",
-                email: "cp-guw@assampolice.gov.in",
+                name: "Smt. Moitrayee Deka, APS",
+                designation: "Co-District Superintendent of Police, Police Commissionerate, Guwahati",
+                mobile: "0361-2570522",
+                email: "dc-pwest@assampolice.gov.in",
                 position: "Member from Police Administration"
             },
-
             {
-                name: "Ms. Farhin Farhat",
-                designation: "Project Coordinator, Shishu Sarothi",
-                mobile: "8811811691",
-                email: "farhinfarhat10@gmail.com",
+                name: "Ms. Moonmee Baruah",
+                designation: "Programme Assistant, UTSAH, Child Rights Organisation",
+                mobile: "9132845179",
+                email: "moonmeebaruah97@gmail.com",
                 position: "Member from NGO"
             },
-
             {
-                name: "Dr. Rahul Chanda",
-                designation: "Senior Journalist and Bureau Chief G Plus",
-                mobile: "8486002316",
-                email: "Rahul.chanda@g-plus.in",
+                name: "Sri Sivashish Thakur",
+                designation: "Chief Reporter, The Assam Tribune",
+                mobile: "9864060193",
+                email: "sivathakur@gmail.com",
                 position: "Member from Media"
             },
-
             {
-                name: "Dr. D.N. Singh",
+                name: "Prof. (Dr.) D.N. Singh",
                 designation: "Registrar Academics, RGU",
                 mobile: "9800004433",
                 email: "registraracademics@rgu.ac",
                 position: "Member"
             },
-
             {
-                name: "Prof. (Dr.) Hari Prasad Agarwal",
-                designation: "Dean, RSA, RSD, RSFT, RSFA",
-                mobile: "9706006112",
-                email: "hpagarwal@rgu.ac",
-                position: "Member from Faculty"
+                name: "Ms. Angira Mimani",
+                designation: "Assoc. Dean, Student Affairs",
+                mobile: "9864105609",
+                email: "amimani@rgu.ac",
+                position: "Member"
             },
-
             {
-                name: "Prof. (Dr.) Prithviraj Chakarborty",
-                designation: "Professor & Principal/HOD, RSP",
-                mobile: "8945903763",
-                email: "pchakraborty@rgu.ac",
-                position: "Member from Faculty"
-            },
-
-            {
-                name: "Prof. (Dr.) Hemeswari Bhuyan",
-                designation: "Professor, RSN",
-                mobile: "8638231994",
-                email: "hbhuyan@rgu.ac",
+                name: "Prof. (Dr.) Debendra Kumar Nayak",
+                designation: "Professor & i/c Dean, RSEES",
+                mobile: "9436103290",
+                email: "dknayak@rgu.ac",
                 position: "Member from Faculty"
             },
             {
-                name: "Dr. Arpee Saikia",
-                designation: "Associate Professor, RSB",
-                mobile: "9706727218",
-                email: "arpee.saikia@rgi.edu.in",
+                name: "Prof. Punam Debbarma",
+                designation: "Professor & Vice Principal/ HOD, RSN",
+                mobile: "8731033428",
+                email: "pdebbarma@rgu.ac",
                 position: "Member from Faculty"
             },
-
             {
-                name: "Dr. Madhusmita Koch",
+                name: "Prof. Bhabajyoti Saikia",
+                designation: "Professor & HOD, RSB",
+                mobile: "7002550226",
+                email: "bsaikia2@rgu.ac",
+                position: "Member from Faculty"
+            },
+            {
+                name: "Prof. (Dr.) Binay Singh",
+                designation: "Professor, RSAF",
+                mobile: "9436633324",
+                email: "bsingh@rgu.ac",
+                position: "Member from Faculty"
+            },
+            {
+                name: "Dr. Bhairab Sarma",
+                designation: "Associate Professor, Computer Science & Engineering, RSET",
+                mobile: "9612524872",
+                email: "bsarma3@rgu.ac",
+                position: "Member from Faculty"
+            },
+            {
+                name: "Mrs. Somyata Chitaranjan Satpathy Sarma",
                 designation: "Associate Professor, RSMAS",
-                mobile: "8399985622",
-                email: "mkoch@rgu.ac",
+                mobile: "7577984438",
+                email: "sssarma@rgu.ac",
                 position: "Member from Faculty"
             },
-
             {
-                name: "Dr. Indrajit Dutta",
-                designation: "Associate Professor, RSTTM",
-                mobile: "9863651421",
-                email: "idutta@rgu.ac",
-                position: "Member from Faculty"
-            },
-
-            {
-                name: "Dr. Rani Das",
-                designation: "Assistant Professor, Social Work and Public Relation Officer",
-                mobile: "",
-                email: "",
-                position: "Member from Faculty"
-            },
-
-            {
-                name: "Ms. Bidisha Goswami",
-                designation: "Assistant Professor, RSET",
-                mobile: "9101062955",
-                email: "bgoswami1@rgu.ac",
-                position: "Member from Faculty"
-            },
-
-            {
-                name: "Ar. Jagriti Pathak",
+                name: "Ar. Bhola Saha",
                 designation: "Assistant Professor, RSA",
-                mobile: "9101182435",
-                email: "jpathak1@rgu.ac",
+                mobile: "7002609550",
+                email: "akborah@rgu.ac",
                 position: "Member from Faculty"
             },
-
             {
-                name: "Dr. Rupesh Kumar",
-                designation: "Assistant Professor, MLT",
-                mobile: "8638492924",
-                email: "rkumar@rgu.ac",
+                name: "Dr. Pubalee Sarmah",
+                designation: "Associate Professor, Chemistry, RSAPS",
+                mobile: "7002069755",
+                email: "pule.sarmah@rgi.edu.in",
                 position: "Member from Faculty"
             },
-
             {
-                name: "Dr. Naphisabeth Kharsati",
-                designation: "Assistant Professor, RSBAS",
-                mobile: "9774915764",
-                email: "nkharsati@rgu.ac",
+                name: "Dr. Sailendra Das",
+                designation: "Assistant Professor, RSCM",
+                mobile: "9864765552",
+                email: "sdas7@rgu.ac",
                 position: "Member from Faculty"
             },
-
+            {
+                name: "Dr. Rituraj Bharadwaj",
+                designation: "Associate Professor, RSP",
+                mobile: "7002486750",
+                email: "rbharadwaj2@rgu.ac",
+                position: "Member from Faculty"
+            },
+            {
+                name: "Dr. Shraddha Basu",
+                designation: "Assistant Professor & Co-ordinator, RSBAS",
+                mobile: "9401539238",
+                email: "sbasu@rgu.ac",
+                position: "Member from Faculty"
+            },
             {
                 name: "Mr. Mridul Phookan",
                 designation: "Chief Warden, RGU",
@@ -669,83 +682,74 @@
                 email: "mphookan@rgu.ac",
                 position: "Member from Admin"
             },
-
             {
-                name: "Mr. Ratan Nath",
+                name: "Mr. Gautam Das",
                 designation: "Chief Security & Vigilance Officer",
-                mobile: "9859161420",
-                email: "rnath1@rgu.ac",
+                mobile: "9953031475",
+                email: "gdas2@rgu.ac",
                 position: "Member from Admin"
             },
             {
-                name: "Ms. Moonmoon Ahmed",
-                designation: "Manager, Academic Section",
+                name: "Ms. Moon Moon Ahmed",
+                designation: "Sr. Manager, Academic Section",
                 mobile: "9864059775",
                 email: "mmahmed@rgu.ac",
                 position: "Member from Admin"
             },
-
             {
-                name: "Divyansh Sood",
-                designation: "BCA, 4th Semester, RSIT",
-                mobile: "7085710046",
-                email: "divyanshsood6969@gmail.com",
-                position: "Member from Hostel Boarder (Boy's)"
+                name: "Mr. Imran Hussain",
+                designation: "BBA, 5th semester, RSB",
+                mobile: "9707711712",
+                email: "mdimran2003hussain@gmail.com",
+                position: "Member from Hostel Boarder (Boy’s)"
             },
-
             {
-                name: "Adnin Begum",
-                designation: "B. Tech CE, 6th Semester",
-                mobile: "8638810127",
-                email: "adninbegum@gmail.com",
-                position: "Member from Hostel Boarder (Girl's)"
+                name: "Mrs. Suhani Singh",
+                designation: "B.Sc. Bio-Technology, 5th Sem",
+                mobile: "7889186788",
+                email: "singhsuhani76625@gmail.com",
+                position: "Member from Hostel Boarder (Girl’s)"
             },
-
             {
-                name: "Zubin Islam",
-                designation: "MBA, 3rd Semester, RSB",
-                mobile: "9619121397",
-                email: "zislam@gmail.com",
+                name: "Mr. Prabhat Saha",
+                designation: "B. Pharm., 7th Semester, RSP",
+                mobile: "9707287525",
+                email: "sahaprabhat27113@gmail.com",
                 position: "Member from Sr. Students"
             },
-
             {
-                name: "Sibani Pattnaik",
-                designation: "BA-LLB, 8th Semester, RSLA",
-                mobile: "7683944202",
-                email: "sibanicps@gmail.com",
+                name: "Ms. Musqaan Suave",
+                designation: "M.Tech. CSE, 3rd semester, RSET",
+                mobile: "7896366466",
+                email: "musqaansuave@gmail.com",
                 position: "Member from Sr. Students"
             },
-
             {
-                name: "Mrs. Itishree Mahapatra",
-                designation: "M/O: Sibani Pattanaik (BA LLB)",
-                mobile: "948469333/9078906333",
-                email: "mahapatraitishree1980@gmail.com",
+                name: "Mr. Susanta Chowdhury",
+                designation: "F/O : Kaushiki Chowdhury (BA(H) Political Science)",
+                mobile: "9864316090",
+                email: "susantac60@gmail.com",
                 position: "Member from Parents"
             },
-
             {
-                name: "Mr. Abdul Zubber",
-                designation: "F/O: Shahil Ahmed (BTech CSE)",
-                mobile: "9435401183",
-                email: "zubberabdul@gmail.com",
+                name: "Ms. Gitarthi Goswami",
+                designation: "M/O – Jugarka Kaushik (BA (H) & MC)",
+                mobile: "8638921523",
+                email: "gitarthigoswami999@gmail.com",
                 position: "Member from Parents"
             },
-
             {
-                name: "Ms. Pahee Baishya",
-                designation: "BA Political Science, 1st Semester, RSHSS",
-                mobile: "9435086474",
-                email: "",
+                name: "Ms. Parineeta Gowala",
+                designation: "B.Sc. (H) Forensics Science, 1st semester, RSLSC",
+                mobile: "8099737128",
+                email: "parineetagowala7@gmail.com",
                 position: "Member from Fresher"
             },
-
             {
-                name: "Mr. Asheek Basumatary",
-                designation: "B.Sc. Bio-Technology, 1st Semester, RSBSC",
-                mobile: "8638764563",
-                email: "",
+                name: "Mr. Seelame Emmanuel Motlomelo",
+                designation: "Bachelor of Anaesthesia & Operation Theatre Technology, 1st semester, RSMAS",
+                mobile: "9181859558",
+                email: "seelanemotlomelo6@gmail.com",
                 position: "Member from Fresher"
             }
 
@@ -758,70 +762,154 @@
 
         const antiRaggingSquad = [
 
-            {
-                name: "Ms. Rumi Talukdar",
-                designation: "Associate Professor",
-                department: "Nursing",
-                mobile: "9864817225",
-                email: "rtalukdar@rgu.ac"
-            },
 
             {
-                name: "Dr. Syed Sajidul Islam",
+                name: "Dr. Anurag Barthwal",
                 designation: "Associate Professor",
-                department: "TTM",
-                mobile: "9435702586",
-                email: "ssislam@rgu.ac"
+                department: "Computer Science & Engineering",
+                mobile: "9074878985",
+                email: "abarthwal@rgu.ac"
             },
-
             {
-                name: "Dr. Bapan Kalita",
-                designation: "Associate Professor",
-                department: "Mathematics",
-                mobile: "9854152518",
-                email: "bapan.kalita@rgi.edu.in"
-            },
-
-            {
-                name: "Dr. Biplob Borah",
+                name: "Dr. Bonisha Borah",
                 designation: "Assistant Professor",
-                department: "Chemistry",
-                mobile: "7002730472",
-                email: "bborah1@rgu.ac"
+                department: "CE",
+                mobile: "7002299749",
+                email: "bborah2@rgu.ac"
             },
-
             {
-                name: "Dr. Bornali Chetia",
-                designation: "Assistant Professor",
-                department: "Physics",
-                mobile: "8638067347",
-                email: "dchetia@rgu.ac"
+                name: "Dr. Mousumi Deka",
+                designation: "Associate Professor",
+                department: "Fine Arts",
+                mobile: "9435343550",
+                email: "mdeka@rgu.ac"
             },
-
             {
-                name: "Dr. Darshana Bhagowati",
+                name: "Dr. Supriya Sikari",
+                designation: "Associate Professor",
+                department: "Travel & Tourism Management & Hotel Management",
+                mobile: "8900346165",
+                email: "ssikari@rgu.ac"
+            },
+            {
+                name: "Dr. Roshni Saikia",
                 designation: "Assistant Professor",
                 department: "Management",
-                mobile: "8420707010",
-                email: "dbhagowati@rgu.ac"
+                mobile: "8812826908",
+                email: "ntiwarI@rgu.ac"
             },
-
             {
-                name: "Dr. Shraddha Basu",
+                name: "Dr. Syamkumar V",
                 designation: "Assistant Professor",
-                department: "Psychology",
-                mobile: "9401539238",
-                email: "sbasu@rgu.ac"
+                department: "Political Science",
+                mobile: "9656417398",
+                email: "shnongmeikapam@rgu.ac"
             },
-
             {
-                name: "Dr. Nilanjana Purkayastha",
+                name: "Dr. Amit Kumar",
                 designation: "Assistant Professor",
-                department: "Library Science",
-                mobile: "7002145936",
-                email: "npurkayastha@rgu.ac"
+                department: "Economics",
+                mobile: "9849371732",
+                email: "akumar3@rgu.ac"
             },
-
+            {
+                name: "Dr. Madhurjya Baruah",
+                designation: "Assistant Professor",
+                department: "Physical Education",
+                mobile: "8723943733",
+                email: "mbaruah@rgu.ac"
+            },
+            {
+                name: "Mr. Kadiguang Panmei",
+                designation: "Assistant Professor",
+                department: "Sociology",
+                mobile: "9971323423",
+                email: "kpanmei@rgu.ac"
+            },
+            {
+                name: "Dr. Baiarbha Massar",
+                designation: "Assistant Professor",
+                department: "Social Work",
+                mobile: "8920092825",
+                email: "bmassar@rgu.ac"
+            },
+            {
+                name: "Ms. Bhayolina Sarma",
+                designation: "Assistant Professor",
+                department: "Optometry",
+                mobile: "7399392427",
+                email: "bsarma@rgu.ac"
+            },
+            {
+                name: "Ms. Zomuanpuii",
+                designation: "Assistant Professor & Coordinator",
+                department: "OTT",
+                mobile: "8974769870",
+                email: "Zomuanpuii.i@rgu.ac"
+            },
+            {
+                name: "Miss. Meghna Guha",
+                designation: "Assistant Professor and Coordinator",
+                department: "Radiography",
+                mobile: "8638138493",
+                email: "mguha@rgu.ac"
+            },
+            {
+                name: "Ms. Anindita Dutta",
+                designation: "Assistant Professor",
+                department: "MLT",
+                mobile: "9706309411",
+                email: "adutta@rgu.ac"
+            },
+            {
+                name: "Dr. Priyanka Bhattacharya",
+                designation: "Assistant Professor",
+                department: "Food Science & Nutrition",
+                mobile: "8724051399",
+                email: "pbhattacharyya@rgu.ac"
+            },
+            {
+                name: "Dr. Anirban Banik",
+                designation: "Assistant Professor",
+                department: "Zoology",
+                mobile: "9475247558",
+                email: "abanik1@rgu.ac"
+            },
+            {
+                name: "Dr. Upasna Chettry",
+                designation: "Assistant Professor",
+                department: "Botany",
+                mobile: "9774185232",
+                email: "uchettry@rgu.ac"
+            },
+            {
+                name: "Mr. Benek K Babu",
+                designation: "Assistant Professor & Coordinator",
+                department: "Forensic Science",
+                mobile: "8113096875",
+                email: "bkbabu@rgu.ac"
+            },
+            {
+                name: "Dr. Ankita Agarwal",
+                designation: "Assistant Professor",
+                department: "J& MC",
+                mobile: "9864067250",
+                email: "aagarwaldc@rgu.ac"
+            },
+            {
+                name: "Mr. Asif Iqbal Mazid",
+                designation: "Assistant Professor & Coordinator",
+                department: "Fashion",
+                mobile: "6001189441",
+                email: "aimazid@rgu.ac"
+            },
+            {
+                name: "Mr. Zubin Islam",
+                designation: "Assistant Professor & Coordinator",
+                department: "Design",
+                mobile: "9619121397",
+                email: "zislam@rgu.ac"
+            },
             {
                 name: "Ms. Baishali Pathak",
                 designation: "Assistant Professor",
@@ -829,196 +917,104 @@
                 mobile: "9085325944",
                 email: "bpathak1@rgu.ac"
             },
-
             {
-                name: "Dr. Champa Devi",
+                name: "Dr. Prabuddha Ghosh",
                 designation: "Assistant Professor",
-                department: "Communication & Media",
-                mobile: "9436896628",
-                email: "cdevi@rgu.ac"
+                department: "English",
+                mobile: "9874892569",
+                email: "pghosh@rgu.ac"
             },
             {
-                name: "Mr. Dijendra Das",
-                designation: "Teaching Assistant",
-                department: "Animation & Visual Effects",
-                mobile: "9957406256",
-                email: "ddas4@rgu.ac"
-            },
-
-            {
-                name: "Ms. Sukriti Baruah",
-                designation: "Assistant Professor",
-                department: "Design",
-                mobile: "9665524257",
-                email: "sbaruah@rgu.ac"
-            },
-
-            {
-                name: "Dr. Rajesh Deb",
-                designation: "Assistant Professor",
-                department: "Civil Engineering",
-                mobile: "8753016393",
-                email: "rdeb@rgu.ac"
-            },
-
-            {
-                name: "Dr. Sanghamitra Hazarika",
-                designation: "Assistant Professor",
-                department: "Economics",
-                mobile: "7002390144",
-                email: "shazarika1@rgu.ac"
-            },
-
-            {
-                name: "Ms. KM Sudha",
-                designation: "Assistant Professor",
-                department: "History",
-                mobile: "8853651505",
-                email: "kmsudha@rgu.ac"
-            },
-
-            {
-                name: "Mr. Abhinav Chaliha",
-                designation: "Assistant Professor",
-                department: "Political Science",
-                mobile: "9873068634",
-                email: "achaliha@rgu.ac"
-            },
-
-            {
-                name: "Dr. Monika Kumari",
-                designation: "Assistant Professor",
-                department: "Public Administration",
-                mobile: "7042228930",
-                email: "mkumari@rgu.ac"
-            },
-
-            {
-                name: "Ms. Adishree Borgohain",
-                designation: "Assistant Professor",
-                department: "Sociology",
-                mobile: "8377885874",
-                email: "aborgohain@rgu.ac"
-            },
-
-            {
-                name: "Ms. Joyeeta Bhattacharjee",
-                designation: "Assistant Professor",
-                department: "Social Work",
-                mobile: "7099073361",
-                email: "jbbhattacharjee@rgu.ac"
-            },
-
-            {
-                name: "Ms. Sangeeta Biswas",
-                designation: "Assistant Professor",
-                department: "Zoology",
-                mobile: "9612206784",
-                email: "sbiwas1@rgu.ac"
-            },
-            {
-                name: "Dr. Upashna Chettri",
-                designation: "Assistant Professor",
-                department: "Botany",
-                mobile: "7797875244",
-                email: "uchettri@rgu.ac"
-            },
-
-            {
-                name: "Dr. Demsai Reang",
-                designation: "Assistant Professor",
-                department: "Forestry",
-                mobile: "8638026696",
-                email: "dreang@rgu.ac"
-            },
-
-            {
-                name: "Ms. Neelakshi Sharma",
+                name: "Ms. Payal Dasgupta",
                 designation: "Assistant Professor",
                 department: "Pharmacy",
-                mobile: "9613221566",
-                email: "nsharma4@rgu.ac"
+                mobile: "8638399823",
+                email: "pdasgupta@rgu.ac"
             },
-
             {
-                name: "Mr. Spandan Kumar Barthakur",
+                name: "Dr. Pankaj Losan Sharma",
                 designation: "Assistant Professor",
-                department: "RSIT",
-                mobile: "7002839151",
-                email: "skborthakur@rgu.ac"
+                department: "Microbiology",
+                mobile: "8822384403",
+                email: "plsharma@rgu.ac"
             },
-
+            {
+                name: "Dr. Mousumi Das Goswami",
+                designation: "Assistant Professor",
+                department: "Biotechnology",
+                mobile: "8011131675",
+                email: "mdgoswami@rgu.ac"
+            },
+            {
+                name: "Dr. Bikram Bir",
+                designation: "Assistant Professor",
+                department: "Mathematics",
+                mobile: "9706930645",
+                email: "bbir@rgi.edu.in"
+            },
+            {
+                name: "Dr. Debojit Sahu",
+                designation: "Assistant Professor",
+                department: "Chemistry",
+                mobile: "9954215185",
+                email: "dsahu@rgu.ac"
+            },
+            {
+                name: "Dr. Koushik Saikia",
+                designation: "Assistant Professor",
+                department: "Physics",
+                mobile: "9957074291",
+                email: "ksaikia3@rgu.ac"
+            },
+            {
+                name: "Dr. Trishna Changkakati",
+                designation: "Assistant Professor",
+                department: "Geography",
+                mobile: "8011809853",
+                email: "tchangkakati@rgu.ac"
+            },
+            {
+                name: "Mr. Rajdeep Deb",
+                designation: "Assistant Professor",
+                department: "Geology",
+                mobile: "9365279350",
+                email: "Pborah2@rgu.ac"
+            },
+            {
+                name: "Dr. Md. Mukutor Rahman",
+                designation: "Assistant Professor",
+                department: "Library & Information Science",
+                mobile: "7002190775",
+                email: "mrahman@rgu.ac"
+            },
+            {
+                name: "Ms. Bhanita Barman",
+                designation: "Assistant Professor",
+                department: "Nursing",
+                mobile: "7002091880",
+                email: "bbarman@rgu.ac"
+            },
             {
                 name: "Dr. Saswati Bordoloi",
-                designation: "Assistant Professor",
+                designation: "Co-Coordinator, IKS Cell",
                 department: "IKS",
                 mobile: "8473901735",
                 email: "sbordoloi@rgu.ac"
             },
-
             {
-                name: "Ar. Barsha Kunda",
-                designation: "Assistant Professor",
-                department: "Architecture",
-                mobile: "9706721765",
-                email: "bkunda@rgu.ac"
-            },
-
-            {
-                name: "Ms. Dipanjali Das",
-                designation: "Assistant Professor",
-                department: "Food Technology",
-                mobile: "7016576349",
-                email: "ddas@rgu.ac"
-            },
-
-            {
-                name: "Dr. Taranga Jyoti Baruah",
-                designation: "Assistant Professor",
-                department: "Microbiology",
-                mobile: "7308413200",
-                email: "tjbaruah@rgu.ac"
-            },
-
-            {
-                name: "Ms. Anudeep Kaur",
-                designation: "Assistant Professor",
-                department: "Radiography & AIT",
-                mobile: "9654861603",
-                email: "akaur@rgu.ac"
-            },
-
-            {
-                name: "Ms. Zomuanpuii",
-                designation: "Assistant Professor",
-                department: "OTT",
-                mobile: "8974769870",
-                email: "zomuanpui.i@rgu.ac"
+                name: "Mr Hrishikesh Pathak",
+                designation: "Sports Officer",
+                department: "Physical Education and Sports",
+                mobile: "9476927098",
+                email: "hpathak@rgu.ac"
             },
             {
-                name: "Dr. Debjani Das",
+                name: "Dr. Nilanjana Purkayastha",
                 designation: "Assistant Professor",
-                department: "Nutrition & Dietetics",
-                mobile: "6909436881",
-                email: "ddas5@rgu.ac"
+                department: "Library",
+                mobile: "7002145936",
+                email: "npurkayastha@rgu.ac"
             },
-
-            {
-                name: "Ms. Lipika Kalita",
-                designation: "Assistant Professor",
-                department: "Optometry",
-                mobile: "7002435904",
-                email: "lkalita1@rgu.ac"
-            },
-
-            {
-                name: "Dr. Sumanto Dutta Choudhury",
-                designation: "Assistant Professor",
-                department: "Fine Arts",
-                mobile: "9864370028",
-                email: "sdchoudhury@rgu.ac"
-            },
-
             {
                 name: "Ms. Momata Tamuly",
                 designation: "Warden",
@@ -1026,7 +1022,6 @@
                 mobile: "7002144451",
                 email: "mtamuly@rgu.ac"
             },
-
             {
                 name: "Mr. Kamal Narayan Das",
                 designation: "Warden",
@@ -1034,7 +1029,6 @@
                 mobile: "9854051729",
                 email: "kndas@rgu.ac"
             },
-
             {
                 name: "Mr. Shamim A Goney",
                 designation: "Deputy Registrar",
@@ -1042,7 +1036,6 @@
                 mobile: "9864026097",
                 email: "sagoney@rgu.ac"
             },
-
             {
                 name: "Mr. Manoj Sarma",
                 designation: "Sr. Manager",
@@ -1050,7 +1043,6 @@
                 mobile: "8811003111",
                 email: "msarma@rgu.ac"
             },
-
             {
                 name: "Mr. Bijoy Kalita",
                 designation: "Manager",
