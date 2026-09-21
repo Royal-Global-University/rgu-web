@@ -1491,6 +1491,7 @@
                             <h3 class="card-name">Ms. Somali Ghosh</h3>
                             <p class="card-designation">Assistant Professor
                             </p>
+                            <a href="/faculty-somali-ghosh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

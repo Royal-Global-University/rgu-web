@@ -4486,6 +4486,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-somali-ghosh', function () {
+    return view('frontend/facultyprofile/rsmas/somali-ghosh');
+})->name('faculty-somali-ghosh');
+
 Route::get('/faculty-sandeep-das', function () {
     return view('frontend/facultyprofile/rsmas/sandeep-das');
 })->name('faculty-sandeep-das');
@@ -5497,6 +5501,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 })->name('faculty-bhupali-saikia');
 
 //RSB Facuilty Profile
+
+Route::get('/faculty-puja-agarwal', function () {
+    return view('frontend/facultyprofile/rsb/puja-agarwal');
+})->name('faculty-puja-agarwal');
 
 Route::get('/faculty-abheeshek-dev-roye', function () {
     return view('frontend/facultyprofile/rsb/abheeshek-dev');
