@@ -47,12 +47,26 @@
                     $newsItems = [
                         [
                             'title' =>
-                                '‘Ignite the Observer Within’: Author Kartikeya Vajpai Tells RGU Students',
+                                'Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg',
+                            'summary' => 'Nahor sapling planted on RGU
+                campus by Garima Saikia Garg',
+                            'date' => 'Guwahati, September 18, 2026:',
+                            'link' =>
+                                '/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg',
+                            'image' => '/mobile-assets/media-corner/2026/sep/zubeen/2.jpeg',
+                            'content' => 'he Assam Royal Global University (RGU) observed
+                Zubeen Diwas today to honour the enduring presence, music and legacy of legendary artiste Zubeen Garg. The
+                programme commenced with a deeply symbolic gesture as Garima Saikia Garg, wife of Zubeen Garg, planted a
+                Nahor sapling on the university campus.',
+                        ],
+                        [
+                            'title' => '‘Ignite the Observer Within’: Author Kartikeya Vajpai Tells RGU Students',
                             'summary' => '',
                             'date' => 'Guwahati, September 11, 2026:',
                             'link' => '/ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students',
                             'image' => '/mobile-assets/media-corner/2026/sep/2/1.jpeg',
-                            'content' => 'Author, advocate, philosopher, and modern spiritual seeker Kartikeya Vajpai interacted with students and faculty members of The Assam Royal Global University (RGU) at a ‘Meet-the-Author’ programme organised by the Office of Student Affairs on Friday.',
+                            'content' =>
+                                'Author, advocate, philosopher, and modern spiritual seeker Kartikeya Vajpai interacted with students and faculty members of The Assam Royal Global University (RGU) at a ‘Meet-the-Author’ programme organised by the Office of Student Affairs on Friday.',
                         ],
                         [
                             'title' =>

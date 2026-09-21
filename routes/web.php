@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg', function () {
+    return view('frontend/media-corner/2026/sep/news4');
+})->name('zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg');
+
 Route::get('/ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students', function () {
     return view('frontend/media-corner/2026/sep/news3');
 })->name('ignite-the-observer-within-author-kartikeya-vajpai-tells-rgu-students');
