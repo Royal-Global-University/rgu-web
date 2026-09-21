@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             date: "Guwahati, September 18, 2026",
             title: "Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg",
-            desc: "Nahor sapling planted on RGU campus by Garima Saikia Garg",
-            img: "/mobile-assets/media-corner/2026/sep/2/1.jpeg",
+            desc: "The Assam Royal Global University (RGU) observed Zubeen Diwas today to honour the enduring presence, music and legacy of legendary artiste Zubeen Garg. The programme commenced with a deeply symbolic gesture as Garima Saikia Garg, wife of Zubeen Garg, planted a Nahor sapling on the university campus.",
+            img: "/mobile-assets/media-corner/2026/sep/zubeen/2.jpeg",
             link: "/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg",
         },
         {
