@@ -1405,6 +1405,16 @@
                     {
                         name: "Department of Food Science & Nutrition",
                         url: "https://www.rgu.ac/departement-food-science&nutrition"
+                    },
+
+                    {
+                        name: "Department of Dialysis Therapy Technology",
+                        url: "/department-dialysis"
+                    },
+
+                    {
+                        name: "Department of Emergency Medical Technology",
+                        url: "/department-emergency-medical-technology"
                     }
                 ]
             },
