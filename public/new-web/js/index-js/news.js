@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 18, 2026",
+            title: "Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg",
+            desc: "Nahor sapling planted on RGU campus by Garima Saikia Garg",
+            img: "/mobile-assets/media-corner/2026/sep/2/1.jpeg",
+            link: "/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg",
+        },
+        {
             date: "Guwahati, September 11, 2026",
             title: "‘Ignite the Observer Within’: Author Kartikeya Vajpai Tells RGU Students",
             desc: "Author, advocate, philosopher, and modern spiritual seeker Kartikeya Vajpai interacted with students and faculty members of The Assam Royal Global University (RGU) at a ‘Meet-the-Author’ programme organised by the Office of Student Affairs on Friday.",
