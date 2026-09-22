@@ -47,7 +47,7 @@
                     $newsItems = [
                         [
                             'title' =>'Royal Global University Observes ‘Green Day’',
-                            'summary' => 'Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birth Anniversary',
+                            'summary' => 'Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birthday',
                             'date' => 'Guwahati, September 22, 2026:',
                             'link' =>'/royal-global-university-observes-green-day',
                             'image' => '/mobile-assets/media-corner/2026/sep/5/1.jpeg',

@@ -20,7 +20,7 @@
                 Royal Global University Observes ‘Green Day’
             </h2>
 
-             <h4 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 24px;">Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birth Anniversary</h4>
+             <h4 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 24px;">Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birthday</h4>
 
             <div class="container pt-5 pb-5 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
