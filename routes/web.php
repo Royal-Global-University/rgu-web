@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-observes-green-day', function () {
+    return view('frontend/media-corner/2026/sep/news6');
+})->name('royal-global-university-observes-green-day');
+
 Route::get('/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona', function () {
     return view('frontend/media-corner/2026/sep/news5');
 })->name('rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona');

@@ -1,7 +1,6 @@
 @extends('frontend.master')
 @section('title',
-    'Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen
-    Garg')
+    'RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

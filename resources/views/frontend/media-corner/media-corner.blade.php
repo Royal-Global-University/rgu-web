@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'Royal Global University Observes ‘Green Day’',
+                            'summary' => 'Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birth Anniversary',
+                            'date' => 'Guwahati, September 22, 2026:',
+                            'link' =>'/royal-global-university-observes-green-day',
+                            'image' => '/mobile-assets/media-corner/2026/sep/5/1.jpeg',
+                            'content' => 'The 63rd birth anniversary of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.',
+                        ],
+                        [
                             'title' =>'RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona',
                             'summary' => '',
                             'date' => 'Guwahati, September 21, 2026:',
