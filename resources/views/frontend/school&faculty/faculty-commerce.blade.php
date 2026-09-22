@@ -163,7 +163,7 @@
                                 <img src="https://rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Aruna Dev Roy</h3>
-                            <p class="card-designation">Associate Professor & HOD</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="/faculty-dr-aruna-dev-roy" class="profile-link">View Profile</a>
                         </div>
                     </div>
