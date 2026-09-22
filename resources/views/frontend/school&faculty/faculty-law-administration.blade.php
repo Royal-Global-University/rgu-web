@@ -180,7 +180,7 @@
                             </div>
                             <h3 class="card-name">Dr. Laishram Malem Mangal</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="/faculty-kavita-k-jain" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-laishram-malem-manga" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -225,6 +225,7 @@
                             </div>
                             <h3 class="card-name">Dr. Aruno Raj Singh</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-aruno-raj-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

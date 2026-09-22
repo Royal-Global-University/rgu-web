@@ -1429,6 +1429,7 @@
                             </div>
                             <h3 class="card-name">Dr. Muhammed Navaf M</h3>
                             <p class="card-designation">Assistant Professor (Research)</p>
+                            <a href="/faculty-muhammed-navaf" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

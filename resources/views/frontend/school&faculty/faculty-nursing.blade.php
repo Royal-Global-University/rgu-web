@@ -333,6 +333,7 @@
                             </div>
                             <h3 class="card-name">Ms. Gayatri Shil</h3>
                             <p class="card-designation">Lecturer/Tutor</p>
+                            <a href="/gayatri-shil" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -343,7 +344,7 @@
                             </div>
                             <h3 class="card-name">Ms. Manisha Kalita</h3>
                             <p class="card-designation">Lecturer/Tutor</p>
-                            <a href="/faculty-manisha-kalita" class="profile-link">View Profile</a>
+                                
                         </div>
                     </div>
 
