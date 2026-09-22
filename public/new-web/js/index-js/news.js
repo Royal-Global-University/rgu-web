@@ -2,6 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 21, 2026",
+            title: "RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona",
+            desc: "The Centre for Indian Knowledge Systems of The Assam Royal Global University (RGU), organised a vibrant cultural programme to mark the Janmotsav of Mahapurush Srimanta Sankardev, celebrating Assam’s rich and enduring traditions of Sattriya, Mati Akhora and Bhaona.",
+            img: "/mobile-assets/media-corner/2026/sep/4/1.jpeg",
+            link: "/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona",
+        },
+        {
+            date: "Guwahati, September 18, 2026",
+            title: "Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg",
+            desc: "The Assam Royal Global University (RGU) observed Zubeen Diwas today to honour the enduring presence, music and legacy of legendary artiste Zubeen Garg. The programme commenced with a deeply symbolic gesture as Garima Saikia Garg, wife of Zubeen Garg, planted a Nahor sapling on the university campus.",
+            img: "/mobile-assets/media-corner/2026/sep/zubeen/2.jpeg",
+            link: "/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg",
+        },
+        {
             date: "Guwahati, September 18, 2026",
             title: "Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg",
             desc: "The Assam Royal Global University (RGU) observed Zubeen Diwas today to honour the enduring presence, music and legacy of legendary artiste Zubeen Garg. The programme commenced with a deeply symbolic gesture as Garima Saikia Garg, wife of Zubeen Garg, planted a Nahor sapling on the university campus.",

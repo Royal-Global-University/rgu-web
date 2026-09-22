@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona',
+                            'summary' => '',
+                            'date' => 'Guwahati, September 21, 2026:',
+                            'link' =>'/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona',
+                            'image' => '/mobile-assets/media-corner/2026/sep/4/1.jpeg',
+                            'content' => 'The Centre for Indian Knowledge Systems of The Assam Royal Global University (RGU), organised a vibrant cultural programme to mark the Janmotsav of Mahapurush Srimanta Sankardev, celebrating Assam’s rich and enduring traditions of Sattriya, Mati Akhora and Bhaona.',
+                        ],
+                        [
                             'title' =>
                                 'Zubeen Diwas Observed at Royal Global University; DBHCC to Conduct Research on Four Aspects of Zubeen Garg',
                             'summary' => 'Nahor sapling planted on RGU

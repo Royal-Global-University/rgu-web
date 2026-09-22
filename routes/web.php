@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona', function () {
+    return view('frontend/media-corner/2026/sep/news5');
+})->name('rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona');
+
 Route::get('/zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg', function () {
     return view('frontend/media-corner/2026/sep/news4');
 })->name('zubeen-diwas-observed-at-royal-global-university-dbhcc-to-conduct-research-on-four-aspects-of-zubeen-garg');
