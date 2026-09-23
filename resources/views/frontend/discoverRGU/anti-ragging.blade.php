@@ -544,7 +544,7 @@
 
             {
                 name: "Prof. (Dr.) George AP",
-                designation: "Professor & Dean, Royal School of Business and I/C Dean, Royal School of Commerce",
+                designation: "Professor & Dean, Royal School of Business, Royal School of Commerce",
                 mobile: "9496375685",
                 email: "georgep@rgu.ac",
                 position: "Chairperson"
