@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             date: "Guwahati, September 22, 2026",
             title: "Royal Global University Observes ‘Green Day’",
-            desc: "The 63rd birth anniversary of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.",
+            desc: "The 63rd Birthday of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.",
             img: "/mobile-assets/media-corner/2026/sep/5/1.jpeg",
             link: "/royal-global-university-observes-green-day",
         },

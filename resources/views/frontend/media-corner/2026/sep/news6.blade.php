@@ -39,7 +39,7 @@
             </div>
 
             <p class="para1 text-dark pt-2">
-                <span class="fw-bold"> GUWAHATI, September 22, 2026: </span>The 63rd birth anniversary of Dr. Ashok Kumar
+                <span class="fw-bold"> GUWAHATI, September 22, 2026: </span>The 63rd Birthday of Dr. Ashok Kumar
                 Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service,
                 compassion and environmental responsibility, with activities focused on giving back to society and nature
                 rather than conventional celebrations.
