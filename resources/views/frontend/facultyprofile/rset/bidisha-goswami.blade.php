@@ -217,7 +217,7 @@
 
                         <h2 class="faculty-bio-sub-heading">Qualifications</h2>
                         <ul class="faculty-bio-info-list">
-                            <li><i class="fa fa-circle"></i> <span>Ph.D. (pursuing) from Cotton University</span></li>
+                            <li><i class="fa fa-circle"></i> <span>Ph.D. from Cotton University</span></li>
                             <li><i class="fa fa-circle"></i> <span>MCA from Jorhat Engineering College</span></li>
                             <li><i class="fa fa-circle"></i> <span>B.Sc. in Information Technology from Jorhat Institute of
                                     Science and Technology</span></li>
