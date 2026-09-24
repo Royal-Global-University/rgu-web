@@ -11,7 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="/mobile-assets/updated-faculty-img/Bikash.jpeg" alt="">
+                                    src="/mobile-assets/updated-faculty-img/Bikash-Baruah.png" alt="">
                             </div>
                         </div>
 
@@ -55,7 +55,25 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D. in Computer Science and Engineering
+                                            Ph.D. in Bioinformatics from the Department of Computer Science and Engineering, National Institute of Technology, Arunachal Pradesh.
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            M.Tech. in Computer Science and Engineering from the North Eastern Regional Institute of Science and Technology (NERIST).
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            B.Tech. in Computer Science and Engineering from the North Eastern Regional Institute of Science and Technology (NERIST).
                                         </span>
                                     </li>
 
@@ -208,7 +226,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="/mobile-assets/updated-faculty-img/Bikash.jpeg" alt="">
+                                src="/mobile-assets/updated-faculty-img/Bikash-Baruah.png" alt="">
                         </div>
 
                     </div>
@@ -251,7 +269,23 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D. in Computer Science and Engineering
+                                        Ph.D. in Bioinformatics from the Department of Computer Science and Engineering, National Institute of Technology, Arunachal Pradesh.
+                                    </span>
+                                </li>
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        M.Tech. in Computer Science and Engineering from the North Eastern Regional Institute of Science and Technology (NERIST).
+                                    </span>
+                                </li>
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        B.Tech. in Computer Science and Engineering from the North Eastern Regional Institute of Science and Technology (NERIST).
                                     </span>
                                 </li>
 
