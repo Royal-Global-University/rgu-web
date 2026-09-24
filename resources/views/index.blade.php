@@ -570,7 +570,7 @@
                             rguCustomNextSlide();
 
                         },
-                        3000
+                        6000
                     );
 
                 }
