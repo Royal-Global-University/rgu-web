@@ -3273,6 +3273,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/high-level-india-thailand-dialogue-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/sep/news7');
+})->name('high-level-india-thailand-dialogue-held-at-royal-global-university');
+
 Route::get('/royal-global-university-observes-green-day', function () {
     return view('frontend/media-corner/2026/sep/news6');
 })->name('royal-global-university-observes-green-day');

@@ -1169,7 +1169,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg"
                                     alt="Profile image of Bidisha Goswami">
                             </div>
-                            <h3 class="card-name">Ms. Bidisha Goswami</h3>
+                            <h3 class="card-name">Dr. Bidisha Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-bidisha-goswami" class="profile-link">View Profile</a>
                         </div>

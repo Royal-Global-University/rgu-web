@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 23, 2026",
+            title: "High-Level India–Thailand Dialogue held at Royal Global University",
+            desc: "Asian Confluence, a Shillong-based think tank, in collaboration with the Department of Political Science and Public Administration of The Assam Royal Global University (RGU), organised a session of the Brahmaputra–Chao Phraya Dialogue at the university campus yesterday, bringing together distinguished policymakers, diplomats, academics and experts from India and Thailand to explore new avenues of engagement between the Northeast and Thailand.",
+            img: "/mobile-assets/media-corner/2026/sep/6/3.jpeg",
+            link: "/high-level-india-thailand-dialogue-held-at-royal-global-university",
+        },
+        {
             date: "Guwahati, September 22, 2026",
             title: "Royal Global University Observes ‘Green Day’",
             desc: "The 63rd Birthday of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.",
@@ -70,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             desc: "An exhibition titled “Memory, Loss & Resilience: 14 August 1947”, has been organised by the Indira Gandhi National Centre for the Arts (IGNCA), Regional Centre, Guwahati, in collaboration with the Royal School of Languages, The Assam Royal Global University (RGU). The exhibition is currently underway at the GHI Block of the University, and will continue till 20 August 2026.",
             img: "/mobile-assets/media-corner/2026/aug/20/3.jpeg",
             link: "/ignca-royal-global-university-organise-exhibition-on-partition-horrors",
-        }
+        },
     ];
 
     // ================= 2. DOM ELEMENTS =================

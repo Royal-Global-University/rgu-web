@@ -188,6 +188,17 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
+                                    <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Bidisha Goswami</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                                <a href="/faculty-bidisha-goswami" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
                                     <img src="/mobile-assets/updated-faculty-img/Bikash.jpeg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Bikash Baruah</h3>
@@ -256,17 +267,6 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Ms. Bidisha Goswami</h3>
-                                <p class="card-designation">Assistant Professor</p>
-                                <a href="/faculty-bidisha-goswami" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
                                     <img src="/mobile-assets/updated-faculty-img/Joydeep-IT.jpeg" alt="Profile image">
@@ -547,15 +547,15 @@
                     </div>
 
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
-                                                <div class="card">
-                                                  <div class="card-image">
-                                                    <img src="" alt="Profile image of Mrs. Ankita Banerjee">
-                                                  </div>
-                                                  <h3 class="card-name">Mrs. Ankita Banerjee</h3>
-                                                  <p class="card-designation">Assistant Professor</p>
-                                                  <a href="" class="profile-link">View Profile</a>
-                                                </div>
-                                              </div> -->
+                                                    <div class="card">
+                                                      <div class="card-image">
+                                                        <img src="" alt="Profile image of Mrs. Ankita Banerjee">
+                                                      </div>
+                                                      <h3 class="card-name">Mrs. Ankita Banerjee</h3>
+                                                      <p class="card-designation">Assistant Professor</p>
+                                                      <a href="" class="profile-link">View Profile</a>
+                                                    </div>
+                                                  </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'High-Level India–Thailand Dialogue held at Royal Global University',
+                            'summary' => 'Dialogue focuses on education, health, youth and enterprise; RGU emerges as academic platform for strengthening India–Thailand linkages',
+                            'date' => 'Guwahati, September 23, 2026:',
+                            'link' =>'/high-level-india-thailand-dialogue-held-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/sep/6/3.jpeg',
+                            'content' => 'Asian Confluence, a Shillong-based think tank, in collaboration with the Department of Political Science and Public Administration of The Assam Royal Global University (RGU)...',
+                        ],
+                        [
                             'title' =>'Royal Global University Observes ‘Green Day’',
                             'summary' => 'Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birthday',
                             'date' => 'Guwahati, September 22, 2026:',
