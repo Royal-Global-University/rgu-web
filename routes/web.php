@@ -4010,6 +4010,10 @@ Route::get('/faculty-supriyo-sen', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-anmol-basnett', function () {
+    return view('frontend/facultyprofile/rset/anmol-basnett');
+})->name('faculty-anmol-basnett');
+
 Route::get('/faculty-joydeep', function () {
     return view('frontend/facultyprofile/rset/joydeep');
 })->name('faculty-joydeep');
@@ -5244,6 +5248,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-shivangi-kaushik', function () {
+    return view('frontend/facultyprofile/rshss/shivangi-kaushik');
+})->name('faculty-shivangi-kaushik');
 
 Route::get('/faculty-karan-kumar', function () {
     return view('frontend/facultyprofile/rshss/karan-kumar');

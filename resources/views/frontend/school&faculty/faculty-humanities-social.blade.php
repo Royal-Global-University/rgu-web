@@ -810,6 +810,7 @@
                             </div>
                             <h3 class="card-name">Dr. Shivangi Kaushik</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-shivangi-kaushik" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -636,6 +636,7 @@
                             </div>
                             <h3 class="card-name">Dr. Anmol Basnett</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-anmol-basnett" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
