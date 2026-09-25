@@ -1,989 +1,1586 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
-    <div
-        style="background-image: url(mobile-assets/convocation/bg-web.png); background-size: contain; background-position: center;">
-
-
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <img style="width: 100%; padding-top: 90px;" src="mobile-assets/convocation/banner-pic-mob.png" alt="">
-        </div>
-
-        <div class="website">
-            @include('frontend/components/aheader')
-            <img style="width: 100%;" src="mobile-assets/convocation/banner-pic-web-1.svg" alt="">
-        </div>
-
-
-        <div class="section-f">
-
-            <div class="container-fluid" style="padding: 10px 80px;">
-
-                <div class="row"
-                    style="display: flex; justify-content: center; text-align: justify; align-items: center;">
-
-                    <div class="col-lg-6">
-
-                        <p style="color: #24477f;" class="mobile-para1">
-                            The Assam Royal Global University (RGU) celebrated a major milestone in its journey of academic
-                            excellence
-                            as it hosted its 5th Convocation Ceremony on 31st October 2025. The prestigious event was
-                            presided over by
-                            Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam and the Visitor of RGU, in the presence
-                            of Dr. A.
-                            K. Pansari, Chancellor, Sri AK Modi, Pro Chancellor; Prof. A. K. Buragohain, Vice Chancellor;
-                            Dr.
-                            Sudhanshu Trivedi, Member of Rajya Sabha; Shri Kamakhya Prasad Tasa, Member of Lok Sabha; Dr.
-                            Ranoj Pegu,
-                            Education Minister of Assam; Sri Bimal Bora, Minister of Industries and Commerce; along with a
-                            distinguished gathering of eminent dignitaries.
-                        </p>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <img class="pulsing-image" src="mobile-assets/convocation/head-img.jpeg" alt="">
-
-                        <style>
-                            .pulsing-image {
-                                /* Your original styles */
-                                border-radius: 10px;
-                                border: 1px solid rgba(0, 0, 0, 0.05);
-
-                                /* Base shadow:
-           1. Your original inset shadow
-           2. The new 'brown' outer pulse at its starting state
-        */
-                                box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2),
-                                    0 0 5px rgba(119, 67, 25, 0.3);
-                                /* <-- Color changed */
-
-                                /* Animation */
-                                animation: pulseShadow 2.5s ease-in-out infinite;
-                            }
-
-
-                            /* Animation definition */
-                            @keyframes pulseShadow {
-                                0% {
-                                    /* State 1: Start */
-                                    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2),
-                                        0 0 5px rgba(119, 67, 25, 0.3);
-                                    /* <-- Color changed */
-                                }
-
-                                50% {
-                                    /* State 2: Pulse 'out' */
-                                    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2),
-                                        0 0 20px rgba(119, 67, 25, 0.7);
-                                    /* <-- Color changed */
-                                }
-
-                                100% {
-                                    /* State 3: Back to start */
-                                    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2),
-                                        0 0 5px rgba(119, 67, 25, 0.3);
-                                    /* <-- Color changed */
-                                }
-                            }
-                        </style>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div style="padding: 20px 55px 0px 55px;">
-                <img style="border-bottom: 2px solid #6c3e1b;" src="mobile-assets/convocation/banner1-pic.svg"
-                    alt="">
-
-                <img src="mobile-assets/convocation/banner2-pic.svg" alt="">
-            </div>
-
-            <div style="padding: 0px 80px;">
-                <h2 class="mobile-headd1 mt-4" style="font-size: 30px; color: #24477f;">Marking Milestone, <span
-                        style="color: #EF991F;">Inspiring Future</span></h2>
-
-                <p style="color: #24477f; text-align: justify;" class="mobile-para1">
-                    A total of 1,967 students were awarded their degrees this year, including 1,093 undergraduates, 777
-                    postgraduates and integrated course graduates, and 32
-                    Ph.D. scholars. Academic excellence was celebrated with 56 Gold Medalists and 58 Silver Medalists
-                    receiving
-                    recognition for their achievements”, he stated. In addition, special honors were conferred, including 2
-                    Chancellor’s Gold Medals and 5 awards for excellence in literary activities, cultural activities,
-                    community
-                    service, mentoring, and sports
-                </p>
-
-            </div>
-
-            <div class="container-fluid" style="padding: 0px 60px;">
-                <section style="background-color: #fff4e3; padding-bottom: 30px;">
-
-                    <div style="margin-top: 10px;" class="endless-scroll-container">
-
-                        <div class="scroll-track-wrapper" style="padding-top: 0px;">
-
-                            <div class="scroll-content-images unique-set-alpha">
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/1.jpeg" alt="Image 1"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/2.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/3.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/4.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/5.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/6.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/7.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/8.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/9.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/10.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/11.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/12.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/13.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-
-                            </div>
-
-                            <div class="scroll-content-images unique-set-beta">
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/1.jpeg" alt="Image 1"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/2.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/3.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/4.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/5.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/6.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/7.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/8.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/9.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/10.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/11.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/12.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                                <div class="slider-image-frame">
-                                    <img src="mobile-assets/convocation/glimpse/13.jpeg" alt="Image 2"
-                                        class="scroller-image" onclick="openLightbox(this.src)">
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                        <span class="close-btn">&times;</span>
-
-                        <div class="lightbox-controls">
-                            <button id="zoom-in" title="Zoom In">+</button>
-                            <button id="zoom-out" title="Zoom Out">-</button>
-                        </div>
-
-                        <img class="lightbox-content" id="lightbox-img" src="" alt="">
-                    </div>
-
-                    <style>
-                        /*
-    * 1. Setup the main container and animation logic (Identical to list version)
-    */
-                        .endless-scroll-container {
-                            margin: auto;
-                            width: 97%;
-                            overflow: hidden;
-                            padding: 10px 0;
-                            border-bottom: 2px solid #EF991F;
-                        }
-
-                        .scroll-track-wrapper {
-                            display: flex;
-                            width: fit-content;
-                            animation: scroll-movement 80s linear infinite;
-                        }
-
-                        .scroll-track-wrapper:hover {
-                            animation-play-state: paused;
-                        }
-
-                        /*
-    * 2. Style the Image Frames and Images
-    */
-                        .scroll-content-images {
-                            display: flex;
-                        }
-
-                        /* --- THIS IS THE MODIFIED RULE --- */
-                        .slider-image-frame {
-                            width: 600px;
-                            /* <-- CHANGED from 150px */
-                            margin-right: 20px;
-                            flex-shrink: 0;
-                            overflow: hidden;
-                            border: 1px solid #d1d1d1;
-                            border-radius: 8px;
-                            /* <-- CHANGED from 50px */
-                            background-color: #fff;
-                        }
-
-                        /* --- END OF MODIFIED RULE --- */
-
-                        .scroller-image {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            display: block;
-                            cursor: pointer;
-                            transition: opacity 0.3s;
-                        }
-
-                        /* Lightbox Styles */
-                        .lightbox {
-                            display: none;
-                            position: fixed;
-                            z-index: 1000;
-                            left: 0;
-                            top: 0;
-                            width: 100%;
-                            height: 100%;
-                            background-color: rgba(222, 222, 222, 0.942);
-                            overflow: hidden;
-                            /* Changed from auto to hidden to prevent scrollbars */
-                        }
-
-                        .lightbox-content {
-                            margin: auto;
-                            display: block;
-                            position: absolute;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%) scale(1);
-                            /* Initial state */
-                            max-width: 90%;
-                            max-height: 90%;
-                            width: auto;
-                            height: auto;
-                            object-fit: contain;
-                            animation-name: zoom;
-                            animation-duration: 0.6s;
-                            cursor: grab;
-                            /* NEW: Indicate it's grabbable */
-                            transition: transform 0.2s ease-out;
-                            /* NEW: Smooth transitions for zoom/pan */
-                        }
-
-                        .close-btn {
-                            position: absolute;
-                            top: 20px;
-                            right: 35px;
-                            color: #fff;
-                            font-size: 40px;
-                            font-weight: bold;
-                            transition: 0.3s;
-                            cursor: pointer;
-                            z-index: 1002;
-                            /* Ensure it's on top of controls */
-                        }
-
-                        .close-btn:hover,
-                        .close-btn:focus {
-                            color: #bbb;
-                            text-decoration: none;
-                            cursor: pointer;
-                        }
-
-                        /* NEW: Styles for Zoom Controls */
-                        .lightbox-controls {
-                            position: absolute;
-                            top: 25px;
-                            right: 90px;
-                            /* Position next to the close button */
-                            z-index: 1001;
-                            display: flex;
-                            gap: 10px;
-                        }
-
-                        .lightbox-controls button {
-                            background-color: rgba(30, 30, 30, 0.7);
-                            border: 1px solid #fff;
-                            color: #fff;
-                            font-size: 24px;
-                            font-weight: bold;
-                            width: 40px;
-                            height: 40px;
-                            cursor: pointer;
-                            border-radius: 5px;
-                            transition: background-color 0.3s;
-                            line-height: 1;
-                        }
-
-                        .lightbox-controls button:hover {
-                            background-color: rgba(0, 0, 0, 0.9);
-                        }
-
-
-                        @keyframes zoom {
-                            from {
-                                transform: translate(-50%, -50%) scale(0.1);
-                            }
-
-                            to {
-                                transform: translate(-50%, -50%) scale(1);
-                            }
-                        }
-
-                        /*
-    * 3. Define the Keyframes for the Movement
-    */
-                        @keyframes scroll-movement {
-                            from {
-                                transform: translateX(0%);
-                            }
-
-                            to {
-                                transform: translateX(-50%);
-                            }
-                        }
-                    </style>
-
-                    <script>
-                        document.addEventListener('DOMContentLoaded', () => {
-                            const setAlpha = document.querySelector('.unique-set-alpha');
-                            const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                            if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                                const setBeta = setAlpha.cloneNode(true);
-                                setBeta.classList.remove('unique-set-alpha');
-                                setBeta.classList.add('unique-set-beta');
-                                trackWrapper.appendChild(setBeta);
-                                console.log('Image slider duplicated successfully for infinite loop.');
-                            }
-                        });
-
-                        // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
-
-                        const lightbox = document.getElementById('lightbox');
-                        const lightboxImg = document.getElementById('lightbox-img');
-                        const zoomInBtn = document.getElementById('zoom-in');
-                        const zoomOutBtn = document.getElementById('zoom-out');
-
-                        // State variables
-                        let scale = 1;
-                        let isDragging = false;
-                        let start = {
-                            x: 0,
-                            y: 0
-                        };
-                        let pan = {
-                            x: 0,
-                            y: 0
-                        };
-
-                        // Function to apply the current transform to the image
-                        function updateImageTransform() {
-                            // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                            lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                        }
-
-                        function openLightbox(src) {
-                            // Reset state every time a new image is opened
-                            scale = 1;
-                            isDragging = false;
-                            pan = {
-                                x: 0,
-                                y: 0
-                            };
-                            updateImageTransform(); // Apply initial transform
-
-                            lightbox.style.display = 'block';
-                            lightboxImg.src = src;
-                        }
-
-                        function closeLightbox(event) {
-                            if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                                lightbox.style.display = 'none';
-                            }
-                        }
-
-                        // --- Event Listeners for Zoom and Pan ---
-
-                        zoomInBtn.addEventListener('click', (e) => {
-                            e.stopPropagation(); // Prevent closing lightbox when clicking button
-                            scale += 0.2;
-                            updateImageTransform();
-                        });
-
-                        zoomOutBtn.addEventListener('click', (e) => {
-                            e.stopPropagation(); // Prevent closing lightbox when clicking button
-                            if (scale > 1) {
-                                scale -= 0.2;
-                                if (scale < 1) {
-                                    scale = 1;
-                                }
-                            }
-                            // If we zoom all the way out, reset the pan to center the image
-                            if (scale === 1) {
-                                pan = {
-                                    x: 0,
-                                    y: 0
-                                };
-                            }
-                            updateImageTransform();
-                        });
-
-                        lightboxImg.addEventListener('mousedown', (e) => {
-                            // Panning only works if the image is zoomed in
-                            if (scale > 1) {
-                                e.preventDefault();
-                                isDragging = true;
-                                // Record starting point relative to current pan position
-                                start = {
-                                    x: e.clientX - pan.x,
-                                    y: e.clientY - pan.y
-                                };
-                                lightboxImg.style.cursor = 'grabbing';
-                            }
-                        });
-
-                        // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                        window.addEventListener('mousemove', (e) => {
-                            if (isDragging) {
-                                e.preventDefault();
-                                pan = {
-                                    x: e.clientX - start.x,
-                                    y: e.clientY - start.y
-                                };
-                                updateImageTransform();
-                            }
-                        });
-
-                        window.addEventListener('mouseup', (e) => {
-                            if (isDragging) {
-                                isDragging = false;
-                                lightboxImg.style.cursor = 'grab';
-                            }
-                        });
-                    </script>
-                </section>
-            </div>
-
-            <div style="padding: 0px 80px;">
-                <h2 class="mobile-headd1 mt-2" style="font-size: 30px; color: #24477f;">Glimpse of <span
-                        style="color: #EF991F;">Fifth Convocation</span></h2>
-
-                <p style="color: #24477f; text-align: justify;" class="mobile-para1">
-                    RGU continues to set new benchmarks in higher education, research, and holistic development. The
-                    university
-                    now has over 8500 students, including international students from 13 countries. It has over 500 faculty
-                    members and more than 130 academic programs under 24 Schools of Studies. The eco-friendly campus,
-                    world-class
-                    infrastructure, and advanced learning facilities offer an enriching academic environment that blends
-                    rigorous
-                    scholarship with hands-on industry exposure.
-                </p>
-
-
-            </div>
-
-            <section>
-
-                <style>
-                    /* --- Main Layout Wrapper --- */
-                    .gallery-wrapper {
-                        max-width: 90%;
-                        margin: 0 auto;
-                    }
-
-                    .gallery-title {
-                        text-align: center;
-                        margin-bottom: 30px;
-                    }
-
-                    /* --- The "Row" (Flex Container) --- */
-                    .gallery-flex-row {
-                        display: flex;
-                        flex-wrap: wrap;
-                        margin-left: -10px;
-                        margin-right: -10px;
-                    }
-
-                    /* --- The "Column" (Flex Item) --- */
-                    .gallery-column-quarter {
-                        flex-basis: 25%;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        box-sizing: border-box;
-                        margin-bottom: 20px;
-                    }
-
-                    /* --- The Gallery Thumbnail Item --- */
-                    .thumbnail-container {
-                        aspect-ratio: 16 / 9;
-                        overflow: hidden;
-                        border-radius: 8px;
-                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-                        transition: transform 0.3s ease;
-                        cursor: pointer;
-                        /* Indicates it's clickable */
-                    }
-
-                    .thumbnail-container:hover {
-                        transform: scale(1.03);
-                    }
-
-                    .thumbnail-image {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        /* Crops thumbnail to fit 16:9 box */
-                        display: block;
-                    }
-
-                    /* --- Responsiveness --- */
-                    @media (max-width: 992px) {
-                        .gallery-column-quarter {
-                            flex-basis: 50%;
-                            /* 2 columns */
-                        }
-                    }
-
-                    @media (max-width: 768px) {
-                        .gallery-column-quarter {
-                            flex-basis: 100%;
-                            /* 1 column */
-                        }
-                    }
-
-                    /*
-            ========================================
-            UNIQUE LIGHTBOX STYLES
-            ========================================
-            */
-
-                    .custom-lightbox-backdrop {
-                        /* Hidden by default */
-                        visibility: hidden;
-                        opacity: 0;
-
-                        /* Fullscreen overlay */
-                        position: fixed;
-                        z-index: 1000;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        background: rgba(0, 0, 0, 0.85);
-
-                        /* Center the content */
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-
-                        /* Smooth transition */
-                        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-                    }
-
-                    /* This class is added by JavaScript */
-                    .custom-lightbox-backdrop.is-visible {
-                        visibility: visible;
-                        opacity: 1;
-                    }
-
-                    .custom-lightbox-image {
-                        /* Display the full image, not cropped */
-                        object-fit: contain;
-
-                        /* Set max size to not fill the *entire* screen */
-                        max-width: 85%;
-                        max-height: 80vh;
-                        /* 80% of the viewport height */
-
-                        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-                        border-radius: 5px;
-                    }
-
-                    .custom-lightbox-close-btn {
-                        position: absolute;
-                        top: 20px;
-                        right: 30px;
-                        color: #ffffff;
-                        font-size: 40px;
-                        font-weight: bold;
-                        cursor: pointer;
-                        transition: color 0.2s ease;
-                    }
-
-                    .custom-lightbox-close-btn:hover {
-                        color: #cccccc;
-                    }
-                </style>
-
-                <div class="gallery-wrapper">
-
-                    <div class="gallery-flex-row">
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/1.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/1.jpeg"
-                                    alt="Gallery Image 1">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/2.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/2.jpeg"
-                                    alt="Gallery Image 2">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/3.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/3.jpeg"
-                                    alt="Gallery Image 3">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/4.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/4.jpeg"
-                                    alt="Gallery Image 4">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/5.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/5.jpeg"
-                                    alt="Gallery Image 5">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/6.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/6.jpeg"
-                                    alt="Gallery Image 6">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/7.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/7.jpeg"
-                                    alt="Gallery Image 7">
-                            </div>
-                        </div>
-
-                        <div class="gallery-column-quarter">
-                            <div class="thumbnail-container js-open-lightbox-modal"
-                                data-img-src="mobile-assets/convocation/glimpse/8.jpeg">
-                                <img class="thumbnail-image" src="mobile-assets/convocation/glimpse/8.jpeg"
-                                    alt="Gallery Image 8">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div id="uniqueGalleryLightbox" class="custom-lightbox-backdrop">
-                    <span class="custom-lightbox-close-btn">&times;</span>
-                    <img class="custom-lightbox-image" id="lightboxDisplayImage">
-                </div>
-
-                <script>
-                    // Wait for the document to be fully loaded
-                    document.addEventListener('DOMContentLoaded', () => {
-
-                        // --- 1. Get all elements using unique names ---
-
-                        // Get all gallery items using our "unique JS class"
-                        const galleryTriggers = document.querySelectorAll('.js-open-lightbox-modal');
-
-                        // Get the lightbox elements
-                        const lightbox = document.getElementById('uniqueGalleryLightbox');
-                        const lightboxImg = document.getElementById('lightboxDisplayImage');
-                        const closeBtn = document.querySelector('.custom-lightbox-close-btn');
-
-                        // --- 2. Create the "open" function ---
-                        function openLightbox(e) {
-                            const triggerElement = e.currentTarget;
-                            const imgSrc = triggerElement.dataset.imgSrc;
-
-                            // Set the image source in the lightbox
-                            lightboxImg.src = imgSrc;
-
-                            // Show the lightbox by adding the 'is-visible' class
-                            lightbox.classList.add('is-visible');
-                        }
-
-                        // --- 3. Create the "close" function ---
-                        function closeLightbox() {
-                            lightbox.classList.remove('is-visible');
-                            lightboxImg.src = ''; // Clear the src
-                        }
-
-                        // --- 4. Add Event Listeners ---
-
-                        // Add a click listener to EVERY gallery item
-                        galleryTriggers.forEach(trigger => {
-                            trigger.addEventListener('click', openLightbox);
-                        });
-
-                        // Add click listener to the close button
-                        closeBtn.addEventListener('click', closeLightbox);
-
-                        // Add click listener to the backdrop
-                        lightbox.addEventListener('click', (e) => {
-                            if (e.target === lightbox) {
-                                closeLightbox();
-                            }
-                        });
-
-                        // Add Escape key listener
-                        document.addEventListener('keydown', (e) => {
-                            if (e.key === 'Escape' && lightbox.classList.contains('is-visible')) {
-                                closeLightbox();
-                            }
-                        });
-
-                    });
-                </script>
-
-            </section>
-
-
-        </div>
-
-
-
-    </div>
-
     <style>
-        /* CSS for 3-Card Layout, Landscape Image, Corner Effect, and Link Underline */
-
-        /* Card container for flex to push link to bottom */
-        .card {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 1rem;
-            text-align: left;
-            border: none;
-            width: 100%;
-            height: 100%;
-
-            /* Flexbox for vertical alignment and pushing link to bottom */
-            display: flex;
-            flex-direction: column;
-
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            position: relative;
-            /* CRITICAL: Set position relative for the pseudo-element */
-            overflow: hidden;
-            /* Hide the corner overflow */
-        }
-
-        /* Hover effect for the card */
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        /* 🟠 Orange corner effect using ::after pseudo-element */
-        .card::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            /* Adjust as needed */
-            right: -5px;
-            /* Adjust as needed */
-            width: 60px;
-            /* Size of the triangle base */
-            height: 60px;
-            /* Size of the triangle height */
-            /* Use a triangle shape made with border properties */
-            background-color: transparent;
-            border-bottom: 60px solid #FF9A1E;
-            /* Orange color for the triangle base */
-            border-left: 60px solid transparent;
-            /* Makes it a right triangle */
-            /* Add a slight rotation to match the diagonal slant */
-            transform: rotate(360deg);
-            z-index: 1;
-            /* Ensure it's above card background but below text/links */
-            transition: transform 0.3s ease;
-        }
-
-        /* Image container - CRITICAL CHANGE FOR LANDSCAPE (16:9 ratio) */
-        .card-image {
-            width: 100%;
-            padding-top: 56.25%;
-            /* 16:9 aspect ratio (9/16 * 100) */
-            position: relative;
-            border-radius: 8px;
-            overflow: hidden;
-            margin: 0 auto 1.0rem;
-            border: 2px solid #f0f2f5;
-        }
-
-        .card-image img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            /* Ensures the image covers the container */
-        }
-
-        /* Name/Heading Styling */
-        .card-name {
-            margin: 0 0 0.5rem 0;
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #24477f;
-            line-height: 1.2;
-            min-height: 1.2em;
-        }
-
-        /* Designation/Paragraph Styling - Set a minimum height for alignment */
-        .card-designation {
-            margin: 0;
-            font-size: 1rem;
-            font-weight: 400;
-            color: #666;
-            line-height: 1.4;
-            min-height: 5.6em;
-            /* Ensures alignment when text length varies (approx 4 lines) */
-            overflow: hidden;
-        }
-
-        /* 🔗 Styling for the Profile Link (Bottom Alignment) */
-        .profile-link {
-
-            text-align: justify;
-            /* Pushes the link to the bottom */
-            padding-top: 0.8rem;
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: #333;
-            display: inline-block;
-            /* Allows border-bottom to work correctly */
-            text-decoration: none;
-            /* Remove default underline */
-            border-bottom: 2px solid transparent;
-            /* Default state for hover effect */
-            transition: border-bottom 0.3s ease;
-            z-index: 2;
-            /* Ensure the link is clickable above the corner effect */
-        }
-
-
-        /* Section padding */
-        .section-f {
-            padding: 40px 0;
+        .all-section {
+            background-image: url(assets/img/convocation-five/bg-web.png);
+            background-size: contain;
         }
     </style>
 
+    <style>
+        /*=========================================
+            CONVOCATION INTRO
+    =========================================*/
+
+        .convocation-intro-section {
+            padding: 70px 80px 40px;
+        }
+
+        .convocation-content p {
+            font-size: 18px;
+            line-height: 2;
+            color: #24477f;
+            text-align: justify;
+            margin-bottom: 0;
+        }
+
+        /*=========================================
+            FEATURE IMAGE
+    =========================================*/
+
+        .convocation-feature-image {
+            text-align: center;
+        }
+
+        .convocation-feature-image img {
+
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, .08);
+
+            box-shadow:
+                inset 0 0 10px rgba(0, 0, 0, .18),
+                0 0 6px rgba(119, 67, 25, .35);
+
+            animation: convocationPulse 2.5s ease-in-out infinite;
+        }
+
+        @keyframes convocationPulse {
+
+            0% {
+
+                box-shadow:
+                    inset 0 0 10px rgba(0, 0, 0, .18),
+                    0 0 6px rgba(119, 67, 25, .35);
+
+            }
+
+            50% {
+
+                box-shadow:
+                    inset 0 0 10px rgba(0, 0, 0, .18),
+                    0 0 22px rgba(119, 67, 25, .75);
+
+            }
+
+            100% {
+
+                box-shadow:
+                    inset 0 0 10px rgba(0, 0, 0, .18),
+                    0 0 6px rgba(119, 67, 25, .35);
+
+            }
+
+        }
+
+
+        /*=========================================
+            DECORATIVE BANNERS
+    =========================================*/
+
+        .convocation-banner-section {
+            padding: 10px 55px 20px;
+        }
+
+        .convocation-banner-section img:first-child {
+            border-bottom: 2px solid #6c3e1b;
+        }
+
+
+        /*=========================================
+            OVERVIEW
+    =========================================*/
+
+        .convocation-overview {
+            padding: 0 80px 45px;
+        }
+
+        .convocation-overview h2 {
+
+            font-size: 32px;
+            font-weight: 700;
+            color: #24477f;
+            margin-bottom: 20px;
+
+        }
+
+        .convocation-overview h2 span {
+            color: #EF991F;
+        }
+
+        .convocation-overview p {
+
+            color: #24477f;
+            font-size: 18px;
+            line-height: 2;
+            text-align: justify;
+            margin-bottom: 0;
+
+        }
+
+
+        /*=========================================
+            PHOTO GALLERY HEADER
+    =========================================*/
+
+        .convocation-gallery-header {
+            margin-bottom: 35px;
+        }
+
+        .convocation-gallery-header h2 {
+
+            font-size: 32px;
+            font-weight: 700;
+            color: #24477f;
+            margin-bottom: 20px;
+
+        }
+
+        .convocation-gallery-header span {
+            color: #EF991F;
+        }
+
+        .convocation-gallery-header p {
+
+            font-size: 18px;
+            line-height: 2;
+            color: #24477f;
+            text-align: justify;
+
+        }
+
+
+        /*=========================================
+            RESPONSIVE
+    =========================================*/
+
+        @media(max-width:991px) {
+
+            .convocation-intro-section {
+
+                padding: 50px 30px;
+
+            }
+
+            .convocation-banner-section {
+
+                padding: 0 30px 25px;
+
+            }
+
+            .convocation-overview {
+
+                padding: 0 30px 35px;
+
+            }
+
+        }
+
+
+        @media(max-width:767px) {
+
+            .convocation-intro-section {
+
+                padding: 35px 20px;
+
+            }
+
+            .convocation-banner-section {
+
+                padding: 0 20px 20px;
+
+            }
+
+            .convocation-overview {
+
+                padding: 0 20px 25px;
+
+            }
+
+            .convocation-content p,
+            .convocation-overview p,
+            .convocation-gallery-header p {
+
+                font-size: 16px;
+                line-height: 1.9;
+
+            }
+
+            .convocation-overview h2,
+            .convocation-gallery-header h2 {
+
+                font-size: 28px;
+
+            }
+
+        }
+    </style>
+
+    <style>
+        /*=========================================
+            INFINITE IMAGE SLIDER
+    =========================================*/
+
+        .convocation-gallery-section {
+            padding: 0 60px 40px;
+        }
+
+        .convocation-slider-wrapper {
+
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 2px solid #EF991F;
+            padding: 10px 0;
+
+        }
+
+        .convocation-slider-track {
+
+            display: flex;
+            width: max-content;
+            animation: convocationScroll 80s linear infinite;
+
+        }
+
+        .convocation-slider-track:hover {
+            animation-play-state: paused;
+        }
+
+        .convocation-slider-set {
+            display: flex;
+        }
+
+        .convocation-slide {
+
+            width: 600px;
+            margin-right: 20px;
+            flex-shrink: 0;
+
+            border: 1px solid #d8d8d8;
+            border-radius: 8px;
+            overflow: hidden;
+
+            background: #fff;
+
+        }
+
+        .convocation-slide img {
+
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            transition: .3s;
+
+        }
+
+        .convocation-slide:hover img {
+            opacity: .92;
+        }
+
+        @keyframes convocationScroll {
+
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+
+        }
+
+
+        /*=========================================
+                SLIDER LIGHTBOX
+    =========================================*/
+
+        .convocation-lightbox {
+
+            display: none;
+
+            position: fixed;
+            inset: 0;
+
+            background: rgba(230, 230, 230, .95);
+
+            z-index: 9999;
+
+        }
+
+        .convocation-lightbox-image {
+
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%) scale(1);
+
+            max-width: 90%;
+            max-height: 90%;
+
+            object-fit: contain;
+
+            cursor: grab;
+
+            transition: transform .2s;
+
+        }
+
+        .convocation-lightbox-close {
+
+            position: absolute;
+
+            top: 20px;
+            right: 35px;
+
+            color: #fff;
+
+            font-size: 42px;
+
+            cursor: pointer;
+
+            z-index: 10;
+
+        }
+
+        .convocation-lightbox-controls {
+
+            position: absolute;
+
+            top: 22px;
+            right: 90px;
+
+            display: flex;
+            gap: 10px;
+
+            z-index: 10;
+
+        }
+
+        .convocation-lightbox-controls button {
+
+            width: 42px;
+            height: 42px;
+
+            border: 1px solid #fff;
+
+            background: rgba(0, 0, 0, .65);
+
+            color: #fff;
+
+            border-radius: 5px;
+
+            font-size: 22px;
+
+            cursor: pointer;
+
+        }
+
+        .convocation-lightbox-controls button:hover {
+
+            background: #000;
+
+        }
+
+
+        /*=========================================
+                IMAGE GALLERY
+    =========================================*/
+
+        .convocation-photo-gallery {
+
+            padding: 20px 0 70px;
+
+        }
+
+        .convocation-gallery-item {
+
+            aspect-ratio: 16/9;
+
+            overflow: hidden;
+
+            border-radius: 10px;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .12);
+
+            cursor: pointer;
+
+            transition: .35s;
+
+        }
+
+        .convocation-gallery-item:hover {
+
+            transform: scale(1.03);
+
+        }
+
+        .convocation-gallery-item img {
+
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            display: block;
+
+        }
+
+
+        /*=========================================
+            GALLERY LIGHTBOX
+    =========================================*/
+
+        .convocation-gallery-lightbox {
+
+            visibility: hidden;
+            opacity: 0;
+
+            position: fixed;
+            inset: 0;
+
+            background: rgba(0, 0, 0, .88);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transition: .3s;
+
+            z-index: 9999;
+
+        }
+
+        .convocation-gallery-lightbox.active {
+
+            visibility: visible;
+            opacity: 1;
+
+        }
+
+        #convocationGalleryImage {
+
+            max-width: 85%;
+            max-height: 80vh;
+
+            border-radius: 8px;
+
+            object-fit: contain;
+
+        }
+
+        .convocation-gallery-close {
+
+            position: absolute;
+
+            top: 20px;
+            right: 30px;
+
+            color: #fff;
+
+            font-size: 42px;
+
+            cursor: pointer;
+
+        }
+
+
+        /*=========================================
+                RESPONSIVE
+    =========================================*/
+
+        @media(max-width:1200px) {
+
+            .convocation-slide {
+
+                width: 500px;
+
+            }
+
+        }
+
+        @media(max-width:991px) {
+
+            .convocation-gallery-section {
+
+                padding: 0 30px 35px;
+
+            }
+
+            .convocation-slide {
+
+                width: 420px;
+
+            }
+
+        }
+
+        @media(max-width:767px) {
+
+            .convocation-gallery-section {
+
+                padding: 0 20px 30px;
+
+            }
+
+            .convocation-slide {
+
+                width: 300px;
+                margin-right: 15px;
+
+            }
+
+            #convocationGalleryImage {
+
+                max-width: 94%;
+
+            }
+
+        }
+    </style>
+
+    <section class="pg-hero" style="height: 15vh;">
+        <div class="pg-hero-bg" style="background-color: #6C3E1B;">
+        </div>
+
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
+
+        <!-- <div class="pg-hero-inner">
+                <h1 class="pg-hero-title"> Convocation Five</h1>
+                <div class="pg-hero-breadcrumb">
+                    Convocation / Convocation Five
+                </div>
+            </div> -->
+
+    </section>
+
+    <div class="all-section">
+
+        <!-- ===============================
+        CONVOCATION FULL WIDTH BANNER
+    ================================ -->
+
+        <section class="rgu-cv5-full-banner">
+            <img src="https://www.rgu.ac/mobile-assets/convocation/banner-pic-web-1.svg"
+                alt="Fifth Convocation - Royal Global University">
+        </section>
+
+        <style>
+            /* =========================================
+       RGU CV5 - FULL WIDTH BANNER
+    ========================================= */
+
+            .rgu-cv5-full-banner {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .rgu-cv5-full-banner img {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <!-- ===============================
+        CONVOCATION INTRO
+    ================================ -->
+
+        <section class="rgu-cv5-intro container">
+            <div class="rgu-cv5-intro-container">
+
+                <!-- LEFT: TEXT -->
+                <div class="rgu-cv5-intro-text">
+                    <p>
+                        The Assam Royal Global University (RGU) celebrated a major milestone in its journey of
+                        academic excellence as it hosted its 5th Convocation Ceremony on 31st October 2025.
+                        The prestigious event was presided over by Sri Lakshman Prasad Acharya, Hon’ble Governor
+                        of Assam and the Visitor of RGU, in the presence of Dr. A. K. Pansari, Chancellor,
+                        Sri AK Modi, Pro Chancellor; Prof. A. K. Buragohain, Vice Chancellor; Dr. Sudhanshu
+                        Trivedi, Member of Rajya Sabha; Shri Kamakhya Prasad Tasa, Member of Lok Sabha;
+                        Dr. Ranoj Pegu, Education Minister of Assam; Sri Bimal Bora, Minister of Industries
+                        and Commerce; along with a distinguished gathering of eminent dignitaries.
+                    </p>
+                </div>
+
+                <!-- RIGHT: IMAGE -->
+                <div class="rgu-cv5-intro-image">
+                    <img src="https://www.rgu.ac/mobile-assets/convocation/head-img.jpeg" alt="5th Convocation Ceremony">
+                </div>
+
+            </div>
+        </section>
+
+        <style>
+            /* =========================================
+       RGU CV5 - CONVOCATION INTRO
+    ========================================= */
+
+            .rgu-cv5-intro {
+                width: 100%;
+                padding: 55px 24px 45px;
+            }
+
+            .rgu-cv5-intro-container {
+                width: 100%;
+                max-width: 1750px;
+                margin: 0 auto;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                gap: 35px;
+            }
+
+            /* =========================================
+       TEXT
+    ========================================= */
+
+            .rgu-cv5-intro-text {
+                display: flex;
+                align-items: center;
+            }
+
+            .rgu-cv5-intro-text p {
+                margin: 0;
+
+                color: #24477f;
+                font-family: "Times New Roman", serif;
+                font-size: 18px;
+                line-height: 1.8;
+                font-weight: 400;
+
+                text-align: justify;
+            }
+
+            /* =========================================
+       IMAGE
+    ========================================= */
+
+            .rgu-cv5-intro-image {
+                width: 100%;
+                overflow: hidden;
+
+                border-radius: 14px;
+
+                border: 1px solid rgba(0, 0, 0, 0.10);
+
+                box-shadow:
+                    0 4px 12px rgba(0, 0, 0, 0.12),
+                    0 1px 3px rgba(0, 0, 0, 0.08);
+            }
+
+            .rgu-cv5-intro-image img {
+                width: 100%;
+                height: auto;
+
+                display: block;
+
+                object-fit: cover;
+            }
+
+            /* =========================================
+       TABLET
+    ========================================= */
+
+            @media (max-width: 1200px) {
+
+                .rgu-cv5-intro {
+                    padding: 50px 30px 40px;
+                }
+
+                .rgu-cv5-intro-container {
+                    gap: 30px;
+                }
+
+                .rgu-cv5-intro-text p {
+                    font-size: 21px;
+                    line-height: 1.8;
+                }
+            }
+
+            /* =========================================
+       MOBILE
+    ========================================= */
+
+            @media (max-width: 767px) {
+
+                .rgu-cv5-intro {
+                    padding: 35px 20px 30px;
+                }
+
+                .rgu-cv5-intro-container {
+                    grid-template-columns: 1fr;
+                    gap: 25px;
+                }
+
+                .rgu-cv5-intro-text p {
+                    font-size: 16px;
+                    line-height: 1.8;
+                    text-align: justify;
+                }
+
+                .rgu-cv5-intro-image {
+                    border-radius: 10px;
+                }
+            }
+        </style>
+
+        <!-- Decorative Banners -->
+
+        <div class="container">
+
+            <img src="https://www.rgu.ac/mobile-assets/convocation/banner1-pic.svg" class="img-fluid w-100"
+                alt="Convocation Banner">
+
+        </div>
+
+        <hr>
+
+        <div class="container">
+
+            <img src="https://www.rgu.ac/mobile-assets/convocation/banner2-pic.svg" class="img-fluid w-100"
+                alt="Convocation Banner">
+
+        </div>
+
+        <!-- =========================================
+         RGU CV5 - MILESTONE & AWARDS MARQUEE
+    ========================================= -->
+
+        <section class="rgu-cv5-milestone container">
+
+            <div class="rgu-cv5-milestone-content">
+
+                <h2>
+                    Marking Milestone, <span>Inspiring Future</span>
+                </h2>
+
+                <p>
+                    A total of 1,967 students were awarded their degrees this year, including
+                    1,093 undergraduates, 777 postgraduates and integrated course graduates,
+                    and 32 Ph.D. scholars. Academic excellence was celebrated with 56 Gold
+                    Medalists and 58 Silver Medalists receiving recognition for their
+                    achievements”, he stated. In addition, special honors were conferred,
+                    including 2 Chancellor’s Gold Medals and 5 awards for excellence in
+                    literary activities, cultural activities, community service, mentoring,
+                    and sports
+                </p>
+
+            </div>
+
+
+            <!-- INFINITE MARQUEE -->
+
+            <div class="rgu-cv5-milestone-marquee">
+
+                <div class="rgu-cv5-milestone-track">
+
+                    <!-- SET 1 -->
+                    <div class="rgu-cv5-milestone-set">
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/12.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/13.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/1.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/3.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/5.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/6.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/7.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                    </div>
+
+
+                    <!-- SET 2 - DUPLICATE FOR SEAMLESS LOOP -->
+                    <div class="rgu-cv5-milestone-set">
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/12.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/13.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/1.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/3.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/5.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/6.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                        <div class="rgu-cv5-milestone-item">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/7.jpeg"
+                                alt="Convocation Award Ceremony">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <style>
+            /* =========================================
+       RGU CV5 - MILESTONE & AWARDS MARQUEE
+    ========================================= */
+
+            .rgu-cv5-milestone {
+                width: 100%;
+                padding: 15px 0 45px;
+                overflow: hidden;
+            }
+
+            /* =========================================
+       CONTENT
+    ========================================= */
+
+            .rgu-cv5-milestone-content {
+                width: 100%;
+                padding: 0 20px 25px;
+            }
+
+            .rgu-cv5-milestone-content h2 {
+                margin: 0 0 10px;
+
+                color: #24477f;
+
+                font-family: "Times New Roman", serif;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 1.3;
+            }
+
+            .rgu-cv5-milestone-content h2 span {
+                color: #ef991f;
+            }
+
+            .rgu-cv5-milestone-content p {
+                margin: 0;
+
+                color: #24477f;
+
+                font-family: "Times New Roman", serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.5;
+
+                text-align: justify;
+            }
+
+
+            /* =========================================
+       MARQUEE WRAPPER
+    ========================================= */
+
+            .rgu-cv5-milestone-marquee {
+                width: 100%;
+                overflow: hidden;
+
+                border-bottom: 2px solid #ef991f;
+
+                padding: 0 20px 12px;
+            }
+
+
+            /* =========================================
+       MOVING TRACK
+    ========================================= */
+
+            .rgu-cv5-milestone-track {
+                display: flex;
+                width: max-content;
+
+                animation: rguCv5MilestoneScroll 35s linear infinite;
+
+                will-change: transform;
+            }
+
+            .rgu-cv5-milestone-track:hover {
+                animation-play-state: paused;
+            }
+
+
+            /* =========================================
+       IMAGE SET
+    ========================================= */
+
+            .rgu-cv5-milestone-set {
+                display: flex;
+                flex-shrink: 0;
+                gap: 24px;
+
+                padding-right: 24px;
+            }
+
+
+            /* =========================================
+       IMAGE
+    ========================================= */
+
+            .rgu-cv5-milestone-item {
+                width: 550px;
+                height: 300px;
+
+                flex-shrink: 0;
+
+                overflow: hidden;
+
+                border-radius: 8px;
+
+                background: #fff;
+            }
+
+            .rgu-cv5-milestone-item img {
+                width: 100%;
+                height: 100%;
+
+                display: block;
+
+                object-fit: cover;
+
+                transition: transform 0.4s ease;
+            }
+
+            .rgu-cv5-milestone-item:hover img {
+                transform: scale(1.03);
+            }
+
+
+            /* =========================================
+       INFINITE SCROLL
+    ========================================= */
+
+            @keyframes rguCv5MilestoneScroll {
+
+                from {
+                    transform: translateX(0);
+                }
+
+                to {
+                    transform: translateX(-50%);
+                }
+
+            }
+
+
+            /* =========================================
+       LARGE TABLET
+    ========================================= */
+
+            @media (max-width: 1200px) {
+
+                .rgu-cv5-milestone-content h2 {
+                    font-size: 32px;
+                }
+
+                .rgu-cv5-milestone-content p {
+                    font-size: 21px;
+                }
+
+                .rgu-cv5-milestone-item {
+                    width: 400px;
+                    height: 340px;
+                }
+
+            }
+
+
+            /* =========================================
+       TABLET
+    ========================================= */
+
+            @media (max-width: 991px) {
+
+                .rgu-cv5-milestone {
+                    padding-bottom: 35px;
+                }
+
+                .rgu-cv5-milestone-content {
+                    padding: 0 30px 25px;
+                }
+
+                .rgu-cv5-milestone-content h2 {
+                    font-size: 30px;
+                }
+
+                .rgu-cv5-milestone-content p {
+                    font-size: 19px;
+                    line-height: 1.7;
+                }
+
+                .rgu-cv5-milestone-marquee {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+
+                .rgu-cv5-milestone-item {
+                    width: 360px;
+                    height: 300px;
+                }
+
+            }
+
+
+            /* =========================================
+       MOBILE
+    ========================================= */
+
+            @media (max-width: 767px) {
+
+                .rgu-cv5-milestone {
+                    padding: 10px 0 30px;
+                }
+
+                .rgu-cv5-milestone-content {
+                    padding: 0 20px 20px;
+                }
+
+                .rgu-cv5-milestone-content h2 {
+                    font-size: 27px;
+                    line-height: 1.35;
+                }
+
+                .rgu-cv5-milestone-content p {
+                    font-size: 17px;
+                    line-height: 1.7;
+                    text-align: justify;
+                }
+
+                .rgu-cv5-milestone-marquee {
+                    padding: 0 20px 10px;
+                }
+
+                .rgu-cv5-milestone-set {
+                    gap: 15px;
+                    padding-right: 15px;
+                }
+
+                .rgu-cv5-milestone-item {
+                    width: 300px;
+                    height: 250px;
+
+                    border-radius: 7px;
+                }
+
+            }
+        </style>
+
+        <!-- =========================================
+         RGU CV5 - GLIMPSE OF FIFTH CONVOCATION
+    ========================================= -->
+
+        <section class="rgu-cv5-glimpse container">
+
+            <div class="rgu-cv5-glimpse-content">
+
+                <h2>
+                    Glimpse of <span>Fifth Convocation</span>
+                </h2>
+
+                <p>
+                    RGU continues to set new benchmarks in higher education, research, and holistic development.
+                    The university now has over 8500 students, including international students from 13 countries.
+                    It has over 500 faculty members and more than 130 academic programs under 24 Schools of Studies.
+                    The eco-friendly campus, world-class infrastructure, and advanced learning facilities offer an
+                    enriching academic environment that blends rigorous scholarship with hands-on industry exposure.
+                </p>
+
+            </div>
+
+
+            <!-- =========================================
+             IMAGE GRID
+        ========================================== -->
+
+            <div class="container-fluid rgu-cv5-glimpse-gallery">
+
+                <div class="row g-4">
+
+                    <!-- IMAGE 1 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/1.jpeg" alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 2 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/2.jpeg" alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 3 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/3.jpeg" alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 4 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/4.jpeg" alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+
+                    <!-- IMAGE 5 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/5.jpeg" alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 6 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/6.jpeg"
+                                alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 7 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/7.jpeg"
+                                alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 8 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="rgu-cv5-glimpse-card">
+                            <img src="https://www.rgu.ac/mobile-assets/convocation/glimpse/8.jpeg"
+                                alt="Fifth Convocation">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <style>
+            /* =========================================
+       RGU CV5 - GLIMPSE OF FIFTH CONVOCATION
+    ========================================= */
+
+            .rgu-cv5-glimpse {
+                width: 100%;
+                padding: 20px 0 45px;
+            }
+
+            /* =========================================
+       HEADING + DESCRIPTION
+    ========================================= */
+
+            .rgu-cv5-glimpse-content {
+                width: 100%;
+                padding: 0 14px 18px;
+            }
+
+            .rgu-cv5-glimpse-content h2 {
+                margin: 0 0 10px;
+
+                color: #24477f;
+
+                font-family: "Times New Roman", serif;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 1.3;
+            }
+
+            .rgu-cv5-glimpse-content h2 span {
+                color: #ef991f;
+            }
+
+            .rgu-cv5-glimpse-content p {
+                margin: 0;
+
+                color: #24477f;
+
+                font-family: "Times New Roman", serif;
+                font-size: 18px;
+                line-height: 1.5;
+
+                text-align: justify;
+            }
+
+
+            /* =========================================
+       IMAGE GRID
+    ========================================= */
+
+            .rgu-cv5-glimpse-gallery {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            .rgu-cv5-glimpse-card {
+                width: 100%;
+
+                aspect-ratio: 16 / 9;
+
+                overflow: hidden;
+
+                border-radius: 9px;
+
+                background: #fff;
+
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+            }
+
+            .rgu-cv5-glimpse-card img {
+                width: 100%;
+                height: 100%;
+
+                display: block;
+
+                object-fit: cover;
+
+                transition: transform 0.35s ease;
+            }
+
+
+            /* =========================================
+       SUBTLE HOVER
+    ========================================= */
+
+            .rgu-cv5-glimpse-card:hover img {
+                transform: scale(1.025);
+            }
+
+
+            /* =========================================
+       TABLET
+    ========================================= */
+
+            @media (max-width: 991px) {
+
+                .rgu-cv5-glimpse {
+                    padding-bottom: 35px;
+                }
+
+                .rgu-cv5-glimpse-content {
+                    padding: 0 30px 20px;
+                }
+
+                .rgu-cv5-glimpse-content h2 {
+                    font-size: 30px;
+                }
+
+                .rgu-cv5-glimpse-content p {
+                    font-size: 20px;
+                    line-height: 1.7;
+                }
+
+                .rgu-cv5-glimpse-gallery {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+
+            }
+
+
+            /* =========================================
+       MOBILE
+    ========================================= */
+
+            @media (max-width: 767px) {
+
+                .rgu-cv5-glimpse {
+                    padding: 15px 0 30px;
+                }
+
+                .rgu-cv5-glimpse-content {
+                    padding: 0 20px 20px;
+                }
+
+                .rgu-cv5-glimpse-content h2 {
+                    font-size: 27px;
+                }
+
+                .rgu-cv5-glimpse-content p {
+                    font-size: 17px;
+                    line-height: 1.7;
+                }
+
+                .rgu-cv5-glimpse-gallery {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                .rgu-cv5-glimpse-card {
+                    aspect-ratio: 16 / 9;
+                }
+
+            }
+        </style>
+
+
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            /*=========================================
+                Infinite Slider
+            =========================================*/
+
+            const sliderTrack = document.querySelector(".convocation-slider-track");
+            const firstSet = document.querySelector(".convocation-slider-set");
+
+            if (sliderTrack && firstSet && sliderTrack.children.length === 1) {
+                sliderTrack.appendChild(firstSet.cloneNode(true));
+            }
+
+
+            /*=========================================
+                Slider Lightbox
+            =========================================*/
+
+            const sliderLightbox = document.getElementById("convocationLightbox");
+            const sliderImage = document.getElementById("convocationLightboxImage");
+
+            const zoomIn = document.getElementById("zoomInBtn");
+            const zoomOut = document.getElementById("zoomOutBtn");
+
+            const closeSlider = document.querySelector(".convocation-lightbox-close");
+
+            let scale = 1;
+            let panX = 0;
+            let panY = 0;
+
+            let dragging = false;
+
+            let startX = 0;
+            let startY = 0;
+
+
+            function updateSliderImage() {
+
+                sliderImage.style.transform =
+                    `translate(calc(-50% + ${panX}px), calc(-50% + ${panY}px)) scale(${scale})`;
+
+            }
+
+
+            window.openLightbox = function(src) {
+
+                sliderLightbox.style.display = "block";
+
+                sliderImage.src = src;
+
+                scale = 1;
+
+                panX = 0;
+
+                panY = 0;
+
+                updateSliderImage();
+
+            }
+
+
+            function closeLightbox() {
+
+                sliderLightbox.style.display = "none";
+
+            }
+
+
+            closeSlider.addEventListener("click", closeLightbox);
+
+            sliderLightbox.addEventListener("click", function(e) {
+
+                if (e.target === sliderLightbox) {
+
+                    closeLightbox();
+
+                }
+
+            });
+
+
+            zoomIn.addEventListener("click", function(e) {
+
+                e.stopPropagation();
+
+                scale += 0.2;
+
+                updateSliderImage();
+
+            });
+
+
+            zoomOut.addEventListener("click", function(e) {
+
+                e.stopPropagation();
+
+                scale = Math.max(1, scale - 0.2);
+
+                if (scale === 1) {
+
+                    panX = 0;
+
+                    panY = 0;
+
+                }
+
+                updateSliderImage();
+
+            });
+
+
+            sliderImage.addEventListener("mousedown", function(e) {
+
+                if (scale <= 1) return;
+
+                dragging = true;
+
+                startX = e.clientX - panX;
+
+                startY = e.clientY - panY;
+
+                sliderImage.style.cursor = "grabbing";
+
+            });
+
+
+            window.addEventListener("mousemove", function(e) {
+
+                if (!dragging) return;
+
+                panX = e.clientX - startX;
+
+                panY = e.clientY - startY;
+
+                updateSliderImage();
+
+            });
+
+
+            window.addEventListener("mouseup", function() {
+
+                dragging = false;
+
+                sliderImage.style.cursor = "grab";
+
+            });
+
+
+            /*=========================================
+                Gallery Lightbox
+            =========================================*/
+
+            const galleryItems = document.querySelectorAll(".convocation-gallery-item");
+
+            const galleryLightbox = document.getElementById("convocationGalleryLightbox");
+
+            const galleryImage = document.getElementById("convocationGalleryImage");
+
+            const galleryClose = document.querySelector(".convocation-gallery-close");
+
+
+            galleryItems.forEach(function(item) {
+
+                item.addEventListener("click", function() {
+
+                    galleryImage.src = this.dataset.image;
+
+                    galleryLightbox.classList.add("active");
+
+                });
+
+            });
+
+
+            function closeGallery() {
+
+                galleryLightbox.classList.remove("active");
+
+                galleryImage.src = "";
+
+            }
+
+
+            galleryClose.addEventListener("click", closeGallery);
+
+
+            galleryLightbox.addEventListener("click", function(e) {
+
+                if (e.target === galleryLightbox) {
+
+                    closeGallery();
+
+                }
+
+            });
+
+
+            document.addEventListener("keydown", function(e) {
+
+                if (e.key === "Escape") {
+
+                    closeLightbox();
+
+                    closeGallery();
+
+                }
+
+            });
+
+        });
+    </script>
 @endsection
