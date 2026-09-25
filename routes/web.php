@@ -809,7 +809,6 @@ Route::get('/placement-contacts', function () {
 //End placements Life
 
 //phd
-
 Route::get('/phd-scholars', function () {
     return view('frontend/phd/phd-scholars');
 })->name('phd-scholars');
@@ -901,8 +900,6 @@ Route::get('/doctoral-hotel-management', function () {
 Route::get('/doctoral-hotel-management', function () {
     return view('frontend/phd/doctoral-hotel-management');
 })->name('doctoral-hotel-management');
-
-
 
 Route::get('/doctoral-hotel-management', function () {
     return view('frontend/phd/doctoral-hotel-management');
@@ -3272,6 +3269,10 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/royal-global-university-signs-mou-with-assam-rifles', function () {
+    return view('frontend/media-corner/2026/sep/news8');
+})->name('royal-global-university-signs-mou-with-assam-rifles');
 
 Route::get('/high-level-india-thailand-dialogue-held-at-royal-global-university', function () {
     return view('frontend/media-corner/2026/sep/news7');

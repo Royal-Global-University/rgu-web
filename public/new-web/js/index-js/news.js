@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 25, 2026",
+            title: "Royal Global University Signs MoU with Assam Rifles",
+            desc: "Strengthening its commitment to nation-building through education and supporting the families of defence personnel, The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Assam Rifles at the Headquarters Directorate General Assam Rifles (HQ DGAR), Laitkor, Shillong.",
+            img: "/mobile-assets/media-corner/2026/sep/7/2.jpeg",
+            link: "/royal-global-university-signs-mou-with-assam-rifles",
+        },
+        {
             date: "Guwahati, September 23, 2026",
             title: "High-Level India–Thailand Dialogue held at Royal Global University",
             desc: "Asian Confluence, a Shillong-based think tank, in collaboration with the Department of Political Science and Public Administration of The Assam Royal Global University (RGU), organised a session of the Brahmaputra–Chao Phraya Dialogue at the university campus yesterday, bringing together distinguished policymakers, diplomats, academics and experts from India and Thailand to explore new avenues of engagement between the Northeast and Thailand.",

@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'Royal Global University Signs MoU with Assam Rifles',
+                            'summary' => 'Introduces Special Scholarship Schemes for Wards of Defence Personnel',
+                            'date' => 'Guwahati, September 25, 2026:',
+                            'link' =>'/royal-global-university-signs-mou-with-assam-rifles',
+                            'image' => '/mobile-assets/media-corner/2026/sep/7/2.jpeg',
+                            'content' => 'Strengthening its commitment to nation-building through education and supporting the families of defence personnel, The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU)...',
+                        ],
+                        [
                             'title' =>'High-Level India–Thailand Dialogue held at Royal Global University',
                             'summary' => 'Dialogue focuses on education, health, youth and enterprise; RGU emerges as academic platform for strengthening India–Thailand linkages',
                             'date' => 'Guwahati, September 23, 2026:',
