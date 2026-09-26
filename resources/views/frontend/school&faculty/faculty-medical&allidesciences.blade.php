@@ -1752,7 +1752,7 @@
                                 </div>
                                 <h3 class="card-name">Ms. Kynjailin Syiemlieh</h3>
                                 <p class="card-designation">Assistant Professor & Coordinator in Dialysis</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-kynjailin-syiemlieh" class="profile-link">View Profile</a>
                             </div>
                         </div>
 

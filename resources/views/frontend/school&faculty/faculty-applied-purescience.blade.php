@@ -259,7 +259,7 @@
                             </div>
                             <h3 class="card-name">Dr. Amlan Jyoti Oza</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-dr-bikram-bir" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-amlan-jyoti-oza" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

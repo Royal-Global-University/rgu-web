@@ -4241,6 +4241,10 @@ Route::get('/Dr-Nandana-Dutta', function () {
 
 //RSA Faculty Profile
 
+Route::get('/faculty-aysha-nezlin-chundakkadan', function () {
+    return view('frontend/facultyprofile/rsa/aysha-nezlin-chundakkadan');
+})->name('faculty-aysha-nezlin-chundakkadan');
+
 Route::get('/faculty-shweta-das', function () {
     return view('frontend/facultyprofile/rsa/shweta-das');
 })->name('faculty-shweta-das');
@@ -4503,6 +4507,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-kynjailin-syiemlieh', function () {
+    return view('frontend/facultyprofile/rsmas/kynjailin-syiemlieh');
+})->name('faculty-kynjailin-syiemlieh');
+
 Route::get('/faculty-muhammed-navaf', function () {
     return view('frontend/facultyprofile/rsmas/muhammed-navaf');
 })->name('faculty-muhammed-navaf');
@@ -4709,6 +4717,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 
 // RSAPS Faculty Profile
+
+Route::get('/faculty-amlan-jyoti-oza', function () {
+    return view('frontend/facultyprofile/rsaps/amlan-jyoti-oza');
+})->name('faculty-amlan-jyoti-oza');
 
 Route::get('/faculty-nirmal-kumar-singha', function () {
     return view('frontend/facultyprofile/rsaps/nirmal-kumar-singha');
