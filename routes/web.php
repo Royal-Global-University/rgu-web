@@ -4413,6 +4413,14 @@ Route::get('/sumi-barman', function () {
 
 //RSLSC Faculty Profile
 
+Route::get('/faculty-disha-biswas', function () {
+    return view('frontend/facultyprofile/rslsc/disha-biswas');
+})->name('faculty-disha-biswas');
+
+Route::get('/faculty-abhraneel-dev-choudhury', function () {
+    return view('frontend/facultyprofile/rslsc/abhraneel-dev-choudhury');
+})->name('faculty-abhraneel-dev-choudhury');
+
 Route::get('/faculty-mandira-basumatary', function () {
     return view('frontend/facultyprofile/rslsc/mandira-basumatary');
 })->name('faculty-mandira-basumatary');

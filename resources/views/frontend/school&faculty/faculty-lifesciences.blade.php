@@ -455,6 +455,8 @@
                             </div>
                             <h3 class="card-name">Mr. Abhraneel Dev Choudhury</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-abhraneel-dev-choudhury" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -466,6 +468,7 @@
                             </div>
                             <h3 class="card-name">Ms. Disha Biswas</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-disha-biswas" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
