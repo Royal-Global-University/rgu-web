@@ -139,6 +139,8 @@
                             </div>
                             <h3 class="card-name">Dr. Chanderkant Dhiman</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-chanderkant-dhiman" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 

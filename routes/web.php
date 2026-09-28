@@ -3984,6 +3984,10 @@ Route::get('/faculty-tinku', function () {
 
 //RSPES Faculty Profile
 
+Route::get('/faculty-chanderkant-dhiman', function () {
+    return view('frontend/facultyprofile/rspes/chanderkant-dhiman');
+})->name('faculty-chanderkant-dhiman');
+
 Route::get('/faculty-abhijit-rajbongshi', function () {
     return view('frontend/facultyprofile/rspes/abhijit-rajbongshi');
 })->name('faculty-abhijit-rajbongshi');
@@ -4514,6 +4518,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 
 //RSMAS FACULTY Profile
+
+Route::get('/faculty-gunjana-deka', function () {
+    return view('frontend/facultyprofile/rsmas/gunjana-deka');
+})->name('faculty-gunjana-deka');
 
 Route::get('/faculty-kynjailin-syiemlieh', function () {
     return view('frontend/facultyprofile/rsmas/kynjailin-syiemlieh');
@@ -5624,6 +5632,10 @@ Route::get('/faculty-suman-agarwal', function () {
 })->name('faculty-suman-agarwal');
 
 //RSN Facuilty Profile
+
+Route::get('/manasi-deka', function () {
+    return view('frontend/facultyprofile/rsn/manasi-deka');
+})->name('manasi-deka');
 
 Route::get('/gayatri-shil', function () {
     return view('frontend/facultyprofile/rsn/gayatri-shil');
