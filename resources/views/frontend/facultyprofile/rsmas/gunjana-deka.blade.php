@@ -1,4 +1,4 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
     <style>
         /*=========================================================
