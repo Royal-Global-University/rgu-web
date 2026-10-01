@@ -753,18 +753,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                                    alt="Profile image of Susmita Banerjee">
-                            </div>
-                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-susmita-banerjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Palme-Borthakur.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Palme Borthakur</h3>
@@ -1039,18 +1027,6 @@
                             <h3 class="card-name">Dr. Ayushman Devraj</h3>
                             <p class="card-designation">Assistant Professor & Co-ordinator, Value-Added Courses (VACs)</p>
                             <a href="/faculty-ayushman-devra" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                                    alt="Profile image of Susmita Banerjee">
-                            </div>
-                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                            <p class="card-designation">Faculty Member, IKS Cell</p>
-                            <a href="/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
