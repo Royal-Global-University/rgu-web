@@ -2,6 +2,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, September 30, 2026",
+            title: "‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah",
+            desc: "The second edition of Royal Herald, the journal of the Royal School of Communication (RSCOM), The Assam Royal Global University (RGU), was released at a function held at the university campus here today, with Dean Dr Prasanta Jyoti Baruah highlighting the publication’s role in nurturing the journalistic and creative abilities of young media students.",
+            img: "/mobile-assets/media-corner/2026/sep/9/1.jpeg",
+            link: "/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah",
+        },
+        {
+            date: "Guwahati, September 29, 2026",
+            title: "River Talks: Sabdakalpa 3rd Edition held at Royal Global University",
+            desc: "The Assam Royal Global University held the 3rd edition of River Talks: Sabdakalpa on 25th September in the university premises.",
+            img: "/mobile-assets/media-corner/2026/sep/8/3.jpeg",
+            link: "/river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university",
+        },
+
+        {
             date: "Guwahati, September 25, 2026",
             title: "Royal Global University Signs MoU with Assam Rifles",
             desc: "Strengthening its commitment to nation-building through education and supporting the families of defence personnel, The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU) with the Assam Rifles at the Headquarters Directorate General Assam Rifles (HQ DGAR), Laitkor, Shillong.",

@@ -46,6 +46,23 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah',
+                            'summary' => 'RSCOM journal’s second edition released; Royal Cine Society proposed at RGU',
+                            'date' => 'Guwahati, September 30, 2026:',
+                            'link' =>'/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah',
+                            'image' => '/mobile-assets/media-corner/2026/sep/9/1.jpeg',
+                            'content' => 'The second edition of Royal Herald, the journal of the Royal School of Communication (RSCOM), The Assam Royal Global University (RGU), was released at a function held at the university campus here today...',
+                        ],
+                        [
+                            'title' =>'River Talks: Sabdakalpa 3rd Edition held at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, September 29, 2026:',
+                            'link' =>'/river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/sep/8/3.jpeg',
+                            'content' => 'The Assam Royal Global University held the 3rd edition of River Talks: Sabdakalpa on 25th September in the university premises...',
+                        ],
+
+                        [
                             'title' =>'Royal Global University Signs MoU with Assam Rifles',
                             'summary' => 'Introduces Special Scholarship Schemes for Wards of Defence Personnel',
                             'date' => 'Guwahati, September 25, 2026:',

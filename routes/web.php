@@ -3270,6 +3270,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah', function () {
+    return view('frontend/media-corner/2026/oct/news1');
+})->name('royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah');
+
+Route::get('/river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/2026/sep/news9');
+})->name('river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university');
+
 Route::get('/royal-global-university-signs-mou-with-assam-rifles', function () {
     return view('frontend/media-corner/2026/sep/news8');
 })->name('royal-global-university-signs-mou-with-assam-rifles');
