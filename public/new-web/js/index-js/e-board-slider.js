@@ -2,7 +2,11 @@
 
 const eboardData = [
     {
-        img: "/mobile-assets/media-corner/2026/sep/8/sports.png",
+        img: "/mobile-assets/ads/oct/gold-1.png",
+        alt: "Event 1",
+    },
+    {
+        img: "/mobile-assets/ads/oct/gold-2.png",
         alt: "Event 1",
     },
     {
@@ -13,16 +17,7 @@ const eboardData = [
         img: "/mobile-assets/ads/8-july/Frame 6.png",
         alt: "Event 1",
     },
-    {
-        img: "/mobile-assets/ads/e-board/2.jpeg",
-        alt: "Event 2",
-    },
-    {
-        img: "/mobile-assets/ads/e-board/3.jpeg",
-        alt: "Event 3",
-    },
     { img: "/mobile-assets/ads/e-board/13-4-2.jpeg", alt: "Event 5" },
-    { img: "new-web/assets/img/index/e-board/5.png", alt: "Event 5" },
     { img: "new-web/assets/img/index/e-board/6.jpeg", alt: "Event 6" },
 ];
 

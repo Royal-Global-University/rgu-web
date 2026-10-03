@@ -2231,14 +2231,6 @@
             const events = [
 
                 {
-                    day: "1<sup>st</sup>",
-                    month: "October 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "NORTH-EAST YOUNG BIOLOGISTS CHAMPIONSHIP 2026",
-                    sub: "",
-                    link: "/mobile-assets/pdf/new/up-docx.pdf",
-                },
-                {
                     day: "28<sup>th</sup>",
                     month: "October 2026",
                     img: "/mobile-assets/ads/summer/bg.png",
