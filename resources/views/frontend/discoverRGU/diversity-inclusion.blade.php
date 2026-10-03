@@ -1,7 +1,6 @@
 @extends('frontend/new-master')
 @section('title', 'Diversity and inclusion : The Assam Royal Global University')
-@section('meta_description', 'More than 7000 people call RGU their home. One would find a vast diversity of students at
-    Royal Global University. Students from different parts of the country come to study at Royal Global University.')
+@section('meta_description', 'More than 11,000 students from across the country call Royal Global University (RGU) their home. With a vibrant and diverse student community, RGU brings together learners from different regions, cultures, and backgrounds. The University is also home to 700+ Ph.D. scholars, fostering a dynamic academic environment driven by research, innovation, and excellence.')
 @section('meta_keywords', 'Diversity and inclusion')
 @section('content')
     <style>
@@ -246,7 +245,7 @@
 
                 <div class="diversity-inclusion-top-content">
                     <p>
-                        More than 7000 people call RGU their home. One would find a vast diversity of students at The
+                        More than 11,000 people call RGU their home. One would find a vast diversity of students at The
                         Assam Royal Global University. Students from different parts of the country come to study at The
                         Assam Royal Global University. Students with different backgrounds bring with them different
                         experiences, ideas and perspectives. One gets to know about different cultures prevalent in
