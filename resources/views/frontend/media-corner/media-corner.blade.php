@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>'RGU, Indian Coast Guard Join Hands to Expand Educational Opportunities for Defence Families',
+                            'summary' => '',
+                            'date' => 'Guwahati, October 1, 2026:',
+                            'link' =>'/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families',
+                            'image' => '/mobile-assets/mou-12.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Indian Coast Guard, Headquarters, New Delhi, to provide educational support to the dependents and wards of defence personnel.',
+                        ],
+                        [
                             'title' =>'‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah',
                             'summary' => 'RSCOM journal’s second edition released; Royal Cine Society proposed at RGU',
                             'date' => 'Guwahati, September 30, 2026:',

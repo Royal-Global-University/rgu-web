@@ -3270,6 +3270,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families', function () {
+    return view('frontend/media-corner/2026/oct/news2');
+})->name('rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families');
+
 Route::get('/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah', function () {
     return view('frontend/media-corner/2026/oct/news1');
 })->name('royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah');

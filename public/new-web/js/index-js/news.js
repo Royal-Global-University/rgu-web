@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, October 1, 2026",
+            title: "RGU, Indian Coast Guard Join Hands to Expand Educational Opportunities for Defence Families",
+            desc: "The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Indian Coast Guard, Headquarters, New Delhi, to provide educational support to the dependents and wards of defence personnel.",
+            img: "/mobile-assets/mou-12.jpeg",
+            link: "/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families",
+        },
+        {
             date: "Guwahati, September 30, 2026",
             title: "‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah",
             desc: "The second edition of Royal Herald, the journal of the Royal School of Communication (RSCOM), The Assam Royal Global University (RGU), was released at a function held at the university campus here today, with Dean Dr Prasanta Jyoti Baruah highlighting the publication’s role in nurturing the journalistic and creative abilities of young media students.",
