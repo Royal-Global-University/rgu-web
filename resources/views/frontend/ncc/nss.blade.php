@@ -1,7 +1,6 @@
 @extends('frontend/new-master')
 @section('content')
-        <style>
-
+    <style>
         .rgu-nss-page {
             display: grid;
             grid-template-columns: 260px minmax(0, 1fr);
@@ -30,8 +29,8 @@
 
 
         /* =========================================
-        SIDEBAR
-========================================= */
+            SIDEBAR
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-sidebar {
             position: sticky;
@@ -114,8 +113,8 @@
 
 
         /* =========================================
-        MAIN CONTENT
-========================================= */
+            MAIN CONTENT
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-main {
             min-width: 0;
@@ -128,8 +127,8 @@
 
 
         /* =========================================
-        SECTION NUMBER / LABEL
-========================================= */
+            SECTION NUMBER / LABEL
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-section-number {
             color: #d66a42;
@@ -143,8 +142,8 @@
 
 
         /* =========================================
-        SECTION TITLE
-========================================= */
+            SECTION TITLE
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-section-title {
             font-size: clamp(25px, 4vw, 35px);
@@ -159,8 +158,8 @@
 
 
         /* =========================================
-        SECTION TEXT
-========================================= */
+            SECTION TEXT
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-section-text,
         .rgu-nss-page .rgu-nss-justify {
@@ -176,8 +175,8 @@
 
 
         /* =========================================
-        SUBSECTION
-========================================= */
+            SUBSECTION
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-subsection {
             margin-top: 50px;
@@ -220,8 +219,8 @@
 
 
         /* =========================================
-        MEMBER GRID
-========================================= */
+            MEMBER GRID
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-member-grid {
             display: grid;
@@ -236,8 +235,8 @@
 
 
         /* =========================================
-        MEMBER CARD
-========================================= */
+            MEMBER CARD
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-member-card {
             background: #f7f7f7;
@@ -264,8 +263,8 @@
 
 
         /* =========================================
-        TABLE SECTION
-========================================= */
+            TABLE SECTION
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-table-section {
             margin-top: 30px;
@@ -285,8 +284,8 @@
 
 
         /* =========================================
-        TABLE WRAPPER
-========================================= */
+            TABLE WRAPPER
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-table-wrap {
             overflow-x: auto;
@@ -298,8 +297,8 @@
 
 
         /* =========================================
-        TABLE
-========================================= */
+            TABLE
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-table {
             width: 100%;
@@ -334,16 +333,16 @@
 
 
         /* =========================================
-        ACTIVITY CONTENT
-========================================= */
+            ACTIVITY CONTENT
+    ========================================= */
 
         /*
-   The cleaned HTML uses .rgu-nss-activity for the
-   long Recent Activity articles.
+       The cleaned HTML uses .rgu-nss-activity for the
+       long Recent Activity articles.
 
-   The original page did not add a new card design
-   around these articles, so we keep them simple.
-*/
+       The original page did not add a new card design
+       around these articles, so we keep them simple.
+    */
 
         .rgu-nss-page .rgu-nss-activity {
             margin-top: 35px;
@@ -371,8 +370,8 @@
 
 
         /* =========================================
-        LINKS INSIDE NSS CONTENT
-========================================= */
+            LINKS INSIDE NSS CONTENT
+    ========================================= */
 
         .rgu-nss-page a {
             text-decoration: none;
@@ -386,7 +385,6 @@
     </style>
 
     <style>
-
         .rgu-nss-page .rgu-nss-dashboard-grid {
             display: grid;
 
@@ -424,8 +422,8 @@
 
 
         /* =========================================
-        FAQ
-========================================= */
+            FAQ
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-faq-item {
             background: #fff;
@@ -457,8 +455,8 @@
 
 
         /* =========================================
-        MEDIA GALLERY
-========================================= */
+            MEDIA GALLERY
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-marquee {
             overflow: hidden;
@@ -498,8 +496,8 @@
 
 
         /* =========================================
-        GALLERY ANIMATION
-========================================= */
+            GALLERY ANIMATION
+    ========================================= */
 
         @keyframes rguNssMarquee {
 
@@ -519,8 +517,8 @@
 
 
         /* =========================================
-        CONTACT
-========================================= */
+            CONTACT
+    ========================================= */
 
         .rgu-nss-page .rgu-nss-contact-grid {
             display: grid;
@@ -565,8 +563,8 @@
 
 
         /* =========================================
-        RESPONSIVE - 1200PX
-========================================= */
+            RESPONSIVE - 1200PX
+    ========================================= */
 
         @media(max-width:1200px) {
 
@@ -579,8 +577,8 @@
 
 
         /* =========================================
-        RESPONSIVE - 992PX
-========================================= */
+            RESPONSIVE - 992PX
+    ========================================= */
 
         @media(max-width:992px) {
 
@@ -601,8 +599,8 @@
 
 
         /* =========================================
-        RESPONSIVE - 768PX
-========================================= */
+            RESPONSIVE - 768PX
+    ========================================= */
 
         @media(max-width:768px) {
 
@@ -626,9 +624,8 @@
         }
     </style>
 
-        <section class="pg-hero">
-        <div class="pg-hero-bg"
-            style="background-image:url('/new-web/assets/img/nss/headimg.jpg'); filter: blur(5px);">
+    <section class="pg-hero">
+        <div class="pg-hero-bg" style="background-image:url('/new-web/assets/img/nss/headimg.jpg'); filter: blur(5px);">
         </div>
 
         <div class="pg-hero-bg"></div>
@@ -828,7 +825,7 @@
 
                                     <tr>
                                         <td>4</td>
-                                        <td>Prof. D.N. Singh</td>
+                                        <td>Prof. (Dr.) D.N. Singh</td>
                                         <td>Registrar (Academics)</td>
                                     </tr>
 
@@ -2551,161 +2548,162 @@
     <!-- ================= END NSS PAGE ================= -->
 
     <script>
-    document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
 
-        const nssPage = document.querySelector(".rgu-nss-page");
+            const nssPage = document.querySelector(".rgu-nss-page");
 
-        if (!nssPage) return;
-
-
-        /* =========================================
-            NSS SIDEBAR NAVIGATION
-        ========================================= */
-
-        const sidebarLinks =
-            nssPage.querySelectorAll(".rgu-nss-sidebar a");
-
-        const sections = [];
-
-        sidebarLinks.forEach(function (link) {
-
-            const targetId = link.getAttribute("href");
-
-            if (!targetId || !targetId.startsWith("#")) return;
-
-            const section = document.querySelector(targetId);
-
-            if (section) {
-                sections.push(section);
-            }
-
-        });
+            if (!nssPage) return;
 
 
-        /* =========================================
-            SMOOTH SCROLL
-        ========================================= */
+            /* =========================================
+                NSS SIDEBAR NAVIGATION
+            ========================================= */
 
-        sidebarLinks.forEach(function (link) {
+            const sidebarLinks =
+                nssPage.querySelectorAll(".rgu-nss-sidebar a");
 
-            link.addEventListener("click", function (event) {
+            const sections = [];
 
-                const targetId = this.getAttribute("href");
+            sidebarLinks.forEach(function(link) {
+
+                const targetId = link.getAttribute("href");
 
                 if (!targetId || !targetId.startsWith("#")) return;
 
-                const target = document.querySelector(targetId);
+                const section = document.querySelector(targetId);
 
-                if (!target) return;
+                if (section) {
+                    sections.push(section);
+                }
 
-                event.preventDefault();
+            });
 
-                const headerOffset = 110;
 
-                const targetPosition =
-                    target.getBoundingClientRect().top +
-                    window.pageYOffset -
-                    headerOffset;
+            /* =========================================
+                SMOOTH SCROLL
+            ========================================= */
 
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: "smooth"
+            sidebarLinks.forEach(function(link) {
+
+                link.addEventListener("click", function(event) {
+
+                    const targetId = this.getAttribute("href");
+
+                    if (!targetId || !targetId.startsWith("#")) return;
+
+                    const target = document.querySelector(targetId);
+
+                    if (!target) return;
+
+                    event.preventDefault();
+
+                    const headerOffset = 110;
+
+                    const targetPosition =
+                        target.getBoundingClientRect().top +
+                        window.pageYOffset -
+                        headerOffset;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: "smooth"
+                    });
+
                 });
 
             });
 
+
+            /* =========================================
+                ACTIVE SIDEBAR LINK
+            ========================================= */
+
+            function updateActiveNssLink() {
+
+                let currentSection = "";
+
+                const scrollPosition =
+                    window.pageYOffset + 160;
+
+                sections.forEach(function(section) {
+
+                    const sectionTop = section.offsetTop;
+
+                    const sectionBottom =
+                        sectionTop + section.offsetHeight;
+
+                    if (
+                        scrollPosition >= sectionTop &&
+                        scrollPosition < sectionBottom
+                    ) {
+
+                        currentSection = section.id;
+
+                    }
+
+                });
+
+
+                sidebarLinks.forEach(function(link) {
+
+                    link.classList.remove("active");
+
+                    if (
+                        link.getAttribute("href") ===
+                        "#" + currentSection
+                    ) {
+
+                        link.classList.add("active");
+
+                    }
+
+                });
+
+            }
+
+
+            window.addEventListener(
+                "scroll",
+                updateActiveNssLink, {
+                    passive: true
+                }
+            );
+
+            updateActiveNssLink();
+
+
+            /* =========================================
+                INFINITE MEDIA GALLERY
+            ========================================= */
+
+            const marqueeTrack =
+                nssPage.querySelector(".rgu-nss-marquee-track");
+
+            if (
+                marqueeTrack &&
+                !marqueeTrack.dataset.cloned
+            ) {
+
+                const originalImages =
+                    Array.from(marqueeTrack.children);
+
+                originalImages.forEach(function(image) {
+
+                    const clone = image.cloneNode(true);
+
+                    clone.setAttribute(
+                        "aria-hidden",
+                        "true"
+                    );
+
+                    marqueeTrack.appendChild(clone);
+
+                });
+
+                marqueeTrack.dataset.cloned = "true";
+
+            }
+
         });
-
-
-        /* =========================================
-            ACTIVE SIDEBAR LINK
-        ========================================= */
-
-        function updateActiveNssLink() {
-
-            let currentSection = "";
-
-            const scrollPosition =
-                window.pageYOffset + 160;
-
-            sections.forEach(function (section) {
-
-                const sectionTop = section.offsetTop;
-
-                const sectionBottom =
-                    sectionTop + section.offsetHeight;
-
-                if (
-                    scrollPosition >= sectionTop &&
-                    scrollPosition < sectionBottom
-                ) {
-
-                    currentSection = section.id;
-
-                }
-
-            });
-
-
-            sidebarLinks.forEach(function (link) {
-
-                link.classList.remove("active");
-
-                if (
-                    link.getAttribute("href") ===
-                    "#" + currentSection
-                ) {
-
-                    link.classList.add("active");
-
-                }
-
-            });
-
-        }
-
-
-        window.addEventListener(
-            "scroll",
-            updateActiveNssLink,
-            { passive: true }
-        );
-
-        updateActiveNssLink();
-
-
-        /* =========================================
-            INFINITE MEDIA GALLERY
-        ========================================= */
-
-        const marqueeTrack =
-            nssPage.querySelector(".rgu-nss-marquee-track");
-
-        if (
-            marqueeTrack &&
-            !marqueeTrack.dataset.cloned
-        ) {
-
-            const originalImages =
-                Array.from(marqueeTrack.children);
-
-            originalImages.forEach(function (image) {
-
-                const clone = image.cloneNode(true);
-
-                clone.setAttribute(
-                    "aria-hidden",
-                    "true"
-                );
-
-                marqueeTrack.appendChild(clone);
-
-            });
-
-            marqueeTrack.dataset.cloned = "true";
-
-        }
-
-    });
-</script>
+    </script>
 @endsection

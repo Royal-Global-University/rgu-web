@@ -1,6 +1,7 @@
 @extends('frontend/new-master')
 @section('title', 'Royal Centre for Human Resource Development (RCHRD) : The Assam Royal Global University')
-@section('meta_description', 'The Royal Centre for Human Resource Development (RCHRD) at Royal Global University offers
+@section('meta_description',
+    'The Royal Centre for Human Resource Development (RCHRD) at Royal Global University offers
     cutting-edge training, research, and development programs to enhance HR practices and empower professionals in the
     field.')
 @section('meta_keywords', 'Royal Centre for Human Resource Development (RCHRD)')
@@ -719,7 +720,7 @@
                     </div>
 
                     <div class="rgu-rchrd-member-card">
-                        <h4>Prof. D.N. Singh (Registrar-Academics)</h4>
+                        <h4>Prof. (Dr.) D.N. Singh (Registrar-Academics)</h4>
                         <span>Member</span>
                     </div>
 

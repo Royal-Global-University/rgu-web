@@ -323,7 +323,7 @@
                             <div class="card-image">
                                 <img src="/mobile-assets/all-faculty/rsb/2.jpg" alt="Profile image">
                             </div>
-                            <h3 class="card-name">Prof. D.N. Singh</h3>
+                            <h3 class="card-name">Prof. (Dr.) D.N. Singh</h3>
                             <p class="card-designation">Professor, Registrar, Academics & i/c Dean, RSLISC & RSPES</p>
                             <a href="/Prof-dn-singh" class="profile-link">View Profile</a>
                         </div>
