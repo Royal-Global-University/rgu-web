@@ -135,17 +135,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/demo-assets/Ajeet.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. Ajeet Kumar Singh</h3>
-                            <p class="card-designation">Professor</p>
-                            <a href="/faculty-ajeet-kr-singh" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Indrajit Dutta</h3>
