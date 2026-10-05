@@ -3270,6 +3270,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/6th-convocation-of-royal-global-university-on-30th-october', function () {
+    return view('frontend/media-corner/2026/oct/news3');
+})->name('6th-convocation-of-royal-global-university-on-30th-october');
+
 Route::get('/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families', function () {
     return view('frontend/media-corner/2026/oct/news2');
 })->name('rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families');

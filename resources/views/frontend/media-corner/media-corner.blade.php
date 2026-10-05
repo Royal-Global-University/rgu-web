@@ -46,61 +46,87 @@
                 @php
                     $newsItems = [
                         [
-                            'title' =>'RGU, Indian Coast Guard Join Hands to Expand Educational Opportunities for Defence Families',
+                            'title' => '6th Convocation of Royal Global University on 30th October',
+                            'summary' =>
+                                'RGU to Confer Honoris Causa Degrees on Five Eminent Personalities at its 6th Convocation',
+                            'date' => 'Guwahati, October 3, 2026:',
+                            'link' => '/6th-convocation-of-royal-global-university-on-30th-october',
+                            'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) will hold
+                its 6th Convocation on Friday, October 30, 2026, marking another significant milestone in the academic
+                journey of the University. The Convocation will be presided over by Sri Lakshman Prasad Acharya, Hon’ble
+                Governor of Assam and the Visitor of RGU.',
+                        ],
+                        [
+                            'title' =>
+                                'RGU, Indian Coast Guard Join Hands to Expand Educational Opportunities for Defence Families',
                             'summary' => '',
                             'date' => 'Guwahati, October 1, 2026:',
-                            'link' =>'/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families',
+                            'link' =>
+                                '/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families',
                             'image' => '/mobile-assets/mou-12.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Indian Coast Guard, Headquarters, New Delhi, to provide educational support to the dependents and wards of defence personnel.',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Indian Coast Guard, Headquarters, New Delhi, to provide educational support to the dependents and wards of defence personnel.',
                         ],
                         [
-                            'title' =>'‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah',
+                            'title' =>
+                                '‘Royal Herald’ gives aspiring journalists a platform to find their voice: Dr P J Baruah',
                             'summary' => 'RSCOM journal’s second edition released; Royal Cine Society proposed at RGU',
                             'date' => 'Guwahati, September 30, 2026:',
-                            'link' =>'/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah',
+                            'link' =>
+                                '/royal-herald-gives-aspiring-journalists-a-platform-to-find-their-voice-dr-p-j-baruah',
                             'image' => '/mobile-assets/media-corner/2026/sep/9/1.jpeg',
-                            'content' => 'The second edition of Royal Herald, the journal of the Royal School of Communication (RSCOM), The Assam Royal Global University (RGU), was released at a function held at the university campus here today...',
+                            'content' =>
+                                'The second edition of Royal Herald, the journal of the Royal School of Communication (RSCOM), The Assam Royal Global University (RGU), was released at a function held at the university campus here today...',
                         ],
                         [
-                            'title' =>'River Talks: Sabdakalpa 3rd Edition held at Royal Global University',
+                            'title' => 'River Talks: Sabdakalpa 3rd Edition held at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, September 29, 2026:',
-                            'link' =>'/river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university',
+                            'link' => '/river-talks-sabdakalpa-3rd-edition-held-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/sep/8/3.jpeg',
-                            'content' => 'The Assam Royal Global University held the 3rd edition of River Talks: Sabdakalpa on 25th September in the university premises...',
+                            'content' =>
+                                'The Assam Royal Global University held the 3rd edition of River Talks: Sabdakalpa on 25th September in the university premises...',
                         ],
 
                         [
-                            'title' =>'Royal Global University Signs MoU with Assam Rifles',
+                            'title' => 'Royal Global University Signs MoU with Assam Rifles',
                             'summary' => 'Introduces Special Scholarship Schemes for Wards of Defence Personnel',
                             'date' => 'Guwahati, September 25, 2026:',
-                            'link' =>'/royal-global-university-signs-mou-with-assam-rifles',
+                            'link' => '/royal-global-university-signs-mou-with-assam-rifles',
                             'image' => '/mobile-assets/media-corner/2026/sep/7/2.jpeg',
-                            'content' => 'Strengthening its commitment to nation-building through education and supporting the families of defence personnel, The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU)...',
+                            'content' =>
+                                'Strengthening its commitment to nation-building through education and supporting the families of defence personnel, The Assam Royal Global University (RGU) signed a Memorandum of Understanding (MoU)...',
                         ],
                         [
-                            'title' =>'High-Level India–Thailand Dialogue held at Royal Global University',
-                            'summary' => 'Dialogue focuses on education, health, youth and enterprise; RGU emerges as academic platform for strengthening India–Thailand linkages',
+                            'title' => 'High-Level India–Thailand Dialogue held at Royal Global University',
+                            'summary' =>
+                                'Dialogue focuses on education, health, youth and enterprise; RGU emerges as academic platform for strengthening India–Thailand linkages',
                             'date' => 'Guwahati, September 23, 2026:',
-                            'link' =>'/high-level-india-thailand-dialogue-held-at-royal-global-university',
+                            'link' => '/high-level-india-thailand-dialogue-held-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/sep/6/3.jpeg',
-                            'content' => 'Asian Confluence, a Shillong-based think tank, in collaboration with the Department of Political Science and Public Administration of The Assam Royal Global University (RGU)...',
+                            'content' =>
+                                'Asian Confluence, a Shillong-based think tank, in collaboration with the Department of Political Science and Public Administration of The Assam Royal Global University (RGU)...',
                         ],
                         [
-                            'title' =>'Royal Global University Observes ‘Green Day’',
+                            'title' => 'Royal Global University Observes ‘Green Day’',
                             'summary' => 'Plantation Drive and Bicycle Distribution Mark Chancellor’s 63rd Birthday',
                             'date' => 'Guwahati, September 22, 2026:',
-                            'link' =>'/royal-global-university-observes-green-day',
+                            'link' => '/royal-global-university-observes-green-day',
                             'image' => '/mobile-assets/media-corner/2026/sep/5/1.jpeg',
-                            'content' => 'The 63rd Birthday of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.',
+                            'content' =>
+                                'The 63rd Birthday of Dr. Ashok Kumar Pansari, Chancellor of The Assam Royal Global University (RGU), was observed today as a day of service, compassion and environmental responsibility, with activities focused on giving back to society and nature rather than conventional celebrations.',
                         ],
                         [
-                            'title' =>'RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona',
+                            'title' =>
+                                'RGU Celebrates Srimanta Sankardev Janmotsav with Sattriya, Mati Akhora and Bhaona',
                             'summary' => '',
                             'date' => 'Guwahati, September 21, 2026:',
-                            'link' =>'/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona',
+                            'link' =>
+                                '/rgu-celebrates-srimanta-sankardev-janmotsav-with-sattriya-mati-akhora-and-bhaona',
                             'image' => '/mobile-assets/media-corner/2026/sep/4/1.jpeg',
-                            'content' => 'The Centre for Indian Knowledge Systems of The Assam Royal Global University (RGU), organised a vibrant cultural programme to mark the Janmotsav of Mahapurush Srimanta Sankardev, celebrating Assam’s rich and enduring traditions of Sattriya, Mati Akhora and Bhaona.',
+                            'content' =>
+                                'The Centre for Indian Knowledge Systems of The Assam Royal Global University (RGU), organised a vibrant cultural programme to mark the Janmotsav of Mahapurush Srimanta Sankardev, celebrating Assam’s rich and enduring traditions of Sattriya, Mati Akhora and Bhaona.',
                         ],
                         [
                             'title' =>

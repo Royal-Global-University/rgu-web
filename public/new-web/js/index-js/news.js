@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
-            date: "Guwahati, October 1, 2026",
-            title: "RGU, Indian Coast Guard Join Hands to Expand Educational Opportunities for Defence Families",
-            desc: "The Assam Royal Global University (RGU) has signed a Memorandum of Understanding (MoU) with the Indian Coast Guard, Headquarters, New Delhi, to provide educational support to the dependents and wards of defence personnel.",
-            img: "/mobile-assets/mou-12.jpeg",
-            link: "/rgu-indian-coast-guard-join-hands-to-expand-educational-opportunities-for-defence-families",
+            date: "Guwahati, October 3, 2026",
+            title: "6th Convocation of Royal Global University on 30th October",
+            desc: "The Assam Royal Global University (RGU) will hold its 6th Convocation on Friday, October 30, 2026, marking another significant milestone in the academic journey of the University. The Convocation will be presided over by Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam and the Visitor of RGU.",
+            img: "/mobile-assets/rgu-blog/blog2.jpeg",
+            link: "/6th-convocation-of-royal-global-university-on-30th-october",
         },
         {
             date: "Guwahati, September 30, 2026",
