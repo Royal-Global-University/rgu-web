@@ -156,7 +156,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Bidisha.jpg" alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Dr-Bidisha-Goswami.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Bidisha Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>

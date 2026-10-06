@@ -179,7 +179,7 @@
                     <div class="col-lg-5 text-center">
                         <div class="text-center">
                             <img class="faculty-bio-img" style="height: 440px;"
-                                src="/mobile-assets/updated-faculty-img/Bidisha.jpg" alt="">
+                                src="/mobile-assets/updated-faculty-img/Dr-Bidisha-Goswami.jpeg" alt="">
                         </div>
                     </div>
 
