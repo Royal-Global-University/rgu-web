@@ -2171,7 +2171,7 @@
             <source media="(max-width:768px)" srcset="/new-web/assets/index/trail-blazer/mobile-trailblazer.png">
 
             <!-- Desktop Image -->
-            <img src="/new-web/assets/index/trail-blazer/1.jpeg" alt="Trailblazer" style="width:100%; height:auto;">
+            <img src="/new-web/assets/ads/new-trail-blazers.png" alt="Trailblazer" style="width:100%; height:auto;">
         </picture>
     </section>
 
