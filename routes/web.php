@@ -3221,6 +3221,10 @@ Route::get('/blog', function () {
     return view('frontend/blog/blog');
 })->name('blog');
 
+Route::get('/11000-students-at-royal-global-university', function () {
+    return view('frontend/blog/11000-students');
+})->name('11000-students-at-royal-global-university');
+
 Route::get('/private-university-in-assam', function () {
     return view('frontend/blog/private-university-in-assam');
 })->name('private-university-in-assam');
