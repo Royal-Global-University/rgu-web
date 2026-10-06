@@ -589,7 +589,7 @@
                                                 <li><strong>Dr. Nilakshi Deka</strong> - Assistant Professor</li>
                                                 <li><strong>Ms. Afsana Laskar</strong> - Assistant Professor</li>
                                                 <li><strong>Mr. Spandan Barthakur</strong> - Assistant Professor</li>
-                                                <li><strong>Ms. Bidisha Goswami</strong> - Assistant Professor</li>
+                                                <li><strong>Ms. Bidisha Goswami </strong> - Assistant Professor</li>
 
                                             </ul>
                                         </td>
