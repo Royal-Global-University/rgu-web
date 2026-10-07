@@ -913,7 +913,7 @@
 
                             <p>
 
-                              8500+ students, 26 schools, 130+ UG, PG,
+                              11000+ students, 26 schools, 130+ UG, PG,
                               doctoral programmes and international students
                               from Kenya, Zimbabwe, Tanzania, Nepal,
                               Myanmar, Bhutan, South Sudan, Libya and others.

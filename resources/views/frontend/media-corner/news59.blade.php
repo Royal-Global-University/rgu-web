@@ -71,7 +71,7 @@
                 and significance.
                 <br><br>
                 As a pioneer private university in the region, RGU continues to set new benchmarks in higher education,
-                research, and holistic development. The university now has over 8500 students, including international
+                research, and holistic development. The university now has over 11000 students, including international
                 students from 13 countries. It has over 500 faculty members and more than 130 academic programs under 24
                 Schools of Studies. The eco-friendly campus, world-class infrastructure, and advanced learning facilities
                 offer an enriching academic environment that blends rigorous scholarship with hands-on industry exposure.

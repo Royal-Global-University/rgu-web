@@ -569,7 +569,7 @@
                 <p style="color: #24477f; text-align: justify;" class="mobile-para1">
                     RGU continues to set new benchmarks in higher education, research, and holistic development. The
                     university
-                    now has over 8500 students, including international students from 13 countries. It has over 500 faculty
+                    now has over 11000 students, including international students from 13 countries. It has over 500 faculty
                     members and more than 130 academic programs under 24 Schools of Studies. The eco-friendly campus,
                     world-class
                     infrastructure, and advanced learning facilities offer an enriching academic environment that blends
