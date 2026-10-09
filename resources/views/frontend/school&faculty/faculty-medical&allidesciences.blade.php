@@ -1051,6 +1051,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/sagar-1.jpeg"
+                                    alt="Profile image of Mr. Sagar Debnath">
+                            </div>
+                            <h3 class="card-name">Mr. Sagar Debnath</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/no-pic.png"
                                     alt="Profile image of Ms. Susmita Sinha">
                             </div>
