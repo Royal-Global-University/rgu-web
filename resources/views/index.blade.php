@@ -39,10 +39,10 @@
                         <picture>
                             <!-- Mobile Image -->
                             <source media="(max-width: 767px)"
-                                srcset="/new-web/assets/convo-six-desktop/new/mob-1.jpeg">
+                                srcset="/new-web/assets/convo-six-desktop/new-1/con-mob-2.jpeg">
 
                             <!-- Desktop Image -->
-                            <img src="/new-web/assets/convo-six-desktop/new-1/con-mob-2.jpeg" alt="6th Convocation">
+                            <img src="/new-web/assets/convo-six-desktop/new/dest-1.jpeg" alt="6th Convocation">
                         </picture>
 
                     </a>
