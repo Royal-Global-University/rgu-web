@@ -42,7 +42,7 @@
                                 srcset="/new-web/assets/convo-six-desktop/new/mob-1.jpeg">
 
                             <!-- Desktop Image -->
-                            <img src="/new-web/assets/convo-six-desktop/new/dest-1.jpeg" alt="6th Convocation">
+                            <img src="/new-web/assets/convo-six-desktop/new-1/con-mob-2.jpeg" alt="6th Convocation">
                         </picture>
 
                     </a>
@@ -61,7 +61,7 @@
                         <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/check/mob-og.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new/check/web-og.jpeg" alt="H Causa">
+                        <img src="/new-web/assets/convo-six-desktop/new-1/con-web-1.jpeg" alt="H Causa">
 
                     </picture>
 
