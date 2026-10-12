@@ -2,6 +2,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, October 10, 2026",
+            title: "Synthesis 2026: Royal Global University’s Fashion Designers Take Centre Stage",
+            desc: "The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.",
+            img: "/mobile-assets/media-corner/2026/oct/2/1.jpeg",
+            link: "/synthesis-2026-royal-global-university-s-fashion-designers-take-centre-stage",
+        },
+        {
+            date: "Guwahati, October 8, 2026",
+            title: "3 RGU Teachers amongst World’s Top 2% Scientists & 13 among the Top 1,000 Global Scholars",
+            desc: "Three faculty members of The Assam Royal Global University (RGU) have been named among the World’s Top 2% Scientists for 2026 in the global ranking published by published by Elsevier and Stanford University databases, on October 7.",
+            img: "/mobile-assets/media-corner/2026/oct/1/frame.png",
+            link: "/3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars",
+        },
+
+        {
             date: "Guwahati, October 3, 2026",
             title: "6th Convocation of Royal Global University on 30th October",
             desc: "The Assam Royal Global University (RGU) will hold its 6th Convocation on Friday, October 30, 2026, marking another significant milestone in the academic journey of the University. The Convocation will be presided over by Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam and the Visitor of RGU.",

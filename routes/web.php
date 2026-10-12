@@ -3274,6 +3274,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/synthesis-2026-royal-global-universitys-fashion-designers-take-centre-stage', function () {
+    return view('frontend/media-corner/2026/oct/news5');
+})->name('synthesis-2026-royal-global-universitys-fashion-designers-take-centre-stage');
+
+Route::get('/3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars', function () {
+    return view('frontend/media-corner/2026/oct/news4');
+})->name('3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars');
+
 Route::get('/6th-convocation-of-royal-global-university-on-30th-october', function () {
     return view('frontend/media-corner/2026/oct/news3');
 })->name('6th-convocation-of-royal-global-university-on-30th-october');

@@ -46,6 +46,24 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Synthesis 2026: Royal Global University’s Fashion Designers Take Centre Stage',
+                            'summary' =>
+                                'Renowned designer Anju Modi addresses students, presents Awards',
+                            'date' => 'Guwahati, October 10, 2026:',
+                            'link' => '/synthesis-2026-royal-global-university-s-fashion-designers-take-centre-stage',
+                            'image' => '/mobile-assets/media-corner/2026/oct/2/1.jpeg',
+                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
+                        ],
+                        [
+                            'title' => '3 RGU Teachers amongst World’s Top 2% Scientists & 13 among the Top 1,000 Global Scholars',
+                            'summary' =>
+                                '',
+                            'date' => 'Guwahati, October 8, 2026:',
+                            'link' => '/3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars',
+                            'image' => '/mobile-assets/media-corner/2026/oct/1/frame.png',
+                            'content' => 'Three faculty members of The Assam Royal Global University (RGU) have been named among the World’s Top 2% Scientists for 2026 in the global ranking published by published by Elsevier and Stanford University databases, on October 7.',
+                        ],
+                        [
                             'title' => '6th Convocation of Royal Global University on 30th October',
                             'summary' =>
                                 'RGU to Confer Honoris Causa Degrees on Five Eminent Personalities at its 6th Convocation',
