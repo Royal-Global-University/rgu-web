@@ -138,24 +138,24 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
-                                    alt="Profile image of Mr. Asif Iqbal">
-                            </div>
-                            <h3 class="card-name">Mr. Asif Iqbal Mazid</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <a href="/faculty-asif-iqbal-mazid" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Amarendra.jpeg"
                                     alt="Profile image of Dr. Thangjam Roshini">
                             </div>
                             <h3 class="card-name">Dr. Thangjam Roshini</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-thangjam-roshini" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
+                                    alt="Profile image of Mr. Asif Iqbal">
+                            </div>
+                            <h3 class="card-name">Mr. Asif Iqbal Mazid</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="/faculty-asif-iqbal-mazid" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

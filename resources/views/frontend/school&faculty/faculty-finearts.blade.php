@@ -130,7 +130,7 @@
                                     alt="Profile image of Prof. Tikendra Kumar Sahu">
                             </div>
                             <h3 class="card-name">Prof. Tikendra Kumar Sahu</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & Coordinator, Royal School of Fine Arts</p>
                             <a href="/faculty-tikendra-Kumar-sahu" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                                     alt="Profile image of Dr. Sumanta Dutta Chowdhury">
                             </div>
                             <h3 class="card-name">Dr. Sumanta Dutta Chowdhury</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
+                            <p class="card-designation">Assistant Professor </p>
                             <a href="/faculty-sumanta-dutta-chowdhury" class="profile-link">View
                                 Profile</a>
                         </div>
