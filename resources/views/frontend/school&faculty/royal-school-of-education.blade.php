@@ -150,7 +150,7 @@
 
             <div style="background-color: #fff; padding: 20px;">
                 <section class="rgu-educationn-about container" style="text-align: justify;">
-                    <h2 style="padding-bottom: 30px; font-size: 32px;" >Scope of the programme </h2>
+                    <h2 style="padding-bottom: 30px; font-size: 28px;" >Scope of the programme </h2>
                     <p>“The ITEP aims at the dual purpose of providing student teachers disciplinary knowledge along
                         with the professional knowledge in an integrated manner. Since the program will be equivalent to
                         an Undergraduate Degree (B.Sc./B.A./ B.Com.) and Teacher Education Degree, the curriculum of
