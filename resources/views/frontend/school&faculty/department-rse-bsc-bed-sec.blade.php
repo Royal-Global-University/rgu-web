@@ -1,5 +1,10 @@
 @extends('frontend/new-master')
 @section('content')
+    <style>
+        .header-actions-mobile .mobile-apply-btn {
+            display: none !important;
+        }
+    </style>
     <section class="pg-hero" style="height: 25vh;">
         <div class="pg-hero-bg" style="background-color: #13223B;">
         </div>
