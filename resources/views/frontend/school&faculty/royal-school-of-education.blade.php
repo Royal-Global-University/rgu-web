@@ -109,7 +109,7 @@
                             </h2>
 
                             <p>
-                                Royal School of Education offering the Integrated Teacher Education Programme (ITEP)
+                                Royal School of Education (RSE) offering the Integrated Teacher Education Programme (ITEP)
                                 aims to prepare competent, skilled, and professionally committed teachers for the
                                 future. The programme integrates undergraduate studies with professional teacher
                                 education, providing students with a strong foundation in both disciplinary knowledge
@@ -134,7 +134,7 @@
 
             <div style="background-color: #fff; padding: 20px;">
                 <section class="rgu-educationn-about container" style="text-align: justify;">
-                    <h2 style="padding-bottom: 30px;">Scope of the programme </h2>
+                    <h2 style="padding-bottom: 30px; font-size: 32px;" >Scope of the programme </h2>
                     <p>“The ITEP aims at the dual purpose of providing student teachers disciplinary knowledge along
                         with the professional knowledge in an integrated manner. Since the program will be equivalent to
                         an Undergraduate Degree (B.Sc./B.A./ B.Com.) and Teacher Education Degree, the curriculum of
@@ -231,7 +231,7 @@
              COURSES OFFERED
              ===================================================== -->
 
-            <section class="rgu-educationn-courses-section" id="rgu-educationn-courses">
+            <section class="rgu-educationn-courses-section pt-5" id="rgu-educationn-courses">
 
                 <div class="rgu-educationn-container">
 
@@ -2277,9 +2277,9 @@
 
         .rgu-educationn-floating-btn {
 
-            width: 32px;
+            width: 52px;
 
-            height: 32px;
+            height: 52px;
 
             display: flex;
 
