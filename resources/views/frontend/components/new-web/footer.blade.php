@@ -11,7 +11,7 @@
                 <img src="/new-web/assets/img/logo/dark-logo.svg" alt="The Assam Royal Global University"
                     class="unq-rgu-ftr-logo-placeholder">
                 <p class="unq-rgu-ftr-tagline">
-                    The Assam Royal Global University (RGU), one of the premium universities in India, has continuously
+                    The Assam Royal Global University (RGU), one of the premier universities in India, has continuously
                     acted as a leadership platform that aligns interests of industries
                 </p>
             </div>

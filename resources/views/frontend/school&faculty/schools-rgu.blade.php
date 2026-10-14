@@ -1081,6 +1081,26 @@
                 ]
             },
             {
+                id: "rse",
+
+                name: "Royal School of Education (RSE)",
+
+                image: "/mobile-assets/itet/rse/dp.png",
+
+                departmentPage: "/royal-school-of-education",
+
+                facultyPage: "",
+
+                departments: [
+
+                    {
+                        name: "Royal School of Education (RSE)",
+                        url: "/royal-school-of-education"
+                    }
+
+                ]
+            },
+            {
                 id: "rsees",
 
                 name: "Royal School of Environmental and Earth Sciences (RSEES)",

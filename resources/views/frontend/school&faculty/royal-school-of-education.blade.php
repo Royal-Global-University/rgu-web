@@ -1,5 +1,21 @@
 @extends('frontend/new-master')
 @section('content')
+    <style>
+        .header-actions-mobile .mobile-apply-btn {
+            display: none !important;
+        }
+
+        @media (max-width: 768px) {
+            .rgu-agri-page-heading h1 {
+                font-size: 2.9rem !important;
+            }
+
+            .rgu-agri-page-heading h2 {
+                font-size: 2.3rem !important;
+                padding-top: 15px !important;
+            }
+        }
+    </style>
     <section class="pg-hero" style="height: 50vh;">
         <div class="pg-hero-bg" style="background-color: #18345C;"></div>
 
