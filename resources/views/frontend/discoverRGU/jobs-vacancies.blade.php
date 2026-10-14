@@ -1,6 +1,7 @@
 @extends('frontend/new-master')
 @section('title', 'RGU Recruitment 2025: Join Our Faculty & Staff Team, Apply Now!')
-@section('meta_description', 'Hiring Faculty and Staff for 2025! Explore all current academic & administrative vacancies
+@section('meta_description',
+    'Hiring Faculty and Staff for 2025! Explore all current academic & administrative vacancies
     at RGU, Guwahati. View job details and apply directly through our official portal')
 @section('meta_keywords', 'RGU Job portal')
 @section('content')
@@ -16,8 +17,8 @@
 
 
         /* =========================================================
-       MAIN BOX
-    ========================================================= */
+           MAIN BOX
+        ========================================================= */
 
         .rgu-jb-hero-box {
             position: relative;
@@ -47,8 +48,8 @@
 
 
         /* =========================================================
-       LEFT SIDE
-    ========================================================= */
+           LEFT SIDE
+        ========================================================= */
 
         .rgu-jb-left {
             position: relative;
@@ -91,8 +92,8 @@
 
 
         /* =========================================================
-       LOGO
-    ========================================================= */
+           LOGO
+        ========================================================= */
 
         .rgu-jb-logo {
             position: relative;
@@ -108,8 +109,8 @@
 
 
         /* =========================================================
-       MAIN TITLE
-    ========================================================= */
+           MAIN TITLE
+        ========================================================= */
 
         .rgu-jb-title {
             position: relative;
@@ -132,8 +133,8 @@
 
 
         /* =========================================================
-       DESCRIPTION
-    ========================================================= */
+           DESCRIPTION
+        ========================================================= */
 
         .rgu-jb-subtitle {
             position: relative;
@@ -154,8 +155,8 @@
 
 
         /* =========================================================
-       RIGHT SIDE
-    ========================================================= */
+           RIGHT SIDE
+        ========================================================= */
 
         .rgu-jb-right-panel {
             position: relative;
@@ -224,8 +225,8 @@
 
 
         /* =========================================================
-       VACANCY CARD
-    ========================================================= */
+           VACANCY CARD
+        ========================================================= */
 
         .rgu-jb-vacancy-box {
             position: relative;
@@ -251,8 +252,8 @@
 
 
         /* =========================================================
-       OTHER VACANCIES TITLE
-    ========================================================= */
+           OTHER VACANCIES TITLE
+        ========================================================= */
 
         .rgu-jb-vacancy-box h2 {
             margin: 0 0 22px;
@@ -268,8 +269,8 @@
 
 
         /* =========================================================
-       VACANCY TEXT
-    ========================================================= */
+           VACANCY TEXT
+        ========================================================= */
 
         .rgu-jb-vacancy-box p {
             margin: 0 0 25px;
@@ -285,8 +286,8 @@
 
 
         /* =========================================================
-       APPLY BUTTON
-    ========================================================= */
+           APPLY BUTTON
+        ========================================================= */
 
         .rgu-jb-vacancy-btn {
             width: 100%;
@@ -334,8 +335,8 @@
 
 
         /* =========================================================
-       QR HEADING
-    ========================================================= */
+           QR HEADING
+        ========================================================= */
 
         .rgu-jb-vacancy-box h4 {
             margin: 0 0 22px;
@@ -351,8 +352,8 @@
 
 
         /* =========================================================
-       QR CODE
-    ========================================================= */
+           QR CODE
+        ========================================================= */
 
         .rgu-jb-vacancy-box img {
             display: block;
@@ -376,8 +377,8 @@
 
 
         /* =========================================================
-       TABLET
-    ========================================================= */
+           TABLET
+        ========================================================= */
 
         @media (max-width: 991px) {
 
@@ -413,8 +414,8 @@
 
 
         /* =========================================================
-       MOBILE
-    ========================================================= */
+           MOBILE
+        ========================================================= */
 
         @media (max-width: 767px) {
 
@@ -490,8 +491,8 @@
 
 
         /* =========================================================
-       SMALL MOBILE
-    ========================================================= */
+           SMALL MOBILE
+        ========================================================= */
 
         @media (max-width: 480px) {
 
@@ -554,8 +555,8 @@
 
 
         /* =========================================================
-       JOIN RGU / OTHER VACANCIES SECTION
-    ========================================================= */
+           JOIN RGU / OTHER VACANCIES SECTION
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-hero {
             position: relative;
@@ -623,8 +624,8 @@
 
 
         /* =========================================================
-       LEFT SIDE
-    ========================================================= */
+           LEFT SIDE
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-left {
             position: relative;
@@ -673,8 +674,8 @@
 
 
         /* =========================================================
-       RIGHT SIDE
-    ========================================================= */
+           RIGHT SIDE
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-right-panel {
             position: relative;
@@ -739,8 +740,8 @@
 
 
         /* =========================================================
-       OTHER VACANCIES BOX
-    ========================================================= */
+           OTHER VACANCIES BOX
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-vacancy-box {
             position: relative;
@@ -799,8 +800,8 @@
 
 
         /* =========================================================
-       APPLY / REGISTER BUTTON
-    ========================================================= */
+           APPLY / REGISTER BUTTON
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-vacancy-btn {
             width: 100%;
@@ -842,8 +843,8 @@
 
 
         /* =========================================================
-       QR CODE AREA
-    ========================================================= */
+           QR CODE AREA
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-vacancy-box h4 {
             color: #5d4736;
@@ -880,8 +881,8 @@
 
 
         /* =========================================================
-       LIVE VACANCY PANEL
-    ========================================================= */
+           LIVE VACANCY PANEL
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-panel {
             position: relative;
@@ -922,8 +923,8 @@
 
 
         /* =========================================================
-       SECTION HEADING
-    ========================================================= */
+           SECTION HEADING
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-head {
             position: relative;
@@ -985,8 +986,8 @@
 
 
         /* =========================================================
-       VACANCY CARDS
-    ========================================================= */
+           VACANCY CARDS
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-card {
             position: relative;
@@ -1047,8 +1048,8 @@
 
 
         /* =========================================================
-       VACANCY CARD TITLE
-    ========================================================= */
+           VACANCY CARD TITLE
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-card h3 {
             position: relative;
@@ -1080,8 +1081,8 @@
 
 
         /* =========================================================
-       VACANCY CARD TEXT
-    ========================================================= */
+           VACANCY CARD TEXT
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-card p {
             position: relative;
@@ -1112,8 +1113,8 @@
 
 
         /* =========================================================
-       DEAN DOMAIN LIST
-    ========================================================= */
+           DEAN DOMAIN LIST
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-domains {
             position: relative;
@@ -1141,8 +1142,8 @@
 
 
         /* =========================================================
-       TABLET
-    ========================================================= */
+           TABLET
+        ========================================================= */
 
         @media(max-width:991px) {
 
@@ -1170,8 +1171,8 @@
 
 
         /* =========================================================
-       MOBILE
-    ========================================================= */
+           MOBILE
+        ========================================================= */
 
         @media(max-width:768px) {
 
@@ -1291,8 +1292,8 @@
 
 
         /* =========================================================
-       ADVERTISEMENT CARD
-    ========================================================= */
+           ADVERTISEMENT CARD
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-ad-card {
             position: relative;
@@ -1330,8 +1331,8 @@
 
 
         /* =========================================================
-       ADVERTISEMENT IMAGE
-    ========================================================= */
+           ADVERTISEMENT IMAGE
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-ad-img {
             display: block;
@@ -1346,8 +1347,8 @@
 
 
         /* =========================================================
-       LIGHTBOX
-    ========================================================= */
+           LIGHTBOX
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-lightbox {
             position: fixed;
@@ -1386,8 +1387,8 @@
 
 
         /* =========================================================
-       LIGHTBOX IMAGE
-    ========================================================= */
+           LIGHTBOX IMAGE
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-lightbox img {
             display: block;
@@ -1408,8 +1409,8 @@
 
 
         /* =========================================================
-       LIGHTBOX CLOSE BUTTON
-    ========================================================= */
+           LIGHTBOX CLOSE BUTTON
+        ========================================================= */
 
         .rgu-jb-wrapper .rgu-jb-close {
             position: absolute;
@@ -1447,8 +1448,8 @@
 
 
         /* =========================================================
-       TABLET
-    ========================================================= */
+           TABLET
+        ========================================================= */
 
         @media(max-width:991px) {
 
@@ -1464,8 +1465,8 @@
 
 
         /* =========================================================
-       MOBILE
-    ========================================================= */
+           MOBILE
+        ========================================================= */
 
         @media(max-width:768px) {
 
@@ -1555,14 +1556,14 @@
 
 
         /* =========================================================
-       MOBILE
-    ========================================================= */
+           MOBILE
+        ========================================================= */
 
         @media(max-width:768px) {
 
             /* -----------------------------------------------------
-           JOIN RGU SECTION
-        ----------------------------------------------------- */
+               JOIN RGU SECTION
+            ----------------------------------------------------- */
 
             .rgu-jb-wrapper .rgu-jb-hero {
                 padding: 45px 12px 35px;
@@ -1646,8 +1647,8 @@
 
 
             /* -----------------------------------------------------
-           LIVE VACANCY SECTION
-        ----------------------------------------------------- */
+               LIVE VACANCY SECTION
+            ----------------------------------------------------- */
 
             .rgu-jb-wrapper .rgu-jb-section {
                 padding: 20px 12px;
@@ -1724,8 +1725,8 @@
 
 
             /* -----------------------------------------------------
-           OTHER RECRUITMENT ADVERTISEMENTS
-        ----------------------------------------------------- */
+               OTHER RECRUITMENT ADVERTISEMENTS
+            ----------------------------------------------------- */
 
             .rgu-jb-wrapper .rgu-jb-other-wrap {
                 padding: 24px;
@@ -1748,8 +1749,8 @@
 
 
             /* -----------------------------------------------------
-           LIGHTBOX
-        ----------------------------------------------------- */
+               LIGHTBOX
+            ----------------------------------------------------- */
 
             .rgu-jb-wrapper .rgu-jb-lightbox {
                 padding: 18px;
@@ -1772,8 +1773,8 @@
 
 
         /* =========================================================
-       SMALL MOBILE
-    ========================================================= */
+           SMALL MOBILE
+        ========================================================= */
 
         @media(max-width:480px) {
 
@@ -1871,8 +1872,8 @@
 
 
         /* =========================================================
-       FINAL SAFETY / CLEANUP
-    ========================================================= */
+           FINAL SAFETY / CLEANUP
+        ========================================================= */
 
         /* Prevent long text from breaking the layout */
 
@@ -1954,8 +1955,6 @@
 
                         <div class="rgu-jb-left">
 
-                            <img class="rgu-jb-logo" src="/mobile-assets/index/logo-dark.png" alt="RGU Logo">
-
                             <h1 class="rgu-jb-title">
                                 Join The Assam Royal Global University
                             </h1>
@@ -1986,7 +1985,7 @@
                             <div class="rgu-jb-vacancy-box">
 
                                 <h2>
-                                    Other Vacancies
+                                    Vacancies
                                 </h2>
 
                                 <p>
@@ -1998,11 +1997,7 @@
                                     Apply / Register Now
                                 </a>
 
-                                <h4>
-                                    Or scan the QR code below -
-                                </h4>
 
-                                <img src="//new-web/assets/img/jobs.jpeg" alt="QR Code">
 
                             </div>
 
@@ -2022,8 +2017,8 @@
     <div class="rgu-jb-wrapper">
 
         <!-- =====================================
-             LIVE VACANCIES
-        ====================================== -->
+                 LIVE VACANCIES
+            ====================================== -->
 
         <section class="rgu-jb-section">
 
@@ -2047,8 +2042,8 @@
 
 
                     <!-- =====================================
-                         DEAN FOR SCHOOLS
-                    ====================================== -->
+                             DEAN FOR SCHOOLS
+                        ====================================== -->
 
                     <div class="rgu-jb-card">
 
@@ -2088,8 +2083,8 @@
 
 
                     <!-- =====================================
-                         DEAN – RESEARCH & DEVELOPMENT
-                    ====================================== -->
+                             DEAN – RESEARCH & DEVELOPMENT
+                        ====================================== -->
 
                     <div class="rgu-jb-card">
 
@@ -2109,8 +2104,8 @@
 
 
                     <!-- =====================================
-                         DEAN – STUDENTS' AFFAIRS
-                    ====================================== -->
+                             DEAN – STUDENTS' AFFAIRS
+                        ====================================== -->
 
                     <div class="rgu-jb-card">
 
@@ -2129,8 +2124,8 @@
 
 
                     <!-- =====================================
-                         INTERNATIONAL FACULTY
-                    ====================================== -->
+                             INTERNATIONAL FACULTY
+                        ====================================== -->
 
                     <div class="rgu-jb-card">
 
@@ -2150,8 +2145,8 @@
 
         </section>
         <!-- =========================================
-             OTHER RECRUITMENT ADVERTISEMENTS
-        ========================================== -->
+                 OTHER RECRUITMENT ADVERTISEMENTS
+            ========================================== -->
 
         <section class="rgu-jb-section pb-5">
 
@@ -2160,10 +2155,6 @@
                 <div class="rgu-jb-other-wrap">
 
                     <div class="rgu-jb-head mb-5">
-
-                        <span class="rgu-jb-badge">
-                            More Opportunities
-                        </span>
 
                         <h2>
                             Other Recruitment Advertisements
@@ -2180,7 +2171,7 @@
 
                             <div class="rgu-jb-ad-card">
 
-                                <img src="https://rgu.ac/mobile-assets/new-jobs-vacancies/EDC-Ad.jpg" class="rgu-jb-ad-img"
+                                <img src="/new-web/assets/ads/itep.jpeg" class="rgu-jb-ad-img"
                                     alt="Recruitment Advertisement" onclick="openRGUAd(this.src)">
 
                             </div>
@@ -2192,10 +2183,43 @@
 
                         <div class="col-lg-6 col-md-6">
 
-                            <div class="rgu-jb-ad-card">
+                            <div style="padding-left: 30px;">
 
-                                <img src="https://rgu.ac/mobile-assets/new-jobs-vacancies/IIC-ad.jpeg" class="rgu-jb-ad-img"
-                                    alt="Recruitment Advertisement" onclick="openRGUAd(this.src)">
+                                <a class="rgu-jb-badge" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=252" target="_blank">
+                                    Professor BA B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=253" target="_blank">
+                                    Associate Professor BA B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=254" target="_blank">
+                                   Assistant Professor BA B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=255" target="_blank">
+                                   Professor B.Sc. B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=256" target="_blank">
+                                   Associate Professor B.Sc. B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=257" target="_blank">
+                                   Assistant Professor B.Sc. B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=258" target="_blank">
+                                   Professor B.Com. B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=259" target="_blank">
+                                   Associate Professor B.Com. B.Ed.
+                                </a>
+
+                                <a class="rgu-jb-badge pt-3" style="font-size: 18px" href="https://rgu.renocampus.com/recruitment?jobOpeningId=260" target="_blank">
+                                   Assistant Professor B.Com. B.Ed.
+                                </a>
 
                             </div>
 
@@ -2211,8 +2235,8 @@
 
 
         <!-- =========================================
-             ADVERTISEMENT LIGHTBOX
-        ========================================== -->
+                 ADVERTISEMENT LIGHTBOX
+            ========================================== -->
 
         <div class="rgu-jb-lightbox" id="rguJBLightbox">
 
