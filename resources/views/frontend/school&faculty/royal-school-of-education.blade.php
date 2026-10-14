@@ -264,7 +264,7 @@
                             TO SHOW / HIDE THE DETAILS BUTTON
                             -->
 
-                                <a href="msc-forestry.html" class="rgu-educationn-details-btn">
+                                <a href="/departmentrse-ba-bed-sec" class="rgu-educationn-details-btn">
                                     View details
                                 </a>
 
@@ -307,7 +307,7 @@
                             TO SHOW / HIDE THE DETAILS BUTTON
                             -->
 
-                                <a href="bsc-forestry.html" class="rgu-educationn-details-btn">
+                                <a href="/department-rse-bsc-bed-sec" class="rgu-educationn-details-btn">
                                     View details
                                 </a>
 
@@ -349,7 +349,7 @@
                             TO SHOW / HIDE THE DETAILS BUTTON
                             -->
 
-                                <a href="bsc-forestry.html" class="rgu-educationn-details-btn">
+                                <a href="/department-rse-bsc-bed-middle" class="rgu-educationn-details-btn">
                                     View details
                                 </a>
 
@@ -391,7 +391,7 @@
                             TO SHOW / HIDE THE DETAILS BUTTON
                             -->
 
-                                <a href="bsc-forestry.html" class="rgu-educationn-details-btn">
+                                <a href="/department-rse-B-Com-B-Ed" class="rgu-educationn-details-btn">
                                     View details
                                 </a>
 

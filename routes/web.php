@@ -1784,6 +1784,22 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
+Route::get('/departmentrse-ba-bed-sec', function () {
+    return view('frontend/school&faculty/departmentrse-ba-bed-sec');
+})->name('departmentrse-ba-bed-sec');
+
+Route::get('/department-rse-bsc-bed-sec', function () {
+    return view('frontend/school&faculty/department-rse-bsc-bed-sec');
+})->name('department-rse-bsc-bed-sec');
+
+Route::get('/department-rse-bsc-bed-middle', function () {
+    return view('frontend/school&faculty/department-rse-bsc-bed-middle');
+})->name('department-rse-bsc-bed-middle');
+
+Route::get('/department-rse-B-Com-B-Ed', function () {
+    return view('frontend/school&faculty/department-rse-BCom-BEd');
+})->name('department-rse-B-Com-B-Ed');
+
 Route::get('/royal-school-of-education', function () {
     return view('frontend/school&faculty/royal-school-of-education');
 })->name('royal-school-of-education');
