@@ -58,10 +58,10 @@
                     <picture>
 
                         <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/check/mob-og.jpeg">
+                        <source media="(max-width: 767px)" srcset="/assets/img/File/mob2.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/convo-six-desktop/new-1/con-web-1.jpeg" alt="H Causa">
+                        <img src="/assets/img/File/web2.jpeg" alt="H Causa">
 
                     </picture>
 
