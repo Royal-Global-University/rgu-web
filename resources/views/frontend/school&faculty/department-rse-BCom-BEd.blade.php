@@ -1,7 +1,8 @@
 @extends('frontend/new-master')
 @section('content')
     <style>
-        .header-actions-mobile .mobile-apply-btn {
+        .header-actions-mobile .mobile-apply-btn,
+        .glass-nav .apply-btn {
             display: none !important;
         }
     </style>
