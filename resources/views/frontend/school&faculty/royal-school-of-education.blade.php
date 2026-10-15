@@ -434,6 +434,15 @@
 
             </section>
 
+
+            <section class="rgu-educationn-courses-section pt-5" id="rgu-educationn-courses">
+                <div class="rgu-educationn-container">
+                     <a href="/assets/img/LOI.jpeg" target="_blank" style="font-size: 24px; padding: 18px;" class="rgu-educationn-details-btn rounded">
+                                    Letter of Intent (LOI) received from NCTE
+                                </a>
+                </div>
+            </section>
+
         </section>
 
         <style>
