@@ -1784,7 +1784,7 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
-Route::get('/departmentrse-ba-bed-sec', function () {
+Route::get('six', function () {
     return view('frontend/school&faculty/departmentrse-ba-bed-sec');
 })->name('departmentrse-ba-bed-sec');
 
