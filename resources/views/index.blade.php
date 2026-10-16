@@ -75,10 +75,10 @@
                     <picture>
 
                         <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/ads/alu-mob-3.jpeg">
+                        <source media="(max-width: 767px)" srcset="/new-web/assets/convo-six-desktop/new/check/mob-og.jpeg">
 
                         <!-- Desktop Image -->
-                        <img src="/new-web/assets/ads/alu-web-3.jpeg" alt="H Causa">
+                        <img src="/new-web/assets/convo-six-desktop/new-1/con-web-1.jpeg" alt="H Causa">
 
                     </picture>
 
