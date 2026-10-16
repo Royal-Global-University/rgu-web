@@ -1400,18 +1400,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/nutrition/2.png"
-                                    alt="Profile image of Dr. Debjani Das">
-                            </div>
-                            <h3 class="card-name">Dr. Debjani Das</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-debjani-das" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Gunjana.png"
                                     alt="Profile image of Dr. Gunjana Deka">
                             </div>
