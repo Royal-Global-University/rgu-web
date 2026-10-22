@@ -2266,12 +2266,29 @@
                 },
 
                 {
+                    day: "2<sup>nd</sup> - 6<sup>th</sup>",
+                    month: "Nov 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "FIVE-DAY FDP ON ARTIFICIAL INTELLIGENCE & INDIAN KNOWLEDGE SYSTEMS",
+                    sub: "",
+                    link: "/new-web/assets/ads/IQAC.pdf",
+                },
+
+                {
                     day: "13<sup>th</sup> - 14<sup>th</sup>",
                     month: "Nov 2026",
-                    img: "https://rgu.ac/mobile-assets/conference/bg2.png",
+                    img: "/mobile-assets/ads/summer/bg.png",
                     title: "ICETIEDS–2026",
                     sub: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science",
                     link: "https://rgu.ac/ICETIEDS%E2%80%932026",
+                },
+                {
+                    day: "26<sup>th</sup>",
+                    month: "Nov 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "Cryptogamic Diversity, Conservation and Sustainable Utilization",
+                    sub: "",
+                    link: "/new-web/assets/ads/Cryptogamic.pdf",
                 }
             ];
 
