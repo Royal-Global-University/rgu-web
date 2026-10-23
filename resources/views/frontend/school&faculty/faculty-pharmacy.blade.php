@@ -148,17 +148,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Pranabesh-Sikdar-RSP.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Pranabesh Sikdar</h3>
-                            <p class="card-designation">Professor</p>
-                            <a href="/faculty-pranabesh-sikdar" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Dr-Mukta-Agrawal.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Mukta Agrawal</h3>

@@ -243,29 +243,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/jahnavi-b.jpeg" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Jahnavi Bhandari</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-jahnavi-bhandari" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Kuntala%20Roychoudhury-RSLA.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Kuntala Roychoudhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-kuntala-roychoudhury" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Meghna.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Meghna Borah</h3>
