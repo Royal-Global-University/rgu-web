@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and Author-in-Residence at RGU')
+@section('title', 'Prof. Dhrubajyoti Borah Appointed Chief Advisor to the Chancellor and Author-in-Residence at RGU')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
@@ -17,7 +17,7 @@
         <div class="container" style="padding: 20px; text-align: justify;">
 
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
-                Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and Author-in-Residence at RGU
+                Prof. Dhrubajyoti Borah Appointed Chief Advisor to the Chancellor and Author-in-Residence at RGU
             </h2>
 
             <div class="container pt-5 pb-5 text-center"
@@ -29,7 +29,7 @@
             </div>
 
             <p class="para1 text-dark pt-2">
-                <span class="fw-bold"> GUWAHATI, November 28, 2025: </span>Distinguished medical professional, educator, administrator, and celebrated intellectual Prof. Dhrubajyoti Borah, former Vice Chancellor of Srimanta Sankaradeva University of Health Sciences, joined The Assam Royal Global University (RGU) today as Advisor to the Chancellor and Author-in-Residence.
+                <span class="fw-bold"> GUWAHATI, November 28, 2025: </span>Distinguished medical professional, educator, administrator, and celebrated intellectual Prof. Dhrubajyoti Borah, former Vice Chancellor of Srimanta Sankaradeva University of Health Sciences, joined The Assam Royal Global University (RGU) today as Chief Advisor to the Chancellor and Author-in-Residence.
                 <br><br>
                 Prof. Borah, a former President of the Asam Sahitya Sabha—the apex literary body of Assam—has made exceptional contributions to literature, culture, public life, and academics, particularly in the fields of medical and allied health sciences. His works have been widely translated into several Indian languages. He was honoured with the Sahitya Akademi Award in 2009 for his acclaimed novel Katha Ratnakar.
                 <br><br>
