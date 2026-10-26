@@ -2269,7 +2269,7 @@
                     day: "2<sup>nd</sup> - 6<sup>th</sup>",
                     month: "Nov 2026",
                     img: "/mobile-assets/ads/summer/bg.png",
-                    title: "FIVE-DAY FDP ON ARTIFICIAL INTELLIGENCE & INDIAN KNOWLEDGE SYSTEMS",
+                    title: "FIVE-DAY FDP ON AI & IKS",
                     sub: "",
                     link: "/new-web/assets/ads/IQAC.pdf",
                 },
