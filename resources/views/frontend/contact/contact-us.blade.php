@@ -990,19 +990,6 @@
   "department": [
     {
       "@type": "LocalBusiness",
-      "name": "Royal Information Centre - AGARTALA",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "67, Gangail Road, Opp. Ramkrishna Mission, Gandhighat",
-        "addressLocality": "Agartala",
-        "addressRegion": "Tripura West",
-        "postalCode": "799001",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-70990-20914"
-    },
-    {
-      "@type": "LocalBusiness",
       "name": "Royal Information Centre - BARPETA",
       "address": {
         "@type": "PostalAddress",
@@ -1013,19 +1000,6 @@
         "addressCountry": "IN"
       },
       "telephone": "+91-70990-20915"
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Royal Information Centre - BONGAIGAON",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Noor Market, Near Mayapuri Cinema Hall, Mayapuri",
-        "addressLocality": "Bongaigaon",
-        "addressRegion": "Assam",
-        "postalCode": "783380",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-91270-70906"
     },
     {
       "@type": "LocalBusiness",
@@ -1124,19 +1098,7 @@
       },
       "telephone": "+91-91270-70609"
     },
-    {
-      "@type": "LocalBusiness",
-      "name": "Royal Information Centre - NAGAON",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "BM Road, Amolapatty, Opp. Ramanujan Junior College",
-        "addressLocality": "Nagaon",
-        "addressRegion": "Assam",
-        "postalCode": "782001",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-70990-20910"
-    },
+
     {
       "@type": "LocalBusiness",
       "name": "Royal Information Centre - PASIGHAT",
@@ -1188,19 +1150,6 @@
         "addressCountry": "IN"
       },
       "telephone": "+91-70990-20909"
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Royal Information Centre - TINSUKIA",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Sashi Complex, Rongagora Road",
-        "addressLocality": "Tinsukia",
-        "addressRegion": "Assam",
-        "postalCode": "786125",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-70990-20913"
     },
     {
       "@type": "LocalBusiness",
