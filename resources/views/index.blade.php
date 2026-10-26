@@ -2247,14 +2247,14 @@
 
             const events = [
 
-                {
-                    day: "28<sup>th</sup>",
-                    month: "October 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "45th NEIHA Session of the North East India History Association (NEIHA)",
-                    sub: "will be held at the Assam Royal Global University, Guwahati",
-                    link: "/mobile-assets/pdf/1st_Circular_45NEIHA_Session_ARoyalGlobal_2026 FINAL.pdf",
-                },
+                // {
+                //     day: "28<sup>th</sup>",
+                //     month: "October 2026",
+                //     img: "/mobile-assets/ads/summer/bg.png",
+                //     title: "45th NEIHA Session of the North East India History Association (NEIHA)",
+                //     sub: "will be held at the Assam Royal Global University, Guwahati",
+                //     link: "/mobile-assets/pdf/1st_Circular_45NEIHA_Session_ARoyalGlobal_2026 FINAL.pdf",
+                // },
 
                 {
                     day: "2<sup>nd</sup>",
@@ -2281,6 +2281,14 @@
                     title: "ICETIEDS–2026",
                     sub: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science",
                     link: "https://rgu.ac/ICETIEDS%E2%80%932026",
+                },
+                {
+                    day: "18<sup>th</sup>",
+                    month: "Nov 2026",
+                    img: "/mobile-assets/ads/summer/bg.png",
+                    title: "NEIHA",
+                    sub: "",
+                    link: "/new-web/assets/ads/NEIHA.pdf",
                 },
                 {
                     day: "26<sup>th</sup>",
