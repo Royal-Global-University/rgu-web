@@ -217,17 +217,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Dr-Demsai-Reang-RSLSC.png" alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Demsai Reang</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-demsai-reang" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                     <!-- Assistant Professor & Coordinator -->
 
                     <div class="col-lg-3 col-md-6 mb-4">

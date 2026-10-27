@@ -2288,7 +2288,7 @@
                     img: "/mobile-assets/ads/summer/bg.png",
                     title: "NEIHA",
                     sub: "",
-                    link: "/new-web/assets/ads/NEIHA.pdf",
+                    link: "/new-web/assets/ads/NEIHA_new.pdf",
                 },
                 {
                     day: "26<sup>th</sup>",
