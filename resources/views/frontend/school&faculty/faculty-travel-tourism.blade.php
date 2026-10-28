@@ -112,12 +112,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Verma.png" alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Prof (Dr.) Maheshwari Prasad Verma</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Hotel Management (RSHM)/ Royal
-                                School of Travel & Tourism Management (RSTTM)</p>
-                            <a href="/faculty-m-p-verma" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Dr. Indrajit Dutta</h3>
+                            <p class="card-designation">Dean In-charge,Associate Professor, Associate Dean, Academic Affairs & HOD, RSTTM
+                            </p>
+                            <a href="/faculty-indrajit-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -129,18 +129,6 @@
                             <h3 class="card-name">Prof. Soumitra Sen</h3>
                             <p class="card-designation">Senior Professor</p>
                             <a href="/faculty-soumitra-sen" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Indrajit.jpeg" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Indrajit Dutta</h3>
-                            <p class="card-designation">Associate Professor, Associate Dean, Academic Affairs & HOD, RSTTM
-                            </p>
-                            <a href="/faculty-indrajit-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
