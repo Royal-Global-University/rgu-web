@@ -84,23 +84,6 @@
 
                 </div>
 
-                <!-- ==============================
-             SLIDE 4
-        =============================== -->
-                <div class="rgu-custom-slide">
-
-                    <picture>
-
-                        <!-- Mobile Image -->
-                        <source media="(max-width: 767px)" srcset="/new-web/assets/ads/alu-mob-3.jpeg">
-
-                        <!-- Desktop Image -->
-                        <img src="/new-web/assets/ads/alu-web-3.jpeg" alt="H Causa">
-
-                    </picture>
-
-                </div>
-
 
                 <!-- ==============================
              MANUAL CONTROLS
