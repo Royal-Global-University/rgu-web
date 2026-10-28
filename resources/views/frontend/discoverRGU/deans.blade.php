@@ -303,12 +303,11 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="">
+                    <img src="/mobile-assets/updated-faculty-img/Rohit-k.jpeg" alt="">
                 </div>
-                <h4>Prof. Shiela Bora</h4>
-                <p class="board-m-role">Professor & Adviser and Dean in-charge, Royal School of Humanities and Social
-                    Sciences (RSHSS) & Royal School of Behavioral and Allied Sciences (RSBAS)</p>
-                <a href="/faculty-shiela-bora" class="board-m-profile-link">View Profile</a>
+                <h4>Prof. Bhagirathi Panda</h4>
+                <p class="board-m-role">Professor & Dean, Royal School of Humanities
+                    and Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS)</p>
 
             </div>
 
@@ -380,17 +379,6 @@
                 </div>
                 <h4>Prof. Abhijit Dutta</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Medical & Allied Science</p>
-                <!-- <a href="" class="board-m-profile-link">View Profile</a> -->
-
-            </div>
-
-            <div class="board-m-card-mini">
-                <div class="board-m-mini-img">
-                    <img src="/mobile-assets/updated-faculty-img/Verma.png" alt="">
-                </div>
-                <h4>Prof. (Dr.) M P Verma</h4>
-                <p class="board-m-role">Professor & Dean, Royal School of Hotel Management; Royal School of Travel and
-                    Tourism Management</p>
                 <!-- <a href="" class="board-m-profile-link">View Profile</a> -->
 
             </div>
