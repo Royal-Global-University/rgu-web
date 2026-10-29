@@ -308,7 +308,7 @@
                 <h4>Prof. Bhagirathi Panda</h4>
                 <p class="board-m-role">Professor & Dean, Royal School of Humanities
                     and Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS)</p>
-
+                    <a href="/faculty-bhagirathi-panda" class="board-m-profile-link">View Profile</a>
             </div>
 
             <div class="board-m-card-mini">

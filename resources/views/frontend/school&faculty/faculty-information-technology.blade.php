@@ -249,7 +249,7 @@
                                 </div>
                                 <h3 class="card-name">Dr. Rohit Kumar Kasera</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                {{-- <a href="/faculty-nilakshi-deka" class="profile-link">View Profile</a> --}}
+                                <a href="/faculty-rohit-kumar-kasera" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -285,8 +285,8 @@
                                 </div>
                                 <h3 class="card-name">Ms. Jinia Angeline Gayary</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                {{-- <a href="/faculty-ankita-goyal-agarwala" class="profile-link">View
-                                    Profile</a> --}}
+                                <a href="/faculty-jinia-angeline-gayary" class="profile-link">View
+                                    Profile</a>
                             </div>
                         </div>
 
