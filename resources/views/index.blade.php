@@ -29,26 +29,6 @@
 
             <div class="rgu-custom-slider-wrapper">
 
-                <!-- ==============================
-             SLIDE 1
-        =============================== -->
-                <div class="rgu-custom-slide rgu-custom-slide-active">
-
-                    <a href="http://convocation.rgu.ac/" class="rgu-custom-slide-link" aria-label="Convocation">
-
-                        <picture>
-                            <!-- Mobile Image -->
-                            <source media="(max-width: 767px)"
-                                srcset="/assets/img/File/mob.jpeg">
-
-                            <!-- Desktop Image -->
-                            <img src="/assets/img/File/six.jpeg" alt="6th Convocation">
-                        </picture>
-
-                    </a>
-
-                </div>
-
 
                 <!-- ==============================
              SLIDE 2
