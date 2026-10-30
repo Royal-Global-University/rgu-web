@@ -24,7 +24,7 @@
         </div>
     </section>
 
-    <section>
+    {{-- <section>
         <section class="rgu-custom-slider-section">
 
             <div class="rgu-custom-slider-wrapper">
@@ -694,7 +694,7 @@
 
             })();
         </script>
-    </section>
+    </section> --}}
 
     <section class="about-rgu">
         <picture>
