@@ -3294,6 +3294,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees', function () {
+    return view('/frontend/media-corner/2026/nov/news1');
+})->name('sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees');
+
 Route::get('/synthesis-2026-royal-global-universitys-fashion-designers-take-centre-stage', function () {
     return view('frontend/media-corner/2026/oct/news5');
 })->name('synthesis-2026-royal-global-universitys-fashion-designers-take-centre-stage');
