@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
-            date: "Guwahati, October 10, 2026",
+            date: "Guwahati, October 30, 2026",
             title: "Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees",
             desc: "The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries. Altogether 1,609 graduates were awarded degrees, of which 45 were awarded the Ph.D. degrees, 832 undergraduate degrees, 685 postgraduate degrees, and 47 were awarded diplomas. Honoris Causa Degrees were conferred upon five distinguished personalities—Doctor of Science (D.Sc.) to Dr. Ashok Seth, Padma Bhushan awardee & Chairman, Fortis Escorts Heart Institute; Doctor of Letters (D.Litt.) to Smt. Sudha Murty, Padma Bhushan awardee, MP, Rajya Sabha, and renowned author, philanthropist and educator; Sri Sajjan Jindal, Chairman and Managing Director, JSW Group; Sri Devajit Saikia, Advocate General of Assam and Secretary, BCCI; and Doctor of Literature (D.Litt.) to Sri William Dalrymple, eminent historian, author and public intellectual.",
             img: "/mobile-assets/media-corner/2026/nov/2.jpeg",

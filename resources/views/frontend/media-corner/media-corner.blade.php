@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees',
+                            'summary' =>
+                                'The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries.',
+                            'date' => 'Guwahati, October 30, 2026:',
+                            'link' => '/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees',
+                            'image' => '/mobile-assets/media-corner/2026/nov/2.jpeg',
+                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
+                        ],
+                        [
                             'title' => 'Synthesis 2026: Royal Global University’s Fashion Designers Take Centre Stage',
                             'summary' =>
                                 'Renowned designer Anju Modi addresses students, presents Awards',
