@@ -3294,6 +3294,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty', function () {
+    return view('/frontend/media-corner/2026/nov/news2');
+})->name('this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty');
+
 Route::get('/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees', function () {
     return view('/frontend/media-corner/2026/nov/news1');
 })->name('sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees');

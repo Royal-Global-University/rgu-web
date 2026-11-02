@@ -2,6 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, October 31, 2026",
+            title: "“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty",
+            desc: "Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.",
+            img: "/new-web/assets/media-corner/nov/3.jpeg",
+            link: "/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty",
+        },
+        {
+            date: "Guwahati, October 30, 2026",
+            title: "Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees",
+            desc: "The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries. Altogether 1,609 graduates were awarded degrees, of which 45 were awarded the Ph.D. degrees, 832 undergraduate degrees, 685 postgraduate degrees, and 47 were awarded diplomas. Honoris Causa Degrees were conferred upon five distinguished personalities—Doctor of Science (D.Sc.) to Dr. Ashok Seth, Padma Bhushan awardee & Chairman, Fortis Escorts Heart Institute; Doctor of Letters (D.Litt.) to Smt. Sudha Murty, Padma Bhushan awardee, MP, Rajya Sabha, and renowned author, philanthropist and educator; Sri Sajjan Jindal, Chairman and Managing Director, JSW Group; Sri Devajit Saikia, Advocate General of Assam and Secretary, BCCI; and Doctor of Literature (D.Litt.) to Sri William Dalrymple, eminent historian, author and public intellectual.",
+            img: "/mobile-assets/media-corner/2026/nov/2.jpeg",
+            link: "/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees",
+        },
+        {
             date: "Guwahati, October 30, 2026",
             title: "Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees",
             desc: "The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries. Altogether 1,609 graduates were awarded degrees, of which 45 were awarded the Ph.D. degrees, 832 undergraduate degrees, 685 postgraduate degrees, and 47 were awarded diplomas. Honoris Causa Degrees were conferred upon five distinguished personalities—Doctor of Science (D.Sc.) to Dr. Ashok Seth, Padma Bhushan awardee & Chairman, Fortis Escorts Heart Institute; Doctor of Letters (D.Litt.) to Smt. Sudha Murty, Padma Bhushan awardee, MP, Rajya Sabha, and renowned author, philanthropist and educator; Sri Sajjan Jindal, Chairman and Managing Director, JSW Group; Sri Devajit Saikia, Advocate General of Assam and Secretary, BCCI; and Doctor of Literature (D.Litt.) to Sri William Dalrymple, eminent historian, author and public intellectual.",

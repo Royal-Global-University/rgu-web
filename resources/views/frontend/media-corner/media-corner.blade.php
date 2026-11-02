@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty',
+                            'summary' =>
+                                'Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.',
+                            'date' => 'Guwahati, October 31, 2026:',
+                            'link' => '/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty',
+                            'image' => '/new-web/assets/media-corner/nov/3.jpeg',
+                            'content' => 'Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.',
+                        ],
+                        [
                             'title' => 'Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees',
                             'summary' =>
                                 'The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries.',

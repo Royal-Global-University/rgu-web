@@ -1329,7 +1329,7 @@
     </style>
 
     <!-- ========================= RGU BULLETIN SECTION ========================= -->
-<section class="rgu-bulletin-section">
+{{-- <section class="rgu-bulletin-section">
 
     <div class="rgu-bulletin-container">
 
@@ -1788,7 +1788,7 @@
 
 })();
 
-</script>
+</script> --}}
 <!-- ======================= END RGU BULLETIN ======================= -->
 
     <section class="rgu-next-events">
