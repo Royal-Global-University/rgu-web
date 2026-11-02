@@ -40,7 +40,6 @@
                     <img class=" rounded" src="/mobile-assets/media-corner/2026/nov/3.jpeg"
                         style=" border: 3px solid black; height: 450px; width: 100%;" alt="">
                 </div>
-
             </div>
 
             <p class="para1 text-dark pt-2">
@@ -69,27 +68,49 @@
                 society. The Assam Royal Global University has established its identity in the field of higher education by
                 contributing to its expansion in Assam and providing students with diverse opportunities, he added.
                 <br><br>
-                Delivering the Convocation Address, Sri Shekhar Gupta recalled the many lessons he had learnt from the
-                Northeast while working as a journalist. Addressing the graduating students, he emphasised that they stood
-                at a crucial juncture in their lives, with numerous opportunities before them. “All of you have
-                opportunities. What choice you make now will determine what you will become in the course of time”, he
-                added.
-                <br><br>
-                Chancellor Dr A. K. Pansari in his address called upon the graduating students to be global in vision, but
-                local in commitment. Emphasising on sustainability and green consciousness, he said, “As you build
-                businesses, lead institutions, conduct research or serve your communities, let sustainability be part of
-                every decision”. Vice Chancellor Alak Kumar Buragohain welcomed the august gathering and presented the
-                University Report.
-                <br><br>
-                Chancellor’s gold medals were awarded to Neelav Kumar Das, MSc (Botany) for PG, and to Sibani Pattnaik, BA,
-                LLB (H) for UG. Five Salvers: Prof Mihir Kanti Chaudhuri Best Science Graduate Award went to Sayantanee
-                Chakraborty, MSc (Nutrition & Dietetics); Gini Devi Pansari Award for Excellence in Literary Activities went
-                to Mujahidul Islam, MA (JMC).; Sanwarmal Modi Award for Excellence in Cultural Activities went to Kingshuk
-                Akshaye, MA (Political Science) ; Suresh Kumar Prithani Award for Excellence in Mentoring went to Roselin
-                Akhtar Faruque, MBA; and Basudeo Pansari Award for Excellence in Community Service went to Sibani Pattnaik,
-                BA-LLB (H). Apart from this, 49 gold medals and 43 silver medals were presented to successful students from
-                various departments of the university.
-                <br><br>
+
+            <div class="container pt-5 pb-5 text-center"
+                style="display: flex; justify-content: center; align-items: center; gap:10px">
+                <div class="col-lg-6">
+                    <img class=" rounded" src="/new-web/assets/media-corner/media/1.jpeg"
+                        style=" border: 3px solid black; height: 450px; width: 100%;" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img class=" rounded" src="/new-web/assets/media-corner/media/2.jpeg"
+                        style=" border: 3px solid black; height: 450px; width: 100%;" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img class=" rounded" src="/new-web/assets/media-corner/media/3.jpeg"
+                        style=" border: 3px solid black; height: 450px; width: 100%;" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img class=" rounded" src="/new-web/assets/media-corner/media/4.jpeg"
+                        style=" border: 3px solid black; height: 450px; width: 100%;" alt="">
+                </div>
+            </div>
+
+
+            Delivering the Convocation Address, Sri Shekhar Gupta recalled the many lessons he had learnt from the
+            Northeast while working as a journalist. Addressing the graduating students, he emphasised that they stood
+            at a crucial juncture in their lives, with numerous opportunities before them. “All of you have
+            opportunities. What choice you make now will determine what you will become in the course of time”, he
+            added.
+            <br><br>
+            Chancellor Dr A. K. Pansari in his address called upon the graduating students to be global in vision, but
+            local in commitment. Emphasising on sustainability and green consciousness, he said, “As you build
+            businesses, lead institutions, conduct research or serve your communities, let sustainability be part of
+            every decision”. Vice Chancellor Alak Kumar Buragohain welcomed the august gathering and presented the
+            University Report.
+            <br><br>
+            Chancellor’s gold medals were awarded to Neelav Kumar Das, MSc (Botany) for PG, and to Sibani Pattnaik, BA,
+            LLB (H) for UG. Five Salvers: Prof Mihir Kanti Chaudhuri Best Science Graduate Award went to Sayantanee
+            Chakraborty, MSc (Nutrition & Dietetics); Gini Devi Pansari Award for Excellence in Literary Activities went
+            to Mujahidul Islam, MA (JMC).; Sanwarmal Modi Award for Excellence in Cultural Activities went to Kingshuk
+            Akshaye, MA (Political Science) ; Suresh Kumar Prithani Award for Excellence in Mentoring went to Roselin
+            Akhtar Faruque, MBA; and Basudeo Pansari Award for Excellence in Community Service went to Sibani Pattnaik,
+            BA-LLB (H). Apart from this, 49 gold medals and 43 silver medals were presented to successful students from
+            various departments of the university.
+            <br><br>
             </p>
         </div>
 

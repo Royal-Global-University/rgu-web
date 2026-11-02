@@ -2219,14 +2219,14 @@
                 //     link: "/mobile-assets/pdf/1st_Circular_45NEIHA_Session_ARoyalGlobal_2026 FINAL.pdf",
                 // },
 
-                {
-                    day: "2<sup>nd</sup>",
-                    month: "Nov 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "14th ISWC 2026",
-                    sub: "Indian Social Work Conference",
-                    link: "/mobile-assets/pdf/14th Indian Social Work Conference_2026.pdf",
-                },
+                // {
+                //     day: "2<sup>nd</sup>",
+                //     month: "Nov 2026",
+                //     img: "/mobile-assets/ads/summer/bg.png",
+                //     title: "14th ISWC 2026",
+                //     sub: "Indian Social Work Conference",
+                //     link: "/mobile-assets/pdf/14th Indian Social Work Conference_2026.pdf",
+                // },
 
                 {
                     day: "2<sup>nd</sup> - 6<sup>th</sup>",
