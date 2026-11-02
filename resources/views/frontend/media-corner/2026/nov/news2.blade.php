@@ -1,5 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam')
+@section('title', '“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities
+                with Hard Work and Honesty')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">

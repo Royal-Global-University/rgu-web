@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Sahitya Akademi & RGU Organise Symposium on Charita Puthi Tradition of Assam')
+@section('title', 'Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
