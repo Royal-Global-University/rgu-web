@@ -56,7 +56,7 @@
                 <br><br>
                 The Convocation was presided over by Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam and the Visitor
                 of RGU. It was graced by Sri Shekhar Gupta, Padma Bhushan Awardee and Editor-in-Chief of The Print who
-                delivered the Convocation Address; Dr. Ranuj Pegu, Minister of Education, Assam; Dr. Vanlalthlana, Minister
+                delivered the Convocation Address; Dr. Ranoj Pegu, Minister of Education, Assam; Dr. Vanlalthlana, Minister
                 of Education, Mizoram, apart from RGU Chancellor Dr AK Pansari and Pro Chancellor Sri AK Modi, among others.
                 Sri JP Nadda, Union Minister of Health and Family Welfare congratulated the graduates through a video
                 message.
