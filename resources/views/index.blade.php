@@ -2148,10 +2148,10 @@
     <section class="trail-blazer">
         <picture>
             <!-- Mobile Image -->
-            <source media="(max-width:768px)" srcset="/new-web/assets/ads/mobile-trail-blazer.png">
+            <source media="(max-width:768px)" srcset="/mobile-assets/ads/mpindex.png">
 
             <!-- Desktop Image -->
-            <img src="/new-web/assets/ads/new-trail-blazers.png" alt="Trailblazer" style="width:100%; height:auto;">
+            <img src="/mobile-assets/ads/spindex.png" alt="Trailblazer" style="width:100%; height:auto;">
         </picture>
     </section>
 
