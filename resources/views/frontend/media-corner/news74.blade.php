@@ -20,22 +20,6 @@
                 Cyber Security Awareness Workshop held at RGU
             </h2>
 
-            <div class="container pt-5 pb-5 text-center"
-                style="display: flex; justify-content: center; align-items: center; gap:10px">
-                <div class="col-lg-4">
-                    <img class=" rounded" src="/mobile-assets/media-corner/news74/1.jpeg"
-                        style=" border: 3px solid black; height: 420px;" alt="">
-                </div>
-                <div class="col-lg-4">
-                    <img class=" rounded" src="/mobile-assets/media-corner/news74/2.jpeg"
-                        style=" border: 3px solid black; height: 420px;" alt="">
-                </div>
-                <div class="col-lg-4">
-                    <img class=" rounded" src="/mobile-assets/media-corner/news74/3.jpeg"
-                        style=" border: 3px solid black; height: 420px;" alt="">
-                </div>
-            </div>
-
             <p class="para1 text-dark pt-2">
                 <span class="fw-bold"> GUWAHATI, November 26, 2025: </span>A Cyber Security Awareness Workshop was recently
                 held at The Assam Royal Global University which was conducted by Dr. Robin Kumar Singh, IPS, Director of the
