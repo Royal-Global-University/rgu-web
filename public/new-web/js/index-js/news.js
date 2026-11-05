@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 5, 2026",
+            title: "Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain",
+            desc: "RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage",
+            img: "/mobile-assets/ads/nov/1.jpeg",
+            link: "/rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage",
+        },
+        {
             date: "Guwahati, October 31, 2026",
             title: "“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty",
             desc: "Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.",
@@ -73,7 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
             img: "/mobile-assets/media-corner/2026/sep/5/1.jpeg",
             link: "/royal-global-university-observes-green-day",
         },
-        
     ];
 
     // ================= 2. DOM ELEMENTS =================

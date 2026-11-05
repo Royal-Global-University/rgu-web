@@ -46,9 +46,18 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain',
+                            'summary' => 'RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage',
+                            'date' => 'Guwahati, November 5, 2026:',
+                            'link' => '/rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage',
+                            'image' => '/mobile-assets/ads/nov/1.jpeg',
+                            'content' => 'The Second Dr Bhupen Hazarika Oration Series, organised by the Dr Bhupen Hazarika Centre for Creativity at
+                The Assam Royal Global University...',
+                        ],
+                        [
                             'title' => '“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty',
                             'summary' =>
-                                'Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.',
+                                '',
                             'date' => 'Guwahati, October 31, 2026:',
                             'link' => '/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty',
                             'image' => '/new-web/assets/media-corner/nov/3.jpeg',

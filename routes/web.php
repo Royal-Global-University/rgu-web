@@ -3294,6 +3294,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage', function () {
+    return view('/frontend/media-corner/2026/nov/news3');
+})->name('rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage');
+
 Route::get('/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty', function () {
     return view('/frontend/media-corner/2026/nov/news2');
 })->name('this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty');
