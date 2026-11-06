@@ -32,7 +32,7 @@
                 <br><br>
                 A significant part of his address focused on the positive and negative impacts of Artificial Intelligence (AI) in the cyber world. Dr. Singh urged participants to adopt safe online practices, remain vigilant, and promote cyber awareness within their communities.
                 <br><br>
-                The workshop featured another insightful and engaging talk delivered by Mr. Sai Krishna Kaveti, who addressed the growing significance of the internet in modern life and its implications for digital forensics and cyber safety.
+                The workshop featured another insightful and engaging talk delivered by Mr. Sai, who addressed the growing significance of the internet in modern life and its implications for digital forensics and cyber safety.
                 <br><br>
             </p>
         </div>
