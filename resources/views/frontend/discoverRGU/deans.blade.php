@@ -365,16 +365,6 @@
 
             <div class="board-m-card-mini">
                 <div class="board-m-mini-img">
-                    <img src="/mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg" alt="">
-                </div>
-                <h4>Dr. Indrani Singh Rai</h4>
-                <p class="board-m-role">Professor & Dean, Royal School of Languages</p>
-                <!-- <a href="" class="board-m-profile-link">View Profile</a> -->
-
-            </div>
-
-            <div class="board-m-card-mini">
-                <div class="board-m-mini-img">
                     <img src="/mobile-assets/all-faculty/rsmas/Abhijit.jpg" alt="">
                 </div>
                 <h4>Prof. Abhijit Dutta</h4>

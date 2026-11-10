@@ -108,16 +108,6 @@
                 <div class="row justify-content-center">
 
                     <div class="row justify-content-center">
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Prof. (Dr.) Indrani S Rai</h3>
-                                <p class="card-designation">Professor & Dean, Royal School of Languages (RSL)</p>
-                                <a href="/faculty-indrani-singh-rai" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
