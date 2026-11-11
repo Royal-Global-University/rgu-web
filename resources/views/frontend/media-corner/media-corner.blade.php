@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '45th Session of NEIHA begins on 18 November at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 10, 2026:',
+                            'link' => '/45th-session-of-neiha-begins-on-18-november-at-royal-global-university',
+                            'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
+                            'content' => 'The Assam Royal Global University is organising the forty-fifth session of the North East India History Association (NEIHA) this year on 18th, 19th and 20th of November 2026. It will be a three-day international event featuring intellectual discourses in the field of history.',
+                        ],
+                        [
                             'title' => 'Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain',
                             'summary' => 'RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage',
                             'date' => 'Guwahati, November 5, 2026:',

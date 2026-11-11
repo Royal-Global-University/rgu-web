@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 10, 2026",
+            title: "45th Session of NEIHA begins on 18 November at Royal Global University",
+            desc: "The Assam Royal Global University is organising the forty-fifth session of the North East India History Association (NEIHA) this year on 18th, 19th and 20th of November 2026. It will be a three-day international event featuring intellectual discourses in the field of history.",
+            img: "/mobile-assets/rgu-blog/blog2.jpeg",
+            link: "/45th-session-of-neiha-begins-on-18-november-at-royal-global-university",
+        },
+        {
             date: "Guwahati, November 5, 2026",
             title: "Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain",
             desc: "RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage",
