@@ -115,27 +115,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rohit-k.jpeg" alt="Profile ">
-                            </div>
-                            <h3 class="card-name">Prof. Bhagirathi Panda</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Humanities
-                                and Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS)</p>
-                            <a href="/faculty-bhagirathi-panda" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
-                            <p class="card-designation">Professor & Adviser, Royal School of Humanities
-                                and Social Sciences (RSHSS)</p>
+                            <p class="card-designation">Professor & Dean, Royal School of Humanities and
+Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS) </p>
                             <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -187,18 +171,6 @@
                 <!-- Economics  -->
 
                 <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Rohit-k.jpeg" alt="Profile ">
-                            </div>
-                            <h3 class="card-name">Prof. Bhagirathi Panda</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Humanities
-                                and Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS)</p>
-                            <a href="/faculty-bhagirathi-panda" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -319,8 +291,8 @@
                                     alt="Profile image Shiela">
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
-                            <p class="card-designation">Professor & Adviser, Royal School of Humanities
-                                and Social Sciences (RSHSS)</p>
+                                <p class="card-designation">Professor & Dean, Royal School of Humanities and
+Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS) </p>
                             <a href="/faculty-shiela-bora" class="profile-link">View Profile</a>
                         </div>
                     </div>
