@@ -4075,6 +4075,10 @@ Route::get('/faculty-supriyo-sen', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-thokchom-shanta-kumar', function () {
+    return view('frontend/facultyprofile/rset/thokchom-shanta-kumar');
+})->name('faculty-thokchom-shanta-kumar');
+
 Route::get('/faculty-rohit-kumar-kasera', function () {
     return view('frontend/facultyprofile/rset/rohit-kumar-kasera');
 })->name('faculty-rohit-kumar-kasera');
