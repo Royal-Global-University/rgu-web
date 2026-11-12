@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Asian Games gold medallist Ankita Bhakat and Olympian Jayanta Talukdar felicitated at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 11, 2026:',
+                            'link' => '/asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/2026/nov/12/3.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) on Tuesday felicitated its student and ace archer Ankita Bhakat for her historic gold medal triumph at the Asian Games 2026, celebrating her outstanding contribution to Indian sports. The university also felicitated Olympian and World Cup gold medallist Jayanta Talukdar, an MBA ...',
+                        ],
+                        [
                             'title' => '45th Session of NEIHA begins on 18 November at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, November 10, 2026:',

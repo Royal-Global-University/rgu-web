@@ -3294,6 +3294,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university', function () {
+    return view('/frontend/media-corner/2026/nov/news5');
+})->name('asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university');
+
 Route::get('/45th-session-of-neiha-begins-on-18-november-at-royal-global-university', function () {
     return view('/frontend/media-corner/2026/nov/news4');
 })->name('45th-session-of-neiha-begins-on-18-november-at-royal-global-university');

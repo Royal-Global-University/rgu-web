@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 11, 2026",
+            title: "Asian Games gold medallist Ankita Bhakat and Olympian Jayanta Talukdar felicitated at RGU",
+            desc: "The Assam Royal Global University (RGU) on Tuesday felicitated its student and ace archer Ankita Bhakat for her historic gold medal triumph at the Asian Games 2026, celebrating her outstanding contribution to Indian sports. The university also felicitated Olympian and World Cup gold medallist Jayanta Talukdar, an MBA ...",
+            img: "/mobile-assets/media-corner/2026/nov/12/3.jpeg",
+            link: "/asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university",
+        },
+        {
             date: "Guwahati, November 10, 2026",
             title: "45th Session of NEIHA begins on 18 November at Royal Global University",
             desc: "The Assam Royal Global University is organising the forty-fifth session of the North East India History Association (NEIHA) this year on 18th, 19th and 20th of November 2026. It will be a three-day international event featuring intellectual discourses in the field of history.",
