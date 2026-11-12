@@ -205,7 +205,7 @@
                 </div>
                 <div class="top-recruiter-card"><img src="/new-web/assets/img/placement-recruiters/all-logos/38.jpg" alt="">
                 </div>
-                <div class="top-recruiter-card"><img src="/new-web/assets/img/placement-recruiters/all-logos/39.jpg" alt="">
+                <div class="top-recruiter-card"><img src="/mobile-assets/ads/tcs.png" alt="">
                 </div>
                 <div class="top-recruiter-card"><img src="/new-web/assets/img/placement-recruiters/all-logos/40.jpg" alt="">
                 </div>
