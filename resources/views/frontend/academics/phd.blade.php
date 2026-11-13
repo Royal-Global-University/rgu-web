@@ -57,8 +57,8 @@
         @include('frontend/components/mobileheader')
 
         <!-- floating button  -->
-        {{-- <div>
-            <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf" target="_blank" style="
+        <div>
+            <a href="/mobile-assets/ads/ads-new/phd-2027.pdf" target="_blank" style="
             position: fixed;
             bottom: 25px;
             background-color: #ef991f;
@@ -83,7 +83,7 @@
             transform: skewX(-25deg);
             animation: shine 2s infinite;
             "></span>
-                Admission Open For Ph.D. 2025-2026
+                Admission Open For Ph.D. 2027
             </a>
             <style>
                 @keyframes pulse {
@@ -113,7 +113,7 @@
                     }
                 }
             </style>
-        </div> --}}
+        </div>
         <!-- floating button  -->
         <div style="padding-top: 90px; position: relative;">
             <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
@@ -177,8 +177,8 @@
             <!--End Header-->
 
             <!-- floating button  -->
-            {{-- <div>
-                <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf" target="_blank" style="
+            <div>
+                <a href="/mobile-assets/ads/ads-new/phd-2027.pdf" target="_blank" style="
                     position: fixed;
                     bottom: 35px;
                     right: 50px;
@@ -204,7 +204,7 @@
                     transform: skewX(-25deg);
                     animation: shine 2s infinite;
                     "></span>
-                    Admission Open For Ph.D. 2025-2026
+                    Admission Open For Ph.D. 2027
                 </a>
                 <style>
                     @keyframes pulse {
@@ -234,7 +234,7 @@
                         }
                     }
                 </style>
-            </div> --}}
+            </div>
             <!-- floating button  -->
 
             <!--head image Section-->
