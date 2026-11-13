@@ -2227,15 +2227,6 @@
                 //     sub: "Indian Social Work Conference",
                 //     link: "/mobile-assets/pdf/14th Indian Social Work Conference_2026.pdf",
                 // },
-
-                {
-                    day: "13<sup>th</sup> - 14<sup>th</sup>",
-                    month: "Nov 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "ICETIEDS–2026",
-                    sub: "The International Conference on Emerging Trends and Innovations in Engineering and Data Science",
-                    link: "https://rgu.ac/ICETIEDS%E2%80%932026",
-                },
                 {
                     day: "18<sup>th</sup>",
                     month: "Nov 2026",

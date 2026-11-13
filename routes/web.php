@@ -3208,9 +3208,9 @@ Route::get('/icssr-project-positions-at-rgu', function () {
     return view('frontend/conference/icssr-project-positions');
 })->name('icssr-project-positions-at-rgu');
 
-Route::get('/ICETIEDS–2026', function () {
-    return view('frontend/conference/ICETIEDS');
-})->name('ICETIEDS–2026');
+// Route::get('/ICETIEDS–2026', function () {
+//     return view('frontend/conference/ICETIEDS');
+// })->name('ICETIEDS–2026');
 
 Route::get('/icssr-conference', function () {
     return view('frontend/conference/icssr-conference');
