@@ -1457,7 +1457,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-economics-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSHSS/BA%20Economics.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSHSS@/Economics/BA-Economics_4-Years-Program_Complete-Syllabus_wef-2026-27.pdf"
                                 class="dept-economics-syllabus-link" download>
                                 <div class="dept-economics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1491,7 +1491,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-economics-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSHSS/MA%20Economics.pdff"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSHSS@/Economics/MA-Economics _Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-economics-syllabus-link" download>
                                 <div class="dept-economics-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

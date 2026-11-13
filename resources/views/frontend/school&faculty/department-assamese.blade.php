@@ -149,7 +149,7 @@
                                             style="border-radius: 12px; overflow: hidden;">
 
                                             <!-- UG -->
-                                            {{-- <div class="accordion-item"
+                                            <div class="accordion-item"
                                                 style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
                                                 <h2 class="accordion-header" id="headingOne">
                                                     <button class="accordion-button collapsed"
@@ -167,19 +167,10 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- BA
-                                                                English
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSL@/BA(H)-Assamese-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                BA English
+                                                                BA Assamese
                                                                 <i class="fa fa-download ms-2"
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
@@ -187,7 +178,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> --}}
+                                            </div>
 
                                             <!-- UG -->
                                             {{-- <div class="accordion-item"
@@ -417,7 +408,7 @@
                                             style="border-radius: 12px; overflow: hidden;">
 
                                             <!-- UG -->
-                                            {{-- <div class="accordion-item"
+                                            <div class="accordion-item"
                                                 style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
                                                 <h2 class="accordion-header" id="headingOne">
                                                     <button class="accordion-button collapsed"
@@ -435,19 +426,10 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/UG-Course-structure.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- BA
-                                                                English
-                                                                <i class="fa fa-download ms-2"
-                                                                    style="color: #FF9A1E;"></i>
-                                                            </a>
-
-                                                            <a href="mobile-assets/department-all/rsl/updated-syllabus/BA-(H)-English_Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSL@/BA(H)-Assamese-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                BA English
+                                                                BA Assamese
                                                                 <i class="fa fa-download ms-2"
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
@@ -455,7 +437,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> --}}
+                                            </div>
 
                                             <!-- UG -->
                                             {{-- <div class="accordion-item"

@@ -1440,7 +1440,7 @@
                                 <i class="fa-solid fa-download dept-forestry-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSLSC/B.Sc%20Forestry%20Detailed%20Syllabus.pdf"
+                                href="/new-web/assets/syllabus-2027/RSLSC@/Forestry/B.Sc-Forestry_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1473,7 +1473,7 @@
                                 <i class="fa-solid fa-download dept-forestry-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSLSC/M.Sc%20Forestry%20Detailed%20Syllabus.pdf"
+                                href="/new-web/assets/syllabus-2027/RSLSC@/Forestry/M.Sc-Forestry_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-forestry-syllabus-link">
                                 <div class="dept-forestry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

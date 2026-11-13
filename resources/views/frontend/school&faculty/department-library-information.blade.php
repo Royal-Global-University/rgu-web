@@ -144,7 +144,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSLIS/MLISC Syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSLIS@/RGU_MLISC_Syllabus_with_SDG.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MLISC
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -764,7 +764,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSLIS/MLISC Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSLIS@/RGU_MLISC_Syllabus_with_SDG.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 MLISC

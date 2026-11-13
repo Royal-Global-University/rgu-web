@@ -169,7 +169,7 @@
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                           </a>
 
-                          <a href="/mobile-assets/syllabus/RSLSC/B.Sc. (H) Forensic Science Detailed Syllabus.pdf"
+                          <a href="/new-web/assets/syllabus-2027/RSLSC@/Forensic Science/B.Sc(H)-Forensic-Science-2026-27.pdf"
                             target="_blank" style="color: #27467A;">
                             <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Forensic Science
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -197,7 +197,7 @@
                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                         <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                          <a href="/mobile-assets/syllabus/RSLSC/MSc Forensic Science Detailed Syllabus.pdf"
+                          <a href="/new-web/assets/syllabus-2027/RSLSC@/Forensic Science/MSc-FSc-Syllabus-AY-26-27.pdf"
                             target="_blank" style="color: #27467A;">
                             <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Forensic Science
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -717,7 +717,7 @@
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                           </a>
 
-                          <a href="/mobile-assets/syllabus/RSLSC/B.Sc. (H) Forensic Science Detailed Syllabus.pdf"
+                          <a href="/new-web/assets/syllabus-2027/RSLSC@/Forensic Science/B.Sc(H)-Forensic-Science-2026-27.pdf"
                             target="_blank" style="color: #27467A;">
                             <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Forensic Science
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -745,7 +745,7 @@
                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                         <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                          <a href="/mobile-assets/syllabus/RSLSC/MSc Forensic Science Detailed Syllabus.pdf"
+                          <a href="/new-web/assets/syllabus-2027/RSLSC@/Forensic Science/MSc-FSc-Syllabus-AY-26-27.pdf"
                             target="_blank" style="color: #27467A;">
                             <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Forensic Science
                             <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>

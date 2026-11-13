@@ -223,7 +223,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSLA/BA LL.B Syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSLA@/BALLB-Syllabus-2026-31.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Details Syllabus -- BA LLB
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -235,7 +235,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSLA/LLB_Syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSLA@/LLB-Syllabus-2026-29.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- LLB
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -281,7 +281,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsla/syllabus-pdf/llm-syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSLA@/LLM-Syllabus-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- LLM
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>

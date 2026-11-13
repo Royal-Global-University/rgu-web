@@ -1276,7 +1276,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-rsft-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSFT/B.DES RSFT.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSFT@/FD/B.DesFashionDesign_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-rsft-syllabus-link" download>
                                 <div class="dept-rsft-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

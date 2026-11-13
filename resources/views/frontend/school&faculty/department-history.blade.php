@@ -2049,7 +2049,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-history-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSHSS/UG_History_Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSHSS@/History/UG_History-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-history-syllabus-link">
                                 <div class="dept-history-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -2073,7 +2073,7 @@
 
                     <div class="dept-history-accordion-content">
                         <div class="dept-history-syllabus-list">
-                            <a target="_blank" href="/mobile-assets/syllabus/RSHSS/PG_History_Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSHSS@/History/P.G-History_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-history-syllabus-link">
                                 <div class="dept-history-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

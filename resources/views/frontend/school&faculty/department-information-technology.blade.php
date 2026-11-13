@@ -228,7 +228,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSIT/BCA DETAIL SYLLABUS 2025_26.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSIT@/BCA_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BCA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -243,7 +243,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSIT/BSC IT 2025_26.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSIT@/B.Sc.IT_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. IT
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -278,7 +278,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSIT/MCA DETAIL SYLLABUS 2025_26.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSIT@/MCA_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MCA
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -1076,7 +1076,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSIT/BCA DETAIL SYLLABUS 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSIT@/BCA_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BCA
@@ -1094,7 +1094,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSIT/BSC IT 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSIT@/B.Sc.IT_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Sc. IT
@@ -1134,7 +1134,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSIT/MCA DETAIL SYLLABUS 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSIT@/MCA_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 MCA

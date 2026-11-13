@@ -1433,7 +1433,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-finearts-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSFA/BFA%20-%20Detailed%20Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSFA@/BFA_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-finearts-syllabus-link" download>
                                 <div class="dept-finearts-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

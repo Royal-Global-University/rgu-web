@@ -1395,7 +1395,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-english-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSL/UG_English_Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSL@/BA(H)-English_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1431,7 +1431,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-english-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSL/PG_%20English_Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSL@/MA-English-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-english-syllabus-link" download>
                                 <div class="dept-english-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
