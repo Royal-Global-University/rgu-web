@@ -173,7 +173,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSD/B.Des. Communication Design 2025_26.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSD@/CD/B.Des_Communication_Design_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Des
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
@@ -817,7 +817,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSD/B.Des. Communication Design 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSD@/CD/B.Des_Communication_Design_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 B.Des

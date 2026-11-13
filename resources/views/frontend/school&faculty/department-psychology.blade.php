@@ -353,14 +353,14 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSBAS/BA PSYCHOLOGY.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSBAS/BA-Psychology_Course-Detailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                         Psychology
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSBAS/BA APPLIED PSYCHOLOGY_Detailed Syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSBAS/BA-Applied-Psy_CourseDetailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BA
                                                         Applied Psychology
@@ -1927,7 +1927,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSBAS/BA PSYCHOLOGY.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSBAS/BA-Psychology_Course-Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BA Psychology
@@ -1935,7 +1935,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSBAS/BA APPLIED PSYCHOLOGY_Detailed Syllabus.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSBAS/BA-Applied-Psy_CourseDetailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 BA Applied Psychology

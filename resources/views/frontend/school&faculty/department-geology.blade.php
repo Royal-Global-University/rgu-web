@@ -1489,7 +1489,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-geology-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/RSEES/M.Sc%20Geology%20Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSEES@/Geology/PG_Geology-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-geology-syllabus-link" download>
                                 <div class="dept-geology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

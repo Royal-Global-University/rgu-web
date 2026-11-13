@@ -167,7 +167,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsd/product-design/syllabus/B.Des.-Product-Design-Deatiled-syllabus.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSD@/PD/B.Des_Product_Design_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Product
                                                         Design
@@ -811,7 +811,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSD/B.Des. Product Design 2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSD@/PD/B.Des_Product_Design_Course_Structure_and_Detailed_Syllabus_2026"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Product Design

@@ -218,14 +218,14 @@
                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                             </a>
 
-                                            <a href="/mobile-assets/syllabus/RSCOM/Final BSc animation and visualeffects .pdf"
+                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Animation/Detailed-Syllabus_AY-2026-27.pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation & Visual
                                                 Effects
                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                             </a>
 
-                                            <a href="/mobile-assets/syllabus/RSCOM/Final BA JMC NEP 2025-2026.pdf"
+                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Journalism/BAJMC_Detailed-Syllabus_AY-2026-27.pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and
                                                 Mass
@@ -257,7 +257,7 @@
                                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                         <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                            <a href="/mobile-assets/syllabus/RSCOM/Final Syllabus MA NEP 2025 -2026 (1).pdf"
+                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Journalism/MAJMC_Detailed-Syllabus_AY-2026-27.pdf"
                                                 target="_blank" style="color: #27467A;">
                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and
                                                 Mass
@@ -1031,7 +1031,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSCOM/Final BSc animation and visualeffects .pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Animation/Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Animation & Visual Effects
@@ -1039,7 +1039,7 @@
                                                                     style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSCOM/Final BA JMC NEP 2025-2026.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Journalism/BAJMC_Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Journalism and Mass
@@ -1074,7 +1074,7 @@
                                                         <div class="row"
                                                             style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="/mobile-assets/syllabus/RSCOM/Final Syllabus MA NEP 2025 -2026 (1).pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSCOM@/Journalism/MAJMC_Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Journalism and Mass

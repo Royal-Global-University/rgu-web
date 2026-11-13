@@ -1390,7 +1390,7 @@
                                     </div>
                                     <i class="fa-solid fa-download dept-geography-download-icon"></i>
                                 </a>
-                                <a target="_blank" href="/mobile-assets/syllabus/RSEES/UG%20_Geography_Syllabus.pdf"
+                                <a target="_blank" href="/new-web/assets/syllabus-2027/RSEES@/Geography & Geoinformatics/UG_Geography-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                     class="dept-geography-syllabus-link" download>
                                     <div class="dept-geography-syllabus-link-left">
                                         <i class="fa-solid fa-file-lines"></i>
@@ -1426,7 +1426,7 @@
                                     </div>
                                     <i class="fa-solid fa-download dept-geography-download-icon"></i>
                                 </a>
-                                <a target="_blank" href="/mobile-assets/syllabus/RSEES/PG%20syllabus%20Geography.pdf"
+                                <a target="_blank" href="/new-web/assets/syllabus-2027/RSEES@/Geography & Geoinformatics/PG_Geography-Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                     class="dept-geography-syllabus-link" download>
                                     <div class="dept-geography-syllabus-link-left">
                                         <i class="fa-solid fa-file-lines"></i>
@@ -1447,7 +1447,7 @@
                                 </a>
 
                                 <a target="_blank"
-                                    href="/mobile-assets/syllabus/RSEES/MSc%20Geoinformatics%20Syllabus.pdf"
+                                    href="/new-web/assets/syllabus-2027/RSEES@/Geography & Geoinformatics/PG_Geoinformatics_Course-Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                     class="dept-geography-syllabus-link" download>
                                     <div class="dept-geography-syllabus-link-left">
                                         <i class="fa-solid fa-file-lines"></i>

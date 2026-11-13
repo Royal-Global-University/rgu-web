@@ -1624,25 +1624,25 @@
     <script>
         // 1. Define the courses array
         const coursesData = [{
-                title: "M.Sc. – Nutrition and Dietetics",
+                title: "Master – Nutrition and Dietetics",
                 duration: "2 Years",
                 link: "/programs-MSc-Nutrition"
             },
 
             {
-                title: "Master – Food Technology",
+                title: "M.Sc. – Food Technology",
                 duration: "2 Years",
                 link: "/programme-msc-food-science"
             },
 
             {
-                title: "B.Sc. – Nutrition and Dietetics",
+                title: "Bachelor – Nutrition and Dietetics",
                 duration: "4 years",
                 link: "/programs-b-sc-nutrition&dietetics"
             },
 
             {
-                title: "Bachelor – Food Technology",
+                title: "B.Sc. – Food Technology",
                 duration: "4 years",
                 link: "/programme-bsc-food-science"
             }

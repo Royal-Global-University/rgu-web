@@ -1610,7 +1610,7 @@
                             </a>
 
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSA/B.ARCH. _Course Structure &  Detailed Syllabus _2025 Batch.pdf"
+                                href="/new-web/assets/syllabus-2027/RSA/Architecture/Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-architecture-syllabus-link">
                                 <div class="dept-architecture-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

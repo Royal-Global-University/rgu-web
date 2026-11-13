@@ -1285,7 +1285,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-cse-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/CSE/BTech_CSE_Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSET@/CSE/BTech_CSE_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1293,7 +1293,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-cse-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/AI/BTech_AI%20&%20DS%20Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSET@/CSE/BTech_AIDS_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1317,7 +1317,7 @@
                     <div class="dept-cse-accordion-content">
                         <div class="dept-cse-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/CSE/M.%20Tech%20(CSE)_Detailed%20Syllabus.pdf"
+                                href="/new-web/assets/syllabus-2027/RSET@/CSE/M.Tech (CSE)_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-cse-syllabus-link" download>
                                 <div class="dept-cse-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

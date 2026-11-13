@@ -201,7 +201,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="/mobile-assets/syllabus/RSD/BID_2025_26.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSA/Interior-Design/Detailed-Syllabus_AY-2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Interior
                                                         Design
@@ -864,7 +864,7 @@
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="/mobile-assets/syllabus/RSD/BID_2025_26.pdf"
+                                                            <a href="/new-web/assets/syllabus-2027/RSA/Interior-Design/Detailed-Syllabus_AY-2026-27.pdf"
                                                                 target="_blank" style="color: #27467A;">
                                                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
                                                                 Interior Design

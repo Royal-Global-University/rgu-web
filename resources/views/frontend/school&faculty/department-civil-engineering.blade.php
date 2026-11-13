@@ -1294,7 +1294,7 @@
                                 </div>
                                 <i class="fa-solid fa-download dept-civil-download-icon"></i>
                             </a>
-                            <a target="_blank" href="/mobile-assets/syllabus/CE/Syllabus_Civil_Engineering_2025-26.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSET@/CE/B.Tech_Civil_Engineering_Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-civil-syllabus-link" download>
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1318,7 +1318,7 @@
                     <div class="dept-civil-accordion-content">
                         <div class="dept-civil-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSET/MTech-SE-SYLLABUS-AS-ON-29.04.26-RGU-New NEP.pdf"
+                                href="/new-web/assets/syllabus-2027/RSET@/CE/MTech-SE-Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-civil-syllabus-link">
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1328,7 +1328,7 @@
                             </a>
 
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSET/MTech-WRDM-SYLLABUS-AS-ON-24.11.25-RGU-New NEP.pdf"
+                                href="/new-web/assets/syllabus-2027/RSET@/CE/MTech-WRDM-Course_Structure_and_Detailed_Syllabus_2026.pdf"
                                 class="dept-civil-syllabus-link">
                                 <div class="dept-civil-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
