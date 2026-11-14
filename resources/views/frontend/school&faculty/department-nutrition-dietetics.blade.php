@@ -233,7 +233,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/NUTRITION-UG-2025-SYLLABUS.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSMAS@/Nutrition/UG - Nutrition and Dietetics_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc.
                                                         Nutrition and Dietetics
@@ -270,7 +270,7 @@
                                                         <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/rsmas/nutrition/updated-syllabus/NUTRITION-PG-2025-SYLLABUS.pdf"
+                                                    <a href="/new-web/assets/syllabus-2027/RSMAS@/Nutrition/PG - Nutrition and Dietetics_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                                         target="_blank" style="color: #27467A;">
                                                         <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc.
                                                         Nutrition and Dietetics
