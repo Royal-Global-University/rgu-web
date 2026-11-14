@@ -521,6 +521,9 @@
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="convocation">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('six-convocation') }}">
+                    <li>6th Convocation</li>
+                </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-fifth') }}">
                     <li>5th Convocation</li>
                 </a>

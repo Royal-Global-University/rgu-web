@@ -856,6 +856,7 @@
                     CONVOCATION
                 </a>
                 <ul class="dropdown-submenu">
+                    <li><a href="/six-convocation">6th Convocation</a></li>
                     <li><a href="/convocation-fifth">5th Convocation</a></li>
                     <li><a href="/convocation-fourth">4th Convocation</a></li>
                     <li><a href="/convocation-third">3rd Convocation</a></li>

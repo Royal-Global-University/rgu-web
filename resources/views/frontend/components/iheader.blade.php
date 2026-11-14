@@ -1,270 +1,288 @@
 <!-- top-bar-modal  -->
-    <section>
-        <style>
-           /* Push the navbars down so the new Top Bar doesn't cover them */
+<section>
+    <style>
+        /* Push the navbars down so the new Top Bar doesn't cover them */
 
-            /* --- New Responsive Top Bar Styles --- */
+        /* --- New Responsive Top Bar Styles --- */
+        .responsive-top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #13223b;
+            z-index: 10500;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 6px 20px;
+            gap: 15px;
+        }
+
+        .top-bar-link {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: color 0.3s;
+            white-space: nowrap;
+        }
+
+        .top-bar-link:hover {
+            color: #ffa827;
+        }
+
+        .highlight-link {
+            color: #ffa827;
+            /* Keeps the first link orange */
+        }
+
+        .top-bar-divider {
+            color: #fff;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+
+
             .responsive-top-bar {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                background-color: #13223b;
-                z-index: 10500;
-                font-family: 'Times New Roman', Times, serif;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-                display: flex;
-                justify-content: right;
-                align-items: center;
-                flex-wrap: wrap;
-                padding: 6px 20px;
-                gap: 15px;
-            }
-            .top-bar-link {
-                color: #fff;
-                text-decoration: none;
-                font-weight: 600;
-                font-size: 14px;
-                transition: color 0.3s;
-                white-space: nowrap;
-            }
-            .top-bar-link:hover {
-                color: #ffa827;
-            }
-            .highlight-link {
-                color: #ffa827; /* Keeps the first link orange */
-            }
-            .top-bar-divider {
-                color: #fff;
-                opacity: 0.5;
-                font-size: 14px;
-            }
-
-            /* Mobile responsiveness */
-            @media (max-width: 768px) {
-
-
-                .responsive-top-bar {
-                    padding: 5px 10px;
-                    gap: 8px;
-                    justify-content: center;
-                }
-                .top-bar-link {
-                    font-size: 12px; /* Smaller text on mobile so it fits nicely */
-                }
-                .top-bar-divider {
-                    display: none; /* Hides the '|' on mobile for a cleaner look if it wraps */
-                }
-
-            }
-
-            /* Push the mobile slide-out menu content down as well */
-            .menu {
-                padding-top: 60px !important;
-
-            }
-
-            /* --- New Modal Animations --- */
-            #topBarModal {
-                opacity: 0;
-                visibility: hidden;
-                transition: opacity 0.3s ease, visibility 0.3s ease;
-
-            }
-
-            #topBarModal.show {
-                opacity: 1;
-                visibility: visible;
-            }
-
-            .modal-content-box {
-                transform: scale(0.8) translateY(30px);
-                transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-
-            }
-
-            #topBarModal.show .modal-content-box {
-                transform: scale(1) translateY(0);
-            }
-
-            /* --- Card Styles & Hover Animations --- */
-            .phd-card-container {
-                display: flex;
-                gap: 20px;
+                padding: 5px 10px;
+                gap: 8px;
                 justify-content: center;
-                flex-wrap: wrap;
-                margin-top: 15px;
-
-
             }
 
-            .phd-login-card {
-                flex: 1;
-                min-width: 240px;
-                background: #ffe6c0;
-                border: 2px solid #ffca7b;
-                border-radius: 12px;
-                padding: 35px 20px;
-                text-decoration: none !important;
-                color: #333;
-                transition: all 0.3s ease;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                cursor: pointer;
+            .top-bar-link {
+                font-size: 12px;
+                /* Smaller text on mobile so it fits nicely */
             }
 
-            .phd-login-card:hover {
-                background: #ffb64a;
-                border-color: #13223b;
-                box-shadow: 0 15px 30px rgba(255, 168, 39, 0.15);
-                transform: translateY(-8px);
+            .top-bar-divider {
+                display: none;
+                /* Hides the '|' on mobile for a cleaner look if it wraps */
             }
 
-            .phd-card-icon {
-                font-size: 50px;
-                color: #13223b;
-                margin-bottom: 20px;
-                transition: transform 0.4s ease, color 0.3s ease;
+        }
+
+        /* Push the mobile slide-out menu content down as well */
+        .menu {
+            padding-top: 60px !important;
+
+        }
+
+        /* --- New Modal Animations --- */
+        #topBarModal {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+
+        }
+
+        #topBarModal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content-box {
+            transform: scale(0.8) translateY(30px);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+        }
+
+        #topBarModal.show .modal-content-box {
+            transform: scale(1) translateY(0);
+        }
+
+        /* --- Card Styles & Hover Animations --- */
+        .phd-card-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 15px;
+
+
+        }
+
+        .phd-login-card {
+            flex: 1;
+            min-width: 240px;
+            background: #ffe6c0;
+            border: 2px solid #ffca7b;
+            border-radius: 12px;
+            padding: 35px 20px;
+            text-decoration: none !important;
+            color: #333;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .phd-login-card:hover {
+            background: #ffb64a;
+            border-color: #13223b;
+            box-shadow: 0 15px 30px rgba(255, 168, 39, 0.15);
+            transform: translateY(-8px);
+        }
+
+        .phd-card-icon {
+            font-size: 50px;
+            color: #13223b;
+            margin-bottom: 20px;
+            transition: transform 0.4s ease, color 0.3s ease;
+        }
+
+        .phd-login-card:hover .phd-card-icon {
+            transform: scale(1.15) rotate(5deg);
+            color: #13223b;
+        }
+
+        .phd-login-card h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: #13223b;
+            margin-bottom: 10px;
+        }
+
+        .phd-login-card p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .responsive-top-bar {
+                padding: 8px 10px;
+                gap: 8px 15px;
+                /* Adds healthy spacing between the wrapped links */
             }
 
-            .phd-login-card:hover .phd-card-icon {
-                transform: scale(1.15) rotate(5deg);
-                color: #13223b;
-            }
-
-            .phd-login-card h3 {
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 22px;
-                font-weight: 700;
-                color: #13223b;
-                margin-bottom: 10px;
-            }
-
-            .phd-login-card p {
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 16px;
-                color: #666;
-                margin: 0;
-                line-height: 1.5;
+            .top-bar-link {
+                font-size: 13px;
+                /* Increased text size for better readability/tapping */
+                white-space: normal;
+                /* Allows the text to wrap nicely without breaking */
                 text-align: center;
             }
 
-            /* Mobile responsiveness */
-            @media (max-width: 768px) {
-                .responsive-top-bar {
-                    padding: 8px 10px;
-                    gap: 8px 15px; /* Adds healthy spacing between the wrapped links */
-                }
-                .top-bar-link {
-                    font-size: 13px; /* Increased text size for better readability/tapping */
-                    white-space: normal; /* Allows the text to wrap nicely without breaking */
-                    text-align: center;
-                }
-                .top-bar-divider {
-                    display: none; /* Keep the dividers hidden on mobile for a cleaner look */
-                }
-                .menu {
-                    padding-top: 100px !important; /* Pushes the content of the mobile slide-out menu down too */
-                }
+            .top-bar-divider {
+                display: none;
+                /* Keep the dividers hidden on mobile for a cleaner look */
             }
-        </style>
 
-        <div id="common-top-bar" class="responsive-top-bar">
-            <a href="#" id="topBarModalLink" class="top-bar-link highlight-link">
-                TRACK THE STATUS OF YOUR PH.D. THESIS
-            </a>
+            .menu {
+                padding-top: 100px !important;
+                /* Pushes the content of the mobile slide-out menu down too */
+            }
+        }
+    </style>
 
-            <span class="top-bar-divider">|</span>
+    <div id="common-top-bar" class="responsive-top-bar">
+        <a href="#" id="topBarModalLink" class="top-bar-link highlight-link">
+            TRACK THE STATUS OF YOUR PH.D. THESIS
+        </a>
 
-            <a href="https://rgu.renocampus.com/hr/staff" target="_blank" class="top-bar-link">
-                ERP LOGIN
-            </a>
+        <span class="top-bar-divider">|</span>
 
-            <span class="top-bar-divider">|</span>
+        <a href="https://rgu.renocampus.com/hr/staff" target="_blank" class="top-bar-link">
+            ERP LOGIN
+        </a>
 
-            <a href="https://m365.cloud.microsoft/?auth=2" target="_blank" class="top-bar-link">
-                STAFF EMAIL LOGIN
-            </a>
-        </div>
+        <span class="top-bar-divider">|</span>
 
-        <div id="topBarModal"
-            style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 10600; justify-content: center; align-items: center; font-family: 'Times New Roman', Times, serif;">
+        <a href="https://m365.cloud.microsoft/?auth=2" target="_blank" class="top-bar-link">
+            STAFF EMAIL LOGIN
+        </a>
+    </div>
 
-            <div class="modal-content-box" style="max-width: 650px; width: 95%; position: relative;">
+    <div id="topBarModal"
+        style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 10600; justify-content: center; align-items: center; font-family: 'Times New Roman', Times, serif;">
 
-                <h2
-                    style="color: white; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 24px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px;">
-                    Track the status of your Ph.D thesis
-                </h2>
+        <div class="modal-content-box" style="max-width: 650px; width: 95%; position: relative;">
 
-                <div
-                    style="background-color: #fff; border-radius: 12px; padding: 40px 30px; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+            <h2
+                style="color: white; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 24px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px;">
+                Track the status of your Ph.D thesis
+            </h2>
 
-                    <div class="phd-card-container">
-                        <a href="https://rgu.renocampus.com/auth/signin?callbackUrl=https%3A%2F%2Frgu.renocampus.com" class="phd-login-card">
-                            <div class="phd-card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                            <h3>Login as a Guide</h3>
+            <div
+                style="background-color: #fff; border-radius: 12px; padding: 40px 30px; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
 
-                        </a>
+                <div class="phd-card-container">
+                    <a href="https://rgu.renocampus.com/auth/signin?callbackUrl=https%3A%2F%2Frgu.renocampus.com"
+                        class="phd-login-card">
+                        <div class="phd-card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h3>Login as a Guide</h3>
 
-                        <a href="https://rgu.renocampus.com/student" class="phd-login-card">
-                            <div class="phd-card-icon"><i class="fas fa-user-graduate"></i></div>
-                            <h3>Login as a Scholar</h3>
+                    </a>
 
-                        </a>
-                    </div>
+                    <a href="https://rgu.renocampus.com/student" class="phd-login-card">
+                        <div class="phd-card-icon"><i class="fas fa-user-graduate"></i></div>
+                        <h3>Login as a Scholar</h3>
 
+                    </a>
                 </div>
 
-                <div style="text-align: center; margin-top: 15px;">
-                    <button id="modalBtnClose"
-                        style="background: none; border: none; color: #ddd; font-family: 'Times New Roman', Times, serif; font-size: 16px; cursor: pointer; text-decoration: underline; transition: color 0.3s;">Close
-                        Window</button>
-                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 15px;">
+                <button id="modalBtnClose"
+                    style="background: none; border: none; color: #ddd; font-family: 'Times New Roman', Times, serif; font-size: 16px; cursor: pointer; text-decoration: underline; transition: color 0.3s;">Close
+                    Window</button>
             </div>
         </div>
+    </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var topBarLink = document.getElementById('topBarModalLink');
-                var topBarModal = document.getElementById('topBarModal');
-                var btnClose = document.getElementById('modalBtnClose');
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var topBarLink = document.getElementById('topBarModalLink');
+            var topBarModal = document.getElementById('topBarModal');
+            var btnClose = document.getElementById('modalBtnClose');
 
-                // Open Modal Smoothly
-                topBarLink.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    topBarModal.style.display = 'flex'; // Un-hide from DOM
+            // Open Modal Smoothly
+            topBarLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                topBarModal.style.display = 'flex'; // Un-hide from DOM
 
-                    // Add the animation class after a tiny delay so the browser registers it
-                    setTimeout(function () {
-                        topBarModal.classList.add('show');
-                    }, 10);
-                });
-
-                // Function to close modal smoothly
-                function closeModal() {
-                    topBarModal.classList.remove('show'); // Triggers CSS fade/scale out
-
-                    // Wait for the CSS transition (0.3s) to finish before hiding from DOM
-                    setTimeout(function () {
-                        topBarModal.style.display = 'none';
-                    }, 300);
-                }
-
-                // Close Modal on Button Click
-                btnClose.addEventListener('click', closeModal);
-
-                // Close Modal on Background Click
-                window.addEventListener('click', function (e) {
-                    if (e.target === topBarModal) {
-                        closeModal();
-                    }
-                });
+                // Add the animation class after a tiny delay so the browser registers it
+                setTimeout(function() {
+                    topBarModal.classList.add('show');
+                }, 10);
             });
-        </script>
-    </section>
-    <!-- top-bar-modal  -->
+
+            // Function to close modal smoothly
+            function closeModal() {
+                topBarModal.classList.remove('show'); // Triggers CSS fade/scale out
+
+                // Wait for the CSS transition (0.3s) to finish before hiding from DOM
+                setTimeout(function() {
+                    topBarModal.style.display = 'none';
+                }, 300);
+            }
+
+            // Close Modal on Button Click
+            btnClose.addEventListener('click', closeModal);
+
+            // Close Modal on Background Click
+            window.addEventListener('click', function(e) {
+                if (e.target === topBarModal) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</section>
+<!-- top-bar-modal  -->
 
 <nav id="mainNavbar" class="navbar navbar-expand-lg pt-5"
     style="background-color: transparent; padding: 0px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
@@ -351,17 +369,20 @@
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('academic-council') }}">Academic Council</a></li>
                                         <li><a class="dropdown-item text-dark para1"
-                                                href="{{ route('internal-complaints-committee') }}">Internal Complaints
+                                                href="{{ route('internal-complaints-committee') }}">Internal
+                                                Complaints
                                                 Committee</a></li>
                                         <li><a class="dropdown-item text-dark para1"
-                                                href="{{ route('university-research-committee') }}">University Research
+                                                href="{{ route('university-research-committee') }}">University
+                                                Research
                                                 Committee</a></li>
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('institutional-ethical-committee') }}">Institutional
                                                 Ethical
                                                 Committee</a></li>
                                         <li><a class="dropdown-item text-dark para1"
-                                                href="{{ route('nss-advisory-committee') }}">NSS Advisory Committee</a></li>
+                                                href="{{ route('nss-advisory-committee') }}">NSS Advisory
+                                                Committee</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
@@ -370,7 +391,8 @@
                                         href="{{ route('proctorial') }}">Proctorial
                                         Board</a></li>
                                 <li><a class="dropdown-item text-dark para1"
-                                        href="{{ route('organogram-planning') }}">Organogram and <br> Planning</a></li>
+                                        href="{{ route('organogram-planning') }}">Organogram and <br> Planning</a>
+                                </li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
                             </div>
@@ -396,7 +418,8 @@
                                         Programme</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('phd-cell') }}"
-                                        style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Ph.D. Cell</a></li>
+                                        style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Ph.D.
+                                        Cell</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
                                         style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
@@ -477,7 +500,8 @@
                                 to Apply?</a></li>
 
                         <li><a class="dropdown-item text-dark para1" href="programs"
-                                style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RGU Admission <br/>Eligibility & Selection Criteria</a></li>
+                                style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RGU
+                                Admission <br />Eligibility & Selection Criteria</a></li>
 
                         <li class="dropdown-submenu" style="position: relative;">
                             <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
@@ -508,6 +532,9 @@
                     <ul class="dropdown-menu"
                         style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 300px; border-top: 3px solid #e68900;">
 
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('six-convocation') }}"
+                                style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">6th
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-fifth') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">5th
                                 Convocation</a></li>
@@ -678,9 +705,9 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('international-faq') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International FAQs</a>
                         </li>
-                        <li><a class="dropdown-item text-dark para1"
-                                href="international-admission-guidelines"
-                                style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International Admission<br>
+                        <li><a class="dropdown-item text-dark para1" href="international-admission-guidelines"
+                                style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International
+                                Admission<br>
                                 Guidelines</a>
                         </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('frro-process') }}"
