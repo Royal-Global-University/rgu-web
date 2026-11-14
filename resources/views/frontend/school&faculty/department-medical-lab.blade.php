@@ -1440,16 +1440,16 @@
 
                     <div class="dept-mls-accordion-content">
                         <div class="dept-mls-syllabus-list">
-                            <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2025-26.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSMAS@/Medical Laboratory Science/BMLS_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-mls-syllabus-link" download>
                                 <div class="dept-mls-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- BMLT 2025 - 2026
+                                    Course Structure and Syllabus
                                 </div>
                                 <i class="fa-solid fa-download dept-mls-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
+                            {{-- <a target="_blank"
                                 href="mobile-assets/rsmas-new-dept/mls/syllabus/BMLT-SYLLABUS-2024-batch.pdf"
                                 class="dept-mls-syllabus-link" download>
                                 <div class="dept-mls-syllabus-link-left">
@@ -1467,7 +1467,7 @@
                                     Course Structure and Syllabus -- BMLT 2023
                                 </div>
                                 <i class="fa-solid fa-download dept-mls-download-icon"></i>
-                            </a>
+                            </a> --}}
 
                         </div>
                     </div>
@@ -1485,11 +1485,11 @@
                     <div class="dept-mls-accordion-content">
                         <div class="dept-mls-syllabus-list">
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/mls/syllabus/MMLT-NEP-SYLLABUS-2025-26.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Medical Laboratory Science/MMLS_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-mls-syllabus-link" download>
                                 <div class="dept-mls-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- MMLT 2025 - 2026
+                                    Course Structure and Syllabus
                                 </div>
                                 <i class="fa-solid fa-download dept-mls-download-icon"></i>
                             </a>

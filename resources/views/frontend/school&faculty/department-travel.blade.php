@@ -1624,7 +1624,7 @@
                         <div class="dept-rsttm-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
                             <a target="_blank"
-                                href="/mobile-assets/syllabus/RSTTM/BA-BSC%20Travel%20&%20Tourism%20Management.pdf"
+                                href="/new-web/assets/syllabus-2027/RSTTM@/BA-BSC-TTM_Course Structure &  Detailed Syllabus-WEF-2023 Batch_AY 2026-27.pdf"
                                 class="dept-rsttm-syllabus-link">
                                 <div class="dept-rsttm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1649,7 +1649,7 @@
                     <div class="dept-rsttm-accordion-content">
                         <div class="dept-rsttm-syllabus-list">
                             <!-- <h3>Political Science</h3> -->
-                            <a target="_blank" href="/mobile-assets/syllabus/RSTTM/MTTM%20Syllabus.pdf"
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSTTM@/MTTM_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-rsttm-syllabus-link">
                                 <div class="dept-rsttm-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

@@ -1428,16 +1428,16 @@
                         <div class="dept-radiology-syllabus-list">
 
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/radiology/syllabus/BRIT-Syllabus_2025-26.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Radiography and Advance Imaging/BMRIT_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-radiology-syllabus-link">
                                 <div class="dept-radiology-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- BRIT 2025 - 2026
+                                    Course Structure and Syllabus
                                 </div>
                                 <i class="fa-solid fa-download dept-radiology-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
+                            {{-- <a target="_blank"
                                 href="mobile-assets/rsmas-new-dept/radiology/syllabus/BRIT-syllabus-2024_25.pdf"
                                 class="dept-radiology-syllabus-link">
                                 <div class="dept-radiology-syllabus-link-left">
@@ -1445,7 +1445,7 @@
                                     Course Structure and Syllabus -- BRIT 2024 - 2025
                                 </div>
                                 <i class="fa-solid fa-download dept-radiology-download-icon"></i>
-                            </a>
+                            </a> --}}
 
                         </div>
                     </div>

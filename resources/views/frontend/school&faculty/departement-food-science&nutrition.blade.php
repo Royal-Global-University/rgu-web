@@ -1314,16 +1314,16 @@
 
 
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/food-sc-nutrition/syllabus/B.Sc. N&D_ SYLLABUS_2025 BATCH.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Food Science & Nutrition/Food Tech/B.Sc Food Tech_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- B.Sc. Nutrition & Dietetics 2025
+                                    Course Structure and Syllabus
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
+                            {{-- <a target="_blank"
                                 href="mobile-assets/rsmas-new-dept/food-sc-nutrition/syllabus/B.Sc. N&D_ SYLLABUS_2024 BATCH.pdf"
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
@@ -1331,7 +1331,7 @@
                                     Course Structure and Syllabus -- B.Sc. Nutrition & Dietetics 2024
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
-                            </a>
+                            </a> --}}
 
                         </div>
                     </div>
@@ -1350,21 +1350,21 @@
                         <div class="dept-food-sc-syllabus-list">
 
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/food-sc-nutrition/syllabus/PG  N&D_ SYLLABUS_2025 BATCH.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Food Science & Nutrition/Food Tech/M.Sc Food Technology_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- M.Sc. Nutrition & Dietetics 2025
+                                    Course Structure and Syllabus 
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>
 
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/food-sc-nutrition/syllabus/PG_ N&D_ SYLLABUS_2024 BATCH.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Food Science & Nutrition/Nutrition/Msc Nutrition and Dietetics_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- M.Sc. Nutrition & Dietetics 2024
+                                    Course Structure and Syllabus 
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>

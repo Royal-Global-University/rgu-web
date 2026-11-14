@@ -1354,16 +1354,16 @@
                         <div class="dept-operationtheatre-syllabus-list">
 
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/anasthesia-ott/syllabus/OTT Syllabus - AY 2025- 2026.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Anesthesia & OTT/BAOTT_Course Structure&Detailed-Syllabus_AY-2026-27.pdf"
                                 class="dept-operationtheatre-syllabus-link">
                                 <div class="dept-operationtheatre-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- OTT 2025 - 2026
+                                    Course Structure and Syllabus -- OTT
                                 </div>
                                 <i class="fa-solid fa-download dept-operationtheatre-download-icon"></i>
                             </a>
 
-                            <a target="_blank"
+                            {{-- <a target="_blank"
                                 href="mobile-assets/rsmas-new-dept/anasthesia-ott/syllabus/OTT Syllabus - AY 2024-2025.pdf"
                                 class="dept-operationtheatre-syllabus-link">
                                 <div class="dept-operationtheatre-syllabus-link-left">
@@ -1381,7 +1381,53 @@
                                     Course Structure and Syllabus -- OTT 2023 - 2024
                                 </div>
                                 <i class="fa-solid fa-download dept-operationtheatre-download-icon"></i>
+                            </a> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dept-operationtheatre-accordion-item active">
+                    <div class="dept-operationtheatre-accordion-header">
+                        <div class="dept-operationtheatre-accordion-header-left">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Post Graduate</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dept-operationtheatre-chevron"></i>
+                    </div>
+
+                    <div class="dept-operationtheatre-accordion-content">
+                        <div class="dept-operationtheatre-syllabus-list">
+
+                            <a target="_blank"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Anesthesia & OTT/MAOTT_Course-Structure&Detailed-Syllabus_AY 2026-27.pdf"
+                                class="dept-operationtheatre-syllabus-link">
+                                <div class="dept-operationtheatre-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Course Structure and Syllabus -- OTT
+                                </div>
+                                <i class="fa-solid fa-download dept-operationtheatre-download-icon"></i>
                             </a>
+
+                            {{-- <a target="_blank"
+                                href="mobile-assets/rsmas-new-dept/anasthesia-ott/syllabus/OTT Syllabus - AY 2024-2025.pdf"
+                                class="dept-operationtheatre-syllabus-link">
+                                <div class="dept-operationtheatre-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Course Structure and Syllabus -- OTT 2024 - 2025
+                                </div>
+                                <i class="fa-solid fa-download dept-operationtheatre-download-icon"></i>
+                            </a>
+
+                            <a target="_blank"
+                                href="mobile-assets/rsmas-new-dept/anasthesia-ott/syllabus/OTT Syllabus - AY 2023-2024.pdf"
+                                class="dept-operationtheatre-syllabus-link">
+                                <div class="dept-operationtheatre-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Course Structure and Syllabus -- OTT 2023 - 2024
+                                </div>
+                                <i class="fa-solid fa-download dept-operationtheatre-download-icon"></i>
+                            </a> --}}
 
                         </div>
                     </div>

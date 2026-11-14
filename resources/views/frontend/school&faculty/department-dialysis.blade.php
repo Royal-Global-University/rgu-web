@@ -1385,12 +1385,12 @@
           </div>
         </div> -->
 
-        <!-- <div class="dept-mls-accordion-section" id="dept-syllabus">
+        <div class="dept-mls-accordion-section" id="dept-syllabus">
           <h2 class="dept-mls-section-title">Courses Structure <span>and Syllabus</span></h2>
 
           <div class="dept-mls-accordion-wrapper">
 
-            <div class="dept-mls-accordion-item active">
+            {{-- <div class="dept-mls-accordion-item active">
               <div class="dept-mls-accordion-header">
                 <div class="dept-mls-accordion-header-left">
                   <i class="fa-solid fa-graduation-cap"></i>
@@ -1430,7 +1430,7 @@
 
                 </div>
               </div>
-            </div>
+            </div> --}}
 
             <div class="dept-mls-accordion-item">
               <div class="dept-mls-accordion-header">
@@ -1443,11 +1443,11 @@
 
               <div class="dept-mls-accordion-content">
                 <div class="dept-mls-syllabus-list">
-                  <a target="_blank" href="mobile-assets/rsmas-new-dept/mls/syllabus/MMLT-NEP-SYLLABUS-2025-26.pdf"
+                  <a target="_blank" href="/new-web/assets/syllabus-2027/RSMAS@/Dialysis/MDT Course Curriculum Syllabus NCAHP July 2026.pdf"
                     class="dept-mls-syllabus-link" download>
                     <div class="dept-mls-syllabus-link-left">
                       <i class="fa-solid fa-file-lines"></i>
-                      Course Structure and Syllabus -- MMLT 2025 - 2026
+                      Course Structure and Syllabus
                     </div>
                     <i class="fa-solid fa-download dept-mls-download-icon"></i>
                   </a>
@@ -1457,7 +1457,7 @@
               </div>
             </div>
 
-            <div class="dept-mls-accordion-item">
+            {{-- <div class="dept-mls-accordion-item">
               <div class="dept-mls-accordion-header">
                 <div class="dept-mls-accordion-header-left">
                   <i class="fa-solid fa-book"></i>
@@ -1477,10 +1477,10 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> --}}
 
           </div>
-        </div> -->
+        </div>
 
         <!-- <div class="dept-mls-events-section" id="dept-events">
 

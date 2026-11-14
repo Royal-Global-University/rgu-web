@@ -241,121 +241,7 @@
             </div>
             <!-- courses offered  -->
 
-            <!-- syllabus  -->
-            {{-- <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
 
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
-
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapseOne"
-                                                aria-expanded="false" aria-controls="mobileCollapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingOne" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#mobileCollapseTwo" aria-expanded="false"
-                                                aria-controls="mobileCollapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingTwo" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row"
-                                                    style="display: flex; flex-direction: column; gap: 12px;">
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
-                                                        target="_blank"
-                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -
-                                                        Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
-                                                        target="_blank"
-                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Physics
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="mobileHeadingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#mobileCollapseThree" aria-expanded="false"
-                                                aria-controls="mobileCollapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="mobileCollapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="mobileHeadingThree" data-bs-parent="#mobileAccordionCourses">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="doctoral-programme-mobile" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> --}}
-            <!-- syllabus  -->
 
 
             <!-- Mobile-Friendly Board of Studies & DRC -->
@@ -715,7 +601,12 @@
 
                                     <p class="mobile-para1 pt-3"
                                         style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        With the growing focus on sports such as cricket, football, badminton, and kabaddi, where national teams are sponsored by corporates, new opportunities have emerged to view sports as a professional career option. This shift has encouraged many individuals to pursue careers in these fields. To support and guide aspiring athletes, appropriate counselling is essential, which can be effectively provided through well-structured programs.
+                                        With the growing focus on sports such as cricket, football, badminton, and kabaddi,
+                                        where national teams are sponsored by corporates, new opportunities have emerged to
+                                        view sports as a professional career option. This shift has encouraged many
+                                        individuals to pursue careers in these fields. To support and guide aspiring
+                                        athletes, appropriate counselling is essential, which can be effectively provided
+                                        through well-structured programs.
                                     </p>
 
                                 </div>
@@ -839,6 +730,79 @@
             </section>
 
         </div>
+
+        <!-- syllabus  -->
+        <div class="container">
+            <div>
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                    style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                    Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                </h2>
+
+                <div>
+                    <div class="row pb-5">
+                        <div class="col-lg-12">
+                            <div class="accordion para1" id="mobileAccordionCourses"
+                                style="border-radius: 12px; overflow: hidden;">
+
+                                <div class="accordion-item"
+                                    style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                    <h2 class="accordion-header" id="mobileHeadingOne">
+                                        <button class="accordion-button collapsed"
+                                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapseOne"
+                                            aria-expanded="false" aria-controls="mobileCollapseOne">
+                                            <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                        </button>
+                                    </h2>
+                                    <div id="mobileCollapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="mobileHeadingOne" data-bs-parent="#mobileAccordionCourses">
+                                        <div class="accordion-body"
+                                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                <a href="/new-web/assets/syllabus-2027/RSPES@/BPES_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
+                                                    target="_blank" style="color: #27467A;">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus
+                                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item"
+                                    style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                    <h2 class="accordion-header" id="mobileHeadingThree">
+                                        <button class="accordion-button collapsed"
+                                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#mobileCollapseThree" aria-expanded="false"
+                                            aria-controls="mobileCollapseThree">
+                                            <i class="fa fa-book me-2"></i> Doctoral Programme
+                                        </button>
+                                    </h2>
+                                    <div id="mobileCollapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="mobileHeadingThree" data-bs-parent="#mobileAccordionCourses">
+                                        <div class="accordion-body"
+                                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                            <a href="doctoral-programme-mobile" class="para1" target="_blank"
+                                                style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                <i class="fa fa-external-link me-2"></i> Click to View...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- syllabus  -->
 
     </div>
 @endsection

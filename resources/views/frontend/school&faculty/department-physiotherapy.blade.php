@@ -1428,7 +1428,7 @@
                     <div class="dept-physiotherapy-accordion-content">
                         <div class="dept-physiotherapy-syllabus-list">
                             <a target="_blank"
-                                href="/mobile-assets/department-all/rsmas/physiotherapy/updated-syllabus/MPT%20SYLLABUS-2025.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Physiotherapy/MPT_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-physiotherapy-syllabus-link" download>
                                 <div class="dept-physiotherapy-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
@@ -1462,7 +1462,7 @@
                                 <i class="fa-solid fa-download dept-physiotherapy-download-icon"></i>
                             </a>
                             <a target="_blank"
-                                href="/mobile-assets/department-all/rsmas/physiotherapy/updated-syllabus/BPT_Syllabus_2025-26.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Physiotherapy/BPT_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-physiotherapy-syllabus-link" download>
                                 <div class="dept-physiotherapy-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>

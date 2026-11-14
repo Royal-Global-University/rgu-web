@@ -1483,15 +1483,15 @@
                     <div class="dept-optometry-accordion-content">
                         <div class="dept-optometry-syllabus-list">
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/optometry/syllabus/B.OPTOMETRY(2025_26).pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Optometry/B Opto_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-optometry-syllabus-link">
                                 <div class="dept-optometry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- B.Optometry 2025 - 2026
+                                    Course Structure and Syllabus
                                 </div>
                                 <i class="fa-solid fa-download dept-optometry-download-icon"></i>
                             </a>
-                            <a target="_blank"
+                            {{-- <a target="_blank"
                                 href="mobile-assets/rsmas-new-dept/optometry/syllabus/B.OPTOMETRY(2024_25).pdf"
                                 class="dept-optometry-syllabus-link">
                                 <div class="dept-optometry-syllabus-link-left">
@@ -1508,7 +1508,7 @@
                                     Course Structure and Syllabus -- B.Optometry 2023 - 2024
                                 </div>
                                 <i class="fa-solid fa-download dept-optometry-download-icon"></i>
-                            </a>
+                            </a> --}}
 
                         </div>
                     </div>
@@ -1526,7 +1526,7 @@
                     <div class="dept-optometry-accordion-content">
                         <div class="dept-optometry-syllabus-list">
                             <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/optometry/syllabus/PG M.OPTOMETRY DETAILED SYLLABUS.pdf"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Optometry/M Opto_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-optometry-syllabus-link">
                                 <div class="dept-optometry-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
