@@ -297,10 +297,10 @@
       bottom: 8%;
       transform: translateX(-50%);
 
-      width: min(1125px, 76%);
+      width: min(1300px, 80%);
 
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
 
       background: rgba(15, 12, 9, .66);
 
@@ -314,12 +314,12 @@
     }
 
     .stat-item {
-      min-height: 135px;
+      min-height: 100px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px 15px;
+      padding: 20px 5px;
     }
 
     .stat-item+.stat-item {
@@ -657,14 +657,25 @@
         <div class="film-overlay"></div>
 
 
-        <!-- <div class="stats-container">
-
+        <div class="stats-container">
 
 
           <div class="stat-item">
 
             <span class="stat-number">
-              832+
+              47
+            </span>
+
+            <span class="stat-label">
+              Diploma Awardees
+            </span>
+
+          </div>
+
+          <div class="stat-item">
+
+            <span class="stat-number">
+              832
             </span>
 
             <span class="stat-label">
@@ -676,7 +687,7 @@
           <div class="stat-item">
 
             <span class="stat-number">
-              685+
+              685
             </span>
 
             <span class="stat-label">
@@ -688,7 +699,7 @@
           <div class="stat-item">
 
             <span class="stat-number">
-              45+
+              45
             </span>
 
             <span class="stat-label">
@@ -697,7 +708,7 @@
 
           </div>
 
-        </div> -->
+        </div>
 
       </section>
 

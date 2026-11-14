@@ -423,6 +423,7 @@
                         <div class="m-acc-content">
 
                             <div class="m-sub-acc-content">
+                                <a href="/six-convocation" class="m-sub-acc-link">6th Convocation</a>
                                 <a href="/convocation-fifth" class="m-sub-acc-link">5th Convocation</a>
                                 <a href="/convocation-fourth" class="m-sub-acc-link">4th Convocation</a>
                                 <a href="/convocation-third" class="m-sub-acc-link">3rd Convocation</a>
