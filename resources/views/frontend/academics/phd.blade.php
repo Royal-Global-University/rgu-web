@@ -58,7 +58,7 @@
 
         <!-- floating button  -->
         <div>
-            <a href="/mobile-assets/ads/ads-new/phd-2027.pdf" target="_blank" style="
+            <a href="/apply-phd-programme" target="_blank" style="
             position: fixed;
             bottom: 25px;
             background-color: #ef991f;
@@ -178,7 +178,7 @@
 
             <!-- floating button  -->
             <div>
-                <a href="/mobile-assets/ads/ads-new/phd-2027.pdf" target="_blank" style="
+                <a href="/apply-phd-programme" target="_blank" style="
                     position: fixed;
                     bottom: 35px;
                     right: 50px;

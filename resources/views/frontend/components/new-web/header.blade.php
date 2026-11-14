@@ -1,7 +1,7 @@
     <div class="top-bar">
         <div class="top-bar-inner">
             <div class="top-links">
-                <a href="/mobile-assets/ads/ads-new/phd-2027.pdf">Ph.D. Admission Open (Jan 2027) | </a>
+                <a href="/apply-phd-programme">Ph.D. Admission Open (Jan 2027) | </a>
                 <a href="/nirf">NIRF | </a>
                 <a id="phdTrackerLink" href="javascript:void(0)"> Track the status of your Ph.D. thesis | </a>
                 <a href="/jobs-vacancies">Jobs Vacancies</a>

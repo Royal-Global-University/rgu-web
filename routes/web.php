@@ -66,6 +66,10 @@ Route::get('/swayam', function () {
 
 //Discover RGU
 
+Route::get('/apply-phd-programme', function () {
+    return view('frontend/discoverRGU/apply-phd-programme');
+})->name('apply-phd-programme');
+
 Route::get('/rgu-bulletin', function () {
     return view('frontend/discoverRGU/rgu-bulletin');
 })->name('rgu-bulletin');
