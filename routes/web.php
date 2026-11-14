@@ -686,6 +686,10 @@ Route::get('/convocation-four-gallery', function () {
 Route::get('/test-convocation-fifth', function () {
     return view('frontend/academics/test-convo-fifth');
 })->name('test-convocation-fifth');
+
+Route::get('/six-convocation', function () {
+    return view('frontend/convocation/six-convocation');
+})->name('six-convocation');
 //End Academics RGU
 
 

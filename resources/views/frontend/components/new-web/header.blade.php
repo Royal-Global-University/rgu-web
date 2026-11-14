@@ -1,3 +1,4 @@
+    @sectionMissing('hide_top_bar')
     <div class="top-bar">
         <div class="top-bar-inner">
             <div class="top-links">
@@ -8,6 +9,7 @@
             </div>
         </div>
     </div>
+    @endif
     <header class="header">
         <div class="header-inner">
 
