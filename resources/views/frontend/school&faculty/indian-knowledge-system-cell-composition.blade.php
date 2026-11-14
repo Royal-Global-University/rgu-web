@@ -149,17 +149,6 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="/mobile-assets/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Mr. Tinku Moni Das</h3>
-                                <p class="card-designation">Faculty Member, IKS Cell</p>
-                                <a href="/faculty-tinku" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
                                     <img src="/mobile-assets/iks/Pranab.jpg" alt="Profile image">
                                 </div>
                                 <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
