@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'ZG Consciousness Symposium begins at Royal Global University',
+                            'summary' => 'Time Stands Still when we Listen to Zubeen’s Voice: Dr Partha Sarathi Mahanta, IPS',
+                            'date' => 'Guwahati, November 16, 2026:',
+                            'link' => '/zg-consciousness-symposium-begins-at-royal-global-university',
+                            'image' => '/new-web/assets/media-corner/nov/p1/1.jpeg',
+                            'content' => 'A two-day symposium titled ‘ZG Consciousness’ began today at The Assam Royal Global University (RGU), providing an academic and cultural platform to reflect on the enduring legacy, socio-cultural impact and philosophical vision of Zubeen Garg.',
+                        ],
+                        [
                             'title' => 'Consensio 2026 concludes at Royal Global University with over 1,600 participants across 30+ events',
                             'summary' => '',
                             'date' => 'Guwahati, November 14, 2026:',

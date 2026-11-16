@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const newsData = [
         {
             date: "Guwahati, November 14, 2026",
+            title: "ZG Consciousness Symposium begins at Royal Global University",
+            desc: "A two-day symposium titled ‘ZG Consciousness’ began today at The Assam Royal Global University (RGU), providing an academic and cultural platform to reflect on the enduring legacy, socio-cultural impact and philosophical vision of Zubeen Garg.",
+            img: "/new-web/assets/media-corner/nov/p1/1.jpeg",
+            link: "/zg-consciousness-symposium-begins-at-royal-global-university",
+        },
+        {
+            date: "Guwahati, November 14, 2026",
             title: "Consensio 2026 concludes at Royal Global University with over 1,600 participants across 30+ events",
             desc: "Consensio 2026, the annual flagship techno-management and cultural festival of The Assam Royal Global University (RGU), concluded today after two days of vibrant competitions, performances and creative celebrations. Held on November 13 and 14 under the theme ‘SuperBloom’, the festival witnessed participation from over 1,600 students competing in more than 30 events across diverse disciplines.",
             img: "/new-web/assets/media-corner/nov/con/2.JPG",

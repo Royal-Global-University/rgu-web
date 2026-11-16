@@ -3306,6 +3306,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/zg-consciousness-symposium-begins-at-royal-global-university', function () {
+    return view('/frontend/media-corner/2026/nov/news7');
+})->name('zg-consciousness-symposium-begins-at-royal-global-university');
+
 Route::get('/consensio-2026-concludes-at-royal-global-university-with-over-1600-participants-across-30-events', function () {
     return view('/frontend/media-corner/2026/nov/news6');
 })->name('consensio-2026-concludes-at-royal-global-university-with-over-1600-participants-across-30-events');
