@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 14, 2026",
+            title: "Consensio 2026 concludes at Royal Global University with over 1,600 participants across 30+ events",
+            desc: "Consensio 2026, the annual flagship techno-management and cultural festival of The Assam Royal Global University (RGU), concluded today after two days of vibrant competitions, performances and creative celebrations. Held on November 13 and 14 under the theme ‘SuperBloom’, the festival witnessed participation from over 1,600 students competing in more than 30 events across diverse disciplines.",
+            img: "/new-web/assets/media-corner/nov/con/2.JPG",
+            link: "/consensio-2026-concludes-at-royal-global-university-with-over-1600-participants-across-30-events",
+        },
+        {
             date: "Guwahati, November 11, 2026",
             title: "Asian Games gold medallist Ankita Bhakat and Olympian Jayanta Talukdar felicitated at RGU",
             desc: "The Assam Royal Global University (RGU) on Tuesday felicitated its student and ace archer Ankita Bhakat for her historic gold medal triumph at the Asian Games 2026, celebrating her outstanding contribution to Indian sports. The university also felicitated Olympian and World Cup gold medallist Jayanta Talukdar, an MBA ...",
