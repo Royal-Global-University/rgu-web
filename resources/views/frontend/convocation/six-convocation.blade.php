@@ -650,7 +650,7 @@
         <video class="film-video" autoplay muted loop playsinline preload="auto"
           poster="/new-web/assets/convocation/six/convocation-video-poster.jpg">
 
-          <source src="/new-web/assets/convocation/six/After-movie.MP4" type="video/mp4">
+          <source src="https://media.rgu.ac/After-movie.MP4" type="video/mp4">
 
         </video>
 
