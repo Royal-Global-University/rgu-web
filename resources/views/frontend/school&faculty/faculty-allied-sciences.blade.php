@@ -1,4 +1,4 @@
-@extends('frontend/new-master')
+@extends('frontend.master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
