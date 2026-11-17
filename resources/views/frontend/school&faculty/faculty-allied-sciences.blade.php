@@ -160,7 +160,7 @@ Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS) 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Zulfiqar-1.png"
+                                <img src="/mobile-assets/updated-faculty-img/Zulfiqar-fac.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Zulfiqar Ullah Siddiqui</h3>
