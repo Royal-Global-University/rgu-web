@@ -5190,6 +5190,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/faculty-zulfiqar', function () {
+    return view('frontend/facultyprofile/rsbas/zulfiqar');
+})->name('/faculty-zulfiqar');
+
 Route::get('/faculty-dr-charulata-mahanta', function () {
     return view('frontend/facultyprofile/rsbsc/charulata-mahanta');
 })->name('/faculty-dr-charulata-mahanta');
