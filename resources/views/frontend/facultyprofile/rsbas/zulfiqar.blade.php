@@ -1,291 +1,1117 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
     <style>
-        /* Mobile (Up to 1024px) - Controls visibility */
-        @media only screen and (max-width: 1024px) {
-            .faculty-bio-desktop-display {
-                display: none !important;
-            }
+        /*=========================================================
+          FACULTY PROFILE PAGE
+        =========================================================*/
 
-            .faculty-bio-mobile-display {
-                display: block !important;
-            }
+        .rgu-fp-page {
+            padding: 80px 0;
+            background: #f7f9fc;
+            overflow: hidden;
         }
 
-        /* Desktop (1025px+) - Controls visibility */
-        @media only screen and (min-width: 1025px) {
-            .faculty-bio-desktop-display {
-                display: block !important;
-            }
-
-            .faculty-bio-mobile-display {
-                display: none !important;
-            }
-        }
-    </style>
-
-    <style>
-        /* 1. White Section Spacing Logic */
-        .faculty-bio-white-section {
-            background-color: #fff;
-            position: relative;
+        .rgu-fp-wrapper {
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 50px;
+            align-items: start;
         }
 
-        @media (min-width: 1025px) {
-            .faculty-bio-white-section {
-                height: 42vh;
-                overflow: visible;
-            }
 
-            .faculty-bio-img {
-                margin-top: 100px;
-                width: 480px;
-                margin-left: 45px;
-            }
+        /*=========================================================
+          STICKY SIDEBAR
+        =========================================================*/
 
-            .faculty-bio-name-pad {
-                padding-top: 3rem;
-            }
+        .rgu-fp-sidebar {
+            position: sticky;
+            align-self: start;
         }
 
-        @media (max-width: 1024px) {
-            .faculty-bio-white-section {
-                height: 40vh;
-                padding-top: 90px;
-            }
 
-            .faculty-bio-img {
-                margin-top: 70px;
-                width: 380px;
-            }
+        /*=========================================================
+          PROFILE CARD
+        =========================================================*/
+
+        .rgu-fp-profile-card {
+
+            background: #ffffff;
+
+            border-radius: 28px;
+
+            overflow: hidden;
+
+            box-shadow:
+                0 15px 45px rgba(0, 0, 0, .08);
+
         }
 
-        /* 2. Image Border Style (Common) */
-        .faculty-bio-img {
-            border: 1px solid #27467A;
-            max-width: 100%;
-            /* Safety for very small screens */
+
+        /*=========================================================
+          IMAGE
+        =========================================================*/
+
+        .rgu-fp-image {
+
+            width: 100%;
+            overflow: hidden;
+
         }
 
-        /* 3. Font Styles (Responsive) */
-        .faculty-bio-main-name {
-            font-family: 'Times New Roman', Times, serif;
+        .rgu-fp-image img {
+
+            width: 100%;
+            height: 430px;
+
+            object-fit: cover;
+            display: block;
+
+        }
+
+
+        /*=========================================================
+          PROFILE INFO
+        =========================================================*/
+
+        .rgu-fp-info {
+
+            padding: 35px 30px 40px;
+
+        }
+
+        .rgu-fp-name {
+
+            margin: 0;
+
+            color: #20315F;
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 2.5rem;
+
             font-weight: 700;
-            color: #FF9A1E;
+
+            line-height: 1.25;
+
         }
 
-        .faculty-bio-designation {
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 700;
-            position: relative;
-            display: inline-block;
+        .rgu-fp-designation {
+
+            margin-top: 18px;
+
+            color: #E15825;
+
+            font-size: 1.5rem;
+
+            font-weight: 600;
+
+            line-height: 1.7;
+
         }
 
-        /* Desktop Font Sizes */
-        @media (min-width: 1025px) {
-            .faculty-bio-main-name {
-                font-size: 45px;
-            }
+        .rgu-fp-department {
 
-            .faculty-bio-designation {
-                font-size: 26px;
-                color: #27467A;
-            }
-        }
-
-        /* Mobile Font Sizes */
-        @media (max-width: 1024px) {
-            .faculty-bio-main-name {
-                font-size: 35px;
-            }
-
-            .faculty-bio-designation {
-                font-size: 20px;
-                color: #fff;
-            }
-
-            /* White title on blue bg */
-        }
-
-        /* 4. Underline Style */
-        .faculty-bio-underline-effect::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -10px;
-            width: 300px;
-            height: 4px;
-            background-color: #FF9A1E;
-        }
-
-        /* 5. List Styles (Blue Section) */
-        .faculty-bio-blue-section {
-            background-color: #27467A;
-            padding-bottom: 50px;
-        }
-
-        @media (max-width: 1024px) {
-            .faculty-bio-blue-section {
-                padding-top: 190px;
-            }
-        }
-
-        .faculty-bio-sub-heading {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 22px;
-            font-weight: 700;
-            font-style: italic;
-            color: #FF9A1E;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .faculty-bio-info-list {
-            list-style: none;
-            padding-left: 0;
-            color: #fff;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 18px;
-        }
-
-        .faculty-bio-info-list li {
-            display: flex;
-            align-items: flex-start;
-            line-height: 1.8;
-            margin-bottom: 8px;
-        }
-
-        .faculty-bio-info-list i {
-            font-size: 8px;
-            margin-right: 10px;
             margin-top: 12px;
+
+            color: #555;
+
+            font-size: 1rem;
+
+            line-height: 1.7;
+
+        }
+
+        .rgu-fp-email,
+        .rgu-fp-phone {
+
+            margin-top: 12px;
+
+            font-size: .96rem;
+
+            color: #666;
+
+            word-break: break-word;
+
+        }
+
+
+        /*=========================================================
+          DOWNLOAD CV BUTTON
+        =========================================================*/
+
+        .rgu-fp-cv-btn {
+
+            margin-top: 28px;
+
+            display: inline-flex;
+
+            align-items: center;
+            justify-content: center;
+
+            padding: 13px 26px;
+
+            border-radius: 50px;
+
+            background: #20315F;
+
+            color: #fff;
+
+            font-weight: 600;
+
+            text-decoration: none;
+
+            transition: .35s;
+
+        }
+
+        .rgu-fp-cv-btn:hover {
+
+            background: #E15825;
+
+            color: #fff;
+
+        }
+
+
+        /*=========================================================
+          RIGHT CONTENT
+        =========================================================*/
+
+        .rgu-fp-content {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 40px;
+
+        }
+
+
+        /*=========================================================
+          SECTION
+        =========================================================*/
+
+        .rgu-fp-section {
+
+            background: #ffffff;
+
+            padding: 38px;
+
+            border-radius: 24px;
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, .05);
+
+        }
+
+
+        /*=========================================================
+          SECTION TITLE
+        =========================================================*/
+
+        .rgu-fp-section-title {
+
+            margin: 0 0 25px;
+
+            color: #20315F;
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 2rem;
+
+            font-weight: 700;
+
+            position: relative;
+
+            padding-bottom: 15px;
+
+        }
+
+        .rgu-fp-section-title::after {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+            bottom: 0;
+
+            width: 80px;
+            height: 4px;
+
+            background: #E15825;
+
+            border-radius: 5px;
+
+        }
+
+        /*=========================================================
+          QUALIFICATION LIST
+        =========================================================*/
+
+        .rgu-fp-list {
+
+            margin: 0;
+            padding: 0;
+
+            list-style: none;
+
+        }
+
+        .rgu-fp-list li {
+
+            position: relative;
+
+            padding-left: 28px;
+
+            margin-bottom: 18px;
+
+            color: #555;
+
+            font-size: 2rem;
+
+            line-height: 1.9;
+
+        }
+
+        .rgu-fp-list li:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+        .rgu-fp-list li::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+            top: 12px;
+
+            width: 10px;
+            height: 10px;
+
+            border-radius: 50%;
+
+            background: #E15825;
+
+        }
+
+
+
+        /*=========================================================
+          EXPERIENCE GRID
+        =========================================================*/
+
+        .rgu-fp-stats-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+
+            gap: 22px;
+
+        }
+
+
+
+        /*=========================================================
+          STAT CARD
+        =========================================================*/
+
+        .rgu-fp-stat-card {
+
+            position: relative;
+
+            padding: 28px;
+
+            background: #f7f9fc;
+
+            border: 1px solid #e8edf5;
+
+            border-radius: 18px;
+
+            transition: .35s;
+
+        }
+
+
+        .rgu-fp-stat-card:hover {
+
+            transform: translateY(-6px);
+
+            border-color: #E15825;
+
+            box-shadow:
+                0 18px 35px rgba(0, 0, 0, .08);
+
+        }
+
+
+
+        /*=========================================================
+          TOP ACCENT
+        =========================================================*/
+
+        .rgu-fp-stat-card::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+            top: 0;
+
+            width: 100%;
+            height: 5px;
+
+            background: #E15825;
+
+            border-radius:
+                18px 18px 0 0;
+
+        }
+
+
+
+        /*=========================================================
+          TITLE
+        =========================================================*/
+
+        .rgu-fp-stat-card h3 {
+
+            margin: 0 0 18px;
+
+            color: #20315F;
+
+            font-size: 1.7rem;
+
+            font-weight: 700;
+
+            line-height: 1.6;
+
+        }
+
+
+
+        /*=========================================================
+          VALUE
+        =========================================================*/
+
+        .rgu-fp-stat-card p {
+
+            margin: 0;
+
+            color: #555;
+
+            font-size: 1.5rem !important;
+
+            font-weight: 700;
+
+            line-height: 1.5;
+
+        }
+
+        .rgu-fp-stat-card span {
+
+            color: #E15825;
+
+            font-weight: 700;
+
+            margin: 0 6px;
+
+        }
+
+
+
+        /*=========================================================
+          NUMBER STYLE
+        =========================================================*/
+
+        .rgu-fp-stat-card strong {
+
+            color: #20315F;
+
+            font-size: 2rem;
+
+            font-weight: 700;
+
+        }
+
+
+
+        /*=========================================================
+          TABLET
+        =========================================================*/
+
+        @media(max-width:991px) {
+
+            .rgu-fp-stats-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+            }
+
+        }
+
+
+
+        /*=========================================================
+          MOBILE
+        =========================================================*/
+
+        @media(max-width:767px) {
+
+            .rgu-fp-stats-grid {
+
+                grid-template-columns: 1fr;
+
+                gap: 18px;
+
+            }
+
+            .rgu-fp-stat-card {
+
+                padding: 24px;
+
+            }
+
+            .rgu-fp-stat-card h3 {
+
+                font-size: .95rem;
+
+            }
+
+            .rgu-fp-stat-card p {
+
+                font-size: 1.15rem;
+
+            }
+
+        }
+
+        /*=========================================================
+          RESEARCH INTEREST
+        =========================================================*/
+
+        .rgu-fp-section p {
+
+            margin: 0;
+
+            color: #555;
+
+            font-size: 1.05rem;
+
+            line-height: 1.9;
+
+        }
+
+
+
+        /*=========================================================
+          AWARDS GRID
+        =========================================================*/
+
+        .rgu-fp-awards-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(320px, 1fr));
+
+            gap: 24px;
+
+        }
+
+
+
+        /*=========================================================
+          AWARD CARD
+        =========================================================*/
+
+        .rgu-fp-award-card {
+
+            display: flex;
+
+            align-items: flex-start;
+
+            gap: 18px;
+
+            padding: 28px;
+
+            border-radius: 18px;
+
+            background: #f7f9fc;
+
+            border: 1px solid #e7edf5;
+
+            transition: .35s;
+
+        }
+
+        .rgu-fp-award-card:hover {
+
+            transform: translateY(-6px);
+
+            border-color: #E15825;
+
+            box-shadow:
+                0 18px 40px rgba(0, 0, 0, .08);
+
+        }
+
+
+
+        /*=========================================================
+          ICON
+        =========================================================*/
+
+        .rgu-fp-award-icon {
+
+            width: 62px;
+            height: 62px;
+
             flex-shrink: 0;
+
+            border-radius: 50%;
+
+            background: #20315F;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            color: #fff;
+
+            font-size: 1.4rem;
+
+        }
+
+        .rgu-fp-award-card:hover .rgu-fp-award-icon {
+
+            background: #E15825;
+
+        }
+
+
+
+        /*=========================================================
+          AWARD CONTENT
+        =========================================================*/
+
+        .rgu-fp-award-content {
+
+            flex: 1;
+
+        }
+
+        .rgu-fp-award-content h3 {
+
+            margin: 0 0 10px;
+
+            color: #20315F;
+
+            font-size: 2rem;
+
+            font-weight: 700;
+
+            line-height: 1.4;
+
+        }
+
+        .rgu-fp-award-content p {
+
+            margin: 0;
+
+            color: #666;
+
+            line-height: 1.8;
+
+            font-size: 1.3rem;
+
+        }
+
+
+
+        /*=========================================================
+          PROJECT / INFO CARDS
+        =========================================================*/
+
+        .rgu-fp-card-list {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(320px, 1fr));
+
+            gap: 22px;
+
+        }
+
+        .rgu-fp-info-card {
+
+            padding: 30px;
+
+            border-radius: 18px;
+
+            background: #ffffff;
+
+            border-left: 5px solid #E15825;
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, .05);
+
+        }
+
+        .rgu-fp-info-card h3 {
+
+            margin: 0 0 18px;
+
+            color: #20315F;
+
+            font-size: 2rem;
+
+            font-weight: 700;
+
+        }
+
+        .rgu-fp-info-card p {
+
+            margin: 10px 0;
+
+            color: #555;
+
+            line-height: 1.8;
+
+            font-size: 1.5rem;
+
+        }
+
+
+
+        /*=========================================================
+          PUBLICATION LIST
+        =========================================================*/
+
+        .rgu-fp-publication-list {
+
+            margin: 0;
+
+            padding-left: 25px;
+
+        }
+
+        .rgu-fp-publication-list li {
+
+            margin-bottom: 22px;
+
+            color: #555;
+
+            line-height: 1.9;
+
+        }
+
+        .rgu-fp-publication-list li:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+
+
+        /*=========================================================
+          COURSE TAGS
+        =========================================================*/
+
+        .rgu-fp-tags {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 14px;
+
+        }
+
+        .rgu-fp-tags span {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 12px 22px;
+
+            border-radius: 50px;
+
+            background: #20315F;
+
+            color: #fff;
+
+            font-size: .95rem;
+
+            transition: .3s;
+
+        }
+
+        .rgu-fp-tags span:hover {
+
+            background: #E15825;
+
+        }
+
+
+
+        /*=========================================================
+          DOWNLOADS
+        =========================================================*/
+
+        .rgu-fp-downloads {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 18px;
+
+        }
+
+        .rgu-fp-downloads a {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            padding: 15px 28px;
+
+            border-radius: 50px;
+
+            background: #20315F;
+
+            color: #fff;
+
+            text-decoration: none;
+
+            transition: .35s;
+
+        }
+
+        .rgu-fp-downloads a:hover {
+
+            background: #E15825;
+
+        }
+
+        .rgu-fp-downloads i {
+
+            font-size: 1.1rem;
+
+        }
+
+
+
+        /*=========================================================
+          TABLET
+        =========================================================*/
+
+        @media(max-width:991px) {
+
+            .rgu-fp-wrapper {
+
+                grid-template-columns: 1fr;
+
+                gap: 35px;
+
+            }
+
+            .rgu-fp-sidebar {
+
+                position: relative;
+
+                top: auto;
+
+            }
+
+            .rgu-fp-profile-card {
+
+                display: grid;
+
+                grid-template-columns: 280px 1fr;
+
+                align-items: center;
+
+            }
+
+            .rgu-fp-image img {
+
+                height: 100%;
+
+                min-height: 340px;
+
+            }
+
+        }
+
+
+
+        /*=========================================================
+          MOBILE
+        =========================================================*/
+
+        @media(max-width:767px) {
+
+            .rgu-fp-page {
+
+                padding: 50px 0;
+
+            }
+
+            .rgu-fp-profile-card {
+
+                display: block;
+
+            }
+
+            .rgu-fp-image img {
+
+                height: 340px;
+
+            }
+
+            .rgu-fp-info {
+
+                padding: 28px;
+
+            }
+
+            .rgu-fp-name {
+
+                font-size: 1.7rem;
+
+            }
+
+            .rgu-fp-section {
+
+                padding: 28px 22px;
+
+                border-radius: 18px;
+
+            }
+
+            .rgu-fp-section-title {
+
+                font-size: 1.7rem;
+
+            }
+
+            .rgu-fp-awards-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .rgu-fp-card-list {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .rgu-fp-downloads {
+
+                flex-direction: column;
+
+            }
+
+            .rgu-fp-downloads a {
+
+                justify-content: center;
+
+                width: 100%;
+
+            }
+
+        }
+
+
+
+        /*=========================================================
+          SMALL MOBILE
+        =========================================================*/
+
+        @media(max-width:480px) {
+
+            .rgu-fp-image img {
+
+                height: 290px;
+
+            }
+
+            .rgu-fp-name {
+
+                font-size: 1.45rem;
+
+            }
+
+            .rgu-fp-section-title {
+
+                font-size: 1.5rem;
+
+            }
+
+            .rgu-fp-award-card {
+
+                padding: 22px;
+
+                gap: 15px;
+
+            }
+
+            .rgu-fp-award-icon {
+
+                width: 52px;
+                height: 52px;
+
+                font-size: 1.2rem;
+
+            }
+
+            .rgu-fp-tags {
+
+                gap: 10px;
+
+            }
+
+            .rgu-fp-tags span {
+
+                font-size: .85rem;
+
+                padding: 10px 18px;
+
+            }
+
         }
     </style>
 
-    <section>
+    <section class="pg-hero" style="height: 25vh;">
+        <div class="pg-hero-bg"
+            style="background-image:url('assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);"></div>
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-        </div>
-        <div class="website">
-            @include('frontend/components/aheader')
-        </div>
+        <div class="pg-hero-bg"></div>
+        <div class="pg-hero-overlay"></div>
 
-        <section class="pg-hero" style="height: 25vh;">
-            <div class="pg-hero-bg"
-                style="background-image:url('assets/img/discover-rgu-preface/hero-img.jpg'); filter: blur(3px);"></div>
+    </section>
 
-            <div class="pg-hero-bg"></div>
-            <div class="pg-hero-overlay"></div>
+    <section class="rgu-fp-page">
 
-        </section>
+        <div class="container">
 
-        <section class="rgu-fp-page">
+            <div class="rgu-fp-wrapper">
 
-            <div class="container">
-
-                <div class="rgu-fp-wrapper">
-
-                    <!-- =======================================================
+                <!-- =======================================================
                      LEFT SIDEBAR (STICKY)
                 ======================================================== -->
 
-                    <aside class="rgu-fp-sidebar">
+                <aside class="rgu-fp-sidebar">
 
-                        <div class="rgu-fp-profile-card">
+                    <div class="rgu-fp-profile-card">
 
-                            <div class="rgu-fp-image">
+                        <div class="rgu-fp-image">
 
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Zulfiqar-fac.png"
-                                    alt="Dr. Zulfiqar Ullah Siddiqui">
-
-                            </div>
-
-                            <div class="rgu-fp-info">
-
-                                <h1 class="rgu-fp-name">
-                                    Dr. Zulfiqar Ullah Siddiqui
-                                </h1>
-
-                                <div class="rgu-fp-designation">
-                                    Associate Professor
-                                </div>
-
-
-
-                            </div>
+                            <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Zulfiqar-fac.png"
+                                alt="Dr. Zulfiqar Ullah Siddiqui">
 
                         </div>
 
-                    </aside>
+                        <div class="rgu-fp-info">
+
+                            <h1 class="rgu-fp-name">
+                                Dr. Zulfiqar Ullah Siddiqui
+                            </h1>
+
+                            <div class="rgu-fp-designation">
+                                Associate Professor
+                            </div>
 
 
-                    <!-- =======================================================
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- =======================================================
                      RIGHT CONTENT
                 ======================================================== -->
 
-                    <div class="rgu-fp-content">
+                <div class="rgu-fp-content">
 
-                        <!-- HTML PART 2 STARTS HERE -->
-                        <!-- =======================================================
+                    <!-- HTML PART 2 STARTS HERE -->
+                    <!-- =======================================================
                          QUALIFICATIONS
                     ======================================================== -->
 
-                        <section class="rgu-fp-section">
+                    <section class="rgu-fp-section">
 
-                            <h2 class="rgu-fp-section-title">
-                                Qualifications
-                            </h2>
+                        <h2 class="rgu-fp-section-title">
+                            Qualifications
+                        </h2>
 
-                            <ul class="rgu-fp-list">
+                        <ul class="rgu-fp-list">
 
-                                <li>Post-Doctoral Fellow (PDF) Psychology (UGC) Aligarh Muslim University (A.M.U)
+                            <li>Post-Doctoral Fellow (PDF) Psychology (UGC) Aligarh Muslim University (A.M.U)
 
-                                </li>
-                                <li>Ph.D. in Psychology (AMU)
-                                </li>
-                                <li>M. Phil in Psychology (A.M.U)</li>
-                                <li>P.G Diploma in Guidance & Counselling (AMU)
-                                </li>
-                                <li>M.A Psychology (AMU)</li>
-                                <li>P.G Diploma in Journalism & Mass Communication (A.M.U)</li>
-                                <li>B.A Economics (A.M.U)</li>
-
-
-                            </ul>
-
-                        </section>
+                            </li>
+                            <li>Ph.D. in Psychology (AMU)
+                            </li>
+                            <li>M. Phil in Psychology (A.M.U)</li>
+                            <li>P.G Diploma in Guidance & Counselling (AMU)
+                            </li>
+                            <li>M.A Psychology (AMU)</li>
+                            <li>P.G Diploma in Journalism & Mass Communication (A.M.U)</li>
+                            <li>B.A Economics (A.M.U)</li>
 
 
-                        <!-- =======================================================
+                        </ul>
+
+                    </section>
+
+
+                    <!-- =======================================================
                          EXPERIENCE / HIGHLIGHTS
                     ======================================================== -->
 
-                        <section class="rgu-fp-section">
+                    <section class="rgu-fp-section">
 
-                            <div class="rgu-fp-stats-grid">
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Total Experience</h3>
-
-                                    <p> 15+ Years</p>
-
-                                </div>
+                        <div class="rgu-fp-stats-grid">
 
 
-                                <div class="rgu-fp-stat-card">
+                            <div class="rgu-fp-stat-card">
 
-                                    <h3>Academic Experience</h3>
+                                <h3>Total Experience</h3>
 
-                                    <p>9+ Years</p>
+                                <p> 15+ Years</p>
 
-                                </div>
+                            </div>
 
 
-                                <!-- <div class="rgu-fp-stat-card">
+                            <div class="rgu-fp-stat-card">
+
+                                <h3>Academic Experience</h3>
+
+                                <p>9+ Years</p>
+
+                            </div>
+
+
+                            <!-- <div class="rgu-fp-stat-card">
 
                                     <h3>Industry Experience</h3>
 
@@ -294,38 +1120,38 @@
                                 </div> -->
 
 
-                                <div class="rgu-fp-stat-card">
+                            <div class="rgu-fp-stat-card">
 
-                                    <h3>Research (Outside Teaching)</h3>
+                                <h3>Research (Outside Teaching)</h3>
 
-                                    <p>10+ Years</p>
+                                <p>10+ Years</p>
 
-                                </div>
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Paper Publications in Journals</h3>
-
-                                    <p>
-                                        National Journals: 15
-                                        <span>|</span>
-
-                                        International: 20
-                                    </p>
-
-                                </div>
+                            </div>
 
 
-                                <div class="rgu-fp-stat-card">
+                            <div class="rgu-fp-stat-card">
 
-                                    <h3>Patents Published</h3>
+                                <h3>Paper Publications in Journals</h3>
 
-                                    <p>01</p>
+                                <p>
+                                    National Journals: 15
+                                    <span>|</span>
 
-                                </div>
+                                    International: 20
+                                </p>
 
-                                <!-- <div class="rgu-fp-stat-card">
+                            </div>
+
+
+                            <div class="rgu-fp-stat-card">
+
+                                <h3>Patents Published</h3>
+
+                                <p>01</p>
+
+                            </div>
+
+                            <!-- <div class="rgu-fp-stat-card">
 
                                     <h3>Patents Granted</h3>
 
@@ -334,60 +1160,60 @@
                                 </div> -->
 
 
-                                <div class="rgu-fp-stat-card">
+                            <div class="rgu-fp-stat-card">
 
-                                    <h3>Books Published</h3>
+                                <h3>Books Published</h3>
 
-                                    <p>04</p>
-
-                                </div>
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Book Chapters Published</h3>
-
-                                    <p>07</p>
-
-                                </div>
-
-
-                                <div class="rgu-fp-stat-card">
-
-                                    <h3>Books Edited</h3>
-
-                                    <p>01</p>
-
-                                </div>
-
+                                <p>04</p>
 
                             </div>
 
-                        </section>
 
-                        <!-- =======================================================
+                            <div class="rgu-fp-stat-card">
+
+                                <h3>Book Chapters Published</h3>
+
+                                <p>07</p>
+
+                            </div>
+
+
+                            <div class="rgu-fp-stat-card">
+
+                                <h3>Books Edited</h3>
+
+                                <p>01</p>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+                    <!-- =======================================================
                          RESEARCH INTEREST
                     ======================================================== -->
 
-                        <section class="rgu-fp-section">
+                    <section class="rgu-fp-section">
 
-                            <h2 class="rgu-fp-section-title">
-                                Research Interest
-                            </h2>
+                        <h2 class="rgu-fp-section-title">
+                            Research Interest
+                        </h2>
 
-                            <ul class="rgu-fp-list">
+                        <ul class="rgu-fp-list">
 
-                                <li>
-                                    Positive Psychology, Spiritual Psychology, Organizational Behaviour, Social Psychology,
-                                    Social Psychology
+                            <li>
+                                Positive Psychology, Spiritual Psychology, Organizational Behaviour, Social Psychology,
+                                Social Psychology
 
-                                </li>
+                            </li>
 
-                            </ul>
+                        </ul>
 
-                        </section>
+                    </section>
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Projects Undertaken
@@ -411,33 +1237,33 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          ACHIEVEMENTS & AWARDS
                     ======================================================== -->
 
-                        <section class="rgu-fp-section">
+                    <section class="rgu-fp-section">
 
-                            <h2 class="rgu-fp-section-title">
-                                Any Other Achievements/Awards
-                            </h2>
-
-
-                            <ul class="rgu-fp-list">
-
-                                <li>
-                                    Awarded Post Doctoral Fellow (UGC)
-                                </li>
+                        <h2 class="rgu-fp-section-title">
+                            Any Other Achievements/Awards
+                        </h2>
 
 
+                        <ul class="rgu-fp-list">
 
-                            </ul>
+                            <li>
+                                Awarded Post Doctoral Fellow (UGC)
+                            </li>
 
-                        </section>
 
-                        <!-- =======================================================
+
+                        </ul>
+
+                    </section>
+
+                    <!-- =======================================================
                          RESEARCH PROJECTS (OPTIONAL)
                     ======================================================== -->
-                        <!--
+                    <!--
                         <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
@@ -498,11 +1324,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          PATENTS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Patents
@@ -524,11 +1350,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          BOOKS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Books
@@ -550,11 +1376,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          BOOK CHAPTERS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Book Chapters
@@ -576,11 +1402,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          PUBLICATIONS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Selected Publications
@@ -615,11 +1441,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          PROFESSIONAL MEMBERSHIPS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Professional Memberships
@@ -641,11 +1467,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          COURSES TAUGHT (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Courses Taught
@@ -669,11 +1495,11 @@
 
 
 
-                        <!-- =======================================================
+                    <!-- =======================================================
                          DOWNLOADS (OPTIONAL)
                     ======================================================== -->
 
-                        <!-- <section class="rgu-fp-section">
+                    <!-- <section class="rgu-fp-section">
 
                             <h2 class="rgu-fp-section-title">
                                 Downloads
@@ -703,19 +1529,17 @@
 
 
 
-                    </div>
-                    <!-- END CONTENT -->
-
-
                 </div>
-                <!-- END WRAPPER -->
+                <!-- END CONTENT -->
 
 
             </div>
-            <!-- END CONTAINER -->
+            <!-- END WRAPPER -->
 
 
-        </section>
+        </div>
+        <!-- END CONTAINER -->
+
 
     </section>
 @endsection

@@ -1,4 +1,4 @@
-@extends('frontend.master')
+@extends('frontend/new-master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
@@ -165,7 +165,7 @@ Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS) 
                             </div>
                             <h3 class="card-name">Dr. Zulfiqar Ullah Siddiqui</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="/faculty-prince-cp" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-zulfiqar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
