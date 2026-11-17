@@ -46,6 +46,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Keeping Zubeen Garg’s Spirit Alive: Royal Global University symposium explores the future of ZG Consciousness',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 17, 2026:',
+                            'link' => '/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness',
+                            'image' => '/new-web/assets/media-corner/nov/p2/2.jpeg',
+                            'content' => 'The two-day symposium titled ‘ZG Consciousness’ concluded today at The Assam Royal Global University (RGU). Organised by the Dr Bhupen Hazarika Centre for Creativity and the Department of Geography and Geoinformatics of RGU...',
+                        ],
+                        [
                             'title' => 'ZG Consciousness Symposium begins at Royal Global University',
                             'summary' => 'Time Stands Still when we Listen to Zubeen’s Voice: Dr Partha Sarathi Mahanta, IPS',
                             'date' => 'Guwahati, November 16, 2026:',

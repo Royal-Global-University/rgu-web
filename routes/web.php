@@ -3306,6 +3306,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness', function () {
+    return view('/frontend/media-corner/2026/nov/news8');
+})->name('keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness');
+
 Route::get('/zg-consciousness-symposium-begins-at-royal-global-university', function () {
     return view('/frontend/media-corner/2026/nov/news7');
 })->name('zg-consciousness-symposium-begins-at-royal-global-university');

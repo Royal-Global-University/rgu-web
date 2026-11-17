@@ -2,7 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
-            date: "Guwahati, November 14, 2026",
+            date: "Guwahati, November 17, 2026",
+            title: "Keeping Zubeen Garg’s Spirit Alive: Royal Global University symposium explores the future of ZG Consciousness",
+            desc: "The two-day symposium titled ‘ZG Consciousness’ concluded today at The Assam Royal Global University (RGU). Organised by the Dr Bhupen Hazarika Centre for Creativity and the Department of Geography and Geoinformatics of RGU...",
+            img: "/new-web/assets/media-corner/nov/p2/2.jpeg",
+            link: "/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness",
+        },
+        {
+            date: "Guwahati, November 16, 2026",
             title: "ZG Consciousness Symposium begins at Royal Global University",
             desc: "A two-day symposium titled ‘ZG Consciousness’ began today at The Assam Royal Global University (RGU), providing an academic and cultural platform to reflect on the enduring legacy, socio-cultural impact and philosophical vision of Zubeen Garg.",
             img: "/new-web/assets/media-corner/nov/p1/1.jpeg",
