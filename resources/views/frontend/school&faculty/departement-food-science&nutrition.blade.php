@@ -1318,20 +1318,20 @@
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus
+                                    Course Structure and Syllabus - B.Sc. Food Technology
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>
 
-                            {{-- <a target="_blank"
-                                href="mobile-assets/rsmas-new-dept/food-sc-nutrition/syllabus/B.Sc. N&D_ SYLLABUS_2024 BATCH.pdf"
+                            <a target="_blank"
+                                href="/new-web/assets/syllabus-2027/RSMAS@/Nutrition/UG - Nutrition and Dietetics_Course Structure &  Detailed Syllabus_AY 2026-27.pdf"
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus -- B.Sc. Nutrition & Dietetics 2024
+                                    Course Structure and Syllabus -- B.Sc. Nutrition & Dietetics
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
-                            </a> --}}
+                            </a>
 
                         </div>
                     </div>
@@ -1354,7 +1354,7 @@
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus 
+                                    Course Structure and Syllabus - Food Technology
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>
@@ -1364,7 +1364,7 @@
                                 class="dept-food-sc-syllabus-link">
                                 <div class="dept-food-sc-syllabus-link-left">
                                     <i class="fa-solid fa-file-lines"></i>
-                                    Course Structure and Syllabus 
+                                    Course Structure and Syllabus - Nutrition & Dietetics
                                 </div>
                                 <i class="fa-solid fa-download dept-food-sc-download-icon"></i>
                             </a>
