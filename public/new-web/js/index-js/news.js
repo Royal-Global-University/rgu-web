@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 18, 2026",
+            title: "Historians and Scholars Gather at Royal Global University for 45th NEIHA Session",
+            desc: "The 45th Session of the North East India History Association (NEIHA) commenced today at The Assam Royal Global University (RGU), bringing together eminent historians, academicians, researchers and scholars from across the Northeast, other parts of India and abroad for three days of intellectual deliberations on diverse aspects of history.",
+            img: "/new-web/assets/media-corner/nov/p3/4.jpeg",
+            link: "/historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session",
+        },
+        {
             date: "Guwahati, November 17, 2026",
             title: "Keeping Zubeen Garg’s Spirit Alive: Royal Global University symposium explores the future of ZG Consciousness",
             desc: "The two-day symposium titled ‘ZG Consciousness’ concluded today at The Assam Royal Global University (RGU). Organised by the Dr Bhupen Hazarika Centre for Creativity and the Department of Geography and Geoinformatics of RGU...",

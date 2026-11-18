@@ -46,36 +46,60 @@
                 @php
                     $newsItems = [
                         [
-                            'title' => 'Keeping Zubeen Garg’s Spirit Alive: Royal Global University symposium explores the future of ZG Consciousness',
+                            'title' =>
+                                'Historians and Scholars Gather at Royal Global University for 45th NEIHA Session',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 18, 2026:',
+                            'link' =>
+                                '/historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session',
+                            'image' => '/new-web/assets/media-corner/nov/p3/4.jpeg',
+                            'content' => 'The 45th Session of the North East India History Association (NEIHA) commenced today at The Assam Royal
+                Global University (RGU), bringing together eminent historians, academicians, researchers and scholars from
+                across the Northeast, other parts of India and abroad for three days of intellectual deliberations on
+                diverse aspects of history.',
+                        ],
+                        [
+                            'title' =>
+                                'Keeping Zubeen Garg’s Spirit Alive: Royal Global University symposium explores the future of ZG Consciousness',
                             'summary' => '',
                             'date' => 'Guwahati, November 17, 2026:',
-                            'link' => '/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness',
+                            'link' =>
+                                '/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness',
                             'image' => '/new-web/assets/media-corner/nov/p2/2.jpeg',
-                            'content' => 'The two-day symposium titled ‘ZG Consciousness’ concluded today at The Assam Royal Global University (RGU). Organised by the Dr Bhupen Hazarika Centre for Creativity and the Department of Geography and Geoinformatics of RGU...',
+                            'content' =>
+                                'The two-day symposium titled ‘ZG Consciousness’ concluded today at The Assam Royal Global University (RGU). Organised by the Dr Bhupen Hazarika Centre for Creativity and the Department of Geography and Geoinformatics of RGU...',
                         ],
                         [
                             'title' => 'ZG Consciousness Symposium begins at Royal Global University',
-                            'summary' => 'Time Stands Still when we Listen to Zubeen’s Voice: Dr Partha Sarathi Mahanta, IPS',
+                            'summary' =>
+                                'Time Stands Still when we Listen to Zubeen’s Voice: Dr Partha Sarathi Mahanta, IPS',
                             'date' => 'Guwahati, November 16, 2026:',
                             'link' => '/zg-consciousness-symposium-begins-at-royal-global-university',
                             'image' => '/new-web/assets/media-corner/nov/p1/1.jpeg',
-                            'content' => 'A two-day symposium titled ‘ZG Consciousness’ began today at The Assam Royal Global University (RGU), providing an academic and cultural platform to reflect on the enduring legacy, socio-cultural impact and philosophical vision of Zubeen Garg.',
+                            'content' =>
+                                'A two-day symposium titled ‘ZG Consciousness’ began today at The Assam Royal Global University (RGU), providing an academic and cultural platform to reflect on the enduring legacy, socio-cultural impact and philosophical vision of Zubeen Garg.',
                         ],
                         [
-                            'title' => 'Consensio 2026 concludes at Royal Global University with over 1,600 participants across 30+ events',
+                            'title' =>
+                                'Consensio 2026 concludes at Royal Global University with over 1,600 participants across 30+ events',
                             'summary' => '',
                             'date' => 'Guwahati, November 14, 2026:',
-                            'link' => '/consensio-2026-concludes-at-royal-global-university-with-over-1600-participants-across-30-events',
+                            'link' =>
+                                '/consensio-2026-concludes-at-royal-global-university-with-over-1600-participants-across-30-events',
                             'image' => '/new-web/assets/media-corner/nov/con/2.JPG',
-                            'content' => 'Consensio 2026, the annual flagship techno-management and cultural festival of The Assam Royal Global University (RGU), concluded today after two days of vibrant competitions, performances and creative celebrations. Held on November 13 and 14 under the theme ‘SuperBloom’, the festival witnessed participation from over 1,600 students competing in more than 30 events across diverse disciplines.',
+                            'content' =>
+                                'Consensio 2026, the annual flagship techno-management and cultural festival of The Assam Royal Global University (RGU), concluded today after two days of vibrant competitions, performances and creative celebrations. Held on November 13 and 14 under the theme ‘SuperBloom’, the festival witnessed participation from over 1,600 students competing in more than 30 events across diverse disciplines.',
                         ],
                         [
-                            'title' => 'Asian Games gold medallist Ankita Bhakat and Olympian Jayanta Talukdar felicitated at RGU',
+                            'title' =>
+                                'Asian Games gold medallist Ankita Bhakat and Olympian Jayanta Talukdar felicitated at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, November 11, 2026:',
-                            'link' => '/asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university',
+                            'link' =>
+                                '/asian-games-gold-medallist-ankita-bhakat-and-olympian-jayanta-talukdar-felicitated-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/2026/nov/12/3.jpeg',
-                            'content' => 'The Assam Royal Global University (RGU) on Tuesday felicitated its student and ace archer Ankita Bhakat for her historic gold medal triumph at the Asian Games 2026, celebrating her outstanding contribution to Indian sports. The university also felicitated Olympian and World Cup gold medallist Jayanta Talukdar, an MBA ...',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) on Tuesday felicitated its student and ace archer Ankita Bhakat for her historic gold medal triumph at the Asian Games 2026, celebrating her outstanding contribution to Indian sports. The university also felicitated Olympian and World Cup gold medallist Jayanta Talukdar, an MBA ...',
                         ],
                         [
                             'title' => '45th Session of NEIHA begins on 18 November at Royal Global University',
@@ -83,52 +107,63 @@
                             'date' => 'Guwahati, November 10, 2026:',
                             'link' => '/45th-session-of-neiha-begins-on-18-november-at-royal-global-university',
                             'image' => '/mobile-assets/rgu-blog/blog2.jpeg',
-                            'content' => 'The Assam Royal Global University is organising the forty-fifth session of the North East India History Association (NEIHA) this year on 18th, 19th and 20th of November 2026. It will be a three-day international event featuring intellectual discourses in the field of history.',
+                            'content' =>
+                                'The Assam Royal Global University is organising the forty-fifth session of the North East India History Association (NEIHA) this year on 18th, 19th and 20th of November 2026. It will be a three-day international event featuring intellectual discourses in the field of history.',
                         ],
                         [
-                            'title' => 'Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain',
-                            'summary' => 'RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage',
+                            'title' =>
+                                'Bhupen Hazarika projected the overlooked pains of the exploited: Prof Alak Kumar Buragohain',
+                            'summary' =>
+                                'RGU launches indigenous software ‘SonicDiff’ to advance research and preservation of Assam’s musical heritage',
                             'date' => 'Guwahati, November 5, 2026:',
-                            'link' => '/rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage',
+                            'link' =>
+                                '/rgu-launches-indigenous-software-sonicdiff-to-advance-research-and-preservation-of-assams-musical-heritage',
                             'image' => '/mobile-assets/ads/nov/1.jpeg',
                             'content' => 'The Second Dr Bhupen Hazarika Oration Series, organised by the Dr Bhupen Hazarika Centre for Creativity at
                 The Assam Royal Global University...',
                         ],
                         [
-                            'title' => '“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty',
-                            'summary' =>
-                                '',
+                            'title' =>
+                                '“This Is the Time for India”: Sajjan Jindal Tells Royal Global University Graduates to Embrace Opportunities with Hard Work and Honesty',
+                            'summary' => '',
                             'date' => 'Guwahati, October 31, 2026:',
-                            'link' => '/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty',
+                            'link' =>
+                                '/this-is-the-time-for-india-sajjan-jindal-tells-royal-global-university-graduates-to-embrace-opportunities-with-hard-work-and-honesty',
                             'image' => '/new-web/assets/media-corner/nov/3.jpeg',
-                            'content' => 'Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.',
+                            'content' =>
+                                'Calling the present moment a defining period in India’s growth story, Sri Sajjan Jindal, Chairman and Managing Director of the JSW Group, urged graduating students of The Assam Royal Global University (RGU) to seize the opportunities ahead with dedication, hard work and honesty.',
                         ],
                         [
-                            'title' => 'Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees',
+                            'title' =>
+                                'Sixth Convocation of Royal Global University Concludes, 1609 Graduates Awarded Degrees',
                             'summary' =>
                                 'The Sixth Convocation of The Assam Royal Global University (RGU) was held today in the presence of a galaxy of eminent dignitaries.',
                             'date' => 'Guwahati, October 30, 2026:',
-                            'link' => '/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees',
+                            'link' =>
+                                '/sixth-convocation-of-royal-global-university-concludes-1609-graduates-awarded-degrees',
                             'image' => '/mobile-assets/media-corner/2026/nov/2.jpeg',
-                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
+                            'content' =>
+                                'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
                         ],
                         [
                             'title' => 'Synthesis 2026: Royal Global University’s Fashion Designers Take Centre Stage',
-                            'summary' =>
-                                'Renowned designer Anju Modi addresses students, presents Awards',
+                            'summary' => 'Renowned designer Anju Modi addresses students, presents Awards',
                             'date' => 'Guwahati, October 10, 2026:',
                             'link' => '/synthesis-2026-royal-global-university-s-fashion-designers-take-centre-stage',
                             'image' => '/mobile-assets/media-corner/2026/oct/2/1.jpeg',
-                            'content' => 'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
+                            'content' =>
+                                'The Royal School of Fashion Design and Technology (RSFT) of The Assam Royal Global University (RGU) celebrated the creativity and talent of its graduating designers through ‘Synthesis 2026 – A Graduation Design Showcase’, held at the Royal Garden on the university campus on Friday.',
                         ],
                         [
-                            'title' => '3 RGU Teachers amongst World’s Top 2% Scientists & 13 among the Top 1,000 Global Scholars',
-                            'summary' =>
-                                '',
+                            'title' =>
+                                '3 RGU Teachers amongst World’s Top 2% Scientists & 13 among the Top 1,000 Global Scholars',
+                            'summary' => '',
                             'date' => 'Guwahati, October 8, 2026:',
-                            'link' => '/3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars',
+                            'link' =>
+                                '/3-rgu-teachers-amongst-worlds-top-2-scientists-13-among-the-top-1000-global-scholars',
                             'image' => '/mobile-assets/media-corner/2026/oct/1/frame.png',
-                            'content' => 'Three faculty members of The Assam Royal Global University (RGU) have been named among the World’s Top 2% Scientists for 2026 in the global ranking published by published by Elsevier and Stanford University databases, on October 7.',
+                            'content' =>
+                                'Three faculty members of The Assam Royal Global University (RGU) have been named among the World’s Top 2% Scientists for 2026 in the global ranking published by published by Elsevier and Stanford University databases, on October 7.',
                         ],
                         [
                             'title' => '6th Convocation of Royal Global University on 30th October',

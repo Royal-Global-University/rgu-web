@@ -3306,6 +3306,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session', function () {
+    return view('/frontend/media-corner/2026/nov/news9');
+})->name('historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session');
+
 Route::get('/keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness', function () {
     return view('/frontend/media-corner/2026/nov/news8');
 })->name('keeping-zubeen-gargs-spirit-alive-royal-global-university-symposium-explores-the-future-of-zg-consciousness');
