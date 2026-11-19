@@ -3306,6 +3306,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india', function () {
+    return view('/frontend/media-corner/2026/nov/news10');
+})->name('from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india');
+
 Route::get('/historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session', function () {
     return view('/frontend/media-corner/2026/nov/news9');
 })->name('historians-and-scholars-gather-at-royal-global-university-for-45th-neiha-session');

@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 19, 2026",
+            title: "From 33 Countries to One Campus: RGU Emerges as a Global Education Hub in NE India",
+            desc: "With 517 students representing 33 countries, The Assam Royal Global University (RGU) is fast emerging as an international education hub in Northeast India. From Asia and Africa to the Pacific Islands, students from diverse cultural backgrounds are making the campus a meeting point of nations, cultures and ideas, transforming it into a truly global learning community.",
+            img: "/mobile-assets/media-corner/2026/nov/19/1.jpeg",
+            link: "/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india",
+        },
+        {
             date: "Guwahati, November 18, 2026",
             title: "Historians and Scholars Gather at Royal Global University for 45th NEIHA Session",
             desc: "The 45th Session of the North East India History Association (NEIHA) commenced today at The Assam Royal Global University (RGU), bringing together eminent historians, academicians, researchers and scholars from across the Northeast, other parts of India and abroad for three days of intellectual deliberations on diverse aspects of history.",

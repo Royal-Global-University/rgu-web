@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'From 33 Countries to One Campus: RGU Emerges as a Global Education Hub in NE India',
+                            'summary' => 'International Students’ Day 2026 Celebrated at Royal Global University',
+                            'date' => 'Guwahati, November 19, 2026:',
+                            'link' =>
+                                '/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india',
+                            'image' => '/mobile-assets/media-corner/2026/nov/19/1.jpeg',
+                            'content' => 'With 517 students representing 33 countries, The Assam Royal Global University (RGU) is fast emerging as an international education hub in Northeast India...',
+                        ],
+                        [
+                            'title' =>
                                 'Historians and Scholars Gather at Royal Global University for 45th NEIHA Session',
                             'summary' => '',
                             'date' => 'Guwahati, November 18, 2026:',
