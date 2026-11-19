@@ -1404,6 +1404,15 @@
                                 <i class="fa-solid fa-download dept-nursing-download-icon"></i>
                             </a>
 
+                            <a target="_blank" href="/new-web/assets/syllabus-2027/RSN/GNM Syllabus.pdf"
+                                class="dept-nursing-syllabus-link">
+                                <div class="dept-nursing-syllabus-link-left">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                    Detailed Syllabus -- GNM
+                                </div>
+                                <i class="fa-solid fa-download dept-nursing-download-icon"></i>
+                            </a>
+
                         </div>
                     </div>
                 </div>
