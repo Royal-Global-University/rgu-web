@@ -255,9 +255,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Amlan-jypti.jpeg"
-                                    alt="Profile image of Dr. Amlan Jyoti Oza">
+                                    alt="Profile image of Dr. Amlanjyoti Oza">
                             </div>
-                            <h3 class="card-name">Dr. Amlan Jyoti Oza</h3>
+                            <h3 class="card-name">Dr. Amlanjyoti Oza</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-amlan-jyoti-oza" class="profile-link">View Profile</a>
                         </div>

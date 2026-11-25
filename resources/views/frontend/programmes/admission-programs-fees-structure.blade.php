@@ -1418,8 +1418,375 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+                                        {{-- <tr>
+                                            <td>11.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">B.Des Communication Design — Lateral Entry</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>12.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">B.Des Graphic Design — Lateral Entry</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
 
 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- ----- new ----- -->
+
+                                                <div>
+                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
+                                class="text-dark fw-bold para1 p-2">
+                                <th>Royal School of Education (RSE)</th>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table border table-responsive table-striped  vertical-scroll">
+                                    <thead class="text-light  para1" style="font-size: 14px;">
+                                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                                        <th class="text-light  font-weight-bold">COURSES</th>
+                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">DETAILS</th>
+                                    </thead>
+                                    <tbody class="para1">
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: BA B.Ed. (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('departmentrse-ba-bed-sec') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc. B.Ed - (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-bsc-bed-sec') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc. B.Ed. (Middle)</strong>
+                                                    <br>
+                                                    <a href="{{ route('department-rse-bsc-bed-middle') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-bsc-bed-middle') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Com. B.Ed. (Secondary)</strong>
+                                                    <br>
+                                                    <a href="{{ route('department-rse-B-Com-B-Ed') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-B-Com-B-Ed') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        {{-- <tr>
+                                            <td>5.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: M.PED </strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-m-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>6.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.PED</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-b-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ----- new ----- -->
+                        <div>
+                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
+                                class="text-dark fw-bold para1 p-2">
+                                <th>Royal School of Education (RSE)</th>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table border table-responsive table-striped  vertical-scroll">
+                                    <thead class="text-light  para1" style="font-size: 14px;">
+                                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                                        <th class="text-light  font-weight-bold">COURSES</th>
+                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">DETAILS</th>
+                                    </thead>
+                                    <tbody class="para1">
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: BA B.Ed. (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('departmentrse-ba-bed-sec') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc. B.Ed - (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="#"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
+                                                        Geology</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-MSc-Geology') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-MSc-Geology') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
+                                                        Geoinformatics</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-MSc-in-Geoinformatics') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-MSc-in-Geoinformatics') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H) /BA(H)
+                                                        Geography</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-BSc-Geography') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
+                                                            years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-BSc-Geography') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>6.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H)
+                                                        Geology</strong>
+                                                    <br>
+                                                    <a href="{{ route('programs-b-sc-geology') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
+                                                            years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            <td><a href="{{ route('programs-b-sc-geology') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        {{-- <tr>
+                                            <td>7.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #7f5539;" class="#">Course: Certificate in
+                                                        Geography</strong>
+                                                    <br>
+                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 1 year as
+                                                            per NEP | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>43500.00</td>
+                                            <td><a><button type="button" disabled
+                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>8.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #7f5539;" class="#">Course: Certificate in
+                                                        Geology</strong>
+                                                    <br>
+                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 1 year as
+                                                            per NEP | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>43500.00</td>
+                                            <td><a><button type="button" disabled
+                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>9.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: Diploma in
+                                                        Geography</strong>
+                                                    <br>
+                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 2 years
+                                                            as per NEP | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>43500.00</td>
+                                            <td><a><button type="button" disabled
+                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>10.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: Diploma in
+                                                        Geology</strong>
+                                                    <br>
+                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 2 years
+                                                            as per NEP | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>43500.00</td>
+                                            <td><a><button type="button" disabled
+                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
                                     </tbody>
                                 </table>
                             </div>
@@ -2406,6 +2773,44 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
+                                        {{-- <tr>
+                                            <td>13.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: MA International Relations</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                            2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-ma-international-relations') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>14.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: MA Gender Studies</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-ma-gender-studies') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                            2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-ma-gender-studies') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
 
                                     </tbody>
                                 </table>
@@ -3794,6 +4199,85 @@
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
+                        {{-- <div>
+                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
+                                class="text-dark fw-bold para1 p-2">
+                                <th>Royal School of Performing Arts(RSPA)</th>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table border table-responsive table-striped  vertical-scroll">
+                                    <thead class="text-light  para1" style="font-size: 14px;">
+                                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                                        <th class="text-light  font-weight-bold">COURSES</th>
+                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">DETAILS</th>
+                                    </thead>
+                                    <tbody class="para1">
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course:
+                                                        Bachelor of Performing Art — (Theatre)</strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course:
+                                                        Bachelor of Performing Art — (Dance) Odissi/Folk/ Sattriya/ Kathak Bharatnatyam</strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-dance') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-dance') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: Bachelor of Performing Art — (Music) Tabla / Hindustani Classical Vocal </strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-music') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-music') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> --}}
+                        <!-- ----- new ----- -->
+
+                        <!-- ----- new ----- -->
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
@@ -3829,6 +4313,43 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
+                                        {{-- <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: M.PED </strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-m-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.PED</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-b-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
 
                                     </tbody>
                                 </table>
@@ -5675,11 +6196,179 @@
                                             </td>
                                         </tr>
 
+                                        {{-- <tr>
+                                            <td>11.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">B.Des Communication Design — Lateral Entry</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>12.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">B.Des Graphic Design — Lateral Entry</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
+
 
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+                        <!-- ----- new ----- -->
+
+                                                <!-- ----- new ----- -->
+                        {{-- <div>
+                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
+                                class="text-dark fw-bold para1 p-2">
+                                <th>Royal School of Education (RSE)</th>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table border table-responsive table-striped  vertical-scroll">
+                                    <thead class="text-light  para1" style="font-size: 14px;">
+                                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                                        <th class="text-light  font-weight-bold">COURSES</th>
+                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">DETAILS</th>
+                                    </thead>
+                                    <tbody class="para1">
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: BA B.Ed. (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('departmentrse-ba-bed-sec') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc. B.Ed - (Secondary)</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-bsc-bed-sec') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc. B.Ed. (Middle)</strong>
+                                                    <br>
+                                                    <a href="{{ route('department-rse-bsc-bed-middle') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-bsc-bed-middle') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Com. B.Ed. (Secondary)</strong>
+                                                    <br>
+                                                    <a href="{{ route('department-rse-B-Com-B-Ed') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>1,00,000.00</td>
+                                            <td>51,500.00</td>
+                                            <td><a href="{{ route('department-rse-B-Com-B-Ed') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: M.PED </strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-m-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.PED</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-b-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> --}}
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
@@ -6645,6 +7334,44 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
+                                        {{-- <tr>
+                                            <td>13.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: MA International Relations</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                            2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-ma-international-relations') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>14.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: MA Gender Studies</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-ma-gender-studies') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration:
+                                                            2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-ma-gender-studies') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
 
                                     </tbody>
                                 </table>
@@ -7947,7 +8674,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course:
                                                         B.Pharm.</strong>
                                                     <br>
-                                                    <a href="{{ route('programs-b-pharm') }}"
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee:
                                                             60000.00</span></a>
@@ -8045,6 +8772,85 @@
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
+                        {{-- <div>
+                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
+                                class="text-dark fw-bold para1 p-2">
+                                <th>Royal School of Performing Arts (RSPA)</th>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table border table-responsive table-striped  vertical-scroll">
+                                    <thead class="text-light  para1" style="font-size: 14px;">
+                                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                                        <th class="text-light  font-weight-bold">COURSES</th>
+                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
+                                        <th class="text-light  font-weight-bold">DETAILS</th>
+                                    </thead>
+                                    <tbody class="para1">
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course:
+                                                        Bachelor of Performing Art — (Theatre)</strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course:
+                                                        Bachelor of Performing Art — (Dance) Odissi/Folk/ Sattriya/ Kathak Bharatnatyam</strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-dance') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee:
+                                                            60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-dance') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: Bachelor of Performing Art — (Music) Tabla / Hindustani Classical Vocal </strong>
+                                                    <br>
+                                                    <a href="{{ route('programme-bachelor-of-performing-art-music') }}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('programme-bachelor-of-performing-art-music') }}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> --}}
+                        <!-- ----- new ----- -->
+
+                        <!-- ----- new ----- -->
                         <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
@@ -8080,6 +8886,43 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
+                                        {{-- <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: M.PED </strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-m-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Course: B.PED</strong>
+                                                    <br>
+                                                    <a href="{{ route('/programme-b-ped') }}"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                            years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr> --}}
                                     </tbody>
                                 </table>
                             </div>

@@ -1024,14 +1024,14 @@
                         <div class="rgu-fp-image">
 
                             <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Amlan-jypti.jpeg"
-                                alt="Dr. Amlan Jyoti Oza">
+                                alt="Dr. Amlanjyoti Oza">
 
                         </div>
 
                         <div class="rgu-fp-info">
 
                             <h1 class="rgu-fp-name">
-                                Dr. Amlan Jyoti Oza
+                                Dr. Amlanjyoti Oza
                             </h1>
 
                             <div class="rgu-fp-designation">

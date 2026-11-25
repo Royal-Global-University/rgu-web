@@ -1164,6 +1164,18 @@ Route::get('/programs', function () {
     return view('frontend/programmes/programs');
 })->name('programs');
 
+Route::get('/programme-bachelor-of-performing-art-theatre', function () {
+    return view('frontend/programmes/programme/RSPA/programme-bachelor-of-performing-art-theatre');
+})->name('programme-bachelor-of-performing-art-theatre');
+
+Route::get('/programme-bachelor-of-performing-art-dance', function () {
+    return view('frontend/programmes/programme/RSPA/programme-bachelor-of-performing-art-dance');
+})->name('programme-bachelor-of-performing-art-dance');
+
+Route::get('/programme-bachelor-of-performing-art-music', function () {
+    return view('frontend/programmes/programme/RSPA/programme-bachelor-of-performing-art-music');
+})->name('programme-bachelor-of-performing-art-music');
+
 Route::get('/program-btech-in-computer-science-and-business-system', function () {
     return view('frontend/programmes/program-btech-in-computer-science-and-business-system');
 })->name('program-btech-in-computer-science-and-business-system');
@@ -1408,13 +1420,39 @@ Route::get('/programs-Bachelor-of-Design-Communication-Design', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design');
 })->name('programs-Bachelor-of-Design-Communication-Design');
 
+Route::get('/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry');
+})->name('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry');
+
 Route::get('/programs-Bachelor-of-Design-Fashion-Design', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Fashion-Design');
 })->name('programs-Bachelor-of-Design-Fashion-Design');
 
+// new programme 2027
+
+Route::get('/programme-m-ped', function () {
+    return view('frontend/programmes/programme-m-ped');
+})->name('/programme-m-ped');
+
+Route::get('/programme-b-ped', function () {
+    return view('frontend/programmes/programme-b-ped');
+})->name('/programme-b-ped');
+
+Route::get('/programme-ma-gender-studies', function () {
+    return view('frontend/programmes/programme-ma-gender-studies');
+})->name('/programme-ma-gender-studies');
+
+Route::get('/programme-ma-international-relations', function () {
+    return view('frontend/programmes/programme-ma-international-relations');
+})->name('/programme-ma-international-relations');
+
 Route::get('/programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry');
 })->name('programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry');
+
+Route::get('/programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry');
+})->name('programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry');
 
 Route::get('/programs-Bachelor-of-Design-Graphic-Design', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Graphic-Design');
@@ -1796,7 +1834,7 @@ Route::get('/ba-English', function () {
 
 //School & Faculty
 
-Route::get('six', function () {
+Route::get('/departmentrse-ba-bed-sec', function () {
     return view('frontend/school&faculty/departmentrse-ba-bed-sec');
 })->name('departmentrse-ba-bed-sec');
 
@@ -3169,6 +3207,10 @@ Route::get('/Research_Department_Forestry', function () {
 Route::get('/Research_Department_Forestry', function () {
     return view('frontend/research/dept/Research_Department_Forestry');
 })->name('Research_Department_Forestry');
+
+Route::get('/department-performing-arts', function () {
+    return view('frontend/school&faculty/department-performing-arts');
+})->name('department-performing-arts');
 
 //research & Publication
 
