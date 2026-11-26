@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Royal Global University Hosts East Zone Women’s Inter-University Badminton Tournament 2026-27',
+                            'summary' => '46 universities from 12 states to compete in the four-day tournament',
+                            'date' => 'Guwahati, November 25, 2026:',
+                            'link' =>
+                                '/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india',
+                            'image' => '/mobile-assets/media-corner/2026/nov/26/1.jpeg',
+                            'content' => 'The East Zone Inter-University Badminton (Women) Tournament 2026–27 was
+                inaugurated today at RGU....',
+                        ],
+                        [
+                            'title' =>
                                 'From 33 Countries to One Campus: RGU Emerges as a Global Education Hub in NE India',
                             'summary' => 'International Students’ Day 2026 Celebrated at Royal Global University',
                             'date' => 'Guwahati, November 19, 2026:',

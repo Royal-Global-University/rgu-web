@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 25, 2026",
+            title: "Royal Global University Hosts East Zone Women’s Inter-University Badminton Tournament 2026-27",
+            desc: "The East Zone Inter-University Badminton (Women) Tournament 2026–27 was inaugurated today at The Assam Royal Global University (RGU), Guwahati, bringing together women badminton players from 46 universities across 12 states of the country for a four-day sporting extravaganza from November 24 to 27.",
+            img: "/mobile-assets/media-corner/2026/nov/26/1.jpeg",
+            link: "/royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27",
+        },
+        {
             date: "Guwahati, November 19, 2026",
             title: "From 33 Countries to One Campus: RGU Emerges as a Global Education Hub in NE India",
             desc: "With 517 students representing 33 countries, The Assam Royal Global University (RGU) is fast emerging as an international education hub in Northeast India. From Asia and Africa to the Pacific Islands, students from diverse cultural backgrounds are making the campus a meeting point of nations, cultures and ideas, transforming it into a truly global learning community.",

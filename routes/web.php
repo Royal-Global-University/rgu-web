@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\ProgrammeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -3348,6 +3349,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27', function () {
+    return view('/frontend/media-corner/2026/nov/news11');
+})->name('royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27');
+
 Route::get('/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india', function () {
     return view('/frontend/media-corner/2026/nov/news10');
 })->name('from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india');
@@ -6079,4 +6084,11 @@ Route::get('/rgu-signs-moU-with-assam-police', function () {
 })->name('rgu-signs-moU-with-assam-police');
 
 // TEST LINK
+
+//Dynamic
+Route::get('/rgu-programmes', [ProgrammeController::class, 'index'])->name('rgu-programmes');
+Route::get('/api/rgu-schools-programmes', [ProgrammeController::class, 'getSchoolsProgrammes'])->name('api.rgu-schools-programmes');
+
+Route::get('/rgu-programme-details/{slug?}', [ProgrammeController::class, 'details'])->name('rgu-programme-details');
+Route::get('/api/rgu-course-details/{id}', [ProgrammeController::class, 'getCourseDetails'])->name('api.rgu-course-details');
 
