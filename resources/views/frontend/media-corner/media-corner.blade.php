@@ -51,7 +51,7 @@
                             'summary' => '46 universities from 12 states to compete in the four-day tournament',
                             'date' => 'Guwahati, November 25, 2026:',
                             'link' =>
-                                '/from-33-countries-to-one-campus-rgu-emerges-as-a-global-education-hub-in-ne-india',
+                                '/royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27',
                             'image' => '/mobile-assets/media-corner/2026/nov/26/1.jpeg',
                             'content' => 'The East Zone Inter-University Badminton (Women) Tournament 2026–27 was
                 inaugurated today at RGU....',
