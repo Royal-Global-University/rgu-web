@@ -124,17 +124,6 @@ Social Sciences (RSHSS) & Royal School of Behavioural & Allied Sciences (RSBAS) 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Lanu.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Lanu Waneikhup Aimol</h3>
-                            <p class="card-designation">Professor</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="/mobile-assets/updated-faculty-img/Prataprudra.png"
                                     alt="Profile image ">
                             </div>
