@@ -1478,6 +1478,26 @@
                 ]
             },
             {
+                id: "RSPA",
+
+                name: "Royal School of Performing Arts (RSPA)",
+
+                image: "/new-web/assets/ads/per-2.jpeg",
+
+                departmentPage: "/department-performing-arts",
+
+                facultyPage: "/faculty-performing-arts",
+
+                departments: [
+
+                    {
+                        name: "Royal School of Performing Arts (RSPA)",
+                        url: "/department-performing-arts"
+                    }
+
+                ]
+            },
+            {
                 id: "rspes",
 
                 name: "Royal School of Physical Education and Sports (RSPES)",

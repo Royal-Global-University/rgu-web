@@ -1418,7 +1418,7 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
-                                        {{-- <tr>
+                                        <tr>
                                             <td>11.</td>
                                             <td>
                                                 <p>
@@ -1429,8 +1429,8 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>1,10,000.00</td>
+                                            <td>56,500.00</td>
                                             <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -1448,13 +1448,13 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>1,10,000.00</td>
+                                            <td>56,500.00</td>
                                             <td><a href="{{ route('programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
 
                                     </tbody>
@@ -1550,7 +1550,7 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
-                                        {{-- <tr>
+                                        <tr>
                                             <td>5.</td>
                                             <td>
                                                 <p>
@@ -1562,8 +1562,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1580,12 +1580,12 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -2774,7 +2774,7 @@
                                             </td>
                                         </tr>
 
-                                        {{-- <tr>
+                                        <tr>
                                             <td>13.</td>
                                             <td>
                                                 <p>
@@ -2786,8 +2786,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>90,000.00</td>
+                                            <td>46,500.00</td>
                                             <td><a href="{{ route('/programme-ma-international-relations') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -2805,12 +2805,12 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>90,000.00</td>
+                                            <td>46,500.00</td>
                                             <td><a href="{{ route('/programme-ma-gender-studies') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
                                     </tbody>
                                 </table>
@@ -4314,7 +4314,7 @@
                                             </td>
                                         </tr>
 
-                                        {{-- <tr>
+                                        <tr>
                                             <td>2.</td>
                                             <td>
                                                 <p>
@@ -4326,8 +4326,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -4344,12 +4344,12 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
                                     </tbody>
                                 </table>
@@ -6196,7 +6196,7 @@
                                             </td>
                                         </tr>
 
-                                        {{-- <tr>
+                                        <tr>
                                             <td>11.</td>
                                             <td>
                                                 <p>
@@ -6207,8 +6207,8 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>1,10,000.00</td>
+                                            <td>56,500.00</td>
                                             <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -6226,13 +6226,13 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>1,10,000.00</td>
+                                            <td>56,500.00</td>
                                             <td><a href="{{ route('programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
 
                                     </tbody>
@@ -6242,7 +6242,7 @@
                         <!-- ----- new ----- -->
 
                                                 <!-- ----- new ----- -->
-                        {{-- <div>
+                        <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
                                 <th>Royal School of Education (RSE)</th>
@@ -6269,8 +6269,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>1,00,000.00</td>
-                                            <td>51,500.00</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('departmentrse-ba-bed-sec') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6287,8 +6287,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>1,00,000.00</td>
-                                            <td>51,500.00</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('department-rse-bsc-bed-sec') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6305,8 +6305,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>1,00,000.00</td>
-                                            <td>51,500.00</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('department-rse-bsc-bed-middle') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6322,8 +6322,8 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>1,00,000.00</td>
-                                            <td>51,500.00</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('department-rse-B-Com-B-Ed') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -6341,8 +6341,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6359,8 +6359,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6368,7 +6368,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div> --}}
+                        </div>
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
@@ -7335,7 +7335,7 @@
                                             </td>
                                         </tr>
 
-                                        {{-- <tr>
+                                        <tr>
                                             <td>13.</td>
                                             <td>
                                                 <p>
@@ -7347,8 +7347,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>90,000.00</td>
+                                            <td>46,500.00</td>
                                             <td><a href="{{ route('/programme-ma-international-relations') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -7366,12 +7366,12 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>90,000.00</td>
+                                            <td>46,500.00</td>
                                             <td><a href="{{ route('/programme-ma-gender-studies') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
                                     </tbody>
                                 </table>
@@ -8772,7 +8772,7 @@
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
-                        {{-- <div>
+                        <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
                                 <th>Royal School of Performing Arts (RSPA)</th>
@@ -8800,8 +8800,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>50,000.00</td>
+                                            <td>26,500.00</td>
                                             <td><a href="{{ route('programme-bachelor-of-performing-art-theatre') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -8820,8 +8820,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>50,000.00</td>
+                                            <td>26,500.00</td>
                                             <td><a href="{{ route('programme-bachelor-of-performing-art-dance') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -8837,8 +8837,8 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>50,000.00</td>
+                                            <td>26,500.00</td>
                                             <td><a href="{{ route('programme-bachelor-of-performing-art-music') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -8847,7 +8847,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div> --}}
+                        </div>
                         <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
@@ -8887,7 +8887,7 @@
                                             </td>
                                         </tr>
 
-                                        {{-- <tr>
+                                        <tr>
                                             <td>2.</td>
                                             <td>
                                                 <p>
@@ -8899,8 +8899,8 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-m-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -8917,12 +8917,12 @@
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>80,000.00</td>
+                                            <td>41,500.00</td>
                                             <td><a href="{{ route('/programme-b-ped') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr> --}}
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

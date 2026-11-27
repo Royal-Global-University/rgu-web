@@ -21,9 +21,9 @@
 
     <style>
         /* ================================
-                   UNIQUE NAMESPACE STYLES
-                   Prefix: rgu-program-
-                ================================= */
+                       UNIQUE NAMESPACE STYLES
+                       Prefix: rgu-program-
+                    ================================= */
 
         .body-part {
             padding: 20px 0px;
@@ -53,8 +53,8 @@
         }
 
         /* ================================
-                   CARD DESIGN (POP EFFECT)
-                ================================= */
+                       CARD DESIGN (POP EFFECT)
+                    ================================= */
 
         .rgu-program-card {
             background: linear-gradient(135deg, #ffffff, #bdd1ff);
@@ -317,6 +317,83 @@
                     </div>
                 </div>
 
+                <!-- RSAG -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Agriculture">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsag">
+                            Royal School of Agriculture and Forestry (RSAF)
+                        </button>
+                    </h2>
+                    <div id="accRsag" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-bsc-agri" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. Agriculture</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-msc-agri" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Agriculture</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-b-sc-forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. - Forestry</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MSc-Forestry" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. - Forestry</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSA -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Architecture">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsa">
+                            Royal School of Architecture (RSA)
+                        </button>
+                    </h2>
+                    <div id="accRsa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-barch" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Arch</div>
+                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- RSAPS -->
                 <div class="accordion-item rgu-program-accordion-item"
                     data-school="Royal School of Applied & Pure Sciences">
@@ -390,27 +467,90 @@
                     </div>
                 </div>
 
-                <!-- RSA -->
-                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Architecture">
+                                <!-- RSB -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Business">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRsa">
-                            Royal School of Architecture (RSA)
+                            data-bs-target="#accRsb">
+                            Royal School of Business (RSB)
                         </button>
                     </h2>
-                    <div id="accRsa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                    <div id="accRsb" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
                         <div class="accordion-body">
                             <div class="row g-3">
-
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-barch" class="rgu-program-link">
+                                    <a href="programs-MBA-Finance" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Arch</div>
-                                            <div class="rgu-program-card-duration">Duration: 5 Years</div>
+                                            <div class="rgu-program-card-title">MBA Finance</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>
                                 </div>
 
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA Marketing</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – HRM</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – Operations Management</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                MBA – Entrepreneurship & Small Business Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MBA – Business Analytics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-BBA" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BBA</div>
+                                            <div class="rgu-program-card-duration">Duration: 3/4 Yr as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/program-executive-mba" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Executive MBA</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Yr as per NEP</div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -557,95 +697,6 @@
                                 </div>
 
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RSB -->
-                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Business">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRsb">
-                            Royal School of Business (RSB)
-                        </button>
-                    </h2>
-                    <div id="accRsb" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
-                        <div class="accordion-body">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">MBA Finance</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">MBA Marketing</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">MBA – HRM</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">MBA – Operations Management</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                MBA – Entrepreneurship & Small Business Management
-                                            </div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MBA-Finance" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">MBA – Business Analytics</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-BBA" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">BBA</div>
-                                            <div class="rgu-program-card-duration">Duration: 3/4 Yr as per NEP</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/program-executive-mba" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">Executive MBA</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Yr as per NEP</div>
-                                        </div>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -839,7 +890,7 @@
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="" class="rgu-program-link">
+                                    <a href="/programme-mdes-fashion-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Fashion Design (FD)
@@ -850,7 +901,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs#" class="rgu-program-link">
+                                    <a href="/programme-mdes-communication-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Communication Design (CD)
@@ -861,7 +912,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs#" class="rgu-program-link">
+                                    <a href="/programme-mdes-graphic-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Graphic Design (GD)
@@ -872,7 +923,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs#" class="rgu-program-link">
+                                    <a href="/programme-mdes-product-design" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Des. – Product Design (PD)
@@ -881,6 +932,183 @@
                                         </div>
                                     </a>
                                 </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Des Communication Design — Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-Bachelor-of-Design-Graphic-Design-Lateral-Entry"
+                                        class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Des Graphic Design — Lateral Entry
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- RSE --}}
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Environmental & Earth Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsees">
+                            Royal School of Education (RSE)
+                        </button>
+                    </h2>
+                    <div id="accRsees" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/departmentrse-ba-bed-sec" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">BA B.Ed. (Secondary)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/department-rse-bsc-bed-sec" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. B.Ed - (Secondary)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/department-rse-bsc-bed-middle" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc. B.Ed. (Middle)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/department-rse-B-Com-B-Ed" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Com. B.Ed. (Secondary)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-m-ped" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.PED</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 2 Years
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-b-ped" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.PED</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 2 Years
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- RSEES -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Environmental & Earth Sciences">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsees">
+                            Royal School of Environmental & Earth Sciences (RSEES)
+                        </button>
+                    </h2>
+                    <div id="accRsees" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MSc-geography" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Geography</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="programs-MA-Geography" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.A. Geography</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="programs-MSc-in-Geoinformatics" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. in Geoinformatics</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="programs-MSc-Geology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">M.Sc. Geology</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="programs-BSc-Geography" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc.(H)/B.A.(H) Geography</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-b-sc-geology" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.Sc.(H) Geology</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -1036,77 +1264,38 @@
                     </div>
                 </div>
 
-                <!-- RSEES -->
-                <div class="accordion-item rgu-program-accordion-item"
-                    data-school="Royal School of Environmental & Earth Sciences">
+                                <!-- RSFA -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Fine Arts">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRsees">
-                            Royal School of Environmental & Earth Sciences (RSEES)
+                            data-bs-target="#accRsfa">
+                            Royal School of Fine Arts (RSFA)
                         </button>
                     </h2>
-                    <div id="accRsees" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                    <div id="accRsfa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
                         <div class="accordion-body">
                             <div class="row g-3">
-
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MSc-geography" class="rgu-program-link">
+                                    <a href="/programs-Master-of-Fine-Arts-MFA" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.Sc. Geography</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="programs-MA-Geography" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.A. Geography</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="programs-MSc-in-Geoinformatics" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.Sc. in Geoinformatics</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="programs-MSc-Geology" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.Sc. Geology</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="programs-BSc-Geography" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc.(H)/B.A.(H) Geography</div>
-                                            <div class="rgu-program-card-duration">
-                                                Duration: 3/4 Yrs as per NEP
+                                            <div class="rgu-program-card-title">
+                                                Master of Fine Arts (MFA)
                                             </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-b-sc-geology" class="rgu-program-link">
+                                    <a href="/programs-Bachelor-of-Fine-Arts-BFA" class="rgu-program-link">
                                         <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc.(H) Geology</div>
-                                            <div class="rgu-program-card-duration">
-                                                Duration: 3/4 Yrs as per NEP
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Fine Arts (BFA)
                                             </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -1150,156 +1339,7 @@
                     </div>
                 </div>
 
-                <!-- RSFA -->
-                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Fine Arts">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRsfa">
-                            Royal School of Fine Arts (RSFA)
-                        </button>
-                    </h2>
-                    <div id="accRsfa" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
-                        <div class="accordion-body">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Master-of-Fine-Arts-MFA" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                Master of Fine Arts (MFA)
-                                            </div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Bachelor-of-Fine-Arts-BFA" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                Bachelor of Fine Arts (BFA)
-                                            </div>
-                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RSAG -->
-                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Agriculture">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRsag">
-                            Royal School of Agriculture and Forestry (RSAF)
-                        </button>
-                    </h2>
-                    <div id="accRsag" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
-                        <div class="accordion-body">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programme-bsc-agri" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. Agriculture</div>
-                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programme-msc-agri" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.Sc. Agriculture</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-b-sc-forestry" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.Sc. - Forestry</div>
-                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MSc-Forestry" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">M.Sc. - Forestry</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RSHM -->
-                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Hotel Management">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRshm">
-                            Royal School of Hotel Management (RSHM)
-                        </button>
-                    </h2>
-                    <div id="accRshm" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
-                        <div class="accordion-body">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-BA-HotelManagement" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                B.Sc.(H)/B.A.(H) – Hotel Management
-                                            </div>
-                                            <div class="rgu-program-card-duration">
-                                                Duration: 3/4 Yrs as per NEP
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-BA-in-Culinary-Arts" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">B.A.(H) – Culinary Arts</div>
-                                            <div class="rgu-program-card-duration">
-                                                Duration: 3/4 Yrs as per NEP
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-MSc-Hotel-Management" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                M.Sc. Hotel Management / MIHM
-                                            </div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Bachelor-of-Hotel-Management-BHM" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">
-                                                Bachelor of Hotel Management (BHM)
-                                            </div>
-                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RSHSS -->
+                                <!-- RSHSS -->
                 <div class="accordion-item rgu-program-accordion-item"
                     data-school="Royal School of Humanities & Social Sciences">
                     <h2 class="accordion-header">
@@ -1451,6 +1491,89 @@
                                     </a>
                                 </div>
 
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-ma-international-relations" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MA International Relations</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 2 Years
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-ma-gender-studies" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">MA Gender Studies</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 2 Years
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSHM -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Hotel Management">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRshm">
+                            Royal School of Hotel Management (RSHM)
+                        </button>
+                    </h2>
+                    <div id="accRshm" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-BA-HotelManagement" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.Sc.(H)/B.A.(H) – Hotel Management
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-BA-in-Culinary-Arts" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">B.A.(H) – Culinary Arts</div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 3/4 Yrs as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-MSc-Hotel-Management" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.Sc. Hotel Management / MIHM
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-Bachelor-of-Hotel-Management-BHM" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Hotel Management (BHM)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1582,35 +1705,7 @@
                     </div>
                 </div>
 
-                <!-- RSLIS -->
-                <div class="accordion-item rgu-program-accordion-item"
-                    data-school="Royal School of Library & Information Science">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
-                            data-bs-target="#accRslis">
-                            Royal School of Library & Information Science (RSLIS)
-                        </button>
-                    </h2>
-                    <div id="accRslis" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
-                        <div class="accordion-body">
-                            <div class="row g-3">
-
-                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Master-of-Library&Information-Sciences" class="rgu-program-link">
-                                        <div class="rgu-program-card">
-                                            <div class="rgu-program-card-title">Master of Library & Information Science
-                                                (ML.I.Sc.)</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RSLA -->
+                                <!-- RSLA -->
                 <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Law & Administration">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
@@ -1656,6 +1751,34 @@
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">LLB – (Hons.)</div>
                                             <div class="rgu-program-card-duration">Duration: 3 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSLIS -->
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Library & Information Science">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRslis">
+                            Royal School of Library & Information Science (RSLIS)
+                        </button>
+                    </h2>
+                    <div id="accRslis" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programs-Master-of-Library&Information-Sciences" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Master of Library & Information Science
+                                                (ML.I.Sc.)</div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>
                                     </a>
                                 </div>
@@ -2074,6 +2197,105 @@
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
                                                 M.Pharm. – Pharmacognosy
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Royal School of Performing Arts (RSPA) -->
+                <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Performing Arts">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#RSPA">
+                            Royal School of Performing Arts (RSPA)
+                        </button>
+                    </h2>
+                    <div id="RSPA" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-bachelor-of-performing-art-theatre" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Bachelor of Performing Art — (Theatre)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-bachelor-of-performing-art-dance" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">Bachelor of Performing Art — (Dance)</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-bachelor-of-performing-art-music" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Performing Art — (Music)
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- RSPES --}}
+                <div class="accordion-item rgu-program-accordion-item"
+                    data-school="Royal School of Travel & Tourism Management">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
+                            data-bs-target="#accRsttm">
+                            Royal School of Physical Education and Sports (RSPES)
+                        </button>
+                    </h2>
+                    <div id="accRsttm" class="accordion-collapse collapse" data-bs-parent="#rguProgramAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-rspes-bpes" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                Bachelor of Physical Education and Sports (BPES)
+                                            </div>
+                                            <div class="rgu-program-card-duration">
+                                                Duration: 4 Years as per NEP
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-m-ped" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                M.PED
+                                            </div>
+                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <a href="/programme-b-ped" class="rgu-program-link">
+                                        <div class="rgu-program-card">
+                                            <div class="rgu-program-card-title">
+                                                B.PED
                                             </div>
                                             <div class="rgu-program-card-duration">Duration: 2 Years</div>
                                         </div>

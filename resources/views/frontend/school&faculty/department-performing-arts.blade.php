@@ -1275,7 +1275,7 @@
         <div class="dept-forestry-hero" id="dept-about">
 
             <div class="dept-forestry-img">
-                <img src="/new-web/assets/ads/Performing.png" alt="Political Science and Public Administration">
+                <img src="/new-web/assets/ads/per-1.jpeg" alt="Political Science and Public Administration">
             </div>
 
             <div class="dept-forestry-content">

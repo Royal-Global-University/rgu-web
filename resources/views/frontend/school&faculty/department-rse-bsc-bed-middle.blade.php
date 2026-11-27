@@ -80,13 +80,13 @@
                         <div class="rgu-bbed-fee-item">
                             <span class="rgu-bbed-fee-number">01</span>
                             <span class="rgu-bbed-fee-label"> Semester Payment </span>
-                            <strong>Rs 51,500/-</strong>
+                            <strong>Rs 41,500/-</strong>
                         </div>
 
                         <div class="rgu-bbed-fee-item">
                             <span class="rgu-bbed-fee-number">02</span>
                             <span class="rgu-bbed-fee-label"> Yearly Payment </span>
-                            <strong>Rs 1,00,000/-</strong>
+                            <strong>Rs 80,000/-</strong>
                         </div>
                     </div>
                 </div>
