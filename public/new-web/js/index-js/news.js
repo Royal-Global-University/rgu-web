@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const newsData = [
         {
             date: "Guwahati, November 26, 2026",
+            title: "Royal Global University Celebrates Cake Mixing Ceremony",
+            desc: "The Royal School of Hotel Management (RSHM) of The Assam Royal Global University (RGU) celebrated the festive spirit of Christmas with its annual Cake Mixing Ceremony 2026 on Thursday at the university campus.",
+            img: "/new-web/assets/media-corner/media/nov/4.jpeg",
+            link: "/royal-global-university-celebrates-cake-mixing-ceremony",
+        },
+        {
+            date: "Guwahati, November 26, 2026",
             title: "National Conference on Cryptogamic Diversity Begins at Royal Global University",
             desc: "A two-day National Conference on “Cryptogamic Diversity, Conservation and Sustainable Utilization” commenced today at The Assam Royal Global University (RGU), bringing together eminent scientists, academicians, researchers and students to discuss emerging developments in the study, conservation and sustainable utilisation of cryptogamic organisms.",
             img: "/new-web/assets/media-corner/media/nov/2.jpeg",

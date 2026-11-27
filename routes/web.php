@@ -3353,6 +3353,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-celebrates-cake-mixing-ceremony', function () {
+    return view('/frontend/media-corner/2026/nov/news13');
+})->name('royal-global-university-celebrates-cake-mixing-ceremony');
+
 Route::get('/national-conference-on-cryptogamic-diversity-begins-at-royal-global-university', function () {
     return view('/frontend/media-corner/2026/nov/news12');
 })->name('national-conference-on-cryptogamic-diversity-begins-at-royal-global-university');

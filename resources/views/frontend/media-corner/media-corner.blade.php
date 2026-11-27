@@ -47,13 +47,13 @@
                     $newsItems = [
                         [
                             'title' =>
-                                'National Conference on Cryptogamic Diversity Begins at Royal Global University',
-                            'summary' => 'Scientists and researchers deliberate on conservation and sustainable utilisation of cryptogams',
+                                'Royal Global University Celebrates Cake Mixing Ceremony',
+                            'summary' => 'Chef Atul Lahkar graces the celebration; students & teachers showcase creativity',
                             'date' => 'Guwahati, November 26, 2026:',
                             'link' =>
-                                '/national-conference-on-cryptogamic-diversity-begins-at-royal-global-university',
-                            'image' => '/new-web/assets/media-corner/media/nov/2.jpeg',
-                            'content' => 'A two-day National Conference on “Cryptogamic Diversity, Conservation and Sustainable Utilization” commenced today at The Assam Royal Global University (RGU)....',
+                                '/royal-global-university-celebrates-cake-mixing-ceremony',
+                            'image' => '/new-web/assets/media-corner/media/nov/4.jpeg',
+                            'content' => 'The Royal School of Hotel Management (RSHM) of The Assam Royal Global University (RGU) celebrated the festive spirit of Christmas with its annual Cake Mixing Ceremony 2026 on Thursday at the university campus.',
                         ],
                         [
                             'title' =>
