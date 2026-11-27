@@ -1998,6 +1998,16 @@
                 title: "Bachelor of Public Administration | Honours/ Honours with Research",
                 duration: "4 Years as per NEP",
                 link: "/programs-BA-Public-Administration"
+            },
+            {
+                title: "MA International Relations",
+                duration: "2 Years",
+                link: "/programme-ma-international-relations"
+            },
+            {
+                title: "MA Gender Studies",
+                duration: "2 Years",
+                link: "/programme-ma-gender-studies"
             }
         ];
 
