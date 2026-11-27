@@ -21,7 +21,7 @@
                 <div class="prthalign">
 
                     <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                        For Academic Session 2026 - 2027</h1>
+                        For Academic Session 2027–28</h1>
                 </div>
             </div>
         </div>
@@ -4576,7 +4576,7 @@
                 <div class="prthalign">
 
                     <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                        For Academic Session 2026 - 2027</h1>
+                        For Academic Session 2027–28</h1>
                 </div>
             </div>
         </div>
