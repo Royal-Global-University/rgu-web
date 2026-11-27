@@ -1425,9 +1425,9 @@ Route::get('/programs-Bachelor-of-Design-Communication-Design', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design');
 })->name('programs-Bachelor-of-Design-Communication-Design');
 
-Route::get('/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry');
-})->name('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry');
+Route::get('/Bachelor-of-Design-Communication-Design-Lateral-Entry', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design-lateral-Entry');
+})->name('Bachelor-of-Design-Communication-Design-Lateral-Entry');
 
 Route::get('/programs-Bachelor-of-Design-Fashion-Design', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Fashion-Design');
