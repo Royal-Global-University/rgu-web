@@ -1431,7 +1431,7 @@
                                             </td>
                                             <td>1,10,000.00</td>
                                             <td>56,500.00</td>
-                                            <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
+                                            <td><a href="{{ route('Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -1463,7 +1463,7 @@
                         </div>
                         <!-- ----- new ----- -->
 
-                                                <div>
+                        <div>
                             <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
                                 class="text-dark fw-bold para1 p-2">
                                 <th>Royal School of Education (RSE)</th>
@@ -1521,7 +1521,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc. B.Ed. (Middle)</strong>
                                                     <br>
                                                     <a href="{{ route('department-rse-bsc-bed-middle') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -1539,7 +1539,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: B.Com. B.Ed. (Secondary)</strong>
                                                     <br>
                                                     <a href="{{ route('department-rse-B-Com-B-Ed') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -1591,207 +1591,6 @@
                             </div>
                         </div>
 
-                        <!-- ----- new ----- -->
-                        <div>
-                            <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
-                                class="text-dark fw-bold para1 p-2">
-                                <th>Royal School of Education (RSE)</th>
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table border table-responsive table-striped  vertical-scroll">
-                                    <thead class="text-light  para1" style="font-size: 14px;">
-                                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                                        <th class="text-light  font-weight-bold">COURSES</th>
-                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
-                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
-                                        <th class="text-light  font-weight-bold">DETAILS</th>
-                                    </thead>
-                                    <tbody class="para1">
-                                        <tr>
-                                            <td>1.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: BA B.Ed. (Secondary)</strong>
-                                                    <br>
-                                                    <a href="#"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
-                                                            years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>1,00,000.00</td>
-                                            <td>51,500.00</td>
-                                            <td><a href="{{ route('departmentrse-ba-bed-sec') }}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Sc. B.Ed - (Secondary)</strong>
-                                                    <br>
-                                                    <a href="#"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
-                                                            years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            <td><a href="#"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
-                                                        Geology</strong>
-                                                    <br>
-                                                    <a href="{{ route('programs-MSc-Geology') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
-                                                            years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            <td><a href="{{ route('programs-MSc-Geology') }}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: M.Sc.
-                                                        Geoinformatics</strong>
-                                                    <br>
-                                                    <a href="{{ route('programs-MSc-in-Geoinformatics') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
-                                                            years | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            <td><a href="{{ route('programs-MSc-in-Geoinformatics') }}"><button
-                                                        type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H) /BA(H)
-                                                        Geography</strong>
-                                                    <br>
-                                                    <a href="{{ route('programs-BSc-Geography') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
-                                                            years as per NEP |
-                                                            Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            <td><a href="{{ route('programs-BSc-Geography') }}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>6.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc.(H)
-                                                        Geology</strong>
-                                                    <br>
-                                                    <a href="{{ route('programs-b-sc-geology') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
-                                                            years as per NEP |
-                                                            Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            <td><a href="{{ route('programs-b-sc-geology') }}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        {{-- <tr>
-                                            <td>7.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #7f5539;" class="#">Course: Certificate in
-                                                        Geography</strong>
-                                                    <br>
-                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 1 year as
-                                                            per NEP | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>-</td>
-                                            <td>43500.00</td>
-                                            <td><a><button type="button" disabled
-                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>8.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #7f5539;" class="#">Course: Certificate in
-                                                        Geology</strong>
-                                                    <br>
-                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 1 year as
-                                                            per NEP | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>-</td>
-                                            <td>43500.00</td>
-                                            <td><a><button type="button" disabled
-                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>9.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: Diploma in
-                                                        Geography</strong>
-                                                    <br>
-                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 2 years
-                                                            as per NEP | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>-</td>
-                                            <td>43500.00</td>
-                                            <td><a><button type="button" disabled
-                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>10.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: Diploma in
-                                                        Geology</strong>
-                                                    <br>
-                                                    <a class="text-dark"><span style="font-size: 16px;"> Duration: 2 years
-                                                            as per NEP | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>-</td>
-                                            <td>43500.00</td>
-                                            <td><a><button type="button" disabled
-                                                        class="btn btn-secondary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr> --}}
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <!-- ----- new ----- -->
 
                         <!-- ----- new ----- -->
                         <div>
@@ -6209,7 +6008,7 @@
                                             </td>
                                             <td>1,10,000.00</td>
                                             <td>56,500.00</td>
-                                            <td><a href="{{ route('programs-Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
+                                            <td><a href="{{ route('Bachelor-of-Design-Communication-Design-Lateral-Entry') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6300,7 +6099,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc. B.Ed. (Middle)</strong>
                                                     <br>
                                                     <a href="{{ route('department-rse-bsc-bed-middle') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -6318,7 +6117,7 @@
                                                     <strong style="color: #1b4332;" class="#">Course: B.Com. B.Ed. (Secondary)</strong>
                                                     <br>
                                                     <a href="{{ route('department-rse-B-Com-B-Ed') }}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 2
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>

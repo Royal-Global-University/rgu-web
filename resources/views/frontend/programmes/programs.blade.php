@@ -21,9 +21,9 @@
 
     <style>
         /* ================================
-                       UNIQUE NAMESPACE STYLES
-                       Prefix: rgu-program-
-                    ================================= */
+                           UNIQUE NAMESPACE STYLES
+                           Prefix: rgu-program-
+                        ================================= */
 
         .body-part {
             padding: 20px 0px;
@@ -53,8 +53,8 @@
         }
 
         /* ================================
-                       CARD DESIGN (POP EFFECT)
-                    ================================= */
+                           CARD DESIGN (POP EFFECT)
+                        ================================= */
 
         .rgu-program-card {
             background: linear-gradient(135deg, #ffffff, #bdd1ff);
@@ -467,7 +467,7 @@
                     </div>
                 </div>
 
-                                <!-- RSB -->
+                <!-- RSB -->
                 <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Business">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
@@ -934,7 +934,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-4 col-sm-6">
-                                    <a href="/programs-Bachelor-of-Design-Communication-Design-Lateral-Entry"
+                                    <a href="/Bachelor-of-Design-Communication-Design-Lateral-Entry"
                                         class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">
@@ -1264,7 +1264,7 @@
                     </div>
                 </div>
 
-                                <!-- RSFA -->
+                <!-- RSFA -->
                 <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Fine Arts">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
@@ -1339,7 +1339,7 @@
                     </div>
                 </div>
 
-                                <!-- RSHSS -->
+                <!-- RSHSS -->
                 <div class="accordion-item rgu-program-accordion-item"
                     data-school="Royal School of Humanities & Social Sciences">
                     <h2 class="accordion-header">
@@ -1705,7 +1705,7 @@
                     </div>
                 </div>
 
-                                <!-- RSLA -->
+                <!-- RSLA -->
                 <div class="accordion-item rgu-program-accordion-item" data-school="Royal School of Law & Administration">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed rgu-program-accordion-btn" data-bs-toggle="collapse"
