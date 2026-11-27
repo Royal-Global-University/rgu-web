@@ -1165,6 +1165,10 @@ Route::get('/programs', function () {
     return view('frontend/programmes/programs');
 })->name('programs');
 
+Route::get('/faculty-performing-arts', function () {
+    return view('frontend/school&faculty/faculty-performing-arts');
+})->name('faculty-performing-arts');
+
 Route::get('/programme-bachelor-of-performing-art-theatre', function () {
     return view('frontend/programmes/programme/RSPA/programme-bachelor-of-performing-art-theatre');
 })->name('programme-bachelor-of-performing-art-theatre');
