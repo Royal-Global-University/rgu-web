@@ -207,36 +207,56 @@
                     </a>
                 </div>
 
-                {{-- <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
                     <!-- Heading Section -->
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size: 16px; padding-right: 10px; line-height: 1.3;">B.Sc. - Physics</span> |
-                        <span
-                            style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">Honours
-                            / Honours with Research
-                        </span>
-
+                        <span style="font-size: 16px;">M.PED</span>
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
                     </div>
 
                     <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-sc-physics" style="text-decoration:none;">
+                    <a target="_blank" href="/programme-m-ped" style="text-decoration:none;">
                         <div
                             style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years as per
-                                NEP</span>
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span>
                             <span>
                                 <a class="para1 fw-bold"
                                     style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-sc-physics">View Details</a>
+                                    href="/programme-m-ped">View Details</a>
                             </span>
                         </div>
                     </a>
-                </div> --}}
+                </div>
+
+                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                        <span style="font-size: 16px;">B.PED</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="/programme-b-ped" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="/programme-b-ped">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
             <!-- courses offered  -->
@@ -718,6 +738,58 @@
                                         <a class="para1 fw-bold"
                                             style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
                                             href="/programme-rspes-bpes">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px;">M.PED</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="/programme-m-ped" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
+                                        2 years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="/programme-m-ped">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px;">B.PED</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="/programme-b-ped" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
+                                        2 years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="/programme-b-ped">View Details</a>
                                     </span>
                                 </div>
                             </a>

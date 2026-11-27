@@ -430,6 +430,94 @@
 
                     </div>
 
+                                        <!-- =================================================
+                     B.SC.
+                     ================================================= -->
+
+                    <div class="rgu-educationn-course-item">
+
+                        <div class="rgu-educationn-course-header">
+
+                            <span>
+                                B.PED
+                            </span>
+
+
+                            <div class="rgu-educationn-course-actions">
+
+                                <!--
+                            COMMENT / UNCOMMENT THIS BLOCK
+                            TO SHOW / HIDE THE DETAILS BUTTON
+                            -->
+
+                                <a href="/programme-b-ped" class="rgu-educationn-details-btn">
+                                    View details
+                                </a>
+
+                            </div>
+
+
+                            <span class="rgu-educationn-course-corner"></span>
+
+                        </div>
+
+
+                        <div class="rgu-educationn-course-duration">
+
+                            <strong>
+                                Duration: 2 Years
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                    <!-- =================================================
+                     B.SC.
+                     ================================================= -->
+
+                    <div class="rgu-educationn-course-item">
+
+                        <div class="rgu-educationn-course-header">
+
+                            <span>
+                                M.PED
+                            </span>
+
+
+                            <div class="rgu-educationn-course-actions">
+
+                                <!--
+                            COMMENT / UNCOMMENT THIS BLOCK
+                            TO SHOW / HIDE THE DETAILS BUTTON
+                            -->
+
+                                <a href="/programme-m-ped" class="rgu-educationn-details-btn">
+                                    View details
+                                </a>
+
+                            </div>
+
+
+                            <span class="rgu-educationn-course-corner"></span>
+
+                        </div>
+
+
+                        <div class="rgu-educationn-course-duration">
+
+                            <strong>
+                                Duration: 2 Years
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    
+
                 </div>
 
             </section>
