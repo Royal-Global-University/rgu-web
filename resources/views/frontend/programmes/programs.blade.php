@@ -996,7 +996,7 @@
                                     <a href="/department-rse-bsc-bed-middle" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Sc. B.Ed. (Middle)</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
                                 </div>
@@ -1005,7 +1005,7 @@
                                     <a href="/department-rse-B-Com-B-Ed" class="rgu-program-link">
                                         <div class="rgu-program-card">
                                             <div class="rgu-program-card-title">B.Com. B.Ed. (Secondary)</div>
-                                            <div class="rgu-program-card-duration">Duration: 2 Years</div>
+                                            <div class="rgu-program-card-duration">Duration: 4 Years</div>
                                         </div>
                                     </a>
                                 </div>
