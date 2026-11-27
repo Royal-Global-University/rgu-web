@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 26, 2026",
+            title: "National Conference on Cryptogamic Diversity Begins at Royal Global University",
+            desc: "A two-day National Conference on “Cryptogamic Diversity, Conservation and Sustainable Utilization” commenced today at The Assam Royal Global University (RGU), bringing together eminent scientists, academicians, researchers and students to discuss emerging developments in the study, conservation and sustainable utilisation of cryptogamic organisms.",
+            img: "/new-web/assets/media-corner/media/nov/2.jpeg",
+            link: "/national-conference-on-cryptogamic-diversity-begins-at-royal-global-university",
+        },
+        {
             date: "Guwahati, November 25, 2026",
             title: "Royal Global University Hosts East Zone Women’s Inter-University Badminton Tournament 2026-27",
             desc: "The East Zone Inter-University Badminton (Women) Tournament 2026–27 was inaugurated today at The Assam Royal Global University (RGU), Guwahati, bringing together women badminton players from 46 universities across 12 states of the country for a four-day sporting extravaganza from November 24 to 27.",

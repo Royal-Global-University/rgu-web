@@ -3353,6 +3353,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/national-conference-on-cryptogamic-diversity-begins-at-royal-global-university', function () {
+    return view('/frontend/media-corner/2026/nov/news12');
+})->name('national-conference-on-cryptogamic-diversity-begins-at-royal-global-university');
+
 Route::get('/royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27', function () {
     return view('/frontend/media-corner/2026/nov/news11');
 })->name('royal-global-university-hosts-east-zone-womens-inter-university-badminton-tournament-2026-27');

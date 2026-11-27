@@ -47,6 +47,16 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'National Conference on Cryptogamic Diversity Begins at Royal Global University',
+                            'summary' => 'Scientists and researchers deliberate on conservation and sustainable utilisation of cryptogams',
+                            'date' => 'Guwahati, November 26, 2026:',
+                            'link' =>
+                                '/national-conference-on-cryptogamic-diversity-begins-at-royal-global-university',
+                            'image' => '/new-web/assets/media-corner/media/nov/2.jpeg',
+                            'content' => 'A two-day National Conference on “Cryptogamic Diversity, Conservation and Sustainable Utilization” commenced today at The Assam Royal Global University (RGU)....',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Hosts East Zone Women’s Inter-University Badminton Tournament 2026-27',
                             'summary' => '46 universities from 12 states to compete in the four-day tournament',
                             'date' => 'Guwahati, November 25, 2026:',
