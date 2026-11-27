@@ -7,8 +7,8 @@
 @section('content')
     <style>
         /*==================================================
-            ANTI RAGGING
-    ==================================================*/
+                ANTI RAGGING
+        ==================================================*/
 
         .rgarc-section {
 
@@ -47,8 +47,8 @@
         }
 
         /*==================================================
-            BLUE SECTION
-    ==================================================*/
+                BLUE SECTION
+        ==================================================*/
 
         .rgarc-committee {
 
@@ -79,8 +79,8 @@
         }
 
         /*==================================================
-            WHITE SECTION
-    ==================================================*/
+                WHITE SECTION
+        ==================================================*/
 
         .rgarc-squad {
 
@@ -103,8 +103,8 @@
         }
 
         /*==================================================
-            CARD
-    ==================================================*/
+                CARD
+        ==================================================*/
 
         .rgarc-card {
 
@@ -199,8 +199,8 @@
         }
 
         /*==================================================
-            RESPONSIVE
-    ==================================================*/
+                RESPONSIVE
+        ==================================================*/
 
         @media(max-width:991px) {
 
@@ -306,8 +306,8 @@
     </section>
 
     <!--==========================================================
-        ANTI RAGGING COMMITTEE
-        ===========================================================-->
+            ANTI RAGGING COMMITTEE
+            ===========================================================-->
 
     <section class="rgarc-section">
 
@@ -316,8 +316,8 @@
             <div class="row align-items-center">
 
                 <!--==========================
-                    IMAGE
-                ===========================-->
+                        IMAGE
+                    ===========================-->
 
                 <div class="col-lg-6">
 
@@ -330,8 +330,8 @@
                 </div>
 
                 <!--==========================
-                    CONTENT
-                ===========================-->
+                        CONTENT
+                    ===========================-->
 
                 <div class="col-lg-6">
 
@@ -373,8 +373,8 @@
     </section>
 
     <!--==========================================================
-        ANTI RAGGING COMMITTEE
-        ===========================================================-->
+            ANTI RAGGING COMMITTEE
+            ===========================================================-->
 
     <section class="rgarc-committee">
 
@@ -401,8 +401,8 @@
     </section>
 
     <!--==========================================================
-        ANTI RAGGING SQUAD
-        ===========================================================-->
+            ANTI RAGGING SQUAD
+            ===========================================================-->
 
     <section class="rgarc-squad">
 
@@ -426,8 +426,8 @@
 
     <script>
         /*==================================================
-        CREATE MEMBER CARD
-        ==================================================*/
+            CREATE MEMBER CARD
+            ==================================================*/
 
         function createMemberCard(member) {
 
@@ -438,23 +438,23 @@
                 <div class="rgarc-card">
 
                     ${member.name ? `
-                            <h4>${member.name}</h4>
-                        ` : ""}
+                                <h4>${member.name}</h4>
+                            ` : ""}
 
                     ${member.designation ? `
-                            <h5>${member.designation}</h5>
-                        ` : ""}
+                                <h5>${member.designation}</h5>
+                            ` : ""}
 
                     ${member.department ? `
-                            <p class="rgarc-department">
-                                ${member.department}
-                            </p>
-                        ` : ""}
+                                <p class="rgarc-department">
+                                    ${member.department}
+                                </p>
+                            ` : ""}
 
                     ${(member.mobile || member.email) ? `
-                            <div class="rgarc-contact">
+                                <div class="rgarc-contact">
 
-                                ${member.mobile ? `
+                                    ${member.mobile ? `
                                 <p>
                                     <strong>Mobile:</strong>
                                     <a href="tel:${member.mobile}">
@@ -463,7 +463,7 @@
                                 </p>
                             ` : ""}
 
-                                ${member.email ? `
+                                    ${member.email ? `
                                 <p>
                                     <strong>Email:</strong>
                                     <a href="mailto:${member.email}">
@@ -472,12 +472,12 @@
                                 </p>
                             ` : ""}
 
-                            </div>
-                        ` : ""}
+                                </div>
+                            ` : ""}
 
                     ${member.position ? `
-                            <span>${member.position}</span>
-                        ` : ""}
+                                <span>${member.position}</span>
+                            ` : ""}
 
                 </div>
 
@@ -540,34 +540,33 @@
     ANTI RAGGING COMMITTEE DATA
     ==================================================*/
 
-        const antiRaggingCommittee = [
 
-            {
+        const antiRaggingCommittee = [{
                 name: "Prof. (Dr.) George AP",
-                designation: "Professor & Dean, Royal School of Business, Royal School of Commerce",
+                designation: "Professor & Dean, Royal School of Business and Dean, Royal School of Commerce",
                 mobile: "9496375685",
                 email: "georgep@rgu.ac",
                 position: "Chairperson"
             },
             {
-                name: "Dr. Kuntala Roy Choudhury",
+                name: "Dr. Meghna Borah",
                 designation: "Assistant Professor, RSLA",
-                mobile: "9706613147",
-                email: "kroychoudhury@rgu.ac",
+                mobile: "940808989",
+                email: "mborah3@rgu.ac",
                 position: "Member Secretary & Nodal Officer"
             },
             {
                 name: "Mr. Jaideep Rajak, ALRS",
                 designation: "Circle Officer, Dispur Revenue Circle",
                 mobile: "7086442900",
-                email: "dmdispurcrc@gmail.com",
+                email: "dmdispurrc@gmail.com",
                 position: "Member from Civil Administration"
             },
             {
                 name: "Smt. Moitrayee Deka, APS",
                 designation: "Co-District Superintendent of Police, Police Commissionerate, Guwahati",
                 mobile: "0361-2570522",
-                email: "dc-pwest@assampolice.gov.in",
+                email: "dcp-west@assampolice.gov.in",
                 position: "Member from Police Administration"
             },
             {
@@ -578,14 +577,14 @@
                 position: "Member from NGO"
             },
             {
-                name: "Sri Sivashish Thakur",
+                name: "Sri Sivasish Thakur",
                 designation: "Chief Reporter, The Assam Tribune",
                 mobile: "9864060193",
                 email: "sivathakur@gmail.com",
                 position: "Member from Media"
             },
             {
-                name: "Prof. (Dr.) D.N. Singh",
+                name: "Dr. D.N. Singh",
                 designation: "Registrar Academics, RGU",
                 mobile: "9800004433",
                 email: "registraracademics@rgu.ac",
@@ -651,7 +650,7 @@
                 name: "Dr. Pubalee Sarmah",
                 designation: "Associate Professor, Chemistry, RSAPS",
                 mobile: "7002069755",
-                email: "pule.sarmah@rgi.edu.in",
+                email: "pubalee.sarmah@rgi.edu.in",
                 position: "Member from Faculty"
             },
             {
@@ -691,7 +690,7 @@
             },
             {
                 name: "Ms. Moon Moon Ahmed",
-                designation: "Sr. Manager, Academic Section",
+                designation: "Manager, Academic Section",
                 mobile: "9864059775",
                 email: "mmahmed@rgu.ac",
                 position: "Member from Admin"
@@ -699,12 +698,12 @@
             {
                 name: "Mr. Imran Hussain",
                 designation: "BBA, 5th semester, RSB",
-                mobile: "9707711712",
+                mobile: "9707717712",
                 email: "mdimran2003hussain@gmail.com",
                 position: "Member from Hostel Boarder (Boy’s)"
             },
             {
-                name: "Mrs. Suhani Singh",
+                name: "Ms. Suhani Singh",
                 designation: "B.Sc. Bio-Technology, 5th Sem",
                 mobile: "7889186788",
                 email: "singhsuhani76625@gmail.com",
@@ -719,21 +718,21 @@
             },
             {
                 name: "Ms. Musqaan Suave",
-                designation: "M.Tech. CSE, 3rd semester, RSET",
+                designation: "M.Tech. CE, 3rd semester, RSET",
                 mobile: "7896366466",
                 email: "musqaansuave@gmail.com",
                 position: "Member from Sr. Students"
             },
             {
                 name: "Mr. Susanta Chowdhury",
-                designation: "F/O : Kaushiki Chowdhury (BA(H) Political Science)",
+                designation: "F/O : Kaushiki Chowdhury, (BA(H) Political Science)",
                 mobile: "9864316090",
                 email: "susantac60@gmail.com",
                 position: "Member from Parents"
             },
             {
                 name: "Ms. Gitarthi Goswami",
-                designation: "M/O – Jugarka Kaushik (BA (H) & MC)",
+                designation: "M/O – Jugarka Kaushik (BA (H) J& MC)",
                 mobile: "8638921523",
                 email: "gitarthigoswami999@gmail.com",
                 position: "Member from Parents"
@@ -752,7 +751,6 @@
                 email: "seelanemotlomelo6@gmail.com",
                 position: "Member from Fresher"
             }
-
         ];
 
 
