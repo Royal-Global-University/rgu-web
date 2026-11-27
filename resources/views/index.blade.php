@@ -1791,7 +1791,7 @@
 </script> --}}
 <!-- ======================= END RGU BULLETIN ======================= -->
 
-    <section class="rgu-next-events">
+    {{-- <section class="rgu-next-events">
 
         <div class="rgu-next-container">
 
@@ -1838,7 +1838,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <section class="rgu-legacy-section">
         <div class="rgu-legacy-container">
@@ -2235,14 +2235,14 @@
                 //     sub: "",
                 //     link: "/new-web/assets/ads/NEIHA_new.pdf",
                 // },
-                {
-                    day: "26<sup>th</sup>",
-                    month: "Nov 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "Cryptogamic Diversity, Conservation and Sustainable Utilization",
-                    sub: "",
-                    link: "/new-web/assets/ads/Cryptogamic.pdf",
-                }
+                // {
+                //     day: "26<sup>th</sup>",
+                //     month: "Nov 2026",
+                //     img: "/mobile-assets/ads/summer/bg.png",
+                //     title: "Cryptogamic Diversity, Conservation and Sustainable Utilization",
+                //     sub: "",
+                //     link: "/new-web/assets/ads/Cryptogamic.pdf",
+                // }
             ];
 
             const desktopContainer = document.getElementById("desktopEvents");
