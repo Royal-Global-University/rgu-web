@@ -2227,14 +2227,14 @@
                 //     sub: "Indian Social Work Conference",
                 //     link: "/mobile-assets/pdf/14th Indian Social Work Conference_2026.pdf",
                 // },
-                {
-                    day: "18<sup>th</sup>",
-                    month: "Nov 2026",
-                    img: "/mobile-assets/ads/summer/bg.png",
-                    title: "NEIHA",
-                    sub: "",
-                    link: "/new-web/assets/ads/NEIHA_new.pdf",
-                },
+                // {
+                //     day: "18<sup>th</sup>",
+                //     month: "Nov 2026",
+                //     img: "/mobile-assets/ads/summer/bg.png",
+                //     title: "NEIHA",
+                //     sub: "",
+                //     link: "/new-web/assets/ads/NEIHA_new.pdf",
+                // },
                 {
                     day: "26<sup>th</sup>",
                     month: "Nov 2026",
