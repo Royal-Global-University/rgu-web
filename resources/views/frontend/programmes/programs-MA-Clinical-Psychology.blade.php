@@ -283,10 +283,10 @@
                         <p class="mobile-para1 text-dark">
                         <ol class="text-dark">
                             <li>
-                                Yearly Payment (Rs. - 85000.00)
+                                Yearly Payment (Rs. - 140000.00)
                             </li>
                             <li>
-                                Semester Payment (Rs. - 43500.00)
+                                Semester Payment (Rs. - 71500.00)
                             </li>
                         </ol>
                         </p>

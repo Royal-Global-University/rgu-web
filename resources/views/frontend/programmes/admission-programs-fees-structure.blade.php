@@ -588,8 +588,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
+                                            <td>140000.00</td>
+                                            <td>71500.00</td>
                                             <td><a href="{{ route('programs-MA-Clinical-Psychology') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -649,8 +649,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>100000.00</td>
-                                            <td>51500.00</td>
+                                            <td>140000.00</td>
+                                            <td>71500.00</td>
                                             <td><a href="{{ route('programs-BSc-clinical-psychology-(Hons)') }}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -2007,8 +2007,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>101500</td>
                                             <td>2,00,000.00</td>
+                                            <td>101500</td>
                                             <td><a
                                                     href="{{ route('program-btech-in-computer-science-and-business-system') }}"><button
                                                         type="button"
