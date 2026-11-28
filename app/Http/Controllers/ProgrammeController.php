@@ -14,15 +14,20 @@ class ProgrammeController extends Controller
     protected string $courseApiBase = 'https://admin.rgu.ac/api/courses';
     protected string $secretKey = '4fab23f4690a5a8ccf9e8642f8297b1f92c48b01963881a7e767e68a86bb075a';
     protected string $cacheKey = 'rgu_api_schools_programmes';
-    protected int $cacheTtl = 15; // Cache TTL in seconds
+    protected int $cacheTtl = 3600; // Cache TTL in seconds (1 hour)
 
     /**
      * Show the dynamic programmes page.
      */
     public function index(Request $request)
     {
-        $schools = $this->fetchSchoolsProgrammes($request->has('refresh') || $request->has('nocache'));
-        return view('frontend/dynamic/programs/e&c', compact('schools'));
+        $forceRefresh = $request->has('refresh') || $request->has('nocache');
+        $cachedSchools = !$forceRefresh ? Cache::get($this->cacheKey) : null;
+
+        return view('frontend/dynamic/programs/e&c', [
+            'schools' => $cachedSchools,
+            'needsApiFetch' => empty($cachedSchools)
+        ]);
     }
 
     /**
@@ -128,42 +133,92 @@ class ProgrammeController extends Controller
     }
 
     /**
-     * Fetch all schools and their courses concurrently with caching.
+     * Fetch all schools and their courses concurrently with caching and rate-limit handling.
      */
     public function fetchSchoolsProgrammes(bool $forceRefresh = false): array
     {
         if ($forceRefresh) {
             Cache::forget($this->cacheKey);
+            Cache::forget('rgu_slug_to_course_id_map');
         }
 
         return Cache::remember($this->cacheKey, $this->cacheTtl, function () {
             try {
                 $response = Http::withHeaders([
                     'x-service-secret' => $this->secretKey,
-                ])->timeout(10)->get($this->apiBase);
+                ])->timeout(15)->get($this->apiBase);
 
                 if (!$response->successful()) {
                     return [];
                 }
 
                 $schoolsList = $response->json('data') ?? [];
+                if (empty($schoolsList)) {
+                    return [];
+                }
 
-                $poolResponses = Http::pool(fn ($pool) =>
-                    array_map(fn ($school) =>
-                        $pool->as($school['id'])->withHeaders([
-                            'x-service-secret' => $this->secretKey,
-                        ])->timeout(10)->get($this->apiBase . '/' . $school['id']),
-                    $schoolsList)
-                );
+                // Chunk requests into batches of 6 to prevent remote HTTP 429 (Too Many Requests)
+                $chunks = array_chunk($schoolsList, 6);
+                $allResponses = [];
+
+                foreach ($chunks as $chunkIndex => $chunk) {
+                    if ($chunkIndex > 0) {
+                        usleep(200000); // 200ms delay between chunk requests
+                    }
+
+                    $chunkResponses = Http::pool(fn ($pool) =>
+                        array_map(fn ($school) =>
+                            $pool->as($school['id'])->withHeaders([
+                                'x-service-secret' => $this->secretKey,
+                            ])->timeout(12)->retry(3, 300, function ($exception) {
+                                return $exception instanceof \Illuminate\Http\Client\RequestException
+                                    && $exception->response->status() === 429;
+                            })->get($this->apiBase . '/' . $school['id']),
+                        $chunk)
+                    );
+
+                    foreach ($chunkResponses as $id => $resp) {
+                        $allResponses[$id] = $resp;
+                    }
+                }
+
+                // Ensure 100% completion: if any school still failed or timed out, retry individually
+                foreach ($schoolsList as $school) {
+                    $schoolId = $school['id'];
+                    $resp = $allResponses[$schoolId] ?? null;
+                    if (!$resp || !$resp->successful()) {
+                        usleep(250000);
+                        try {
+                            $retryRes = Http::withHeaders([
+                                'x-service-secret' => $this->secretKey,
+                            ])->timeout(12)->get($this->apiBase . '/' . $schoolId);
+                            if ($retryRes->successful()) {
+                                $allResponses[$schoolId] = $retryRes;
+                            }
+                        } catch (\Throwable $te) {
+                            Log::warning("Retry failed for school {$schoolId}: " . $te->getMessage());
+                        }
+                    }
+                }
 
                 $result = [];
                 foreach ($schoolsList as $school) {
-                    $coursesRes = $poolResponses[$school['id']] ?? null;
+                    $schoolId = $school['id'];
+                    $schoolName = $school['name'] ?? '';
+                    $coursesRes = $allResponses[$schoolId] ?? null;
                     $courses = ($coursesRes && $coursesRes->successful()) ? ($coursesRes->json('data') ?? []) : [];
 
-                    $activeCourses = array_values(array_filter($courses, function ($c) {
-                        return !isset($c['status']) || strtolower($c['status']) === 'active';
-                    }));
+                    $activeCourses = [];
+                    foreach ($courses as $c) {
+                        if (!isset($c['status']) || strtolower($c['status']) === 'active') {
+                            $cName = $c['name'] ?? 'Programme';
+                            $cSchool = $c['programmeName'] ?? $schoolName;
+                            $slug = Str::slug($cName . '-' . $cSchool);
+                            $c['slug'] = $slug;
+                            $c['details_url'] = route('rgu-programme-details', ['slug' => $slug]);
+                            $activeCourses[] = $c;
+                        }
+                    }
 
                     $school['courses'] = $activeCourses;
                     $result[] = $school;
