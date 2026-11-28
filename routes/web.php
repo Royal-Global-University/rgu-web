@@ -3353,6 +3353,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/heraise-royal-global-universitys-first-theatre-production-spotlights-assams-vanishing-art-form-of-ojapali', function () {
+    return view('/frontend/media-corner/2026/nov/news14');
+})->name('heraise-royal-global-universitys-first-theatre-production-spotlights-assams-vanishing-art-form-of-ojapali');
+
 Route::get('/royal-global-university-celebrates-cake-mixing-ceremony', function () {
     return view('/frontend/media-corner/2026/nov/news13');
 })->name('royal-global-university-celebrates-cake-mixing-ceremony');

@@ -47,6 +47,15 @@
                     $newsItems = [
                         [
                             'title' =>
+                                '‘Heraise’: Royal Global University’s first theatre production spotlights Assam’s vanishing art form of Ojapali',
+                            'summary' => 'Sangeet Natak Akademi Awardee Bhaskar Jyoti Ojah makes his dramatic stage debut',
+                            'date' => 'Guwahati, November 28, 2026:',
+                            'link' =>'/heraise-royal-global-universitys-first-theatre-production-spotlights-assams-vanishing-art-form-of-ojapali',
+                            'image' => '/mobile-assets/media-corner/2026/nov/28/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) made its debut in theatre with Heraise (Lost), its first-ever theatrical production, presented by the Dr. Bhupen Hazarika Centre for Creativity (DBHCC) ...',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University Celebrates Cake Mixing Ceremony',
                             'summary' => 'Chef Atul Lahkar graces the celebration; students & teachers showcase creativity',
                             'date' => 'Guwahati, November 26, 2026:',

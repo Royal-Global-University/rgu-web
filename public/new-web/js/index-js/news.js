@@ -2,6 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const newsData = [
         {
+            date: "Guwahati, November 28, 2026",
+            title: "‘Heraise’: Royal Global University’s first theatre production spotlights Assam’s vanishing art form of Ojapali",
+            desc: "The Assam Royal Global University (RGU) made its debut in theatre with Heraise (Lost), its first-ever theatrical production, presented by the Dr. Bhupen Hazarika Centre for Creativity (DBHCC) in association with D’Passion Collective at D’Royal Auditorio, on November 27. The one-hour bilingual production received an enthusiastic response from a packed auditorium.",
+            img: "/mobile-assets/media-corner/2026/nov/28/2.jpeg",
+            link: "/heraise-royal-global-universitys-first-theatre-production-spotlights-assams-vanishing-art-form-of-ojapali",
+        },
+        {
             date: "Guwahati, November 26, 2026",
             title: "Royal Global University Celebrates Cake Mixing Ceremony",
             desc: "The Royal School of Hotel Management (RSHM) of The Assam Royal Global University (RGU) celebrated the festive spirit of Christmas with its annual Cake Mixing Ceremony 2026 on Thursday at the university campus.",

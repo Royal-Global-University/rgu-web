@@ -220,9 +220,31 @@ class ProgrammeController extends Controller
                         }
                     }
 
+                    // Sort courses dynamically by serialNumber ascending (fallback to course name)
+                    usort($activeCourses, function ($a, $b) {
+                        $snA = isset($a['serialNumber']) && is_numeric($a['serialNumber']) ? (int)$a['serialNumber'] : PHP_INT_MAX;
+                        $snB = isset($b['serialNumber']) && is_numeric($b['serialNumber']) ? (int)$b['serialNumber'] : PHP_INT_MAX;
+
+                        if ($snA === $snB) {
+                            return strcasecmp($a['name'] ?? '', $b['name'] ?? '');
+                        }
+                        return $snA <=> $snB;
+                    });
+
                     $school['courses'] = $activeCourses;
                     $result[] = $school;
                 }
+
+                // Sort schools dynamically by serialNumber ascending (fallback to school name)
+                usort($result, function ($a, $b) {
+                    $snA = isset($a['serialNumber']) && is_numeric($a['serialNumber']) ? (int)$a['serialNumber'] : PHP_INT_MAX;
+                    $snB = isset($b['serialNumber']) && is_numeric($b['serialNumber']) ? (int)$b['serialNumber'] : PHP_INT_MAX;
+
+                    if ($snA === $snB) {
+                        return strcasecmp($a['name'] ?? '', $b['name'] ?? '');
+                    }
+                    return $snA <=> $snB;
+                });
 
                 return $result;
             } catch (\Throwable $e) {

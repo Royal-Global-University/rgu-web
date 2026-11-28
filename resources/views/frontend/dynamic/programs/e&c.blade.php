@@ -330,11 +330,18 @@
             <!-- Accordion section programme-->
             <div class="accordion" id="rguProgramAccordion" style="{{ !empty($schools) ? '' : 'display: none;' }}">
                 @if(!empty($schools))
-                    @foreach($schools as $index => $school)
+                    @php
+                        $sortedSchools = collect($schools)->sortBy(function ($s) {
+                            return isset($s['serialNumber']) && is_numeric($s['serialNumber']) ? (int)$s['serialNumber'] : 999999;
+                        })->values()->all();
+                    @endphp
+                    @foreach($sortedSchools as $index => $school)
                         @php
                             $schoolId = preg_replace('/[^a-zA-Z0-9_-]/', '', $school['id'] ?? 'school-' . $index);
                             $schoolName = $school['name'] ?? 'School';
-                            $courses = $school['courses'] ?? [];
+                            $courses = collect($school['courses'] ?? [])->sortBy(function ($c) {
+                                return isset($c['serialNumber']) && is_numeric($c['serialNumber']) ? (int)$c['serialNumber'] : 999999;
+                            })->values()->all();
                         @endphp
                         <div class="accordion-item rgu-program-accordion-item" data-school="{{ $schoolName }}">
                             <h2 class="accordion-header" id="heading-{{ $schoolId }}">
@@ -577,12 +584,33 @@
                     return;
                 }
 
+                // Sort schools dynamically by serialNumber in ascending order
+                schoolsData.sort((a, b) => {
+                    const snA = (a.serialNumber !== undefined && a.serialNumber !== null && !isNaN(a.serialNumber)) ? parseInt(a.serialNumber, 10) : Infinity;
+                    const snB = (b.serialNumber !== undefined && b.serialNumber !== null && !isNaN(b.serialNumber)) ? parseInt(b.serialNumber, 10) : Infinity;
+                    if (snA !== snB) {
+                        return snA - snB;
+                    }
+                    return (a.name || "").localeCompare(b.name || "");
+                });
+
                 let html = "";
                 schoolsData.forEach((school, index) => {
                     const rawId = school.id || 'school-' + index;
                     const cleanSchoolId = rawId.replace(/[^a-zA-Z0-9_-]/g, "");
                     const schoolName = school.name || "School";
-                    const courses = Array.isArray(school.courses) ? school.courses : [];
+                    let courses = Array.isArray(school.courses) ? [...school.courses] : [];
+
+                    // Sort courses dynamically by serialNumber in ascending order
+                    courses.sort((a, b) => {
+                        const snA = (a.serialNumber !== undefined && a.serialNumber !== null && !isNaN(a.serialNumber)) ? parseInt(a.serialNumber, 10) : Infinity;
+                        const snB = (b.serialNumber !== undefined && b.serialNumber !== null && !isNaN(b.serialNumber)) ? parseInt(b.serialNumber, 10) : Infinity;
+                        if (snA !== snB) {
+                            return snA - snB;
+                        }
+                        return (a.name || "").localeCompare(b.name || "");
+                    });
+
                     const coursesCount = courses.length;
 
                     let coursesCardsHtml = "";
