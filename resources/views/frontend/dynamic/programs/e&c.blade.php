@@ -328,72 +328,7 @@
             </div>
 
             <!-- Accordion section programme-->
-            <div class="accordion" id="rguProgramAccordion" style="{{ !empty($schools) ? '' : 'display: none;' }}">
-                @if(!empty($schools))
-                    @php
-                        $sortedSchools = collect($schools)->sortBy(function ($s) {
-                            return isset($s['serialNumber']) && is_numeric($s['serialNumber']) ? (int)$s['serialNumber'] : 999999;
-                        })->values()->all();
-                    @endphp
-                    @foreach($sortedSchools as $index => $school)
-                        @php
-                            $schoolId = preg_replace('/[^a-zA-Z0-9_-]/', '', $school['id'] ?? 'school-' . $index);
-                            $schoolName = $school['name'] ?? 'School';
-                            $courses = collect($school['courses'] ?? [])->sortBy(function ($c) {
-                                return isset($c['serialNumber']) && is_numeric($c['serialNumber']) ? (int)$c['serialNumber'] : 999999;
-                            })->values()->all();
-                        @endphp
-                        <div class="accordion-item rgu-program-accordion-item" data-school="{{ $schoolName }}">
-                            <h2 class="accordion-header" id="heading-{{ $schoolId }}">
-                                <button class="accordion-button collapsed rgu-program-accordion-btn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#acc-{{ $schoolId }}" aria-expanded="false" aria-controls="acc-{{ $schoolId }}">
-                                    <span>{{ $schoolName }}</span>
-                                    @if(count($courses) > 0)
-                                        <span class="badge bg-light text-dark ms-2" style="font-size: 11px; font-weight: 600;">{{ count($courses) }} {{ count($courses) === 1 ? 'Programme' : 'Programmes' }}</span>
-                                    @endif
-                                </button>
-                            </h2>
-                            <div id="acc-{{ $schoolId }}" class="accordion-collapse collapse" aria-labelledby="heading-{{ $schoolId }}" data-bs-parent="#rguProgramAccordion">
-                                <div class="accordion-body">
-                                    @if(count($courses) > 0)
-                                        <div class="row g-3">
-                                            @foreach($courses as $course)
-                                                @php
-                                                    $courseId = $course['_id'] ?? $course['id'] ?? null;
-                                                    $courseTitle = $course['name'] ?? 'Programme';
-                                                    $schoolTitle = $course['programmeName'] ?? ($school['name'] ?? '');
-                                                    $rawDuration = trim($course['duration'] ?? '');
-                                                    $duration = '';
-                                                    if (!empty($rawDuration)) {
-                                                        $duration = stripos($rawDuration, 'duration') === 0 ? $rawDuration : 'Duration: ' . $rawDuration;
-                                                    }
-                                                    $link = $course['details_url'] ?? route('rgu-programme-details', ['slug' => \Illuminate\Support\Str::slug($courseTitle . '-' . $schoolTitle)]);
-                                                @endphp
-                                                <div class="col-lg-3 col-md-4 col-sm-6">
-                                                    <a href="{{ $link }}" class="rgu-program-link">
-                                                        <div class="rgu-program-card">
-                                                            <div class="rgu-program-card-title">
-                                                                {{ $courseTitle }}
-                                                            </div>
-                                                            @if($duration)
-                                                                <div class="rgu-program-card-duration">{{ $duration }}</div>
-                                                            @endif
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            @endforeach
-                                        </div>
-                                    @else
-                                        <div class="col-12 py-3 text-center text-muted" style="font-style: italic;">
-                                            Programmes under this school will be updated soon.
-                                        </div>
-                                    @endif
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                @endif
-            </div>
+            <div class="accordion" id="rguProgramAccordion" style="display: none;"></div>
         </div>
 
     </div>
@@ -450,30 +385,24 @@
             }
 
             /* ===============================
-               BUILD SCHOOL DROPDOWN
+               BUILD SCHOOL DROPDOWN (ARRANGED BY SERIAL NUMBER)
             =============================== */
-            function populateSchoolDropdown() {
-                const accordionItems = document.querySelectorAll(".rgu-program-accordion-item");
+            function populateSchoolDropdown(schoolsData) {
                 const currentVal = schoolSelect.value;
                 schoolSelect.innerHTML = '<option value="">Select School to Navigate...</option>';
 
-                const schools = [];
-                accordionItems.forEach(item => {
-                    const schoolName = item.getAttribute("data-school");
-                    if (schoolName && !schools.includes(schoolName)) {
-                        schools.push(schoolName);
-                    }
-                });
-
-                schools.forEach(school => {
-                    const option = document.createElement("option");
-                    option.value = school;
-                    option.textContent = school;
-                    if (currentVal && currentVal === school) {
-                        option.selected = true;
-                    }
-                    schoolSelect.appendChild(option);
-                });
+                if (Array.isArray(schoolsData)) {
+                    schoolsData.forEach(school => {
+                        const schoolName = school.name || "School";
+                        const option = document.createElement("option");
+                        option.value = schoolName;
+                        option.textContent = schoolName;
+                        if (currentVal && currentVal === schoolName) {
+                            option.selected = true;
+                        }
+                        schoolSelect.appendChild(option);
+                    });
+                }
             }
 
             /* ===============================
@@ -669,62 +598,52 @@
 
                 accordionContainer.innerHTML = html;
                 accordionContainer.style.display = "";
-                populateSchoolDropdown();
+                populateSchoolDropdown(schoolsData);
                 initSearchAndFilter();
                 hideGlassLoader();
             }
 
             /* ===============================
-               INITIALIZATION / API FETCH
+               LIVE API FETCH WITHOUT CACHE
             =============================== */
-            const existingItems = document.querySelectorAll(".rgu-program-accordion-item");
-            const hasExistingData = existingItems.length >= 10; // If complete data already pre-rendered by Blade
+            updateLoaderStatus("Fetching complete academic data...");
+            // Append timestamp to bypass browser and proxy caches completely
+            const apiUrl = '/api/rgu-schools-programmes?_nocache=' + Date.now();
 
-            if (hasExistingData) {
-                // If complete data already rendered by server, initialize immediately
-                populateSchoolDropdown();
-                initSearchAndFilter();
-                setTimeout(hideGlassLoader, 200);
-            } else {
-                // Fetch full data from API with glass loader active until complete
-                updateLoaderStatus("Fetching complete academic data...");
-                const apiUrl = '/api/rgu-schools-programmes' + (window.location.search || '');
-
-                fetch(apiUrl)
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error("HTTP error " + response.status);
-                        }
-                        updateLoaderStatus("Rendering programmes and courses...");
-                        return response.json();
-                    })
-                    .then(json => {
-                        if (json && json.success && Array.isArray(json.data) && json.data.length > 0) {
-                            renderSchools(json.data);
-                        } else {
-                            throw new Error("Invalid or empty data returned");
-                        }
-                    })
-                    .catch(err => {
-                        console.error("API error:", err);
-                        // If pre-rendered items exist even if fewer, show them, otherwise show retry alert
-                        if (existingItems.length > 0) {
-                            populateSchoolDropdown();
-                            initSearchAndFilter();
-                            hideGlassLoader();
-                        } else {
-                            if (loader) {
-                                loader.innerHTML = `
-                                    <div class="rgu-glass-card">
-                                        <div class="rgu-glass-title text-danger">Unable to load programmes</div>
-                                        <p class="rgu-glass-subtitle">There was an issue connecting to the academic API.</p>
-                                        <button class="btn btn-sm btn-primary" onclick="window.location.reload()">Retry Now</button>
-                                    </div>
-                                `;
-                            }
-                        }
-                    });
-            }
+            fetch(apiUrl, {
+                cache: 'no-store',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                updateLoaderStatus("Arranging schools by serial number...");
+                return response.json();
+            })
+            .then(json => {
+                if (json && json.success && Array.isArray(json.data) && json.data.length > 0) {
+                    renderSchools(json.data);
+                } else {
+                    throw new Error("Invalid or empty data returned");
+                }
+            })
+            .catch(err => {
+                console.error("API error:", err);
+                if (loader) {
+                    loader.innerHTML = `
+                        <div class="rgu-glass-card">
+                            <div class="rgu-glass-title text-danger">Unable to load programmes</div>
+                            <p class="rgu-glass-subtitle">There was an issue connecting to the academic API.</p>
+                            <button class="btn btn-sm btn-primary" onclick="window.location.reload()">Retry Now</button>
+                        </div>
+                    `;
+                }
+            });
         });
     </script>
 @endsection

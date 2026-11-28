@@ -13,30 +13,25 @@ class ProgrammeController extends Controller
     protected string $apiBase = 'https://admin.rgu.ac/api/schools/website';
     protected string $courseApiBase = 'https://admin.rgu.ac/api/courses';
     protected string $secretKey = '4fab23f4690a5a8ccf9e8642f8297b1f92c48b01963881a7e767e68a86bb075a';
-    protected string $cacheKey = 'rgu_api_schools_programmes';
-    protected int $cacheTtl = 3600; // Cache TTL in seconds (1 hour)
+    protected int $cacheTtl = 300; // Cache TTL for single course detail view
 
     /**
-     * Show the dynamic programmes page.
+     * Show the dynamic programmes page (no cache, live API data rendered with glass loader).
      */
     public function index(Request $request)
     {
-        $forceRefresh = $request->has('refresh') || $request->has('nocache');
-        $cachedSchools = !$forceRefresh ? Cache::get($this->cacheKey) : null;
-
-        return view('frontend/dynamic/programs/e&c', [
-            'schools' => $cachedSchools,
-            'needsApiFetch' => empty($cachedSchools)
-        ]);
+        return view('frontend/dynamic/programs/e&c');
     }
 
     /**
-     * Return JSON for the schools and programmes API route.
+     * Return JSON for the schools and programmes API route without cache.
      */
     public function getSchoolsProgrammes(Request $request)
     {
-        $schools = $this->fetchSchoolsProgrammes($request->has('refresh') || $request->has('nocache'));
-        return response()->json(['success' => true, 'data' => $schools]);
+        $schools = $this->fetchSchoolsProgrammes();
+        return response()->json(['success' => true, 'data' => $schools])
+            ->header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+            ->header('Pragma', 'no-cache');
     }
 
     /**
@@ -133,110 +128,89 @@ class ProgrammeController extends Controller
     }
 
     /**
-     * Fetch all schools and their courses concurrently with caching and rate-limit handling.
+     * Fetch all schools and their courses concurrently without caching, arranged by serialNumber.
      */
     public function fetchSchoolsProgrammes(bool $forceRefresh = false): array
     {
-        if ($forceRefresh) {
-            Cache::forget($this->cacheKey);
-            Cache::forget('rgu_slug_to_course_id_map');
-        }
+        try {
+            $response = Http::withHeaders([
+                'x-service-secret' => $this->secretKey,
+            ])->timeout(15)->get($this->apiBase);
 
-        return Cache::remember($this->cacheKey, $this->cacheTtl, function () {
-            try {
-                $response = Http::withHeaders([
-                    'x-service-secret' => $this->secretKey,
-                ])->timeout(15)->get($this->apiBase);
+            if (!$response->successful()) {
+                return [];
+            }
 
-                if (!$response->successful()) {
-                    return [];
+            $schoolsList = $response->json('data') ?? [];
+            if (empty($schoolsList)) {
+                return [];
+            }
+
+            // Chunk requests into batches of 6 to prevent remote HTTP 429 (Too Many Requests)
+            $chunks = array_chunk($schoolsList, 6);
+            $allResponses = [];
+
+            foreach ($chunks as $chunkIndex => $chunk) {
+                if ($chunkIndex > 0) {
+                    usleep(200000); // 200ms delay between chunk requests
                 }
 
-                $schoolsList = $response->json('data') ?? [];
-                if (empty($schoolsList)) {
-                    return [];
+                $chunkResponses = Http::pool(fn ($pool) =>
+                    array_map(fn ($school) =>
+                        $pool->as($school['id'])->withHeaders([
+                            'x-service-secret' => $this->secretKey,
+                        ])->timeout(12)->retry(3, 300, function ($exception) {
+                            return $exception instanceof \Illuminate\Http\Client\RequestException
+                                && $exception->response->status() === 429;
+                        })->get($this->apiBase . '/' . $school['id']),
+                    $chunk)
+                );
+
+                foreach ($chunkResponses as $id => $resp) {
+                    $allResponses[$id] = $resp;
                 }
+            }
 
-                // Chunk requests into batches of 6 to prevent remote HTTP 429 (Too Many Requests)
-                $chunks = array_chunk($schoolsList, 6);
-                $allResponses = [];
-
-                foreach ($chunks as $chunkIndex => $chunk) {
-                    if ($chunkIndex > 0) {
-                        usleep(200000); // 200ms delay between chunk requests
-                    }
-
-                    $chunkResponses = Http::pool(fn ($pool) =>
-                        array_map(fn ($school) =>
-                            $pool->as($school['id'])->withHeaders([
-                                'x-service-secret' => $this->secretKey,
-                            ])->timeout(12)->retry(3, 300, function ($exception) {
-                                return $exception instanceof \Illuminate\Http\Client\RequestException
-                                    && $exception->response->status() === 429;
-                            })->get($this->apiBase . '/' . $school['id']),
-                        $chunk)
-                    );
-
-                    foreach ($chunkResponses as $id => $resp) {
-                        $allResponses[$id] = $resp;
-                    }
-                }
-
-                // Ensure 100% completion: if any school still failed or timed out, retry individually
-                foreach ($schoolsList as $school) {
-                    $schoolId = $school['id'];
-                    $resp = $allResponses[$schoolId] ?? null;
-                    if (!$resp || !$resp->successful()) {
-                        usleep(250000);
-                        try {
-                            $retryRes = Http::withHeaders([
-                                'x-service-secret' => $this->secretKey,
-                            ])->timeout(12)->get($this->apiBase . '/' . $schoolId);
-                            if ($retryRes->successful()) {
-                                $allResponses[$schoolId] = $retryRes;
-                            }
-                        } catch (\Throwable $te) {
-                            Log::warning("Retry failed for school {$schoolId}: " . $te->getMessage());
+            // Ensure 100% completion: if any school still failed or timed out, retry individually
+            foreach ($schoolsList as $school) {
+                $schoolId = $school['id'];
+                $resp = $allResponses[$schoolId] ?? null;
+                if (!$resp || !$resp->successful()) {
+                    usleep(250000);
+                    try {
+                        $retryRes = Http::withHeaders([
+                            'x-service-secret' => $this->secretKey,
+                        ])->timeout(12)->get($this->apiBase . '/' . $schoolId);
+                        if ($retryRes->successful()) {
+                            $allResponses[$schoolId] = $retryRes;
                         }
+                    } catch (\Throwable $te) {
+                        Log::warning("Retry failed for school {$schoolId}: " . $te->getMessage());
+                    }
+                }
+            }
+
+            $result = [];
+            foreach ($schoolsList as $school) {
+                $schoolId = $school['id'];
+                $schoolName = $school['name'] ?? '';
+                $coursesRes = $allResponses[$schoolId] ?? null;
+                $courses = ($coursesRes && $coursesRes->successful()) ? ($coursesRes->json('data') ?? []) : [];
+
+                $activeCourses = [];
+                foreach ($courses as $c) {
+                    if (!isset($c['status']) || strtolower($c['status']) === 'active') {
+                        $cName = $c['name'] ?? 'Programme';
+                        $cSchool = $c['programmeName'] ?? $schoolName;
+                        $slug = Str::slug($cName . '-' . $cSchool);
+                        $c['slug'] = $slug;
+                        $c['details_url'] = route('rgu-programme-details', ['slug' => $slug]);
+                        $activeCourses[] = $c;
                     }
                 }
 
-                $result = [];
-                foreach ($schoolsList as $school) {
-                    $schoolId = $school['id'];
-                    $schoolName = $school['name'] ?? '';
-                    $coursesRes = $allResponses[$schoolId] ?? null;
-                    $courses = ($coursesRes && $coursesRes->successful()) ? ($coursesRes->json('data') ?? []) : [];
-
-                    $activeCourses = [];
-                    foreach ($courses as $c) {
-                        if (!isset($c['status']) || strtolower($c['status']) === 'active') {
-                            $cName = $c['name'] ?? 'Programme';
-                            $cSchool = $c['programmeName'] ?? $schoolName;
-                            $slug = Str::slug($cName . '-' . $cSchool);
-                            $c['slug'] = $slug;
-                            $c['details_url'] = route('rgu-programme-details', ['slug' => $slug]);
-                            $activeCourses[] = $c;
-                        }
-                    }
-
-                    // Sort courses dynamically by serialNumber ascending (fallback to course name)
-                    usort($activeCourses, function ($a, $b) {
-                        $snA = isset($a['serialNumber']) && is_numeric($a['serialNumber']) ? (int)$a['serialNumber'] : PHP_INT_MAX;
-                        $snB = isset($b['serialNumber']) && is_numeric($b['serialNumber']) ? (int)$b['serialNumber'] : PHP_INT_MAX;
-
-                        if ($snA === $snB) {
-                            return strcasecmp($a['name'] ?? '', $b['name'] ?? '');
-                        }
-                        return $snA <=> $snB;
-                    });
-
-                    $school['courses'] = $activeCourses;
-                    $result[] = $school;
-                }
-
-                // Sort schools dynamically by serialNumber ascending (fallback to school name)
-                usort($result, function ($a, $b) {
+                // Sort courses dynamically by serialNumber ascending (fallback to course name)
+                usort($activeCourses, function ($a, $b) {
                     $snA = isset($a['serialNumber']) && is_numeric($a['serialNumber']) ? (int)$a['serialNumber'] : PHP_INT_MAX;
                     $snB = isset($b['serialNumber']) && is_numeric($b['serialNumber']) ? (int)$b['serialNumber'] : PHP_INT_MAX;
 
@@ -246,12 +220,26 @@ class ProgrammeController extends Controller
                     return $snA <=> $snB;
                 });
 
-                return $result;
-            } catch (\Throwable $e) {
-                Log::error('API Programmes error: ' . $e->getMessage());
-                return [];
+                $school['courses'] = $activeCourses;
+                $result[] = $school;
             }
-        });
+
+            // Sort schools dynamically by serialNumber ascending (fallback to school name)
+            usort($result, function ($a, $b) {
+                $snA = isset($a['serialNumber']) && is_numeric($a['serialNumber']) ? (int)$a['serialNumber'] : PHP_INT_MAX;
+                $snB = isset($b['serialNumber']) && is_numeric($b['serialNumber']) ? (int)$b['serialNumber'] : PHP_INT_MAX;
+
+                if ($snA === $snB) {
+                    return strcasecmp($a['name'] ?? '', $b['name'] ?? '');
+                }
+                return $snA <=> $snB;
+            });
+
+            return $result;
+        } catch (\Throwable $e) {
+            Log::error('API Programmes error: ' . $e->getMessage());
+            return [];
+        }
     }
 
     /**
